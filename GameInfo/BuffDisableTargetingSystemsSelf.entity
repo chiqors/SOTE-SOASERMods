@@ -1,0 +1,42 @@
+﻿TXT
+entityType "Buff"
+onReapplyDuplicateType "PrioritizeOldBuffs"
+buffStackingLimitType "ForAllPlayers"
+stackingLimit 1
+allowFirstSpawnerToStack FALSE
+buffExclusivityForAIType "ExclusiveForAllPlayers"
+isInterruptable FALSE
+isChannelling FALSE
+numInstantActions 1
+instantAction
+	buffInstantActionType "ApplyBuffToTargetOnWeaponFired"
+	instantActionTriggerType "OnWeaponFired"
+	numWeaponClasses 3
+	weaponClassForWeaponPassive "BEAM"
+	weaponClassForWeaponPassive "LASERPSI"
+	weaponClassForWeaponPassive "POINTDEFENSELASER"
+	passiveWeaponEffectChance
+		Level:0 0.050000
+		Level:1 0.050000
+		Level:2 0.050000
+		Level:3 0.050000
+	buffType "BuffDisableTargetingSystemsTarget"
+	targetFilter
+		numOwnerships 1
+		ownership "Enemy"
+		numObjects 6
+		object "CapitalShip"
+		object "Frigate"
+		object "Titan"
+		object "StarBase"
+		object "PlanetModule"
+		object "Corvette"
+		numSpaces 1
+		space "Normal"
+		numConstraints 1
+		constraint "HasWeapons"
+numPeriodicActions 0
+numOverTimeActions 0
+numEntityModifiers 0
+numEntityBoolModifiers 0
+numFinishConditions 0

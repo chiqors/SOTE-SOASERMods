@@ -1,0 +1,55 @@
+﻿TXT
+entityType "Buff"
+onReapplyDuplicateType "PrioritizeOldBuffs"
+buffStackingLimitType "ForAllPlayers"
+stackingLimit 1
+allowFirstSpawnerToStack FALSE
+buffExclusivityForAIType "ExclusiveForAllPlayers"
+isInterruptable FALSE
+isChannelling FALSE
+numInstantActions 2
+instantAction
+	buffInstantActionType "ApplyBuffToSelfWithFilter"
+	instantActionTriggerType "OnDelay"
+	delayTime 0.000000
+	buffType "BuffInspireAndImpairFriendly"
+	targetFilter
+		numOwnerships 2
+		ownership "Player"
+		ownership "Allied"
+		numObjects 6
+		object "CapitalShip"
+		object "Frigate"
+		object "StarBase"
+		object "PlanetModule"
+		object "Titan"
+		object "Corvette"
+		numSpaces 1
+		space "Normal"
+		numConstraints 0
+instantAction
+	buffInstantActionType "ApplyBuffToSelfWithFilter"
+	instantActionTriggerType "OnDelay"
+	delayTime 0.000000
+	buffType "BuffInspireAndImpairEnemy"
+	targetFilter
+		numOwnerships 2
+		ownership "Enemy"
+		ownership "NoOwner"
+		numObjects 6
+		object "CapitalShip"
+		object "Frigate"
+		object "StarBase"
+		object "PlanetModule"
+		object "Corvette"
+		object "Titan"
+		numSpaces 1
+		space "Normal"
+		numConstraints 0
+numPeriodicActions 0
+numOverTimeActions 0
+numEntityModifiers 0
+numEntityBoolModifiers 0
+numFinishConditions 1
+finishCondition
+	finishConditionType "AllOnDelayInstantActionsDone"

@@ -1,0 +1,75 @@
+﻿TXT
+entityType "Buff"
+onReapplyDuplicateType "PrioritizeNewBuffs"
+buffStackingLimitType "ForAllPlayers"
+stackingLimit 1
+allowFirstSpawnerToStack FALSE
+buffExclusivityForAIType "ExclusiveForAllPlayers"
+isInterruptable TRUE
+isChannelling TRUE
+numInstantActions 0
+numPeriodicActions 1
+periodicAction
+	actionCountType "Finite"
+	actionCount
+		Level:0 2.000000
+		Level:1 0.000000
+		Level:2 0.000000
+		Level:3 0.000000
+	actionIntervalTime
+		Level:0 1.000000
+		Level:1 0.000000
+		Level:2 0.000000
+		Level:3 0.000000
+	buffInstantActionType "ApplyBuffToTargetWithTravelNoFilterNoRange"
+	instantActionTriggerType "AlwaysPerform"
+	buffType "BuffAntiModuleTorpedoesTarget"
+	travelSpeed 1100.000000
+	hasWeaponEffects TRUE
+	weaponEffectOriginType "Targetter"
+	weaponEffectAttachInfo
+		attachType "Ability"
+		abilityIndex 0
+	weaponEffectImpactOffsetType "RandomMesh"
+	canWeaponEffectHitHull TRUE
+	canWeaponEffectHitShields TRUE
+	weaponEffectsDef
+		weaponType "Projectile"
+		burstCount 1
+		burstDelay 0.000000
+		fireDelay 0.000000
+		muzzleEffectName "Ability_AntiModuleTorpedoesMuzzle"
+		muzzleSoundMinRespawnTime 0.100000
+		muzzleSounds
+			soundCount 1
+			sound "EFFECT_NEUTRONTORPEDO_MUZZLE"
+		hitEffectName "Ability_AntiModuleTorpedoesImpact"
+		hitHullEffectSounds
+			soundCount 6
+			sound "EXPLOSION_SUB0"
+			sound "EXPLOSION_SUB1"
+			sound "EXPLOSION_SUB2"
+			sound "EXPLOSION_SUB3"
+			sound "EXPLOSION_SUB4"
+			sound "EXPLOSION_SUB5"
+		hitShieldsEffectSounds
+			soundCount 6
+			sound "EXPLOSION_SUB0"
+			sound "EXPLOSION_SUB1"
+			sound "EXPLOSION_SUB2"
+			sound "EXPLOSION_SUB3"
+			sound "EXPLOSION_SUB4"
+			sound "EXPLOSION_SUB5"
+		projectileTravelEffectName "Ability_AntiModuleTorpedoesTravel"
+numOverTimeActions 0
+numEntityModifiers 0
+numEntityBoolModifiers 0
+numFinishConditions 4
+finishCondition
+	finishConditionType "AllPeriodicActionsDone"
+finishCondition
+	finishConditionType "OwnerChanged"
+finishCondition
+	finishConditionType "NoTarget"
+finishCondition
+	finishConditionType "TargetOwnerIsFriendly"

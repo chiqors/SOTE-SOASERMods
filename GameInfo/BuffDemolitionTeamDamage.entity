@@ -1,0 +1,39 @@
+﻿TXT
+entityType "Buff"
+onReapplyDuplicateType "PrioritizeOldBuffs"
+buffStackingLimitType "ForAllPlayers"
+stackingLimit -1
+buffExclusivityForAIType "ExclusiveForAllPlayers"
+isInterruptable FALSE
+isChannelling FALSE
+numInstantActions 2
+instantAction
+	buffInstantActionType "PlayAttachedEffect"
+	instantActionTriggerType "OnDelay"
+	delayTime 7.900000
+	effectInfo
+		effectAttachInfo
+			attachType "Center"
+		smallEffectName "Ability_DemolitionTeams_Damage_Frigate"
+		mediumEffectName "Ability_DemolitionTeams_Damage_Capship"
+		largeEffectName "Ability_DemolitionTeams_Damage_Titan"
+		soundID ""
+instantAction
+	buffInstantActionType "DoDamage"
+	instantActionTriggerType "OnDelay"
+	delayTime 0.000000
+	damage
+		Level:0 300.000000
+		Level:1 433.333344
+		Level:2 566.666687
+		Level:3 700.000000
+	damageAffectType "AFFECTS_SHIELDS_AND_HULL"
+	damageType "PHYSICAL"
+	isDamageShared TRUE
+numPeriodicActions 0
+numOverTimeActions 0
+numEntityModifiers 0
+numEntityBoolModifiers 0
+numFinishConditions 1
+finishCondition
+	finishConditionType "AllOnDelayInstantActionsDone"
