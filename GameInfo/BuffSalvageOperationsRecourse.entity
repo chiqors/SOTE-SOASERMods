@@ -1,0 +1,43 @@
+﻿TXT
+entityType "Buff"
+onReapplyDuplicateType "PrioritizeNewBuffs"
+buffStackingLimitType "ForAllPlayers"
+stackingLimit -1
+buffExclusivityForAIType "ExclusiveForAllPlayers"
+isInterruptable FALSE
+isChannelling FALSE
+numInstantActions 2
+instantAction
+	buffInstantActionType "PlayAttachedEffect"
+	instantActionTriggerType "OnDelay"
+	delayTime 0.000000
+	effectInfo
+		effectAttachInfo
+			attachType "Center"
+		smallEffectName "Ability_SalvageOperations_Recourse"
+		mediumEffectName "Ability_SalvageOperations_Recourse"
+		largeEffectName "Ability_SalvageOperations_Recourse"
+		soundID ""
+instantAction
+	buffInstantActionType "RestoreHullPointsPerc"
+	instantActionTriggerType "OnDelay"
+	delayTime 0.000000
+	hullPerc
+		Level:0 0.100000
+		Level:1 0.150000
+		Level:2 0.200000
+		Level:3 0.250000
+numPeriodicActions 0
+numOverTimeActions 0
+numEntityModifiers 0
+numEntityBoolModifiers 0
+numFinishConditions 2
+finishCondition
+	finishConditionType "AnyOnConditionInstantActionDone"
+finishCondition
+	finishConditionType "TimeElapsed"
+	time
+		Level:0 1.000000
+		Level:1 1.000000
+		Level:2 1.000000
+		Level:3 1.000000

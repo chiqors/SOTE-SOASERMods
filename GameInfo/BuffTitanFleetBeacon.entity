@@ -1,0 +1,41 @@
+﻿TXT
+entityType "Buff"
+onReapplyDuplicateType "PrioritizeOldBuffs"
+buffStackingLimitType "ForAllPlayers"
+stackingLimit 1
+allowFirstSpawnerToStack FALSE
+buffExclusivityForAIType "ExclusiveForAllPlayers"
+isInterruptable FALSE
+isChannelling FALSE
+numInstantActions 1
+instantAction
+	buffInstantActionType "SpawnShipsAtPlanet"
+	instantActionTriggerType "AlwaysPerform"
+	spawnShipsLevelCount 1
+	spawnShips
+		minFleetPoints 75.000000
+		maxFleetPoints 90.000000
+		requiredShipCount 0
+		randomShipCount 5
+		randomShip
+			type "Gallente_Ship_Frigate_Incursus"
+			weight 2
+		randomShip
+			type "Gallente_Ship_Cruiser_Vexor"
+			weight 6
+		randomShip
+			type "Gallente_Ship_Battlecruiser_Myrmidon"
+			weight 6
+		randomShip
+			type "Gallente_Ship_Destroyer_Catalyst"
+			weight 3
+		randomShip
+			type "Gallente_Ship_Cruiser_Celestis"
+			weight 5
+	spawnShipsArrivalDelayTime 7.000000
+	spawnShipsHyperspaceSpawnType "FleetBeacon"
+numPeriodicActions 0
+numOverTimeActions 0
+numEntityModifiers 0
+numEntityBoolModifiers 0
+numFinishConditions 0

@@ -1,0 +1,58 @@
+﻿TXT
+entityType "Buff"
+onReapplyDuplicateType "PrioritizeNewBuffs"
+buffStackingLimitType "ForAllPlayers"
+stackingLimit 1
+allowFirstSpawnerToStack FALSE
+buffExclusivityForAIType "ExclusiveForAllPlayers"
+isInterruptable FALSE
+isChannelling FALSE
+numInstantActions 1
+instantAction
+	buffInstantActionType "RemoveBuffOfType"
+	instantActionTriggerType "OnDelay"
+	delayTime 0.000000
+	buffTypeToRemove "BuffHyperspaceDisruptionTarget"
+numPeriodicActions 0
+numOverTimeActions 0
+numEntityModifiers 4
+entityModifier
+	buffEntityModifierType "LinearMaxSpeed"
+	value
+		Level:0 0.330000
+		Level:1 0.553000
+		Level:2 0.776000
+		Level:3 1.000000
+entityModifier
+	buffEntityModifierType "LinearThrust"
+	value
+		Level:0 0.500000
+		Level:1 0.667000
+		Level:2 0.833000
+		Level:3 1.000000
+entityModifier
+	buffEntityModifierType "AngularThrust"
+	value
+		Level:0 0.250000
+		Level:1 0.451000
+		Level:2 0.630000
+		Level:3 0.863000
+entityModifier
+	buffEntityModifierType "GravityWellRangeForHyperspace"
+	value
+		Level:0 -0.080000
+		Level:1 -0.145000
+		Level:2 -0.211000
+		Level:3 -0.276000
+numEntityBoolModifiers 1
+entityBoolModifier "JumpBlockerImmune"
+numFinishConditions 2
+finishCondition
+	finishConditionType "TimeElapsed"
+	time
+		Level:0 30.000000
+		Level:1 30.000000
+		Level:2 30.000000
+		Level:3 30.000000
+finishCondition
+	finishConditionType "OwnerChanged"

@@ -1,0 +1,41 @@
+﻿TXT
+entityType "Buff"
+onReapplyDuplicateType "PrioritizeNewBuffs"
+buffStackingLimitType "ForAllPlayers"
+stackingLimit 5
+allowFirstSpawnerToStack TRUE
+buffExclusivityForAIType "ExclusiveForAllPlayers"
+isInterruptable FALSE
+isChannelling FALSE
+numInstantActions 1
+instantAction
+	buffInstantActionType "PlayAttachedEffect"
+	instantActionTriggerType "OnDelay"
+	delayTime 0.000000
+	effectInfo
+		effectAttachInfo
+			attachType "Ability"
+			abilityIndex 0
+		smallEffectName "TitanAbility_Cherubim_StrengthOfTheFallen_Recourse"
+		mediumEffectName "TitanAbility_Cherubim_StrengthOfTheFallen_Recourse"
+		largeEffectName "TitanAbility_Cherubim_StrengthOfTheFallen_Recourse"
+		soundID "EFFECT_STRENGTHFALLEN"
+numPeriodicActions 0
+numOverTimeActions 0
+numEntityModifiers 1
+entityModifier
+	buffEntityModifierType "DamageAsDamageDealer"
+	value
+		Level:0 0.080000
+		Level:1 0.113300
+		Level:2 0.146600
+		Level:3 0.180000
+numEntityBoolModifiers 0
+numFinishConditions 1
+finishCondition
+	finishConditionType "TimeElapsed"
+	time
+		Level:0 400.000000
+		Level:1 400.000000
+		Level:2 400.000000
+		Level:3 400.000000

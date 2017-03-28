@@ -1,0 +1,76 @@
+﻿TXT
+entityType "Buff"
+onReapplyDuplicateType "PrioritizeNewBuffs"
+buffStackingLimitType "ForAllPlayers"
+stackingLimit 1
+allowFirstSpawnerToStack FALSE
+buffExclusivityForAIType "ExclusiveForAllPlayers"
+isInterruptable FALSE
+isChannelling FALSE
+numInstantActions 2
+instantAction
+	buffInstantActionType "PlayPersistantAttachedEffect"
+	instantActionTriggerType "OnDelay"
+	delayTime 1.000000
+	effectInfo
+		effectAttachInfo
+			attachType "Center"
+		smallEffectName "Buff_VolatileNanitesSmall"
+		mediumEffectName "Buff_VolatileNanitesLarge"
+		largeEffectName "Buff_VolatileNanitesLarge"
+		soundID "EFFECT_VOLATILENANITES_LOOP"
+instantAction
+	buffInstantActionType "ApplyBuffToTargetsInRadius"
+	instantActionTriggerType "OnOwnerDeath"
+	buffType "BuffVolatileNanitesDeathDamage"
+	targetFilter
+		numOwnerships 1
+		ownership "Enemy"
+		numObjects 6
+		object "CapitalShip"
+		object "Frigate"
+		object "PlanetModule"
+		object "StarBase"
+		object "Titan"
+		object "Corvette"
+		numSpaces 1
+		space "Normal"
+		numConstraints 0
+	range
+		Level:0 1000.000000
+		Level:1 1000.000000
+		Level:2 1000.000000
+		Level:3 1000.000000
+	maxTargetCount
+		Level:0 -1.000000
+		Level:1 -1.000000
+		Level:2 -1.000000
+		Level:3 -1.000000
+	effectInfo
+		effectAttachInfo
+			attachType "Center"
+		smallEffectName "Ability_VolatileNanitesImpact"
+		mediumEffectName "Ability_VolatileNanitesImpact"
+		largeEffectName "Ability_VolatileNanitesImpact"
+		soundID ""
+numPeriodicActions 0
+numOverTimeActions 0
+numEntityModifiers 1
+entityModifier
+	buffEntityModifierType "DamageAsDamageTarget"
+	value
+		Level:0 0.300000
+		Level:1 0.375000
+		Level:2 0.375000
+		Level:3 0.375000
+numEntityBoolModifiers 0
+numFinishConditions 2
+finishCondition
+	finishConditionType "TimeElapsed"
+	time
+		Level:0 60.000000
+		Level:1 60.000000
+		Level:2 60.000000
+		Level:3 60.000000
+finishCondition
+	finishConditionType "OwnerChanged"
