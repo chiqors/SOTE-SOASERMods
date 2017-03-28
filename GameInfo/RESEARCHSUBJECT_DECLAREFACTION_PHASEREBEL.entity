@@ -1,0 +1,50 @@
+﻿TXT
+entityType "ResearchSubject"
+hudIcon "HUDICON_RESEARCHSUBJECT_ARBITRATETARIFF"
+smallHudIcon "HUDICON_RESEARCHSUBJECT_ARBITRATETARIFF"
+infoCardIcon ""
+NameStringID "IDS_RESEARCHSUBJECT_DECLAREFACTION_PHASEREBEL_NAME"
+DescriptionStringID "IDS_RESEARCHSUBJECT_DECLAREFACTION_PHASEREBEL_DESCRIPTION"
+researchWindowLocation
+	block 1
+	pos [ 1 , 2 ]
+ResearchField "Combat"
+Prerequisites
+	NumResearchPrerequisites 0
+	RequiredFactionNameID "IDS_PLAYERFACTIONNAME_NEUTRAL"
+	RequiredCompletedResearchSubjects 0
+MinimumArtifactLevel -1
+BaseUpgradeTime 40.000000
+PerLevelUpgradeTime 0.000000
+BaseCost
+	credits 0.000000
+	metal 0.000000
+	crystal 0.000000
+PerLevelCostIncrease
+	credits 0.000000
+	metal 0.000000
+	crystal 0.000000
+Tier 1
+onlyWorksIfTierLabsExist FALSE
+MaxNumResearchLevels 1
+priority 1.000000
+researchBoolModifiers 1
+researchModifier
+	modifierType "SetFaction"
+	factionNameID "IDS_PLAYERFACTIONNAME_REBEL"
+researchFloatModifiers 3
+researchModifier
+	modifierType "AllegianceFromCultureMaxPerc"
+	baseValue 0.000000
+	perLevelValue 0.050000
+researchModifier
+	modifierType "RelationshipBonus"
+	baseValue 0.000000
+	perLevelValue 0.500000
+researchModifier
+	modifierType "CreditCostAdjustment"
+	baseValue 0.000000
+	perLevelValue -0.050000
+artifactPicture ""
+uniqueOverlayBrush ""
+dlcId 204880

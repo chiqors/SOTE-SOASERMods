@@ -1,0 +1,51 @@
+﻿TXT
+entityType "ResearchSubject"
+hudIcon "HUDICON_RESEARCHSUBJECT_ARBITRATETARIFF"
+smallHudIcon "HUDICON_RESEARCHSUBJECT_ARBITRATETARIFF"
+infoCardIcon ""
+NameStringID "IDS_RESEARCHSUBJECT_DECLAREFACTION_TECHREBEL_NAME"
+DescriptionStringID "IDS_RESEARCHSUBJECT_DECLAREFACTION_TECHREBEL_DESCRIPTION"
+researchWindowLocation
+	block 1
+	pos [ 1 , 2 ]
+ResearchField "Combat"
+Prerequisites
+	NumResearchPrerequisites 0
+	RequiredFactionNameID "IDS_PLAYERFACTIONNAME_NEUTRAL"
+	RequiredCompletedResearchSubjects 0
+MinimumArtifactLevel -1
+BaseUpgradeTime 45.000000
+PerLevelUpgradeTime 5.000000
+BaseCost
+	credits 600.000000
+	metal 50.000000
+	crystal 100.000000
+PerLevelCostIncrease
+	credits 100.000000
+	metal 25.000000
+	crystal 25.000000
+Tier 1
+onlyWorksIfTierLabsExist FALSE
+MaxNumResearchLevels 1
+priority 1.000000
+researchBoolModifiers 1
+researchModifier
+	modifierType "SetFaction"
+	factionNameID "IDS_PLAYERFACTIONNAME_REBEL"
+researchFloatModifiers 3
+researchModifier
+	modifierType "TradeGoodsValueAdjustmentWithNonAlliedPlayers"
+	baseValue 0.000000
+	perLevelValue -0.150000
+researchModifier
+	modifierType "WeaponDamageAdjustment"
+	baseValue 0.000000
+	perLevelValue 0.050000
+	linkedWeaponClass "Invalid"
+researchModifier
+	modifierType "BombingCooldownDecrease"
+	baseValue 0.000000
+	perLevelValue 0.100000
+artifactPicture ""
+uniqueOverlayBrush ""
+dlcId 204880

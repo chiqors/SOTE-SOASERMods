@@ -1,0 +1,46 @@
+﻿TXT
+entityType "ResearchSubject"
+hudIcon "HUDICON_RESEARCHSUBJECT_CARGOSHIPCAPACITY1"
+smallHudIcon "HUDICON_RESEARCHSUBJECT_CARGOSHIPCAPACITY1"
+infoCardIcon ""
+NameStringID "IDS_RESEARCHSUBJECT_CARGOSHIPCAPACITY1_NAME"
+DescriptionStringID "IDS_RESEARCHSUBJECT_CARGOSHIPCAPACITY1_DESCRIPTION"
+researchWindowLocation
+	block 0
+	pos [ 5 , 1 ]
+ResearchField "NonCombat"
+Prerequisites
+	NumResearchPrerequisites 1
+	ResearchPrerequisite
+		Subject "RESEARCHSUBJECT_CARGOSHIPCAPACITY0"
+		Level 5
+	RequiredFactionNameID ""
+	RequiredCompletedResearchSubjects 0
+MinimumArtifactLevel -1
+BaseUpgradeTime 104.000000
+PerLevelUpgradeTime 52.000000
+BaseCost
+	credits 2400.000000
+	metal 300.000000
+	crystal 200.000000
+PerLevelCostIncrease
+	credits 2400.000000
+	metal 300.000000
+	crystal 200.000000
+Tier 5
+onlyWorksIfTierLabsExist FALSE
+MaxNumResearchLevels 5
+priority 1.000000
+researchBoolModifiers 0
+researchFloatModifiers 2
+researchModifier
+	modifierType "CargoShipCapacityAdjustment"
+	baseValue 0.000000
+	perLevelValue 0.050000
+researchModifier
+	modifierType "TradeGoodsValueAdjustment"
+	baseValue 0.000000
+	perLevelValue 0.050000
+artifactPicture ""
+uniqueOverlayBrush "RebellionResearchOverlay"
+dlcId 204880

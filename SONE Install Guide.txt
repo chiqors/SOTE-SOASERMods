@@ -1,0 +1,8 @@
+Simple installation guide for Sins of New Eden
+
+1) Unpack the RAR archive directly into the directory where your sins of a solar empire mods are located (typically in my documents/Username/Ironclad Games/Sins of a solar empire rebellion/Mods folder) 
+2) Run the game and select Mods in the main menu. 
+3)Locate Sins of New Eden and enable it, Be sure to only select SONE as it is not tested to work with any other mod.
+4) Play and have fun. 
+
+This mod is built and designed for use with Sins Rebellion, the Stellar Phenomena and Forbidden Worlds DLCs

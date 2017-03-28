@@ -1,0 +1,42 @@
+﻿TXT
+entityType "ResearchSubject"
+hudIcon "HUDICON_RESEARCHSUBJECT_SHIELDAMPLIFYTHERMAL"
+smallHudIcon "HUDICON_RESEARCHSUBJECT_SHIELDAMPLIFYTHERMAL"
+infoCardIcon ""
+NameStringID "IDS_RESEARCHSUBJECT_SHIELDMAXMITIGATION_NAME"
+DescriptionStringID "IDS_RESEARCHSUBJECT_SHIELDMAXMITIGATION_DESCRIPTION"
+researchWindowLocation
+	block 0
+	pos [ 2 , 3 ]
+ResearchField "Combat"
+Prerequisites
+	NumResearchPrerequisites 1
+	ResearchPrerequisite
+		Subject "RESEARCHSUBJECT_SHIELDSRESIST0"
+		Level 5
+	RequiredFactionNameID ""
+	RequiredCompletedResearchSubjects 0
+MinimumArtifactLevel -1
+BaseUpgradeTime 60.000000
+PerLevelUpgradeTime 30.000000
+BaseCost
+	credits 600.000000
+	metal 40.000000
+	crystal 70.000000
+PerLevelCostIncrease
+	credits 600.000000
+	metal 40.000000
+	crystal 70.000000
+Tier 2
+onlyWorksIfTierLabsExist FALSE
+MaxNumResearchLevels 5
+priority 1.000000
+researchBoolModifiers 0
+researchFloatModifiers 1
+researchModifier
+	modifierType "ShieldMaxMitigationAdjustment"
+	baseValue 0.000000
+	perLevelValue 0.010000
+artifactPicture ""
+uniqueOverlayBrush "RebellionResearchOverlay"
+dlcId 204880

@@ -1,0 +1,38 @@
+﻿TXT
+entityType "ResearchSubject"
+hudIcon "HUDICON_RESEARCHSUBJECT_FRIGATEACCESS_EOS"
+smallHudIcon "HUDICON_RESEARCHSUBJECT_FRIGATEACCESS_EOS"
+infoCardIcon ""
+NameStringID "IDS_RESEARCHSUBJECT_FRIGATEACCESS_EOS_NAME"
+DescriptionStringID "IDS_RESEARCHSUBJECT_FRIGATEACCESS_EOS_DESCRIPTION"
+researchWindowLocation
+	block 2
+	pos [ 5 , 3 ]
+ResearchField "Combat"
+Prerequisites
+	NumResearchPrerequisites 1
+	ResearchPrerequisite
+		Subject "Gallente_ResearchSubject_SubCapitalAccess_Myrmidon"
+		Level 2
+	RequiredFactionNameID ""
+	RequiredCompletedResearchSubjects 0
+MinimumArtifactLevel -1
+BaseUpgradeTime 30.000000
+PerLevelUpgradeTime 3.000000
+BaseCost
+	credits 3888.000000
+	metal 1672.000000
+	crystal 2216.000000
+PerLevelCostIncrease
+	credits 3888.000000
+	metal 1672.000000
+	crystal 2216.000000
+Tier 5
+onlyWorksIfTierLabsExist TRUE
+MaxNumResearchLevels 2
+priority 0.000000
+researchBoolModifiers 0
+researchFloatModifiers 0
+artifactPicture ""
+uniqueOverlayBrush "RebellionResearchOverlay"
+dlcId 204880

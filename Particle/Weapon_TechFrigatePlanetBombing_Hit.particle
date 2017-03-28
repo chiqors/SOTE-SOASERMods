@@ -1,0 +1,639 @@
+﻿TXT
+ParticleSimulation
+	HasInfiniteLifeTime FALSE
+	TotalLifeTime 5.000000
+	NumEmitters 9
+	EmitterType "Point"
+	EmitterContents
+		Name "OrangeGrow"
+		Enabled TRUE
+		EmitRate 100.000000
+		HasInfiniteEmitCount FALSE
+		MaxEmitCount 2
+		hasEmitIntervals FALSE
+		emitIntervalRunDuration 0.000000
+		emitIntervalWaitDuration 0.000000
+		ParticleLifeTime 0.100000
+		ParticleMinStartLinearSpeed 0.000000
+		ParticleMaxStartLinearSpeed 0.000000
+		ParticleMinStartAngularSpeed 0.000000
+		ParticleMaxStartAngularSpeed 0.000000
+		ParticleMinStartRotation 0.000000
+		ParticleMaxStartRotation 6.283185
+		ParticleStartMass 1.000000
+		ParticleStartColor ffff6446
+		ParticleWidth 1200.000000
+		ParticleHeight 1200.000000
+		MeshName ""
+		Position [ 0.000000 0.000000 150.000000 ]
+		Orientation
+			 [ 0.965926 0.000000 0.258819 ]
+			 [ 0.000000 1.000000 0.000000 ]
+			 [ -0.258819 0.000000 0.965926 ]
+		RotateAboutForward 0.000000
+		RotateAboutUp -15.000000
+		RotateAboutCross 0.000000
+		StartTime 0.000000
+		HasInfiniteLifeTime FALSE
+		TotalLifeTime 0.000000
+		BillboardAnchor 0
+		ParticleFacing 0
+		PipelineEffectID "Particle_Additive.fx"
+		AreParticlesAttached TRUE
+		numTextures 2
+		textureName "brightcenter.tga"
+		textureName ""
+		textureAnimationName ""
+		textureAnimationSpawnType "RandomFrames"
+		textureAnimationOnParticleFPS 0.000000
+		ParticlesRotate FALSE
+		MeshParticleRotationAxisType 0
+		MeshParticleRotationAxis [ 0.000000 0.100000 0.000000 ]
+		RotationDirectionType 0
+		AngleVariance 0.000000
+	EmitterType "Point"
+	EmitterContents
+		Name "Growcore"
+		Enabled TRUE
+		EmitRate 100.000000
+		HasInfiniteEmitCount FALSE
+		MaxEmitCount 2
+		hasEmitIntervals FALSE
+		emitIntervalRunDuration 0.000000
+		emitIntervalWaitDuration 0.000000
+		ParticleLifeTime 0.200000
+		ParticleMinStartLinearSpeed 0.000000
+		ParticleMaxStartLinearSpeed 0.000000
+		ParticleMinStartAngularSpeed 0.000000
+		ParticleMaxStartAngularSpeed 0.000000
+		ParticleMinStartRotation 0.000000
+		ParticleMaxStartRotation 6.283185
+		ParticleStartMass 1.000000
+		ParticleStartColor ffff7113
+		ParticleWidth 800.000000
+		ParticleHeight 800.000000
+		MeshName ""
+		Position [ 0.000000 0.000000 150.000000 ]
+		Orientation
+			 [ 0.965926 0.000000 0.258819 ]
+			 [ 0.000000 1.000000 0.000000 ]
+			 [ -0.258819 0.000000 0.965926 ]
+		RotateAboutForward 0.000000
+		RotateAboutUp -15.000000
+		RotateAboutCross 0.000000
+		StartTime 0.000000
+		HasInfiniteLifeTime FALSE
+		TotalLifeTime 0.000000
+		BillboardAnchor 0
+		ParticleFacing 0
+		PipelineEffectID "Particle_Additive.fx"
+		AreParticlesAttached TRUE
+		numTextures 2
+		textureName "exhaust_largeexternal.dds"
+		textureName ""
+		textureAnimationName ""
+		textureAnimationSpawnType "RandomFrames"
+		textureAnimationOnParticleFPS 0.000000
+		ParticlesRotate FALSE
+		MeshParticleRotationAxisType 0
+		MeshParticleRotationAxis [ 0.000000 0.100000 0.000000 ]
+		RotationDirectionType 0
+		AngleVariance 0.000000
+	EmitterType "Point"
+	EmitterContents
+		Name "ball"
+		Enabled TRUE
+		EmitRate 100.000000
+		HasInfiniteEmitCount FALSE
+		MaxEmitCount 2
+		hasEmitIntervals FALSE
+		emitIntervalRunDuration 0.000000
+		emitIntervalWaitDuration 0.000000
+		ParticleLifeTime 5.000000
+		ParticleMinStartLinearSpeed 0.000000
+		ParticleMaxStartLinearSpeed 0.000000
+		ParticleMinStartAngularSpeed 0.000000
+		ParticleMaxStartAngularSpeed 0.000000
+		ParticleMinStartRotation 0.000000
+		ParticleMaxStartRotation 6.283185
+		ParticleStartMass 1.000000
+		ParticleStartColor ffc04000
+		ParticleWidth 700.000000
+		ParticleHeight 700.000000
+		MeshName ""
+		Position [ 0.000000 0.000000 50.000000 ]
+		Orientation
+			 [ 0.965926 0.000000 0.258819 ]
+			 [ 0.000000 1.000000 0.000000 ]
+			 [ -0.258819 0.000000 0.965926 ]
+		RotateAboutForward 0.000000
+		RotateAboutUp -15.000000
+		RotateAboutCross 0.000000
+		StartTime 0.000000
+		HasInfiniteLifeTime TRUE
+		TotalLifeTime 0.000000
+		BillboardAnchor 0
+		ParticleFacing 2
+		PipelineEffectID "GS_Exhaust.fx"
+		AreParticlesAttached TRUE
+		numTextures 2
+		textureName "base.tga"
+		textureName "techcapitalbeamcorona2.tga"
+		textureAnimationName ""
+		textureAnimationSpawnType "RandomFrames"
+		textureAnimationOnParticleFPS 0.000000
+		ParticlesRotate TRUE
+		MeshParticleRotationAxisType 0
+		MeshParticleRotationAxis [ 0.000000 0.100000 0.000000 ]
+		RotationDirectionType 2
+		AngleVariance 0.000000
+	EmitterType "Point"
+	EmitterContents
+		Name "Firecloud"
+		Enabled TRUE
+		EmitRate 500.000000
+		HasInfiniteEmitCount FALSE
+		MaxEmitCount 10
+		hasEmitIntervals FALSE
+		emitIntervalRunDuration 0.000000
+		emitIntervalWaitDuration 0.000000
+		ParticleLifeTime 2.500000
+		ParticleMinStartLinearSpeed 150.000000
+		ParticleMaxStartLinearSpeed 150.000000
+		ParticleMinStartAngularSpeed 0.000000
+		ParticleMaxStartAngularSpeed 0.698132
+		ParticleMinStartRotation 0.000000
+		ParticleMaxStartRotation 6.283185
+		ParticleStartMass 1.000000
+		ParticleStartColor ffffc080
+		ParticleWidth 160.000000
+		ParticleHeight 160.000000
+		MeshName ""
+		Position [ 0.000000 0.000000 20.000000 ]
+		Orientation
+			 [ 0.965926 0.000000 0.258819 ]
+			 [ 0.000000 1.000000 0.000000 ]
+			 [ -0.258819 0.000000 0.965926 ]
+		RotateAboutForward 0.000000
+		RotateAboutUp -15.000000
+		RotateAboutCross 0.000000
+		StartTime 0.000000
+		HasInfiniteLifeTime FALSE
+		TotalLifeTime 0.100000
+		BillboardAnchor 0
+		ParticleFacing 0
+		PipelineEffectID "Particle_Additive.fx"
+		AreParticlesAttached TRUE
+		numTextures 2
+		textureName "atomiccloud2.tga"
+		textureName ""
+		textureAnimationName ""
+		textureAnimationSpawnType "RandomFrames"
+		textureAnimationOnParticleFPS 0.000000
+		ParticlesRotate TRUE
+		MeshParticleRotationAxisType 0
+		MeshParticleRotationAxis [ 0.000000 0.100000 0.000000 ]
+		RotationDirectionType 2
+		AngleVariance 0.314159
+	EmitterType "Point"
+	EmitterContents
+		Name "Pillar"
+		Enabled TRUE
+		EmitRate 300.000000
+		HasInfiniteEmitCount FALSE
+		MaxEmitCount 15
+		hasEmitIntervals FALSE
+		emitIntervalRunDuration 0.000000
+		emitIntervalWaitDuration 0.000000
+		ParticleLifeTime 2.100000
+		ParticleMinStartLinearSpeed 10.000000
+		ParticleMaxStartLinearSpeed 150.000000
+		ParticleMinStartAngularSpeed 0.000000
+		ParticleMaxStartAngularSpeed 0.698132
+		ParticleMinStartRotation 0.000000
+		ParticleMaxStartRotation 6.283185
+		ParticleStartMass 1.000000
+		ParticleStartColor ffffc080
+		ParticleWidth 100.000000
+		ParticleHeight 100.000000
+		MeshName ""
+		Position [ 0.000000 0.000000 0.000000 ]
+		Orientation
+			 [ 0.965926 0.000000 0.258819 ]
+			 [ 0.000000 1.000000 0.000000 ]
+			 [ -0.258819 0.000000 0.965926 ]
+		RotateAboutForward 0.000000
+		RotateAboutUp -15.000000
+		RotateAboutCross 0.000000
+		StartTime 0.200000
+		HasInfiniteLifeTime FALSE
+		TotalLifeTime 0.100000
+		BillboardAnchor 0
+		ParticleFacing 0
+		PipelineEffectID "Particle_Additive.fx"
+		AreParticlesAttached TRUE
+		numTextures 2
+		textureName "D:\IRONCLAD\Effects\atomic\atomiccloud.tga"
+		textureName ""
+		textureAnimationName ""
+		textureAnimationSpawnType "RandomFrames"
+		textureAnimationOnParticleFPS 0.000000
+		ParticlesRotate TRUE
+		MeshParticleRotationAxisType 0
+		MeshParticleRotationAxis [ 0.000000 0.100000 0.000000 ]
+		RotationDirectionType 2
+		AngleVariance 0.179066
+	EmitterType "Ring"
+	EmitterContents
+		Name "secondring"
+		Enabled TRUE
+		EmitRate 500.000000
+		HasInfiniteEmitCount FALSE
+		MaxEmitCount 25
+		hasEmitIntervals FALSE
+		emitIntervalRunDuration 0.000000
+		emitIntervalWaitDuration 0.000000
+		ParticleLifeTime 2.300000
+		ParticleMinStartLinearSpeed 80.000000
+		ParticleMaxStartLinearSpeed 80.000000
+		ParticleMinStartAngularSpeed 0.000000
+		ParticleMaxStartAngularSpeed 1.047198
+		ParticleMinStartRotation 0.000000
+		ParticleMaxStartRotation 6.283185
+		ParticleStartMass 1.000000
+		ParticleStartColor ffffffff
+		ParticleWidth 60.000000
+		ParticleHeight 60.000000
+		MeshName ""
+		Position [ 0.000000 0.000000 50.000000 ]
+		Orientation
+			 [ 0.965926 0.000000 0.258819 ]
+			 [ 0.000000 1.000000 0.000000 ]
+			 [ -0.258819 0.000000 0.965926 ]
+		RotateAboutForward 0.000000
+		RotateAboutUp -15.000000
+		RotateAboutCross 0.000000
+		StartTime 0.000000
+		HasInfiniteLifeTime FALSE
+		TotalLifeTime 0.100000
+		BillboardAnchor 0
+		ParticleFacing 0
+		PipelineEffectID "Particle_Additive.fx"
+		AreParticlesAttached TRUE
+		numTextures 2
+		textureName "atomiccloud3.tga"
+		textureName ""
+		textureAnimationName ""
+		textureAnimationSpawnType "RandomFrames"
+		textureAnimationOnParticleFPS 0.000000
+		ParticlesRotate TRUE
+		MeshParticleRotationAxisType 0
+		MeshParticleRotationAxis [ 0.000000 0.100000 0.000000 ]
+		RotationDirectionType 0
+		RingRadiusXMin 10.000000
+		RingRadiusXMax 10.000000
+		RingRadiusYMin 10.000000
+		RingRadiusYMax 10.000000
+		ParticleMaxStartSpeedTangential 0.000000
+		ParticleMaxStartSpeedRingNormal 50.000000
+		ScaleStartSpeedsByRadius FALSE
+		SpawnAngleStart 0.000000
+		SpawnAngleStop 6.283185
+		minSpawnHeight 0.000000
+		maxSpawnHeight 0.000000
+		spawnDirectionIsParallelToPlane TRUE
+		isSpawnAngleRandom FALSE
+		nonRandomSpawnLoopEmittedParticleCount 25
+	EmitterType "Point"
+	EmitterContents
+		Name "Shockwave"
+		Enabled TRUE
+		EmitRate 100.000000
+		HasInfiniteEmitCount FALSE
+		MaxEmitCount 1
+		hasEmitIntervals FALSE
+		emitIntervalRunDuration 0.000000
+		emitIntervalWaitDuration 0.000000
+		ParticleLifeTime 0.500000
+		ParticleMinStartLinearSpeed 0.000000
+		ParticleMaxStartLinearSpeed 0.000000
+		ParticleMinStartAngularSpeed 0.000000
+		ParticleMaxStartAngularSpeed 0.000000
+		ParticleMinStartRotation 0.000000
+		ParticleMaxStartRotation 6.283185
+		ParticleStartMass 1.000000
+		ParticleStartColor ffffffff
+		ParticleWidth 1.000000
+		ParticleHeight 1.000000
+		MeshName ""
+		Position [ 0.000000 0.000000 50.000000 ]
+		Orientation
+			 [ 0.965926 0.000000 0.258819 ]
+			 [ 0.000000 1.000000 0.000000 ]
+			 [ -0.258819 0.000000 0.965926 ]
+		RotateAboutForward 0.000000
+		RotateAboutUp -15.000000
+		RotateAboutCross 0.000000
+		StartTime 0.000000
+		HasInfiniteLifeTime TRUE
+		TotalLifeTime 0.100000
+		BillboardAnchor 0
+		ParticleFacing 2
+		PipelineEffectID "GS_Exhaust.fx"
+		AreParticlesAttached TRUE
+		numTextures 2
+		textureName "shockwave4.tga"
+		textureName "shockwave4.tga"
+		textureAnimationName ""
+		textureAnimationSpawnType "RandomFrames"
+		textureAnimationOnParticleFPS 0.000000
+		ParticlesRotate TRUE
+		MeshParticleRotationAxisType 0
+		MeshParticleRotationAxis [ 0.000000 0.100000 0.000000 ]
+		RotationDirectionType 2
+		AngleVariance 0.000000
+	EmitterType "Ring"
+	EmitterContents
+		Name "Ring"
+		Enabled TRUE
+		EmitRate 1000.000000
+		HasInfiniteEmitCount FALSE
+		MaxEmitCount 20
+		hasEmitIntervals FALSE
+		emitIntervalRunDuration 0.000000
+		emitIntervalWaitDuration 0.000000
+		ParticleLifeTime 0.500000
+		ParticleMinStartLinearSpeed 400.000000
+		ParticleMaxStartLinearSpeed 400.000000
+		ParticleMinStartAngularSpeed 1.000000
+		ParticleMaxStartAngularSpeed 2.000000
+		ParticleMinStartRotation 0.000000
+		ParticleMaxStartRotation 6.283185
+		ParticleStartMass 1.000000
+		ParticleStartColor ffffffff
+		ParticleWidth 100.000000
+		ParticleHeight 100.000000
+		MeshName ""
+		Position [ 0.000000 0.000000 50.000000 ]
+		Orientation
+			 [ 0.965926 0.000000 0.258819 ]
+			 [ 0.000000 1.000000 0.000000 ]
+			 [ -0.258819 0.000000 0.965926 ]
+		RotateAboutForward 0.000000
+		RotateAboutUp -15.000000
+		RotateAboutCross 0.000000
+		StartTime 0.000000
+		HasInfiniteLifeTime FALSE
+		TotalLifeTime 0.100000
+		BillboardAnchor 0
+		ParticleFacing 0
+		PipelineEffectID "Particle_Additive.fx"
+		AreParticlesAttached TRUE
+		numTextures 2
+		textureName "smoke2.tga"
+		textureName ""
+		textureAnimationName ""
+		textureAnimationSpawnType "RandomFrames"
+		textureAnimationOnParticleFPS 0.000000
+		ParticlesRotate TRUE
+		MeshParticleRotationAxisType 0
+		MeshParticleRotationAxis [ 0.000000 0.100000 0.000000 ]
+		RotationDirectionType 2
+		RingRadiusXMin 50.000000
+		RingRadiusXMax 50.000000
+		RingRadiusYMin 50.000000
+		RingRadiusYMax 50.000000
+		ParticleMaxStartSpeedTangential 0.000000
+		ParticleMaxStartSpeedRingNormal 0.000000
+		ScaleStartSpeedsByRadius FALSE
+		SpawnAngleStart 0.000000
+		SpawnAngleStop 6.283185
+		minSpawnHeight 0.000000
+		maxSpawnHeight 0.000000
+		spawnDirectionIsParallelToPlane TRUE
+		isSpawnAngleRandom FALSE
+		nonRandomSpawnLoopEmittedParticleCount 20
+	EmitterType "Ring"
+	EmitterContents
+		Name "FireRing"
+		Enabled TRUE
+		EmitRate 1000.000000
+		HasInfiniteEmitCount FALSE
+		MaxEmitCount 20
+		hasEmitIntervals FALSE
+		emitIntervalRunDuration 0.000000
+		emitIntervalWaitDuration 0.000000
+		ParticleLifeTime 2.200000
+		ParticleMinStartLinearSpeed 250.000000
+		ParticleMaxStartLinearSpeed 250.000000
+		ParticleMinStartAngularSpeed 0.000000
+		ParticleMaxStartAngularSpeed 2.000000
+		ParticleMinStartRotation 0.000000
+		ParticleMaxStartRotation 6.283185
+		ParticleStartMass 1.000000
+		ParticleStartColor ffffffff
+		ParticleWidth 100.000000
+		ParticleHeight 100.000000
+		MeshName ""
+		Position [ 0.000000 0.000000 30.000000 ]
+		Orientation
+			 [ 0.965926 0.000000 0.258819 ]
+			 [ 0.000000 1.000000 0.000000 ]
+			 [ -0.258819 0.000000 0.965926 ]
+		RotateAboutForward 0.000000
+		RotateAboutUp -15.000000
+		RotateAboutCross 0.000000
+		StartTime 0.000000
+		HasInfiniteLifeTime FALSE
+		TotalLifeTime 0.000000
+		BillboardAnchor 0
+		ParticleFacing 0
+		PipelineEffectID "Particle_Additive.fx"
+		AreParticlesAttached TRUE
+		numTextures 2
+		textureName "atomiccloud2.tga"
+		textureName ""
+		textureAnimationName ""
+		textureAnimationSpawnType "RandomFrames"
+		textureAnimationOnParticleFPS 0.000000
+		ParticlesRotate TRUE
+		MeshParticleRotationAxisType 0
+		MeshParticleRotationAxis [ 0.000000 0.100000 0.000000 ]
+		RotationDirectionType 2
+		RingRadiusXMin 30.000000
+		RingRadiusXMax 30.000000
+		RingRadiusYMin 30.000000
+		RingRadiusYMax 30.000000
+		ParticleMaxStartSpeedTangential 0.000000
+		ParticleMaxStartSpeedRingNormal -10.000000
+		ScaleStartSpeedsByRadius FALSE
+		SpawnAngleStart 0.000000
+		SpawnAngleStop 6.283185
+		minSpawnHeight 0.000000
+		maxSpawnHeight 0.000000
+		spawnDirectionIsParallelToPlane TRUE
+		isSpawnAngleRandom FALSE
+		nonRandomSpawnLoopEmittedParticleCount 20
+	NumAffectors 9
+	AffectorType "Fade"
+	AffectorContents
+		Name "(new) Fade-1"
+		Enabled TRUE
+		StartTime 0.000000
+		HasInfiniteLifeTime TRUE
+		TotalLifeTime 0.000000
+		UseYoungParticleAffectThreshold FALSE
+		YoungParticleAffectThreshold 0.000000
+		UseOldParticleAffectThreshold FALSE
+		OldParticleAffectThreshold 0.000000
+		AffectAttachedParticles TRUE
+		numAttachedEmitters 2
+		attachedEmitterName "OrangeGrow"
+		attachedEmitterName "Growcore"
+		DoFadeOut TRUE
+		FadeOutTime 0.100000
+		DoFadeIn FALSE
+		FadeInTime 0.000000
+	AffectorType "Drag"
+	AffectorContents
+		Name ""
+		Enabled TRUE
+		StartTime 2.000000
+		HasInfiniteLifeTime TRUE
+		TotalLifeTime 0.000000
+		UseYoungParticleAffectThreshold FALSE
+		YoungParticleAffectThreshold 0.000000
+		UseOldParticleAffectThreshold FALSE
+		OldParticleAffectThreshold 0.000000
+		AffectAttachedParticles TRUE
+		numAttachedEmitters 5
+		attachedEmitterName "Pillar"
+		attachedEmitterName "Firecloud"
+		attachedEmitterName "FireRing"
+		attachedEmitterName "Ring"
+		attachedEmitterName "secondring"
+		DragCoefficient 0.100000
+	AffectorType "Fade"
+	AffectorContents
+		Name "FadeOut"
+		Enabled TRUE
+		StartTime 0.000000
+		HasInfiniteLifeTime TRUE
+		TotalLifeTime 0.000000
+		UseYoungParticleAffectThreshold FALSE
+		YoungParticleAffectThreshold 0.000000
+		UseOldParticleAffectThreshold FALSE
+		OldParticleAffectThreshold 0.000000
+		AffectAttachedParticles TRUE
+		numAttachedEmitters 4
+		attachedEmitterName "Firecloud"
+		attachedEmitterName "Pillar"
+		attachedEmitterName "secondring"
+		attachedEmitterName "FireRing"
+		DoFadeOut TRUE
+		FadeOutTime 2.000000
+		DoFadeIn FALSE
+		FadeInTime 0.000000
+	AffectorType "Fade"
+	AffectorContents
+		Name "FadeOut"
+		Enabled TRUE
+		StartTime 0.000000
+		HasInfiniteLifeTime TRUE
+		TotalLifeTime 0.000000
+		UseYoungParticleAffectThreshold FALSE
+		YoungParticleAffectThreshold 0.000000
+		UseOldParticleAffectThreshold FALSE
+		OldParticleAffectThreshold 0.000000
+		AffectAttachedParticles TRUE
+		numAttachedEmitters 2
+		attachedEmitterName "Shockwave"
+		attachedEmitterName "Ring"
+		DoFadeOut TRUE
+		FadeOutTime 0.300000
+		DoFadeIn FALSE
+		FadeInTime 0.200000
+	AffectorType "LinearInflate"
+	AffectorContents
+		Name ""
+		Enabled TRUE
+		StartTime 0.000000
+		HasInfiniteLifeTime TRUE
+		TotalLifeTime 0.000000
+		UseYoungParticleAffectThreshold FALSE
+		YoungParticleAffectThreshold 0.000000
+		UseOldParticleAffectThreshold FALSE
+		OldParticleAffectThreshold 0.000000
+		AffectAttachedParticles TRUE
+		numAttachedEmitters 1
+		attachedEmitterName "Shockwave"
+		WidthInflateRate 1500.000000
+		HeightInflateRate 1500.000000
+	AffectorType "LinearInflate"
+	AffectorContents
+		Name "(new) LinearInflate-1"
+		Enabled TRUE
+		StartTime 0.000000
+		HasInfiniteLifeTime TRUE
+		TotalLifeTime 0.000000
+		UseYoungParticleAffectThreshold FALSE
+		YoungParticleAffectThreshold 0.000000
+		UseOldParticleAffectThreshold FALSE
+		OldParticleAffectThreshold 0.000000
+		AffectAttachedParticles TRUE
+		numAttachedEmitters 1
+		attachedEmitterName "Firecloud"
+		WidthInflateRate 50.000000
+		HeightInflateRate 50.000000
+	AffectorType "LinearInflate"
+	AffectorContents
+		Name "(new) LinearInflate-1"
+		Enabled TRUE
+		StartTime 0.000000
+		HasInfiniteLifeTime TRUE
+		TotalLifeTime 0.000000
+		UseYoungParticleAffectThreshold FALSE
+		YoungParticleAffectThreshold 0.000000
+		UseOldParticleAffectThreshold FALSE
+		OldParticleAffectThreshold 0.000000
+		AffectAttachedParticles TRUE
+		numAttachedEmitters 1
+		attachedEmitterName "Ring"
+		WidthInflateRate 300.000000
+		HeightInflateRate 300.000000
+	AffectorType "Fade"
+	AffectorContents
+		Name "Fade ball"
+		Enabled TRUE
+		StartTime 0.000000
+		HasInfiniteLifeTime TRUE
+		TotalLifeTime 0.000000
+		UseYoungParticleAffectThreshold FALSE
+		YoungParticleAffectThreshold 0.000000
+		UseOldParticleAffectThreshold FALSE
+		OldParticleAffectThreshold 0.000000
+		AffectAttachedParticles TRUE
+		numAttachedEmitters 1
+		attachedEmitterName "ball"
+		DoFadeOut TRUE
+		FadeOutTime 3.000000
+		DoFadeIn TRUE
+		FadeInTime 2.000000
+	AffectorType "LinearForceToPoint"
+	AffectorContents
+		Name "New Affector"
+		Enabled TRUE
+		StartTime 0.000000
+		HasInfiniteLifeTime TRUE
+		TotalLifeTime 0.000000
+		UseYoungParticleAffectThreshold FALSE
+		YoungParticleAffectThreshold 0.000000
+		UseOldParticleAffectThreshold FALSE
+		OldParticleAffectThreshold 0.000000
+		AffectAttachedParticles TRUE
+		numAttachedEmitters 1
+		attachedEmitterName "FireRing"
+		MinForce 4000.000000
+		MaxForce 4000.000000
+		Point [ 0.000000 0.000000 30.000000 ]
+	length 0.000000

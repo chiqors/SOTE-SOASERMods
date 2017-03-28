@@ -1,0 +1,168 @@
+﻿TXT
+entityType "Frigate"
+defaultAutoAttackRange "GravityWell"
+defaultAutoAttackOn TRUE
+prefersToFocusFire TRUE
+usesFighterAttack FALSE
+autoJoinFleetDefault TRUE
+canBomb FALSE
+typeCount 1
+frigateRoleType "Lrm"
+statCountType "FrigateLongRange"
+mainViewIcon "MAINVIEWICON_FRIGATE_CARACAL"
+picture "PICTURE_FRIGATE_CARACAL"
+NameStringID "IDS_RESEARCHSUBJECT_FRIGATEACCESS_DRAKE_NAME"
+DescriptionStringID "IDS_RESEARCHSUBJECT_FRIGATEACCESS_DRAKE_DESCRIPTION"
+counterDescriptionStringID "IDS_COUNTERDESC_CORVETTE_TECH"
+basePrice
+	credits 160.000000
+	metal 62.000000
+	crystal 97.000000
+slotCount 4.000000
+BuildTime 26.000000
+hasLevels FALSE
+ExperiencePointsForDestroying 80.000000
+MaxHullPoints 3500.000000
+MaxShieldPoints 7000.000000
+HullPointRestoreRate 4.000000
+ShieldPointRestoreRate 4.000000
+BaseArmorPoints 0.000000
+maxMitigation 0.000000 
+Prerequisites
+	NumResearchPrerequisites 1
+	ResearchPrerequisite
+		Subject "Caldari_ResearchSubject_SubCapitalAccess_Drake"
+		Level 1
+	RequiredFactionNameID ""
+	RequiredCompletedResearchSubjects 0
+numRandomDebrisLarge 0
+numRandomDebrisSmall 0
+numSpecificDebris 0
+armorType "Medium"
+hudIcon "HUDICON_RESEARCHSUBJECT_FRIGATEACCESS_DRAKE"
+smallHudIcon "HUDICONSMALL_FRIGATE_CARACAL"
+infoCardIcon "INFOCARDICON_FRIGATE_CARACAL"
+minZoomDistanceMult 1.000000
+NumWeapons 1
+Weapon
+	WeaponType "Missile"
+	damageEnums
+		AttackType "ANTIMEDIUM"
+		DamageAffectType "AFFECTS_SHIELDS_AND_HULL"
+		DamageApplyType "BACKLOADED"
+		DamageType "PHYSICAL"
+		WeaponClassType "MISSILE"
+	DamagePerBank:FRONT 275.000000
+	DamagePerBank:BACK 0.000000
+	DamagePerBank:LEFT 0.000000
+	DamagePerBank:RIGHT 0.000000
+	Range 4500.000000
+	PreBuffCooldownTime 4.500000
+	CanFireAtFighter FALSE
+	SynchronizedTargeting TRUE
+	PointStaggerDelay 0.050000
+	TravelSpeed 3000.000000
+	Duration 0.000000
+	fireConstraintType "CanAlwaysFire"
+	WeaponEffects
+		weaponType "Missile"
+		burstCount 1
+		burstDelay 0.0500000
+		fireDelay 0.0500000
+		muzzleEffectName "Weapon_TechCapitalMissileHeavy_Muzzle"
+		muzzleSoundMinRespawnTime 0.500000
+		muzzleSounds
+			soundCount 1
+			sound "EFFECT_NEUTRONTORPEDO_MUZZLE"
+		hitEffectName "EVE_Missile_LightMissile_Hit"
+		hitHullEffectSounds
+			soundCount 2
+			sound "LIGHTMISSILEEXPLOSION1"
+			sound "LIGHTMISSILEEXPLOSION2"
+		hitShieldsEffectSounds
+			soundCount 2
+			sound "LIGHTMISSILEEXPLOSION1"
+			sound "LIGHTMISSILEEXPLOSION2"
+		missileTravelEffectName "EVE_Missile_LightMissile_Travel"
+		missileStartTurningDistance 0.000000
+		missileSlowTurnRate 0.500000
+		missileMaxSlowTurnTime 5.000000
+m_weaponIndexForRange 0
+firingAlignmentType "Default"
+TargetCountPerBank:FRONT 1
+TargetCountPerBank:BACK 0
+TargetCountPerBank:LEFT 0
+TargetCountPerBank:RIGHT 0
+canOnlyTargetStructures FALSE
+hasWeaponLevels FALSE
+mass 4000.000000
+ShieldMeshName "vexor"
+renderShield FALSE
+maxAccelerationLinear 90.000000
+maxAccelerationStrafe 10.000000
+maxDecelerationLinear 500.000000
+maxAccelerationAngular 8.000000
+maxDecelerationAngular 9.999996
+maxSpeedLinear 370.000000
+maxRollRate 2.000000
+maxRollAngle 40.000000
+squadTypeEntityDef:0 ""
+squadAntiMatterCost:0 0.000000
+squadTypeEntityDef:1 ""
+squadAntiMatterCost:1 0.000000
+squadTypeEntityDef:2 ""
+squadAntiMatterCost:2 0.000000
+squadTypeEntityDef:3 ""
+squadAntiMatterCost:3 0.000000
+maxNumCommandPoints 0
+NumSoundsFor:ONATTACKORDERISSUED 3
+SoundID "FRIGATE_TECHLONGRANGE_ONATTACKORDERISSUED_0"
+SoundID "FRIGATE_TECHLONGRANGE_ONATTACKORDERISSUED_1"
+SoundID "FRIGATE_TECHLONGRANGE_ONATTACKORDERISSUED_2"
+NumSoundsFor:ONCREATION 1
+SoundID "FRIGATE_TECHLONGRANGE_ONCREATION"
+NumSoundsFor:ONGENERALORDERISSUED 3
+SoundID "FRIGATE_TECHLONGRANGE_ONGENERALORDERISSUED_0"
+SoundID "FRIGATE_TECHLONGRANGE_ONGENERALORDERISSUED_1"
+SoundID "FRIGATE_TECHLONGRANGE_ONGENERALORDERISSUED_2"
+NumSoundsFor:ONSELECTED 4
+SoundID "FRIGATE_TECHLONGRANGE_ONSELECTED_0"
+SoundID "FRIGATE_TECHLONGRANGE_ONSELECTED_1"
+SoundID "FRIGATE_TECHLONGRANGE_ONSELECTED_2"
+SoundID "FRIGATE_TECHLONGRANGE_ONSELECTED_3"
+NumSoundsFor:ONSTARTPHASEJUMP 1
+SoundID "FRIGATE_TECHLONGRANGE_ONSTARTPHASEJUMP_0"
+MeshNameInfoCount 2
+MeshNameInfo
+	meshName "drake"
+	criteriaType "None"
+MeshNameInfo
+	meshName "nighthawk"
+	criteriaType "Research"
+	prerequisites
+		NumResearchPrerequisites 1
+		ResearchPrerequisite
+			Subject "Caldari_ResearchSubject_SubCapitalAccess_Nighthawk"
+			Level 1
+		RequiredFactionNameID ""
+		RequiredCompletedResearchSubjects 1
+meshNameIncreasedEffectName ""
+meshNameDecreasedEffectName ""
+ExhaustParticleSystemName "Exhaust_EveCruiser"
+ExplosionName "EVECruiser"
+HyperspaceChargingSoundID "HYPERSPACE_CHARGEUP"
+HyperspaceTravelSoundID "HYPERSPACE_TRAVEL"
+EngineSoundID "ENGINE_PHASECAPITALSHIP"
+ability:0 "AbilityMicrowarpdrive"
+ability:1 ""
+ability:2 ""
+ability:3 "AbilityCaldariShipCaracal"
+ability:4 "AbilityT2CruiserCerberus"
+MaxAntiMatter 250.000000
+AntiMatterRestoreRate 0.500000
+cargoType "Invalid"
+maxCargoCapacity 0.000000
+formationRank 2
+minShadow 0.100000
+maxShadow 1.000000
+allegianceDecreasePerRoundtrip 0.000000

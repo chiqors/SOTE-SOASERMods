@@ -1,0 +1,48 @@
+﻿TXT
+entityType "ResearchSubject"
+hudIcon "HUDICON_RESEARCHSUBJECT_ENERGETICPULSECHARGING"
+smallHudIcon "HUDICON_RESEARCHSUBJECT_ENERGETICPULSECHARGING"
+infoCardIcon ""
+NameStringID "IDS_RESEARCHSUBJECT_ENERGETIC_PULSE_CHARGING_NAME"
+DescriptionStringID "IDS_RESEARCHSUBJECT_ENERGETIC_PULSE_CHARGING_DESCRIPTION"
+researchWindowLocation
+	block 1
+	pos [ 6 , 0 ]
+ResearchField "Combat"
+Prerequisites
+	NumResearchPrerequisites 1
+	ResearchPrerequisite
+		Subject "RESEARCHSUBJECT_PLANETBOMBING_RANGE"
+		Level 1
+	RequiredFactionNameID ""
+	RequiredCompletedResearchSubjects 0
+MinimumArtifactLevel -1
+BaseUpgradeTime 105.000000
+PerLevelUpgradeTime 10.000000
+BaseCost
+	credits 1600.000000
+	metal 300.000000
+	crystal 475.000000
+PerLevelCostIncrease
+	credits 100.000000
+	metal 25.000000
+	crystal 25.000000
+Tier 6
+onlyWorksIfTierLabsExist FALSE
+MaxNumResearchLevels 2
+priority 1.000000
+researchBoolModifiers 0
+researchFloatModifiers 2
+researchModifier
+	modifierType "WeaponDamageAdjustment"
+	baseValue 0.000000
+	perLevelValue 0.100000
+	linkedWeaponClass "PULSEGUN"
+researchModifier
+	modifierType "WeaponDamageAdjustment"
+	baseValue 0.000000
+	perLevelValue 0.100000
+	linkedWeaponClass "FLASHBEAM"
+artifactPicture ""
+uniqueOverlayBrush "RebellionResearchOverlay"
+dlcId 204880

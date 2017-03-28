@@ -1,0 +1,217 @@
+﻿TXT
+entityType "Titan"
+ability:0 "AbilityOblivion"
+ability:1 "AbilityGallenteTitanBonus"
+ability:2 "AbilityTitanPLASMASmartbomb"
+ability:3 "AbilityAmarrTitanJumpBridge"
+ability:4 ""
+defaultAutoAttackRange "GravityWell"
+defaultAutoAttackOn TRUE
+prefersToFocusFire TRUE
+usesFighterAttack FALSE
+autoJoinFleetDefault TRUE
+canBomb TRUE
+hasBombingLevels FALSE
+baseDamage 240.000000
+basePopulationKilled 4.000000
+bombingFreqTime 10.000000
+baseRange 8000.000000
+bombTransitTime 6.000000
+bombEffectCount 6
+bombEffectAngleVariance 10.000000
+bombEffectsDef
+	weaponType "Missile"
+	burstCount 1
+	burstDelay 0.000000
+	fireDelay 0.000000
+	muzzleEffectName "Weapon_TechCapitalMissileHeavy_Muzzle"
+	muzzleSoundMinRespawnTime 0.100000
+	muzzleSounds
+		soundCount 1
+		sound "EFFECT_NEUTRONTORPEDO_MUZZLE"
+	hitEffectName "Weapon_TechCapitalPlanetBombing_Hit"
+	hitHullEffectSounds
+		soundCount 3
+		sound "EXPLOSION_SUB4"
+		sound "EXPLOSION_SUB4_ALT1"
+		sound "EXPLOSION_SUB4_ALT2"
+	hitShieldsEffectSounds
+		soundCount 3
+		sound "EXPLOSION_SUB4"
+		sound "EXPLOSION_SUB4_ALT1"
+		sound "EXPLOSION_SUB4_ALT2"
+	missileTravelEffectName "EVE_Missile_LightMissile_Travel"
+	missileStartTurningDistance 250.000000
+	missileSlowTurnRate 0.708997
+	missileMaxSlowTurnTime 6.000000
+mainViewIcon "MAINVIEWICON_TITAN_LEVIATHAN"
+basePrice
+	credits 7500.000000
+	metal 3500.000000
+	crystal 2500.000000
+slotCount 1.000000
+BuildTime 1200.000000
+MaxHullPoints
+	StartValue 55000.000000
+	ValueIncreasePerLevel 550.000000
+MaxShieldPoints
+	StartValue 110000.000000
+	ValueIncreasePerLevel 1100.000000
+HullPointRestoreRate
+	StartValue 55.000000
+	ValueIncreasePerLevel 5.500000
+ShieldPointRestoreRate
+	StartValue 110.000000
+	ValueIncreasePerLevel 11.000000
+ArmorPointsFromExperience
+	StartValue 0.000000
+	ValueIncreasePerLevel 0.000000
+maxMitigation
+	StartValue 0.700000
+	ValueIncreasePerLevel 0.005000
+MaxAntiMatter
+	StartValue 13000.000000
+	ValueIncreasePerLevel 1300.000000
+AntiMatterRestoreRate
+	StartValue 5.000000
+	ValueIncreasePerLevel 1.000000
+CultureProtectRate
+	StartValue 2.800000
+	ValueIncreasePerLevel 0.050000
+NameStringID "IDS_TITAN_CALDARILOYALIST_NAME"
+DescriptionStringID "IDS_TITAN_CALDARILOYALIST_DESCRIPTION"
+picture ""
+Prerequisites
+	NumResearchPrerequisites 1
+	ResearchPrerequisite
+		Subject "Caldari_ResearchSubject_CapitalAccess_Levathan"
+		Level 1
+	RequiredFactionNameID ""
+	RequiredCompletedResearchSubjects 0
+statCountType "Titan"
+UpgradeTypeCount 7
+UpgradeType "TitanUpgrade_PhaseLoyalist_AbilityA"
+UpgradeType "TitanUpgrade_PhaseLoyalist_AbilityB"
+UpgradeType "TitanUpgrade_PhaseLoyalist_AbilityC"
+UpgradeType "TitanUpgrade_PhaseLoyalist_AbilityD"
+UpgradeType "TitanUpgrade_TechLoyalist_Durability"
+UpgradeType "TitanUpgrade_TechLoyalist_Weapons"
+UpgradeType "TitanUpgrade_TechLoyalist_Abilities"
+numRandomDebrisLarge 0
+numRandomDebrisSmall 0
+numSpecificDebris 0
+armorType "VeryHeavy"
+hudIcon "HUDICON_TITAN_LEVIATHAN"
+smallHudIcon "HUDICONSMALL_TITAN_LEVIATHAN"
+infoCardIcon "INFOCARDICON_TITAN_LEVIATHAN"
+minZoomDistanceMult 1.000000
+NumWeapons 1
+Weapon
+	WeaponType "Missile"
+	damageEnums
+		AttackType "ANTIVERYHEAVY"
+		DamageAffectType "AFFECTS_SHIELDS_AND_HULL"
+		DamageApplyType "BACKLOADED"
+		DamageType "PHYSICAL"
+		WeaponClassType "MISSILE"
+	DamagePerBank:FRONT 7938.250000
+	DamagePerBank:BACK 3969.250000
+	DamagePerBank:LEFT 3969.250000
+	DamagePerBank:RIGHT 3969.250000
+	Range 18000.000000
+	PreBuffCooldownTime 21.000000
+	CanFireAtFighter FALSE
+	SynchronizedTargeting FALSE
+	PointStaggerDelay 0.050000
+	TravelSpeed 3000.000000
+	Duration 0.000000
+	fireConstraintType "CanAlwaysFire"
+	WeaponEffects
+		weaponType "Missile"
+		burstCount 3
+		burstDelay 5.000000
+		fireDelay 5.000000
+		muzzleEffectName "Weapon_TechCapitalMissileHeavy_Muzzle"
+		muzzleSoundMinRespawnTime 0.500000
+		muzzleSounds
+			soundCount 1
+			sound "EFFECT_NEUTRONTORPEDO_MUZZLE"
+		hitEffectName "EVE_Missile_LightMissile_Hit"
+		hitHullEffectSounds
+			soundCount 2
+			sound "LIGHTMISSILEEXPLOSION1"
+			sound "LIGHTMISSILEEXPLOSION2"
+		hitShieldsEffectSounds
+			soundCount 2
+			sound "LIGHTMISSILEEXPLOSION1"
+			sound "LIGHTMISSILEEXPLOSION2"
+		missileTravelEffectName "EVE_Missile_LightMissile_Travel"
+		missileStartTurningDistance 0.000000
+		missileSlowTurnRate 0.500000
+		missileMaxSlowTurnTime 5.000000
+m_weaponIndexForRange 0
+firingAlignmentType "Default"
+TargetCountPerBank:FRONT 1
+TargetCountPerBank:BACK 0
+TargetCountPerBank:LEFT 0
+TargetCountPerBank:RIGHT 0
+canOnlyTargetStructures FALSE
+mass 200000.000000
+ShieldMeshName "Leviathan"
+renderShield FALSE
+maxAccelerationLinear 22.500000
+maxAccelerationStrafe 0.400000
+maxDecelerationLinear 45.000000
+maxAccelerationAngular 0.400000
+maxDecelerationAngular 0.800000
+maxSpeedLinear 225.000000
+maxRollRate 1.000000
+maxRollAngle 30.000000
+squadTypeEntityDef:0 ""
+squadAntiMatterCost:0 0.000000
+squadTypeEntityDef:1 ""
+squadAntiMatterCost:1 0.000000
+squadTypeEntityDef:2 ""
+squadAntiMatterCost:2 0.000000
+squadTypeEntityDef:3 ""
+squadAntiMatterCost:3 0.000000
+NumSoundsFor:ONATTACKORDERISSUED 4
+SoundID "TITAN_TECHLOYALIST_ONATTACKORDERISSUED_0"
+SoundID "TITAN_TECHLOYALIST_ONATTACKORDERISSUED_1"
+SoundID "TITAN_TECHLOYALIST_ONATTACKORDERISSUED_2"
+SoundID "TITAN_TECHLOYALIST_ONATTACKORDERISSUED_3"
+NumSoundsFor:ONCREATION 1
+SoundID "TITAN_TECHLOYALIST_ONCREATION_0"
+NumSoundsFor:ONGENERALORDERISSUED 3
+SoundID "TITAN_TECHLOYALIST_ONGENERALORDERISSUED_0"
+SoundID "TITAN_TECHLOYALIST_ONGENERALORDERISSUED_1"
+SoundID "TITAN_TECHLOYALIST_ONGENERALORDERISSUED_2"
+NumSoundsFor:ONSELECTED 3
+SoundID "TITAN_TECHLOYALIST_ONSELECTED_0"
+SoundID "TITAN_TECHLOYALIST_ONSELECTED_1"
+SoundID "TITAN_TECHLOYALIST_ONSELECTED_2"
+NumSoundsFor:ONSTARTPHASEJUMP 1
+SoundID "TITAN_TECHLOYALIST_ONSTARTPHASEJUMP_0"
+MeshNameInfoCount 1
+MeshNameInfo
+	meshName "Leviathan"
+	criteriaType "None"
+meshNameIncreasedEffectName ""
+meshNameDecreasedEffectName ""
+ExhaustParticleSystemName "Exhaust_EveTitan"
+ExplosionName "EVETitan"
+CommandPoints
+	StartValue 0.000000
+	ValueIncreasePerLevel 0.000000
+weaponCooldownDecreasePerc
+	StartValue 0.000000
+	ValueIncreasePerLevel 0.025000
+weaponDamageIncreasePerc
+	StartValue 0.000000
+	ValueIncreasePerLevel 0.025000
+HyperspaceChargingSoundID "HYPERSPACE_CHARGEUP"
+HyperspaceTravelSoundID "HYPERSPACE_TRAVEL"
+EngineSoundID "ENGINE_PHASECAPITALSHIP"
+formationRank 0
+minShadow 0.000000
+maxShadow 1.000000

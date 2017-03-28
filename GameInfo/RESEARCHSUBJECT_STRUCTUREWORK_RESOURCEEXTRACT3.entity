@@ -1,0 +1,46 @@
+﻿TXT
+entityType "ResearchSubject"
+hudIcon "HUDICON_RESEARCHSUBJECT_STRUCTUREWORK_RESOURCEEXTRACT3"
+smallHudIcon "HUDICON_RESEARCHSUBJECT_STRUCTUREWORK_RESOURCEEXTRACT3"
+infoCardIcon ""
+NameStringID "IDS_RESEARCHSUBJECT_STRUCTUREWORK_RESOURCEEXTRACT3_NAME"
+DescriptionStringID "IDS_RESEARCHSUBJECT_STRUCTUREWORK_RESOURCEEXTRACT3_DESCRIPTION"
+researchWindowLocation
+	block 0
+	pos [ 6 , 3 ]
+ResearchField "NonCombat"
+Prerequisites
+	NumResearchPrerequisites 1
+	ResearchPrerequisite
+		Subject "RESEARCHSUBJECT_STRUCTUREWORK_RESOURCEEXTRACT2"
+		Level 5
+	RequiredFactionNameID ""
+	RequiredCompletedResearchSubjects 0
+MinimumArtifactLevel -1
+BaseUpgradeTime 208.000000
+PerLevelUpgradeTime 104.000000
+BaseCost
+	credits 4800.000000
+	metal 600.000000
+	crystal 400.000000
+PerLevelCostIncrease
+	credits 4800.000000
+	metal 600.000000
+	crystal 400.000000
+Tier 6
+onlyWorksIfTierLabsExist FALSE
+MaxNumResearchLevels 5
+priority 1.000000
+researchBoolModifiers 0
+researchFloatModifiers 2
+researchModifier
+	modifierType "ExtractionRateMetalAdjustment"
+	baseValue 0.000000
+	perLevelValue 0.060000
+researchModifier
+	modifierType "ExtractionRateCrystalAdjustment"
+	baseValue 0.000000
+	perLevelValue 0.060000
+artifactPicture ""
+uniqueOverlayBrush ""
+dlcId 204880

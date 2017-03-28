@@ -1,0 +1,38 @@
+﻿TXT
+entityType "ResearchSubject"
+hudIcon "HUDICON_RESEARCHSUBJECT_FRIGATEACCESS_NIGHTHAWK"
+smallHudIcon "HUDICON_RESEARCHSUBJECT_FRIGATEACCESS_NIGHTHAWK"
+infoCardIcon ""
+NameStringID "IDS_RESEARCHSUBJECT_FRIGATEACCESS_NIGHTHAWK_NAME"
+DescriptionStringID "IDS_RESEARCHSUBJECT_FRIGATEACCESS_NIGHTHAWK_DESCRIPTION"
+researchWindowLocation
+	block 2
+	pos [ 5 , 0 ]
+ResearchField "Combat"
+Prerequisites
+	NumResearchPrerequisites 1
+	ResearchPrerequisite
+		Subject "Caldari_ResearchSubject_SubCapitalAccess_Drake"
+		Level 2
+	RequiredFactionNameID ""
+	RequiredCompletedResearchSubjects 0
+MinimumArtifactLevel -1
+BaseUpgradeTime 51.000000
+PerLevelUpgradeTime 5.000000
+BaseCost
+	credits 2860.000000
+	metal 1160.000000
+	crystal 1700.000000
+PerLevelCostIncrease
+	credits 286.000000
+	metal 116.000000
+	crystal 170.000000
+Tier 5
+onlyWorksIfTierLabsExist TRUE
+MaxNumResearchLevels 2
+priority 0.000000
+researchBoolModifiers 0
+researchFloatModifiers 0
+artifactPicture ""
+uniqueOverlayBrush "RebellionResearchOverlay"
+dlcId 204880

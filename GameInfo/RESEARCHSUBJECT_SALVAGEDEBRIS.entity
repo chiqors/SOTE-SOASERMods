@@ -1,0 +1,39 @@
+﻿TXT
+entityType "ResearchSubject"
+hudIcon "HUDICON_RESEARCHSUBJECT_SALVAGEDEBRIS"
+smallHudIcon "HUDICON_RESEARCHSUBJECT_SALVAGEDEBRIS"
+infoCardIcon ""
+NameStringID "IDS_RESEARCHSUBJECT_SALVAGEDEBRIS_NAME"
+DescriptionStringID "IDS_RESEARCHSUBJECT_SALVAGEDEBRIS_DESCRIPTION"
+researchWindowLocation
+	block 0
+	pos [ 2 , 2 ]
+ResearchField "Combat"
+Prerequisites
+	NumResearchPrerequisites 0
+	RequiredFactionNameID ""
+	RequiredCompletedResearchSubjects 0
+MinimumArtifactLevel -1
+BaseUpgradeTime 60.000000
+PerLevelUpgradeTime 30.000000
+BaseCost
+	credits 1000.000000
+	metal 200.000000
+	crystal 350.000000
+PerLevelCostIncrease
+	credits 100.000000
+	metal 50.000000
+	crystal 25.000000
+Tier 2
+onlyWorksIfTierLabsExist FALSE
+MaxNumResearchLevels 5
+priority 1.000000
+researchBoolModifiers 0
+researchFloatModifiers 1
+researchModifier
+	modifierType "SalvageWreckagePercent"
+	baseValue 0.000000
+	perLevelValue 0.030000
+artifactPicture ""
+uniqueOverlayBrush "RebellionResearchOverlay"
+dlcId 204880

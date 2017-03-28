@@ -1,0 +1,38 @@
+﻿TXT
+entityType "ResearchSubject"
+hudIcon "HUDICON_RESEARCHSUBJECT_FRIGATEACCESS_ASTARTE"
+smallHudIcon "HUDICON_RESEARCHSUBJECT_FRIGATEACCESS_ASTARTE"
+infoCardIcon ""
+NameStringID "IDS_RESEARCHSUBJECT_FRIGATEACCESS_ASTARTE_NAME"
+DescriptionStringID "IDS_RESEARCHSUBJECT_FRIGATEACCESS_ASTARTE_DESCRIPTION"
+researchWindowLocation
+	block 2
+	pos [ 5 , 0 ]
+ResearchField "Combat"
+Prerequisites
+	NumResearchPrerequisites 1
+	ResearchPrerequisite
+		Subject "Gallente_ResearchSubject_SubCapitalAccess_Brutix"
+		Level 2
+	RequiredFactionNameID ""
+	RequiredCompletedResearchSubjects 0
+MinimumArtifactLevel -1
+BaseUpgradeTime 35.000000
+PerLevelUpgradeTime 4.000000
+BaseCost
+	credits 4440.000000
+	metal 2780.000000
+	crystal 1680.000000
+PerLevelCostIncrease
+	credits 4440.000000
+	metal 2780.000000
+	crystal 1680.000000
+Tier 5
+onlyWorksIfTierLabsExist TRUE
+MaxNumResearchLevels 2
+priority 0.000000
+researchBoolModifiers 0
+researchFloatModifiers 0
+artifactPicture ""
+uniqueOverlayBrush "RebellionResearchOverlay"
+dlcId 204880

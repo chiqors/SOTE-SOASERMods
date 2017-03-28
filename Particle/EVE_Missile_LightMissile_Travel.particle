@@ -1,0 +1,525 @@
+﻿TXT
+ParticleSimulation
+	HasInfiniteLifeTime TRUE
+	TotalLifeTime 60.000000
+	NumEmitters 7
+	EmitterType "Point"
+	EmitterContents
+		Name "Missile Body mesh"
+		Enabled TRUE
+		EmitRate 1.000000
+		HasInfiniteEmitCount FALSE
+		MaxEmitCount 1
+		hasEmitIntervals FALSE
+		emitIntervalRunDuration 0.000000
+		emitIntervalWaitDuration 0.000000
+		ParticleLifeTime 30.000000
+		ParticleMinStartLinearSpeed 0.000000
+		ParticleMaxStartLinearSpeed 0.000000
+		ParticleMinStartAngularSpeed 3.839725
+		ParticleMaxStartAngularSpeed 3.839725
+		ParticleMinStartRotation 0.000000
+		ParticleMaxStartRotation 6.283185
+		ParticleStartMass 1.000000
+		ParticleStartColor ffffffff
+		ParticleWidth 1.000000
+		ParticleHeight 1.000000
+		MeshName "C:\Program Files\Stardock Games\Sins of a Solar Empire\Mesh\Weapon_TechCapitalMissile.MESH"
+		Position [ 0.000000 0.000000 0.000000 ]
+		Orientation
+			 [ 1.000000 0.000000 0.000000 ]
+			 [ 0.000000 1.000000 0.000000 ]
+			 [ 0.000000 0.000000 1.000000 ]
+		RotateAboutForward 0.000000
+		RotateAboutUp 0.000000
+		RotateAboutCross 0.000000
+		StartTime 0.000000
+		HasInfiniteLifeTime FALSE
+		TotalLifeTime 60.000000
+		BillboardAnchor 0
+		ParticleFacing 0
+		PipelineEffectID "Particle_MeshOld.fx"
+		AreParticlesAttached TRUE
+		numTextures 2
+		textureName ""
+		textureName ""
+		textureAnimationName ""
+		textureAnimationSpawnType "RandomFrames"
+		textureAnimationOnParticleFPS 0.000000
+		ParticlesRotate TRUE
+		MeshParticleRotationAxisType 0
+		MeshParticleRotationAxis [ 0.000000 0.100000 0.000000 ]
+		RotationDirectionType 1
+		AngleVariance 0.000000
+	EmitterType "Point"
+	EmitterContents
+		Name "Launch Flash"
+		Enabled TRUE
+		EmitRate 20.000000
+		HasInfiniteEmitCount FALSE
+		MaxEmitCount 1
+		hasEmitIntervals FALSE
+		emitIntervalRunDuration 0.000000
+		emitIntervalWaitDuration 0.000000
+		ParticleLifeTime 0.200000
+		ParticleMinStartLinearSpeed 0.000000
+		ParticleMaxStartLinearSpeed 0.000000
+		ParticleMinStartAngularSpeed 0.000000
+		ParticleMaxStartAngularSpeed 0.000000
+		ParticleMinStartRotation 0.000000
+		ParticleMaxStartRotation 6.283185
+		ParticleStartMass 1.000000
+		ParticleStartColor fffaf0e6
+		ParticleWidth 50.000000
+		ParticleHeight 50.000000
+		MeshName ""
+		Position [ 0.000000 0.000000 -15.000000 ]
+		Orientation
+			 [ 1.000000 0.000000 0.000000 ]
+			 [ 0.000000 1.000000 0.000000 ]
+			 [ 0.000000 0.000000 1.000000 ]
+		RotateAboutForward 0.000000
+		RotateAboutUp 0.000000
+		RotateAboutCross 0.000000
+		StartTime 0.000000
+		HasInfiniteLifeTime FALSE
+		TotalLifeTime 0.100000
+		BillboardAnchor 0
+		ParticleFacing 0
+		PipelineEffectID "Particle_Additive.fx"
+		AreParticlesAttached TRUE
+		numTextures 2
+		textureName "brightcenter.tga"
+		textureName ""
+		textureAnimationName ""
+		textureAnimationSpawnType "RandomFrames"
+		textureAnimationOnParticleFPS 0.000000
+		ParticlesRotate TRUE
+		MeshParticleRotationAxisType 0
+		MeshParticleRotationAxis [ 0.000000 0.100000 0.000000 ]
+		RotationDirectionType 0
+		AngleVariance 0.000000
+	EmitterType "Point"
+	EmitterContents
+		Name "Engine Flare"
+		Enabled TRUE
+		EmitRate 20.000000
+		HasInfiniteEmitCount FALSE
+		MaxEmitCount 1
+		hasEmitIntervals FALSE
+		emitIntervalRunDuration 0.000000
+		emitIntervalWaitDuration 0.000000
+		ParticleLifeTime 30.000000
+		ParticleMinStartLinearSpeed 0.000000
+		ParticleMaxStartLinearSpeed 0.000000
+		ParticleMinStartAngularSpeed 0.000000
+		ParticleMaxStartAngularSpeed 0.000000
+		ParticleMinStartRotation 0.000000
+		ParticleMaxStartRotation 6.283185
+		ParticleStartMass 1.000000
+		ParticleStartColor ffff8000
+		ParticleWidth 80.000000
+		ParticleHeight 40.000000
+		MeshName ""
+		Position [ 0.000000 0.000000 -15.000000 ]
+		Orientation
+			 [ 1.000000 0.000000 0.000000 ]
+			 [ 0.000000 1.000000 0.000000 ]
+			 [ 0.000000 0.000000 1.000000 ]
+		RotateAboutForward 0.000000
+		RotateAboutUp 0.000000
+		RotateAboutCross 0.000000
+		StartTime 0.000000
+		HasInfiniteLifeTime FALSE
+		TotalLifeTime 60.000000
+		BillboardAnchor 0
+		ParticleFacing 0
+		PipelineEffectID "Particle_Additive.fx"
+		AreParticlesAttached TRUE
+		numTextures 2
+		textureName "C:\Users\drokoth\Desktop\to convert\EVE_MissileFlare.tga"
+		textureName ""
+		textureAnimationName ""
+		textureAnimationSpawnType "RandomFrames"
+		textureAnimationOnParticleFPS 0.000000
+		ParticlesRotate FALSE
+		MeshParticleRotationAxisType 0
+		MeshParticleRotationAxis [ 0.000000 0.100000 0.000000 ]
+		RotationDirectionType 0
+		AngleVariance 0.000000
+	EmitterType "Ring"
+	EmitterContents
+		Name "Engine Flame"
+		Enabled TRUE
+		EmitRate 30.000000
+		HasInfiniteEmitCount TRUE
+		MaxEmitCount 1
+		hasEmitIntervals FALSE
+		emitIntervalRunDuration 0.000000
+		emitIntervalWaitDuration 0.000000
+		ParticleLifeTime 0.100000
+		ParticleMinStartLinearSpeed 0.000000
+		ParticleMaxStartLinearSpeed 0.000000
+		ParticleMinStartAngularSpeed 0.000000
+		ParticleMaxStartAngularSpeed 0.000000
+		ParticleMinStartRotation 0.000000
+		ParticleMaxStartRotation 0.000000
+		ParticleStartMass 1.000000
+		ParticleStartColor ffffffff
+		ParticleWidth 15.000000
+		ParticleHeight 200.000000
+		MeshName ""
+		Position [ 0.000000 0.000000 -100.000000 ]
+		Orientation
+			 [ 1.000000 0.000000 0.000000 ]
+			 [ 0.000000 1.000000 0.000000 ]
+			 [ 0.000000 0.000000 1.000000 ]
+		RotateAboutForward 0.000000
+		RotateAboutUp 0.000000
+		RotateAboutCross 0.000000
+		StartTime 0.000000
+		HasInfiniteLifeTime FALSE
+		TotalLifeTime 60.000000
+		BillboardAnchor 0
+		ParticleFacing 1
+		PipelineEffectID "Particle_Additive.fx"
+		AreParticlesAttached TRUE
+		numTextures 2
+		textureName "gaussbullet.tga"
+		textureName ""
+		textureAnimationName ""
+		textureAnimationSpawnType "RandomFrames"
+		textureAnimationOnParticleFPS 0.000000
+		ParticlesRotate FALSE
+		MeshParticleRotationAxisType 0
+		MeshParticleRotationAxis [ 0.000000 0.000000 0.000000 ]
+		RotationDirectionType 0
+		RingRadiusXMin 0.000000
+		RingRadiusXMax 0.000000
+		RingRadiusYMin 0.000000
+		RingRadiusYMax 0.000000
+		ParticleMaxStartSpeedTangential 0.000000
+		ParticleMaxStartSpeedRingNormal 0.000000
+		ScaleStartSpeedsByRadius FALSE
+		SpawnAngleStart 0.000000
+		SpawnAngleStop 6.283185
+		minSpawnHeight 0.000000
+		maxSpawnHeight 0.000000
+		spawnDirectionIsParallelToPlane FALSE
+		isSpawnAngleRandom FALSE
+		nonRandomSpawnLoopEmittedParticleCount 49
+	EmitterType "Ring"
+	EmitterContents
+		Name "Smoke (Trail)"
+		Enabled TRUE
+		EmitRate 40.000000
+		HasInfiniteEmitCount TRUE
+		MaxEmitCount 1
+		hasEmitIntervals FALSE
+		emitIntervalRunDuration 0.000000
+		emitIntervalWaitDuration 0.000000
+		ParticleLifeTime 3.000000
+		ParticleMinStartLinearSpeed 0.000000
+		ParticleMaxStartLinearSpeed 0.000000
+		ParticleMinStartAngularSpeed 0.000000
+		ParticleMaxStartAngularSpeed 0.000000
+		ParticleMinStartRotation 0.000000
+		ParticleMaxStartRotation 0.000000
+		ParticleStartMass 1.000000
+		ParticleStartColor ffe0e0e0
+		ParticleWidth 10.000000
+		ParticleHeight 400.000000
+		MeshName ""
+		Position [ 0.000000 0.000000 -100.000000 ]
+		Orientation
+			 [ 1.000000 0.000000 0.000000 ]
+			 [ 0.000000 1.000000 0.000000 ]
+			 [ 0.000000 0.000000 1.000000 ]
+		RotateAboutForward 0.000000
+		RotateAboutUp 0.000000
+		RotateAboutCross 0.000000
+		StartTime 0.500000
+		HasInfiniteLifeTime FALSE
+		TotalLifeTime 60.000000
+		BillboardAnchor 0
+		ParticleFacing 1
+		PipelineEffectID "Particle_Additive.fx"
+		AreParticlesAttached FALSE
+		numTextures 2
+		textureName "Smoke.dds"
+		textureName ""
+		textureAnimationName ""
+		textureAnimationSpawnType "RandomFrames"
+		textureAnimationOnParticleFPS 0.000000
+		ParticlesRotate FALSE
+		MeshParticleRotationAxisType 0
+		MeshParticleRotationAxis [ 0.000000 0.000000 0.000000 ]
+		RotationDirectionType 0
+		RingRadiusXMin 0.000000
+		RingRadiusXMax 0.000000
+		RingRadiusYMin 0.000000
+		RingRadiusYMax 0.000000
+		ParticleMaxStartSpeedTangential 0.000000
+		ParticleMaxStartSpeedRingNormal -400.000000
+		ScaleStartSpeedsByRadius FALSE
+		SpawnAngleStart 0.000000
+		SpawnAngleStop 0.000000
+		minSpawnHeight 0.000000
+		maxSpawnHeight 0.000000
+		spawnDirectionIsParallelToPlane FALSE
+		isSpawnAngleRandom FALSE
+		nonRandomSpawnLoopEmittedParticleCount 0
+	EmitterType "Ring"
+	EmitterContents
+		Name "Engine Fire (Trail)"
+		Enabled TRUE
+		EmitRate 120.000000
+		HasInfiniteEmitCount TRUE
+		MaxEmitCount 1
+		hasEmitIntervals FALSE
+		emitIntervalRunDuration 0.000000
+		emitIntervalWaitDuration 0.000000
+		ParticleLifeTime 0.300000
+		ParticleMinStartLinearSpeed 0.000000
+		ParticleMaxStartLinearSpeed 0.000000
+		ParticleMinStartAngularSpeed 0.000000
+		ParticleMaxStartAngularSpeed 0.000000
+		ParticleMinStartRotation 0.000000
+		ParticleMaxStartRotation 0.000000
+		ParticleStartMass 1.000000
+		ParticleStartColor ffff8000
+		ParticleWidth 7.000000
+		ParticleHeight 250.000000
+		MeshName ""
+		Position [ 0.000000 0.000000 -100.000000 ]
+		Orientation
+			 [ 1.000000 0.000000 0.000000 ]
+			 [ 0.000000 1.000000 0.000000 ]
+			 [ 0.000000 0.000000 1.000000 ]
+		RotateAboutForward 0.000000
+		RotateAboutUp 0.000000
+		RotateAboutCross 0.000000
+		StartTime 0.000000
+		HasInfiniteLifeTime FALSE
+		TotalLifeTime 60.000000
+		BillboardAnchor 0
+		ParticleFacing 1
+		PipelineEffectID "Particle_Additive.fx"
+		AreParticlesAttached FALSE
+		numTextures 2
+		textureName "Smoke.dds"
+		textureName ""
+		textureAnimationName ""
+		textureAnimationSpawnType "RandomFrames"
+		textureAnimationOnParticleFPS 0.000000
+		ParticlesRotate FALSE
+		MeshParticleRotationAxisType 0
+		MeshParticleRotationAxis [ 0.000000 0.000000 0.000000 ]
+		RotationDirectionType 0
+		RingRadiusXMin 0.000000
+		RingRadiusXMax 0.000000
+		RingRadiusYMin 0.000000
+		RingRadiusYMax 0.000000
+		ParticleMaxStartSpeedTangential 0.000000
+		ParticleMaxStartSpeedRingNormal -400.000000
+		ScaleStartSpeedsByRadius FALSE
+		SpawnAngleStart 0.000000
+		SpawnAngleStop 0.000000
+		minSpawnHeight 0.000000
+		maxSpawnHeight 0.000000
+		spawnDirectionIsParallelToPlane FALSE
+		isSpawnAngleRandom FALSE
+		nonRandomSpawnLoopEmittedParticleCount 0
+	EmitterType "Point"
+	EmitterContents
+		Name "Engine Flare Glow (Bloom)"
+		Enabled TRUE
+		EmitRate 20.000000
+		HasInfiniteEmitCount FALSE
+		MaxEmitCount 1
+		hasEmitIntervals FALSE
+		emitIntervalRunDuration 0.000000
+		emitIntervalWaitDuration 0.000000
+		ParticleLifeTime 30.000000
+		ParticleMinStartLinearSpeed 0.000000
+		ParticleMaxStartLinearSpeed 0.000000
+		ParticleMinStartAngularSpeed 0.000000
+		ParticleMaxStartAngularSpeed 0.000000
+		ParticleMinStartRotation 0.000000
+		ParticleMaxStartRotation 6.283185
+		ParticleStartMass 1.000000
+		ParticleStartColor ffffffff
+		ParticleWidth 160.000000
+		ParticleHeight 80.000000
+		MeshName ""
+		Position [ 0.000000 0.000000 -15.000000 ]
+		Orientation
+			 [ 1.000000 0.000000 0.000000 ]
+			 [ 0.000000 1.000000 0.000000 ]
+			 [ 0.000000 0.000000 1.000000 ]
+		RotateAboutForward 0.000000
+		RotateAboutUp 0.000000
+		RotateAboutCross 0.000000
+		StartTime 0.000000
+		HasInfiniteLifeTime FALSE
+		TotalLifeTime 60.000000
+		BillboardAnchor 0
+		ParticleFacing 0
+		PipelineEffectID "Particle_Additive.fx"
+		AreParticlesAttached TRUE
+		numTextures 2
+		textureName "C:\Users\drokoth\Desktop\to convert\EVE_MissileFlare.tga"
+		textureName ""
+		textureAnimationName ""
+		textureAnimationSpawnType "RandomFrames"
+		textureAnimationOnParticleFPS 0.000000
+		ParticlesRotate FALSE
+		MeshParticleRotationAxisType 0
+		MeshParticleRotationAxis [ 0.000000 0.100000 0.000000 ]
+		RotationDirectionType 0
+		AngleVariance 0.000000
+	NumAffectors 8
+	AffectorType "Fade"
+	AffectorContents
+		Name ""
+		Enabled TRUE
+		StartTime 0.000000
+		HasInfiniteLifeTime TRUE
+		TotalLifeTime 0.000000
+		UseYoungParticleAffectThreshold FALSE
+		YoungParticleAffectThreshold 0.000000
+		UseOldParticleAffectThreshold FALSE
+		OldParticleAffectThreshold 0.000000
+		AffectAttachedParticles TRUE
+		numAttachedEmitters 1
+		attachedEmitterName "Engine Flame"
+		DoFadeOut TRUE
+		FadeOutTime 1.000000
+		DoFadeIn TRUE
+		FadeInTime 0.100000
+	AffectorType "Fade"
+	AffectorContents
+		Name ""
+		Enabled TRUE
+		StartTime 0.000000
+		HasInfiniteLifeTime TRUE
+		TotalLifeTime 0.000000
+		UseYoungParticleAffectThreshold FALSE
+		YoungParticleAffectThreshold 0.000000
+		UseOldParticleAffectThreshold FALSE
+		OldParticleAffectThreshold 0.000000
+		AffectAttachedParticles TRUE
+		numAttachedEmitters 1
+		attachedEmitterName "Launch Flash"
+		DoFadeOut TRUE
+		FadeOutTime 0.200000
+		DoFadeIn FALSE
+		FadeInTime 0.000000
+	AffectorType "Fade"
+	AffectorContents
+		Name "Smoke Fade"
+		Enabled TRUE
+		StartTime 0.000000
+		HasInfiniteLifeTime TRUE
+		TotalLifeTime 0.000000
+		UseYoungParticleAffectThreshold FALSE
+		YoungParticleAffectThreshold 0.000000
+		UseOldParticleAffectThreshold FALSE
+		OldParticleAffectThreshold 0.000000
+		AffectAttachedParticles TRUE
+		numAttachedEmitters 1
+		attachedEmitterName "Smoke (Trail)"
+		DoFadeOut TRUE
+		FadeOutTime 10.000000
+		DoFadeIn TRUE
+		FadeInTime 0.200000
+	AffectorType "LinearInflate"
+	AffectorContents
+		Name "(new) LinearInflate-1"
+		Enabled TRUE
+		StartTime 0.000000
+		HasInfiniteLifeTime TRUE
+		TotalLifeTime 0.000000
+		UseYoungParticleAffectThreshold FALSE
+		YoungParticleAffectThreshold 0.000000
+		UseOldParticleAffectThreshold FALSE
+		OldParticleAffectThreshold 0.000000
+		AffectAttachedParticles TRUE
+		numAttachedEmitters 1
+		attachedEmitterName "Smoke (Trail)"
+		WidthInflateRate 12.000000
+		HeightInflateRate 12.000000
+	AffectorType "Fade"
+	AffectorContents
+		Name "Fire Fade"
+		Enabled TRUE
+		StartTime 0.000000
+		HasInfiniteLifeTime TRUE
+		TotalLifeTime 0.000000
+		UseYoungParticleAffectThreshold FALSE
+		YoungParticleAffectThreshold 0.000000
+		UseOldParticleAffectThreshold FALSE
+		OldParticleAffectThreshold 0.000000
+		AffectAttachedParticles TRUE
+		numAttachedEmitters 1
+		attachedEmitterName "Engine Fire (Trail)"
+		DoFadeOut TRUE
+		FadeOutTime 0.400000
+		DoFadeIn FALSE
+		FadeInTime 0.200000
+	AffectorType "ColorOscillator"
+	AffectorContents
+		Name "(new) ColorOscillator-1"
+		Enabled TRUE
+		StartTime 0.000000
+		HasInfiniteLifeTime TRUE
+		TotalLifeTime 0.000000
+		UseYoungParticleAffectThreshold FALSE
+		YoungParticleAffectThreshold 0.000000
+		UseOldParticleAffectThreshold FALSE
+		OldParticleAffectThreshold 0.000000
+		AffectAttachedParticles TRUE
+		numAttachedEmitters 1
+		attachedEmitterName "Engine Flare Glow (Bloom)"
+		TransitionPeriod 1.000000
+		StartColor ffffffff
+		StartAlpha 0.200000
+		EndColor ff00ffff
+		EndAlpha 0.200000
+	AffectorType "ColorOscillator"
+	AffectorContents
+		Name "(new) ColorOscillator-2"
+		Enabled TRUE
+		StartTime 0.000000
+		HasInfiniteLifeTime TRUE
+		TotalLifeTime 0.000000
+		UseYoungParticleAffectThreshold FALSE
+		YoungParticleAffectThreshold 0.000000
+		UseOldParticleAffectThreshold FALSE
+		OldParticleAffectThreshold 0.000000
+		AffectAttachedParticles TRUE
+		numAttachedEmitters 1
+		attachedEmitterName "Engine Flare"
+		TransitionPeriod 2.000000
+		StartColor ffffffff
+		StartAlpha 1.000000
+		EndColor ff80ffff
+		EndAlpha 1.000000
+	AffectorType "LinearInflate"
+	AffectorContents
+		Name "Smoke and Fire Trail Deflate"
+		Enabled TRUE
+		StartTime 0.000000
+		HasInfiniteLifeTime TRUE
+		TotalLifeTime 0.000000
+		UseYoungParticleAffectThreshold FALSE
+		YoungParticleAffectThreshold 0.000000
+		UseOldParticleAffectThreshold FALSE
+		OldParticleAffectThreshold 0.000000
+		AffectAttachedParticles TRUE
+		numAttachedEmitters 2
+		attachedEmitterName "Engine Fire (Trail)"
+		attachedEmitterName "Smoke (Trail)"
+		WidthInflateRate -15.000000
+		HeightInflateRate 0.000000
+	length 0.000000

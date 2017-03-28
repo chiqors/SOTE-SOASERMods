@@ -1,0 +1,35 @@
+﻿TXT
+entityType "ResearchSubject"
+hudIcon "HUDICON_RESEARCHSUBJECT_FRIGATEACCESS_MOA"
+smallHudIcon "HUDICON_RESEARCHSUBJECT_FRIGATEACCESS_MOA"
+infoCardIcon ""
+NameStringID "IDS_RESEARCHSUBJECT_FRIGATEACCESS_BLACKBIRD_NAME"
+DescriptionStringID "IDS_RESEARCHSUBJECT_FRIGATEACCESS_BLACKBIRD_DESCRIPTION"
+researchWindowLocation
+	block 2
+	pos [ 2 , 3 ]
+ResearchField "Combat"
+Prerequisites
+	NumResearchPrerequisites 0
+	RequiredFactionNameID ""
+	RequiredCompletedResearchSubjects 0
+MinimumArtifactLevel -1
+BaseUpgradeTime 60.000000
+PerLevelUpgradeTime 5.000000
+BaseCost
+	credits 1600.000000
+	metal 200.000000
+	crystal 400.000000
+PerLevelCostIncrease
+	credits 100.000000
+	metal 25.000000
+	crystal 25.000000
+Tier 2
+onlyWorksIfTierLabsExist TRUE
+MaxNumResearchLevels 1
+priority 0.000000
+researchBoolModifiers 0
+researchFloatModifiers 0
+artifactPicture ""
+uniqueOverlayBrush "RebellionResearchOverlay"
+dlcId 204880

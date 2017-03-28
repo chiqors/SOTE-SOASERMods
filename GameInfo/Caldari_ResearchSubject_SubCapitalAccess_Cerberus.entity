@@ -1,0 +1,38 @@
+﻿TXT
+entityType "ResearchSubject"
+hudIcon "HUDICON_RESEARCHSUBJECT_FRIGATEACCESS_CERBERUS"
+smallHudIcon "HUDICON_RESEARCHSUBJECT_FRIGATEACCESS_CERBERUS"
+infoCardIcon ""
+NameStringID "AbilityT2CruiserCerberusName"
+DescriptionStringID "AbilityT2CruiserCerberuskDescription"
+researchWindowLocation
+	block 2
+	pos [ 3 , 2 ]
+ResearchField "Combat"
+Prerequisites
+	NumResearchPrerequisites 1
+	ResearchPrerequisite
+		Subject "Caldari_ResearchSubject_SubCapitalAccess_Caracal"
+		Level 1
+	RequiredFactionNameID ""
+	RequiredCompletedResearchSubjects 0
+MinimumArtifactLevel -1
+BaseUpgradeTime 75.000000
+PerLevelUpgradeTime 10.000000
+BaseCost
+	credits 3000.000000
+	metal 400.000000
+	crystal 800.000000
+PerLevelCostIncrease
+	credits 100.000000
+	metal 0.000000
+	crystal 25.000000
+Tier 3
+onlyWorksIfTierLabsExist TRUE
+MaxNumResearchLevels 1
+priority 0.000000
+researchBoolModifiers 0
+researchFloatModifiers 0
+artifactPicture ""
+uniqueOverlayBrush "RebellionResearchOverlay"
+dlcId 204880

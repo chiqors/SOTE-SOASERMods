@@ -1,0 +1,294 @@
+TXT
+backdropDimPercentage 0.90
+backdropBrush "ICOGameLobbyScreenBackdrop"
+titleOverlayBrush ""
+size [1064 , 808]
+contentRefArea [0, 0, 1064, 808]
+titleRefArea [90, 40, 508, 30]
+titleOverlayRefArea [0, 0, 693, 90]
+numFactionWindows 2
+	factionSelectWindowDef
+		backdropBrush "RaceSelectDialogBackground"
+		backdropArea [40,30,946,717]
+		smallFactionPortraitOverlay "RaceSelectSmallPortraitOverlay"
+		smallFactionPortraitOffset [0,0]
+		previousFactionPortraitBrush "RaceSelectDialogPhaseLoyalistPortraitSmall"
+		previousFactionPortraitArea [64, 215, 65, 40]
+		nextFactionPortraitBrush "RaceSelectDialogPsiLoyalistPortraitSmall"
+		nextFactionPortraitArea [896, 215, 65, 40]
+		leftPlayer "Player_AmarrEmpire"
+		rightPlayer "Player_MinmatarRepublic"
+		raceNameFont "WindowTitle"
+		raceNameID "IDS_PLAYERSELECT1"
+		raceNameArea [507,75,0,0]
+		raceDescriptionFont "ListItemSmall"
+		raceDescriptionID "IDS_RACESELECTDIALOG_TECH_DESCRIPTION"
+		raceDescriptionArea [420,27,190,190]
+		leftPlayerNameArea [270,315,0,0]
+		rightPlayerNameArea [754,315,0,0]
+		playerDescriptionFont "ButtonLabel"
+		leftPlayerDescriptionID "IDS_RACESELECTDIALOG_TECHLOYALIST_DESCRIPTION"
+		leftPlayerDescriptionArea [70,140,400,500]
+		rightPlayerDescriptionID "IDS_RACESELECTDIALOG_TECHREBEL_DESCRIPTION"
+		rightPlayerDescriptionArea [560,140,400,500]
+		portraitOverlayBrush "PlayerScreenPortraitOverlay"
+		portraitUnderlayBrush "PlayerScreenPortraitUnderlay"
+		portraitBackdropBrush "PlayerScreenHappinessBackdropForHumanPlayer"
+		frameOffset [0,-26]
+		backdropOffset [0,168]
+		leftPlayerPortraitBrush "RaceSelectDialogTechLoyalistPortrait"
+		leftPlayerPortraitArea [174,52,195,219]
+		rightPlayerPortraitBrush "RaceSelectDialogTechRebelPortrait"
+		rightPlayerPortraitArea [660,52,195,219]
+		techButtonDef
+			backdrop "ResearchWindowButtonBackdrop"
+			overlay ""
+		sharedTechsStartPosition [364,200]
+		spaceBetweenSharedTechs 6
+			sharedTechOne "Amarr_ResearchSubject_PlanetModuleAccess_AmarrTacticalOutpost"
+			sharedTechTwo "Amarr_ResearchSubject_PlanetModuleAccess_JumpBridge"
+			sharedTechThree "RESEARCHSUBJECT_ARMORTECH1"
+			sharedTechFour "RESEARCHSUBJECT_SHIELDSRESIST0"
+		sharedCapitalShipsStartPosition [441,270]
+		spaceBetweenSharedCapitalShips 2
+			sharedCapitalShipOne "Amarr_Ship_Carrier_Archon"
+			sharedCapitalShipTwo "Amarr_Ship_Dreadnought_Revelation_ShortRange"
+			sharedCapitalShipThree "Minmatar_Ship_Carrier_Nidhoggur"
+			sharedCapitalShipFour "Amarr_Ship_Supercarrier_Aeon"
+			sharedCapitalShipFive "Minmatar_Ship_Dreadnought_Naglfar_LongRange"
+			sharedCapitalShipSix "Minmatar_Ship_Supercarrier_Hel"
+		spaceBetweenFactionTechs 8
+		leftFactionTechsStartPosition [373, 578]
+			leftFactionTechOne "RESEARCHSUBJECT_ANTIMATTERTECH2"
+			leftFactionTechTwo "RESEARCHSUBJECT_FORTRESS_COMPARTMENTALIZATION"
+			leftFactionTechThree "RESEARCHSUBJECT_NOVALITH_DEREGULATION"
+			leftFactionTechFour "RESEARCHSUBJECT_HARDENED_DEFENSES"
+			leftFactionTechFive "RESEARCHSUBJECT_BATTLEFIELD_PROMOTIONS"
+			leftFactionTechSix "RESEARCHSUBJECT_TITANACCESS_TECHLOYALIST_1"
+		rightFactionTechsStartPosition [553, 578]
+			rightFactionTechOne "RESEARCHSUBJECT_SAVAGE_THRILL"
+			rightFactionTechTwo "RESEARCHSUBJECT_PILLAGED_WAR_CHEST"
+			rightFactionTechThree "RESEARCHSUBJECT_TRUCE_AMONGST_ROGUES"
+			rightFactionTechFour "RESEARCHSUBJECT_PIRATE_MERCENARIES"
+			rightFactionTechFive "RESEARCHSUBJECT_LIBERATED_RESISTANCE"
+			rightFactionTechSix "Minmatar_RESEARCHSUBJECT_TITANACCESS_Ragnarok"
+		selectLeftButton
+			area [68, 585, 230 , 105]
+			underlayBrush "RaceSelectTechLoyalist"
+			buttonTextFont "ButtonLabel"
+			buttonTextID "IDS_RACESELECTDIALOG_SELECTTECLOYALIST"
+			buttonTextArea [18,-20,50,100]
+		selectRightButton
+			area [730, 585, 230 , 105]
+			underlayBrush "RaceSelectTechRebel"
+			buttonTextFont "ButtonLabel"
+			buttonTextID "IDS_RACESELECTDIALOG_SELECTTECREBEL"
+			buttonTextArea [162,-20,50,100]
+		selectRandomButton
+			area [483, 698, 65, 40]
+			underlayBrush "RaceSelectRandom"
+			buttonTextFont "TextEntry"
+			buttonTextID "IDS_RACESELECTDIALOG_SELECTRANDOM"
+			buttonTextArea [-9,-8,80,50]
+		previousRaceButton
+			area [55, 284, 65, 40]
+			underlayBrush "RaceSelectLeftButton"
+			buttonTextFont "ButtonLabel"
+			buttonTextID ""
+			buttonTextArea [0,0,0,0]
+		nextRaceButton
+			area [905, 284, 65, 40]
+			underlayBrush "RaceSelectRightButton"
+			buttonTextFont "ButtonLabel"
+			buttonTextID ""
+			buttonTextArea [0,0,0,0]
+	factionSelectWindowDef
+		backdropBrush "RaceSelectDialogBackground"
+		backdropArea [40,30,946,717]
+		smallFactionPortraitOverlay "RaceSelectSmallPortraitOverlay"
+		smallFactionPortraitOffset [0,0]
+		previousFactionPortraitBrush "RaceSelectDialogTechLoyalistPortraitSmall"
+		previousFactionPortraitArea [64, 215, 65, 40]
+		nextFactionPortraitBrush "RaceSelectDialogPhaseLoyalistPortraitSmall"
+		nextFactionPortraitArea [896, 215, 65, 40]
+		leftPlayer "Player_GallenteFederation"
+		rightPlayer "Player_CaldariState"
+		raceNameFont "WindowTitle"
+		raceNameID "IDS_PLAYERRACENAME_PSI"
+		raceNameArea [507,75,0,0]
+		raceDescriptionFont "ListItemSmall"
+		raceDescriptionID "IDS_RACESELECTDIALOG_PSI_DESCRIPTION"
+		raceDescriptionArea [420,27,190,190]
+		leftPlayerNameArea [270,315,0,0]
+		rightPlayerNameArea [754,315,0,0]
+		playerDescriptionFont "ButtonLabel"
+		leftPlayerDescriptionID "IDS_RACESELECTDIALOG_PSILOYALIST_DESCRIPTION"
+		leftPlayerDescriptionArea [70,140,400,500]
+		rightPlayerDescriptionID "IDS_RACESELECTDIALOG_PSIREBEL_DESCRIPTION"
+		rightPlayerDescriptionArea [560,140,400,500]
+		portraitOverlayBrush "PlayerScreenPortraitOverlay"
+		portraitUnderlayBrush "PlayerScreenPortraitUnderlay"
+		portraitBackdropBrush "PlayerScreenHappinessBackdropForHumanPlayer"
+		frameOffset [0,-26]
+		backdropOffset [0,168]
+		leftPlayerPortraitBrush "RaceSelectDialogPsiLoyalistPortrait"
+		leftPlayerPortraitArea [174,52,195,219]
+		rightPlayerPortraitBrush "RaceSelectDialogPsiRebelPortrait"
+		rightPlayerPortraitArea [660,52,195,219]
+		techButtonDef
+			backdrop "ResearchWindowButtonBackdrop"
+			overlay ""
+		sharedTechsStartPosition [364,200]
+		spaceBetweenSharedTechs 6
+			sharedTechOne "ALLRACES_RESEARCHSUBJECT_ABILITYACCESS_STASISWEBFIER"
+			sharedTechTwo "ALLRACES_RESEARCHSUBJECT_ABILITYACCESS_WARPDISRUPTOR"
+			sharedTechThree "AllRaces_ResearchSubject_Weapon_Damage_Missile4"
+			sharedTechFour "RESEARCHSUBJECT_SHIELDSRESIST3"
+		sharedCapitalShipsStartPosition [441,270]
+		spaceBetweenSharedCapitalShips 2
+			sharedCapitalShipOne "Gallente_Ship_Carrier_Thanatos"
+			sharedCapitalShipTwo "Gallente_Ship_Dreadnought_Moros_ShortRange"
+			sharedCapitalShipThree "Caldari_Ship_Carrier_Chimera"
+			sharedCapitalShipFour "Gallente_Ship_Supercarrier_Nyx"
+			sharedCapitalShipFive "Caldari_Ship_Dreadnought_Phoenix_LongRange"
+			sharedCapitalShipSix "Caldari_Ship_Supercarrier_Wyvern"
+		spaceBetweenFactionTechs 8
+		leftFactionTechsStartPosition [373, 578]
+			leftFactionTechOne "RESEARCHSUBJECT_FURY_OF_THE_UNITY"
+			leftFactionTechTwo "RESEARCHSUBJECT_COWARDS_SUBMISSION"
+			leftFactionTechThree "RESEARCHSUBJECT_ASSIMILATED_POPULACE"
+			leftFactionTechFour "RESEARCHSUBJECT_GLOBAL_UNITY"
+			leftFactionTechFive "RESEARCHSUBJECT_PLANET_FOR_A_PLANET"
+			leftFactionTechSix "RESEARCHSUBJECT_TITANACCESS_PSILOYALIST_1"
+		rightFactionTechsStartPosition [553, 578]
+			rightFactionTechOne "RESEARCHSUBJECT_REANIMATION"
+			rightFactionTechTwo "RESEARCHSUBJECT_RETURN_OF_THE_FALLEN"
+			rightFactionTechThree "RESEARCHSUBJECT_MASS_COMMUNION"
+			rightFactionTechFour "RESEARCHSUBJECT_CLEANSE_AND_RENEW"
+			rightFactionTechFive "RESEARCHSUBJECT_PROTECTION_OF_THE_UNITY"
+			rightFactionTechSix "RESEARCHSUBJECT_TITANACCESS_PSIREBEL_1"
+		selectLeftButton
+			area [68, 585, 230 , 105]
+			underlayBrush "RaceSelectPsiLoyalist"
+			buttonTextFont "ButtonLabel"
+			buttonTextID "IDS_RACESELECTDIALOG_SELECTPSILOYALIST"
+			buttonTextArea [18,-20,50,100]
+		selectRightButton
+			area [730, 585, 230 , 105]
+			underlayBrush "RaceSelectPsiRebel"
+			buttonTextFont "ButtonLabel"
+			buttonTextID "IDS_RACESELECTDIALOG_SELECTPSIREBEL"
+			buttonTextArea [162,-20,50,100]
+		selectRandomButton
+			area [483, 698, 65, 40]
+			underlayBrush "RaceSelectRandom"
+			buttonTextFont "TextEntry"
+			buttonTextID "IDS_RACESELECTDIALOG_SELECTRANDOM"
+			buttonTextArea [-9,-8,80,50]
+		previousRaceButton
+			area [55, 284, 65, 40]
+			underlayBrush "RaceSelectLeftButton"
+			buttonTextFont "ButtonLabel"
+			buttonTextID ""
+			buttonTextArea [0,0,0,0]
+		nextRaceButton
+			area [905, 284, 65, 40]
+			underlayBrush "RaceSelectRightButton"
+			buttonTextFont "ButtonLabel"
+			buttonTextID ""
+			buttonTextArea [0,0,0,0]
+	factionSelectWindowDef
+		backdropBrush "RaceSelectDialogBackground"
+		backdropArea [40,30,946,717]
+		smallFactionPortraitOverlay "RaceSelectSmallPortraitOverlay"
+		smallFactionPortraitOffset [0,0]
+		previousFactionPortraitBrush "RaceSelectDialogPsiLoyalistPortraitSmall"
+		previousFactionPortraitArea [64, 215, 65, 40]
+		nextFactionPortraitBrush "RaceSelectDialogTechLoyalistPortraitSmall"
+		nextFactionPortraitArea [896, 215, 65, 40]
+		leftPlayer "Player_GallenteFederation"
+		rightPlayer "PlayerPhaseRebel"
+		raceNameFont "WindowTitle"
+		raceNameID "IDS_PLAYERRACENAME_PHASE"
+		raceNameArea [507,75,0,0]
+		raceDescriptionFont "ListItemSmall"
+		raceDescriptionID "IDS_RACESELECTDIALOG_PHASE_DESCRIPTION"
+		raceDescriptionArea [420,27,190,190]
+		leftPlayerNameArea [270,315,0,0]
+		rightPlayerNameArea [754,315,0,0]
+		playerDescriptionFont "ButtonLabel"
+		leftPlayerDescriptionID "IDS_RACESELECTDIALOG_PHASELOYALIST_DESCRIPTION"
+		leftPlayerDescriptionArea [70,140,400,500]
+		rightPlayerDescriptionID "IDS_RACESELECTDIALOG_PHASEREBEL_DESCRIPTION"
+		rightPlayerDescriptionArea [560,140,400,500]
+		portraitOverlayBrush "PlayerScreenPortraitOverlay"
+		portraitUnderlayBrush "PlayerScreenPortraitUnderlay"
+		portraitBackdropBrush "PlayerScreenHappinessBackdropForHumanPlayer"
+		frameOffset [0,-26]
+		backdropOffset [0,168]
+		leftPlayerPortraitBrush "RaceSelectDialogPhaseLoyalistPortrait"
+		leftPlayerPortraitArea [174,52,195,219]
+		rightPlayerPortraitBrush "RaceSelectDialogPhaseRebelPortrait"
+		rightPlayerPortraitArea [660,52,195,219]
+		techButtonDef
+			backdrop "ResearchWindowButtonBackdrop"
+			overlay ""
+		sharedTechsStartPosition [364,200]
+		spaceBetweenSharedTechs 6
+			sharedTechOne "Gallente_ResearchSubject_PlanetModuleAccess_GallenteTacticalOutpost"
+			sharedTechTwo "RESEARCHSUBJECT_PLANETMODULEACCESS_CANNONPHASE"
+			sharedTechThree "Gallente_ResearchSubject_PlanetModuleAccess_JumpBridge"
+			sharedTechFour "RESEARCHSUBJECT_WEAPONIGNORESHIELDS_PHASEMISSILE0"
+		sharedCapitalShipsStartPosition [441,270]
+		spaceBetweenSharedCapitalShips 2
+			sharedCapitalShipOne "Gallente_Ship_Carrier_Thanatos"
+			sharedCapitalShipTwo "Gallente_Ship_Supercarrier_Nyx"
+			sharedCapitalShipThree "Gallente_Ship_Dreadnought_Moros_ShortRange"
+			sharedCapitalShipFour "Gallente_Ship_Dreadnought_Moros_LongRange"
+			sharedCapitalShipFive "Gallente_Ship_Carrier_Triage_Thanatos"
+			sharedCapitalShipSix "Gallente_Ship_ColonyCapital_Rorqual"
+		spaceBetweenFactionTechs 8
+		leftFactionTechsStartPosition [373, 578]
+			leftFactionTechOne "RESEARCHSUBJECT_CIVILIAN_EVACUATION"
+			leftFactionTechTwo "RESEARCHSUBJECT_STRIPPED_TO_THE_CORE"
+			leftFactionTechThree "RESEARCHSUBJECT_SHIPBOARD_LABS"
+			leftFactionTechFour "RESEARCHSUBJECT_MOBILE_RULERSHIP"
+			leftFactionTechFive "RESEARCHSUBJECT_SOLITARY_PATH"
+			leftFactionTechSix "Gallente_ResearchSubject_CapitalAccess_Erebus"
+		rightFactionTechsStartPosition [553, 578]
+			rightFactionTechOne "RESEARCHSUBJECT_STARBASE_MOBILIZATION"
+			rightFactionTechTwo "RESEARCHSUBJECT_PHASIC_STRIKE"
+			rightFactionTechThree "RESEARCHSUBJECT_ALL_FOR_ONE"
+			rightFactionTechFour "RESEARCHSUBJECT_SHARED_NETWORK"
+			rightFactionTechFive "RESEARCHSUBJECT_FRIENDLY_JUMP_TELEMETRY"
+			rightFactionTechSix "RESEARCHSUBJECT_TITANACCESS_PHASEREBEL_1"
+		selectLeftButton
+			area [68, 585, 230 , 105]
+			underlayBrush "RaceSelectPhaseLoyalist"
+			buttonTextFont "ButtonLabel"
+			buttonTextID "IDS_RACESELECTDIALOG_SELECTPHASELOYALIST"
+			buttonTextArea [18,-20,50,100]
+		selectRightButton
+			area [730, 585, 230 , 105]
+			underlayBrush "RaceSelectPhaseRebel"
+			buttonTextFont "ButtonLabel"
+			buttonTextID "IDS_RACESELECTDIALOG_SELECTPHASEREBEL"
+			buttonTextArea [162,-20,50,100]
+		selectRandomButton
+			area [483, 698, 65, 40]
+			underlayBrush "RaceSelectRandom"
+			buttonTextFont "TextEntry"
+			buttonTextID "IDS_RACESELECTDIALOG_SELECTRANDOM"
+			buttonTextArea [-9,-8,80,50]
+		previousRaceButton
+			area [55, 284, 65, 40]
+			underlayBrush "RaceSelectLeftButton"
+			buttonTextFont "ButtonLabel"
+			buttonTextID ""
+			buttonTextArea [0,0,0,0]
+		nextRaceButton
+			area [905, 284, 65, 40]
+			underlayBrush "RaceSelectRightButton"
+			buttonTextFont "ButtonLabel"
+			buttonTextID ""
+			buttonTextArea [0,0,0,0]

@@ -1,0 +1,252 @@
+﻿TXT
+ParticleSimulation
+	HasInfiniteLifeTime FALSE
+	TotalLifeTime 60.000000
+	NumEmitters 3
+	EmitterType "Point"
+	EmitterContents
+		Name "range"
+		Enabled TRUE
+		EmitRate 1.000000
+		HasInfiniteEmitCount FALSE
+		MaxEmitCount 1
+		hasEmitIntervals FALSE
+		emitIntervalRunDuration 0.000000
+		emitIntervalWaitDuration 0.000000
+		ParticleLifeTime 60.000000
+		ParticleMinStartLinearSpeed 0.000000
+		ParticleMaxStartLinearSpeed 0.000000
+		ParticleMinStartAngularSpeed 0.000000
+		ParticleMaxStartAngularSpeed 0.000000
+		ParticleMinStartRotation 0.000000
+		ParticleMaxStartRotation 0.000000
+		ParticleStartMass 1.000000
+		ParticleStartColor ff0000ff
+		ParticleWidth 11000.000000
+		ParticleHeight 11000.000000
+		MeshName ""
+		Position [ 0.000000 0.000000 0.000000 ]
+		Orientation
+			 [ 1.000000 0.000000 0.000000 ]
+			 [ 0.000000 1.000000 0.000000 ]
+			 [ 0.000000 0.000000 1.000000 ]
+		RotateAboutForward 0.000000
+		RotateAboutUp 0.000000
+		RotateAboutCross 0.000000
+		StartTime 0.000000
+		HasInfiniteLifeTime TRUE
+		TotalLifeTime 0.000000
+		BillboardAnchor 0
+		ParticleFacing 0
+		PipelineEffectID "Particle_Additive.fx"
+		AreParticlesAttached TRUE
+		numTextures 2
+		textureName "gravitybomb_orb.dds"
+		textureName ""
+		textureAnimationName ""
+		textureAnimationSpawnType "RandomFrames"
+		textureAnimationOnParticleFPS 0.000000
+		ParticlesRotate FALSE
+		MeshParticleRotationAxisType 0
+		MeshParticleRotationAxis [ 0.000000 0.100000 0.000000 ]
+		RotationDirectionType 0
+		AngleVariance 3.141593
+	EmitterType "Point"
+	EmitterContents
+		Name "grow"
+		Enabled TRUE
+		EmitRate 1.000000
+		HasInfiniteEmitCount FALSE
+		MaxEmitCount 1
+		hasEmitIntervals FALSE
+		emitIntervalRunDuration 0.000000
+		emitIntervalWaitDuration 0.000000
+		ParticleLifeTime 30.000000
+		ParticleMinStartLinearSpeed 0.000000
+		ParticleMaxStartLinearSpeed 0.000000
+		ParticleMinStartAngularSpeed 0.000000
+		ParticleMaxStartAngularSpeed 0.000000
+		ParticleMinStartRotation 0.000000
+		ParticleMaxStartRotation 0.000000
+		ParticleStartMass 1.000000
+		ParticleStartColor ff0000c0
+		ParticleWidth 200.000000
+		ParticleHeight 200.000000
+		MeshName ""
+		Position [ 0.000000 0.000000 0.000000 ]
+		Orientation
+			 [ 1.000000 0.000000 0.000000 ]
+			 [ 0.000000 1.000000 0.000000 ]
+			 [ 0.000000 0.000000 1.000000 ]
+		RotateAboutForward 0.000000
+		RotateAboutUp 0.000000
+		RotateAboutCross 0.000000
+		StartTime 0.000000
+		HasInfiniteLifeTime TRUE
+		TotalLifeTime 0.000000
+		BillboardAnchor 0
+		ParticleFacing 0
+		PipelineEffectID "Particle_Additive.fx"
+		AreParticlesAttached TRUE
+		numTextures 2
+		textureName "brightcenter.tga"
+		textureName ""
+		textureAnimationName ""
+		textureAnimationSpawnType "RandomFrames"
+		textureAnimationOnParticleFPS 0.000000
+		ParticlesRotate FALSE
+		MeshParticleRotationAxisType 0
+		MeshParticleRotationAxis [ 0.000000 0.100000 0.000000 ]
+		RotationDirectionType 0
+		AngleVariance 3.141593
+	EmitterType "Sphere"
+	EmitterContents
+		Name "Lightning"
+		Enabled TRUE
+		EmitRate 10.000000
+		HasInfiniteEmitCount TRUE
+		MaxEmitCount 1
+		hasEmitIntervals FALSE
+		emitIntervalRunDuration 0.000000
+		emitIntervalWaitDuration 0.000000
+		ParticleLifeTime 10.000000
+		ParticleMinStartLinearSpeed 0.000000
+		ParticleMaxStartLinearSpeed 0.000000
+		ParticleMinStartAngularSpeed 0.000000
+		ParticleMaxStartAngularSpeed 0.017453
+		ParticleMinStartRotation 0.000000
+		ParticleMaxStartRotation 6.283185
+		ParticleStartMass 1.000000
+		ParticleStartColor ff0000c0
+		ParticleWidth 500.000000
+		ParticleHeight 500.000000
+		MeshName ""
+		Position [ 0.000000 0.000000 0.000000 ]
+		Orientation
+			 [ 1.000000 0.000000 0.000000 ]
+			 [ 0.000000 1.000000 0.000000 ]
+			 [ 0.000000 0.000000 1.000000 ]
+		RotateAboutForward 0.000000
+		RotateAboutUp 0.000000
+		RotateAboutCross 0.000000
+		StartTime 0.000000
+		HasInfiniteLifeTime FALSE
+		TotalLifeTime 60.000000
+		BillboardAnchor 0
+		ParticleFacing 0
+		PipelineEffectID "Particle_Additive.fx"
+		AreParticlesAttached FALSE
+		numTextures 2
+		textureName "Kay_LightningBolt0002.tga"
+		textureName ""
+		textureAnimationName ""
+		textureAnimationSpawnType "RandomFrames"
+		textureAnimationOnParticleFPS 0.000000
+		ParticlesRotate TRUE
+		MeshParticleRotationAxisType 0
+		MeshParticleRotationAxis [ 0.000000 0.100000 0.000000 ]
+		RotationDirectionType 2
+		SphereRadiusXMax 4500.000000
+		SphereRadiusXMin 10.000000
+		SphereRadiusYMax 4500.000000
+		SphereRadiusYMin 10.000000
+		SphereRadiusZMax 4500.000000
+		SphereRadiusZMin 10.000000
+		ParticleMaxStartSpeedAzimuthalTangential 0.000000
+		ParticleMaxStartSpeedPolarTangential 0.000000
+		ScaleStartSpeedsByRadius FALSE
+		SpawnAngleLatitudinalStart 0.000000
+		SpawnAngleLatitudinalStop 3.141593
+		SpawnAngleLongitudinalStart 0.000000
+		SpawnAngleLongitudinalStop 6.283185
+	NumAffectors 5
+	AffectorType "LinearInflate"
+	AffectorContents
+		Name "(new) LinearInflate-1"
+		Enabled TRUE
+		StartTime 0.000000
+		HasInfiniteLifeTime TRUE
+		TotalLifeTime 0.000000
+		UseYoungParticleAffectThreshold FALSE
+		YoungParticleAffectThreshold 0.000000
+		UseOldParticleAffectThreshold FALSE
+		OldParticleAffectThreshold 0.000000
+		AffectAttachedParticles TRUE
+		numAttachedEmitters 0
+		WidthInflateRate 9000.000000
+		HeightInflateRate 9000.000000
+	AffectorType "Fade"
+	AffectorContents
+		Name "(copy) (new) Fade-1-1"
+		Enabled TRUE
+		StartTime 0.000000
+		HasInfiniteLifeTime TRUE
+		TotalLifeTime 0.000000
+		UseYoungParticleAffectThreshold FALSE
+		YoungParticleAffectThreshold 0.000000
+		UseOldParticleAffectThreshold FALSE
+		OldParticleAffectThreshold 0.000000
+		AffectAttachedParticles TRUE
+		numAttachedEmitters 0
+		DoFadeOut TRUE
+		FadeOutTime 1.000000
+		DoFadeIn TRUE
+		FadeInTime 1.000000
+	AffectorType "ColorOscillator"
+	AffectorContents
+		Name "(copy) (new) ColorOscillator-1-1"
+		Enabled TRUE
+		StartTime 0.000000
+		HasInfiniteLifeTime TRUE
+		TotalLifeTime 0.000000
+		UseYoungParticleAffectThreshold FALSE
+		YoungParticleAffectThreshold 0.000000
+		UseOldParticleAffectThreshold FALSE
+		OldParticleAffectThreshold 0.000000
+		AffectAttachedParticles TRUE
+		numAttachedEmitters 1
+		attachedEmitterName "range"
+		TransitionPeriod 10.000000
+		StartColor ff0000ff
+		StartAlpha 0.040000
+		EndColor ffc0ffff
+		EndAlpha 0.060000
+	AffectorType "ColorOscillator"
+	AffectorContents
+		Name "(copy) (copy) (new) ColorOscillator-1-1-1"
+		Enabled TRUE
+		StartTime 0.000000
+		HasInfiniteLifeTime TRUE
+		TotalLifeTime 0.000000
+		UseYoungParticleAffectThreshold FALSE
+		YoungParticleAffectThreshold 0.000000
+		UseOldParticleAffectThreshold FALSE
+		OldParticleAffectThreshold 0.000000
+		AffectAttachedParticles TRUE
+		numAttachedEmitters 1
+		attachedEmitterName "grow"
+		TransitionPeriod 10.000000
+		StartColor ff4169e1
+		StartAlpha 0.400000
+		EndColor ffc0ffff
+		EndAlpha 0.600000
+	AffectorType "ColorOscillator"
+	AffectorContents
+		Name "(new) ColorOscillator-1"
+		Enabled TRUE
+		StartTime 0.000000
+		HasInfiniteLifeTime TRUE
+		TotalLifeTime 0.000000
+		UseYoungParticleAffectThreshold FALSE
+		YoungParticleAffectThreshold 0.000000
+		UseOldParticleAffectThreshold FALSE
+		OldParticleAffectThreshold 0.000000
+		AffectAttachedParticles TRUE
+		numAttachedEmitters 1
+		attachedEmitterName "Lightning"
+		TransitionPeriod 5.000000
+		StartColor ff0000ff
+		StartAlpha 0.000000
+		EndColor ffc0c0ff
+		EndAlpha 0.500000
+	length 0.000000

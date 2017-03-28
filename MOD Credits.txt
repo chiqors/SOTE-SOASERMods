@@ -1,0 +1,26 @@
+MOD CREDITS.....
+
+A mention to all those who created elements used in this mod.
+
+HAIYOOO
+for initially beginning to make sins of new eden for origional sins and then shortly afterwards, rebellion.
+He ported over all of the models used in this mod so far, alongside the HUI modifications and the source images I later used to make all of the ship icons with.
+
+SUPERMOVA
+For assisting Haiyooo in restoring mesh work. and for the latest mesh work and texturing assistance.
+
+SHIP SMALL ICONS
+LePaj (SONE Development team)
+
+BAILNIGHT
+Graphical upgrades for sins that was carefully integrated into this mod by myself.
+
+GLASS UI MODIFICATION
+Unknown author/creator
+Modified to work with rebellion by myself (Please contact me to be credited here)
+
+RACELOGOS
+LePaj (SONE development team)
+
+New ships textures!
+vader111 (newest team member) 

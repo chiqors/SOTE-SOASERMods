@@ -1,0 +1,40 @@
+﻿TXT
+entityType "ResearchSubject"
+hudIcon "HUDICON_RESEARCHSUBJECT_POPULATIONCAP_BARREN_0"
+smallHudIcon "HUDICON_RESEARCHSUBJECT_POPULATIONCAP_BARREN_0"
+infoCardIcon ""
+NameStringID "IDS_RESEARCHSUBJECT_POPULATIONCAPBARRENPSI0_NAME"
+DescriptionStringID "IDS_RESEARCHSUBJECT_POPULATIONCAPBARRENPSI0_DESCRIPTION"
+researchWindowLocation
+	block 2
+	pos [ 4 , 0 ]
+ResearchField "NonCombat"
+Prerequisites
+	NumResearchPrerequisites 0
+	RequiredFactionNameID ""
+	RequiredCompletedResearchSubjects 0
+MinimumArtifactLevel -1
+BaseUpgradeTime 75.000000
+PerLevelUpgradeTime 10.000000
+BaseCost
+	credits 1200.000000
+	metal 200.000000
+	crystal 325.000000
+PerLevelCostIncrease
+	credits 100.000000
+	metal 25.000000
+	crystal 25.000000
+Tier 4
+onlyWorksIfTierLabsExist FALSE
+MaxNumResearchLevels 2
+priority 0.000000
+researchBoolModifiers 0
+researchFloatModifiers 1
+researchModifier
+	modifierType "PlanetPopulationCapAdjustment"
+	baseValue 0.000000
+	perLevelValue 0.120000
+	linkedPlanetType "Barren"
+artifactPicture ""
+uniqueOverlayBrush "RebellionResearchOverlay"
+dlcId 228601

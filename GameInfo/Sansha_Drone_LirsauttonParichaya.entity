@@ -1,0 +1,95 @@
+﻿TXT
+entityType "Fighter"
+defaultAutoAttackRange "GravityWell"
+defaultAutoAttackOn TRUE
+prefersToFocusFire TRUE
+usesFighterAttack TRUE
+numRandomDebrisLarge 0
+numRandomDebrisSmall 0
+numSpecificDebris 0
+armorType "VeryLight"
+hudIcon "HUDICON_FRIGATE_PIRATEANTIFIGHTER"
+smallHudIcon "HUDICONSMALL_PLANETMODULE_TECHORBITALCAPITALSHIPFACTORY"
+infoCardIcon "INFOCARDICON_PLANETMODULE_TECHORBITALCAPITALSHIPFACTORY"
+minZoomDistanceMult 8.000000
+nameStringID "IDS_FIGHTERSANSHABOMBER_NAME"
+counterDescriptionStringID "IDS_COUNTERDESC_FIGHTER_BOMBER"
+statCountType "FighterBomber"
+formationOffsetDistance 50.000000
+mass 350.000000
+maxAccelerationLinear 250.000000
+maxAccelerationStrafe 100.000000
+maxDecelerationLinear 500.000000
+maxAccelerationAngular 120.999992
+maxDecelerationAngular 241.000000
+maxSpeedLinear 700.000000
+maxRollRate 10.000000
+maxRollAngle 45.000000
+NumWeapons 1
+Weapon
+	WeaponType "Missile"
+	damageEnums
+		AttackType "COMPOSITE"
+		DamageAffectType "AFFECTS_SHIELDS_AND_HULL"
+		DamageApplyType "BACKLOADED"
+		DamageType "PHYSICAL"
+		WeaponClassType "MISSILE"
+	DamagePerBank:FRONT 6000.000000
+	DamagePerBank:BACK 0.000000
+	DamagePerBank:LEFT 0.000000
+	DamagePerBank:RIGHT 0.000000
+	Range 10000.000000
+	PreBuffCooldownTime 30.000000
+	CanFireAtFighter FALSE
+	SynchronizedTargeting FALSE
+	PointStaggerDelay 2.000000
+	TravelSpeed 1100.000000
+	Duration 0.000000
+	fireConstraintType "CanAlwaysFire"
+	WeaponEffects
+		weaponType "Missile"
+		burstCount 1
+		burstDelay 0.000000
+		fireDelay 0.000000
+		muzzleEffectName ""
+		muzzleSoundMinRespawnTime 0.500000
+		muzzleSounds
+			soundCount 1
+			sound "EFFECT_NEUTRONTORPEDO_MUZZLE"
+		hitEffectName "EVE_MicroCitadel_Torpedo_Hit"
+		hitHullEffectSounds
+			soundCount 4
+			sound "MISSILEEXPLOSION_EVEONLINE1"
+			sound "MISSILEEXPLOSION_EVEONLINE2"
+			sound "MISSILEEXPLOSION_EVEONLINE3"
+			sound "MISSILEEXPLOSION_EVEONLINE4"
+		hitShieldsEffectSounds
+			soundCount 4
+			sound "MISSILEEXPLOSION_EVEONLINE1"
+			sound "MISSILEEXPLOSION_EVEONLINE2"
+			sound "MISSILEEXPLOSION_EVEONLINE3"
+			sound "MISSILEEXPLOSION_EVEONLINE4"
+		missileTravelEffectName "EVE_MicroCitadel_Torpedo_Travel"
+		missileStartTurningDistance 1.000000
+		missileSlowTurnRate 6.000000
+		missileMaxSlowTurnTime 6.000000
+m_weaponIndexForRange 0
+firingAlignmentType "Default"
+TargetCountPerBank:FRONT 1
+TargetCountPerBank:BACK 0
+TargetCountPerBank:LEFT 0
+TargetCountPerBank:RIGHT 0
+canOnlyTargetStructures FALSE
+meshName "SanshaFighter"
+exhaustParticleSystemName "ExhaustSmall"
+ExplosionName "Fighter0"
+exhaustTrailTextureName "ExhaustTrail"
+exhaustTrailWidth 9.000000
+engineSoundID "ENGINE_TECHSUPPORTSHIP"
+maxHullPoints 4000.000000
+hullPointRestoreRate 1.000000
+armorPoints 10.000000
+maxMitigation 0.000000
+experiencePointsForDestroying 100.000000
+minShadow 0.000000
+maxShadow 0.500000

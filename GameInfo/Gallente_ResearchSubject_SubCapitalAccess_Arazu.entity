@@ -1,0 +1,38 @@
+﻿TXT
+entityType "ResearchSubject"
+hudIcon "HUDICON_RESEARCHSUBJECT_SUBCAPITALACCESS_ARAZU"
+smallHudIcon "HUDICON_RESEARCHSUBJECT_SUBCAPITALACCESS_ARAZU"
+infoCardIcon ""
+NameStringID "IDS_RESEARCHSUBJECT_FRIGATEACCESS_CARRIERPHASE_NAME"
+DescriptionStringID "IDS_RESEARCHSUBJECT_FRIGATEACCESS_CARRIERPHASE_DESCRIPTION"
+researchWindowLocation
+	block 2
+	pos [ 3 , 3 ]
+ResearchField "Combat"
+Prerequisites
+	NumResearchPrerequisites 1
+	ResearchPrerequisite
+		Subject "Gallente_ResearchSubject_SubCapitalAccess_Celestis"
+		Level 2
+	RequiredFactionNameID ""
+	RequiredCompletedResearchSubjects 0
+MinimumArtifactLevel -1
+BaseUpgradeTime 60.000000
+PerLevelUpgradeTime 6.000000
+BaseCost
+	credits 3570.000000
+	metal 2136.000000
+	crystal 1436.000000
+PerLevelCostIncrease
+	credits 357.000000
+	metal 213.000000
+	crystal 143.000000
+Tier 3
+onlyWorksIfTierLabsExist TRUE
+MaxNumResearchLevels 2
+priority 0.000000
+researchBoolModifiers 0
+researchFloatModifiers 0
+artifactPicture ""
+uniqueOverlayBrush "RebellionResearchOverlay"
+dlcId 204880

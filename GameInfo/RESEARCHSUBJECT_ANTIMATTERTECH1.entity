@@ -1,0 +1,46 @@
+﻿TXT
+entityType "ResearchSubject"
+hudIcon "HUDICON_RESEARCHSUBJECT_ANTIMATTERTECH0"
+smallHudIcon "HUDICON_RESEARCHSUBJECT_ANTIMATTERTECH0"
+infoCardIcon ""
+NameStringID "IDS_RESEARCHSUBJECT_ANTIMATTERTECH1_NAME"
+DescriptionStringID "IDS_RESEARCHSUBJECT_ANTIMATTERTECH1_DESCRIPTION"
+researchWindowLocation
+	block 0
+	pos [ 5 , 2 ]
+ResearchField "Combat"
+Prerequisites
+	NumResearchPrerequisites 1
+	ResearchPrerequisite
+		Subject "RESEARCHSUBJECT_ANTIMATTERTECH0"
+		Level 5
+	RequiredFactionNameID ""
+	RequiredCompletedResearchSubjects 0
+MinimumArtifactLevel -1
+BaseUpgradeTime 80.000000
+PerLevelUpgradeTime 40.000000
+BaseCost
+	credits 800.000000
+	metal 60.000000
+	crystal 100.000000
+PerLevelCostIncrease
+	credits 800.000000
+	metal 60.000000
+	crystal 100.000000
+Tier 5
+onlyWorksIfTierLabsExist FALSE
+MaxNumResearchLevels 5
+priority 1.000000
+researchBoolModifiers 0
+researchFloatModifiers 2
+researchModifier
+	modifierType "AntimatterCapacityAdjustment"
+	baseValue 0.000000
+	perLevelValue 0.025000
+researchModifier
+	modifierType "AntimatterRegenAdjustment"
+	baseValue 0.000000
+	perLevelValue 0.030000
+artifactPicture ""
+uniqueOverlayBrush "RebellionResearchOverlay"
+dlcId 204880

@@ -1,0 +1,43 @@
+﻿TXT
+entityType "ResearchSubject"
+hudIcon "HUDICON_RESEARCHSUBJECT_WEAPONDAMAGE_BEAMTECH1"
+smallHudIcon "HUDICON_RESEARCHSUBJECT_WEAPONDAMAGE_BEAMTECH1"
+infoCardIcon ""
+NameStringID "IDS_RESEARCHSUBJECT_WEAPONDAMAGE_BEAMTECH1_NAME"
+DescriptionStringID "IDS_RESEARCHSUBJECT_WEAPONDAMAGE_BEAMTECH1_DESCRIPTION"
+researchWindowLocation
+	block 1
+	pos [ 3 , 0 ]
+ResearchField "Combat"
+Prerequisites
+	NumResearchPrerequisites 1
+	ResearchPrerequisite
+		Subject "RESEARCHSUBJECT_WEAPONDAMAGE_BEAMTECH0"
+		Level 5
+	RequiredFactionNameID ""
+	RequiredCompletedResearchSubjects 0
+MinimumArtifactLevel -1
+BaseUpgradeTime 68.000000
+PerLevelUpgradeTime 34.000000
+BaseCost
+	credits 700.000000
+	metal 50.000000
+	crystal 80.000000
+PerLevelCostIncrease
+	credits 700.000000
+	metal 50.000000
+	crystal 80.000000
+Tier 3
+onlyWorksIfTierLabsExist FALSE
+MaxNumResearchLevels 5
+priority 1.000000
+researchBoolModifiers 0
+researchFloatModifiers 1
+researchModifier
+	modifierType "WeaponDamageAdjustment"
+	baseValue 0.000000
+	perLevelValue 0.030000
+	linkedWeaponClass "BEAM"
+artifactPicture ""
+uniqueOverlayBrush "RebellionResearchOverlay"
+dlcId 204880

@@ -1,0 +1,14 @@
+the following settings can be adjusted to optimize playability and/or performance.
+
+Go to your settings file  Look under C:\user\USER\My Documents\My Games\Ironclad Games\Sins Rebellion\Setting and open rebellion.user in Notepad or Notepad++ (notepad++ makes this a LOT easier)
+
+find the line 
+MaxEmpireWindowStackSize
+this controls the max number of ships etc that are in each icon stack when they are stacked in the empire tree. you can raise this (default is 10) to a higher number. max recommended is 99, I use 1000 personally.
+
+These lines below control the maximum number of various particle effects that can exist at any one time (individual particles) 
+This can be raised or lowered depending on your preference. remember that raising this will likely slow your machine down and reduce performance if your PC is not up to the task of rendering that much graphics at the same time.
+MaxParticleCount 6000
+MaxParticleSimulationsCount 2000
+MaxAsteroidCount 10000
+MaxDustCloudParticleCount 5000

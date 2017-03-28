@@ -1,0 +1,79 @@
+﻿TXT
+entityType "PlanetModuleTradePort"
+minZoomDistanceMult 1.000000
+ability:0 ""
+ability:1 ""
+ability:2 ""
+ability:3 ""
+ability:4 ""
+MaxAntiMatter 0.000000
+AntiMatterRestoreRate 0.000000
+numRandomDebrisLarge 0
+numRandomDebrisSmall 0
+numSpecificDebris 0
+armorType "Module"
+hudIcon "HUDICON_PLANETMODULE_TECHORBITALTRADEPORT"
+smallHudIcon "HUDICONSMALL_PLANETMODULE_TECHORBITALTRADEPORT"
+infoCardIcon "INFOCARDICON_PLANETMODULE_TECHORBITALTRADEPORT"
+planetUpgradeSlotType "Civilian"
+planetUpgradeSlotCount 2.000000
+basePrice
+	credits 350.000000
+	metal 90.000000
+	crystal 75.000000
+NameStringID "IDS_PLANETMODULE_TECHORBITALTRADEPORT_NAME"
+DescriptionStringID "IDS_PLANETMODULE_TECHORBITALTRADEPORT_DESCRIPTION"
+planetModuleRoleType "TRADEPORT"
+statCountType "ModuleTradePort"
+Prerequisites
+	NumResearchPrerequisites 1
+	ResearchPrerequisite
+		Subject "CALDARI_RESEARCHSUBJECT_PLANETMODULEACCESS_MARKET"
+		Level 1
+	RequiredFactionNameID ""
+	RequiredCompletedResearchSubjects 0
+MaxHullPoints 15000.000000
+HullPointRestoreRate 25.000000
+BaseArmorPoints 0.000000
+MaxShieldPoints 0.000000
+ShieldPointRestoreRate 0.000000
+maxShieldMitigation 0.000000
+ExperiencePointsForDestroying 125.000000
+resourceExtractionType "Invalid"
+cultureSpreadRate 0.000000
+isAffectedBySimilarModuleCostResearch FALSE
+placementRadius 1120.000000
+nearPlacementDistOffset 0.000000
+farPlacementDistOffset 9000.000000
+spawnCount 1
+swapMineType ""
+angularSpeed 0.000000
+rotateSoundName ""
+rotateFacingType "None"
+rotateConstantly FALSE
+ShieldMeshName ""
+renderShield TRUE
+NumSoundsFor:ONATTACKORDERISSUED 0
+NumSoundsFor:ONCREATION 0
+NumSoundsFor:ONGENERALORDERISSUED 0
+NumSoundsFor:ONSELECTED 1
+SoundID "PLANETMODULE_TECHORBITALTRADEPORT_ONSELECTION_0"
+NumSoundsFor:ONSTARTPHASEJUMP 0
+MeshNameInfoCount 1
+MeshNameInfo
+	meshName "caldari_battlestation"
+	criteriaType "None"
+meshNameIncreasedEffectName ""
+meshNameDecreasedEffectName ""
+ExplosionName "StarBase1"
+mainViewIcon "MAINVIEWICON_PLANETMODULE_TECHORBITALTRADEPORT"
+picture "PLANETMODULEPICTURE_TECHORBITALTRADEPORT"
+minShadow 0.000000
+maxShadow 0.400000
+formationRank 3
+baseBuildTime 90.000000
+buildEffectName ""
+cargoShipType "Caldari_Ship_Industrial_Badge"
+maxCargoShipCount 5
+cargoShipRespawnTime 30.000000
+baseTradeIncomeRate 1.000000

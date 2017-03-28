@@ -1,0 +1,78 @@
+TXT
+backdrop "MainMenuScreenBackdrop"
+logoIconRefArea [298, 495, 414 , 187]
+logoIcon "MainMenuScreenLogo"
+titleRefArea [402, 118,  220, 46 ]
+titleStringId "IDSMainMenuScreenTitle"
+titleFont "TabbedScreenTitle"
+titleOverlayRefArea [304, 84,  414 , 90 ]
+titleOverlay "MainMenuScreenTitleOverlay"
+hasUpdateButton FALSE
+singlePlayerButton
+	area [402, 209,  220, 46 ]
+	fontId "ButtonLabel"
+	iconOffsetFromLeft 32
+	textOffsetFromLeft 60
+	underlay "ScreenButtonUnderlayLarge"
+	overlay "ScreenButtonOverlayLarge"			
+	icon "MainMenuScreenSinglePlayerButton"
+	text "IDSMainMenuScreenSinglePlayerButton"
+multiPlayerButton
+	area [402, 343,  220, 46 ]
+	fontId "ButtonLabel"
+	iconOffsetFromLeft 32
+	textOffsetFromLeft 60
+	underlay "ScreenButtonUnderlayLarge"
+	overlay "ScreenButtonOverlayLarge"		
+	icon "MainMenuScreenMultiPlayerButton"
+	text "IDSMainMenuScreenMultiPlayerButton"	
+icoButton
+	area [402, 276,  220, 46 ]
+	fontId "ButtonLabel"
+	iconOffsetFromLeft 32
+	textOffsetFromLeft 60
+	underlay "ScreenButtonUnderlayLarge"
+	overlay "ScreenButtonOverlayLarge"		
+	icon "MainMenuScreenIcoButton"
+	text "IDSMainMenuScreenIcoButton"	
+optionsButton
+	area [402, 410,  220, 46 ]
+	fontId "ButtonLabel"
+	iconOffsetFromLeft 32
+	textOffsetFromLeft 60
+	underlay "ScreenButtonUnderlayLarge"
+	overlay "ScreenButtonOverlayLarge"		
+	icon "MainMenuScreenOptionsButton"
+	text "IDSMainMenuScreenOptionsButton"
+quitButton
+	area [402, 477,  220, 46 ]
+	fontId "ButtonLabel"
+	iconOffsetFromLeft 32
+	textOffsetFromLeft 60
+	underlay "ScreenButtonUnderlayLarge"
+	overlay "ScreenButtonOverlayLarge"			
+	icon "MainMenuScreenQuitButton"
+	text "IDSMainMenuScreenQuitButton"
+dlcButton
+	area [23, 707, 220, 46]
+	fontId "ButtonLabel"
+	iconOffsetFromLeft 32
+	textOffsetFromLeft 0
+	underlay "DLCButtonStates"
+	overlay ""			
+	icon ""
+	text "IDSMainMenuScreenDLCButton"
+soundtrackDLC1Button
+	area [23, 707, 220, 46]
+	fontId "ButtonLabel"
+	iconOffsetFromLeft 32
+	textOffsetFromLeft 0
+	underlay "DLCButtonStates"
+	overlay ""			
+	icon ""
+	text "IDSMainMenuScreenSoundtrackDLC1Button"
+planetDLC1Back "DLCButtonBackgroundPlanetDLC1"
+phenomenaDLC1Back "DLCButtonBackgroundPhenomenaDLC1"
+soundtrackDLC1Back "DLCButtonBackgroundSoundtrackDLC1"
+dlcBackFrameRefArea [15, 545, 250, 213]
+dlcBackNoFrameRefArea [15, 624, 250, 213]

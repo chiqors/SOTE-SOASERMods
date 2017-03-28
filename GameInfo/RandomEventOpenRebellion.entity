@@ -1,0 +1,73 @@
+﻿TXT
+entityType "Buff"
+onReapplyDuplicateType "PrioritizeOldBuffs"
+buffStackingLimitType "ForAllPlayers"
+stackingLimit 1
+allowFirstSpawnerToStack FALSE
+buffExclusivityForAIType "ExclusiveForAllPlayers"
+isInterruptable FALSE
+isChannelling FALSE
+numInstantActions 2
+instantAction
+	buffInstantActionType "ChangePlayerIndexToNeutral"
+	instantActionTriggerType "OnDelay"
+	delayTime 0.000000
+instantAction
+	buffInstantActionType "SpawnShipsAtPlanet"
+	instantActionTriggerType "OnDelay"
+	delayTime 0.000000
+	spawnShipsLevelCount 1
+	spawnShips
+		minFleetPoints 100.000000
+		maxFleetPoints 250.000000
+		requiredShipCount 7
+		requiredShip
+			type "Amarr_Ship_Destroyer_Coercer"
+			minCount 3
+			maxCount 4
+		requiredShip
+			type "Amarr_Ship_Cruiser_Arbitrator"
+			minCount 1
+			maxCount 2
+		requiredShip
+			type "CorvetteTechRebel"
+			minCount 8
+			maxCount 10
+		requiredShip
+			type "Amarr_Ship_Battlecruiser_Harbinger"
+			minCount 3
+			maxCount 7
+		requiredShip
+			type "Amarr_Ship_Frigate_Punisher"
+			minCount 6
+			maxCount 10
+		requiredShip
+			type "Amarr_Ship_Cruiser_Omen"
+			minCount 4
+			maxCount 8
+		requiredShip
+			type "Amarr_Ship_Frigate_Inquisitor"
+			minCount 2
+			maxCount 2
+		randomShipCount 4
+		randomShip
+			type "Amarr_Ship_Carrier_Archon"
+			weight 1
+		randomShip
+			type "CAPITALSHIP_TECHSUPPORT"
+			weight 1
+		randomShip
+			type "CAPITALSHIP_TECHSUPPORT"
+			weight 1
+		randomShip
+			type "Amarr_Ship_ColonyCapital_Rorqual"
+			weight 1
+	spawnShipsArrivalDelayTime 7.000000
+	spawnShipsHyperspaceSpawnType "FleetBeacon"
+numPeriodicActions 0
+numOverTimeActions 0
+numEntityModifiers 0
+numEntityBoolModifiers 0
+numFinishConditions 1
+finishCondition
+	finishConditionType "AllOnDelayInstantActionsDone"

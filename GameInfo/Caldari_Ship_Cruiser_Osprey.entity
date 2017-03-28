@@ -1,0 +1,170 @@
+﻿TXT
+entityType "Frigate"
+defaultAutoAttackRange "GravityWell"
+defaultAutoAttackOn FALSE
+prefersToFocusFire FALSE
+usesFighterAttack FALSE
+autoJoinFleetDefault TRUE
+canBomb FALSE
+typeCount 1
+frigateRoleType "Support"
+statCountType "FrigateUtility1"
+mainViewIcon "MAINVIEWICON_FRIGATE_OSPREY"
+picture ""
+NameStringID "IDS_FRIGATE_OSPREY_NAME"
+DescriptionStringID "IDS_FRIGATE_OSPREY_DESCRIPTION"
+counterDescriptionStringID "IDS_COUNTERDESC_FRIGATE_NONCOMBAT"
+basePrice
+	credits 175.000000
+	metal 30.000000
+	crystal 20.000000
+slotCount 4.000000
+BuildTime 95.000000
+hasLevels FALSE
+ExperiencePointsForDestroying 67.000000
+MaxHullPoints 715.000000
+MaxShieldPoints 1430.000000
+HullPointRestoreRate 0.000000
+ShieldPointRestoreRate 0.715000
+BaseArmorPoints 0.000000
+maxMitigation 0.750000
+Prerequisites
+	NumResearchPrerequisites 1
+	ResearchPrerequisite
+		Subject "Caldari_ResearchSubject_SubCapitalAccess_Osprey"
+		Level 1
+	RequiredFactionNameID ""
+	RequiredCompletedResearchSubjects 0
+numRandomDebrisLarge 0
+numRandomDebrisSmall 0
+numSpecificDebris 0
+armorType "Medium"
+hudIcon "HUDICON_FRIGATE_OSPREY"
+smallHudIcon "HUDICONSMALL_FRIGATE_OSPREY"
+infoCardIcon "INFOCARDICON_FRIGATE_OSPREY"
+minZoomDistanceMult 1.000000
+NumWeapons 1
+Weapon
+	WeaponType "Beam"
+	damageEnums
+		AttackType "ANTIMEDIUM"
+		DamageAffectType "AFFECTS_SHIELDS_AND_HULL"
+		DamageApplyType "OVERTIME"
+		DamageType "ENERGY"
+		WeaponClassType "LASERTECH"
+	DamagePerBank:FRONT 1.300003
+	DamagePerBank:BACK 0.000000
+	DamagePerBank:LEFT 0.000000
+	DamagePerBank:RIGHT 0.000000
+	Range 25000.000000
+	PreBuffCooldownTime 9999999.000000
+	CanFireAtFighter FALSE
+	SynchronizedTargeting TRUE
+	PointStaggerDelay 0.250000
+	TravelSpeed 0.000000
+	Duration 0.000001
+	fireConstraintType "CanAlwaysFire"
+	WeaponEffects
+		weaponType "Beam"
+		burstCount 1
+		burstDelay 0.000000
+		fireDelay 0.000000
+		muzzleEffectName ""
+		muzzleSoundMinRespawnTime 0.100000
+		muzzleSounds
+			soundCount 1
+			sound ""
+		hitEffectName ""
+		hitHullEffectSounds
+			soundCount 1
+			sound ""
+		hitShieldsEffectSounds
+			soundCount 1
+			sound ""
+		beamEffectSounds
+			soundCount 1
+			sound "WEAPON_TECHCAPITALBEAMHEAVY_TRAVEL"
+		beamGlowTextureName "TechCapitalBeam_Core"
+		beamCoreTextureName "TechCapitalBeam_Glow"
+		beamWidth 1.000000
+		beamGlowColor ffffffff
+		beamCoreColor ffffffff
+		beamTilingRate 9.000000
+m_weaponIndexForRange 0
+firingAlignmentType "Default"
+TargetCountPerBank:FRONT 1
+TargetCountPerBank:BACK 0
+TargetCountPerBank:LEFT 0
+TargetCountPerBank:RIGHT 0
+canOnlyTargetStructures FALSE
+hasWeaponLevels FALSE
+mass 4000.000000
+ShieldMeshName "exequror"
+renderShield FALSE
+maxAccelerationLinear 90.000000
+maxAccelerationStrafe 10.000000
+maxDecelerationLinear 500.000000
+maxAccelerationAngular 8.000000
+maxDecelerationAngular 9.999996
+maxSpeedLinear 350.000000
+maxRollRate 2.000000
+maxRollAngle 40.000000
+squadTypeEntityDef:0 ""
+squadAntiMatterCost:0 0.000000
+squadTypeEntityDef:1 ""
+squadAntiMatterCost:1 0.000000
+squadTypeEntityDef:2 ""
+squadAntiMatterCost:2 0.000000
+squadTypeEntityDef:3 ""
+squadAntiMatterCost:3 0.000000
+maxNumCommandPoints 0
+NumSoundsFor:ONATTACKORDERISSUED 3
+SoundID "FRIGATE_TECHROBOTICS_ONATTACKORDERISSUED_0"
+SoundID "FRIGATE_TECHROBOTICS_ONATTACKORDERISSUED_1"
+SoundID "FRIGATE_TECHROBOTICS_ONATTACKORDERISSUED_2"
+NumSoundsFor:ONCREATION 1
+SoundID "FRIGATE_TECHROBOTICS_ONCREATION"
+NumSoundsFor:ONGENERALORDERISSUED 3
+SoundID "FRIGATE_TECHROBOTICS_ONGENERALORDERISSUED_0"
+SoundID "FRIGATE_TECHROBOTICS_ONGENERALORDERISSUED_1"
+SoundID "FRIGATE_TECHROBOTICS_ONGENERALORDERISSUED_2"
+NumSoundsFor:ONSELECTED 3
+SoundID "FRIGATE_TECHROBOTICS_ONSELECTED_0"
+SoundID "FRIGATE_TECHROBOTICS_ONSELECTED_1"
+SoundID "FRIGATE_TECHROBOTICS_ONSELECTED_2"
+NumSoundsFor:ONSTARTPHASEJUMP 1
+SoundID "FRIGATE_TECHROBOTICS_ONSTARTPHASEJUMP_0"
+MeshNameInfoCount 2
+MeshNameInfo
+	meshName "osprey"
+	criteriaType "None"
+MeshNameInfo
+	meshName "basilisk"
+	criteriaType "Research"
+	prerequisites
+		NumResearchPrerequisites 1
+		ResearchPrerequisite
+			Subject "Caldari_ResearchSubject_SubCapitalAccess_Basilisk"
+			Level 1
+		RequiredFactionNameID ""
+		RequiredCompletedResearchSubjects 1
+meshNameIncreasedEffectName ""
+meshNameDecreasedEffectName ""
+ExhaustParticleSystemName "Exhaust_EveCruiser"
+ExplosionName "EVECruiser"
+HyperspaceChargingSoundID "HYPERSPACE_CHARGEUP"
+HyperspaceTravelSoundID "HYPERSPACE_TRAVEL"
+EngineSoundID "ENGINE_PHASECAPITALSHIP"
+ability:0 "AbilityAfterburner"
+ability:1 "AbilityRemoteShieldBoosterLogiCruiser"
+ability:2 "AbilityCapTransferAugoror"
+ability:3 ""
+ability:4 "AbilityT2CruiserBasilisk"
+MaxAntiMatter 785.000000
+AntiMatterRestoreRate 1.000000
+cargoType "Invalid"
+maxCargoCapacity 0.000000
+formationRank 2
+minShadow 0.000000
+maxShadow 1.000000
+allegianceDecreasePerRoundtrip 0.000000

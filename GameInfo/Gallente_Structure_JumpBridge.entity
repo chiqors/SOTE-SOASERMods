@@ -1,0 +1,75 @@
+﻿TXT
+entityType "PlanetModuleStandard"
+minZoomDistanceMult 1.000000
+ability:0 "AbilityJumpBridge"
+ability:1 ""
+ability:2 ""
+ability:3 ""
+ability:4 ""
+MaxAntiMatter 0.000000
+AntiMatterRestoreRate 0.000000
+numRandomDebrisLarge 0
+numRandomDebrisSmall 0
+numSpecificDebris 0
+armorType "Module"
+hudIcon "HUDICON_PLANETMODULE_TECHORBITALJUMPBLOCKER"
+smallHudIcon "HUDICONSMALL_PLANETMODULE_TECHORBITALJUMPBLOCKER"
+infoCardIcon "INFOCARDICON_PLANETMODULE_TECHORBITALJUMPBLOCKER"
+planetUpgradeSlotType "Tactical"
+planetUpgradeSlotCount 6.000000
+basePrice
+	credits 1500.000000
+	metal 250.000000
+	crystal 400.000000
+NameStringID "IDS_PLANETMODULE_TECHORBITALJUMPBLOCKER_NAME"
+DescriptionStringID "IDS_PLANETMODULE_TECHORBITALJUMPBLOCKER_DESCRIPTION"
+planetModuleRoleType "PHASEGATE"
+statCountType "ModuleUtility"
+Prerequisites
+	NumResearchPrerequisites 1
+	ResearchPrerequisite
+		Subject "Gallente_ResearchSubject_PlanetModuleAccess_JumpBridge"
+		Level 1
+	RequiredFactionNameID ""
+	RequiredCompletedResearchSubjects 0
+MaxHullPoints 10000.000000
+HullPointRestoreRate 25.000000
+BaseArmorPoints 0.000000
+MaxShieldPoints 0.000000
+ShieldPointRestoreRate 0.000000
+maxShieldMitigation 0.000000
+ExperiencePointsForDestroying 400.000000
+resourceExtractionType "Invalid"
+cultureSpreadRate 0.000000
+isAffectedBySimilarModuleCostResearch FALSE
+placementRadius 450.000000
+nearPlacementDistOffset 0.000000
+farPlacementDistOffset 6000.000000
+spawnCount 1
+swapMineType ""
+angularSpeed 0.000000
+rotateSoundName ""
+rotateFacingType "None"
+rotateConstantly FALSE
+ShieldMeshName ""
+renderShield TRUE
+NumSoundsFor:ONATTACKORDERISSUED 0
+NumSoundsFor:ONCREATION 0
+NumSoundsFor:ONGENERALORDERISSUED 0
+NumSoundsFor:ONSELECTED 1
+SoundID "PLANETMODULE_TECHORBITALJUMPBLOCKER_ONSELECTION_0"
+NumSoundsFor:ONSTARTPHASEJUMP 0
+MeshNameInfoCount 1
+MeshNameInfo
+	meshName "JumpBridge"
+	criteriaType "None"
+meshNameIncreasedEffectName ""
+meshNameDecreasedEffectName ""
+ExplosionName "CapitalShip0"
+mainViewIcon "MAINVIEWICON_PLANETMODULE_TECHORBITALJUMPBLOCKER"
+picture ""
+minShadow 0.000000
+maxShadow 0.300000
+formationRank 3
+baseBuildTime 320.000000
+buildEffectName ""

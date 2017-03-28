@@ -1,0 +1,42 @@
+﻿TXT
+entityType "ResearchSubject"
+hudIcon "HUDICON_RESEARCHSUBJECT_ARMORTECH0"
+smallHudIcon "HUDICON_RESEARCHSUBJECT_ARMORTECH0"
+infoCardIcon ""
+NameStringID "IDS_RESEARCHSUBJECT_ARMORTECH2_NAME"
+DescriptionStringID "IDS_RESEARCHSUBJECT_ARMORTECH2_DESCRIPTION"
+researchWindowLocation
+	block 0
+	pos [ 4 , 3 ]
+ResearchField "Combat"
+Prerequisites
+	NumResearchPrerequisites 1
+	ResearchPrerequisite
+		Subject "RESEARCHSUBJECT_ARMORTECH1"
+		Level 5
+	RequiredFactionNameID ""
+	RequiredCompletedResearchSubjects 0
+MinimumArtifactLevel -1
+BaseUpgradeTime 120.000000
+PerLevelUpgradeTime 60.000000
+BaseCost
+	credits 1200.000000
+	metal 80.000000
+	crystal 140.000000
+PerLevelCostIncrease
+	credits 1200.000000
+	metal 80.000000
+	crystal 140.000000
+Tier 4
+onlyWorksIfTierLabsExist FALSE
+MaxNumResearchLevels 5
+priority 1.000000
+researchBoolModifiers 0
+researchFloatModifiers 1
+researchModifier
+	modifierType "ShieldMaxMitigationAdjustment"
+	baseValue 0.000000
+	perLevelValue 0.010000
+artifactPicture ""
+uniqueOverlayBrush "RebellionResearchOverlay"
+dlcId 204880

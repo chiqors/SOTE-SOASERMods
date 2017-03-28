@@ -1,0 +1,103 @@
+﻿TXT
+ParticleSimulation
+	HasInfiniteLifeTime FALSE
+	TotalLifeTime 10.000000
+	NumEmitters 1
+	EmitterType "Ring"
+	EmitterContents
+		Name "Armor Repair Wave"
+		Enabled TRUE
+		EmitRate 10.000000
+		HasInfiniteEmitCount TRUE
+		MaxEmitCount 1
+		hasEmitIntervals FALSE
+		emitIntervalRunDuration 0.000000
+		emitIntervalWaitDuration 0.000000
+		ParticleLifeTime 1.900000
+		ParticleMinStartLinearSpeed 0.000000
+		ParticleMaxStartLinearSpeed 0.000000
+		ParticleMinStartAngularSpeed 0.000000
+		ParticleMaxStartAngularSpeed 0.000000
+		ParticleMinStartRotation 0.000000
+		ParticleMaxStartRotation 0.000000
+		ParticleStartMass 1.000000
+		ParticleStartColor ff80ff80
+		ParticleWidth 1.000000
+		ParticleHeight 700.000000
+		MeshName ""
+		Position [ 0.000000 0.000000 -1250.000000 ]
+		Orientation
+			 [ 1.000000 0.000000 0.000000 ]
+			 [ 0.000000 1.000000 0.000000 ]
+			 [ 0.000000 0.000000 1.000000 ]
+		RotateAboutForward 0.000000
+		RotateAboutUp 0.000000
+		RotateAboutCross 0.000000
+		StartTime 0.000000
+		HasInfiniteLifeTime FALSE
+		TotalLifeTime 3.500000
+		BillboardAnchor 0
+		ParticleFacing 1
+		PipelineEffectID "Particle_Additive.fx"
+		AreParticlesAttached TRUE
+		numTextures 2
+		textureName "C:\Users\drokoth\Desktop\to convert\Possible Jump Travel texture.dds"
+		textureName ""
+		textureAnimationName ""
+		textureAnimationSpawnType "SequentialFrames"
+		textureAnimationOnParticleFPS 0.000000
+		ParticlesRotate FALSE
+		MeshParticleRotationAxisType 0
+		MeshParticleRotationAxis [ 0.000000 0.100000 0.000000 ]
+		RotationDirectionType 0
+		RingRadiusXMin 0.000000
+		RingRadiusXMax 0.000000
+		RingRadiusYMin 0.000000
+		RingRadiusYMax 0.000000
+		ParticleMaxStartSpeedTangential 0.000000
+		ParticleMaxStartSpeedRingNormal -140.000000
+		ScaleStartSpeedsByRadius FALSE
+		SpawnAngleStart 0.000000
+		SpawnAngleStop 6.283185
+		minSpawnHeight 1500.000000
+		maxSpawnHeight 1500.000000
+		spawnDirectionIsParallelToPlane TRUE
+		isSpawnAngleRandom TRUE
+		nonRandomSpawnLoopEmittedParticleCount 0
+	NumAffectors 2
+	AffectorType "LinearInflate"
+	AffectorContents
+		Name "(new) LinearInflate-1"
+		Enabled TRUE
+		StartTime 0.000000
+		HasInfiniteLifeTime TRUE
+		TotalLifeTime 0.000000
+		UseYoungParticleAffectThreshold FALSE
+		YoungParticleAffectThreshold 0.000000
+		UseOldParticleAffectThreshold FALSE
+		OldParticleAffectThreshold 0.000000
+		AffectAttachedParticles TRUE
+		numAttachedEmitters 1
+		attachedEmitterName "Armor Repair Wave"
+		WidthInflateRate 150.000000
+		HeightInflateRate -400.000000
+	AffectorType "ColorOscillator"
+	AffectorContents
+		Name "(new) ColorOscillator-1"
+		Enabled TRUE
+		StartTime 0.000000
+		HasInfiniteLifeTime TRUE
+		TotalLifeTime 0.000000
+		UseYoungParticleAffectThreshold FALSE
+		YoungParticleAffectThreshold 0.000000
+		UseOldParticleAffectThreshold FALSE
+		OldParticleAffectThreshold 0.000000
+		AffectAttachedParticles TRUE
+		numAttachedEmitters 1
+		attachedEmitterName "Armor Repair Wave"
+		TransitionPeriod 1.000000
+		StartColor ffffff80
+		StartAlpha 0.000000
+		EndColor ff80ff80
+		EndAlpha 0.160000
+	length 0.000000
