@@ -1,0 +1,49 @@
+﻿TXT
+entityType "Ability"
+buffInstantActionType "ApplyOrRemoveBuffToSelf"
+instantActionTriggerType "AlwaysPerform"
+buffType "BuffSubjugatingAssaultSelf"
+effectInfo
+	effectAttachInfo
+		attachType "Invalid"
+	smallEffectName ""
+	mediumEffectName ""
+	largeEffectName ""
+	soundID ""
+toggleStateOnNameStringID "IDS_ABILITY_SUBJUGATINGASSAULTACTIVE_NAME"
+toggleStateOnDescStringID "IDS_ABILITY_SUBJUGATINGASSAULTACTIVE_DESCRIPTION"
+needsToFaceTarget FALSE
+canCollideWithTarget TRUE
+moveThruTarget FALSE
+isUltimateAbility FALSE
+maxNumLevels 4
+levelSourceType "TitanUpgradeLevel"
+sourcePropertyType "AbilityALevel"
+aiUseTime "OnlyInCombat"
+aiUseTargetCondition "AntimatterExceedsAmount"
+onlyAutoCastWhenTargetAntimatterExceedsAmount
+	Level:0 150.000000
+	Level:1 150.000000
+	Level:2 150.000000
+	Level:3 150.000000
+isAutoCastAvailable TRUE
+isAutoCastOnByDefault FALSE
+pickRandomPlanetToExploreForAutoCastTarget FALSE
+ignoreNonCombatShipsForAutoCastTarget TRUE
+onlyAutoCastWhenDamageTakenExceedsPerc 0.000000
+useCostType "None"
+cooldownTime
+	Level:0 20.000000
+	Level:1 20.000000
+	Level:2 20.000000
+	Level:3 20.000000
+orderAcknowledgementType "ONGENERALORDERISSUED"
+researchPrerequisites
+	NumResearchPrerequisites 0
+	RequiredFactionNameID ""
+	RequiredCompletedResearchSubjects 0
+nameStringID "IDS_ABILITY_SUBJUGATINGASSAULT_NAME"
+descStringID "IDS_ABILITY_SUBJUGATINGASSAULT_DESCRIPTION"
+hudIcon "HUDICON_ABILITY_SUBJUGATINGASSAULT"
+smallHudIcon "HUDICON_ABILITY_SUBJUGATINGASSAULT"
+infoCardIcon ""

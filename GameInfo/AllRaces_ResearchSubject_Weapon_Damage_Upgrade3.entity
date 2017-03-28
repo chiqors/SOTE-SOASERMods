@@ -1,0 +1,51 @@
+﻿TXT
+entityType "ResearchSubject"
+hudIcon "HUDICON_RESEARCHSUBJECT_ABILITY_WEAPONDAMAGEUPGRADE3"
+smallHudIcon "HUDICON_RESEARCHSUBJECT_ABILITY_WEAPONDAMAGEUPGRADE3"
+infoCardIcon ""
+NameStringID "IDS_AllRaces_ResearchSubject_Weapon_Damage_Upgrade3_NAME"
+DescriptionStringID "IDS_AllRaces_ResearchSubject_Weapon_Damage_Upgrade3_DESCRIPTION"
+researchWindowLocation
+	block 1
+	pos [ 6 , 1 ]
+ResearchField "Combat"
+Prerequisites
+	NumResearchPrerequisites 2
+	ResearchPrerequisite
+		Subject "AllRaces_ResearchSubject_Weapon_Damage_Artilary3"
+		Level 1
+	ResearchPrerequisite
+		Subject "AllRaces_ResearchSubject_Weapon_Damage_AutoCannon3"
+		Level 1
+	RequiredFactionNameID ""
+	RequiredCompletedResearchSubjects 0
+MinimumArtifactLevel -1
+BaseUpgradeTime 34.000000
+PerLevelUpgradeTime 17.000000
+BaseCost
+	credits 350.000000
+	metal 25.000000
+	crystal 40.000000
+PerLevelCostIncrease
+	credits 350.000000
+	metal 25.000000
+	crystal 40.000000
+Tier 6
+onlyWorksIfTierLabsExist FALSE
+MaxNumResearchLevels 5
+priority 1.000000
+researchBoolModifiers 0
+researchFloatModifiers 2
+researchModifier
+	modifierType "WeaponDamageAdjustment"
+	baseValue 0.000000
+	perLevelValue 0.050000
+	linkedWeaponClass "GAUSS"	
+researchModifier
+	modifierType "WeaponDamageAdjustment"
+	baseValue 0.000000
+	perLevelValue 0.050000
+	linkedWeaponClass "FLAK"
+artifactPicture ""
+uniqueOverlayBrush "RebellionResearchOverlay"
+dlcId 204880

@@ -1,0 +1,35 @@
+﻿TXT
+entityType "ResearchSubject"
+hudIcon "HUDICON_RESEARCHSUBJECT_CYNOSURALNAVIGATION"
+smallHudIcon "HUDICON_RESEARCHSUBJECT_CYNOSURALNAVIGATION"
+infoCardIcon ""
+NameStringID "IDS_Amarr_ResearchSubject_PlanetModuleAccess_Cynosural_Navigation_NAME"
+DescriptionStringID "IDS_Amarr_ResearchSubject_PlanetModuleAccess_Cynosural_Navigation_DESCRIPTION"
+researchWindowLocation
+	block 0
+	pos [ 4 , 0 ]
+ResearchField "Defense"
+Prerequisites
+	NumResearchPrerequisites 0
+	RequiredFactionNameID ""
+	RequiredCompletedResearchSubjects 0
+MinimumArtifactLevel -1
+BaseUpgradeTime 150.000000
+PerLevelUpgradeTime 5.000000
+BaseCost
+	credits 1000.000000
+	metal 325.000000
+	crystal 200.000000
+PerLevelCostIncrease
+	credits 100.000000
+	metal 0.000000
+	crystal 25.000000
+Tier 4
+onlyWorksIfTierLabsExist TRUE
+MaxNumResearchLevels 1
+priority 0.000000
+researchBoolModifiers 0
+researchFloatModifiers 0
+artifactPicture ""
+uniqueOverlayBrush "RebellionResearchOverlay"
+dlcId 204880

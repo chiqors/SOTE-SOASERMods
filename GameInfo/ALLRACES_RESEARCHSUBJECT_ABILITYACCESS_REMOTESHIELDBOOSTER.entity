@@ -1,0 +1,35 @@
+﻿TXT
+entityType "ResearchSubject"
+hudIcon "HUDIconStarBaseUpgradeTechFactory1"
+smallHudIcon "HUDIconStarBaseUpgradeTechFactory1"
+infoCardIcon ""
+NameStringID "IDS_ABILITY_REMOTEREPAIRSHIELD_NAME"
+DescriptionStringID "IDS_ABILITY_REMOTEREPAIRSHIELD_DESC"
+researchWindowLocation
+	block 0
+	pos [ 2 , 4 ]
+ResearchField "Combat"
+Prerequisites
+	NumResearchPrerequisites 0
+	RequiredFactionNameID ""
+	RequiredCompletedResearchSubjects 0
+MinimumArtifactLevel -1
+BaseUpgradeTime 90.000000
+PerLevelUpgradeTime 10.000000
+BaseCost
+	credits 1600.000000
+	metal 200.000000
+	crystal 400.000000
+PerLevelCostIncrease
+	credits 800.000000
+	metal 100.000000
+	crystal 200.000000
+Tier 2
+onlyWorksIfTierLabsExist FALSE
+MaxNumResearchLevels 1
+priority 1.000000
+researchBoolModifiers 0
+researchFloatModifiers 0
+artifactPicture ""
+uniqueOverlayBrush "RebellionResearchOverlay"
+dlcId 204880

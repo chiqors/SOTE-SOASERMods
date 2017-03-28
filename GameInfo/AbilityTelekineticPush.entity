@@ -1,0 +1,75 @@
+﻿TXT
+entityType "Ability"
+buffInstantActionType "ApplyBuffToTargetsInRadius"
+instantActionTriggerType "AlwaysPerform"
+buffType "BuffTelekineticPush"
+targetFilter
+	numOwnerships 1
+	ownership "Enemy"
+	numObjects 2
+	object "Fighter"
+	object "Corvette"
+	numSpaces 1
+	space "Normal"
+	numConstraints 0
+range
+	Level:0 4200.000000
+	Level:1 4200.000000
+	Level:2 4200.000000
+	Level:3 4200.000000
+maxTargetCount
+	Level:0 -1.000000
+	Level:1 -1.000000
+	Level:2 -1.000000
+	Level:3 -1.000000
+effectInfo
+	effectAttachInfo
+		attachType "Center"
+	smallEffectName "CapitalAbility_TelekineticPushActivate"
+	mediumEffectName "CapitalAbility_TelekineticPushActivate"
+	largeEffectName "CapitalAbility_TelekineticPushActivate"
+	soundID "EFFECT_TELEKINETICPUSH"
+needsToFaceTarget FALSE
+canCollideWithTarget TRUE
+moveThruTarget FALSE
+isUltimateAbility FALSE
+maxNumLevels 4
+levelSourceType "Intrinsic"
+minExperienceLevelRequired
+	Level:0 0.000000
+	Level:1 2.000000
+	Level:2 4.000000
+	Level:3 6.000000
+aiUseTime "OnlyWhenManyTargetsInRange"
+onlyAutoCastWhenTargetCountExceedsAmount
+	Level:0 5.000000
+	Level:1 9.000000
+	Level:2 13.000000
+	Level:3 17.000000
+aiUseTargetCondition "Any"
+isAutoCastAvailable TRUE
+isAutoCastOnByDefault TRUE
+pickRandomPlanetToExploreForAutoCastTarget FALSE
+ignoreNonCombatShipsForAutoCastTarget TRUE
+onlyAutoCastWhenDamageTakenExceedsPerc 0.000000
+useCostType "AntiMatter"
+antiMatterCost
+	Level:0 90.000000
+	Level:1 90.000000
+	Level:2 90.000000
+	Level:3 90.000000
+cooldownTime
+	Level:0 10.000000
+	Level:1 10.000000
+	Level:2 10.000000
+	Level:3 10.000000
+orderAcknowledgementType "ONGENERALORDERISSUED"
+researchPrerequisites
+	NumResearchPrerequisites 0
+	RequiredFactionNameID ""
+	RequiredCompletedResearchSubjects 0
+nameStringID "IDS_ABILITY_TELEKINETICPUSH_NAME"
+descStringID "IDS_ABILITY_TELEKINETICPUSH_DESCRIPTION"
+hudIcon "HUDICON_ABILITY_TELEKINETICPUSH"
+smallHudIcon "HUDICON_ABILITY_TELEKINETICPUSH"
+infoCardIcon ""

@@ -1,0 +1,71 @@
+﻿TXT
+entityType "Ability"
+buffInstantActionType "ApplyBuffToTarget"
+instantActionTriggerType "AlwaysPerform"
+buffType "BuffChasticBurstTarget"
+targetFilter
+	numOwnerships 1
+	ownership "Enemy"
+	numObjects 5
+	object "CapitalShip"
+	object "Frigate"
+	object "PlanetModule"
+	object "Titan"
+	object "StarBase"
+	numSpaces 1
+	space "Normal"
+	numConstraints 1
+	constraint "NotInvulnerable"
+range
+	Level:0 6000.000000
+	Level:1 6000.000000
+	Level:2 6000.000000
+	Level:3 6000.000000
+effectInfo
+	effectAttachInfo
+		attachType "Ability"
+		abilityIndex 0
+	smallEffectName "TitanAbility_Cherubim_ChasticBurst_Activate"
+	mediumEffectName "TitanAbility_Cherubim_ChasticBurst_Activate"
+	largeEffectName "TitanAbility_Cherubim_ChasticBurst_Activate"
+	soundID "EFFECT_CHASTICBURST"
+needsToFaceTarget FALSE
+canCollideWithTarget TRUE
+moveThruTarget FALSE
+isUltimateAbility FALSE
+maxNumLevels 4
+levelSourceType "TitanUpgradeLevel"
+sourcePropertyType "AbilityBLevel"
+aiUseTime "OnlyWhenManyTargetsInRange"
+onlyAutoCastWhenTargetCountExceedsAmount
+	Level:0 2.000000
+	Level:1 2.000000
+	Level:2 2.000000
+	Level:3 2.000000
+aiUseTargetCondition "Any"
+isAutoCastAvailable TRUE
+isAutoCastOnByDefault TRUE
+pickRandomPlanetToExploreForAutoCastTarget FALSE
+ignoreNonCombatShipsForAutoCastTarget TRUE
+onlyAutoCastWhenDamageTakenExceedsPerc 0.000000
+useCostType "AntiMatter"
+antiMatterCost
+	Level:0 80.000000
+	Level:1 80.000000
+	Level:2 80.000000
+	Level:3 80.000000
+cooldownTime
+	Level:0 30.000000
+	Level:1 30.000000
+	Level:2 30.000000
+	Level:3 30.000000
+orderAcknowledgementType "ONATTACKORDERISSUED"
+researchPrerequisites
+	NumResearchPrerequisites 0
+	RequiredFactionNameID ""
+	RequiredCompletedResearchSubjects 0
+nameStringID "IDS_ABILITY_CHASTICBURST_NAME"
+descStringID "IDS_ABILITY_CHASTICBURST_DESCRIPTION"
+hudIcon "HUDICON_ABILITY_CHASTICBURST"
+smallHudIcon "HUDICON_ABILITY_CHASTICBURST"
+infoCardIcon ""

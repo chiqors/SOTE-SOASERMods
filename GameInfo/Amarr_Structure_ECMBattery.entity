@@ -1,0 +1,75 @@
+﻿TXT
+entityType "PlanetModuleStandard"
+minZoomDistanceMult 1.000000
+ability:0 "AbilityECMBattery"
+ability:1 ""
+ability:2 ""
+ability:3 ""
+ability:4 ""
+MaxAntiMatter 0.000000
+AntiMatterRestoreRate 0.000000
+numRandomDebrisLarge 0
+numRandomDebrisSmall 0
+numSpecificDebris 0
+armorType "Module"
+hudIcon "HUDICON_PLANETMODULE_TECHORBITALHANGARDEFENSE"
+smallHudIcon "HUDICONSMALL_PLANETMODULE_TECHORBITALGAUSSDEFENSE"
+infoCardIcon "INFOCARDICON_PLANETMODULE_TECHORBITALGAUSSDEFENSE"
+planetUpgradeSlotType "Tactical"
+planetUpgradeSlotCount 1.000000
+basePrice
+	credits 500.000000
+	metal 250.000000
+	crystal 250.000000
+NameStringID "IDS_PLANETMODULE_TECHORBITALHANGARDEFENSE_NAME"
+DescriptionStringID "IDS_PLANETMODULE_TECHORBITALHANGARDEFENSE_DESCRIPTION"
+planetModuleRoleType "HANGARDEFENSE"
+statCountType "ModuleHangarDefense"
+Prerequisites
+	NumResearchPrerequisites 1
+	ResearchPrerequisite
+		Subject "Amarr_ResearchSubject_PlanetModuleAccess_ECMBattery"
+		Level 1
+	RequiredFactionNameID ""
+	RequiredCompletedResearchSubjects 0
+MaxHullPoints 10000.000000
+HullPointRestoreRate 25.000000
+BaseArmorPoints 0.000000
+MaxShieldPoints 0.000000
+ShieldPointRestoreRate 0.000000
+maxShieldMitigation 0.000000
+ExperiencePointsForDestroying 150.000000
+resourceExtractionType "Invalid"
+cultureSpreadRate 0.000000
+isAffectedBySimilarModuleCostResearch FALSE
+placementRadius 575.000000
+nearPlacementDistOffset 0.000000
+farPlacementDistOffset 9000.000000
+spawnCount 1
+swapMineType ""
+angularSpeed 0.000000
+rotateSoundName ""
+rotateFacingType "None"
+rotateConstantly FALSE
+ShieldMeshName ""
+renderShield TRUE
+NumSoundsFor:ONATTACKORDERISSUED 0
+NumSoundsFor:ONCREATION 0
+NumSoundsFor:ONGENERALORDERISSUED 0
+NumSoundsFor:ONSELECTED 1
+SoundID "PLANETMODULE_TECHORBITALHANGARDEFENSE_ONSELECTION_0"
+NumSoundsFor:ONSTARTPHASEJUMP 0
+MeshNameInfoCount 1
+MeshNameInfo
+	meshName "ewar"
+	criteriaType "None"
+meshNameIncreasedEffectName "HangarGetupgrade"
+meshNameDecreasedEffectName "HangarLoseupgrade"
+ExplosionName "CapitalShip0"
+mainViewIcon "MAINVIEWICON_PLANETMODULE_TECHORBITALGAUSSDEFENSE"
+picture ""
+minShadow 0.000000
+maxShadow 0.400000
+formationRank 3
+baseBuildTime 100.000000
+buildEffectName ""

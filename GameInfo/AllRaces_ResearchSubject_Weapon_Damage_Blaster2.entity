@@ -1,0 +1,43 @@
+﻿TXT
+entityType "ResearchSubject"
+hudIcon "HUDICON_AllRaces_ResearchSubject_Weapon_Damage_Blaster2"
+smallHudIcon "HUDICON_AllRaces_ResearchSubject_Weapon_Damage_Blaster2"
+infoCardIcon ""
+NameStringID "IDS_AllRaces_ResearchSubject_Weapon_Damage_Blaster2_NAME"
+DescriptionStringID "IDS_AllRaces_ResearchSubject_Weapon_Damage_Blaster2_DESCRIPTION"
+researchWindowLocation
+	block 1
+	pos [ 2 , 0 ]
+ResearchField "Combat"
+Prerequisites
+	NumResearchPrerequisites 1
+	ResearchPrerequisite
+		Subject "AllRaces_ResearchSubject_Weapon_Damage_Blaster1"
+		Level 5
+	RequiredFactionNameID ""
+	RequiredCompletedResearchSubjects 0
+MinimumArtifactLevel -1
+BaseUpgradeTime 60.000000
+PerLevelUpgradeTime 30.000000
+BaseCost
+	credits 600.000000
+	metal 40.000000
+	crystal 70.000000
+PerLevelCostIncrease
+	credits 600.000000
+	metal 40.000000
+	crystal 70.000000
+Tier 2
+onlyWorksIfTierLabsExist FALSE
+MaxNumResearchLevels 5
+priority 1.000000
+researchBoolModifiers 0
+researchFloatModifiers 1
+researchModifier
+	modifierType "WeaponDamageAdjustment"
+	baseValue 0.000000
+	perLevelValue 0.040000
+	linkedWeaponClass "PULSEGUN"
+artifactPicture ""
+uniqueOverlayBrush "RebellionResearchOverlay"
+dlcId 204880

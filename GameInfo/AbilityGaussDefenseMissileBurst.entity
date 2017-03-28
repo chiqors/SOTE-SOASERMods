@@ -1,0 +1,105 @@
+﻿TXT
+entityType "Ability"
+buffInstantActionType "ApplyBuffToTargetsInRadiusWithTravel"
+instantActionTriggerType "AlwaysPerform"
+buffType "BuffGaussDefenseMissileBurst"
+targetFilter
+	numOwnerships 1
+	ownership "Enemy"
+	numObjects 6
+	object "CapitalShip"
+	object "Frigate"
+	object "PlanetModule"
+	object "StarBase"
+	object "Titan"
+	object "Corvette"
+	numSpaces 1
+	space "Normal"
+	numConstraints 1
+	constraint "NotInvulnerable"
+range
+	Level:0 4500.000000
+	Level:1 0.000000
+	Level:2 0.000000
+	Level:3 0.000000
+maxTargetCount
+	Level:0 4.000000
+	Level:1 4.000000
+	Level:2 4.000000
+	Level:3 4.000000
+effectInfo
+	effectAttachInfo
+		attachType "Invalid"
+	smallEffectName ""
+	mediumEffectName ""
+	largeEffectName ""
+	soundID ""
+travelSpeed 1000.000000
+effectStaggerDelay 0.300000
+hasWeaponEffects TRUE
+weaponEffectOriginType "Targetter"
+weaponEffectAttachInfo
+	attachType "Ability"
+	abilityIndex 0
+weaponEffectImpactOffsetType "RandomMesh"
+canWeaponEffectHitHull TRUE
+canWeaponEffectHitShields TRUE
+weaponEffectsDef
+	weaponType "Missile"
+	burstCount 3
+	burstDelay 0.080000
+	fireDelay 0.000000
+	muzzleEffectName "Weapon_Tech_MissileCapShip_Muzzle"
+	muzzleSoundMinRespawnTime 0.100000
+	muzzleSounds
+		soundCount 1
+		sound "WEAPON_TECHCAPITALMISSILEHEAVY_MUZZLE"
+	hitEffectName "Weapon_Tech_MissileCapShip_Hit"
+	hitHullEffectSounds
+		soundCount 1
+		sound "WEAPONIMPACT_MISSILEHEAVY_HITGENERIC"
+	hitShieldsEffectSounds
+		soundCount 1
+		sound "WEAPONIMPACT_MISSILEHEAVY_HITGENERIC"
+	missileTravelEffectName "Weapon_Tech_MissileCapShip_Travel"
+	missileStartTurningDistance 300.000000
+	missileSlowTurnRate 0.708997
+	missileMaxSlowTurnTime 4.000000
+needsToFaceTarget FALSE
+canCollideWithTarget TRUE
+moveThruTarget FALSE
+isUltimateAbility FALSE
+maxNumLevels 1
+levelSourceType "ResearchWithoutBase"
+improveSourceResearchSubject "RESEARCHSUBJECT_ABILITYACCESS_GAUSSDEFENSEMISSILEBURST"
+aiUseTime "OnlyInCombat"
+aiUseTargetCondition "Any"
+isAutoCastAvailable TRUE
+isAutoCastOnByDefault TRUE
+pickRandomPlanetToExploreForAutoCastTarget FALSE
+ignoreNonCombatShipsForAutoCastTarget TRUE
+onlyAutoCastWhenDamageTakenExceedsPerc 0.000000
+useCostType "AntiMatter"
+antiMatterCost
+	Level:0 0.000000
+	Level:1 0.000000
+	Level:2 0.000000
+	Level:3 0.000000
+cooldownTime
+	Level:0 15.000000
+	Level:1 0.000000
+	Level:2 0.000000
+	Level:3 0.000000
+orderAcknowledgementType "ONGENERALORDERISSUED"
+researchPrerequisites
+	NumResearchPrerequisites 1
+	ResearchPrerequisite
+		Subject "RESEARCHSUBJECT_ABILITYACCESS_GAUSSDEFENSEMISSILEBURST"
+		Level 1
+	RequiredFactionNameID ""
+	RequiredCompletedResearchSubjects 0
+nameStringID "IDS_ABILITY_GAUSSDEFENSEMISSILEBURST_NAME"
+descStringID "IDS_ABILITY_GAUSSDEFENSEMISSILEBURST_DESCRIPTION"
+hudIcon "HUDICON_ABILITY_GAUSSDEFENSEMISSILEBURST"
+smallHudIcon "HUDICON_ABILITY_GAUSSDEFENSEMISSILEBURST"
+infoCardIcon ""

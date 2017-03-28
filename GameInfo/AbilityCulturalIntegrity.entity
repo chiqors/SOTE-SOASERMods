@@ -1,0 +1,45 @@
+﻿TXT
+entityType "Ability"
+buffInstantActionType "ApplyBuffToSelf"
+instantActionTriggerType "AlwaysPerform"
+buffType "BuffCulturalIntegritySelf"
+effectInfo
+	effectAttachInfo
+		attachType "Center"
+	smallEffectName "MutualThreat"
+	mediumEffectName "MutualThreat"
+	largeEffectName "MutualThreat"
+	soundID ""
+needsToFaceTarget FALSE
+canCollideWithTarget TRUE
+moveThruTarget FALSE
+isUltimateAbility FALSE
+maxNumLevels 1
+levelSourceType "ResearchWithoutBase"
+improveSourceResearchSubject "RESEARCHSUBJECT_ABILITYACCESS_CULTURALINTEGRITY"
+aiUseTime "OnlyWhenOrbitingEnemyOrAlliedPlanet"
+aiUseTargetCondition "Any"
+isAutoCastAvailable TRUE
+isAutoCastOnByDefault TRUE
+pickRandomPlanetToExploreForAutoCastTarget FALSE
+ignoreNonCombatShipsForAutoCastTarget TRUE
+onlyAutoCastWhenDamageTakenExceedsPerc 0.000000
+useCostType "None"
+cooldownTime
+	Level:0 120.000000
+	Level:1 120.000000
+	Level:2 120.000000
+	Level:3 120.000000
+orderAcknowledgementType "ONGENERALORDERISSUED"
+researchPrerequisites
+	NumResearchPrerequisites 1
+	ResearchPrerequisite
+		Subject "RESEARCHSUBJECT_ABILITYACCESS_CULTURALINTEGRITY"
+		Level 1
+	RequiredFactionNameID ""
+	RequiredCompletedResearchSubjects 0
+nameStringID "IDS_ABILITY_CULTURALINTEGRITY_NAME"
+descStringID "IDS_ABILITY_CULTURALINTEGRITY_DESCRIPTION"
+hudIcon "HUDICON_RESEARCHSUBJECT_UNITY_INFLUENCE"
+smallHudIcon "HUDICON_RESEARCHSUBJECT_UNITY_INFLUENCE"
+infoCardIcon ""

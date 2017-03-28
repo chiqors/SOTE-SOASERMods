@@ -1,0 +1,51 @@
+﻿TXT
+entityType "Ability"
+buffInstantActionType "ApplyBuffToSelf"
+instantActionTriggerType "AlwaysPerform"
+buffType "BuffIllusionFightersSelf"
+effectInfo
+	effectAttachInfo
+		attachType "Center"
+	smallEffectName "CapitalAbility_IllusionShipsActivate"
+	mediumEffectName "CapitalAbility_IllusionShipsActivate"
+	largeEffectName "CapitalAbility_IllusionShipsActivate"
+	soundID "EFFECT_ANIMATEMPEST"
+needsToFaceTarget FALSE
+canCollideWithTarget TRUE
+moveThruTarget FALSE
+isUltimateAbility TRUE
+maxNumLevels 2
+levelSourceType "Intrinsic"
+minExperienceLevelRequired
+	Level:0 5.000000
+	Level:1 7.000000
+	Level:2 0.000000
+	Level:3 0.000000
+aiUseTime "OnlyWhenEnemyFleetWillPrevail"
+aiUseTargetCondition "Any"
+isAutoCastAvailable TRUE
+isAutoCastOnByDefault TRUE
+pickRandomPlanetToExploreForAutoCastTarget FALSE
+ignoreNonCombatShipsForAutoCastTarget TRUE
+onlyAutoCastWhenDamageTakenExceedsPerc 0.000000
+useCostType "AntiMatter"
+antiMatterCost
+	Level:0 150.000000
+	Level:1 110.000000
+	Level:2 0.000000
+	Level:3 0.000000
+cooldownTime
+	Level:0 180.000000
+	Level:1 180.000000
+	Level:2 0.000000
+	Level:3 0.000000
+orderAcknowledgementType "ONGENERALORDERISSUED"
+researchPrerequisites
+	NumResearchPrerequisites 0
+	RequiredFactionNameID ""
+	RequiredCompletedResearchSubjects 0
+nameStringID "IDS_ABILITY_ILLUSIONSHIPS_NAME"
+descStringID "IDS_ABILITY_ILLUSIONSHIPS_DESCRIPTION"
+hudIcon "HUDICON_ABILITY_ILLUSIONSHIPS"
+smallHudIcon "HUDICON_ABILITY_ILLUSIONSHIPS"
+infoCardIcon ""

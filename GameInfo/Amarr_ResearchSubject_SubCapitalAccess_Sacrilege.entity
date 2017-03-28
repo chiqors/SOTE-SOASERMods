@@ -1,0 +1,38 @@
+﻿TXT
+entityType "ResearchSubject"
+hudIcon "HUDICON_RESEARCHSUBJECT_SUBCAPITALACCESS_SACRILEGE"
+smallHudIcon "HUDICON_RESEARCHSUBJECT_SUBCAPITALACCESS_SACRILEGE"
+infoCardIcon ""
+NameStringID "IDS_Amarr_ResearchSubject_SubCapitalAccess_Sacrilege_NAME"
+DescriptionStringID "IDS_Amarr_ResearchSubject_SubCapitalAccess_Sacrilege_DESCRIPTION"
+researchWindowLocation
+	block 2
+	pos [ 3 , 3 ]
+ResearchField "Combat"
+Prerequisites
+	NumResearchPrerequisites 1
+	ResearchPrerequisite
+		Subject "Amarr_ResearchSubject_SubCapitalAccess_Maller"
+		Level 2
+	RequiredFactionNameID ""
+	RequiredCompletedResearchSubjects 5
+MinimumArtifactLevel -1
+BaseUpgradeTime 30.000000
+PerLevelUpgradeTime 3.000000
+BaseCost
+	credits 3200.000000
+	metal 2000.000000
+	crystal 1200.000000
+PerLevelCostIncrease
+	credits 3200.000000
+	metal 2000.000000
+	crystal 1200.000000
+Tier 3
+onlyWorksIfTierLabsExist TRUE
+MaxNumResearchLevels 2
+priority 0.000000
+researchBoolModifiers 0
+researchFloatModifiers 0
+artifactPicture ""
+uniqueOverlayBrush "RebellionResearchOverlay"
+dlcId 204880

@@ -1,0 +1,38 @@
+﻿TXT
+entityType "ResearchSubject"
+hudIcon "HUDICON_ABILITY_DEPLOYCOMBATTURRET"
+smallHudIcon "HUDICON_ABILITY_DEPLOYCOMBATTURRET"
+infoCardIcon ""
+NameStringID "IDS_AMARR_SHIP_BATTLESHIP_PALADIN_NAME"
+DescriptionStringID "IDS_AMARR_SHIP_BATTLESHIP_PALADIN_DESCRIPTION"
+researchWindowLocation
+	block 2
+	pos [ 7 , 2 ]
+ResearchField "Combat"
+Prerequisites
+	NumResearchPrerequisites 1
+	ResearchPrerequisite
+		Subject "Amarr_ResearchSubject_SubCapitalAccess_Apocalypse"
+		Level 1
+	RequiredFactionNameID ""
+	RequiredCompletedResearchSubjects 0
+MinimumArtifactLevel -1
+BaseUpgradeTime 240.000000
+PerLevelUpgradeTime 5.000000
+BaseCost
+	credits 8000.000000
+	metal 2500.000000
+	crystal 1250.000000
+PerLevelCostIncrease
+	credits 100.000000
+	metal 25.000000
+	crystal 25.000000
+Tier 7
+onlyWorksIfTierLabsExist TRUE
+MaxNumResearchLevels 1
+priority 1.000000
+researchBoolModifiers 0
+researchFloatModifiers 0
+artifactPicture ""
+uniqueOverlayBrush "RebellionResearchOverlay"
+dlcId 204880

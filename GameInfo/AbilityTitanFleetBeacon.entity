@@ -1,0 +1,49 @@
+﻿TXT
+entityType "Ability"
+buffInstantActionType "ApplyBuffToSelf"
+instantActionTriggerType "AlwaysPerform"
+buffType "BuffTitanFleetBeacon"
+effectInfo
+	effectAttachInfo
+		attachType "Ability"
+		abilityIndex 0
+	smallEffectName ""
+	mediumEffectName ""
+	largeEffectName ""
+	soundID ""
+needsToFaceTarget FALSE
+canCollideWithTarget TRUE
+moveThruTarget FALSE
+isUltimateAbility FALSE
+maxNumLevels 1
+levelSourceType "FixedLevel0"
+aiUseTime "OnlyIfOwnTitan"
+aiUseTargetCondition "Any"
+isAutoCastAvailable TRUE
+isAutoCastOnByDefault TRUE
+pickRandomPlanetToExploreForAutoCastTarget FALSE
+ignoreNonCombatShipsForAutoCastTarget TRUE
+onlyAutoCastWhenDamageTakenExceedsPerc 0.000000
+useCostType "ResourcesAndMustHaveTitan"
+resourceCost
+	credits 2500.000000
+	metal 150.000000
+	crystal 500.000000
+cooldownTime
+	Level:0 600.000000
+	Level:1 600.000000
+	Level:2 0.000000
+	Level:3 0.000000
+orderAcknowledgementType "ONGENERALORDERISSUED"
+researchPrerequisites
+	NumResearchPrerequisites 1
+	ResearchPrerequisite
+		Subject "RESEARCHSUBJECT_CHARYBDIS_DARK_FLEET"
+		Level 1
+	RequiredFactionNameID ""
+	RequiredCompletedResearchSubjects 0
+nameStringID "IDS_ABILITY_TITANFLEETBEACON_NAME"
+descStringID "IDS_ABILITY_TITANFLEETBEACON_DESCRIPTION"
+hudIcon "HUDICON_RESEARCHSUBJECT_CHARYDBISDARKFLEET"
+smallHudIcon "HUDICON_RESEARCHSUBJECT_CHARYDBISDARKFLEET"
+infoCardIcon ""

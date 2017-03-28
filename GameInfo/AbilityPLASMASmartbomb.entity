@@ -1,0 +1,81 @@
+﻿TXT
+entityType "Ability"
+buffInstantActionType "ApplyBuffToTargetsInRadiusWithTravel"
+instantActionTriggerType "AlwaysPerform"
+buffType "BuffPLASMASmartbomb"
+targetFilter
+	numOwnerships 1
+	ownership "Enemy"
+	numObjects 5
+	object "Fighter"
+	object "Corvette"
+	object "Frigate"
+	object "CapitalShip"
+	object "Titan"
+	numSpaces 1
+	space "Normal"
+	numConstraints 0
+range
+	Level:0 1200.000000
+	Level:1 1500.000000
+	Level:2 1800.000000
+	Level:3 2100.000000
+maxTargetCount
+	Level:0 -1.000000
+	Level:1 -1.000000
+	Level:2 -1.000000
+	Level:3 -1.000000
+effectInfo
+	effectAttachInfo
+		attachType "Center"
+	smallEffectName "PLASMA_SMARTBOMB"
+	mediumEffectName "PLASMA_SMARTBOMB"
+	largeEffectName "PLASMA_SMARTBOMB"
+	soundID "EFFECT_FLAKBURST"
+travelSpeed 3000.000000
+effectStaggerDelay 0.000000
+hasWeaponEffects FALSE
+needsToFaceTarget FALSE
+canCollideWithTarget TRUE
+moveThruTarget FALSE
+isUltimateAbility FALSE
+maxNumLevels 4
+levelSourceType "Intrinsic"
+minExperienceLevelRequired
+	Level:0 0.000000
+	Level:1 1.000000
+	Level:2 2.000000
+	Level:3 3.000000
+aiUseTime "OnlyWhenManyTargetsInRange"
+onlyAutoCastWhenTargetCountExceedsAmount
+	Level:0 1.000000
+	Level:1 1.000000
+	Level:2 1.000000
+	Level:3 1.000000
+aiUseTargetCondition "Any"
+isAutoCastAvailable TRUE
+isAutoCastOnByDefault TRUE
+pickRandomPlanetToExploreForAutoCastTarget FALSE
+ignoreNonCombatShipsForAutoCastTarget TRUE
+onlyAutoCastWhenDamageTakenExceedsPerc 0.000000
+useCostType "AntiMatter"
+antiMatterCost
+	Level:0 100.000000
+	Level:1 90.000000
+	Level:2 81.000000
+	Level:3 73.000000
+cooldownTime
+	Level:0 13.000000
+	Level:1 13.000000
+	Level:2 13.000000
+	Level:3 13.000000
+orderAcknowledgementType "ONGENERALORDERISSUED"
+researchPrerequisites
+	NumResearchPrerequisites 0
+	RequiredFactionNameID ""
+	RequiredCompletedResearchSubjects 0
+nameStringID "IDS_ABILITY_PLASMASMARTBOMB_NAME"
+descStringID "IDS_ABILITY_PLASMASMARTBOMB_DESCRIPTION"
+hudIcon "HUDICON_ABILITY_FLAKBURST"
+smallHudIcon "HUDICON_ABILITY_FLAKBURST"
+infoCardIcon ""

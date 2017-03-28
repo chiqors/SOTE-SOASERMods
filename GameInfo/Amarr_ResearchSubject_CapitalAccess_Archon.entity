@@ -1,0 +1,38 @@
+﻿TXT
+entityType "ResearchSubject"
+hudIcon "HUDICON_RESEARCHSUBJECT_STRUCTUREWORK_RESOURCEEXTRACT1"
+smallHudIcon "HUDICON_RESEARCHSUBJECT_STRUCTUREWORK_RESOURCEEXTRACT1"
+infoCardIcon ""
+NameStringID "IDS_RESEARCHSUBJECT_CAPITALSHIPACESS_ARCHON"
+DescriptionStringID "IDS_RESEARCHSUBJECT_CAPITALSHIPACESS_ARCHON_DESCRIPTION"
+researchWindowLocation
+	block 2
+	pos [ 3 , 0 ]
+ResearchField "Combat"
+Prerequisites
+	NumResearchPrerequisites 1
+	ResearchPrerequisite
+		Subject "Amarr_ResearchSubject_SubCapitalAccess_Augoror"
+		Level 1
+	RequiredFactionNameID ""
+	RequiredCompletedResearchSubjects 0
+MinimumArtifactLevel -1
+BaseUpgradeTime 75.000000
+PerLevelUpgradeTime 10.000000
+BaseCost
+	credits 3000.000000
+	metal 800.000000
+	crystal 400.000000
+PerLevelCostIncrease
+	credits 100.000000
+	metal 25.000000
+	crystal 25.000000
+Tier 3
+onlyWorksIfTierLabsExist TRUE
+MaxNumResearchLevels 1
+priority 1.000000
+researchBoolModifiers 0
+researchFloatModifiers 0
+artifactPicture ""
+uniqueOverlayBrush "RebellionResearchOverlay"
+dlcId 204880

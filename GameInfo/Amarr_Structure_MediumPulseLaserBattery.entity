@@ -1,0 +1,133 @@
+﻿TXT
+entityType "PlanetModuleWeaponDefense"
+minZoomDistanceMult 1.000000
+ability:0 ""
+ability:1 ""
+ability:2 ""
+ability:3 ""
+ability:4 ""
+MaxAntiMatter 0.000000
+AntiMatterRestoreRate 0.000000
+numRandomDebrisLarge 0
+numRandomDebrisSmall 0
+numSpecificDebris 0
+armorType "Module"
+hudIcon "HUDICON_PLANETMODULE_TECHORBITALGAUSSDEFENSE"
+smallHudIcon "HUDICONSMALL_PLANETMODULE_TECHORBITALGAUSSDEFENSE"
+infoCardIcon "INFOCARDICON_PLANETMODULE_TECHORBITALGAUSSDEFENSE"
+planetUpgradeSlotType "Tactical"
+planetUpgradeSlotCount 2.000000
+basePrice
+	credits 500.000000
+	metal 200.000000
+	crystal 150.000000
+NameStringID "IDS_PLANETMODULE_TECHORBITALREPAIRPLATFORM_NAME"
+DescriptionStringID "IDS_PLANETMODULE_TECHORBITALREPAIRPLATFORM_DESCRIPTION"
+planetModuleRoleType "WEAPONDEFENSE"
+statCountType "ModuleRepair"
+Prerequisites
+	NumResearchPrerequisites 1
+	ResearchPrerequisite
+		Subject "Amarr_ResearchSubject_PlanetModuleAccess_MediumPulseLaserBattery"
+		Level 1
+	RequiredFactionNameID ""
+	RequiredCompletedResearchSubjects 0
+MaxHullPoints 30000.000000
+HullPointRestoreRate 25.000000
+BaseArmorPoints 0.000000
+MaxShieldPoints 0.000000
+ShieldPointRestoreRate 0.000000
+maxShieldMitigation 0.000000
+ExperiencePointsForDestroying 400.000000
+resourceExtractionType "Invalid"
+cultureSpreadRate 0.000000
+isAffectedBySimilarModuleCostResearch FALSE
+placementRadius 450.000000
+nearPlacementDistOffset 0.000000
+farPlacementDistOffset 9000.000000
+spawnCount 1
+swapMineType ""
+angularSpeed 19.999992
+rotateSoundName ""
+rotateFacingType "None"
+rotateConstantly FALSE
+ShieldMeshName ""
+renderShield TRUE
+NumSoundsFor:ONATTACKORDERISSUED 0
+NumSoundsFor:ONCREATION 0
+NumSoundsFor:ONGENERALORDERISSUED 0
+NumSoundsFor:ONSELECTED 1
+SoundID "PLANETMODULE_TECHORBITALGAUSSDEFENSE_ONSELECTION_0"
+NumSoundsFor:ONSTARTPHASEJUMP 0
+MeshNameInfoCount 1
+MeshNameInfo
+	meshName "ad_battleplatform"
+	criteriaType "None"
+meshNameIncreasedEffectName "GaussGetupgrade"
+meshNameDecreasedEffectName "Gaussloseupgrade"
+ExplosionName "CapitalShip0"
+mainViewIcon "MAINVIEWICON_PLANETMODULE_TECHORBITALGAUSSDEFENSE"
+picture ""
+minShadow 0.000000
+maxShadow 0.600000
+formationRank 3
+baseBuildTime 140.000000
+buildEffectName ""
+defaultAutoAttackRange "None"
+defaultAutoAttackOn TRUE
+prefersToFocusFire TRUE
+usesFighterAttack FALSE
+NumWeapons 1
+Weapon
+	WeaponType "Beam"
+	damageEnums
+		AttackType "ANTIHEAVY"
+		DamageAffectType "AFFECTS_SHIELDS_AND_HULL"
+		DamageApplyType "OVERTIME"
+		DamageType "ENERGY"
+		WeaponClassType "LASERTECH"
+	DamagePerBank:FRONT 1800.000000
+	DamagePerBank:BACK 0.000000
+	DamagePerBank:LEFT 0.000000
+	DamagePerBank:RIGHT 0.000000
+	Range 75000.000000
+	PreBuffCooldownTime 10.000000
+	CanFireAtFighter FALSE
+	SynchronizedTargeting TRUE
+	PointStaggerDelay 0.000000
+	TravelSpeed 0.000000
+	Duration 0.170000
+	fireConstraintType "CanAlwaysFire"
+	WeaponEffects
+		weaponType "Beam"
+		burstCount 4
+		burstDelay 0.170000
+		fireDelay 0.000000
+		muzzleEffectName "EVE_Pulselaser_White_Medium_Muzzle"
+		muzzleSoundMinRespawnTime 0.100000
+		muzzleSounds
+			soundCount 1
+			sound ""
+		hitEffectName "EVE_Pulselaser_White_Medium_Hit"
+		hitHullEffectSounds
+			soundCount 1
+			sound ""
+		hitShieldsEffectSounds
+			soundCount 1
+			sound ""
+		beamEffectSounds
+			soundCount 1
+			sound "WEAPON_MEGAPULSELASER"
+		beamGlowTextureName "EVE_Weapon_ImperialApocalypse_Glow.dds"
+		beamCoreTextureName "EVE_Weapon_ImperialApocalypse_Core.dds"
+		beamWidth 50.000000
+		beamGlowColor aaffffff
+		beamCoreColor ffffffff
+		beamTilingRate 16.000000
+m_weaponIndexForRange 0
+firingAlignmentType "Default"
+TargetCountPerBank:FRONT 1
+TargetCountPerBank:BACK 0
+TargetCountPerBank:LEFT 0
+TargetCountPerBank:RIGHT 0
+canOnlyTargetStructures FALSE

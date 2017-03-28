@@ -1,0 +1,38 @@
+﻿TXT
+entityType "ResearchSubject"
+hudIcon "HUDICON_RESEARCHSUBJECT_FRIGATEACCESS_ABSOLUTION"
+smallHudIcon "HUDICON_RESEARCHSUBJECT_FRIGATEACCESS_ABSOLUTION"
+infoCardIcon ""
+NameStringID "IDS_RESEARCHSUBJECT_FRIGATEACCESS_ABSOLUTION_NAME"
+DescriptionStringID "IDS_RESEARCHSUBJECT_FRIGATEACCESS_ABSOLUTION_DESCRIPTION"
+researchWindowLocation
+	block 2
+	pos [ 5 , 4 ]
+ResearchField "Combat"
+Prerequisites
+	NumResearchPrerequisites 1
+	ResearchPrerequisite
+		Subject "Amarr_ResearchSubject_SubCapitalAccess_Harbinger"
+		Level 2
+	RequiredFactionNameID ""
+	RequiredCompletedResearchSubjects 0
+	MinimumArtifactLevel -1
+BaseUpgradeTime 86.000000
+PerLevelUpgradeTime 9.000000
+BaseCost
+	credits 5000.000000
+	metal 3100.000000
+	crystal 2000.000000
+PerLevelCostIncrease
+	credits 500.000000
+	metal 310.000000
+	crystal 200.000000
+Tier 5
+onlyWorksIfTierLabsExist TRUE
+MaxNumResearchLevels 2
+priority 0.000000
+researchBoolModifiers 0
+researchFloatModifiers 0
+artifactPicture ""
+uniqueOverlayBrush "RebellionResearchOverlay"
+dlcId 204880

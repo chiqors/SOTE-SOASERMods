@@ -1,0 +1,67 @@
+﻿TXT
+entityType "Ability"
+buffInstantActionType "ApplyTargettedBuffToSelf"
+instantActionTriggerType "AlwaysPerform"
+buffType "BuffTheMawSelf"
+targetFilter
+	numOwnerships 1
+	ownership "Enemy"
+	numObjects 1
+	object "Frigate"
+	numSpaces 1
+	space "Normal"
+	numConstraints 1
+	constraint "NotInvulnerable"
+range
+	Level:0 8000.000000
+	Level:1 9000.000000
+	Level:2 0.000000
+	Level:3 0.000000
+effectInfo
+	effectAttachInfo
+		attachType "Center"
+	smallEffectName ""
+	mediumEffectName ""
+	largeEffectName ""
+	soundID "EFFECT_THEMAW"
+needsToFaceTarget TRUE
+canCollideWithTarget TRUE
+moveThruTarget FALSE
+isUltimateAbility FALSE
+maxNumLevels 2
+levelSourceType "TitanUpgradeLevel"
+sourcePropertyType "AbilityDLevel"
+aiUseTime "OnlyWhenManyTargetsInRangeOfBank"
+onlyAutoCastWhenTargetCountExceedsAmount
+	Level:0 8.000000
+	Level:1 8.000000
+	Level:2 8.000000
+	Level:3 8.000000
+onlyAutoCastWhenTargetsInBank "FRONT"
+aiUseTargetCondition "Any"
+isAutoCastAvailable TRUE
+isAutoCastOnByDefault TRUE
+pickRandomPlanetToExploreForAutoCastTarget FALSE
+ignoreNonCombatShipsForAutoCastTarget TRUE
+onlyAutoCastWhenDamageTakenExceedsPerc 0.000000
+useCostType "AntiMatter"
+antiMatterCost
+	Level:0 150.000000
+	Level:1 130.000000
+	Level:2 0.000000
+	Level:3 0.000000
+cooldownTime
+	Level:0 210.000000
+	Level:1 210.000000
+	Level:2 0.000000
+	Level:3 0.000000
+orderAcknowledgementType "ONGENERALORDERISSUED"
+researchPrerequisites
+	NumResearchPrerequisites 0
+	RequiredFactionNameID ""
+	RequiredCompletedResearchSubjects 0
+nameStringID "IDS_ABILITY_THEMAW_NAME"
+descStringID "IDS_ABILITY_THEMAW_DESCRIPTION"
+hudIcon "HUDICON_ABILITY_THEMAW"
+smallHudIcon "HUDICON_ABILITY_THEMAW"
+infoCardIcon ""

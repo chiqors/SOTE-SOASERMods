@@ -1,0 +1,160 @@
+﻿TXT
+entityType "Frigate"
+defaultAutoAttackRange "GravityWell"
+defaultAutoAttackOn TRUE
+prefersToFocusFire TRUE
+usesFighterAttack FALSE
+autoJoinFleetDefault TRUE
+canBomb FALSE
+typeCount 1
+frigateRoleType "Heavy"
+statCountType "FrigateHeavy"
+mainViewIcon "MAINVIEWICON_CAPITALSHIP_TECHTRANSPORT"
+picture ""
+NameStringID "IDS_CAPITALSHIP_TECHTRANSPORT_NAME"
+DescriptionStringID "IDS_CAPITALSHIP_TECHTRANSPORT_DESCRIPTION"
+counterDescriptionStringID "IDS_COUNTERDESC_FRIGATE_LONGRANGE"
+basePrice
+	credits 725.000000
+	metal 290.000000
+	crystal 175.000000
+slotCount 11.000000
+BuildTime 260.000000
+hasLevels FALSE
+ExperiencePointsForDestroying 210.000000
+MaxHullPoints 3600.000000
+MaxShieldPoints 1800.000000
+HullPointRestoreRate 3.600000
+ShieldPointRestoreRate 1.800000
+BaseArmorPoints 0.000000
+maxMitigation 0.650000
+Prerequisites
+	NumResearchPrerequisites 1
+	ResearchPrerequisite
+		Subject "Amarr_ResearchSubject_SubCapitalAccess_Abaddon"
+		Level 1
+	RequiredFactionNameID ""
+	RequiredCompletedResearchSubjects 0
+numRandomDebrisLarge 0
+numRandomDebrisSmall 0
+numSpecificDebris 0
+armorType "Heavy"
+hudIcon "HUDICON_CAPITALSHIP_TECHTRANSPORT"
+smallHudIcon "MAINVIEWICON_CAPITALSHIP_TECHTRANSPORT"
+infoCardIcon "INFOCARDICON_CAPITALSHIP_TECHTRANSPORT"
+minZoomDistanceMult 1.000000
+NumWeapons 1
+Weapon
+	WeaponType "Beam"
+	damageEnums
+		AttackType "ANTIHEAVY"
+		DamageAffectType "AFFECTS_SHIELDS_AND_HULL"
+		DamageApplyType "OVERTIME"
+		DamageType "ENERGY"
+		WeaponClassType "LASERTECH"
+	DamagePerBank:FRONT 480.000000
+	DamagePerBank:BACK 0.000000
+	DamagePerBank:LEFT 0.000000
+	DamagePerBank:RIGHT 0.000000
+	Range 17000.000000
+	PreBuffCooldownTime 8.000000
+	CanFireAtFighter FALSE
+	SynchronizedTargeting TRUE
+	PointStaggerDelay 0.000000
+	TravelSpeed 0.000000
+	Duration 0.170000
+	fireConstraintType "CanAlwaysFire"
+	WeaponEffects
+		weaponType "Beam"
+		burstCount 4
+		burstDelay 0.220000
+		fireDelay 0.000000
+		muzzleEffectName "EVE_Pulselaser_Purple_Medium_Muzzle"
+		muzzleSoundMinRespawnTime 0.100000
+		muzzleSounds
+			soundCount 1
+			sound ""
+		hitEffectName "EVE_Pulselaser_Purple_Medium_Hit"
+		hitHullEffectSounds
+			soundCount 1
+			sound ""
+		hitShieldsEffectSounds
+			soundCount 1
+			sound ""
+		beamEffectSounds
+			soundCount 1
+			sound "WEAPON_MEGAPULSELASER"
+		beamGlowTextureName "EVE_Weapon_PurpleLaser_Glow.dds"
+		beamCoreTextureName "EVE_Weapon_PurpleLaser_Core.dds"
+		beamWidth 40.000000
+		beamGlowColor aaffffff
+		beamCoreColor ffffffff
+		beamTilingRate 16.000000
+m_weaponIndexForRange 0
+firingAlignmentType "Default"
+TargetCountPerBank:FRONT 1
+TargetCountPerBank:BACK 0
+TargetCountPerBank:LEFT 0
+TargetCountPerBank:RIGHT 0
+canOnlyTargetStructures FALSE
+hasWeaponLevels FALSE
+mass 11000.000000
+ShieldMeshName "Abaddon"
+renderShield FALSE
+maxAccelerationLinear 72.000000
+maxAccelerationStrafe 10.000000
+maxDecelerationLinear 500.000000
+maxAccelerationAngular 6.400000
+maxDecelerationAngular 8.999996
+maxSpeedLinear 300.000000
+maxRollRate 2.000000
+maxRollAngle 40.000000
+squadTypeEntityDef:0 "Amarr_DroneSquad_Infiltrator"
+squadAntiMatterCost:0 0.000000
+squadTypeEntityDef:1 ""
+squadAntiMatterCost:1 0.000000
+squadTypeEntityDef:2 ""
+squadAntiMatterCost:2 0.000000
+squadTypeEntityDef:3 ""
+squadAntiMatterCost:3 0.000000
+maxNumCommandPoints 1
+NumSoundsFor:ONATTACKORDERISSUED 3
+SoundID "CAPITALSHIP_TECHTRANSPORT_ONATTACKORDERISSUED_0"
+SoundID "CAPITALSHIP_TECHTRANSPORT_ONATTACKORDERISSUED_1"
+SoundID "CAPITALSHIP_TECHTRANSPORT_ONATTACKORDERISSUED_2"
+NumSoundsFor:ONCREATION 1
+SoundID "CAPITALSHIP_TECHTRANSPORT_ONCREATION_0"
+NumSoundsFor:ONGENERALORDERISSUED 3
+SoundID "CAPITALSHIP_TECHTRANSPORT_ONGENERALORDERISSUED_0"
+SoundID "CAPITALSHIP_TECHTRANSPORT_ONGENERALORDERISSUED_1"
+SoundID "CAPITALSHIP_TECHTRANSPORT_ONGENERALORDERISSUED_2"
+NumSoundsFor:ONSELECTED 3
+SoundID "CAPITALSHIP_TECHTRANSPORT_ONSELECTED_0"
+SoundID "CAPITALSHIP_TECHTRANSPORT_ONSELECTED_1"
+SoundID "CAPITALSHIP_TECHTRANSPORT_ONSELECTED_2"
+NumSoundsFor:ONSTARTPHASEJUMP 1
+SoundID "CAPITALSHIP_TECHTRANSPORT_ONSTARTPHASEJUMP_0"
+MeshNameInfoCount 1
+MeshNameInfo
+	meshName "Abaddon"
+	criteriaType "None"
+meshNameIncreasedEffectName ""
+meshNameDecreasedEffectName ""
+ExhaustParticleSystemName "Exhaust_EveBattleship"
+ExplosionName "EVEBattleship"
+HyperspaceChargingSoundID "HYPERSPACE_CHARGEUP"
+HyperspaceTravelSoundID "HYPERSPACE_TRAVEL"
+EngineSoundID "ENGINE_TECHCAPITALSHIP"
+ability:0 "AbilityAfterburner"
+ability:1 "AbilityPhasedArmourHardener"
+ability:2 ""
+ability:3 ""
+ability:4 "AbilityLaunchSquads"
+MaxAntiMatter 750.000000
+AntiMatterRestoreRate 1.450000
+cargoType "Invalid"
+maxCargoCapacity 0.000000
+formationRank 0
+minShadow 0.000000
+maxShadow 0.600000
+allegianceDecreasePerRoundtrip 0.000000

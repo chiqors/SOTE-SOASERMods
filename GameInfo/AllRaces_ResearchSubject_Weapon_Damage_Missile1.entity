@@ -1,0 +1,40 @@
+﻿TXT
+entityType "ResearchSubject"
+hudIcon "HUDICON_AllRaces_ResearchSubject_Weapon_Damage_Missile1"
+smallHudIcon "HUDICON_AllRaces_ResearchSubject_Weapon_Damage_Missile1"
+infoCardIcon ""
+NameStringID "IDS_AllRaces_ResearchSubject_Weapon_Damage_Missile1_NAME"
+DescriptionStringID "IDS_AllRaces_ResearchSubject_Weapon_Damage_Missile1_DESCRIPTION"
+researchWindowLocation
+	block 1
+	pos [ 1 , 2 ]
+ResearchField "Combat"
+Prerequisites
+	NumResearchPrerequisites 0
+	RequiredFactionNameID ""
+	RequiredCompletedResearchSubjects 0
+MinimumArtifactLevel -1
+BaseUpgradeTime 34.000000
+PerLevelUpgradeTime 17.000000
+BaseCost
+	credits 350.000000
+	metal 25.000000
+	crystal 40.000000
+PerLevelCostIncrease
+	credits 350.000000
+	metal 25.000000
+	crystal 40.000000
+Tier 1
+onlyWorksIfTierLabsExist FALSE
+MaxNumResearchLevels 5
+priority 1.000000
+researchBoolModifiers 0
+researchFloatModifiers 1
+researchModifier
+	modifierType "WeaponDamageAdjustment"
+	baseValue 0.000000
+	perLevelValue 0.025000
+	linkedWeaponClass "MISSILE"
+artifactPicture ""
+uniqueOverlayBrush "RebellionResearchOverlay"
+dlcId 204880

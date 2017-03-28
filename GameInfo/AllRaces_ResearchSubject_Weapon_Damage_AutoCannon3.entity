@@ -1,0 +1,43 @@
+﻿TXT
+entityType "ResearchSubject"
+hudIcon "HUDICON_RESEARCHSUBJECT_AUTOCANNONLARGE"
+smallHudIcon "HUDICON_RESEARCHSUBJECT_AUTOCANNONLARGE"
+infoCardIcon ""
+NameStringID "IDS_AllRaces_ResearchSubject_Weapon_Damage_AutoCannon3_NAME"
+DescriptionStringID "IDS_AllRaces_ResearchSubject_Weapon_Damage_AutoCannon3_DESCRIPTION"
+researchWindowLocation
+	block 1
+	pos [ 4 , 0 ]
+ResearchField "Combat"
+Prerequisites
+	NumResearchPrerequisites 1
+	ResearchPrerequisite
+		Subject "AllRaces_ResearchSubject_Weapon_Damage_AutoCannon2"
+		Level 5
+	RequiredFactionNameID ""
+	RequiredCompletedResearchSubjects 0
+MinimumArtifactLevel -1
+BaseUpgradeTime 120.000000
+PerLevelUpgradeTime 60.000000
+BaseCost
+	credits 1200.000000
+	metal 80.000000
+	crystal 140.000000
+PerLevelCostIncrease
+	credits 1200.000000
+	metal 80.000000
+	crystal 140.000000
+Tier 4
+onlyWorksIfTierLabsExist FALSE
+MaxNumResearchLevels 5
+priority 1.000000
+researchBoolModifiers 0
+researchFloatModifiers 1
+researchModifier
+	modifierType "WeaponDamageAdjustment"
+	baseValue 0.000000
+	perLevelValue 0.040000
+	linkedWeaponClass "AUTOCANNON"
+artifactPicture ""
+uniqueOverlayBrush "RebellionResearchOverlay"
+dlcId 204880

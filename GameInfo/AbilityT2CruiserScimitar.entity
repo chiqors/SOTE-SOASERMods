@@ -1,0 +1,39 @@
+﻿TXT
+entityType "Ability"
+buffInstantActionType "ApplyBuffToSelf"
+instantActionTriggerType "AlwaysPerform"
+buffType "BuffT2CaldariBasilisk"
+effectInfo
+	effectAttachInfo
+		attachType "Invalid"
+	smallEffectName ""
+	mediumEffectName ""
+	largeEffectName ""
+	soundID ""
+needsToFaceTarget FALSE
+canCollideWithTarget TRUE
+moveThruTarget FALSE
+isUltimateAbility FALSE
+maxNumLevels 1
+levelSourceType "ResearchWithoutBase"
+improveSourceResearchSubject "Minmatar_ResearchSubject_SubCapitalAccess_Scimitar"
+aiUseTime "Invalid"
+aiUseTargetCondition "Invalid"
+isAutoCastAvailable FALSE
+isAutoCastOnByDefault FALSE
+pickRandomPlanetToExploreForAutoCastTarget FALSE
+ignoreNonCombatShipsForAutoCastTarget TRUE
+onlyAutoCastWhenDamageTakenExceedsPerc 0.000000
+useCostType "Passive"
+researchPrerequisites
+	NumResearchPrerequisites 1
+	ResearchPrerequisite
+		Subject "Minmatar_ResearchSubject_SubCapitalAccess_Scimitar"
+		Level 1
+	RequiredFactionNameID ""
+	RequiredCompletedResearchSubjects 0
+nameStringID "IDS_MINMATAR_SHIP_CRUISER_SCIMITAR_NAME"
+descStringID "IDS_MINMATAR_SHIP_CRUISER_SCIMITAR_Description"
+hudIcon "HUDICON_FRIGATE_SCIMITAR"
+smallHudIcon "HUDICON_FRIGATE_SCIMITAR"
+infoCardIcon ""

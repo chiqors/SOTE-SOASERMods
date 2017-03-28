@@ -1,0 +1,43 @@
+﻿TXT
+entityType "ResearchSubject"
+hudIcon "HUDICON_RESEARCHSUBJECT_BALLISTICCONTROL"
+smallHudIcon "HUDICON_RESEARCHSUBJECT_BALLISTICCONTROL"
+infoCardIcon ""
+NameStringID "IDS_AllRaces_ResearchSubject_Weapon_BallisticControl_NAME"
+DescriptionStringID "IDS_AllRaces_ResearchSubject_Weapon_BallisticControl_DESCRIPTION"
+researchWindowLocation
+	block 1
+	pos [ 7 , 2 ]
+ResearchField "Combat"
+Prerequisites
+	NumResearchPrerequisites 1
+	ResearchPrerequisite
+		Subject "AllRaces_ResearchSubject_Weapon_Damage_Missile3"
+		Level 5
+	RequiredFactionNameID ""
+	RequiredCompletedResearchSubjects 0
+MinimumArtifactLevel -1
+BaseUpgradeTime 136.000000
+PerLevelUpgradeTime 68.000000
+BaseCost
+	credits 1400.000000
+	metal 100.000000
+	crystal 160.000000
+PerLevelCostIncrease
+	credits 1400.000000
+	metal 100.000000
+	crystal 160.000000
+Tier 7
+onlyWorksIfTierLabsExist FALSE
+MaxNumResearchLevels 5
+priority 1.000000
+researchBoolModifiers 0
+researchFloatModifiers 1
+researchModifier
+	modifierType "WeaponDamageAdjustment"
+	baseValue 0.000000
+	perLevelValue 0.030000
+	linkedWeaponClass "MISSILE"
+artifactPicture ""
+uniqueOverlayBrush "RebellionResearchOverlay"
+dlcId 204880

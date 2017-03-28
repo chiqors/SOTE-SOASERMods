@@ -1,0 +1,73 @@
+﻿TXT
+entityType "Ability"
+buffInstantActionType "ApplyBuffToTarget"
+instantActionTriggerType "AlwaysPerform"
+buffType "BuffRechargeShields"
+targetFilter
+	numOwnerships 1
+	ownership "Friendly"
+	numObjects 6
+	object "CapitalShip"
+	object "Frigate"
+	object "PlanetModule"
+	object "StarBase"
+	object "Titan"
+	object "Corvette"
+	numSpaces 1
+	space "Normal"
+	numConstraints 2
+	constraint "NotSelf"
+	constraint "HasShieldDamage"
+range
+	Level:0 12000.000000
+	Level:1 12000.000000
+	Level:2 12000.000000
+	Level:3 12000.000000
+effectInfo
+	effectAttachInfo
+		attachType "Ability"
+		abilityIndex 0
+	smallEffectName "Ability_RepairPlatformPsiActivate"
+	mediumEffectName "Ability_RepairPlatformPsiActivate"
+	largeEffectName "Ability_RepairPlatformPsiActivate"
+	soundID "EFFECT_REPAIR_PSI"
+needsToFaceTarget FALSE
+canCollideWithTarget TRUE
+moveThruTarget FALSE
+isUltimateAbility FALSE
+maxNumLevels 1
+levelSourceType "ResearchWithoutBase"
+improveSourceResearchSubject "RESEARCHSUBJECT_ABILITYACCESS_RECHARGESHIELDS"
+aiUseTime "Anytime"
+aiUseTargetCondition "ShieldDamageExceedsAmount"
+onlyAutoCastWhenTargetShieldDamageExceedsAmount
+	Level:0 200.000000
+	Level:1 0.000000
+	Level:2 0.000000
+	Level:3 0.000000
+isAutoCastAvailable TRUE
+isAutoCastOnByDefault TRUE
+pickRandomPlanetToExploreForAutoCastTarget FALSE
+ignoreNonCombatShipsForAutoCastTarget TRUE
+onlyAutoCastWhenDamageTakenExceedsPerc 0.000000
+useCostType "AntiMatter"
+antiMatterCost
+	Level:0 30.000000
+	Level:1 0.000000
+	Level:2 0.000000
+	Level:3 0.000000
+cooldownTime
+	Level:0 5.000000
+	Level:1 0.000000
+	Level:2 0.000000
+	Level:3 0.000000
+orderAcknowledgementType "ONGENERALORDERISSUED"
+researchPrerequisites
+	NumResearchPrerequisites 0
+	RequiredFactionNameID ""
+	RequiredCompletedResearchSubjects 0
+nameStringID "IDS_ABILITY_RECHARGE_SHIELDS_NAME"
+descStringID "IDS_ABILITY_RECHARGE_SHIELDS_DESCRIPTION"
+hudIcon "HUDICON_RESEARCHSUBJECT_RECHARGESHIELDS"
+smallHudIcon "HUDICON_RESEARCHSUBJECT_RECHARGESHIELDS"
+infoCardIcon ""

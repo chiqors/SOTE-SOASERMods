@@ -1,0 +1,67 @@
+﻿TXT
+entityType "Ability"
+buffInstantActionType "ApplyTargettedBuffToSelf"
+instantActionTriggerType "AlwaysPerform"
+buffType "BuffJudgment"
+targetFilter
+	numOwnerships 1
+	ownership "Enemy"
+	numObjects 2
+	object "CapitalShip"
+	object "Titan"
+	numSpaces 1
+	space "Normal"
+	numConstraints 2
+	constraint "NotSelf"
+	constraint "NotFlagship"
+range
+	Level:0 100000.000000
+	Level:1 100000.000000
+	Level:2 100000.000000
+	Level:3 100000.000000
+effectInfo
+	effectAttachInfo
+		attachType "Invalid"
+	smallEffectName ""
+	mediumEffectName ""
+	largeEffectName ""
+	soundID ""
+needsToFaceTarget FALSE
+canCollideWithTarget TRUE
+moveThruTarget FALSE
+isUltimateAbility FALSE
+maxNumLevels 4
+levelSourceType "Intrinsic"
+minExperienceLevelRequired
+	Level:0 0.000000
+	Level:1 1.000000
+	Level:2 2.000000
+	Level:3 3.000000
+aiUseTime "Anytime"
+aiUseTargetCondition "Any"
+isAutoCastAvailable TRUE
+isAutoCastOnByDefault TRUE
+pickRandomPlanetToExploreForAutoCastTarget FALSE
+ignoreNonCombatShipsForAutoCastTarget TRUE
+onlyAutoCastWhenDamageTakenExceedsPerc 0.000000
+useCostType "AntiMatter"
+antiMatterCost
+	Level:0 10000.000000
+	Level:1 10000.000000
+	Level:2 10000.000000
+	Level:3 10000.000000
+cooldownTime
+	Level:0 300.000000
+	Level:1 280.000000
+	Level:2 260.000000
+	Level:3 240.000000
+orderAcknowledgementType "ONGENERALORDERISSUED"
+researchPrerequisites
+	NumResearchPrerequisites 0
+	RequiredFactionNameID ""
+	RequiredCompletedResearchSubjects 0
+nameStringID "IDS_ABILITY_DISRUPTIONMATRIX_NAME"
+descStringID "IDS_ABILITY_DISRUPTIONMATRIX_DESCRIPTION"
+hudIcon "HUDICON_ABILITY_DISRUPTIONMATRIX"
+smallHudIcon "HUDICON_ABILITY_DISRUPTIONMATRIX"
+infoCardIcon ""

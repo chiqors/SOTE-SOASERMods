@@ -1,0 +1,63 @@
+﻿TXT
+entityType "Ability"
+buffInstantActionType "SpawnShipsAtPlanet"
+instantActionTriggerType "AlwaysPerform"
+spawnShipsLevelCount 1
+spawnShips
+	minFleetPoints 125.000000
+	maxFleetPoints 175.000000
+	requiredShipCount 0
+	randomShipCount 5
+	randomShip
+		type "Amarr_Ship_Cruiser_Augoror"
+		weight 1
+	randomShip
+		type "Amarr_Ship_Battleship_Armageddon"
+		weight 1
+	randomShip
+		type "Amarr_Ship_Frigate_Excecutioner"
+		weight 1
+	randomShip
+		type "Amarr_Ship_Battlecruiser_Prophecy"
+		weight 1
+	randomShip
+		type "Amarr_Ship_Frigate_Inquisitor"
+		weight 1
+spawnShipsArrivalDelayTime 5.000000
+spawnShipsHyperspaceSpawnType "FleetBeacon"
+needsToFaceTarget FALSE
+canCollideWithTarget TRUE
+moveThruTarget FALSE
+isUltimateAbility FALSE
+maxNumLevels 1
+levelSourceType "FixedLevel0"
+aiUseTime "OnlyInCombat"
+aiUseTargetCondition "Any"
+isAutoCastAvailable TRUE
+isAutoCastOnByDefault FALSE
+pickRandomPlanetToExploreForAutoCastTarget FALSE
+ignoreNonCombatShipsForAutoCastTarget TRUE
+onlyAutoCastWhenDamageTakenExceedsPerc 0.000000
+useCostType "Resources"
+resourceCost
+	credits 12000.000000
+	metal 2750.000000
+	crystal 2000.000000
+cooldownTime
+	Level:0 300.000000
+	Level:1 300.000000
+	Level:2 300.000000
+	Level:3 300.000000
+orderAcknowledgementType "ONGENERALORDERISSUED"
+researchPrerequisites
+	NumResearchPrerequisites 1
+	ResearchPrerequisite
+		Subject "RESEARCHSUBJECT_ABILITYACCESS_UNSTOPPABLEPHASEJUMPTECH"
+		Level 1
+	RequiredFactionNameID ""
+	RequiredCompletedResearchSubjects 0
+nameStringID "IDS_ABILITY_AMARRFLAGSHIPSUPPORT_NAME"
+descStringID "IDS_ABILITY_AMARRFLAGSHIPSUPPORT_DESCRIPTION"
+hudIcon "HUDICON_ABILITY_UNSTOPPABLEPHASEJUMPTECH"
+smallHudIcon "HUDICON_ABILITY_UNSTOPPABLEPHASEJUMPTECH"
+infoCardIcon ""

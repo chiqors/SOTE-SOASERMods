@@ -1,0 +1,38 @@
+﻿TXT
+entityType "ResearchSubject"
+hudIcon "HUDICON_RESEARCHSUBJECT_FRIGATEACCESS_PILGRIM"
+smallHudIcon "HUDICON_RESEARCHSUBJECT_FRIGATEACCESS_PILGRIM"
+infoCardIcon ""
+NameStringID "IDS_RESEARCHSUBJECT_FRIGATEACCESS_CURSE_NAME"
+DescriptionStringID "IDS_RESEARCHSUBJECT_FRIGATEACCESS_CURSE_DESC"
+researchWindowLocation
+	block 2
+	pos [ 3 , 4 ]
+ResearchField "Combat"
+Prerequisites
+	NumResearchPrerequisites 1
+	ResearchPrerequisite
+		Subject "Amarr_ResearchSubject_SubCapitalAccess_Arbitrator"
+		Level 2
+	RequiredFactionNameID ""
+	RequiredCompletedResearchSubjects 0
+MinimumArtifactLevel -1
+BaseUpgradeTime 60.000000
+PerLevelUpgradeTime 6.000000
+BaseCost
+	credits 3200.000000
+	metal 1960.000000
+	crystal 1240.000000
+PerLevelCostIncrease
+	credits 320.000000
+	metal 196.000000
+	crystal 124.000000
+Tier 3
+onlyWorksIfTierLabsExist TRUE
+MaxNumResearchLevels 2
+priority 0.000000
+researchBoolModifiers 0
+researchFloatModifiers 0
+artifactPicture ""
+uniqueOverlayBrush "RebellionResearchOverlay"
+dlcId 204880

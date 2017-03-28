@@ -1,0 +1,72 @@
+﻿TXT
+entityType "Ability"
+buffInstantActionType "ApplyBuffToTarget"
+instantActionTriggerType "AlwaysPerform"
+buffType "BuffFractureTarget"
+targetFilter
+	numOwnerships 1
+	ownership "Enemy"
+	numObjects 4
+	object "Frigate"
+	object "CapitalShip"
+	object "Titan"
+	object "Corvette"
+	numSpaces 1
+	space "Normal"
+	numConstraints 0
+range
+	Level:0 3500.000000
+	Level:1 4000.000000
+	Level:2 4500.000000
+	Level:3 5000.000000
+effectInfo
+	effectAttachInfo
+		attachType "Center"
+	smallEffectName "Ability_Fracture_Activate"
+	mediumEffectName "Ability_Fracture_Activate"
+	largeEffectName "Ability_Fracture_Activate"
+	soundID "EFFECT_FRACTURE"
+needsToFaceTarget FALSE
+canCollideWithTarget TRUE
+moveThruTarget FALSE
+isUltimateAbility FALSE
+maxNumLevels 4
+levelSourceType "Intrinsic"
+minExperienceLevelRequired
+	Level:0 0.000000
+	Level:1 2.000000
+	Level:2 4.000000
+	Level:3 6.000000
+aiUseTime "OnlyWhenManyTargetsInRange"
+onlyAutoCastWhenTargetCountExceedsAmount
+	Level:0 2.000000
+	Level:1 3.000000
+	Level:2 4.000000
+	Level:3 5.000000
+aiUseTargetCondition "IsNotWeaponDisabled"
+isAutoCastAvailable TRUE
+isAutoCastOnByDefault TRUE
+pickRandomPlanetToExploreForAutoCastTarget FALSE
+ignoreNonCombatShipsForAutoCastTarget TRUE
+onlyAutoCastWhenDamageTakenExceedsPerc 0.000000
+useCostType "AntiMatter"
+antiMatterCost
+	Level:0 45.000000
+	Level:1 45.000000
+	Level:2 45.000000
+	Level:3 45.000000
+cooldownTime
+	Level:0 30.000000
+	Level:1 30.000000
+	Level:2 30.000000
+	Level:3 30.000000
+orderAcknowledgementType "ONATTACKORDERISSUED"
+researchPrerequisites
+	NumResearchPrerequisites 0
+	RequiredFactionNameID ""
+	RequiredCompletedResearchSubjects 0
+nameStringID "IDS_ABILITY_FRACTURE_NAME"
+descStringID "IDS_ABILITY_FRACTURE_DESCRIPTION"
+hudIcon "HUDICON_ABILITY_FRACTURE"
+smallHudIcon "HUDICON_ABILITY_FRACTURE"
+infoCardIcon ""
