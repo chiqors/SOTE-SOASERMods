@@ -15,19 +15,19 @@ NameStringID "IDS_FRIGATE_TECHANTIFIGHTER_NAME"
 DescriptionStringID "IDS_FRIGATE_TECHANTIFIGHTER_DESCRIPTION"
 counterDescriptionStringID "IDS_COUNTERDESC_FRIGATE_ANTIFIGHTER"
 basePrice
-	credits 75.000000
-	metal 15.000000
-	crystal 10.000000
+	credits 439.000000
+	metal 45.000000
+	crystal 35.000000
 slotCount 3.000000
-BuildTime 50.000000
+BuildTime 16.000000
 hasLevels FALSE
 ExperiencePointsForDestroying 40.000000
-MaxHullPoints 950.000000
-MaxShieldPoints 475.000000
+MaxHullPoints 900.000000
+MaxShieldPoints 700.000000
 HullPointRestoreRate 0.950000
 ShieldPointRestoreRate 0.475000
-BaseArmorPoints 0.000000
-maxMitigation 0.450000
+BaseArmorPoints 4.000000
+maxMitigation 0.000000
 Prerequisites
 	NumResearchPrerequisites 1
 	ResearchPrerequisite
@@ -52,12 +52,12 @@ Weapon
 		DamageApplyType "OVERTIME"
 		DamageType "ENERGY"
 		WeaponClassType "BEAM"
-	DamagePerBank:FRONT 68.930000
+	DamagePerBank:FRONT 44.000000
 	DamagePerBank:BACK 0.000000
 	DamagePerBank:LEFT 0.000000
 	DamagePerBank:RIGHT 0.000000
-	Range 12000.000000
-	PreBuffCooldownTime 4.000000
+	Range 5000.000000
+	PreBuffCooldownTime 2.750000
 	CanFireAtFighter TRUE
 	SynchronizedTargeting TRUE
 	PointStaggerDelay 0.000000

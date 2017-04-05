@@ -15,19 +15,19 @@ NameStringID "IDS_CAPITALSHIP_TECHSIEGE_NAME"
 DescriptionStringID "IDS_CAPITALSHIP_TECHSIEGE_DESCRIPTION"
 counterDescriptionStringID "IDS_COUNTERDESC_FRIGATE_LONGRANGE"
 basePrice
-	credits 600.000000
-	metal 220.000000
-	crystal 145.000000
+	credits 733.000000
+	metal 117.000000
+	crystal 100.000000
 slotCount 10.000000
-BuildTime 245.000000
+BuildTime 43.000000
 hasLevels FALSE
 ExperiencePointsForDestroying 175.000000
-MaxHullPoints 3000.000000
-MaxShieldPoints 1500.000000
+MaxHullPoints 3500.000000
+MaxShieldPoints 3000.000000
 HullPointRestoreRate 3.000000
 ShieldPointRestoreRate 1.500000
-BaseArmorPoints 0.000000
-maxMitigation 0.450000
+BaseArmorPoints 10.000000
+maxMitigation 0.000000
 Prerequisites
 	NumResearchPrerequisites 1
 	ResearchPrerequisite

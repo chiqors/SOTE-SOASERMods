@@ -15,19 +15,19 @@ NameStringID "IDS_CAPITALSHIP_TECHSUPPORT_NAME"
 DescriptionStringID "IDS_CAPITALSHIP_TECHSUPPORT_DESCRIPTION"
 counterDescriptionStringID "IDS_COUNTERDESC_FRIGATE_LONGRANGE"
 basePrice
-	credits 500.000000
-	metal 190.000000
-	crystal 125.000000
-slotCount 9.000000
-BuildTime 235.000000
+	credits 776.000000
+	metal 142.000000
+	crystal 113.000000
+slotCount 6.000000
+BuildTime 52.000000
 hasLevels FALSE
 ExperiencePointsForDestroying 150.000000
-MaxHullPoints 2875.000000
-MaxShieldPoints 1437.000000
+MaxHullPoints 4250.000000
+MaxShieldPoints 3500.000000
 HullPointRestoreRate 2.875000
 ShieldPointRestoreRate 1.437000
-BaseArmorPoints 0.000000
-maxMitigation 0.450000
+BaseArmorPoints 10.000000
+maxMitigation 0.000000
 Prerequisites
 	NumResearchPrerequisites 1
 	ResearchPrerequisite
@@ -52,12 +52,12 @@ Weapon
 		DamageApplyType "OVERTIME"
 		DamageType "ENERGY"
 		WeaponClassType "LASERTECH"
-	DamagePerBank:FRONT 190.000000
+	DamagePerBank:FRONT 97.000000
 	DamagePerBank:BACK 0.000000
 	DamagePerBank:LEFT 0.000000
 	DamagePerBank:RIGHT 0.000000
-	Range 9800.000000
-	PreBuffCooldownTime 3.500000
+	Range 6000.000000
+	PreBuffCooldownTime 5.000000
 	CanFireAtFighter FALSE
 	SynchronizedTargeting TRUE
 	PointStaggerDelay 0.000000

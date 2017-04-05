@@ -15,19 +15,19 @@ NameStringID "IDS_FRIGATE_TECHLONGRANGE_NAME"
 DescriptionStringID "IDS_FRIGATE_TECHLONGRANGE_DESCRIPTION"
 counterDescriptionStringID "IDS_COUNTERDESC_CORVETTE_TECH"
 basePrice
-	credits 115.000000
-	metal 18.000000
-	crystal 12.000000
+	credits 459.000000
+	metal 57.000000
+	crystal 40.000000
 slotCount 4.000000
-BuildTime 70.000000
+BuildTime 19.000000
 hasLevels FALSE
 ExperiencePointsForDestroying 55.000000
-MaxHullPoints 1050.000000
-MaxShieldPoints 525.000000
+MaxHullPoints 1700.000000
+MaxShieldPoints 1200.000000
 HullPointRestoreRate 0.000000
 ShieldPointRestoreRate 0.525000
-BaseArmorPoints 0.000000
-maxMitigation 0.500000
+BaseArmorPoints 0.600000
+maxMitigation 0.000000
 Prerequisites
 	NumResearchPrerequisites 1
 	ResearchPrerequisite
@@ -52,12 +52,12 @@ Weapon
 		DamageApplyType "OVERTIME"
 		DamageType "ENERGY"
 		WeaponClassType "BEAM"
-	DamagePerBank:FRONT 100.000000
+	DamagePerBank:FRONT 264.000000
 	DamagePerBank:BACK 0.000000
 	DamagePerBank:LEFT 0.000000
 	DamagePerBank:RIGHT 0.000000
-	Range 15000.000000
-	PreBuffCooldownTime 5.000000
+	Range 5000.000000
+	PreBuffCooldownTime 2,900000
 	CanFireAtFighter FALSE
 	SynchronizedTargeting TRUE
 	PointStaggerDelay 0.000000
