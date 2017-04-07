@@ -17,10 +17,10 @@ targetFilter
 	numConstraints 1
 	constraint "NotSelf"
 range
-	Level:0 25000.000000
-	Level:1 25000.000000
-	Level:2 25000.000000
-	Level:3 25000.000000
+	Level:0 10000.000000
+	Level:1 10000.000000
+	Level:2 10000.000000
+	Level:3 10000.000000
 effectInfo
 	effectAttachInfo
 		attachType "Invalid"
@@ -58,10 +58,10 @@ antiMatterCost
 	Level:2 40.000000
 	Level:3 40.000000
 cooldownTime
-	Level:0 5.000000
-	Level:1 4.500000
-	Level:2 4.000000
-	Level:3 3.500000
+	Level:0 8.000000
+	Level:1 8.000000
+	Level:2 8.000000
+	Level:3 8.000000
 orderAcknowledgementType "ONGENERALORDERISSUED"
 researchPrerequisites
 	NumResearchPrerequisites 0
