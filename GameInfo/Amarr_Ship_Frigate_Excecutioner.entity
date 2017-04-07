@@ -24,8 +24,8 @@ hasLevels FALSE
 ExperiencePointsForDestroying 20.000000
 MaxHullPoints 450.000000
 MaxShieldPoints 250.000000
-HullPointRestoreRate 0.270000n
-ShieldPointRestoreRate 0.135000
+HullPointRestoreRate 0.010000
+ShieldPointRestoreRate 0.01000
 BaseArmorPoints 2.000000
 maxMitigation 0.000000
 Prerequisites
