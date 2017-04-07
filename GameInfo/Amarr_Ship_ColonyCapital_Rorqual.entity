@@ -47,24 +47,24 @@ bombEffectsDef
 mainViewIcon "MAINVIEWICON_SQUADTECHCOMBAT"
 basePrice
 	credits 3000.000000
-	metal 700.000000
-	crystal 500.000000
-slotCount 1.000000
+	metal 100.000000
+	crystal 150.000000
+slotCount 30.000000
 BuildTime 400.000000
 MaxHullPoints
-	StartValue 7000.000000
+	StartValue 2000.000000
 	ValueIncreasePerLevel 0.000000
 MaxShieldPoints
-	StartValue 14000.000000
-	ValueIncreasePerLevel 140.000000
+	StartValue 3000.000000
+	ValueIncreasePerLevel 00.000000
 HullPointRestoreRate
-	StartValue 0.000000
+	StartValue 1.000000
 	ValueIncreasePerLevel 0.000000
 ShieldPointRestoreRate
-	StartValue 14.000000
-	ValueIncreasePerLevel 1.400000
+	StartValue 1.000000
+	ValueIncreasePerLevel 1.000000
 ArmorPointsFromExperience
-	StartValue 0.000000
+	StartValue 8.000000
 	ValueIncreasePerLevel 0.000000
 maxMitigation
 	StartValue 0.600000

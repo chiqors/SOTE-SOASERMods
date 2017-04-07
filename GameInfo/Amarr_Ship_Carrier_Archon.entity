@@ -46,29 +46,29 @@ bombEffectsDef
 	missileMaxSlowTurnTime 6.000000
 mainViewIcon "MAINVIEWICON_CAPITALSHIP_TECHBATTLESHIP"
 basePrice
-	credits 4500.000000
-	metal 1000.000000
-	crystal 750.000000
-slotCount 1.000000
-BuildTime 500.000000
+	credits 3000.000000
+	metal 458.000000
+	crystal 292.000000
+slotCount 30.000000
+BuildTime 75.000000
 MaxHullPoints
-	StartValue 18000.000000
-	ValueIncreasePerLevel 180.000000
+	StartValue 13750.000000
+	ValueIncreasePerLevel 0.000000
 MaxShieldPoints
-	StartValue 9000.000000
-	ValueIncreasePerLevel 90.000000
+	StartValue 2917.000000
+	ValueIncreasePerLevel 0.000000
 HullPointRestoreRate
-	StartValue 18.000000
-	ValueIncreasePerLevel 1.800000
+	StartValue 4.500000
+	ValueIncreasePerLevel 1.000000
 ShieldPointRestoreRate
-	StartValue 9.000000
-	ValueIncreasePerLevel 0.900000
+	StartValue 1.000000
+	ValueIncreasePerLevel 1.000000
 ArmorPointsFromExperience
-	StartValue 0.000000
+	StartValue 15.000000
 	ValueIncreasePerLevel 0.000000
 maxMitigation
-	StartValue 0.650000
-	ValueIncreasePerLevel 0.005000
+	StartValue 0.000000
+	ValueIncreasePerLevel 0.000000
 MaxAntiMatter
 	StartValue 6000.000000
 	ValueIncreasePerLevel 600.000000
