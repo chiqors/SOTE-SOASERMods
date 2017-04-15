@@ -150,8 +150,8 @@ ability:1 "AbilityRemoteArmorRepairerLogiCruiser"
 ability:2 "AbilityCapTransferAugoror"
 ability:3 ""
 ability:4 "AbilityT2CruiserGuardian"
-MaxAntiMatter 785.000000
-AntiMatterRestoreRate 1.000000
+MaxAntiMatter 2250.000000
+AntiMatterRestoreRate 22.000000
 cargoType "Invalid"
 maxCargoCapacity 0.000000
 formationRank 2

@@ -52,12 +52,12 @@ Weapon
 		DamageApplyType "OVERTIME"
 		DamageType "ENERGY"
 		WeaponClassType "BEAM"
-	DamagePerBank:FRONT 275.125000
+	DamagePerBank:FRONT 849.000000
 	DamagePerBank:BACK 0.000000
 	DamagePerBank:LEFT 0.000000
 	DamagePerBank:RIGHT 0.000000
-	Range 28000.000000
-	PreBuffCooldownTime 7.500000
+	Range 8000.000000
+	PreBuffCooldownTime 4.600000
 	CanFireAtFighter FALSE
 	SynchronizedTargeting TRUE
 	PointStaggerDelay 0.000000
