@@ -17,23 +17,23 @@ MinimumArtifactLevel -1
 BaseUpgradeTime 30.000000
 PerLevelUpgradeTime 15.000000
 BaseCost
-	credits 800.000000
+	credits 600.000000
 	metal 200.000000
 	crystal 100.000000
 PerLevelCostIncrease
 	credits 200.000000
-	metal 40.000000
-	crystal 25.000000
+	metal 70.000000
+	crystal 33.000000
 Tier 1
 onlyWorksIfTierLabsExist FALSE
-MaxNumResearchLevels 5
+MaxNumResearchLevels 2
 priority 1.000000
 researchBoolModifiers 0
 researchFloatModifiers 1
 researchModifier
 	modifierType "HullPointsMaxAdjustment"
 	baseValue 0.000000
-	perLevelValue 0.050000
+	perLevelValue 0.100000
 artifactPicture ""
 uniqueOverlayBrush "RebellionResearchOverlay"
 dlcId 204880

@@ -13,30 +13,30 @@ Prerequisites
 	NumResearchPrerequisites 1
 	ResearchPrerequisite
 		Subject "RESEARCHSUBJECT_HULLTECH0"
-		Level 5
+		Level 2
 	RequiredFactionNameID ""
 	RequiredCompletedResearchSubjects 0
 MinimumArtifactLevel -1
 BaseUpgradeTime 60.000000
 PerLevelUpgradeTime 30.000000
 BaseCost
-	credits 1600.000000
+	credits 1200.000000
 	metal 400.000000
 	crystal 200.000000
 PerLevelCostIncrease
-	credits 320.000000
-	metal 80.000000
-	crystal 40.000000
+	credits 400.000000
+	metal 133.000000
+	crystal 60.000000
 Tier 3
 onlyWorksIfTierLabsExist FALSE
-MaxNumResearchLevels 5
+MaxNumResearchLevels 2
 priority 1.000000
 researchBoolModifiers 0
 researchFloatModifiers 1
 researchModifier
 	modifierType "HullPointsMaxAdjustment"
 	baseValue 0.000000
-	perLevelValue 0.050000
+	perLevelValue 0.100000
 artifactPicture ""
 uniqueOverlayBrush "RebellionResearchOverlay"
 dlcId 204880

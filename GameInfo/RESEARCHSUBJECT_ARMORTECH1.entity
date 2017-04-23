@@ -13,7 +13,7 @@ Prerequisites
 	NumResearchPrerequisites 1
 	ResearchPrerequisite
 		Subject "RESEARCHSUBJECT_ARMORTECH0"
-		Level 5
+		Level 2
 	RequiredFactionNameID ""
 	RequiredCompletedResearchSubjects 0
 MinimumArtifactLevel -1
@@ -24,19 +24,19 @@ BaseCost
 	metal 40.000000
 	crystal 70.000000
 PerLevelCostIncrease
-	credits 600.000000
-	metal 40.000000
-	crystal 70.000000
+	credits 200.000000
+	metal 14.000000
+	crystal 23.000000
 Tier 2
 onlyWorksIfTierLabsExist FALSE
-MaxNumResearchLevels 5
+MaxNumResearchLevels 2
 priority 1.000000
 researchBoolModifiers 0
 researchFloatModifiers 1
 researchModifier
-	modifierType "ShieldMaxMitigationAdjustment"
+	modifierType "ArmorBaseAdjustment"
 	baseValue 0.000000
-	perLevelValue 0.010000
+	perLevelValue 1.000000
 artifactPicture ""
 uniqueOverlayBrush "RebellionResearchOverlay"
 dlcId 204880

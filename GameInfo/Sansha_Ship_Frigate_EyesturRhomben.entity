@@ -22,10 +22,10 @@ slotCount 2.000000
 BuildTime 15.000000
 hasLevels FALSE
 ExperiencePointsForDestroying 75.000000
-MaxHullPoints 800.000000
-MaxShieldPoints 1600.000000
-HullPointRestoreRate 2.500000
-ShieldPointRestoreRate 9.500000
+MaxHullPoints 1200.000000
+MaxShieldPoints 2500.000000
+HullPointRestoreRate 1.000000
+ShieldPointRestoreRate 1.000000
 BaseArmorPoints 0.000000
 maxMitigation 0.600000
 Prerequisites

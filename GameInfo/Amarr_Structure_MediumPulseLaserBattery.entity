@@ -81,17 +81,17 @@ NumWeapons 1
 Weapon
 	WeaponType "Beam"
 	damageEnums
-		AttackType "ANTIHEAVY"
+		AttackType "ANTIMEDIUM"
 		DamageAffectType "AFFECTS_SHIELDS_AND_HULL"
 		DamageApplyType "OVERTIME"
 		DamageType "ENERGY"
 		WeaponClassType "LASERTECH"
-	DamagePerBank:FRONT 1800.000000
+	DamagePerBank:FRONT 888.000000
 	DamagePerBank:BACK 0.000000
 	DamagePerBank:LEFT 0.000000
 	DamagePerBank:RIGHT 0.000000
-	Range 75000.000000
-	PreBuffCooldownTime 10.000000
+	Range 37000.000000
+	PreBuffCooldownTime 7.9000000
 	CanFireAtFighter FALSE
 	SynchronizedTargeting TRUE
 	PointStaggerDelay 0.000000

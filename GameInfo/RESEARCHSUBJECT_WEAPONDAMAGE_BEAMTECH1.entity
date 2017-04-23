@@ -13,7 +13,7 @@ Prerequisites
 	NumResearchPrerequisites 1
 	ResearchPrerequisite
 		Subject "RESEARCHSUBJECT_WEAPONDAMAGE_BEAMTECH0"
-		Level 5
+		Level 2
 	RequiredFactionNameID ""
 	RequiredCompletedResearchSubjects 0
 MinimumArtifactLevel -1
@@ -36,7 +36,7 @@ researchFloatModifiers 1
 researchModifier
 	modifierType "WeaponDamageAdjustment"
 	baseValue 0.000000
-	perLevelValue 0.030000
+	perLevelValue 0.015000
 	linkedWeaponClass "BEAM"
 artifactPicture ""
 uniqueOverlayBrush "RebellionResearchOverlay"

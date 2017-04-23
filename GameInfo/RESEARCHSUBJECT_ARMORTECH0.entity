@@ -21,19 +21,19 @@ BaseCost
 	metal 20.000000
 	crystal 35.000000
 PerLevelCostIncrease
-	credits 300.000000
-	metal 20.000000
-	crystal 35.000000
+	credits 100.000000
+	metal 7.000000
+	crystal 12.000000
 Tier 0
 onlyWorksIfTierLabsExist FALSE
-MaxNumResearchLevels 5
+MaxNumResearchLevels 2
 priority 1.000000
 researchBoolModifiers 0
 researchFloatModifiers 1
 researchModifier
-	modifierType "ShieldMaxMitigationAdjustment"
+	modifierType "ArmorBaseAdjustment"
 	baseValue 0.000000
-	perLevelValue 0.010000
+	perLevelValue 1.000000
 artifactPicture ""
 uniqueOverlayBrush "RebellionResearchOverlay"
 dlcId 204880
