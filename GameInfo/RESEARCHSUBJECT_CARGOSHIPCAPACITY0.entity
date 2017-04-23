@@ -32,14 +32,14 @@ PerLevelCostIncrease
 	crystal 100.000000
 Tier 3
 onlyWorksIfTierLabsExist FALSE
-MaxNumResearchLevels 5
+MaxNumResearchLevels 3
 priority 1.000000
 researchBoolModifiers 0
 researchFloatModifiers 2
 researchModifier
 	modifierType "CargoShipCapacityAdjustment"
 	baseValue 0.000000
-	perLevelValue 0.050000
+	perLevelValue 1.430000
 researchModifier
 	modifierType "TradeGoodsValueAdjustment"
 	baseValue 0.000000

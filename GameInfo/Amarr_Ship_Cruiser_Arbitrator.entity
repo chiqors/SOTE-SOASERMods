@@ -51,8 +51,8 @@ Weapon
 		DamageAffectType "AFFECTS_SHIELDS_AND_HULL"
 		DamageApplyType "OVERTIME"
 		DamageType "ENERGY"
-		WeaponClassType "BEAM"
-	DamagePerBank:FRONT 295.000000
+		WeaponClassType "DART"
+	DamagePerBank:FRONT 1.000000
 	DamagePerBank:BACK 0.000000
 	DamagePerBank:LEFT 0.000000
 	DamagePerBank:RIGHT 0.000000

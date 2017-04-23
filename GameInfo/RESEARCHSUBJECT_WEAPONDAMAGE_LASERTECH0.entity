@@ -26,14 +26,14 @@ PerLevelCostIncrease
 	crystal 35.000000
 Tier 0
 onlyWorksIfTierLabsExist FALSE
-MaxNumResearchLevels 5
+MaxNumResearchLevels 2
 priority 1.000000
 researchBoolModifiers 0
 researchFloatModifiers 1
 researchModifier
 	modifierType "WeaponDamageAdjustment"
 	baseValue 0.000000
-	perLevelValue 0.030000
+	perLevelValue 0.015000
 	linkedWeaponClass "LASERTECH"
 artifactPicture ""
 uniqueOverlayBrush "RebellionResearchOverlay"

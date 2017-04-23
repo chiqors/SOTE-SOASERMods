@@ -15,19 +15,19 @@ NameStringID "IDS_FRIGATE_PHASELIGHT_NAME"
 DescriptionStringID "IDS_FRIGATE_PHASELIGHT_DESCRIPTION"
 counterDescriptionStringID "IDS_COUNTERDESC_FRIGATE_NONCOMBAT"
 basePrice
-	credits 233.000000
-	metal 45.000000
-	crystal 40.000000
+	credits 152.000000
+	metal 15.000000
+	crystal 13.000000
 slotCount 2.000000
-BuildTime 6.000000
+BuildTime 5.000000
 hasLevels FALSE
 ExperiencePointsForDestroying 22.000000
-MaxHullPoints 270.000000
-MaxShieldPoints 135.000000
-HullPointRestoreRate 0.000000
-ShieldPointRestoreRate 0.135000
-BaseArmorPoints 0.000000
-maxMitigation 0.500000
+MaxHullPoints 450.000000
+MaxShieldPoints 400.000000
+HullPointRestoreRate 1.000000
+ShieldPointRestoreRate 1.000000
+BaseArmorPoints 1.000000
+maxMitigation 0.000000
 Prerequisites
 	NumResearchPrerequisites 0
 	RequiredFactionNameID ""
@@ -49,12 +49,12 @@ Weapon
 		DamageApplyType "BACKLOADED"
 		DamageType "ENERGY"
 		WeaponClassType "PULSEGUN"
-	DamagePerBank:FRONT 81.250000
+	DamagePerBank:FRONT 31.250000
 	DamagePerBank:BACK 0.000000
 	DamagePerBank:LEFT 0.000000
 	DamagePerBank:RIGHT 0.000000
 	Range 4000.000000
-	PreBuffCooldownTime 3.600000
+	PreBuffCooldownTime 2.050000
 	CanFireAtFighter FALSE
 	SynchronizedTargeting TRUE
 	PointStaggerDelay 0.050000

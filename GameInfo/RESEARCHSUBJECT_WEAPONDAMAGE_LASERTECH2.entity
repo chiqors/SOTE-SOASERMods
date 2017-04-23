@@ -13,7 +13,7 @@ Prerequisites
 	NumResearchPrerequisites 1
 	ResearchPrerequisite
 		Subject "RESEARCHSUBJECT_WEAPONDAMAGE_LASERTECH1"
-		Level 5
+		Level 2
 	RequiredFactionNameID ""
 	RequiredCompletedResearchSubjects 0
 MinimumArtifactLevel -1
@@ -29,14 +29,14 @@ PerLevelCostIncrease
 	crystal 140.000000
 Tier 4
 onlyWorksIfTierLabsExist FALSE
-MaxNumResearchLevels 5
+MaxNumResearchLevels 2
 priority 1.000000
 researchBoolModifiers 0
 researchFloatModifiers 1
 researchModifier
 	modifierType "WeaponDamageAdjustment"
 	baseValue 0.000000
-	perLevelValue 0.030000
+	perLevelValue 0.015000
 	linkedWeaponClass "LASERTECH"
 artifactPicture ""
 uniqueOverlayBrush "RebellionResearchOverlay"
