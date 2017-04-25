@@ -15,19 +15,19 @@ NameStringID "IDS_BATTLESHIP_MAELSTRON_NAME"
 DescriptionStringID "IDS_BATTLESHIP_MAELSTRON_DESCRIPTION"
 counterDescriptionStringID "IDS_COUNTERDESC_FRIGATE_LONGRANGE"
 basePrice
-	credits 725.000000
-	metal 290.000000
-	crystal 175.000000
+	credits 698.000000
+	metal 125.000000
+	crystal 133.000000
 slotCount 11.000000
-BuildTime 260.000000
+BuildTime 52.000000
 hasLevels FALSE
 ExperiencePointsForDestroying 210.000000
-MaxHullPoints 3600.000000
-MaxShieldPoints 1800.000000
-HullPointRestoreRate 3.600000
-ShieldPointRestoreRate 1.800000
-BaseArmorPoints 0.000000
-maxMitigation 0.650000
+MaxHullPoints 3750.000000
+MaxShieldPoints 4000.000000
+HullPointRestoreRate 1.000000
+ShieldPointRestoreRate 1.000000
+BaseArmorPoints 15.000000
+maxMitigation 0.600000
 Prerequisites
 	NumResearchPrerequisites 1
 	ResearchPrerequisite
@@ -52,12 +52,12 @@ Weapon
 		DamageApplyType "BACKLOADED"
 		DamageType "PHYSICAL"
 		WeaponClassType "GAUSS"
-	DamagePerBank:FRONT 2016.000000
-	DamagePerBank:BACK 1008.000000
-	DamagePerBank:LEFT 1008.000000
-	DamagePerBank:RIGHT 1008.000000
-	Range 18000.000000
-	PreBuffCooldownTime 28.600000
+	DamagePerBank:FRONT 603.000000
+	DamagePerBank:BACK 0.000000
+	DamagePerBank:LEFT 0.000000
+	DamagePerBank:RIGHT 0.000000
+	Range 8000.000000
+	PreBuffCooldownTime 3.450000
 	CanFireAtFighter FALSE
 	SynchronizedTargeting TRUE
 	PointStaggerDelay 0.000000

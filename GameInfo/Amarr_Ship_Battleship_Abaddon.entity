@@ -15,18 +15,18 @@ NameStringID "IDS_CAPITALSHIP_TECHTRANSPORT_NAME"
 DescriptionStringID "IDS_CAPITALSHIP_TECHTRANSPORT_DESCRIPTION"
 counterDescriptionStringID "IDS_COUNTERDESC_FRIGATE_LONGRANGE"
 basePrice
-	credits 918.000000
+	credits 728.000000
 	metal 142.000000
 	crystal 117.000000
 slotCount 6.000000
-BuildTime 260.000000
+BuildTime 52.000000
 hasLevels FALSE
 ExperiencePointsForDestroying 210.000000
 MaxHullPoints 4250.000000
 MaxShieldPoints 3500.000000
-HullPointRestoreRate 3.600000
-ShieldPointRestoreRate 1.800000
-BaseArmorPoints 10.000000
+HullPointRestoreRate 1.000000
+ShieldPointRestoreRate 1.000000
+BaseArmorPoints 25.000000
 maxMitigation 0.000000
 Prerequisites
 	NumResearchPrerequisites 1
@@ -52,12 +52,12 @@ Weapon
 		DamageApplyType "OVERTIME"
 		DamageType "ENERGY"
 		WeaponClassType "LASERTECH"
-	DamagePerBank:FRONT 1055.000000
+	DamagePerBank:FRONT 838.000000
 	DamagePerBank:BACK 0.000000
 	DamagePerBank:LEFT 0.000000
 	DamagePerBank:RIGHT 0.000000
-	Range 6000.000000
-	PreBuffCooldownTime 4.600000
+	Range 8000.000000
+	PreBuffCooldownTime 4.610000
 	CanFireAtFighter FALSE
 	SynchronizedTargeting TRUE
 	PointStaggerDelay 0.000000

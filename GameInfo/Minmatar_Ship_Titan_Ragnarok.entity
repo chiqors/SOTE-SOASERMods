@@ -46,29 +46,29 @@ bombEffectsDef
 	missileMaxSlowTurnTime 6.000000
 mainViewIcon "MAINVIEWICON_TITAN_TECHLOYALIST"
 basePrice
-	credits 7500.000000
-	metal 3500.000000
-	crystal 2500.000000
+	credits 21686.000000
+	metal 3250.000000
+	crystal 5250.000000
 slotCount 1.000000
-BuildTime 1200.000000
+BuildTime 350.000000
 MaxHullPoints
-	StartValue 160000.000000
-	ValueIncreasePerLevel 1600.000000
+	StartValue 195000.000000
+	ValueIncreasePerLevel 19500.000000
 MaxShieldPoints
-	StartValue 80000.000000
-	ValueIncreasePerLevel 800.000000
+	StartValue 315000.000000
+	ValueIncreasePerLevel 31500.000000
 HullPointRestoreRate
-	StartValue 160.000000
-	ValueIncreasePerLevel 16.000000
+	StartValue 1.000000
+	ValueIncreasePerLevel 0.500000
 ShieldPointRestoreRate
-	StartValue 80.000000
-	ValueIncreasePerLevel 8.000000
+	StartValue 10.000000
+	ValueIncreasePerLevel 1.000000
 ArmorPointsFromExperience
-	StartValue 0.000000
+	StartValue 20.000000
 	ValueIncreasePerLevel 0.000000
 maxMitigation
-	StartValue 0.650000
-	ValueIncreasePerLevel 0.005000
+	StartValue 0.700000
+	ValueIncreasePerLevel 0.00000
 MaxAntiMatter
 	StartValue 15000.000000
 	ValueIncreasePerLevel 1500.000000
@@ -114,12 +114,12 @@ Weapon
 		DamageApplyType "BACKLOADED"
 		DamageType "PHYSICAL"
 		WeaponClassType "AUTOCANNON"
-	DamagePerBank:FRONT 2585.000000
-	DamagePerBank:BACK 2585.000000
-	DamagePerBank:LEFT 2585.000000
-	DamagePerBank:RIGHT 2585.000000
-	Range 20000.000000
-	PreBuffCooldownTime 5.700000
+	DamagePerBank:FRONT 12682.000000
+	DamagePerBank:BACK 0.000000
+	DamagePerBank:LEFT 0.000000
+	DamagePerBank:RIGHT 0.000000
+	Range 10000.000000
+	PreBuffCooldownTime 3.510000
 	CanFireAtFighter FALSE
 	SynchronizedTargeting TRUE
 	PointStaggerDelay 0.000000

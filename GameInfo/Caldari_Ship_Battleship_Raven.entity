@@ -15,19 +15,19 @@ NameStringID "IDS_CALDARI_SHIP_BATTLESHIP_RAVEN_NAME"
 DescriptionStringID "IDS_CALDARI_SHIP_BATTLESHIP_RAVEN_DESCRIPTION"
 counterDescriptionStringID "IDS_COUNTERDESC_FRIGATE_LONGRANGE"
 basePrice
-	credits 600.000000
-	metal 220.000000
-	crystal 145.000000
+	credits 694.000000
+	metal 97.000000
+	crystal 117.000000
 slotCount 10.000000
-BuildTime 245.000000
+BuildTime 43.000000
 hasLevels FALSE
 ExperiencePointsForDestroying 175.000000
-MaxHullPoints 1425.000000
-MaxShieldPoints 2850.000000
-HullPointRestoreRate 1.425000
-ShieldPointRestoreRate 2.800000
-BaseArmorPoints 0.000000
-maxMitigation 0.700000
+MaxHullPoints 2900.000000
+MaxShieldPoints 3500.000000
+HullPointRestoreRate 1.000000
+ShieldPointRestoreRate 1.000000
+BaseArmorPoints 15.000000
+maxMitigation 0.600000
 Prerequisites
 	NumResearchPrerequisites 1
 	ResearchPrerequisite
@@ -52,12 +52,12 @@ Weapon
 		DamageApplyType "BACKLOADED"
 		DamageType "PHYSICAL"
 		WeaponClassType "MISSILE"
-	DamagePerBank:FRONT 1234.000000
-	DamagePerBank:BACK 617.000000
-	DamagePerBank:LEFT 617.000000
-	DamagePerBank:RIGHT 617.000000
-	Range 18000.000000
-	PreBuffCooldownTime 19.600000
+	DamagePerBank:FRONT 377.000000
+	DamagePerBank:BACK 0.000000
+	DamagePerBank:LEFT 0.000000
+	DamagePerBank:RIGHT 0.000000
+	Range 8000.000000
+	PreBuffCooldownTime 2.1700000
 	CanFireAtFighter FALSE
 	SynchronizedTargeting TRUE
 	PointStaggerDelay 0.050000
