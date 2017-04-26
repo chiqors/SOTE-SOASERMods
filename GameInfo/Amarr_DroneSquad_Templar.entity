@@ -10,9 +10,9 @@ infoCardIcon "INFOCARDICON_PLANETMODULE_TECHORBITALCAPITALSHIPFACTORY"
 fighterEntityDef "Amarr_Drone_Templar"
 fighterIllusionEntityDef ""
 scuttleTime 10.000000
-fighterConstructionTime 50.000000
+fighterConstructionTime 20.000000
 decayWithoutOwnerRate 4.000000
-baseMaxNumFighters 6
+baseMaxNumFighters 3
 role "Combat"
 statCountType "SquadCombat"
 mainViewIcon "MAINVIEWICON_PLANETMODULE_TECHORBITALCAPITALSHIPFACTORY"
