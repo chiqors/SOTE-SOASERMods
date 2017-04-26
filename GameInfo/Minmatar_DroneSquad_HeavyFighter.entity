@@ -9,8 +9,8 @@ smallHudIcon "HUDICONSMALL_PLANETMODULE_TECHORBITALCAPITALSHIPFACTORY"
 infoCardIcon "INFOCARDICON_PLANETMODULE_TECHORBITALCAPITALSHIPFACTORY"
 fighterEntityDef "Minmatar_Drone_HeavyFighter"
 fighterIllusionEntityDef ""
-scuttleTime 12.500000
-fighterConstructionTime 60.000000
+scuttleTime 16.500000
+fighterConstructionTime 33.000000
 decayWithoutOwnerRate 8.000000
 baseMaxNumFighters 3
 role "Bomber"

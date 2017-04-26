@@ -9,10 +9,10 @@ smallHudIcon "HUDICONSMALL_PLANETMODULE_TECHORBITALCAPITALSHIPFACTORY"
 infoCardIcon "INFOCARDICON_PLANETMODULE_TECHORBITALCAPITALSHIPFACTORY"
 fighterEntityDef "Amarr_Drone_Malleus"
 fighterIllusionEntityDef ""
-scuttleTime 12.500000
-fighterConstructionTime 75.000000
+scuttleTime 16.500000
+fighterConstructionTime 33.000000
 decayWithoutOwnerRate 8.000000
-baseMaxNumFighters 6
+baseMaxNumFighters 3
 role "Bomber"
 statCountType "SquadBomber"
 mainViewIcon "MAINVIEWICON_PLANETMODULE_TECHORBITALCAPITALSHIPFACTORY"
