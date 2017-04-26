@@ -47,34 +47,34 @@ bombEffectsDef
 mainViewIcon "MAINVIEWICON_CAPITALSHIP_TECHCARRIER"
 basePrice
 	credits 9500.000000
-	metal 1633.000000
-	crystal 767.000000
+	metal 4083.000000
+	crystal 1917.000000
 slotCount 150.000000
-BuildTime 350.000000
+BuildTime 150.000000
 MaxHullPoints
-	StartValue 16333.000000
-	ValueIncreasePerLevel 0.000000
+	StartValue 245000.000000
+	ValueIncreasePerLevel 24500.000000
 MaxShieldPoints
-	StartValue 7667.000000
-	ValueIncreasePerLevel 0.000000
+	StartValue 115000.000000
+	ValueIncreasePerLevel 11500.000000
 HullPointRestoreRate
-	StartValue 4.500000
-	ValueIncreasePerLevel 0.000000
-ShieldPointRestoreRate
 	StartValue 1.000000
 	ValueIncreasePerLevel 1.000000
+ShieldPointRestoreRate
+	StartValue 10.000000
+	ValueIncreasePerLevel 1.000000
 ArmorPointsFromExperience
-	StartValue 15.000000
+	StartValue 25.000000
 	ValueIncreasePerLevel 0.000000
 maxMitigation
-	StartValue 0.000000
+	StartValue 0.150000
 	ValueIncreasePerLevel 0.000000
 MaxAntiMatter
-	StartValue 11700.000000
-	ValueIncreasePerLevel 1170.000000
+	StartValue 90000.000000
+	ValueIncreasePerLevel 9000.000000
 AntiMatterRestoreRate
-	StartValue 4.000000
-	ValueIncreasePerLevel 0.750000
+	StartValue 10.000000
+	ValueIncreasePerLevel 1.000000
 CultureProtectRate
 	StartValue 1.400000
 	ValueIncreasePerLevel 0.050000
