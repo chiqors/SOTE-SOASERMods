@@ -24,10 +24,10 @@ hasLevels FALSE
 ExperiencePointsForDestroying 94.000000
 MaxHullPoints 3500.000000
 MaxShieldPoints 7000.000000
-HullPointRestoreRate 4.000000
-ShieldPointRestoreRate 4.000000
+HullPointRestoreRate 1.000000
+ShieldPointRestoreRate 1.000000
 BaseArmorPoints 0.000000
-maxMitigation 0.000000 
+maxMitigation 0.30000
 Prerequisites
 	NumResearchPrerequisites 1
 	ResearchPrerequisite
@@ -52,12 +52,12 @@ Weapon
 		DamageApplyType "BACKLOADED"
 		DamageType "ENERGY"
 		WeaponClassType "WAVE"
-	DamagePerBank:FRONT 64.250000
+	DamagePerBank:FRONT 114.000000
 	DamagePerBank:BACK 0.000000
 	DamagePerBank:LEFT 0.000000
 	DamagePerBank:RIGHT 0.000000
-	Range 7000.000000
-	PreBuffCooldownTime 4.300000
+	Range 6000.000000
+	PreBuffCooldownTime 3.500000
 	CanFireAtFighter FALSE
 	SynchronizedTargeting TRUE
 	PointStaggerDelay 0.050000

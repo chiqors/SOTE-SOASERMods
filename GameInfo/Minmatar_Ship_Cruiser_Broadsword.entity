@@ -15,19 +15,19 @@ NameStringID "IDS_CRUISER_BROADSWORD_NAME"
 DescriptionStringID "IDS_CRUISER_BROADSWORD_DESCRIPTION"
 counterDescriptionStringID "IDS_COUNTERDESC_CORVETTE_TECH"
 basePrice
-	credits 235.000000
-	metal 50.000000
-	crystal 35.000000
+	credits 409.000000
+	metal 53.000000
+	crystal 67.000000
 slotCount 5.000000
-BuildTime 175.000000
+BuildTime 24.000000
 hasLevels FALSE
 ExperiencePointsForDestroying 86.000000
-MaxHullPoints 2500.000000
-MaxShieldPoints 1250.000000
-HullPointRestoreRate 2.500000
-ShieldPointRestoreRate 1.250000
+MaxHullPoints 1600.000000
+MaxShieldPoints 2000.000000
+HullPointRestoreRate 1.000000
+ShieldPointRestoreRate 1.000000
 BaseArmorPoints 0.000000
-maxMitigation 0.700000
+maxMitigation 0.30000
 Prerequisites
 	NumResearchPrerequisites 1
 	ResearchPrerequisite
@@ -56,8 +56,8 @@ Weapon
 	DamagePerBank:BACK 0.000000
 	DamagePerBank:LEFT 0.000000
 	DamagePerBank:RIGHT 0.000000
-	Range 7000.000000
-	PreBuffCooldownTime 4.500000
+	Range 6000.000000
+	PreBuffCooldownTime 2.470000
 	CanFireAtFighter FALSE
 	SynchronizedTargeting TRUE
 	PointStaggerDelay 0.000000
