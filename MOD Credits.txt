@@ -1,4 +1,15 @@
-MOD CREDITS.....
+Kabivel
+Creation of the Caldari and Mimatar Races
+Rebalance of the mod to be more like EVE
+
+FootyMD
+New Project Manager
+
+Vanox
+Debuger
+
+
+OLD MOD CREDITS.....
 
 A mention to all those who created elements used in this mod.
 
@@ -24,3 +35,4 @@ LePaj (SONE development team)
 
 New ships textures!
 vader111 (newest team member) 
+
