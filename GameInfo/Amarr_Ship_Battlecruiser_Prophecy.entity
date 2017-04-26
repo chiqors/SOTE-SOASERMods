@@ -16,14 +16,14 @@ DescriptionStringID "IDS_FRIGATE_TECHUTILITY0_DESCRIPTION"
 counterDescriptionStringID "IDS_COUNTERDESC_CORVETTE_TECH"
 basePrice
 	credits 219.000000
-	metal 183.000000
-	crystal 100.000000
+	metal 92.000000
+	crystal 50.000000
 slotCount 5.000000
-BuildTime 57.000000
+BuildTime 28.000000
 hasLevels FALSE
 ExperiencePointsForDestroying 72.000000
-MaxHullPoints 5500.000000
-MaxShieldPoints 3000.000000
+MaxHullPoints 2750.000000
+MaxShieldPoints 1500.000000
 HullPointRestoreRate 1.000000
 ShieldPointRestoreRate 1.00000
 BaseArmorPoints 8.000000

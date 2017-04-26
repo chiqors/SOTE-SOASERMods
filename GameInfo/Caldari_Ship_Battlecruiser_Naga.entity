@@ -15,19 +15,19 @@ NameStringID "IDS_FRIGATE_NAGA_NAME"
 DescriptionStringID "IDS_FRIGATE_NAGA_DESCRIPTION"
 counterDescriptionStringID "IDS_COUNTERDESC_FRIGATE_LONGRANGE"
 basePrice
-	credits 210.000000
-	metal 40.000000
-	crystal 27.000000
+	credits 550.000000
+	metal 26.000000
+	crystal 36.000000
 slotCount 7.000000
-BuildTime 155.000000
+BuildTime 12.000000
 hasLevels FALSE
 ExperiencePointsForDestroying 84.000000
-MaxHullPoints 850.000000
-MaxShieldPoints 1900.000000
-HullPointRestoreRate 0.850000
-ShieldPointRestoreRate 1.900000
-BaseArmorPoints 0.000000
-maxMitigation 0.700000
+MaxHullPoints 788.000000
+MaxShieldPoints 1080.000000
+HullPointRestoreRate 1.000000
+ShieldPointRestoreRate 1.000000
+BaseArmorPoints 15.000000
+maxMitigation 0.600000
 Prerequisites
 	NumResearchPrerequisites 1
 	ResearchPrerequisite
@@ -52,12 +52,12 @@ Weapon
 		DamageApplyType "BACKLOADED"
 		DamageType "ENERGY"
 		WeaponClassType "WAVE"
-	DamagePerBank:FRONT 172.000000
+	DamagePerBank:FRONT 769.000000
 	DamagePerBank:BACK 0.000000
 	DamagePerBank:LEFT 0.000000
 	DamagePerBank:RIGHT 0.000000
-	Range 10000.000000
-	PreBuffCooldownTime 5.600000
+	Range 8000.000000
+	PreBuffCooldownTime 5.590000
 	CanFireAtFighter FALSE
 	SynchronizedTargeting TRUE
 	PointStaggerDelay 0.050000
