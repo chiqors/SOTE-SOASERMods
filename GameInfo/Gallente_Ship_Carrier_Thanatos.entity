@@ -46,35 +46,35 @@ bombEffectsDef
 	missileMaxSlowTurnTime 6.000000
 mainViewIcon "MAINVIEWICON_CAPITALSHIP_PHASEBATTLESHIP"
 basePrice
-	credits 4500.000000
-	metal 1000.000000
-	crystal 750.000000
+	credits 3000.000000
+	metal 579.000000
+	crystal 463.000000
 slotCount 1.000000
-BuildTime 500.000000
+BuildTime 75.000000
 MaxHullPoints
-	StartValue 16500.000000
-	ValueIncreasePerLevel 165.000000
+	StartValue 30500.000000
+	ValueIncreasePerLevel 3050.000000
 MaxShieldPoints
-	StartValue 8250.000000
-	ValueIncreasePerLevel 82.000000
+	StartValue 34000.000000
+	ValueIncreasePerLevel 3400.000000
 HullPointRestoreRate
-	StartValue 16.500000
-	ValueIncreasePerLevel 1.650000
+	StartValue 10.000000
+	ValueIncreasePerLevel 1.00000
 ShieldPointRestoreRate
 	StartValue 8.250000
-	ValueIncreasePerLevel 0.825000
+	ValueIncreasePerLevel 1.000000
 ArmorPointsFromExperience
-	StartValue 0.000000
+	StartValue 0.500000
 	ValueIncreasePerLevel 0.000000
 maxMitigation
-	StartValue 0.650000
+	StartValue 0.250000
 	ValueIncreasePerLevel 0.005000
 MaxAntiMatter
-	StartValue 6000.000000
-	ValueIncreasePerLevel 600.000000
+	StartValue 67500.000000
+	ValueIncreasePerLevel 6750.000000
 AntiMatterRestoreRate
-	StartValue 3.000000
-	ValueIncreasePerLevel 0.500000
+	StartValue 10.000000
+	ValueIncreasePerLevel 1.000000
 CultureProtectRate
 	StartValue 0.600000
 	ValueIncreasePerLevel 0.050000

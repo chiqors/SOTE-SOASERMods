@@ -47,33 +47,33 @@ bombEffectsDef
 mainViewIcon "MAINVIEWICON_CAPITALSHIP_TECHBATTLESHIP"
 basePrice
 	credits 3000.000000
-	metal 458.000000
-	crystal 292.000000
+	metal 600.000000
+	crystal 442.000000
 slotCount 30.000000
 BuildTime 75.000000
 MaxHullPoints
-	StartValue 13750.000000
-	ValueIncreasePerLevel 0.000000
+	StartValue 36000.000000
+	ValueIncreasePerLevel 3600.000000
 MaxShieldPoints
-	StartValue 2917.000000
-	ValueIncreasePerLevel 0.000000
+	StartValue 26500.000000
+	ValueIncreasePerLevel 2650.000000
 HullPointRestoreRate
-	StartValue 4.500000
+	StartValue 10.00000
 	ValueIncreasePerLevel 1.000000
 ShieldPointRestoreRate
 	StartValue 1.000000
-	ValueIncreasePerLevel 1.000000
+	ValueIncreasePerLevel 0.500000
 ArmorPointsFromExperience
-	StartValue 15.000000
+	StartValue 25.000000
 	ValueIncreasePerLevel 0.000000
 maxMitigation
-	StartValue 0.000000
+	StartValue 0.250000
 	ValueIncreasePerLevel 0.000000
 MaxAntiMatter
-	StartValue 6000.000000
-	ValueIncreasePerLevel 600.000000
+	StartValue 75000.000000
+	ValueIncreasePerLevel 7500.000000
 AntiMatterRestoreRate
-	StartValue 3.000000
+	StartValue 10.000000
 	ValueIncreasePerLevel 0.500000
 CultureProtectRate
 	StartValue 0.600000
