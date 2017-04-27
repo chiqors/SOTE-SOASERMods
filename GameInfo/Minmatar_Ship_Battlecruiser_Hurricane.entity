@@ -10,7 +10,7 @@ typeCount 1
 frigateRoleType "Heavy"
 statCountType "FrigateHeavy"
 mainViewIcon "MAINVIEWICON_FRIGATE_TECHHEAVY"
-picture ""
+picture "PICTURE_FRIGATE_HURRICANE"
 NameStringID "IDS_BATTLECRUISER_HURRICANE_NAME"
 DescriptionStringID "IDS_BATTLECRUISER_HURRICANE_DESCRIPTION"
 counterDescriptionStringID "IDS_COUNTERDESC_CORVETTE_TECH"

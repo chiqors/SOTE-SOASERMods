@@ -10,7 +10,7 @@ typeCount 1
 frigateRoleType "Envoy"
 statCountType "FrigateEnvoy"
 mainViewIcon "MAINVIEWICON_FRIGATE_TECHUTILITY0"
-picture ""
+picture "PICTURE_FRIGATE_CYCLONE"
 NameStringID "IDS_FRIGATE_TECHENVOY_NAME"
 DescriptionStringID "IDS_FRIGATE_TECHENVOY_DESCRIPTION"
 counterDescriptionStringID "IDS_COUNTERDESC_FRIGATE_NONCOMBAT"

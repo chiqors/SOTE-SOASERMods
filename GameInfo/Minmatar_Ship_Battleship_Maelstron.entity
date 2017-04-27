@@ -10,7 +10,7 @@ typeCount 1
 frigateRoleType "Heavy"
 statCountType "FrigateHeavy"
 mainViewIcon "MAINVIEWICON_CAPITALSHIP_TECHTRANSPORT"
-picture ""
+picture "PICTURE_FRIGATE_MAELSTRON"
 NameStringID "IDS_BATTLESHIP_MAELSTRON_NAME"
 DescriptionStringID "IDS_BATTLESHIP_MAELSTRON_DESCRIPTION"
 counterDescriptionStringID "IDS_COUNTERDESC_FRIGATE_LONGRANGE"

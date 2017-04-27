@@ -10,7 +10,7 @@ typeCount 1
 frigateRoleType "Scout"
 statCountType "FrigateScout"
 mainViewIcon "MAINVIEWICON_FRIGATE_TECHSCOUT"
-picture ""
+picture "PICTURE_FRIGATE_PROBE"
 NameStringID "IDS_FRIGATE_PROBE_NAME"
 DescriptionStringID "IDS_FRIGATE_PROBE_DESCRIPTION"
 counterDescriptionStringID "IDS_COUNTERDESC_FRIGATE_NONCOMBAT"

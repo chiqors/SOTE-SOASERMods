@@ -10,7 +10,7 @@ typeCount 1
 frigateRoleType "Cargo"
 statCountType "FrigateRefineryShip"
 mainViewIcon "MAINVIEWICON_TRADESHIP_TECH"
-picture ""
+picture "PICTURE_FRIGATE_MAMMOTH"
 NameStringID "IDS_REFINERYSHIP_TECH_NAME"
 DescriptionStringID "IDS_REFINERYSHIP_TECH_DESCRIPTION"
 counterDescriptionStringID "IDS_COUNTERDESC_FRIGATE_NONCOMBAT"

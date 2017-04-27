@@ -10,7 +10,7 @@ typeCount 1
 frigateRoleType "Corvette"
 statCountType "FrigateCorvette"
 mainViewIcon "MAINVIEWICON_CORVETTE_TECH"
-picture ""
+picture "PICTURE_FRIGATE_SLASHER"
 NameStringID "IDS_FRIGATE_SLASHER_NAME"
 DescriptionStringID "IDS_FRIGATE_SLASHER_DESCRIPTION"
 counterDescriptionStringID "IDS_COUNTERDESC_FRIGATE_NONCOMBAT"

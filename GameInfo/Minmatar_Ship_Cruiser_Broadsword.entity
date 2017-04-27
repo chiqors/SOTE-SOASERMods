@@ -10,7 +10,7 @@ typeCount 1
 frigateRoleType "Heavy"
 statCountType "FrigateAntiModule"
 mainViewIcon "MAINVIEWICON_FRIGATE_TECHANTIMODULE"
-picture ""
+picture "PICTURE_FRIGATE_RUPTURE"
 NameStringID "IDS_CRUISER_BROADSWORD_NAME"
 DescriptionStringID "IDS_CRUISER_BROADSWORD_DESCRIPTION"
 counterDescriptionStringID "IDS_COUNTERDESC_CORVETTE_TECH"

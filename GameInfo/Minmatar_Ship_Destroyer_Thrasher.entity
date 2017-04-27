@@ -10,7 +10,7 @@ typeCount 1
 frigateRoleType "AntiFighter"
 statCountType "FrigateAntiFighter"
 mainViewIcon "MAINVIEWICON_FRIGATE_TECHANTIFIGHTER"
-picture ""
+picture "PICTURE_FRIGATE_THRASHER"
 NameStringID "IDS_DESTROYER_THRASHER_NAME"
 DescriptionStringID "IDS_DESTROYER_THRASHER_DESCRIPTION"
 counterDescriptionStringID "IDS_COUNTERDESC_FRIGATE_ANTIFIGHTER"

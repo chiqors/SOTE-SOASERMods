@@ -10,7 +10,7 @@ typeCount 1
 frigateRoleType "Support"
 statCountType "FrigateUtility1"
 mainViewIcon "MAINVIEWICON_FRIGATE_TECHUTILITY1"
-picture ""
+picture "PICTURE_FRIGATE_SCYTHER"
 NameStringID "IDS_CRUISER_SCYTHER_NAME"
 DescriptionStringID "IDS_CRUISER_SCYTHER_DESCRIPTION"
 counterDescriptionStringID "IDS_COUNTERDESC_CORVETTE_TECH"

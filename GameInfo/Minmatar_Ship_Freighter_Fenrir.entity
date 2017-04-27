@@ -44,7 +44,7 @@ bombEffectsDef
 	missileStartTurningDistance 250.000000
 	missileSlowTurnRate 0.708997
 	missileMaxSlowTurnTime 6.000000
-mainViewIcon "MAINVIEWICON_CAPITALSHIP_TECHCOLONY"
+mainViewIcon "PICTURE_FRIGATE_FENRIR"
 basePrice
 	credits 6000.000000
 	metal 1350.000000

@@ -10,7 +10,7 @@ typeCount 1
 frigateRoleType "Lrm"
 statCountType "FrigateLongRange"
 mainViewIcon "MAINVIEWICON_FRIGATE_TECHLONGRANGE"
-picture ""
+picture "PICTURE_FRIGATE_RUPTURE"
 NameStringID "IDS_CRUISER_RUPTURE_NAME"
 DescriptionStringID "IDS_CRUISER_RUPTURE_DESCRIPTION"
 counterDescriptionStringID "IDS_COUNTERDESC_CORVETTE_TECH"

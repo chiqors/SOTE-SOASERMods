@@ -10,7 +10,7 @@ typeCount 1
 frigateRoleType "Heavy"
 statCountType "FrigateHeavy"
 mainViewIcon "MAINVIEWICON_CAPITALSHIP_TECHSUPPORT"
-picture ""
+picture "PICTURE_FRIGATE_TYPHOON"
 NameStringID "IDS_BATTLESHIP_TYPHOON_NAME"
 DescriptionStringID "IDS_BATTLESHIP_TYPHOON_DESCRIPTION"
 counterDescriptionStringID "IDS_COUNTERDESC_FRIGATE_LONGRANGE"

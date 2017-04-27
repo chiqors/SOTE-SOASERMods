@@ -80,7 +80,7 @@ CultureProtectRate
 	ValueIncreasePerLevel 0.050000
 NameStringID "IDS_RESEARCHSUBJECT_CapitalAccess_Lif_NAME"
 DescriptionStringID "IDS_RESEARCHSUBJECT_CapitalAccess_Lif_DESCRIPTION"
-picture ""
+picture "PICTURE_CAPITAL_LIF"
 Prerequisites
 	NumResearchPrerequisites 1
 	ResearchPrerequisite

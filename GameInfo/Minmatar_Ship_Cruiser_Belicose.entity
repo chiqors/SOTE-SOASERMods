@@ -10,7 +10,7 @@ typeCount 1
 frigateRoleType "Lrm"
 statCountType "FrigateCarrier"
 mainViewIcon "MAINVIEWICON_FRIGATE_TECHCARRIER"
-picture ""
+picture "PICTURE_FRIGATE_BELICOSE"
 NameStringID "IDS_CRUISER_BELICOSE_NAME"
 DescriptionStringID "IDS_CRUISER_BELICOSE_DESCRIPTION"
 counterDescriptionStringID "IDS_COUNTERDESC_FRIGATE_NONCOMBAT"
