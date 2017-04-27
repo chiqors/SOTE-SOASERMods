@@ -1,15 +1,13 @@
 Kabivel
-Creation of the Caldari and Mimatar Races
-Rebalance of the mod to be more like EVE
+For continuing the Mod and Creation of the Caldari and Mimatar Races
+
+OLD MOD CREDITS.....
 
 FootyMD
 New Project Manager
 
 Vanox
 Debuger
-
-
-OLD MOD CREDITS.....
 
 A mention to all those who created elements used in this mod.
 
