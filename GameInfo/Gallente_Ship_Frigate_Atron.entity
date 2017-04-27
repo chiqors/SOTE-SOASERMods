@@ -10,7 +10,7 @@ typeCount 1
 frigateRoleType "Corvette"
 statCountType "FrigateCorvette"
 mainViewIcon "MAINVIEWICON_CORVETTE_PHASE"
-picture ""
+picture "PICTURE_FRIGATE_ATRON"
 NameStringID "IDS_CORVETTE_PHASELOYALIST_NAME"
 DescriptionStringID "IDS_CORVETTE_PHASELOYALIST_DESCRIPTION"
 counterDescriptionStringID "IDS_COUNTERDESC_FRIGATE_NONCOMBAT"

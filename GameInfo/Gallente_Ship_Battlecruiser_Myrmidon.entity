@@ -10,7 +10,7 @@ typeCount 1
 frigateRoleType "Heavy"
 statCountType "FrigateHeavy"
 mainViewIcon "MAINVIEWICON_FRIGATE_PHASEHEAVY"
-picture ""
+picture "PICTURE_FRIGATE_MYRMIDON"
 NameStringID "IDS_FRIGATE_PHASEHEAVY_NAME"
 DescriptionStringID "IDS_FRIGATE_PHASEHEAVY_DESCRIPTION"
 counterDescriptionStringID "IDS_COUNTERDESC_CORVETTE_TECH"

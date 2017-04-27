@@ -10,7 +10,7 @@ typeCount 1
 frigateRoleType "Support"
 statCountType "FrigateUtility0"
 mainViewIcon "MAINVIEWICON_FRIGATE_PHASEUTILITY0"
-picture ""
+picture "PICTURE_FRIGATE_BRUTIX"
 NameStringID "IDS_FRIGATE_PHASEUTILITY0_NAME"
 DescriptionStringID "IDS_FRIGATE_PHASEUTILITY0_DESCRIPTION"
 counterDescriptionStringID "IDS_COUNTERDESC_CORVETTE_TECH"

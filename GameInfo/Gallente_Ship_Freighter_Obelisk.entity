@@ -80,7 +80,7 @@ CultureProtectRate
 	ValueIncreasePerLevel 0.050000
 NameStringID "IDS_CAPITALSHIP_PHASECOLONY_NAME"
 DescriptionStringID "IDS_CAPITALSHIP_PHASECOLONY_DESCRIPTION"
-picture ""
+picture "PICTURE_FRIGATE_OBELISK"
 Prerequisites
 	NumResearchPrerequisites 1
 	ResearchPrerequisite

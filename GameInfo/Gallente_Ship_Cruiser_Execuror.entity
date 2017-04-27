@@ -10,7 +10,7 @@ typeCount 1
 frigateRoleType "Support"
 statCountType "FrigateUtility1"
 mainViewIcon "MAINVIEWICON_FRIGATE_PHASEUTILITY1"
-picture ""
+picture "PICTURE_FRIGATE_EXECUROR"
 NameStringID "IDS_FRIGATE_PHASEUTILITY1_NAME"
 DescriptionStringID "IDS_FRIGATE_PHASEUTILITY1_DESCRIPTION"
 counterDescriptionStringID "IDS_COUNTERDESC_FRIGATE_NONCOMBAT"

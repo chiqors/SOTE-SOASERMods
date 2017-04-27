@@ -80,7 +80,7 @@ CultureProtectRate
 	ValueIncreasePerLevel 0.050000
 NameStringID "IDS_TITAN_PHASELOYALIST_NAME"
 DescriptionStringID "IDS_TITAN_PHASELOYALIST_DESCRIPTION"
-picture ""
+picture "PICTURE_CAPITAL_EREBUS"
 Prerequisites
 	NumResearchPrerequisites 1
 	ResearchPrerequisite

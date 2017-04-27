@@ -80,7 +80,7 @@ CultureProtectRate
 	ValueIncreasePerLevel 0.050000
 NameStringID "IDS_CAPITALSHIP_RORQUAL_NAME"
 DescriptionStringID "IDS_CAPITALSHIP_RORQUAL_DESCRIPTION"
-picture ""
+picture "PICTURE_CAPITAL_RORQUAL"
 Prerequisites
 	NumResearchPrerequisites 0
 	RequiredFactionNameID ""

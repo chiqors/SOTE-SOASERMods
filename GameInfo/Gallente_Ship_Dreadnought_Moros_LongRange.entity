@@ -80,7 +80,7 @@ CultureProtectRate
 	ValueIncreasePerLevel 0.050000
 NameStringID "IDS_CAPITALSHIP_PHASESIEGE_NAME"
 DescriptionStringID "IDS_CAPITALSHIP_PHASESIEGE_DESCRIPTION"
-picture "CAPITALSHIPPICTURE_PHASESIEGE"
+picture "PICTURE_CAPITAL_MOROS"
 Prerequisites
 	NumResearchPrerequisites 1
 	ResearchPrerequisite

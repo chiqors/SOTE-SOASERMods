@@ -10,7 +10,7 @@ typeCount 1
 frigateRoleType "AntiFighter"
 statCountType "FrigateAntiFighter"
 mainViewIcon "MAINVIEWICON_FRIGATE_PHASEANTIFIGHTER"
-picture ""
+picture "PICTURE_FRIGATE_CATALYST"
 NameStringID "IDS_FRIGATE_PHASEANTIFIGHTER_NAME"
 DescriptionStringID "IDS_FRIGATE_PHASEANTIFIGHTER_DESCRIPTION"
 counterDescriptionStringID "IDS_COUNTERDESC_FRIGATE_ANTIFIGHTER"

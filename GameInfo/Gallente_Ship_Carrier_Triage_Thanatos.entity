@@ -80,7 +80,7 @@ CultureProtectRate
 	ValueIncreasePerLevel 0.050000
 NameStringID "IDS_CAPITALSHIP_PHASESCOUT_NAME"
 DescriptionStringID "IDS_CAPITALSHIP_PHASESCOUT_DESCRIPTION"
-picture ""
+picture "PICTURE_CAPITAL_THANATOS"
 Prerequisites
 	NumResearchPrerequisites 1
 	ResearchPrerequisite

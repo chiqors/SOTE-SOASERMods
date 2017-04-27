@@ -10,7 +10,7 @@ typeCount 1
 frigateRoleType "Support"
 statCountType "FrigateCarrier"
 mainViewIcon "MAINVIEWICON_FRIGATE_PHASECARRIER"
-picture ""
+picture "PICTURE_FRIGATE_CELESTIS"
 NameStringID "IDS_FRIGATE_PHASECARRIER_NAME"
 DescriptionStringID "IDS_FRIGATE_PHASECARRIER_DESCRIPTION"
 counterDescriptionStringID "IDS_COUNTERDESC_CORVETTE_TECH"
