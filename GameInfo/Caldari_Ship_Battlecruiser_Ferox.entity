@@ -10,7 +10,7 @@ typeCount 1
 frigateRoleType "Support"
 statCountType "FrigateUtility0"
 mainViewIcon "MAINVIEWICON_FRIGATE_FEROX"
-picture ""
+picture "PICTURE_FRIGATE_FEROX"
 NameStringID "IDS_FRIGATE_FEROX_NAME"
 DescriptionStringID "IDS_FRIGATE_FEROX_DESCRIPTION"
 counterDescriptionStringID "IDS_COUNTERDESC_CORVETTE_TECH"

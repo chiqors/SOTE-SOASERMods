@@ -10,7 +10,7 @@ typeCount 1
 frigateRoleType "Heavy"
 statCountType "FrigateHeavy"
 mainViewIcon "MAINVIEWICON_FRIGATE_ROKH"
-picture ""
+picture "PICTURE_FRIGATE_ROKH"
 NameStringID "IDS_CALDARI_SHIP_BATTLESHIP_ROKH_NAME"
 DescriptionStringID "IDS_CALDARI_SHIP_BATTLESHIP_ROKH_DESCRIPTION"
 counterDescriptionStringID "IDS_COUNTERDESC_FRIGATE_LONGRANGE"

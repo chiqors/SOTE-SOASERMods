@@ -10,7 +10,7 @@ typeCount 1
 frigateRoleType "AntiFighter"
 statCountType "FrigateAntiFighter"
 mainViewIcon "MAINVIEWICON_FRIGATE_COMORANT"
-picture ""
+picture "PICTURE_FRIGATE_JACKDAW"
 NameStringID "IDS_Caldari_ResearchSubject_SubCapitalAccess_Jackdaw_NAME"
 DescriptionStringID "IDS_Caldari_Destroyer_Jackdaw_DESCRIPTION"
 counterDescriptionStringID "IDS_COUNTERDESC_FRIGATE_ANTIFIGHTER"

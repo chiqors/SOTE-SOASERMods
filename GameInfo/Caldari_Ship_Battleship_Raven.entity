@@ -10,7 +10,7 @@ typeCount 1
 frigateRoleType "Heavy"
 statCountType "FrigateHeavy"
 mainViewIcon "MAINVIEWICON_FRIGATE_RAVEN"
-picture ""
+picture "PICTURE_FRIGATE_RAVEN"
 NameStringID "IDS_CALDARI_SHIP_BATTLESHIP_RAVEN_NAME"
 DescriptionStringID "IDS_CALDARI_SHIP_BATTLESHIP_RAVEN_DESCRIPTION"
 counterDescriptionStringID "IDS_COUNTERDESC_FRIGATE_LONGRANGE"

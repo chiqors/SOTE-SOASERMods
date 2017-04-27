@@ -80,7 +80,7 @@ CultureProtectRate
 	ValueIncreasePerLevel 0.050000
 NameStringID "IDS_CAPITALSHIP_DREADNOUGHT_PHOENIX_NAME"
 DescriptionStringID "IDS_CAPITALSHIP_DREADNOUGHT_PHOENIX_DESCRIPTION"
-picture ""
+picture "PICTURE_DREADNOUGHT_PHOENIX"
 Prerequisites
 	NumResearchPrerequisites 1
 	ResearchPrerequisite

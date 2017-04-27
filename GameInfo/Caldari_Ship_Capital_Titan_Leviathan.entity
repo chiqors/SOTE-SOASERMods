@@ -80,7 +80,7 @@ CultureProtectRate
 	ValueIncreasePerLevel 0.050000
 NameStringID "IDS_TITAN_CALDARILOYALIST_NAME"
 DescriptionStringID "IDS_TITAN_CALDARILOYALIST_DESCRIPTION"
-picture "PICTURE_DREADNOUGHT_LEVIATHAN"
+picture "PICTURE_TITAN_LEVIATHAN"
 Prerequisites
 	NumResearchPrerequisites 1
 	ResearchPrerequisite

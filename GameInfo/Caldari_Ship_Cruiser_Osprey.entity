@@ -10,7 +10,7 @@ typeCount 1
 frigateRoleType "Support"
 statCountType "FrigateUtility1"
 mainViewIcon "MAINVIEWICON_FRIGATE_OSPREY"
-picture ""
+picture "PICTURE_FRIGATE_OSPREY"
 NameStringID "IDS_FRIGATE_OSPREY_NAME"
 DescriptionStringID "IDS_FRIGATE_OSPREY_DESCRIPTION"
 counterDescriptionStringID "IDS_COUNTERDESC_FRIGATE_NONCOMBAT"

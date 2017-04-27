@@ -10,7 +10,7 @@ typeCount 1
 frigateRoleType "Heavy"
 statCountType "FrigateAntiModule"
 mainViewIcon "MAINVIEWICON_FRIGATE_ONYX"
-picture ""
+picture "PICTURE_FRIGATE_ONYX"
 NameStringID "IDS_FRIGATE_ONYX_NAME"
 DescriptionStringID "IDS_FRIGATE_ONYX_DESCRIPTION"
 counterDescriptionStringID "IDS_COUNTERDESC_FRIGATE_NONCOMBAT"

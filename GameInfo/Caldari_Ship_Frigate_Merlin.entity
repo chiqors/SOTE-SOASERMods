@@ -10,7 +10,7 @@ typeCount 1
 frigateRoleType "Light"
 statCountType "FrigateLight"
 mainViewIcon "MAINVIEWICON_FRIGATE_MERLIN"
-picture ""
+picture "PICTURE_FRIGATE_MERLIN"
 NameStringID "IDS_FRIGATE_MERLIN_NAME"
 DescriptionStringID "IDS_FRIGATE_MERLIN_DESCRIPTION"
 counterDescriptionStringID "IDS_COUNTERDESC_FRIGATE_NONCOMBAT"

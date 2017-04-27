@@ -10,7 +10,7 @@ typeCount 1
 frigateRoleType "AntiFighter"
 statCountType "FrigateAntiFighter"
 mainViewIcon "MAINVIEWICON_FRIGATE_COMORANT"
-picture ""
+picture "PICTURE_FRIGATE_COMORANT"
 NameStringID "IDS_FRIGATE_COMORANT_NAME"
 DescriptionStringID "IDS_FRIGATE_COMORANT_DESCRIPTION"
 counterDescriptionStringID "IDS_COUNTERDESC_FRIGATE_ANTIFIGHTER"

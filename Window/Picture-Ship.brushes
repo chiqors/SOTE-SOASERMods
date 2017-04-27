@@ -537,7 +537,7 @@ brush
 	fileName "Unit_Picture"
 	pixelBox [ 1191 , 79 , 167 , 75 ]																																																																						
 brush
-	name "PICTURE_DREADNOUGHT_LEVIATHAN"
+	name "PICTURE_TITAN_LEVIATHAN"
 	content "Simple"
 	fileName "Unit_Picture"
 	pixelBox [ 1872 , 79 , 167 , 75 ]																																																																					

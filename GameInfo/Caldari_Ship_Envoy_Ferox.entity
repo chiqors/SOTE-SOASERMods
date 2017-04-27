@@ -10,7 +10,7 @@ typeCount 1
 frigateRoleType "Envoy"
 statCountType "FrigateEnvoy"
 mainViewIcon "MAINVIEWICON_FRIGATE_FEROX"
-picture ""
+picture "PICTURE_FRIGATE_FEROX"
 NameStringID "IDS_FRIGATE_FEROXENVOY_NAME"
 DescriptionStringID "IDS_FRIGATE_FEROXENVOY_DESCRIPTION"
 counterDescriptionStringID "IDS_COUNTERDESC_FRIGATE_NONCOMBAT"

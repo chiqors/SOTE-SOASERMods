@@ -44,7 +44,7 @@ bombEffectsDef
 	missileStartTurningDistance 250.000000
 	missileSlowTurnRate 0.708997
 	missileMaxSlowTurnTime 6.000000
-mainViewIcon "MAINVIEWICON_CAPITALSHIP_CHIMERA"
+mainViewIcon "PICTURE_CARRIER_CHIMERA"
 basePrice
 	credits 3000.000000
 	metal 508.000000

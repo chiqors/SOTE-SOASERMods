@@ -80,7 +80,7 @@ CultureProtectRate
 	ValueIncreasePerLevel 0.050000
 NameStringID "IDS_CAPITALSHIP_CARRIER_CHIMERA_TRIAGE_NAME"
 DescriptionStringID "IDS_CAPITALSHIP_CARRIER_CHIMERA_TRIAGE_DESCRIPTION"
-picture ""
+picture "PICTURE_CARRIER_CHIMERA"
 Prerequisites
 	NumResearchPrerequisites 1
 	ResearchPrerequisite
