@@ -43,7 +43,7 @@ typeCount 1
 frigateRoleType "Invalid"
 statCountType "CapitalShipBattleship"
 mainViewIcon "MAINVIEWICON_CAPITALSHIP_TECHSIEGE"
-picture ""
+picture "PICTURE_FRIGATE_APOCALYPSE"
 NameStringID "IDS_FRIGATE_TECHFLAGSHIP_NAME"
 DescriptionStringID "IDS_FRIGATE_TECHFLAGSHIP_DESCRIPTION"
 counterDescriptionStringID ""

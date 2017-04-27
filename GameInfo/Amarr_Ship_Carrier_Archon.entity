@@ -80,7 +80,7 @@ CultureProtectRate
 	ValueIncreasePerLevel 0.050000
 NameStringID "IDS_CAPITALSHIP_TECHBATTLESHIP_NAME"
 DescriptionStringID "IDS_CAPITALSHIP_TECHBATTLESHIP_DESCRIPTION"
-picture ""
+picture "PICTURE_CAPITAL_ARCHON"
 Prerequisites
 	NumResearchPrerequisites 1
 	ResearchPrerequisite

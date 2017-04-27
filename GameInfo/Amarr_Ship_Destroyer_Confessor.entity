@@ -10,7 +10,7 @@ typeCount 1
 frigateRoleType "AntiFighter"
 statCountType "FrigateAntiFighter"
 mainViewIcon "MAINVIEWICON_FRIGATE_TECHANTIFIGHTER"
-picture ""
+picture "PICTURE_DESTROYER_CONFESSOR"
 NameStringID "IDS_Amarr_ResearchSubject_SubCapitalAccess_Confessor_NAME"
 DescriptionStringID "IDS_Amarr_Destroyer_Confessor_DESCRIPTION"
 counterDescriptionStringID "IDS_COUNTERDESC_FRIGATE_ANTIFIGHTER"

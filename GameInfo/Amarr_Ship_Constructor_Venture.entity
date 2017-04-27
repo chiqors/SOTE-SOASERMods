@@ -10,7 +10,7 @@ typeCount 1
 frigateRoleType "ModuleConstructor"
 statCountType "FrigateConstructor"
 mainViewIcon "MAINVIEWICON_FRIGATE_TECHMODULECONSTRUCTOR"
-picture ""
+picture "PICTURE_FRIGATE_VENTURE"
 NameStringID "IDS_FRIGATE_TECHMODULECONSTRUCTOR_NAME"
 DescriptionStringID "IDS_FRIGATE_TECHMODULECONSTRUCTOR_DESC"
 counterDescriptionStringID "IDS_COUNTERDESC_FRIGATE_NONCOMBAT"
