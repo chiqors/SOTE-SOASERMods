@@ -80,7 +80,7 @@ CultureProtectRate
 	ValueIncreasePerLevel 0.050000
 NameStringID "IDS_AMARR_CARRIER_TRIAGEARCHON_NAME"
 DescriptionStringID "IDS_AMARR_CARRIER_TRIAGEARCHON_DESCRIPTION"
-picture ""
+picture "PICTURE_CAPITAL_ARCHON"
 Prerequisites
 	NumResearchPrerequisites 1
 	ResearchPrerequisite

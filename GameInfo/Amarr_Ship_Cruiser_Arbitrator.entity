@@ -10,7 +10,7 @@ typeCount 1
 frigateRoleType "Lrm"
 statCountType "FrigateCarrier"
 mainViewIcon "MAINVIEWICON_FRIGATE_TECHCARRIER"
-picture ""
+picture "PICTURE_FRIGATE_ARBITRATOR"
 NameStringID "IDS_FRIGATE_TECHCARRIER_NAME"
 DescriptionStringID "IDS_FRIGATE_TECHCARRIER_DESCRIPTION"
 counterDescriptionStringID "IDS_COUNTERDESC_FRIGATE_NONCOMBAT"

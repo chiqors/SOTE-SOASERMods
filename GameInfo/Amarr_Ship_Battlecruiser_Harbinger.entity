@@ -10,7 +10,7 @@ typeCount 1
 frigateRoleType "Heavy"
 statCountType "FrigateHeavy"
 mainViewIcon "MAINVIEWICON_FRIGATE_TECHHEAVY"
-picture ""
+picture "PICTURE_FRIGATE_HARBINGER"
 NameStringID "IDS_FRIGATE_TECHHEAVY_NAME"
 DescriptionStringID "IDS_FRIGATE_TECHHEAVY_DESCRIPTION"
 counterDescriptionStringID "IDS_COUNTERDESC_CORVETTE_TECH"

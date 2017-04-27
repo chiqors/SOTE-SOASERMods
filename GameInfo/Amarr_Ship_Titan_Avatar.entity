@@ -80,7 +80,7 @@ CultureProtectRate
 	ValueIncreasePerLevel 0.050000
 NameStringID "IDS_TITAN_TECHLOYALIST_NAME"
 DescriptionStringID "IDS_TITAN_TECHLOYALIST_DESCRIPTION"
-picture ""
+picture "PICTURE_CAPITAL_AVATAR"
 Prerequisites
 	NumResearchPrerequisites 1
 	ResearchPrerequisite

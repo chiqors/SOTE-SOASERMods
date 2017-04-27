@@ -80,7 +80,7 @@ CultureProtectRate
 	ValueIncreasePerLevel 0.050000
 NameStringID "IDS_CAPITALSHIP_TECHCARRIER_NAME"
 DescriptionStringID "IDS_CAPITALSHIP_TECHCARRIER_DESCRIPTION"
-picture ""
+picture "PICTURE_CAPITAL_AEON"
 Prerequisites
 	NumResearchPrerequisites 1
 	ResearchPrerequisite

@@ -772,7 +772,7 @@ brush
 	fileName "Unit_Picture"
 	pixelBox [ 852 , 859 , 167 , 75 ]
 brush
-	name "PICTURE_FRIGATE_ARBITATOR"
+	name "PICTURE_FRIGATE_ARBITRATOR"
 	content "Simple"
 	fileName "Unit_Picture"
 	pixelBox [ 1022 , 235 , 167 , 75 ]
@@ -922,12 +922,12 @@ brush
 	fileName "Unit_Picture"
 	pixelBox [ 1021 , 783 , 167 , 75 ]
 brush
-	name "PICTURE_CAPITAL_VENTURE"
+	name "PICTURE_FRIGATE_VENTURE"
 	content "Simple"
 	fileName "Unit_Picture"
 	pixelBox [ 509 , 626 , 167 , 75 ]
 brush
-	name "PICTURE_CAPITAL_CONFESSOR"
+	name "PICTURE_DESTROYER_CONFESSOR"
 	content "Simple"
 	fileName "Unit_Picture"
 	pixelBox [ 852 , 314 , 167 , 75 ]

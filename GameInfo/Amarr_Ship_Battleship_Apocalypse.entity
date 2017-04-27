@@ -10,7 +10,7 @@ typeCount 1
 frigateRoleType "Heavy"
 statCountType "FrigateHeavy"
 mainViewIcon "MAINVIEWICON_CAPITALSHIP_TECHSIEGE"
-picture ""
+picture "PICTURE_FRIGATE_APOCALYPSE"
 NameStringID "IDS_CAPITALSHIP_TECHSIEGE_NAME"
 DescriptionStringID "IDS_CAPITALSHIP_TECHSIEGE_DESCRIPTION"
 counterDescriptionStringID "IDS_COUNTERDESC_FRIGATE_LONGRANGE"
