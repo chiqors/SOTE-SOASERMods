@@ -25,16 +25,16 @@ numEntityModifiers 1
 entityModifier
 	buffEntityModifierType "LinearMaxSpeed"
 	value
-		Level:0 1.000000
-		Level:1 1.200000
-		Level:2 1.400000
-		Level:3 1.600000
+		Level:0 1.680000
+		Level:1 1.810000
+		Level:2 1.940000
+		Level:3 2.000000
 numEntityBoolModifiers 0
 numFinishConditions 1
 finishCondition
 	finishConditionType "TimeElapsed"
 	time
-		Level:0 120.000000
-		Level:1 120.000000
-		Level:2 120.000000
-		Level:3 120.000000
+		Level:0 7.500000
+		Level:1 7.500000
+		Level:2 7.500000
+		Level:3 7.500000
