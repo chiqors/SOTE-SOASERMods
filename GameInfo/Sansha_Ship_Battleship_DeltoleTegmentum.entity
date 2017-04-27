@@ -10,7 +10,7 @@ typeCount 1
 frigateRoleType "Heavy"
 statCountType "FrigateHeavy"
 mainViewIcon "MAINVIEWICON_FRIGATE_PIRATELIGHT"
-picture ""
+picture "PICTURE_FRIGATE_NIGHTMARE"
 NameStringID "IDS_FRIGATE_DELTOLETEGMENTUM_NAME"
 DescriptionStringID "IDS_FRIGATE_DELTOLETEGMENTUM_DESCRIPTION"
 counterDescriptionStringID "IDS_COUNTERDESC_FRIGATE_LONGRANGE"

@@ -10,7 +10,7 @@ typeCount 1
 frigateRoleType "Light"
 statCountType "FrigateLight"
 mainViewIcon "MAINVIEWICON_FRIGATE_PIRATEMEDIUM"
-picture ""
+picture "PICTURE_FRIGATE_PHANTOM"
 NameStringID "IDS_FRIGATE_EYESTURRHOMBEN_NAME"
 DescriptionStringID "IDS_FRIGATE_EYESTURRHOMBEN_DESCRIPTION"
 counterDescriptionStringID "IDS_COUNTERDESC_FRIGATE_NONCOMBAT"
