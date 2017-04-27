@@ -1,7 +1,7 @@
 Kabivel
-<<<<<<< HEAD
 Creation of the Caldari and Mimatar Races
-Rebalance of the mod to be more like EVE
+
+OLD MOD CREDITS.....
 
 FootyMD
 New Project Manager
@@ -9,12 +9,8 @@ New Project Manager
 Vanox
 Debuger
 
-
-OLD MOD CREDITS.....
 =======
 For continuing the Mod and Creation of the Caldari and Mimatar Races
-
-OLD MOD CREDITS.....
 
 FootyMD
 New Project Manager
