@@ -49,7 +49,7 @@ NameStringID "IDS_FRIGATE_PHASESIEGE_NAME"
 DescriptionStringID "IDS_FRIGATE_PHASESIEGE_DESCRIPTION"
 counterDescriptionStringID "IDS_COUNTERDESC_FRIGATE_NONCOMBAT"
 basePrice
-	credits 81.000000
+	credits 50.000000
 	metal 15.000000
 	crystal 12.000000
 slotCount 2.000000
@@ -59,7 +59,7 @@ ExperiencePointsForDestroying 30.000000
 MaxHullPoints 450.000000
 MaxShieldPoints 350.000000
 HullPointRestoreRate 1.000000
-ShieldPointRestoreRate 1.000000
+ShieldPointRestoreRate 0.500000
 BaseArmorPoints 1.000000
 maxMitigation 0.000000
 Prerequisites
@@ -90,8 +90,8 @@ Weapon
 	DamagePerBank:BACK 0.000000
 	DamagePerBank:LEFT 0.000000
 	DamagePerBank:RIGHT 0.000000
-	Range 7000.000000
-	PreBuffCooldownTime 4.000000
+	Range 4000.000000
+	PreBuffCooldownTime 2.740000
 	CanFireAtFighter FALSE
 	SynchronizedTargeting TRUE
 	PointStaggerDelay 0.0500000

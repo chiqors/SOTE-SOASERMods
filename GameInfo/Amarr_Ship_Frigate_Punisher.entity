@@ -15,7 +15,7 @@ NameStringID "IDS_FRIGATE_TECHLIGHT_NAME"
 DescriptionStringID "IDS_FRIGATE_TECHLIGHT_DESCRIPTION"
 counterDescriptionStringID "IDS_COUNTERDESC_FRIGATE_NONCOMBAT"
 basePrice
-	credits 409.000000
+	credits 164.000000
 	metal 17.000000
 	crystal 12.000000
 slotCount 2.000000
@@ -24,9 +24,9 @@ hasLevels FALSE
 ExperiencePointsForDestroying 22.000000
 MaxHullPoints 500.000000
 MaxShieldPoints 350.000000
-HullPointRestoreRate 0.280000
-ShieldPointRestoreRate 0.140000
-BaseArmorPoints 2.000000
+HullPointRestoreRate 1.000000
+ShieldPointRestoreRate 0.500000
+BaseArmorPoints 0.000000
 maxMitigation 0.000000
 Prerequisites
 	NumResearchPrerequisites 0
@@ -49,7 +49,7 @@ Weapon
 		DamageApplyType "OVERTIME"
 		DamageType "ENERGY"
 		WeaponClassType "LASERTECH"
-	DamagePerBank:FRONT 79.000000
+	DamagePerBank:FRONT 84.000000
 	DamagePerBank:BACK 0.000000
 	DamagePerBank:LEFT 0.000000
 	DamagePerBank:RIGHT 0.000000

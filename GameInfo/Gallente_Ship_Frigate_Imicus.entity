@@ -15,7 +15,7 @@ NameStringID "IDS_FRIGATE_PHASESCOUT_NAME"
 DescriptionStringID "IDS_FRIGATE_PHASESCOUT_DESCRIPTION"
 counterDescriptionStringID "IDS_COUNTERDESC_FRIGATE_NONCOMBAT"
 basePrice
-	credits 41.000000
+	credits 50.000000
 	metal 11.000000
 	crystal 9.000000
 slotCount 1.000000
@@ -23,10 +23,10 @@ BuildTime 4.000000
 hasLevels FALSE
 ExperiencePointsForDestroying 15.000000
 MaxHullPoints 325.000000
-MaxShieldPoints 275.000000
+MaxShieldPoints 300.000000
 HullPointRestoreRate 1.000000
-ShieldPointRestoreRate 1.000000
-BaseArmorPoints 1.000000
+ShieldPointRestoreRate 0.5000000
+BaseArmorPoints 0.000000
 maxMitigation 0.000000
 Prerequisites
 	NumResearchPrerequisites 0
@@ -49,12 +49,12 @@ Weapon
 		DamageApplyType "BACKLOADED"
 		DamageType "ENERGY"
 		WeaponClassType "PULSEGUN"
-	DamagePerBank:FRONT 8.000000
+	DamagePerBank:FRONT 26.000000
 	DamagePerBank:BACK 0.000000
 	DamagePerBank:LEFT 0.000000
 	DamagePerBank:RIGHT 0.000000
 	Range 4000.000000
-	PreBuffCooldownTime 2.0500000
+	PreBuffCooldownTime 2.0400000
 	CanFireAtFighter FALSE
 	SynchronizedTargeting TRUE
 	PointStaggerDelay 0.050000
