@@ -15,12 +15,8 @@ canCollideWithTarget TRUE
 moveThruTarget FALSE
 isUltimateAbility FALSE
 maxNumLevels 4
-levelSourceType "Intrinsic"
-minExperienceLevelRequired
-	Level:0 0.000000
-	Level:1 1.000000
-	Level:2 2.000000
-	Level:3 3.000000
+levelSourceType "ResearchWithoutBase"
+improveSourceResearchSubject "ALLRACES_RESEARCHSUBJECT_ABILITYACCESS_PHASEDARMOURHARDENER"
 aiUseTime "OnlyInCombat"
 aiUseTargetCondition "Any"
 isAutoCastAvailable TRUE
@@ -44,8 +40,8 @@ researchPrerequisites
 	NumResearchPrerequisites 0
 	RequiredFactionNameID ""
 	RequiredCompletedResearchSubjects 0
-nameStringID "IDS_ABILITY_ADAPTIVESHIELD_NAME"
-descStringID "IDS_ABILITY_ADAPTIVESHIELD_DESCRIPTION"
-hudIcon "HUDICON_ABILITY_ADAPTIVESHIELD"
-smallHudIcon "HUDICON_ABILITY_ADAPTIVESHIELD"
+nameStringID "IDS_ABILITY_ABILITY_PHASEDARMOURHARDENER_NAME"
+descStringID "IDS_ABILITY_ABILITY_PHASEDARMOURHARDENER_DESCRIPTION"
+hudIcon "HUDICON_ABILITY_PHASEDARMOURHARDENER"
+smallHudIcon "HUDICON_ABILITY_PHASEDARMOURHARDENER"
 infoCardIcon ""

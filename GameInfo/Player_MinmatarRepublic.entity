@@ -72,7 +72,7 @@ entities
 			entityDefName "Amarr_Ship_Tradeship_Bestower"
 			entityDefName "Amarr_Ship_Refineryship_Bestower"
 	researchInfo
-		count 122
+		count 120
 		entityDefName "Minmatar_ResearchSubject_SubCapitalAccess_Svipul"
 		entityDefName "AllRaces_ResearchSubject_PlanetModuleAccess_CYNOSURAL_NAVIGATION"
 		entityDefName "ALLRACES_RESEARCHSUBJECT_ABILITYACCESS_AFTERBURNER"
@@ -98,8 +98,6 @@ entities
 		entityDefName "AllRaces_ResearchSubject_Weapon_Damage_AutoCannon2"
 		entityDefName "AllRaces_ResearchSubject_Weapon_Damage_AutoCannon3"
 		entityDefName "AllRaces_ResearchSubject_PlanetModuleAccess_Astrahus"
-		entityDefName "AllRaces_ResearchSubject_PlanetModuleAccess_Fortizar"
-		entityDefName "AllRaces_ResearchSubject_PlanetModuleAccess_Keepstar"
 		entityDefName "Amarr_ResearchSubject_PlanetModuleAccess_CynoJammer"
 		entityDefName "Amarr_ResearchSubject_PlanetModuleAccess_ECMBattery"
 		entityDefName "Amarr_ResearchSubject_PlanetModuleAccess_JumpBridge"

@@ -44,7 +44,7 @@ bombEffectsDef
 	missileStartTurningDistance 250.000000
 	missileSlowTurnRate 0.708997
 	missileMaxSlowTurnTime 6.000000
-mainViewIcon "PICTURE_CARRIER_CHIMERA"
+mainViewIcon "MAINVIEWICON_CAPITALSHIP_CHIMERA"
 basePrice
 	credits 3000.000000
 	metal 508.000000
@@ -80,7 +80,7 @@ CultureProtectRate
 	ValueIncreasePerLevel 0.050000
 NameStringID "IDS_CAPITALSHIP_CARRIER_CHIMERA_NAME"
 DescriptionStringID "IDS_CAPITALSHIP_CARRIER_CHIMERA_DESCRIPTION"
-picture ""
+picture "PICTURE_CARRIER_CHIMERA"
 Prerequisites
 	NumResearchPrerequisites 1
 	ResearchPrerequisite

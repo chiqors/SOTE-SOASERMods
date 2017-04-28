@@ -17,13 +17,13 @@ MinimumArtifactLevel -1
 BaseUpgradeTime 30.000000
 PerLevelUpgradeTime 15.000000
 BaseCost
-	credits 300.000000
-	metal 20.000000
-	crystal 35.000000
+	credits 400.000000
+	metal 0.000000
+	crystal 25.000000
 PerLevelCostIncrease
 	credits 100.000000
-	metal 7.000000
-	crystal 12.000000
+	metal 0.000000
+	crystal 25.000000
 Tier 0
 onlyWorksIfTierLabsExist FALSE
 MaxNumResearchLevels 2

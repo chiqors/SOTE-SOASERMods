@@ -1,5 +1,5 @@
 TXT
-NumStrings 8155
+NumStrings 8157
 StringInfo
     ID "IDS_ABILITY_RORQUALPANIC_NAME"
 	Value "P.A.N.I.C Module"
@@ -24465,4 +24465,10 @@ StringInfo
 StringInfo
 	ID "IDS_AllRaces_ResearchSubject_Weapon_Damage_Upgrade3_DESCRIPTION"
 	Value "Increase Damage in 5% per level of all non-missile Battleships."
+StringInfo
+	ID "IDS_ABILITY_ABILITY_PHASEDARMOURHARDENER_NAME"
+	Value "Adaptive Armor Hardner"
+StringInfo
+	ID "IDS_ABILITY_ABILITY_PHASEDARMOURHARDENER_DESCRIPTION"
+	Value "Activates the Adaptive Armor Hardner, allowing the armor of the ships adapt to incoming damage immediately upon impact with hostile weapons."
 												

@@ -1,5 +1,5 @@
 v.0.5.2 
 Add Amarr Pictures to ships 
 Temporary fix for Dragonfly fighter 
-Fixed Races spawing ships from other races
+Fixed Races Spawn ships from other races
 Added Pictures to the 4 main races

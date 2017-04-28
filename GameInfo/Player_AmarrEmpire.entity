@@ -73,18 +73,17 @@ entities
 			entityDefName "Amarr_Ship_Tradeship_Bestower"
 			entityDefName "Amarr_Ship_Refineryship_Bestower"
 	researchInfo
-		count 123
+		count 122
 		entityDefName "ALLRACES_RESEARCHSUBJECT_ABILITYACCESS_AFTERBURNER"
 		entityDefName "ALLRACES_RESEARCHSUBJECT_ABILITYACCESS_BASTIONMODE"
 		entityDefName "ALLRACES_RESEARCHSUBJECT_ABILITYACCESS_CLOAK"
 		entityDefName "ALLRACES_RESEARCHSUBJECT_ABILITYACCESS_MICROWARPDRIVE"
+		entityDefName "ALLRACES_RESEARCHSUBJECT_ABILITYACCESS_PHASEDARMOURHARDENER"
 		entityDefName "ALLRACES_RESEARCHSUBJECT_ABILITYACCESS_STASISWEBFIER"
 		entityDefName "ALLRACES_RESEARCHSUBJECT_ABILITYACCESS_WARPDISRUPTOR"
 		entityDefName "AllRaces_ResearchSubject_HyperSpaceDetection1"
 		entityDefName "AllRaces_ResearchSubject_PlanetModuleAccess_Astrahus"
 		entityDefName "AllRaces_ResearchSubject_PlanetModuleAccess_CYNOSURAL_NAVIGATION"
-		entityDefName "AllRaces_ResearchSubject_PlanetModuleAccess_Fortizar"
-		entityDefName "AllRaces_ResearchSubject_PlanetModuleAccess_Keepstar"
 		entityDefName "AllRaces_ResearchSubject_T3ModuleAccess_DefensiveSystems"
 		entityDefName "AllRaces_ResearchSubject_T3ModuleAccess_EletronicSystems"
 		entityDefName "AllRaces_ResearchSubject_T3ModuleAccess_OffensiveSystems"
