@@ -9,3 +9,5 @@ Rebalanced costs for Rorqual
 Fix Caldari Refinery acess now is possible
 Fix/Nerf - Scyther with cap transfer
 Fix caldari overpower resist
+Rebalance Vindicator and Rattlesnake
+Rebalance Dreadnoughts
