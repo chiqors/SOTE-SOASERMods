@@ -15,19 +15,19 @@ NameStringID "IDS_FRIGATE_OSPREY_NAME"
 DescriptionStringID "IDS_FRIGATE_OSPREY_DESCRIPTION"
 counterDescriptionStringID "IDS_COUNTERDESC_FRIGATE_NONCOMBAT"
 basePrice
-	credits 175.000000
-	metal 30.000000
-	crystal 20.000000
+	credits 200.000000
+	metal 33.000000
+	crystal 55.000000
 slotCount 4.000000
-BuildTime 95.000000
+BuildTime 18.000000
 hasLevels FALSE
 ExperiencePointsForDestroying 67.000000
-MaxHullPoints 715.000000
-MaxShieldPoints 1430.000000
+MaxHullPoints 1000.000000
+MaxShieldPoints 1600.000000
 HullPointRestoreRate 0.000000
-ShieldPointRestoreRate 0.715000
+ShieldPointRestoreRate 1.000000
 BaseArmorPoints 0.000000
-maxMitigation 0.750000
+maxMitigation 0.150000
 Prerequisites
 	NumResearchPrerequisites 1
 	ResearchPrerequisite

@@ -15,19 +15,19 @@ NameStringID "IDS_GALLENTE_SHIP_BATTLESHIP_VINDICATOR_NAME"
 DescriptionStringID "IDS_GALLENTE_SHIP_BATTLESHIP_VINDICATOR_DESCRIPTION"
 counterDescriptionStringID "IDS_COUNTERDESC_FRIGATE_LONGRANGE"
 basePrice
-	credits 2000.000000
-	metal 600.000000
-	crystal 550.000000
+	credits 970.000000
+	metal 155.000000
+	crystal 146.000000
 slotCount 8.000000
-BuildTime 325.000000
+BuildTime 60.000000
 hasLevels FALSE
 ExperiencePointsForDestroying 250.000000
-MaxHullPoints 5500.000000
-MaxShieldPoints 2750.000000
-HullPointRestoreRate 5.500000
-ShieldPointRestoreRate 2.750000
-BaseArmorPoints 0.000000
-maxMitigation 0.700000
+MaxHullPoints 4650.000000
+MaxShieldPoints 4375.000000
+HullPointRestoreRate 1.000000
+ShieldPointRestoreRate 1.000000
+BaseArmorPoints 25.000000
+maxMitigation 0.150000
 Prerequisites
 	NumResearchPrerequisites 1
 	ResearchPrerequisite
