@@ -1,18 +1,21 @@
 ﻿TXT
 entityType "ResearchSubject"
-hudIcon "HUDICON_RESEARCHSUBJECT_AUTOCANNONLARGE"
-smallHudIcon "HUDICON_RESEARCHSUBJECT_AUTOCANNONLARGE"
+hudIcon "HUDICON_RESEARCHSUBJECT_ABILITY_WEAPONDAMAGEUPGRADEFACTION"
+smallHudIcon "HUDICON_RESEARCHSUBJECT_ABILITY_WEAPONDAMAGEUPGRADEFACTION"
 infoCardIcon ""
 NameStringID "IDS_AllRaces_ResearchSubject_Weapon_Damage_AutoCannon3_NAME"
 DescriptionStringID "IDS_AllRaces_ResearchSubject_Weapon_Damage_AutoCannon3_DESCRIPTION"
 researchWindowLocation
 	block 1
-	pos [ 2 , 0 ]
+	pos [ 6 , 0 ]
 ResearchField "Combat"
 Prerequisites
-	NumResearchPrerequisites 1
+	NumResearchPrerequisites 2
 	ResearchPrerequisite
-		Subject "AllRaces_ResearchSubject_Weapon_Damage_AutoCannon2"
+		Subject "AllRaces_ResearchSubject_Weapon_Damage_Artilary4"
+		Level 1
+	ResearchPrerequisite
+		Subject "AllRaces_ResearchSubject_Weapon_Damage_AutoCannon3"
 		Level 2
 	RequiredFactionNameID ""
 	RequiredCompletedResearchSubjects 0
@@ -20,24 +23,29 @@ MinimumArtifactLevel -1
 BaseUpgradeTime 60.000000
 PerLevelUpgradeTime 5.000000
 BaseCost
-	credits 800.000000
-	metal 100.000000
-	crystal 175.000000
+	credits 1600.000000
+	metal 300.000000
+	crystal 475.000000
 PerLevelCostIncrease
 	credits 100.000000
 	metal 25.000000
 	crystal 25.000000
-Tier 2
+Tier 6
 onlyWorksIfTierLabsExist FALSE
-MaxNumResearchLevels 2
+MaxNumResearchLevels 1
 priority 1.000000
 researchBoolModifiers 0
-researchFloatModifiers 1
+researchFloatModifiers 2
 researchModifier
 	modifierType "WeaponDamageAdjustment"
 	baseValue 0.000000
-	perLevelValue 0.010000
+	perLevelValue 0.030000
 	linkedWeaponClass "AUTOCANNON"
+researchModifier
+	modifierType "WeaponDamageAdjustment"
+	baseValue 0.000000
+	perLevelValue 0.030000
+	linkedWeaponClass "GAUSS"	
 artifactPicture ""
 uniqueOverlayBrush "RebellionResearchOverlay"
 dlcId 204880

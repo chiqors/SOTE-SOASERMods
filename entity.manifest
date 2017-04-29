@@ -1,5 +1,5 @@
 TXT
-entityNameCount 2189
+entityNameCount 2192
 entityName "BuffSuppressionChannelEnd.entity"
 entityName "AbilityAbilityGuidance.entity"
 entityName "AbilityPhasedArmourHardener.entity"
@@ -2189,3 +2189,6 @@ entityName "Gallente_Ship_Capital_Titan_Erebus.entity"
 entityName "AbilityAuroraOminaeCapital.entity"
 entityName "ALLRACES_RESEARCHSUBJECT_ABILITYACCESS_PHASEDARMOURHARDENER.entity"
 entityName "Caldari_Structure_Refinery.entity"
+entityName "AllRaces_ResearchSubject_Weapon_Damage_Artilary4.entity"
+entityName "AllRaces_ResearchSubject_Weapon_Damage_Gyrostabilizer2.entity"
+entityName "AllRaces_ResearchSubject_Weapon_Damage_Gyrostabilizer3.entity"

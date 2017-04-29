@@ -23684,7 +23684,7 @@ StringInfo
 	Value "The tallest ship in the universe, created to rain a hell of fire on enemies ships."
 StringInfo
 	ID "IDS_CAPITALSHIP_NAGLFAR_RANGED_NAME"
-	Value "Naglfar Ranged"
+	Value "Anti-Capital Naglfar"
 StringInfo
 	ID "IDS_CAPITALSHIP_NAGLFAR_RANGED_DESCRIPTION"
 	Value "The tallest ship in the universe, created to rain a hell of fire on enemies ships."
