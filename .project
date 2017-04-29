@@ -5,13 +5,7 @@
 	<projects>
 	</projects>
 	<buildSpec>
-		<buildCommand>
-			<name>com.zombiesrus5.plugin.sose.entityBuilder</name>
-			<arguments>
-			</arguments>
-		</buildCommand>
 	</buildSpec>
 	<natures>
-		<nature>com.zombiesrus5.plugin.sose.entityNature</nature>
 	</natures>
 </projectDescription>

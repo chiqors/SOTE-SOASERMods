@@ -13,7 +13,7 @@ Prerequisites
 	NumResearchPrerequisites 1
 	ResearchPrerequisite
 		Subject "AllRaces_ResearchSubject_Weapon_Damage_Blaster1"
-		Level 5
+		Level 2
 	RequiredFactionNameID ""
 	RequiredCompletedResearchSubjects 0
 MinimumArtifactLevel -1
@@ -29,14 +29,14 @@ PerLevelCostIncrease
 	crystal 25.000000
 Tier 2
 onlyWorksIfTierLabsExist FALSE
-MaxNumResearchLevels 5
+MaxNumResearchLevels 2
 priority 1.000000
 researchBoolModifiers 0
 researchFloatModifiers 1
 researchModifier
 	modifierType "WeaponDamageAdjustment"
 	baseValue 0.000000
-	perLevelValue 0.040000
+	perLevelValue 0.010000
 	linkedWeaponClass "PULSEGUN"
 artifactPicture ""
 uniqueOverlayBrush "RebellionResearchOverlay"

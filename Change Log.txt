@@ -11,3 +11,5 @@ Fix/Nerf - Scyther with cap transfer
 Fix caldari overpower resist
 Rebalance Vindicator and Rattlesnake
 Rebalance Dreadnoughts
+Removed old research system with 5 levels
+ 
