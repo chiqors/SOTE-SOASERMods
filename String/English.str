@@ -9128,10 +9128,10 @@ StringInfo
 	Value "Increases the range at which incoming enemy capital ships can be detected."
 StringInfo
 	ID "IDS_CAPITALSHIP_TECHCOLONY_NAME"
-	Value "SR Revelation"
+	Value "anti Sub-capital Revelation"
 StringInfo
 	ID "IDS_CAPITALSHIP_TECHCOLONY_DESCRIPTION"
-	Value "After an increase in the need for an anti structure platform, the Revelation class dreadnought was born. Sporting 3 massive giga pulse lasers and a specialized siege mode, it is specifically designed to combat structures and capital ships. This variety of Revelation is designed for short ranged engagements where more damage is required instead of longer range, it is particularly useful when the fleet commander has been able to ensure that a fleet of these high damage output dreadnoughts can apply their damage successfully."
+	Value "After an increase in the need for anti sub-capital ships, the Revelation class dreadnought was redesign. Sporting 3 groups of 4 mega pulse lasers and a specialized siege mode,"
 StringInfo
 	ID "IDS_CAPITALSHIP_TECHCARRIER_NAME"
 	Value "Aeon"
@@ -9200,10 +9200,10 @@ StringInfo
 	Value "A support ship that trades off firepower for the ability to manipulate enemy populations."
 StringInfo
 	ID "IDS_CAPITALSHIP_PHASECOLONY_NAME"
-	Value "SR Moros"
+	Value "Anti-subcapital Moros"
 StringInfo
 	ID "IDS_CAPITALSHIP_PHASECOLONY_DESCRIPTION"
-	Value "The Moros is one of the deadliest dreadnoughts in existence, The Gallente have spared no expense in ensuring this ship has the greatest damage potential possible. It is capable of dealing extreme damage over relatively short ranges and it exceptionally well suited for destroying structures and in numbers, Super capitals as well."
+	Value "The Moros is one of the deadliest dreadnoughts in existence, The Gallente have spared no expense in ensuring this ship has the greatest damage potential possible. It is capable of dealing extreme damage over relatively short ranges and it exceptionally well suited for destroying structures and in numbers, subcapitals as well."
 StringInfo
 	ID "IDS_CAPITALSHIP_PHASECARRIER_NAME"
 	Value "Nyx"
@@ -9224,10 +9224,10 @@ StringInfo
 	Value "This variant of the Thanatos class carrier is specifically designed to provide valuable support to friendly ships. To aid this, it is fitted with sophisticated triage technology which allows the ship to disable propulsion and allocate the energy to defence and remote assistance abilities."
 StringInfo
 	ID "IDS_CAPITALSHIP_PHASESIEGE_NAME"
-	Value "LR Moros"
+	Value "anti-Capital Moros"
 StringInfo
 	ID "IDS_CAPITALSHIP_PHASESIEGE_DESCRIPTION"
-	Value "The Long Range Moros is identical to the regular short ranged Moros in all properties other than its main weapon. This variety possesses 3 X Large Rail guns instead of Ion siege blasters, allowing it to deal damage over a far greater distance at the expense of damage ability."
+	Value "The Long Range Moros is identical to the regular anti-subcapital Moros in all properties other than its main weapon. This variety possesses 3 X Large Rail guns instead of Ion siege blasters, allowing it to deal damage over a far greater distance at large targets."
 StringInfo
 	ID "IDS_CAPITALSHIP_PHASEBATTLESHIP2_NAME"
 	Value "Rankulas Battleship"
@@ -23009,7 +23009,7 @@ StringInfo
 	Value "A Modified version of the Capital Cap Transporter, This module is designed to function in tandem with the carrier's Triage mode which greatly increases the cycle speed of the logistical modules of the ship at the expense of mobility. It provides a far greater amount of capacitor at a greater speed than a normal repairer allowing the Triage Carrier to far better support friendly ships in large scale combat situations. However, while out of Triage the effective value of the capacitor transfer is lower than that of a normal carrier."
 StringInfo
 	ID "IDS_SNIPERREVELATION_NAME"
-	Value "LR Revelation"
+	Value "Anti-Capital Revelation"
 StringInfo
 	ID "IDS_SNIPERREVELATION_DESCRIPTION"
 	Value "After an increase in the need for an anti structure platform, the Revelation class dreadnought was born. Sporting 3 massive giga beam lasers and a specialized siege mode, it is specifically designed to combat structures and capital ships. This variety of Revelation is designed for longer ranged engagements where more range is required, it therefore deal far less damage than the short ranged variety however it can apply that damage over a much greater distance."
@@ -23678,16 +23678,16 @@ StringInfo
 	Value "A small, very fast interceptor class frigate designed to rush opponents and jam their jump drives in order to prevent them from leaving mid way through a battle. This frigate possesses improved engine technology at the expense of hull strength."		
 StringInfo
 	ID "IDS_CAPITALSHIP_NAGLFAR_CLOSE_NAME"
-	Value "Naglfar Close"
+	Value "Anti-subcapital Naglfar"
 StringInfo
 	ID "IDS_CAPITALSHIP_NAGLFAR_CLOSE_DESCRIPTION"
-	Value "After an increase in the need for an anti structure platform, the Revelation class dreadnought was born. Sporting 3 massive giga pulse lasers and a specialized siege mode, it is specifically designed to combat structures and capital ships. This variety of Revelation is designed for short ranged engagements where more damage is required instead of longer range, it is particularly useful when the fleet commander has been able to ensure that a fleet of these high damage output dreadnoughts can apply their damage successfully."
+	Value "The tallest ship in the universe, created to rain a hell of fire on enemies ships."
 StringInfo
 	ID "IDS_CAPITALSHIP_NAGLFAR_RANGED_NAME"
 	Value "Naglfar Ranged"
 StringInfo
 	ID "IDS_CAPITALSHIP_NAGLFAR_RANGED_DESCRIPTION"
-	Value "After an increase in the need for an anti structure platform, the Revelation class dreadnought was born. Sporting 3 massive giga pulse lasers and a specialized siege mode, it is specifically designed to combat structures and capital ships. This variety of Revelation is designed for short ranged engagements where more damage is required instead of longer range, it is particularly useful when the fleet commander has been able to ensure that a fleet of these high damage output dreadnoughts can apply their damage successfully."
+	Value "The tallest ship in the universe, created to rain a hell of fire on enemies ships."
 StringInfo
 	ID "IDS_CAPITALSHIP_HEL_NAME"
 	Value "Hel"
