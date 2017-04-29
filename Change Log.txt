@@ -6,4 +6,5 @@ Added Pictures to the 4 main races
 Fixed time for triage and siege abilities, they are now 150 sec each
 Fixed issue with Chimera showing icon as you zoom out
 Rebalanced costs for Rorqual
-Fix Caldari Refinary acess now is possible
+Fix Caldari Refinery acess now is possible
+Fix/Nerf - Scyther with cap transfer
