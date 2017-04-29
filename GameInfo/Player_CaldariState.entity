@@ -19,7 +19,7 @@ entities
 			entityDefName "PLANETMODULE_PHASEORBITALCRYSTALEXTRACTOR"
 			entityDefName "Gallente_Structure_CapitalShipFactory"
 			entityDefName "Gallente_Structure_CivillianLab"
-			entityDefName "Gallente_Structure_Refinery"
+			entityDefName "Caldari_Structure_Refinery"
 		Page:1
 			count 7
 			entityDefName "Gallente_Structure_SmallBlasterBattery"
