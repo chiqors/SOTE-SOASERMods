@@ -23348,13 +23348,13 @@ StringInfo
 	Value "Grants access to the Phoenix class Dreadnought, A capital ship configured specifically to destroy structures and other capital ships."
 StringInfo
 	ID "IDS_CAPITALSHIP_DREADNOUGHT_PHOENIX_NAME"
-	Value "Torpedo Phoenix"
+	Value "Anti Sub-Capital Phoenix"
 StringInfo
 	ID "IDS_CAPITALSHIP_DREADNOUGHT_PHOENIX_DESCRIPTION"
-	Value "The Torpedo Phoenix is a short ranged Weapon Plataform especialized siege planet, buildings and other capitals ships."
+	Value "This variation of Phoenix is a anti-sub capital Weapon Plataform especialized siege planet, sub-capital ship´s and buildings."
 StringInfo
 	ID "IDS_CAPITALSHIP_DREADNOUGHT_PHOENIX_CRUISE_NAME"
-	Value "Cruise Phoenix"
+	Value "Anti-Capital Phoenix"
 StringInfo
 	ID "IDS_CAPITALSHIP_DREADNOUGHT_PHOENIX_CRUISE_DESCRIPTION"
 	Value "The Phoenix, cruiser variant, is a long ranged Weapon Plataform especialized siege planet, buildings and other capitals ships."

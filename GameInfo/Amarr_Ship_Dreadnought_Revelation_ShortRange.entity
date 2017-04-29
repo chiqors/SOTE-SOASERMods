@@ -49,7 +49,7 @@ basePrice
 	credits 3000.000000
 	metal 1693.000000
 	crystal 1172.000000
-slotCount 30.000000
+slotCount 1.000000
 BuildTime 75.000000
 MaxHullPoints
 	StartValue 101563.000000

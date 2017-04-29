@@ -102,7 +102,7 @@ NumWeapons 1
 Weapon
 	WeaponType "Missile"
 	damageEnums
-		AttackType "ANTIVERYHEAVY"
+		AttackType "ANTIHEAVY"
 		DamageAffectType "AFFECTS_SHIELDS_AND_HULL"
 		DamageApplyType "BACKLOADED"
 		DamageType "PHYSICAL"
