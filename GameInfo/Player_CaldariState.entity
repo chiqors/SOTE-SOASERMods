@@ -73,7 +73,7 @@ entities
 			entityDefName "FrigatePhaseTradeShip"
 			entityDefName "Caldari_Ship_Industrial_Badge"
 	researchInfo
-		count 123
+		count 125
 		entityDefName "Caldari_ResearchSubject_SubCapitalAccess_Jackdaw"
 		entityDefName "AllRaces_ResearchSubject_PlanetModuleAccess_CYNOSURAL_NAVIGATION"
 		entityDefName "ALLRACES_RESEARCHSUBJECT_ABILITYACCESS_REPAIRYARD"
@@ -96,9 +96,11 @@ entities
 		entityDefName "AllRaces_ResearchSubject_Weapon_Damage_Missile2"
 		entityDefName "AllRaces_ResearchSubject_Weapon_Damage_Missile3"
 		entityDefName "AllRaces_ResearchSubject_Weapon_Damage_Missile4"
-		entityDefName "AllRaces_ResearchSubject_Weapon_Damage_Railgun1"
-		entityDefName "AllRaces_ResearchSubject_Weapon_Damage_Railgun2"
-		entityDefName "AllRaces_ResearchSubject_Weapon_Damage_Railgun3"
+		entityDefName "AllRaces_ResearchSubject_Weapon_Damage_Missile5"
+		entityDefName "AllRaces_ResearchSubject_Weapon_Damage_Missile6"
+		entityDefName "AllRaces_ResearchSubject_Weapon_Damage_MissileGuidiance1"
+		entityDefName "AllRaces_ResearchSubject_Weapon_Damage_MissileGuidiance2"
+		entityDefName "AllRaces_ResearchSubject_Weapon_Damage_MissileGuidiance3"
 		entityDefName "Caldari_ResearchSubject_CapitalAccess_Chimera"
 		entityDefName "Caldari_ResearchSubject_CapitalAccess_Levathan"
 		entityDefName "Caldari_ResearchSubject_CapitalAccess_Phoenix"
