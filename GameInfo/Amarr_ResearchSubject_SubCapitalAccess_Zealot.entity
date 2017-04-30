@@ -1,10 +1,10 @@
 ﻿TXT
 entityType "ResearchSubject"
-hudIcon "HUDICON_RESEARCHSUBJECT_HULLTECH1"
-smallHudIcon "HUDICON_RESEARCHSUBJECT_HULLTECH1"
+hudIcon "HUDICON_RESEARCHSUBJECT_FRIGATEACCESS_ZEALOT"
+smallHudIcon "HUDICON_RESEARCHSUBJECT_FRIGATEACCESS_ZEALOT"
 infoCardIcon ""
 NameStringID "IDS_AMARR_SHIP_CRUISER_ZEALOT_NAME"
-DescriptionStringID "IDS_Amarr_ResearchSubject_SubCapitalAccess_Omen_DESCRIPTION"
+DescriptionStringID "IDS_AMARR_SHIP_CRUISER_ZEALOT_Description"
 researchWindowLocation
 	block 2
 	pos [ 3 , 2 ]
