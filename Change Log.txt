@@ -12,30 +12,14 @@ Fix caldari overpower resist
 Rebalance Vindicator and Rattlesnake
 Rebalance Dreadnoughts
 Removed old research system with 5 levels
- Fix ballistic control
- Fix dreadnought dps
- Fix Rokh costs
- Fix Minmatar imortal ships
- Fix Doomsday damage DPS was 25k now is 750k 
-v.0.5.2 
-Add Amarr Pictures to ships 
-Temporary fix for Dragonfly fighter 
-Fixed Races Spawn ships from other races
-Added Pictures to the 4 main races
-Fixed time for triage and siege abilities, they are now 150 sec each
-Fixed issue with Chimera showing icon as you zoom out
-Rebalanced costs for Rorqual
-Fix Caldari Refinery acess now is possible
-Fix/Nerf - Scyther with cap transfer
-Fix caldari overpower resist
-Rebalance Vindicator and Rattlesnake
-Rebalance Dreadnoughts
-Removed old research system with 5 levels
- Fix ballistic control
- Fix dreadnought dps
- Fix Rokh costs
- Fix Minmatar imortal ships
- Fix Doomsday damage DPS was 25k now is 750k 
- Fix Scorpion cost
- Fix Zealot
- Fix - Marauders bastion ability
+ Fix Ballistic control
+ Fix Dreadnought dps
+ Revamp - Rokh costs
+ Fix - Minmatar imortal ships
+ Revamp - Doomsday damage DPS was 25k now is 750k 
+ Fix - Scorpion costs
+ Fix - Zealot name and picture
+ Revamp - Marauders bastion ability
+ 
+ v.0.5.3
+ Revamp - New capital ships slots distribution
