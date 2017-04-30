@@ -22,20 +22,20 @@ instantAction
 numPeriodicActions 0
 numOverTimeActions 1
 overTimeAction
-	buffOverTimeActionType "RestoreShields"
-	shieldRestoreRate
+	buffOverTimeActionType "RestoreHull"
+	hullRestoreRate
 		Level:0 221.000000
 		Level:1 221.000000
 		Level:2 221.000000
 		Level:3 221.000000
 numEntityModifiers 1
 entityModifier
-	buffEntityModifierType "ShieldMitigation"
+	buffEntityModifierType "ArmorAsDamageTarget"
 	value
-		Level:0 0.200000
-		Level:1 0.200000
-		Level:2 0.200000
-		Level:3 0.200000
+		Level:0 5.000000
+		Level:1 5.000000
+		Level:2 5.000000
+		Level:3 5.000000
 numEntityBoolModifiers 2
 entityBoolModifier "DisablePhaseJump"
 entityBoolModifier "DisableLinearEngines"

@@ -38,3 +38,4 @@ Removed old research system with 5 levels
  Fix Doomsday damage DPS was 25k now is 750k 
  Fix Scorpion cost
  Fix Zealot
+ Fix - Marauders bastion ability
