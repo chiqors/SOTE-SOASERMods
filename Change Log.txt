@@ -12,4 +12,7 @@ Fix caldari overpower resist
 Rebalance Vindicator and Rattlesnake
 Rebalance Dreadnoughts
 Removed old research system with 5 levels
- 
+ Fix ballistic control
+ Fix dreadnought dps
+ Fix Rokh costs
+ Fix Minmatar imortal ships

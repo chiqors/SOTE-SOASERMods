@@ -67,8 +67,8 @@ ArmorPointsFromExperience
 	StartValue 18.000000
 	ValueIncreasePerLevel 0.000000
 maxMitigation
-	StartValue 0.650000
-	ValueIncreasePerLevel 0.600000
+	StartValue 0.1500000
+	ValueIncreasePerLevel 0.0100000
 MaxAntiMatter
 	StartValue 65000.000000
 	ValueIncreasePerLevel 6500.000000
