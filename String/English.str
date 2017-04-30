@@ -9199,10 +9199,10 @@ StringInfo
 	ID "IDS_CAPITALSHIP_PSIPLANETPSIONIC_DESCRIPTION"
 	Value "A support ship that trades off firepower for the ability to manipulate enemy populations."
 StringInfo
-	ID "IDS_CAPITALSHIP_PHASECOLONY_NAME"
+	ID "IDS_CAPITALSHIP_GALLENTE_ANTISUBCAPITAL_DREADNOUGHT_NAME"
 	Value "Anti-subcapital Moros"
 StringInfo
-	ID "IDS_CAPITALSHIP_PHASECOLONY_DESCRIPTION"
+	ID "IDS_CAPITALSHIP_GALLENTE_ANTISUBCAPITAL_DREADNOUGHT_DESCRIPTION"
 	Value "The Moros is one of the deadliest dreadnoughts in existence, The Gallente have spared no expense in ensuring this ship has the greatest damage potential possible. It is capable of dealing extreme damage over relatively short ranges and it exceptionally well suited for destroying structures and in numbers, subcapitals as well."
 StringInfo
 	ID "IDS_CAPITALSHIP_PHASECARRIER_NAME"
