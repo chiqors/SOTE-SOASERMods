@@ -1,6 +1,6 @@
 ﻿TXT
 entityType "CapitalShip"
-ability:0 "AbilityTriageMode"
+ability:0 "AbilityTriageModeShield"
 ability:1 "AbilityRemoteShieldBoosterTriage"
 ability:2 "AbilityCapTransferTriage"
 ability:3 "AbilityLaunchSquads"

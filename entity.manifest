@@ -1,5 +1,5 @@
 TXT
-entityNameCount 2199
+entityNameCount 2201
 entityName "BuffSuppressionChannelEnd.entity"
 entityName "AbilityAbilityGuidance.entity"
 entityName "AbilityPhasedArmourHardener.entity"
@@ -2199,3 +2199,5 @@ entityName "AllRaces_ResearchSubject_Weapon_Damage_Missile4.entity"
 entityName "AllRaces_ResearchSubject_Weapon_Damage_Missile5.entity"
 entityName "AllRaces_ResearchSubject_Weapon_Damage_Missile6.entity"
 entityName "BuffBastionModeArmor.entity"
+entityName "BuffTriageModeShield.entity"
+entityName "AbilityTriageModeShield.entity"

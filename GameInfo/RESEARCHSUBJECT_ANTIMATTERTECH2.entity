@@ -32,11 +32,15 @@ onlyWorksIfTierLabsExist FALSE
 MaxNumResearchLevels 2
 priority 1.000000
 researchBoolModifiers 0
-researchFloatModifiers 1
+researchFloatModifiers 2
+researchModifier
+	modifierType "AntimatterCapacityAdjustment"
+	baseValue 0.000000
+	perLevelValue 0.100000
 researchModifier
 	modifierType "AntimatterRegenAdjustment"
 	baseValue 0.000000
-	perLevelValue 0.035000
+	perLevelValue 0.200000
 artifactPicture ""
 uniqueOverlayBrush "RebellionResearchOverlay"
 dlcId 204880

@@ -33,11 +33,11 @@ researchFloatModifiers 2
 researchModifier
 	modifierType "AntimatterCapacityAdjustment"
 	baseValue 0.000000
-	perLevelValue 0.025000
+	perLevelValue 0.050000
 researchModifier
 	modifierType "AntimatterRegenAdjustment"
 	baseValue 0.000000
-	perLevelValue 0.030000
+	perLevelValue 0.100000
 artifactPicture ""
 uniqueOverlayBrush "RebellionResearchOverlay"
 dlcId 204880

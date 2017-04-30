@@ -2,7 +2,7 @@
 entityType "Ability"
 buffInstantActionType "ApplyBuffToSelf"
 instantActionTriggerType "AlwaysPerform"
-buffType "BuffTriageMode"
+buffType "BuffTriageModeShield"
 effectInfo
 	effectAttachInfo
 		attachType "Center"
