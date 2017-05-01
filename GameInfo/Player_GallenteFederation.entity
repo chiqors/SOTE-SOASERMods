@@ -73,7 +73,7 @@ entities
 			entityDefName "FrigatePhaseTradeShip"
 			entityDefName "FrigatePhaseRefineryShip"
 	researchInfo
-		count 116
+		count 118
 		entityDefName "Gallente_ResearchSubject_SubCapitalAccess_Hecate"
 		entityDefName "AllRaces_ResearchSubject_PlanetModuleAccess_CYNOSURAL_NAVIGATION"
 		entityDefName "ALLRACES_RESEARCHSUBJECT_ABILITYACCESS_REPAIRYARD"
@@ -97,6 +97,8 @@ entities
 		entityDefName "RESEARCHSUBJECT_ABILITYACCESS_MUTUALTHREAT"
 		entityDefName "RESEARCHSUBJECT_ABILITYACCESS_NANOMEDICINE_OUTREACH"
 		entityDefName "AllRaces_ResearchSubject_PlanetModuleAccess_Astrahus"
+		entityDefName "AllRaces_ResearchSubject_PlanetModuleAccess_Fortizar"
+		entityDefName "AllRaces_ResearchSubject_PlanetModuleAccess_Keepstar"
 		entityDefName "Gallente_ResearchSubject_SubCapitalAccess_Atron"
 		entityDefName "Gallente_ResearchSubject_SubCapitalAccess_Catalyst"
 		entityDefName "Gallente_ResearchSubject_SubCapitalAccess_Celestis"
