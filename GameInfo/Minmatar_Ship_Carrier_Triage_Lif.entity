@@ -47,16 +47,16 @@ bombEffectsDef
 mainViewIcon "MAINVIEWICON_SQUADTECHBOMBER"
 basePrice
 	credits 3000.000000
-	metal 550.000000
-	crystal 558.000000
+	metal 750.000000
+	crystal 833.000000
 slotCount 1.000000
 BuildTime 75.000000
 MaxHullPoints
-	StartValue 33000.000000
-	ValueIncreasePerLevel 3300.000000
+	StartValue 45000.000000
+	ValueIncreasePerLevel 4500.000000
 MaxShieldPoints
-	StartValue 33500.000000
-	ValueIncreasePerLevel 3350.000000
+	StartValue 50000.000000
+	ValueIncreasePerLevel 5000.000000
 HullPointRestoreRate
 	StartValue 1.000000
 	ValueIncreasePerLevel 0.500000
@@ -73,7 +73,7 @@ MaxAntiMatter
 	StartValue 65000.000000
 	ValueIncreasePerLevel 6500.000000
 AntiMatterRestoreRate
-	StartValue 10.000000
+	StartValue 37.500000
 	ValueIncreasePerLevel 1.000000
 CultureProtectRate
 	StartValue 0.600000
