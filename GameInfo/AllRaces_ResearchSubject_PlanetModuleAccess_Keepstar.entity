@@ -3,8 +3,8 @@ entityType "ResearchSubject"
 hudIcon "HUDICON_STARBASE_ASTRAHUS"
 smallHudIcon "HUDICON_STARBASE_ASTRAHUS"
 infoCardIcon ""
-NameStringID "IDS_Allraces_ResearchSubject_PlanetModuleAccess_FortizarCitadel_NAME"
-DescriptionStringID "IDS_Allraces_ResearchSubject_PlanetModuleAccess_FortizarCitadel_DESCRIPTION"
+NameStringID "IDS_Allraces_ResearchSubject_PlanetModuleAccess_KeepstarCitadel_NAME"
+DescriptionStringID "IDS_Allraces_ResearchSubject_PlanetModuleAccess_KeepstarCitadel_DESCRIPTION"
 researchWindowLocation
 	block 0
 	pos [ 7 , 3 ]
