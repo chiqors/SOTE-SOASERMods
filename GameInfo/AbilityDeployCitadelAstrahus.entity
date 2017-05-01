@@ -25,8 +25,8 @@ onlyAutoCastWhenDamageTakenExceedsPerc 0.000000
 useCostType "Resources"
 resourceCost
 	credits 5700.000000
-	metal 5888.000000
-	crystal 5888.000000
+	metal 2970.000000
+	crystal 2970.000000
 cooldownTime
 	Level:0 10.000000
 	Level:1 0.000000
