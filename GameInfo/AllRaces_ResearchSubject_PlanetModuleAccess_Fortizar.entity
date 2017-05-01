@@ -1,7 +1,7 @@
 ﻿TXT
 entityType "ResearchSubject"
-hudIcon "HUDICON_STARBASE_ASTRAHUS"
-smallHudIcon "HUDICON_STARBASE_ASTRAHUS"
+hudIcon "HUDICON_RESEARCHSUBJECT_FORTIZAR"
+smallHudIcon "HUDICON_RESEARCHSUBJECT_FORTIZAR"
 infoCardIcon ""
 NameStringID "IDS_Allraces_ResearchSubject_PlanetModuleAccess_FortizarCitadel_NAME"
 DescriptionStringID "IDS_Allraces_ResearchSubject_PlanetModuleAccess_FortizarCitadel_DESCRIPTION"

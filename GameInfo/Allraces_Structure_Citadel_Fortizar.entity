@@ -13,8 +13,8 @@ numRandomDebrisLarge 9
 numRandomDebrisSmall 16
 numSpecificDebris 0
 armorType "Module"
-hudIcon "HUDICON_PLANETMODULE_TECHORBITALREFINERY"
-smallHudIcon "HUDICONSMALL_STARBASE_TECH"
+hudIcon "HUDICON_RESEARCHSUBJECT_FORTIZAR"
+smallHudIcon "HUDICON_RESEARCHSUBJECT_FORTIZAR"
 infoCardIcon "INFOCARDICON_STARBASE_TECH"
 minZoomDistanceMult 2.000000
 NumWeapons 2
