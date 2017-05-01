@@ -18,7 +18,7 @@ maxNumLevels 1
 levelSourceType "ResearchWithoutBase"
 improveSourceResearchSubject "ALLRACES_RESEARCHSUBJECT_ABILITYACCESS_AFTERBURNER"
 aiUseTime "OnlyWhenMovingThresholdDistance"
-thresholdDistance 5000.000000
+thresholdDistance 50000.000000
 aiUseTargetCondition "Any"
 isAutoCastAvailable TRUE
 isAutoCastOnByDefault TRUE

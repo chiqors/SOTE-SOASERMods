@@ -18,7 +18,7 @@ maxNumLevels 4
 levelSourceType "ResearchWithoutBase"
 improveSourceResearchSubject "ALLRACES_RESEARCHSUBJECT_ABILITYACCESS_MICROWARPDRIVE"
 aiUseTime "OnlyWhenMovingThresholdDistance"
-thresholdDistance 10000.000000
+thresholdDistance 40000.000000
 aiUseTargetCondition "Any"
 isAutoCastAvailable TRUE
 isAutoCastOnByDefault TRUE
