@@ -1,5 +1,5 @@
 TXT
-NumStrings 8161
+NumStrings 8163
 StringInfo
     ID "IDS_ABILITY_RORQUALPANIC_NAME"
 	Value "P.A.N.I.C Module"
@@ -24483,4 +24483,10 @@ StringInfo
 StringInfo
 	ID "IDS_ABILITY_SHIELDBOOSTERCAPITAL_DESCRIPTION"
 	Value "Restore a great amount of own Shield HP."
-																																																
+StringInfo
+	ID "IDS_CAPITALSHIP_NINAZU_NAME"
+	Value "NINAZU"
+StringInfo
+	ID "IDS_CAPITALSHIP_NINAZU_DESCRIPTION"
+	Value "The Federal Intelligence Office additionally recommended that the Gallente build a Force Auxiliary capital of their own to maintain parity with the Amarr-Caldari alliance. The resulting crash development program created the Ninazu-class Force Auxiliary."
+	
