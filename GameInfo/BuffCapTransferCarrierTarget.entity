@@ -13,10 +13,10 @@ instantAction
 	instantActionTriggerType "OnDelay"
 	delayTime 0.000000
 	antiMatter
-		Level:0 100.000000
-		Level:1 150.000000
-		Level:2 200.000000
-		Level:3 250.000000
+		Level:0 1625.000000
+		Level:1 1625.000000
+		Level:2 1625.000000
+		Level:3 1625.000000
 numPeriodicActions 0
 numOverTimeActions 0
 numEntityModifiers 0

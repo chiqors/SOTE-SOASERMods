@@ -3,7 +3,7 @@ entityType "CapitalShip"
 ability:0 "AbilityTriageMode"
 ability:1 "AbilityRemoteArmorRepairerTriage"
 ability:2 "AbilityCapTransferTriage"
-ability:3 "AbilityLaunchSquads"
+ability:3 "AbilityArmorRepairerCapital"
 ability:4 ""
 defaultAutoAttackRange "GravityWell"
 defaultAutoAttackOn TRUE
@@ -71,7 +71,7 @@ maxMitigation
 	ValueIncreasePerLevel 0.000000
 MaxAntiMatter
 	StartValue 75000.000000
-	ValueIncreasePerLevel 7500.000000
+	ValueIncreasePerLevel 750.000000
 AntiMatterRestoreRate
 	StartValue 37.500000
 	ValueIncreasePerLevel 1.00000

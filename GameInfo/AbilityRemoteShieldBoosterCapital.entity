@@ -54,15 +54,15 @@ ignoreNonCombatShipsForAutoCastTarget TRUE
 onlyAutoCastWhenDamageTakenExceedsPerc 0.000000
 useCostType "AntiMatter"
 antiMatterCost
-	Level:0 200.000000
-	Level:1 180.000000
-	Level:2 162.000000
-	Level:3 145.000000
+	Level:0 1485.000000
+	Level:1 1440.000000
+	Level:2 1396.000000
+	Level:3 1351.000000
 cooldownTime
-	Level:0 5.000000
-	Level:1 5.000000
-	Level:2 5.000000
-	Level:3 5.000000
+	Level:0 12.000000
+	Level:1 12.000000
+	Level:2 12.000000
+	Level:3 12.000000
 orderAcknowledgementType "ONGENERALORDERISSUED"
 researchPrerequisites
 	NumResearchPrerequisites 0

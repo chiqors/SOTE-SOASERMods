@@ -1,5 +1,5 @@
 TXT
-NumStrings 8157
+NumStrings 8159
 StringInfo
     ID "IDS_ABILITY_RORQUALPANIC_NAME"
 	Value "P.A.N.I.C Module"
@@ -24469,6 +24469,12 @@ StringInfo
 	ID "IDS_ABILITY_ABILITY_PHASEDARMOURHARDENER_NAME"
 	Value "Adaptive Armor Hardner"
 StringInfo
-	ID "IDS_ABILITY_ABILITY_PHASEDARMOURHARDENER_DESCRIPTION"
+	ID "IDS_ABILITY_ABILITY_ARMORREPAIRCAPITALPHASEDARMOURHARDENER_DESCRIPTION"
 	Value "Activates the Adaptive Armor Hardner, allowing the armor of the ships adapt to incoming damage immediately upon impact with hostile weapons."
-												
+StringInfo
+	ID "IDS_ABILITY_ABILITY_ARMORREPAIRCAPITAL_NAME"
+	Value "Capital Armor Repair"
+StringInfo
+	ID "IDS_ABILITY_ABILITY_ARMORREPAIRCAPITAL_DESCRIPTION"
+	Value "Restore a great amount of the self armor."
+																								
