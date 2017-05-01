@@ -3,7 +3,7 @@ entityType "CapitalShip"
 ability:0 "AbilityTriageMode"
 ability:1 "AbilityRemoteArmorRepairerTriage"
 ability:2 "AbilityCapTransferTriage"
-ability:3 "AbilityLaunchSquads"
+ability:3 "AbilityArmorRepairerCapital"
 ability:4 ""
 defaultAutoAttackRange "GravityWell"
 defaultAutoAttackOn TRUE
@@ -78,9 +78,9 @@ AntiMatterRestoreRate
 CultureProtectRate
 	StartValue 0.600000
 	ValueIncreasePerLevel 0.050000
-NameStringID "IDS_CAPITALSHIP_PHASESCOUT_NAME"
-DescriptionStringID "IDS_CAPITALSHIP_PHASESCOUT_DESCRIPTION"
-picture "PICTURE_CAPITAL_THANATOS"
+NameStringID "IDS_CAPITALSHIP_NINAZU_NAME"
+DescriptionStringID "IDS_CAPITALSHIP_NINAZU_DESCRIPTION"
+picture "PICTURE_CAPITAL_NINAZU"
 Prerequisites
 	NumResearchPrerequisites 1
 	ResearchPrerequisite
@@ -190,7 +190,7 @@ NumSoundsFor:ONSTARTPHASEJUMP 1
 SoundID "CAPITALSHIP_TECHBATTLESHIP_ONSTARTPHASEJUMP_0"
 MeshNameInfoCount 1
 MeshNameInfo
-	meshName "Thanatos"
+	meshName "gfaux"
 	criteriaType "None"
 meshNameIncreasedEffectName ""
 meshNameDecreasedEffectName ""

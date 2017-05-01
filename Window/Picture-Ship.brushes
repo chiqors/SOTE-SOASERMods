@@ -1,6 +1,6 @@
 ﻿TXT
 onlyLoadOnDemand FALSE
-brushCount 188
+brushCount 189
 brush
 	name "CORVETTEPICTURE_PHASE_LOYALIST"
 	content "Simple"
@@ -941,4 +941,9 @@ brush
 	content "Simple"
 	fileName "Unit_Picture"
 	pixelBox [ 1028 , 80 , 167 , 75 ]		
+brush
+	name "PICTURE_CAPITAL_NINAZU"
+	content "Simple"
+	fileName "Unit_Picture"
+	pixelBox [ 1047 , 547 , 167 , 75 ]				
 				

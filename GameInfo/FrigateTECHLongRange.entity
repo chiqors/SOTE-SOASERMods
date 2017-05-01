@@ -167,7 +167,7 @@ NumSoundsFor:ONSTARTPHASEJUMP 1
 SoundID "FRIGATE_TECHSIEGE_ONSTARTPHASEJUMP_0"
 MeshNameInfoCount 1
 MeshNameInfo
-	meshName "Inquisitor"
+	meshName "concord_frigate"
 	criteriaType "None"
 meshNameIncreasedEffectName ""
 meshNameDecreasedEffectName ""
@@ -177,9 +177,9 @@ HyperspaceChargingSoundID "HYPERSPACE_CHARGEUP"
 HyperspaceTravelSoundID "HYPERSPACE_TRAVEL"
 EngineSoundID "ENGINE_TECHCAPITALSHIP"
 ability:0 "AbilityMicrowarpdrive"
-ability:1 ""
-ability:2 ""
-ability:3 ""
+ability:1 "AbilityWarpDisruptor"
+ability:2 "AbilityStasisWebifier"
+ability:3 "AbilityECM"
 ability:4 ""
 MaxAntiMatter 210.000000
 AntiMatterRestoreRate 0.550000

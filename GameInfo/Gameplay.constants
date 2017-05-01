@@ -972,22 +972,16 @@ DamagePercentBonus:ANTIVERYLIGHT:CapitalShip 0.994
 			minFleetPoints 20.000000
 			maxFleetPoints 20.000000
 			requiredShipCount 0
-			randomShipCount 5
-			randomShip
-				type "FrigateTECHLight"
-				weight 4
+			randomShipCount 3
 			randomShip
 				type "FrigateTECHLongRange"
-				weight 5
-			randomShip
-				type "FrigateTECHHeavy"
-				weight 6
-			randomShip
-				type "FrigateTECHAntiFighter"
 				weight 3
 			randomShip
-				type "CorvetteTECHRebel"
-				weight 2
+				type "Concord_Ship_Cruiser"
+				weight 4
+			randomShip
+				type "FrigateTECHHeavy"
+				weight 5				
 		baseFleetCapacity 20.0
 		maxFleetSupplyPerPlanetPopulation .025
 		fleetSupplyMin 100.0

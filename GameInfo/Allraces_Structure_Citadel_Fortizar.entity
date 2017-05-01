@@ -129,7 +129,7 @@ statCountType "StarBase"
 creationSourceAbility "AbilityDeployCitadelFortizar"
 maxUpgradeLevelCount 9
 UpgradeTypeCount 3
-UpgradeType "StarBaseUpgradeTechToughness"
+UpgradeType "StarBaseUpgradeFortizarToughness"
 UpgradeType "StarBaseUpgradeTechTradePort"
 UpgradeType "StarBaseUpgradeTechBlockColonize"
 MeshNameInfoCount 1
