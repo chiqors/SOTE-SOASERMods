@@ -1,5 +1,5 @@
 TXT
-entityNameCount 2201
+entityNameCount 2200
 entityName "BuffSuppressionChannelEnd.entity"
 entityName "AbilityAbilityGuidance.entity"
 entityName "AbilityPhasedArmourHardener.entity"
@@ -1987,7 +1987,6 @@ entityName "BuffCaldariShieldWarfareMindlink.entity"
 entityName "BuffFighterControlUnit.entity"
 entityName "BuffOblivion.entity"
 entityName "BuffOblivionSelf.entity"
-entityName "BuffOblivionTarget.entity"
 entityName "BuffProjectedEnergyNeutralizationBurstAction.entity"
 entityName "BuffProjectedEnergyNeutralizationBurstSpawn.entity"
 entityName "BuffRemoteShieldBoosterLogiCruiserTarget.entity"
