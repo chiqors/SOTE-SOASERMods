@@ -19,26 +19,26 @@ stage
 	upgradePropertyCount 5
 	upgradeProperty
 		propertyType "MaxHullPoints"
-		value 50000.000000
+		value 175000.000000
 	upgradeProperty
 		propertyType "HullPointRestoreRate"
 		value 10.000000
 	upgradeProperty
 		propertyType "MaxShieldPoints"
-		value 500000.000000
+		value 175000.000000
 	upgradeProperty
 		propertyType "ShieldPointRestoreRate"
 		value 100.000000
 	upgradeProperty
 		propertyType "MaxShieldMitigation"
-		value 0.300000
+		value 0.1000000
 	upgradeBoolPropertyCount 0
 stage
 	price
-		credits 2500.000000
-		metal 1000.000000
-		crystal 800.000000
-	upgradeTime 100.000000
+		credits 1425.000000
+		metal 2400.000000
+		crystal 2400.000000
+	upgradeTime 60.000000
 	nameStringID "IDS_STARBASEUPGRADETECHTOUGHNESS_NAME"
 	descStringID "IDS_STARBASEUPGRADETECHTOUGHNESS_DESC"
 	researchPrerequisites
@@ -51,25 +51,25 @@ stage
 	upgradePropertyCount 5
 	upgradeProperty
 		propertyType "MaxHullPoints"
-		value 100000.000000
+		value 350000.000000
 	upgradeProperty
 		propertyType "HullPointRestoreRate"
 		value 20.000000
 	upgradeProperty
 		propertyType "MaxShieldPoints"
-		value 1000000.000000
+		value 350000.000000
 	upgradeProperty
 		propertyType "ShieldPointRestoreRate"
 		value 200.000000
 	upgradeProperty
 		propertyType "MaxShieldMitigation"
-		value 0.300000
+		value 0.1000000
 	upgradeBoolPropertyCount 0
 stage
 	price
-		credits 5000.000000
-		metal 2000.000000
-		crystal 1600.000000
+		credits 1425.000000
+		metal 2400.000000
+		crystal 2400.000000
 	upgradeTime 125.000000
 	nameStringID "IDS_STARBASEUPGRADETECHTOUGHNESS_NAME"
 	descStringID "IDS_STARBASEUPGRADETECHTOUGHNESS_DESC"
@@ -83,24 +83,23 @@ stage
 	upgradePropertyCount 5
 	upgradeProperty
 		propertyType "MaxHullPoints"
-		value 150000.000000
+		value 525000.000000
 	upgradeProperty
 		propertyType "HullPointRestoreRate"
 		value 30.000000
 	upgradeProperty
-		propertyType "MaxShieldPoints"
-		value 1500000.000000
+		value 525000.000000
 	upgradeProperty
 		propertyType "ShieldPointRestoreRate"
 		value 300.000000
 	upgradeProperty
 		propertyType "MaxShieldMitigation"
-		value 0.300000
+		value 0.100000
 	upgradeBoolPropertyCount 0
 stage
 	price
-		credits 7500.000000
-		metal 3000.000000
+		credits 1425.000000
+		metal 2400.000000
 		crystal 2400.000000
 	upgradeTime 150.000000
 	nameStringID "IDS_STARBASEUPGRADETECHTOUGHNESS_NAME"
@@ -115,18 +114,18 @@ stage
 	upgradePropertyCount 5
 	upgradeProperty
 		propertyType "MaxHullPoints"
-		value 200000.000000
+		value 700000.000000
 	upgradeProperty
 		propertyType "HullPointRestoreRate"
 		value 40.000000
 	upgradeProperty
 		propertyType "MaxShieldPoints"
-		value 2000000.000000
+		value 700000.000000
 	upgradeProperty
 		propertyType "ShieldPointRestoreRate"
 		value 400.000000
 	upgradeProperty
 		propertyType "MaxShieldMitigation"
-		value 0.300000
+		value 0.100000
 	upgradeBoolPropertyCount 0
 xpModifier 2000.000000

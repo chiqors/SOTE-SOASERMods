@@ -84,7 +84,7 @@ nameStringID "IDS_CITADEL_ASTRAHUS"
 picture ""
 statCountType "StarBase"
 creationSourceAbility "AbilityDeployCitadelFortizar"
-maxUpgradeLevelCount 8
+maxUpgradeLevelCount 6
 UpgradeTypeCount 3
 UpgradeType "StarBaseUpgradeTechToughness"
 UpgradeType "StarBaseUpgradeTechTradePort"

@@ -127,7 +127,7 @@ nameStringID "IDS_CITADEL_FORTIZAR"
 picture ""
 statCountType "StarBase"
 creationSourceAbility "AbilityDeployCitadelFortizar"
-maxUpgradeLevelCount 8
+maxUpgradeLevelCount 9
 UpgradeTypeCount 3
 UpgradeType "StarBaseUpgradeTechToughness"
 UpgradeType "StarBaseUpgradeTechTradePort"
