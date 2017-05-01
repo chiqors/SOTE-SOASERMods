@@ -2,7 +2,7 @@ allra﻿TXT
 entityType "Ability"
 buffInstantActionType "CreateStarBase"
 instantActionTriggerType "AlwaysPerform"
-starBaseType "Allraces_Structure_Citadel_Fortizar"
+starBaseType "Allraces_Structure_Citadel_Keepstar"
 placementRadius
 	Level:0 3000.000000
 	Level:1 3000.000000
@@ -40,8 +40,8 @@ researchPrerequisites
 		Level 1
 	RequiredFactionNameID ""
 	RequiredCompletedResearchSubjects 0
-nameStringID "IDS_ABILITY_DEPLOYCITADELFORTIZAR_NAME"
-descStringID "IDS_ABILITY_DEPLOYCITADELFORTIZAR_DESCRIPTION"
+nameStringID "IDS_ABILITY_DEPLOYCITADELKEEPSTAR_NAME"
+descStringID "IDS_ABILITY_DEPLOYCITADELKEEPSTAR_DESCRIPTION"
 hudIcon "HUDICON_PLANETMODULE_TECHORBITALREFINERY"
 smallHudIcon "HUDICON_PLANETMODULE_TECHORBITALREFINERY"
 infoCardIcon ""
