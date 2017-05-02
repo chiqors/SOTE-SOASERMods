@@ -25,3 +25,7 @@ Removed old research system with 5 levels
  Revamp - New capital ships slots distribution
  Revamp FAUX
  Fix - Doomsday Damage too high
+ Fix- Harbringer high damage
+ Fix - Nyx without energy neutralization burst
+ Fix - Armor hardner on capital ships now can level up
+ 

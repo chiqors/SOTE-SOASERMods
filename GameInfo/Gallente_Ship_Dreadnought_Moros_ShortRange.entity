@@ -2,7 +2,7 @@
 entityType "CapitalShip"
 ability:0 "AbilitySiegeMode"
 ability:1 "AbilityTrackingComputer"
-ability:2 "AbilityPhasedArmourHardener"
+ability:2 "AbilityPhasedArmourHardenerCapital"
 ability:3 ""
 ability:4 ""
 defaultAutoAttackRange "GravityWell"
