@@ -34,3 +34,5 @@ Removed old research system with 5 levels
  Fix - Keepstar level HP
  Fix - Ammar Faux texture
  Fix - Dread Texture
+ Fix - initial minmatar scout changed to probe
+ 

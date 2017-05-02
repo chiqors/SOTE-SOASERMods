@@ -840,7 +840,10 @@ orbitBodyType
 	typeName "Occupied"
 	entityDefName "OccupiedPlanet"
 	defaultTemplateName "Template:OccupiedPlanet"
-planetItemTypeCount 237
+planetItemTypeCount 238
+planetItemType
+	designName "Minmatar:Frigate:Scout"
+	entityDefName "Minmatar_Ship_Frigate_Probe"
 planetItemType
 	designName "Phase:Module:MineExplosive"
 	entityDefName "SpaceMinePhaseExplosive"
@@ -1702,8 +1705,8 @@ planetItemsTemplate
 				item "Tech:Module:CrystalExtractor"
 				item "Tech:Frigate:Constructor"
 				item "Tech:Frigate:Constructor"
-				item "Tech:Frigate:Scout"
-				item "Tech:Frigate:Scout"
+				item "Minmatar:Frigate:Scout"
+				item "Minmatar:Frigate:Scout"
 				item "Tech:CapitalShip:Transport"				
 		group
 			condition
@@ -2008,7 +2011,7 @@ planetItemsTemplate
 			owner "PlanetOwner"
 			colonizeChance 1
 			items 5
-				item "Tech:Frigate:Scout"
+				item "Minmatar:Frigate:Scout"
 				item "Tech:Frigate:Light"
 				item "Tech:Frigate:Light"
 				item "Tech:Frigate:Light"
@@ -2056,7 +2059,7 @@ planetItemsTemplate
 			owner "PlanetOwner"
 			colonizeChance 1
 			items 5
-				item "Tech:Frigate:Scout"
+				item "Minmatar:Frigate:Scout"
 				item "Tech:Frigate:Light"
 				item "Tech:Frigate:Light"
 				item "Tech:Frigate:Light"
