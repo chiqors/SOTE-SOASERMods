@@ -112,7 +112,7 @@ baseBuildTime 1000.000000
 buildEffectName ""
 angularSpeed 0.000000
 rotateSoundName ""
-rotateFacingType "AwayFromOrbitBody"
+rotateFacingType "None"
 rotateConstantly FALSE
 maxAccelerationLinear 0.000000
 maxAccelerationStrafe 0.000000
