@@ -28,4 +28,7 @@ Removed old research system with 5 levels
  Fix- Harbringer high damage
  Fix - Nyx without energy neutralization burst
  Fix - Armor hardner on capital ships now can level up
- 
+ Fix - Uroborus HP
+ Fix - Missile research cost of 8000 for malkuth
+ Fix - Fortizar icon
+ Fix - Keepstar level HP
