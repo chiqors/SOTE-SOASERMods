@@ -32,3 +32,5 @@ Removed old research system with 5 levels
  Fix - Missile research cost of 8000 for malkuth
  Fix - Fortizar icon
  Fix - Keepstar level HP
+ Fix - Ammar Faux texture
+ Fix - Dread Texture
