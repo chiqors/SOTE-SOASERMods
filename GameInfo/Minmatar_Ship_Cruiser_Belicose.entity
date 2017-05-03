@@ -40,8 +40,8 @@ numRandomDebrisSmall 0
 numSpecificDebris 0
 armorType "Medium"
 hudIcon "HUDICON_FRIGATE_BELICOSE"
-smallHudIcon "HUDICONSMALL_FRIGATE_TECHCARRIER"
-infoCardIcon "INFOCARDICON_FRIGATE_TECHCARRIER"
+smallHudIcon "HUDICONSMALL_FRIGATE_BELICOSE"
+infoCardIcon "HUDICONSMALL_FRIGATE_BELICOSE"
 minZoomDistanceMult 1.000000
 NumWeapons 1
 Weapon

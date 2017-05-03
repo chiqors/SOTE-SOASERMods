@@ -96,8 +96,8 @@ numSpecificDebris 1
 specificDebrisMeshName "DebrisTechLarge"
 armorType "VeryHeavy"
 hudIcon "HUDICON_CAPITALSHIP_HEL"
-smallHudIcon "HUDICONSMALL_CAPITALSHIP_TECHCARRIER"
-infoCardIcon "INFOCARDICON_CAPITALSHIP_TECHCARRIER"
+smallHudIcon "HUDICONSMALL_CAPITAL_HEL"
+infoCardIcon "HUDICONSMALL_CAPITAL_HEL"
 minZoomDistanceMult 1.000000
 NumWeapons 1
 Weapon

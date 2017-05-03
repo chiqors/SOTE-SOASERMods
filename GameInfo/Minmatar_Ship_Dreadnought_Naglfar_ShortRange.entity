@@ -95,8 +95,8 @@ numRandomDebrisSmall 0
 numSpecificDebris 0
 armorType "VeryHeavy"
 hudIcon "HUDICON_CAPITALSHIP_NAGLFAR"
-smallHudIcon "HUDICONSMALL_CAPITALSHIP_TECHCOLONY"
-infoCardIcon "INFOCARDICON_CAPITALSHIP_TECHCOLONY"
+smallHudIcon "HUDICONSMALL_CAPITAL_NAGLFAR"
+infoCardIcon "HUDICONSMALL_CAPITAL_NAGLFAR"
 minZoomDistanceMult 1.000000
 NumWeapons 1
 Weapon

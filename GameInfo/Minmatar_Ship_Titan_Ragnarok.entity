@@ -102,8 +102,8 @@ numRandomDebrisSmall 0
 numSpecificDebris 0
 armorType "VeryHeavy"
 hudIcon "HUDICON_FRIGATE_RAGNAROK"
-smallHudIcon "HUDICONSMALL_TITAN_TECHLOYALIST"
-infoCardIcon "INFOCARDICON_TITAN_TECHLOYALIST"
+smallHudIcon "HUDICONSMALL_CAPITAL_RAGNAROK"
+infoCardIcon "HUDICONSMALL_CAPITAL_RAGNAROK"
 minZoomDistanceMult 1.000000
 NumWeapons 1
 Weapon

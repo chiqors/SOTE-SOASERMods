@@ -37,3 +37,4 @@ Removed old research system with 5 levels
  Fix - initial minmatar scout changed to probe
  Fix - Tempest textures
  Fix - Ninazu Textures
+ Fix - Hecate Textures
