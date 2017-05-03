@@ -5298,14 +5298,14 @@ brush
 		pixelBox [ 362 , 549 , 47 , 33 ]
 	Pressed
 		fileName "Buttons_Research3_Pressed"
-		pixelBox [ 5 , 252 , 47 , 33 ]
+		pixelBox [ 362 , 549 , 47 , 33 ]
 	CursorOver
 		fileName "Buttons_Research3_CursorOver"
-		pixelBox [ 5 , 252 , 47 , 33 ]
+		pixelBox [ 362 , 549 , 47 , 33 ]
 	Focused
 		fileName "Buttons_Research3_Normal"
-		pixelBox [ 5 , 252 , 47 , 33 ]
+		pixelBox [ 362 , 549 , 47 , 33 ]
 	Normal
 		fileName "Buttons_Research3_Normal"
-		pixelBox [ 5 , 252 , 47 , 33 ]
+		pixelBox [ 362 , 549 , 47 , 33 ]
 	
