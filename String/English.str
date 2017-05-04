@@ -23336,10 +23336,10 @@ StringInfo
 	Value "This carrier fields are capable of supporting a fleet against small sized ships, it also possesses support abilities to assist friendly ships with shield boosting."
 StringInfo
 	ID "IDS_CAPITALSHIP_CARRIER_CHIMERA_TRIAGE_NAME"
-	Value "Triage Chimera"
+	Value "Minokawa Force Auxiliary"
 StringInfo
 	ID "IDS_CAPITALSHIP_CARRIER_CHIMERA_TRIAGE_DESCRIPTION"
-	Value "This variant of the Chimera class carrier is specifically designed to provide valuable support to friendly ships. To aid this, it is fitted with sophisticated triage technology which allows the ship to disable propulsion and allocate the energy to defence and remote assistance abilities."
+	Value "The Minokawa Force Auxiliary class carrier is specifically designed to provide valuable support to friendly ships. To aid this, it is fitted with sophisticated triage technology which allows the ship to disable propulsion and allocate the energy to defence and remote assistance abilities."
 StringInfo
 	ID "IDS_RESEARCHSUBJECT_CAPITALSHIPACESS_PHOENIX"
 	Value "Phoenix BPO"
@@ -24062,7 +24062,7 @@ StringInfo
 	Value "Jackdaw Tatical Destroyer"
 StringInfo
 	ID "IDS_Caldari_ResearchSubject_SubCapitalAccess_Jackdaw_DESCRIPTION"
-	Value "Grants access to the Jackdaw, the Caldarian Tactical Destroyer."
+	Value "Grants access to the Jackdaw, the Caldari Tactical Destroyer."
 StringInfo
 	ID "IDS_Caldari_Destroyer_Jackdaw_DESCRIPTION"
 	Value "The Jackdaw Tactical Destroyer, is a superior destroyer design to be a anti-frigate and anti-fighter plataform."

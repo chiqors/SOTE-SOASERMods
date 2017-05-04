@@ -38,3 +38,8 @@ Removed old research system with 5 levels
  Fix - Tempest textures
  Fix - Ninazu Textures
  Fix - Hecate Textures
+ Fix - Minokawa texture
+ Fix - Jackdaw Typo
+ Fix - Minokawa Name and Description
+ Fix - Mutual Threat research fix
+ 

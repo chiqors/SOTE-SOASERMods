@@ -12,7 +12,7 @@ ResearchField "Diplomacy"
 Prerequisites
 	NumResearchPrerequisites 1
 	ResearchPrerequisite
-		Subject "Gallente_ResearchSubject_SubCapitalAccess_BrutixEnvoy"
+		Subject "Caldari_ResearchSubject_SubCapitalAccess_FeroxEnvoy"
 		Level 1
 	RequiredFactionNameID ""
 	RequiredCompletedResearchSubjects 0
