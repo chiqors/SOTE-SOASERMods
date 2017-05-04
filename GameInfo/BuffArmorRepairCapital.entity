@@ -24,10 +24,10 @@ numOverTimeActions 1
 overTimeAction
 	buffOverTimeActionType "RestoreHull"
 	hullRestoreRate
-		Level:0 12672.000000
-		Level:1 12672.000000
-		Level:2 12672.000000
-		Level:3 12672.000000
+		Level:0 7920.000000
+		Level:1 7920.000000
+		Level:2 7920.000000
+		Level:3 7920.000000
 numEntityModifiers 0
 numEntityBoolModifiers 0
 numFinishConditions 3
