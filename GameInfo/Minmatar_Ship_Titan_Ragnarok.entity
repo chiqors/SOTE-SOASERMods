@@ -44,7 +44,7 @@ bombEffectsDef
 	missileStartTurningDistance 250.000000
 	missileSlowTurnRate 0.708997
 	missileMaxSlowTurnTime 6.000000
-mainViewIcon "MAINVIEWICON_TITAN_TECHLOYALIST"
+mainViewIcon "HUDICONSMALL_CAPITAL_RAGNAROK"
 basePrice
 	credits 21686.000000
 	metal 3250.000000

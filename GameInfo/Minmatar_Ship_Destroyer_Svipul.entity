@@ -9,7 +9,7 @@ canBomb FALSE
 typeCount 1
 frigateRoleType "AntiFighter"
 statCountType "FrigateAntiFighter"
-mainViewIcon "MAINVIEWICON_FRIGATE_TECHANTIFIGHTER"
+mainViewIcon "HUDICONSMALL_FRIGATE_SVIPUL"
 picture ""
 NameStringID "IDS_Minmatar_ResearchSubject_SubCapitalAccess_Svipul_NAME"
 DescriptionStringID "IDS_Minmatar_ResearchSubject_SubCapitalAccess_Svipul_DESCRIPTION"

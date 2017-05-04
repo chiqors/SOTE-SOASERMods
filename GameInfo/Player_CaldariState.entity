@@ -269,7 +269,7 @@ shieldData
 	shieldAbsorbGrowthPerDamage 0.100000
 	shieldAbsorbDecayRate 0.000100
 	shieldAbsorbBaseMin 0.100000
-	shieldColor ffffc705
+	shieldColor ff00ffff
 gameEventData
 	GameEventSound:AllianceCeaseFireBroken "EVENTTECH_ALLIANCECEASEFIREBROKEN"
 	GameEventSound:AllianceCeaseFireFormed "EVENTTECH_ALLIANCECEASEFIREFORMED"

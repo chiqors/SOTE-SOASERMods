@@ -9,7 +9,7 @@ canBomb FALSE
 typeCount 1
 frigateRoleType "Lrm"
 statCountType "FrigateCarrier"
-mainViewIcon "MAINVIEWICON_FRIGATE_TECHCARRIER"
+mainViewIcon "HUDICONSMALL_FRIGATE_BELICOSE"
 picture "PICTURE_FRIGATE_BELICOSE"
 NameStringID "IDS_CRUISER_BELICOSE_NAME"
 DescriptionStringID "IDS_CRUISER_BELICOSE_DESCRIPTION"

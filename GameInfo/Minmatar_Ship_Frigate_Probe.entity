@@ -9,7 +9,7 @@ canBomb FALSE
 typeCount 1
 frigateRoleType "Scout"
 statCountType "FrigateScout"
-mainViewIcon "MAINVIEWICON_FRIGATE_TECHSCOUT"
+mainViewIcon "HUDICONSMALL_FRIGATE_PROBE"
 picture "PICTURE_FRIGATE_PROBE"
 NameStringID "IDS_FRIGATE_PROBE_NAME"
 DescriptionStringID "IDS_FRIGATE_PROBE_DESCRIPTION"

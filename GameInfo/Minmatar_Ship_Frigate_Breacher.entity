@@ -43,7 +43,7 @@ typeCount 2
 frigateRoleType "Lrm"
 frigateRoleType "Siege"
 statCountType "FrigateSiege"
-mainViewIcon "MAINVIEWICON_FRIGATE_TECHSIEGE"
+mainViewIcon "HUDICONSMALL_FRIGATE_BREACHER"
 picture "PICTURE_FRIGATE_BREACHER"
 NameStringID "IDS_FRIGATE_BREACHER_NAME"
 DescriptionStringID "IDS_FRIGATE_BREACHER_DESCRIPTION"

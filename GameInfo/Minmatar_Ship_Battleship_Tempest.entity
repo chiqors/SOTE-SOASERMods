@@ -9,7 +9,7 @@ canBomb FALSE
 typeCount 1
 frigateRoleType "Heavy"
 statCountType "FrigateHeavy"
-mainViewIcon "MAINVIEWICON_CAPITALSHIP_TECHSIEGE"
+mainViewIcon "HUDICONSMALL_FRIGATE_TEMPEST"
 picture "PICTURE_FRIGATE_TEMPEST"
 NameStringID "IDS_BATTLESHIP_TEMPEST_NAME"
 DescriptionStringID "IDS_BATTLESHIP_TEMPEST_DESCRIPTION"
