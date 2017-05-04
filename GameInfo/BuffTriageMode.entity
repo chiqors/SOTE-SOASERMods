@@ -24,10 +24,10 @@ numOverTimeActions 2
 overTimeAction
 	buffOverTimeActionType "RestoreHull"
 	hullRestoreRate
-		Level:0 2085.000000
-		Level:1 2085.000000
-		Level:2 2085.000000
-		Level:3 2085.000000
+		Level:0 0.000000
+		Level:1 0.000000
+		Level:2 0.000000
+		Level:3 0.000000
 overTimeAction
 	buffOverTimeActionType "RestoreAntiMatter"
 	antiMatterRestoreRate
