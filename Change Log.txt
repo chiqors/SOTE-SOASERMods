@@ -42,4 +42,5 @@ Removed old research system with 5 levels
  Fix - Jackdaw Typo
  Fix - Minokawa Name and Description
  Fix - Mutual Threat research fix
- 
+ Fix - Guardian ability icon
+ Fix - Paladin Icon 

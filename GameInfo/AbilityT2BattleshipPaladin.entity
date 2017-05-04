@@ -34,6 +34,6 @@ researchPrerequisites
 	RequiredCompletedResearchSubjects 0
 nameStringID "IDS_AMARR_SHIP_BATTLESHIP_PALADIN_NAME"
 descStringID "AbilityT2BattleshipGolemDescription"
-hudIcon "HUDICON_FRIGATEACCESS_GOLEM"
-smallHudIcon "HUDICONSMALL_FRIGATE_RAVEN"
+hudIcon "HUDICON_RESEARCHSUBJECT_FRIGATEACCESS_PALADIN"
+smallHudIcon "HUDICON_RESEARCHSUBJECT_FRIGATEACCESS_PALADIN"
 infoCardIcon ""
