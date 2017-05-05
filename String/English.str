@@ -9218,13 +9218,13 @@ StringInfo
 	Value "this carrier fields powerful fighters capable of supporting a fleet against medium sized ships, it also possesses support abilities to assist friendly ships."
 StringInfo
 	ID "IDS_CAPITALSHIP_PHASESCOUT_NAME"
-	Value "Triage Thanatos"
+	Value "Ninzazu Carrier"
 StringInfo
 	ID "IDS_CAPITALSHIP_PHASESCOUT_DESCRIPTION"
-	Value "This variant of the Thanatos class carrier is specifically designed to provide valuable support to friendly ships. To aid this, it is fitted with sophisticated triage technology which allows the ship to disable propulsion and allocate the energy to defence and remote assistance abilities."
+	Value "The Ninzazu Carrier class is specifically designed to provide valuable support to friendly ships. To aid this, it is fitted with sophisticated triage technology which allows the ship to disable propulsion and allocate the energy to defence and remote assistance abilities."
 StringInfo
 	ID "IDS_CAPITALSHIP_PHASESIEGE_NAME"
-	Value "anti-Capital Moros"
+	Value "Anti-Capital Moros"
 StringInfo
 	ID "IDS_CAPITALSHIP_PHASESIEGE_DESCRIPTION"
 	Value "The Long Range Moros is identical to the regular anti-subcapital Moros in all properties other than its main weapon. This variety possesses 3 X Large Rail guns instead of Ion siege blasters, allowing it to deal damage over a far greater distance at large targets."
@@ -23153,7 +23153,7 @@ StringInfo
 	Value "Thanatos BPO"
 StringInfo
 	ID "IDS_RESEARCHSUBJECT_CAPITALSHIPACESS_THANATOS_DESCRIPTION"
-	Value "Grants access to the Thanatos class Carrier and Triage Thanatos, The Thanatos provides support to sub capital and capital fleets with additional fighter support whilst the Triage Thanatos is a specially designed carrier designed to provide extreme armour repair to a friendly fleet."
+	Value "Grants access to the Thanatos class Carrier and Ninazu Carrier, The Thanatos provides support to sub capital and capital fleets with additional fighter support whilst the Ninazu is a specially designed carrier designed to provide extreme armour repair to a friendly fleet."
 StringInfo
 	ID "IDS_RESEARCHSUBJECT_CAPITALSHIPACESS_MOROS"
 	Value "Moros BPO"

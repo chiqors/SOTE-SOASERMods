@@ -82,10 +82,7 @@ NameStringID "IDS_CAPITALSHIP_PHASECOLONY_NAME"
 DescriptionStringID "IDS_CAPITALSHIP_PHASECOLONY_DESCRIPTION"
 picture "PICTURE_FRIGATE_OBELISK"
 Prerequisites
-	NumResearchPrerequisites 1
-	ResearchPrerequisite
-		Subject "Gallente_ResearchSubject_CapitalAccess_Moros"
-		Level 1
+	NumResearchPrerequisites 0
 	RequiredFactionNameID ""
 	RequiredCompletedResearchSubjects 0
 roleType "COLONY"
