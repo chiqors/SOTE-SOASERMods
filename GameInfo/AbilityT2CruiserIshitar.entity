@@ -32,8 +32,8 @@ researchPrerequisites
 		Level 1
 	RequiredFactionNameID ""
 	RequiredCompletedResearchSubjects 0
-nameStringID "IDS_MINMATAR_SHIP_CRUISER_MUNINN_NAME"
-descStringID "IDS_MINMATAR_SHIP_CRUISER_MUNINN_Description"
+nameStringID "IDS_MINMATAR_SHIP_CRUISER_ISHITAR_NAME"
+descStringID "IDS_MINMATAR_SHIP_CRUISER_ISHITAR_Description"
 hudIcon "HUDICON_FRIGATEACCESS_CERBERUS"
 smallHudIcon "HUDICON_FRIGATEACCESS_CERBERUS"
 infoCardIcon ""

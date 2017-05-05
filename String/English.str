@@ -5798,7 +5798,7 @@ StringInfo
 	Value "Xeno Defense"
 StringInfo
 	ID "IDS_RESEARCHSUBJECT_ABILITYACCESS_XENODEFENSE_DESCRIPTION"
-	Value "Grants the Xeno Defense ability to the Voruntak Envoy, increasing a friendly planet's total health while it is in orbit in order to boost relations."
+	Value "Grants the Xeno Defense ability to the Envoy, increasing a friendly planet's total health while it is in orbit in order to boost relations."
 StringInfo
 	ID "IDS_RESEARCHSUBJECT_ABILITYACCESS_CULTURALASSISTANCE_NAME"
 	Value "Cultural Assistance"
@@ -5834,13 +5834,13 @@ StringInfo
 	Value "Grant Amnesty"
 StringInfo
 	ID "IDS_RESEARCHSUBJECT_ABILITYACCESS_GRANTAMNESTY_DESCRIPTION"
-	Value "Grants the Grant Amnesty ability to Voruntak Envoy Cruisers, allowing them to make an enemy/allied planet invulnerable for a short time."
+	Value "Grants the Grant Amnesty ability to Envoy Cruisers, allowing them to make an enemy/allied planet invulnerable for a short time."
 StringInfo
 	ID "IDS_RESEARCHSUBJECT_ABILITYACCESS_MUTUALTHREAT_NAME"
 	Value "Mutual Threat"
 StringInfo
 	ID "IDS_RESEARCHSUBJECT_ABILITYACCESS_MUTUALTHREAT_DESCRIPTION"
-	Value "Grants the Mutual Threat ability to Voruntak Envoy, which boosts ship construction speed and mine extraction in order to boost relations."
+	Value "Grants the Mutual Threat ability to Envoy, which boosts ship construction speed and mine extraction in order to boost relations."
 StringInfo
 	ID "IDS_RESEARCHSUBJECT_ABILITYACCESS_CHARGEDMISSILES_NAME"
 	Value "Charged Missiles"
@@ -6110,13 +6110,13 @@ StringInfo
 	Value "Nanomedicine Outreach"
 StringInfo
 	ID "IDS_RESEARCHSUBJECT_ABILITYACCESS_NANOMEDICINEOUTREACH_DESCRIPTION"
-	Value "Unlocks the Nanomedicine Outreach ability to the Voruntak Envoy, allowing the ship to help repair planet damage in order to boost relations."
+	Value "Unlocks the Nanomedicine Outreach ability to the Envoy, allowing the ship to help repair planet damage in order to boost relations."
 StringInfo
 	ID "IDS_RESEARCHSUBJECT_ABILITYACCESS_XENODEFENSE_NAME"
 	Value "Xeno Defense"
 StringInfo
 	ID "IDS_RESEARCHSUBJECT_ABILITYACCESS_XENODEFENSE_DESCRIPTION"
-	Value "Grants the Xeno Defense ability to the Voruntak Envoy, increasing a planet's total health while in orbit in order to boost relations."
+	Value "Grants the Xeno Defense ability to the Envoy, increasing a planet's total health while in orbit in order to boost relations."
 StringInfo
 	ID "IDS_RESEARCHSUBJECT_ACCELERATED_WAVE_CANNONS_NAME"
 	Value "Accel. Wave Cannons"

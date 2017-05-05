@@ -29,12 +29,9 @@ ShieldPointRestoreRate 1.000000
 BaseArmorPoints 0.000000
 maxMitigation 0.000000
 Prerequisites
-	NumResearchPrerequisites 2
+	NumResearchPrerequisites 1
 	ResearchPrerequisite
-		Subject "Gallente_ResearchSubject_SubCapitalAccess_Catalyst"
-		Level 1
-	ResearchPrerequisite
-		Subject "AllRaces_ResearchSubject_T3ModuleAccess_PropursionSystems"
+		Subject "Gallente_ResearchSubject_SubCapitalAccess_Hecate"
 		Level 1
 	RequiredFactionNameID ""
 	RequiredCompletedResearchSubjects 0
