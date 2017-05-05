@@ -1,7 +1,7 @@
 ﻿TXT
 entityType "ResearchSubject"
-hudIcon "HUDICON_RESEARCHSUBJECT_HULLTECH2"
-smallHudIcon "HUDICON_RESEARCHSUBJECT_HULLTECH2"
+hudIcon "HUDICON_RESEARCHSUBJECT_JACKDAW"
+smallHudIcon "HUDICON_RESEARCHSUBJECT_JACKDAW"
 infoCardIcon ""
 NameStringID "IDS_Caldari_ResearchSubject_SubCapitalAccess_Jackdaw_NAME"
 DescriptionStringID "IDS_Caldari_ResearchSubject_SubCapitalAccess_Jackdaw_DESCRIPTION"

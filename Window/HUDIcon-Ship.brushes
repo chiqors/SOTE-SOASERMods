@@ -1,6 +1,6 @@
 ﻿TXT
 onlyLoadOnDemand FALSE
-brushCount 274
+brushCount 275
 brush
 	name "HUDICON_CORVETTE_PHASE"
 	content "States"
@@ -3334,4 +3334,21 @@ brush
 	content "Simple"
 	fileName "Unit_Infocard"
 	pixelBox [ 429 , 117 , 22 , 22 ]																	
-																
+brush
+	name "HUDICON_CAPITALSHIP_APOSTLE"
+	content "States"
+	Disabled
+		fileName "Ships_Buttons_Disabled"
+		pixelBox [ 922 , 237 , 47 , 33 ]
+	Pressed
+		fileName "Ships_Buttons_Pressed"
+		pixelBox [ 922 , 237 , 47 , 33 ]
+	CursorOver
+		fileName "Ships_Buttons_CursorOver"
+		pixelBox [ 922 , 237 , 47 , 33 ]
+	Focused
+		fileName "Ships_Buttons_Normal"
+		pixelBox [ 922 , 237 , 47 , 33 ]
+	Normal
+		fileName "Ships_Buttons_Normal"
+		pixelBox [ 922 , 237 , 47 , 33 ]															
