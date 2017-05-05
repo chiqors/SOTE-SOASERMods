@@ -1,5 +1,5 @@
 TXT
-NumStrings 8163
+NumStrings 8164
 StringInfo
     ID "IDS_ABILITY_RORQUALPANIC_NAME"
 	Value "P.A.N.I.C Module"
@@ -24468,6 +24468,9 @@ StringInfo
 StringInfo
 	ID "IDS_ABILITY_ABILITY_PHASEDARMOURHARDENER_NAME"
 	Value "Adaptive Armor Hardner"
+StringInfo
+	ID "IDS_ABILITY_ABILITY_PHASEDARMOURHARDENER_DESCRIPTION"
+	Value "Activates the Adaptive Armor Hardner, allowing the armor of the ships adapt to incoming damage immediately upon impact with hostile weapons."
 StringInfo
 	ID "IDS_ABILITY_ABILITY_ARMORREPAIRCAPITALPHASEDARMOURHARDENER_DESCRIPTION"
 	Value "Activates the Adaptive Armor Hardner, allowing the armor of the ships adapt to incoming damage immediately upon impact with hostile weapons."
