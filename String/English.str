@@ -23453,7 +23453,7 @@ StringInfo
 	Value "Chimera BPO"
 StringInfo
 	ID "IDS_RESEARCHSUBJECT_CAPITALSHIPACESS_CHIMERA_DESCRIPTION"
-	Value "Grants access to the Chimera class Carrier and Chimera Thanatos, The Chimera provides support to sub capital and capital fleets with additional fighter support whilst the Triage Chimera is a specially designed carrier designed to provide extreme Shiled Booster to a friendly fleet."
+	Value "Grants access to the Chimera class Carrier and Minokawa Triage Carrier, The Chimera provides support to sub capital and capital fleets with additional fighter support whilst the Minokawa Triage Carrier is a specially designed carrier designed to provide extreme Shiled Booster to a friendly fleet."
 StringInfo
 	ID "IDS_RESEARCHSUBJECT_CORVETTEACCESS_CONDOR_NAME"
 	Value "Condor BPO"
