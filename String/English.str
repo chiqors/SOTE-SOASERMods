@@ -8618,7 +8618,7 @@ StringInfo
 	Value "Modal Neutron Blasters"
 StringInfo
 	ID "IDS_AllRaces_ResearchSubject_Weapon_Damage_Blaster3_DESCRIPTION"
-	Value "Particle blasters operate on a similar principle as the railgun except they fire a magnetically contained ball of subatomic particles. No other turret class can match the sheer destructive power of particle blasters, but due to the rapid dispersion of the containment field, it also has the worst range of all turrets, this research increases the damage of all blasters by 5% per level."
+	Value "Particle blasters operate on a similar principle as the railgun except they fire a magnetically contained ball of subatomic particles. No other turret class can match the sheer destructive power of particle blasters, but due to the rapid dispersion of the containment field, it also has the worst range of all turrets, this research increases the damage of all blasters."
 StringInfo
 	ID "IDS_RESEARCHSUBJECT_WEAPONDAMAGE_FLASHBEAM1_NAME"
 	Value "Intense Pulse Beams"
@@ -8702,31 +8702,31 @@ StringInfo
 	Value "Limited Neutron Blasters"
 StringInfo
 	ID "IDS_AllRaces_ResearchSubject_Weapon_Damage_Blaster1_DESCRIPTION"
-	Value "Particle blasters operate on a similar principle as the railgun except they fire a magnetically contained ball of subatomic particles. No other turret class can match the sheer destructive power of particle blasters, but due to the rapid dispersion of the containment field, it also has the worst range of all turrets, this research increases the damage of all blasters by 5% per level."
+	Value "Particle blasters operate on a similar principle as the railgun except they fire a magnetically contained ball of subatomic particles. No other turret class can match the sheer destructive power of particle blasters, but due to the rapid dispersion of the containment field, it also has the worst range of all turrets, this research increases the damage of all blasters."
 StringInfo
 	ID "IDS_AllRaces_ResearchSubject_Weapon_Damage_Blaster2_NAME"
 	Value "Anode Neutron Blasters"
 StringInfo
 	ID "IDS_AllRaces_ResearchSubject_Weapon_Damage_Blaster2_DESCRIPTION"
-	Value "Particle blasters operate on a similar principle as the railgun except they fire a magnetically contained ball of subatomic particles. No other turret class can match the sheer destructive power of particle blasters, but due to the rapid dispersion of the containment field, it also has the worst range of all turrets, this research increases the damage of all blasters by 5% per level."
+	Value "Particle blasters operate on a similar principle as the railgun except they fire a magnetically contained ball of subatomic particles. No other turret class can match the sheer destructive power of particle blasters, but due to the rapid dispersion of the containment field, it also has the worst range of all turrets, this research increases the damage of all blasters."
 StringInfo
 	ID "IDS_AllRaces_ResearchSubject_Weapon_Damage_Railgun1_NAME"
 	Value "Scout Accelerator Cannons"
 StringInfo
 	ID "IDS_AllRaces_ResearchSubject_Weapon_Damage_Railgun1_DESCRIPTION"
-	Value "Railguns use magnetic rails to fire solid chunks of matter at hypersonic speed. The accurate range of railguns is very good, but due to technical limitations it cannot use onboard guidance. This results in a fairly rapid drop in accuracy at extreme ranges, this research increases the damage of all railguns by 5% per level."
+	Value "Railguns use magnetic rails to fire solid chunks of matter at hypersonic speed. The accurate range of railguns is very good, but due to technical limitations it cannot use onboard guidance. This results in a fairly rapid drop in accuracy at extreme ranges, this research increases the damage of all railguns."
 StringInfo
 	ID "IDS_AllRaces_ResearchSubject_Weapon_Damage_Railgun2_NAME"
 	Value "Compressed Coil Guns"
 StringInfo
 	ID "IDS_AllRaces_ResearchSubject_Weapon_Damage_Railgun2_DESCRIPTION"
-	Value "Railguns use magnetic rails to fire solid chunks of matter at hypersonic speed. The accurate range of railguns is very good, but due to technical limitations it cannot use onboard guidance. This results in a fairly rapid drop in accuracy at extreme ranges, this research increases the damage of all railguns by 5% per level."
+	Value "Railguns use magnetic rails to fire solid chunks of matter at hypersonic speed. The accurate range of railguns is very good, but due to technical limitations it cannot use onboard guidance. This results in a fairly rapid drop in accuracy at extreme ranges, this research increases the damage of all railguns."
 StringInfo
 	ID "IDS_AllRaces_ResearchSubject_Weapon_Damage_Railgun3_NAME"
 	Value "Prototype Gauss Cannons"
 StringInfo
 	ID "IDS_AllRaces_ResearchSubject_Weapon_Damage_Railgun3_DESCRIPTION"
-	Value "Railguns use magnetic rails to fire solid chunks of matter at hypersonic speed. The accurate range of railguns is very good, but due to technical limitations it cannot use onboard guidance. This results in a fairly rapid drop in accuracy at extreme ranges, this research increases the damage of all railguns by 5% per level."
+	Value "Railguns use magnetic rails to fire solid chunks of matter at hypersonic speed. The accurate range of railguns is very good, but due to technical limitations it cannot use onboard guidance. This results in a fairly rapid drop in accuracy at extreme ranges, this research increases the damage of all railguns."
 StringInfo
 	ID "IDS_RESEARCHSUBJECT_WEAPONRANGE_BEAM_NAME"
 	Value "Precision Beam Focus"
@@ -22934,7 +22934,7 @@ StringInfo
 	Value "Capacitor Mastery"
 StringInfo
 	ID "IDS_RESEARCHSUBJECT_ANTIMATTERTECH2_DESCRIPTION"
-	Value "The Amarr empires best scientists develop new power sources for use in the capacitor, Granting greatly increased recharge rates."
+	Value "Scientists from all empires develop new power sources for use in the capacitor, Granting greatly increased recharge rates."
 StringInfo
 	ID "IDS_RESEARCHSUBJECT_CAPITALSHIPACESS_REVELATION"
 	Value "Revelation BPO"
@@ -24008,7 +24008,7 @@ StringInfo
 	Value ""	
 StringInfo
 	ID "IDS_Amarr_ResearchSubject_PlanetModuleAccess_Cynosural_Navigation_NAME"
-	Value "CYNOSURAL NAVIGATION"	
+	Value "CYNOSURAL ARRAY - NOT WORKING"	
 StringInfo
 	ID "IDS_Amarr_ResearchSubject_PlanetModuleAccess_Cynosural_Navigation_DESCRIPTION"
 	Value "This upgrade allows anchor Cynosural Generator Arrays at their starbases in a solar system."	
@@ -24452,19 +24452,19 @@ StringInfo
 	Value "Weapon Upgrade"
 StringInfo
 	ID "IDS_AllRaces_ResearchSubject_Weapon_Damage_Upgrade1_DESCRIPTION"
-	Value "Increase Damage in 5% per level of all non-missile Frigates and Destroyers."	
+	Value "Increase Damage of all non-missile Frigates and Destroyers."	
 StringInfo
 	ID "IDS_AllRaces_ResearchSubject_Weapon_Damage_Upgrade2_NAME"
 	Value "Weapon Upgrade"
 StringInfo
 	ID "IDS_AllRaces_ResearchSubject_Weapon_Damage_Upgrade2_DESCRIPTION"
-	Value "Increase Damage in 5% per level of all non-missile Cruisers and Battlecruisers."	
+	Value "Increase Damage all non-missile Cruisers and Battlecruisers."	
 StringInfo
 	ID "IDS_AllRaces_ResearchSubject_Weapon_Damage_Upgrade3_NAME"
 	Value "Weapon Upgrade"
 StringInfo
 	ID "IDS_AllRaces_ResearchSubject_Weapon_Damage_Upgrade3_DESCRIPTION"
-	Value "Increase Damage in 5% per level of all non-missile Battleships."
+	Value "Increase Damage of all non-missile Battleships."
 StringInfo
 	ID "IDS_ABILITY_ABILITY_PHASEDARMOURHARDENER_NAME"
 	Value "Adaptive Armor Hardner"
