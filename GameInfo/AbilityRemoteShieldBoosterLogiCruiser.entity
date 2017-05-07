@@ -17,10 +17,10 @@ targetFilter
 	numConstraints 1
 	constraint "NotSelf"
 range
-	Level:0 10000.000000
-	Level:1 10000.000000
-	Level:2 10000.000000
-	Level:3 10000.000000
+	Level:0 20000.000000
+	Level:1 20000.000000
+	Level:2 20000.000000
+	Level:3 20000.000000
 effectInfo
 	effectAttachInfo
 		attachType "Invalid"
@@ -42,10 +42,10 @@ minExperienceLevelRequired
 aiUseTime "Anytime"
 aiUseTargetCondition "ShieldDamageExceedsAmount"
 onlyAutoCastWhenTargetShieldDamageExceedsAmount
-	Level:0 100.000000
-	Level:1 100.000000
-	Level:2 100.000000
-	Level:3 100.000000
+	Level:0 50.000000
+	Level:1 50.000000
+	Level:2 50.000000
+	Level:3 50.000000
 isAutoCastAvailable TRUE
 isAutoCastOnByDefault TRUE
 pickRandomPlanetToExploreForAutoCastTarget FALSE
