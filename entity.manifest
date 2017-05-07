@@ -1,5 +1,5 @@
 TXT
-entityNameCount 2209
+entityNameCount 2213
 entityName "BuffSuppressionChannelEnd.entity"
 entityName "AbilityAbilityGuidance.entity"
 entityName "AbilityPhasedArmourHardener.entity"
@@ -2209,3 +2209,7 @@ entityName "Concord_Ship_Cruiser.entity"
 entityName "StarBaseUpgradeFortizarToughness.entity"
 entityName "StarBaseUpgradeKeepStarToughness.entity"
 entityName "AbilityPhasedArmourHardenerCapital.entity"
+entityName "RESEARCHSUBJECT_REFINARYSHIP0.entity"
+entityName "Minmatar_Structure_Refinery.entity"
+entityName "Minmatar_Structure_TradePort.entity"
+entityName "Gallente_Ship_Tradeship.entity"

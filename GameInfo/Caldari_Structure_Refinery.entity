@@ -28,7 +28,7 @@ statCountType "ModuleRefinery"
 Prerequisites
 	NumResearchPrerequisites 1
 	ResearchPrerequisite
-		Subject "CALDARI_RESEARCHSUBJECT_PLANETMODULEACCESS_REFINERY"
+		Subject "RESEARCHSUBJECT_PLANETMODULEACCESS_REFINERYTECH"
 		Level 1
 	RequiredFactionNameID ""
 	RequiredCompletedResearchSubjects 0
@@ -61,7 +61,7 @@ SoundID "PLANETMODULE_TECHORBITALREFINERY_ONSELECTION_0"
 NumSoundsFor:ONSTARTPHASEJUMP 0
 MeshNameInfoCount 1
 MeshNameInfo
-	meshName "caldari_refinary"
+	meshName "raitaru"
 	criteriaType "None"
 meshNameIncreasedEffectName ""
 meshNameDecreasedEffectName ""
@@ -73,6 +73,6 @@ maxShadow 0.800000
 formationRank 3
 baseBuildTime 130.000000
 buildEffectName ""
-cargoShipType "Caldari_Ship_Industrial_Badge"
+cargoShipType "Amarr_Ship_Refineryship_Bestower"
 maxCargoShipCount 10
 cargoShipRespawnTime 30.000000

@@ -61,7 +61,7 @@ SoundID "PLANETMODULE_TECHORBITALREFINERY_ONSELECTION_0"
 NumSoundsFor:ONSTARTPHASEJUMP 0
 MeshNameInfoCount 1
 MeshNameInfo
-	meshName "as_capitalship"
+	meshName "raitaru"
 	criteriaType "None"
 meshNameIncreasedEffectName ""
 meshNameDecreasedEffectName ""

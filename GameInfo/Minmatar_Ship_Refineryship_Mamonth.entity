@@ -74,10 +74,33 @@ NumSoundsFor:ONCREATION 0
 NumSoundsFor:ONGENERALORDERISSUED 0
 NumSoundsFor:ONSELECTED 0
 NumSoundsFor:ONSTARTPHASEJUMP 0
-MeshNameInfoCount 1
+MeshNameInfoCount 3
 MeshNameInfo
-	meshName "COVERTOR"
+	meshName "oreba1"
 	criteriaType "None"
+MeshNameInfo
+	meshName "retriever"
+	criteriaType "Research"
+	prerequisites
+		NumResearchPrerequisites 1
+		ResearchPrerequisite
+			Subject "RESEARCHSUBJECT_CARGOSHIPCAPACITY0"
+			Level 3
+		RequiredFactionNameID ""
+		RequiredCompletedResearchSubjects 1
+MeshNameInfo
+	meshName "covertor_new"
+	criteriaType "Research"
+	prerequisites
+		NumResearchPrerequisites 2
+		ResearchPrerequisite
+			Subject "RESEARCHSUBJECT_CARGOSHIPCAPACITY0"
+			Level 3
+		ResearchPrerequisite
+			Subject "RESEARCHSUBJECT_CARGOSHIPCAPACITY1"
+			Level 3
+		RequiredFactionNameID ""
+		RequiredCompletedResearchSubjects 1		
 meshNameIncreasedEffectName ""
 meshNameDecreasedEffectName ""
 ExhaustParticleSystemName "Exhaust_EveCruiser"

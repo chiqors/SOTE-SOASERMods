@@ -28,7 +28,7 @@ statCountType "ModuleTradePort"
 Prerequisites
 	NumResearchPrerequisites 1
 	ResearchPrerequisite
-		Subject "RESEARCHSUBJECT_PLANETMODULEACCESS_MARKETPHASE"
+		Subject "RESEARCHSUBJECT_PLANETMODULEACCESS_MARKETTECH"
 		Level 1
 	RequiredFactionNameID ""
 	RequiredCompletedResearchSubjects 0
@@ -73,7 +73,7 @@ maxShadow 0.400000
 formationRank 3
 baseBuildTime 90.000000
 buildEffectName ""
-cargoShipType "FrigatePhaseTradeShip"
+cargoShipType "Gallente_Ship_Tradeship"
 maxCargoShipCount 5
 cargoShipRespawnTime 30.000000
 baseTradeIncomeRate 1.000000

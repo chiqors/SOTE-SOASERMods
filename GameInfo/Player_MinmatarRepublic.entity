@@ -14,12 +14,12 @@ entities
 			entityDefName "PLANETMODULE_TECHORBITALMETALEXTRACTOR"
 			entityDefName "Amarr_Structure_FrigateFactory"
 			entityDefName "Amarr_Structure_CombatLab"
-			entityDefName "Amarr_Structure_TradePort"
+			entityDefName "Minmatar_Structure_TradePort"
 			entityDefName "Amarr_Structure_CultureCenter"
 			entityDefName "PLANETMODULE_TECHORBITALCRYSTALEXTRACTOR"
 			entityDefName "Amarr_Structure_CapitalShipFactory"
 			entityDefName "Amarr_Structure_CivillianLab"
-			entityDefName "Amarr_Structure_Refinery"
+			entityDefName "Minmatar_Structure_Refinery"
 		Page:1
 			count 7
 			entityDefName "Amarr_Structure_SmallPulseLaserBattery"
@@ -69,10 +69,10 @@ entities
 		NotOnPage
 			count 3
 			entityDefName "Amarr_Ship_Constructor_Venture"
-			entityDefName "Amarr_Ship_Tradeship_Bestower"
-			entityDefName "Amarr_Ship_Refineryship_Bestower"
+			entityDefName "Minmatar_Ship_Tradeship_Manmonth"
+			entityDefName "Minmatar_Ship_Refineryship_Mamonth"
 	researchInfo
-		count 125
+		count 126
 		entityDefName "Minmatar_ResearchSubject_SubCapitalAccess_Svipul"
 		entityDefName "AllRaces_ResearchSubject_PlanetModuleAccess_CYNOSURAL_NAVIGATION"
 		entityDefName "ALLRACES_RESEARCHSUBJECT_ABILITYACCESS_AFTERBURNER"
@@ -190,6 +190,7 @@ entities
 		entityDefName "RESEARCHSUBJECT_QUESTFINISHEDHAPPINESS"
 		entityDefName "RESEARCHSUBJECT_RESEARCHVICTORY_TECH"
 		entityDefName "RESEARCHSUBJECT_SALVAGEDEBRIS"
+		entityDefName "RESEARCHSUBJECT_STARBASEUPGRADEACCESS_TRADEPORTTECH"
 		entityDefName "RESEARCHSUBJECT_STRUCTUREWORK_CRYSTALEXTRACTTECH0"
 		entityDefName "RESEARCHSUBJECT_STRUCTUREWORK_CRYSTALEXTRACTTECH1"
 		entityDefName "RESEARCHSUBJECT_STRUCTUREWORK_CRYSTALEXTRACTTECH2"

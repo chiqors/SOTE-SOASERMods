@@ -44,3 +44,11 @@ Removed old research system with 5 levels
  Fix - Mutual Threat research fix
  Fix - Guardian ability icon
  Fix - Paladin Icon 
+ 
+New Version 0.6
+
+what is new:
+
+Citadel now have trade hub
+All races Trade ports working
+New Refinary and Tradeships models

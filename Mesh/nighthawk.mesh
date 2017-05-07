@@ -1,4 +1,4 @@
-TXT
+﻿TXT
 MeshData
 	maxDiffuseMipLevel 0
 	hasValidTangents TRUE
@@ -157117,8 +157117,8 @@ MeshData
 	Index 10137
 	Index 4605
 	Index 3320
-	Index 8874
 	Index 3324
+	Index 8874
 	Index 8878
 	Index 10619
 	Index 5097
@@ -164149,8 +164149,8 @@ MeshData
 	Index 8817
 	Index 10142
 	Index 10129
-	Index 8874
 	Index 8878
+	Index 8874
 	Index 120
 	Index 10609
 	Index 106
@@ -167470,10 +167470,10 @@ MeshData
 	Index 5205
 	Index 5193
 	Index 5213
-	Index 1640
 	Index 2018
 	Index 2063
 	Index 2065
+	Index 1640
 	Index 5052
 	Index 1538
 	Index 46
@@ -167569,8 +167569,8 @@ MeshData
 	Index 5497
 	Index 4727
 	Index 4719
-	Index 4729
 	Index 4717
+	Index 4729
 	Index 1696
 	Index 5307
 	Index 2355

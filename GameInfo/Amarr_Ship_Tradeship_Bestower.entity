@@ -74,20 +74,33 @@ NumSoundsFor:ONCREATION 0
 NumSoundsFor:ONGENERALORDERISSUED 0
 NumSoundsFor:ONSELECTED 0
 NumSoundsFor:ONSTARTPHASEJUMP 0
-MeshNameInfoCount 2
+MeshNameInfoCount 3
 MeshNameInfo
 	meshName "BESTOWER"
 	criteriaType "None"
 MeshNameInfo
-	meshName "Orca"
+	meshName "sigil"
 	criteriaType "Research"
 	prerequisites
 		NumResearchPrerequisites 1
 		ResearchPrerequisite
 			Subject "RESEARCHSUBJECT_CARGOSHIPCAPACITY0"
-			Level 5
+			Level 3
 		RequiredFactionNameID ""
 		RequiredCompletedResearchSubjects 1
+MeshNameInfo
+	meshName "providence"
+	criteriaType "Research"
+	prerequisites
+		NumResearchPrerequisites 2
+		ResearchPrerequisite
+			Subject "RESEARCHSUBJECT_CARGOSHIPCAPACITY0"
+			Level 3
+		ResearchPrerequisite
+			Subject "RESEARCHSUBJECT_CARGOSHIPCAPACITY1"
+			Level 3
+		RequiredFactionNameID ""
+		RequiredCompletedResearchSubjects 1			
 meshNameIncreasedEffectName ""
 meshNameDecreasedEffectName ""
 ExhaustParticleSystemName "Exhaust_EveCruiser"

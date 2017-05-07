@@ -11621,10 +11621,10 @@ StringInfo
 	Value "A commercial vessel that carries merchant cargo between distant worlds."
 StringInfo
 	ID "IDS_REFINERYSHIP_TECH_NAME"
-	Value "Bestower Refinery Ship"
+	Value "Mining Barge Refinery Ship"
 StringInfo
 	ID "IDS_REFINERYSHIP_TECH_DESCRIPTION"
-	Value "A transport ship that gets hard to acquire resources from asteroids to then be refined."
+	Value "A Mining ship that gets resources from asteroids to then be refined."
 StringInfo
 	ID "IDS_REFINERYSHIP_PSI_NAME"
 	Value "Refinery Drone"

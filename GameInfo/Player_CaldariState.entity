@@ -71,9 +71,9 @@ entities
 			count 3
 			entityDefName "Gallente_Ship_Constructor_Venture"
 			entityDefName "FrigatePhaseTradeShip"
-			entityDefName "Caldari_Ship_Industrial_Badge"
+			entityDefName "Amarr_Ship_Refineryship_Bestower"
 	researchInfo
-		count 128
+		count 129
 		entityDefName "Caldari_ResearchSubject_SubCapitalAccess_Jackdaw"
 		entityDefName "AllRaces_ResearchSubject_PlanetModuleAccess_CYNOSURAL_NAVIGATION"
 		entityDefName "ALLRACES_RESEARCHSUBJECT_ABILITYACCESS_REPAIRYARD"
@@ -183,16 +183,16 @@ entities
 		entityDefName "RESEARCHSUBJECT_PLANETACCESS_OCEANICPHASE"
 		entityDefName "RESEARCHSUBJECT_PLANETACCESS_VOLCANICPHASE"
 		entityDefName "RESEARCHSUBJECT_PLANETMODULEACCESS_CULTURECENTERPHASE"
-		entityDefName "CALDARI_RESEARCHSUBJECT_PLANETMODULEACCESS_MARKET"
-		entityDefName "CALDARI_RESEARCHSUBJECT_PLANETMODULEACCESS_REFINERY"
+		entityDefName "RESEARCHSUBJECT_PLANETMODULEACCESS_MARKETTECH"
+		entityDefName "RESEARCHSUBJECT_PLANETMODULEACCESS_REFINERYTECH"
 		entityDefName "RESEARCHSUBJECT_STRUCTUREWORK_METALEXTRACTTECH0"
 		entityDefName "RESEARCHSUBJECT_STRUCTUREWORK_METALEXTRACTTECH1"
 		entityDefName "RESEARCHSUBJECT_STRUCTUREWORK_METALEXTRACTTECH2"
 		entityDefName "RESEARCHSUBJECT_STRUCTUREWORK_CRYSTALEXTRACTTECH0"
 		entityDefName "RESEARCHSUBJECT_STRUCTUREWORK_CRYSTALEXTRACTTECH1"
 		entityDefName "RESEARCHSUBJECT_STRUCTUREWORK_CRYSTALEXTRACTTECH2"
-		entityDefName "CALDARI_RESEARCHSUBJECT_TRADESHIPCAPACITY0"
-		entityDefName "CALDARI_RESEARCHSUBJECT_TRADESHIPCAPACITY1"
+		entityDefName "RESEARCHSUBJECT_CARGOSHIPCAPACITY0"
+		entityDefName "RESEARCHSUBJECT_CARGOSHIPCAPACITY1"
 		entityDefName "RESEARCHSUBJECT_RAIDER_RELATIONS"
 		entityDefName "RESEARCHSUBJECT_RESEARCHVICTORY_PHASE"
 		entityDefName "RESEARCHSUBJECT_SALVAGEDEBRIS"
@@ -202,6 +202,7 @@ entities
 		entityDefName "AllRaces_ResearchSubject_PlanetModuleAccess_Astrahus"
 		entityDefName "AllRaces_ResearchSubject_PlanetModuleAccess_Fortizar"
 		entityDefName "AllRaces_ResearchSubject_PlanetModuleAccess_Keepstar"
+		entityDefName "RESEARCHSUBJECT_STARBASEUPGRADEACCESS_TRADEPORTTECH"		
 	starBaseInfo
 		count 3
 		entityDefName "Allraces_Structure_Citadel_Astrahus"
