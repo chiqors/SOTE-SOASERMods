@@ -25,7 +25,8 @@ entityModifier
 		Level:1 -2.500000
 		Level:2 0.000000
 		Level:3 0.000000
-numEntityBoolModifiers 0
+numEntityBoolModifiers 1
+entityBoolModifier "DisablePhaseJump"
 numFinishConditions 2
 finishCondition
 	finishConditionType "FirstSpawnerNoLongerHasBuff"

@@ -29,8 +29,7 @@ periodicAction
 		Level:2 29.000000
 		Level:3 29.000000
 	buffInstantActionType "ApplyBuffToTargetsInRadius"
-	instantActionTriggerType "OnDelay"
-	delayTime 0.000000
+	instantActionTriggerType "AlwaysPerform"
 	buffType "BuffInterdictionSphereTarget"
 	targetFilter
 		numOwnerships 2
