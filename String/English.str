@@ -23579,7 +23579,7 @@ StringInfo
 	Value "Golem Upgrade"
 StringInfo
 	ID "AbilityT2BattleshipGolemDescription"
-	Value "Upgrade the Battleship to Marauder. This ship can use bastion modules to incresead Shields, weapons damage and range."
+	Value "Upgrade the Battleship to Marauder. This ship can use bastion modules to incresead Shields, Armor, Weapons Damage and Range."
 StringInfo
 	ID "IDS_ABILITY_BASTIONMODE_NAME"
 	Value "Bastion Module"

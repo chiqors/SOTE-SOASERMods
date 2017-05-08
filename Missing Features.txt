@@ -3,7 +3,6 @@ Drake Picture
 Bhaalgorn Picture
 Rattlesnake Picture
 Moa Picture
-Svipul Pictur
 Cynosural Filed on star bases not working
 Gallente Fighters and Heavy Fighters Revamp
 Nyx Squads revamp
@@ -12,3 +11,4 @@ Make Citadel stop turning
 Concord textures
 Caracal textures
 Create a particle effect for Shield Boosters like this ones:EVE_Buff_ECMJammer_Large, EVE_Buff_ECMJammer_Medium and EVE_Buff_ECMJammer_Projectile
+Svipul model

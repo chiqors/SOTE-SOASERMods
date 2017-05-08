@@ -60,3 +60,4 @@ Fix - Cyclone Envoy name on research
 Fix - Svipul icon
 Fix - Tempest, Typhoon and Maelstron descritpions 
 Fix - Time and costs for missile research 
+Fix - Cloak now works
