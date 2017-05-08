@@ -61,3 +61,5 @@ Fix - Svipul icon
 Fix - Tempest, Typhoon and Maelstron descritpions 
 Fix - Time and costs for missile research 
 Fix - Cloak now works
+Added - Citadel Tethering
+

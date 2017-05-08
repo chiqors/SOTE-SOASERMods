@@ -3,7 +3,7 @@ entityType "StarBase"
 ability:0 "AbilityRepairAura"
 ability:1 "AbilityECMBattery"
 ability:2 "AbilitySensorDampener"
-ability:3 ""
+ability:3 "AbilityRepairPlatformTech"
 ability:4 ""
 defaultAutoAttackRange "None"
 defaultAutoAttackOn TRUE

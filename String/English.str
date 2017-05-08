@@ -1,5 +1,5 @@
 TXT
-NumStrings 8170
+NumStrings 8172
 StringInfo
     ID "IDS_ABILITY_RORQUALPANIC_NAME"
 	Value "P.A.N.I.C Module"
@@ -9110,10 +9110,10 @@ StringInfo
 	Value "Restores Hull Points to friendly ships and structures over time."
 StringInfo
 	ID "IDS_SUPPORTABILITY_REPAIRTECHPLANETMODULE_NAME"
-	Value "Repair"
+	Value "Tethering Aura"
 StringInfo
 	ID "IDS_SUPPORTABILITY_REPAIRTECHPLANETMODULE_DESCRIPTION"
-	Value "Restores Hull Points to friendly ships and structures over time."
+	Value "Tethering enable the Citadels to Restores Hull Points and Shield Points to friendly ships and structures over time."
 StringInfo
 	ID "IDS_SUPPORTABILITY_WEAPONJAM_NAME"
 	Value "Nano Weapon Jammer"
