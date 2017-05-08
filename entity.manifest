@@ -1,5 +1,5 @@
 TXT
-entityNameCount 2213
+entityNameCount 2215
 entityName "BuffSuppressionChannelEnd.entity"
 entityName "AbilityAbilityGuidance.entity"
 entityName "AbilityPhasedArmourHardener.entity"
@@ -2213,3 +2213,6 @@ entityName "RESEARCHSUBJECT_REFINARYSHIP0.entity"
 entityName "Minmatar_Structure_Refinery.entity"
 entityName "Minmatar_Structure_TradePort.entity"
 entityName "Gallente_Ship_Tradeship.entity"
+entityName "AbilityRorqualExtractor.entity"
+entityName "AbilityRorqualPanic.entity"
+
