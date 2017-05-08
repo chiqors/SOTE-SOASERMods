@@ -1,5 +1,5 @@
 TXT
-NumStrings 8172
+NumStrings 8170
 StringInfo
     ID "IDS_ABILITY_RORQUALPANIC_NAME"
 	Value "P.A.N.I.C Module"
@@ -5822,13 +5822,13 @@ StringInfo
 	Value "Settlers"
 StringInfo
 	ID "IDS_RESEARCHSUBJECT_ABILITYACCESS_SETTLERS_DESCRIPTION"
-	Value "Grants the Settlers ability to Neruda Envoy, which increases the local planet's population while in orbit in order to boost relations."
+	Value "Grants the Settlers ability to Cyclone Envoy, which increases the local planet's population while in orbit in order to boost relations."
 StringInfo
 	ID "IDS_RESEARCHSUBJECT_ABILITYACCESS_WORTHYCAUSE_NAME"
 	Value "Worthy Cause"
 StringInfo
 	ID "IDS_RESEARCHSUBJECT_ABILITYACCESS_WORTHYCAUSE_DESCRIPTION"
-	Value "Grants the Worthy Cause ability to Neruda Envoy, which helps reduce structure costs in order to boost relations."
+	Value "Grants the Worthy Cause ability to Cyclone Envoy, which helps reduce structure costs in order to boost relations."
 StringInfo
 	ID "IDS_RESEARCHSUBJECT_ABILITYACCESS_GRANTAMNESTY_NAME"
 	Value "Grant Amnesty"
@@ -5954,7 +5954,7 @@ StringInfo
 	Value "Arbitrate Tariff"
 StringInfo
 	ID "IDS_RESEARCHSUBJECT_ABILITYACCESS_ARBITRATETARIFF_DESCRIPTION"
-	Value "Grants the Arbitrate Tariff ability to Neruda Envoy, which boosts trade and refinery ship income in order to boost relations."
+	Value "Grants the Arbitrate Tariff ability to s Envoy, which boosts trade and refinery ship income in order to boost relations."
 StringInfo
 	ID "IDS_RESEARCHSUBJECT_ABILITYACCESS_PHASECLOAK_NAME"
 	Value "Selective Phasing"
@@ -22967,10 +22967,10 @@ StringInfo
 	Value "The outpost command system links with all defensive structures within the Grid, granting a significant boost to the range of all weapons, This command bonus can be further boosted with the use of additional outposts in the same Grid. This can allow the use of weapons at extreme ranges in order to better defend the planet from attack."	
 StringInfo
 	ID "IDS_AMARR_CARRIER_TRIAGEARCHON_NAME"
-	Value "Triage Archon"
+	Value "Apostle Force Auxiliary"
 StringInfo
 	ID "IDS_AMARR_CARRIER_TRIAGEARCHON_DESCRIPTION"
-	Value "The Triage Archon is a specialised version of a standard Archon class Carrier. Its role is to act as a heavy logistics platform from which to provide extreme support to friendly ships. To this effect, it is equipped with specialised modules, the first is a pair of Capital Triage Repairers that are capable of providing far higher repair rates to friendly ships. The second is a Triage module which sacrifices mobility in order to speed up the cycle time of the Remote Repairers and Cap Transfer."	
+	Value "The apostle Force Auxiliary is a specialised Carrier. Its role is to act as a heavy logistics platform from which to provide extreme support to friendly ships. To this effect, it is equipped with specialised modules, the first is a pair of Capital Triage Repairers that are capable of providing far higher repair rates to friendly ships. The second is a Triage module which sacrifices mobility in order to speed up the cycle time of the Remote Repairers and Cap Transfer."	
 StringInfo
 	ID "IDS_ABILITY_JUMPBRIDGEOUTPOST_NAME"
 	Value "Outpost Jump Bridge"
@@ -23153,7 +23153,7 @@ StringInfo
 	Value "Thanatos BPO"
 StringInfo
 	ID "IDS_RESEARCHSUBJECT_CAPITALSHIPACESS_THANATOS_DESCRIPTION"
-	Value "Grants access to the Thanatos class Carrier and Ninazu Carrier, The Thanatos provides support to sub capital and capital fleets with additional fighter support whilst the Ninazu is a specially designed carrier designed to provide extreme armour repair to a friendly fleet."
+	Value "Grants access to the Thanatos class Carrier and Ninazu Force Auxiliary, The Thanatos provides support to sub capital and capital fleets with additional fighter support whilst the Ninazu is a specially designed carrier designed to provide extreme armour repair to a friendly fleet."
 StringInfo
 	ID "IDS_RESEARCHSUBJECT_CAPITALSHIPACESS_MOROS"
 	Value "Moros BPO"
@@ -23651,19 +23651,19 @@ StringInfo
 	Value "Typhoon"
 StringInfo
 	ID "IDS_BATTLESHIP_TYPHOON_DESCRIPTION"
-	Value "The Armageddon is the empires earliest Battleship. It has undergone several refits and iterations over the many years of its service, Its primary role is that of a short range high DPS battleship. It is equipped with an Energy Neutraliser that can pose a threat to ships that are reliant on their capacitor to function, it does however posses comparatively weak armour plating."
+	Value "Much praised by its proponents and much maligned by its detractors, the Typhoon-class battleship has always been one of the most hotly debated spacefaring vessels around. Its distinguishing aspect - and the source of most of the controversy - is its sheer versatility, variously seen as either a lack of design focus or a deliberate freedom for pilot modification."
 StringInfo
 	ID "IDS_BATTLESHIP_TEMPEST_NAME"
 	Value "Tempest"
 StringInfo
 	ID "IDS_BATTLESHIP_TEMPEST_DESCRIPTION"
-	Value "The Apocalypse has always been an image for the empire. Taking place on many propaganda posters and communications as an image of fear and destruction. Its weapons are some of the longest range weapons of any battleship. The Apoc's role as a sniper remains untouched by many, Though it deals less DPS than normal battleships would be expected to have, in numbers they can prove to be a very dangerous threat indeed. It is also equipped with a Micro Jump Drive which helps to enable it to achieve the desired combat range."
+	Value "The Tempest is one of the Republic Fleet's key vessels; a versatile gunship proficient at long-range bombardment and capable of dishing out specialized types of damage with great effectiveness."
 StringInfo
 	ID "IDS_BATTLESHIP_MAELSTRON_NAME"
 	Value "Maelstron"
 StringInfo
 	ID "IDS_BATTLESHIP_MAELSTRON_DESCRIPTION"
-	Value "The Abaddon is the Empire's newest battleship to enter service. It is the result of many developments in armour and weapons technology> The Abaddon's main weapon is the scorch loaded mega pulse laser which deals excellent damage to similar sized or larger targets over a reasonable range. It has become the "go to" battleship for many fleet commanders requiring a ship that will stand the strain of large scale war."
+	Value "With the Maelstrom, versatility is the name of the game. Its defensive capabilities make it ideally suited for small raid groups or solo work, while its 8 turret hardpoints present opportunities for untold carnage on the fleet battlefield."
 StringInfo
 	ID "IDS_FRIGATE_SLASHER_NAME"
 	Value "Slasher"
@@ -23753,7 +23753,7 @@ StringInfo
 	Value "Essentially a pared-down version of its big brother the Hel, the Nidhoggur nonetheless displays the same austerity of vision evident in its sibling. Quite purposefully created for nothing less than all-out warfare, and quite comfortable with that fact, the Nidhoggur will no doubt find itself a mainstay on many a battlefield."
 StringInfo
 	ID "IDS_RESEARCHSUBJECT_CapitalAccess_Lif_NAME"
-	Value "Lif"
+	Value "Lif Force Auxiliary"
 StringInfo
 	ID "IDS_RESEARCHSUBJECT_CapitalAccess_Lif_DESCRIPTION"
 	Value "After much chest-beating, and due in no small part to the intervention of Sanmatar Maleatu Shakor, the arguments of the Sebiestor won out and the Lif-class Force Auxiliary was commissioned over the objections of the Brutor military elite."
@@ -23783,10 +23783,10 @@ StringInfo
 	Value "The Cyclone was created in order to meet the increasing demand for a vessel capable of providing muscle for frigate detachments while remaining more mobile than a battleship. To this end, the Cyclone's seven high-power slots and powerful thrusters have proved ideal."
 StringInfo
 	ID "IDS_RESEARCHSUBJECT_SubCapitalAccess_CycloneEnvoy_NAME"
-	Value "CycloneEnvoy"
+	Value "Cyclone Envoy"
 StringInfo
 	ID "IDS_RESEARCHSUBJECT_SubCapitalAccess_CycloneEnvoy_DESCRIPTION"
-	Value ""
+	Value "Give acess to the Cyclone Envoy, Diplomatic Ship that aid allies with bonus."
 StringInfo
 	ID "IDS_RESEARCHSUBJECT_SubCapitalAccess_Hurricane_NAME"
 	Value "Hurricane BPO"

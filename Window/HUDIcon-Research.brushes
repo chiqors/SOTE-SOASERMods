@@ -1,6 +1,6 @@
 ﻿TXT
 onlyLoadOnDemand FALSE
-brushCount 679
+brushCount 680
 brush
 	name "HUDICON_RESEARCHSUBJECT_POPULATIONCAP_IRON_0"
 	content "States"
@@ -11911,4 +11911,22 @@ brush
 	Normal
 		fileName "Buttons_Abilities_Normal"
 		pixelBox [ 924 , 104 , 47 , 33 ]
-										
+brush
+	name "HUDICON_RESEARCHSUBJECT_FRIGATEACCESS_SVIPUL"
+	content "States"
+	Disabled
+		fileName "Ships_Buttons_Disabled"
+		pixelBox [ 259 , 644 , 47 , 33 ]
+	Pressed
+		fileName "Ships_Buttons_Pressed"
+		pixelBox [ 259 , 644 , 47 , 33 ]
+	CursorOver
+		fileName "Ships_Buttons_CursorOver"
+		pixelBox [ 259 , 644 , 47 , 33 ]
+	Focused
+		fileName "Ships_Buttons_Normal"
+		pixelBox [ 259 , 644 , 47 , 33 ]
+	Normal
+		fileName "Ships_Buttons_Normal"
+		pixelBox [ 259 , 644 , 47 , 33 ]
+	

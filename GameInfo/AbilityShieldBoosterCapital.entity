@@ -1,30 +1,11 @@
 ﻿TXT
 entityType "Ability"
-buffInstantActionType "ApplyTargettedBuffToSelf"
+buffInstantActionType "ApplyBuffToSelf"
 instantActionTriggerType "AlwaysPerform"
 buffType "BuffShieldBoosterCapital"
-targetFilter
-	numOwnerships 1
-	ownership "Friendly"
-	numObjects 5
-	object "CapitalShip"
-	object "StarBase"
-	object "Titan"
-	object "Frigate"
-	object "Corvette"
-	numSpaces 1
-	space "Normal"
-	numConstraints 2
-	constraint "NotSelf"
-	constraint "HasShieldDamage"
-range
-	Level:0 12500.000000
-	Level:1 12500.000000
-	Level:2 12500.000000
-	Level:3 12500.000000
 effectInfo
 	effectAttachInfo
-		attachType "Invalid"
+		attachType "Center"
 	smallEffectName ""
 	mediumEffectName ""
 	largeEffectName ""
@@ -70,6 +51,6 @@ researchPrerequisites
 	RequiredCompletedResearchSubjects 0
 nameStringID "IDS_ABILITY_SHIELDBOOSTERCAPITAL_NAME"
 descStringID "IDS_ABILITY_SHIELDBOOSTERCAPITAL_DESCRIPTION"
-hudIcon "HUDIconStarBaseUpgradeTechFactory1"
-smallHudIcon "HUDIconStarBaseUpgradeTechFactory1"
+hudIcon "HUDICON_ABILITY_SHIELDBOOSTERFACTION"
+smallHudIcon "HUDICON_ABILITY_SHIELDBOOSTERFACTION"
 infoCardIcon ""

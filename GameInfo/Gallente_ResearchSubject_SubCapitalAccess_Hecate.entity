@@ -1,7 +1,7 @@
 ﻿TXT
 entityType "ResearchSubject"
-hudIcon "HUDICON_RESEARCHSUBJECT_FRIGATEACCESS_ANTIFIGHTERPHASE"
-smallHudIcon "HUDICON_RESEARCHSUBJECT_FRIGATEACCESS_ANTIFIGHTERPHASE"
+hudIcon "HUDICON_FRIGATE_HECATE"
+smallHudIcon "HUDICON_FRIGATE_HECATE"
 infoCardIcon ""
 NameStringID "IDS_Gallente_ResearchSubject_SubCapitalAccess_Hecate_NAME"
 DescriptionStringID "IDS_Gallente_ResearchSubject_SubCapitalAccess_Hecate_DESCRIPTION"

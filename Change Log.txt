@@ -52,3 +52,11 @@ what is new:
 Citadel now have trade hub
 All races Trade ports working
 New Refinary and Tradeships models
+Fixed Capital Armor Repair Self 
+Fixed Sensor Dampener antimatter cost
+fixed oblivion dd damage
+Fix - Hecate Icon
+Fix - Cyclone Envoy name on research
+Fix - Svipul icon
+Fix - Tempest, Typhoon and Maelstron descritpions 
+Fix - Time and costs for missile research 

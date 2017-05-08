@@ -42,7 +42,7 @@ numRandomDebrisLarge 0
 numRandomDebrisSmall 0
 numSpecificDebris 0
 armorType "Medium"
-hudIcon "HUDICON_FRIGATE_THRASHER"
+hudIcon "HUDICON_RESEARCHSUBJECT_FRIGATEACCESS_SVIPUL"
 smallHudIcon "HUDICONSMALL_FRIGATE_SVIPUL"
 infoCardIcon "HUDICONSMALL_FRIGATE_SVIPUL"
 minZoomDistanceMult 1.000000
