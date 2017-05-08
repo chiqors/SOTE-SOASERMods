@@ -1,5 +1,5 @@
 TXT
-NumStrings 8164
+NumStrings 8172
 StringInfo
     ID "IDS_ABILITY_RORQUALPANIC_NAME"
 	Value "P.A.N.I.C Module"
@@ -11387,10 +11387,10 @@ StringInfo
 	Value "Allows the establishment of new trade routes."
 StringInfo
 	ID "IDS_PLANETMODULE_TECHORBITALREFINERY_NAME"
-	Value "Orbital Refinery"
+	Value "Raitaru Industrial Array"
 StringInfo
 	ID "IDS_PLANETMODULE_TECHORBITALREFINERY_DESC"
-	Value "Refines raw resources gathered by refinery ships."
+	Value "Replacemente for old refinaries, Refines raw resources gathered by Mining Barges."
 StringInfo
 	ID "IDS_PLANETMODULE_TECHORBITALMETALEXTRACTOR_NAME"
 	Value "Metal Extractor"
@@ -11603,10 +11603,10 @@ StringInfo
 	Value "A powerful weapon capable of launching a massive energy shockwave at nearby planets."
 StringInfo
 	ID "IDS_TRADESHIP_TECH_NAME"
-	Value "Bestower Trade Ship"
+	Value "Amarr Trade Ship"
 StringInfo
 	ID "IDS_TRADESHIP_TECH_DESCRIPTION"
-	Value "A small commercial vessel that carries merchant cargo between distant worlds."
+	Value "A Small commercial vessel that carries merchant cargo between distant worlds. Can be upgraded to Sigil and Providance."
 StringInfo
 	ID "IDS_TRADESHIP_PSI_NAME"
 	Value "Trade Drone"
@@ -11621,10 +11621,10 @@ StringInfo
 	Value "A commercial vessel that carries merchant cargo between distant worlds."
 StringInfo
 	ID "IDS_REFINERYSHIP_TECH_NAME"
-	Value "Mining Barge Refinery Ship"
+	Value "Mining Barge"
 StringInfo
 	ID "IDS_REFINERYSHIP_TECH_DESCRIPTION"
-	Value "A Mining ship that gets resources from asteroids to then be refined."
+	Value "Replacement for old Mining ships, Gets resources from asteroids to then be refined. Can be upgraded to Retriever and Covertor."
 StringInfo
 	ID "IDS_REFINERYSHIP_PSI_NAME"
 	Value "Refinery Drone"
@@ -23015,10 +23015,10 @@ StringInfo
 	Value "After an increase in the need for an anti structure platform, the Revelation class dreadnought was born. Sporting 3 massive giga beam lasers and a specialized siege mode, it is specifically designed to combat structures and capital ships. This variety of Revelation is designed for longer ranged engagements where more range is required, it therefore deal far less damage than the short ranged variety however it can apply that damage over a much greater distance."
 StringInfo
 	ID "IDS_CAPITALSHIP_RORQUAL_NAME"
-	Value "Rorqual"
+	Value "Rorqual Refit"
 StringInfo
 	ID "IDS_CAPITALSHIP_RORQUAL_DESCRIPTION"
-	Value "The Rorqual is a capital ship designed with colonisation and some utility in mind, it has been used for a multitude of purposes from gathering and processing materials to supporting allied shield tanking ships. It is equipped with a Smartbomb and a Capital Shield Transporter."
+	Value "Refited Rorqual to act as colonisation and resource gathering, it has been used for a multitude of purposes from gathering and processing materials to supporting allied shield tanking ships."
 StringInfo
 	ID "IDS_ABILITY_CAPITALSHIELDTRANSPORTER_NAME"
 	Value "Capital Shield Transporter"
@@ -24492,4 +24492,27 @@ StringInfo
 StringInfo
 	ID "IDS_CAPITALSHIP_NINAZU_DESCRIPTION"
 	Value "The Federal Intelligence Office additionally recommended that the Gallente build a Force Auxiliary capital of their own to maintain parity with the Amarr-Caldari alliance. The resulting crash development program created the Ninazu-class Force Auxiliary."
-	
+StringInfo
+	ID "IDS_TRADESHIP_CALDARI_NAME"
+	Value "Caldari Trade Ship"
+StringInfo
+	ID "IDS_TRADESHIP_CALDARI_DESCRIPTION"
+	Value "Caldari Industrial ship designed to haul goods across the empires. Can be upgraded to Tayra and Charon. "
+StringInfo
+	ID "IDS_TRADESHIP_GALLENTE_NAME"
+	Value "Gallente Trade Ship"
+StringInfo
+	ID "IDS_TRADESHIP_GALLENTE_DESCRIPTION"
+	Value "Gallente Industrial ship designed to haul goods across the empires. Can be upgraded to Iteron and Obelisk."	
+StringInfo
+	ID "IDS_TRADESHIP_MINMATAR_NAME"
+	Value "Minmatar Trade Ship"
+StringInfo
+	ID "IDS_TRADESHIP_MINMATAR_DESCRIPTION"
+	Value "Minmatar Industrial ship designed to haul goods across the empires. Can be upgraded to Mamonth and Fenrir. "
+StringInfo
+	ID "IDS_PLANETMODULE_JITASTATION_NAME"
+	Value "Jita Station Class"
+StringInfo
+	ID "IDS_PLANETMODULE_JITASTATION_DESCRIPTION"
+	Value "Replacemente for the old Trade Stations. Allows the establishment of new trade routes."	

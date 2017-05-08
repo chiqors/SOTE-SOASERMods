@@ -11,8 +11,8 @@ frigateRoleType "Cargo"
 statCountType "FrigateTradeShip"
 mainViewIcon "MAINVIEWICON_TRADESHIP_TECH"
 picture ""
-NameStringID "IDS_TRADESHIP_TECH_NAME"
-DescriptionStringID "IDS_TRADESHIP_TECH_DESCRIPTION"
+NameStringID "IDS_TRADESHIP_CALDARI_NAME"
+DescriptionStringID "IDS_TRADESHIP_CALDARI_DESCRIPTION"
 counterDescriptionStringID "IDS_COUNTERDESC_FRIGATE_NONCOMBAT"
 basePrice
 	credits 100.000000

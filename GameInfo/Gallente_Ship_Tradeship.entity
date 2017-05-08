@@ -11,8 +11,8 @@ frigateRoleType "Cargo"
 statCountType "FrigateTradeShip"
 mainViewIcon "MAINVIEWICON_TRADESHIP_TECH"
 picture "PICTURE_FRIGATE_BESTOWER"
-NameStringID "IDS_TRADESHIP_TECH_NAME"
-DescriptionStringID "IDS_TRADESHIP_TECH_DESCRIPTION"
+NameStringID "IDS_TRADESHIP_GALLENTE_NAME"
+DescriptionStringID "Gallente Trade Ship"
 counterDescriptionStringID "IDS_COUNTERDESC_FRIGATE_NONCOMBAT"
 basePrice
 	credits 100.000000
