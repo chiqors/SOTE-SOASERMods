@@ -1,5 +1,0 @@
-Raven e Naga sem funcionar
-Scorpion e Raven com fotos trocadas
-1- removido de player_Caldari 
-entityDefName "Gallente_ResearchSubject_SubCapitalAccess_Dominix"
-2- 

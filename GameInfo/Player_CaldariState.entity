@@ -503,11 +503,11 @@ planetElevatorData
 	elevatorMeshName:ProductionCenter "PlanetElevator-Phase-ProductionCenter"
 musicThemeData
 	startupMusicThemeCount 3
-	musicTheme "MUSIC_TEC_LOYALIST_1"
-	musicTheme "MUSIC_TEC_LOYALIST_2"
-	musicTheme "MUSIC_TEC_LOYALIST_3"
+	musicTheme "MUSIC_ADVENT_LOYALIST_1"
+	musicTheme "MUSIC_ADVENT_LOYALIST_2"
+	musicTheme "MUSIC_ADVENT_LOYALIST_3"
 	neutralMusicThemeCount 12
-	musicTheme "MUSIC_TEC_THEME_1"
+	musicTheme "MUSIC_ADVENT_THEME_1"
 	musicTheme "MUSIC_TEC_QUIET_1"
 	musicTheme "MUSIC_TEC_MISC_1"
 	musicTheme "MUSIC_TEC_MISC_2"

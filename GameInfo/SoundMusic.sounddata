@@ -386,7 +386,7 @@ music
 	emotionRange 0.6
 music
 	name "MUSIC_TEC_LOYALIST_1"
-	fileName "01 Glorious Future.ogg"
+	fileName "Amarr_Melody_1.ogg"
 	isLooping FALSE
 	actionLevel 0.4
 	actionRange 0.4
@@ -394,7 +394,7 @@ music
 	emotionRange 0.8
 music
 	name "MUSIC_TEC_LOYALIST_2"
-	fileName "Amarr Melody 2.ogg"
+	fileName "Amarr_Melody_2.ogg"
 	isLooping FALSE
 	actionLevel 0.4
 	actionRange 0.4
@@ -402,7 +402,7 @@ music
 	emotionRange 0.7
 music
 	name "MUSIC_TEC_LOYALIST_3"
-	fileName "Amarr Melody 3.ogg"
+	fileName "Amarr_Melody_3.ogg"
 	isLooping FALSE
 	actionLevel 0.25
 	actionRange 0.25
@@ -410,7 +410,7 @@ music
 	emotionRange 0.8
 music
 	name "MUSIC_TEC_REBEL_1"
-	fileName "TEC Rebels - Keep the Lanes Open.ogg"
+	fileName "But Still We Go On.ogg"
 	isLooping FALSE
 	actionLevel 0.4
 	actionRange 0.4
@@ -418,7 +418,7 @@ music
 	emotionRange 0.7
 music
 	name "MUSIC_TEC_REBEL_2"
-	fileName "TEC Rebels - To the Victor.ogg"
+	fileName "It Ends Here.ogg"
 	isLooping FALSE
 	actionLevel 0.4
 	actionRange 0.4
@@ -426,7 +426,7 @@ music
 	emotionRange 0.8
 music
 	name "MUSIC_TEC_REBEL_3"
-	fileName "TEC Rebels - Trade Wars.ogg"
+	fileName "My Other Residency.ogg"
 	isLooping FALSE
 	actionLevel 0.2
 	actionRange 0.2
@@ -442,7 +442,7 @@ music
 	emotionRange 0.7
 music
 	name "MUSIC_ADVENT_THEME_1"
-	fileName "Advent Theme.ogg"
+	fileName "Theme From Jita.ogg"
 	isLooping FALSE
 	actionLevel 0.4
 	actionRange 0.4
@@ -450,7 +450,7 @@ music
 	emotionRange 0.8
 music
 	name "MUSIC_ADVENT_LOYALIST_1"
-	fileName "Advent Loyalists - Fate of the Apostate.ogg"
+	fileName "Merchants, Looters and Ghosts.ogg"
 	isLooping FALSE
 	actionLevel 0.6
 	actionRange 0.4
@@ -458,7 +458,7 @@ music
 	emotionRange 1.0
 music
 	name "MUSIC_ADVENT_LOYALIST_2"
-	fileName "Advent Loyalists - In the Name of The Unity.ogg"
+	fileName "Eve_Online-Hidden Mementos.ogg"
 	isLooping FALSE
 	actionLevel 0.1
 	actionRange 0.1
@@ -466,7 +466,7 @@ music
 	emotionRange 1.0
 music
 	name "MUSIC_ADVENT_LOYALIST_3"
-	fileName "Advent Loyalists - Inevitable Retribution.ogg"
+	fileName "In The Depth Of Space.ogg"
 	isLooping FALSE
 	actionLevel 0.15
 	actionRange 0.15
@@ -594,7 +594,7 @@ music
 	emotionRange 0.4
 music
 	name "MUSIC_VASARI_THEME_1"
-	fileName "Vasari Theme.ogg"
+	fileName "Bonanza Excavation.ogg"
 	isLooping FALSE
 	actionLevel 0.25
 	actionRange 0.3
@@ -610,7 +610,7 @@ music
 	emotionRange 0.7	
 music
 	name "MUSIC_VASARI_MISC_1"
-	fileName "Vasari 1.ogg"
+	fileName "Doomed Forever.ogg"
 	isLooping FALSE
 	actionLevel 0.5
 	actionRange 0.5
@@ -618,7 +618,7 @@ music
 	emotionRange 0.8
 music
 	name "MUSIC_VASARI_MISC_2"
-	fileName "Vasari 2.ogg"
+	fileName "Gallentean Refuge.ogg"
 	isLooping FALSE
 	actionLevel 0.2
 	actionRange 0.25
@@ -626,7 +626,7 @@ music
 	emotionRange 0.8
 music
 	name "MUSIC_VASARI_MISC_3"
-	fileName "Vasari 3.ogg"
+	fileName "Miners Heaven.ogg"
 	isLooping FALSE
 	actionLevel 0.3
 	actionRange 0.3

@@ -496,9 +496,9 @@ planetElevatorData
 	elevatorMeshName:ProductionCenter "PlanetElevator-Tech-ProductionCenter"
 musicThemeData
 	startupMusicThemeCount 3
-	musicTheme "MUSIC_TEC_LOYALIST_1"
-	musicTheme "MUSIC_TEC_LOYALIST_2"
-	musicTheme "MUSIC_TEC_LOYALIST_3"
+	musicTheme "MUSIC_TEC_REBEL_1"
+	musicTheme "MUSIC_TEC_REBEL_2"
+	musicTheme "MUSIC_TEC_REBEL_3"
 	neutralMusicThemeCount 12
 	musicTheme "MUSIC_TEC_THEME_1"
 	musicTheme "MUSIC_TEC_QUIET_1"
