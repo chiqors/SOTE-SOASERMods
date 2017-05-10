@@ -1,30 +1,33 @@
 ﻿TXT
 entityType "ResearchSubject"
-hudIcon "HUDICON_RESEARCHSUBJECT_STRUCTUREWORK_METALEXTRACTPSI0"
-smallHudIcon "HUDICON_RESEARCHSUBJECT_STRUCTUREWORK_METALEXTRACTPSI0"
+hudIcon "HUDICON_RESEARCHSUBJECT_STRUCTUREWORK_METALEXTRACTPSI2"
+smallHudIcon "HUDICON_RESEARCHSUBJECT_STRUCTUREWORK_METALEXTRACTPSI2"
 infoCardIcon ""
-NameStringID "IDS_MINERAL_VELDSPAR_NAME"
-DescriptionStringID "IDS_MINERAL_VELDSPAR_DESCRIPTION"
+NameStringID "IDS_MINERAL_BISTOT_NAME"
+DescriptionStringID "IDS_MINERAL_BISTOT_DESCRIPTION"
 researchWindowLocation
 	block 2
-	pos [ 0 , 4 ]
+	pos [ 6 , 4 ]
 ResearchField "NonCombat"
 Prerequisites
-	NumResearchPrerequisites 0
+	NumResearchPrerequisites 1
+	ResearchPrerequisite
+		Subject "RESEARCHSUBJECT_STRUCTUREWORK_METALEXTRACTPSI2"
+		Level 2
 	RequiredFactionNameID ""
 	RequiredCompletedResearchSubjects 0
 MinimumArtifactLevel -1
-BaseUpgradeTime 40.000000
-PerLevelUpgradeTime 5.000000
+BaseUpgradeTime 105.000000
+PerLevelUpgradeTime 10.000000
 BaseCost
-	credits 400.000000
-	metal 0.000000
-	crystal 25.000000
+	credits 1600.000000
+	metal 300.000000
+	crystal 475.000000
 PerLevelCostIncrease
 	credits 100.000000
-	metal 0.000000
+	metal 25.000000
 	crystal 25.000000
-Tier 0
+Tier 6
 onlyWorksIfTierLabsExist FALSE
 MaxNumResearchLevels 2
 priority 1.000000

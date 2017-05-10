@@ -1,5 +1,5 @@
 TXT
-NumStrings 8172
+NumStrings 8188
 StringInfo
     ID "IDS_ABILITY_RORQUALPANIC_NAME"
 	Value "P.A.N.I.C Module"
@@ -24516,3 +24516,52 @@ StringInfo
 StringInfo
 	ID "IDS_PLANETMODULE_JITASTATION_DESCRIPTION"
 	Value "Replacemente for the old Trade Stations. Allows the establishment of new trade routes."	
+StringInfo
+	ID "IDS_MINERAL_TRITANIUM_NAME"
+	Value "Tritanium Refining"
+StringInfo
+	ID "IDS_MINERAL_TRITANIUM_DESCRIPTION"
+	Value "Tritanium is a primary construction material in most structures and ships in New Eden."
+StringInfo
+	ID "IDS_MINERAL_MEXALLON_NAME"
+	Value "Mexallon Refining"
+StringInfo
+	ID "IDS_MINERAL_MEXALLON_DESCRIPTION"
+	Value ""
+StringInfo
+	ID "IDS_MINERAL_ZYDRINE_NAME"
+	Value "Zydrine Refining"
+StringInfo
+	ID "IDS_MINERAL_ZYDRINE_DESCRIPTION"
+	Value ""
+StringInfo
+	ID "IDS_MINERAL_MEGACYTE_NAME"
+	Value "Megacyte Refining"
+StringInfo
+	ID "IDS_MINERAL_MEGACYTE_DESCRIPTION"
+	Value ""
+StringInfo
+	ID "IDS_MINERAL_VELDSPAR_NAME"
+	Value "Veldspar Mining"
+StringInfo
+	ID "IDS_MINERAL_VELDSPAR_DESCRIPTION"
+	Value ""
+StringInfo
+	ID "IDS_MINERAL_GNEISS_NAME"
+	Value "Gneiss Mining"
+StringInfo
+	ID "IDS_MINERAL_GNEISS_DESCRIPTION"
+	Value ""
+StringInfo
+	ID "IDS_MINERAL_BISTOT_NAME"
+	Value "Bistot Mining"
+StringInfo
+	ID "IDS_MINERAL_BISTOT_DESCRIPTION"
+	Value ""
+StringInfo
+	ID "IDS_MINERAL_ARKONOR_NAME"
+	Value "Arkonor Mining"
+StringInfo
+	ID "IDS_MINERAL_ARKONOR_DESCRIPTION"
+	Value ""
+	

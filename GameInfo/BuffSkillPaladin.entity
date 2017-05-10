@@ -14,17 +14,17 @@ numEntityModifiers 2
 entityModifier
 buffEntityModifierType "DamageAsDamageDealer"
 	value
-		Level:0 1.062500
-		Level:1 1.125000
-		Level:2 1.187500
+		Level:0 1.250000
+		Level:1 1.250000
+		Level:2 1.250000
 		Level:3 1.250000		
 entityModifier
 	buffEntityModifierType "AbilityCooldownRate"
 	value
-		Level:0 0.300000
-		Level:1 0.300000
-		Level:2 0.300000
-		Level:3 0.300000
+		Level:0 -0.300000
+		Level:1 -0.300000
+		Level:2 -0.300000
+		Level:3 -0.300000
 numEntityBoolModifiers 0
 numFinishConditions 1
 finishCondition
