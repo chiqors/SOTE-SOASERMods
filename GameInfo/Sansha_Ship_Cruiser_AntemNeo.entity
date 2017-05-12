@@ -22,12 +22,12 @@ slotCount 3.000000
 BuildTime 70.000000
 hasLevels FALSE
 ExperiencePointsForDestroying 200.000000
-MaxHullPoints 3500.000000
-MaxShieldPoints 7000.000000
+MaxHullPoints 3750.000000
+MaxShieldPoints 7500.000000
 HullPointRestoreRate 5.000000
 ShieldPointRestoreRate 29.000000
 BaseArmorPoints 0.000000
-maxMitigation 0.770000
+maxMitigation 0.500000
 Prerequisites
 	NumResearchPrerequisites 0
 	RequiredFactionNameID ""
@@ -49,7 +49,7 @@ Weapon
 		DamageApplyType "OVERTIME"
 		DamageType "ENERGY"
 		WeaponClassType "BEAM"
-	DamagePerBank:FRONT 210.000000
+	DamagePerBank:FRONT 168.000000
 	DamagePerBank:BACK 0.000000
 	DamagePerBank:LEFT 0.000000
 	DamagePerBank:RIGHT 0.000000

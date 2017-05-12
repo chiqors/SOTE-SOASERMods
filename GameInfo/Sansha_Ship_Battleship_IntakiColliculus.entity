@@ -22,12 +22,12 @@ slotCount 16.000000
 BuildTime 260.000000
 hasLevels FALSE
 ExperiencePointsForDestroying 500.000000
-MaxHullPoints 15000.000000
-MaxShieldPoints 31000.000000
-HullPointRestoreRate 15.000000
-ShieldPointRestoreRate 90.000000
+MaxHullPoints 19800.000000
+MaxShieldPoints 39600.000000
+HullPointRestoreRate 10.000000
+ShieldPointRestoreRate 10.000000
 BaseArmorPoints 0.000000
-maxMitigation 0.660000
+maxMitigation 0.400000
 Prerequisites
 	NumResearchPrerequisites 0
 	RequiredFactionNameID ""
@@ -49,7 +49,7 @@ Weapon
 		DamageApplyType "BACKLOADED"
 		DamageType "PHYSICAL"
 		WeaponClassType "MISSILE"
-	DamagePerBank:FRONT 1025.000000
+	DamagePerBank:FRONT 282.000000
 	DamagePerBank:BACK 0.000000
 	DamagePerBank:LEFT 0.000000
 	DamagePerBank:RIGHT 0.000000

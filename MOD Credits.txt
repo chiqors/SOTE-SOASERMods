@@ -1,12 +1,16 @@
 Kabivel
 Creation of the Caldari and Mimatar Races
 
+Vader111
+For fixing models and textures
+
+
 OLD MOD CREDITS.....
 
-FootyMD
-New Project Manager
+FootyMD and Vanox
 
-Vanox
+For rorqual and capital titans contribution 
+
 Debuger
 
 =======
