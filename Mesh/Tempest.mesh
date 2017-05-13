@@ -16,7 +16,7 @@ MeshData
 		Ambient ffffffff
 		Specular ffffffff
 		Emissive ffffffff
-		Glossiness 96.078430
+		Glossiness 90.0
 	Material
 		DiffuseTextureFileName "tempest-cl.dds"
 		SelfIlluminationTextureFileName "tempest-da.dds"
@@ -27,7 +27,7 @@ MeshData
 		Ambient ffffffff
 		Specular ffffffff
 		Emissive ffffffff
-		Glossiness 96.078430
+		Glossiness 90.0
 	Material
 		DiffuseTextureFileName "tempest-cl.dds"
 		SelfIlluminationTextureFileName "tempest-da.dds"
@@ -38,7 +38,7 @@ MeshData
 		Ambient ffffffff
 		Specular ffffffff
 		Emissive ffffffff
-		Glossiness 96.078430
+		Glossiness 90.0
 	NumPoints 22
 	Point
 		DataString "Above"
