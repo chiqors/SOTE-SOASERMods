@@ -1,6 +1,6 @@
 ﻿TXT
 onlyLoadOnDemand FALSE
-brushCount 680
+brushCount 682
 brush
 	name "HUDICON_RESEARCHSUBJECT_POPULATIONCAP_IRON_0"
 	content "States"
@@ -7106,60 +7106,6 @@ brush
 		fileName "Buttons_Research_Normal"
 		pixelBox [ 464 , 142 , 47 , 33 ]
 brush
-	name "HUDICON_RESEARCHSUBJECT_STRUCTUREWORK_CRYSTALEXTRACTPSI0"
-	content "States"
-	Disabled
-		fileName "Buttons_Research_Disabled"
-		pixelBox [ 413 , 31 , 47 , 33 ]
-	Pressed
-		fileName "Buttons_Research_Pressed"
-		pixelBox [ 413 , 31 , 47 , 33 ]
-	CursorOver
-		fileName "Buttons_Research_CursorOver"
-		pixelBox [ 413 , 31 , 47 , 33 ]
-	Focused
-		fileName "Buttons_Research_Normal"
-		pixelBox [ 413 , 31 , 47 , 33 ]
-	Normal
-		fileName "Buttons_Research_Normal"
-		pixelBox [ 413 , 31 , 47 , 33 ]
-brush
-	name "HUDICON_RESEARCHSUBJECT_STRUCTUREWORK_CRYSTALEXTRACTPSI1"
-	content "States"
-	Disabled
-		fileName "Buttons_Research_Disabled"
-		pixelBox [ 515 , 31 , 47 , 33 ]
-	Pressed
-		fileName "Buttons_Research_Pressed"
-		pixelBox [ 515 , 31 , 47 , 33 ]
-	CursorOver
-		fileName "Buttons_Research_CursorOver"
-		pixelBox [ 515 , 31 , 47 , 33 ]
-	Focused
-		fileName "Buttons_Research_Normal"
-		pixelBox [ 515 , 31 , 47 , 33 ]
-	Normal
-		fileName "Buttons_Research_Normal"
-		pixelBox [ 515 , 31 , 47 , 33 ]
-brush
-	name "HUDICON_RESEARCHSUBJECT_STRUCTUREWORK_CRYSTALEXTRACTPSI2"
-	content "States"
-	Disabled
-		fileName "Buttons_Research_Disabled"
-		pixelBox [ 464 , 31 , 47 , 33 ]
-	Pressed
-		fileName "Buttons_Research_Pressed"
-		pixelBox [ 464 , 31 , 47 , 33 ]
-	CursorOver
-		fileName "Buttons_Research_CursorOver"
-		pixelBox [ 464 , 31 , 47 , 33 ]
-	Focused
-		fileName "Buttons_Research_Normal"
-		pixelBox [ 464 , 31 , 47 , 33 ]
-	Normal
-		fileName "Buttons_Research_Normal"
-		pixelBox [ 464 , 31 , 47 , 33 ]
-brush
 	name "HUDICON_RESEARCHSUBJECT_STRUCTUREWORK_METALEXTRACTTECH0"
 	content "States"
 	Disabled
@@ -7213,60 +7159,6 @@ brush
 	Normal
 		fileName "Buttons_Research_Normal"
 		pixelBox [ 464 , 105 , 47 , 33 ]
-brush
-	name "HUDICON_RESEARCHSUBJECT_STRUCTUREWORK_METALEXTRACTPSI0"
-	content "States"
-	Disabled
-		fileName "Buttons_Research_Disabled"
-		pixelBox [ 515 , 68 , 47 , 33 ]
-	Pressed
-		fileName "Buttons_Research_Pressed"
-		pixelBox [ 515 , 68 , 47 , 33 ]
-	CursorOver
-		fileName "Buttons_Research_CursorOver"
-		pixelBox [ 515 , 68 , 47 , 33 ]
-	Focused
-		fileName "Buttons_Research_Normal"
-		pixelBox [ 515 , 68 , 47 , 33 ]
-	Normal
-		fileName "Buttons_Research_Normal"
-		pixelBox [ 515 , 68 , 47 , 33 ]
-brush
-	name "HUDICON_RESEARCHSUBJECT_STRUCTUREWORK_METALEXTRACTPSI1"
-	content "States"
-	Disabled
-		fileName "Buttons_Research_Disabled"
-		pixelBox [ 464 , 68 , 47 , 33 ]
-	Pressed
-		fileName "Buttons_Research_Pressed"
-		pixelBox [ 464 , 68 , 47 , 33 ]
-	CursorOver
-		fileName "Buttons_Research_CursorOver"
-		pixelBox [ 464 , 68 , 47 , 33 ]
-	Focused
-		fileName "Buttons_Research_Normal"
-		pixelBox [ 464 , 68 , 47 , 33 ]
-	Normal
-		fileName "Buttons_Research_Normal"
-		pixelBox [ 464 , 68 , 47 , 33 ]
-brush
-	name "HUDICON_RESEARCHSUBJECT_STRUCTUREWORK_METALEXTRACTPSI2"
-	content "States"
-	Disabled
-		fileName "Buttons_Research_Disabled"
-		pixelBox [ 413 , 68 , 47 , 33 ]
-	Pressed
-		fileName "Buttons_Research_Pressed"
-		pixelBox [ 413 , 68 , 47 , 33 ]
-	CursorOver
-		fileName "Buttons_Research_CursorOver"
-		pixelBox [ 413 , 68 , 47 , 33 ]
-	Focused
-		fileName "Buttons_Research_Normal"
-		pixelBox [ 413 , 68 , 47 , 33 ]
-	Normal
-		fileName "Buttons_Research_Normal"
-		pixelBox [ 413 , 68 , 47 , 33 ]
 brush
 	name "HUDICON_RESEARCHSUBJECT_STRUCTUREWORK_RESOURCEEXTRACT0"
 	content "States"
@@ -11929,4 +11821,148 @@ brush
 	Normal
 		fileName "Ships_Buttons_Normal"
 		pixelBox [ 259 , 644 , 47 , 33 ]
-	
+brush
+	name "HUDICON_RESEARCHSUBJECT_STRUCTUREWORK_CRYSTALEXTRACTPSI0"
+	content "States"
+	Disabled
+		fileName "Buttons_Abilities_Disabled"
+		pixelBox [ 5 , 919 , 47 , 33 ]
+	Pressed
+		fileName "Buttons_Abilities_Pressed"
+		pixelBox [ 5 , 919 , 47 , 33 ]
+	CursorOver
+		fileName "Buttons_Abilities_CursorOver"
+		pixelBox [ 5 , 919 , 47 , 33 ]
+	Focused
+		fileName "Buttons_Abilities_Normal"
+		pixelBox [ 5 , 919 , 47 , 33 ]
+	Normal
+		fileName "Buttons_Abilities_Normal"
+		pixelBox [ 5 , 919 , 47 , 33 ]
+brush
+	name "HUDICON_RESEARCHSUBJECT_STRUCTUREWORK_CRYSTALEXTRACTPSI1"
+	content "States"
+	Disabled
+		fileName "Buttons_Abilities_Disabled"
+		pixelBox [ 56 , 919 , 47 , 33 ]
+	Pressed
+		fileName "Buttons_Abilities_Pressed"
+		pixelBox [ 56 , 919 , 47 , 33 ]
+	CursorOver
+		fileName "Buttons_Abilities_CursorOver"
+		pixelBox [ 56 , 919 , 47 , 33 ]
+	Focused
+		fileName "Buttons_Abilities_Normal"
+		pixelBox [ 56 , 919 , 47 , 33 ]
+	Normal
+		fileName "Buttons_Abilities_Normal"
+		pixelBox [ 56 , 919 , 47 , 33 ]
+brush
+	name "HUDICON_RESEARCHSUBJECT_STRUCTUREWORK_CRYSTALEXTRACTPSI2"
+	content "States"
+	Disabled
+		fileName "Buttons_Abilities_Disabled"
+		pixelBox [ 107 , 919 , 47 , 33 ]
+	Pressed
+		fileName "Buttons_Abilities_Pressed"
+		pixelBox [ 107 , 919 , 47 , 33 ]
+	CursorOver
+		fileName "Buttons_Abilities_CursorOver"
+		pixelBox [ 107 , 919 , 47 , 33 ]
+	Focused
+		fileName "Buttons_Abilities_Normal"
+		pixelBox [ 107 , 919 , 47 , 33 ]
+	Normal
+		fileName "Buttons_Abilities_Normal"
+		pixelBox [ 107 , 919 , 47 , 33 ]
+brush
+	name "HUDICON_RESEARCHSUBJECT_STRUCTUREWORK_CRYSTALEXTRACTPSI3"
+	content "States"
+	Disabled
+		fileName "Buttons_Abilities_Disabled"
+		pixelBox [ 158 , 919 , 47 , 33 ]
+	Pressed
+		fileName "Buttons_Abilities_Pressed"
+		pixelBox [ 158 , 919 , 47 , 33 ]
+	CursorOver
+		fileName "Buttons_Abilities_CursorOver"
+		pixelBox [ 158 , 919 , 47 , 33 ]
+	Focused
+		fileName "Buttons_Abilities_Normal"
+		pixelBox [ 158 , 919 , 47 , 33 ]
+	Normal
+		fileName "Buttons_Abilities_Normal"
+		pixelBox [ 158 , 919 , 47 , 33 ]
+brush
+	name "HUDICON_RESEARCHSUBJECT_STRUCTUREWORK_METALEXTRACTPSI0"
+	content "States"
+	Disabled
+		fileName "Buttons_Abilities_Disabled"
+		pixelBox [ 5 , 955 , 47 , 33 ]
+	Pressed
+		fileName "Buttons_Abilities_Pressed"
+		pixelBox [ 5 , 955 , 47 , 33 ]
+	CursorOver
+		fileName "Buttons_Abilities_CursorOver"
+		pixelBox [ 5 , 955 , 47 , 33 ]
+	Focused
+		fileName "Buttons_Abilities_Normal"
+		pixelBox [ 5 , 955 , 47 , 33 ]
+	Normal
+		fileName "Buttons_Abilities_Normal"
+		pixelBox [ 5 , 955 , 47 , 33 ]
+brush
+	name "HUDICON_RESEARCHSUBJECT_STRUCTUREWORK_METALEXTRACTPSI1"
+	content "States"
+	Disabled
+		fileName "Buttons_Abilities_Disabled"
+		pixelBox [ 56 , 955 , 47 , 33 ]
+	Pressed
+		fileName "Buttons_Abilities_Pressed"
+		pixelBox [ 56 , 955 , 47 , 33 ]
+	CursorOver
+		fileName "Buttons_Abilities_CursorOver"
+		pixelBox [ 56 , 955 , 47 , 33 ]
+	Focused
+		fileName "Buttons_Abilities_Normal"
+		pixelBox [ 56 , 955 , 47 , 33 ]
+	Normal
+		fileName "Buttons_Abilities_Normal"
+		pixelBox [ 56 , 955 , 47 , 33 ]
+brush
+	name "HUDICON_RESEARCHSUBJECT_STRUCTUREWORK_METALEXTRACTPSI2"
+	content "States"
+	Disabled
+		fileName "Buttons_Abilities_Disabled"
+		pixelBox [ 107 , 955 , 47 , 33 ]
+	Pressed
+		fileName "Buttons_Abilities_Pressed"
+		pixelBox [ 107 , 955 , 47 , 33 ]
+	CursorOver
+		fileName "Buttons_Abilities_CursorOver"
+		pixelBox [ 107 , 955 , 47 , 33 ]
+	Focused
+		fileName "Buttons_Abilities_Normal"
+		pixelBox [ 107 , 955 , 47 , 33 ]
+	Normal
+		fileName "Buttons_Abilities_Normal"
+		pixelBox [ 107 , 955 , 47 , 33 ]
+brush
+	name "HUDICON_RESEARCHSUBJECT_STRUCTUREWORK_METALEXTRACTPSI3"
+	content "States"
+	Disabled
+		fileName "Buttons_Abilities_Disabled"
+		pixelBox [ 158 , 955 , 47 , 33 ]
+	Pressed
+		fileName "Buttons_Abilities_Pressed"
+		pixelBox [ 158 , 955 , 47 , 33 ]
+	CursorOver
+		fileName "Buttons_Abilities_CursorOver"
+		pixelBox [ 158 , 955 , 47 , 33 ]
+	Focused
+		fileName "Buttons_Abilities_Normal"
+		pixelBox [ 158 , 955 , 47 , 33 ]
+	Normal
+		fileName "Buttons_Abilities_Normal"
+		pixelBox [ 158 , 955 , 47 , 33 ]
+				

@@ -10,5 +10,8 @@ Thanatos Squads revamp
 Make Citadel stop turning
 Concord textures
 Caracal textures
-Create a particle effect for Shield Boosters like this ones:EVE_Buff_ECMJammer_Large, EVE_Buff_ECMJammer_Medium and EVE_Buff_ECMJammer_Projectile
 Svipul model
+
+Put effects on buffs
+Create tethering using buffoutpost as model
+Create arcingvoltorn using judment

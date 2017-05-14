@@ -6,13 +6,13 @@ infoCardIcon ""
 NameStringID "IDS_MINERAL_MEGACYTE_NAME"
 DescriptionStringID "IDS_MINERAL_MEGACYTE_DESCRIPTION"
 researchWindowLocation
-	block 2
-	pos [ 6 , 3 ]
+	block 0
+	pos [ 7 , 3 ]
 ResearchField "NonCombat"
 Prerequisites
 	NumResearchPrerequisites 1
 	ResearchPrerequisite
-		Subject "RESEARCHSUBJECT_STRUCTUREWORK_CRYSTALEXTRACTPSI1"
+		Subject "RESEARCHSUBJECT_STRUCTUREWORK_CRYSTALEXTRACTPSI2"
 		Level 7
 	RequiredFactionNameID ""
 	RequiredCompletedResearchSubjects 0

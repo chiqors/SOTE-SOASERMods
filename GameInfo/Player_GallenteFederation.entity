@@ -73,7 +73,8 @@ entities
 			entityDefName "Gallente_Ship_Tradeship"
 			entityDefName "Amarr_Ship_Refineryship_Bestower"
 	researchInfo
-		count 120
+		count 125
+		entityDefName "AllRaces_ResearchSubject_ArcingVortonProjector"		
 		entityDefName "RESEARCHSUBJECT_STARBASEUPGRADEACCESS_TRADEPORTTECH"
 		entityDefName "Gallente_ResearchSubject_SubCapitalAccess_Hecate"
 		entityDefName "AllRaces_ResearchSubject_PlanetModuleAccess_CYNOSURAL_NAVIGATION"
@@ -146,10 +147,14 @@ entities
 		entityDefName "Gallente_ResearchSubject_PlanetModuleAccess_MediumBlasterBattery"
 		entityDefName "Gallente_ResearchSubject_PlanetModuleAccess_LargeBlasterBattery"
 		entityDefName "RESEARCHSUBJECT_SALVAGEDEBRIS"
-		entityDefName "RESEARCHSUBJECT_STRUCTUREWORK_RESOURCEEXTRACT0"
-		entityDefName "RESEARCHSUBJECT_STRUCTUREWORK_RESOURCEEXTRACT1"
-		entityDefName "RESEARCHSUBJECT_STRUCTUREWORK_RESOURCEEXTRACT2"
-		entityDefName "RESEARCHSUBJECT_STRUCTUREWORK_RESOURCEEXTRACT3"
+		entityDefName "RESEARCHSUBJECT_STRUCTUREWORK_METALEXTRACTPSI0"
+		entityDefName "RESEARCHSUBJECT_STRUCTUREWORK_METALEXTRACTPSI1"
+		entityDefName "RESEARCHSUBJECT_STRUCTUREWORK_METALEXTRACTPSI2"
+		entityDefName "RESEARCHSUBJECT_STRUCTUREWORK_METALEXTRACTPSI3"
+		entityDefName "RESEARCHSUBJECT_STRUCTUREWORK_CRYSTALEXTRACTPSI0"
+		entityDefName "RESEARCHSUBJECT_STRUCTUREWORK_CRYSTALEXTRACTPSI1"
+		entityDefName "RESEARCHSUBJECT_STRUCTUREWORK_CRYSTALEXTRACTPSI2"
+		entityDefName "RESEARCHSUBJECT_STRUCTUREWORK_CRYSTALEXTRACTPSI3"
 		entityDefName "Gallente_ResearchSubject_SubCapitalAccess_BrutixEnvoy"
 		entityDefName "RESEARCHSUBJECT_XENO_MANIPULATION"
 		entityDefName "RESEARCHSUBJECT_ADVANCED_XENO_MANIPULATION"

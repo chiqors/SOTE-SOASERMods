@@ -3,11 +3,11 @@ entityType "ResearchSubject"
 hudIcon "HUDICON_RESEARCHSUBJECT_STRUCTUREWORK_METALEXTRACTPSI2"
 smallHudIcon "HUDICON_RESEARCHSUBJECT_STRUCTUREWORK_METALEXTRACTPSI2"
 infoCardIcon ""
-NameStringID "IDS_RESEARCHSUBJECT_STRUCTUREWORK_METALEXTRACTPSI2_NAME"
-DescriptionStringID "IDS_RESEARCHSUBJECT_STRUCTUREWORK_METALEXTRACTPSI2_DESCRIPTION"
+NameStringID "IDS_MINERAL_BISTOT_NAME"
+DescriptionStringID "IDS_MINERAL_BISTOT_DESCRIPTION"
 researchWindowLocation
-	block 2
-	pos [ 4 , 4 ]
+	block 0
+	pos [ 4 , 2 ]
 ResearchField "NonCombat"
 Prerequisites
 	NumResearchPrerequisites 1
@@ -36,7 +36,7 @@ researchFloatModifiers 1
 researchModifier
 	modifierType "ExtractionRateMetalAdjustment"
 	baseValue 0.000000
-	perLevelValue 0.066667
+	perLevelValue 0.025000
 artifactPicture ""
 uniqueOverlayBrush ""
 dlcId 204880

@@ -35,7 +35,7 @@ entities
 			entityDefName "Minmatar_Ship_Titan_Ragnarok"
 	capitalShipInfo
 		Page:0
-			count 7
+			count 8
 			entityDefName "Minmatar_Ship_Carrier_Nidhoggur"
 			entityDefName "Minmatar_Ship_Carrier_Triage_Lif"
 			entityDefName "Minmatar_Ship_Dreadnought_Naglfar_ShortRange"
@@ -43,6 +43,7 @@ entities
 			entityDefName "Minmatar_Ship_Supercarrier_Hel"
 			entityDefName "Amarr_Ship_ColonyCapital_Rorqual"
 			entityDefName "AllRaces_Ship_Supercarrier_Revenant"
+			entityDefName "Minmatar_Ship_Capital_Titan_Ragnarok"
 	frigateInfo
 		Page:0
 			count 9
@@ -72,7 +73,7 @@ entities
 			entityDefName "Minmatar_Ship_Tradeship_Manmonth"
 			entityDefName "Minmatar_Ship_Refineryship_Mamonth"
 	researchInfo
-		count 126
+		count 129
 		entityDefName "Minmatar_ResearchSubject_SubCapitalAccess_Svipul"
 		entityDefName "AllRaces_ResearchSubject_PlanetModuleAccess_CYNOSURAL_NAVIGATION"
 		entityDefName "ALLRACES_RESEARCHSUBJECT_ABILITYACCESS_AFTERBURNER"
@@ -191,14 +192,17 @@ entities
 		entityDefName "RESEARCHSUBJECT_RESEARCHVICTORY_TECH"
 		entityDefName "RESEARCHSUBJECT_SALVAGEDEBRIS"
 		entityDefName "RESEARCHSUBJECT_STARBASEUPGRADEACCESS_TRADEPORTTECH"
-		entityDefName "RESEARCHSUBJECT_STRUCTUREWORK_CRYSTALEXTRACTTECH0"
-		entityDefName "RESEARCHSUBJECT_STRUCTUREWORK_CRYSTALEXTRACTTECH1"
-		entityDefName "RESEARCHSUBJECT_STRUCTUREWORK_CRYSTALEXTRACTTECH2"
-		entityDefName "RESEARCHSUBJECT_STRUCTUREWORK_METALEXTRACTTECH0"
-		entityDefName "RESEARCHSUBJECT_STRUCTUREWORK_METALEXTRACTTECH1"
-		entityDefName "RESEARCHSUBJECT_STRUCTUREWORK_METALEXTRACTTECH2"
+		entityDefName "RESEARCHSUBJECT_STRUCTUREWORK_METALEXTRACTPSI0"
+		entityDefName "RESEARCHSUBJECT_STRUCTUREWORK_METALEXTRACTPSI1"
+		entityDefName "RESEARCHSUBJECT_STRUCTUREWORK_METALEXTRACTPSI2"
+		entityDefName "RESEARCHSUBJECT_STRUCTUREWORK_METALEXTRACTPSI3"
+		entityDefName "RESEARCHSUBJECT_STRUCTUREWORK_CRYSTALEXTRACTPSI0"
+		entityDefName "RESEARCHSUBJECT_STRUCTUREWORK_CRYSTALEXTRACTPSI1"
+		entityDefName "RESEARCHSUBJECT_STRUCTUREWORK_CRYSTALEXTRACTPSI2"
+		entityDefName "RESEARCHSUBJECT_STRUCTUREWORK_CRYSTALEXTRACTPSI3"
 		entityDefName "RESEARCHSUBJECT_SHARED_NETWORK"
 		entityDefName "RESEARCHSUBJECT_UNIVERSAL_NEGOTIATION"
+		entityDefName "AllRaces_ResearchSubject_ArcingVortonProjector"
 	starBaseInfo
 		count 3
 		entityDefName "Allraces_Structure_Citadel_Astrahus"

@@ -6,8 +6,8 @@ infoCardIcon ""
 NameStringID "IDS_MINERAL_GNEISS_NAME"
 DescriptionStringID "IDS_MINERAL_GNEISS_DESCRIPTION"
 researchWindowLocation
-	block 2
-	pos [ 2 , 4 ]
+	block 0
+	pos [ 2 , 2 ]
 ResearchField "NonCombat"
 Prerequisites
 	NumResearchPrerequisites 1

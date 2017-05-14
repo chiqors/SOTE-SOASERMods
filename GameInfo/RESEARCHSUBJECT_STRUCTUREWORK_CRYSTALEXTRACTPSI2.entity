@@ -6,8 +6,8 @@ infoCardIcon ""
 NameStringID "IDS_MINERAL_ZYDRINE_NAME"
 DescriptionStringID "IDS_MINERAL_ZYDRINE_DESCRIPTION"
 researchWindowLocation
-	block 2
-	pos [ 4 , 3 ]
+	block 0
+	pos [ 5 , 3 ]
 ResearchField "NonCombat"
 Prerequisites
 	NumResearchPrerequisites 1

@@ -1,5 +1,5 @@
 TXT
-entityNameCount 2215
+entityNameCount 2222
 entityName "BuffSuppressionChannelEnd.entity"
 entityName "AbilityAbilityGuidance.entity"
 entityName "AbilityPhasedArmourHardener.entity"
@@ -2215,4 +2215,10 @@ entityName "Minmatar_Structure_TradePort.entity"
 entityName "Gallente_Ship_Tradeship.entity"
 entityName "AbilityRorqualExtractor.entity"
 entityName "AbilityRorqualPanic.entity"
-
+entityName "Minmatar_Ship_Capital_Titan_Ragnarok.entity"
+entityName "AbilityGjallarhornCapital.entity"
+entityName "BuffGjallarhorn.entity"
+entityName "BuffArcingVortonProjector.entity"
+entityName "AllRaces_ResearchSubject_ArcingVortonProjector.entity"
+entityName "RESEARCHSUBJECT_STRUCTUREWORK_CRYSTALEXTRACTPSI3.entity"
+entityName "RESEARCHSUBJECT_STRUCTUREWORK_METALEXTRACTPSI3.entity"
