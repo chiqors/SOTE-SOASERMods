@@ -3,7 +3,7 @@ entityType "StarBase"
 ability:0 "AbilityTethering"
 ability:1 "AbilityECMBattery"
 ability:2 "AbilitySensorDampener"
-ability:3 ""
+ability:3 "AbilityArcingVortonProjector"
 ability:4 ""
 defaultAutoAttackRange "None"
 defaultAutoAttackOn TRUE
