@@ -28,23 +28,19 @@ instantAction
 	targetFilter
 		numOwnerships 1
 		ownership "Enemy"
-		numObjects 6
+		numObjects 2
 		object "Titan"
 		object "CapitalShip"
-		object "Frigate"
-		object "Corvette"
-		object "PlanetModule"
-		object "StarBase"
 		numSpaces 1
 		space "Normal"
 		numConstraints 2
 		constraint "HasWeapons"
 		constraint "NotIsBoarded"
 	range
-		Level:0 3000.000000
-		Level:1 3000.000000
-		Level:2 3000.000000
-		Level:3 3000.000000
+		Level:0 20000.000000
+		Level:1 20000.000000
+		Level:2 20000.000000
+		Level:3 20000.000000
 	maxTargetCount
 		Level:0 1.000000
 		Level:1 1.000000
@@ -59,12 +55,45 @@ instantAction
 		soundID ""
 	travelSpeed 1300.000000
 	effectStaggerDelay 2.000000
-	hasWeaponEffects FALSE
+	hasWeaponEffects TRUE
+	weaponEffectOriginType "Targetter"
+	weaponEffectAttachInfo
+		attachType "Ability"
+		abilityIndex 0
+	weaponEffectImpactOffsetType "Center"
+	canWeaponEffectHitHull FALSE
+	canWeaponEffectHitShields FALSE
+	weaponEffectsDef
+		weaponType "Beam"
+		burstCount 1
+		burstDelay 0.000000
+		fireDelay 0.000000
+		muzzleEffectName "ArcingVorton_Fire"
+		muzzleSoundMinRespawnTime 0.100000
+		muzzleSounds
+			soundCount 1
+			sound ""
+		hitEffectName "ArcingVorton_Hit"
+		hitHullEffectSounds
+			soundCount 1
+			sound ""
+		hitShieldsEffectSounds
+			soundCount 1
+			sound ""
+		beamEffectSounds
+			soundCount 1
+			sound ""
+		beamGlowTextureName "ArcingVorton"
+		beamCoreTextureName "ArcingVorton"
+		beamWidth 300.000000
+		beamGlowColor ffffffff
+		beamCoreColor ffffffff
+		beamTilingRate 3.000000
 instantAction
 	buffInstantActionType "ApplyBuffToSelf"
 	instantActionTriggerType "OnDelay"
-	delayTime 2.000000
-	buffType "BuffJudgmentSelf"
+	delayTime 0.000000
+	buffType "BuffArcingVortonSelf"
 	effectInfo
 		effectAttachInfo
 			attachType "Invalid"

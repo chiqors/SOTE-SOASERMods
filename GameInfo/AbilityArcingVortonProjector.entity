@@ -1,61 +1,37 @@
 TXT
 entityType "Ability"
-buffInstantActionType "ApplyBuffToTargetWithTravel"
+buffInstantActionType "ApplyTargettedBuffToSelf"
 instantActionTriggerType "AlwaysPerform"
 buffType "BuffArcingVortonProjectorTarget"
 targetFilter
 	numOwnerships 1
 	ownership "Enemy"
-	numObjects 6
+	numObjects 2
 	object "Titan"
 	object "CapitalShip"
-	object "Frigate"
-	object "Corvette"
-	object "PlanetModule"
-	object "StarBase"
 	numSpaces 1
 	space "Normal"
 	numConstraints 1
 	constraint "HasWeapons"
 range
-	Level:0 4000.000000
-	Level:1 4000.000000
-	Level:2 4000.000000
-	Level:3 4000.000000
-travelSpeed 1300.000000
-hasWeaponEffects TRUE
-weaponEffectOriginType "Targetter"
-weaponEffectAttachInfo
-	attachType "Ability"
-	abilityIndex 0
-weaponEffectImpactOffsetType "RandomMesh"
-canWeaponEffectHitHull TRUE
-canWeaponEffectHitShields TRUE
-weaponEffectsDef
-	weaponType "Projectile"
-	burstCount 1
-	burstDelay 0.000000
-	fireDelay 0.000000
-	muzzleEffectName "F_Ability_CRP_Muzzle"
-	muzzleSoundMinRespawnTime 0.010000
-	muzzleSounds
-		soundCount 1
-		sound "K_Polaron"
-	hitEffectName "F_Ability_CRP_Impact"
-	hitHullEffectSounds
-		soundCount 1
-		sound ""
-	hitShieldsEffectSounds
-		soundCount 1
-		sound ""
-	projectileTravelEffectName "F_Ability_CRP_Travel"
-needsToFaceTarget TRUE
+	Level:0 20000.000000
+	Level:1 20000.000000
+	Level:2 20000.000000
+	Level:3 20000.000000
+effectInfo
+	effectAttachInfo
+		attachType "Invalid"
+	smallEffectName ""
+	mediumEffectName ""
+	largeEffectName ""
+	soundID ""
+needsToFaceTarget FALSE
 canCollideWithTarget TRUE
 moveThruTarget FALSE
 isUltimateAbility FALSE
 maxNumLevels 1
-levelSourceType "FixedLevel0"
-aiUseTime "OnlyInCombat"
+levelSourceType "ResearchWithoutBase"
+improveSourceResearchSubject "AllRaces_ResearchSubject_ArcingVortonProjector"
 aiUseTargetCondition "Any"
 isAutoCastAvailable TRUE
 isAutoCastOnByDefault TRUE
@@ -64,22 +40,22 @@ ignoreNonCombatShipsForAutoCastTarget TRUE
 onlyAutoCastWhenDamageTakenExceedsPerc 0.000000
 useCostType "AntiMatter"
 antiMatterCost
-	Level:0 80.000000
-	Level:1 75.000000
-	Level:2 70.000000
-	Level:3 60.000000
+	Level:0 0.000000
+	Level:1 0.000000
+	Level:2 0.000000
+	Level:3 0.000000
 cooldownTime
-	Level:0 35.000000
-	Level:1 30.000000
-	Level:2 25.000000
-	Level:3 25.000000
+	Level:0 300.000000
+	Level:1 300.000000
+	Level:2 300.000000
+	Level:3 300.000000
 orderAcknowledgementType "ONGENERALORDERISSUED"
 researchPrerequisites
 	NumResearchPrerequisites 0
 	RequiredFactionNameID ""
 	RequiredCompletedResearchSubjects 0
-nameStringID "F_Ability_ChainReactionPulsar_Name"
-descStringID "F_Ability_ChainReactionPulsar_Desc"
-hudIcon "F_ability_Chainreactionpulsar"
-smallHudIcon "F_ability_Chainreactionpulsar"
+nameStringID "IDS_ARCINGVORTRONPROJECTOR_NAME"
+descStringID "IDS_ARCINGVORTRONPROJECTOR_DESCRIPTION"
+hudIcon "HUDICON_ABILITY_DISRUPTIONMATRIX"
+smallHudIcon "HUDICON_ABILITY_DISRUPTIONMATRIX"
 infoCardIcon ""

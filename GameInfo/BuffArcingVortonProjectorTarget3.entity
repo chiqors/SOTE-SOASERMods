@@ -23,7 +23,7 @@ instantAction
 instantAction
 	buffInstantActionType "ApplyBuffToSelf"
 	instantActionTriggerType "OnDelay"
-	delayTime 2.000000
+	delayTime 1.000000
 	buffType "BuffJudgmentSelf"
 	effectInfo
 		effectAttachInfo
