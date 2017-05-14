@@ -272,7 +272,7 @@ NumSoundsFor:ONSTARTPHASEJUMP 1
 SoundID "TITAN_TECHLOYALIST_ONSTARTPHASEJUMP_0"
 MeshNameInfoCount 1
 MeshNameInfo
-	meshName "Avatar"
+	meshName "hel"
 	criteriaType "None"
 meshNameIncreasedEffectName ""
 meshNameDecreasedEffectName ""

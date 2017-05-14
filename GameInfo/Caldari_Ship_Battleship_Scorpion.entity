@@ -157,7 +157,7 @@ ability:0 "AbilityMicrowarpdrive"
 ability:1 "AbilityECMBattery"
 ability:2 "AbilityPhaseCloak"
 ability:3 "AbilityT2Widow"
-ability:4 "AbilityLaunchSquads"
+ability:4 "AbilityCovertOpsJumpBridge"
 MaxAntiMatter 1250.000000
 AntiMatterRestoreRate 1.650000
 cargoType "Invalid"

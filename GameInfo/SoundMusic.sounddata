@@ -426,7 +426,7 @@ music
 	emotionRange 0.8
 music
 	name "MUSIC_TEC_REBEL_3"
-	fileName "My Other Residency.ogg"
+	fileName "Below the Asteroids.ogg"
 	isLooping FALSE
 	actionLevel 0.2
 	actionRange 0.2

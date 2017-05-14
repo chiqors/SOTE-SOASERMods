@@ -1,5 +1,5 @@
 TXT
-NumStrings 8190
+NumStrings 8194
 StringInfo
     ID "IDS_ABILITY_RORQUALPANIC_NAME"
 	Value "P.A.N.I.C Module"
@@ -24570,4 +24570,16 @@ StringInfo
 StringInfo
 	ID "IDS_TETHERING_DESCRIPTION"
 	Value "Tethering ability allows nearby ships to be repaired and immune to damage. Tethered ships can attack or use abilities."	
+StringInfo
+	ID "IDS_COVERTOPS_JUMPBRIDGE_NAME"
+	Value "Covert Ops Jump Bridge"
+StringInfo
+	ID "IDS_COVERTOPS_JUMPBRIDGE_DESCRIPTION"
+	Value "Allows the Black Ops Battleships opens a Jump Portal Generator, allowing friendly ships the ability to jump to and from the ship current Grid."	
+StringInfo
+	ID "IDS_ARCINGVORTRONPROJECTOR_NAME"
+	Value "Arcing Vorton Projector"
+StringInfo
+	ID "IDS_ARCINGVORTRONPROJECTOR_DESCRIPTION"
+	Value "The Standup Arcing Vorton Projector utilizes the latest developments in the emerging field of spatiotemporal weaponry to bring structure operators a devastating weapon to use in defense of their properties. Capable of striking multiple targets in rapid succession, the Arcing Vorton Projector has the potential to severely disrupt enemy fleet cohesion. The Arching Vorton Projector is designed to be installed as a module in Upwell technology structures."	
 	

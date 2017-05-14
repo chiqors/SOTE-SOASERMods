@@ -150,9 +150,9 @@ ability:0 "AbilityHeavyEnergyNeutralizer"
 ability:1 "AbilityDroneBonus"
 ability:2 "AbilityT2CloakAmarr"
 ability:3 "AbilityT2BlackOpsCloakAmarr"
-ability:4 "AbilityLaunchSquads"
-MaxAntiMatter 1250.000000
-AntiMatterRestoreRate 1.650000
+ability:4 "AbilityCovertOpsJumpBridge"
+MaxAntiMatter 7750.000000
+AntiMatterRestoreRate 23.650000
 cargoType "Invalid"
 maxCargoCapacity 0.000000
 formationRank 0

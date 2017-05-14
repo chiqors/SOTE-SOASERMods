@@ -1,0 +1,47 @@
+﻿TXT
+entityType "Ability"
+buffInstantActionType "ApplyBuffToSelf"
+instantActionTriggerType "AlwaysPerform"
+buffType "BuffCovertOpsJumpBridgeSpawnerCaster"
+effectInfo
+	effectAttachInfo
+		attachType "Center"
+	smallEffectName "EVE_Titan_JumpBridge"
+	mediumEffectName "EVE_Titan_JumpBridge"
+	largeEffectName "EVE_Titan_JumpBridge"
+	soundID ""
+needsToFaceTarget FALSE
+canCollideWithTarget TRUE
+moveThruTarget FALSE
+isUltimateAbility FALSE
+maxNumLevels 1
+levelSourceType "ResearchWithoutBase"
+improveSourceResearchSubject "AllRaces_ResearchSubject_CovertOpsJumpBridge"
+aiUseTime "Anytime"
+aiUseTargetCondition "Any"
+isAutoCastAvailable TRUE
+isAutoCastOnByDefault FALSE
+pickRandomPlanetToExploreForAutoCastTarget FALSE
+ignoreNonCombatShipsForAutoCastTarget TRUE
+onlyAutoCastWhenDamageTakenExceedsPerc 0.000000
+useCostType "AntiMatter"
+antiMatterCost
+	Level:0 7000.000000
+	Level:1 7000.000000
+	Level:2 7000.000000
+	Level:3 7000.000000
+cooldownTime
+	Level:0 300.000000
+	Level:1 0.000000
+	Level:2 0.000000
+	Level:3 0.000000
+orderAcknowledgementType "ONGENERALORDERISSUED"
+researchPrerequisites
+	NumResearchPrerequisites 0
+	RequiredFactionNameID ""
+	RequiredCompletedResearchSubjects 0
+nameStringID "IDS_COVERTOPS_JUMPBRIDGE_NAME"
+descStringID "IDS_COVERTOPS_JUMPBRIDGE_DESCRIPTION"
+hudIcon "HUDICON_ABILITY_SABOTAGEENGINES"
+smallHudIcon "HUDICON_ABILITY_SABOTAGEENGINES"
+infoCardIcon ""

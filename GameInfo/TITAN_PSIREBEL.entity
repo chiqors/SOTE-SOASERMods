@@ -315,7 +315,7 @@ NumSoundsFor:ONSTARTPHASEJUMP 1
 SoundID "TITAN_PSIREBEL_ONSTARTPHASEJUMP_0"
 MeshNameInfoCount 1
 MeshNameInfo
-	meshName "Titan_PsiRebel"
+	meshName "leviathan"
 	criteriaType "None"
 meshNameIncreasedEffectName ""
 meshNameDecreasedEffectName ""

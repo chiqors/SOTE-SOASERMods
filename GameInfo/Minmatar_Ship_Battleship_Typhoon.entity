@@ -147,7 +147,7 @@ ability:0 "AbilityMicrowarpdrive"
 ability:1 "AbilityTargetPainter"
 ability:2 "AbilityT2CloakMinmatar"
 ability:3 "AbilityT2blackOpsCloakMinmatar"
-ability:4 "AbilityLaunchSquads"
+ability:4 "AbilityCovertOpsJumpBridge"
 MaxAntiMatter 1250.000000
 AntiMatterRestoreRate 1.650000
 cargoType "Invalid"
