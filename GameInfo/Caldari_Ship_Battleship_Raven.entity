@@ -155,11 +155,11 @@ HyperspaceTravelSoundID "HYPERSPACE_TRAVEL"
 EngineSoundID "ENGINE_TECHCAPITALSHIP"
 ability:0 "AbilityMicroJumpDrive"
 ability:1 ""
-ability:2 "AbilityBastionMode"
-ability:3 "AbilityT2BattleshipGolem"
-ability:4 "AbilityLaunchSquads"
-MaxAntiMatter 700.000000
-AntiMatterRestoreRate 1.250000
+ability:2 "AbilityShieldBooster"
+ability:3 "AbilityBastionMode"
+ability:4 "AbilityT2BattleshipGolem"
+MaxAntiMatter 6880.000000
+AntiMatterRestoreRate 19.000000
 cargoType "Invalid"
 maxCargoCapacity 0.000000
 formationRank 0

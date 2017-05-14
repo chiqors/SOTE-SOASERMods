@@ -140,11 +140,11 @@ HyperspaceTravelSoundID "HYPERSPACE_TRAVEL"
 EngineSoundID "ENGINE_TECHCAPITALSHIP"
 ability:0 "AbilityMicroJumpDrive"
 ability:1 "AbilityTrackingComputer"
-ability:2 "AbilityBastionModeKronos"
-ability:3 "AbilityT2BattleshipKronos"
-ability:4 "AbilityLaunchSquads"
-MaxAntiMatter 700.000000
-AntiMatterRestoreRate 1.250000
+ability:2 "AbilityArmorRepairer"
+ability:3 "AbilityBastionModeKronos"
+ability:4 "AbilityT2BattleshipKronos"
+MaxAntiMatter 7500.000000
+AntiMatterRestoreRate 22.000000
 cargoType "Invalid"
 maxCargoCapacity 0.000000
 formationRank 0

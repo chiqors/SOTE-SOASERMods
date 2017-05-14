@@ -234,7 +234,7 @@ music
 	emotionRange 0.8	
 music
 	name "MUSIC_SAD_1"
-	fileName "Do You Know Where You Are_ogg"
+	fileName "Do You Know Where You Are.ogg"
 	isLooping FALSE
 	actionLevel 0.1
 	actionRange 0.1
