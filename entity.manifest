@@ -1,5 +1,5 @@
 TXT
-entityNameCount 2222
+entityNameCount 2228
 entityName "BuffSuppressionChannelEnd.entity"
 entityName "AbilityAbilityGuidance.entity"
 entityName "AbilityPhasedArmourHardener.entity"
@@ -2218,7 +2218,13 @@ entityName "AbilityRorqualPanic.entity"
 entityName "Minmatar_Ship_Capital_Titan_Ragnarok.entity"
 entityName "AbilityGjallarhornCapital.entity"
 entityName "BuffGjallarhorn.entity"
-entityName "BuffArcingVortonProjector.entity"
-entityName "AllRaces_ResearchSubject_ArcingVortonProjector.entity"
 entityName "RESEARCHSUBJECT_STRUCTUREWORK_CRYSTALEXTRACTPSI3.entity"
 entityName "RESEARCHSUBJECT_STRUCTUREWORK_METALEXTRACTPSI3.entity"
+entityName "AllRaces_ResearchSubject_ArcingVortonProjector.entity"
+entityName "AbilityArcingVortonProjector.entity"
+entityName "BuffArcingVortonProjector.entity"
+entityName "BuffArcingVortonProjectorTarget.entity"
+entityName "BuffArcingVortonProjectorisHit.entity"
+entityName "BuffArcingVortonProjectorTarget1.entity"
+entityName "BuffArcingVortonProjectorTarget2.entity"
+entityName "BuffArcingVortonProjectorTarget3.entity"

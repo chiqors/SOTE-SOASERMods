@@ -7,7 +7,31 @@ allowFirstSpawnerToStack FALSE
 buffExclusivityForAIType "ExclusiveForAllPlayers"
 isInterruptable FALSE
 isChannelling FALSE
-numInstantActions 0
+numInstantActions 2
+instantAction
+	buffInstantActionType "ApplyBuffToSelf"
+	instantActionTriggerType "OnDelay"
+	delayTime 0.000000
+	buffType "BuffArcingVortonProjectorisHit"
+	effectInfo
+		effectAttachInfo
+			attachType "Invalid"
+		smallEffectName ""
+		mediumEffectName ""
+		largeEffectName ""
+		soundID ""
+instantAction
+	buffInstantActionType "ApplyBuffToSelf"
+	instantActionTriggerType "OnDelay"
+	delayTime 2.000000
+	buffType "BuffJudgmentSelf"
+	effectInfo
+		effectAttachInfo
+			attachType "Invalid"
+		smallEffectName ""
+		mediumEffectName ""
+		largeEffectName ""
+		soundID ""
 numPeriodicActions 0
 numOverTimeActions 1
 overTimeAction
@@ -22,7 +46,7 @@ overTimeAction
 	isDamageShared FALSE
 numEntityModifiers 0
 numEntityBoolModifiers 0
-numFinishConditions 1
+numFinishConditions 2
 finishCondition
 	finishConditionType "TimeElapsed"
 	time
@@ -30,3 +54,6 @@ finishCondition
 		Level:1 5.000000
 		Level:2 5.000000
 		Level:3 5.000000
+finishCondition
+	finishConditionType "AllOnDelayInstantActionsDone"
+		

@@ -23,10 +23,10 @@ range
 	Level:3 25000.000000
 effectInfo
 	effectAttachInfo
-		attachType "Invalid"
-	smallEffectName ""
-	mediumEffectName ""
-	largeEffectName ""
+		attachType "Above"
+	smallEffectName "EVE_Buff_ArmorRR_Small"
+	mediumEffectName "EVE_Buff_ArmorRR_Medium"
+	largeEffectName "EVE_Buff_ArmorRR_Large"
 	soundID ""
 needsToFaceTarget FALSE
 canCollideWithTarget TRUE
