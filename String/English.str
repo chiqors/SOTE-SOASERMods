@@ -1,5 +1,5 @@
 TXT
-NumStrings 8194
+NumStrings 8196
 StringInfo
     ID "IDS_ABILITY_RORQUALPANIC_NAME"
 	Value "P.A.N.I.C Module"
@@ -24582,4 +24582,10 @@ StringInfo
 StringInfo
 	ID "IDS_ARCINGVORTRONPROJECTOR_DESCRIPTION"
 	Value "The Standup Arcing Vorton Projector utilizes the latest developments in the emerging field of spatiotemporal weaponry to bring structure operators a devastating weapon to use in defense of their properties. Capable of striking multiple targets in rapid succession, the Arcing Vorton Projector has the potential to severely disrupt enemy fleet cohesion. The Arching Vorton Projector is designed to be installed as a module in Upwell technology structures."	
-	
+StringInfo
+	ID "IDS_MISSILEGUIDANCE_NAME"
+	Value "Missile Guidance Systems"
+StringInfo
+	ID "IDS_MISSILEGUIDANCE_DESCRIPTION"
+	Value "Install guidances computers wich increase the range of all missiles on ships."	
+		

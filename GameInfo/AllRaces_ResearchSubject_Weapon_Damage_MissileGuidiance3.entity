@@ -3,8 +3,8 @@ entityType "ResearchSubject"
 hudIcon "HUDICON_RESEARCHSUBJECT_ABILITY_MissileGudiance3"
 smallHudIcon "HUDICON_RESEARCHSUBJECT_ABILITY_MissileGudiance3"
 infoCardIcon ""
-NameStringID "IDS_AllRaces_ResearchSubject_Weapon_Damage_Railgun3_NAME"
-DescriptionStringID "IDS_AllRaces_ResearchSubject_Weapon_Damage_Railgun3_DESCRIPTION"
+NameStringID "IDS_MISSILEGUIDANCE_NAME"
+DescriptionStringID "IDS_MISSILEGUIDANCE_DESCRIPTION"
 researchWindowLocation
 	block 1
 	pos [ 6 , 1 ]
