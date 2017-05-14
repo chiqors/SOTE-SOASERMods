@@ -1,5 +1,5 @@
 TXT
-NumStrings 8188
+NumStrings 8190
 StringInfo
     ID "IDS_ABILITY_RORQUALPANIC_NAME"
 	Value "P.A.N.I.C Module"
@@ -24564,4 +24564,10 @@ StringInfo
 StringInfo
 	ID "IDS_MINERAL_ARKONOR_DESCRIPTION"
 	Value ""
+StringInfo
+	ID "IDS_TETHERING_NAME"
+	Value "Citadel Tethering"
+StringInfo
+	ID "IDS_TETHERING_DESCRIPTION"
+	Value "Tethering ability allows nearby ships to be repaired and immune to damage. Tethered ships can attack or use abilities."	
 	

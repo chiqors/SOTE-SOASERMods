@@ -1,5 +1,5 @@
 TXT
-entityNameCount 2228
+entityNameCount 2229
 entityName "BuffSuppressionChannelEnd.entity"
 entityName "AbilityAbilityGuidance.entity"
 entityName "AbilityPhasedArmourHardener.entity"
@@ -2228,3 +2228,4 @@ entityName "BuffArcingVortonProjectorisHit.entity"
 entityName "BuffArcingVortonProjectorTarget1.entity"
 entityName "BuffArcingVortonProjectorTarget2.entity"
 entityName "BuffArcingVortonProjectorTarget3.entity"
+entityName "AbilityTethering.entity"
