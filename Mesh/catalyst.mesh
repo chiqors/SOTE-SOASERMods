@@ -129573,7 +129573,7 @@ MeshData
 		iVertex1 9288
 		iVertex2 9289
 		iMaterial 0
-	NumCachedVertexIndicesInDirection:UP 1104
+	NumCachedVertexIndicesInDirection:UP 1100
 	Index 1230
 	Index 386
 	Index 1240
@@ -129914,8 +129914,8 @@ MeshData
 	Index 5488
 	Index 3910
 	Index 160
-	Index 1833
 	Index 1835
+	Index 1833
 	Index 4150
 	Index 4042
 	Index 82
@@ -130148,16 +130148,14 @@ MeshData
 	Index 5412
 	Index 5429
 	Index 5327
-	Index 5334
-	Index 5339
 	Index 5365
 	Index 5347
 	Index 5326
-	Index 5314
 	Index 5359
 	Index 5367
-	Index 5332
 	Index 5372
+	Index 5334
+	Index 5332
 	Index 5315
 	Index 1713
 	Index 1718
@@ -130334,8 +130332,6 @@ MeshData
 	Index 5127
 	Index 2630
 	Index 2608
-	Index 2607
-	Index 2632
 	Index 4253
 	Index 1564
 	Index 1577
@@ -130678,7 +130674,7 @@ MeshData
 	Index 2376
 	Index 2372
 	Index 2375
-	NumCachedVertexIndicesInDirection:DOWN 947
+	NumCachedVertexIndicesInDirection:DOWN 946
 	Index 1259
 	Index 1245
 	Index 1258
@@ -130967,8 +130963,8 @@ MeshData
 	Index 4036
 	Index 4035
 	Index 3969
-	Index 1821
 	Index 1822
+	Index 1821
 	Index 4145
 	Index 1706
 	Index 1704
@@ -131192,42 +131188,40 @@ MeshData
 	Index 1695
 	Index 1677
 	Index 5600
-	Index 5718
-	Index 5720
-	Index 5612
-	Index 5725
-	Index 5625
-	Index 5618
 	Index 5702
-	Index 5620
+	Index 5618
+	Index 5612
+	Index 5718
+	Index 5625
+	Index 5720
 	Index 5714
-	Index 5703
+	Index 5620
+	Index 1669
 	Index 752
 	Index 1681
 	Index 2318
 	Index 2646
-	Index 12
-	Index 4
+	Index 5569
+	Index 5582
 	Index 5158
-	Index 5154
+	Index 5189
 	Index 5153
 	Index 3402
 	Index 3374
 	Index 3437
 	Index 3463
+	Index 3466
 	Index 3372
 	Index 3399
-	Index 5558
-	Index 5571
+	Index 5575
 	Index 2259
-	Index 17
+	Index 5577
 	Index 2260
 	Index 2772
 	Index 2778
 	Index 2780
-	Index 5525
 	Index 5530
-	Index 5534
+	Index 5525
 	Index 5541
 	Index 5523
 	Index 5537
@@ -131237,6 +131231,7 @@ MeshData
 	Index 5724
 	Index 5700
 	Index 5597
+	Index 5716
 	Index 5624
 	Index 5621
 	Index 2481
@@ -131244,17 +131239,17 @@ MeshData
 	Index 2002
 	Index 2057
 	Index 1976
-	Index 2913
 	Index 2019
-	Index 2255
-	Index 2168
-	Index 2250
-	Index 2172
-	Index 2166
-	Index 2261
+	Index 2913
 	Index 2284
 	Index 2169
+	Index 2915
+	Index 2166
 	Index 2282
+	Index 2261
+	Index 2172
+	Index 2168
+	Index 2250
 	Index 3438
 	Index 3440
 	Index 3401
@@ -131626,7 +131621,7 @@ MeshData
 	Index 2385
 	Index 2388
 	Index 2383
-	NumCachedVertexIndicesInDirection:LEFT 950
+	NumCachedVertexIndicesInDirection:LEFT 947
 	Index 384
 	Index 1303
 	Index 1231
@@ -131953,9 +131948,9 @@ MeshData
 	Index 3940
 	Index 163
 	Index 1804
-	Index 1831
 	Index 1869
 	Index 1866
+	Index 1831
 	Index 4064
 	Index 5480
 	Index 3947
@@ -132266,11 +132261,8 @@ MeshData
 	Index 3378
 	Index 3499
 	Index 3369
-	Index 2632
 	Index 2630
-	Index 2608
-	Index 2607
-	Index 2713
+	Index 2632
 	Index 4240
 	Index 4239
 	Index 4708

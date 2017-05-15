@@ -155244,8 +155244,8 @@ MeshData
 	Index 9359
 	Index 1493
 	Index 6804
-	Index 9354
 	Index 4049
+	Index 9354
 	Index 1496
 	Index 7428
 	Index 2119
@@ -156343,7 +156343,7 @@ MeshData
 	Index 7197
 	Index 1875
 	Index 7184
-	NumCachedVertexIndicesInDirection:DOWN 2759
+	NumCachedVertexIndicesInDirection:DOWN 2761
 	Index 890
 	Index 6198
 	Index 888
@@ -157981,8 +157981,10 @@ MeshData
 	Index 6786
 	Index 1475
 	Index 6783
-	Index 7425
 	Index 2117
+	Index 7425
+	Index 2112
+	Index 7421
 	Index 2126
 	Index 9632
 	Index 2128
@@ -160272,8 +160274,8 @@ MeshData
 	Index 1488
 	Index 2000
 	Index 1489
-	Index 6804
 	Index 2117
+	Index 6804
 	Index 9632
 	Index 8719
 	Index 4030
@@ -162239,8 +162241,8 @@ MeshData
 	Index 6797
 	Index 7309
 	Index 6796
-	Index 7421
 	Index 1496
+	Index 7421
 	Index 2126
 	Index 3414
 	Index 9336
@@ -163025,7 +163027,7 @@ MeshData
 	Index 1876
 	Index 11252
 	Index 1878
-	NumCachedVertexIndicesInDirection:FRONT 1832
+	NumCachedVertexIndicesInDirection:FRONT 1827
 	Index 5471
 	Index 5473
 	Index 5429
@@ -163857,11 +163859,11 @@ MeshData
 	Index 1155
 	Index 3918
 	Index 6257
+	Index 1132
 	Index 1125
 	Index 1116
 	Index 1114
 	Index 1111
-	Index 1102
 	Index 6448
 	Index 6450
 	Index 6459
@@ -163923,15 +163925,9 @@ MeshData
 	Index 6373
 	Index 1074
 	Index 6388
-	Index 6397
-	Index 6398
-	Index 6404
-	Index 6410
-	Index 6418
 	Index 6422
 	Index 1091
 	Index 6425
-	Index 1096
 	Index 6433
 	Index 1080
 	Index 1203
@@ -163940,14 +163936,16 @@ MeshData
 	Index 1169
 	Index 1167
 	Index 1082
-	Index 1089
 	Index 1164
 	Index 1157
 	Index 1151
 	Index 1142
 	Index 1139
-	Index 1132
-	Index 6411
+	Index 1102
+	Index 1096
+	Index 6410
+	Index 1089
+	Index 9222
 	Index 6464
 	Index 9224
 	Index 6372
@@ -163955,18 +163953,17 @@ MeshData
 	Index 9230
 	Index 6466
 	Index 6423
-	Index 9075
+	Index 6351
 	Index 6368
 	Index 6449
-	Index 9278
-	Index 9276
 	Index 6447
 	Index 6446
 	Index 6442
 	Index 9280
-	Index 9207
+	Index 9278
+	Index 6399
 	Index 6364
-	Index 6396
+	Index 9208
 	Index 6432
 	Index 9236
 	Index 9279
