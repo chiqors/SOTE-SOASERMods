@@ -1,5 +1,5 @@
 TXT
-NumStrings 8196
+NumStrings 8202
 StringInfo
     ID "IDS_ABILITY_RORQUALPANIC_NAME"
 	Value "P.A.N.I.C Module"
@@ -24588,4 +24588,21 @@ StringInfo
 StringInfo
 	ID "IDS_MISSILEGUIDANCE_DESCRIPTION"
 	Value "Install guidances computers wich increase the range of all missiles on ships."	
-		
+StringInfo
+	ID "IDS_CONCORD_BATTLESHIP_NAME"
+	Value "CONCORD Police Battleship"
+StringInfo
+	ID "IDS_CONCORD_BATTLESHIP_DESCRIPTION"
+	Value "The CONCORD Marshal-class battleships were built by a joint effort of the empires, each empire investing it with their own special technologies. Although this makes them a bit mismatched, their performance leaves no doubt about their awesome power."		
+StringInfo
+	ID "IDS_CONCORD_FRIGATE_NAME"
+	Value "CONCORD SWAT Frigate"
+StringInfo
+	ID "IDS_CONCORD_FRIGATE_DESCRIPTION"
+	Value "A Concord SWAT vessel."			
+StringInfo
+	ID "IDS_CONCORD_CRUISER_NAME"
+	Value "CONCORD Special Ops Cruiser"
+StringInfo
+	ID "IDS_CONCORD_CRUISER_NAME"
+	Value "Designed by co-operative efforts from all the empires, the Concord cruisers employ many of the finest traditions and technologies enjoyed by the empires, thus making them truly fearsome opponents."				

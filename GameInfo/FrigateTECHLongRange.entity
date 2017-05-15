@@ -45,8 +45,8 @@ frigateRoleType "Siege"
 statCountType "FrigateSiege"
 mainViewIcon "MAINVIEWICON_FRIGATE_TECHSIEGE"
 picture ""
-NameStringID "IDS_FRIGATE_TECHSIEGE_NAME"
-DescriptionStringID "IDS_FRIGATE_TECHSIEGE_DESCRIPTION"
+NameStringID "IDS_CONCORD_FRIGATE_NAME"
+DescriptionStringID "IDS_CONCORD_FRIGATE_DESCRIPTION"
 counterDescriptionStringID "IDS_COUNTERDESC_CORVETTE_TECH"
 basePrice
 	credits 55.000000
@@ -130,8 +130,8 @@ TargetCountPerBank:RIGHT 0
 canOnlyTargetStructures FALSE
 hasWeaponLevels FALSE
 mass 2000.000000
-ShieldMeshName "Inquisitor"
-renderShield FALSE
+ShieldMeshName "concord_frigate"
+renderShield TRUE
 maxAccelerationLinear 100.000000
 maxAccelerationStrafe 10.000000
 maxDecelerationLinear 500.000000

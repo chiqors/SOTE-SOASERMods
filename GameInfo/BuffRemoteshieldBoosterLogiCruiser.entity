@@ -21,9 +21,9 @@ instantAction
 	effectInfo
 		effectAttachInfo
 			attachType "Invalid"
-		smallEffectName "EVE_Buff_shieldboost_Small"
-		mediumEffectName "EVE_Buff_shieldboost_Medium"
-		largeEffectName "EVE_Buff_shieldboost_Large"
+		smallEffectName ""
+		mediumEffectName ""
+		largeEffectName ""
 		soundID ""
 numPeriodicActions 0
 numOverTimeActions 0

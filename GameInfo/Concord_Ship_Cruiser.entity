@@ -11,8 +11,8 @@ frigateRoleType "Lrm"
 statCountType "FrigateLongRange"
 mainViewIcon "MAINVIEWICON_FRIGATE_TECHLONGRANGE"
 picture "PICTURE_FRIGATE_OMEN"
-NameStringID "IDS_FRIGATE_TECHLONGRANGE_NAME"
-DescriptionStringID "IDS_FRIGATE_TECHLONGRANGE_DESCRIPTION"
+NameStringID "IDS_CONCORD_CRUISER_NAME"
+DescriptionStringID "IDS_CONCORD_CRUISER_NAME"
 counterDescriptionStringID "IDS_COUNTERDESC_CORVETTE_TECH"
 basePrice
 	credits 364.000000
@@ -99,8 +99,8 @@ TargetCountPerBank:RIGHT 0
 canOnlyTargetStructures FALSE
 hasWeaponLevels FALSE
 mass 4000.000000
-ShieldMeshName "omen"
-renderShield FALSE
+ShieldMeshName "concord_cruiser"
+renderShield TRUE
 maxAccelerationLinear 90.000000
 maxAccelerationStrafe 10.000000
 maxDecelerationLinear 500.000000
@@ -137,7 +137,7 @@ NumSoundsFor:ONSTARTPHASEJUMP 1
 SoundID "FRIGATE_TECHLONGRANGE_ONSTARTPHASEJUMP_0"
 MeshNameInfoCount 1
 MeshNameInfo
-	meshName "omen"
+	meshName "concord_cruiser"
 	criteriaType "None"
 meshNameIncreasedEffectName ""
 meshNameDecreasedEffectName ""

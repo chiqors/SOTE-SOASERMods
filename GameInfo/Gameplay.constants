@@ -969,7 +969,7 @@ DamagePercentBonus:ANTIVERYLIGHT:CapitalShip 0.994
 		militiaHUDIconXOffsetScalar 0.0
 		militiaHUDIconYOffsetScalar .05
 		spawnShips
-			minFleetPoints 20.000000
+			minFleetPoints 3.000000
 			maxFleetPoints 20.000000
 			requiredShipCount 0
 			randomShipCount 3
@@ -978,10 +978,10 @@ DamagePercentBonus:ANTIVERYLIGHT:CapitalShip 0.994
 				weight 3
 			randomShip
 				type "Concord_Ship_Cruiser"
-				weight 4
+				weight 5
 			randomShip
 				type "FrigateTECHHeavy"
-				weight 5				
+				weight 10				
 		baseFleetCapacity 20.0
 		maxFleetSupplyPerPlanetPopulation .025
 		fleetSupplyMin 100.0

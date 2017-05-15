@@ -150,8 +150,8 @@ TargetCountPerBank:LEFT 0
 TargetCountPerBank:RIGHT 0
 canOnlyTargetStructures FALSE
 mass 11000.000000
-ShieldMeshName "Rorqual"
-renderShield FALSE
+ShieldMeshName "rorqual"
+renderShield TRUE
 maxAccelerationLinear 20.000000
 maxAccelerationStrafe 1.000000
 maxDecelerationLinear 40.000000
