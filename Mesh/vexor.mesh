@@ -69908,7 +69908,7 @@ MeshData
 		iVertex1 4520
 		iVertex2 4521
 		iMaterial 0
-	NumCachedVertexIndicesInDirection:UP 570
+	NumCachedVertexIndicesInDirection:UP 569
 	Index 1313
 	Index 1310
 	Index 1325
@@ -70120,13 +70120,12 @@ MeshData
 	Index 3231
 	Index 3488
 	Index 3242
-	Index 3244
-	Index 3497
+	Index 3496
 	Index 3246
-	Index 3062
+	Index 3061
 	Index 2931
 	Index 3063
-	Index 2879
+	Index 2878
 	Index 2877
 	Index 3029
 	Index 2935
@@ -70134,21 +70133,21 @@ MeshData
 	Index 2458
 	Index 2512
 	Index 2876
-	Index 2873
+	Index 2936
 	Index 1438
-	Index 1446
 	Index 1390
+	Index 1446
 	Index 1396
 	Index 2940
-	Index 1447
-	Index 2455
+	Index 1397
+	Index 2513
 	Index 2871
-	Index 2992
+	Index 2993
 	Index 2514
 	Index 2868
-	Index 3025
-	Index 2866
-	Index 2867
+	Index 2988
+	Index 2870
+	Index 2827
 	Index 3024
 	Index 3486
 	Index 3227
@@ -70479,7 +70478,7 @@ MeshData
 	Index 2227
 	Index 2211
 	Index 2215
-	NumCachedVertexIndicesInDirection:DOWN 808
+	NumCachedVertexIndicesInDirection:DOWN 810
 	Index 1164
 	Index 1162
 	Index 1157
@@ -70738,8 +70737,8 @@ MeshData
 	Index 1405
 	Index 1355
 	Index 1402
-	Index 3348
 	Index 1358
+	Index 3348
 	Index 3455
 	Index 3456
 	Index 3551
@@ -70798,6 +70797,7 @@ MeshData
 	Index 3014
 	Index 896
 	Index 618
+	Index 620
 	Index 894
 	Index 616
 	Index 892
@@ -70805,8 +70805,8 @@ MeshData
 	Index 3467
 	Index 3359
 	Index 3021
-	Index 1470
 	Index 1519
+	Index 1470
 	Index 2946
 	Index 1419
 	Index 1368
@@ -70815,8 +70815,9 @@ MeshData
 	Index 1362
 	Index 1488
 	Index 2459
-	Index 1507
 	Index 1474
+	Index 1507
+	Index 1475
 	Index 1490
 	Index 621
 	Index 619
@@ -72933,7 +72934,7 @@ MeshData
 	Index 848
 	Index 2229
 	Index 2223
-	NumCachedVertexIndicesInDirection:FRONT 453
+	NumCachedVertexIndicesInDirection:FRONT 454
 	Index 3255
 	Index 3251
 	Index 3267
@@ -73168,16 +73169,17 @@ MeshData
 	Index 1502
 	Index 1066
 	Index 1164
-	Index 1313
 	Index 1294
-	Index 1317
-	Index 1307
-	Index 1291
-	Index 1300
-	Index 1290
 	Index 1168
+	Index 1316
 	Index 1320
+	Index 1291
+	Index 1313
+	Index 1307
+	Index 1300
 	Index 1346
+	Index 1317
+	Index 1290
 	Index 2309
 	Index 2353
 	Index 2308
@@ -73186,7 +73188,7 @@ MeshData
 	Index 295
 	Index 1575
 	Index 1576
-	Index 1298
+	Index 1299
 	Index 1297
 	Index 280
 	Index 1304
@@ -73652,14 +73654,14 @@ MeshData
 	Index 1419
 	Index 3097
 	Index 594
-	Index 1437
-	Index 463
+	Index 586
+	Index 461
 	Index 925
-	Index 1032
+	Index 1033
 	Index 1018
-	Index 1085
 	Index 3133
-	Index 596
+	Index 1085
+	Index 1420
 	Index 1037
 	Index 2386
 	Index 3084

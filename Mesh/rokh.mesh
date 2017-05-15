@@ -16,7 +16,7 @@ MeshData
 		Ambient ffffffff
 		Specular ffffffff
 		Emissive ffffffff
-		Glossiness 50.000000
+		Glossiness 150.000000
 	NumPoints 33
 	Point
 		DataString "Above"

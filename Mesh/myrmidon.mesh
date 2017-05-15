@@ -178638,15 +178638,15 @@ MeshData
 	Index 4203
 	Index 8449
 	Index 1233
-	Index 4238
+	Index 4678
 	Index 6278
 	Index 6474
 	Index 7482
 	Index 6861
 	Index 4853
 	Index 7500
+	Index 2506
 	Index 3151
-	Index 3735
 	Index 4239
 	Index 4240
 	Index 2666
@@ -180746,7 +180746,7 @@ MeshData
 	Index 2456
 	Index 1624
 	Index 1627
-	NumCachedVertexIndicesInDirection:BACK 1175
+	NumCachedVertexIndicesInDirection:BACK 1179
 	Index 3333
 	Index 1950
 	Index 1952
@@ -181577,6 +181577,10 @@ MeshData
 	Index 2482
 	Index 6258
 	Index 7543
+	Index 5863
+	Index 6401
+	Index 7589
+	Index 8316
 	Index 3674
 	Index 106
 	Index 896

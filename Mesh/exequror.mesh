@@ -123920,7 +123920,7 @@ MeshData
 		iVertex1 8950
 		iVertex2 8950
 		iMaterial 0
-	NumCachedVertexIndicesInDirection:UP 1197
+	NumCachedVertexIndicesInDirection:UP 1195
 	Index 2686
 	Index 1354
 	Index 1353
@@ -124514,13 +124514,11 @@ MeshData
 	Index 5521
 	Index 5525
 	Index 4924
-	Index 5177
 	Index 5164
 	Index 5166
-	Index 5175
+	Index 5177
 	Index 5171
 	Index 5173
-	Index 5169
 	Index 5179
 	Index 539
 	Index 1328
@@ -125118,7 +125116,7 @@ MeshData
 	Index 5016
 	Index 5013
 	Index 5015
-	NumCachedVertexIndicesInDirection:DOWN 1357
+	NumCachedVertexIndicesInDirection:DOWN 1355
 	Index 4510
 	Index 4463
 	Index 4505
@@ -125788,13 +125786,11 @@ MeshData
 	Index 4903
 	Index 4893
 	Index 544
-	Index 5187
 	Index 5159
-	Index 5184
+	Index 5187
 	Index 5155
 	Index 5151
 	Index 5153
-	Index 5157
 	Index 5189
 	Index 3177
 	Index 560
@@ -127526,7 +127522,7 @@ MeshData
 	Index 5020
 	Index 4970
 	Index 5016
-	NumCachedVertexIndicesInDirection:RIGHT 1057
+	NumCachedVertexIndicesInDirection:RIGHT 1056
 	Index 4456
 	Index 3513
 	Index 4457
@@ -127997,9 +127993,8 @@ MeshData
 	Index 5162
 	Index 5164
 	Index 5166
-	Index 5155
-	Index 5169
 	Index 5157
+	Index 5155
 	Index 2444
 	Index 559
 	Index 2440
@@ -128584,7 +128579,7 @@ MeshData
 	Index 4979
 	Index 4976
 	Index 5010
-	NumCachedVertexIndicesInDirection:FRONT 751
+	NumCachedVertexIndicesInDirection:FRONT 752
 	Index 5491
 	Index 5488
 	Index 5494
@@ -128842,29 +128837,30 @@ MeshData
 	Index 1648
 	Index 1649
 	Index 1873
-	Index 3568
+	Index 3551
 	Index 3570
-	Index 4510
-	Index 3555
 	Index 4512
+	Index 1697
+	Index 3555
+	Index 1698
 	Index 3507
+	Index 3552
+	Index 4471
+	Index 2748
 	Index 3512
 	Index 3505
-	Index 4468
 	Index 4469
-	Index 3552
-	Index 3131
-	Index 2749
-	Index 2748
 	Index 3517
+	Index 3568
 	Index 2747
+	Index 4473
+	Index 3520
 	Index 4472
+	Index 4509
 	Index 4514
 	Index 4513
-	Index 1697
-	Index 1699
 	Index 3115
-	Index 4473
+	Index 2749
 	Index 2240
 	Index 2821
 	Index 2947
