@@ -1,5 +1,5 @@
 TXT
-numEffects 1117
+numEffects 1118
 effect
 	name "EVENTPHASE_BUYNOTITANFACTORY"
 	fileName "EventPhase_TitanFactoryNotFound.ogg"
@@ -392,7 +392,7 @@ effect
 	fileName "CapitalShip_TechColony_OnAttackOrderIssued_2.ogg"
 effect
 	name "CAPITALSHIP_TECHCOLONY_ONSTARTPHASEJUMP_0"
-	fileName "CapitalShip_TechColony_OnStartPhaseJump_0.ogg"
+	fileName "WarpDriveActive.ogg"
 effect
 	name "CAPITALSHIP_TECHCARRIER_ONCREATION"
 	fileName "CapitalShip_TechCarrier_OnCreation.ogg"
@@ -425,7 +425,7 @@ effect
 	fileName "CapitalShip_TechCarrier_OnAttackOrderIssued_2.ogg"
 effect
 	name "CAPITALSHIP_TECHCARRIER_ONSTARTPHASEJUMP_0"
-	fileName "CapitalShip_TechCarrier_OnStartPhaseJump_0.ogg"
+	fileName "WarpDriveActive.ogg"
 effect
 	name "CAPITALSHIP_TECHBATTLESHIP_ONCREATION"
 	fileName "CapitalShip_TechBattleShip_OnCreation.ogg"
@@ -461,7 +461,7 @@ effect
 	fileName "CapitalShip_TechBattleShip_OnAttackOrderIssued_3.ogg"
 effect
 	name "CAPITALSHIP_TECHBATTLESHIP_ONSTARTPHASEJUMP_0"
-	fileName "CapitalShip_TechBattleShip_OnStartPhaseJump_0.ogg"
+	fileName "WarpDriveActive.ogg"
 effect
 	name "CAPITALSHIP_TECHSUPPORT_ONCREATION"
 	fileName "CapitalShip_TechSupport_OnCreation.ogg"
@@ -497,7 +497,7 @@ effect
 	fileName "CapitalShip_TechSupport_OnAttackOrderIssued_2.ogg"
 effect
 	name "CAPITALSHIP_TECHSUPPORT_ONSTARTPHASEJUMP_0"
-	fileName "CapitalShip_TechSupport_OnStartPhaseJump_0.ogg"
+	fileName "WarpDriveActive.ogg"
 effect
 	name "CAPITALSHIP_TECHSIEGE_ONCREATION"
 	fileName "CapitalShip_TechSiege_OnCreation.ogg"
@@ -533,7 +533,7 @@ effect
 	fileName "CapitalShip_TechSiege_OnAttackOrderIssued_3.ogg"
 effect
 	name "CAPITALSHIP_TECHSIEGE_ONSTARTPHASEJUMP_0"
-	fileName "CapitalShip_TechSiege_OnStartPhaseJump_0.ogg"
+	fileName "WarpDriveActive.ogg"
 effect
 	name "FRIGATE_TECHSCOUT_ONCREATION"
 	fileName "Frigate_TechScout_OnCreation.ogg"
@@ -569,7 +569,7 @@ effect
 	fileName "Frigate_TechScout_OnAttackOrderIssued_2.ogg"
 effect
 	name "FRIGATE_TECHSCOUT_ONSTARTPHASEJUMP_0"
-	fileName "Frigate_TechScout_OnStartPhaseJump_0.ogg"
+	fileName "WarpDriveActive.ogg"
 effect
 	name "FRIGATE_TECHLIGHT_ONCREATION"
 	fileName "Frigate_TechLight_OnCreation.ogg"
@@ -602,7 +602,7 @@ effect
 	fileName "Frigate_TechLight_OnAttackOrderIssued_2.ogg"
 effect
 	name "FRIGATE_TECHLIGHT_ONSTARTPHASEJUMP_0"
-	fileName "Frigate_TechLight_OnStartPhaseJump_0.ogg"
+	fileName "WarpDriveActive.ogg"
 effect
 	name "FRIGATE_TECHLONGRANGE_ONCREATION"
 	fileName "Frigate_TechLongRange_OnCreation.ogg"
@@ -638,7 +638,7 @@ effect
 	fileName "Frigate_TechLongRange_OnAttackOrderIssued_2.ogg"
 effect
 	name "FRIGATE_TECHLONGRANGE_ONSTARTPHASEJUMP_0"
-	fileName "Frigate_TechLongRange_OnStartPhaseJump_0.ogg"
+	fileName "WarpDriveActive.ogg"
 effect
 	name "FRIGATE_TECHSIEGE_ONCREATION"
 	fileName "Frigate_TechSiege_OnCreation.ogg"
@@ -671,7 +671,7 @@ effect
 	fileName "Frigate_TechSiege_OnAttackOrderIssued_2.ogg"
 effect
 	name "FRIGATE_TECHSIEGE_ONSTARTPHASEJUMP_0"
-	fileName "Frigate_TechSiege_OnStartPhaseJump_0.ogg"
+	fileName "WarpDriveActive.ogg"
 effect
 	name "FRIGATE_TECHAA_ONCREATION"
 	fileName "Frigate_TechAA_OnCreation.ogg"
@@ -704,7 +704,7 @@ effect
 	fileName "Frigate_TechAA_OnAttackOrderIssued_2.ogg"
 effect
 	name "FRIGATE_TECHAA_ONSTARTPHASEJUMP_0"
-	fileName "Frigate_TechAA_OnStartPhaseJump_0.ogg"
+	fileName "WarpDriveActive.ogg"
 effect
 	name "FRIGATE_TECHANTIMODULE_ONCREATION"
 	fileName "Frigate_TechAntiModule_OnCreation.ogg"
@@ -737,7 +737,7 @@ effect
 	fileName "Frigate_TechAntiModule_OnGeneralOrderIssued_2.ogg"
 effect
 	name "FRIGATE_TECHANTIMODULE_ONSTARTPHASEJUMP_0"
-	fileName "Frigate_TechAntiModule_OnStartPhaseJump_0.ogg"
+	fileName "WarpDriveActive.ogg"
 effect
 	name "FRIGATE_TECHCOLONY_ONCREATION"
 	fileName "Frigate_TechColony_OnCreation.ogg"
@@ -773,7 +773,7 @@ effect
 	fileName "Frigate_TechColony_OnAttackOrderIssued_3.ogg"
 effect
 	name "FRIGATE_TECHCOLONY_ONSTARTPHASEJUMP_0"
-	fileName "Frigate_TechColony_OnStartPhaseJump_0.ogg"
+	fileName "WarpDriveActive.ogg"
 effect
 	name "FRIGATE_TECHCARRIER_ONCREATION"
 	fileName "Frigate_TechCarrier_OnCreation.ogg"
@@ -800,7 +800,7 @@ effect
 	fileName "Frigate_TechCarrier_OnGeneralOrderIssued_2.ogg"
 effect
 	name "FRIGATE_TECHCARRIER_ONSTARTPHASEJUMP_0"
-	fileName "Frigate_TechCarrier_OnStartPhaseJump_0.ogg"
+	fileName "WarpDriveActive.ogg"
 effect
 	name "FRIGATE_TECHROBOTICS_ONCREATION"
 	fileName "Frigate_TechRobotics_OnCreation.ogg"
@@ -833,7 +833,7 @@ effect
 	fileName "Frigate_TechRobotics_OnAttackOrderIssued_2.ogg"
 effect
 	name "FRIGATE_TECHROBOTICS_ONSTARTPHASEJUMP_0"
-	fileName "Frigate_TechRobotics_OnStartPhaseJump_0.ogg"
+	fileName "WarpDriveActive.ogg"
 effect
 	name "FRIGATE_TECHCOMMAND_ONCREATION"
 	fileName "Frigate_TechCommand_OnCreation.ogg"
@@ -866,7 +866,7 @@ effect
 	fileName "Frigate_TechCommand_OnAttackOrderIssued_2.ogg"
 effect
 	name "FRIGATE_TECHCOMMAND_ONSTARTPHASEJUMP_0"
-	fileName "Frigate_TechCommand_OnStartPhaseJump_0.ogg"
+	fileName "WarpDriveActive.ogg"
 effect
 	name "FRIGATE_TECHHEAVY_ONCREATION"
 	fileName "Frigate_TechHeavy_OnCreation.ogg"
@@ -905,7 +905,7 @@ effect
 	fileName "Frigate_TechHeavy_OnAttackOrderIssued_3.ogg"
 effect
 	name "FRIGATE_TECHHEAVY_ONSTARTPHASEJUMP_0"
-	fileName "Frigate_TechHeavy_OnStartPhaseJump_0.ogg"
+	fileName "WarpDriveActive.ogg"
 effect
 	name "SQUAD_TECHCOMBAT_ONSELECTED_0"
 	fileName "Squad_TechCombat_OnSelected_0.ogg"
@@ -2180,7 +2180,7 @@ effect
 	fileName "EventTech_InvalidModulePlacementPosition.ogg"
 effect
 	name "EVENTTECH_USEABILITYNOANTIMATTER"
-	fileName "EventTech_UseAbilityNoAntimatter.ogg"
+	fileName "NotEnoughPow.ogg"
 effect
 	name "EVENTTECH_MOREMODULESLOTSNEEDED"
 	fileName "EventTech_MoreModuleSlotsNeeded.ogg"
@@ -3351,3 +3351,7 @@ effect
 effect
 	name "Effect_RandomEventDetected"
 	fileName "soaseeventsound.ogg"
+effect
+	name "Effect_NoCharges"
+	fileName "NoCharges.ogg"
+	
