@@ -1,5 +1,5 @@
 TXT
-entityNameCount 2251
+entityNameCount 2252
 entityName "BuffSuppressionChannelEnd.entity"
 entityName "AbilityAbilityGuidance.entity"
 entityName "AbilityPhasedArmourHardener.entity"
@@ -2251,3 +2251,4 @@ entityName "BuffCovertOpsJumpBridgeSpawnerCaster.entity"
 entityName "BuffcovertOpsJumpBridgeTarget.entity"
 entityName "AllRaces_ResearchSubject_CovertOpsJumpBridge.entity"
 entityName "BuffArcingVortonSelf.entity"
+entityName "RandomEventPirateBlackOpsIncursion.entity"

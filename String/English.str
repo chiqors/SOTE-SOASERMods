@@ -1,5 +1,5 @@
 TXT
-NumStrings 8202
+NumStrings 8204
 StringInfo
     ID "IDS_ABILITY_RORQUALPANIC_NAME"
 	Value "P.A.N.I.C Module"
@@ -4175,7 +4175,7 @@ StringInfo
 	Value "A %s is taking place in %s territory!"
 StringInfo
 	ID "IDS_GAMEMESSAGE_RANDOMEVENTDETECTEDPIRATETITAN"
-	Value "A mad Vasari titan is marauding the system!"
+	Value "A Rougue titan was found marauding the system!"
 StringInfo
 	ID "IDS_GAMEMESSAGE_RANDOMEVENTDETECTEDECONOMICUPTURNDOWNTURN"
 	Value "The galaxy is undergoing an %s!"
@@ -24606,3 +24606,10 @@ StringInfo
 StringInfo
 	ID "IDS_CONCORD_CRUISER_NAME"
 	Value "Designed by co-operative efforts from all the empires, the Concord cruisers employ many of the finest traditions and technologies enjoyed by the empires, thus making them truly fearsome opponents."				
+StringInfo
+	ID "IDS_RANDOMEVENT_PIRATBLACKOPS_NAME"
+	Value "Pirate Black Ops Incursion"
+StringInfo
+	ID "IDS_GAMEMESSAGE_RANDOMEVENTDETECTEDPIRATEBLACKOPS"
+	Value "A Rougue Black Ops Gang was dicovered marauding Systems.
+	"

@@ -1,11 +1,11 @@
 TXT
-initialSpawnTimeMin 480.0
-initialSpawnTimeMax 780.0
+initialSpawnTimeMin 300.0
+initialSpawnTimeMax 600.0
 failedRespawnTimeMin 120.0
 failedRespawnTimeMax 300.0
-lowAllegianceCheckPeriod 600.0
+lowAllegianceCheckPeriod 240.0
 lowAllegianceThreshold 0.15
-randomEventDefCount 12
+randomEventDefCount 13
 	randomEventDef
 		id "CORONALMASSEJECTION"
 		nameID "IDS_RANDOMEVENT_CORONALMASSEJECTION_NAME"
@@ -20,7 +20,7 @@ randomEventDefCount 12
 		spawnRequirement "Timer"
 		respawnCount 9
 		nextSpawnTimeMin 300.0
-		nextSpawnTimeMax 1200.0
+		nextSpawnTimeMax 900.0
 		spawnWeight 0.15
 	randomEventDef
 		id "GAMMARAYBURST"
@@ -35,7 +35,7 @@ randomEventDefCount 12
 		spawnRequirement "Timer"
 		respawnCount 5
 		nextSpawnTimeMin 300.0
-		nextSpawnTimeMax 1200.0
+		nextSpawnTimeMax 900.0
 		spawnWeight 0.05
 	randomEventDef
 		id "MAGNETICSTORM"
@@ -50,7 +50,7 @@ randomEventDefCount 12
 		spawnRequirement "Timer"
 		respawnCount 9
 		nextSpawnTimeMin 300.0
-		nextSpawnTimeMax 1200.0
+		nextSpawnTimeMax 900.0
 		spawnWeight 0.1
 	randomEventDef
 		id "PLASMASTORM"
@@ -65,7 +65,7 @@ randomEventDefCount 12
 		spawnRequirement "Timer"
 		respawnCount 9
 		nextSpawnTimeMin 300.0
-		nextSpawnTimeMax 1200.0
+		nextSpawnTimeMax 900.0
 		spawnWeight 0.1
 	randomEventDef
 		id "PIRATETITAN"
@@ -79,8 +79,8 @@ randomEventDefCount 12
 		spawnRequirement "Timer"
 		respawnCount 0
 		nextSpawnTimeMin 300.0
-		nextSpawnTimeMax 1200.0
-		spawnWeight 0.01
+		nextSpawnTimeMax 900.0
+		spawnWeight 0.05
 	randomEventDef
 		id "PARTISANS"
 		nameID "IDS_RANDOMEVENT_PARTISANS_NAME"
@@ -118,7 +118,7 @@ randomEventDefCount 12
 		excludedSpawnLocationCount 0
 		spawnRequirement "Timer"
 		nextSpawnTimeMin 300.0
-		nextSpawnTimeMax 1200.0
+		nextSpawnTimeMax 900.0
 		spawnWeight 0.2
 	randomEventDef
 		id "ECONOMICUPTURN"
@@ -133,7 +133,7 @@ randomEventDefCount 12
 		excludedSpawnLocationCount 0
 		spawnRequirement "Timer"
 		nextSpawnTimeMin 300.0
-		nextSpawnTimeMax 1200.0
+		nextSpawnTimeMax 900.0
 		spawnWeight 0.2
 	randomEventDef
 		id "CULTUREEXPLOSION"
@@ -148,7 +148,7 @@ randomEventDefCount 12
 		excludedSpawnLocationCount 0
 		spawnRequirement "Timer"
 		nextSpawnTimeMin 300.0
-		nextSpawnTimeMax 1200.0
+		nextSpawnTimeMax 900.0
 		spawnWeight 0.05
 	randomEventDef
 		id "CULTUREIMPLOSION"
@@ -163,7 +163,7 @@ randomEventDefCount 12
 		excludedSpawnLocationCount 0
 		spawnRequirement "Timer"
 		nextSpawnTimeMin 300.0
-		nextSpawnTimeMax 1200.0
+		nextSpawnTimeMax 900.0
 		spawnWeight 0.05
 	randomEventDef
 		id "OPENREBELLION"
@@ -195,6 +195,19 @@ randomEventDefCount 12
 			excludedSpawnLocation "PlanetWormhole"
 		spawnRequirement "Timer"
 		nextSpawnTimeMin 500.0
-		nextSpawnTimeMax 1200.0
+		nextSpawnTimeMax 900.0
 		spawnWeight 0.05
-		
+	randomEventDef
+		id "PIRATETITAN"
+		nameID "IDS_RANDOMEVENT_PIRATBLACKOPS_NAME"
+		warningID "IDS_GAMEMESSAGE_RANDOMEVENTDETECTEDPIRATEBLACKOPS"
+		spawnType "BuffAtLocation"
+		spawnEntity "RandomEventPirateBlackOpsIncursion"
+		playerOwnerType "MadVasari"
+		spawnLocation "RandomLocation"
+		excludedSpawnLocationCount 0
+		spawnRequirement "Timer"
+		respawnCount 0
+		nextSpawnTimeMin 300.0
+		nextSpawnTimeMax 900.0
+		spawnWeight 0.05		

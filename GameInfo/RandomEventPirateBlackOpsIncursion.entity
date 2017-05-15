@@ -14,21 +14,25 @@ instantAction
 	delayTime 0.000000
 	spawnShipsLevelCount 1
 	spawnShips
-		minFleetPoints 1.000000
-		maxFleetPoints 1.000000
-		requiredShipCount 0
+		minFleetPoints 5.000000
+		maxFleetPoints 15.000000
+		requiredShipCount 1
+		requiredShip
+			type "BloodRaider_Ship_Battleship_CorpusDarkCommander"
+			minCount 1
+			maxCount 1
 		randomShipCount 4
 		randomShip
-			type "Amarr_Ship_Titan_Avatar"
+			type "Amarr_Ship_Battleship_Armageddon"
 			weight 1
 		randomShip
-			type "Gallente_Ship_Titan_Erebus"
+			type "Gallente_Ship_Battleship_Dominix"
 			weight 1
 		randomShip
-			type "Caldari_Ship_Capital_Titan_Leviathan"
+			type "Minmatar_Ship_Battleship_Typhoon"
 			weight 1
 		randomShip
-			type "Minmatar_Ship_Titan_Ragnarok"
+			type "Amarr_Ship_Battleship_Armageddon"
 			weight 1
 	spawnShipsArrivalDelayTime 7.000000
 	spawnShipsHyperspaceSpawnType "FleetBeacon"

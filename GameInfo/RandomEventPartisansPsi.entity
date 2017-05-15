@@ -16,48 +16,24 @@ instantAction
 	spawnShips
 		minFleetPoints 150.000000
 		maxFleetPoints 350.000000
-		requiredShipCount 7
-		requiredShip
-			type "FrigatePsiAntiFighter"
-			minCount 2
-			maxCount 3
-		requiredShip
-			type "FrigatePsiCarrier"
-			minCount 2
-			maxCount 3
-		requiredShip
-			type "CorvettePsiRebel"
-			minCount 5
-			maxCount 6
-		requiredShip
-			type "FrigatePsiHeavy"
-			minCount 3
-			maxCount 6
-		requiredShip
-			type "FrigatePsiLight"
-			minCount 5
-			maxCount 10
-		requiredShip
-			type "FrigatePsiLongRange"
-			minCount 2
-			maxCount 6
-		requiredShip
-			type "FrigatePsiSiege"
-			minCount 2
-			maxCount 2
-		randomShipCount 4
-		randomShip
-			type "CAPITALSHIP_PSIBATTLESHIP"
-			weight 1
-		randomShip
-			type "CAPITALSHIP_PSIBATTLEPSIONIC"
-			weight 1
-		randomShip
-			type "CAPITALSHIP_PSICARRIER"
-			weight 1
-		randomShip
-			type "CAPITALSHIP_PSIBATTLESHIP2"
-			weight 1
+			requiredShipCount 4
+			requiredShip
+				type "Sansha_Ship_Frigate_NiarjaMyelen"
+				minCount 2
+				maxCount 4
+			requiredShip
+				type "Sansha_Ship_Cruiser_MaraPaleo"
+				minCount 3
+				maxCount 4
+			requiredShip
+				type "Sansha_Ship_Frigate_EyesturRhomben"
+				minCount 12
+				maxCount 18
+			requiredShip
+				type "Sansha_Ship_Cruiser_AntemNeo"
+				minCount 8
+				maxCount 12
+		randomShipCount 0
 	spawnShipsArrivalDelayTime 7.000000
 	spawnShipsHyperspaceSpawnType "FleetBeacon"
 numPeriodicActions 0
