@@ -24611,5 +24611,5 @@ StringInfo
 	Value "Pirate Black Ops Incursion"
 StringInfo
 	ID "IDS_GAMEMESSAGE_RANDOMEVENTDETECTEDPIRATEBLACKOPS"
-	Value "A Rougue Black Ops Gang was dicovered marauding Systems.
-	"
+	Value "A Rougue Black Ops Gang was dicovered marauding Systems."
+	
