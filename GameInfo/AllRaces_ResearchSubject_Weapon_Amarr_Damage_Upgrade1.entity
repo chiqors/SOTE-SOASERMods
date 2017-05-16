@@ -3,8 +3,8 @@ entityType "ResearchSubject"
 hudIcon "HUDICON_RESEARCHSUBJECT_ABILITY_WEAPONDAMAGEUPGRADE3"
 smallHudIcon "HUDICON_RESEARCHSUBJECT_ABILITY_WEAPONDAMAGEUPGRADE3"
 infoCardIcon ""
-NameStringID "IDS_AllRaces_ResearchSubject_Weapon_Damage_Upgrade3_NAME"
-DescriptionStringID "IDS_AllRaces_ResearchSubject_Weapon_Damage_Upgrade3_DESCRIPTION"
+NameStringID "IDS_RWA_Weapon_Damage_Upgrade3_NAME"
+DescriptionStringID "IDS_RWA_Weapon_Damage_Upgrade3_DESCRIPTION"
 researchWindowLocation
 	block 1
 	pos [ 6 , 1 ]

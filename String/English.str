@@ -1,5 +1,5 @@
 TXT
-NumStrings 8204
+NumStrings 8242
 StringInfo
     ID "IDS_ABILITY_RORQUALPANIC_NAME"
 	Value "P.A.N.I.C Module"
@@ -24460,10 +24460,10 @@ StringInfo
 	ID "IDS_AllRaces_ResearchSubject_Weapon_Damage_Upgrade2_DESCRIPTION"
 	Value "Increase Damage all non-missile Cruisers and Battlecruisers."	
 StringInfo
-	ID "IDS_AllRaces_ResearchSubject_Weapon_Damage_Upgrade3_NAME"
+	ID "IDS_RWA_Weapon_Damage_Upgrade3_NAME"
 	Value "Weapon Upgrade"
 StringInfo
-	ID "IDS_AllRaces_ResearchSubject_Weapon_Damage_Upgrade3_DESCRIPTION"
+	ID "IDS_RWA_Weapon_Damage_Upgrade3_DESCRIPTION"
 	Value "Increase Damage of all non-missile Battleships."
 StringInfo
 	ID "IDS_ABILITY_ABILITY_PHASEDARMOURHARDENER_NAME"
@@ -24601,7 +24601,7 @@ StringInfo
 	ID "IDS_CONCORD_FRIGATE_DESCRIPTION"
 	Value "A Concord SWAT vessel."			
 StringInfo
-	ID "IDS_CONCORD_CRUISER_NAME"
+	ID "IDS_CONCORD_CRUISER_DESCRIPTION"
 	Value "CONCORD Special Ops Cruiser"
 StringInfo
 	ID "IDS_CONCORD_CRUISER_NAME"
@@ -24612,4 +24612,117 @@ StringInfo
 StringInfo
 	ID "IDS_GAMEMESSAGE_RANDOMEVENTDETECTEDPIRATEBLACKOPS"
 	Value "A Rougue Black Ops Gang was dicovered marauding Systems."
-	
+StringInfo
+	ID "IDS_RSACoverOps_NAME"
+	Value "Covert Ops Refit."
+StringInfo
+	ID "IDS_RSACoverOps_DESCRIPTION"
+	Value "Change frigates to Covert Ops Ships. They can warp while cloaked to act as scoutse. Stealth bombers are very specialized ships which can warp cloaked and don't have a sensor recalibration delay preventing them from locking targets after decloaking. They can fit torpedo launchers and bomb launchers."
+StringInfo
+	ID "IDS_RSAMARAUDER_NAME"
+	Value "Marauder Refit."
+StringInfo
+	ID "IDS_RSAMARAUDER_DESCRIPTION"
+	Value "Marauders are Tech II battleships specialized in Self Repair. Their most unique feature is that they can fit a Bastion Module, which immobilizes the Marauder for 30 seconds, but grants improved weapon range and a spectacular bonus to their tank."	
+StringInfo
+	ID "IDS_RSAInterdictor_NAME"
+	Value "Interdictor Refit."
+StringInfo
+	ID "IDS_RSAInterdictor_DESCRIPTION"
+	Value "Interdictors strategically prevent warping, playing a key role in nullsec warfare where they can launch warp disruption probes. The Heavy Interdictor are used to tackle capital ships."
+StringInfo
+	ID "IDS_RSAHeavyAssault_NAME"
+	Value "Heavy Assault Refit."
+StringInfo
+	ID "IDS_RSAHeavyAssault_DESCRIPTION"
+	Value "Heavy Assault Cruisers (commonly called "HACs") are extremely versatile and powerful ships. They combine high speed and agility with either high DPS and decent tanks when fitted for close range, or decent DPS and buffer tanks at very long ranges."
+StringInfo
+	ID "IDS_RSABlackOps_NAME"
+	Value "Black Ops Refit."
+StringInfo
+	ID "IDS_RSABlackOps_DESCRIPTION"
+	Value "Black Ops battleships are the Tech II battleship counterpart of Recon Ships."
+StringInfo
+	ID "IDS_RSACommandShip_NAME"
+	Value "Command Ship Refit."
+StringInfo
+	ID "IDS_RSACommandShip_DESCRIPTION"
+	Value "Their primary role is to provide covert jump bridges."
+StringInfo
+	ID "IDS_RSAEletronicShip_NAME"
+	Value "Eletronic Ship Refit.""
+StringInfo
+	ID "IDS_RSAEletronicShip_DESCRIPTION"
+	Value "Force recon ships are the cruiser-class equivalent of covert ops frigates."
+StringInfo
+	ID "IDS_RSM_TALWAR_NAME"
+	Value "Talwar Destroyer"
+StringInfo
+	ID "IDS_RSM_TALWAR_DESCRIPTION"
+	Value ""
+StringInfo
+	ID "IDS_RSC_CORAX_NAME"
+	Value "Corax Destroyer"
+StringInfo
+	ID "IDS_RSC_CORAX_DESCRIPTION"
+	Value ""
+StringInfo
+	ID "IDS_RSA_DRAGOON_NAME"
+	Value "Dragoon Destroyer"
+StringInfo
+	ID "IDS_RSA_DRAGOON_DESCRIPTION"
+	Value ""
+StringInfo
+	ID "IDS_RSG_ALGOS_NAME"
+	Value "Algos Destroyer"
+StringInfo
+	ID "IDS_RSG_ALGOS_DESCRIPTION"
+	Value ""
+StringInfo
+	ID "IDS_RSM_TORNADO_NAME"
+	Value "Tornado Battlecruiser"
+StringInfo
+	ID "IDS_RSM_TORNADO_DESCRIPTION"
+	Value ""
+StringInfo
+	ID "IDS_RSC_NAGA_NAME"
+	Value "Naga Battlecruiser"
+StringInfo
+	ID "IDS_RSC_NAGA_DESCRIPTION"
+	Value ""
+StringInfo
+	ID "IDS_RSA_ORACLE_NAME"
+	Value "Oracle Battlecruiser"
+StringInfo
+	ID "IDS_RSA_ORACLE_DESCRIPTION"
+	Value ""
+StringInfo
+	ID "IDS_RSG_TALOS_NAME"
+	Value "Talos Battlecruiser"
+StringInfo
+	ID "IDS_RSG_TALOS_DESCRIPTION"
+	Value ""
+StringInfo
+	ID "IDS_RSM_STABBER_NAME"
+	Value "Stabber Cruiser"
+StringInfo
+	ID "IDS_RSM_STABBER_DESCRIPTION"
+	Value ""
+StringInfo
+	ID "IDS_RSC_MOA_NAME"
+	Value "Moa Cruiser"
+StringInfo
+	ID "IDS_RSC_MOA_DESCRIPTION"
+	Value ""
+StringInfo
+	ID "IDS_RSA_MALLER_NAME"
+	Value "Maller Cruiser"
+StringInfo
+	ID "IDS_RSA_MALLER_DESCRIPTION"
+	Value ""
+StringInfo
+	ID "IDS_RSG_THORAX_NAME"
+	Value "Thorax Cruiser"
+StringInfo
+	ID "IDS_RSG_THORAX_DESCRIPTION"
+	Value ""

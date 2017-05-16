@@ -1,13 +1,13 @@
 ﻿TXT
 entityType "ResearchSubject"
-hudIcon "HUDICON_ABILITY_SABOTAGEENGINES"
-smallHudIcon "HUDICON_ABILITY_SABOTAGEENGINES"
+hudIcon "HUDICON_RSAMARAUDER"
+smallHudIcon "HUDICON_RSAMARAUDER"
 infoCardIcon ""
-NameStringID "IDS_COVERTOPS_JUMPBRIDGE_NAME"
-DescriptionStringID "IDS_COVERTOPS_JUMPBRIDGE_DESCRIPTION"
+NameStringID "IDS_RSAMARAUDER_NAME"
+DescriptionStringID "IDS_RSAMARAUDER_NAME"
 researchWindowLocation
 	block 0
-	pos [ 7 , 1 ]
+	pos [ 7 , 0 ]
 ResearchField "Combat"
 Prerequisites
 	NumResearchPrerequisites 0
