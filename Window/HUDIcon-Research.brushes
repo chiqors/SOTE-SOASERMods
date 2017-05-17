@@ -1,6 +1,6 @@
 ﻿TXT
 onlyLoadOnDemand FALSE
-brushCount 682
+brushCount 689
 brush
 	name "HUDICON_RESEARCHSUBJECT_POPULATIONCAP_IRON_0"
 	content "States"
@@ -11965,4 +11965,130 @@ brush
 	Normal
 		fileName "Buttons_Abilities_Normal"
 		pixelBox [ 158 , 955 , 47 , 33 ]
+brush
+	name "HUDICON_RSALOGISTIC"
+	content "States"
+	Disabled
+		fileName "Buttons_Abilities_Disabled"
+		pixelBox [ 873 , 919 , 32 , 32 ]
+	Pressed
+		fileName "Buttons_Abilities_Pressed"
+		pixelBox [ 873 , 919 , 32 , 32 ]
+	CursorOver
+		fileName "Buttons_Abilities_CursorOver"
+		pixelBox [ 873 , 919 , 32 , 32 ]
+	Focused
+		fileName "Buttons_Abilities_Normal"
+		pixelBox [ 873 , 919 , 32 , 32 ]
+	Normal
+		fileName "Buttons_Abilities_Normal"
+		pixelBox [ 873 , 919 , 32 , 32 ]
+brush
+	name "HUDICON_RSACOMMANDER"
+	content "States"
+	Disabled
+		fileName "Buttons_Abilities_Disabled"
+		pixelBox [ 873 , 955 , 32 , 32 ]
+	Pressed
+		fileName "Buttons_Abilities_Pressed"
+		pixelBox [ 873 , 955 , 32 , 32 ]
+	CursorOver
+		fileName "Buttons_Abilities_CursorOver"
+		pixelBox [ 873 , 955 , 32 , 32 ]
+	Focused
+		fileName "Buttons_Abilities_Normal"
+		pixelBox [ 873 , 955 , 32 , 32 ]
+	Normal
+		fileName "Buttons_Abilities_Normal"
+		pixelBox [ 873 , 955 , 32 , 32 ]
+brush
+	name "HUDICON_RSACOVOPS"
+	content "States"
+	Disabled
+		fileName "Buttons_Abilities_Disabled"
+		pixelBox [ 923 , 920 , 32 , 32 ]
+	Pressed
+		fileName "Buttons_Abilities_Pressed"
+		pixelBox [ 923 , 920 , 32 , 32 ]
+	CursorOver
+		fileName "Buttons_Abilities_CursorOver"
+		pixelBox [ 923 , 920 , 32 , 32 ]
+	Focused
+		fileName "Buttons_Abilities_Normal"
+		pixelBox [ 923 , 920 , 32 , 32 ]
+	Normal
+		fileName "Buttons_Abilities_Normal"
+		pixelBox [ 923 , 920 , 32 , 32 ]
+brush
+	name "HUDICON_RSAELETRONICWARFARE"
+	content "States"
+	Disabled
+		fileName "Buttons_Abilities_Disabled"
+		pixelBox [ 924 , 955 , 32 , 32 ]
+	Pressed
+		fileName "Buttons_Abilities_Pressed"
+		pixelBox [ 924 , 955 , 32 , 32 ]
+	CursorOver
+		fileName "Buttons_Abilities_CursorOver"
+		pixelBox [ 924 , 955 , 32 , 32 ]
+	Focused
+		fileName "Buttons_Abilities_Normal"
+		pixelBox [ 924 , 955 , 32 , 32 ]
+	Normal
+		fileName "Buttons_Abilities_Normal"
+		pixelBox [ 924 , 955 , 32 , 32 ]
+brush
+	name "HUDICON_RSABLACKOPS"
+	content "States"
+	Disabled
+		fileName "Buttons_Abilities_Disabled"
+		pixelBox [ 923 , 993 , 32 , 32 ]
+	Pressed
+		fileName "Buttons_Abilities_Pressed"
+		pixelBox [ 975 , 993 , 32 , 32 ]
+	CursorOver
+		fileName "Buttons_Abilities_CursorOver"
+		pixelBox [ 975 , 993 , 32 , 32 ]
+	Focused
+		fileName "Buttons_Abilities_Normal"
+		pixelBox [ 975 , 993 , 32 , 32 ]
+	Normal
+		fileName "Buttons_Abilities_Normal"
+		pixelBox [ 975 , 993 , 32 , 32 ]
+brush
+	name "HUDICON_RSAHEAVYASSAULT"
+	content "States"
+	Disabled
+		fileName "Buttons_Abilities_Disabled"
+		pixelBox [ 974 , 919 , 32 , 32 ]
+	Pressed
+		fileName "Buttons_Abilities_Pressed"
+		pixelBox [ 974 , 919 , 32 , 32 ]
+	CursorOver
+		fileName "Buttons_Abilities_CursorOver"
+		pixelBox [ 974 , 919 , 32 , 32 ]
+	Focused
+		fileName "Buttons_Abilities_Normal"
+		pixelBox [ 974 , 919 , 32 , 32 ]
+	Normal
+		fileName "Buttons_Abilities_Normal"
+		pixelBox [ 974 , 919 , 32 , 32 ]
+brush
+	name "HUDICON_RSAMARAUDER"
+	content "States"
+	Disabled
+		fileName "Buttons_Abilities_Disabled"
+		pixelBox [ 975 , 955 , 32 , 32 ]
+	Pressed
+		fileName "Buttons_Abilities_Pressed"
+		pixelBox [ 975 , 955 , 32 , 32 ]
+	CursorOver
+		fileName "Buttons_Abilities_CursorOver"
+		pixelBox [ 975 , 955 , 32 , 32 ]
+	Focused
+		fileName "Buttons_Abilities_Normal"
+		pixelBox [ 975 , 955 , 32 , 32 ]
+	Normal
+		fileName "Buttons_Abilities_Normal"
+		pixelBox [ 975 , 955 , 32 , 32 ]
 				

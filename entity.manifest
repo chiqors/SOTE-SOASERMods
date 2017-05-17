@@ -1,5 +1,5 @@
 TXT
-entityNameCount 2252
+entityNameCount 2264
 entityName "BuffSuppressionChannelEnd.entity"
 entityName "AbilityAbilityGuidance.entity"
 entityName "AbilityPhasedArmourHardener.entity"
@@ -2252,3 +2252,15 @@ entityName "BuffcovertOpsJumpBridgeTarget.entity"
 entityName "AllRaces_ResearchSubject_CovertOpsJumpBridge.entity"
 entityName "BuffArcingVortonSelf.entity"
 entityName "RandomEventPirateBlackOpsIncursion.entity"
+entityName "RSABlackOps.entity"
+entityName "RSACommandShip.entity"
+entityName "RSACovertOps.entity"
+entityName "RSAEletronicShip.entity"
+entityName "RSAHeavyAssault.entity"
+entityName "RSAInterdictor.entity"
+entityName "RSAMarauder.entity"
+entityName "RSAStealthBomber.entity"
+entityName "Caldari_Ship_Destroyer_Corax.entity"
+entityName "Amarr_Ship_Destroyer_Dragoon.entity"
+entityName "Gallente_Ship_Destroyer_Algosentity"
+entityName "Minmatar_Ship_Destroyer_Talwar.entity"
