@@ -974,13 +974,13 @@ DamagePercentBonus:ANTIVERYLIGHT:CapitalShip 0.994
 			requiredShipCount 0
 			randomShipCount 3
 			randomShip
-				type "FrigateTECHLongRange"
+				type "Ship_ConcordFrigate"
 				weight 3
 			randomShip
-				type "Concord_Ship_Cruiser"
+				type "Concord_ShipCruiser"
 				weight 5
 			randomShip
-				type "FrigateTECHHeavy"
+				type "Concord_ShipBattleship"
 				weight 10				
 		baseFleetCapacity 20.0
 		maxFleetSupplyPerPlanetPopulation .025
