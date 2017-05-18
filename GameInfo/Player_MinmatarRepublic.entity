@@ -73,10 +73,9 @@ entities
 			entityDefName "Minmatar_Ship_Tradeship_Manmonth"
 			entityDefName "Minmatar_Ship_Refineryship_Mamonth"
 	researchInfo
-		count 130
+		count 129
 		entityDefName "AllRaces_ResearchSubject_CovertOpsJumpBridge"
 		entityDefName "Minmatar_ResearchSubject_SubCapitalAccess_Svipul"
-		entityDefName "AllRaces_ResearchSubject_PlanetModuleAccess_CYNOSURAL_NAVIGATION"
 		entityDefName "ALLRACES_RESEARCHSUBJECT_ABILITYACCESS_AFTERBURNER"
 		entityDefName "ALLRACES_RESEARCHSUBJECT_ABILITYACCESS_BASTIONMODE"
 		entityDefName "ALLRACES_RESEARCHSUBJECT_ABILITYACCESS_CLOAK"

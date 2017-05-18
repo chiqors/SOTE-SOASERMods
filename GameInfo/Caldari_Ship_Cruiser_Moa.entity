@@ -15,15 +15,15 @@ NameStringID "IDS_FRIGATE_BLACKBIRD_NAME"
 DescriptionStringID "IDS_FRIGATE_BLACKBIRD_DESCRIPTION"
 counterDescriptionStringID "IDS_COUNTERDESC_CORVETTE_TECH"
 basePrice
-	credits 155.000000
-	metal 32.000000
-	crystal 23.000000
+	credits 324.000000
+	metal 62.000000
+	crystal 180.000000
 slotCount 4.000000
-BuildTime 85.000000
+BuildTime 48.000000
 hasLevels FALSE
 ExperiencePointsForDestroying 60.000000
-MaxHullPoints 575.000000
-MaxShieldPoints 1150.000000
+MaxHullPoints 1850.000000
+MaxShieldPoints 5390.000000
 HullPointRestoreRate 1.000000
 ShieldPointRestoreRate 1.000000
 BaseArmorPoints 0.000000

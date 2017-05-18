@@ -73,7 +73,7 @@ entities
 			entityDefName "Amarr_Ship_Tradeship_Bestower"
 			entityDefName "Amarr_Ship_Refineryship_Bestower"
 	researchInfo
-		count 129
+		count 128
 		entityDefName "AllRaces_ResearchSubject_CovertOpsJumpBridge"		
 		entityDefName "AllRaces_ResearchSubject_ArcingVortonProjector"
 		entityDefName "ALLRACES_RESEARCHSUBJECT_ABILITYACCESS_AFTERBURNER"
@@ -87,7 +87,6 @@ entities
 		entityDefName "AllRaces_ResearchSubject_PlanetModuleAccess_Astrahus"
 		entityDefName "AllRaces_ResearchSubject_PlanetModuleAccess_Fortizar"
 		entityDefName "AllRaces_ResearchSubject_PlanetModuleAccess_Keepstar"
-		entityDefName "AllRaces_ResearchSubject_PlanetModuleAccess_CYNOSURAL_NAVIGATION"
 		entityDefName "AllRaces_ResearchSubject_T3ModuleAccess_DefensiveSystems"
 		entityDefName "AllRaces_ResearchSubject_T3ModuleAccess_EletronicSystems"
 		entityDefName "AllRaces_ResearchSubject_T3ModuleAccess_OffensiveSystems"
