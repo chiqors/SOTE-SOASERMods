@@ -7,7 +7,7 @@ NameStringID "IDS_RESEARCHSUBJECT_ABILITYACCESS_UNSTOPPABLEPHASEJUMPTECH_NAME"
 DescriptionStringID "IDS_RESEARCHSUBJECT_ABILITYACCESS_UNSTOPPABLEPHASEJUMPTECH_DESCRIPTION"
 researchWindowLocation
 	block 0
-	pos [ 50 , 0 ]
+	pos [ 52 , 0 ]
 ResearchField "Combat"
 Prerequisites
 	NumResearchPrerequisites 1

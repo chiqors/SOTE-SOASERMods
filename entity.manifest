@@ -1,5 +1,5 @@
 TXT
-entityNameCount 2271
+entityNameCount 2280
 entityName "ALLRACES_RESEARCHSUBJECT_ABILITYACCESS_AFTERBURNER.entity"
 entityName "ALLRACES_RESEARCHSUBJECT_ABILITYACCESS_BASTIONMODE.entity"
 entityName "ALLRACES_RESEARCHSUBJECT_ABILITYACCESS_CLOAK.entity"
@@ -2271,3 +2271,11 @@ entityName "Amarr_ResearchSubject_SubCapitalAccess_Dragoon.entity"
 entityName "Caldari_ResearchSubject_SubCapitalAccess_Corax.entity"
 entityName "Gallente_ResearchSubject_SubCapitalAccess_Algos.entity"
 entityName "Caldari_Ship_Cruiser_Blackbird.entity""
+entityName "AbilityDeployDictorBubble.entity"
+entityName "AbilityDictorBubble.entity"
+entityName "AbilityDictorImmunity.entity"
+entityName "BuffAbilityDictorBubbleCaster.entity"
+entityName "BuffAbilityDictorBubbleTarget.entity"
+entityName "BuffDictorImmunity.entity"
+entityName "FrigateDictorBubble.entity"
+entityName "Caldari_Structure_CultureCenter.entity"

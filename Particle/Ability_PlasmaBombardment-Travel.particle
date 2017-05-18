@@ -43,7 +43,7 @@ ParticleSimulation
 		numTextures 2
 		textureName ""
 		textureName ""
-		textureAnimationName "C:\Documents and Settings\bailknight.GC-DCIS-2\바탕 화면\SinsModPackageIncomplete\ForgeTools3\ParticleForge 3\TextureAnimations\plasma_heavyhit.texanim"
+		textureAnimationName "plasma_heavyhit.texanim"
 		textureAnimationSpawnType "RandomFrames"
 		textureAnimationOnParticleFPS 30.000000
 		ParticlesRotate TRUE
@@ -137,7 +137,7 @@ ParticleSimulation
 		PipelineEffectID "GS_Exhaust.fx"
 		AreParticlesAttached TRUE
 		numTextures 2
-		textureName "D:\Program Files\Sins of a Solar Empire\Textures\exhaustcore.tga"
+		textureName "exhaustcore.tga"
 		textureName "rayoflightcurve.tga"
 		textureAnimationName ""
 		textureAnimationSpawnType "RandomFrames"

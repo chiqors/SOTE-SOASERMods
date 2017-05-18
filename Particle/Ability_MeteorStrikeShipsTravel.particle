@@ -216,7 +216,7 @@ ParticleSimulation
 		ParticleStartColor ffffffff
 		ParticleWidth 0.000000
 		ParticleHeight 0.000000
-		MeshName "C:\Documents and Settings\bailknight.GC-DCIS-2\바탕 화면\SinsModPackageIncomplete\ParticleForge 3\Mesh\AsteroidSmall02.MESH"
+		MeshName "AsteroidSmall02.MESH"
 		Position [ 0.000000 10.000000 -50.000000 ]
 		Orientation
 			 [ 0.766044 0.219846 -0.604023 ]
@@ -281,7 +281,7 @@ ParticleSimulation
 		PipelineEffectID "Particle_Additive.fx"
 		AreParticlesAttached TRUE
 		numTextures 2
-		textureName "C:\gs\main\DataSource\Textures\Effects\flakburst2.dds"
+		textureName "flakburst2.dds"
 		textureName ""
 		textureAnimationName ""
 		textureAnimationSpawnType "RandomFrames"

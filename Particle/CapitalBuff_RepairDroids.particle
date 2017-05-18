@@ -84,7 +84,7 @@ ParticleSimulation
 		ParticleStartColor ffffffff
 		ParticleWidth 70.000000
 		ParticleHeight 100.000000
-		MeshName "C:\gs\main\DataSource\Mesh\TechDroid1.mesh"
+		MeshName "TechDroid1.mesh"
 		Position [ 0.000000 0.000000 -30.000000 ]
 		Orientation
 			 [ 1.000000 0.000000 0.000000 ]

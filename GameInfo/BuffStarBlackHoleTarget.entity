@@ -10,7 +10,8 @@ isChannelling FALSE
 numInstantActions 1
 instantAction
 	buffInstantActionType "DoDamage"
-	instantActionTriggerType "AlwaysPerform"
+	instantActionTriggerType "OnDelay"
+	delayTime 0.000000
 	damage
 		Level:0 50.000000
 		Level:1 50.000000

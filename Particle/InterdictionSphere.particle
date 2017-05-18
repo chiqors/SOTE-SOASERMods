@@ -22,8 +22,8 @@ ParticleSimulation
 		ParticleMaxStartRotation 0.000000
 		ParticleStartMass 1.000000
 		ParticleStartColor ff0000ff
-		ParticleWidth 11000.000000
-		ParticleHeight 11000.000000
+		ParticleWidth 1.000000
+		ParticleHeight 1.000000
 		MeshName ""
 		Position [ 0.000000 0.000000 0.000000 ]
 		Orientation
@@ -164,17 +164,18 @@ ParticleSimulation
 	AffectorContents
 		Name "(new) LinearInflate-1"
 		Enabled TRUE
-		StartTime 0.000000
-		HasInfiniteLifeTime TRUE
-		TotalLifeTime 0.000000
+		StartTime 0.300000
+		HasInfiniteLifeTime FALSE
+		TotalLifeTime 1.000000
 		UseYoungParticleAffectThreshold FALSE
 		YoungParticleAffectThreshold 0.000000
 		UseOldParticleAffectThreshold FALSE
 		OldParticleAffectThreshold 0.000000
 		AffectAttachedParticles TRUE
-		numAttachedEmitters 0
-		WidthInflateRate 9000.000000
-		HeightInflateRate 9000.000000
+		numAttachedEmitters 1
+		attachedEmitterName "range"
+		WidthInflateRate 11000.000000
+		HeightInflateRate 11000.000000
 	AffectorType "Fade"
 	AffectorContents
 		Name "(copy) (new) Fade-1-1"
@@ -247,6 +248,6 @@ ParticleSimulation
 		TransitionPeriod 5.000000
 		StartColor ff0000ff
 		StartAlpha 0.000000
-		EndColor ffc0c0ff
+		EndColor ff82c0ff
 		EndAlpha 0.500000
 	length 0.000000

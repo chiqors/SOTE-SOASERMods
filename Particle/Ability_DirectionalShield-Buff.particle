@@ -41,7 +41,7 @@ ParticleSimulation
 		PipelineEffectID "Particle_Additive.fx"
 		AreParticlesAttached TRUE
 		numTextures 2
-		textureName "C:\gs\main\DataSource\Textures\Effects\rayoflightout.tga"
+		textureName "rayoflightout.tga"
 		textureName ""
 		textureAnimationName ""
 		textureAnimationSpawnType "RandomFrames"
@@ -89,7 +89,7 @@ ParticleSimulation
 		PipelineEffectID "Particle_Additive.fx"
 		AreParticlesAttached TRUE
 		numTextures 2
-		textureName "C:\gs\main\DataSource\Textures\Effects\phaseswirl.tga"
+		textureName "phaseswirl.tga"
 		textureName ""
 		textureAnimationName ""
 		textureAnimationSpawnType "RandomFrames"
@@ -137,7 +137,7 @@ ParticleSimulation
 		PipelineEffectID "Particle_Additive.fx"
 		AreParticlesAttached TRUE
 		numTextures 2
-		textureName "C:\gs\main\DataSource\Textures\Effects\brightcenter.tga"
+		textureName "brightcenter.tga"
 		textureName ""
 		textureAnimationName ""
 		textureAnimationSpawnType "RandomFrames"
@@ -168,7 +168,7 @@ ParticleSimulation
 		ParticleStartColor ffffffff
 		ParticleWidth 1.000000
 		ParticleHeight 1.000000
-		MeshName "C:\Documents and Settings\bailknight.GC-DCIS-2\바탕 화면\SinsModPackageIncomplete\ParticleForge 3\Mesh\StarBasePhase.mesh"
+		MeshName "StarBasePhase.mesh"
 		Position [ 0.000000 1000.000000 -500.000000 ]
 		Orientation
 			 [ 1.000000 0.000000 0.000000 ]

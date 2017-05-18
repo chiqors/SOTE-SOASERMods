@@ -41,7 +41,7 @@ ParticleSimulation
 		PipelineEffectID "Particle_Additive.fx"
 		AreParticlesAttached TRUE
 		numTextures 2
-		textureName "C:\Users\drokoth\Desktop\to convert\ArmorRR.tga"
+		textureName "ArmorRR.tga"
 		textureName ""
 		textureAnimationName ""
 		textureAnimationSpawnType "RandomFrames"

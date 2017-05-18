@@ -7,7 +7,7 @@ buffToApplyOnImpact "RandomEventGammaRayBurst"
 planetImpactEffectName "GammaRayBurst_Impact"
 planetImpactSounds
 	soundCount 1
-	sound "EXPLOSION_GRBIMPACT"
+	sound ""
 planetImpactCameraShakeMaxSize 980000.000000
 planetImpactCameraShakeStrength 1.500000
 planetImpactCameraShakeDuration 0.000000

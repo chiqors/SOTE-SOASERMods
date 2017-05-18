@@ -41,7 +41,7 @@ ParticleSimulation
 		PipelineEffectID "Particle_Additive.fx"
 		AreParticlesAttached TRUE
 		numTextures 2
-		textureName "C:\Users\drokoth\Desktop\to convert\Possible Jump Travel texture.dds"
+		textureName "Possible Jump Travel texture.dds"
 		textureName ""
 		textureAnimationName ""
 		textureAnimationSpawnType "SequentialFrames"

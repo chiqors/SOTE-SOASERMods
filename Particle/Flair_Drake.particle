@@ -41,7 +41,7 @@ ParticleSimulation
 		PipelineEffectID "Particle_Additive.fx"
 		AreParticlesAttached TRUE
 		numTextures 2
-		textureName "C:\Users\administrador\OneDrive for Business\EVE\SINS\ForgeTools 3\ParticleForge 3\Textures\lightcorona.dds"
+		textureName "lightcorona.dds"
 		textureName ""
 		textureAnimationName ""
 		textureAnimationSpawnType "RandomFrames"

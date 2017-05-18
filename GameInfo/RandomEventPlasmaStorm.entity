@@ -17,7 +17,7 @@ instantAction
 		smallEffectName "PlanetPlasmaStorm"
 		mediumEffectName "PlanetPlasmaStorm"
 		largeEffectName "PlanetPlasmaStorm"
-		soundID "EFFECT_PLASMASTORM"
+		soundID ""
 numPeriodicActions 1
 periodicAction
 	actionCountType "Infinite"

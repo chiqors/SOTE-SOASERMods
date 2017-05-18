@@ -41,7 +41,7 @@ ParticleSimulation
 		PipelineEffectID "Particle_Additive.fx"
 		AreParticlesAttached TRUE
 		numTextures 2
-		textureName "C:\gs\main\DataSource\Textures\Effects\rayoflightsine.tga"
+		textureName "rayoflightsine.tga"
 		textureName ""
 		textureAnimationName ""
 		textureAnimationSpawnType "RandomFrames"
@@ -89,7 +89,7 @@ ParticleSimulation
 		PipelineEffectID "Particle_Additive.fx"
 		AreParticlesAttached TRUE
 		numTextures 2
-		textureName "C:\gs\main\DataSource\Textures\Effects\brightcenter.tga"
+		textureName "brightcenter.tga"
 		textureName ""
 		textureAnimationName ""
 		textureAnimationSpawnType "RandomFrames"

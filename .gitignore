@@ -1,1 +1,6 @@
 /ChangeLog.txt
+/bin/
+/.project
+/src
+/*.project
+/.classpath

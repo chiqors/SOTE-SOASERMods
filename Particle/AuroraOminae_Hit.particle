@@ -307,8 +307,8 @@ ParticleSimulation
 		PipelineEffectID "GS_Exhaust.fx"
 		AreParticlesAttached TRUE
 		numTextures 2
-		textureName "C:\Users\drokoth\Desktop\to convert\JumpArrival.tga"
-		textureName "C:\Users\drokoth\Desktop\to convert\JumpArrival.tga"
+		textureName "JumpArrival.tga"
+		textureName "JumpArrival.tga"
 		textureAnimationName ""
 		textureAnimationSpawnType "RandomFrames"
 		textureAnimationOnParticleFPS 0.000000
@@ -355,7 +355,7 @@ ParticleSimulation
 		PipelineEffectID "Particle_Additive.fx"
 		AreParticlesAttached TRUE
 		numTextures 2
-		textureName "C:\Users\drokoth\Desktop\to convert\Possible Jump Travel texture.dds"
+		textureName "Possible Jump Travel texture.dds"
 		textureName ""
 		textureAnimationName ""
 		textureAnimationSpawnType "RandomFrames"
@@ -416,7 +416,7 @@ ParticleSimulation
 		PipelineEffectID "Particle_Additive.fx"
 		AreParticlesAttached TRUE
 		numTextures 2
-		textureName "C:\Users\drokoth\Desktop\to convert\Possible Jump Travel texture.dds"
+		textureName "Possible Jump Travel texture.dds"
 		textureName ""
 		textureAnimationName ""
 		textureAnimationSpawnType "RandomFrames"
@@ -477,7 +477,7 @@ ParticleSimulation
 		PipelineEffectID "Particle_Additive.fx"
 		AreParticlesAttached TRUE
 		numTextures 2
-		textureName "C:\Users\drokoth\Desktop\to convert\Possible Jump Travel texture.dds"
+		textureName "Possible Jump Travel texture.dds"
 		textureName ""
 		textureAnimationName ""
 		textureAnimationSpawnType "RandomFrames"

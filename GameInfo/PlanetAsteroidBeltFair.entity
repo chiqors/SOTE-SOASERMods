@@ -240,7 +240,7 @@ renderAsVolcanic FALSE
 planetRuinDef
 	ruinPlanetType "PlanetDeadAsteroid"
 	attachType "Center"
-	effectName "	effectName "
+	effectName ""
 	startTime 9.000000
 	soundID ""
 	creditsOnStrippedToTheCore 0.000000

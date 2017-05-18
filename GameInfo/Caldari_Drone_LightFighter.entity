@@ -71,7 +71,7 @@ TargetCountPerBank:BACK 0
 TargetCountPerBank:LEFT 0
 TargetCountPerBank:RIGHT 0
 canOnlyTargetStructures FALSE
-meshName "Firbolg"
+meshName "Dragonfly"
 exhaustParticleSystemName "ExhaustSmall"
 ExplosionName "Fighter0"
 exhaustTrailTextureName "ExhaustTrail"
