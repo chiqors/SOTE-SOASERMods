@@ -74,6 +74,9 @@ planetColorTextureQualityButton
 	textureQualityInfo-Highest
 		text "IDSOptionsScreenTextureQualityHighestPlanetColor"
 		icon "OptionsScreenTextureQualityHighestPlanet"
+	textureQualityInfo-Extreme
+		text "IDSOptionsScreenTextureQualityExtremePlanetColor"
+		icon "OptionsScreenTextureQualityExtremePlanet"
 shipColorTextureQualityButton
 	area [284, 412, 220, 46]
 	fontId "ButtonLabel"
@@ -93,6 +96,9 @@ shipColorTextureQualityButton
 	textureQualityInfo-Highest
 		text "IDSOptionsScreenTextureQualityHighestShipColor"
 		icon "OptionsScreenTextureQualityHighestShip"
+	textureQualityInfo-Extreme
+		text "IDSOptionsScreenTextureQualityExtremeShipColor"
+		icon "OptionsScreenTextureQualityExtremeShip"
 shipDataTextureQualityButton
 	area [284, 464, 220, 46]
 	fontId "ButtonLabel"
@@ -112,6 +118,9 @@ shipDataTextureQualityButton
 	textureQualityInfo-Highest
 		text "IDSOptionsScreenTextureQualityHighestShipData"
 		icon "OptionsScreenTextureQualityHighestShip"
+	textureQualityInfo-Extreme
+		text "IDSOptionsScreenTextureQualityExtremeShipData"
+		icon "OptionsScreenTextureQualityExtremeShip"
 shipBumpTextureQualityButton
 	area [284, 516, 220, 46]
 	fontId "ButtonLabel"
@@ -130,7 +139,10 @@ shipBumpTextureQualityButton
 		icon "OptionsScreenTextureQualityHighShip"
 	textureQualityInfo-Highest
 		text "IDSOptionsScreenTextureQualityHighestShipBump"
-		icon "OptionsScreenTextureQualityHighestShip"		
+		icon "OptionsScreenTextureQualityHighestShip"
+	textureQualityInfo-Extreme
+		text "IDSOptionsScreenTextureQualityExtremeShipBump"
+		icon "OptionsScreenTextureQualityExtremeShip"		
 moduleColorTextureQualityButton
 	area [520, 412, 220, 46]
 	fontId "ButtonLabel"
@@ -150,6 +162,9 @@ moduleColorTextureQualityButton
 	textureQualityInfo-Highest
 		text "IDSOptionsScreenTextureQualityHighestModuleColor"
 		icon "OptionsScreenTextureQualityHighestModule"
+	textureQualityInfo-Extreme
+		text "IDSOptionsScreenTextureQualityExtremeModuleColor"
+		icon "OptionsScreenTextureQualityExtremeModule"
 moduleDataTextureQualityButton
 	area [520, 464, 220, 46]
 	fontId "ButtonLabel"
@@ -169,6 +184,9 @@ moduleDataTextureQualityButton
 	textureQualityInfo-Highest
 		text "IDSOptionsScreenTextureQualityHighestModuleData"
 		icon "OptionsScreenTextureQualityHighestModule"
+	textureQualityInfo-Extreme
+		text "IDSOptionsScreenTextureQualityExtremeModuleData"
+		icon "OptionsScreenTextureQualityExtremeModule"
 moduleBumpTextureQualityButton
 	area [520, 516, 220, 46]
 	fontId "ButtonLabel"
@@ -187,7 +205,10 @@ moduleBumpTextureQualityButton
 		icon "OptionsScreenTextureQualityHighModule"
 	textureQualityInfo-Highest
 		text "IDSOptionsScreenTextureQualityHighestModuleBump"
-		icon "OptionsScreenTextureQualityHighestModule"		
+		icon "OptionsScreenTextureQualityHighestModule"	
+	textureQualityInfo-Extreme
+		text "IDSOptionsScreenTextureQualityExtremeModuleBump"
+		icon "OptionsScreenTextureQualityExtremeModule"		
 shadowQualityListLabel
 	area [520, 100, 220, 30]
 	fontId "Label"

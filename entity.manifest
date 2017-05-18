@@ -1,5 +1,5 @@
 TXT
-entityNameCount 2272
+entityNameCount 2273
 entityName "BuffSuppressionChannelEnd.entity"
 entityName "AbilityAbilityGuidance.entity"
 entityName "AbilityPhasedArmourHardener.entity"
@@ -2271,3 +2271,4 @@ entityName "BuffAbilityDictorBubbleCaster.entity"
 entityName "BuffAbilityDictorBubbleTarget.entity"
 entityName "BuffDictorImmunity.entity"
 entityName "FrigateDictorBubble.entity"
+entityName "Caldari_Ship_Cruiser_Blackbird.entity"

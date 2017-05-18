@@ -90,7 +90,7 @@ ParticleSimulation
 		AreParticlesAttached TRUE
 		numTextures 2
 		textureName "gasexplosion.tga"
-		textureName pulse.tga"
+		textureName "pulse.tga"
 		textureAnimationName ""
 		textureAnimationSpawnType "RandomFrames"
 		textureAnimationOnParticleFPS 0.000000

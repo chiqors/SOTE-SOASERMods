@@ -1,6 +1,6 @@
 ﻿TXT
 onlyLoadOnDemand FALSE
-brushCount 220
+brushCount 225
 brush
 	name "DLCButtonBackgroundPlanetDLC1"
 	content "Simple"
@@ -1005,6 +1005,24 @@ brush
 		fileName "Buttons_Screens_Normal"
 		pixelBox [ 180 , 700 , 85 , 38 ]
 brush
+	name "OptionsScreenTextureQualityExtremePlanet"
+	content "States"
+	Disabled
+		fileName "Buttons_Screens_Disabled"
+		pixelBox [ 180 , 700 , 85 , 38 ]
+	Pressed
+		fileName "Buttons_Screens_Normal"
+		pixelBox [ 180 , 700 , 85 , 38 ]
+	CursorOver
+		fileName "Buttons_Screens_CursorOver"
+		pixelBox [ 180 , 700 , 85 , 38 ]
+	Focused
+		fileName "Buttons_Screens_Normal"
+		pixelBox [ 180 , 700 , 85 , 38 ]
+	Normal
+		fileName "Buttons_Screens_Normal"
+		pixelBox [ 180 , 700 , 85 , 38 ]
+brush
 	name "OptionsScreenTextureQualityLowShip"
 	content "States"
 	Disabled
@@ -1077,6 +1095,24 @@ brush
 		fileName "Buttons_Screens_Normal"
 		pixelBox [ 356 , 864 , 85 , 38 ]
 brush
+	name "OptionsScreenTextureQualityExtremeShip"
+	content "States"
+	Disabled
+		fileName "Buttons_Screens_Disabled"
+		pixelBox [ 356 , 864 , 85 , 38 ]
+	Pressed
+		fileName "Buttons_Screens_Normal"
+		pixelBox [ 356 , 864 , 85 , 38 ]
+	CursorOver
+		fileName "Buttons_Screens_CursorOver"
+		pixelBox [ 356 , 864 , 85 , 38 ]
+	Focused
+		fileName "Buttons_Screens_Normal"
+		pixelBox [ 356 , 864 , 85 , 38 ]
+	Normal
+		fileName "Buttons_Screens_Normal"
+		pixelBox [ 356 , 864 , 85 , 38 ]
+brush
 	name "OptionsScreenTextureQualityLowModule"
 	content "States"
 	Disabled
@@ -1132,6 +1168,24 @@ brush
 		pixelBox [ 180 , 905 , 85 , 38 ]
 brush
 	name "OptionsScreenTextureQualityHighestModule"
+	content "States"
+	Disabled
+		fileName "Buttons_Screens_Disabled"
+		pixelBox [ 180 , 864 , 85 , 38 ]
+	Pressed
+		fileName "Buttons_Screens_Normal"
+		pixelBox [ 180 , 864 , 85 , 38 ]
+	CursorOver
+		fileName "Buttons_Screens_CursorOver"
+		pixelBox [ 180 , 864 , 85 , 38 ]
+	Focused
+		fileName "Buttons_Screens_Normal"
+		pixelBox [ 180 , 864 , 85 , 38 ]
+	Normal
+		fileName "Buttons_Screens_Normal"
+		pixelBox [ 180 , 864 , 85 , 38 ]
+brush
+	name "OptionsScreenTextureQualityExtremeModule"
 	content "States"
 	Disabled
 		fileName "Buttons_Screens_Disabled"
@@ -1937,6 +1991,42 @@ brush
 	Normal
 		fileName "Buttons_Screens2_Normal"
 		pixelBox [ 92 , 208 , 85 , 38 ]
+brush
+	name "GameOptionsAreOutlawSectorsActiveTrue"
+	content "States"
+	Disabled
+		fileName "Buttons_Screens2_Disabled"
+		pixelBox [ 937 , 3 , 85 , 38 ]
+	Pressed
+		fileName "Buttons_Screens2_Normal"
+		pixelBox [ 937 , 3 , 85 , 38 ]
+	CursorOver
+		fileName "Buttons_Screens2_CursorOver"
+		pixelBox [ 937 , 3 , 85 , 38 ]
+	Focused
+		fileName "Buttons_Screens2_Normal"
+		pixelBox [ 937 , 3 , 85 , 38 ]
+	Normal
+		fileName "Buttons_Screens2_Normal"
+		pixelBox [ 937 , 3 , 85 , 38 ]
+brush
+	name "GameOptionsAreOutlawSectorsActiveFalse"
+	content "States"
+	Disabled
+		fileName "Buttons_Screens2_Disabled"
+		pixelBox [ 937 , 44 , 85 , 38 ]
+	Pressed
+		fileName "Buttons_Screens2_Normal"
+		pixelBox [ 937 , 44 , 85 , 38 ]
+	CursorOver
+		fileName "Buttons_Screens2_CursorOver"
+		pixelBox [ 937 , 44 , 85 , 38 ]
+	Focused
+		fileName "Buttons_Screens2_Normal"
+		pixelBox [ 937 , 44 , 85 , 38 ]
+	Normal
+		fileName "Buttons_Screens2_Normal"
+		pixelBox [ 937 , 44 , 85 , 38 ]
 brush
 	name "GameOptionsUseQuickStartTrue"
 	content "States"

@@ -1,5 +1,5 @@
 TXT
-NumStrings 8242
+NumStrings 8251
 StringInfo
     ID "IDS_ABILITY_RORQUALPANIC_NAME"
 	Value "P.A.N.I.C Module"
@@ -19832,7 +19832,10 @@ StringInfo
 	Value "Planet Detail - High"
 StringInfo
 	ID "IDSOptionsScreenTextureQualityHighestPlanetColor"
-	Value "Planet Detail - Highest"
+	Value "Planet Detail - Higher"
+StringInfo
+	ID "IDSOptionsScreenTextureQualityExtremePlanetColor"
+	Value "Planet Detail - Extreme"
 StringInfo
 	ID "IDSOptionsScreenTextureQualityLowShipColor"
 	Value "Ship Detail - Low"
@@ -19844,7 +19847,10 @@ StringInfo
 	Value "Ship Detail - High"
 StringInfo
 	ID "IDSOptionsScreenTextureQualityHighestShipColor"
-	Value "Ship Detail - Highest"
+	Value "Ship Detail - Higher"
+StringInfo
+	ID "IDSOptionsScreenTextureQualityExtremeShipColor"
+	Value "Ship Detail - Extreme"
 StringInfo
 	ID "IDSOptionsScreenTextureQualityLowShipData"
 	Value "Ship Extras - Low"
@@ -19856,7 +19862,10 @@ StringInfo
 	Value "Ship Extras - High"
 StringInfo
 	ID "IDSOptionsScreenTextureQualityHighestShipData"
-	Value "Ship Extras - Highest"
+	Value "Ship Extras - Higher"
+StringInfo
+	ID "IDSOptionsScreenTextureQualityExtremeShipData"
+	Value "Ship Extras - Extreme"
 StringInfo
 	ID "IDSOptionsScreenTextureQualityLowShipBump"
 	Value "Ship Bump - Low"
@@ -19868,7 +19877,10 @@ StringInfo
 	Value "Ship Bump - High"
 StringInfo
 	ID "IDSOptionsScreenTextureQualityHighestShipBump"
-	Value "Ship Bump - Highest"
+	Value "Ship Bump - Higher"
+StringInfo
+	ID "IDSOptionsScreenTextureQualityExtremeShipBump"
+	Value "Ship Bump - Extreme"
 StringInfo
 	ID "IDSOptionsScreenTextureQualityLowModuleColor"
 	Value "Building Detail - Low"
@@ -19880,7 +19892,10 @@ StringInfo
 	Value "Building Detail - High"
 StringInfo
 	ID "IDSOptionsScreenTextureQualityHighestModuleColor"
-	Value "Building Detail - Highest"
+	Value "Building Detail - Higher"
+StringInfo
+	ID "IDSOptionsScreenTextureQualityExtremeModuleColor"
+	Value "Building Detail - Extreme"
 StringInfo
 	ID "IDSOptionsScreenTextureQualityLowModuleData"
 	Value "Building Extras - Low"
@@ -19892,7 +19907,10 @@ StringInfo
 	Value "Building Extras - High"
 StringInfo
 	ID "IDSOptionsScreenTextureQualityHighestModuleData"
-	Value "Building Extras - Highest"
+	Value "Building Extras - Higher"
+StringInfo
+	ID "IDSOptionsScreenTextureQualityExtremeModuleData"
+	Value "Building Extras - Extreme"
 StringInfo
 	ID "IDSOptionsScreenTextureQualityLowModuleBump"
 	Value "Building Bump - Low"
@@ -19904,7 +19922,10 @@ StringInfo
 	Value "Building Bump - High"
 StringInfo
 	ID "IDSOptionsScreenTextureQualityHighestModuleBump"
-	Value "Building Bump - Highest"
+	Value "Building Bump - Higher"
+StringInfo
+	ID "IDSOptionsScreenTextureQualityExtremeModuleBump"
+	Value "Building Bump - Extreme"
 StringInfo
 	ID "IDSOptionsScreenSoundOptionsReset"
 	Value "Reset"
@@ -20709,6 +20730,12 @@ StringInfo
 StringInfo
 	ID "IDSGameOptionsArePiratesActiveFalse"
 	Value "Sansha Incursions Inactive"
+StringInfo
+	ID "IDSGameOptionsAreOutlawSectorsActiveTrue"
+	Value "Outlaw Sectors"
+StringInfo
+	ID "IDSGameOptionsAreOutlawSectorsActiveFalse"
+	Value "No Outlaw Sectors"
 StringInfo
 	ID "IDSGameOptionsIsBlackMarketEnabledTrue"
 	Value "Jita Market Enabled"
@@ -22547,7 +22574,7 @@ StringInfo
 	Value "High"
 StringInfo
 	ID "IDS_EFFECTOPTIONSSHADOWQUALITY_ULTRA"
-	Value "Ultra"
+	Value "Extreme"
 StringInfo
 	ID "IDS_MONTHSTRING_JANUARY"
 	Value "January"
@@ -23351,7 +23378,7 @@ StringInfo
 	Value "Anti Sub-Capital Phoenix"
 StringInfo
 	ID "IDS_CAPITALSHIP_DREADNOUGHT_PHOENIX_DESCRIPTION"
-	Value "This variation of Phoenix is a anti-sub capital Weapon Plataform especialized siege planet, sub-capital ship´s and buildings."
+	Value "This variation of Phoenix is a anti-sub capital Weapon Plataform especialized siege planet, sub-capital shipï¿½s and buildings."
 StringInfo
 	ID "IDS_CAPITALSHIP_DREADNOUGHT_PHOENIX_CRUISE_NAME"
 	Value "Anti-Capital Phoenix"
@@ -23447,7 +23474,7 @@ StringInfo
 	Value "Rattlesnake"
 StringInfo
 	ID "IDS_CALDARI_SHIP_BATTLESHIP_RATTLESNAKE_DESCRIPTION"
-	Value "Korako ‘Rabbit' Kosakami shamelessly stole the idea of the Scorpion-class battleship and put his own spin on it. The result: the fearsome Rattlesnake, flagship of any large Gurista attack force."
+	Value "Korako ï¿½Rabbit' Kosakami shamelessly stole the idea of the Scorpion-class battleship and put his own spin on it. The result: the fearsome Rattlesnake, flagship of any large Gurista attack force."
 StringInfo
 	ID "IDS_RESEARCHSUBJECT_CAPITALSHIPACESS_CHIMERA"
 	Value "Chimera BPO"
