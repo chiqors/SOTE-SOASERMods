@@ -17,7 +17,7 @@ instantAction
 		smallEffectName "PlanetMagneticCloud"
 		mediumEffectName "PlanetMagneticCloud"
 		largeEffectName "PlanetMagneticCloud"
-		soundID "EFFECT_MAGNETICSTORM"
+		soundID ""
 numPeriodicActions 1
 periodicAction
 	actionCountType "Infinite"

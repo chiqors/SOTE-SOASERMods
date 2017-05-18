@@ -24,7 +24,7 @@ ParticleSimulation
 		ParticleStartColor ffffffff
 		ParticleWidth 0.000000
 		ParticleHeight 0.000000
-		MeshName "C:\Documents and Settings\bailknight.GC-DCIS-2\바탕 화면\SinsModPackageIncomplete\ParticleForge 3\Mesh\AsteroidSmall05.MESH"
+		MeshName "AsteroidSmall05.MESH"
 		Position [ -20.000000 40.000000 30.000000 ]
 		Orientation
 			 [ 0.984808 0.000000 0.173648 ]
@@ -89,7 +89,7 @@ ParticleSimulation
 		PipelineEffectID "Particle_Additive.fx"
 		AreParticlesAttached TRUE
 		numTextures 2
-		textureName "C:\gs\main\DataSource\Textures\Effects\explosion_core.tga"
+		textureName "explosion_core.tga"
 		textureName ""
 		textureAnimationName ""
 		textureAnimationSpawnType "RandomFrames"
@@ -137,7 +137,7 @@ ParticleSimulation
 		PipelineEffectID "Particle_Additive.fx"
 		AreParticlesAttached TRUE
 		numTextures 2
-		textureName "C:\gs\main\DataSource\Textures\Effects\smokeblack.tga"
+		textureName "smokeblack.tga"
 		textureName ""
 		textureAnimationName ""
 		textureAnimationSpawnType "RandomFrames"
@@ -185,7 +185,7 @@ ParticleSimulation
 		PipelineEffectID "Particle_Additive.fx"
 		AreParticlesAttached TRUE
 		numTextures 2
-		textureName "C:\gs\main\DataSource\Textures\Effects\explosion_core.tga"
+		textureName "explosion_core.tga"
 		textureName ""
 		textureAnimationName ""
 		textureAnimationSpawnType "RandomFrames"

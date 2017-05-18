@@ -43,7 +43,7 @@ ParticleSimulation
 		numTextures 2
 		textureName ""
 		textureName ""
-		textureAnimationName "C:\gs\main\DataSource\TextureAnimations\sparks.texanim"
+		textureAnimationName "sparks.texanim"
 		textureAnimationSpawnType "RandomFrames"
 		textureAnimationOnParticleFPS 0.000000
 		ParticlesRotate FALSE
@@ -104,7 +104,7 @@ ParticleSimulation
 		numTextures 2
 		textureName ""
 		textureName ""
-		textureAnimationName "C:\gs\main\DataSource\TextureAnimations\sparks.texanim"
+		textureAnimationName "sparks.texanim"
 		textureAnimationSpawnType "RandomFrames"
 		textureAnimationOnParticleFPS 0.000000
 		ParticlesRotate FALSE
@@ -163,7 +163,7 @@ ParticleSimulation
 		PipelineEffectID "Particle_Additive.fx"
 		AreParticlesAttached TRUE
 		numTextures 2
-		textureName "C:\gs\main\DataSource\Textures\Effects\naniteevil.tga"
+		textureName "naniteevil.tga"
 		textureName ""
 		textureAnimationName ""
 		textureAnimationSpawnType "RandomFrames"
@@ -223,7 +223,7 @@ ParticleSimulation
 		PipelineEffectID "Particle_Additive.fx"
 		AreParticlesAttached TRUE
 		numTextures 2
-		textureName "C:\gs\main\DataSource\Textures\Effects\brightcenter.tga"
+		textureName "brightcenter.tga"
 		textureName ""
 		textureAnimationName ""
 		textureAnimationSpawnType "RandomFrames"

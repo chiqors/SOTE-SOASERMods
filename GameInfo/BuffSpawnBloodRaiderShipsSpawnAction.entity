@@ -34,12 +34,8 @@ instantAction
 	spawnShipsHyperspaceSpawnType "FleetBeacon"
 instantAction
 	buffInstantActionType "ApplyBuffToLocalOrbitBody"
-	instantActionTriggerType "OnChance"
-	buffApplyChance
-		Level:0 1.000000
-		Level:1 1.000000
-		Level:2 1.000000
-		Level:3 1.000000
+	instantActionTriggerType "OnDelay"
+	delayTime 0.000000
 	buffType "BuffSpawnBloodRaiderShipsSpawnEscelation"
 	targetFilter
 		numOwnerships 3

@@ -41,7 +41,7 @@ ParticleSimulation
 		PipelineEffectID "Particle_Additive.fx"
 		AreParticlesAttached FALSE
 		numTextures 2
-		textureName "C:\IRONCLAD\effects\brightcenter.tga"
+		textureName "brightcenter.tga"
 		textureName ""
 		textureAnimationName ""
 		textureAnimationSpawnType "RandomFrames"
@@ -89,7 +89,7 @@ ParticleSimulation
 		PipelineEffectID "Particle_Additive.fx"
 		AreParticlesAttached FALSE
 		numTextures 2
-		textureName "C:\IRONCLAD\effects\brightcenter.tga"
+		textureName "brightcenter.tga"
 		textureName ""
 		textureAnimationName ""
 		textureAnimationSpawnType "RandomFrames"
@@ -257,7 +257,7 @@ ParticleSimulation
 		PipelineEffectID "Particle_Additive.fx"
 		AreParticlesAttached TRUE
 		numTextures 2
-		textureName "techcapitalbeamcorona.tga "
+		textureName "techcapitalbeamcorona.tga"
 		textureName ""
 		textureAnimationName ""
 		textureAnimationSpawnType "RandomFrames"

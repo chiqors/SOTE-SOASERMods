@@ -12,7 +12,7 @@ hudIcon "HUDICON_FIGHTERBOMBER_MANTIS"
 smallHudIcon "HUDICONSMALL_PLANETMODULE_TECHORBITALCAPITALSHIPFACTORY"
 infoCardIcon "INFOCARDICON_PLANETMODULE_TECHORBITALCAPITALSHIPFACTORY"
 minZoomDistanceMult 8.000000
-nameStringID "IDS_FIGHTERPHASEBOMBER_NAME"
+nameStringID "IDS_SQUADMANTIS_NAME"
 counterDescriptionStringID "IDS_COUNTERDESC_FIGHTER_BOMBER"
 statCountType "FighterBomber"
 formationOffsetDistance 50.000000
@@ -80,7 +80,7 @@ TargetCountPerBank:BACK 0
 TargetCountPerBank:LEFT 0
 TargetCountPerBank:RIGHT 0
 canOnlyTargetStructures FALSE
-meshName "Cyclops"
+meshName "mantis"
 exhaustParticleSystemName "ExhaustSmall"
 ExplosionName "Fighter0"
 exhaustTrailTextureName "ExhaustTrail"

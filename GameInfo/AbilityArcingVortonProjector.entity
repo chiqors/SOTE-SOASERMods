@@ -32,6 +32,7 @@ isUltimateAbility FALSE
 maxNumLevels 1
 levelSourceType "ResearchWithoutBase"
 improveSourceResearchSubject "AllRaces_ResearchSubject_ArcingVortonProjector"
+aiUseTime "OnlyInCombat"
 aiUseTargetCondition "Any"
 isAutoCastAvailable TRUE
 isAutoCastOnByDefault TRUE

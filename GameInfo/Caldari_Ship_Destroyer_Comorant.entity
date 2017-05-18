@@ -140,7 +140,7 @@ EngineSoundID "ENGINE_PHASECAPITALSHIP"
 ability:0 "AbilityAfterburner"
 ability:1 "AbilityStasisWebifier"
 ability:2 "AbilityInvulnerabilityShieldField"
-ability:3 ""
+ability:3 "AbilityDeployDictorBubble"
 ability:4 ""
 MaxAntiMatter 225.000000
 AntiMatterRestoreRate 0.610000

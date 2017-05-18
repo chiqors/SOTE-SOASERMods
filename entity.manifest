@@ -1,5 +1,5 @@
 TXT
-entityNameCount 2264
+entityNameCount 2272
 entityName "BuffSuppressionChannelEnd.entity"
 entityName "AbilityAbilityGuidance.entity"
 entityName "AbilityPhasedArmourHardener.entity"
@@ -2264,3 +2264,10 @@ entityName "Caldari_Ship_Destroyer_Corax.entity"
 entityName "Amarr_Ship_Destroyer_Dragoon.entity"
 entityName "Gallente_Ship_Destroyer_Algosentity"
 entityName "Minmatar_Ship_Destroyer_Talwar.entity"
+entityName "AbilityDeployDictorBubble.entity"
+entityName "AbilityDictorBubble.entity"
+entityName "AbilityDictorImmunity.entity"
+entityName "BuffAbilityDictorBubbleCaster.entity"
+entityName "BuffAbilityDictorBubbleTarget.entity"
+entityName "BuffDictorImmunity.entity"
+entityName "FrigateDictorBubble.entity"

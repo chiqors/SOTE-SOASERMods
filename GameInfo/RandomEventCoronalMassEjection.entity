@@ -17,7 +17,7 @@ instantAction
 		smallEffectName "Buff_CoronalMassEjection"
 		mediumEffectName "Buff_CoronalMassEjection"
 		largeEffectName "Buff_CoronalMassEjection"
-		soundID "EFFECT_CMEAMBIENCE_LOOP"
+		soundID ""
 numPeriodicActions 1
 periodicAction
 	actionCountType "Infinite"

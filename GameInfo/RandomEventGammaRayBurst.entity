@@ -17,7 +17,7 @@ instantAction
 		smallEffectName "GammaRayBurst_Buff"
 		mediumEffectName "GammaRayBurst_Buff"
 		largeEffectName "GammaRayBurst_Buff"
-		soundID "EFFECT_GRBAMBIENCE_LOOP"
+		soundID ""
 instantAction
 	buffInstantActionType "DoDamageToPlanet"
 	instantActionTriggerType "OnDelay"

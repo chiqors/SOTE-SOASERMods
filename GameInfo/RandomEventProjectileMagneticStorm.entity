@@ -7,7 +7,7 @@ buffToApplyOnImpact "RandomEventMagneticStorm"
 planetImpactEffectName "MagneticStorm_Impact"
 planetImpactSounds
 	soundCount 1
-	sound "EFFECT_MAGNETICSTORMIMPACT"
+	sound ""
 planetImpactCameraShakeMaxSize 980000.000000
 planetImpactCameraShakeStrength 1.500000
 planetImpactCameraShakeDuration 0.000000

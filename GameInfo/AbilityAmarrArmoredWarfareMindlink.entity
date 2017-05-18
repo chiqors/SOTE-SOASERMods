@@ -1,8 +1,7 @@
 ﻿TXT
 entityType "Ability"
 buffInstantActionType "ApplyBuffToTargetsInRadius"
-instantActionTriggerType "OnDelay"
-delayTime 0.000000
+instantActionTriggerType "AlwaysPerform"
 buffType "BuffAmarrArmoredWarfareMindlink"
 targetFilter
 	numOwnerships 1
