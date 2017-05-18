@@ -15,15 +15,15 @@ NameStringID "IDS_FRIGATE_PHASEMINELAYER_NAME"
 DescriptionStringID "IDS_FRIGATE_PHASEMINELAYER_DESCRIPTION"
 counterDescriptionStringID "IDS_COUNTERDESC_FRIGATE_NONCOMBAT"
 basePrice
-	credits 446.000000
-	metal 92.000000
-	crystal 54.000000
+	credits 324.000000
+	metal 99.000000
+	crystal 69.000000
 slotCount 5.000000
-BuildTime 29.000000
+BuildTime 34.000000
 hasLevels FALSE
 ExperiencePointsForDestroying 86.000000
-MaxHullPoints 2750.000000
-MaxShieldPoints 1630.000000
+MaxHullPoints 2960.000000
+MaxShieldPoints 2070.000000
 HullPointRestoreRate 1.000000
 ShieldPointRestoreRate 1.000000
 BaseArmorPoints 10.000000

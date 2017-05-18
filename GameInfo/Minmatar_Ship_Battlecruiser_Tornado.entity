@@ -15,19 +15,19 @@ NameStringID "IDS_BATTLECRUISER_HURRICANE_NAME"
 DescriptionStringID "IDS_BATTLECRUISER_HURRICANE_DESCRIPTION"
 counterDescriptionStringID "IDS_COUNTERDESC_CORVETTE_TECH"
 basePrice
-	credits 491.000000
-	metal 75.000000
-	crystal 71.000000
+	credits 423.000000
+	metal 109.000000
+	crystal 112.000000
 slotCount 7.000000
-BuildTime 29.000000
+BuildTime 44.000000
 hasLevels FALSE
 ExperiencePointsForDestroying 84.000000
-MaxHullPoints 2250.000000
-MaxShieldPoints 2125.000000
+MaxHullPoints 3260.000000
+MaxShieldPoints 3360.000000
 HullPointRestoreRate 1.000000
 ShieldPointRestoreRate 1.00000
-BaseArmorPoints 15.0000
-maxMitigation 0.150000
+BaseArmorPoints 10.0000
+maxMitigation 0.30000
 Prerequisites
 	NumResearchPrerequisites 1
 	ResearchPrerequisite
@@ -52,12 +52,12 @@ Weapon
 		DamageApplyType "BACKLOADED"
 		DamageType "PHYSICAL"
 		WeaponClassType "GAUSS"
-	DamagePerBank:FRONT 303.000000
+	DamagePerBank:FRONT 1555.000000
 	DamagePerBank:BACK 0.000000
 	DamagePerBank:LEFT 0.000000
 	DamagePerBank:RIGHT 0.000000
-	Range 6000.000000
-	PreBuffCooldownTime 2.460000
+	Range 10000.000000
+	PreBuffCooldownTime 14.710000
 	CanFireAtFighter FALSE
 	SynchronizedTargeting TRUE
 	PointStaggerDelay 0.000000

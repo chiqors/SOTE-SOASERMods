@@ -7,7 +7,7 @@ NameStringID "IDS_RSAHeavyAssault_NAME"
 DescriptionStringID "IDS_RSAHeavyAssault_DESCRIPTION"
 researchWindowLocation
 	block 0
-	pos [ 6 , 0 ]
+	pos [ 6 , 3 ]
 ResearchField "Combat"
 Prerequisites
 	NumResearchPrerequisites 0

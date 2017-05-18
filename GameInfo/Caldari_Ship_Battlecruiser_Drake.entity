@@ -15,19 +15,19 @@ NameStringID "IDS_RESEARCHSUBJECT_FRIGATEACCESS_DRAKE_NAME"
 DescriptionStringID "IDS_RESEARCHSUBJECT_FRIGATEACCESS_DRAKE_DESCRIPTION"
 counterDescriptionStringID "IDS_COUNTERDESC_CORVETTE_TECH"
 basePrice
-	credits 160.000000
-	metal 62.000000
-	crystal 97.000000
+	credits 337.000000
+	metal 100.000000
+	crystal 198.000000
 slotCount 4.000000
-BuildTime 26.000000
+BuildTime 44.000000
 hasLevels FALSE
 ExperiencePointsForDestroying 80.000000
-MaxHullPoints 3500.000000
-MaxShieldPoints 7000.000000
-HullPointRestoreRate 4.000000
-ShieldPointRestoreRate 4.000000
-BaseArmorPoints 0.000000
-maxMitigation 0.000000 
+MaxHullPoints 3000.000000
+MaxShieldPoints 5950.000000
+HullPointRestoreRate 1.000000
+ShieldPointRestoreRate 1.000000
+BaseArmorPoints 0.1500000
+maxMitigation 0.300000 
 Prerequisites
 	NumResearchPrerequisites 1
 	ResearchPrerequisite
@@ -52,12 +52,12 @@ Weapon
 		DamageApplyType "BACKLOADED"
 		DamageType "PHYSICAL"
 		WeaponClassType "MISSILE"
-	DamagePerBank:FRONT 275.000000
+	DamagePerBank:FRONT 565.000000
 	DamagePerBank:BACK 0.000000
 	DamagePerBank:LEFT 0.000000
 	DamagePerBank:RIGHT 0.000000
-	Range 4500.000000
-	PreBuffCooldownTime 4.500000
+	Range 5000.000000
+	PreBuffCooldownTime 6.710000
 	CanFireAtFighter FALSE
 	SynchronizedTargeting TRUE
 	PointStaggerDelay 0.050000

@@ -15,19 +15,19 @@ NameStringID "IDS_FRIGATE_TECHHEAVY_NAME"
 DescriptionStringID "IDS_FRIGATE_TECHHEAVY_DESCRIPTION"
 counterDescriptionStringID "IDS_COUNTERDESC_CORVETTE_TECH"
 basePrice
-	credits 491.000000
-	metal 83.000000
-	crystal 50.000000
+	credits 524.000000
+	metal 133.000000
+	crystal 91.000000
 slotCount 5.000000
-BuildTime 27.000000
+BuildTime 45.000000
 hasLevels FALSE
 ExperiencePointsForDestroying 84.000000
-MaxHullPoints 2500.000000
-MaxShieldPoints 1500.000000
+MaxHullPoints 4000.000000
+MaxShieldPoints 2720.000000
 HullPointRestoreRate 1.00000
 ShieldPointRestoreRate 1.000000
-BaseArmorPoints 25.000000
-maxMitigation 0.100000
+BaseArmorPoints 10.000000
+maxMitigation 0.000000
 Prerequisites
 	NumResearchPrerequisites 1
 	ResearchPrerequisite
@@ -52,12 +52,12 @@ Weapon
 		DamageApplyType "OVERTIME"
 		DamageType "ENERGY"
 		WeaponClassType "BEAM"
-	DamagePerBank:FRONT 377.000000
+	DamagePerBank:FRONT 980.000000
 	DamagePerBank:BACK 0.000000
 	DamagePerBank:LEFT 0.000000
 	DamagePerBank:RIGHT 0.000000
 	Range 6000.000000
-	PreBuffCooldownTime 3.070000
+	PreBuffCooldownTime 7.480000
 	CanFireAtFighter FALSE
 	SynchronizedTargeting TRUE
 	PointStaggerDelay 0.000000

@@ -15,19 +15,19 @@ NameStringID "IDS_FRIGATE_PHASEUTILITY0_NAME"
 DescriptionStringID "IDS_FRIGATE_PHASEUTILITY0_DESCRIPTION"
 counterDescriptionStringID "IDS_COUNTERDESC_CORVETTE_TECH"
 basePrice
-	credits 602.000000
-	metal 75.000000
-	crystal 58.000000
+	credits 471.000000
+	metal 117.000000
+	crystal 101.000000
 slotCount 6.000000
-BuildTime 27.000000
+BuildTime 43.000000
 hasLevels FALSE
 ExperiencePointsForDestroying 72.000000
-MaxHullPoints 2250.000000
-MaxShieldPoints 1750.000000
+MaxHullPoints 3020.000000
+MaxShieldPoints 3500.000000
 HullPointRestoreRate 1.000000
 ShieldPointRestoreRate 1.000000
-BaseArmorPoints 25.000000
-maxMitigation 0.300000
+BaseArmorPoints 10.000000
+maxMitigation 0.100000
 Prerequisites
 	NumResearchPrerequisites 1
 	ResearchPrerequisite
@@ -52,12 +52,12 @@ Weapon
 		DamageApplyType "BACKLOADED"
 		DamageType "ENERGY"
 		WeaponClassType "PULSEGUN"
-	DamagePerBank:FRONT 462.000000
+	DamagePerBank:FRONT 569.000000
 	DamagePerBank:BACK 0.000000
 	DamagePerBank:LEFT 0.000000
 	DamagePerBank:RIGHT 0.000000
-	Range 6000.000000
-	PreBuffCooldownTime 3.070000
+	Range 10000.000000
+	PreBuffCooldownTime 5.590000
 	CanFireAtFighter FALSE
 	SynchronizedTargeting TRUE
 	PointStaggerDelay 0.050000
