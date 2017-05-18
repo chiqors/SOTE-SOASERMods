@@ -3,15 +3,4 @@ Drake Picture
 Bhaalgorn Picture
 Rattlesnake Picture
 Moa Picture
-Cynosural Filed on star bases not working
-Gallente Fighters and Heavy Fighters Revamp
-Nyx Squads revamp
-Thanatos Squads revamp
-Make Citadel stop turning
-Concord textures
-Caracal textures
-Svipul model
-
 Put effects on buffs
-Create tethering using buffoutpost as model
-Create arcingvoltorn using judment
