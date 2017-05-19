@@ -7,60 +7,57 @@ usesFighterAttack FALSE
 autoJoinFleetDefault TRUE
 canBomb FALSE
 typeCount 1
-frigateRoleType "Lrm"
-statCountType "FrigateLongRange"
-mainViewIcon "HUDICONSMALL_FRIGATE_RUPTURE"
-picture "PICTURE_FRIGATE_RUPTURE"
-NameStringID "IDS_CRUISER_RUPTURE_NAME"
-DescriptionStringID "IDS_CRUISER_RUPTURE_DESCRIPTION"
-counterDescriptionStringID "IDS_COUNTERDESC_CORVETTE_TECH"
+frigateRoleType "Light"
+statCountType "FrigateLight"
+mainViewIcon "MAINVIEWICON_FRIGATE_TECHLIGHT"
+picture "PICTURE_FRIGATE_RIFTER"
+NameStringID "IDS_FRIGATE_RIFTER_NAME"
+DescriptionStringID "IDS_FRIGATE_TECHLIGHT_DESCRIPTION"
+counterDescriptionStringID "IDS_COUNTERDESC_FRIGATE_NONCOMBAT"
 basePrice
-	credits 261.000000
-	metal 80.000000
-	crystal 92.000000
-slotCount 4.000000
-BuildTime 34.000000
+	credits 134.000000
+	metal 15.000000
+	crystal 15.000000
+slotCount 2.000000
+BuildTime 5.000000
 hasLevels FALSE
-ExperiencePointsForDestroying 55.000000
-MaxHullPoints 2410.000000
-MaxShieldPoints 2760.000000
-HullPointRestoreRate 1.000000
+ExperiencePointsForDestroying 22.000000
+MaxHullPoints 450.000000
+MaxShieldPoints 450.000000
+HullPointRestoreRate 0.000000
 ShieldPointRestoreRate 1.000000
-BaseArmorPoints 10.000000
-maxMitigation 0.30000
+BaseArmorPoints 0.000000
+maxMitigation 0.000000
 Prerequisites
-	NumResearchPrerequisites 1
-	ResearchPrerequisite
-		Subject "Minmatar_ResearchSubject_SubCapitalAccess_Rupture"
-		Level 1
+	NumResearchPrerequisites 0
 	RequiredFactionNameID ""
 	RequiredCompletedResearchSubjects 0
 numRandomDebrisLarge 0
 numRandomDebrisSmall 0
 numSpecificDebris 0
-armorType "Medium"
-hudIcon "HUDICON_FRIGATE_RUPTURE"
-smallHudIcon "HUDICONSMALL_FRIGATE_RUPTURE"
-infoCardIcon "HUDICONSMALL_FRIGATE_RUPTURE"
+armorType "Light"
+hudIcon "HUDICON_FRIGATE_RIFTER"
+smallHudIcon "HUDICONSMALL_FRIGATE_RIFTER"
+infoCardIcon "HUDICONSMALL_FRIGATE_RIFTER"
 minZoomDistanceMult 1.000000
 NumWeapons 1
 Weapon
 	WeaponType "Projectile"
 	damageEnums
-		AttackType "ANTIMEDIUM"
+		AttackType "ANTILIGHT"
 		DamageAffectType "AFFECTS_SHIELDS_AND_HULL"
 		DamageApplyType "BACKLOADED"
 		DamageType "PHYSICAL"
-		WeaponClassType "GAUSS"
-	DamagePerBank:FRONT 202.000000
+		WeaponClassType "AUTOCANNON"
+	DamagePerBank:FRONT 76.000000
 	DamagePerBank:BACK 0.000000
 	DamagePerBank:LEFT 0.000000
 	DamagePerBank:RIGHT 0.000000
-	Range 6000.000000
-	PreBuffCooldownTime 2.470000
+	Range 4000.000000
+	PreBuffCooldownTime 2.190000
 	CanFireAtFighter FALSE
 	SynchronizedTargeting TRUE
-	PointStaggerDelay 0.050000
+	PointStaggerDelay 0.000000
 	TravelSpeed 5000.000000
 	Duration 0.300000
 	fireConstraintType "CanAlwaysFire"
@@ -69,19 +66,19 @@ Weapon
 		burstCount 4
 		burstDelay 0.050000
 		fireDelay 0.000000
-		muzzleEffectName "Weapon_TechCapitalAutoCannonMedium_Muzzle"
+		muzzleEffectName "Weapon_TechSupportAutoCannonLight_Muzzle"
 		muzzleSoundMinRespawnTime 1.000000
 		muzzleSounds
 			soundCount 1
-			sound "WEAPON_MEDIUMAUTOCANNON"
-		hitEffectName "Weapon_TechCapitalAutoCannonMedium_Muzzle"
+			sound "WEAPON_LIGHTAUTOCANNON"
+		hitEffectName "Weapon_TechSupportAutoCannonLight_Hit"
 		hitHullEffectSounds
 			soundCount 1
 			sound ""
 		hitShieldsEffectSounds
 			soundCount 1
 			sound ""
-		projectileTravelEffectName "Weapon_TechCapitalAutoCannonMedium_Travel"
+		projectileTravelEffectName "Weapon_TechSupportAutoCannonLight_Travel"
 m_weaponIndexForRange 0
 firingAlignmentType "Default"
 TargetCountPerBank:FRONT 1
@@ -90,17 +87,17 @@ TargetCountPerBank:LEFT 0
 TargetCountPerBank:RIGHT 0
 canOnlyTargetStructures FALSE
 hasWeaponLevels FALSE
-mass 4000.000000
-ShieldMeshName "omen"
+mass 2000.000000
+ShieldMeshName "punisher"
 renderShield FALSE
-maxAccelerationLinear 90.000000
+maxAccelerationLinear 100.000000
 maxAccelerationStrafe 10.000000
 maxDecelerationLinear 500.000000
-maxAccelerationAngular 8.000000
+maxAccelerationAngular 8.700000
 maxDecelerationAngular 9.999996
-maxSpeedLinear 370.000000
+maxSpeedLinear 420.000000
 maxRollRate 2.000000
-maxRollAngle 40.000000
+maxRollAngle 35.000000
 squadTypeEntityDef:0 ""
 squadAntiMatterCost:0 0.000000
 squadTypeEntityDef:1 ""
@@ -111,43 +108,42 @@ squadTypeEntityDef:3 ""
 squadAntiMatterCost:3 0.000000
 maxNumCommandPoints 0
 NumSoundsFor:ONATTACKORDERISSUED 3
-SoundID "FRIGATE_TECHLONGRANGE_ONATTACKORDERISSUED_0"
-SoundID "FRIGATE_TECHLONGRANGE_ONATTACKORDERISSUED_1"
-SoundID "FRIGATE_TECHLONGRANGE_ONATTACKORDERISSUED_2"
+SoundID "FRIGATE_TECHLIGHT_ONATTACKORDERISSUED_0"
+SoundID "FRIGATE_TECHLIGHT_ONATTACKORDERISSUED_1"
+SoundID "FRIGATE_TECHLIGHT_ONATTACKORDERISSUED_2"
 NumSoundsFor:ONCREATION 1
-SoundID "FRIGATE_TECHLONGRANGE_ONCREATION"
+SoundID "FRIGATE_TECHLIGHT_ONCREATION"
 NumSoundsFor:ONGENERALORDERISSUED 3
-SoundID "FRIGATE_TECHLONGRANGE_ONGENERALORDERISSUED_0"
-SoundID "FRIGATE_TECHLONGRANGE_ONGENERALORDERISSUED_1"
-SoundID "FRIGATE_TECHLONGRANGE_ONGENERALORDERISSUED_2"
-NumSoundsFor:ONSELECTED 4
-SoundID "FRIGATE_TECHLONGRANGE_ONSELECTED_0"
-SoundID "FRIGATE_TECHLONGRANGE_ONSELECTED_1"
-SoundID "FRIGATE_TECHLONGRANGE_ONSELECTED_2"
-SoundID "FRIGATE_TECHLONGRANGE_ONSELECTED_3"
+SoundID "FRIGATE_TECHLIGHT_ONGENERALORDERISSUED_0"
+SoundID "FRIGATE_TECHLIGHT_ONGENERALORDERISSUED_1"
+SoundID "FRIGATE_TECHLIGHT_ONGENERALORDERISSUED_2"
+NumSoundsFor:ONSELECTED 3
+SoundID "FRIGATE_TECHLIGHT_ONSELECTED_0"
+SoundID "FRIGATE_TECHLIGHT_ONSELECTED_1"
+SoundID "FRIGATE_TECHLIGHT_ONSELECTED_2"
 NumSoundsFor:ONSTARTPHASEJUMP 1
-SoundID "FRIGATE_TECHLONGRANGE_ONSTARTPHASEJUMP_0"
+SoundID "FRIGATE_TECHLIGHT_ONSTARTPHASEJUMP_0"
 MeshNameInfoCount 1
 MeshNameInfo
-	meshName "Rupture"
+	meshName "rifter"
 	criteriaType "None"
 meshNameIncreasedEffectName ""
 meshNameDecreasedEffectName ""
-ExhaustParticleSystemName "Exhaust_EveCruiser"
-ExplosionName "EVECruiser"
+ExhaustParticleSystemName "Exhaust_EveFrigate"
+ExplosionName "EVEFrigate"
 HyperspaceChargingSoundID "HYPERSPACE_CHARGEUP"
 HyperspaceTravelSoundID "HYPERSPACE_TRAVEL"
 EngineSoundID "ENGINE_TECHCAPITALSHIP"
-ability:0 "AbilityAfterburner"
+ability:0 "AbilityMicrowarpdrive"
 ability:1 "AbilityStasisWebifier"
 ability:2 ""
 ability:3 ""
-ability:4 "AbilityT2CruiserMunnin"
-MaxAntiMatter 275.000000
+ability:4 ""
+MaxAntiMatter 180.000000
 AntiMatterRestoreRate 0.500000
 cargoType "Invalid"
 maxCargoCapacity 0.000000
-formationRank 2
+formationRank 0
 minShadow 0.100000
 maxShadow 0.800000
 allegianceDecreasePerRoundtrip 0.000000

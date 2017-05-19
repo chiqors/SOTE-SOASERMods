@@ -9,29 +9,29 @@ canBomb FALSE
 typeCount 1
 frigateRoleType "Lrm"
 statCountType "FrigateLongRange"
-mainViewIcon "MAINVIEWICON_FRIGATE_CARACAL"
-picture "PICTURE_FRIGATE_CARACAL"
-NameStringID "IDS_RESEARCHSUBJECT_FRIGATEACCESS_DRAKE_NAME"
-DescriptionStringID "IDS_RESEARCHSUBJECT_FRIGATEACCESS_DRAKE_DESCRIPTION"
+mainViewIcon "HUDICONSMALL_FRIGATE_RUPTURE"
+picture "PICTURE_FRIGATE_RUPTURE"
+NameStringID "IDS_CRUISER_RUPTURE_NAME"
+DescriptionStringID "IDS_CRUISER_RUPTURE_DESCRIPTION"
 counterDescriptionStringID "IDS_COUNTERDESC_CORVETTE_TECH"
 basePrice
-	credits 337.000000
-	metal 100.000000
-	crystal 198.000000
+	credits 327.000000
+	metal 60.000000
+	crystal 50.000000
 slotCount 4.000000
-BuildTime 44.000000
+BuildTime 22.000000
 hasLevels FALSE
-ExperiencePointsForDestroying 80.000000
-MaxHullPoints 3000.000000
-MaxShieldPoints 5950.000000
+ExperiencePointsForDestroying 55.000000
+MaxHullPoints 1050.000000
+MaxShieldPoints 525.000000
 HullPointRestoreRate 1.000000
 ShieldPointRestoreRate 1.000000
-BaseArmorPoints 0.1500000
-maxMitigation 0.300000 
+BaseArmorPoints 0.000000
+maxMitigation 0.30000
 Prerequisites
 	NumResearchPrerequisites 1
 	ResearchPrerequisite
-		Subject "Caldari_ResearchSubject_SubCapitalAccess_Drake"
+		Subject "Minmatar_ResearchSubject_SubCapitalAccess_Rupture"
 		Level 1
 	RequiredFactionNameID ""
 	RequiredCompletedResearchSubjects 0
@@ -39,54 +39,49 @@ numRandomDebrisLarge 0
 numRandomDebrisSmall 0
 numSpecificDebris 0
 armorType "Medium"
-hudIcon "HUDICON_RESEARCHSUBJECT_FRIGATEACCESS_DRAKE"
-smallHudIcon "HUDICONSMALL_FRIGATE_CARACAL"
-infoCardIcon "INFOCARDICON_FRIGATE_CARACAL"
+hudIcon "HUDICON_FRIGATE_RUPTURE"
+smallHudIcon "HUDICONSMALL_FRIGATE_RUPTURE"
+infoCardIcon "HUDICONSMALL_FRIGATE_RUPTURE"
 minZoomDistanceMult 1.000000
 NumWeapons 1
 Weapon
-	WeaponType "Missile"
+	WeaponType "Projectile"
 	damageEnums
 		AttackType "ANTIMEDIUM"
 		DamageAffectType "AFFECTS_SHIELDS_AND_HULL"
 		DamageApplyType "BACKLOADED"
 		DamageType "PHYSICAL"
-		WeaponClassType "MISSILE"
-	DamagePerBank:FRONT 565.000000
+		WeaponClassType "GAUSS"
+	DamagePerBank:FRONT 202.000000
 	DamagePerBank:BACK 0.000000
 	DamagePerBank:LEFT 0.000000
 	DamagePerBank:RIGHT 0.000000
-	Range 5000.000000
-	PreBuffCooldownTime 6.710000
+	Range 6000.000000
+	PreBuffCooldownTime 2.470000
 	CanFireAtFighter FALSE
 	SynchronizedTargeting TRUE
 	PointStaggerDelay 0.050000
-	TravelSpeed 3000.000000
-	Duration 0.000000
+	TravelSpeed 5000.000000
+	Duration 0.300000
 	fireConstraintType "CanAlwaysFire"
 	WeaponEffects
-		weaponType "Missile"
-		burstCount 1
-		burstDelay 0.0500000
-		fireDelay 0.0500000
-		muzzleEffectName "Weapon_TechCapitalMissileHeavy_Muzzle"
-		muzzleSoundMinRespawnTime 0.500000
+		weaponType "Projectile"
+		burstCount 4
+		burstDelay 0.050000
+		fireDelay 0.000000
+		muzzleEffectName "Weapon_TechCapitalAutoCannonMedium_Muzzle"
+		muzzleSoundMinRespawnTime 1.000000
 		muzzleSounds
 			soundCount 1
-			sound "EFFECT_NEUTRONTORPEDO_MUZZLE"
-		hitEffectName "EVE_Missile_LightMissile_Hit"
+			sound "WEAPON_MEDIUMAUTOCANNON"
+		hitEffectName "Weapon_TechCapitalAutoCannonMedium_Muzzle"
 		hitHullEffectSounds
-			soundCount 2
-			sound "LIGHTMISSILEEXPLOSION1"
-			sound "LIGHTMISSILEEXPLOSION2"
+			soundCount 1
+			sound ""
 		hitShieldsEffectSounds
-			soundCount 2
-			sound "LIGHTMISSILEEXPLOSION1"
-			sound "LIGHTMISSILEEXPLOSION2"
-		missileTravelEffectName "EVE_Missile_LightMissile_Travel"
-		missileStartTurningDistance 0.000000
-		missileSlowTurnRate 0.500000
-		missileMaxSlowTurnTime 5.000000
+			soundCount 1
+			sound ""
+		projectileTravelEffectName "Weapon_TechCapitalAutoCannonMedium_Travel"
 m_weaponIndexForRange 0
 firingAlignmentType "Default"
 TargetCountPerBank:FRONT 1
@@ -96,7 +91,7 @@ TargetCountPerBank:RIGHT 0
 canOnlyTargetStructures FALSE
 hasWeaponLevels FALSE
 mass 4000.000000
-ShieldMeshName "vexor"
+ShieldMeshName "omen"
 renderShield FALSE
 maxAccelerationLinear 90.000000
 maxAccelerationStrafe 10.000000
@@ -132,37 +127,27 @@ SoundID "FRIGATE_TECHLONGRANGE_ONSELECTED_2"
 SoundID "FRIGATE_TECHLONGRANGE_ONSELECTED_3"
 NumSoundsFor:ONSTARTPHASEJUMP 1
 SoundID "FRIGATE_TECHLONGRANGE_ONSTARTPHASEJUMP_0"
-MeshNameInfoCount 2
+MeshNameInfoCount 1
 MeshNameInfo
-	meshName "drake"
+	meshName "Rupture"
 	criteriaType "None"
-MeshNameInfo
-	meshName "nighthawk"
-	criteriaType "Research"
-	prerequisites
-		NumResearchPrerequisites 1
-		ResearchPrerequisite
-			Subject "Caldari_ResearchSubject_SubCapitalAccess_Nighthawk"
-			Level 1
-		RequiredFactionNameID ""
-		RequiredCompletedResearchSubjects 1
 meshNameIncreasedEffectName ""
 meshNameDecreasedEffectName ""
 ExhaustParticleSystemName "Exhaust_EveCruiser"
 ExplosionName "EVECruiser"
 HyperspaceChargingSoundID "HYPERSPACE_CHARGEUP"
 HyperspaceTravelSoundID "HYPERSPACE_TRAVEL"
-EngineSoundID "ENGINE_PHASECAPITALSHIP"
-ability:0 "AbilityMicrowarpdrive"
-ability:1 "AbilityCaldariShieldWarfareMindlink"
-ability:2 "AbilityInvulnerabilityShieldField"
+EngineSoundID "ENGINE_TECHCAPITALSHIP"
+ability:0 "AbilityAfterburner"
+ability:1 "AbilityStasisWebifier"
+ability:2 ""
 ability:3 ""
-ability:4 ""
-MaxAntiMatter 250.000000
+ability:4 "AbilityT2CruiserMunnin"
+MaxAntiMatter 275.000000
 AntiMatterRestoreRate 0.500000
 cargoType "Invalid"
 maxCargoCapacity 0.000000
 formationRank 2
 minShadow 0.100000
-maxShadow 1.000000
+maxShadow 0.800000
 allegianceDecreasePerRoundtrip 0.000000

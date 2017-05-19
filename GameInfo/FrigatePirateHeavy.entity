@@ -131,7 +131,7 @@ MeshNameInfo
 	criteriaType "None"
 meshNameIncreasedEffectName ""
 meshNameDecreasedEffectName ""
-ExhaustParticleSystemName "Exhaust_FrigateTechHeavy"
+ExhaustParticleSystemName "Exhaust_Concord_ShipBattleship"
 ExplosionName "Frigate0"
 HyperspaceChargingSoundID "HYPERSPACE_CHARGEUP"
 HyperspaceTravelSoundID "HYPERSPACE_TRAVEL"

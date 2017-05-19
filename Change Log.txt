@@ -63,3 +63,4 @@ Fix - Time and costs for missile research
 Fix - Cloak now works
 Added - Citadel Tethering
 
+Added new cruisers ships entitys
