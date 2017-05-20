@@ -48,22 +48,22 @@ entities
 		Page:0
 			count 9
 			entityDefName "Caldari_Ship_Frigate_Heron"
-			entityDefName "Caldari_Ship_Frigate_Merlin"
 			entityDefName "Caldari_Ship_Frigate_Condor"
 			entityDefName "Caldari_Ship_Frigate_Kestrel"
 			entityDefName "Caldari_Ship_Destroyer_Comorant"
+			entityDefName "Gallente_Ship_Colony_Orca"
 			entityDefName "Caldari_Ship_Cruiser_Caracal"
 			entityDefName "Caldari_Ship_Cruiser_Blackbird"
 			entityDefName "Caldari_Ship_Cruiser_Osprey"
-			entityDefName "Gallente_Ship_Colony_Orca"
+			entityDefName "Caldari_Ship_Cruiser_Onyx"
 		Page:1
 			count 9
+			entityDefName "Caldari_Ship_Battlecruiser_Ferox"
+			entityDefName "Caldari_Ship_Battlecruiser_Drake"
+			entityDefName "Caldari_Ship_Battlecruiser_Naga"
 			entityDefName "Caldari_Ship_Battleship_Scorpion"
 			entityDefName "Caldari_Ship_Battleship_Raven"
 			entityDefName "Caldari_Ship_Battleship_Rokh"
-			entityDefName "Caldari_Ship_Battlecruiser_Naga"
-			entityDefName "Caldari_Ship_Battlecruiser_Ferox"
-			entityDefName "Caldari_Ship_Cruiser_Onyx"
 			entityDefName "Caldari_Ship_Envoy_Ferox"
 			entityDefName "Caldari_Ship_Battleship_Rattlesnake"
 			entityDefName "Caldari_Ship_Destroyer_Jackdaw"
@@ -73,7 +73,7 @@ entities
 			entityDefName "FrigatePhaseTradeShip"
 			entityDefName "Amarr_Ship_Refineryship_Bestower"
 	researchInfo
-		count 132
+		count 134
 		entityDefName "RSAHeavyAssault"
 		entityDefName "RSABlackOps"
 		entityDefName "RSAMarauder"
@@ -109,9 +109,11 @@ entities
 		entityDefName "Caldari_ResearchSubject_CapitalAccess_Levathan"
 		entityDefName "Caldari_ResearchSubject_CapitalAccess_Phoenix"
 		entityDefName "Caldari_ResearchSubject_CapitalAccess_Wyvern"
+		entityDefName "Caldari_ResearchSubject_SubCapitalAccess_Blackbird"
 		entityDefName "Caldari_ResearchSubject_SubCapitalAccess_Ferox"
 		entityDefName "Caldari_ResearchSubject_SubCapitalAccess_FeroxEnvoy"
 		entityDefName "Caldari_ResearchSubject_SubCapitalAccess_Kestrel"
+		entityDefName "Caldari_ResearchSubject_SubCapitalAccess_Drake"
 		entityDefName "Caldari_ResearchSubject_SubCapitalAccess_Naga"
 		entityDefName "Caldari_ResearchSubject_SubCapitalAccess_Onyx"
 		entityDefName "Caldari_ResearchSubject_SubCapitalAccess_Raven"
@@ -505,10 +507,8 @@ planetElevatorData
 	elevatorMeshName:GoodsFactory "PlanetElevator-Phase-GoodsFactory"
 	elevatorMeshName:ProductionCenter "PlanetElevator-Phase-ProductionCenter"
 musicThemeData
-	startupMusicThemeCount 3
-	musicTheme "MUSIC_ADVENT_LOYALIST_1"
-	musicTheme "MUSIC_ADVENT_LOYALIST_2"
-	musicTheme "MUSIC_ADVENT_LOYALIST_3"
+	startupMusicThemeCount 1
+	musicTheme "MUSIC_CALDARI_THEME"
 	neutralMusicThemeCount 12
 	musicTheme "MUSIC_ADVENT_THEME_1"
 	musicTheme "MUSIC_TEC_QUIET_1"
@@ -523,11 +523,11 @@ musicThemeData
 	musicTheme "MUSIC_TEC_LOYALIST_2"
 	musicTheme "MUSIC_TEC_LOYALIST_3"
 	scareThemeCount 5
-	musicTheme "MUSIC_BATTLE_7"
-	musicTheme "MUSIC_BATTLE_13"
-	musicTheme "MUSIC_NEWBATTLE_1"
-	musicTheme "MUSIC_NEWBATTLE_2"
-	musicTheme "MUSIC_NEWBATTLE_3"
+	musicTheme "MUSIC_CALDARI_1"
+	musicTheme "MUSIC_CALDARI_2"
+	musicTheme "MUSIC_CALDARI_3"
+	musicTheme "MUSIC_CALDARI_4"
+	musicTheme "MUSIC_BATTLE_4"
 	announcementCount 1
 	musicTheme "MUSIC_TEC_ANNOUNCEMENT"
 hudSkinData

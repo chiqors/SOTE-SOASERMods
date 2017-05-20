@@ -1,5 +1,5 @@
 TXT
-entityNameCount 2281
+entityNameCount 2282
 entityName "ALLRACES_RESEARCHSUBJECT_ABILITYACCESS_AFTERBURNER.entity"
 entityName "ALLRACES_RESEARCHSUBJECT_ABILITYACCESS_BASTIONMODE.entity"
 entityName "ALLRACES_RESEARCHSUBJECT_ABILITYACCESS_CLOAK.entity"
@@ -2280,3 +2280,5 @@ entityName "BuffDictorImmunity.entity"
 entityName "FrigateDictorBubble.entity"
 entityName "Caldari_Structure_CultureCenter.entity"
 entityName "Gallente_Ship_Titan_Vanquisher.entity"
+entityName "Caldari_ResearchSubject_SubCapitalAccess_Drake.entity"
+entityName "Caldari_ResearchSubject_SubCapitalAccess_Blackbird.entity"

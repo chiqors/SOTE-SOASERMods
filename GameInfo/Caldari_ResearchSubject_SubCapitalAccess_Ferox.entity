@@ -7,7 +7,7 @@ NameStringID "IDS_RESEARCHSUBJECT_FRIGATEACCESS_FEROX_NAME"
 DescriptionStringID "IDS_RESEARCHSUBJECT_FRIGATEACCESS_FEROX_DESCRIPTION"
 researchWindowLocation
 	block 2
-	pos [ 3 , 3 ]
+	pos [ 3 , 2 ]
 ResearchField "Combat"
 Prerequisites
 	NumResearchPrerequisites 0

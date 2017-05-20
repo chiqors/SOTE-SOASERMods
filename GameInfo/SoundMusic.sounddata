@@ -1,5 +1,5 @@
 TXT
-numMusic 95
+numMusic 101
 music
 	name "MUSIC_FRONTEND"
 	fileName "DetachedFromTime.ogg"
@@ -760,4 +760,52 @@ music
 	actionRange 0.4
 	emotionLevel 0.0
 	emotionRange 1.0
-	
+music
+	name "MUSIC_CALDARI_1"
+	fileName "Caldari Melody 1.ogg"
+	isLooping FALSE
+	actionLevel 0.4
+	actionRange 0.4
+	emotionLevel 0.2
+	emotionRange 0.8
+music
+	name "MUSIC_CALDARI_2"
+	fileName "Caldari Melody 2.ogg"
+	isLooping FALSE
+	actionLevel 0.4
+	actionRange 0.4
+	emotionLevel 0.2
+	emotionRange 0.8
+music
+	name "MUSIC_CALDARI_3"
+	fileName "Caldari Melody 3.ogg"
+	isLooping FALSE
+	actionLevel 0.4
+	actionRange 0.4
+	emotionLevel 0.2
+	emotionRange 0.8
+music
+	name "MUSIC_CALDARI_4"
+	fileName "Caldari Melody 4.ogg"
+	isLooping FALSE
+	actionLevel 0.4
+	actionRange 0.4
+	emotionLevel 0.2
+	emotionRange 0.8
+music
+	name "MUSIC_CALDARI_THEME"
+	fileName "Caldari Theme.ogg"
+	isLooping FALSE
+	actionLevel 0.4
+	actionRange 0.4
+	emotionLevel 0.2
+	emotionRange 0.8
+music
+	name "MUSIC_GALLENTE_THEME"
+	fileName "Gallente Theme.ogg"
+	isLooping FALSE
+	actionLevel 0.4
+	actionRange 0.4
+	emotionLevel 0.2
+	emotionRange 0.8
+		
