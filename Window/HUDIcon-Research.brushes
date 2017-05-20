@@ -12042,19 +12042,19 @@ brush
 	content "States"
 	Disabled
 		fileName "Buttons_Abilities_Disabled"
-		pixelBox [ 923 , 993 , 32 , 32 ]
+		pixelBox [ 923 , 992 , 32 , 32 ]
 	Pressed
 		fileName "Buttons_Abilities_Pressed"
-		pixelBox [ 975 , 993 , 32 , 32 ]
+		pixelBox [ 923 , 992 , 32 , 32 ]
 	CursorOver
 		fileName "Buttons_Abilities_CursorOver"
-		pixelBox [ 975 , 993 , 32 , 32 ]
+		pixelBox [ 923 , 992 , 32 , 32 ]
 	Focused
 		fileName "Buttons_Abilities_Normal"
-		pixelBox [ 975 , 993 , 32 , 32 ]
+		pixelBox [ 923 , 992 , 32 , 32 ]
 	Normal
 		fileName "Buttons_Abilities_Normal"
-		pixelBox [ 975 , 993 , 32 , 32 ]
+		pixelBox [ 923 , 992 , 32 , 32 ]
 brush
 	name "HUDICON_RSAHEAVYASSAULT"
 	content "States"

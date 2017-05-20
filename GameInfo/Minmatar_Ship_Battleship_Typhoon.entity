@@ -96,8 +96,8 @@ TargetCountPerBank:RIGHT 1
 canOnlyTargetStructures FALSE
 hasWeaponLevels FALSE
 mass 7000.000000
-ShieldMeshName "Armageddon"
-renderShield FALSE
+ShieldMeshName "typhoon"
+renderShield TRUE
 maxAccelerationLinear 75.000000
 maxAccelerationStrafe 10.000000
 maxDecelerationLinear 500.000000
@@ -148,8 +148,8 @@ ability:1 "AbilityTargetPainter"
 ability:2 "AbilityT2CloakMinmatar"
 ability:3 "AbilityT2blackOpsCloakMinmatar"
 ability:4 "AbilityCovertOpsJumpBridge"
-MaxAntiMatter 1250.000000
-AntiMatterRestoreRate 1.650000
+MaxAntiMatter 7700.000000
+AntiMatterRestoreRate 10.000000
 cargoType "Invalid"
 maxCargoCapacity 0.000000
 formationRank 0

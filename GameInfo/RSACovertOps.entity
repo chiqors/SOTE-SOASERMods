@@ -1,12 +1,12 @@
 ﻿TXT
 entityType "ResearchSubject"
-hudIcon "HUDICON_RESEARCHSUBJECT_STARBASEUPGRADEACCESS_RESUPPLY"
-smallHudIcon "HUDICON_RESEARCHSUBJECT_STARBASEUPGRADEACCESS_RESUPPLY"
+hudIcon "HUDICON_RSACOVOPS"
+smallHudIcon "HUDICON_RSACOVOPS"
 infoCardIcon ""
 NameStringID "IDS_RSACoverOps_NAME"
 DescriptionStringID "IDS_RSACoverOps_DESCRIPTION"
 researchWindowLocation
-	block 0
+	block 2
 	pos [ 5 , 1 ]
 ResearchField "Combat"
 Prerequisites

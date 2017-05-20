@@ -142,7 +142,7 @@ MeshNameInfo
 	prerequisites
 		NumResearchPrerequisites 1
 		ResearchPrerequisite
-			Subject "Caldari_ResearchSubject_SubCapitalAccess_Widow"
+			Subject "RSABlackOps"
 			Level 1
 		RequiredFactionNameID ""
 		RequiredCompletedResearchSubjects 1
@@ -155,11 +155,11 @@ HyperspaceTravelSoundID "HYPERSPACE_TRAVEL"
 EngineSoundID "ENGINE_TECHCAPITALSHIP"
 ability:0 "AbilityMicrowarpdrive"
 ability:1 "AbilityECMBattery"
-ability:2 "AbilityPhaseCloak"
+ability:2 "AbilityT2CloakAmarr"
 ability:3 "AbilityT2Widow"
 ability:4 "AbilityCovertOpsJumpBridge"
-MaxAntiMatter 1250.000000
-AntiMatterRestoreRate 1.650000
+MaxAntiMatter 8250.000000
+AntiMatterRestoreRate 10.650000
 cargoType "Invalid"
 maxCargoCapacity 0.000000
 formationRank 0

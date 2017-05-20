@@ -5312,18 +5312,18 @@ brush
 	name "HUDICON_ABILITY_SHIELDBOOSTERFACTION"
 	content "States"
 	Disabled
-		fileName "Buttons_Research3_Disabled"
+		fileName "Buttons_Abilities_Disabled"
 		pixelBox [ 107 , 585 , 47 , 33 ]
 	Pressed
-		fileName "Buttons_Research3_Pressed"
+		fileName "Buttons_Abilities_Pressed"
 		pixelBox [ 107 , 585 , 47 , 33 ]
 	CursorOver
-		fileName "Buttons_Research3_CursorOver"
+		fileName "Buttons_Abilities_CursorOver"
 		pixelBox [ 107 , 585 , 47 , 33 ]
 	Focused
-		fileName "Buttons_Research3_Normal"
+		fileName "Buttons_Abilities_Normal"
 		pixelBox [ 107 , 585 , 47 , 33 ]
 	Normal
-		fileName "Buttons_Research3_Normal"
+		fileName "Buttons_Abilities_Normal"
 		pixelBox [ 107 , 585 , 47 , 33 ]
 		

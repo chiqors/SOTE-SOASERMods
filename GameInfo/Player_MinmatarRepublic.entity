@@ -73,7 +73,14 @@ entities
 			entityDefName "Minmatar_Ship_Tradeship_Manmonth"
 			entityDefName "Minmatar_Ship_Refineryship_Mamonth"
 	researchInfo
-		count 129
+		count 134
+		entityDefName "RSACovertOps"
+		entityDefName "RSAEletronicShip"
+		entityDefName "RSAHeavyAssault"
+		entityDefName "RSAInterdictor"
+		entityDefName "RSACommandShip"
+		entityDefName "RSABlackOps"
+		entityDefName "RSAMarauder"
 		entityDefName "AllRaces_ResearchSubject_CovertOpsJumpBridge"
 		entityDefName "Minmatar_ResearchSubject_SubCapitalAccess_Svipul"
 		entityDefName "ALLRACES_RESEARCHSUBJECT_ABILITYACCESS_AFTERBURNER"
@@ -126,10 +133,8 @@ entities
 		entityDefName "Minmatar_ResearchSubject_SubCapitalAccess_Scimitar"
 		entityDefName "Minmatar_ResearchSubject_SubCapitalAccess_Slasher"
 		entityDefName "Minmatar_ResearchSubject_SubCapitalAccess_Tempest"
-		entityDefName "Minmatar_ResearchSubject_SubCapitalAccess_Vagur"
 		entityDefName "Minmatar_ResearchSubject_SubCapitalAccess_Thrasher"
 		entityDefName "Minmatar_ResearchSubject_SubCapitalAccess_Typhoon"
-		entityDefName "Minmatar_ResearchSubject_SubCapitalAccess_Panther"
 		entityDefName "RESEARCHSUBJECT_ABILITYACCESS_ARBITRATETARIFF"
 		entityDefName "RESEARCHSUBJECT_ABILITYACCESS_SETTLERS"
 		entityDefName "RESEARCHSUBJECT_ABILITYACCESS_UNSTOPPABLEPHASEJUMPTECH"

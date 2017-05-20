@@ -1,0 +1,1 @@
+for %%a in (*.mesh) do ConvertData_Rebellion mesh %%a %%a txt

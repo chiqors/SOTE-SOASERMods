@@ -73,7 +73,14 @@ entities
 			entityDefName "FrigatePhaseTradeShip"
 			entityDefName "Amarr_Ship_Refineryship_Bestower"
 	researchInfo
-		count 132
+		count 137
+		entityDefName "RSACovertOps"
+		entityDefName "RSAEletronicShip"
+		entityDefName "RSAHeavyAssault"
+		entityDefName "RSAInterdictor"
+		entityDefName "RSACommandShip"
+		entityDefName "RSABlackOps"
+		entityDefName "RSAMarauder"
 		entityDefName "AllRaces_ResearchSubject_CovertOpsJumpBridge"		
 		entityDefName "AllRaces_ResearchSubject_ArcingVortonProjector"		
 		entityDefName "Caldari_ResearchSubject_SubCapitalAccess_Jackdaw"
@@ -112,10 +119,8 @@ entities
 		entityDefName "Caldari_ResearchSubject_SubCapitalAccess_Naga"
 		entityDefName "Caldari_ResearchSubject_SubCapitalAccess_Onyx"
 		entityDefName "Caldari_ResearchSubject_SubCapitalAccess_Raven"
-		entityDefName "Caldari_ResearchSubject_SubCapitalAccess_Golem"
 		entityDefName "Caldari_ResearchSubject_SubCapitalAccess_Rokh"
 		entityDefName "Caldari_ResearchSubject_SubCapitalAccess_Scorpion"
-		entityDefName "Caldari_ResearchSubject_SubCapitalAccess_Widow"
 		entityDefName "Caldari_ResearchSubject_SubCapitalAccess_Comorant"
 		entityDefName "Caldari_ResearchSubject_SubCapitalAccess_Moa"
 		entityDefName "Caldari_ResearchSubject_SubCapitalAccess_Osprey"

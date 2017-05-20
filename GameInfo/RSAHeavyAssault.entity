@@ -6,7 +6,7 @@ infoCardIcon ""
 NameStringID "IDS_RSAHeavyAssault_NAME"
 DescriptionStringID "IDS_RSAHeavyAssault_DESCRIPTION"
 researchWindowLocation
-	block 0
+	block 2
 	pos [ 6 , 3 ]
 ResearchField "Combat"
 Prerequisites

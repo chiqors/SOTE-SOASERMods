@@ -18,7 +18,7 @@ moveThruTarget FALSE
 isUltimateAbility FALSE
 maxNumLevels 1
 levelSourceType "ResearchWithoutBase"
-improveSourceResearchSubject "Caldari_ResearchSubject_SubCapitalAccess_Widow"
+improveSourceResearchSubject "RSABlackOps"
 aiUseTime "OnlyInCombat"
 aiUseTargetCondition "Any"
 isAutoCastAvailable TRUE

@@ -16,7 +16,7 @@ moveThruTarget FALSE
 isUltimateAbility FALSE
 maxNumLevels 1
 levelSourceType "ResearchWithoutBase"
-improveSourceResearchSubject "Gallente_ResearchSubject_SubCapitalAccess_Kronos"
+improveSourceResearchSubject "RSAMarauder"
 aiUseTime "Invalid"
 aiUseTargetCondition "Invalid"
 isAutoCastAvailable FALSE
@@ -28,7 +28,7 @@ useCostType "Passive"
 researchPrerequisites
 	NumResearchPrerequisites 1
 	ResearchPrerequisite
-		Subject "Gallente_ResearchSubject_SubCapitalAccess_Kronos"
+		Subject "RSAMarauder"
 		Level 1
 	RequiredFactionNameID ""
 	RequiredCompletedResearchSubjects 0
