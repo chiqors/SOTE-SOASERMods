@@ -67,7 +67,7 @@ ringColor ffed8b3b
 cloudLayerTextureName "PlanetCloudLayer"
 planetResourceSetupInfo
 	asteroidSpawnAngleVariance 3.141593
-	totalMaxResourceAsteroids 5
+	totalMaxResourceAsteroids 4
 	metalResourceAsteroidSetup
 		minCount 4
 		maxCount 4

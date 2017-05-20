@@ -24629,10 +24629,10 @@ StringInfo
 	Value "A Concord SWAT vessel."			
 StringInfo
 	ID "IDS_CONCORD_CRUISER_DESCRIPTION"
-	Value "CONCORD Special Ops Cruiser"
+	Value "Designed by co-operative efforts from all the empires, the Concord cruisers employ many of the finest traditions and technologies enjoyed by the empires, thus making them truly fearsome opponents."
 StringInfo
 	ID "IDS_CONCORD_CRUISER_NAME"
-	Value "Designed by co-operative efforts from all the empires, the Concord cruisers employ many of the finest traditions and technologies enjoyed by the empires, thus making them truly fearsome opponents."				
+	Value "CONCORD Police Cruiser"				
 StringInfo
 	ID "IDS_RANDOMEVENT_PIRATBLACKOPS_NAME"
 	Value "Pirate Black Ops Incursion"

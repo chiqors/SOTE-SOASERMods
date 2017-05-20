@@ -21,7 +21,7 @@ basePrice
 	credits 350.000000
 	metal 90.000000
 	crystal 75.000000
-NameStringID "IDS_PLANETMODULE_JITASTATION_NAME"
+NameStringID "IDS_PLANETMODULE_TECHORBITALTRADEPORT_NAME"
 DescriptionStringID "IDS_PLANETMODULE_JITASTATION_DESCRIPTION"
 planetModuleRoleType "TRADEPORT"
 statCountType "ModuleTradePort"
@@ -61,7 +61,7 @@ SoundID "PLANETMODULE_TECHORBITALTRADEPORT_ONSELECTION_0"
 NumSoundsFor:ONSTARTPHASEJUMP 0
 MeshNameInfoCount 1
 MeshNameInfo
-	meshName "cs1"
+	meshName "cs3"
 	criteriaType "None"
 meshNameIncreasedEffectName ""
 meshNameDecreasedEffectName ""

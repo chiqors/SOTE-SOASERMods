@@ -15,7 +15,7 @@ entities
 			entityDefName "Gallente_Structure_FrigateFactory"
 			entityDefName "Gallente_Structure_CombatLab"
 			entityDefName "Caldari_Structure_TradePort"
-			entityDefName "Gallente_Structure_CultureCenter"
+			entityDefName "Caldari_Structure_CultureCenter"
 			entityDefName "PLANETMODULE_PHASEORBITALCRYSTALEXTRACTOR"
 			entityDefName "Gallente_Structure_CapitalShipFactory"
 			entityDefName "Gallente_Structure_CivillianLab"
