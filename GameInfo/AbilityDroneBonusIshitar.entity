@@ -25,7 +25,7 @@ moveThruTarget FALSE
 isUltimateAbility FALSE
 maxNumLevels 1
 levelSourceType "ResearchWithoutBase"
-improveSourceResearchSubject "Gallente_ResearchSubject_SubCapitalAccess_Ishitar"
+improveSourceResearchSubject "RSAHeavyAssault"
 aiUseTime "Invalid"
 aiUseTargetCondition "Invalid"
 isAutoCastAvailable FALSE

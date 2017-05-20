@@ -29,7 +29,10 @@ ShieldPointRestoreRate 1.000000
 BaseArmorPoints 0.000000
 maxMitigation 0.30000
 Prerequisites
-	NumResearchPrerequisites 0
+	NumResearchPrerequisites 1
+	ResearchPrerequisite
+		Subject "Caldari_ResearchSubject_SubCapitalAccess_Blackbird"
+		Level 1
 	RequiredFactionNameID ""
 	RequiredCompletedResearchSubjects 0
 numRandomDebrisLarge 0

@@ -161,7 +161,7 @@ TargetCountPerBank:RIGHT 0
 canOnlyTargetStructures FALSE
 mass 200000.000000
 ShieldMeshName "Avatar"
-renderShield FALSE
+renderShield TRUE
 maxAccelerationLinear 22.500000
 maxAccelerationStrafe 0.400000
 maxDecelerationLinear 45.000000
@@ -197,7 +197,7 @@ NumSoundsFor:ONSTARTPHASEJUMP 1
 SoundID "TITAN_TECHLOYALIST_ONSTARTPHASEJUMP_0"
 MeshNameInfoCount 1
 MeshNameInfo
-	meshName "Avatar"
+	meshName "avatar"
 	criteriaType "None"
 meshNameIncreasedEffectName ""
 meshNameDecreasedEffectName ""

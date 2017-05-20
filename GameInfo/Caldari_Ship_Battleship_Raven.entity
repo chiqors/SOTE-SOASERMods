@@ -142,7 +142,7 @@ MeshNameInfo
 	prerequisites
 		NumResearchPrerequisites 1
 		ResearchPrerequisite
-			Subject "Caldari_ResearchSubject_SubCapitalAccess_Golem"
+			Subject "RSAMarauder"
 			Level 1
 		RequiredFactionNameID ""
 		RequiredCompletedResearchSubjects 1

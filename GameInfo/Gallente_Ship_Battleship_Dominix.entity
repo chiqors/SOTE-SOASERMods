@@ -143,8 +143,8 @@ ability:1 "AbilityDroneBonus"
 ability:2 "AbilityT2CloakGallente"
 ability:3 "AbilityT2BlackOpsCloakGallente"
 ability:4 "AbilityCovertOpsJumpBridge"
-MaxAntiMatter 1250.000000
-AntiMatterRestoreRate 1.650000
+MaxAntiMatter 7250.000000
+AntiMatterRestoreRate 10.650000
 cargoType "Invalid"
 maxCargoCapacity 0.000000
 formationRank 0

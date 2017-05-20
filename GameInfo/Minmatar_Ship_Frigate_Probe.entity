@@ -88,8 +88,8 @@ TargetCountPerBank:RIGHT 0
 canOnlyTargetStructures FALSE
 hasWeaponLevels FALSE
 mass 2000.000000
-ShieldMeshName "magnate"
-renderShield FALSE
+ShieldMeshName "probe"
+renderShield TRUE
 maxAccelerationLinear 225.000000
 maxAccelerationStrafe 10.000000
 maxDecelerationLinear 500.000000

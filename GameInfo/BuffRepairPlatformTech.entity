@@ -20,7 +20,14 @@ instantAction
 		largeEffectName "Buff_RepairPlatformTechLarge"
 		soundID "EFFECT_REPAIR_TECH"
 numPeriodicActions 0
-numOverTimeActions 2
+numOverTimeActions 3
+overTimeAction
+	buffOverTimeActionType "RestoreAntiMatter"
+	antiMatterRestoreRate
+		Level:0 100.000000
+		Level:1 100.000000
+		Level:2 100.000000
+		Level:3 100.000000
 overTimeAction
 	buffOverTimeActionType "RestoreHull"
 	hullRestoreRate

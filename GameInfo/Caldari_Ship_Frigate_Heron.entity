@@ -88,7 +88,7 @@ TargetCountPerBank:RIGHT 0
 canOnlyTargetStructures FALSE
 hasWeaponLevels FALSE
 mass 2000.000000
-ShieldMeshName "imicus"
+ShieldMeshName "heron"
 renderShield TRUE
 maxAccelerationLinear 225.000000
 maxAccelerationStrafe 10.000000

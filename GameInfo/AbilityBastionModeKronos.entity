@@ -39,7 +39,7 @@ orderAcknowledgementType "ONGENERALORDERISSUED"
 researchPrerequisites
 	NumResearchPrerequisites 2
 	ResearchPrerequisite
-		Subject "Gallente_ResearchSubject_SubCapitalAccess_Kronos"
+		Subject "RSAMarauder"
 		Level 1
 	ResearchPrerequisite
 		Subject "ALLRACES_RESEARCHSUBJECT_ABILITYACCESS_BASTIONMODE"

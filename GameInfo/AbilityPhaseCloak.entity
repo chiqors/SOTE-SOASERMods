@@ -41,7 +41,7 @@ orderAcknowledgementType "ONGENERALORDERISSUED"
 researchPrerequisites
 	NumResearchPrerequisites 2
 	ResearchPrerequisite
-		Subject "Caldari_ResearchSubject_SubCapitalAccess_Widow"
+		Subject "RSABlackOps"
 		Level 1
 	ResearchPrerequisite
 		Subject "ALLRACES_RESEARCHSUBJECT_ABILITYACCESS_CLOAK"
