@@ -1,5 +1,5 @@
 TXT
-NumStrings 8253
+NumStrings 8255
 StringInfo
     ID "IDS_ABILITY_RORQUALPANIC_NAME"
 	Value "P.A.N.I.C Module"
@@ -24759,4 +24759,10 @@ StringInfo
 StringInfo
 	ID "IDS_TITAN_VANQUISHER_DESCRIPTION"
 	Value "The Vanquisher is the most powerful supercapital to ever reach capsuleer hands. It is an upgraded titan with stronger hybrid damage."
+StringInfo
+	ID "IDS_RSALOGISTICS_NAME"
+	Value "Logistic Refit"
+StringInfo
+	ID "IDS_RSALOGISTICS_DESCRIPTION"
+	Value "Unlock the T2 Logistic Refit for all Logi Cruisers."
 	

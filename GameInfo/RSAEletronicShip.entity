@@ -7,7 +7,7 @@ NameStringID "IDS_RSAEletronicShip_NAME"
 DescriptionStringID "IDS_RSAEletronicShip_DESCRIPTION"
 researchWindowLocation
 	block 2
-	pos [ 6 , 2 ]
+	pos [ 6 , 3 ]
 ResearchField "Combat"
 Prerequisites
 	NumResearchPrerequisites 0

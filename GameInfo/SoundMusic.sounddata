@@ -10,7 +10,7 @@ music
 	emotionRange 1.0
 music
 	name "MUSIC_BATTLE_1"
-	fileName "Tomorrows Neverending Yesterday.ogg"
+	fileName "Battle Rock 1.ogg"
 	isLooping FALSE
 	actionLevel 0.75
 	actionRange 0.35
@@ -18,7 +18,7 @@ music
 	emotionRange 1.0
 music
 	name "MUSIC_BATTLE_2"
-	fileName "Costs of Conflict.ogg"
+	fileName "Battle Rock 2.ogg"
 	isLooping FALSE
 	actionLevel 0.75
 	actionRange 0.35
@@ -26,7 +26,7 @@ music
 	emotionRange 1.0
 music
 	name "MUSIC_BATTLE_3"
-	fileName "All These Worlds.ogg"
+	fileName "Battle Rock 3.ogg"
 	isLooping FALSE
 	actionLevel 0.75
 	actionRange 0.35
@@ -42,7 +42,7 @@ music
 	emotionRange 1.0
 music
 	name "MUSIC_BATTLE_5"
-	fileName "Burn Them All.ogg"
+	fileName "Battle Rock 4.ogg"
 	isLooping FALSE
 	actionLevel 0.75
 	actionRange 0.35
@@ -50,7 +50,7 @@ music
 	emotionRange 1.0
 music
 	name "MUSIC_BATTLE_6"
-	fileName "Nouvelle Rouvenor Hero.ogg"
+	fileName "Battle Rock 5.ogg"
 	isLooping FALSE
 	actionLevel 0.75
 	actionRange 0.35

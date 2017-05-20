@@ -1,6 +1,6 @@
 ﻿TXT
 onlyLoadOnDemand FALSE
-brushCount 689
+brushCount 690
 brush
 	name "HUDICON_RESEARCHSUBJECT_POPULATIONCAP_IRON_0"
 	content "States"
@@ -12091,4 +12091,21 @@ brush
 	Normal
 		fileName "Buttons_Abilities_Normal"
 		pixelBox [ 975 , 955 , 32 , 32 ]
-				
+brush
+	name "HUDICON_RSALOGI"
+	content "States"
+	Disabled
+		fileName "Buttons_Abilities_Disabled"
+		pixelBox [ 872 , 919 , 32 , 32 ]
+	Pressed
+		fileName "Buttons_Abilities_Pressed"
+		pixelBox [ 923 , 920 , 32 , 32 ]
+	CursorOver
+		fileName "Buttons_Abilities_CursorOver"
+		pixelBox [ 923 , 920 , 32 , 32 ]
+	Focused
+		fileName "Buttons_Abilities_Normal"
+		pixelBox [ 923 , 920 , 32 , 32 ]
+	Normal
+		fileName "Buttons_Abilities_Normal"
+		pixelBox [ 923 , 920 , 32 , 32 ]				

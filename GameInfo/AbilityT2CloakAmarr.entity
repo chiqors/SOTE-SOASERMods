@@ -2,7 +2,7 @@
 entityType "Ability"
 buffInstantActionType "ApplyOrRemoveBuffToSelf"
 instantActionTriggerType "AlwaysPerform"
-buffType "BuffT2CovertOps"
+buffType "BuffT2Cloak"
 effectInfo
 	effectAttachInfo
 		attachType "Center"
