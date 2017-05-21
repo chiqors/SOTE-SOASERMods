@@ -20,14 +20,28 @@ instantAction
 		largeEffectName "Buff_RepairPlatformPhaseLarge"
 		soundID "EFFECT_REPAIR_PSI"
 numPeriodicActions 0
-numOverTimeActions 1
+numOverTimeActions 3
+overTimeAction
+	buffOverTimeActionType "RestoreAntiMatter"
+	antiMatterRestoreRate
+		Level:0 100.000000
+		Level:1 100.000000
+		Level:2 100.000000
+		Level:3 100.000000
 overTimeAction
 	buffOverTimeActionType "RestoreHull"
 	hullRestoreRate
-		Level:0 15.000000
-		Level:1 15.000000
-		Level:2 15.000000
-		Level:3 15.000000
+		Level:0 100.000000
+		Level:1 100.000000
+		Level:2 100.000000
+		Level:3 100.000000
+overTimeAction
+	buffOverTimeActionType "RestoreShields"
+	shieldRestoreRate
+		Level:0 100.000000
+		Level:1 100.000000
+		Level:2 100.000000
+		Level:3 100.000000
 numEntityModifiers 0
 numEntityBoolModifiers 0
 numFinishConditions 2

@@ -21,7 +21,7 @@ entities
 			entityDefName "Gallente_Structure_CivillianLab"
 			entityDefName "Caldari_Structure_Refinery"
 		Page:1
-			count 7
+			count 8
 			entityDefName "Gallente_Structure_SmallBlasterBattery"
 			entityDefName "Gallente_Structure_MediumBlasterBattery"
 			entityDefName "Gallente_Structure_LargeBlasterBattery"
@@ -29,6 +29,7 @@ entities
 			entityDefName "Gallente_Structure_JumpBridge"
 			entityDefName "Gallente_Structure_CynoJammer"
 			entityDefName "Caldari_Structure_TitanFoundry"
+			entityDefName "SOE_ModuleShipyard"
 	titanInfo
 		Page:0
 			count 1
@@ -73,7 +74,7 @@ entities
 			entityDefName "FrigatePhaseTradeShip"
 			entityDefName "Amarr_Ship_Refineryship_Bestower"
 	researchInfo
-		count 135
+		count 137
 		entityDefName "RSACovertOps"
 		entityDefName "RSAHeavyAssault"
 		entityDefName "RSABlackOps"
@@ -147,6 +148,7 @@ entities
 		entityDefName "RESEARCHSUBJECT_SHIELDSRESIST1"
 		entityDefName "RESEARCHSUBJECT_SHIELDSRESIST2"
 		entityDefName "RESEARCHSUBJECT_SHIELDSRESIST3"
+		entityDefName "RESEARCHSUBJECT_SHIELDSRESIST4"		
 		entityDefName "RESEARCHSUBJECT_CAPITALSHIP_MAXBUYLEVELTECH0"
 		entityDefName "RESEARCHSUBJECT_CULTURERATETECH0"
 		entityDefName "RESEARCHSUBJECT_CULTURERATETECH1"
@@ -209,6 +211,7 @@ entities
 		entityDefName "AllRaces_ResearchSubject_PlanetModuleAccess_Fortizar"
 		entityDefName "AllRaces_ResearchSubject_PlanetModuleAccess_Keepstar"
 		entityDefName "RESEARCHSUBJECT_STARBASEUPGRADEACCESS_TRADEPORTTECH"		
+		entityDefName "RESEARCHSUBJECT_PLANETMODULEACCESS_REPAIRPLATFORMPSI"
 	starBaseInfo
 		count 3
 		entityDefName "Allraces_Structure_Citadel_Astrahus"

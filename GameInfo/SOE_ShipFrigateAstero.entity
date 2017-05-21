@@ -18,7 +18,7 @@ basePrice
 	credits 18.000000
 	metal 15.000000
 	crystal 13.000000
-slotCount 2.000000
+slotCount 1.000000
 BuildTime 5.000000
 hasLevels FALSE
 ExperiencePointsForDestroying 22.000000
@@ -88,8 +88,8 @@ TargetCountPerBank:RIGHT 0
 canOnlyTargetStructures FALSE
 hasWeaponLevels FALSE
 mass 2000.000000
-ShieldMeshName "incursus"
-renderShield FALSE
+ShieldMeshName "astero"
+renderShield TRUE
 maxAccelerationLinear 100.000000
 maxAccelerationStrafe 10.000000
 maxDecelerationLinear 500.000000
@@ -125,7 +125,7 @@ NumSoundsFor:ONSTARTPHASEJUMP 1
 SoundID "FRIGATE_TECHLIGHT_ONSTARTPHASEJUMP_0"
 MeshNameInfoCount 1
 MeshNameInfo
-	meshName "incursus"
+	meshName "astero"
 	criteriaType "None"
 meshNameIncreasedEffectName ""
 meshNameDecreasedEffectName ""

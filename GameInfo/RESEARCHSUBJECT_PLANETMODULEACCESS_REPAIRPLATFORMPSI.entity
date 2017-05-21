@@ -6,9 +6,9 @@ infoCardIcon ""
 NameStringID "IDS_RESEARCHSUBJECT_PLANETMODULEACCESS_REPAIRPLATFORMPSI_NAME"
 DescriptionStringID "IDS_RESEARCHSUBJECT_PLANETMODULEACCESS_REPAIRPLATFORMPSI_DESCRIPTION"
 researchWindowLocation
-	block 1
+	block 0
 	pos [ 1 , 0 ]
-ResearchField "Combat"
+ResearchField "Defense"
 Prerequisites
 	NumResearchPrerequisites 0
 	RequiredFactionNameID ""

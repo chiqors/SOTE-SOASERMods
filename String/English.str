@@ -1,5 +1,5 @@
 TXT
-NumStrings 8261
+NumStrings 8267
 StringInfo
     ID "IDS_ABILITY_RORQUALPANIC_NAME"
 	Value "P.A.N.I.C Module"
@@ -24783,4 +24783,21 @@ StringInfo
 StringInfo
 	ID "IDS_ABILITY_STEALTHBOMB_DESCRIPTION"
 	Value "A missile launcher bay module facilitating bomb preparation, and deployment.Bomb Launchers can only be equipped by Stealth Bombers."
-	
+StringInfo
+	ID "IDS_SUMMON_GAMUR_NAME"
+	Value "Gamur Frigate"
+StringInfo
+	ID "IDS_SUMMON_GAMUR_DESCRIPTION"
+	Value "Connections with the Mordu Legion and the Empire of new Eden allow you to buy Gamur."
+StringInfo
+	ID "IDS_SUMMON_ORTHURS_NAME"
+	Value "Orthurs Cruiser"
+StringInfo
+	ID "IDS_SUMMON_ORTHURS_DESCRIPTION"
+	Value "Connections with the Mordu Legion and the Empire of new Eden allow you to buy Orthurs."
+StringInfo
+	ID "IDS_SUMMON_BARGHEST_NAME"
+	Value "Barghest Battleship"
+StringInfo
+	ID "IDS_SUMMON_BARGHEST_DESCRIPTION"
+	Value "Connections with the Mordu Legion and the Empire of new Eden allow you to buy Barghest."
