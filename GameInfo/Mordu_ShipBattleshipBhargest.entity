@@ -29,10 +29,7 @@ ShieldPointRestoreRate 1.000000
 BaseArmorPoints 15.000000
 maxMitigation 0.150000
 Prerequisites
-	NumResearchPrerequisites 1
-	ResearchPrerequisite
-		Subject "Caldari_ResearchSubject_SubCapitalAccess_Raven"
-		Level 1
+	NumResearchPrerequisites 0
 	RequiredFactionNameID ""
 	RequiredCompletedResearchSubjects 0
 numRandomDebrisLarge 0
@@ -96,8 +93,8 @@ TargetCountPerBank:RIGHT 1
 canOnlyTargetStructures FALSE
 hasWeaponLevels FALSE
 mass 10000.000000
-ShieldMeshName "Megathron"
-renderShield FALSE
+ShieldMeshName "barghest"
+renderShield TRUE
 maxAccelerationLinear 74.000000
 maxAccelerationStrafe 10.000000
 maxDecelerationLinear 500.000000
@@ -132,20 +129,10 @@ SoundID "CAPITALSHIP_TECHSIEGE_ONSELECTED_1"
 SoundID "CAPITALSHIP_TECHSIEGE_ONSELECTED_2"
 NumSoundsFor:ONSTARTPHASEJUMP 1
 SoundID "CAPITALSHIP_TECHSIEGE_ONSTARTPHASEJUMP_0"
-MeshNameInfoCount 2
+MeshNameInfoCount 1
 MeshNameInfo
-	meshName "raven"
+	meshName "barghest"
 	criteriaType "None"
-MeshNameInfo
-	meshName "golem"
-	criteriaType "Research"
-	prerequisites
-		NumResearchPrerequisites 1
-		ResearchPrerequisite
-			Subject "RSAMarauder"
-			Level 1
-		RequiredFactionNameID ""
-		RequiredCompletedResearchSubjects 1
 meshNameIncreasedEffectName ""
 meshNameDecreasedEffectName ""
 ExhaustParticleSystemName "Exhaust_EveBattleship"
@@ -156,8 +143,8 @@ EngineSoundID "ENGINE_TECHCAPITALSHIP"
 ability:0 "AbilityMicroJumpDrive"
 ability:1 ""
 ability:2 "AbilityShieldBooster"
-ability:3 "AbilityBastionMode"
-ability:4 "AbilityT2BattleshipGolem"
+ability:3 ""
+ability:4 ""
 MaxAntiMatter 6880.000000
 AntiMatterRestoreRate 19.000000
 cargoType "Invalid"
