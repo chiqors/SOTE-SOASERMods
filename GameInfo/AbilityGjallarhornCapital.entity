@@ -60,8 +60,8 @@ researchPrerequisites
 	NumResearchPrerequisites 0
 	RequiredFactionNameID ""
 	RequiredCompletedResearchSubjects 0
-nameStringID "IDS_ABILITY_MICROPHASEJUMP_NAME"
-descStringID "IDS_ABILITY_MICROPHASEJUMP_DESCRIPTION"
+nameStringID "IDS_ABILITY_Gjallarhorn_NAME"
+descStringID "IDS_ABILITY_Gjallarhorn_DESCRIPTION"
 hudIcon "HUDICON_ABILITY_DISRUPTIONMATRIX"
 smallHudIcon "HUDICON_ABILITY_DISRUPTIONMATRIX"
 infoCardIcon ""

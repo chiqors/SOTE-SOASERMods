@@ -13,7 +13,7 @@ instantAction
 	instantActionTriggerType "OnDelay"
 	delayTime 0.000000
 	buffType "BuffOblivionSelf"
-	travelSpeed 6000.000000
+	travelSpeed 2000.000000
 	hasWeaponEffects TRUE
 	weaponEffectOriginType "Targetter"
 	weaponEffectAttachInfo
@@ -24,15 +24,15 @@ instantAction
 	canWeaponEffectHitShields TRUE
 	weaponEffectsDef
 		weaponType "Missile"
-		burstCount 20
-		burstDelay 0.050000
+		burstCount 6
+		burstDelay 0.700000
 		fireDelay 0.050000
 		muzzleEffectName "Weapon_TechCapitalMissileHeavy_Muzzle"
 		muzzleSoundMinRespawnTime 0.500000
 		muzzleSounds
 			soundCount 1
 			sound "EFFECT_NEUTRONTORPEDO_MUZZLE"
-		hitEffectName "Oblivion_Hit"
+		hitEffectName "Oblivion_Hit2"
 		hitHullEffectSounds
 			soundCount 4
 			sound "MISSILEEXPLOSION_EVEONLINE1"
@@ -54,7 +54,7 @@ instantAction
 	instantActionTriggerType "OnDelay"
 	delayTime 0.000000
 	buffType "BuffOblivionSelf"
-	travelSpeed 6000.000000
+	travelSpeed 2000.000000
 	hasWeaponEffects TRUE
 	weaponEffectOriginType "Targetter"
 	weaponEffectAttachInfo
@@ -66,14 +66,14 @@ instantAction
 	weaponEffectsDef
 		weaponType "Missile"
 		burstCount 30
-		burstDelay 0.050000
+		burstDelay 0.700000
 		fireDelay 0.050000
 		muzzleEffectName "Weapon_TechCapitalMissileHeavy_Muzzle"
 		muzzleSoundMinRespawnTime 0.500000
 		muzzleSounds
 			soundCount 1
 			sound "EFFECT_NEUTRONTORPEDO_MUZZLE"
-		hitEffectName "Oblivion_Hit"
+		hitEffectName "Oblivion_Hit2"
 		hitHullEffectSounds
 			soundCount 4
 			sound "MISSILEEXPLOSION_EVEONLINE1"
@@ -95,7 +95,7 @@ instantAction
 	instantActionTriggerType "OnDelay"
 	delayTime 0.000000
 	buffType "BuffOblivionSelf"
-	travelSpeed 6000.000000
+	travelSpeed 2000.000000
 	hasWeaponEffects TRUE
 	weaponEffectOriginType "Targetter"
 	weaponEffectAttachInfo
@@ -106,15 +106,15 @@ instantAction
 	canWeaponEffectHitShields TRUE
 	weaponEffectsDef
 		weaponType "Missile"
-		burstCount 20
-		burstDelay 0.050000
+		burstCount 6
+		burstDelay 0.700000
 		fireDelay 0.050000
 		muzzleEffectName "Weapon_TechCapitalMissileHeavy_Muzzle"
 		muzzleSoundMinRespawnTime 0.500000
 		muzzleSounds
 			soundCount 1
 			sound "EFFECT_NEUTRONTORPEDO_MUZZLE"
-		hitEffectName "Oblivion_Hit"
+		hitEffectName "Oblivion_Hit2"
 		hitHullEffectSounds
 			soundCount 4
 			sound "MISSILEEXPLOSION_EVEONLINE1"
@@ -136,7 +136,7 @@ instantAction
 	instantActionTriggerType "OnDelay"
 	delayTime 0.000000
 	buffType "BuffOblivionSelf"
-	travelSpeed 6000.000000
+	travelSpeed 2000.000000
 	hasWeaponEffects TRUE
 	weaponEffectOriginType "Targetter"
 	weaponEffectAttachInfo
@@ -147,15 +147,15 @@ instantAction
 	canWeaponEffectHitShields TRUE
 	weaponEffectsDef
 		weaponType "Missile"
-		burstCount 20
-		burstDelay 0.050000
+		burstCount 6
+		burstDelay 0.700000
 		fireDelay 0.050000
 		muzzleEffectName "Weapon_TechCapitalMissileHeavy_Muzzle"
 		muzzleSoundMinRespawnTime 0.500000
 		muzzleSounds
 			soundCount 1
 			sound "EFFECT_NEUTRONTORPEDO_MUZZLE"
-		hitEffectName "Oblivion_Hit"
+		hitEffectName "Oblivion_Hit2"
 		hitHullEffectSounds
 			soundCount 4
 			sound "MISSILEEXPLOSION_EVEONLINE1"

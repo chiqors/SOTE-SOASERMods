@@ -1,6 +1,6 @@
 ﻿TXT
 entityType "Titan"
-ability:0 "AbilityJudgment"
+ability:0 "AbilityGjallarhorn"
 ability:1 "AbilityAmarrTitanBonus"
 ability:2 "AbilityTitanEMPSmartbomb"
 ability:3 "AbilityAmarrTitanJumpBridge"

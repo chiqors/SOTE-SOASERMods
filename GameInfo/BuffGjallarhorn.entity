@@ -24,7 +24,7 @@ instantAction
 	canWeaponEffectHitShields TRUE
 	weaponEffectsDef
 		weaponType "Projectile"
-		burstCount 10
+		burstCount 1
 		burstDelay 0.300000
 		fireDelay 0.300000
 		muzzleEffectName "Weapon_TechCapitalMissileHeavy_Muzzle"
@@ -32,7 +32,7 @@ instantAction
 		muzzleSounds
 			soundCount 1
 			sound "EFFECT_NEUTRONTORPEDO_MUZZLE"
-		hitEffectName "Buff_GjallahornHit"
+		hitEffectName "Ability_MeteorStrikePlanetImpact"
 		hitHullEffectSounds
 			soundCount 4
 			sound "MISSILEEXPLOSION_EVEONLINE1"
@@ -49,7 +49,7 @@ instantAction
 instantAction
 	buffInstantActionType "ApplyBuffToTargetWithTravelNoFilterNoRange"
 	instantActionTriggerType "OnDelay"
-	delayTime 0.000000
+	delayTime 4.000000
 	buffType "BuffOblivionSelf"
 	travelSpeed 7000.000000
 	hasWeaponEffects TRUE
@@ -62,7 +62,7 @@ instantAction
 	canWeaponEffectHitShields TRUE
 	weaponEffectsDef
 		weaponType "Projectile"
-		burstCount 10
+		burstCount 1
 		burstDelay 0.300000
 		fireDelay 0.300000
 		muzzleEffectName "Weapon_TechCapitalMissileHeavy_Muzzle"
@@ -70,7 +70,7 @@ instantAction
 		muzzleSounds
 			soundCount 1
 			sound "EFFECT_NEUTRONTORPEDO_MUZZLE"
-		hitEffectName "Buff_GjallahornHit"
+		hitEffectName "Ability_MeteorStrikePlanetImpact"
 		hitHullEffectSounds
 			soundCount 4
 			sound "MISSILEEXPLOSION_EVEONLINE1"
@@ -87,7 +87,7 @@ instantAction
 instantAction
 	buffInstantActionType "ApplyBuffToTargetWithTravelNoFilterNoRange"
 	instantActionTriggerType "OnDelay"
-	delayTime 0.000000
+	delayTime 6.000000
 	buffType "BuffOblivionSelf"
 	travelSpeed 7000.000000
 	hasWeaponEffects TRUE
@@ -100,7 +100,7 @@ instantAction
 	canWeaponEffectHitShields TRUE
 	weaponEffectsDef
 		weaponType "Projectile"
-		burstCount 10
+		burstCount 1
 		burstDelay 0.300000
 		fireDelay 0.300000
 		muzzleEffectName "Weapon_TechCapitalMissileHeavy_Muzzle"
@@ -108,7 +108,7 @@ instantAction
 		muzzleSounds
 			soundCount 1
 			sound "EFFECT_NEUTRONTORPEDO_MUZZLE"
-		hitEffectName "Buff_GjallahornHit"
+		hitEffectName "Ability_MeteorStrikePlanetImpact"
 		hitHullEffectSounds
 			soundCount 4
 			sound "MISSILEEXPLOSION_EVEONLINE1"
@@ -125,7 +125,7 @@ instantAction
 instantAction
 	buffInstantActionType "ApplyBuffToTargetWithTravelNoFilterNoRange"
 	instantActionTriggerType "OnDelay"
-	delayTime 0.000000
+	delayTime 8.000000
 	buffType "BuffOblivionSelf"
 	travelSpeed 7000.000000
 	hasWeaponEffects TRUE
@@ -138,7 +138,7 @@ instantAction
 	canWeaponEffectHitShields TRUE
 	weaponEffectsDef
 		weaponType "Projectile"
-		burstCount 10
+		burstCount 1
 		burstDelay 0.300000
 		fireDelay 0.300000
 		muzzleEffectName "Weapon_TechCapitalMissileHeavy_Muzzle"
@@ -146,7 +146,7 @@ instantAction
 		muzzleSounds
 			soundCount 1
 			sound "EFFECT_NEUTRONTORPEDO_MUZZLE"
-		hitEffectName "Buff_GjallahornHit"
+		hitEffectName "Ability_MeteorStrikePlanetImpact"
 		hitHullEffectSounds
 			soundCount 4
 			sound "MISSILEEXPLOSION_EVEONLINE1"
