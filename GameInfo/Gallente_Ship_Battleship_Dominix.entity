@@ -140,8 +140,8 @@ HyperspaceTravelSoundID "HYPERSPACE_TRAVEL"
 EngineSoundID "ENGINE_TECHCAPITALSHIP"
 ability:0 "AbilityMicrowarpdrive"
 ability:1 "AbilityDroneBonus"
-ability:2 "AbilityT2CloakGallente"
-ability:3 "AbilityT2BlackOpsCloakGallente"
+ability:2 "AbilityT2Cloak"
+ability:3 "AbilityT2BlackOpsGallente"
 ability:4 "AbilityCovertOpsJumpBridge"
 MaxAntiMatter 7250.000000
 AntiMatterRestoreRate 10.650000

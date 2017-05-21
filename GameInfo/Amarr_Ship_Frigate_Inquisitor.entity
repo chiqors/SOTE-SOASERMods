@@ -94,7 +94,7 @@ Weapon
 	PreBuffCooldownTime 1.720000
 	CanFireAtFighter FALSE
 	SynchronizedTargeting TRUE
-	PointStaggerDelay 0.700000
+	PointStaggerDelay 0.0500000
 	TravelSpeed 1400.000000
 	Duration 0.000000
 	fireConstraintType "CanAlwaysFire"
@@ -177,8 +177,8 @@ HyperspaceChargingSoundID "HYPERSPACE_CHARGEUP"
 HyperspaceTravelSoundID "HYPERSPACE_TRAVEL"
 EngineSoundID "ENGINE_TECHCAPITALSHIP"
 ability:0 "AbilityMicrowarpdrive"
-ability:1 ""
-ability:2 ""
+ability:1 "AbilityT2CloakCovertOps"
+ability:2 "AbilityStealthBomb"
 ability:3 ""
 ability:4 ""
 MaxAntiMatter 210.000000

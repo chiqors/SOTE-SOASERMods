@@ -74,7 +74,8 @@ entities
 			entityDefName "Gallente_Ship_Tradeship"
 			entityDefName "Amarr_Ship_Refineryship_Bestower"
 	researchInfo
-		count 126
+		count 127
+		entityDefName "RSACovertOps"
 		entityDefName "ALLRACES_RESEARCHSUBJECT_ABILITYACCESS_AFTERBURNER"
 		entityDefName "ALLRACES_RESEARCHSUBJECT_ABILITYACCESS_BASTIONMODE"
 		entityDefName "ALLRACES_RESEARCHSUBJECT_ABILITYACCESS_CLOAK"

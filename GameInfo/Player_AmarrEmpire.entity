@@ -72,7 +72,8 @@ entities
 			entityDefName "Amarr_Ship_Tradeship_Bestower"
 			entityDefName "Amarr_Ship_Refineryship_Bestower"
 	researchInfo
-		count 128
+		count 129
+		entityDefName "RSACovertOps"		
 		entityDefName "RSALogistic"
 		entityDefName "RSAHeavyAssault"
 		entityDefName "RSABlackOps"
