@@ -1,5 +1,5 @@
 TXT
-NumStrings 8257
+NumStrings 8261
 StringInfo
     ID "IDS_ABILITY_RORQUALPANIC_NAME"
 	Value "P.A.N.I.C Module"
@@ -24771,3 +24771,16 @@ StringInfo
 StringInfo
 	ID "IDS_SOENESTOR_DESCRIPTION"
 	Value "This was one of the first vessels the Sisters of EVE made available to capsuleers. It had been under development by the Sanctuary corporation, whose interest in exploration includes not only search & rescue operations but also a constant inquiry into the nature of the EVE Gate. "
+StringInfo
+	ID "IDS_ABILITY_Gjallarhorn_NAME"
+	Value "Aurora Ominae"
+StringInfo
+	ID "IDS_ABILITY_Gjallarhorn_DESCRIPTION"
+	Value "Righteous fury given form, this weapon system rains a firestorm of unmatched raw destruction upon its target."
+StringInfo
+	ID "IDS_ABILITY_STEALTHBOMB_NAME"
+	Value "Bomb Launcher"
+StringInfo
+	ID "IDS_ABILITY_STEALTHBOMB_DESCRIPTION"
+	Value "A missile launcher bay module facilitating bomb preparation, and deployment.Bomb Launchers can only be equipped by Stealth Bombers."
+	

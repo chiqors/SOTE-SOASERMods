@@ -145,7 +145,7 @@ HyperspaceTravelSoundID "HYPERSPACE_TRAVEL"
 EngineSoundID "ENGINE_TECHCAPITALSHIP"
 ability:0 "AbilityRemoteArmorRepairerLogiCruiser"
 ability:1 "AbilityDroneBonus"
-ability:2 "AbilityT2CloakAmarr"
+ability:2 "AbilityT2Cloak"
 ability:3 ""
 ability:4 ""
 MaxAntiMatter 7750.000000
