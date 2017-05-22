@@ -18,7 +18,7 @@ basePrice
 	credits 292.000000
 	metal 40.000000
 	crystal 57.000000
-slotCount 5.000000
+slotCount 1.000000
 BuildTime 19.000000
 hasLevels FALSE
 ExperiencePointsForDestroying 55.000000
@@ -96,8 +96,8 @@ TargetCountPerBank:RIGHT 0
 canOnlyTargetStructures FALSE
 hasWeaponLevels FALSE
 mass 4000.000000
-ShieldMeshName "vexor"
-renderShield FALSE
+ShieldMeshName "orthurs"
+renderShield TRUE
 maxAccelerationLinear 90.000000
 maxAccelerationStrafe 10.000000
 maxDecelerationLinear 500.000000
@@ -134,7 +134,7 @@ NumSoundsFor:ONSTARTPHASEJUMP 1
 SoundID "FRIGATE_TECHLONGRANGE_ONSTARTPHASEJUMP_0"
 MeshNameInfoCount 2
 MeshNameInfo
-	meshName "caracal"
+	meshName "orthurs"
 	criteriaType "None"
 MeshNameInfo
 	meshName "cerberus"
@@ -154,8 +154,8 @@ HyperspaceChargingSoundID "HYPERSPACE_CHARGEUP"
 HyperspaceTravelSoundID "HYPERSPACE_TRAVEL"
 EngineSoundID "ENGINE_PHASECAPITALSHIP"
 ability:0 "AbilityMicrowarpdrive"
-ability:1 "AbilityStasisWebifier"
-ability:2 "AbilityTargetPainter"
+ability:1 "AbilityWarpDisruptor"
+ability:2 ""
 ability:3 ""
 ability:4 "AbilityT2CruiserCerberus"
 MaxAntiMatter 250.000000

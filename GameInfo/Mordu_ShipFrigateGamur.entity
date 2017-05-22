@@ -52,7 +52,7 @@ basePrice
 	credits 131.000000
 	metal 12.000000
 	crystal 17.000000
-slotCount 2.000000
+slotCount 1.000000
 BuildTime 6.000000
 hasLevels FALSE
 ExperiencePointsForDestroying 30.000000
@@ -177,7 +177,7 @@ HyperspaceChargingSoundID "HYPERSPACE_CHARGEUP"
 HyperspaceTravelSoundID "HYPERSPACE_TRAVEL"
 EngineSoundID "ENGINE_PHASECAPITALSHIP"
 ability:0 "AbilityMicrowarpdrive"
-ability:1 ""
+ability:1 "AbilityWarpDisruptor"
 ability:2 ""
 ability:3 ""
 ability:4 ""

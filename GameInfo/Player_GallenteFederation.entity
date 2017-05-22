@@ -501,10 +501,8 @@ planetElevatorData
 	elevatorMeshName:GoodsFactory "PlanetElevator-Phase-GoodsFactory"
 	elevatorMeshName:ProductionCenter "PlanetElevator-Phase-ProductionCenter"
 musicThemeData
-	startupMusicThemeCount 3
-	musicTheme "MUSIC_VASARI_MISC_1"
-	musicTheme "MUSIC_VASARI_MISC_2"
-	musicTheme "MUSIC_VASARI_MISC_3"
+	startupMusicThemeCount 1
+	musicTheme "MUSIC_GALLENTE_THEME"
 	neutralMusicThemeCount 12
 	musicTheme "MUSIC_VASARI_THEME_1"
 	musicTheme "MUSIC_TEC_QUIET_1"

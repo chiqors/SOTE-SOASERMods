@@ -1,8 +1,8 @@
 TXT
-numMusic 101
+numMusic 102
 music
 	name "MUSIC_FRONTEND"
-	fileName "DetachedFromTime.ogg"
+	fileName "01 EVE Online Theme.ogg"
 	isLooping FALSE
 	actionLevel 0.5
 	actionRange 0.5
@@ -808,4 +808,11 @@ music
 	actionRange 0.4
 	emotionLevel 0.2
 	emotionRange 0.8
-		
+music
+	name "MUSIC_MINMATAR_THEME"
+	fileName "Minmatar Theme.ogg"
+	isLooping FALSE
+	actionLevel 0.4
+	actionRange 0.4
+	emotionLevel 0.2
+	emotionRange 0.8	

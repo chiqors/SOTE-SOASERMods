@@ -73,7 +73,7 @@ entities
 			entityDefName "Minmatar_Ship_Tradeship_Manmonth"
 			entityDefName "Minmatar_Ship_Refineryship_Mamonth"
 	researchInfo
-		count 130
+		count 134
 		entityDefName "RSACovertOps"
 		entityDefName "RSAHeavyAssault"
 		entityDefName "RSABlackOps"
@@ -141,9 +141,12 @@ entities
 		entityDefName "RESEARCHSUBJECT_AIBOOST_STAGE3"
 		entityDefName "RESEARCHSUBJECT_ANTIMATTERTECH0"
 		entityDefName "RESEARCHSUBJECT_ANTIMATTERTECH1"
+		entityDefName "RESEARCHSUBJECT_ANTIMATTERTECH2"
 		entityDefName "RESEARCHSUBJECT_SHIELDSRESIST0"
 		entityDefName "RESEARCHSUBJECT_SHIELDSRESIST1"
 		entityDefName "RESEARCHSUBJECT_SHIELDSRESIST2"
+		entityDefName "RESEARCHSUBJECT_SHIELDSRESIST3"
+		entityDefName "RESEARCHSUBJECT_SHIELDSRESIST4"		
 		entityDefName "RESEARCHSUBJECT_BACKROOM_DEALS"
 		entityDefName "RESEARCHSUBJECT_BOUNTY_HUNTING"
 		entityDefName "RESEARCHSUBJECT_CAPITALSHIP_MAXBUYLEVELTECH0"
@@ -152,8 +155,9 @@ entities
 		entityDefName "RESEARCHSUBJECT_CULTURAL_RELATIONS"
 		entityDefName "RESEARCHSUBJECT_CULTURERATETECH0"
 		entityDefName "RESEARCHSUBJECT_CULTURERATETECH1"
-		entityDefName "RESEARCHSUBJECT_HULLTECH0"
-		entityDefName "RESEARCHSUBJECT_HULLTECH1"
+		entityDefName "RESEARCHSUBJECT_SHIELDSMAX0"
+		entityDefName "RESEARCHSUBJECT_SHIELDSMAX1"
+		entityDefName "RESEARCHSUBJECT_SHIELDSMAX2"
 		entityDefName "RESEARCHSUBJECT_HYPERSPACE_GALAXYTRAVELTECH"
 		entityDefName "RESEARCHSUBJECT_HYPERSPACE_WORMHOLETRAVELTECH"
 		entityDefName "RESEARCHSUBJECT_IMPROVED_CULTURAL_RELATIONS"
@@ -500,10 +504,8 @@ planetElevatorData
 	elevatorMeshName:GoodsFactory "PlanetElevator-Tech-GoodsFactory"
 	elevatorMeshName:ProductionCenter "PlanetElevator-Tech-ProductionCenter"
 musicThemeData
-	startupMusicThemeCount 3
-	musicTheme "MUSIC_TEC_REBEL_1"
-	musicTheme "MUSIC_TEC_REBEL_2"
-	musicTheme "MUSIC_TEC_REBEL_3"
+	startupMusicThemeCount 1
+	musicTheme "MUSIC_MINMATAR_THEME"
 	neutralMusicThemeCount 12
 	musicTheme "MUSIC_TEC_THEME_1"
 	musicTheme "MUSIC_TEC_QUIET_1"

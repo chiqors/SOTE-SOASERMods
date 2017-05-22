@@ -2,7 +2,7 @@
 entityType "Ability"
 buffInstantActionType "ApplyBuffToTarget"
 instantActionTriggerType "AlwaysPerform"
-buffType "BuffRepairPlatformTech"
+buffType "BuffRepairPlatformPhase"
 targetFilter
 	numOwnerships 1
 	ownership "Friendly"
@@ -44,8 +44,8 @@ onlyAutoCastWhenTargetShieldDamageExceedsAmount
 	Level:1 50.000000
 	Level:2 50.000000
 	Level:3 50.000000
-isAutoCastAvailable TRUE
-isAutoCastOnByDefault TRUE
+isAutoCastAvailable FALSE
+isAutoCastOnByDefault FALSE
 pickRandomPlanetToExploreForAutoCastTarget FALSE
 ignoreNonCombatShipsForAutoCastTarget TRUE
 onlyAutoCastWhenDamageTakenExceedsPerc 0.000000
