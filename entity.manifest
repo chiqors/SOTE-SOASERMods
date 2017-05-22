@@ -1,5 +1,5 @@
 TXT
-entityNameCount 2231
+entityNameCount 2232
 entityName "ALLRACES_RESEARCHSUBJECT_ABILITYACCESS_AFTERBURNER.entity"
 entityName "ALLRACES_RESEARCHSUBJECT_ABILITYACCESS_BASTIONMODE.entity"
 entityName "ALLRACES_RESEARCHSUBJECT_ABILITYACCESS_CLOAK.entity"
@@ -2230,3 +2230,5 @@ entityName "SOE_ShipBattleshipNestor.entity"
 entityName "SOE_ShipCruiserStratios.entity"
 entityName "SOE_ShipFrigateAstero.entity"
 entityName "FrigatePhaseTradeShip.entity"
+entityName "PLANETMODULE_TECHORBITALSHIELDGENERATOR.entity"
+entityName "PLANETMODULE_TECHORBITALCANNON.entity"
