@@ -78,8 +78,8 @@ AntiMatterRestoreRate
 CultureProtectRate
 	StartValue 2.800000
 	ValueIncreasePerLevel 0.050000
-NameStringID "IDS_TITAN_TECHLOYALIST_NAME"
-DescriptionStringID "IDS_TITAN_TECHLOYALIST_DESCRIPTION"
+NameStringID "IDS_COMMAND_TITAN_MINMATAR_NAME"
+DescriptionStringID "IDS_COMMAND_TITAN__DESCRIPTION"
 picture "PICTURE_CAPITAL_RAGNAROK"
 Prerequisites
 	NumResearchPrerequisites 1

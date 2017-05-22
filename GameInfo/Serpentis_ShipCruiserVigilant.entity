@@ -1,64 +1,67 @@
 ﻿TXT
 entityType "Frigate"
 defaultAutoAttackRange "GravityWell"
-defaultAutoAttackOn FALSE
+defaultAutoAttackOn TRUE
 prefersToFocusFire FALSE
 usesFighterAttack FALSE
-autoJoinFleetDefault FALSE
+autoJoinFleetDefault TRUE
 canBomb FALSE
 typeCount 1
-frigateRoleType "Scout"
-statCountType "FrigateScout"
-mainViewIcon "MAINVIEWICON_FRIGATE_PHASESCOUT"
-picture "PICTURE_FRIGATE_IMICUS"
-NameStringID "IDS_FRIGATE_PHASESCOUT_NAME"
-DescriptionStringID "IDS_FRIGATE_PHASESCOUT_DESCRIPTION"
+frigateRoleType "Heavy"
+statCountType "FrigateAntiModule"
+mainViewIcon "MAINVIEWICON_FRIGATE_PHASEMINELAYER"
+picture "PICTURE_FRIGATE_PHOBOS"
+NameStringID "IDS_FRIGATE_PHASEMINELAYER_NAME"
+DescriptionStringID "IDS_FRIGATE_PHASEMINELAYER_DESCRIPTION"
 counterDescriptionStringID "IDS_COUNTERDESC_FRIGATE_NONCOMBAT"
 basePrice
-	credits 50.000000
-	metal 11.000000
-	crystal 9.000000
-slotCount 1.000000
-BuildTime 4.000000
+	credits 446.000000
+	metal 92.000000
+	crystal 54.000000
+slotCount 5.000000
+BuildTime 29.000000
 hasLevels FALSE
-ExperiencePointsForDestroying 15.000000
-MaxHullPoints 325.000000
-MaxShieldPoints 300.000000
+ExperiencePointsForDestroying 86.000000
+MaxHullPoints 2750.000000
+MaxShieldPoints 1630.000000
 HullPointRestoreRate 1.000000
-ShieldPointRestoreRate 0.5000000
-BaseArmorPoints 0.000000
+ShieldPointRestoreRate 1.000000
+BaseArmorPoints 10.000000
 maxMitigation 0.000000
 Prerequisites
-	NumResearchPrerequisites 0
+	NumResearchPrerequisites 1
+	ResearchPrerequisite
+		Subject "Gallente_ResearchSubject_SubCapitalAccess_Phobos"
+		Level 1
 	RequiredFactionNameID ""
 	RequiredCompletedResearchSubjects 0
 numRandomDebrisLarge 0
 numRandomDebrisSmall 0
 numSpecificDebris 0
-armorType "Light"
-hudIcon "HUDICON_FRIGATE_PHASESCOUT"
-smallHudIcon "HUDICONSMALL_FRIGATE_PHASESCOUT"
-infoCardIcon "INFOCARDICON_FRIGATE_PHASESCOUT"
+armorType "Medium"
+hudIcon "HUDICON_FRIGATE_PHASEMINELAYER"
+smallHudIcon "HUDICONSMALL_FRIGATE_PHASEMINELAYER"
+infoCardIcon "INFOCARDICON_FRIGATE_PHASEMINELAYER"
 minZoomDistanceMult 1.000000
 NumWeapons 1
 Weapon
 	WeaponType "Projectile"
 	damageEnums
-		AttackType "ANTILIGHT"
+		AttackType "ANTIVERYHEAVY"
 		DamageAffectType "AFFECTS_SHIELDS_AND_HULL"
 		DamageApplyType "BACKLOADED"
 		DamageType "ENERGY"
 		WeaponClassType "PULSEGUN"
-	DamagePerBank:FRONT 26.000000
+	DamagePerBank:FRONT 257.000000
 	DamagePerBank:BACK 0.000000
 	DamagePerBank:LEFT 0.000000
 	DamagePerBank:RIGHT 0.000000
-	Range 4000.000000
-	PreBuffCooldownTime 2.0400000
+	Range 6000.000000
+	PreBuffCooldownTime 2.300000
 	CanFireAtFighter FALSE
 	SynchronizedTargeting TRUE
 	PointStaggerDelay 0.050000
-	TravelSpeed 10000.000000
+	TravelSpeed 15000.000000
 	Duration 0.000000
 	fireConstraintType "CanAlwaysFire"
 	WeaponEffects
@@ -70,7 +73,7 @@ Weapon
 		muzzleSoundMinRespawnTime 1.000000
 		muzzleSounds
 			soundCount 1
-			sound "WEAPON_SMALLRAILGUN"
+			sound "WEAPON_LIGHTBLASTER"
 		hitEffectName "EVE_Weapon_Blaster_Micro_Blue_Hit"
 		hitHullEffectSounds
 			soundCount 1
@@ -78,7 +81,7 @@ Weapon
 		hitShieldsEffectSounds
 			soundCount 1
 			sound ""
-		projectileTravelEffectName "EVE_Weapon_Blaster_Micro_Blue"
+		projectileTravelEffectName "EVE_Weapon_Blaster_Medium_Green"
 m_weaponIndexForRange 0
 firingAlignmentType "Default"
 TargetCountPerBank:FRONT 1
@@ -88,16 +91,16 @@ TargetCountPerBank:RIGHT 0
 canOnlyTargetStructures FALSE
 hasWeaponLevels FALSE
 mass 2000.000000
-ShieldMeshName "imicus"
+ShieldMeshName "Thorax"
 renderShield FALSE
-maxAccelerationLinear 225.000000
+maxAccelerationLinear 125.000000
 maxAccelerationStrafe 10.000000
 maxDecelerationLinear 500.000000
-maxAccelerationAngular 4.950000
-maxDecelerationAngular 9.999996
-maxSpeedLinear 600.000000
+maxAccelerationAngular 8.000000
+maxDecelerationAngular 8.999996
+maxSpeedLinear 530.000000
 maxRollRate 2.000000
-maxRollAngle 35.000000
+maxRollAngle 40.000000
 squadTypeEntityDef:0 ""
 squadAntiMatterCost:0 0.000000
 squadTypeEntityDef:1 ""
@@ -108,43 +111,42 @@ squadTypeEntityDef:3 ""
 squadAntiMatterCost:3 0.000000
 maxNumCommandPoints 0
 NumSoundsFor:ONATTACKORDERISSUED 3
-SoundID "FRIGATE_TECHSCOUT_ONATTACKORDERISSUED_0"
-SoundID "FRIGATE_TECHSCOUT_ONATTACKORDERISSUED_1"
-SoundID "FRIGATE_TECHSCOUT_ONATTACKORDERISSUED_2"
+SoundID "FRIGATE_TECHANTIMODULE_ONATTACKORDERISSUED_0"
+SoundID "FRIGATE_TECHANTIMODULE_ONATTACKORDERISSUED_1"
+SoundID "FRIGATE_TECHANTIMODULE_ONATTACKORDERISSUED_2"
 NumSoundsFor:ONCREATION 1
-SoundID "FRIGATE_TECHSCOUT_ONCREATION"
+SoundID "FRIGATE_TECHANTIMODULE_ONCREATION"
 NumSoundsFor:ONGENERALORDERISSUED 3
-SoundID "FRIGATE_TECHSCOUT_ONGENERALORDERISSUED_0"
-SoundID "FRIGATE_TECHSCOUT_ONGENERALORDERISSUED_1"
-SoundID "FRIGATE_TECHSCOUT_ONGENERALORDERISSUED_2"
-NumSoundsFor:ONSELECTED 4
-SoundID "FRIGATE_TECHSCOUT_ONSELECTED_0"
-SoundID "FRIGATE_TECHSCOUT_ONSELECTED_1"
-SoundID "FRIGATE_TECHSCOUT_ONSELECTED_2"
-SoundID "FRIGATE_TECHSCOUT_ONSELECTED_3"
+SoundID "FRIGATE_TECHANTIMODULE_ONGENERALORDERISSUED_0"
+SoundID "FRIGATE_TECHANTIMODULE_ONGENERALORDERISSUED_1"
+SoundID "FRIGATE_TECHANTIMODULE_ONGENERALORDERISSUED_2"
+NumSoundsFor:ONSELECTED 3
+SoundID "FRIGATE_TECHANTIMODULE_ONSELECTED_0"
+SoundID "FRIGATE_TECHANTIMODULE_ONSELECTED_1"
+SoundID "FRIGATE_TECHANTIMODULE_ONSELECTED_2"
 NumSoundsFor:ONSTARTPHASEJUMP 1
-SoundID "FRIGATE_TECHSCOUT_ONSTARTPHASEJUMP_0"
+SoundID "FRIGATE_TECHANTIMODULE_ONSTARTPHASEJUMP_0"
 MeshNameInfoCount 1
 MeshNameInfo
-	meshName "imicus"
+	meshName "Thorax"
 	criteriaType "None"
 meshNameIncreasedEffectName ""
 meshNameDecreasedEffectName ""
-ExhaustParticleSystemName "Exhaust_EveFrigate"
-ExplosionName "EVEFrigate"
+ExhaustParticleSystemName "Exhaust_EveCruiser"
+ExplosionName "EVECruiser"
 HyperspaceChargingSoundID "HYPERSPACE_CHARGEUP"
 HyperspaceTravelSoundID "HYPERSPACE_TRAVEL"
 EngineSoundID "ENGINE_PHASECAPITALSHIP"
-ability:0 "AbilityExplore"
-ability:1 "AbilityMicrowarpdrive"
+ability:0 "AbilityMicrowarpdrive"
+ability:1 "AbilityInterdictionSphere"
 ability:2 "AbilityAmarrCynosuralField"
-ability:3 "AbilityT2CloakCovertOps"
+ability:3 ""
 ability:4 ""
-MaxAntiMatter 650.000000
-AntiMatterRestoreRate 0.500000
+MaxAntiMatter 700.000000
+AntiMatterRestoreRate 1.200000
 cargoType "Invalid"
 maxCargoCapacity 0.000000
-formationRank 1
-minShadow 0.100000
-maxShadow 0.800000
+formationRank 2
+minShadow 0.000000
+maxShadow 1.000000
 allegianceDecreasePerRoundtrip 0.000000

@@ -1,5 +1,5 @@
 TXT
-NumStrings 8267
+NumStrings 8272
 StringInfo
     ID "IDS_ABILITY_RORQUALPANIC_NAME"
 	Value "P.A.N.I.C Module"
@@ -23140,10 +23140,10 @@ StringInfo
 	ID "IDS_GALLENTE_SHIP_BATTLESHIP_HYPERION_DESCRIPTION"
 	Value "The Hyperion is a versatile and powerful combat platform, it fills the role of short ranged hybrid blaster battleship, as a result it possesses some of the most powerful weapons ever fitted to any battleship at the expense of weapon range."	
 StringInfo
-	ID "IDS_GALLENTE_SHIP_BATTLESHIP_VINDICATOR_NAME"
+	ID "IDS_Serpentis_ShipBattleshipVindicator_NAME"
 	Value "Vindicator"
 StringInfo
-	ID "IDS_GALLENTE_SHIP_BATTLESHIP_VINDICATOR_DESCRIPTION"
+	ID "IDS_Serpentis_ShipBattleshipVindicator_DESCRIPTION"
 	Value "Basing their design on the Federation Navy's much-vaunted Megathron, the Guardian Angels' engineers set out to create a battleship that would instill fear in anyone fool enough to square off against the Cartel or its Serpentis protectorate. Based on the reputation this ship has engendered, they seem to have succeeded admirably."
 StringInfo
 	ID "IDS_PLANETMODULE_AMARRLARGEPULSELASTERBATTERY_NAME"
@@ -24801,3 +24801,18 @@ StringInfo
 StringInfo
 	ID "IDS_SUMMON_BARGHEST_DESCRIPTION"
 	Value "Connections with the Mordu Legion and the Empire of new Eden allow you to buy Barghest."
+StringInfo
+	ID "IDS_COMMAND_TITAN_TECHLOYALIST_NAME"
+	Value "Command Titan Avatar"
+StringInfo
+	ID "IDS_COMMAND_TITAN_LEVIATHAN_NAME"
+	Value "Command Titan Leviathan"
+StringInfo
+	ID "IDS_COMMAND_TITAN_GALLENTE_NAME"
+	Value "Command Titan Erebus"		
+StringInfo
+	ID "IDS_COMMAND_TITAN_MINMATAR_NAME"
+	Value "Command Titan Ragnarok"			
+StringInfo
+	ID "IDS_COMMAND_TITAN__DESCRIPTION"
+	Value "The commanda titan, also now as FC Titan, is modified version of titan. It comes with system wide bonus and equipament upgrades."

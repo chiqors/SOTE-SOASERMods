@@ -1,31 +1,31 @@
 ﻿TXT
 entityType "Frigate"
 defaultAutoAttackRange "GravityWell"
-defaultAutoAttackOn FALSE
-prefersToFocusFire FALSE
+defaultAutoAttackOn TRUE
+prefersToFocusFire TRUE
 usesFighterAttack FALSE
-autoJoinFleetDefault FALSE
+autoJoinFleetDefault TRUE
 canBomb FALSE
 typeCount 1
-frigateRoleType "Scout"
-statCountType "FrigateScout"
-mainViewIcon "MAINVIEWICON_FRIGATE_PHASESCOUT"
-picture "PICTURE_FRIGATE_IMICUS"
-NameStringID "IDS_FRIGATE_PHASESCOUT_NAME"
-DescriptionStringID "IDS_FRIGATE_PHASESCOUT_DESCRIPTION"
+frigateRoleType "Light"
+statCountType "FrigateLight"
+mainViewIcon "MAINVIEWICON_FRIGATE_PHASELIGHT"
+picture "PICTURE_FRIGATE_INCURSION"
+NameStringID "IDS_FRIGATE_PHASELIGHT_NAME"
+DescriptionStringID "IDS_FRIGATE_PHASELIGHT_DESCRIPTION"
 counterDescriptionStringID "IDS_COUNTERDESC_FRIGATE_NONCOMBAT"
 basePrice
-	credits 50.000000
-	metal 11.000000
-	crystal 9.000000
-slotCount 1.000000
-BuildTime 4.000000
+	credits 18.000000
+	metal 15.000000
+	crystal 13.000000
+slotCount 2.000000
+BuildTime 5.000000
 hasLevels FALSE
-ExperiencePointsForDestroying 15.000000
-MaxHullPoints 325.000000
-MaxShieldPoints 300.000000
+ExperiencePointsForDestroying 22.000000
+MaxHullPoints 450.000000
+MaxShieldPoints 400.000000
 HullPointRestoreRate 1.000000
-ShieldPointRestoreRate 0.5000000
+ShieldPointRestoreRate 0.500000
 BaseArmorPoints 0.000000
 maxMitigation 0.000000
 Prerequisites
@@ -36,9 +36,9 @@ numRandomDebrisLarge 0
 numRandomDebrisSmall 0
 numSpecificDebris 0
 armorType "Light"
-hudIcon "HUDICON_FRIGATE_PHASESCOUT"
-smallHudIcon "HUDICONSMALL_FRIGATE_PHASESCOUT"
-infoCardIcon "INFOCARDICON_FRIGATE_PHASESCOUT"
+hudIcon "HUDICON_FRIGATE_PHASELIGHT"
+smallHudIcon "HUDICONSMALL_FRIGATE_PHASELIGHT"
+infoCardIcon "INFOCARDICON_FRIGATE_PHASELIGHT"
 minZoomDistanceMult 1.000000
 NumWeapons 1
 Weapon
@@ -49,12 +49,12 @@ Weapon
 		DamageApplyType "BACKLOADED"
 		DamageType "ENERGY"
 		WeaponClassType "PULSEGUN"
-	DamagePerBank:FRONT 26.000000
+	DamagePerBank:FRONT 96.000000
 	DamagePerBank:BACK 0.000000
 	DamagePerBank:LEFT 0.000000
 	DamagePerBank:RIGHT 0.000000
 	Range 4000.000000
-	PreBuffCooldownTime 2.0400000
+	PreBuffCooldownTime 2.040000
 	CanFireAtFighter FALSE
 	SynchronizedTargeting TRUE
 	PointStaggerDelay 0.050000
@@ -88,14 +88,14 @@ TargetCountPerBank:RIGHT 0
 canOnlyTargetStructures FALSE
 hasWeaponLevels FALSE
 mass 2000.000000
-ShieldMeshName "imicus"
+ShieldMeshName "incursus"
 renderShield FALSE
-maxAccelerationLinear 225.000000
+maxAccelerationLinear 100.000000
 maxAccelerationStrafe 10.000000
 maxDecelerationLinear 500.000000
-maxAccelerationAngular 4.950000
+maxAccelerationAngular 8.700000
 maxDecelerationAngular 9.999996
-maxSpeedLinear 600.000000
+maxSpeedLinear 420.000000
 maxRollRate 2.000000
 maxRollAngle 35.000000
 squadTypeEntityDef:0 ""
@@ -108,25 +108,24 @@ squadTypeEntityDef:3 ""
 squadAntiMatterCost:3 0.000000
 maxNumCommandPoints 0
 NumSoundsFor:ONATTACKORDERISSUED 3
-SoundID "FRIGATE_TECHSCOUT_ONATTACKORDERISSUED_0"
-SoundID "FRIGATE_TECHSCOUT_ONATTACKORDERISSUED_1"
-SoundID "FRIGATE_TECHSCOUT_ONATTACKORDERISSUED_2"
+SoundID "FRIGATE_TECHLIGHT_ONATTACKORDERISSUED_0"
+SoundID "FRIGATE_TECHLIGHT_ONATTACKORDERISSUED_1"
+SoundID "FRIGATE_TECHLIGHT_ONATTACKORDERISSUED_2"
 NumSoundsFor:ONCREATION 1
-SoundID "FRIGATE_TECHSCOUT_ONCREATION"
+SoundID "FRIGATE_TECHLIGHT_ONCREATION"
 NumSoundsFor:ONGENERALORDERISSUED 3
-SoundID "FRIGATE_TECHSCOUT_ONGENERALORDERISSUED_0"
-SoundID "FRIGATE_TECHSCOUT_ONGENERALORDERISSUED_1"
-SoundID "FRIGATE_TECHSCOUT_ONGENERALORDERISSUED_2"
-NumSoundsFor:ONSELECTED 4
-SoundID "FRIGATE_TECHSCOUT_ONSELECTED_0"
-SoundID "FRIGATE_TECHSCOUT_ONSELECTED_1"
-SoundID "FRIGATE_TECHSCOUT_ONSELECTED_2"
-SoundID "FRIGATE_TECHSCOUT_ONSELECTED_3"
+SoundID "FRIGATE_TECHLIGHT_ONGENERALORDERISSUED_0"
+SoundID "FRIGATE_TECHLIGHT_ONGENERALORDERISSUED_1"
+SoundID "FRIGATE_TECHLIGHT_ONGENERALORDERISSUED_2"
+NumSoundsFor:ONSELECTED 3
+SoundID "FRIGATE_TECHLIGHT_ONSELECTED_0"
+SoundID "FRIGATE_TECHLIGHT_ONSELECTED_1"
+SoundID "FRIGATE_TECHLIGHT_ONSELECTED_2"
 NumSoundsFor:ONSTARTPHASEJUMP 1
-SoundID "FRIGATE_TECHSCOUT_ONSTARTPHASEJUMP_0"
+SoundID "FRIGATE_TECHLIGHT_ONSTARTPHASEJUMP_0"
 MeshNameInfoCount 1
 MeshNameInfo
-	meshName "imicus"
+	meshName "incursus"
 	criteriaType "None"
 meshNameIncreasedEffectName ""
 meshNameDecreasedEffectName ""
@@ -135,16 +134,16 @@ ExplosionName "EVEFrigate"
 HyperspaceChargingSoundID "HYPERSPACE_CHARGEUP"
 HyperspaceTravelSoundID "HYPERSPACE_TRAVEL"
 EngineSoundID "ENGINE_PHASECAPITALSHIP"
-ability:0 "AbilityExplore"
-ability:1 "AbilityMicrowarpdrive"
-ability:2 "AbilityAmarrCynosuralField"
-ability:3 "AbilityT2CloakCovertOps"
+ability:0 "AbilityMicrowarpdrive"
+ability:1 "AbilityStasisWebifier"
+ability:2 ""
+ability:3 ""
 ability:4 ""
-MaxAntiMatter 650.000000
+MaxAntiMatter 180.000000
 AntiMatterRestoreRate 0.500000
 cargoType "Invalid"
 maxCargoCapacity 0.000000
 formationRank 1
-minShadow 0.100000
-maxShadow 0.800000
+minShadow 0.000000
+maxShadow 1.000000
 allegianceDecreasePerRoundtrip 0.000000

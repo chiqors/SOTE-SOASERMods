@@ -66,7 +66,7 @@ entities
 			entityDefName "Gallente_Ship_Battleship_Megathron"
 			entityDefName "Gallente_Ship_Battleship_Hyperion"
 			entityDefName "Gallente_Ship_Envoy_Brutix"
-			entityDefName "Gallente_Ship_Battleship_Vindicator"
+			entityDefName "Serpentis_ShipBattleshipVindicator"
 			entityDefName "Gallente_Ship_Destroyer_Hecate"
 		NotOnPage
 			count 3

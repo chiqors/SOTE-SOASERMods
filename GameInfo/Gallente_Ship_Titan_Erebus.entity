@@ -78,8 +78,8 @@ AntiMatterRestoreRate
 CultureProtectRate
 	StartValue 2.800000
 	ValueIncreasePerLevel 0.050000
-NameStringID "IDS_TITAN_PHASELOYALIST_NAME"
-DescriptionStringID "IDS_TITAN_PHASELOYALIST_DESCRIPTION"
+NameStringID "IDS_COMMAND_TITAN_GALLENTE_NAME"
+DescriptionStringID "IDS_COMMAND_TITAN__DESCRIPTION"
 picture "PICTURE_CAPITAL_EREBUS"
 Prerequisites
 	NumResearchPrerequisites 1
