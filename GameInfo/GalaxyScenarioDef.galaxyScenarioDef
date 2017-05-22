@@ -840,19 +840,13 @@ orbitBodyType
 	typeName "Occupied"
 	entityDefName "OccupiedPlanet"
 	defaultTemplateName "Template:OccupiedPlanet"
-planetItemTypeCount 239
+planetItemTypeCount 186
+planetItemType
+	designName "Gallente:StarBase"
+	entityDefName "Allraces_Structure_Citadel_Keepstar"
 planetItemType
 	designName "Minmatar:Frigate:Scout"
 	entityDefName "Minmatar_Ship_Frigate_Probe"
-planetItemType
-	designName "Gallente:Module:MineExplosive"
-	entityDefName "SpaceMinePhaseExplosive"
-planetItemType
-	designName "Gallente:Module:MineGravity"
-	entityDefName "SpaceMinePhaseGravity"
-planetItemType
-	designName "Gallente:Module:Cannon"
-	entityDefName "PLANETMODULE_PHASEORBITALCANNON"
 planetItemType
 	designName "Gallente:Module:CapitalShipFactory"
 	entityDefName "Gallente_Structure_CapitalShipFactory"
@@ -893,68 +887,11 @@ planetItemType
 	designName "Gallente:Module:JumpBlocker"
 	entityDefName "Gallente_Structure_CynoJammer"
 planetItemType
-	designName "Gallente:Module:NanoWeaponJammer"
-	entityDefName "PLANETMODULE_PHASEORBITALNANOWEAPONJAMMER"
-planetItemType
 	designName "Gallente:Module:PhaseGate"
 	entityDefName "Gallente_Structure_JumpBridge"
 planetItemType
 	designName "Gallente:Module:TitanFactory"
 	entityDefName "Gallente_Structure_TitanFoundry"
-planetItemType
-	designName "Psi:Module:Mine"
-	entityDefName "SpaceMinePsi"
-planetItemType
-	designName "Psi:Module:Cannon"
-	entityDefName "PLANETMODULE_PSIORBITALCANNON"
-planetItemType
-	designName "Psi:Module:CapitalShipFactory"
-	entityDefName "PLANETMODULE_PSIORBITALCAPITALSHIPFACTORY"
-planetItemType
-	designName "Psi:Module:CombatLab"
-	entityDefName "PLANETMODULE_PSIORBITALCOMBATLABORATORY"
-planetItemType
-	designName "Psi:Module:CrystalExtractor"
-	entityDefName "PLANETMODULE_PSIORBITALCRYSTALEXTRACTOR"
-planetItemType
-	designName "Psi:Module:CultureCenter"
-	entityDefName "PLANETMODULE_PSIORBITALCULTURECENTER"
-planetItemType
-	designName "Psi:Module:FrigateFactory"
-	entityDefName "PLANETMODULE_PSIORBITALFRIGATEFACTORY"
-planetItemType
-	designName "Psi:Module:HangarDefense"
-	entityDefName "PLANETMODULE_PSIORBITALHANGARDEFENSE"
-planetItemType
-	designName "Psi:Module:MetalExtractor"
-	entityDefName "PLANETMODULE_PSIORBITALMETALEXTRACTOR"
-planetItemType
-	designName "Psi:Module:NonCombatLab"
-	entityDefName "PLANETMODULE_PSIORBITALNONCOMBATLABORATORY"
-planetItemType
-	designName "Psi:Module:RepairPlatform"
-	entityDefName "PLANETMODULE_PSIORBITALREPAIRPLATFORM"
-planetItemType
-	designName "Psi:Module:TradePort"
-	entityDefName "PLANETMODULE_PSIORBITALTRADEPORT"
-planetItemType
-	designName "Psi:Module:BeamDefense"
-	entityDefName "PLANETMODULE_PSIORBITALBEAMDEFENSE"
-planetItemType
-	designName "Psi:Module:JumpBlocker"
-	entityDefName "PLANETMODULE_PSIORBITALJUMPBLOCKER"
-planetItemType
-	designName "Psi:Module:AntiMatterRecharger"
-	entityDefName "PLANETMODULE_PSIORBITALANTIMATTERRECHARGER"
-planetItemType
-	designName "Psi:Module:TitanFactory"
-	entityDefName "PLANETMODULE_PSILOYALISTORBITALTITANFACTORY"
-planetItemType
-	designName "Amarr:Module:Mine"
-	entityDefName "SpaceMineTech"
-planetItemType
-	designName "Amarr:Module:Cannon"
-	entityDefName "PLANETMODULE_TECHORBITALCANNON"
 planetItemType
 	designName "Amarr:Module:CapitalShipFactory"
 	entityDefName "Amarr_Structure_CapitalShipFactory"
@@ -995,14 +932,11 @@ planetItemType
 	designName "Amarr:Module:JumpBlocker"
 	entityDefName "Amarr_Structure_JumpBridge"
 planetItemType
-	designName "Amarr:Module:ShieldGenerator"
-	entityDefName "PLANETMODULE_TECHORBITALSHIELDGENERATOR"
-planetItemType
 	designName "Amarr:Module:TitanFactory"
 	entityDefName "Amarr_Structure_TitanFoundry"
 planetItemType
 	designName "Pirate:Module:GaussDefense"
-	entityDefName "PLANETMODULE_PIRATEORBITALGAUSSDEFENSE"
+	entityDefName "Amarr_Structure_SmallPulseLaserBattery"
 planetItemType
 	designName "Gallente:Frigate:AntiFighter"
 	entityDefName "Gallente_Ship_Destroyer_Catalyst"
@@ -1040,53 +974,8 @@ planetItemType
 	designName "Gallente:Corvette:Loyalist"
 	entityDefName "Gallente_Ship_Frigate_Atron"
 planetItemType
-	designName "Gallente:Corvette:Rebel"
-	entityDefName "CorvettePhaseRebel"
-planetItemType
 	designName "Gallente:Frigate:Envoy"
 	entityDefName "Gallente_Ship_Envoy_Brutix"
-planetItemType
-	designName "Psi:Frigate:AntiFighter"
-	entityDefName "FrigatePsiAntiFighter"
-planetItemType
-	designName "Psi:Frigate:Carrier"
-	entityDefName "FrigatePsiCarrier"
-planetItemType
-	designName "Psi:Frigate:Colony"
-	entityDefName "FrigatePsiColony"
-planetItemType
-	designName "Psi:Frigate:Heavy"
-	entityDefName "FrigatePsiHeavy"
-planetItemType
-	designName "Psi:Frigate:Light"
-	entityDefName "FrigatePsiLight"
-planetItemType
-	designName "Psi:Frigate:LongRange"
-	entityDefName "FrigatePsiLongRange"
-planetItemType
-	designName "Psi:Frigate:Scout"
-	entityDefName "FrigatePsiScout"
-planetItemType
-	designName "Psi:Frigate:Siege"
-	entityDefName "FrigatePsiSiege"
-planetItemType
-	designName "Psi:Frigate:Utility0"
-	entityDefName "FrigatePsiUtility0"
-planetItemType
-	designName "Psi:Frigate:Utility1"
-	entityDefName "FrigatePsiUtility1"
-planetItemType
-	designName "Psi:Frigate:Constructor"
-	entityDefName "FrigatePsiModuleConstructor"
-planetItemType
-	designName "Psi:Frigate:Envoy"
-	entityDefName "FrigatePsiEnvoy"
-planetItemType
-	designName "Psi:Corvette:Loyalist"
-	entityDefName "CorvettePsiLoyalist"
-planetItemType
-	designName "Psi:Corvette:Rebel"
-	entityDefName "CorvettePsiRebel"
 planetItemType
 	designName "Amarr:Frigate:AntiFighter"
 	entityDefName "Amarr_Ship_Destroyer_Coercer"
@@ -1130,18 +1019,6 @@ planetItemType
 	designName "Amarr:Corvette:Loyalist"
 	entityDefName "Amarr_Ship_Frigate_Excecutioner"
 planetItemType
-	designName "Amarr:Corvette:Rebel"
-	entityDefName "CorvetteTechRebel"
-planetItemType
-	designName "Gallente:StarBase"
-	entityDefName "StarBasePhase"
-planetItemType
-	designName "Psi:StarBase"
-	entityDefName "StarBasePsi"
-planetItemType
-	designName "Amarr:StarBase"
-	entityDefName "Amarr_Structure_AmarrTacticalOutpost"
-planetItemType
 	designName "Gallente:CapitalShip:BattleShip"
 	entityDefName "Gallente_Ship_Carrier_Thanatos"
 planetItemType
@@ -1160,24 +1037,6 @@ planetItemType
 	designName "Gallente:CapitalShip:Siege"
 	entityDefName "Gallente_Ship_Dreadnought_Moros_LongRange"
 planetItemType
-	designName "Psi:CapitalShip:BattleShip"
-	entityDefName "CAPITALSHIP_PSIBATTLESHIP"
-planetItemType
-	designName "Psi:CapitalShip:BattleShip2"
-	entityDefName "CAPITALSHIP_PSIBATTLESHIP2"
-planetItemType
-	designName "Psi:CapitalShip:Carrier"
-	entityDefName "CAPITALSHIP_PSICARRIER"
-planetItemType
-	designName "Psi:CapitalShip:Colony"
-	entityDefName "CAPITALSHIP_PSICOLONY"
-planetItemType
-	designName "Psi:CapitalShip:BattlePsionic"
-	entityDefName "CAPITALSHIP_PSIBATTLEPSIONIC"
-planetItemType
-	designName "Psi:CapitalShip:PlanetPsionic"
-	entityDefName "CAPITALSHIP_PSIPLANETPSIONIC"
-planetItemType
 	designName "Amarr:CapitalShip:BattleShip"
 	entityDefName "Amarr_Ship_Carrier_Archon"
 planetItemType
@@ -1187,32 +1046,14 @@ planetItemType
 	designName "Amarr:CapitalShip:Colony"
 	entityDefName "Amarr_Ship_Dreadnought_Revelation_ShortRange"
 planetItemType
-	designName "Amarr:CapitalShip:Support"
-	entityDefName "CAPITALSHIP_TECHSUPPORT"
-planetItemType
-	designName "Amarr:CapitalShip:Siege"
-	entityDefName "CAPITALSHIP_TECHSIEGE"
-planetItemType
 	designName "Amarr:CapitalShip:Transport"
 	entityDefName "Amarr_Ship_ColonyCapital_Rorqual"
 planetItemType
 	designName "Gallente:Titan:Loyalist"
 	entityDefName "Gallente_Ship_Titan_Erebus"
 planetItemType
-	designName "Gallente:Titan:Rebel"
-	entityDefName "TITAN_PHASEREBEL"
-planetItemType
-	designName "Psi:Titan:Loyalist"
-	entityDefName "TITAN_PSILOYALIST"
-planetItemType
-	designName "Psi:Titan:Rebel"
-	entityDefName "TITAN_PSIREBEL"
-planetItemType
 	designName "Amarr:Titan:Loyalist"
 	entityDefName "Amarr_Ship_Titan_Avatar"
-planetItemType
-	designName "Amarr:Titan:Rebel"
-	entityDefName "TITAN_TECHREBEL"
 planetItemType
 	designName "Pirate:Frigate:Medium"
 	entityDefName "FrigatePirateMedium"
@@ -1558,7 +1399,7 @@ planetItemType
 planetItemType
 	designName "Caldari:Frigate:Light"
 	entityDefName "Caldari_Ship_Frigate_kestrel"	
-playerTypeCount 9
+playerTypeCount 6
 playerType
 	designName "AmarrEmpire"
 	entityDefName "Player_AmarrEmpire"
@@ -1572,17 +1413,8 @@ playerType
 	designName "GallenteFederation"
 	entityDefName "Player_GallenteFederation"
 playerType
-	designName "PsiLoyalist"
-	entityDefName "PlayerPsiLoyalist"
-playerType
 	designName "TechRebel"
 	entityDefName "PlayerTechRebel"
-playerType
-	designName "PsiRebel"
-	entityDefName "PlayerPsiRebel"
-playerType
-	designName "PhaseRebel"
-	entityDefName "PlayerPhaseRebel"
 playerType
 	designName "Pirate"
 	entityDefName "PlayerPirate"
@@ -1594,7 +1426,7 @@ planetItemsTemplate
 planetItemsTemplate
 	templateName "Template:DefaultHomePlanetSetup"
 	subTemplates 0
-	groups 15
+	groups 8
 		group
 			condition
 				type "PlanetOwnerIsRaceNormalStart"
@@ -1610,28 +1442,6 @@ planetItemsTemplate
 		group
 			condition
 				type "PlanetOwnerIsRaceNormalStart"
-				param "TechRebel"
-			owner "PlanetOwner"
-			colonizeChance 1
-			items 4
-				item "Amarr:Module:FrigateFactory"
-				item "Amarr:Module:FrigateFactory"
-				item "Amarr:Frigate:Constructor"
-				item "Amarr:Frigate:Constructor"
-		group
-			condition
-				type "PlanetOwnerIsRaceNormalStart"
-				param "PsiLoyalist"
-			owner "PlanetOwner"
-			colonizeChance 1
-			items 4		
-				item "Psi:Module:FrigateFactory"
-				item "Psi:Module:FrigateFactory"
-				item "Psi:Frigate:Constructor"
-				item "Psi:Frigate:Constructor"
-		group
-			condition
-				type "PlanetOwnerIsRaceNormalStart"
 				param "Minmatar"
 			owner "PlanetOwner"
 			colonizeChance 1
@@ -1664,17 +1474,6 @@ planetItemsTemplate
 				item "Gallente:Frigate:Constructor"
 				item "Gallente:Frigate:Constructor"
 				item "Gallente:CapitalShip:BattleShip2"
-				group
-			condition
-				type "PlanetOwnerIsRaceNormalStart"
-				param "PhaseRebel"
-			owner "PlanetOwner"
-			colonizeChance 1
-			items 4
-				item "Gallente:Module:FrigateFactory"
-				item "Gallente:Module:FrigateFactory"
-				item "Gallente:Frigate:Constructor"
-				item "Gallente:Frigate:Constructor"
 		group
 			condition
 				type "PlanetOwnerIsRaceQuickStart"
@@ -1714,23 +1513,6 @@ planetItemsTemplate
 		group
 			condition
 				type "PlanetOwnerIsRaceQuickStart"
-				param "PsiLoyalist"
-			owner "PlanetOwner"
-			colonizeChance 1
-			items 10
-				item "Psi:Module:FrigateFactory"
-				item "Psi:Module:FrigateFactory"
-				item "Psi:Module:CapitalShipFactory"
-				item "Psi:Module:MetalExtractor"
-				item "Psi:Module:MetalExtractor"
-				item "Psi:Module:CrystalExtractor"
-				item "Psi:Frigate:Constructor"
-				item "Psi:Frigate:Constructor"
-				item "Psi:Frigate:Scout"
-				item "Psi:Frigate:Scout"
-		group
-			condition
-				type "PlanetOwnerIsRaceQuickStart"
 				param "GallenteFederation"
 			owner "PlanetOwner"
 			colonizeChance 1
@@ -1764,57 +1546,6 @@ planetItemsTemplate
 				item "Caldari:Frigate:Scout"
 				item "Caldari:Frigate:Scout"
 				item "Gallente:CapitalShip:BattleShip2"				
-		group
-			condition
-				type "PlanetOwnerIsRaceQuickStart"
-				param "TechRebel"
-			owner "PlanetOwner"
-			colonizeChance 1
-			items 10
-				item "Amarr:Module:FrigateFactory"
-				item "Amarr:Module:FrigateFactory"
-				item "Amarr:Module:CapitalShipFactory"
-				item "Amarr:Module:MetalExtractor"
-				item "Amarr:Module:MetalExtractor"
-				item "Amarr:Module:CrystalExtractor"
-				item "Amarr:Frigate:Constructor"
-				item "Amarr:Frigate:Constructor"
-				item "Amarr:Frigate:Scout"
-				item "Amarr:Frigate:Scout"
-		group
-			condition
-				type "PlanetOwnerIsRaceQuickStart"
-				param "PsiRebel"
-			owner "PlanetOwner"
-			colonizeChance 1
-			items 10
-				item "Psi:Module:FrigateFactory"
-				item "Psi:Module:FrigateFactory"
-				item "Psi:Module:CapitalShipFactory"
-				item "Psi:Module:MetalExtractor"
-				item "Psi:Module:MetalExtractor"
-				item "Psi:Module:CrystalExtractor"
-				item "Psi:Frigate:Constructor"
-				item "Psi:Frigate:Constructor"
-				item "Psi:Frigate:Scout"
-				item "Psi:Frigate:Scout"
-		group
-			condition
-				type "PlanetOwnerIsRaceQuickStart"
-				param "PhaseRebel"
-			owner "PlanetOwner"
-			colonizeChance 1
-			items 10
-				item "Gallente:Module:FrigateFactory"
-				item "Gallente:Module:FrigateFactory"
-				item "Gallente:Module:CapitalShipFactory"
-				item "Gallente:Module:MetalExtractor"
-				item "Gallente:Module:MetalExtractor"
-				item "Gallente:Module:CrystalExtractor"
-				item "Gallente:Frigate:Constructor"
-				item "Gallente:Frigate:Constructor"
-				item "Gallente:Frigate:Scout"
-				item "Gallente:Frigate:Scout"
 planetItemsTemplate
 	templateName "Template:DefaultStart_Terran"
 	subTemplates 2
@@ -1983,7 +1714,7 @@ planetItemsTemplate
 	subTemplates 2
 		template "Template:DefaultHomePlanetSetup"
 		template "Template:LocalMilitiaMedium"
-	groups 17
+	groups 11
 		group
 			condition
 				type "PlanetOwnerIsRaceNormalStart"
@@ -2019,19 +1750,6 @@ planetItemsTemplate
 				item "Minmatar:Frigate:Light"
 				item "Minmatar:Frigate:Light"
 				item "Minmatar:Frigate:Light"
-		group
-			condition
-				type "PlanetOwnerIsRaceNormalStart"
-				param "PsiLoyalist"
-			owner "PlanetOwner"
-			colonizeChance 1
-			items 6
-				item "Psi:Frigate:Scout"
-				item "Psi:Frigate:Light"
-				item "Psi:Frigate:Light"
-				item "Psi:Frigate:Light"
-				item "Psi:Frigate:Light"
-				item "Psi:Frigate:Light"
 		group
 			condition
 				type "PlanetOwnerIsRaceNormalStart"
@@ -2081,19 +1799,6 @@ planetItemsTemplate
 		group
 			condition
 				type "PlanetOwnerIsRaceQuickStart"
-				param "PsiLoyalist"
-			owner "PlanetOwner"
-			colonizeChance 1
-			items 6
-				item "Psi:Frigate:Scout"
-				item "Psi:Frigate:Light"
-				item "Psi:Frigate:Light"
-				item "Psi:Frigate:Light"
-				item "Psi:Frigate:Light"
-				item "Psi:Frigate:Light"
-		group
-			condition
-				type "PlanetOwnerIsRaceQuickStart"
 				param "GallenteFederation"
 			owner "PlanetOwner"
 			colonizeChance 1
@@ -2117,30 +1822,6 @@ planetItemsTemplate
 		group
 			condition
 				type "PlanetOwnerIsRaceNormalStart"
-				param "PsiRebel"
-			owner "PlanetOwner"
-			colonizeChance 1
-			items 6
-				item "Psi:Frigate:Scout"
-				item "Psi:Frigate:Light"
-				item "Psi:Frigate:Light"
-				item "Psi:Frigate:Light"
-				item "Psi:Frigate:Light"
-				item "Psi:Frigate:Light"
-		group
-			condition
-				type "PlanetOwnerIsRaceNormalStart"
-				param "PhaseRebel"
-			owner "PlanetOwner"
-			colonizeChance 1
-			items 4
-				item "Gallente:Frigate:Scout"
-				item "Gallente:Frigate:Light"
-				item "Gallente:Frigate:Light"
-				item "Gallente:Frigate:Light"
-		group
-			condition
-				type "PlanetOwnerIsRaceNormalStart"
 				param "Caldari"
 			owner "PlanetOwner"
 			colonizeChance 1
@@ -2161,30 +1842,6 @@ planetItemsTemplate
 				item "Amarr:Frigate:Light"
 				item "Amarr:Frigate:Light"
 				item "Amarr:Frigate:Light"
-		group
-			condition
-				type "PlanetOwnerIsRaceQuickStart"
-				param "PsiRebel"
-			owner "PlanetOwner"
-			colonizeChance 1
-			items 6
-				item "Psi:Frigate:Scout"
-				item "Psi:Frigate:Light"
-				item "Psi:Frigate:Light"
-				item "Psi:Frigate:Light"
-				item "Psi:Frigate:Light"
-				item "Psi:Frigate:Light"
-		group
-			condition
-				type "PlanetOwnerIsRaceQuickStart"
-				param "PhaseRebel"
-			owner "PlanetOwner"
-			colonizeChance 1
-			items 4
-				item "Gallente:Frigate:Scout"
-				item "Gallente:Frigate:Light"
-				item "Gallente:Frigate:Light"
-				item "Gallente:Frigate:Light"
 planetItemsTemplate
 	templateName "Template:LocalMilitiaVeryWeak"
 	subTemplates 0
@@ -2839,7 +2496,7 @@ planetItemsTemplate
 			colonizeChance 1
 			items 52
 				item "Gallente:StarBase"
-				item "Gallente:Titan:Rebel"
+				item "Gallente:Titan:Loyalist"
 				item "Gallente:Frigate:LongRange"
 				item "Gallente:Frigate:LongRange"
 				item "Gallente:Frigate:LongRange"
@@ -2880,16 +2537,16 @@ planetItemsTemplate
 				item "Gallente:Frigate:Heavy"
 				item "Gallente:Frigate:Heavy"
 				item "Gallente:Frigate:Heavy"
-				item "Gallente:Corvette:Rebel"
-				item "Gallente:Corvette:Rebel"
-				item "Gallente:Corvette:Rebel"
-				item "Gallente:Corvette:Rebel"
-				item "Gallente:Corvette:Rebel"
-				item "Gallente:Corvette:Rebel"
-				item "Gallente:Corvette:Rebel"
-				item "Gallente:Corvette:Rebel"
-				item "Gallente:Corvette:Rebel"
-				item "Gallente:Corvette:Rebel"
+				item "Gallente:Corvette:Loyalist"
+				item "Gallente:Corvette:Loyalist"
+				item "Gallente:Corvette:Loyalist"
+				item "Gallente:Corvette:Loyalist"
+				item "Gallente:Corvette:Loyalist"
+				item "Gallente:Corvette:Loyalist"
+				item "Gallente:Corvette:Loyalist"
+				item "Gallente:Corvette:Loyalist"
+				item "Gallente:Corvette:Loyalist"
+				item "Gallente:Corvette:Loyalist"
 validPictureGroups 3
 pictureGroup "PlayerPhase"
 pictureGroup "PlayerPsi"
@@ -2937,7 +2594,7 @@ player
 player
 	designName "Occupation"
 	inGameName "IDSScenarioPlayerNameOccupation"
-	overrideRaceName "PhaseRebel"
+	overrideRaceName "GallenteFederation"
 	teamIndex -1
 	startingCredits 0
 	startingMetal 0
