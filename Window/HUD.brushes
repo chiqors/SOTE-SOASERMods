@@ -9,7 +9,7 @@ brush
 brush
 	name "MicBrush"
 	content "Simple"
-	fileName "SkinTech"
+	fileName "Skin_Tech"
 	pixelBox [ 0 , 0 , 64 , 64 ]
 brush
 	name "DebugOverlay"
