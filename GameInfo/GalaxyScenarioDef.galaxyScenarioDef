@@ -840,66 +840,66 @@ orbitBodyType
 	typeName "Occupied"
 	entityDefName "OccupiedPlanet"
 	defaultTemplateName "Template:OccupiedPlanet"
-planetItemTypeCount 239
+planetItemTypeCount 238
 planetItemType
 	designName "Minmatar:Frigate:Scout"
 	entityDefName "Minmatar_Ship_Frigate_Probe"
 planetItemType
-	designName "Gallente:Module:MineExplosive"
+	designName "Phase:Module:MineExplosive"
 	entityDefName "SpaceMinePhaseExplosive"
 planetItemType
-	designName "Gallente:Module:MineGravity"
+	designName "Phase:Module:MineGravity"
 	entityDefName "SpaceMinePhaseGravity"
 planetItemType
-	designName "Gallente:Module:Cannon"
+	designName "Phase:Module:Cannon"
 	entityDefName "PLANETMODULE_PHASEORBITALCANNON"
 planetItemType
-	designName "Gallente:Module:CapitalShipFactory"
+	designName "Phase:Module:CapitalShipFactory"
 	entityDefName "Gallente_Structure_CapitalShipFactory"
 planetItemType
-	designName "Gallente:Module:CombatLab"
+	designName "Phase:Module:CombatLab"
 	entityDefName "Gallente_Structure_CombatLab"
 planetItemType
-	designName "Gallente:Module:CrystalExtractor"
+	designName "Phase:Module:CrystalExtractor"
 	entityDefName "PLANETMODULE_PHASEORBITALCRYSTALEXTRACTOR"
 planetItemType
-	designName "Gallente:Module:CultureCenter"
+	designName "Phase:Module:CultureCenter"
 	entityDefName "Gallente_Structure_CultureCenter"
 planetItemType
-	designName "Gallente:Module:FrigateFactory"
+	designName "Phase:Module:FrigateFactory"
 	entityDefName "Gallente_Structure_FrigateFactory"
 planetItemType
-	designName "Gallente:Module:HangarDefense"
+	designName "Phase:Module:HangarDefense"
 	entityDefName "Gallente_Structure_ECMBattery"
 planetItemType
-	designName "Gallente:Module:MetalExtractor"
+	designName "Phase:Module:MetalExtractor"
 	entityDefName "PLANETMODULE_PHASEORBITALMETALEXTRACTOR"
 planetItemType
-	designName "Gallente:Module:NonCombatLab"
+	designName "Phase:Module:NonCombatLab"
 	entityDefName "Gallente_Structure_CivillianLab"
 planetItemType
-	designName "Gallente:Module:Refinery"
+	designName "Phase:Module:Refinery"
 	entityDefName "Gallente_Structure_Refinery"
 planetItemType
-	designName "Gallente:Module:RepairPlatform"
+	designName "Phase:Module:RepairPlatform"
 	entityDefName "Gallente_Structure_MediumBlasterBattery"
 planetItemType
-	designName "Gallente:Module:TradePort"
+	designName "Phase:Module:TradePort"
 	entityDefName "Gallente_Structure_TradePort"
 planetItemType
-	designName "Gallente:Module:MissileDefense"
+	designName "Phase:Module:MissileDefense"
 	entityDefName "Gallente_Structure_SmallBlasterBattery"
 planetItemType
-	designName "Gallente:Module:JumpBlocker"
+	designName "Phase:Module:JumpBlocker"
 	entityDefName "Gallente_Structure_CynoJammer"
 planetItemType
-	designName "Gallente:Module:NanoWeaponJammer"
+	designName "Phase:Module:NanoWeaponJammer"
 	entityDefName "PLANETMODULE_PHASEORBITALNANOWEAPONJAMMER"
 planetItemType
-	designName "Gallente:Module:PhaseGate"
+	designName "Phase:Module:PhaseGate"
 	entityDefName "Gallente_Structure_JumpBridge"
 planetItemType
-	designName "Gallente:Module:TitanFactory"
+	designName "Phase:Module:TitanFactory"
 	entityDefName "Gallente_Structure_TitanFoundry"
 planetItemType
 	designName "Psi:Module:Mine"
@@ -950,100 +950,100 @@ planetItemType
 	designName "Psi:Module:TitanFactory"
 	entityDefName "PLANETMODULE_PSILOYALISTORBITALTITANFACTORY"
 planetItemType
-	designName "Amarr:Module:Mine"
+	designName "Tech:Module:Mine"
 	entityDefName "SpaceMineTech"
 planetItemType
-	designName "Amarr:Module:Cannon"
+	designName "Tech:Module:Cannon"
 	entityDefName "PLANETMODULE_TECHORBITALCANNON"
 planetItemType
-	designName "Amarr:Module:CapitalShipFactory"
+	designName "Tech:Module:CapitalShipFactory"
 	entityDefName "Amarr_Structure_CapitalShipFactory"
 planetItemType
-	designName "Amarr:Module:CombatLab"
+	designName "Tech:Module:CombatLab"
 	entityDefName "Amarr_Structure_CombatLab"
 planetItemType
-	designName "Amarr:Module:CrystalExtractor"
+	designName "Tech:Module:CrystalExtractor"
 	entityDefName "PLANETMODULE_TECHORBITALCRYSTALEXTRACTOR"
 planetItemType
-	designName "Amarr:Module:CultureCenter"
+	designName "Tech:Module:CultureCenter"
 	entityDefName "Amarr_Structure_CultureCenter"
 planetItemType
-	designName "Amarr:Module:FrigateFactory"
+	designName "Tech:Module:FrigateFactory"
 	entityDefName "Amarr_Structure_FrigateFactory"
 planetItemType
-	designName "Amarr:Module:HangarDefense"
+	designName "Tech:Module:HangarDefense"
 	entityDefName "Amarr_Structure_ECMBattery"
 planetItemType
-	designName "Amarr:Module:MetalExtractor"
+	designName "Tech:Module:MetalExtractor"
 	entityDefName "PLANETMODULE_TECHORBITALMETALEXTRACTOR"
 planetItemType
-	designName "Amarr:Module:NonCombatLab"
+	designName "Tech:Module:NonCombatLab"
 	entityDefName "Amarr_Structure_CivillianLab"
 planetItemType
-	designName "Amarr:Module:Refinery"
+	designName "Tech:Module:Refinery"
 	entityDefName "Amarr_Structure_Refinery"
 planetItemType
-	designName "Amarr:Module:RepairPlatform"
+	designName "Tech:Module:RepairPlatform"
 	entityDefName "Amarr_Structure_MediumPulseLaserBattery"
 planetItemType
-	designName "Amarr:Module:TradePort"
+	designName "Tech:Module:TradePort"
 	entityDefName "Amarr_Structure_TradePort"
 planetItemType
-	designName "Amarr:Module:GaussDefense"
+	designName "Tech:Module:GaussDefense"
 	entityDefName "Amarr_Structure_SmallPulseLaserBattery"	
 planetItemType
-	designName "Amarr:Module:JumpBlocker"
+	designName "Tech:Module:JumpBlocker"
 	entityDefName "Amarr_Structure_JumpBridge"
 planetItemType
-	designName "Amarr:Module:ShieldGenerator"
+	designName "Tech:Module:ShieldGenerator"
 	entityDefName "PLANETMODULE_TECHORBITALSHIELDGENERATOR"
 planetItemType
-	designName "Amarr:Module:TitanFactory"
+	designName "Tech:Module:TitanFactory"
 	entityDefName "Amarr_Structure_TitanFoundry"
 planetItemType
 	designName "Pirate:Module:GaussDefense"
 	entityDefName "PLANETMODULE_PIRATEORBITALGAUSSDEFENSE"
 planetItemType
-	designName "Gallente:Frigate:AntiFighter"
+	designName "Phase:Frigate:AntiFighter"
 	entityDefName "Gallente_Ship_Destroyer_Catalyst"
 planetItemType
-	designName "Gallente:Frigate:Carrier"
+	designName "Phase:Frigate:Carrier"
 	entityDefName "Gallente_Ship_Cruiser_Celestis"
 planetItemType
-	designName "Gallente:Frigate:Colony"
+	designName "Phase:Frigate:Colony"
 	entityDefName "Gallente_Ship_Colony_Orca"
 planetItemType
-	designName "Gallente:Frigate:Heavy"
+	designName "Phase:Frigate:Heavy"
 	entityDefName "Gallente_Ship_Battlecruiser_Myrmidon"
 planetItemType
-	designName "Gallente:Frigate:Light"
+	designName "Phase:Frigate:Light"
 	entityDefName "Gallente_Ship_Frigate_Incursus"
 planetItemType
-	designName "Gallente:Frigate:LongRange"
+	designName "Phase:Frigate:LongRange"
 	entityDefName "Gallente_Ship_Cruiser_Vexor"
 planetItemType
-	designName "Gallente:Frigate:Scout"
+	designName "Phase:Frigate:Scout"
 	entityDefName "Gallente_Ship_Frigate_Imicus"
 planetItemType
-	designName "Gallente:Frigate:Siege"
+	designName "Phase:Frigate:Siege"
 	entityDefName "Gallente_Ship_Frigate_Tristan"
 planetItemType
-	designName "Gallente:Frigate:Utility0"
+	designName "Phase:Frigate:Utility0"
 	entityDefName "Gallente_Ship_Battlecruiser_Brutix"
 planetItemType
-	designName "Gallente:Frigate:Utility1"
+	designName "Phase:Frigate:Utility1"
 	entityDefName "Gallente_Ship_Cruiser_Execuror"
 planetItemType
-	designName "Gallente:Frigate:Constructor"
+	designName "Phase:Frigate:Constructor"
 	entityDefName "Gallente_Ship_Constructor_Venture"	
 planetItemType
-	designName "Gallente:Corvette:Loyalist"
+	designName "Phase:Corvette:Loyalist"
 	entityDefName "Gallente_Ship_Frigate_Atron"
 planetItemType
-	designName "Gallente:Corvette:Rebel"
+	designName "Phase:Corvette:Rebel"
 	entityDefName "CorvettePhaseRebel"
 planetItemType
-	designName "Gallente:Frigate:Envoy"
+	designName "Phase:Frigate:Envoy"
 	entityDefName "Gallente_Ship_Envoy_Brutix"
 planetItemType
 	designName "Psi:Frigate:AntiFighter"
@@ -1088,76 +1088,73 @@ planetItemType
 	designName "Psi:Corvette:Rebel"
 	entityDefName "CorvettePsiRebel"
 planetItemType
-	designName "Amarr:Frigate:AntiFighter"
+	designName "Tech:Frigate:AntiFighter"
 	entityDefName "Amarr_Ship_Destroyer_Coercer"
 planetItemType
-	designName "Amarr:Frigate:Carrier"
+	designName "Tech:Frigate:Carrier"
 	entityDefName "Amarr_Ship_Cruiser_Arbitrator"
 planetItemType
-	designName "Amarr:Frigate:Colony"
+	designName "Tech:Frigate:Colony"
 	entityDefName "Amarr_Ship_Colony_Orca"
 planetItemType
-	designName "Amarr:Frigate:Heavy"
+	designName "Tech:Frigate:Heavy"
 	entityDefName "Amarr_Ship_Battlecruiser_Harbinger"
 planetItemType
-	designName "Amarr:Frigate:Light"
+	designName "Tech:Frigate:Light"
 	entityDefName "Amarr_Ship_Frigate_Punisher"
 planetItemType
-	designName "Minmatar:Frigate:Light"
-	entityDefName "Minmatar_Ship_Frigate_Rifter"	
-planetItemType
-	designName "Amarr:Frigate:LongRange"
+	designName "Tech:Frigate:LongRange"
 	entityDefName "Amarr_Ship_Cruiser_Omen"
 planetItemType
-	designName "Amarr:Frigate:Scout"
+	designName "Tech:Frigate:Scout"
 	entityDefName "Amarr_Ship_Frigate_Magnate"
 planetItemType
-	designName "Amarr:Frigate:Siege"
+	designName "Tech:Frigate:Siege"
 	entityDefName "Amarr_Ship_Frigate_Inquisitor"
 planetItemType
-	designName "Amarr:Frigate:Utility0"
+	designName "Tech:Frigate:Utility0"
 	entityDefName "Amarr_Ship_Battlecruiser_Prophecy"
 planetItemType
-	designName "Amarr:Frigate:Utility1"
+	designName "Tech:Frigate:Utility1"
 	entityDefName "Amarr_Ship_Cruiser_Augoror"
 planetItemType
-	designName "Amarr:Frigate:Constructor"
+	designName "Tech:Frigate:Constructor"
 	entityDefName "Amarr_Ship_Constructor_Venture"
 planetItemType
-	designName "Amarr:Frigate:Envoy"
+	designName "Tech:Frigate:Envoy"
 	entityDefName "Amarr_Ship_Envoy_Prophecy"
 planetItemType
-	designName "Amarr:Corvette:Loyalist"
+	designName "Tech:Corvette:Loyalist"
 	entityDefName "Amarr_Ship_Frigate_Excecutioner"
 planetItemType
-	designName "Amarr:Corvette:Rebel"
+	designName "Tech:Corvette:Rebel"
 	entityDefName "CorvetteTechRebel"
 planetItemType
-	designName "Gallente:StarBase"
+	designName "Phase:StarBase"
 	entityDefName "StarBasePhase"
 planetItemType
 	designName "Psi:StarBase"
 	entityDefName "StarBasePsi"
 planetItemType
-	designName "Amarr:StarBase"
+	designName "Tech:StarBase"
 	entityDefName "Amarr_Structure_AmarrTacticalOutpost"
 planetItemType
-	designName "Gallente:CapitalShip:BattleShip"
+	designName "Phase:CapitalShip:BattleShip"
 	entityDefName "Gallente_Ship_Carrier_Thanatos"
 planetItemType
-	designName "Gallente:CapitalShip:BattleShip2"
+	designName "Phase:CapitalShip:BattleShip2"
 	entityDefName "Gallente_Ship_ColonyCapital_Rorqual"
 planetItemType
-	designName "Gallente:CapitalShip:Carrier"
+	designName "Phase:CapitalShip:Carrier"
 	entityDefName "Gallente_Ship_Supercarrier_Nyx"
 planetItemType
-	designName "Gallente:CapitalShip:Colony"
+	designName "Phase:CapitalShip:Colony"
 	entityDefName "Gallente_Ship_Dreadnought_Moros_ShortRange"
 planetItemType
-	designName "Gallente:CapitalShip:Scout"
+	designName "Phase:CapitalShip:Scout"
 	entityDefName "Gallente_Ship_Carrier_Triage_Thanatos"
 planetItemType
-	designName "Gallente:CapitalShip:Siege"
+	designName "Phase:CapitalShip:Siege"
 	entityDefName "Gallente_Ship_Dreadnought_Moros_LongRange"
 planetItemType
 	designName "Psi:CapitalShip:BattleShip"
@@ -1178,28 +1175,28 @@ planetItemType
 	designName "Psi:CapitalShip:PlanetPsionic"
 	entityDefName "CAPITALSHIP_PSIPLANETPSIONIC"
 planetItemType
-	designName "Amarr:CapitalShip:BattleShip"
+	designName "Tech:CapitalShip:BattleShip"
 	entityDefName "Amarr_Ship_Carrier_Archon"
 planetItemType
-	designName "Amarr:CapitalShip:Carrier"
+	designName "Tech:CapitalShip:Carrier"
 	entityDefName "Amarr_Ship_Supercarrier_Aeon"
 planetItemType
-	designName "Amarr:CapitalShip:Colony"
+	designName "Tech:CapitalShip:Colony"
 	entityDefName "Amarr_Ship_Dreadnought_Revelation_ShortRange"
 planetItemType
-	designName "Amarr:CapitalShip:Support"
+	designName "Tech:CapitalShip:Support"
 	entityDefName "CAPITALSHIP_TECHSUPPORT"
 planetItemType
-	designName "Amarr:CapitalShip:Siege"
+	designName "Tech:CapitalShip:Siege"
 	entityDefName "CAPITALSHIP_TECHSIEGE"
 planetItemType
-	designName "Amarr:CapitalShip:Transport"
+	designName "Tech:CapitalShip:Transport"
 	entityDefName "Amarr_Ship_ColonyCapital_Rorqual"
 planetItemType
-	designName "Gallente:Titan:Loyalist"
+	designName "Phase:Titan:Loyalist"
 	entityDefName "Gallente_Ship_Titan_Erebus"
 planetItemType
-	designName "Gallente:Titan:Rebel"
+	designName "Phase:Titan:Rebel"
 	entityDefName "TITAN_PHASEREBEL"
 planetItemType
 	designName "Psi:Titan:Loyalist"
@@ -1208,10 +1205,10 @@ planetItemType
 	designName "Psi:Titan:Rebel"
 	entityDefName "TITAN_PSIREBEL"
 planetItemType
-	designName "Amarr:Titan:Loyalist"
+	designName "Tech:Titan:Loyalist"
 	entityDefName "Amarr_Ship_Titan_Avatar"
 planetItemType
-	designName "Amarr:Titan:Rebel"
+	designName "Tech:Titan:Rebel"
 	entityDefName "TITAN_TECHREBEL"
 planetItemType
 	designName "Pirate:Frigate:Medium"
@@ -1557,10 +1554,10 @@ planetItemType
 	entityDefName "Caldari_Ship_Frigate_Heron"
 planetItemType
 	designName "Caldari:Frigate:Light"
-	entityDefName "Caldari_Ship_Frigate_kestrel"	
+	entityDefName "Caldari_Ship_Frigate_Merlin"	
 playerTypeCount 9
 playerType
-	designName "AmarrEmpire"
+	designName "TechLoyalist"
 	entityDefName "Player_AmarrEmpire"
 playerType
 	designName "Caldari"
@@ -1569,7 +1566,7 @@ playerType
 	designName "Minmatar"
 	entityDefName "Player_MinmatarRepublic"
 playerType
-	designName "GallenteFederation"
+	designName "PhaseLoyalist"
 	entityDefName "Player_GallenteFederation"
 playerType
 	designName "PsiLoyalist"
@@ -1598,15 +1595,15 @@ planetItemsTemplate
 		group
 			condition
 				type "PlanetOwnerIsRaceNormalStart"
-				param "AmarrEmpire"
+				param "TechLoyalist"
 			owner "PlanetOwner"
 			colonizeChance 1
 			items 5
-				item "Amarr:Module:FrigateFactory"
-				item "Amarr:Module:FrigateFactory"			
-				item "Amarr:Frigate:Constructor"
-				item "Amarr:Frigate:Constructor"				
-				item "Amarr:CapitalShip:Transport"				
+				item "Tech:Module:FrigateFactory"
+				item "Tech:Module:FrigateFactory"			
+				item "Tech:Frigate:Constructor"
+				item "Tech:Frigate:Constructor"				
+				item "Tech:CapitalShip:Transport"				
 		group
 			condition
 				type "PlanetOwnerIsRaceNormalStart"
@@ -1614,10 +1611,10 @@ planetItemsTemplate
 			owner "PlanetOwner"
 			colonizeChance 1
 			items 4
-				item "Amarr:Module:FrigateFactory"
-				item "Amarr:Module:FrigateFactory"
-				item "Amarr:Frigate:Constructor"
-				item "Amarr:Frigate:Constructor"
+				item "Tech:Module:FrigateFactory"
+				item "Tech:Module:FrigateFactory"
+				item "Tech:Frigate:Constructor"
+				item "Tech:Frigate:Constructor"
 		group
 			condition
 				type "PlanetOwnerIsRaceNormalStart"
@@ -1632,26 +1629,26 @@ planetItemsTemplate
 		group
 			condition
 				type "PlanetOwnerIsRaceNormalStart"
-				param "Minmatar"
+				param "PsiRebel"
 			owner "PlanetOwner"
 			colonizeChance 1
 			items 4		
-				item "Amarr:Module:FrigateFactory"
-				item "Amarr:Module:FrigateFactory"
-				item "Amarr:Frigate:Constructor"
-				item "Amarr:Frigate:Constructor"
+				item "Psi:Module:FrigateFactory"
+				item "Psi:Module:FrigateFactory"
+				item "Psi:Frigate:Constructor"
+				item "Psi:Frigate:Constructor"
 		group
 			condition
 				type "PlanetOwnerIsRaceNormalStart"
-				param "GallenteFederation"
+				param "PhaseLoyalist"
 			owner "PlanetOwner"
 			colonizeChance 1
 			items 5
-				item "Gallente:Module:FrigateFactory"
-				item "Gallente:Module:FrigateFactory"
-				item "Gallente:Frigate:Constructor"
-				item "Gallente:Frigate:Constructor"
-				item "Gallente:CapitalShip:BattleShip2"
+				item "Phase:Module:FrigateFactory"
+				item "Phase:Module:FrigateFactory"
+				item "Phase:Frigate:Constructor"
+				item "Phase:Frigate:Constructor"
+				item "Phase:CapitalShip:BattleShip2"
 		group
 			condition
 				type "PlanetOwnerIsRaceNormalStart"
@@ -1659,11 +1656,11 @@ planetItemsTemplate
 			owner "PlanetOwner"
 			colonizeChance 1
 			items 5
-				item "Gallente:Module:FrigateFactory"
-				item "Gallente:Module:FrigateFactory"
-				item "Gallente:Frigate:Constructor"
-				item "Gallente:Frigate:Constructor"
-				item "Gallente:CapitalShip:BattleShip2"
+				item "Phase:Module:FrigateFactory"
+				item "Phase:Module:FrigateFactory"
+				item "Phase:Frigate:Constructor"
+				item "Phase:Frigate:Constructor"
+				item "Phase:CapitalShip:BattleShip2"
 				group
 			condition
 				type "PlanetOwnerIsRaceNormalStart"
@@ -1671,28 +1668,28 @@ planetItemsTemplate
 			owner "PlanetOwner"
 			colonizeChance 1
 			items 4
-				item "Gallente:Module:FrigateFactory"
-				item "Gallente:Module:FrigateFactory"
-				item "Gallente:Frigate:Constructor"
-				item "Gallente:Frigate:Constructor"
+				item "Phase:Module:FrigateFactory"
+				item "Phase:Module:FrigateFactory"
+				item "Phase:Frigate:Constructor"
+				item "Phase:Frigate:Constructor"
 		group
 			condition
 				type "PlanetOwnerIsRaceQuickStart"
-				param "AmarrEmpire"
+				param "TechLoyalist"
 			owner "PlanetOwner"
 			colonizeChance 1
 			items 11
-				item "Amarr:Module:FrigateFactory"
-				item "Amarr:Module:FrigateFactory"				
-				item "Amarr:Module:CapitalShipFactory"
-				item "Amarr:Module:MetalExtractor"
-				item "Amarr:Module:MetalExtractor"			
-				item "Amarr:Module:CrystalExtractor"
-				item "Amarr:Frigate:Constructor"
-				item "Amarr:Frigate:Constructor"
-				item "Amarr:Frigate:Scout"
-				item "Amarr:Frigate:Scout"
-				item "Amarr:CapitalShip:Transport"				
+				item "Tech:Module:FrigateFactory"
+				item "Tech:Module:FrigateFactory"				
+				item "Tech:Module:CapitalShipFactory"
+				item "Tech:Module:MetalExtractor"
+				item "Tech:Module:MetalExtractor"			
+				item "Tech:Module:CrystalExtractor"
+				item "Tech:Frigate:Constructor"
+				item "Tech:Frigate:Constructor"
+				item "Tech:Frigate:Scout"
+				item "Tech:Frigate:Scout"
+				item "Tech:CapitalShip:Transport"				
 		group
 			condition
 				type "PlanetOwnerIsRaceQuickStart"
@@ -1700,17 +1697,17 @@ planetItemsTemplate
 			owner "PlanetOwner"
 			colonizeChance 1
 			items 11
-				item "Amarr:Module:FrigateFactory"
-				item "Amarr:Module:FrigateFactory"				
-				item "Amarr:Module:CapitalShipFactory"
-				item "Amarr:Module:MetalExtractor"
-				item "Amarr:Module:MetalExtractor"			
-				item "Amarr:Module:CrystalExtractor"
-				item "Amarr:Frigate:Constructor"
-				item "Amarr:Frigate:Constructor"
+				item "Tech:Module:FrigateFactory"
+				item "Tech:Module:FrigateFactory"				
+				item "Tech:Module:CapitalShipFactory"
+				item "Tech:Module:MetalExtractor"
+				item "Tech:Module:MetalExtractor"			
+				item "Tech:Module:CrystalExtractor"
+				item "Tech:Frigate:Constructor"
+				item "Tech:Frigate:Constructor"
 				item "Minmatar:Frigate:Scout"
 				item "Minmatar:Frigate:Scout"
-				item "Amarr:CapitalShip:Transport"				
+				item "Tech:CapitalShip:Transport"				
 		group
 			condition
 				type "PlanetOwnerIsRaceQuickStart"
@@ -1731,21 +1728,21 @@ planetItemsTemplate
 		group
 			condition
 				type "PlanetOwnerIsRaceQuickStart"
-				param "GallenteFederation"
+				param "PhaseLoyalist"
 			owner "PlanetOwner"
 			colonizeChance 1
 			items 11
-				item "Gallente:Module:FrigateFactory"
-				item "Gallente:Module:FrigateFactory"
-				item "Gallente:Module:CapitalShipFactory"
-				item "Gallente:Module:MetalExtractor"
-				item "Gallente:Module:MetalExtractor"
-				item "Gallente:Module:CrystalExtractor"
-				item "Gallente:Frigate:Constructor"
-				item "Gallente:Frigate:Constructor"
-				item "Gallente:Frigate:Scout"
-				item "Gallente:Frigate:Scout"
-				item "Gallente:CapitalShip:BattleShip2"				
+				item "Phase:Module:FrigateFactory"
+				item "Phase:Module:FrigateFactory"
+				item "Phase:Module:CapitalShipFactory"
+				item "Phase:Module:MetalExtractor"
+				item "Phase:Module:MetalExtractor"
+				item "Phase:Module:CrystalExtractor"
+				item "Phase:Frigate:Constructor"
+				item "Phase:Frigate:Constructor"
+				item "Phase:Frigate:Scout"
+				item "Phase:Frigate:Scout"
+				item "Phase:CapitalShip:BattleShip2"				
 		group
 			condition
 				type "PlanetOwnerIsRaceQuickStart"
@@ -1753,17 +1750,17 @@ planetItemsTemplate
 			owner "PlanetOwner"
 			colonizeChance 1
 			items 11
-				item "Gallente:Module:FrigateFactory"
-				item "Gallente:Module:FrigateFactory"
-				item "Gallente:Module:CapitalShipFactory"
-				item "Gallente:Module:MetalExtractor"
-				item "Gallente:Module:MetalExtractor"
-				item "Gallente:Module:CrystalExtractor"
-				item "Gallente:Frigate:Constructor"
-				item "Gallente:Frigate:Constructor"
+				item "Phase:Module:FrigateFactory"
+				item "Phase:Module:FrigateFactory"
+				item "Phase:Module:CapitalShipFactory"
+				item "Phase:Module:MetalExtractor"
+				item "Phase:Module:MetalExtractor"
+				item "Phase:Module:CrystalExtractor"
+				item "Phase:Frigate:Constructor"
+				item "Phase:Frigate:Constructor"
 				item "Caldari:Frigate:Scout"
 				item "Caldari:Frigate:Scout"
-				item "Gallente:CapitalShip:BattleShip2"				
+				item "Phase:CapitalShip:BattleShip2"				
 		group
 			condition
 				type "PlanetOwnerIsRaceQuickStart"
@@ -1771,16 +1768,16 @@ planetItemsTemplate
 			owner "PlanetOwner"
 			colonizeChance 1
 			items 10
-				item "Amarr:Module:FrigateFactory"
-				item "Amarr:Module:FrigateFactory"
-				item "Amarr:Module:CapitalShipFactory"
-				item "Amarr:Module:MetalExtractor"
-				item "Amarr:Module:MetalExtractor"
-				item "Amarr:Module:CrystalExtractor"
-				item "Amarr:Frigate:Constructor"
-				item "Amarr:Frigate:Constructor"
-				item "Amarr:Frigate:Scout"
-				item "Amarr:Frigate:Scout"
+				item "Tech:Module:FrigateFactory"
+				item "Tech:Module:FrigateFactory"
+				item "Tech:Module:CapitalShipFactory"
+				item "Tech:Module:MetalExtractor"
+				item "Tech:Module:MetalExtractor"
+				item "Tech:Module:CrystalExtractor"
+				item "Tech:Frigate:Constructor"
+				item "Tech:Frigate:Constructor"
+				item "Tech:Frigate:Scout"
+				item "Tech:Frigate:Scout"
 		group
 			condition
 				type "PlanetOwnerIsRaceQuickStart"
@@ -1805,16 +1802,16 @@ planetItemsTemplate
 			owner "PlanetOwner"
 			colonizeChance 1
 			items 10
-				item "Gallente:Module:FrigateFactory"
-				item "Gallente:Module:FrigateFactory"
-				item "Gallente:Module:CapitalShipFactory"
-				item "Gallente:Module:MetalExtractor"
-				item "Gallente:Module:MetalExtractor"
-				item "Gallente:Module:CrystalExtractor"
-				item "Gallente:Frigate:Constructor"
-				item "Gallente:Frigate:Constructor"
-				item "Gallente:Frigate:Scout"
-				item "Gallente:Frigate:Scout"
+				item "Phase:Module:FrigateFactory"
+				item "Phase:Module:FrigateFactory"
+				item "Phase:Module:CapitalShipFactory"
+				item "Phase:Module:MetalExtractor"
+				item "Phase:Module:MetalExtractor"
+				item "Phase:Module:CrystalExtractor"
+				item "Phase:Frigate:Constructor"
+				item "Phase:Frigate:Constructor"
+				item "Phase:Frigate:Scout"
+				item "Phase:Frigate:Scout"
 planetItemsTemplate
 	templateName "Template:DefaultStart_Terran"
 	subTemplates 2
@@ -1987,15 +1984,15 @@ planetItemsTemplate
 		group
 			condition
 				type "PlanetOwnerIsRaceNormalStart"
-				param "AmarrEmpire"
+				param "TechLoyalist"
 			owner "PlanetOwner"
 			colonizeChance 1
 			items 5
-				item "Amarr:Frigate:Scout"
-				item "Amarr:Frigate:Light"
-				item "Amarr:Frigate:Light"
-				item "Amarr:Frigate:Light"
-				item "Amarr:Frigate:Light"
+				item "Tech:Frigate:Scout"
+				item "Tech:Frigate:Light"
+				item "Tech:Frigate:Light"
+				item "Tech:Frigate:Light"
+				item "Tech:Frigate:Light"
 		group
 			condition
 				type "PlanetOwnerIsRaceNormalStart"
@@ -2015,10 +2012,10 @@ planetItemsTemplate
 			colonizeChance 1
 			items 5
 				item "Minmatar:Frigate:Scout"
-				item "Minmatar:Frigate:Light"
-				item "Minmatar:Frigate:Light"
-				item "Minmatar:Frigate:Light"
-				item "Minmatar:Frigate:Light"
+				item "Tech:Frigate:Light"
+				item "Tech:Frigate:Light"
+				item "Tech:Frigate:Light"
+				item "Tech:Frigate:Light"
 		group
 			condition
 				type "PlanetOwnerIsRaceNormalStart"
@@ -2035,26 +2032,26 @@ planetItemsTemplate
 		group
 			condition
 				type "PlanetOwnerIsRaceNormalStart"
-				param "GallenteFederation"
+				param "PhaseLoyalist"
 			owner "PlanetOwner"
 			colonizeChance 1
 			items 4
-				item "Gallente:Frigate:Scout"
-				item "Gallente:Frigate:Light"
-				item "Gallente:Frigate:Light"
-				item "Gallente:Frigate:Light"
+				item "Phase:Frigate:Scout"
+				item "Phase:Frigate:Light"
+				item "Phase:Frigate:Light"
+				item "Phase:Frigate:Light"
 		group
 			condition
 				type "PlanetOwnerIsRaceQuickStart"
-				param "AmarrEmpire"
+				param "TechLoyalist"
 			owner "PlanetOwner"
 			colonizeChance 1
 			items 5
-				item "Amarr:Frigate:Scout"
-				item "Amarr:Frigate:Light"
-				item "Amarr:Frigate:Light"
-				item "Amarr:Frigate:Light"
-				item "Amarr:Frigate:Light"
+				item "Tech:Frigate:Scout"
+				item "Tech:Frigate:Light"
+				item "Tech:Frigate:Light"
+				item "Tech:Frigate:Light"
+				item "Tech:Frigate:Light"
 		group
 			condition
 				type "PlanetOwnerIsRaceQuickStart"
@@ -2063,10 +2060,10 @@ planetItemsTemplate
 			colonizeChance 1
 			items 5
 				item "Minmatar:Frigate:Scout"
-				item "Minmatar:Frigate:Light"
-				item "Minmatar:Frigate:Light"
-				item "Minmatar:Frigate:Light"
-				item "Minmatar:Frigate:Light"
+				item "Tech:Frigate:Light"
+				item "Tech:Frigate:Light"
+				item "Tech:Frigate:Light"
+				item "Tech:Frigate:Light"
 		group
 			condition
 				type "PlanetOwnerIsRaceQuickStart"
@@ -2094,14 +2091,14 @@ planetItemsTemplate
 		group
 			condition
 				type "PlanetOwnerIsRaceQuickStart"
-				param "GallenteFederation"
+				param "PhaseLoyalist"
 			owner "PlanetOwner"
 			colonizeChance 1
 			items 4
-				item "Gallente:Frigate:Scout"
-				item "Gallente:Frigate:Light"
-				item "Gallente:Frigate:Light"
-				item "Gallente:Frigate:Light"
+				item "Phase:Frigate:Scout"
+				item "Phase:Frigate:Light"
+				item "Phase:Frigate:Light"
+				item "Phase:Frigate:Light"
 		group
 			condition
 				type "PlanetOwnerIsRaceNormalStart"
@@ -2109,11 +2106,11 @@ planetItemsTemplate
 			owner "PlanetOwner"
 			colonizeChance 1
 			items 5
-				item "Amarr:Frigate:Scout"
-				item "Amarr:Frigate:Light"
-				item "Amarr:Frigate:Light"
-				item "Amarr:Frigate:Light"
-				item "Amarr:Frigate:Light"
+				item "Tech:Frigate:Scout"
+				item "Tech:Frigate:Light"
+				item "Tech:Frigate:Light"
+				item "Tech:Frigate:Light"
+				item "Tech:Frigate:Light"
 		group
 			condition
 				type "PlanetOwnerIsRaceNormalStart"
@@ -2134,10 +2131,10 @@ planetItemsTemplate
 			owner "PlanetOwner"
 			colonizeChance 1
 			items 4
-				item "Gallente:Frigate:Scout"
-				item "Gallente:Frigate:Light"
-				item "Gallente:Frigate:Light"
-				item "Gallente:Frigate:Light"
+				item "Phase:Frigate:Scout"
+				item "Phase:Frigate:Light"
+				item "Phase:Frigate:Light"
+				item "Phase:Frigate:Light"
 		group
 			condition
 				type "PlanetOwnerIsRaceNormalStart"
@@ -2145,10 +2142,10 @@ planetItemsTemplate
 			owner "PlanetOwner"
 			colonizeChance 1
 			items 4
-				item "Gallente:Frigate:Scout"
-				item "Gallente:Frigate:Light"
-				item "Gallente:Frigate:Light"
-				item "Gallente:Frigate:Light"
+				item "Phase:Frigate:Scout"
+				item "Phase:Frigate:Light"
+				item "Phase:Frigate:Light"
+				item "Phase:Frigate:Light"
 		group
 			condition
 				type "PlanetOwnerIsRaceQuickStart"
@@ -2156,11 +2153,11 @@ planetItemsTemplate
 			owner "PlanetOwner"
 			colonizeChance 1
 			items 5
-				item "Amarr:Frigate:Scout"
-				item "Amarr:Frigate:Light"
-				item "Amarr:Frigate:Light"
-				item "Amarr:Frigate:Light"
-				item "Amarr:Frigate:Light"
+				item "Tech:Frigate:Scout"
+				item "Tech:Frigate:Light"
+				item "Tech:Frigate:Light"
+				item "Tech:Frigate:Light"
+				item "Tech:Frigate:Light"
 		group
 			condition
 				type "PlanetOwnerIsRaceQuickStart"
@@ -2181,10 +2178,10 @@ planetItemsTemplate
 			owner "PlanetOwner"
 			colonizeChance 1
 			items 4
-				item "Gallente:Frigate:Scout"
-				item "Gallente:Frigate:Light"
-				item "Gallente:Frigate:Light"
-				item "Gallente:Frigate:Light"
+				item "Phase:Frigate:Scout"
+				item "Phase:Frigate:Light"
+				item "Phase:Frigate:Light"
+				item "Phase:Frigate:Light"
 planetItemsTemplate
 	templateName "Template:LocalMilitiaVeryWeak"
 	subTemplates 0
@@ -2196,12 +2193,12 @@ planetItemsTemplate
 			owner "PlanetOwner"
 			colonizeChance 0
 			items 6
-				item "Amarr:Frigate:Light"
-				item "Amarr:Frigate:Light"
-				item "Amarr:Frigate:Light"
-				item "Amarr:Module:CrystalExtractor"
-				item "Amarr:Module:MetalExtractor"
-				item "Amarr:Module:GaussDefense"
+				item "Tech:Frigate:Light"
+				item "Tech:Frigate:Light"
+				item "Tech:Frigate:Light"
+				item "Tech:Module:CrystalExtractor"
+				item "Tech:Module:MetalExtractor"
+				item "Tech:Module:GaussDefense"
 		group
 			condition
 				type "NoPlanetOwner"
@@ -2209,8 +2206,8 @@ planetItemsTemplate
 			owner "RandomMilitia"
 			colonizeChance 0
 			items 2
-				item "Amarr:Frigate:Light"
-				item "Amarr:Frigate:Siege"
+				item "Tech:Frigate:Light"
+				item "Tech:Frigate:Siege"
 planetItemsTemplate
 	templateName "Template:LocalMilitiaWeakUncolonizable"
 	subTemplates 0
@@ -2249,11 +2246,11 @@ planetItemsTemplate
 			owner "PlanetOwner"
 			colonizeChance 0
 			items 5
-				item "Amarr:Frigate:Light"
-				item "Amarr:Frigate:Siege"
-				item "Amarr:Module:GaussDefense"
-				item "Amarr:Module:MetalExtractor"
-				item "Amarr:Module:CrystalExtractor"
+				item "Tech:Frigate:Light"
+				item "Tech:Frigate:Siege"
+				item "Tech:Module:GaussDefense"
+				item "Tech:Module:MetalExtractor"
+				item "Tech:Module:CrystalExtractor"
 		group
 			condition
 				type "PlanetOwnerIsMilitiaWithChance"
@@ -2261,9 +2258,9 @@ planetItemsTemplate
 			owner "PlanetOwner"
 			colonizeChance 0
 			items 3
-				item "Amarr:Frigate:Light"
-				item "Amarr:Frigate:Light"	
-				item "Amarr:Frigate:Light"	
+				item "Tech:Frigate:Light"
+				item "Tech:Frigate:Light"	
+				item "Tech:Frigate:Light"	
 		group
 			condition
 				type "PlanetOwnerIsMilitiaWithChance"
@@ -2271,9 +2268,9 @@ planetItemsTemplate
 			owner "PlanetOwner"
 			colonizeChance 0
 			items 3
-				item "Amarr:Module:GaussDefense"
-				item "Amarr:Module:GaussDefense"
-				item "Amarr:Module:GaussDefense"
+				item "Tech:Module:GaussDefense"
+				item "Tech:Module:GaussDefense"
+				item "Tech:Module:GaussDefense"
 		group
 			condition
 				type "NoPlanetOwner"
@@ -2281,8 +2278,8 @@ planetItemsTemplate
 			owner "RandomMilitia"
 			colonizeChance 0
 			items 2
-				item "Amarr:Frigate:Light"
-				item "Amarr:Frigate:Siege"
+				item "Tech:Frigate:Light"
+				item "Tech:Frigate:Siege"
 		group
 			condition
 				type "NoPlanetOwnerWithChance"
@@ -2290,8 +2287,8 @@ planetItemsTemplate
 			owner "RandomMilitia"
 			colonizeChance 0
 			items 2
-				item "Amarr:Frigate:Light"
-				item "Amarr:Frigate:Light"
+				item "Tech:Frigate:Light"
+				item "Tech:Frigate:Light"
 planetItemsTemplate
 	templateName "Template:LocalMilitiaWeakFair"
 	subTemplates 0
@@ -2303,14 +2300,14 @@ planetItemsTemplate
 			owner "PlanetOwner"
 			colonizeChance 0
 			items 8
-				item "Amarr:Frigate:Light"
-				item "Amarr:Frigate:Light"
-				item "Amarr:Frigate:Siege"
-				item "Amarr:Module:GaussDefense"
-				item "Amarr:Module:GaussDefense"
-				item "Amarr:Module:GaussDefense"
-				item "Amarr:Module:MetalExtractor"
-				item "Amarr:Module:CrystalExtractor"
+				item "Tech:Frigate:Light"
+				item "Tech:Frigate:Light"
+				item "Tech:Frigate:Siege"
+				item "Tech:Module:GaussDefense"
+				item "Tech:Module:GaussDefense"
+				item "Tech:Module:GaussDefense"
+				item "Tech:Module:MetalExtractor"
+				item "Tech:Module:CrystalExtractor"
 		group
 			condition
 				type "NoPlanetOwner"
@@ -2318,9 +2315,9 @@ planetItemsTemplate
 			owner "RandomMilitia"
 			colonizeChance 0
 			items 3
-				item "Amarr:Frigate:Light"
-				item "Amarr:Frigate:Light"
-				item "Amarr:Frigate:Siege"
+				item "Tech:Frigate:Light"
+				item "Tech:Frigate:Light"
+				item "Tech:Frigate:Siege"
 planetItemsTemplate
 	templateName "Template:LocalMilitiaMedium"
 	subTemplates 0
@@ -2332,15 +2329,15 @@ planetItemsTemplate
 			owner "PlanetOwner"
 			colonizeChance 0
 			items 9
-				item "Amarr:Frigate:Light"
-				item "Amarr:Frigate:Light"
-				item "Amarr:Frigate:Siege"
-				item "Amarr:Module:GaussDefense"
-				item "Amarr:Module:GaussDefense"
-				item "Amarr:Module:GaussDefense"
-				item "Amarr:Module:HangarDefense"
-				item "Amarr:Module:CrystalExtractor"
-				item "Amarr:Module:MetalExtractor"
+				item "Tech:Frigate:Light"
+				item "Tech:Frigate:Light"
+				item "Tech:Frigate:Siege"
+				item "Tech:Module:GaussDefense"
+				item "Tech:Module:GaussDefense"
+				item "Tech:Module:GaussDefense"
+				item "Tech:Module:HangarDefense"
+				item "Tech:Module:CrystalExtractor"
+				item "Tech:Module:MetalExtractor"
 		group
 			condition
 				type "PlanetOwnerIsMilitiaWithChance"
@@ -2348,10 +2345,10 @@ planetItemsTemplate
 			owner "PlanetOwner"
 			colonizeChance 0
 			items 4
-				item "Amarr:Frigate:LongRange"
-				item "Amarr:Frigate:LongRange"
-				item "Amarr:Module:GaussDefense"
-				item "Amarr:Module:GaussDefense"				
+				item "Tech:Frigate:LongRange"
+				item "Tech:Frigate:LongRange"
+				item "Tech:Module:GaussDefense"
+				item "Tech:Module:GaussDefense"				
 		group
 			condition
 				type "PlanetOwnerIsMilitiaWithChance"
@@ -2359,9 +2356,9 @@ planetItemsTemplate
 			owner "PlanetOwner"
 			colonizeChance 0
 			items 3
-				item "Amarr:Frigate:Siege"
-				item "Amarr:Frigate:Siege"	
-				item "Amarr:Module:HangarDefense"				
+				item "Tech:Frigate:Siege"
+				item "Tech:Frigate:Siege"	
+				item "Tech:Module:HangarDefense"				
 		group
 			condition
 				type "NoPlanetOwner"
@@ -2369,9 +2366,9 @@ planetItemsTemplate
 			owner "RandomMilitia"
 			colonizeChance 0
 			items 3
-				item "Amarr:Frigate:Light"
-				item "Amarr:Frigate:Light"
-				item "Amarr:Frigate:Siege"
+				item "Tech:Frigate:Light"
+				item "Tech:Frigate:Light"
+				item "Tech:Frigate:Siege"
 		group
 			condition
 				type "NoPlanetOwnerWithChance"
@@ -2379,8 +2376,8 @@ planetItemsTemplate
 			owner "RandomMilitia"
 			colonizeChance 0
 			items 2
-				item "Amarr:Frigate:LongRange"
-				item "Amarr:Frigate:LongRange"
+				item "Tech:Frigate:LongRange"
+				item "Tech:Frigate:LongRange"
 		group
 			condition
 				type "NoPlanetOwnerWithChance"
@@ -2388,8 +2385,8 @@ planetItemsTemplate
 			owner "RandomMilitia"
 			colonizeChance 0
 			items 2
-				item "Amarr:Frigate:Siege"
-				item "Amarr:Frigate:Siege"
+				item "Tech:Frigate:Siege"
+				item "Tech:Frigate:Siege"
 planetItemsTemplate
 	templateName "Template:LocalMilitiaMediumFair"
 	subTemplates 0
@@ -2401,19 +2398,19 @@ planetItemsTemplate
 			owner "PlanetOwner"
 			colonizeChance 0
 			items 13
-				item "Amarr:Frigate:Light"
-				item "Amarr:Frigate:Light"
-				item "Amarr:Frigate:LongRange"
-				item "Amarr:Frigate:Siege"
-				item "Amarr:Frigate:Siege"
-				item "Amarr:Module:GaussDefense"
-				item "Amarr:Module:GaussDefense"
-				item "Amarr:Module:GaussDefense"
-				item "Amarr:Module:GaussDefense"
-				item "Amarr:Module:HangarDefense"
-				item "Amarr:Module:HangarDefense"
-				item "Amarr:Module:CrystalExtractor"
-				item "Amarr:Module:MetalExtractor"			
+				item "Tech:Frigate:Light"
+				item "Tech:Frigate:Light"
+				item "Tech:Frigate:LongRange"
+				item "Tech:Frigate:Siege"
+				item "Tech:Frigate:Siege"
+				item "Tech:Module:GaussDefense"
+				item "Tech:Module:GaussDefense"
+				item "Tech:Module:GaussDefense"
+				item "Tech:Module:GaussDefense"
+				item "Tech:Module:HangarDefense"
+				item "Tech:Module:HangarDefense"
+				item "Tech:Module:CrystalExtractor"
+				item "Tech:Module:MetalExtractor"			
 		group
 			condition
 				type "NoPlanetOwner"
@@ -2421,11 +2418,11 @@ planetItemsTemplate
 			owner "RandomMilitia"
 			colonizeChance 0
 			items 5
-				item "Amarr:Frigate:Light"
-				item "Amarr:Frigate:Light"
-				item "Amarr:Frigate:LongRange"
-				item "Amarr:Frigate:Siege"
-				item "Amarr:Frigate:Siege"
+				item "Tech:Frigate:Light"
+				item "Tech:Frigate:Light"
+				item "Tech:Frigate:LongRange"
+				item "Tech:Frigate:Siege"
+				item "Tech:Frigate:Siege"
 planetItemsTemplate
 	templateName "Template:LocalMilitiaStrong"
 	subTemplates 0
@@ -2437,15 +2434,15 @@ planetItemsTemplate
 			owner "PlanetOwner"
 			colonizeChance 0
 			items 9
-				item "Amarr:Frigate:Light"
-				item "Amarr:Frigate:LongRange"
-				item "Amarr:Frigate:Heavy"
-				item "Amarr:Frigate:Heavy"
-				item "Amarr:Module:GaussDefense"		
-				item "Amarr:Module:GaussDefense"														
-				item "Amarr:Module:HangarDefense"		
-				item "Amarr:Module:MetalExtractor"														
-				item "Amarr:Module:MetalExtractor"														
+				item "Tech:Frigate:Light"
+				item "Tech:Frigate:LongRange"
+				item "Tech:Frigate:Heavy"
+				item "Tech:Frigate:Heavy"
+				item "Tech:Module:GaussDefense"		
+				item "Tech:Module:GaussDefense"														
+				item "Tech:Module:HangarDefense"		
+				item "Tech:Module:MetalExtractor"														
+				item "Tech:Module:MetalExtractor"														
 		group
 			condition
 				type "PlanetOwnerIsMilitiaWithChance"
@@ -2453,11 +2450,11 @@ planetItemsTemplate
 			owner "PlanetOwner"
 			colonizeChance 0
 			items 5
-				item "Amarr:Frigate:LongRange"
-				item "Amarr:Frigate:LongRange"
-				item "Amarr:Frigate:Heavy"
-				item "Amarr:Module:GaussDefense"						
-				item "Amarr:Module:HangarDefense"						
+				item "Tech:Frigate:LongRange"
+				item "Tech:Frigate:LongRange"
+				item "Tech:Frigate:Heavy"
+				item "Tech:Module:GaussDefense"						
+				item "Tech:Module:HangarDefense"						
 		group
 			condition
 				type "PlanetOwnerIsMilitiaWithChance"
@@ -2465,14 +2462,14 @@ planetItemsTemplate
 			owner "PlanetOwner"
 			colonizeChance 0
 			items 8
-				item "Amarr:Frigate:Light"
-				item "Amarr:Frigate:Light"
-				item "Amarr:Frigate:Light"
-				item "Amarr:Frigate:Light"
-				item "Amarr:Frigate:Light"
-				item "Amarr:Frigate:Light"
-				item "Amarr:Frigate:Heavy"
-				item "Amarr:Module:HangarDefense"						
+				item "Tech:Frigate:Light"
+				item "Tech:Frigate:Light"
+				item "Tech:Frigate:Light"
+				item "Tech:Frigate:Light"
+				item "Tech:Frigate:Light"
+				item "Tech:Frigate:Light"
+				item "Tech:Frigate:Heavy"
+				item "Tech:Module:HangarDefense"						
 		group
 			condition
 				type "PlanetOwnerIsMilitiaWithChance"
@@ -2480,8 +2477,8 @@ planetItemsTemplate
 			owner "PlanetOwner"
 			colonizeChance 0
 			items 2
-				item "Amarr:Frigate:Heavy"
-				item "Amarr:Module:GaussDefense"						
+				item "Tech:Frigate:Heavy"
+				item "Tech:Module:GaussDefense"						
 		group
 			condition
 				type "PlanetOwnerIsMilitiaWithChance"
@@ -2489,11 +2486,11 @@ planetItemsTemplate
 			owner "PlanetOwner"
 			colonizeChance 0
 			items 5
-				item "Amarr:Frigate:Siege"
-				item "Amarr:Frigate:Siege"
-				item "Amarr:Frigate:Heavy"
-				item "Amarr:Frigate:Heavy"
-				item "Amarr:Module:HangarDefense"					
+				item "Tech:Frigate:Siege"
+				item "Tech:Frigate:Siege"
+				item "Tech:Frigate:Heavy"
+				item "Tech:Frigate:Heavy"
+				item "Tech:Module:HangarDefense"					
 		group
 			condition
 				type "NoPlanetOwner"
@@ -2501,10 +2498,10 @@ planetItemsTemplate
 			owner "RandomMilitia"
 			colonizeChance 0
 			items 4
-				item "Amarr:Frigate:Light"
-				item "Amarr:Frigate:LongRange"
-				item "Amarr:Frigate:Heavy"
-				item "Amarr:Frigate:Siege"
+				item "Tech:Frigate:Light"
+				item "Tech:Frigate:LongRange"
+				item "Tech:Frigate:Heavy"
+				item "Tech:Frigate:Siege"
 		group
 			condition
 				type "NoPlanetOwnerWithChance"
@@ -2512,9 +2509,9 @@ planetItemsTemplate
 			owner "RandomMilitia"
 			colonizeChance 0
 			items 3
-				item "Amarr:Frigate:Light"
-				item "Amarr:Frigate:LongRange"
-				item "Amarr:Frigate:LongRange"
+				item "Tech:Frigate:Light"
+				item "Tech:Frigate:LongRange"
+				item "Tech:Frigate:LongRange"
 		group
 			condition
 				type "NoPlanetOwnerWithChance"
@@ -2522,11 +2519,11 @@ planetItemsTemplate
 			owner "RandomMilitia"
 			colonizeChance 0
 			items 5
-				item "Amarr:Frigate:Light"
-				item "Amarr:Frigate:Light"
-				item "Amarr:Frigate:Light"
-				item "Amarr:Frigate:Siege"
-				item "Amarr:Frigate:Siege"
+				item "Tech:Frigate:Light"
+				item "Tech:Frigate:Light"
+				item "Tech:Frigate:Light"
+				item "Tech:Frigate:Siege"
+				item "Tech:Frigate:Siege"
 		group
 			condition
 				type "NoPlanetOwnerWithChance"
@@ -2534,8 +2531,8 @@ planetItemsTemplate
 			owner "RandomMilitia"
 			colonizeChance 0
 			items 2
-				item "Amarr:Frigate:Light"
-				item "Amarr:Frigate:Heavy"
+				item "Tech:Frigate:Light"
+				item "Tech:Frigate:Heavy"
 		group
 			condition
 				type "NoPlanetOwnerWithChance"
@@ -2543,9 +2540,9 @@ planetItemsTemplate
 			owner "RandomMilitia"
 			colonizeChance 0
 			items 3
-				item "Amarr:Frigate:Light"
-				item "Amarr:Frigate:Siege"
-				item "Amarr:Frigate:Heavy"
+				item "Tech:Frigate:Light"
+				item "Tech:Frigate:Siege"
+				item "Tech:Frigate:Heavy"
 planetItemsTemplate
 	templateName "Template:LocalMilitiaStrongFair"
 	subTemplates 0
@@ -2557,25 +2554,25 @@ planetItemsTemplate
 			owner "PlanetOwner"
 			colonizeChance 0
 			items 19
-				item "Amarr:Frigate:Light"
-				item "Amarr:Frigate:Light"
-				item "Amarr:Frigate:Light"
-				item "Amarr:Frigate:LongRange"
-				item "Amarr:Frigate:LongRange"
-				item "Amarr:Frigate:Heavy"
-				item "Amarr:Frigate:Heavy"
-				item "Amarr:Frigate:Heavy"
-				item "Amarr:Frigate:Heavy"
-				item "Amarr:Frigate:Heavy"
-				item "Amarr:Frigate:Siege"
-				item "Amarr:Frigate:Siege"
-				item "Amarr:Module:GaussDefense"	
-				item "Amarr:Module:GaussDefense"
-				item "Amarr:Module:GaussDefense"															
-				item "Amarr:Module:HangarDefense"
-				item "Amarr:Module:HangarDefense"
-				item "Amarr:Module:MetalExtractor"											
-				item "Amarr:Module:MetalExtractor"					
+				item "Tech:Frigate:Light"
+				item "Tech:Frigate:Light"
+				item "Tech:Frigate:Light"
+				item "Tech:Frigate:LongRange"
+				item "Tech:Frigate:LongRange"
+				item "Tech:Frigate:Heavy"
+				item "Tech:Frigate:Heavy"
+				item "Tech:Frigate:Heavy"
+				item "Tech:Frigate:Heavy"
+				item "Tech:Frigate:Heavy"
+				item "Tech:Frigate:Siege"
+				item "Tech:Frigate:Siege"
+				item "Tech:Module:GaussDefense"	
+				item "Tech:Module:GaussDefense"
+				item "Tech:Module:GaussDefense"															
+				item "Tech:Module:HangarDefense"
+				item "Tech:Module:HangarDefense"
+				item "Tech:Module:MetalExtractor"											
+				item "Tech:Module:MetalExtractor"					
 		group
 			condition
 				type "NoPlanetOwner"
@@ -2583,14 +2580,14 @@ planetItemsTemplate
 			owner "RandomMilitia"
 			colonizeChance 0
 			items 8
-				item "Amarr:Frigate:Light"
-				item "Amarr:Frigate:Light"
-				item "Amarr:Frigate:LongRange"
-				item "Amarr:Frigate:LongRange"
-				item "Amarr:Frigate:Heavy"
-				item "Amarr:Frigate:Heavy"
-				item "Amarr:Frigate:Siege"
-				item "Amarr:Frigate:Siege"
+				item "Tech:Frigate:Light"
+				item "Tech:Frigate:Light"
+				item "Tech:Frigate:LongRange"
+				item "Tech:Frigate:LongRange"
+				item "Tech:Frigate:Heavy"
+				item "Tech:Frigate:Heavy"
+				item "Tech:Frigate:Siege"
+				item "Tech:Frigate:Siege"
 planetItemsTemplate
 	templateName "Template:LocalMilitia_Terran"
 	subTemplates 1
@@ -2838,58 +2835,58 @@ planetItemsTemplate
 			owner "Occupation"
 			colonizeChance 1
 			items 52
-				item "Gallente:StarBase"
-				item "Gallente:Titan:Rebel"
-				item "Gallente:Frigate:LongRange"
-				item "Gallente:Frigate:LongRange"
-				item "Gallente:Frigate:LongRange"
-				item "Gallente:Frigate:LongRange"
-				item "Gallente:Frigate:LongRange"
-				item "Gallente:Frigate:LongRange"
-				item "Gallente:Frigate:Carrier"
-				item "Gallente:Frigate:Carrier"
-				item "Gallente:Frigate:Carrier"
-				item "Gallente:Frigate:Siege"
-				item "Gallente:Frigate:Siege"
-				item "Gallente:Frigate:Siege"
-				item "Gallente:Frigate:AntiFighter"
-				item "Gallente:Frigate:AntiFighter"
-				item "Gallente:Frigate:AntiFighter"
-				item "Gallente:Frigate:AntiFighter"
-				item "Gallente:Frigate:AntiFighter"
-				item "Gallente:Frigate:AntiFighter"
-				item "Gallente:Module:HangarDefense"
-				item "Gallente:Module:HangarDefense"
-				item "Gallente:Module:MissileDefense"
-				item "Gallente:Module:MissileDefense"
-				item "Gallente:Module:MissileDefense"
-				item "Gallente:Module:MissileDefense"
-				item "Gallente:Module:MissileDefense"
-				item "Gallente:Module:MissileDefense"
-				item "Gallente:Module:MissileDefense"
-				item "Gallente:Module:MissileDefense"
-				item "Gallente:Module:MissileDefense"
-				item "Gallente:Module:MissileDefense"
-				item "Gallente:Module:MissileDefense"
-				item "Gallente:Module:MissileDefense"
-				item "Gallente:Module:MissileDefense"
-				item "Gallente:Module:RepairPlatform"
-				item "Gallente:Module:RepairPlatform"
-				item "Gallente:Frigate:Heavy"
-				item "Gallente:Frigate:Heavy"
-				item "Gallente:Frigate:Heavy"
-				item "Gallente:Frigate:Heavy"
-				item "Gallente:Frigate:Heavy"
-				item "Gallente:Corvette:Rebel"
-				item "Gallente:Corvette:Rebel"
-				item "Gallente:Corvette:Rebel"
-				item "Gallente:Corvette:Rebel"
-				item "Gallente:Corvette:Rebel"
-				item "Gallente:Corvette:Rebel"
-				item "Gallente:Corvette:Rebel"
-				item "Gallente:Corvette:Rebel"
-				item "Gallente:Corvette:Rebel"
-				item "Gallente:Corvette:Rebel"
+				item "Phase:StarBase"
+				item "Phase:Titan:Rebel"
+				item "Phase:Frigate:LongRange"
+				item "Phase:Frigate:LongRange"
+				item "Phase:Frigate:LongRange"
+				item "Phase:Frigate:LongRange"
+				item "Phase:Frigate:LongRange"
+				item "Phase:Frigate:LongRange"
+				item "Phase:Frigate:Carrier"
+				item "Phase:Frigate:Carrier"
+				item "Phase:Frigate:Carrier"
+				item "Phase:Frigate:Siege"
+				item "Phase:Frigate:Siege"
+				item "Phase:Frigate:Siege"
+				item "Phase:Frigate:AntiFighter"
+				item "Phase:Frigate:AntiFighter"
+				item "Phase:Frigate:AntiFighter"
+				item "Phase:Frigate:AntiFighter"
+				item "Phase:Frigate:AntiFighter"
+				item "Phase:Frigate:AntiFighter"
+				item "Phase:Module:HangarDefense"
+				item "Phase:Module:HangarDefense"
+				item "Phase:Module:MissileDefense"
+				item "Phase:Module:MissileDefense"
+				item "Phase:Module:MissileDefense"
+				item "Phase:Module:MissileDefense"
+				item "Phase:Module:MissileDefense"
+				item "Phase:Module:MissileDefense"
+				item "Phase:Module:MissileDefense"
+				item "Phase:Module:MissileDefense"
+				item "Phase:Module:MissileDefense"
+				item "Phase:Module:MissileDefense"
+				item "Phase:Module:MissileDefense"
+				item "Phase:Module:MissileDefense"
+				item "Phase:Module:MissileDefense"
+				item "Phase:Module:RepairPlatform"
+				item "Phase:Module:RepairPlatform"
+				item "Phase:Frigate:Heavy"
+				item "Phase:Frigate:Heavy"
+				item "Phase:Frigate:Heavy"
+				item "Phase:Frigate:Heavy"
+				item "Phase:Frigate:Heavy"
+				item "Phase:Corvette:Rebel"
+				item "Phase:Corvette:Rebel"
+				item "Phase:Corvette:Rebel"
+				item "Phase:Corvette:Rebel"
+				item "Phase:Corvette:Rebel"
+				item "Phase:Corvette:Rebel"
+				item "Phase:Corvette:Rebel"
+				item "Phase:Corvette:Rebel"
+				item "Phase:Corvette:Rebel"
+				item "Phase:Corvette:Rebel"
 validPictureGroups 3
 pictureGroup "PlayerPhase"
 pictureGroup "PlayerPsi"
@@ -2954,7 +2951,7 @@ player
 player
 	designName "MadVasari"
 	inGameName "IDSScenarioPlayerNameMadVasari"
-	overrideRaceName "GallenteFederation"
+	overrideRaceName "PhaseLoyalist"
 	teamIndex -1
 	startingCredits 0
 	startingMetal 0
@@ -2990,7 +2987,7 @@ player
 player
 	designName "Militia1"
 	inGameName "IDSScenarioPlayerNameMilitia1"
-	overrideRaceName "AmarrEmpire"
+	overrideRaceName "TechLoyalist"
 	teamIndex -1
 	startingCredits 1000
 	startingMetal 300
@@ -3024,7 +3021,7 @@ player
 player
 	designName "Militia3"
 	inGameName "IDSScenarioPlayerNameMilitia3"
-	overrideRaceName "AmarrEmpire"
+	overrideRaceName "TechLoyalist"
 	teamIndex -1
 	startingCredits 1000
 	startingMetal 300
@@ -3058,7 +3055,7 @@ player
 player
 	designName "Militia5"
 	inGameName "IDSScenarioPlayerNameMilitia5"
-	overrideRaceName "AmarrEmpire"
+	overrideRaceName "TechLoyalist"
 	teamIndex -1
 	startingCredits 1000
 	startingMetal 300
@@ -3092,7 +3089,7 @@ player
 player
 	designName "Militia7"
 	inGameName "IDSScenarioPlayerNameMilitia7"
-	overrideRaceName "AmarrEmpire"
+	overrideRaceName "TechLoyalist"
 	teamIndex -1
 	startingCredits 1000
 	startingMetal 300
@@ -3126,7 +3123,7 @@ player
 player
 	designName "Militia9"
 	inGameName "IDSScenarioPlayerNameMilitia9"
-	overrideRaceName "AmarrEmpire"
+	overrideRaceName "TechLoyalist"
 	teamIndex -1
 	startingCredits 1000
 	startingMetal 300
@@ -3160,7 +3157,7 @@ player
 player
 	designName "Militia11"
 	inGameName "IDSScenarioPlayerNameMilitia11"
-	overrideRaceName "AmarrEmpire"
+	overrideRaceName "TechLoyalist"
 	teamIndex -1
 	startingCredits 1000
 	startingMetal 300
@@ -3194,7 +3191,7 @@ player
 player
 	designName "Militia13"
 	inGameName "IDSScenarioPlayerNameMilitia13"
-	overrideRaceName "AmarrEmpire"
+	overrideRaceName "TechLoyalist"
 	teamIndex -1
 	startingCredits 1000
 	startingMetal 300
@@ -3228,7 +3225,7 @@ player
 player
 	designName "Militia15"
 	inGameName "IDSScenarioPlayerNameMilitia15"
-	overrideRaceName "AmarrEmpire"
+	overrideRaceName "TechLoyalist"
 	teamIndex -1
 	startingCredits 1000
 	startingMetal 300
@@ -3296,7 +3293,7 @@ player
 player
 	designName "Militia19"
 	inGameName "IDSScenarioPlayerNameMilitia19"
-	overrideRaceName "AmarrEmpire"
+	overrideRaceName "TechLoyalist"
 	teamIndex -1
 	startingCredits 1000
 	startingMetal 300
