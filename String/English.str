@@ -2354,10 +2354,10 @@ StringInfo
 	Value "ISK Summary"
 StringInfo
 	ID "IDS_INFOCARD_TITLE_METAL"
-	Value "Metal Summary"
+	Value "Common Metals Summary"
 StringInfo
 	ID "IDS_INFOCARD_TITLE_CRYSTAL"
-	Value "Crystal Summary"
+	Value "Rare Metals Summary"
 StringInfo
 	ID "IDS_INFOCARD_LABEL_RESEARCHSUBJECTLEVEL"
 	Value "Level *SPACING3* *VALUE0* / *VALUE1*"
@@ -3236,10 +3236,10 @@ StringInfo
 	Value "Max Allegiance"
 StringInfo
 	ID "IDSPlanetBonusValueMetalIncomePerc"
-	Value "Metal Extraction Rate"
+	Value "Common Metals Extraction Rate"
 StringInfo
 	ID "IDSPlanetBonusValueCrystalIncomePerc"
-	Value "Crystal Extraction Rate"
+	Value "Rare Metals Extraction Rate"
 StringInfo
 	ID "IDSPlanetBonusValueGravityWellRadiusPerc"
 	Value "Grid Radius"
@@ -4301,10 +4301,10 @@ StringInfo
 	Value "Insufficient ISK."
 StringInfo
 	ID "IDS_GAMEMESSAGE_NOMETAL"
-	Value "Insufficient Metal."
+	Value "Insufficient Common Metals."
 StringInfo
 	ID "IDS_GAMEMESSAGE_NOCRYSTAL"
-	Value "Insufficient Crystal"
+	Value "Insufficient Rare Metals"
 StringInfo
 	ID "IDS_GAMEMESSAGE_NOTITANFACTORY"
 	Value "Titan Factory required."
@@ -4931,10 +4931,10 @@ StringInfo
 	Value "ISK"
 StringInfo
 	ID "IDS_RESOURCENAME_METAL"
-	Value "Metal"
+	Value "Common Metals"
 StringInfo
 	ID "IDS_RESOURCENAME_CRYSTAL"
-	Value "Crystal"
+	Value "Rare Metals"
 StringInfo
 	ID "IDS_ISTATTYPE_NUMFIGHTERSBUILT"
 	Value "Strike Craft Built"
@@ -5057,10 +5057,10 @@ StringInfo
 	Value "Insufficient ISK."
 StringInfo
 	ID "IDS_CANREQUESTSHIPSTATUS_NOTENOUGHMETAL"
-	Value "Insufficient Metal."
+	Value "Insufficient Common Metals."
 StringInfo
 	ID "IDS_CANREQUESTSHIPSTATUS_NOTENOUGHCRYSTAL"
-	Value "Insufficient Crystal."
+	Value "Insufficient Rare Metals."
 StringInfo
 	ID "IDS_CANREQUESTSHIPSTATUS_NOTENOUGHSHIPSLOTS"
 	Value "Insufficient Fleet Capacity."
@@ -5084,10 +5084,10 @@ StringInfo
 	Value "Insufficient ISK."
 StringInfo
 	ID "IDS_CANBUILDPLANETMODULESTATUS_NOTENOUGHMETAL"
-	Value "Insufficient Metal."
+	Value "Insufficient Common Metals."
 StringInfo
 	ID "IDS_CANBUILDPLANETMODULESTATUS_NOTENOUGHCRYSTAL"
-	Value "Insufficient Crystal."
+	Value "Insufficient Rare Metals."
 StringInfo
 	ID "IDS_CANBUILDPLANETMODULESTATUS_NOT_RESEARCHED"
 	Value "Research prerequisites not met."
@@ -5414,13 +5414,13 @@ StringInfo
 	Value "Conductive Mantle"
 StringInfo
 	ID "IDS_PLANETBONUS_CONDUCTIVEINTERIOR_DESC"
-	Value "High proportions of conductive metals are present in the planet's interior allow it to act as a giant antenna and increase the rate of culture spread."
+	Value "High proportions of conductive Common Metalss are present in the planet's interior allow it to act as a giant antenna and increase the rate of culture spread."
 StringInfo
 	ID "IDS_PLANETBONUS_CRYSTALMINERS_NAME"
-	Value "Expert Crystal Miners"
+	Value "Expert Rare Metals Miners"
 StringInfo
 	ID "IDS_PLANETBONUS_CRYSTALMINERS_DESC"
-	Value "Increases the income rate of all this planet's Crystal Extractors."
+	Value "Increases the income rate of all this planet's Rare Metals Extractors."
 StringInfo
 	ID "IDS_PLANETBONUS_DEATHWORLD_NAME"
 	Value "Death World"
@@ -5498,7 +5498,7 @@ StringInfo
 	Value "Dense Molten Core"
 StringInfo
 	ID "IDS_PLANETBONUS_HIGHGRAVITY_DESC"
-	Value "Unusually high levels of heavy metals make this planet's core extremely dense, resulting in a large Grid for its volume."
+	Value "Unusually high levels of heavy Common Metalss make this planet's core extremely dense, resulting in a large Grid for its volume."
 StringInfo
 	ID "IDS_PLANETBONUS_HUGEGLACIERS_NAME"
 	Value "Massive Pure Glaciers"
@@ -5552,7 +5552,7 @@ StringInfo
 	Value "Expert Metal Miners"
 StringInfo
 	ID "IDS_PLANETBONUS_METALMINERS_DESC"
-	Value "Increases the income rate of all this planet's Metal Extractors."
+	Value "Increases the income rate of all this planet's Common Metals Extractors."
 StringInfo
 	ID "IDS_PLANETBONUS_METEORITECRATERS_NAME"
 	Value "Frequent Meteorites"
@@ -5630,13 +5630,13 @@ StringInfo
 	Value "Rusted Core"
 StringInfo
 	ID "IDS_PLANETBONUS_RUSTEDCORE_DESC"
-	Value "The core of this world has all but rotted away, reducing its Grid and limiting the amount of metal left for extraction."
+	Value "The core of this world has all but rotted away, reducing its Grid and limiting the amount of Common Metals left for extraction."
 StringInfo
 	ID "IDS_PLANETBONUS_SALVAGEROUTPOST_NAME"
 	Value "Roiders Outpost"
 StringInfo
 	ID "IDS_PLANETBONUS_SALVAGEROUTPOST_DESC"
-	Value "A small salvaging operation retrieves semi-valuable materials from the nearby debris field, providing a slight increase in metal income and an additional construction frigate."
+	Value "A small salvaging operation retrieves semi-valuable materials from the nearby debris field, providing a slight increase in Common Metals income and an additional construction frigate."
 StringInfo
 	ID "IDS_PLANETBONUS_SATELLITEINFRASTRUCTURE_NAME"
 	Value "Indigenous Satellites"
@@ -5678,7 +5678,7 @@ StringInfo
 	Value "Stable Debris Field"
 StringInfo
 	ID "IDS_PLANETBONUS_STABLEDEBRISFIELD_DESC"
-	Value "A relatively static debris field facilitates recovery of valuable metals and movement of merchant ships through the area, resulting in increased trade income."
+	Value "A relatively static debris field facilitates recovery of valuable Common Metalss and movement of merchant ships through the area, resulting in increased trade income."
 StringInfo
 	ID "IDS_PLANETBONUS_STRICTSECURITY_NAME"
 	Value "High Security Protocol"
@@ -5693,16 +5693,16 @@ StringInfo
 	Value "A powerful magnetic field surrounds this world, making it more resistent to planetary bombardment."
 StringInfo
 	ID "IDS_PLANETBONUS_SUBSURFACECRYSTAL_NAME"
-	Value "Subsurface Crystal Deposits"
+	Value "Subsurface Rare Metals Deposits"
 StringInfo
 	ID "IDS_PLANETBONUS_SUBSURFACECRYSTAL_DESC"
-	Value "High quantities of crystal have been located in this system, boost the amount that crystal miners are able to extract."
+	Value "High quantities of Rare Metals have been located in this system, boost the amount that Rare Metals miners are able to extract."
 StringInfo
 	ID "IDS_PLANETBONUS_SUBSURFACEMETAL_NAME"
 	Value "Subsurface Metal Deposits"
 StringInfo
 	ID "IDS_PLANETBONUS_SUBSURFACEMETAL_DESC"
-	Value "High quantities of valuable ore have been located in this system, boosting the amount that metal miners are able to extract."
+	Value "High quantities of valuable ore have been located in this system, boosting the amount that Common Metals miners are able to extract."
 StringInfo
 	ID "IDS_PLANETBONUS_SUBZEROTWISTERS_NAME"
 	Value "Subzero Twisters"
@@ -5738,7 +5738,7 @@ StringInfo
 	Value "Trader Mining Operation"
 StringInfo
 	ID "IDS_PLANETBONUS_TRADERMINING_DESC"
-	Value "An abandoned Trade Order metal mine is located, bringing online an additional constructor and increased metal extractor yields."
+	Value "An abandoned Trade Order Common Metals mine is located, bringing online an additional constructor and increased Common Metals extractor yields."
 StringInfo
 	ID "IDS_PLANETBONUS_TRAININGACADEMY_NAME"
 	Value "Training Academy"
@@ -6356,7 +6356,7 @@ StringInfo
 	Value "Favored Client Discount"
 StringInfo
 	ID "IDS_RESEARCHSUBJECT_CHEAPRESOURCES_DESCRIPTION"
-	Value "Strengthened ties to criminal elements allows your empire to purchase metal and crystal from the Jita Market at discounted prices."
+	Value "Strengthened ties to criminal elements allows your empire to purchase Common Metals and Rare Metals from the Jita Market at discounted prices."
 StringInfo
 	ID "IDS_RESEARCHSUBJECT_CIVILIAN_EVACUATIONS_NAME"
 	Value "Civilian Evacuations"
@@ -6536,7 +6536,7 @@ StringInfo
 	Value "Emissary Donations"
 StringInfo
 	ID "IDS_RESEARCHSUBJECT_EMISSARY_DONATIONS_DESCRIPTION"
-	Value "Our emissaries are instructed in the art of donations, increasing the amount of relationship gained by donating crystal."
+	Value "Our emissaries are instructed in the art of donations, increasing the amount of relationship gained by donating Rare Metals."
 StringInfo
 	ID "IDS_RESEARCHSUBJECT_ENEMY_RELATIONS_NAME"
 	Value "Enemy Relations"
@@ -6554,7 +6554,7 @@ StringInfo
 	Value "Expert Bribery"
 StringInfo
 	ID "IDS_RESEARCHSUBJECT_EXPERT_BRIBERY_DESCRIPTION"
-	Value "Our ambassadors are taught the art of bribery, increasing the amount of relationship gained by donating metal."
+	Value "Our ambassadors are taught the art of bribery, increasing the amount of relationship gained by donating Common Metals."
 StringInfo
 	ID "IDS_RESEARCHSUBJECT_EXPULSION_NAME"
 	Value "Expulsion"
@@ -7319,10 +7319,10 @@ StringInfo
 	Value "Shared advances in energy systems and lensing technology lead to significantly deadlier energy weapons for both parties."
 StringInfo
 	ID "IDS_RESEARCHSUBJECT_PACT_CRYSTAL_NAME"
-	Value "Crystal Pact"
+	Value "Rare Metals Pact"
 StringInfo
 	ID "IDS_RESEARCHSUBJECT_PACT_CRYSTAL_DESCRIPTION"
-	Value "Two factions share crystal extraction secrets and techniques, mutually improving crystal extraction rates for both peoples."
+	Value "Two factions share Rare Metals extraction secrets and techniques, mutually improving Rare Metals extraction rates for both peoples."
 StringInfo
 	ID "IDS_RESEARCHSUBJECT_PACT_CULTURE_NAME"
 	Value "Culture Pact"
@@ -7391,10 +7391,10 @@ StringInfo
 	Value "Improved accounting and logistics advances grant each faction the ability to field more ships at lower upkeep costs."
 StringInfo
 	ID "IDS_RESEARCHSUBJECT_PACT_METAL_NAME"
-	Value "Metal Pact"
+	Value "Common Metals Pact"
 StringInfo
 	ID "IDS_RESEARCHSUBJECT_PACT_METAL_DESCRIPTION"
-	Value "Two factions share extraction secrets and techniques, mutually improving metal extraction rates for both peoples."
+	Value "Two factions share extraction secrets and techniques, mutually improving Common Metals extraction rates for both peoples."
 StringInfo
 	ID "IDS_RESEARCHSUBJECT_PACT_RESEARCH_NAME"
 	Value "Research Pact"
@@ -8216,7 +8216,7 @@ StringInfo
 	Value "Stripped to the Core"
 StringInfo
 	ID "IDS_RESEARCHSUBJECT_STRIPPED_TO_THE_CORE_DESCRIPTION"
-	Value "Allows you to consume a planet once you abandon it, stripping it of all natural resources to generate a huge amount of ISK, metal and crystal. The planet is transformed into a Dead Asteroid."
+	Value "Allows you to consume a planet once you abandon it, stripping it of all natural resources to generate a huge amount of ISK, Common Metals and Rare Metals. The planet is transformed into a Dead Asteroid."
 StringInfo
 	ID "IDS_RESEARCHSUBJECT_STRUCTUREPRICEDECREASE_NAME"
 	Value "Modular Architecture"
@@ -8225,76 +8225,76 @@ StringInfo
 	Value "Common structural features are incorporated into revised designs of factories and extractors, reducing their purchase cost."
 StringInfo
 	ID "IDS_RESEARCHSUBJECT_STRUCTUREWORK_CRYSTALEXTRACTTECH0_NAME"
-	Value "Efficient Crystal Sorting"
+	Value "Efficient Rare Metals Sorting"
 StringInfo
 	ID "IDS_RESEARCHSUBJECT_STRUCTUREWORK_CRYSTALEXTRACTTECH0_DESCRIPTION"
-	Value "Improved mechanized sorting techniques allow unrefined crystals to be graded more quickly, improving the rate of income from Crystal Extractors."
+	Value "Improved mechanized sorting techniques allow unrefined crystals to be graded more quickly, improving the rate of income from Rare Metals Extractors."
 StringInfo
 	ID "IDS_RESEARCHSUBJECT_STRUCTUREWORK_CRYSTALEXTRACTTECH1_NAME"
 	Value "Automated Mining Rigs"
 StringInfo
 	ID "IDS_RESEARCHSUBJECT_STRUCTUREWORK_CRYSTALEXTRACTTECH1_DESCRIPTION"
-	Value "Autonomous robots greatly improve the efficiency of Crystal Extractors, yielding higher rates of crystal income."
+	Value "Autonomous robots greatly improve the efficiency of Rare Metals Extractors, yielding higher rates of Rare Metals income."
 StringInfo
 	ID "IDS_RESEARCHSUBJECT_STRUCTUREWORK_CRYSTALEXTRACTTECH2_NAME"
 	Value "Shockwave Pulverization"
 StringInfo
 	ID "IDS_RESEARCHSUBJECT_STRUCTUREWORK_CRYSTALEXTRACTTECH2_DESCRIPTION"
-	Value "Directed shockwaves rapidly break apart waste material around crystal deposits, further improving the rate harvesting by Crystal Extractors."
+	Value "Directed shockwaves rapidly break apart waste material around Rare Metals deposits, further improving the rate harvesting by Rare Metals Extractors."
 StringInfo
 	ID "IDS_RESEARCHSUBJECT_STRUCTUREWORK_CRYSTALEXTRACTPSI0_NAME"
 	Value "Selective Harvesting"
 StringInfo
 	ID "IDS_RESEARCHSUBJECT_STRUCTUREWORK_CRYSTALEXTRACTPSI0_DESCRIPTION"
-	Value "High value crystal nodes are prioritized, improving the rate of crystal ore harvesting by Crystal Extractors."
+	Value "High value Rare Metals nodes are prioritized, improving the rate of Rare Metals ore harvesting by Rare Metals Extractors."
 StringInfo
 	ID "IDS_RESEARCHSUBJECT_STRUCTUREWORK_CRYSTALEXTRACTPSI1_NAME"
-	Value "Crystal Enrichment"
+	Value "Rare Metals Enrichment"
 StringInfo
 	ID "IDS_RESEARCHSUBJECT_STRUCTUREWORK_CRYSTALEXTRACTPSI1_DESCRIPTION"
-	Value "Harvested crystal is doped with additives to improve its yield, increasing the rate of income from Crystal Extractors."
+	Value "Harvested Rare Metals is doped with additives to improve its yield, increasing the rate of income from Rare Metals Extractors."
 StringInfo
 	ID "IDS_RESEARCHSUBJECT_STRUCTUREWORK_CRYSTALEXTRACTPSI2_NAME"
 	Value "Telekinetic Separation"
 StringInfo
 	ID "IDS_RESEARCHSUBJECT_STRUCTUREWORK_CRYSTALEXTRACTPSI2_DESCRIPTION"
-	Value "Impurities are psionically removed from crystals to improve their potency, further improving the rate of income from Crystal Extractors."
+	Value "Impurities are psionically removed from crystals to improve their potency, further improving the rate of income from Rare Metals Extractors."
 StringInfo
 	ID "IDS_RESEARCHSUBJECT_STRUCTUREWORK_METALEXTRACTTECH0_NAME"
 	Value "Deep Core Metal Mining"
 StringInfo
 	ID "IDS_RESEARCHSUBJECT_STRUCTUREWORK_METALEXTRACTTECH0_DESCRIPTION"
-	Value "New extraction and excavation machinery improves the rate of ore harvesting by Metal Extractor structures."
+	Value "New extraction and excavation machinery improves the rate of ore harvesting by Common Metals Extractor structures."
 StringInfo
 	ID "IDS_RESEARCHSUBJECT_STRUCTUREWORK_METALEXTRACTTECH1_NAME"
 	Value "Rapid Hydrometallurgy"
 StringInfo
 	ID "IDS_RESEARCHSUBJECT_STRUCTUREWORK_METALEXTRACTTECH1_DESCRIPTION"
-	Value "New chemical solvents leach valuable metals from ore more quickly, further improving the rate of income from Metal Extractors."
+	Value "New chemical solvents leach valuable Common Metalss from ore more quickly, further improving the rate of income from Common Metals Extractors."
 StringInfo
 	ID "IDS_RESEARCHSUBJECT_STRUCTUREWORK_METALEXTRACTTECH2_NAME"
 	Value "Nuclear Smelting"
 StringInfo
 	ID "IDS_RESEARCHSUBJECT_STRUCTUREWORK_METALEXTRACTTECH2_DESCRIPTION"
-	Value "Energy from nuclear reactions is harnessed to refine metal ore more rapidly, further improving the rate of income from Metal Extractors."
+	Value "Energy from nuclear reactions is harnessed to refine Common Metals ore more rapidly, further improving the rate of income from Common Metals Extractors."
 StringInfo
 	ID "IDS_RESEARCHSUBJECT_STRUCTUREWORK_METALEXTRACTPSI0_NAME"
 	Value "Rich Ore Scrying"
 StringInfo
 	ID "IDS_RESEARCHSUBJECT_STRUCTUREWORK_METALEXTRACTPSI0_DESCRIPTION"
-	Value "Particularly valuable ore deposits are discovered more quickly, improving the rate of ore harvesting by Metal Extractors."
+	Value "Particularly valuable ore deposits are discovered more quickly, improving the rate of ore harvesting by Common Metals Extractors."
 StringInfo
 	ID "IDS_RESEARCHSUBJECT_STRUCTUREWORK_METALEXTRACTPSI1_NAME"
 	Value "Telekinetic Extraction"
 StringInfo
 	ID "IDS_RESEARCHSUBJECT_STRUCTUREWORK_METALEXTRACTPSI1_DESCRIPTION"
-	Value "The telekinetic abilities of low level Psintegrat added to Metal Extractor crews further improves the rate of ore harvesting."
+	Value "The telekinetic abilities of low level Psintegrat added to Common Metals Extractor crews further improves the rate of ore harvesting."
 StringInfo
 	ID "IDS_RESEARCHSUBJECT_STRUCTUREWORK_METALEXTRACTPSI2_NAME"
 	Value "Enhanced Reclamation"
 StringInfo
 	ID "IDS_RESEARCHSUBJECT_STRUCTUREWORK_METALEXTRACTPSI2_DESCRIPTION"
-	Value "Usable metals are recovered from processing waste more efficiently, further increasing the rate of income from Metal Extractors."
+	Value "Usable Common Metalss are recovered from processing waste more efficiently, further increasing the rate of income from Common Metals Extractors."
 StringInfo
 	ID "IDS_RESEARCHSUBJECT_STRUCTUREWORK_RESOURCEEXTRACT0_NAME"
 	Value "Diode Mining Lasers"
@@ -8882,7 +8882,7 @@ StringInfo
 	Value "Universal Negotiation"
 StringInfo
 	ID "IDS_RESEARCHSUBJECT_UNIVERSAL_NEGOTIATION_DESCRIPTION"
-	Value "Allows you to offer and demand gifts of ISK, metal and crystal from other factions."
+	Value "Allows you to offer and demand gifts of ISK, Common Metals and Rare Metals from other factions."
 StringInfo
 	ID "IDS_RESEARCHSUBJECT_BOUNTY_HUNTING_NAME"
 	Value "Bounty Hunting"
@@ -8900,13 +8900,13 @@ StringInfo
 	Value "Trade Pacts"
 StringInfo
 	ID "IDS_RESEARCHSUBJECT_TRADE_PACTS_DESCRIPTION"
-	Value "Allows the creation of Trade Pacts(research, metal, crystal) with other factions."
+	Value "Allows the creation of Trade Pacts(research, Common Metals, Rare Metals) with other factions."
 StringInfo
 	ID "IDS_RESEARCHSUBJECT_XENO_MANIPULATION_NAME"
 	Value "Xeno-Manipulation"
 StringInfo
 	ID "IDS_RESEARCHSUBJECT_XENO_MANIPULATION_DESCRIPTION"
-	Value "Allows you to offer and demand gifts of ISK, metal and crystal from opposing factions."
+	Value "Allows you to offer and demand gifts of ISK, Common Metals and Rare Metals from opposing factions."
 StringInfo
 	ID "IDS_RESEARCHSUBJECT_ADVANCED_XENO_MANIPULATION_NAME"
 	Value "Xeno Influence"
@@ -8918,7 +8918,7 @@ StringInfo
 	Value "Overtures"
 StringInfo
 	ID "IDS_RESEARCHSUBJECT_OVERTURES_DESCRIPTION"
-	Value "Allows you to offer and demand gifts of ISK, metal and crystal to opposing factions."
+	Value "Allows you to offer and demand gifts of ISK, Common Metals and Rare Metals to opposing factions."
 StringInfo
 	ID "IDS_RESEARCHSUBJECT_VENDETTA_NAME"
 	Value "Vendetta"
@@ -11315,25 +11315,25 @@ StringInfo
 	Value "Ice Field"
 StringInfo
 	ID "IDS_PLANETMODULE_TECHORBITALFRIGATEFACTORY_NAME"
-	Value "Small Ship Array"
+	Value "Sub Capital Ship Array"
 StringInfo
 	ID "IDS_PLANETMODULE_TECHORBITALFRIGATEFACTORY_DESCRIPTION"
 	Value "Allows construction of Interceptors, Frigates, Light Cruisers, Heavy Cruisers, Battlecruisers and the Colony Rorqual. Build multiple arrays to construct more ships at the same time."
 StringInfo
 	ID "IDS_PLANETMODULE_TECHORBITALTITANFACTORY_NAME"
-	Value "Titan Foundry"
+	Value "Titan Ship Array"
 StringInfo
 	ID "IDS_PLANETMODULE_TECHORBITALTITANFACTORY_DESCRIPTION"
 	Value "Allows construction of your faction's Titan."
 StringInfo
 	ID "IDS_PLANETMODULE_TECHORBITALCAPITALSHIPFACTORY_NAME"
-	Value "Large Ship Array"
+	Value "Capital Ship Array"
 StringInfo
 	ID "IDS_PLANETMODULE_TECHORBITALCAPITALSHIPFACTORY_DESCRIPTION"
 	Value "Allows construction of Battleships, Capital Ships and Supercarriers. Build multiple factories to construct more ships at the same time."
 StringInfo
 	ID "IDS_PLANETMODULE_TECHORBITALCULTURECENTER_NAME"
-	Value "Broadcast Center"
+	Value "Propaganda Network"
 StringInfo
 	ID "IDS_PLANETMODULE_TECHORBITALCULTURECENTER_DESCRIPTION"
 	Value "Spreads the cultural influence of your empire to nearby planets."
@@ -11369,19 +11369,19 @@ StringInfo
 	Value "This structure is designed to defend the planet or control tower from attack by hostile ships, specifically medium sized ships such as battleships, NOTE, Placing structures of this type within the bonus radius of a control tower will yield significant boosts to weapon damage while rendering the structure invulnerable to attack until the control tower has been destroyed."
 StringInfo
 	ID "IDS_PLANETMODULE_TECHORBITALCOMBATLABORATORY_NAME"
-	Value "Military Lab"
+	Value "Military Research Lab"
 StringInfo
 	ID "IDS_PLANETMODULE_TECHORBITALCOMBATLABORATORY_DESCRIPTION"
 	Value "Gives the ability to research new military technologies."
 StringInfo
 	ID "IDS_PLANETMODULE_TECHORBITALNONCOMBATLABORATORY_NAME"
-	Value "Civic Research Station"
+	Value "Civilian Research Station"
 StringInfo
 	ID "IDS_PLANETMODULE_TECHORBITALNONCOMBATLABORATORY_DESCRIPTION"
 	Value "Gives the ability to research new civilian technologies."
 StringInfo
 	ID "IDS_PLANETMODULE_TECHORBITALTRADEPORT_NAME"
-	Value "Trade Port"
+	Value "Trade Port Network"
 StringInfo
 	ID "IDS_PLANETMODULE_TECHORBITALTRADEPORT_DESCRIPTION"
 	Value "Allows the establishment of new trade routes."
@@ -11393,16 +11393,16 @@ StringInfo
 	Value "Replacemente for old refinaries, Refines raw resources gathered by Mining Barges."
 StringInfo
 	ID "IDS_PLANETMODULE_TECHORBITALMETALEXTRACTOR_NAME"
-	Value "Metal Extractor"
+	Value "Common Metals Extractor"
 StringInfo
 	ID "IDS_PLANETMODULE_TECHORBITALMETALEXTRACTOR_DESC"
-	Value "Extracts raw resources from metal asteroids."
+	Value "Extracts raw resources from Common Metals asteroids."
 StringInfo
 	ID "IDS_PLANETMODULE_TECHORBITALCRYSTALEXTRACTOR_NAME"
-	Value "Crystal Extractor"
+	Value "Rare Metals Extractor"
 StringInfo
 	ID "IDS_PLANETMODULE_TECHORBITALCRYSTALEXTRACTOR_DESC"
-	Value "Extracts raw resources from crystal asteroids."
+	Value "Extracts raw resources from Rare Metals asteroids."
 StringInfo
 	ID "IDS_PLANETMODULE_TECHORBITALJUMPBLOCKER_NAME"
 	Value "Jump Bridge"
@@ -11477,16 +11477,16 @@ StringInfo
 	Value "Allows the establishment of new trade routes."
 StringInfo
 	ID "IDS_PLANETMODULE_PSIORBITALMETALEXTRACTOR_NAME"
-	Value "Metal Extractor"
+	Value "Common Metals Extractor"
 StringInfo
 	ID "IDS_PLANETMODULE_PSIORBITALMETALEXTRACTOR_DESC"
-	Value "Extracts raw resources from metal asteroids."
+	Value "Extracts raw resources from Common Metals asteroids."
 StringInfo
 	ID "IDS_PLANETMODULE_PSIORBITALCRYSTALEXTRACTOR_NAME"
-	Value "Crystal Extractor"
+	Value "Rare Metals Extractor"
 StringInfo
 	ID "IDS_PLANETMODULE_PSIORBITALCRYSTALEXTRACTOR_DESC"
-	Value "Extracts raw resources from crystal asteroids."
+	Value "Extracts raw resources from Rare Metals asteroids."
 StringInfo
 	ID "IDS_PLANETMODULE_PSIORBITALJUMPBLOCKER_NAME"
 	Value "Jump Inhibitor"
@@ -11579,16 +11579,16 @@ StringInfo
 	Value "Refines raw resources from trade ships."
 StringInfo
 	ID "IDS_PLANETMODULE_PHASEORBITALMETALEXTRACTOR_NAME"
-	Value "Metal Extractor"
+	Value "Common Metals Extractor"
 StringInfo
 	ID "IDS_PLANETMODULE_PHASEORBITALMETALEXTRACTOR_DESC"
-	Value "Extracts raw resources from metal asteroids."
+	Value "Extracts raw resources from Common Metals asteroids."
 StringInfo
 	ID "IDS_PLANETMODULE_PHASEORBITALCRYSTALEXTRACTOR_NAME"
-	Value "Crystal Extractor"
+	Value "Rare Metals Extractor"
 StringInfo
 	ID "IDS_PLANETMODULE_PHASEORBITALCRYSTALEXTRACTOR_DESC"
-	Value "Extracts raw resources from crystal asteroids."
+	Value "Extracts raw resources from Rare Metals asteroids."
 StringInfo
 	ID "IDS_PLANETMODULE_PHASEORBITALJUMPBLOCKER_NAME"
 	Value "Jump Inhibitor"
@@ -12074,10 +12074,10 @@ StringInfo
 	Value "Empires sharing a Research Pact pool their research assets and both gain a considerable bonus in research times."
 StringInfo
 	ID "IDSAllianceTypeNameCrystalPact"
-	Value "Crystal Pact"
+	Value "Rare Metals Pact"
 StringInfo
 	ID "IDSAllianceTypeDescCrystalPact"
-	Value "Empires sharing a Crystal Pact will help each other to harvest crystals more effectively."
+	Value "Empires sharing a Rare Metals Pact will help each other to harvest crystals more effectively."
 StringInfo
 	ID "IDSAllianceTypeNameTradePact"
 	Value "Trade Pact"
@@ -12332,40 +12332,40 @@ StringInfo
 	Value "Open Research Window (Artifact)"
 StringInfo
 	ID "IDS_UIMAPPINGNAME_ACTIONBUYMETAL"
-	Value "Buy Metal"
+	Value "Buy Common Metals"
 StringInfo
 	ID "IDS_UIMAPPINGNAME_ACTIONSELLMETAL"
-	Value "Sell Metal"
+	Value "Sell Common Metals"
 StringInfo
 	ID "IDS_UIMAPPINGNAME_ACTIONINCREASEMARKETBUCKETAMOUNTMETAL"
-	Value "Increase Market Offer Amount - Metal"
+	Value "Increase Market Offer Amount - Common Metals"
 StringInfo
 	ID "IDS_UIMAPPINGNAME_ACTIONDECREASEMARKETBUCKETAMOUNTMETAL"
-	Value "Decrease Market Offer Amount - Metal"
+	Value "Decrease Market Offer Amount - Common Metals"
 StringInfo
 	ID "IDS_UIMAPPINGNAME_ACTIONINCREASEMARKETBUCKETPRICEMETAL"
-	Value "Increase Market Offer Price - Metal"
+	Value "Increase Market Offer Price - Common Metals"
 StringInfo
 	ID "IDS_UIMAPPINGNAME_ACTIONDECREASEMARKETBUCKETPRICEMETAL"
-	Value "Decrease Market Offer Price - Metal"
+	Value "Decrease Market Offer Price - Common Metals"
 StringInfo
 	ID "IDS_UIMAPPINGNAME_ACTIONBUYCRYSTAL"
-	Value "Buy Crystal"
+	Value "Buy Rare Metals"
 StringInfo
 	ID "IDS_UIMAPPINGNAME_ACTIONSELLCRYSTAL"
-	Value "Sell Crystal"
+	Value "Sell Rare Metals"
 StringInfo
 	ID "IDS_UIMAPPINGNAME_ACTIONINCREASEMARKETBUCKETAMOUNTCRYSTAL"
-	Value "Increase Market Offer Amount - Crystal"
+	Value "Increase Market Offer Amount - Rare Metals"
 StringInfo
 	ID "IDS_UIMAPPINGNAME_ACTIONDECREASEMARKETBUCKETAMOUNTCRYSTAL"
-	Value "Decrease Market Offer Amount - Crystal"
+	Value "Decrease Market Offer Amount - Rare Metals"
 StringInfo
 	ID "IDS_UIMAPPINGNAME_ACTIONINCREASEMARKETBUCKETPRICECRYSTAL"
-	Value "Increase Market Offer Price - Crystal"
+	Value "Increase Market Offer Price - Rare Metals"
 StringInfo
 	ID "IDS_UIMAPPINGNAME_ACTIONDECREASEMARKETBUCKETPRICECRYSTAL"
-	Value "Decrease Market Offer Price - Crystal"
+	Value "Decrease Market Offer Price - Rare Metals"
 StringInfo
 	ID "IDS_UIMAPPINGNAME_ACTIONINCREASEBOUNTYONHIGHESTENEMY"
 	Value "Increase Bounty on Most Wanted Enemy"
@@ -13403,7 +13403,7 @@ StringInfo
 	Value "Let's put our great minds together."
 StringInfo
 	ID "IDS_TAUNT_TECH_AllianceAcceptCrystalPact"
-	Value "Together we'll gather all the crystal in the galaxy!"
+	Value "Together we'll gather all the Rare Metals in the galaxy!"
 StringInfo
 	ID "IDS_TAUNT_TECH_AllianceAcceptEfficiencyPact"
 	Value "All of our people will benefit from this pact."
@@ -13628,7 +13628,7 @@ StringInfo
 	Value "Our research is ours and ours alone."
 StringInfo
 	ID "IDS_TAUNT_TECH_AllianceRejectCrystalPact"
-	Value "You'll have to find your own crystal."
+	Value "You'll have to find your own Rare Metals."
 StringInfo
 	ID "IDS_TAUNT_TECH_AllianceRejectEfficiencyPact"
 	Value "Find someone else to help you build your ships."
@@ -13751,7 +13751,7 @@ StringInfo
 	Value "I've gotten all the help I need from your researchers."
 StringInfo
 	ID "IDS_TAUNT_TECH_AllianceBreakCrystalPact"
-	Value "Helping you to amass a crystal horde is not in our best interests."
+	Value "Helping you to amass a Rare Metals horde is not in our best interests."
 StringInfo
 	ID "IDS_TAUNT_TECH_AllianceBreakEfficiencyPact"
 	Value "We will not help someone build warships when they mean to use them against us!"
@@ -16214,7 +16214,7 @@ StringInfo
 	Value "Welcome to the Economy and Production tutorial. You will learn about the resources in Sins of a Solar Empire: Rebellion, how to acquire them, and how to spend them on units and structures."
 StringInfo
 	ID "IDS_TUTORIAL_RESOURCING_INTRORESOURCES"
-	Value "There are three resources in Sins of a Solar Empire: ISK, Metal, and Crystal. ISK are the most basic and universal resource. They are a part of the cost of all units, structures and research."
+	Value "There are three resources in Sins of a Solar Empire: ISK, Common Metals, and Rare Metals. ISK are the most basic and universal resource. They are a part of the cost of all units, structures and research."
 StringInfo
 	ID "IDS_TUTORIAL_RESOURCING_EXPLAINCREDITS"
 	Value "Additionally, ISK ease certain transactions between empires, whether it be through the buying and selling of resources on the Jita Market, or in the form of bounty against other empires."
@@ -16235,10 +16235,10 @@ StringInfo
 	Value "Until a certain number of these upgrades are performed, these planets will be a drain on your empire's ISK income."
 StringInfo
 	ID "IDS_TUTORIAL_RESOURCING_EXPLAINMETAL"
-	Value "Metal is one of two secondary resources, and is primarily used in the construction of ships and structures. It is acquired from asteroids rich in metal ore via a Metal Extractor structure."
+	Value "Common Metals is one of two secondary resources, and is primarily used in the construction of ships and structures. It is acquired from asteroids rich in Common Metals ore via a Common Metals Extractor structure."
 StringInfo
 	ID "IDS_TUTORIAL_RESOURCING_EXPLAINCRYSTAL"
-	Value "More advanced units and structures require Crystal, which is acquired from similar asteroids via a Crystal Extractor structure."
+	Value "More advanced units and structures require Rare Metals, which is acquired from similar asteroids via a Rare Metals Extractor structure."
 StringInfo
 	ID "IDS_TUTORIAL_RESOURCING_HIGHLIGHTRESOURCEAREA"
 	Value "The amount of each resource your empire has is shown at the top right corner of the HUD. You can mouse over any of these amounts to see a breakdown of income rate of each resource."
@@ -16274,10 +16274,10 @@ StringInfo
 	Value "Like with population, different planet types differ in the maximum Tactical and Logistics Support they can provide, both initially and when fully upgraded."
 StringInfo
 	ID "IDS_TUTORIAL_RESOURCING_OPENPRODUCTIONMODULES"
-	Value "Now that proper defenses are underway, it's time to build an extractor to provide some metal income. Click the Build Logistics Structure button."
+	Value "Now that proper defenses are underway, it's time to build an extractor to provide some Common Metals income. Click the Build Logistics Structure button."
 StringInfo
 	ID "IDS_TUTORIAL_RESOURCING_BUILDMEX"
-	Value "Good. Extractors are slightly different from regular structures; they can only be placed on top of a resource asteroid of the appropriate type, so they are automatically placed for you. Click the Metal Extractor button now."
+	Value "Good. Extractors are slightly different from regular structures; they can only be placed on top of a resource asteroid of the appropriate type, so they are automatically placed for you. Click the Common Metals Extractor button now."
 StringInfo
 	ID "IDS_TUTORIAL_RESOURCING_BUILDMEXDONE"
 	Value "Good. As soon the construction frigate finishes the Gauss Defense Platform, it will automatically move and begin building the next queued structure."
@@ -16490,7 +16490,7 @@ StringInfo
 	Value "Go ahead and build a Trade Port at both your terran and desert planets. They are built from the Logistics Structure menu. For the rest of the tutorial the restrictions on how many structures you can build will be relaxed."
 StringInfo
 	ID "IDS_TUTORIAL_ADVANCEDRESOURCING_INTROREFINERY0"
-	Value "Excellent. If your empire requires more metal or crystal than your planets' extractors can provide, one way of acquiring more is to build Refineries."
+	Value "Excellent. If your empire requires more Common Metals or Rare Metals than your planets' extractors can provide, one way of acquiring more is to build Refineries."
 StringInfo
 	ID "IDS_TUTORIAL_ADVANCEDRESOURCING_INTROREFINERY1"
 	Value "Like Trade Ports, Refineries automatically produce autonomous cargo ships that scales their resource income. These ships seek out resource extractors belonging to your empire at adjacent Grids."
@@ -16763,16 +16763,16 @@ StringInfo
 	Value "Units can move relatively far from the fleet."
 StringInfo
 	ID "IDS_RESOURCEASTEROIDMETAL_NAME"
-	Value "Metal Asteroid"
+	Value "Common Metals Asteroid"
 StringInfo
 	ID "IDS_RESOURCEASTEROIDMETAL_DESC"
-	Value "Contains common metal resources. Build Extractors here to acquire them. Harvest additional resources with Refineries."
+	Value "Contains common Common Metals resources. Build Extractors here to acquire them. Harvest additional resources with Refineries."
 StringInfo
 	ID "IDS_RESOURCEASTEROIDCRYSTAL_NAME"
-	Value "Crystal Asteroid"
+	Value "Rare Metals Asteroid"
 StringInfo
 	ID "IDS_RESOURCEASTEROIDCRYSTAL_DESC"
-	Value "Contains rare crystal resources. Build Extractors here to acquire them. Harvest additional resources with Refineries."
+	Value "Contains rare Rare Metals resources. Build Extractors here to acquire them. Harvest additional resources with Refineries."
 StringInfo
 	ID "IDS_CLASSDESCRIPTOR"
 	Value ""
@@ -16832,10 +16832,10 @@ StringInfo
 	Value "Insufficient ISK"
 StringInfo
 	ID "IDS_PLANETUPGRADEPATHCANQUEUENEXTSTAGESTATUS_NOTENOUGHMETAL"
-	Value "Insufficient Metal"
+	Value "Insufficient Common Metals"
 StringInfo
 	ID "IDS_PLANETUPGRADEPATHCANQUEUENEXTSTAGESTATUS_NOTENOUGHCRYSTAL"
-	Value "Insufficient Crystal"
+	Value "Insufficient Rare Metals"
 StringInfo
 	ID "IDS_PLANETUPGRADEPATHCANQUEUENEXTSTAGESTATUS_LASTSTAGEUPGRADED"
 	Value "Fully Upgraded"
@@ -16883,10 +16883,10 @@ StringInfo
 	Value "Tax rate bonus"
 StringInfo
 	ID "IDS_PLANETUPGRADEINFOCARD_HOMEPLANETMETALRATEBONUS"
-	Value "Metal income bonus"
+	Value "Common Metals income bonus"
 StringInfo
 	ID "IDS_PLANETUPGRADEINFOCARD_HOMEPLANETCRYSTALRATEBONUS"
-	Value "Crystal income bonus"
+	Value "Rare Metals income bonus"
 StringInfo
 	ID "IDS_PLANETUPGRADEINFOCARD_MAXMODULECONSTRUCTORCOUNT"
 	Value "Constructor ships"
@@ -17072,94 +17072,94 @@ StringInfo
 	Value "ISK lost to other sources"
 StringInfo
 	ID "IDS_GameStat_MetalIncomeRate"
-	Value "Metal income rate"
+	Value "Common Metals income rate"
 StringInfo
 	ID "IDS_GameStat_MetalGainedFromResourceAsteroid"
-	Value "Metal gained from asteroids"
+	Value "Common Metals gained from asteroids"
 StringInfo
 	ID "IDS_GameStat_MetalGainedFromRefineryShips"
-	Value "Metal gained from refinery ships"
+	Value "Common Metals gained from refinery ships"
 StringInfo
 	ID "IDS_GameStat_MetalGainedFromPlayerTransfer"
-	Value "Metal received from allies"
+	Value "Common Metals received from allies"
 StringInfo
 	ID "IDS_GameStat_MetalGainedFromStockMarket"
-	Value "Metal gained from the Jita Market"
+	Value "Common Metals gained from the Jita Market"
 StringInfo
 	ID "IDS_GameStat_MetalGainedFromOther"
-	Value "Metal gained from other sources"
+	Value "Common Metals gained from other sources"
 StringInfo
 	ID "IDS_GameStat_MetalLostToPlayerTransfer"
-	Value "Metal given to allies"
+	Value "Common Metals given to allies"
 StringInfo
 	ID "IDS_GameStat_MetalLostToStockMarket"
-	Value "Metal sold on the Jita Market"
+	Value "Common Metals sold on the Jita Market"
 StringInfo
 	ID "IDS_GameStat_MetalLostToStockMarketBucket"
-	Value "Metal to be sold to other players"
+	Value "Common Metals to be sold to other players"
 StringInfo
 	ID "IDS_GameStat_MetalLostToShipPurchase"
-	Value "Metal spent on ships"
+	Value "Common Metals spent on ships"
 StringInfo
 	ID "IDS_GameStat_MetalLostToModulePurchase"
-	Value "Metal spent on structures"
+	Value "Common Metals spent on structures"
 StringInfo
 	ID "IDS_GameStat_MetalLostToPlanetUpgradePurchase"
-	Value "Metal spent on planets"
+	Value "Common Metals spent on planets"
 StringInfo
 	ID "IDS_GameStat_MetalLostToResearchSubjectPurchase"
-	Value "Metal spent on research"
+	Value "Common Metals spent on research"
 StringInfo
 	ID "IDS_GameStat_MetalLostToStarBaseUpgradePurchase"
-	Value "Metal spent on starbase upgrades"
+	Value "Common Metals spent on starbase upgrades"
 StringInfo
 	ID "IDS_GameStat_MetalLostToOther"
-	Value "Metal lost to other sources"
+	Value "Common Metals lost to other sources"
 StringInfo
 	ID "IDS_GameStat_CrystalIncomeRate"
-	Value "Crystal income rate"
+	Value "Rare Metals income rate"
 StringInfo
 	ID "IDS_GameStat_CrystalGainedFromResourceAsteroid"
-	Value "Crystal gained from asteroids"
+	Value "Rare Metals gained from asteroids"
 StringInfo
 	ID "IDS_GameStat_CrystalGainedFromRefineryShips"
-	Value "Crystal gained from refinery ships"
+	Value "Rare Metals gained from refinery ships"
 StringInfo
 	ID "IDS_GameStat_CrystalGainedFromPlayerTransfer"
-	Value "Crystal received from allies"
+	Value "Rare Metals received from allies"
 StringInfo
 	ID "IDS_GameStat_CrystalGainedFromStockMarket"
-	Value "Crystal gained from the Jita Market"
+	Value "Rare Metals gained from the Jita Market"
 StringInfo
 	ID "IDS_GameStat_CrystalGainedFromOther"
-	Value "Crystal gained from other sources"
+	Value "Rare Metals gained from other sources"
 StringInfo
 	ID "IDS_GameStat_CrystalLostToPlayerTransfer"
-	Value "Crystal given to allies"
+	Value "Rare Metals given to allies"
 StringInfo
 	ID "IDS_GameStat_CrystalLostToStockMarket"
-	Value "Crystal sold on the Jita Market"
+	Value "Rare Metals sold on the Jita Market"
 StringInfo
 	ID "IDS_GameStat_CrystalLostToStockMarketBucket"
-	Value "Crystal to be sold to other players"
+	Value "Rare Metals to be sold to other players"
 StringInfo
 	ID "IDS_GameStat_CrystalLostToShipPurchase"
-	Value "Crystal spent on ships"
+	Value "Rare Metals spent on ships"
 StringInfo
 	ID "IDS_GameStat_CrystalLostToModulePurchase"
-	Value "Crystal spent on structures"
+	Value "Rare Metals spent on structures"
 StringInfo
 	ID "IDS_GameStat_CrystalLostToPlanetUpgradePurchase"
-	Value "Crystal spent on planets"
+	Value "Rare Metals spent on planets"
 StringInfo
 	ID "IDS_GameStat_CrystalLostToResearchSubjectPurchase"
-	Value "Crystal spent on research"
+	Value "Rare Metals spent on research"
 StringInfo
 	ID "IDS_GameStat_CrystalLostToStarBaseUpgradePurchase"
-	Value "Crystal spent on starbase upgrades"
+	Value "Rare Metals spent on starbase upgrades"
 StringInfo
 	ID "IDS_GameStat_CrystalLostToOther"
-	Value "Crystal lost to other sources"
+	Value "Rare Metals lost to other sources"
 StringInfo
 	ID "IDS_GameStat_AllSquadsBuilt"
 	Value "Squads"
@@ -17321,10 +17321,10 @@ StringInfo
 	Value "Structure - Culture Center"
 StringInfo
 	ID "IDS_GameStat_ModuleCrystalExtractorBuilt"
-	Value "Structure - Crystal Extractor"
+	Value "Structure - Rare Metals Extractor"
 StringInfo
 	ID "IDS_GameStat_ModuleMetalExtractorBuilt"
-	Value "Structure - Metal Extractor"
+	Value "Structure - Common Metals Extractor"
 StringInfo
 	ID "IDS_GameStat_ModuleHangarDefenseBuilt"
 	Value "Structure - Hangar Defense"
@@ -17351,10 +17351,10 @@ StringInfo
 	Value "ISK available"
 StringInfo
 	ID "IDS_GameStat_MetalAvailable"
-	Value "Metal available"
+	Value "Common Metals available"
 StringInfo
 	ID "IDS_GameStat_CrystalAvailable"
-	Value "Crystal available"
+	Value "Rare Metals available"
 StringInfo
 	ID "IDS_GameStat_PlanetsAcquiredWithColonization"
 	Value "Planets colonized"
@@ -17477,10 +17477,10 @@ StringInfo
 	Value "ISK"
 StringInfo
 	ID "IDS_GameStatGroup_Metal"
-	Value "Metal"
+	Value "Common Metals"
 StringInfo
 	ID "IDS_GameStatGroup_Crystal"
-	Value "Crystal"
+	Value "Rare Metals"
 StringInfo
 	ID "IDS_GameStatGroup_Ships"
 	Value "Ships"
@@ -17654,10 +17654,10 @@ StringInfo
 	Value "Counter Spin"
 StringInfo
 	ID "IDS_CUSTOMGALAXY_NAME_CRYSTALSTORM"
-	Value "Crystal Storm"
+	Value "Rare Metals Storm"
 StringInfo
 	ID "IDS_CUSTOMGALAXY_NAME_CRYSTALSTORMFair"
-	Value "Crystal Storm Competitive"
+	Value "Rare Metals Storm Competitive"
 StringInfo
 	ID "IDS_CUSTOMGALAXY_NAME_CYNOSIANRIFT"
 	Value "Cynosian Rift"
@@ -17975,10 +17975,10 @@ StringInfo
 	Value "Four factions each must choose to make a bid for the hotly contested worlds of the rich central ring or risk being caught far from their capital should they opt for less volatile planets of the outer ring."
 StringInfo
 	ID "IDS_CUSTOMGALAXY_DESCRIPTION_CRYSTALSTORM"
-	Value "This small galaxy's crystal reserves are spread among hazardous nebulas. Claiming and holding these will be imperative to gaining an edge in technology over your opponent."
+	Value "This small galaxy's Rare Metals reserves are spread among hazardous nebulas. Claiming and holding these will be imperative to gaining an edge in technology over your opponent."
 StringInfo
 	ID "IDS_CUSTOMGALAXY_DESCRIPTION_CRYSTALSTORMFair"
-	Value "Competitive version of Crystal Storm. Artifacts and planetary bonuses have been removed and planetary militia and resource rock counts have been set to normalized values so that no player can have an unfair map advantage. Designed for high level play."
+	Value "Competitive version of Rare Metals Storm. Artifacts and planetary bonuses have been removed and planetary militia and resource rock counts have been set to normalized values so that no player can have an unfair map advantage. Designed for high level play."
 StringInfo
 	ID "IDS_CUSTOMGALAXY_DESCRIPTION_CYNOSIANRIFT"
 	Value "The unusual radiation profile of this star has created a pair of stable wormholes in its system. An arc of resource rich planets also orbits Cynos - can you exploit them before your enemy does?"
@@ -18446,10 +18446,10 @@ StringInfo
 	Value "Max trainable level bonus:"
 StringInfo
 	ID "IDS_RESEARCHFLOATMODIFIER_EXTRACTIONRATEMETALADJUSTMENT"
-	Value "Metal extraction increase:"
+	Value "Common Metals extraction increase:"
 StringInfo
 	ID "IDS_RESEARCHFLOATMODIFIER_EXTRACTIONRATECRYSTALADJUSTMENT"
-	Value "Crystal extraction increase:"
+	Value "Rare Metals extraction increase:"
 StringInfo
 	ID "IDS_RESEARCHFLOATMODIFIER_EXTRACTIONRATERESOURCEFOCUS"
 	Value "Resource extraction increase:"
@@ -18464,10 +18464,10 @@ StringInfo
 	Value "ISK gained:"
 StringInfo
 	ID "IDS_RESEARCHFLOATMODIFIER_METALGAINEDONPLANETSTRIPPED"
-	Value "Metal gained:"
+	Value "Common Metals gained:"
 StringInfo
 	ID "IDS_RESEARCHFLOATMODIFIER_CRYSTALGAINEDONPLANETSTRIPPED"
-	Value "Crystal gained:"
+	Value "Rare Metals gained:"
 StringInfo
 	ID "IDS_RESEARCHFLOATMODIFIER_RESOURCECOSTADJUSTMENT"
 	Value "Resource cost decrease:"
@@ -18692,10 +18692,10 @@ StringInfo
 	Value "ISK relations boost:"
 StringInfo
 	ID "IDS_RESEARCHFLOATMODIFIER_TEMPORARYRELATIONSHIPFROMGIVEMETALVALUEADJUSTMENT"
-	Value "Metal relations boost:"
+	Value "Common Metals relations boost:"
 StringInfo
 	ID "IDS_RESEARCHFLOATMODIFIER_TEMPORARYRELATIONSHIPFROMGIVECRYSTALVALUESMAXADJUSTMENT"
-	Value "Crystal relations boost:"
+	Value "Rare Metals relations boost:"
 StringInfo
 	ID "IDS_RESEARCHFLOATMODIFIER_TITANCONSTRUCTIONCAP"
 	Value "Titan construction cap:"
@@ -18902,10 +18902,10 @@ StringInfo
 	Value "Insufficient ISK."
 StringInfo
 	ID "IDS_ISTARBASEUPGRADECANQUEUENEXTSTAGESTATUS_NOTENOUGHMETAL"
-	Value "Insufficient Metal."
+	Value "Insufficient Common Metals."
 StringInfo
 	ID "IDS_ISTARBASEUPGRADECANQUEUENEXTSTAGESTATUS_NOTENOUGHCRYSTAL"
-	Value "Insufficient Crystal."
+	Value "Insufficient Rare Metals."
 StringInfo
 	ID "IDS_ISTARBASEUPGRADECANQUEUENEXTSTAGESTATUS_NOTENOUGHUPGRADEPOINTS"
 	Value "Max number of total upgrades reached."
@@ -20372,19 +20372,19 @@ StringInfo
 	Value "%s ISK"
 StringInfo
 	ID "IDSPlayerScreenPriceMetalButton"
-	Value "%s Metal"
+	Value "%s Common Metals"
 StringInfo
 	ID "IDSPlayerScreenPriceCrystalButton"
-	Value "%s Crystal"
+	Value "%s Rare Metals"
 StringInfo
 	ID "IDSPlayerScreenRewardCreditsButton"
 	Value "%s ISK"
 StringInfo
 	ID "IDSPlayerScreenRewardMetalButton"
-	Value "%s Metal"
+	Value "%s Common Metals"
 StringInfo
 	ID "IDSPlayerScreenRewardCrystalButton"
-	Value "%s Crystal"
+	Value "%s Rare Metals"
 StringInfo
 	ID "IDSPlayerScreenKillShipsButton"
 	Value "%s Ships"
@@ -20951,10 +20951,10 @@ StringInfo
 	Value "ISK"
 StringInfo
 	ID "IDSStatsScreenTabButtonMetal"
-	Value "Metal"
+	Value "Common Metals"
 StringInfo
 	ID "IDSStatsScreenTabButtonCrystal"
-	Value "Crystal"
+	Value "Rare Metals"
 StringInfo
 	ID "IDSStatsScreenTabButtonShips"
 	Value "Fleet"
@@ -21206,10 +21206,10 @@ StringInfo
 	Value "Give ISK"
 StringInfo
 	ID "IDSQuestGiveCrystal"
-	Value "Give Crystal"
+	Value "Give Rare Metals"
 StringInfo
 	ID "IDSQuestGiveMetal"
-	Value "Give Metal"
+	Value "Give Common Metals"
 StringInfo
 	ID "IDSQuestKillCivilianModules"
 	Value "Destroy Civilian Structures"
@@ -21233,10 +21233,10 @@ StringInfo
 	Value "Give ISK to this player to complete the mission."
 StringInfo
 	ID "IDSQuestInfoCardDescGiveCrystal"
-	Value "Give Crystal to this player to complete the mission."
+	Value "Give Rare Metals to this player to complete the mission."
 StringInfo
 	ID "IDSQuestInfoCardDescGiveMetal"
-	Value "Give Metal to this player to complete the mission."
+	Value "Give Common Metals to this player to complete the mission."
 StringInfo
 	ID "IDSQuestInfoCardDescKillCivilianModules"
 	Value "Destroy civilian structures of the target player to complete the mission."
@@ -21872,16 +21872,16 @@ StringInfo
 	Value "Give %s ISK to other players."
 StringInfo
 	ID "IDSAchievementNameHasGivenMetal"
-	Value "Metal Lender"
+	Value "Common Metals Lender"
 StringInfo
 	ID "IDSAchievementDescHasGivenMetal"
-	Value "Give %s Metal to other players."
+	Value "Give %s Common Metals to other players."
 StringInfo
 	ID "IDSAchievementNameHasGivenCrystal"
-	Value "Crystal Lender"
+	Value "Rare Metals Lender"
 StringInfo
 	ID "IDSAchievementDescHasGivenCrystal"
-	Value "Give %s Crystal to other players."
+	Value "Give %s Rare Metals to other players."
 StringInfo
 	ID "IDSAchievementNameHasFormedAllianceCeaseFire"
 	Value "Road to Peace"
@@ -21932,22 +21932,22 @@ StringInfo
 	Value "Collect %s ISK from trade ships in a single game."
 StringInfo
 	ID "IDSAchievementNameHasMadeMetalIncome"
-	Value "Metal Miner"
+	Value "Common Metals Miner"
 StringInfo
 	ID "IDSAchievementDescHasMadeMetalIncome"
-	Value "Collect %s Metal from resource extractors in a single game."
+	Value "Collect %s Common Metals from resource extractors in a single game."
 StringInfo
 	ID "IDSAchievementNameHasMadeCrystalIncome"
-	Value "Crystal Miner"
+	Value "Rare Metals Miner"
 StringInfo
 	ID "IDSAchievementDescHasMadeCrystalIncome"
-	Value "Collect %s Crystal from resource extractors in a single game."
+	Value "Collect %s Rare Metals from resource extractors in a single game."
 StringInfo
 	ID "IDSAchievementNameHasMadeRefineryIncome"
 	Value "Refining Magnate"
 StringInfo
 	ID "IDSAchievementDescHasMadeRefineryIncome"
-	Value "Collect %s Metal or Crystal from refinery ships in a single game."
+	Value "Collect %s Common Metals or Rare Metals from refinery ships in a single game."
 StringInfo
 	ID "IDSAchievementNameHasUsedCulture"
 	Value "Pop Idol"
@@ -22022,28 +22022,28 @@ StringInfo
 	Value "Um... What?"
 StringInfo
 	ID "IDSAchievementNameHasBoughtMetal"
-	Value "Metal Speculator"
+	Value "Common Metals Speculator"
 StringInfo
 	ID "IDSAchievementDescHasBoughtMetal"
-	Value "Buy %s Metal from the Jita Market"
+	Value "Buy %s Common Metals from the Jita Market"
 StringInfo
 	ID "IDSAchievementNameHasSoldMetalToMarket"
-	Value "Metal Merchant"
+	Value "Common Metals Merchant"
 StringInfo
 	ID "IDSAchievementDescHasSoldMetalToMarket"
-	Value "Sell %s Metal directly to the Jita Market"
+	Value "Sell %s Common Metals directly to the Jita Market"
 StringInfo
 	ID "IDSAchievementNameHasBoughtCrystal"
-	Value "Crystal Speculator"
+	Value "Rare Metals Speculator"
 StringInfo
 	ID "IDSAchievementDescHasBoughtCrystal"
-	Value "Buy %s Crystal from the Jita Market"
+	Value "Buy %s Rare Metals from the Jita Market"
 StringInfo
 	ID "IDSAchievementNameHasSoldCrystalToMarket"
-	Value "Crystal Merchant"
+	Value "Rare Metals Merchant"
 StringInfo
 	ID "IDSAchievementDescHasSoldCrystalToMarket"
-	Value "Sell %s Crystal directly to the Jita Market"
+	Value "Sell %s Rare Metals directly to the Jita Market"
 StringInfo
 	ID "IDSAchievementNameHasSoldResourcesToPlayers"
 	Value "Resource Opportunist"
@@ -22142,10 +22142,10 @@ StringInfo
 	Value "ISK"
 StringInfo
 	ID "IDSPlayerRankingNameMetalIncome"
-	Value "Metal"
+	Value "Common Metals"
 StringInfo
 	ID "IDSPlayerRankingNameCrystalIncome"
-	Value "Crystal"
+	Value "Rare Metals"
 StringInfo
 	ID "IDSPlayerRankingNameRelationship"
 	Value "Relationships"
@@ -22415,7 +22415,7 @@ StringInfo
 	Value "Target Player: *VALUE0*"
 StringInfo
 	ID "IDS_QUESTINFOCARDSTATUS_GIVERESOURCES"
-	Value "Remaining ISK: %i Metal: %i Crystal: %i"
+	Value "Remaining ISK: %i Common Metals: %i Rare Metals: %i"
 StringInfo
 	ID "IDS_QUESTINFOCARDSTATUS_KILLSHIPS"
 	Value "Remaining Ships: %i"
@@ -24242,7 +24242,7 @@ StringInfo
 	Value "Every planet in this crowded system is rich in resources, but fiercely guarded by their militias. A powerful fleet will be needed to make any headway here."
 StringInfo
 	ID "IDS_CUSTOMGALAXY_DESCRIPTION_IRONHEART"
-	Value "Your metal is towards the sun on the planets, your crystal on the rim in the ice fields. Prioritize your resources carefully, as your enemies are flanking from both sides!"
+	Value "Your Common Metals is towards the sun on the planets, your Rare Metals on the rim in the ice fields. Prioritize your resources carefully, as your enemies are flanking from both sides!"
 StringInfo
 	ID "IDS_CUSTOMGALAXY_DESCRIPTION_POWERSTRUGGLE"
 	Value "It's a tough galaxy, best make the most of it. Contest the distant resource fields and the nearby planets before striking the enemy's home world only a couple jumps away."
