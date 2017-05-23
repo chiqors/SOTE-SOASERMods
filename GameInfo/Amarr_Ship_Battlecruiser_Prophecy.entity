@@ -100,7 +100,7 @@ canOnlyTargetStructures FALSE
 hasWeaponLevels FALSE
 mass 4300.000000
 ShieldMeshName "Prophecy"
-renderShield FALSE
+renderShield TRUE
 maxAccelerationLinear 85.000000
 maxAccelerationStrafe 10.000000
 maxDecelerationLinear 500.000000

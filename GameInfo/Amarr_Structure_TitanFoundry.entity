@@ -67,7 +67,7 @@ meshNameIncreasedEffectName ""
 meshNameDecreasedEffectName ""
 ExplosionName "StarBase1"
 mainViewIcon "MAINVIEWICON_PLANETMODULE_TECHORBITALTITANFACTORY"
-picture ""
+picture "PICTURE_INDUSTRIALARRAY_SOTIYO"
 minShadow 0.000000
 maxShadow 0.200000
 formationRank 3

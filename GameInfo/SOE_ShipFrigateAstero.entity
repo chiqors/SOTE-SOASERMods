@@ -10,7 +10,7 @@ typeCount 1
 frigateRoleType "Light"
 statCountType "FrigateLight"
 mainViewIcon "MAINVIEWICON_FRIGATE_PHASELIGHT"
-picture "PICTURE_FRIGATE_INCURSION"
+picture "PICTURE_SOE_ASTERO"
 NameStringID "IDS_FRIGATE_PHASELIGHT_NAME"
 DescriptionStringID "IDS_FRIGATE_PHASELIGHT_DESCRIPTION"
 counterDescriptionStringID "IDS_COUNTERDESC_FRIGATE_NONCOMBAT"
