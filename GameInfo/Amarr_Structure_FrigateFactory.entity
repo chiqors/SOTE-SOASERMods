@@ -39,7 +39,7 @@ ExperiencePointsForDestroying 125.000000
 resourceExtractionType "Invalid"
 cultureSpreadRate 0.000000
 isAffectedBySimilarModuleCostResearch TRUE
-placementRadius 2200.000000
+placementRadius 1000.000000
 nearPlacementDistOffset 0.000000
 farPlacementDistOffset 9000.000000
 spawnCount 1

@@ -78,8 +78,8 @@ AntiMatterRestoreRate
 CultureProtectRate
 	StartValue 2.800000
 	ValueIncreasePerLevel 0.050000
-NameStringID "IDS_TITAN_CALDARILOYALIST_NAME"
-DescriptionStringID "IDS_TITAN_CALDARILOYALIST_DESCRIPTION"
+NameStringID "IDS_COMMAND_TITAN_LEVIATHAN_NAME"
+DescriptionStringID "IDS_COMMAND_TITAN__DESCRIPTION"
 picture "PICTURE_DREADNOUGHT_LEVIATHAN"
 Prerequisites
 	NumResearchPrerequisites 1

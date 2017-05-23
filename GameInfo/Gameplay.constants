@@ -60,40 +60,40 @@ GameplayConstants
 		stripTime 9.1
 	CapitalShipData
 		ExperienceLevelData:0
-			ExperienceNeededForNextLevel 5000.0
-			ExperienceGainedForDestroying 1000.0
+			ExperienceNeededForNextLevel 500.0
+			ExperienceGainedForDestroying 100.0
 			UpgradePriceForNextLevel 1000.0
 		ExperienceLevelData:1
-			ExperienceNeededForNextLevel 7500.0
-			ExperienceGainedForDestroying 1250.0
+			ExperienceNeededForNextLevel 750.0
+			ExperienceGainedForDestroying 125.0
 			UpgradePriceForNextLevel 1700.0
 		ExperienceLevelData:2
-			ExperienceNeededForNextLevel 10500.0
-			ExperienceGainedForDestroying 1500.0
+			ExperienceNeededForNextLevel 1050.0
+			ExperienceGainedForDestroying 150.0
 			UpgradePriceForNextLevel 2400.0
 		ExperienceLevelData:3
-			ExperienceNeededForNextLevel 14000.0
-			ExperienceGainedForDestroying 1750.0
+			ExperienceNeededForNextLevel 1400.0
+			ExperienceGainedForDestroying 175.0
 			UpgradePriceForNextLevel 3100.0
 		ExperienceLevelData:4
-			ExperienceNeededForNextLevel 18000.0
-			ExperienceGainedForDestroying 2000.0
+			ExperienceNeededForNextLevel 1800.0
+			ExperienceGainedForDestroying 200.0
 			UpgradePriceForNextLevel 3800.0
 		ExperienceLevelData:5
-			ExperienceNeededForNextLevel 22500.0
-			ExperienceGainedForDestroying 2250.0
+			ExperienceNeededForNextLevel 2250.0
+			ExperienceGainedForDestroying 225.0
 			UpgradePriceForNextLevel 4500.0
 		ExperienceLevelData:6
-			ExperienceNeededForNextLevel 27500.0
-			ExperienceGainedForDestroying 2500.0
+			ExperienceNeededForNextLevel 2750.0
+			ExperienceGainedForDestroying 250.0
 			UpgradePriceForNextLevel 5200.0
 		ExperienceLevelData:7
-			ExperienceNeededForNextLevel 33000.0
-			ExperienceGainedForDestroying 2750.0
+			ExperienceNeededForNextLevel 3300.0
+			ExperienceGainedForDestroying 275.0
 			UpgradePriceForNextLevel 5900.0
 		ExperienceLevelData:8
-			ExperienceNeededForNextLevel 39000.0
-			ExperienceGainedForDestroying 3000.0
+			ExperienceNeededForNextLevel 3900.0
+			ExperienceGainedForDestroying 300.0
 			UpgradePriceForNextLevel 6600.0
 		ExperienceLevelData:9
 			ExperienceNeededForNextLevel 0.0
@@ -104,32 +104,32 @@ GameplayConstants
 		PurchaseNextLevelTime 60
 	TitanData
 		ExperienceLevelData:0
-			ExperienceNeededForNextLevel 15000.0
-			ExperienceGainedForDestroying 5000.0
+			ExperienceNeededForNextLevel 1500.0
+			ExperienceGainedForDestroying 500.0
 		ExperienceLevelData:1
-			ExperienceNeededForNextLevel 30000.0
-			ExperienceGainedForDestroying 7500.0
+			ExperienceNeededForNextLevel 3000.0
+			ExperienceGainedForDestroying 750.0
 		ExperienceLevelData:2
-			ExperienceNeededForNextLevel 50000.0
-			ExperienceGainedForDestroying 10000.0
+			ExperienceNeededForNextLevel 500.0
+			ExperienceGainedForDestroying 1000.0
 		ExperienceLevelData:3
-			ExperienceNeededForNextLevel 75000.0
-			ExperienceGainedForDestroying 12500.0
+			ExperienceNeededForNextLevel 7500.0
+			ExperienceGainedForDestroying 1250.0
 		ExperienceLevelData:4
-			ExperienceNeededForNextLevel 105000.0
-			ExperienceGainedForDestroying 15000.0
+			ExperienceNeededForNextLevel 10500.0
+			ExperienceGainedForDestroying 1500.0
 		ExperienceLevelData:5
-			ExperienceNeededForNextLevel 140000.0
-			ExperienceGainedForDestroying 17500.0
+			ExperienceNeededForNextLevel 14000.0
+			ExperienceGainedForDestroying 1750.0
 		ExperienceLevelData:6
-			ExperienceNeededForNextLevel 180000.0
-			ExperienceGainedForDestroying 20000.0
+			ExperienceNeededForNextLevel 18000.0
+			ExperienceGainedForDestroying 2000.0
 		ExperienceLevelData:7
-			ExperienceNeededForNextLevel 225000.0
-			ExperienceGainedForDestroying 22500.0
+			ExperienceNeededForNextLevel 22500.0
+			ExperienceGainedForDestroying 2250.0
 		ExperienceLevelData:8
-			ExperienceNeededForNextLevel 275000.0
-			ExperienceGainedForDestroying 25000.0
+			ExperienceNeededForNextLevel 27500.0
+			ExperienceGainedForDestroying 2500.0
 		ExperienceLevelData:9
 			ExperienceNeededForNextLevel 0.0
 			ExperienceGainedForDestroying 27500.0

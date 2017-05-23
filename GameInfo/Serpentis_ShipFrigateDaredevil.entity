@@ -1,0 +1,149 @@
+﻿TXT
+entityType "Frigate"
+defaultAutoAttackRange "GravityWell"
+defaultAutoAttackOn TRUE
+prefersToFocusFire TRUE
+usesFighterAttack FALSE
+autoJoinFleetDefault TRUE
+canBomb FALSE
+typeCount 1
+frigateRoleType "Light"
+statCountType "FrigateLight"
+mainViewIcon "MAINVIEWICON_FRIGATE_PHASELIGHT"
+picture "PICTURE_FRIGATE_INCURSION"
+NameStringID "IDS_FRIGATE_PHASELIGHT_NAME"
+DescriptionStringID "IDS_FRIGATE_PHASELIGHT_DESCRIPTION"
+counterDescriptionStringID "IDS_COUNTERDESC_FRIGATE_NONCOMBAT"
+basePrice
+	credits 18.000000
+	metal 15.000000
+	crystal 13.000000
+slotCount 2.000000
+BuildTime 5.000000
+hasLevels FALSE
+ExperiencePointsForDestroying 22.000000
+MaxHullPoints 450.000000
+MaxShieldPoints 400.000000
+HullPointRestoreRate 1.000000
+ShieldPointRestoreRate 0.500000
+BaseArmorPoints 0.000000
+maxMitigation 0.000000
+Prerequisites
+	NumResearchPrerequisites 0
+	RequiredFactionNameID ""
+	RequiredCompletedResearchSubjects 0
+numRandomDebrisLarge 0
+numRandomDebrisSmall 0
+numSpecificDebris 0
+armorType "Light"
+hudIcon "HUDICON_FRIGATE_PHASELIGHT"
+smallHudIcon "HUDICONSMALL_FRIGATE_PHASELIGHT"
+infoCardIcon "INFOCARDICON_FRIGATE_PHASELIGHT"
+minZoomDistanceMult 1.000000
+NumWeapons 1
+Weapon
+	WeaponType "Projectile"
+	damageEnums
+		AttackType "ANTILIGHT"
+		DamageAffectType "AFFECTS_SHIELDS_AND_HULL"
+		DamageApplyType "BACKLOADED"
+		DamageType "ENERGY"
+		WeaponClassType "PULSEGUN"
+	DamagePerBank:FRONT 96.000000
+	DamagePerBank:BACK 0.000000
+	DamagePerBank:LEFT 0.000000
+	DamagePerBank:RIGHT 0.000000
+	Range 4000.000000
+	PreBuffCooldownTime 2.040000
+	CanFireAtFighter FALSE
+	SynchronizedTargeting TRUE
+	PointStaggerDelay 0.050000
+	TravelSpeed 10000.000000
+	Duration 0.000000
+	fireConstraintType "CanAlwaysFire"
+	WeaponEffects
+		weaponType "Projectile"
+		burstCount 1
+		burstDelay 0.000000
+		fireDelay 0.000000
+		muzzleEffectName "EVE_Weapon_Blaster_Micro_Blue_Muzzle"
+		muzzleSoundMinRespawnTime 1.000000
+		muzzleSounds
+			soundCount 1
+			sound "WEAPON_SMALLRAILGUN"
+		hitEffectName "EVE_Weapon_Blaster_Micro_Blue_Hit"
+		hitHullEffectSounds
+			soundCount 1
+			sound ""
+		hitShieldsEffectSounds
+			soundCount 1
+			sound ""
+		projectileTravelEffectName "EVE_Weapon_Blaster_Micro_Blue"
+m_weaponIndexForRange 0
+firingAlignmentType "Default"
+TargetCountPerBank:FRONT 1
+TargetCountPerBank:BACK 0
+TargetCountPerBank:LEFT 0
+TargetCountPerBank:RIGHT 0
+canOnlyTargetStructures FALSE
+hasWeaponLevels FALSE
+mass 2000.000000
+ShieldMeshName "incursus"
+renderShield FALSE
+maxAccelerationLinear 100.000000
+maxAccelerationStrafe 10.000000
+maxDecelerationLinear 500.000000
+maxAccelerationAngular 8.700000
+maxDecelerationAngular 9.999996
+maxSpeedLinear 420.000000
+maxRollRate 2.000000
+maxRollAngle 35.000000
+squadTypeEntityDef:0 ""
+squadAntiMatterCost:0 0.000000
+squadTypeEntityDef:1 ""
+squadAntiMatterCost:1 0.000000
+squadTypeEntityDef:2 ""
+squadAntiMatterCost:2 0.000000
+squadTypeEntityDef:3 ""
+squadAntiMatterCost:3 0.000000
+maxNumCommandPoints 0
+NumSoundsFor:ONATTACKORDERISSUED 3
+SoundID "FRIGATE_TECHLIGHT_ONATTACKORDERISSUED_0"
+SoundID "FRIGATE_TECHLIGHT_ONATTACKORDERISSUED_1"
+SoundID "FRIGATE_TECHLIGHT_ONATTACKORDERISSUED_2"
+NumSoundsFor:ONCREATION 1
+SoundID "FRIGATE_TECHLIGHT_ONCREATION"
+NumSoundsFor:ONGENERALORDERISSUED 3
+SoundID "FRIGATE_TECHLIGHT_ONGENERALORDERISSUED_0"
+SoundID "FRIGATE_TECHLIGHT_ONGENERALORDERISSUED_1"
+SoundID "FRIGATE_TECHLIGHT_ONGENERALORDERISSUED_2"
+NumSoundsFor:ONSELECTED 3
+SoundID "FRIGATE_TECHLIGHT_ONSELECTED_0"
+SoundID "FRIGATE_TECHLIGHT_ONSELECTED_1"
+SoundID "FRIGATE_TECHLIGHT_ONSELECTED_2"
+NumSoundsFor:ONSTARTPHASEJUMP 1
+SoundID "FRIGATE_TECHLIGHT_ONSTARTPHASEJUMP_0"
+MeshNameInfoCount 1
+MeshNameInfo
+	meshName "incursus"
+	criteriaType "None"
+meshNameIncreasedEffectName ""
+meshNameDecreasedEffectName ""
+ExhaustParticleSystemName "Exhaust_EveFrigate"
+ExplosionName "EVEFrigate"
+HyperspaceChargingSoundID "HYPERSPACE_CHARGEUP"
+HyperspaceTravelSoundID "HYPERSPACE_TRAVEL"
+EngineSoundID "ENGINE_PHASECAPITALSHIP"
+ability:0 "AbilityMicrowarpdrive"
+ability:1 "AbilityStasisWebifier"
+ability:2 ""
+ability:3 ""
+ability:4 ""
+MaxAntiMatter 180.000000
+AntiMatterRestoreRate 0.500000
+cargoType "Invalid"
+maxCargoCapacity 0.000000
+formationRank 1
+minShadow 0.000000
+maxShadow 1.000000
+allegianceDecreasePerRoundtrip 0.000000

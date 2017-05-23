@@ -1,5 +1,5 @@
 TXT
-entityNameCount 2231
+entityNameCount 2232
 entityName "ALLRACES_RESEARCHSUBJECT_ABILITYACCESS_AFTERBURNER.entity"
 entityName "ALLRACES_RESEARCHSUBJECT_ABILITYACCESS_BASTIONMODE.entity"
 entityName "ALLRACES_RESEARCHSUBJECT_ABILITYACCESS_CLOAK.entity"
@@ -1245,7 +1245,7 @@ entityName "Gallente_Ship_Battlecruiser_Talos.entity"
 entityName "Gallente_Ship_Battleship_Dominix.entity"
 entityName "Gallente_Ship_Battleship_Hyperion.entity"
 entityName "Gallente_Ship_Battleship_Megathron.entity"
-entityName "Gallente_Ship_Battleship_Vindicator.entity"
+entityName "Serpentis_ShipBattleshipVindicator.entity"
 entityName "Gallente_Ship_Capital_Titan_Erebus.entity"
 entityName "Gallente_Ship_Carrier_Thanatos.entity"
 entityName "Gallente_Ship_Carrier_Triage_Thanatos.entity"
@@ -2230,3 +2230,5 @@ entityName "SOE_ShipBattleshipNestor.entity"
 entityName "SOE_ShipCruiserStratios.entity"
 entityName "SOE_ShipFrigateAstero.entity"
 entityName "FrigatePhaseTradeShip.entity"
+entityName "PLANETMODULE_TECHORBITALSHIELDGENERATOR.entity"
+entityName "PLANETMODULE_TECHORBITALCANNON.entity"

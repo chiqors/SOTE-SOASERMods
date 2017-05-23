@@ -147,7 +147,7 @@ EngineSoundID "ENGINE_TECHCAPITALSHIP"
 ability:0 "AbilityExplore"
 ability:1 "AbilityMicrowarpdrive"
 ability:2 "AbilityAmarrCynosuralField"
-ability:3 ""
+ability:3 "AbilityT2CloakCovertOps"
 ability:4 ""
 MaxAntiMatter 650.000000
 AntiMatterRestoreRate 0.500000
