@@ -24773,7 +24773,7 @@ StringInfo
 	Value "This was one of the first vessels the Sisters of EVE made available to capsuleers. It had been under development by the Sanctuary corporation, whose interest in exploration includes not only search & rescue operations but also a constant inquiry into the nature of the EVE Gate. "
 StringInfo
 	ID "IDS_ABILITY_Gjallarhorn_NAME"
-	Value "Aurora Ominae"
+	Value "Gjallarhorn"
 StringInfo
 	ID "IDS_ABILITY_Gjallarhorn_DESCRIPTION"
 	Value "Righteous fury given form, this weapon system rains a firestorm of unmatched raw destruction upon its target."
@@ -24816,3 +24816,4 @@ StringInfo
 StringInfo
 	ID "IDS_COMMAND_TITAN__DESCRIPTION"
 	Value "The commanda titan, also now as FC Titan, is modified version of titan. It comes with system wide bonus and equipament upgrades."
+	
