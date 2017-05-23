@@ -154,8 +154,8 @@ TargetCountPerBank:LEFT 1
 TargetCountPerBank:RIGHT 1
 canOnlyTargetStructures FALSE
 mass 50000.000000
-ShieldMeshName "Aeon"
-renderShield FALSE
+ShieldMeshName "hel"
+renderShield TRUE
 maxAccelerationLinear 12.500000
 maxAccelerationStrafe 0.500000
 maxDecelerationLinear 25.000000
