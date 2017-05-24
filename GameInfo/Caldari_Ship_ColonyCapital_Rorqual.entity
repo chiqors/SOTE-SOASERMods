@@ -67,7 +67,7 @@ ArmorPointsFromExperience
 	StartValue 0.000000
 	ValueIncreasePerLevel 0.000000
 maxMitigation
-	StartValue 0.600000
+	StartValue 0.300000
 	ValueIncreasePerLevel 0.005000
 MaxAntiMatter
 	StartValue 3700.000000
@@ -151,7 +151,7 @@ TargetCountPerBank:RIGHT 0
 canOnlyTargetStructures FALSE
 mass 11000.000000
 ShieldMeshName "Rorqual"
-renderShield FALSE
+renderShield TRUE
 maxAccelerationLinear 20.000000
 maxAccelerationStrafe 1.000000
 maxDecelerationLinear 40.000000
