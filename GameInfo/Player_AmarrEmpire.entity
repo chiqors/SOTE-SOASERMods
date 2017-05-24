@@ -63,7 +63,7 @@ entities
 			entityDefName "Amarr_Ship_Battleship_Armageddon"
 			entityDefName "Amarr_Ship_Battleship_Apocalypse"
 			entityDefName "Amarr_Ship_Battleship_Abaddon"
-			entityDefName "Amarr_Ship_Battleship_Bhaalgorn"
+			entityDefName "Bloodraider_ShipBattleshipBhaalgorn"
 			entityDefName "Amarr_Ship_Envoy_Prophecy"
 			entityDefName "Amarr_Ship_Destroyer_Confessor"
 		NotOnPage

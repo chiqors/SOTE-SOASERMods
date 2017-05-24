@@ -1,9 +1,14 @@
+Mesh Cynabal,
+Mesh Daredevil
+
 Badger Picture
 Drake Picture
 Bhaalgorn Picture
 Rattlesnake Picture
 Moa Picture
+
 Put effects on buffs
+
 Finish missing cruisers and Battlecruisers
 titans, habilities icons,
 supercarrier titan
@@ -11,4 +16,14 @@ angel shipyard, serpentis shipyard
 pirates ships icos
 download and covert musics
 capital titans ability missing
-mesh cynabal, daredevil
+
+Hangar Defenser should summon ghost defense ships, buy pirate ships and have fighters
+Citadel should have hangars, factory, trade port
+Titans, change icons for upgrades
+Supercarrier titan
+Serpentis shipyard
+Bloodraider shipyards
+Pirates ships icons
+download and covert musics
+Capital Titans ability missing
+

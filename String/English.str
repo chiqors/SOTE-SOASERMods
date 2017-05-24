@@ -23206,10 +23206,10 @@ StringInfo
 	ID "IDS_RESEARCHSUBJECT_BATTLESHIPACCESS_MEGATHRON_DESCRIPTION"
 	Value "Grants access to the Megathron class Battleship, A long range combat ship fitted with rail guns capable of engaging targets over great distances."
 StringInfo
-	ID "IDS_AMARR_SHIP_BATTLESHIP_BHAALGORN_NAME"
+	ID "IDS_Bloodraider_ShipBattleshipBhaalgorn_NAME"
 	Value "Bhaalgorn"
 StringInfo
-	ID "IDS_AMARR_SHIP_BATTLESHIP_BHAALGORN_DESCRIPTION"
+	ID "IDS_Bloodraider_ShipBattleshipBhaalgorn_DESCRIPTION"
 	Value "Named after a child-devouring demon of Amarrian legend, the Bhaalgorn is the pride and joy of the Blood Raider cabal. Though it is known to be based on an Armageddon blueprint, the design's origin remains shrouded in mystery. Those of a superstitious persuasion whisper in the dark of eldritch ceremonies and arcane rituals, but for most people, the practical aspect of the matter will more than suffice: you see one of these blood-red horrors looming on the horizon, it's time to make yourself scarce."
 StringInfo
 	ID "IDS_ABILITY_ECMBATTERY_NAME"
@@ -23470,10 +23470,10 @@ StringInfo
 	ID "IDS_Caldari_ResearchSubject_SubCapitalAccess_FeroxEnvoy_DESCRIPTION"
 	Value "Grants access to the Ferox Envoy cruiser -  a Ferox class battlecruiser whose purpose has been specifically configured to allow diplomatic actions between your empire and other empires."
 StringInfo
-	ID "IDS_CALDARI_SHIP_BATTLESHIP_RATTLESNAKE_NAME"
+	ID "IDS_Guristas_ShipBattleshipRattlesnake_NAME"
 	Value "Rattlesnake"
 StringInfo
-	ID "IDS_CALDARI_SHIP_BATTLESHIP_RATTLESNAKE_DESCRIPTION"
+	ID "IDS_Guristas_ShipBattleshipRattlesnake_DESCRIPTION"
 	Value "Korako �Rabbit' Kosakami shamelessly stole the idea of the Scorpion-class battleship and put his own spin on it. The result: the fearsome Rattlesnake, flagship of any large Gurista attack force."
 StringInfo
 	ID "IDS_RESEARCHSUBJECT_CAPITALSHIPACESS_CHIMERA"
@@ -24773,7 +24773,7 @@ StringInfo
 	Value "This was one of the first vessels the Sisters of EVE made available to capsuleers. It had been under development by the Sanctuary corporation, whose interest in exploration includes not only search & rescue operations but also a constant inquiry into the nature of the EVE Gate. "
 StringInfo
 	ID "IDS_ABILITY_Gjallarhorn_NAME"
-	Value "Aurora Ominae"
+	Value "Gjallarhorn"
 StringInfo
 	ID "IDS_ABILITY_Gjallarhorn_DESCRIPTION"
 	Value "Righteous fury given form, this weapon system rains a firestorm of unmatched raw destruction upon its target."
@@ -24816,3 +24816,4 @@ StringInfo
 StringInfo
 	ID "IDS_COMMAND_TITAN__DESCRIPTION"
 	Value "The commanda titan, also now as FC Titan, is modified version of titan. It comes with system wide bonus and equipament upgrades."
+	

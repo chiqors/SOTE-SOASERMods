@@ -9,7 +9,7 @@ spawnShips
 	requiredShipCount 0
 	randomShipCount 1
 	randomShip
-			type "Angel_ShipFrigateDaredevil"
+			type "Angel_ShipFrigateDramiel"
 		weight 1
 spawnShipsArrivalDelayTime 5.000000
 spawnShipsHyperspaceSpawnType "FleetBeacon"

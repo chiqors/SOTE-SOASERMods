@@ -99,7 +99,7 @@ canOnlyTargetStructures FALSE
 hasWeaponLevels FALSE
 mass 10000.000000
 ShieldMeshName "Orca"
-renderShield FALSE
+renderShield TRUE
 maxAccelerationLinear 25.000000
 maxAccelerationStrafe 0.000000
 maxDecelerationLinear 500.000000

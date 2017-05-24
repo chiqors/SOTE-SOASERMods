@@ -1,6 +1,6 @@
 ﻿TXT
 onlyLoadOnDemand FALSE
-brushCount 189
+brushCount 216
 brush
 	name "CORVETTEPICTURE_PHASE_LOYALIST"
 	content "Simple"
@@ -946,4 +946,139 @@ brush
 	content "Simple"
 	fileName "Unit_Picture"
 	pixelBox [ 1047 , 547 , 167 , 75 ]				
-				
+brush
+	name "PICTURE_CONCORD_FRIGATE"
+	content "Simple"
+	fileName "Unit_Picture"
+	pixelBox [ 852 , 394 , 167 , 75 ]				
+brush
+	name "PICTURE_CONCORD_CRUISER"
+	content "Simple"
+	fileName "Unit_Picture"
+	pixelBox [ 1022 , 394 , 167 , 75 ]				
+brush
+	name "PICTURE_CONCORD_BATTLESHIP"
+	content "Simple"
+	fileName "Unit_Picture"
+	pixelBox [ 1091 , 394 , 167 , 75 ]				
+brush
+	name "PICTURE_BLOODRAIDER_CRUOR"
+	content "Simple"
+	fileName "Unit_Picture"
+	pixelBox [ 1363 , 394 , 167 , 75 ]				
+brush
+	name "PICTURE_BLOODRAIDER_ASHIMUU"
+	content "Simple"
+	fileName "Unit_Picture"
+	pixelBox [ 1535 , 394 , 167 , 75 ]				
+brush
+	name "PICTURE_BLOODRAIDER_BHAALGORN"
+	content "Simple"
+	fileName "Unit_Picture"
+	pixelBox [ 1705 , 394 , 167 , 75 ]					
+brush
+	name "PICTURE_MORDU_GAMUR"
+	content "Simple"
+	fileName "Unit_Picture"
+	pixelBox [ 2 , 159 , 167 , 75 ]				
+brush
+	name "PICTURE_MORDU_ORTHURS"
+	content "Simple"
+	fileName "Unit_Picture"
+	pixelBox [ 171 , 159 , 167 , 75 ]				
+brush
+	name "PICTURE_MORDU_BARGHEST"
+	content "Simple"
+	fileName "Unit_Picture"
+	pixelBox [ 340 , 159 , 167 , 75 ]				
+brush
+	name "PICTURE_GURISTA_WORM"
+	content "Simple"
+	fileName "Unit_Picture"
+	pixelBox [ 510 , 159 , 167 , 75 ]				
+brush
+	name "PICTURE_GURISTA_GILA"
+	content "Simple"
+	fileName "Unit_Picture"
+	pixelBox [ 679 , 160 , 167 , 75 ]				
+brush
+	name "PICTURE_GURISTA_RATTLESNAKE"
+	content "Simple"
+	fileName "Unit_Picture"
+	pixelBox [ 850 , 160 , 167 , 75 ]					
+brush
+	name "PICTURE_SOE_ASTERO"
+	content "Simple"
+	fileName "Unit_Picture"
+	pixelBox [ 342 , 393 , 167 , 75 ]				
+brush
+	name "PICTURE_SOE_STRATIOS"
+	content "Simple"
+	fileName "Unit_Picture"
+	pixelBox [ 511 , 393 , 167 , 75 ]				
+brush
+	name "PICTURE_SOE_NESTOR"
+	content "Simple"
+	fileName "Unit_Picture"
+	pixelBox [ 680 , 393 , 167 , 75 ]				
+brush
+	name "PICTURE_SERPENTIS_DAREDEVIL"
+	content "Simple"
+	fileName "Unit_Picture"
+	pixelBox [ 1533 , 626 , 167 , 75 ]				
+brush
+	name "PICTURE_SERPENTIS_VIGILANTE"
+	content "Simple"
+	fileName "Unit_Picture"
+	pixelBox [ 1702 , 626 , 167 , 75 ]				
+brush
+	name "PICTURE_SERPENTIS_VINDICATOR"
+	content "Simple"
+	fileName "Unit_Picture"
+	pixelBox [ 1871 , 625 , 167 , 75 ]				
+brush
+	name "PICTURE_ANGEL_DRAMIEL"
+	content "Simple"
+	fileName "Unit_Picture"
+	pixelBox [ 512 , 857 , 167 , 75 ]				
+brush
+	name "PICTURE_ANGEL_CYNABAL"
+	content "Simple"
+	fileName "Unit_Picture"
+	pixelBox [ 682 , 857 , 167 , 75 ]				
+brush
+	name "PICTURE_ANGEL_MACHARIEL"
+	content "Simple"
+	fileName "Unit_Picture"
+	pixelBox [ 851 , 857 , 167 , 75 ]				
+brush
+	name "PICTURE_CITADEL_ASTRAHUS"
+	content "Simple"
+	fileName "Unit_Picture"
+	pixelBox [ 1019 , 859 , 167 , 75 ]				
+brush
+	name "PICTURE_CITADEL_FORTIZAR"
+	content "Simple"
+	fileName "Unit_Picture"
+	pixelBox [ 1187 , 858 , 167 , 75 ]				
+brush
+	name "PICTURE_CITADEL_KEEPSTAR"
+	content "Simple"
+	fileName "Unit_Picture"
+	pixelBox [ 1356 , 859 , 167 , 75 ]				
+brush
+	name "PICTURE_INDUSTRIALARRAY_RAITARU"
+	content "Simple"
+	fileName "Unit_Picture"
+	pixelBox [ 1525 , 859 , 167 , 75 ]				
+brush
+	name "PICTURE_INDUSTRIALARRAY_AZABEL"
+	content "Simple"
+	fileName "Unit_Picture"
+	pixelBox [ 1694 , 859 , 167 , 75 ]				
+brush
+	name "PICTURE_INDUSTRIALARRAY_SOTIYO"
+	content "Simple"
+	fileName "Unit_Picture"
+	pixelBox [ 1863 , 857 , 167 , 75 ]				
+																		

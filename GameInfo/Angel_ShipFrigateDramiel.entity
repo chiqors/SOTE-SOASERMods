@@ -10,7 +10,7 @@ typeCount 1
 frigateRoleType "Light"
 statCountType "FrigateLight"
 mainViewIcon "MAINVIEWICON_FRIGATE_TECHLIGHT"
-picture "PICTURE_FRIGATE_RIFTER"
+picture "PICTURE_ANGEL_DRAMIEL"
 NameStringID "IDS_FRIGATE_RIFTER_NAME"
 DescriptionStringID "IDS_FRIGATE_TECHLIGHT_DESCRIPTION"
 counterDescriptionStringID "IDS_COUNTERDESC_FRIGATE_NONCOMBAT"

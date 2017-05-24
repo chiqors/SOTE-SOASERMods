@@ -10,7 +10,7 @@ typeCount 1
 frigateRoleType "Heavy"
 statCountType "FrigateHeavy"
 mainViewIcon "MAINVIEWICON_CAPITALSHIP_PHASESCOUT"
-picture "PICTURE_FRIGATE_MEGATHRON"
+picture "PICTURE_SERPENTIS_VINDICATOR"
 NameStringID "IDS_Serpentis_ShipBattleshipVindicator_NAME"
 DescriptionStringID "IDS_Serpentis_ShipBattleshipVindicator_DESCRIPTION"
 counterDescriptionStringID "IDS_COUNTERDESC_FRIGATE_LONGRANGE"

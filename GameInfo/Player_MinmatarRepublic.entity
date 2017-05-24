@@ -64,7 +64,7 @@ entities
 			entityDefName "Minmatar_Ship_Battleship_Typhoon"
 			entityDefName "Minmatar_Ship_Battleship_Tempest"
 			entityDefName "Minmatar_Ship_Battleship_Maelstron"
-			entityDefName "Amarr_Ship_Battleship_Bhaalgorn"
+			entityDefName "Bloodraider_ShipBattleshipBhaalgorn"
 			entityDefName "Minmatar_Ship_Envoy_CycloneEnvoy"
 			entityDefName "Minmatar_Ship_Destroyer_Svipul"
 		NotOnPage
