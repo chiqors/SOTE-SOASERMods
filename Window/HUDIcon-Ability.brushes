@@ -1,6 +1,6 @@
 ﻿TXT
 onlyLoadOnDemand FALSE
-brushCount 298
+brushCount 300
 brush
 	name "HUDICON_ABILITY_DARKCAPITALSHIP"
 	content "States"
@@ -1406,149 +1406,185 @@ brush
 		fileName "Buttons_Research2_Normal"
 		pixelBox [ 670 , 4 , 47 , 33 ]
 brush
+	name "HUDIconTitanTechLoyalistDurabilityUpgrade4"
+	content "States"
+	Disabled
+		fileName "Buttons_Abilities_Disabled"
+		pixelBox [ 566 , 252 , 47 , 33 ]
+	Pressed
+		fileName "Buttons_Abilities_Pressed"
+		pixelBox [ 566 , 252 , 47 , 33 ]
+	CursorOver
+		fileName "Buttons_Abilities_CursorOver"
+		pixelBox [ 566 , 252 , 47 , 33 ]
+	Focused
+		fileName "Buttons_Abilities_Normal"
+		pixelBox [ 566 , 252 , 47 , 33 ]
+	Normal
+		fileName "Buttons_Abilities_Normal"
+		pixelBox [ 566 , 252 , 47 , 33 ]
+brush
 	name "HUDIconTitanTechLoyalistDurabilityUpgrade3"
 	content "States"
 	Disabled
-		fileName "Buttons_Research2_Disabled"
-		pixelBox [ 568 , 115 , 47 , 33 ]
+		fileName "Buttons_Abilities_Disabled"
+		pixelBox [ 515 , 252 , 47 , 33 ]
 	Pressed
-		fileName "Buttons_Research2_Pressed"
-		pixelBox [ 568 , 115 , 47 , 33 ]
+		fileName "Buttons_Abilities_Pressed"
+		pixelBox [ 515 , 252 , 47 , 33 ]
 	CursorOver
-		fileName "Buttons_Research2_CursorOver"
-		pixelBox [ 568 , 115 , 47 , 33 ]
+		fileName "Buttons_Abilities_CursorOver"
+		pixelBox [ 515 , 252 , 47 , 33 ]
 	Focused
-		fileName "Buttons_Research2_Normal"
-		pixelBox [ 568 , 115 , 47 , 33 ]
+		fileName "Buttons_Abilities_Normal"
+		pixelBox [ 515 , 252 , 47 , 33 ]
 	Normal
-		fileName "Buttons_Research2_Normal"
-		pixelBox [ 568 , 115 , 47 , 33 ]
+		fileName "Buttons_Abilities_Normal"
+		pixelBox [ 515 , 252 , 47 , 33 ]
 brush
 	name "HUDIconTitanTechLoyalistDurabilityUpgrade2"
 	content "States"
 	Disabled
-		fileName "Buttons_Research2_Disabled"
-		pixelBox [ 568 , 78 , 47 , 33 ]
+		fileName "Buttons_Abilities_Disabled"
+		pixelBox [ 464 , 252 , 47 , 33 ]
 	Pressed
-		fileName "Buttons_Research2_Pressed"
-		pixelBox [ 568 , 78 , 47 , 33 ]
+		fileName "Buttons_Abilities_Pressed"
+		pixelBox [ 464 , 252 , 47 , 33 ]
 	CursorOver
-		fileName "Buttons_Research2_CursorOver"
-		pixelBox [ 568 , 78 , 47 , 33 ]
+		fileName "Buttons_Abilities_CursorOver"
+		pixelBox [ 464 , 252 , 47 , 33 ]
 	Focused
-		fileName "Buttons_Research2_Normal"
-		pixelBox [ 568 , 78 , 47 , 33 ]
+		fileName "Buttons_Abilities_Normal"
+		pixelBox [ 464 , 252 , 47 , 33 ]
 	Normal
-		fileName "Buttons_Research2_Normal"
-		pixelBox [ 568 , 78 , 47 , 33 ]
+		fileName "Buttons_Abilities_Normal"
+		pixelBox [ 464 , 252 , 47 , 33 ]
 brush
 	name "HUDIconTitanTechLoyalistDurabilityUpgrade1"
 	content "States"
 	Disabled
-		fileName "Buttons_Research2_Disabled"
-		pixelBox [ 568 , 41 , 47 , 33 ]
+		fileName "Buttons_Abilities_Disabled"
+		pixelBox [ 413 , 252 , 47 , 33 ]
 	Pressed
-		fileName "Buttons_Research2_Pressed"
-		pixelBox [ 568 , 41 , 47 , 33 ]
+		fileName "Buttons_Abilities_Pressed"
+		pixelBox [ 413 , 252 , 47 , 33 ]
 	CursorOver
-		fileName "Buttons_Research2_CursorOver"
-		pixelBox [ 568 , 41 , 47 , 33 ]
+		fileName "Buttons_Abilities_CursorOver"
+		pixelBox [ 413 , 252 , 47 , 33 ]
 	Focused
-		fileName "Buttons_Research2_Normal"
-		pixelBox [ 568 , 41 , 47 , 33 ]
+		fileName "Buttons_Abilities_Normal"
+		pixelBox [ 413 , 252 , 47 , 33 ]
 	Normal
-		fileName "Buttons_Research2_Normal"
-		pixelBox [ 568 , 41 , 47 , 33 ]
+		fileName "Buttons_Abilities_Normal"
+		pixelBox [ 413 , 252 , 47 , 33 ]
 brush
 	name "HUDIconTitanTechLoyalistDurabilityUpgrade0"
 	content "States"
 	Disabled
-		fileName "Buttons_Research2_Disabled"
-		pixelBox [ 568 , 4 , 47 , 33 ]
+		fileName "Buttons_Abilities_Disabled"
+		pixelBox [ 311 , 252 , 47 , 33 ]
 	Pressed
-		fileName "Buttons_Research2_Pressed"
-		pixelBox [ 568 , 4 , 47 , 33 ]
+		fileName "Buttons_Abilities_Pressed"
+		pixelBox [ 311 , 252 , 47 , 33 ]
 	CursorOver
-		fileName "Buttons_Research2_CursorOver"
-		pixelBox [ 568 , 4 , 47 , 33 ]
+		fileName "Buttons_Abilities_CursorOver"
+		pixelBox [ 311 , 252 , 47 , 33 ]
 	Focused
-		fileName "Buttons_Research2_Normal"
-		pixelBox [ 568 , 4 , 47 , 33 ]
+		fileName "Buttons_Abilities_Normal"
+		pixelBox [ 311 , 252 , 47 , 33 ]
 	Normal
-		fileName "Buttons_Research2_Normal"
-		pixelBox [ 568 , 4 , 47 , 33 ]
+		fileName "Buttons_Abilities_Normal"
+		pixelBox [ 311 , 252 , 47 , 33 ]
+brush
+	name "HUDIconTitanTechLoyalistWeaponUpgrade4"
+	content "States"
+	Disabled
+		fileName "Buttons_Abilities_Disabled"
+		pixelBox [ 209 , 141 , 47 , 33 ]
+	Pressed
+		fileName "Buttons_Abilities_Pressed"
+		pixelBox [ 209 , 141 , 47 , 33 ]
+	CursorOver
+		fileName "Buttons_Abilities_CursorOver"
+		pixelBox [ 209 , 141 , 47 , 33 ]
+	Focused
+		fileName "Buttons_Abilities_Normal"
+		pixelBox [ 209 , 141 , 47 , 33 ]
+	Normal
+		fileName "Buttons_Abilities_Normal"
+		pixelBox [ 209 , 141 , 47 , 33 ]
 brush
 	name "HUDIconTitanTechLoyalistWeaponUpgrade3"
 	content "States"
 	Disabled
-		fileName "Buttons_Research2_Disabled"
-		pixelBox [ 619 , 115 , 47 , 33 ]
+		fileName "Buttons_Abilities_Disabled"
+		pixelBox [ 107 , 141 , 47 , 33 ]
 	Pressed
-		fileName "Buttons_Research2_Pressed"
-		pixelBox [ 619 , 115 , 47 , 33 ]
+		fileName "Buttons_Abilities_Pressed"
+		pixelBox [ 107 , 141 , 47 , 33 ]
 	CursorOver
-		fileName "Buttons_Research2_CursorOver"
-		pixelBox [ 619 , 115 , 47 , 33 ]
+		fileName "Buttons_Abilities_CursorOver"
+		pixelBox [ 107 , 141 , 47 , 33 ]
 	Focused
-		fileName "Buttons_Research2_Normal"
-		pixelBox [ 619 , 115 , 47 , 33 ]
+		fileName "Buttons_Abilities_Normal"
+		pixelBox [ 107 , 141 , 47 , 33 ]
 	Normal
-		fileName "Buttons_Research2_Normal"
-		pixelBox [ 619 , 115 , 47 , 33 ]
+		fileName "Buttons_Abilities_Normal"
+		pixelBox [ 107 , 141 , 47 , 33 ]
 brush
 	name "HUDIconTitanTechLoyalistWeaponUpgrade2"
 	content "States"
 	Disabled
 		fileName "Buttons_Research2_Disabled"
-		pixelBox [ 619 , 78 , 47 , 33 ]
+		pixelBox [ 770 , 326 , 47 , 33 ]
 	Pressed
 		fileName "Buttons_Research2_Pressed"
-		pixelBox [ 619 , 78 , 47 , 33 ]
+		pixelBox [ 770 , 326 , 47 , 33 ]
 	CursorOver
 		fileName "Buttons_Research2_CursorOver"
-		pixelBox [ 619 , 78 , 47 , 33 ]
+		pixelBox [ 770 , 326 , 47 , 33 ]
 	Focused
 		fileName "Buttons_Research2_Normal"
-		pixelBox [ 619 , 78 , 47 , 33 ]
+		pixelBox [ 770 , 326 , 47 , 33 ]
 	Normal
 		fileName "Buttons_Research2_Normal"
-		pixelBox [ 619 , 78 , 47 , 33 ]
+		pixelBox [ 770 , 326 , 47 , 33 ]
 brush
 	name "HUDIconTitanTechLoyalistWeaponUpgrade1"
 	content "States"
 	Disabled
 		fileName "Buttons_Research2_Disabled"
-		pixelBox [ 619 , 41 , 47 , 33 ]
+		pixelBox [ 822 , 326 , 47 , 33 ]
 	Pressed
 		fileName "Buttons_Research2_Pressed"
-		pixelBox [ 619 , 41 , 47 , 33 ]
+		pixelBox [ 822 , 326 , 47 , 33 ]
 	CursorOver
 		fileName "Buttons_Research2_CursorOver"
-		pixelBox [ 619 , 41 , 47 , 33 ]
+		pixelBox [ 822 , 326 , 47 , 33 ]
 	Focused
 		fileName "Buttons_Research2_Normal"
-		pixelBox [ 619 , 41 , 47 , 33 ]
+		pixelBox [ 822 , 326 , 47 , 33 ]
 	Normal
 		fileName "Buttons_Research2_Normal"
-		pixelBox [ 619 , 41 , 47 , 33 ]
+		pixelBox [ 822 , 326 , 47 , 33 ]
 brush
 	name "HUDIconTitanTechLoyalistWeaponUpgrade0"
 	content "States"
 	Disabled
 		fileName "Buttons_Research2_Disabled"
-		pixelBox [ 619 , 4 , 47 , 33 ]
+		pixelBox [ 872 , 326 , 47 , 33 ]
 	Pressed
 		fileName "Buttons_Research2_Pressed"
-		pixelBox [ 619 , 4 , 47 , 33 ]
+		pixelBox [ 872 , 326 , 47 , 33 ]
 	CursorOver
 		fileName "Buttons_Research2_CursorOver"
-		pixelBox [ 619 , 4 , 47 , 33 ]
+		pixelBox [ 872 , 326 , 47 , 33 ]
 	Focused
 		fileName "Buttons_Research2_Normal"
-		pixelBox [ 619 , 4 , 47 , 33 ]
+		pixelBox [ 872 , 326 , 47 , 33 ]
 	Normal
 		fileName "Buttons_Research2_Normal"
-		pixelBox [ 619 , 4 , 47 , 33 ]
+		pixelBox [ 872 , 326 , 47 , 33 ]
 brush
 	name "HUDIconTitanTechRebelAbilityUpgrade3"
 	content "States"
