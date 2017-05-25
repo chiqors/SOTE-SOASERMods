@@ -39,7 +39,7 @@ periodicAction
 	damageType "PHYSICAL"
 	isDamageShared FALSE
 numOverTimeActions 0
-numEntityModifiers 2
+numEntityModifiers 6
 entityModifier
 	buffEntityModifierType "HyperspaceChargeUpRate"
 	value
@@ -54,6 +54,34 @@ entityModifier
 		Level:1 -0.500000
 		Level:2 -0.500000
 		Level:3 -0.500000
+entityModifier
+	buffEntityModifierType "LinearMaxSpeed"
+	value
+		Level:0 10.00000
+		Level:1 10.00000
+		Level:2 10.00000
+		Level:3 10.00000
+entityModifier
+	buffEntityModifierType "LinearThrust"
+	value
+		Level:0 10.00000
+		Level:1 10.00000
+		Level:2 10.00000
+		Level:3 10.00000
+entityModifier
+	buffEntityModifierType "AngularThrust"
+	value
+		Level:0 10.00000
+		Level:1 10.00000
+		Level:2 10.00000
+		Level:3 10.00000
+entityModifier
+	buffEntityModifierType "WeaponRange"
+	value
+		Level:0 10.00000
+		Level:1 10.00000
+		Level:2 10.00000
+		Level:3 10.00000		
 numEntityBoolModifiers 0
 numFinishConditions 1
 finishCondition

@@ -1,4 +1,5 @@
-Mesh Cynabal,
+Change Sound of research completed
+
 Mesh Daredevil
 Badger Picture
 Drake Picture
@@ -27,3 +28,11 @@ Pirates ships icons
 download and covert musics
 Capital Titans ability missing
 
+Fix ships slots:
+Frigate 1
+Desrtoyer 2
+Cruiser 3
+Battlecruiser 6
+Battleship 10
+
+Convert Artifacts to have Rigs Effects

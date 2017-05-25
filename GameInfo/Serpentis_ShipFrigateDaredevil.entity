@@ -36,8 +36,8 @@ numRandomDebrisLarge 0
 numRandomDebrisSmall 0
 numSpecificDebris 0
 armorType "Light"
-hudIcon "HUDICON_FRIGATE_PHASELIGHT"
-smallHudIcon "HUDICONSMALL_FRIGATE_PHASELIGHT"
+hudIcon "HUDICON_SERPENTIS_DAREDEVIL"
+smallHudIcon "HUDICON_SERPENTIS_DAREDEVIL"
 infoCardIcon "INFOCARDICON_FRIGATE_PHASELIGHT"
 minZoomDistanceMult 1.000000
 NumWeapons 1

@@ -42,10 +42,10 @@ minExperienceLevelRequired
 aiUseTime "OnlyWhenManyTargetsHaveShieldDamage"
 aiUseTargetCondition "ShieldDamageExceedsAmount"
 onlyAutoCastWhenTargetShieldDamageExceedsAmount
-	Level:0 50.000000
-	Level:1 50.000000
-	Level:2 50.000000
-	Level:3 50.000000
+	Level:0 500.000000
+	Level:1 500.000000
+	Level:2 500.000000
+	Level:3 500.000000
 isAutoCastAvailable TRUE
 isAutoCastOnByDefault TRUE
 pickRandomPlanetToExploreForAutoCastTarget FALSE

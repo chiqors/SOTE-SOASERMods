@@ -19,7 +19,7 @@ moveThruTarget FALSE
 isUltimateAbility FALSE
 maxNumLevels 1
 levelSourceType "ResearchWithoutBase"
-improveSourceResearchSubject "RESEARCHSUBJECT_ARTIFACT_WORMHOLETRAVEL"
+improveSourceResearchSubject "RESEARCHSUBJECT_ARTIFACT_HYPERSPACESPEED"
 aiUseTime "Anytime"
 aiUseTargetCondition "Any"
 isAutoCastAvailable TRUE
