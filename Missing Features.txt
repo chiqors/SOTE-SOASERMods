@@ -1,18 +1,18 @@
 Mesh Cynabal,
 Mesh Daredevil
-
 Badger Picture
 Drake Picture
 Bhaalgorn Picture
 Rattlesnake Picture
 Moa Picture
-
 Put effects on buffs
-
 Finish missing cruisers and Battlecruisers
-titans, habilities icons,
-supercarrier titan
-angel shipyard, serpentis shipyard
+
+Avatar/Erebus abilities icons
+Leviathan/Ragnarok abilities icons
+Supercarrier titan
+Pirates shipyards
+Serpentis shipyards
 pirates ships icos
 download and covert musics
 capital titans ability missing

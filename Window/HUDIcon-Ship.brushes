@@ -1,6 +1,6 @@
 ﻿TXT
 onlyLoadOnDemand FALSE
-brushCount 277
+brushCount 316
 brush
 	name "HUDICON_CORVETTE_PHASE"
 	content "States"
@@ -3388,4 +3388,705 @@ brush
 	Normal
 		fileName "Ships_Buttons_Normal"
 		pixelBox [ 258 , 200 , 47 , 33 ]
-	
+brush
+	name "HUDICON_SOE_ASTERO"
+	content "States"
+	Disabled
+		fileName "Ships_Buttons_Disabled"
+		pixelBox [ 4 , 164 , 47 , 33 ]
+	Pressed
+		fileName "Ships_Buttons_Pressed"
+		pixelBox [ 4 , 164 , 47 , 33 ]
+	CursorOver
+		fileName "Ships_Buttons_CursorOver"
+		pixelBox [ 4 , 164 , 47 , 33 ]
+	Focused
+		fileName "Ships_Buttons_Normal"
+		pixelBox [ 4 , 164 , 47 , 33 ]
+	Normal
+		fileName "Ships_Buttons_Normal"
+		pixelBox [ 4 , 164 , 47 , 33 ]
+brush
+	name "HUDICON_SOE_STRATIOS"
+	content "States"
+	Disabled
+		fileName "Ships_Buttons_Disabled"
+		pixelBox [ 55 , 163 , 47 , 33 ]
+	Pressed
+		fileName "Ships_Buttons_Pressed"
+		pixelBox [ 55 , 163 , 47 , 33 ]
+	CursorOver
+		fileName "Ships_Buttons_CursorOver"
+		pixelBox [ 55 , 163 , 47 , 33 ]
+	Focused
+		fileName "Ships_Buttons_Normal"
+		pixelBox [ 55 , 163 , 47 , 33 ]
+	Normal
+		fileName "Ships_Buttons_Normal"
+		pixelBox [ 55 , 163 , 47 , 33 ]
+brush
+	name "HUDICON_SOE_NESTOR"
+	content "States"
+	Disabled
+		fileName "Ships_Buttons_Disabled"
+		pixelBox [ 157 , 163 , 47 , 33 ]
+	Pressed
+		fileName "Ships_Buttons_Pressed"
+		pixelBox [ 157 , 163 , 47 , 33 ]
+	CursorOver
+		fileName "Ships_Buttons_CursorOver"
+		pixelBox [ 157 , 163 , 47 , 33 ]
+	Focused
+		fileName "Ships_Buttons_Normal"
+		pixelBox [ 157 , 163 , 47 , 33 ]
+	Normal
+		fileName "Ships_Buttons_Normal"
+		pixelBox [ 157 , 163 , 47 , 33 ]
+brush
+	name "HUDICON_SOE_STRATIOS2"
+	content "States"
+	Disabled
+		fileName "Ships_Buttons_Disabled"
+		pixelBox [ 106 , 163 , 47 , 33 ]
+	Pressed
+		fileName "Ships_Buttons_Pressed"
+		pixelBox [ 106 , 163 , 47 , 33 ]
+	CursorOver
+		fileName "Ships_Buttons_CursorOver"
+		pixelBox [ 106 , 163 , 47 , 33 ]
+	Focused
+		fileName "Ships_Buttons_Normal"
+		pixelBox [ 106 , 163 , 47 , 33 ]
+	Normal
+		fileName "Ships_Buttons_Normal"
+		pixelBox [ 106 , 163 , 47 , 33 ]
+brush
+	name "HUDICON_BLOODRAIDER_MOLOK"
+	content "States"
+	Disabled
+		fileName "Ships_Buttons_Disabled"
+		pixelBox [ 973 , 438 , 47 , 33 ]
+	Pressed
+		fileName "Ships_Buttons_Pressed"
+		pixelBox [ 973 , 438 , 47 , 33 ]
+	CursorOver
+		fileName "Ships_Buttons_CursorOver"
+		pixelBox [ 973 , 438 , 47 , 33 ]
+	Focused
+		fileName "Ships_Buttons_Normal"
+		pixelBox [ 973 , 438 , 47 , 33 ]
+	Normal
+		fileName "Ships_Buttons_Normal"
+		pixelBox [ 973 , 438 , 47 , 33 ]
+brush
+	name "HUDICON_BLOODRAIDER_AEON"
+	content "States"
+	Disabled
+		fileName "Ships_Buttons_Disabled"
+		pixelBox [ 972 , 274 , 47 , 33 ]
+	Pressed
+		fileName "Ships_Buttons_Pressed"
+		pixelBox [ 972 , 274 , 47 , 33 ]
+	CursorOver
+		fileName "Ships_Buttons_CursorOver"
+		pixelBox [ 972 , 274 , 47 , 33 ]
+	Focused
+		fileName "Ships_Buttons_Normal"
+		pixelBox [ 972 , 274 , 47 , 33 ]
+	Normal
+		fileName "Ships_Buttons_Normal"
+		pixelBox [ 972 , 274 , 47 , 33 ]
+brush
+	name "HUDICON_BLOODRAIDER_REVELATION"
+	content "States"
+	Disabled
+		fileName "Ships_Buttons_Disabled"
+		pixelBox [ 871 , 348 , 47 , 33 ]
+	Pressed
+		fileName "Ships_Buttons_Pressed"
+		pixelBox [ 871 , 348 , 47 , 33 ]
+	CursorOver
+		fileName "Ships_Buttons_CursorOver"
+		pixelBox [ 871 , 348 , 47 , 33 ]
+	Focused
+		fileName "Ships_Buttons_Normal"
+		pixelBox [ 871 , 348 , 47 , 33 ]
+	Normal
+		fileName "Ships_Buttons_Normal"
+		pixelBox [ 871 , 348 , 47 , 33 ]
+brush
+	name "HUDICON_BLOODRAIDER_ARCHON"
+	content "States"
+	Disabled
+		fileName "Ships_Buttons_Disabled"
+		pixelBox [ 922 , 374 , 47 , 33 ]
+	Pressed
+		fileName "Ships_Buttons_Pressed"
+		pixelBox [ 922 , 374 , 47 , 33 ]
+	CursorOver
+		fileName "Ships_Buttons_CursorOver"
+		pixelBox [ 922 , 374 , 47 , 33 ]
+	Focused
+		fileName "Ships_Buttons_Normal"
+		pixelBox [ 106 , 163 , 47 , 33 ]
+	Normal
+		fileName "Ships_Buttons_Normal"
+		pixelBox [ 106 , 163 , 47 , 33 ]		
+brush
+	name "HUDICON_BLOODRAIDER_APOSTLE"
+	content "States"
+	Disabled
+		fileName "Ships_Buttons_Disabled"
+		pixelBox [ 922 , 311 , 47 , 33 ]
+	Pressed
+		fileName "Ships_Buttons_Pressed"
+		pixelBox [ 922 , 311 , 47 , 33 ]
+	CursorOver
+		fileName "Ships_Buttons_CursorOver"
+		pixelBox [ 922 , 311 , 47 , 33 ]
+	Focused
+		fileName "Ships_Buttons_Normal"
+		pixelBox [ 922 , 311 , 47 , 33 ]
+	Normal
+		fileName "Ships_Buttons_Normal"
+		pixelBox [ 922 , 311 , 47 , 33 ]
+brush
+	name "HUDICON_BLOODRAIDER_CRUOR"
+	content "States"
+	Disabled
+		fileName "Ships_Buttons_Disabled"
+		pixelBox [ 208 , 348 , 47 , 33 ]
+	Pressed
+		fileName "Ships_Buttons_Pressed"
+		pixelBox [ 208 , 348 , 47 , 33 ]
+	CursorOver
+		fileName "Ships_Buttons_CursorOver"
+		pixelBox [ 208 , 348 , 47 , 33 ]
+	Focused
+		fileName "Ships_Buttons_Normal"
+		pixelBox [ 208 , 348 , 47 , 33 ]
+	Normal
+		fileName "Ships_Buttons_Normal"
+		pixelBox [ 208 , 348 , 47 , 33 ]
+brush
+	name "HUDICON_BLOODRAIDER_ASHIMUU"
+	content "States"
+	Disabled
+		fileName "Ships_Buttons_Disabled"
+		pixelBox [ 259 , 348 , 47 , 33 ]
+	Pressed
+		fileName "Ships_Buttons_Pressed"
+		pixelBox [ 259 , 348 , 47 , 33 ]
+	CursorOver
+		fileName "Ships_Buttons_CursorOver"
+		pixelBox [ 259 , 348 , 47 , 33 ]
+	Focused
+		fileName "Ships_Buttons_Normal"
+		pixelBox [ 259 , 348 , 47 , 33 ]
+	Normal
+		fileName "Ships_Buttons_Normal"
+		pixelBox [ 259 , 348 , 47 , 33 ]
+brush
+	name "HUDICON_BLOODRAIDER_BHAALGORN"
+	content "States"
+	Disabled
+		fileName "Ships_Buttons_Disabled"
+		pixelBox [ 719 , 348 , 47 , 33 ]
+	Pressed
+		fileName "Ships_Buttons_Pressed"
+		pixelBox [ 719 , 348 , 47 , 33 ]
+	CursorOver
+		fileName "Ships_Buttons_CursorOver"
+		pixelBox [ 719 , 348 , 47 , 33 ]
+	Focused
+		fileName "Ships_Buttons_Normal"
+		pixelBox [ 719 , 348 , 47 , 33 ]
+	Normal
+		fileName "Ships_Buttons_Normal"
+		pixelBox [ 719 , 348 , 47 , 33 ]
+brush
+	name "HUDICON_SERPENTIS_VENGEANCE"
+	content "States"
+	Disabled
+		fileName "Ships_Buttons_Disabled"
+		pixelBox [ 973 , 89 , 47 , 33 ]
+	Pressed
+		fileName "Ships_Buttons_Pressed"
+		pixelBox [ 973 , 89 , 47 , 33 ]
+	CursorOver
+		fileName "Ships_Buttons_CursorOver"
+		pixelBox [ 973 , 89 , 47 , 33 ]
+	Focused
+		fileName "Ships_Buttons_Normal"
+		pixelBox [ 973 , 89 , 47 , 33 ]
+	Normal
+		fileName "Ships_Buttons_Normal"
+		pixelBox [ 973 , 89 , 47 , 33 ]
+brush
+	name "HUDICON_SERPENTIS_NYX"
+	content "States"
+	Disabled
+		fileName "Ships_Buttons_Disabled"
+		pixelBox [ 922 , 89 , 47 , 33 ]
+	Pressed
+		fileName "Ships_Buttons_Pressed"
+		pixelBox [ 922 , 89 , 47 , 33 ]
+	CursorOver
+		fileName "Ships_Buttons_CursorOver"
+		pixelBox [ 922 , 89 , 47 , 33 ]
+	Focused
+		fileName "Ships_Buttons_Normal"
+		pixelBox [ 922 , 89 , 47 , 33 ]
+	Normal
+		fileName "Ships_Buttons_Normal"
+		pixelBox [ 922 , 89 , 47 , 33 ]
+brush
+	name "HUDICON_SERPENTIS_MOROS"
+	content "States"
+	Disabled
+		fileName "Ships_Buttons_Disabled"
+		pixelBox [ 871 , 89 , 47 , 33 ]
+	Pressed
+		fileName "Ships_Buttons_Pressed"
+		pixelBox [ 871 , 89 , 47 , 33 ]
+	CursorOver
+		fileName "Ships_Buttons_CursorOver"
+		pixelBox [ 871 , 89 , 47 , 33 ]
+	Focused
+		fileName "Ships_Buttons_Normal"
+		pixelBox [ 871 , 89 , 47 , 33 ]
+	Normal
+		fileName "Ships_Buttons_Normal"
+		pixelBox [ 871 , 89 , 47 , 33 ]
+brush
+	name "HUDICON_SERPENTIS_MINAZU"
+	content "States"
+	Disabled
+		fileName "Ships_Buttons_Disabled"
+		pixelBox [ 820 , 348 , 47 , 33 ]
+	Pressed
+		fileName "Ships_Buttons_Pressed"
+		pixelBox [ 820 , 348 , 47 , 33 ]
+	CursorOver
+		fileName "Ships_Buttons_CursorOver"
+		pixelBox [ 820 , 348 , 47 , 33 ]
+	Focused
+		fileName "Ships_Buttons_Normal"
+		pixelBox [ 820 , 348 , 47 , 33 ]
+	Normal
+		fileName "Ships_Buttons_Normal"
+		pixelBox [ 820 , 348 , 47 , 33 ]
+brush
+	name "HUDICON_SERPENTIS_THANATOS"
+	content "States"
+	Disabled
+		fileName "Ships_Buttons_Disabled"
+		pixelBox [ 873 , 163 , 47 , 33 ]
+	Pressed
+		fileName "Ships_Buttons_Pressed"
+		pixelBox [ 873 , 163 , 47 , 33 ]
+	CursorOver
+		fileName "Ships_Buttons_CursorOver"
+		pixelBox [ 873 , 163 , 47 , 33 ]
+	Focused
+		fileName "Ships_Buttons_Normal"
+		pixelBox [ 873 , 163 , 47 , 33 ]
+	Normal
+		fileName "Ships_Buttons_Normal"
+		pixelBox [ 873 , 163 , 47 , 33 ]
+brush
+	name "HUDICON_SERPENTIS_VIDICATOR"
+	content "States"
+	Disabled
+		fileName "Ships_Buttons_Disabled"
+		pixelBox [ 770 , 89 , 47 , 33 ]
+	Pressed
+		fileName "Ships_Buttons_Pressed"
+		pixelBox [ 770 , 89 , 47 , 33 ]
+	CursorOver
+		fileName "Ships_Buttons_CursorOver"
+		pixelBox [ 770 , 89 , 47 , 33 ]
+	Focused
+		fileName "Ships_Buttons_Normal"
+		pixelBox [ 770 , 89 , 47 , 33 ]
+	Normal
+		fileName "Ships_Buttons_Normal"
+		pixelBox [ 770 , 89 , 47 , 33 ]
+brush
+	name "HUDICON_SERPENTIS_VIGILANTE"
+	content "States"
+	Disabled
+		fileName "Ships_Buttons_Disabled"
+		pixelBox [ 770 , 89 , 47 , 33 ]
+	Pressed
+		fileName "Ships_Buttons_Pressed"
+		pixelBox [ 770 , 89 , 47 , 33 ]
+	CursorOver
+		fileName "Ships_Buttons_CursorOver"
+		pixelBox [ 770 , 89 , 47 , 33 ]
+	Focused
+		fileName "Ships_Buttons_Normal"
+		pixelBox [ 770 , 89 , 47 , 33 ]
+	Normal
+		fileName "Ships_Buttons_Normal"
+		pixelBox [ 770 , 89 , 47 , 33 ]
+brush
+	name "HUDICON_SERPENTIS_DAREDEVIL"
+	content "States"
+	Disabled
+		fileName "Ships_Buttons_Disabled"
+		pixelBox [ 4 , 89 , 47 , 33 ]
+	Pressed
+		fileName "Ships_Buttons_Pressed"
+		pixelBox [ 4 , 89 , 47 , 33 ]
+	CursorOver
+		fileName "Ships_Buttons_CursorOver"
+		pixelBox [ 4 , 89 , 47 , 33 ]
+	Focused
+		fileName "Ships_Buttons_Normal"
+		pixelBox [ 4 , 89 , 47 , 33 ]
+	Normal
+		fileName "Ships_Buttons_Normal"
+		pixelBox [ 4 , 89 , 47 , 33 ]
+brush
+	name "HUDICON_ANGEL_RAGNAROK"
+	content "States"
+	Disabled
+		fileName "Ships_Buttons_Disabled"
+		pixelBox [ 973 , 533 , 47 , 33 ]
+	Pressed
+		fileName "Ships_Buttons_Pressed"
+		pixelBox [ 973 , 533 , 47 , 33 ]
+	CursorOver
+		fileName "Ships_Buttons_CursorOver"
+		pixelBox [ 973 , 533 , 47 , 33 ]
+	Focused
+		fileName "Ships_Buttons_Normal"
+		pixelBox [ 973 , 533 , 47 , 33 ]
+	Normal
+		fileName "Ships_Buttons_Normal"
+		pixelBox [ 973 , 533 , 47 , 33 ]
+brush
+	name "HUDICON_ANGEL_HEL"
+	content "States"
+	Disabled
+		fileName "Ships_Buttons_Disabled"
+		pixelBox [ 973 , 496 , 47 , 33 ]
+	Pressed
+		fileName "Ships_Buttons_Pressed"
+		pixelBox [ 973 , 496 , 47 , 33 ]
+	CursorOver
+		fileName "Ships_Buttons_CursorOver"
+		pixelBox [ 973 , 496 , 47 , 33 ]
+	Focused
+		fileName "Ships_Buttons_Normal"
+		pixelBox [ 973 , 496 , 47 , 33 ]
+	Normal
+		fileName "Ships_Buttons_Normal"
+		pixelBox [ 973 , 496 , 47 , 33 ]
+brush
+	name "HUDICON_ANGEL_NAGLFAR"
+	content "States"
+	Disabled
+		fileName "Ships_Buttons_Disabled"
+		pixelBox [ 871 , 534 , 47 , 33 ]
+	Pressed
+		fileName "Ships_Buttons_Pressed"
+		pixelBox [ 871 , 534 , 47 , 33 ]
+	CursorOver
+		fileName "Ships_Buttons_CursorOver"
+		pixelBox [ 871 , 534 , 47 , 33 ]
+	Focused
+		fileName "Ships_Buttons_Normal"
+		pixelBox [ 871 , 534 , 47 , 33 ]
+	Normal
+		fileName "Ships_Buttons_Normal"
+		pixelBox [ 871 , 534 , 47 , 33 ]
+brush
+	name "HUDICON_ANGEL_NIDHOGGUR"
+	content "States"
+	Disabled
+		fileName "Ships_Buttons_Disabled"
+		pixelBox [ 922 , 496 , 47 , 33 ]
+	Pressed
+		fileName "Ships_Buttons_Pressed"
+		pixelBox [ 922 , 496 , 47 , 33 ]
+	CursorOver
+		fileName "Ships_Buttons_CursorOver"
+		pixelBox [ 922 , 496 , 47 , 33 ]
+	Focused
+		fileName "Ships_Buttons_Normal"
+		pixelBox [ 922 , 496 , 47 , 33 ]
+	Normal
+		fileName "Ships_Buttons_Normal"
+		pixelBox [ 922 , 496 , 47 , 33 ]
+brush
+	name "HUDICON_ANGEL_LIF"
+	content "States"
+	Disabled
+		fileName "Ships_Buttons_Disabled"
+		pixelBox [ 922 , 534 , 47 , 33 ]
+	Pressed
+		fileName "Ships_Buttons_Pressed"
+		pixelBox [ 922 , 534 , 47 , 33 ]
+	CursorOver
+		fileName "Ships_Buttons_CursorOver"
+		pixelBox [ 922 , 534 , 47 , 33 ]
+	Focused
+		fileName "Ships_Buttons_Normal"
+		pixelBox [ 922 , 534 , 47 , 33 ]
+	Normal
+		fileName "Ships_Buttons_Normal"
+		pixelBox [ 922 , 534 , 47 , 33 ]
+brush
+	name "HUDICON_ANGEL_MACHARIEL"
+	content "States"
+	Disabled
+		fileName "Ships_Buttons_Disabled"
+		pixelBox [ 973 , 607 , 47 , 33 ]
+	Pressed
+		fileName "Ships_Buttons_Pressed"
+		pixelBox [ 973 , 607 , 47 , 33 ]
+	CursorOver
+		fileName "Ships_Buttons_CursorOver"
+		pixelBox [ 973 , 607 , 47 , 33 ]
+	Focused
+		fileName "Ships_Buttons_Normal"
+		pixelBox [ 973 , 607 , 47 , 33 ]
+	Normal
+		fileName "Ships_Buttons_Normal"
+		pixelBox [ 973 , 607 , 47 , 33 ]
+brush
+	name "HUDICON_ANGEL_CYNABAL"
+	content "States"
+	Disabled
+		fileName "Ships_Buttons_Disabled"
+		pixelBox [ 922 , 607 , 47 , 33 ]
+	Pressed
+		fileName "Ships_Buttons_Pressed"
+		pixelBox [ 922 , 607 , 47 , 33 ]
+	CursorOver
+		fileName "Ships_Buttons_CursorOver"
+		pixelBox [ 922 , 607 , 47 , 33 ]
+	Focused
+		fileName "Ships_Buttons_Normal"
+		pixelBox [ 922 , 607 , 47 , 33 ]
+	Normal
+		fileName "Ships_Buttons_Normal"
+		pixelBox [ 922 , 607 , 47 , 33 ]
+brush
+	name "HUDICON_ANGEL_DRAMIEL"
+	content "States"
+	Disabled
+		fileName "Ships_Buttons_Disabled"
+		pixelBox [ 871 , 607 , 47 , 33 ]
+	Pressed
+		fileName "Ships_Buttons_Pressed"
+		pixelBox [ 871 , 607 , 47 , 33 ]
+	CursorOver
+		fileName "Ships_Buttons_CursorOver"
+		pixelBox [ 871 , 607 , 47 , 33 ]
+	Focused
+		fileName "Ships_Buttons_Normal"
+		pixelBox [ 871 , 607 , 47 , 33 ]
+	Normal
+		fileName "Ships_Buttons_Normal"
+		pixelBox [ 871 , 607 , 47 , 33 ]
+brush
+	name "HUDICON_GURISTA_"
+	content "States"
+	Disabled
+		fileName "Ships_Buttons_Disabled"
+		pixelBox [ 719 , 348 , 47 , 33 ]
+	Pressed
+		fileName "Ships_Buttons_Pressed"
+		pixelBox [ 719 , 348 , 47 , 33 ]
+	CursorOver
+		fileName "Ships_Buttons_CursorOver"
+		pixelBox [ 719 , 348 , 47 , 33 ]
+	Focused
+		fileName "Ships_Buttons_Normal"
+		pixelBox [ 719 , 348 , 47 , 33 ]
+	Normal
+		fileName "Ships_Buttons_Normal"
+		pixelBox [ 719 , 348 , 47 , 33 ]
+brush
+	name "HUDICON_GURISTA_"
+	content "States"
+	Disabled
+		fileName "Ships_Buttons_Disabled"
+		pixelBox [ 719 , 348 , 47 , 33 ]
+	Pressed
+		fileName "Ships_Buttons_Pressed"
+		pixelBox [ 719 , 348 , 47 , 33 ]
+	CursorOver
+		fileName "Ships_Buttons_CursorOver"
+		pixelBox [ 719 , 348 , 47 , 33 ]
+	Focused
+		fileName "Ships_Buttons_Normal"
+		pixelBox [ 719 , 348 , 47 , 33 ]
+	Normal
+		fileName "Ships_Buttons_Normal"
+		pixelBox [ 719 , 348 , 47 , 33 ]
+brush
+	name "HUDICON_GURISTA_"
+	content "States"
+	Disabled
+		fileName "Ships_Buttons_Disabled"
+		pixelBox [ 719 , 348 , 47 , 33 ]
+	Pressed
+		fileName "Ships_Buttons_Pressed"
+		pixelBox [ 719 , 348 , 47 , 33 ]
+	CursorOver
+		fileName "Ships_Buttons_CursorOver"
+		pixelBox [ 719 , 348 , 47 , 33 ]
+	Focused
+		fileName "Ships_Buttons_Normal"
+		pixelBox [ 719 , 348 , 47 , 33 ]
+	Normal
+		fileName "Ships_Buttons_Normal"
+		pixelBox [ 719 , 348 , 47 , 33 ]
+brush
+	name "HUDICON_GURISTA_"
+	content "States"
+	Disabled
+		fileName "Ships_Buttons_Disabled"
+		pixelBox [ 719 , 348 , 47 , 33 ]
+	Pressed
+		fileName "Ships_Buttons_Pressed"
+		pixelBox [ 719 , 348 , 47 , 33 ]
+	CursorOver
+		fileName "Ships_Buttons_CursorOver"
+		pixelBox [ 719 , 348 , 47 , 33 ]
+	Focused
+		fileName "Ships_Buttons_Normal"
+		pixelBox [ 719 , 348 , 47 , 33 ]
+	Normal
+		fileName "Ships_Buttons_Normal"
+		pixelBox [ 719 , 348 , 47 , 33 ]
+brush
+	name "HUDICON_GURISTA_"
+	content "States"
+	Disabled
+		fileName "Ships_Buttons_Disabled"
+		pixelBox [ 719 , 348 , 47 , 33 ]
+	Pressed
+		fileName "Ships_Buttons_Pressed"
+		pixelBox [ 719 , 348 , 47 , 33 ]
+	CursorOver
+		fileName "Ships_Buttons_CursorOver"
+		pixelBox [ 719 , 348 , 47 , 33 ]
+	Focused
+		fileName "Ships_Buttons_Normal"
+		pixelBox [ 719 , 348 , 47 , 33 ]
+	Normal
+		fileName "Ships_Buttons_Normal"
+		pixelBox [ 719 , 348 , 47 , 33 ]
+brush
+	name "HUDICON_GURISTA_"
+	content "States"
+	Disabled
+		fileName "Ships_Buttons_Disabled"
+		pixelBox [ 719 , 348 , 47 , 33 ]
+	Pressed
+		fileName "Ships_Buttons_Pressed"
+		pixelBox [ 719 , 348 , 47 , 33 ]
+	CursorOver
+		fileName "Ships_Buttons_CursorOver"
+		pixelBox [ 719 , 348 , 47 , 33 ]
+	Focused
+		fileName "Ships_Buttons_Normal"
+		pixelBox [ 719 , 348 , 47 , 33 ]
+	Normal
+		fileName "Ships_Buttons_Normal"
+		pixelBox [ 719 , 348 , 47 , 33 ]
+brush
+	name "HUDICON_GURISTA_"
+	content "States"
+	Disabled
+		fileName "Ships_Buttons_Disabled"
+		pixelBox [ 719 , 348 , 47 , 33 ]
+	Pressed
+		fileName "Ships_Buttons_Pressed"
+		pixelBox [ 719 , 348 , 47 , 33 ]
+	CursorOver
+		fileName "Ships_Buttons_CursorOver"
+		pixelBox [ 719 , 348 , 47 , 33 ]
+	Focused
+		fileName "Ships_Buttons_Normal"
+		pixelBox [ 719 , 348 , 47 , 33 ]
+	Normal
+		fileName "Ships_Buttons_Normal"
+		pixelBox [ 719 , 348 , 47 , 33 ]
+brush
+	name "HUDICON_GURISTA_"
+	content "States"
+	Disabled
+		fileName "Ships_Buttons_Disabled"
+		pixelBox [ 719 , 348 , 47 , 33 ]
+	Pressed
+		fileName "Ships_Buttons_Pressed"
+		pixelBox [ 719 , 348 , 47 , 33 ]
+	CursorOver
+		fileName "Ships_Buttons_CursorOver"
+		pixelBox [ 719 , 348 , 47 , 33 ]
+	Focused
+		fileName "Ships_Buttons_Normal"
+		pixelBox [ 719 , 348 , 47 , 33 ]
+	Normal
+		fileName "Ships_Buttons_Normal"
+		pixelBox [ 719 , 348 , 47 , 33 ]
+brush
+	name "HUDICON_MORDU_"
+	content "States"
+	Disabled
+		fileName "Ships_Buttons_Disabled"
+		pixelBox [ 719 , 348 , 47 , 33 ]
+	Pressed
+		fileName "Ships_Buttons_Pressed"
+		pixelBox [ 719 , 348 , 47 , 33 ]
+	CursorOver
+		fileName "Ships_Buttons_CursorOver"
+		pixelBox [ 719 , 348 , 47 , 33 ]
+	Focused
+		fileName "Ships_Buttons_Normal"
+		pixelBox [ 719 , 348 , 47 , 33 ]
+	Normal
+		fileName "Ships_Buttons_Normal"
+		pixelBox [ 719 , 348 , 47 , 33 ]
+brush
+	name "HUDICON_MORDU_"
+	content "States"
+	Disabled
+		fileName "Ships_Buttons_Disabled"
+		pixelBox [ 719 , 348 , 47 , 33 ]
+	Pressed
+		fileName "Ships_Buttons_Pressed"
+		pixelBox [ 719 , 348 , 47 , 33 ]
+	CursorOver
+		fileName "Ships_Buttons_CursorOver"
+		pixelBox [ 719 , 348 , 47 , 33 ]
+	Focused
+		fileName "Ships_Buttons_Normal"
+		pixelBox [ 719 , 348 , 47 , 33 ]
+	Normal
+		fileName "Ships_Buttons_Normal"
+		pixelBox [ 719 , 348 , 47 , 33 ]
+brush
+	name "HUDICON_MORDU_"
+	content "States"
+	Disabled
+		fileName "Ships_Buttons_Disabled"
+		pixelBox [ 719 , 348 , 47 , 33 ]
+	Pressed
+		fileName "Ships_Buttons_Pressed"
+		pixelBox [ 719 , 348 , 47 , 33 ]
+	CursorOver
+		fileName "Ships_Buttons_CursorOver"
+		pixelBox [ 719 , 348 , 47 , 33 ]
+	Focused
+		fileName "Ships_Buttons_Normal"
+		pixelBox [ 719 , 348 , 47 , 33 ]
+	Normal
+		fileName "Ships_Buttons_Normal"
+		pixelBox [ 719 , 348 , 47 , 33 ]
