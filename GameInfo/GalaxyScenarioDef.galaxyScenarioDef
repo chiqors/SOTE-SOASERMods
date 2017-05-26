@@ -1399,7 +1399,7 @@ planetItemType
 planetItemType
 	designName "Caldari:Frigate:Light"
 	entityDefName "Caldari_Ship_Frigate_kestrel"	
-playerTypeCount 7
+playerTypeCount 6
 playerType
 	designName "AmarrEmpire"
 	entityDefName "Player_AmarrEmpire"
@@ -1418,9 +1418,6 @@ playerType
 playerType
 	designName "Pirate"
 	entityDefName "PlayerPirate"
-playerType
-	designName "Pirate2"
-	entityDefName "PlayerPirate2"	
 planetItemsTemplateCount 59
 planetItemsTemplate
 	templateName "Empty"
@@ -1849,11 +1846,11 @@ planetItemsTemplate
 planetItemsTemplate
 	templateName "Template:LocalMilitiaVeryWeak"
 	subTemplates 0
-	groups 2
+	groups 4
 		group
 			condition
-				type "PlanetOwnerIsMilitia"
-				param ""
+				type "PlanetOwnerIsMilitiaWithChance"
+				param ".5"
 			owner "PlanetOwner"
 			colonizeChance 0
 			items 11
@@ -1870,8 +1867,26 @@ planetItemsTemplate
 				item "Amarr:Module:GaussDefense"
 		group
 			condition
-				type "NoPlanetOwner"
-				param ""
+				type "PlanetOwnerIsMilitiaWithChance"
+				param ".5"
+			owner "PlanetOwner"
+			colonizeChance 0
+			items 11
+				item "Gallente:Frigate:LongRange"
+				item "Gallente:Frigate:LongRange"
+				item "Gallente:Frigate:LongRange"
+				item "Gallente:Frigate:Utility1"								
+				item "Gallente:Frigate:Utility1"								
+				item "Gallente:Frigate:Light"
+				item "Gallente:Frigate:Light"
+				item "Gallente:Frigate:Light"
+				item "Amarr:Module:CrystalExtractor"
+				item "Amarr:Module:MetalExtractor"
+				item "Gallente:Module:MissileDefense"
+		group
+			condition
+				type "NoPlanetOwnerWithChance"
+				param "0.5"
 			owner "RandomMilitia"
 			colonizeChance 0
 			items 8
@@ -1883,6 +1898,21 @@ planetItemsTemplate
 				item "Amarr:Frigate:Siege"
 				item "Amarr:Frigate:Siege"
 				item "Amarr:Frigate:Siege"
+		group
+			condition
+				type "NoPlanetOwnerWithChance"
+				param "0.5"
+			owner "RandomMilitia"
+			colonizeChance 0
+			items 8
+				item "Gallente:Frigate:LongRange"
+				item "Gallente:Frigate:LongRange"
+				item "Gallente:Frigate:Light"
+				item "Gallente:Frigate:Light"
+				item "Gallente:Frigate:Light"
+				item "Gallente:Frigate:Siege"
+				item "Gallente:Frigate:Siege"
+				item "Gallente:Frigate:Siege"			
 planetItemsTemplate
 	templateName "Template:LocalMilitiaWeakUncolonizable"
 	subTemplates 0
@@ -1916,8 +1946,8 @@ planetItemsTemplate
 	groups 7
 		group
 			condition
-				type "PlanetOwnerIsMilitia"
-				param ""
+				type "NoPlanetOwnerWithChance"
+				param ".5"
 			owner "PlanetOwner"
 			colonizeChance 0
 			items 15
@@ -1938,8 +1968,8 @@ planetItemsTemplate
 				item "Amarr:Module:CrystalExtractor"
 		group
 			condition
-				type "PlanetOwnerIsMilitia"
-				param ""
+				type "NoPlanetOwnerWithChance"
+				param ".5"
 			owner "PlanetOwner"
 			colonizeChance 0
 			items 15
@@ -2004,8 +2034,8 @@ planetItemsTemplate
 				item "Gallente:Module:MissileDefense"
 		group
 			condition
-				type "NoPlanetOwner"
-				param ""
+				type "NoPlanetOwnerWithChance"
+				param ".5"
 			owner "RandomMilitia"
 			colonizeChance 0
 			items 7
@@ -2037,8 +2067,8 @@ planetItemsTemplate
 	groups 4
 		group
 			condition
-				type "PlanetOwnerIsMilitia"
-				param ""
+				type "PlanetOwnerIsMilitiaWithChance"
+				param ".5"
 			owner "PlanetOwner"
 			colonizeChance 0
 			items 8
@@ -2052,8 +2082,8 @@ planetItemsTemplate
 				item "Amarr:Module:CrystalExtractor"
 		group
 			condition
-				type "NoPlanetOwner"
-				param ""
+				type "NoPlanetOwnerWithChance"
+				param ".5"
 			owner "RandomMilitia"
 			colonizeChance 0
 			items 6
@@ -2065,8 +2095,8 @@ planetItemsTemplate
 				item "Amarr:Frigate:Siege"				
 		group
 			condition
-				type "PlanetOwnerIsMilitia"
-				param ""
+				type "PlanetOwnerIsMilitiaWithChance"
+				param ".5"
 			owner "PlanetOwner"
 			colonizeChance 0
 			items 8
@@ -2080,8 +2110,8 @@ planetItemsTemplate
 				item "Amarr:Module:CrystalExtractor"				
 		group
 			condition
-				type "NoPlanetOwner"
-				param ""
+				type "NoPlanetOwnerWithChance"
+				param ".5"
 			owner "RandomMilitia"
 			colonizeChance 0
 			items 5

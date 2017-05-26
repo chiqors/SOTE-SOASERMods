@@ -46,7 +46,7 @@ orderAcknowledgementType "ONGENERALORDERISSUED"
 researchPrerequisites
 	NumResearchPrerequisites 1
 	ResearchPrerequisite
-		Subject "RESEARCHSUBJECT_ARTIFACT_WORMHOLETRAVEL"
+		Subject "RESEARCHSUBJECT_ARTIFACT_HYPERSPACESPEED"
 		Level 1
 	RequiredFactionNameID ""
 	RequiredCompletedResearchSubjects 0
