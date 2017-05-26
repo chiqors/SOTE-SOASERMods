@@ -1399,7 +1399,7 @@ planetItemType
 planetItemType
 	designName "Caldari:Frigate:Light"
 	entityDefName "Caldari_Ship_Frigate_kestrel"	
-playerTypeCount 6
+playerTypeCount 7
 playerType
 	designName "AmarrEmpire"
 	entityDefName "Player_AmarrEmpire"
@@ -1418,6 +1418,9 @@ playerType
 playerType
 	designName "Pirate"
 	entityDefName "PlayerPirate"
+playerType
+	designName "Pirate2"
+	entityDefName "PlayerPirate2"	
 planetItemsTemplateCount 59
 planetItemsTemplate
 	templateName "Empty"
@@ -1445,11 +1448,12 @@ planetItemsTemplate
 				param "Minmatar"
 			owner "PlanetOwner"
 			colonizeChance 1
-			items 4		
+			items 5		
 				item "Amarr:Module:FrigateFactory"
 				item "Amarr:Module:FrigateFactory"
 				item "Amarr:Frigate:Constructor"
 				item "Amarr:Frigate:Constructor"
+				item "Amarr:CapitalShip:Transport"				
 		group
 			condition
 				type "PlanetOwnerIsRaceNormalStart"
@@ -1852,7 +1856,12 @@ planetItemsTemplate
 				param ""
 			owner "PlanetOwner"
 			colonizeChance 0
-			items 6
+			items 11
+				item "Amarr:Frigate:LongRange"
+				item "Amarr:Frigate:LongRange"
+				item "Amarr:Frigate:LongRange"		
+				item "Amarr:Frigate:Utility1"						
+				item "Amarr:Frigate:Utility1"										
 				item "Amarr:Frigate:Light"
 				item "Amarr:Frigate:Light"
 				item "Amarr:Frigate:Light"
@@ -1865,8 +1874,14 @@ planetItemsTemplate
 				param ""
 			owner "RandomMilitia"
 			colonizeChance 0
-			items 2
+			items 8
+				item "Amarr:Frigate:LongRange"
+				item "Amarr:Frigate:LongRange"
 				item "Amarr:Frigate:Light"
+				item "Amarr:Frigate:Light"
+				item "Amarr:Frigate:Light"
+				item "Amarr:Frigate:Siege"
+				item "Amarr:Frigate:Siege"
 				item "Amarr:Frigate:Siege"
 planetItemsTemplate
 	templateName "Template:LocalMilitiaWeakUncolonizable"
@@ -1898,16 +1913,82 @@ planetItemsTemplate
 planetItemsTemplate
 	templateName "Template:LocalMilitiaWeak"
 	subTemplates 0
-	groups 5
+	groups 7
 		group
 			condition
 				type "PlanetOwnerIsMilitia"
 				param ""
 			owner "PlanetOwner"
 			colonizeChance 0
-			items 5
+			items 15
+				item "Amarr:Frigate:Utility0"
+				item "Amarr:Frigate:LongRange"
+				item "Amarr:Frigate:LongRange"
+				item "Amarr:Frigate:LongRange"		
+				item "Amarr:Frigate:LongRange"						
+				item "Amarr:Frigate:Utility1"		
+				item "Amarr:Frigate:Utility1"						
+				item "Amarr:Frigate:Utility1"										
 				item "Amarr:Frigate:Light"
-				item "Amarr:Frigate:Siege"
+				item "Amarr:Frigate:Light"
+				item "Amarr:Frigate:Light"
+				item "Amarr:Frigate:Light"
+				item "Amarr:Module:GaussDefense"
+				item "Amarr:Module:MetalExtractor"
+				item "Amarr:Module:CrystalExtractor"
+		group
+			condition
+				type "PlanetOwnerIsMilitia"
+				param ""
+			owner "PlanetOwner"
+			colonizeChance 0
+			items 15
+				item "Gallente:Frigate:Utility0"
+				item "Gallente:Frigate:LongRange"
+				item "Gallente:Frigate:LongRange"
+				item "Gallente:Frigate:LongRange"
+				item "Gallente:Frigate:LongRange"
+				item "Gallente:Frigate:Utility1"				
+				item "Gallente:Frigate:Utility1"				
+				item "Gallente:Frigate:Utility1"								
+				item "Gallente:Frigate:Light"
+				item "Gallente:Frigate:Light"
+				item "Gallente:Frigate:Light"
+				item "Gallente:Frigate:Light"
+				item "Gallente:Module:MissileDefense"
+				item "Amarr:Module:MetalExtractor"
+				item "Amarr:Module:CrystalExtractor"				
+		group
+			condition
+				type "PlanetOwnerIsMilitiaWithChance"
+				param ".5"
+			owner "PlanetOwner"
+			colonizeChance 0
+			items 10
+				item "Gallente:Frigate:LongRange"
+				item "Gallente:Frigate:LongRange"
+				item "Gallente:Frigate:LongRange"
+				item "Gallente:Frigate:Utility1"				
+				item "Gallente:Frigate:Light"
+				item "Gallente:Frigate:Light"
+				item "Gallente:Frigate:Light"
+				item "Gallente:Module:MissileDefense"
+				item "Amarr:Module:MetalExtractor"
+				item "Amarr:Module:CrystalExtractor"		
+		group
+			condition
+				type "PlanetOwnerIsMilitiaWithChance"
+				param ".5"
+			owner "PlanetOwner"
+			colonizeChance 0
+			items 10
+				item "Amarr:Frigate:LongRange"
+				item "Amarr:Frigate:LongRange"
+				item "Amarr:Frigate:LongRange"		
+				item "Amarr:Frigate:Utility1"										
+				item "Amarr:Frigate:Light"
+				item "Amarr:Frigate:Light"
+				item "Amarr:Frigate:Light"
 				item "Amarr:Module:GaussDefense"
 				item "Amarr:Module:MetalExtractor"
 				item "Amarr:Module:CrystalExtractor"
@@ -1918,41 +1999,42 @@ planetItemsTemplate
 			owner "PlanetOwner"
 			colonizeChance 0
 			items 3
-				item "Amarr:Frigate:Light"
-				item "Amarr:Frigate:Light"	
-				item "Amarr:Frigate:Light"	
-		group
-			condition
-				type "PlanetOwnerIsMilitiaWithChance"
-				param ".5"
-			owner "PlanetOwner"
-			colonizeChance 0
-			items 3
-				item "Amarr:Module:GaussDefense"
-				item "Amarr:Module:GaussDefense"
-				item "Amarr:Module:GaussDefense"
+				item "Gallente:Module:MissileDefense"
+				item "Gallente:Module:MissileDefense"
+				item "Gallente:Module:MissileDefense"
 		group
 			condition
 				type "NoPlanetOwner"
 				param ""
 			owner "RandomMilitia"
 			colonizeChance 0
-			items 2
-				item "Amarr:Frigate:Light"
-				item "Amarr:Frigate:Siege"
+			items 7
+				item "Gallente:Frigate:Light"
+				item "Gallente:Frigate:Light"
+				item "Gallente:Frigate:Light"
+				item "Gallente:Frigate:Light"
+				item "Gallente:Frigate:Siege"
+				item "Gallente:Frigate:Siege"
+				item "Gallente:Frigate:Siege"				
 		group
 			condition
 				type "NoPlanetOwnerWithChance"
 				param ".5"
 			owner "RandomMilitia"
 			colonizeChance 0
-			items 2
+			items 8
 				item "Amarr:Frigate:Light"
 				item "Amarr:Frigate:Light"
+				item "Amarr:Frigate:Light"
+				item "Amarr:Frigate:Light"				
+				item "Amarr:Frigate:Light"			
+				item "Amarr:Frigate:Siege"
+				item "Amarr:Frigate:Siege"
+				item "Amarr:Frigate:Siege"				
 planetItemsTemplate
 	templateName "Template:LocalMilitiaWeakFair"
 	subTemplates 0
-	groups 2
+	groups 4
 		group
 			condition
 				type "PlanetOwnerIsMilitia"
@@ -1974,10 +2056,40 @@ planetItemsTemplate
 				param ""
 			owner "RandomMilitia"
 			colonizeChance 0
-			items 3
+			items 6
 				item "Amarr:Frigate:Light"
 				item "Amarr:Frigate:Light"
+				item "Amarr:Frigate:Light"
+				item "Amarr:Frigate:Light"				
 				item "Amarr:Frigate:Siege"
+				item "Amarr:Frigate:Siege"				
+		group
+			condition
+				type "PlanetOwnerIsMilitia"
+				param ""
+			owner "PlanetOwner"
+			colonizeChance 0
+			items 8
+				item "Gallente:Frigate:Light"
+				item "Gallente:Frigate:Light"
+				item "Gallente:Frigate:Siege"
+				item "Gallente:Module:MissileDefense"				
+				item "Gallente:Module:MissileDefense"				
+				item "Gallente:Module:MissileDefense"				
+				item "Amarr:Module:MetalExtractor"
+				item "Amarr:Module:CrystalExtractor"				
+		group
+			condition
+				type "NoPlanetOwner"
+				param ""
+			owner "RandomMilitia"
+			colonizeChance 0
+			items 5
+				item "Gallente:Frigate:Light"
+				item "Gallente:Frigate:Light"
+				item "Gallente:Frigate:Light"
+				item "Gallente:Frigate:Siege"
+				item "Gallente:Frigate:Siege"
 planetItemsTemplate
 	templateName "Template:LocalMilitiaMedium"
 	subTemplates 0
@@ -2025,8 +2137,12 @@ planetItemsTemplate
 				param ""
 			owner "RandomMilitia"
 			colonizeChance 0
-			items 3
+			items 7
 				item "Amarr:Frigate:Light"
+				item "Amarr:Frigate:Light"
+				item "Amarr:Frigate:Siege"
+				item "Amarr:Frigate:Light"
+				item "Amarr:Frigate:Siege"
 				item "Amarr:Frigate:Light"
 				item "Amarr:Frigate:Siege"
 		group

@@ -33,16 +33,16 @@ researchFloatModifiers 3
 researchModifier
 	modifierType "WeaponDamageAdjustment"
 	baseValue 0.000000
-	perLevelValue 0.040000
+	perLevelValue 0.500000
 	linkedWeaponClass "Invalid"
 researchModifier
 	modifierType "HullPointsMaxAdjustment"
 	baseValue 0.000000
-	perLevelValue 0.020000
+	perLevelValue 0.500000
 researchModifier
 	modifierType "ShieldPointsMaxAdjustment"
 	baseValue 0.000000
-	perLevelValue 0.020000
+	perLevelValue 0.500000
 artifactPicture ""
 uniqueOverlayBrush ""
 dlcId 204880

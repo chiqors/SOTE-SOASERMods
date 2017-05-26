@@ -1,11 +1,6 @@
 Change Sound of research completed
 
 Mesh Daredevil
-Badger Picture
-Drake Picture
-Bhaalgorn Picture
-Rattlesnake Picture
-Moa Picture
 Put effects on buffs
 Finish missing cruisers and Battlecruisers
 
@@ -35,4 +30,5 @@ Cruiser 3
 Battlecruiser 6
 Battleship 10
 
-Convert Artifacts to have Rigs Effects
+Badger Picture
+Moa Picture
