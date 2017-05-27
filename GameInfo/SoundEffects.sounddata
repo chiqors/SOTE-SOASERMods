@@ -1,5 +1,5 @@
 TXT
-numEffects 403
+numEffects 405
 effect
 	name "BUTTONPRESS"
 	fileName "ButtonPress.ogg"
@@ -3495,6 +3495,36 @@ effect
 	fadeInTime 0.0
 	fadeOutTime 0.0
 	alternateGroup "WEAPON_TECHCAPITALAUTOCANNONHEAVY_MUZZLE"
+effect
+	name "WEAPON_ARTYCANNONHEAVY_MUZZLE"
+	fileName "artillary_fire_medium.OGG"
+	type "Effect"
+	is3D TRUE
+	priority 5
+	threshold 25000.000000
+	minAttenuationDist 1000.000000
+	maxNumPlayingSimultaneously 5
+	isLooping FALSE
+	isResident TRUE
+	minRespawnTime 0.5
+	fadeInTime 0.0
+	fadeOutTime 0.0
+	alternateGroup ""	
+effect
+	name "WEAPON_ARTYCANNONMEDIUM_MUZZLE"
+	fileName "artillary_fire_medium.OGG"
+	type "Effect"
+	is3D TRUE
+	priority 5
+	threshold 25000.000000
+	minAttenuationDist 1000.000000
+	maxNumPlayingSimultaneously 5
+	isLooping FALSE
+	isResident TRUE
+	minRespawnTime 0.5
+	fadeInTime 0.0
+	fadeOutTime 0.0
+	alternateGroup ""		
 effect
 	name "WEAPON_TECHCAPITALAUTOCANNONHEAVY_MUZZLE_ALT1"
 	fileName "Weapon_TechCapitalAutoCannonHeavy_Muzzle_Alt1.ogg"

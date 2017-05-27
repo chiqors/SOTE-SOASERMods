@@ -1,15 +1,11 @@
-Change Sound of research completed
-
 Mesh Daredevil
 Put effects on buffs
 Finish missing cruisers and Battlecruisers
 
+
 Avatar/Erebus abilities icons
 Leviathan/Ragnarok abilities icons
 Supercarrier titan
-Pirates shipyards
-Serpentis shipyards
-pirates ships icos
 download and covert musics
 capital titans ability missing
 
@@ -17,9 +13,6 @@ Hangar Defenser should summon ghost defense ships, buy pirate ships and have fig
 Citadel should have hangars, factory, trade port
 Titans, change icons for upgrades
 Supercarrier titan
-Serpentis shipyard
-Bloodraider shipyards
-Pirates ships icons
 download and covert musics
 Capital Titans ability missing
 
@@ -27,8 +20,11 @@ Fix ships slots:
 Frigate 1
 Desrtoyer 2
 Cruiser 3
-Battlecruiser 6
-Battleship 10
+Battlecruiser 4
+Battleship 5
 
 Badger Picture
 Moa Picture
+
+
+Repair Station will repair, summon frigate, cruiser, battleship and special pirate station builder

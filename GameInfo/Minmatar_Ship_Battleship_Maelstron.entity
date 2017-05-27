@@ -69,7 +69,7 @@ Weapon
 		burstCount 4
 		burstDelay 0.050000
 		fireDelay 0.000000
-		muzzleEffectName "Weapon_TechCapitalAutoCannonHeavy_Muzzle"
+		muzzleEffectName "WEAPON_ARTYCANNONHEAVY_MUZZLE"
 		muzzleSoundMinRespawnTime 1.000000
 		muzzleSounds
 			soundCount 1

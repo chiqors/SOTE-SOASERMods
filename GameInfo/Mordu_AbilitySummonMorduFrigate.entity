@@ -52,6 +52,6 @@ researchPrerequisites
 	RequiredCompletedResearchSubjects 0
 nameStringID "IDS_SUMMON_GAMUR_NAME"
 descStringID "IDS_SUMMON_GAMUR_DESCRIPTION"
-hudIcon "HUDICON_CAPITALSHIP_TECHTRANSPORT"
-smallHudIcon "HUDICON_CAPITALSHIP_TECHTRANSPORT"
+hudIcon "HUDICON_MORDU_GAMUR"
+smallHudIcon "HUDICON_MORDU_GAMUR"
 infoCardIcon ""

@@ -29,7 +29,7 @@ entities
 			entityDefName "Gallente_Structure_JumpBridge"
 			entityDefName "Gallente_Structure_CynoJammer"
 			entityDefName "Caldari_Structure_TitanFoundry"
-			entityDefName "SOE_ModuleShipyard"
+			entityDefName "Mordu_ModuleShipyard"
 	titanInfo
 		Page:0
 			count 1

@@ -2153,10 +2153,10 @@ effect
 	fileName "EventTech_PlayerUnitUnderAttack.ogg"
 effect
 	name "EVENTTECH_PLAYERCAPITALSHIPSHIELDSDOWN"
-	fileName "EventTech_PlayerCapitalShipShieldsDown.ogg"
+	fileName "Shields_down.ogg"
 effect
 	name "EVENTTECH_PLAYERCAPITALSHIPHULLSEVERELYDAMAGED"
-	fileName "EventTech_PlayerCapitalShipHullSeverelyDamaged.ogg"
+	fileName "Armor.ogg"
 effect
 	name "EVENTTECH_QUESTADDED"
 	fileName "EventTech_QuestAdded.ogg"
@@ -2168,7 +2168,7 @@ effect
 	fileName "EventTech_QuestFailed.ogg"
 effect
 	name "EVENTTECH_RESEARCHCOMPLETE"
-	fileName "EventTech_ResearchComplete.ogg"
+	fileName "Skill_Completed_Chime.ogg"
 effect
 	name "EVENTTECH_RESEARCHNEEDMORELABMODULES"
 	fileName "EventTech_ResearchNeedMoreLabModules.ogg"
@@ -2963,13 +2963,13 @@ effect
 	fileName "Corvette_TechLoyalist_OnSelected_2.ogg"
 effect
 	name "EVENTTECH_LOYALIST_ALLYCAPITALSHIPLOST_0"
-	fileName "EventTech_Loyalist_AllyCapitalShipLost_0.ogg"
+	fileName "allycapital_down.ogg"
 effect
 	name "EVENTTECH_LOYALIST_ALLYONTITANCREATION_0"
 	fileName "EventTech_Loyalist_AllyOnTitanCreation_0.ogg"
 effect
 	name "EVENTTECH_LOYALIST_ALLYTITANLOST_0"
-	fileName "EventTech_Loyalist_AllyTitanLost_0.ogg"
+	fileName "titanlly_lost.ogg"
 effect
 	name "EVENTTECH_LOYALIST_ENEMYONTITANCREATION_0"
 	fileName "EventTech_Loyalist_EnemyOnTitanCreation_0.ogg"
@@ -2978,16 +2978,16 @@ effect
 	fileName "EventTech_Loyalist_EnemyTitanConstructionDetected_0.ogg"
 effect
 	name "EVENTTECH_LOYALIST_PLAYERCAPITALSHIPLOST_0"
-	fileName "EventTech_Loyalist_PlayerCapitalShipLost_0.ogg"
+	fileName "capitalship_lost.ogg"
 effect
 	name "EVENTTECH_LOYALIST_PLAYERTITANLOST_0"
-	fileName "EventTech_Loyalist_PlayerTitanLost_0.ogg"
+	fileName "titan_lost.ogg"
 effect
 	name "EVENTTECH_LOYALIST_PLAYERTITANSHIELDSDOWN_0"
-	fileName "EventTech_Loyalist_PlayerTitanShieldsDown_0.ogg"
+	fileName "titan_Shields.ogg"
 effect
 	name "EVENTTECH_LOYALIST_TITANHULLSEVERELYDAMAGED_0"
-	fileName "EventTech_Loyalist_TitanHullServerDamaged_0.ogg"
+	fileName "titan_armor.ogg"
 effect
 	name "EVENTTECH_REBEL_ALLYCAPITALSHIPLOST_0"
 	fileName "EventTech_Rebel_AllyCapitalShipLost_0.ogg"
