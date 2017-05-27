@@ -15,9 +15,9 @@ instantAction
 	effectInfo
 		effectAttachInfo
 			attachType "Center"
-		smallEffectName "Buff_RepairPlatformPhaseSmall"
-		mediumEffectName "Buff_RepairPlatformPhaseLarge"
-		largeEffectName "Buff_RepairPlatformPhaseLarge"
+	smallEffectName "EVE_Buff_Tethered_Small"
+	mediumEffectName "EVE_Buff_Tethered_Medium"
+	largeEffectName "EVE_Buff_Tethered_Large"
 		soundID "EFFECT_REPAIR_PSI"
 numPeriodicActions 0
 numOverTimeActions 3
@@ -43,7 +43,10 @@ overTimeAction
 		Level:2 100.000000
 		Level:3 100.000000
 numEntityModifiers 0
-numEntityBoolModifiers 0
+numEntityBoolModifiers 3
+entityBoolModifier "DisableAbilities"
+entityBoolModifier "DisableAbilitiesUltimate"
+entityBoolModifier "DisableFighterLaunch"
 numFinishConditions 2
 finishCondition
 	finishConditionType "TimeElapsed"

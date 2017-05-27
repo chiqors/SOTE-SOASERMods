@@ -1849,8 +1849,8 @@ planetItemsTemplate
 	groups 4
 		group
 			condition
-				type "PlanetOwnerIsMilitiaWithChance"
-				param ".5"
+				type "PlanetOwnerIsMilitia"
+				param ""
 			owner "PlanetOwner"
 			colonizeChance 0
 			items 11
@@ -1868,7 +1868,7 @@ planetItemsTemplate
 		group
 			condition
 				type "PlanetOwnerIsMilitiaWithChance"
-				param ".5"
+				param "0.3"
 			owner "PlanetOwner"
 			colonizeChance 0
 			items 11
@@ -1886,7 +1886,7 @@ planetItemsTemplate
 		group
 			condition
 				type "NoPlanetOwnerWithChance"
-				param "0.5"
+				param "0.3"
 			owner "RandomMilitia"
 			colonizeChance 0
 			items 8
@@ -1900,8 +1900,8 @@ planetItemsTemplate
 				item "Amarr:Frigate:Siege"
 		group
 			condition
-				type "NoPlanetOwnerWithChance"
-				param "0.5"
+				type "NoPlanetOwner"
+				param ""
 			owner "RandomMilitia"
 			colonizeChance 0
 			items 8
@@ -1943,11 +1943,11 @@ planetItemsTemplate
 planetItemsTemplate
 	templateName "Template:LocalMilitiaWeak"
 	subTemplates 0
-	groups 7
+	groups 6
 		group
 			condition
-				type "NoPlanetOwnerWithChance"
-				param ".5"
+				type "PlanetOwnerIsMilitiaWithChance"
+				param "0.3"
 			owner "PlanetOwner"
 			colonizeChance 0
 			items 15
@@ -1968,8 +1968,8 @@ planetItemsTemplate
 				item "Amarr:Module:CrystalExtractor"
 		group
 			condition
-				type "NoPlanetOwnerWithChance"
-				param ".5"
+				type "PlanetOwnerIsMilitia"
+				param ""
 			owner "PlanetOwner"
 			colonizeChance 0
 			items 15
@@ -1990,9 +1990,9 @@ planetItemsTemplate
 				item "Amarr:Module:CrystalExtractor"				
 		group
 			condition
-				type "PlanetOwnerIsMilitiaWithChance"
-				param ".5"
-			owner "PlanetOwner"
+				type "NoPlanetOwnerWithChance"
+				param "0.3"
+			owner "RandomMilitia"
 			colonizeChance 0
 			items 10
 				item "Gallente:Frigate:LongRange"
@@ -2007,9 +2007,9 @@ planetItemsTemplate
 				item "Amarr:Module:CrystalExtractor"		
 		group
 			condition
-				type "PlanetOwnerIsMilitiaWithChance"
-				param ".5"
-			owner "PlanetOwner"
+				type "NoPlanetOwnerWithChance"
+				param "0.3"
+			owner "RandomMilitia"
 			colonizeChance 0
 			items 10
 				item "Amarr:Frigate:LongRange"
@@ -2025,8 +2025,8 @@ planetItemsTemplate
 		group
 			condition
 				type "PlanetOwnerIsMilitiaWithChance"
-				param ".5"
-			owner "PlanetOwner"
+				param "0.5"
+			owner "RandomMilitia"
 			colonizeChance 0
 			items 3
 				item "Gallente:Module:MissileDefense"
@@ -2034,8 +2034,8 @@ planetItemsTemplate
 				item "Gallente:Module:MissileDefense"
 		group
 			condition
-				type "NoPlanetOwnerWithChance"
-				param ".5"
+				type "NoPlanetOwner"
+				param ""
 			owner "RandomMilitia"
 			colonizeChance 0
 			items 7
@@ -2046,21 +2046,6 @@ planetItemsTemplate
 				item "Gallente:Frigate:Siege"
 				item "Gallente:Frigate:Siege"
 				item "Gallente:Frigate:Siege"				
-		group
-			condition
-				type "NoPlanetOwnerWithChance"
-				param ".5"
-			owner "RandomMilitia"
-			colonizeChance 0
-			items 8
-				item "Amarr:Frigate:Light"
-				item "Amarr:Frigate:Light"
-				item "Amarr:Frigate:Light"
-				item "Amarr:Frigate:Light"				
-				item "Amarr:Frigate:Light"			
-				item "Amarr:Frigate:Siege"
-				item "Amarr:Frigate:Siege"
-				item "Amarr:Frigate:Siege"				
 planetItemsTemplate
 	templateName "Template:LocalMilitiaWeakFair"
 	subTemplates 0
@@ -2068,7 +2053,7 @@ planetItemsTemplate
 		group
 			condition
 				type "PlanetOwnerIsMilitiaWithChance"
-				param ".5"
+				param "0.5"
 			owner "PlanetOwner"
 			colonizeChance 0
 			items 8
@@ -2083,7 +2068,7 @@ planetItemsTemplate
 		group
 			condition
 				type "NoPlanetOwnerWithChance"
-				param ".5"
+				param "0.5"
 			owner "RandomMilitia"
 			colonizeChance 0
 			items 6
@@ -2096,7 +2081,7 @@ planetItemsTemplate
 		group
 			condition
 				type "PlanetOwnerIsMilitiaWithChance"
-				param ".5"
+				param "0.5"
 			owner "PlanetOwner"
 			colonizeChance 0
 			items 8
@@ -2111,7 +2096,7 @@ planetItemsTemplate
 		group
 			condition
 				type "NoPlanetOwnerWithChance"
-				param ".5"
+				param "0.5"
 			owner "RandomMilitia"
 			colonizeChance 0
 			items 5
@@ -2143,7 +2128,7 @@ planetItemsTemplate
 		group
 			condition
 				type "PlanetOwnerIsMilitiaWithChance"
-				param ".5"
+				param "0.5"
 			owner "PlanetOwner"
 			colonizeChance 0
 			items 4
@@ -2154,7 +2139,7 @@ planetItemsTemplate
 		group
 			condition
 				type "PlanetOwnerIsMilitiaWithChance"
-				param ".5"
+				param "0.5"
 			owner "PlanetOwner"
 			colonizeChance 0
 			items 3
@@ -2170,15 +2155,15 @@ planetItemsTemplate
 			items 7
 				item "Amarr:Frigate:Light"
 				item "Amarr:Frigate:Light"
-				item "Amarr:Frigate:Siege"
+				item "Amarr:Frigate:Light"
 				item "Amarr:Frigate:Light"
 				item "Amarr:Frigate:Siege"
-				item "Amarr:Frigate:Light"
+				item "Amarr:Frigate:Siege"
 				item "Amarr:Frigate:Siege"
 		group
 			condition
 				type "NoPlanetOwnerWithChance"
-				param ".5"
+				param "0.5"
 			owner "RandomMilitia"
 			colonizeChance 0
 			items 2
@@ -2187,7 +2172,7 @@ planetItemsTemplate
 		group
 			condition
 				type "NoPlanetOwnerWithChance"
-				param ".5"
+				param "0.5"
 			owner "RandomMilitia"
 			colonizeChance 0
 			items 2

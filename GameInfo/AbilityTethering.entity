@@ -13,7 +13,8 @@ targetFilter
 	object "Corvette"
 	numSpaces 1
 	space "Normal"
-	numConstraints 0
+	numConstraints 1
+	constraint "NotSelf"
 range
 	Level:0 2000.000000
 	Level:1 2000.000000
@@ -38,20 +39,31 @@ moveThruTarget FALSE
 isUltimateAbility FALSE
 maxNumLevels 1
 levelSourceType "FixedLevel0"
-aiUseTime "Invalid"
-aiUseTargetCondition "Invalid"
-isAutoCastAvailable FALSE
-isAutoCastOnByDefault FALSE
+aiUseTime "Anytime"
+aiUseTargetCondition "Any"
+isAutoCastAvailable TRUE
+isAutoCastOnByDefault TRUE
 pickRandomPlanetToExploreForAutoCastTarget FALSE
 ignoreNonCombatShipsForAutoCastTarget FALSE
 onlyAutoCastWhenDamageTakenExceedsPerc 0.000000
-useCostType "Passive"
+useCostType "AntiMatter"
+antiMatterCost
+	Level:0 0.000000
+	Level:1 0.000000
+	Level:2 0.000000
+	Level:3 0.000000
+cooldownTime
+	Level:0 30.000000
+	Level:1 30.000000
+	Level:2 30.000000
+	Level:3 30.000000
+orderAcknowledgementType "ONGENERALORDERISSUED"
 researchPrerequisites
 	NumResearchPrerequisites 0
 	RequiredFactionNameID ""
 	RequiredCompletedResearchSubjects 0
 nameStringID "IDS_TETHERING_NAME"
 descStringID "IDS_TETHERING_DESCRIPTION"
-hudIcon "HUDICON_ABILITY_BOOSTMORALE"
-smallHudIcon "HUDICON_ABILITY_BOOSTMORALE"
+hudIcon "HUDICON_ABILITY_TETHERING"
+smallHudIcon "HUDICON_ABILITY_TETHERING"
 infoCardIcon ""
