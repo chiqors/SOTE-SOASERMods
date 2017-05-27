@@ -1,6 +1,6 @@
 ﻿TXT
 onlyLoadOnDemand FALSE
-brushCount 301
+brushCount 315
 brush
 	name "HUDICON_ABILITY_DARKCAPITALSHIP"
 	content "States"
@@ -1337,74 +1337,74 @@ brush
 	name "HUDIconTitanTechLoyalistAbilityUpgrade3"
 	content "States"
 	Disabled
-		fileName "Buttons_Research2_Disabled"
-		pixelBox [ 670 , 115 , 47 , 33 ]
+		fileName "Buttons_Abilities_Disabled"
+		pixelBox [ 566 , 363 , 47 , 33 ]
 	Pressed
-		fileName "Buttons_Research2_Pressed"
-		pixelBox [ 670 , 115 , 47 , 33 ]
+		fileName "Buttons_Abilities_Pressed"
+		pixelBox [ 566 , 363 , 47 , 33 ]
 	CursorOver
-		fileName "Buttons_Research2_CursorOver"
-		pixelBox [ 670 , 115 , 47 , 33 ]
+		fileName "Buttons_Abilities_CursorOver"
+		pixelBox [ 566 , 363 , 47 , 33 ]
 	Focused
-		fileName "Buttons_Research2_Normal"
-		pixelBox [ 670 , 115 , 47 , 33 ]
+		fileName "Buttons_Abilities_Normal"
+		pixelBox [ 566 , 363 , 47 , 33 ]
 	Normal
-		fileName "Buttons_Research2_Normal"
-		pixelBox [ 670 , 115 , 47 , 33 ]
+		fileName "Buttons_Abilities_Normal"
+		pixelBox [ 566 , 363 , 47 , 33 ]
 brush
 	name "HUDIconTitanTechLoyalistAbilityUpgrade2"
 	content "States"
 	Disabled
-		fileName "Buttons_Research2_Disabled"
-		pixelBox [ 670 , 78 , 47 , 33 ]
+		fileName "Buttons_Abilities_Disabled"
+		pixelBox [ 515 , 363 , 47 , 33 ]
 	Pressed
-		fileName "Buttons_Research2_Pressed"
-		pixelBox [ 670 , 78 , 47 , 33 ]
+		fileName "Buttons_Abilities_Pressed"
+		pixelBox [ 515 , 363 , 47 , 33 ]
 	CursorOver
-		fileName "Buttons_Research2_CursorOver"
-		pixelBox [ 670 , 78 , 47 , 33 ]
+		fileName "Buttons_Abilities_CursorOver"
+		pixelBox [ 515 , 363 , 47 , 33 ]
 	Focused
-		fileName "Buttons_Research2_Normal"
-		pixelBox [ 670 , 78 , 47 , 33 ]
+		fileName "Buttons_Abilities_Normal"
+		pixelBox [ 515 , 363 , 47 , 33 ]
 	Normal
-		fileName "Buttons_Research2_Normal"
-		pixelBox [ 670 , 78 , 47 , 33 ]
+		fileName "Buttons_Abilities_Normal"
+		pixelBox [ 515 , 363 , 47 , 33 ]
 brush
 	name "HUDIconTitanTechLoyalistAbilityUpgrade1"
 	content "States"
 	Disabled
-		fileName "Buttons_Research2_Disabled"
-		pixelBox [ 670 , 41 , 47 , 33 ]
+		fileName "Buttons_Abilities_Disabled"
+		pixelBox [ 464 , 363 , 47 , 33 ]
 	Pressed
-		fileName "Buttons_Research2_Pressed"
-		pixelBox [ 670 , 41 , 47 , 33 ]
+		fileName "Buttons_Abilities_Pressed"
+		pixelBox [ 464 , 363 , 47 , 33 ]
 	CursorOver
-		fileName "Buttons_Research2_CursorOver"
-		pixelBox [ 670 , 41 , 47 , 33 ]
+		fileName "Buttons_Abilities_CursorOver"
+		pixelBox [ 464 , 363 , 47 , 33 ]
 	Focused
-		fileName "Buttons_Research2_Normal"
-		pixelBox [ 670 , 41 , 47 , 33 ]
+		fileName "Buttons_Abilities_Normal"
+		pixelBox [ 464 , 363 , 47 , 33 ]
 	Normal
-		fileName "Buttons_Research2_Normal"
-		pixelBox [ 670 , 41 , 47 , 33 ]
+		fileName "Buttons_Abilities_Normal"
+		pixelBox [ 464 , 363 , 47 , 33 ]
 brush
 	name "HUDIconTitanTechLoyalistAbilityUpgrade0"
 	content "States"
 	Disabled
-		fileName "Buttons_Research2_Disabled"
-		pixelBox [ 670 , 4 , 47 , 33 ]
+		fileName "Buttons_Abilities_Disabled"
+		pixelBox [ 413 , 363 , 47 , 33 ]
 	Pressed
-		fileName "Buttons_Research2_Pressed"
-		pixelBox [ 670 , 4 , 47 , 33 ]
+		fileName "Buttons_Abilities_Pressed"
+		pixelBox [ 413 , 363 , 47 , 33 ]
 	CursorOver
-		fileName "Buttons_Research2_CursorOver"
-		pixelBox [ 670 , 4 , 47 , 33 ]
+		fileName "Buttons_Abilities_CursorOver"
+		pixelBox [ 413 , 363 , 47 , 33 ]
 	Focused
-		fileName "Buttons_Research2_Normal"
-		pixelBox [ 670 , 4 , 47 , 33 ]
+		fileName "Buttons_Abilities_Normal"
+		pixelBox [ 413 , 363 , 47 , 33 ]
 	Normal
-		fileName "Buttons_Research2_Normal"
-		pixelBox [ 670 , 4 , 47 , 33 ]
+		fileName "Buttons_Abilities_Normal"
+		pixelBox [ 413 , 363 , 47 , 33 ]
 brush
 	name "HUDIconTitanTechLoyalistDurabilityUpgrade4"
 	content "States"
@@ -1500,91 +1500,91 @@ brush
 	content "States"
 	Disabled
 		fileName "Buttons_Abilities_Disabled"
-		pixelBox [ 209 , 141 , 47 , 33 ]
+		pixelBox [ 872 , 326 , 47 , 33 ]
 	Pressed
 		fileName "Buttons_Abilities_Pressed"
-		pixelBox [ 209 , 141 , 47 , 33 ]
+		pixelBox [ 872 , 326 , 47 , 33 ]
 	CursorOver
 		fileName "Buttons_Abilities_CursorOver"
-		pixelBox [ 209 , 141 , 47 , 33 ]
+		pixelBox [ 872 , 326 , 47 , 33 ]
 	Focused
 		fileName "Buttons_Abilities_Normal"
-		pixelBox [ 209 , 141 , 47 , 33 ]
+		pixelBox [ 872 , 326 , 47 , 33 ]
 	Normal
 		fileName "Buttons_Abilities_Normal"
-		pixelBox [ 209 , 141 , 47 , 33 ]
+		pixelBox [ 872 , 326 , 47 , 33 ]
 brush
 	name "HUDIconTitanTechLoyalistWeaponUpgrade3"
 	content "States"
 	Disabled
 		fileName "Buttons_Abilities_Disabled"
-		pixelBox [ 107 , 141 , 47 , 33 ]
+		pixelBox [ 872 , 326 , 47 , 33 ]
 	Pressed
 		fileName "Buttons_Abilities_Pressed"
-		pixelBox [ 107 , 141 , 47 , 33 ]
+		pixelBox [ 872 , 326 , 47 , 33 ]
 	CursorOver
 		fileName "Buttons_Abilities_CursorOver"
-		pixelBox [ 107 , 141 , 47 , 33 ]
+		pixelBox [ 872 , 326 , 47 , 33 ]
 	Focused
 		fileName "Buttons_Abilities_Normal"
-		pixelBox [ 107 , 141 , 47 , 33 ]
+		pixelBox [ 872 , 326 , 47 , 33 ]
 	Normal
 		fileName "Buttons_Abilities_Normal"
-		pixelBox [ 107 , 141 , 47 , 33 ]
+		pixelBox [ 872 , 326 , 47 , 33 ]
 brush
 	name "HUDIconTitanTechLoyalistWeaponUpgrade2"
 	content "States"
 	Disabled
-		fileName "Buttons_Research2_Disabled"
-		pixelBox [ 770 , 326 , 47 , 33 ]
+		fileName "Buttons_Abilities_Disabled"
+		pixelBox [ 821 , 326 , 47 , 33 ]
 	Pressed
-		fileName "Buttons_Research2_Pressed"
-		pixelBox [ 770 , 326 , 47 , 33 ]
+		fileName "Buttons_Abilities_Pressed"
+		pixelBox [ 821 , 326 , 47 , 33 ]
 	CursorOver
-		fileName "Buttons_Research2_CursorOver"
-		pixelBox [ 770 , 326 , 47 , 33 ]
+		fileName "Buttons_Abilities_CursorOver"
+		pixelBox [ 821 , 326 , 47 , 33 ]
 	Focused
-		fileName "Buttons_Research2_Normal"
-		pixelBox [ 770 , 326 , 47 , 33 ]
+		fileName "Buttons_Abilities_Normal"
+		pixelBox [ 821 , 326 , 47 , 33 ]
 	Normal
-		fileName "Buttons_Research2_Normal"
-		pixelBox [ 770 , 326 , 47 , 33 ]
+		fileName "Buttons_Abilities_Normal"
+		pixelBox [ 821 , 326 , 47 , 33 ]
 brush
 	name "HUDIconTitanTechLoyalistWeaponUpgrade1"
 	content "States"
 	Disabled
-		fileName "Buttons_Research2_Disabled"
-		pixelBox [ 822 , 326 , 47 , 33 ]
+		fileName "Buttons_Abilities_Disabled"
+		pixelBox [ 770 , 326 , 47 , 33 ]
 	Pressed
-		fileName "Buttons_Research2_Pressed"
-		pixelBox [ 822 , 326 , 47 , 33 ]
+		fileName "Buttons_Abilities_Pressed"
+		pixelBox [ 770 , 326 , 47 , 33 ]
 	CursorOver
-		fileName "Buttons_Research2_CursorOver"
-		pixelBox [ 822 , 326 , 47 , 33 ]
+		fileName "Buttons_Abilities_CursorOver"
+		pixelBox [ 770 , 326 , 47 , 33 ]
 	Focused
-		fileName "Buttons_Research2_Normal"
-		pixelBox [ 822 , 326 , 47 , 33 ]
+		fileName "Buttons_Abilities_Normal"
+		pixelBox [ 770 , 326 , 47 , 33 ]
 	Normal
-		fileName "Buttons_Research2_Normal"
-		pixelBox [ 822 , 326 , 47 , 33 ]
+		fileName "Buttons_Abilities_Normal"
+		pixelBox [ 770 , 326 , 47 , 33 ]
 brush
 	name "HUDIconTitanTechLoyalistWeaponUpgrade0"
 	content "States"
 	Disabled
-		fileName "Buttons_Research2_Disabled"
-		pixelBox [ 872 , 326 , 47 , 33 ]
+		fileName "Buttons_Abilities_Disabled"
+		pixelBox [ 770 , 326 , 47 , 33 ]
 	Pressed
-		fileName "Buttons_Research2_Pressed"
-		pixelBox [ 872 , 326 , 47 , 33 ]
+		fileName "Buttons_Abilities_Pressed"
+		pixelBox [ 770 , 326 , 47 , 33 ]
 	CursorOver
-		fileName "Buttons_Research2_CursorOver"
-		pixelBox [ 872 , 326 , 47 , 33 ]
+		fileName "Buttons_Abilities_CursorOver"
+		pixelBox [ 770 , 326 , 47 , 33 ]
 	Focused
-		fileName "Buttons_Research2_Normal"
-		pixelBox [ 872 , 326 , 47 , 33 ]
+		fileName "Buttons_Abilities_Normal"
+		pixelBox [ 770 , 326 , 47 , 33 ]
 	Normal
-		fileName "Buttons_Research2_Normal"
-		pixelBox [ 872 , 326 , 47 , 33 ]
+		fileName "Buttons_Abilities_Normal"
+		pixelBox [ 770 , 326 , 47 , 33 ]
 brush
 	name "HUDIconTitanTechRebelAbilityUpgrade3"
 	content "States"
@@ -5380,4 +5380,256 @@ brush
 	Normal
 		fileName "Buttons_Abilities_Normal"
 		pixelBox [ 209 , 363 , 47 , 33 ]
-				
+brush
+	name "HUDICON_ABILITY_AMARRPHENOMENA"
+	content "States"
+	Disabled
+		fileName "Buttons_Abilities_Disabled"
+		pixelBox [ 5 , 992 , 47 , 33 ]
+	Pressed
+		fileName "Buttons_Abilities_Pressed"
+		pixelBox [ 5 , 992 , 47 , 33 ]
+	CursorOver
+		fileName "Buttons_Abilities_CursorOver"
+		pixelBox [ 5 , 992 , 47 , 33 ]
+	Focused
+		fileName "Buttons_Abilities_Normal"
+		pixelBox [ 5 , 992 , 47 , 33 ]
+	Normal
+		fileName "Buttons_Abilities_Normal"
+		pixelBox [ 5 , 992 , 47 , 33 ]
+brush
+	name "HUDICON_ABILITY_CALDARIPHENOMENA"
+	content "States"
+	Disabled
+		fileName "Buttons_Abilities_Disabled"
+		pixelBox [ 158 , 992 , 47 , 33 ]
+	Pressed
+		fileName "Buttons_Abilities_Pressed"
+		pixelBox [ 158 , 992 , 47 , 33 ]
+	CursorOver
+		fileName "Buttons_Abilities_CursorOver"
+		pixelBox [ 158 , 992 , 47 , 33 ]
+	Focused
+		fileName "Buttons_Abilities_Normal"
+		pixelBox [ 158 , 992 , 47 , 33 ]
+	Normal
+		fileName "Buttons_Abilities_Normal"
+		pixelBox [ 158 , 992 , 47 , 33 ]
+brush
+	name "HUDICON_ABILITY_GALLENTEPHENOMENA"
+	content "States"
+	Disabled
+		fileName "Buttons_Abilities_Disabled"
+		pixelBox [ 56 , 992 , 47 , 33 ]
+	Pressed
+		fileName "Buttons_Abilities_Pressed"
+		pixelBox [ 56 , 992 , 47 , 33 ]
+	CursorOver
+		fileName "Buttons_Abilities_CursorOver"
+		pixelBox [ 56 , 992 , 47 , 33 ]
+	Focused
+		fileName "Buttons_Abilities_Normal"
+		pixelBox [ 56 , 992 , 47 , 33 ]
+	Normal
+		fileName "Buttons_Abilities_Normal"
+		pixelBox [ 56 , 992 , 47 , 33 ]
+brush
+	name "HUDICON_ABILITY_MINMATARPHENOMENA"
+	content "States"
+	Disabled
+		fileName "Buttons_Abilities_Disabled"
+		pixelBox [ 107 , 992 , 47 , 33 ]
+	Pressed
+		fileName "Buttons_Abilities_Pressed"
+		pixelBox [ 107 , 992 , 47 , 33 ]
+	CursorOver
+		fileName "Buttons_Abilities_CursorOver"
+		pixelBox [ 107 , 992 , 47 , 33 ]
+	Focused
+		fileName "Buttons_Abilities_Normal"
+		pixelBox [ 107 , 992 , 47 , 33 ]
+	Normal
+		fileName "Buttons_Abilities_Normal"
+		pixelBox [ 107 , 992 , 47 , 33 ]
+brush
+	name "HUDICON_ABILITY_TITANSHIELD0"
+	content "States"
+	Disabled
+		fileName "Buttons_Abilities_Disabled"
+		pixelBox [ 5 , 696 , 47 , 33 ]
+	Pressed
+		fileName "Buttons_Abilities_Pressed"
+		pixelBox [ 5 , 696 , 47 , 33 ] 
+	CursorOver
+		fileName "Buttons_Abilities_CursorOver"
+		pixelBox [ 5 , 696 , 47 , 33 ]
+	Focused
+		fileName "Buttons_Abilities_Normal"
+		pixelBox [ 5 , 696 , 47 , 33 ]
+	Normal
+		fileName "Buttons_Abilities_Normal"
+		pixelBox [ 5 , 696 , 47 , 33 ]
+brush
+	name "HUDICON_ABILITY_TITANSHIELD1"
+	content "States"
+	Disabled
+		fileName "Buttons_Abilities_Disabled"
+		pixelBox [ 56 , 696 , 47 , 33 ]
+	Pressed
+		fileName "Buttons_Abilities_Pressed"
+		pixelBox [ 56 , 696 , 47 , 33 ]
+	CursorOver
+		fileName "Buttons_Abilities_CursorOver"
+		pixelBox [ 56 , 696 , 47 , 33 ]
+	Focused
+		fileName "Buttons_Abilities_Normal"
+		pixelBox [ 56 , 696 , 47 , 33 ]
+	Normal
+		fileName "Buttons_Abilities_Normal"
+		pixelBox [ 56 , 696 , 47 , 33 ]
+brush
+	name "HUDICON_ABILITY_TITANSHIELD2"
+	content "States"
+	Disabled
+		fileName "Buttons_Abilities_Disabled"
+		pixelBox [ 107 , 696 , 47 , 33 ]
+	Pressed
+		fileName "Buttons_Abilities_Pressed"
+		pixelBox [ 107 , 696 , 47 , 33 ]
+	CursorOver
+		fileName "Buttons_Abilities_CursorOver"
+		pixelBox [ 107 , 696 , 47 , 33 ]
+	Focused
+		fileName "Buttons_Abilities_Normal"
+		pixelBox [ 107 , 696 , 47 , 33 ]
+	Normal
+		fileName "Buttons_Abilities_Normal"
+		pixelBox [ 107 , 696 , 47 , 33 ]
+brush
+	name "HUDICON_ABILITY_TITANSHIELD3"
+	content "States"
+	Disabled
+		fileName "Buttons_Abilities_Disabled"
+		pixelBox [ 158 , 696 , 47 , 33 ]
+	Pressed
+		fileName "Buttons_Abilities_Pressed"
+		pixelBox [ 158 , 696 , 47 , 33 ]
+	CursorOver
+		fileName "Buttons_Abilities_CursorOver"
+		pixelBox [ 158 , 696 , 47 , 33 ]
+	Focused
+		fileName "Buttons_Abilities_Normal"
+		pixelBox [ 158 , 696 , 47 , 33 ]
+	Normal
+		fileName "Buttons_Abilities_Normal"
+		pixelBox [ 158 , 696 , 47 , 33 ]
+brush
+	name "HUDICON_ABILITY_TITANSHIELD4"
+	content "States"
+	Disabled
+		fileName "Buttons_Abilities_Disabled"
+		pixelBox [ 209 , 696 , 47 , 33 ]
+	Pressed
+		fileName "Buttons_Abilities_Pressed"
+		pixelBox [ 209 , 696 , 47 , 33 ]
+	CursorOver
+		fileName "Buttons_Abilities_CursorOver"
+		pixelBox [ 209 , 696 , 47 , 33 ]
+	Focused
+		fileName "Buttons_Abilities_Normal"
+		pixelBox [ 209 , 696 , 47 , 33 ]
+	Normal
+		fileName "Buttons_Abilities_Normal"
+		pixelBox [ 209 , 696 , 47 , 33 ]
+brush
+	name "HUDICON_ABILITY_TITANWEAPON0"
+	content "States"
+	Disabled
+		fileName "Buttons_Abilities_Disabled"
+		pixelBox [ 770 , 770 , 47 , 33 ]
+	Pressed
+		fileName "Buttons_Abilities_Pressed"
+		pixelBox [ 770 , 770 , 47 , 33 ]
+	CursorOver
+		fileName "Buttons_Abilities_CursorOver"
+		pixelBox [ 770 , 770 , 47 , 33 ]
+	Focused
+		fileName "Buttons_Abilities_Normal"
+		pixelBox [ 770 , 770 , 47 , 33 ]
+	Normal
+		fileName "Buttons_Abilities_Normal"
+		pixelBox [ 770 , 770 , 47 , 33 ]
+brush
+	name "HUDICON_ABILITY_TITANWEAPON1"
+	content "States"
+	Disabled
+		fileName "Buttons_Abilities_Disabled"
+		pixelBox [ 821 , 770 , 47 , 33 ]
+	Pressed
+		fileName "Buttons_Abilities_Pressed"
+		pixelBox [ 821 , 770 , 47 , 33 ]
+	CursorOver
+		fileName "Buttons_Abilities_CursorOver"
+		pixelBox [ 821 , 770 , 47 , 33 ]
+	Focused
+		fileName "Buttons_Abilities_Normal"
+		pixelBox [ 821 , 770 , 47 , 33 ]
+	Normal
+		fileName "Buttons_Abilities_Normal"
+		pixelBox [ 821 , 770 , 47 , 33 ]
+brush
+	name "HUDICON_ABILITY_TITANWEAPON2"
+	content "States"
+	Disabled
+		fileName "Buttons_Abilities_Disabled"
+		pixelBox [ 821 , 770 , 47 , 33 ]
+	Pressed
+		fileName "Buttons_Abilities_Pressed"
+		pixelBox [ 821 , 770 , 47 , 33 ]
+	CursorOver
+		fileName "Buttons_Abilities_CursorOver"
+		pixelBox [ 821 , 770 , 47 , 33 ]
+	Focused
+		fileName "Buttons_Abilities_Normal"
+		pixelBox [ 821 , 770 , 47 , 33 ]
+	Normal
+		fileName "Buttons_Abilities_Normal"
+		pixelBox [ 821 , 770 , 47 , 33 ]
+brush
+	name "HUDICON_ABILITY_TITANWEAPON3"
+	content "States"
+	Disabled
+		fileName "Buttons_Abilities_Disabled"
+		pixelBox [ 871 , 696 , 47 , 33 ]
+	Pressed
+		fileName "Buttons_Abilities_Pressed"
+		pixelBox [ 871 , 696 , 47 , 33 ]
+	CursorOver
+		fileName "Buttons_Abilities_CursorOver"
+		pixelBox [ 871 , 696 , 47 , 33 ]
+	Focused
+		fileName "Buttons_Abilities_Normal"
+		pixelBox [ 871 , 696 , 47 , 33 ]
+	Normal
+		fileName "Buttons_Abilities_Normal"
+		pixelBox [ 871 , 696 , 47 , 33 ]
+brush
+	name "HUDICON_ABILITY_TITANWEAPON4"
+	content "States"
+	Disabled
+		fileName "Buttons_Abilities_Disabled"
+		pixelBox [ 871 , 696 , 47 , 33 ]
+	Pressed
+		fileName "Buttons_Abilities_Pressed"
+		pixelBox [ 871 , 696 , 47 , 33 ]
+	CursorOver
+		fileName "Buttons_Abilities_CursorOver"
+		pixelBox [ 871 , 696 , 47 , 33 ]
+	Focused
+		fileName "Buttons_Abilities_Normal"
+		pixelBox [ 871 , 696 , 47 , 33 ]
+	Normal
+		fileName "Buttons_Abilities_Normal"
+		pixelBox [ 871 , 696 , 47 , 33 ]
+												

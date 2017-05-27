@@ -1,7 +1,7 @@
 ﻿TXT
 entityType "Titan"
 ability:0 "AbilityGjallarhorn"
-ability:1 "AbilityAmarrTitanBonus"
+ability:1 "Minmatar_AbilityPhenomenaGenerator"
 ability:2 "AbilityTitanEMPSmartbomb"
 ability:3 "AbilityAmarrTitanJumpBridge"
 ability:4 ""
@@ -90,13 +90,13 @@ Prerequisites
 	RequiredCompletedResearchSubjects 0
 statCountType "Titan"
 UpgradeTypeCount 7
-UpgradeType "TitanUpgrade_TechLoyalist_AbilityA"
-UpgradeType "TitanUpgrade_TechLoyalist_AbilityB"
+UpgradeType "Minmatar_TitanUpgrade_AbilityA"
+UpgradeType "Minmatar_TitanUpgrade_AbilityB"
 UpgradeType "TitanUpgrade_TechLoyalist_AbilityC"
 UpgradeType "TitanUpgrade_TechLoyalist_AbilityD"
-UpgradeType "TitanUpgrade_TechLoyalist_Durability"
+UpgradeType "Caldari_TitanUpgrade_Durability"
 UpgradeType "TitanUpgrade_TechLoyalist_Weapons"
-UpgradeType "TitanUpgrade_TechLoyalist_Abilities"
+UpgradeType "Caldari_TitanUpgrade_Abilities"
 numRandomDebrisLarge 0
 numRandomDebrisSmall 0
 numSpecificDebris 0
@@ -114,35 +114,35 @@ Weapon
 		DamageApplyType "BACKLOADED"
 		DamageType "PHYSICAL"
 		WeaponClassType "GAUSS"
-	DamagePerBank:FRONT 12682.000000
+	DamagePerBank:FRONT 28822.000000
 	DamagePerBank:BACK 0.000000
 	DamagePerBank:LEFT 0.000000
 	DamagePerBank:RIGHT 0.000000
 	Range 10000.000000
-	PreBuffCooldownTime 3.510000
+	PreBuffCooldownTime 13.360000
 	CanFireAtFighter FALSE
 	SynchronizedTargeting TRUE
 	PointStaggerDelay 0.000000
-	TravelSpeed 5000.000000
+	TravelSpeed 8000.000000
 	Duration 0.300000
 	fireConstraintType "CanAlwaysFire"
 	WeaponEffects
 		weaponType "Projectile"
-		burstCount 4
+		burstCount 1
 		burstDelay 0.050000
 		fireDelay 0.050000
 		muzzleEffectName "Weapon_TechCapitalAutoCannonHeavy_Muzzle"
 		muzzleSoundMinRespawnTime 1.000000
 		muzzleSounds
 			soundCount 1
-			sound "WEAPON_HEAVYAUTOCANNON"
+			sound "WEAPON_ARTYCANNONHEAVY_MUZZLE"
 		hitEffectName "Weapon_TechCapitalAutoCannonHeavy_Hit"
 		hitHullEffectSounds
 			soundCount 1
-			sound ""
+			sound "WEAPON_ARTYCANNONHEAVY_HIT"
 		hitShieldsEffectSounds
 			soundCount 1
-			sound ""
+			sound "WEAPON_ARTYCANNONHEAVY_HIT"
 		projectileTravelEffectName "Weapon_TechCapitalAutoCannonHeavy_Travel"
 m_weaponIndexForRange 0
 firingAlignmentType "Default"

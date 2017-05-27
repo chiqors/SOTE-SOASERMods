@@ -31,8 +31,9 @@ entities
 			entityDefName "Amarr_Structure_TitanFoundry"
 	titanInfo
 		Page:0
-			count 1
+			count 2
 			entityDefName "Amarr_Ship_Titan_Avatar"
+			entityDefName "Bloodraider_ShipTitan_Morlok"
 	capitalShipInfo
 		Page:0
 			count 8

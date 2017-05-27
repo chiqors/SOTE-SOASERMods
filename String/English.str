@@ -1,5 +1,5 @@
 TXT
-NumStrings 8278
+NumStrings 8284
 StringInfo
     ID "IDS_ABILITY_RORQUALPANIC_NAME"
 	Value "P.A.N.I.C Module"
@@ -24834,5 +24834,22 @@ StringInfo
 StringInfo
 	ID "IDS_SUMMON_NESTOR_DESCRIPTION"
 	Value "Strong ties with the Sisters of Eve and your Empire allow you to buy Nestor Battleship."
-	
+StringInfo
+	ID "IDS_PHENOMENAGENERATOR_AMARR_NAME"
+	Value "Phenomena Generator"
+StringInfo
+	ID "IDS_PHENOMENAGENERATOR_AMARR_DESCRIPTION"
+	Value "Adapted from advanced research into natural wormhole phenomena, this module wields an Avatar's massive Radar sensor array to bend local space and affect the properties of all nearby vessels. The effects of this phenomenon impact both friendly and hostile ships, altering the entire battlefield in subtle but significant ways. Clever fleet commanders can take advantage of these effects to ensure victory, even against insurmountable odds. "
+StringInfo
+	ID "IDS_OBLIVION_NAME"
+	Value "Oblivion Doomsday Weapon" 
+StringInfo
+	ID "IDS_OBLIVION_DESCRIPTION"
+	Value "Using a targeting and tracking control system more advanced than any other in existence, this weapon launches and controls a storm of missile fire capable of neutralizing almost any target."
+StringInfo
+	ID "IDS_COMMAND_TITAN_BLOODRAIDER_MOLOK_NAME"
+	Value "Command Titan Molok"	
+StringInfo
+	ID "IDS_COMMAND_TITAN_BLOODRAIDER_MOLOK_DESCRIPTION"
+	Value ""Molok, libeled as 'The Deceiver' by the false faith, was truer than any so-called 'True Amarr' follower of the corrupted throne squatters could ever be. He it was that understood the true nature of the universe. There is only one truth: power is all; naked, merciless force wielded by those with the will to grapple with it..."	
 	

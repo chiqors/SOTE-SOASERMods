@@ -1,7 +1,7 @@
 ﻿TXT
 entityType "CapitalShip"
 ability:0 "AbilityGjallarhornCapital"
-ability:1 ""
+ability:1 "AbilityCaldariTitanbonus"
 ability:2 "AbilityTitanEMPSmartbombCapital"
 ability:3 "AbilityTitanJumpBridge"
 ability:4 ""
@@ -107,35 +107,35 @@ Weapon
 		DamageApplyType "BACKLOADED"
 		DamageType "PHYSICAL"
 		WeaponClassType "PULSEGUN"
-	DamagePerBank:FRONT 12682.000000
+	DamagePerBank:FRONT 28822.000000
 	DamagePerBank:BACK 0.000000
 	DamagePerBank:LEFT 0.000000
 	DamagePerBank:RIGHT 0.000000
 	Range 10000.000000
-	PreBuffCooldownTime 3.510000
+	PreBuffCooldownTime 13.360000
 	CanFireAtFighter FALSE
 	SynchronizedTargeting TRUE
 	PointStaggerDelay 0.050000
-	TravelSpeed 6000.000000
+	TravelSpeed 8000.000000
 	Duration 0.000000 
 	fireConstraintType "CanAlwaysFire"
 	WeaponEffects
 		weaponType "Projectile"
-		burstCount 4
+		burstCount 1
 		burstDelay 0.050000
 		fireDelay 0.050000
 		muzzleEffectName "Weapon_TechCapitalAutoCannonHeavy_Muzzle"
 		muzzleSoundMinRespawnTime 1.000000
 		muzzleSounds
 			soundCount 1
-			sound "WEAPON_HEAVYAUTOCANNON"
+			sound "WEAPON_ARTYCANNONHEAVY_MUZZLE"
 		hitEffectName "Weapon_TechCapitalAutoCannonHeavy_Hit"
 		hitHullEffectSounds
 			soundCount 1
-			sound ""
+			sound "WEAPON_ARTYCANNONHEAVY_HIT"
 		hitShieldsEffectSounds
 			soundCount 1
-			sound ""
+			sound "WEAPON_ARTYCANNONHEAVY_HIT"
 		projectileTravelEffectName "Weapon_TechCapitalAutoCannonHeavy_Travel"
 m_weaponIndexForRange 0
 firingAlignmentType "Default"

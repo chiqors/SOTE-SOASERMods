@@ -1,8 +1,8 @@
 ﻿TXT
 entityType "Titan"
 ability:0 "AbilityAuroraOminae"
-ability:1 "AbilityGallenteTitanBonus"
-ability:2 "AbilityStasisWebifier"
+ability:1 "Gallente_AbilityPhenomenaGenerator"
+ability:2 "AbilityTitanPLASMASmartbomb"
 ability:3 "AbilityAmarrTitanJumpBridge"
 ability:4 ""
 defaultAutoAttackRange "GravityWell"
@@ -117,12 +117,12 @@ Weapon
 		DamageApplyType "BACKLOADED"
 		DamageType "ENERGY"
 		WeaponClassType "PULSEGUN"
-	DamagePerBank:FRONT 17121.000000
+	DamagePerBank:FRONT 22828.000000
 	DamagePerBank:BACK 0.000000
 	DamagePerBank:LEFT 0.000000
 	DamagePerBank:RIGHT 0.000000
 	Range 10000.000000
-	PreBuffCooldownTime 4.3900000
+	PreBuffCooldownTime 8.8100000
 	CanFireAtFighter FALSE
 	SynchronizedTargeting TRUE
 	PointStaggerDelay 0.050000

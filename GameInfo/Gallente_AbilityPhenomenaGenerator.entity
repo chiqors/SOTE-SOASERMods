@@ -1,0 +1,72 @@
+﻿TXT
+entityType "Ability"
+buffInstantActionType "ApplyBuffToTargetsInRadius"
+instantActionTriggerType "AlwaysPerform"
+buffType "BuffAmarrPhenomena"
+targetFilter
+	numOwnerships 4
+	ownership "Friendly"
+	ownership "Enemy"
+	ownership "NoOwner"
+	ownership "AlliedOrEnemy"
+	numObjects 4
+	object "Frigate"
+	object "CapitalShip"
+	object "Titan"
+	object "Corvette"
+	numSpaces 1
+	space "Normal"
+	numConstraints 0
+range
+	Level:0 75000.000000
+	Level:1 75000.000000
+	Level:2 75000.000000
+	Level:3 75000.000000
+maxTargetCount
+	Level:0 -1.000000
+	Level:1 -1.000000
+	Level:2 -1.000000
+	Level:3 -1.000000
+effectInfo
+	effectAttachInfo
+		attachType "Ability"
+		abilityIndex 0
+	smallEffectName "PlasmaStorm_Impact4"
+	mediumEffectName "PlasmaStorm_Impact4"
+	largeEffectName "PlasmaStorm_Impact4"
+	soundID ""
+needsToFaceTarget FALSE
+canCollideWithTarget TRUE
+moveThruTarget FALSE
+isUltimateAbility FALSE
+maxNumLevels 4
+levelSourceType "TitanUpgradeLevel"
+sourcePropertyType "AbilityALevel"
+aiUseTime "Anytime"
+aiUseTargetCondition "Any"
+isAutoCastAvailable TRUE
+isAutoCastOnByDefault TRUE
+pickRandomPlanetToExploreForAutoCastTarget FALSE
+ignoreNonCombatShipsForAutoCastTarget TRUE
+onlyAutoCastWhenDamageTakenExceedsPerc 0.000000
+useCostType "AntiMatter"
+antiMatterCost
+	Level:0 12500.000000
+	Level:1 12000.000000
+	Level:2 11500.000000
+	Level:3 11000.000000
+cooldownTime
+	Level:0 150.000000
+	Level:1 150.000000
+	Level:2 150.000000
+	Level:3 150.000000
+orderAcknowledgementType "ONGENERALORDERISSUED"
+researchPrerequisites
+	NumResearchPrerequisites 0
+	RequiredFactionNameID ""
+	RequiredCompletedResearchSubjects 0
+nameStringID "IDS_PHENOMENAGENERATOR_AMARR_NAME"
+descStringID "IDS_PHENOMENAGENERATOR_AMARR_DESCRIPTION"
+hudIcon "HUDICON_ABILITY_GALLENTEPHENOMENA"
+smallHudIcon "HUDICON_ABILITY_GALLENTEPHENOMENA"
+infoCardIcon ""

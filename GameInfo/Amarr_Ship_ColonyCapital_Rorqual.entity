@@ -1,9 +1,9 @@
 ﻿TXT
 entityType "CapitalShip"
 ability:0 "AbilityTechCapitalShipColonize"
-ability:1 "AbilityPLASMASmartbomb"
+ability:1 "AbilityRorqualPanic"
 ability:2 "AbilityRemoteShieldBoosterCapital"
-ability:3 "AbilityHeavyEnergyNeutralizer"
+ability:3 "AbilityRorqualExtractor"
 ability:4 ""
 defaultAutoAttackRange "GravityWell"
 defaultAutoAttackOn TRUE

@@ -2048,7 +2048,7 @@ effect
 	fileName "EventTech_AllyBackUpEnRoute.ogg"
 effect
 	name "EVENTTECH_ALLYCAPITALSHIPLOST"
-	fileName "EventTech_AllyCapitalShipLost.ogg"
+	fileName "allycapital_down.ogg"
 effect
 	name "EVENTTECH_ALLYFLEETARRIVED"
 	fileName "EventTech_AllyFleetArrived.ogg"
@@ -2135,7 +2135,7 @@ effect
 	fileName "EventTech_PlayerBackUpArrived.ogg"
 effect
 	name "EVENTTECH_PLAYERCAPITALSHIPLOST"
-	fileName "EventTech_PlayerCapitalShipLost.ogg"
+	fileName "capitalship_lost.ogg"
 effect
 	name "EVENTTECH_PLAYERFLEETARRIVED"
 	fileName "EventTech_PlayerFleetArrived.ogg"

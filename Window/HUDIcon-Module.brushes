@@ -1,6 +1,6 @@
 ﻿TXT
 onlyLoadOnDemand FALSE
-brushCount 96
+brushCount 99
 brush
 	name "HUDICON_PLANETMODULE_TECHORBITALFRIGATEFACTORY"
 	content "States"
@@ -1079,3 +1079,58 @@ brush
 	content "Simple"
 	fileName "Unit_Main"
 	pixelBox [ 271 , 61 , 28 , 28 ]
+brush
+	name "HUDICON_PLANETMODULE_INDYARRAY1"
+	content "States"
+	Disabled
+		fileName "Ships_Buttons_Disabled"
+		pixelBox [ 4 , 977 , 47 , 33 ]
+	Pressed
+		fileName "Ships_Buttons_Pressed"
+		pixelBox [ 4 , 977 , 47 , 33 ]
+	CursorOver
+		fileName "Ships_Buttons_CursorOver"
+		pixelBox [ 4 , 977 , 47 , 33 ]
+	Focused
+		fileName "Ships_Buttons_Normal"
+		pixelBox [ 4 , 977 , 47 , 33 ]
+	Normal
+		fileName "Ships_Buttons_Normal"
+		pixelBox [ 4 , 977 , 47 , 33 ]
+brush
+	name "HUDICON_PLANETMODULE_INDYARRAY2"
+	content "States"
+	Disabled
+		fileName "Ships_Buttons_Disabled"
+		pixelBox [ 55, 977 , 47 , 33 ]
+	Pressed
+		fileName "Ships_Buttons_Pressed"
+		pixelBox [ 55, 977 , 47 , 33 ]
+	CursorOver
+		fileName "Ships_Buttons_CursorOver"
+		pixelBox [ 55, 977 , 47 , 33 ]
+	Focused
+		fileName "Ships_Buttons_Normal"
+		pixelBox [ 55, 977 , 47 , 33 ]
+	Normal
+		fileName "Ships_Buttons_Normal"
+		pixelBox [ 55, 977 , 47 , 33 ]
+brush
+	name "HUDICON_PLANETMODULE_INDYARRAY3"
+	content "States"
+	Disabled
+		fileName "Ships_Buttons_Disabled"
+		pixelBox [ 106, 977 , 47 , 33 ]
+	Pressed
+		fileName "Ships_Buttons_Pressed"
+		pixelBox [ 106, 977 , 47 , 33 ]
+	CursorOver
+		fileName "Ships_Buttons_CursorOver"
+		pixelBox [ 106, 977 , 47 , 33 ]
+	Focused
+		fileName "Ships_Buttons_Normal"
+		pixelBox [ 106, 977 , 47 , 33 ]
+	Normal
+		fileName "Ships_Buttons_Normal"
+		pixelBox [ 106, 977 , 47 , 33 ]
+						

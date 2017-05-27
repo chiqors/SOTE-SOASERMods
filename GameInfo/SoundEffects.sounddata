@@ -1,5 +1,5 @@
 TXT
-numEffects 405
+numEffects 406
 effect
 	name "BUTTONPRESS"
 	fileName "ButtonPress.ogg"
@@ -3511,8 +3511,23 @@ effect
 	fadeOutTime 0.0
 	alternateGroup ""	
 effect
+	name "WEAPON_ARTYCANNONHEAVY_HIT"
+	fileName "explosion_explosive_xlarge2.OGG"
+	type "Effect"
+	is3D TRUE
+	priority 5
+	threshold 25000.000000
+	minAttenuationDist 1000.000000
+	maxNumPlayingSimultaneously 5
+	isLooping FALSE
+	isResident TRUE
+	minRespawnTime 0.5
+	fadeInTime 0.0
+	fadeOutTime 0.0
+	alternateGroup ""		
+effect
 	name "WEAPON_ARTYCANNONMEDIUM_MUZZLE"
-	fileName "artillary_fire_medium.OGG"
+	fileName "artillary_fire_light.OGG"
 	type "Effect"
 	is3D TRUE
 	priority 5

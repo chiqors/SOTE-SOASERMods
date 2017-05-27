@@ -12,7 +12,7 @@ numRandomDebrisLarge 0
 numRandomDebrisSmall 0
 numSpecificDebris 0
 armorType "Module"
-hudIcon "HUDICON_TECH_TITAN_FOUNDRY"
+hudIcon "HUDICON_PLANETMODULE_INDYARRAY3"
 smallHudIcon "HUDICONSMALL_PLANETMODULE_TECHORBITALTITANFACTORY"
 infoCardIcon "INFOCARDICON_PLANETMODULE_TECHORBITALTITANFACTORY"
 planetUpgradeSlotType "Tactical"

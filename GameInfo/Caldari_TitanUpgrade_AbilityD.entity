@@ -1,0 +1,32 @@
+﻿TXT
+entityType "TitanUpgrade"
+stageCount 2
+stage
+	nameStringID "IDS_ABILITY_INSPIREANDIMPAIR_NAME"
+	descStringID "IDS_ABILITY_INSPIREANDIMPAIR_DESCRIPTION"
+	researchPrerequisites
+		NumResearchPrerequisites 0
+		RequiredFactionNameID ""
+		RequiredCompletedResearchSubjects 0
+	levelRequirement -1
+	hudIcon "HUDICON_ABILITY_SABOTAGEENGINES"
+	smallHudIcon "HUDICON_ABILITY_SABOTAGEENGINES"
+	infoCardIcon ""
+	upgradePropertyCount 0
+	upgradeBoolPropertyCount 0
+stage
+	nameStringID "IDS_ABILITY_INSPIREANDIMPAIR_NAME"
+	descStringID "IDS_ABILITY_INSPIREANDIMPAIR_DESCRIPTION"
+	researchPrerequisites
+		NumResearchPrerequisites 0
+		RequiredFactionNameID ""
+		RequiredCompletedResearchSubjects 0
+	levelRequirement 1
+	hudIcon "HUDICON_ABILITY_SABOTAGEENGINES"
+	smallHudIcon "HUDICON_ABILITY_SABOTAGEENGINES"
+	infoCardIcon ""
+	upgradePropertyCount 1
+	upgradeProperty
+		propertyType "AbilityDLevel"
+		value 1.000000
+	upgradeBoolPropertyCount 0

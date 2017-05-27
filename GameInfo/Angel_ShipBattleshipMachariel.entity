@@ -52,12 +52,12 @@ Weapon
 		DamageApplyType "BACKLOADED"
 		DamageType "PHYSICAL"
 		WeaponClassType "GAUSS"
-	DamagePerBank:FRONT 659.000000
+	DamagePerBank:FRONT 2373.000000
 	DamagePerBank:BACK 0.000000
 	DamagePerBank:LEFT 0.000000
 	DamagePerBank:RIGHT 0.000000
 	Range 8000.000000
-	PreBuffCooldownTime 3.520000
+	PreBuffCooldownTime 18.000000
 	CanFireAtFighter FALSE
 	SynchronizedTargeting TRUE
 	PointStaggerDelay 0.000000
@@ -66,21 +66,21 @@ Weapon
 	fireConstraintType "CanAlwaysFire"
 	WeaponEffects
 		weaponType "Projectile"
-		burstCount 4
+		burstCount 1
 		burstDelay 0.050000
 		fireDelay 0.000000
 		muzzleEffectName "Weapon_TechCapitalAutoCannonHeavy_Muzzle"
 		muzzleSoundMinRespawnTime 1.000000
 		muzzleSounds
 			soundCount 1
-			sound "WEAPON_HEAVYAUTOCANNON"
+			sound "WEAPON_ARTYCANNONHEAVY_MUZZLE"
 		hitEffectName "Weapon_TechCapitalAutoCannonHeavy_Hit"
 		hitHullEffectSounds
 			soundCount 1
-			sound ""
+			sound "WEAPON_ARTYCANNONHEAVY_HIT"
 		hitShieldsEffectSounds
 			soundCount 1
-			sound ""
+			sound "WEAPON_ARTYCANNONHEAVY_HIT"
 		projectileTravelEffectName "Weapon_TechCapitalAutoCannonHeavy_Travel"
 m_weaponIndexForRange 0
 firingAlignmentType "Default"
