@@ -331,3 +331,8 @@ WeaponDamageAdjustment
 WeaponIgnoresShieldsAdjustment
 WeaponRangeAdjustment
 WeaponRateOfFireAdjustment
+
+
+
+
+

@@ -1,9 +1,9 @@
 ﻿TXT
 entityType "CapitalShip"
-ability:0 "AbilityEMPSmartbomb"
-ability:1 "AbilityDroneMissile"
-ability:2 "AbilityFighterControlUnit"
-ability:3 "AbilityLaunchSquads"
+ability:0 "AbilityDroneBomb"
+ability:1 "AbilityEnergyNeutralizationBurst"
+ability:2 "AbilityProjectedECMBurst"
+ability:3 "AbilityRemoteArmorRepairerCapital"
 ability:4 ""
 defaultAutoAttackRange "GravityWell"
 defaultAutoAttackOn TRUE
@@ -12,12 +12,12 @@ usesFighterAttack FALSE
 autoJoinFleetDefault TRUE
 canBomb TRUE
 hasBombingLevels FALSE
-baseDamage 30.000000
-basePopulationKilled 0.500000
+baseDamage 60.000000
+basePopulationKilled 1.000000
 bombingFreqTime 10.000000
 baseRange 5000.000000
 bombTransitTime 6.000000
-bombEffectCount 2
+bombEffectCount 3
 bombEffectAngleVariance 10.000000
 bombEffectsDef
 	weaponType "Missile"
@@ -44,59 +44,59 @@ bombEffectsDef
 	missileStartTurningDistance 250.000000
 	missileSlowTurnRate 0.708997
 	missileMaxSlowTurnTime 6.000000
-mainViewIcon "MAINVIEWICON_CAPITALSHIP_TECHBATTLESHIP"
+mainViewIcon "MAINVIEWICON_CAPITALSHIP_PHASECARRIER"
 basePrice
-	credits 3000.000000
-	metal 600.000000
-	crystal 442.000000
+	credits 9500.000000
+	metal 3917.000000
+	crystal 2000.000000
 slotCount 1.000000
-BuildTime 75.000000
+BuildTime 150.000000
 MaxHullPoints
-	StartValue 36000.000000
-	ValueIncreasePerLevel 3600.000000
+	StartValue 235000.000000
+	ValueIncreasePerLevel 23500.000000
 MaxShieldPoints
-	StartValue 26500.000000
-	ValueIncreasePerLevel 2650.000000
+	StartValue 120000.000000
+	ValueIncreasePerLevel 12000.000000
 HullPointRestoreRate
-	StartValue 10.00000
+	StartValue 1.000000
 	ValueIncreasePerLevel 1.000000
 ShieldPointRestoreRate
-	StartValue 1.000000
-	ValueIncreasePerLevel 0.500000
+	StartValue 10.000000
+	ValueIncreasePerLevel 1.000000
 ArmorPointsFromExperience
 	StartValue 25.000000
 	ValueIncreasePerLevel 0.000000
 maxMitigation
-	StartValue 0.250000
+	StartValue 0.150000
 	ValueIncreasePerLevel 0.000000
 MaxAntiMatter
-	StartValue 75000.000000
-	ValueIncreasePerLevel 7500.000000
+	StartValue 90000.000000
+	ValueIncreasePerLevel 9000.000000
 AntiMatterRestoreRate
 	StartValue 10.000000
-	ValueIncreasePerLevel 0.500000
+	ValueIncreasePerLevel 1.000000
 CultureProtectRate
-	StartValue 0.600000
+	StartValue 1.400000
 	ValueIncreasePerLevel 0.050000
-NameStringID "IDS_CAPITALSHIP_TECHBATTLESHIP_NAME"
-DescriptionStringID "IDS_CAPITALSHIP_TECHBATTLESHIP_DESCRIPTION"
-picture "PICTURE_CAPITAL_ARCHON"
+NameStringID "IDS_SERPENTIS_SUPERCARRIER_VENDETTA_NAME"
+DescriptionStringID "IDS_SERPENTIS_SUPERCARRIER_VENDETTA_DESCRIPTION"
+picture "PICTURE_CAPITAL_NYX"
 Prerequisites
 	NumResearchPrerequisites 1
 	ResearchPrerequisite
-		Subject "Amarr_ResearchSubject_CapitalAccess_Archon"
+		Subject "Gallente_ResearchSubject_CapitalAccess_Nyx"
 		Level 1
 	RequiredFactionNameID ""
 	RequiredCompletedResearchSubjects 0
 roleType "Invalid"
-statCountType "CapitalShipBattleship"
+statCountType "CapitalShipCarrier"
 numRandomDebrisLarge 0
 numRandomDebrisSmall 0
 numSpecificDebris 0
 armorType "VeryHeavy"
-hudIcon "HUDICON_CAPITALSHIP_TECHBATTLESHIP"
-smallHudIcon "HUDICONSMALL_CAPITALSHIP_TECHBATTLESHIP"
-infoCardIcon "INFOCARDICON_CAPITALSHIP_TECHBATTLESHIP"
+hudIcon "HUDICON_CAPITALSHIP_PHASECARRIER"
+smallHudIcon "HUDICONSMALL_CAPITALSHIP_PHASECARRIER"
+infoCardIcon "INFOCARDICON_CAPITALSHIP_PHASECARRIER"
 minZoomDistanceMult 1.000000
 NumWeapons 1
 Weapon
@@ -106,7 +106,7 @@ Weapon
 		DamageAffectType "AFFECTS_SHIELDS_AND_HULL"
 		DamageApplyType "OVERTIME"
 		DamageType "ENERGY"
-		WeaponClassType "DART"
+		WeaponClassType "LASERTECH"
 	DamagePerBank:FRONT 1.300003
 	DamagePerBank:BACK 0.000000
 	DamagePerBank:LEFT 0.000000
@@ -152,52 +152,51 @@ TargetCountPerBank:BACK 0
 TargetCountPerBank:LEFT 0
 TargetCountPerBank:RIGHT 0
 canOnlyTargetStructures FALSE
-mass 20000.000000
-ShieldMeshName "archon"
-renderShield TRUE
-maxAccelerationLinear 13.750000
-maxAccelerationStrafe 1.000000
-maxDecelerationLinear 27.500000
-maxAccelerationAngular 1.000000
-maxDecelerationAngular 2.000000
-maxSpeedLinear 275.000000
+mass 50000.000000
+ShieldMeshName "Nyx"
+renderShield FALSE
+maxAccelerationLinear 12.500000
+maxAccelerationStrafe 0.500000
+maxDecelerationLinear 25.000000
+maxAccelerationAngular 0.500000
+maxDecelerationAngular 1.000000
+maxSpeedLinear 250.000000
 maxRollRate 1.000000
 maxRollAngle 30.000000
-squadTypeEntityDef:0 "Amarr_DroneSquad_Templar"
+squadTypeEntityDef:0 "Gallente_DroneSquad_Firbolg"
 squadAntiMatterCost:0 0.000000
-squadTypeEntityDef:1 ""
+squadTypeEntityDef:1 "Gallente_DroneSquad_Cyclops"
 squadAntiMatterCost:1 0.000000
 squadTypeEntityDef:2 ""
 squadAntiMatterCost:2 0.000000
 squadTypeEntityDef:3 ""
 squadAntiMatterCost:3 0.000000
-NumSoundsFor:ONATTACKORDERISSUED 4
-SoundID "CAPITALSHIP_TECHBATTLESHIP_ONATTACKORDERISSUED_0"
-SoundID "CAPITALSHIP_TECHBATTLESHIP_ONATTACKORDERISSUED_1"
-SoundID "CAPITALSHIP_TECHBATTLESHIP_ONATTACKORDERISSUED_2"
-SoundID "CAPITALSHIP_TECHBATTLESHIP_ONATTACKORDERISSUED_3"
+NumSoundsFor:ONATTACKORDERISSUED 3
+SoundID "CAPITALSHIP_TECHCARRIER_ONATTACKORDERISSUED_0"
+SoundID "CAPITALSHIP_TECHCARRIER_ONATTACKORDERISSUED_1"
+SoundID "CAPITALSHIP_TECHCARRIER_ONATTACKORDERISSUED_2"
 NumSoundsFor:ONCREATION 1
-SoundID "CAPITALSHIP_TECHBATTLESHIP_ONCREATION"
+SoundID "CAPITALSHIP_TECHCARRIER_ONCREATION"
 NumSoundsFor:ONGENERALORDERISSUED 3
-SoundID "CAPITALSHIP_TECHBATTLESHIP_ONGENERALORDERISSUED_0"
-SoundID "CAPITALSHIP_TECHBATTLESHIP_ONGENERALORDERISSUED_1"
-SoundID "CAPITALSHIP_TECHBATTLESHIP_ONGENERALORDERISSUED_2"
+SoundID "CAPITALSHIP_TECHCARRIER_ONGENERALORDERISSUED_0"
+SoundID "CAPITALSHIP_TECHCARRIER_ONGENERALORDERISSUED_1"
+SoundID "CAPITALSHIP_TECHCARRIER_ONGENERALORDERISSUED_2"
 NumSoundsFor:ONSELECTED 3
-SoundID "CAPITALSHIP_TECHBATTLESHIP_ONSELECTED_0"
-SoundID "CAPITALSHIP_TECHBATTLESHIP_ONSELECTED_1"
-SoundID "CAPITALSHIP_TECHBATTLESHIP_ONSELECTED_2"
+SoundID "CAPITALSHIP_TECHCARRIER_ONSELECTED_0"
+SoundID "CAPITALSHIP_TECHCARRIER_ONSELECTED_1"
+SoundID "CAPITALSHIP_TECHCARRIER_ONSELECTED_2"
 NumSoundsFor:ONSTARTPHASEJUMP 1
-SoundID "CAPITALSHIP_TECHBATTLESHIP_ONSTARTPHASEJUMP_0"
+SoundID "CAPITALSHIP_TECHCARRIER_ONSTARTPHASEJUMP_0"
 MeshNameInfoCount 1
 MeshNameInfo
-	meshName "archon"
+	meshName "Nyx"
 	criteriaType "None"
 meshNameIncreasedEffectName ""
 meshNameDecreasedEffectName ""
 ExhaustParticleSystemName "Exhaust_EveCapital"
 ExplosionName "EVECapital"
 CommandPoints
-	StartValue 3.000000
+	StartValue 5.000000
 	ValueIncreasePerLevel 0.000000
 weaponCooldownDecreasePerc
 	StartValue 0.000000
@@ -208,6 +207,6 @@ weaponDamageIncreasePerc
 HyperspaceChargingSoundID "HYPERSPACE_CHARGEUP"
 HyperspaceTravelSoundID "HYPERSPACE_TRAVEL"
 EngineSoundID "ENGINE_TECHCAPITALSHIP"
-formationRank 0
+formationRank 2
 minShadow 0.000000
-maxShadow 1.000000
+maxShadow 0.500000

@@ -1,5 +1,5 @@
 TXT
-NumStrings 8284
+NumStrings 8290
 StringInfo
     ID "IDS_ABILITY_RORQUALPANIC_NAME"
 	Value "P.A.N.I.C Module"
@@ -24852,4 +24852,22 @@ StringInfo
 StringInfo
 	ID "IDS_COMMAND_TITAN_BLOODRAIDER_MOLOK_DESCRIPTION"
 	Value ""Molok, libeled as 'The Deceiver' by the false faith, was truer than any so-called 'True Amarr' follower of the corrupted throne squatters could ever be. He it was that understood the true nature of the universe. There is only one truth: power is all; naked, merciless force wielded by those with the will to grapple with it..."	
-	
+StringInfo
+	ID "IDS_SERPENTIS_SUPERCARRIER_VENDETTA_NAME"
+	Value "Supercarrier Vendetta"
+StringInfo
+	ID "IDS_SERPENTIS_SUPERCARRIER_VENDETTA_DESCRIPTION"
+	Value "“The Federation still thinks it can play games with the future of the human species. Just as it played games with the life’s work of my father..."	
+StringInfo
+	ID "IDS_DRONE_MISSILE_NAME"
+	Value "Drone Missle Launcher"
+StringInfo
+	ID "IDS_DRONE_MISSILE_DESCRIPTION"
+	Value "Order the fighter Strike Craft to Shoot a Vollyey Of Missiles on taget"
+StringInfo
+	ID "IDS_DRONE_BOMBVOLLEY_NAME"
+	Value "Drone Missle Launcher"
+StringInfo
+	ID "IDS_DRONE_BOMBVOLLEY_DESCRIPTION"
+	Value "Order the fighter Strike Craft to Shoot a Vollyey Of Missiles on taget"
+		

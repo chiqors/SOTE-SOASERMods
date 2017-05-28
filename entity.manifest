@@ -1,5 +1,5 @@
 TXT
-entityNameCount 2250
+entityNameCount 2257
 entityName "ALLRACES_RESEARCHSUBJECT_ABILITYACCESS_AFTERBURNER.entity"
 entityName "ALLRACES_RESEARCHSUBJECT_ABILITYACCESS_BASTIONMODE.entity"
 entityName "ALLRACES_RESEARCHSUBJECT_ABILITYACCESS_CLOAK.entity"
@@ -2250,3 +2250,10 @@ entityName "Caldari_TitanUpgrade_Weapons.entity"
 entityName "Minmatar_AbilityPhenomenaGenerator.entity"
 entityName "Minmatar_TitanUpgrade_AbilityA.entity"
 entityName "Minmatar_TitanUpgrade_AbilityB.entity"
+entityName "Serpentis_Ship_Supercarrier_Vendeta.entity"
+entityName "AbilityDroneMissile.entity"
+entityName "BuffDroneMissileSelf.entity"
+entityName "BuffDroneMissileTarget.entity"
+entityName "AbilityDroneBomb.entity"
+entityName "BuffDroneBombSelf.entity"
+entityName "BuffDroneBombTarget.entity"
