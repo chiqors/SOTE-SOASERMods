@@ -28,9 +28,9 @@ maxTargetCount
 effectInfo
 	effectAttachInfo
 		attachType "Center"
-	smallEffectName "PLASMA_SMARTBOMB"
-	mediumEffectName "PLASMA_SMARTBOMB"
-	largeEffectName "PLASMA_SMARTBOMB"
+	smallEffectName "PLASMA_BOMB_GALLENTE"
+	mediumEffectName "PLASMA_BOMB_GALLENTE"
+	largeEffectName "PLASMA_BOMB_GALLENTE"
 	soundID "EFFECT_FLAKBURST"
 travelSpeed 3000.000000
 effectStaggerDelay 0.000000

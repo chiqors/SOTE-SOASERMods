@@ -7,18 +7,7 @@ allowFirstSpawnerToStack TRUE
 buffExclusivityForAIType "NotExclusive"
 isInterruptable FALSE
 isChannelling FALSE
-numInstantActions 2
-instantAction
-	buffInstantActionType "PlayPersistantAttachedEffect"
-	instantActionTriggerType "OnDelay"
-	delayTime 0.000000
-	effectInfo
-		effectAttachInfo
-			attachType "Center"
-		smallEffectName "EMP_SMARTBOMB"
-		mediumEffectName "EMP_SMARTBOMB"
-		largeEffectName "EMP_SMARTBOMB"
-		soundID ""
+numInstantActions 1
 instantAction
 	buffInstantActionType "ApplyBuffToTargetsInRadius"
 	instantActionTriggerType "OnDelay"
@@ -58,10 +47,10 @@ numOverTimeActions 1
 overTimeAction
 	buffOverTimeActionType "DoDamage"
 	damageRate
-		Level:0 3880.000000
-		Level:1 3880.000000
-		Level:2 3880.000000
-		Level:3 3880.000000
+		Level:0 778.000000
+		Level:1 778.000000
+		Level:2 778.000000
+		Level:3 778.000000
 	damageAffectType "AFFECTS_SHIELDS_AND_HULL"
 	damageType "PHYSICAL"
 	isDamageShared FALSE
@@ -71,9 +60,9 @@ numFinishConditions 2
 finishCondition
 	finishConditionType "TimeElapsed"
 	time
-		Level:0 10.000000
-		Level:1 10.000000
-		Level:2 10.000000
-		Level:3 10.000000
+		Level:0 2.000000
+		Level:1 2.000000
+		Level:2 2.000000
+		Level:3 2.000000
 finishCondition
 	finishConditionType "OwnerChanged"
