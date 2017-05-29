@@ -10,35 +10,28 @@ isChannelling FALSE
 numInstantActions 0
 numPeriodicActions 0
 numOverTimeActions 0
-numEntityModifiers 4
+numEntityModifiers 3
 entityModifier
-	buffEntityModifierType "WeaponCooldown"
+	buffEntityModifierType "MaxShieldPoints"
 	value
-		Level:0 0.060000
-		Level:1 0.120000
-		Level:2 0.170000
-		Level:3 0.200000
+		Level:0 14400.000000
+		Level:1 28800.000000
+		Level:2 43200.000000
+		Level:3 57600.000000
 entityModifier
-	buffEntityModifierType "ShieldPointRestoreRate"
+	buffEntityModifierType "AbilityCooldownRate"
 	value
-		Level:0 0.060000
-		Level:1 0.120000
-		Level:2 0.170000
-		Level:3 0.200000		
-entityModifier
-	buffEntityModifierType "ShieldPointRestoreRate"
-	value
-		Level:0 0.060000
-		Level:1 0.120000
-		Level:2 0.170000
-		Level:3 0.200000		
+		Level:0 -0.050000
+		Level:1 -0.100000
+		Level:2 -0.150000
+		Level:3 -0.200000
 entityModifier
 	buffEntityModifierType "ShieldMitigation"
 	value
-		Level:0 0.060000
-		Level:1 0.120000
-		Level:2 0.170000
-		Level:3 0.200000						
+		Level:0 0.020000
+		Level:1 0.040000
+		Level:2 0.070000
+		Level:3 0.100000
 numEntityBoolModifiers 0
 numFinishConditions 1
 finishCondition
