@@ -1,9 +1,9 @@
 ﻿TXT
 entityType "CapitalShip"
-ability:0 "AbilityPLASMASmartbomb"
-ability:1 "AbilityDroneMissile"
-ability:2 "AbilityFighterControlUnit"
-ability:3 "AbilityLaunchSquads"
+ability:0 "AbilityFighterControlUnit"
+ability:1 "AbilityEMPSmartbomb"
+ability:2 "AbilityAmarrArmoredWarfareMindlink"
+ability:3 "AbilityArmorRepairerCapital"
 ability:4 ""
 defaultAutoAttackRange "GravityWell"
 defaultAutoAttackOn TRUE

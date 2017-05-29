@@ -16,10 +16,10 @@ targetFilter
 	numConstraints 1
 	constraint "HasWeapons"
 range
-	Level:0 35000.000000
-	Level:1 35000.000000
-	Level:2 35000.000000
-	Level:3 35000.000000
+	Level:0 10000.000000
+	Level:1 10000.000000
+	Level:2 10000.000000
+	Level:3 10000.000000
 maxTargetCount
 	Level:0 -1.000000
 	Level:1 -1.000000
