@@ -37,27 +37,12 @@ entities
 			entityDefName "Sansha_Ship_Supercarrier_Uroborus"
 	frigateInfo
 		Page:0
-			count 9
-			entityDefName "Bloodraider_ShipBattleshipBhaalgorn"
+			count 2
 			entityDefName "Bloodraider_ShipFrigateCruor"
 			entityDefName "Bloodraiderr_ShipCruiserAshimuu"
-			entityDefName "Gurista_ShipCruiserGila"
-			entityDefName "Gurista_ShipFrigateWorm"
-			entityDefName "Guristas_ShipBattleshipRattlesnake"
-			entityDefName "Mordu_ShipBattleshipBhargest"
-			entityDefName "Mordu_ShipCruiserOrthurs"
-			entityDefName "Mordu_ShipFrigateGamur"
 		Page:1
-			count 9
-			entityDefName "SOE_ShipBattleshipNestor"
-			entityDefName "SOE_ShipCruiserStratios"
-			entityDefName "SOE_ShipFrigateAstero"
-			entityDefName "Serpentis_ShipBattleshipVindicator"
-			entityDefName "Serpentis_ShipCruiserVigilant"
-			entityDefName "Serpentis_ShipFrigateDaredevil"
-			entityDefName "Angel_ShipBattleshipMachariel"
-			entityDefName "Angel_ShipCruiserCynabal"
-			entityDefName "Angel_ShipFrigateDramiel"
+			count 1
+			entityDefName "Bloodraider_ShipBattleshipBhaalgorn"
 		NotOnPage
 			count 0
 	researchInfo
