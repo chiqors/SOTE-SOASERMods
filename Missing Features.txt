@@ -19,3 +19,19 @@ Repair Station should repair, summon frigate, cruiser, battleship and special pi
 Hangar Defenser should summon ghost defense ships, buy pirate ships and have fighters
 Citadel should have hangars, factory, trade port
 Carriers and Supers should have Anti-drone Fighters (rename and test)
+
+			entityDefName "Gurista_ShipCruiserGila"
+			entityDefName "Gurista_ShipFrigateWorm"
+			entityDefName "Guristas_ShipBattleshipRattlesnake"
+			entityDefName "Mordu_ShipBattleshipBhargest"
+			entityDefName "Mordu_ShipCruiserOrthurs"
+			entityDefName "Mordu_ShipFrigateGamur"
+			entityDefName "SOE_ShipBattleshipNestor"
+			entityDefName "SOE_ShipCruiserStratios"
+			entityDefName "SOE_ShipFrigateAstero"
+			entityDefName "Serpentis_ShipBattleshipVindicator"
+			entityDefName "Serpentis_ShipCruiserVigilant"
+			entityDefName "Serpentis_ShipFrigateDaredevil"
+			entityDefName "Angel_ShipBattleshipMachariel"
+			entityDefName "Angel_ShipCruiserCynabal"
+			entityDefName "Angel_ShipFrigateDramiel"			
