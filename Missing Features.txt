@@ -1,8 +1,9 @@
+Badger Picture
+Moa Picture
 Mesh Daredevil
 Put effects on buffs
-Finish missing cruisers and Battlecruisers
+Missing cruisers and Battlecruisers
 
-Supercarrier titan
 download and covert musics
 
 Fix ships slots:
@@ -12,26 +13,19 @@ Cruiser 3
 Battlecruiser 4
 Battleship 5
 
-Badger Picture
-Moa Picture
+I - Create
 
-Repair Station should repair, summon frigate, cruiser, battleship and special pirate station builder
-Hangar Defenser should summon ghost defense ships, buy pirate ships and have fighters
-Citadel should have hangars, factory, trade port
-Carriers and Supers should have Anti-drone Fighters (rename and test)
+1 - Carriers and Supers should have Anti-drone Fighters (rename and test)
+2 - Citadel should have hangars, factory, trade port
+3 - Noctis Construct pirate Navy Shipyards
+4 - Hangar Defense should summon ghost defense ships, buy noctis and navy cruiser and command cruiser 
+5 - Navy Ships: Logi Cruiser with guns, Battlecruiser with 2 or 3 command links
+6 - Supercarrier Titan
+7 - Change pirate shipyard mesh to "Shipyard"
+8 - Pirate logistics will be cruiser with logistics, frigate will have EWA
 
-			entityDefName "Gurista_ShipCruiserGila"
-			entityDefName "Gurista_ShipFrigateWorm"
-			entityDefName "Guristas_ShipBattleshipRattlesnake"
-			entityDefName "Mordu_ShipBattleshipBhargest"
-			entityDefName "Mordu_ShipCruiserOrthurs"
-			entityDefName "Mordu_ShipFrigateGamur"
-			entityDefName "SOE_ShipBattleshipNestor"
-			entityDefName "SOE_ShipCruiserStratios"
-			entityDefName "SOE_ShipFrigateAstero"
-			entityDefName "Serpentis_ShipBattleshipVindicator"
-			entityDefName "Serpentis_ShipCruiserVigilant"
-			entityDefName "Serpentis_ShipFrigateDaredevil"
-			entityDefName "Angel_ShipBattleshipMachariel"
-			entityDefName "Angel_ShipCruiserCynabal"
-			entityDefName "Angel_ShipFrigateDramiel"			
+II - Test
+
+1 - Angel Module Shipyard need testing
+2 - Angel Industrial Array need testing
+3 - 

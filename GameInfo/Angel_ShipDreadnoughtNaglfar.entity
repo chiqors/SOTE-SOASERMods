@@ -1,0 +1,204 @@
+﻿TXT
+entityType "CapitalShip"
+ability:0 "AbilitySiegeMode"
+ability:1 "AbilityTrackingComputer"
+ability:2 "AbilityInvulnerabilityShieldFieldCapital"
+ability:3 ""
+ability:4 ""
+defaultAutoAttackRange "GravityWell"
+defaultAutoAttackOn TRUE
+prefersToFocusFire TRUE
+usesFighterAttack FALSE
+autoJoinFleetDefault TRUE
+canBomb TRUE
+hasBombingLevels FALSE
+baseDamage 120.000000
+basePopulationKilled 2.000000
+bombingFreqTime 10.000000
+baseRange 5000.000000
+bombTransitTime 6.000000
+bombEffectCount 6
+bombEffectAngleVariance 10.000000
+bombEffectsDef
+	weaponType "Missile"
+	burstCount 1
+	burstDelay 0.000000
+	fireDelay 0.000000
+	muzzleEffectName "Weapon_TechCapitalMissileHeavy_Muzzle"
+	muzzleSoundMinRespawnTime 0.100000
+	muzzleSounds
+		soundCount 1
+		sound "EFFECT_NEUTRONTORPEDO_MUZZLE"
+	hitEffectName "Weapon_TechCapitalPlanetBombing_Hit"
+	hitHullEffectSounds
+		soundCount 3
+		sound "EXPLOSION_SUB4"
+		sound "EXPLOSION_SUB4_ALT1"
+		sound "EXPLOSION_SUB4_ALT2"
+	hitShieldsEffectSounds
+		soundCount 3
+		sound "EXPLOSION_SUB4"
+		sound "EXPLOSION_SUB4_ALT1"
+		sound "EXPLOSION_SUB4_ALT2"
+	missileTravelEffectName "EVE_Missile_LightMissile_Travel"
+	missileStartTurningDistance 250.000000
+	missileSlowTurnRate 0.708997
+	missileMaxSlowTurnTime 6.000000
+mainViewIcon "HUDICONSMALL_CAPITAL_NAGLFAR"
+basePrice
+	credits 3000.000000
+	metal 1432.000000
+	crystal 1432.000000
+slotCount 1.000000
+BuildTime 75.000000
+MaxHullPoints
+	StartValue 85938.000000
+	ValueIncreasePerLevel 8593.000000
+MaxShieldPoints
+	StartValue 85938.000000
+	ValueIncreasePerLevel 8593.000000
+HullPointRestoreRate
+	StartValue 1.000000
+	ValueIncreasePerLevel 0.500000
+ShieldPointRestoreRate
+	StartValue 10.000000
+	ValueIncreasePerLevel 1.000000
+ArmorPointsFromExperience
+	StartValue 17.000000
+	ValueIncreasePerLevel 0.000000
+maxMitigation
+	StartValue 0.300000
+	ValueIncreasePerLevel 0.005000
+MaxAntiMatter
+	StartValue 8000.000000
+	ValueIncreasePerLevel 800.000000
+AntiMatterRestoreRate
+	StartValue 1.000000
+	ValueIncreasePerLevel 0.100000
+CultureProtectRate
+	StartValue 0.700000
+	ValueIncreasePerLevel 0.050000
+NameStringID "IDS_CAPITALSHIP_NAGLFAR_RANGED_NAME"
+DescriptionStringID "IDS_CAPITALSHIP_NAGLFAR_RANGED_DESCRIPTION"
+picture "PICTURE_CAPITAL_NAGLFAR"
+Prerequisites
+	NumResearchPrerequisites 1
+	ResearchPrerequisite
+		Subject "Minmatar_ResearchSubject_CapitalAccess_Naglfar"
+		Level 1
+	RequiredFactionNameID ""
+	RequiredCompletedResearchSubjects 0
+roleType "COLONY"
+statCountType "CapitalShipUtility2"
+numRandomDebrisLarge 0
+numRandomDebrisSmall 0
+numSpecificDebris 0
+armorType "VeryHeavy"
+hudIcon "HUDICON_CAPITALSHIP_NAGLFAR"
+smallHudIcon "HUDICONSMALL_CAPITAL_NAGLFAR"
+infoCardIcon "HUDICONSMALL_CAPITAL_NAGLFAR"
+minZoomDistanceMult 1.000000
+NumWeapons 1
+Weapon
+	WeaponType "Projectile"
+	damageEnums
+		AttackType "ANTIHEAVY"
+		DamageAffectType "AFFECTS_SHIELDS_AND_HULL"
+		DamageApplyType "BACKLOADED"
+		DamageType "PHYSICAL"
+		WeaponClassType "GAUSS"
+	DamagePerBank:FRONT 3963.000000
+	DamagePerBank:BACK 0.000000
+	DamagePerBank:LEFT 0.000000
+	DamagePerBank:RIGHT 0.000000
+	Range 10000.000000
+	PreBuffCooldownTime 34.00000
+	CanFireAtFighter FALSE
+	SynchronizedTargeting TRUE
+	PointStaggerDelay 0.000000
+	TravelSpeed 10000.000000
+	Duration 1.300000
+	fireConstraintType "CanAlwaysFire"
+	WeaponEffects
+		weaponType "Projectile"
+		burstCount 3
+		burstDelay 0.050000
+		fireDelay 0.000000
+		muzzleEffectName "Weapon_TechCapitalAutoCannonHeavy_Muzzle"
+		muzzleSoundMinRespawnTime 1.000000
+		muzzleSounds
+			soundCount 1
+			sound "WEAPON_HEAVYAUTOCANNON"
+		hitEffectName "Weapon_TechCapitalAutoCannonHeavy_Hit"
+		hitHullEffectSounds
+			soundCount 1
+			sound ""
+		hitShieldsEffectSounds
+			soundCount 1
+			sound ""
+		projectileTravelEffectName "Weapon_TechCapitalAutoCannonHeavy_Travel"
+m_weaponIndexForRange 0
+firingAlignmentType "Default"
+TargetCountPerBank:FRONT 1
+TargetCountPerBank:BACK 0
+TargetCountPerBank:LEFT 0
+TargetCountPerBank:RIGHT 0
+canOnlyTargetStructures FALSE
+mass 25000.000000
+ShieldMeshName "naglfar"
+renderShield TRUE
+maxAccelerationLinear 13.750000
+maxAccelerationStrafe 1.000000
+maxDecelerationLinear 27.500000
+maxAccelerationAngular 1.000000
+maxDecelerationAngular 2.000000
+maxSpeedLinear 275.000000
+maxRollRate 1.000000
+maxRollAngle 30.000000
+squadTypeEntityDef:0 ""
+squadAntiMatterCost:0 0.000000
+squadTypeEntityDef:1 ""
+squadAntiMatterCost:1 0.000000
+squadTypeEntityDef:2 ""
+squadAntiMatterCost:2 0.000000
+squadTypeEntityDef:3 ""
+squadAntiMatterCost:3 0.000000
+NumSoundsFor:ONATTACKORDERISSUED 3
+SoundID "CAPITALSHIP_TECHCOLONY_ONATTACKORDERISSUED_0"
+SoundID "CAPITALSHIP_TECHCOLONY_ONATTACKORDERISSUED_1"
+SoundID "CAPITALSHIP_TECHCOLONY_ONATTACKORDERISSUED_2"
+NumSoundsFor:ONCREATION 1
+SoundID "CAPITALSHIP_TECHCOLONY_ONCREATION"
+NumSoundsFor:ONGENERALORDERISSUED 3
+SoundID "CAPITALSHIP_TECHCOLONY_ONGENERALORDERISSUED_0"
+SoundID "CAPITALSHIP_TECHCOLONY_ONGENERALORDERISSUED_1"
+SoundID "CAPITALSHIP_TECHCOLONY_ONGENERALORDERISSUED_2"
+NumSoundsFor:ONSELECTED 3
+SoundID "CAPITALSHIP_TECHCOLONY_ONSELECTED_0"
+SoundID "CAPITALSHIP_TECHCOLONY_ONSELECTED_1"
+SoundID "CAPITALSHIP_TECHCOLONY_ONSELECTED_2"
+NumSoundsFor:ONSTARTPHASEJUMP 1
+SoundID "CAPITALSHIP_TECHCOLONY_ONSTARTPHASEJUMP_0"
+MeshNameInfoCount 1
+MeshNameInfo
+	meshName "naglfar"
+	criteriaType "None"
+meshNameIncreasedEffectName ""
+meshNameDecreasedEffectName ""
+ExhaustParticleSystemName "Exhaust_EveCapital"
+ExplosionName "EVECapital"
+CommandPoints
+	StartValue 0.000000
+	ValueIncreasePerLevel 0.000000
+weaponCooldownDecreasePerc
+	StartValue 0.000000
+	ValueIncreasePerLevel 0.025000
+weaponDamageIncreasePerc
+	StartValue 0.000000
+	ValueIncreasePerLevel 0.025000
+HyperspaceChargingSoundID "HYPERSPACE_CHARGEUP"
+HyperspaceTravelSoundID "HYPERSPACE_TRAVEL"
+EngineSoundID "ENGINE_TECHCAPITALSHIP"
+formationRank 2
+minShadow 0.000000
+maxShadow 0.400000

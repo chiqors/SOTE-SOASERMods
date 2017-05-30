@@ -25,10 +25,16 @@ stage
 	hudIcon "HUDIconTitanTechLoyalistDurabilityUpgrade1"
 	smallHudIcon "HUDIconTitanTechLoyalistDurabilityUpgrade1"
 	infoCardIcon ""
-	upgradePropertyCount 1
+	upgradePropertyCount 3
 	upgradeProperty
 		propertyType "MaxHullPoints"
-		value 20000.000000
+		value 180000.000000
+	upgradeProperty
+		propertyType "HullPointRestoreRate"
+		value 10.080000
+	upgradeProperty
+		propertyType "BaseArmorPoints"
+		value 1.000000
 	upgradeBoolPropertyCount 0
 stage
 	nameStringID "IDS_TITANUPGRADE_TECHLOYALIST_DURABILITY_NAME"
@@ -41,10 +47,16 @@ stage
 	hudIcon "HUDIconTitanTechLoyalistDurabilityUpgrade2"
 	smallHudIcon "HUDIconTitanTechLoyalistDurabilityUpgrade2"
 	infoCardIcon ""
-	upgradePropertyCount 1
+	upgradePropertyCount 3
 	upgradeProperty
 		propertyType "MaxHullPoints"
-		value 30000.000000
+		value 360000.000000
+	upgradeProperty
+		propertyType "HullPointRestoreRate"
+		value 20.080000
+	upgradeProperty
+		propertyType "BaseArmorPoints"
+		value 2.000000
 	upgradeBoolPropertyCount 0
 stage
 	nameStringID "IDS_TITANUPGRADE_TECHLOYALIST_DURABILITY_NAME"
@@ -57,10 +69,16 @@ stage
 	hudIcon "HUDIconTitanTechLoyalistDurabilityUpgrade3"
 	smallHudIcon "HUDIconTitanTechLoyalistDurabilityUpgrade3"
 	infoCardIcon ""
-	upgradePropertyCount 1
+	upgradePropertyCount 3
 	upgradeProperty
 		propertyType "MaxHullPoints"
-		value 40000.000000
+		value 540000.000000
+	upgradeProperty
+		propertyType "HullPointRestoreRate"
+		value 30.080000
+	upgradeProperty
+		propertyType "BaseArmorPoints"
+		value 3.000000
 	upgradeBoolPropertyCount 0
 stage
 	nameStringID "IDS_TITANUPGRADE_TECHLOYALIST_DURABILITY_NAME"
@@ -73,8 +91,14 @@ stage
 	hudIcon "HUDIconTitanTechLoyalistDurabilityUpgrade4"
 	smallHudIcon "HUDIconTitanTechLoyalistDurabilityUpgrade4"
 	infoCardIcon ""
-	upgradePropertyCount 1
+	upgradePropertyCount 3
 	upgradeProperty
 		propertyType "MaxHullPoints"
-		value 50000.000000
+		value 720000.000000
+	upgradeProperty
+		propertyType "HullPointRestoreRate"
+		value 40.080000
+	upgradeProperty
+		propertyType "BaseArmorPoints"
+		value 4.000000
 	upgradeBoolPropertyCount 0

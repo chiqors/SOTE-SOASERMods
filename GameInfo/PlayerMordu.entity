@@ -37,24 +37,12 @@ entities
 			entityDefName "Sansha_Ship_Supercarrier_Uroborus"
 	frigateInfo
 		Page:0
-			count 9
-			entityDefName "Sansha_Ship_Battleship_DeltoleTegmentum"
-			entityDefName "Sansha_Ship_Battleship_IntakiColliculus"
-			entityDefName "Sansha_Ship_Battleship_OutuniMesen"
-			entityDefName "Sansha_Ship_Battleship_YulaiCrusCerebi"
-			entityDefName "Sansha_Ship_Cruiser_MaraPaleo"
-			entityDefName "Sansha_Ship_Cruiser_AntemNeo"
-			entityDefName "Sansha_Ship_Cruiser_ArnonEpithalamus"
-			entityDefName "Sansha_Ship_Cruiser_AugaHypophysis"
-			entityDefName "Sansha_Ship_Frigate_EyesturRhomben"
+			count 2
+			entityDefName "Mordu_ShipCruiserOrthurs"
+			entityDefName "Mordu_ShipFrigateGamur"
 		Page:1
-			count 6
-			entityDefName "Sansha_Ship_Frigate_NiarjaMyelen"
-			entityDefName "Sansha_Ship_Frigate_RenynMeten"
-			entityDefName "Sansha_Ship_Frigate_TamaCerebellum"
-			entityDefName "BloodRaider_Ship_Battleship_CorpusArchon"
-			entityDefName "BloodRaider_Ship_Battleship_CorpusDarkCommander"
-			entityDefName "BloodRaider_Ship_Frigate_CorpusFollower"
+			count 1
+			entityDefName "Mordu_ShipBattleshipBhargest"
 		NotOnPage
 			count 0
 	researchInfo

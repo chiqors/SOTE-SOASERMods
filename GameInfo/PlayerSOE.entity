@@ -38,11 +38,11 @@ entities
 	frigateInfo
 		Page:0
 			count 2
-			entityDefName "Gurista_ShipCruiserGila"
-			entityDefName "Gurista_ShipFrigateWorm"
+			entityDefName "SOE_ShipCruiserStratios"
+			entityDefName "SOE_ShipFrigateAstero"
 		Page:1
 			count 1
-			entityDefName "Guristas_ShipBattleshipRattlesnake"
+			entityDefName "SOE_ShipBattleshipNestor"
 		NotOnPage
 			count 0
 	researchInfo

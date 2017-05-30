@@ -38,18 +38,20 @@ entities
 	frigateInfo
 		Page:0
 			count 2
-			entityDefName "Gurista_ShipCruiserGila"
-			entityDefName "Gurista_ShipFrigateWorm"
+			entityDefName "Angel_ShipCruiserCynabal"
+			entityDefName "Angel_ShipFrigateDramiel"			
 		Page:1
 			count 1
-			entityDefName "Guristas_ShipBattleshipRattlesnake"
+			entityDefName "Angel_ShipBattleshipMachariel"
 		NotOnPage
-			count 0
+			count 1
+			entityDefName "Minmatar_Ship_Refineryship_Mamonth"
 	researchInfo
 		count 1
 		entityDefName "RESEARCHSUBJECT_PIRATE_FINAL_UPGRADE"
 	starBaseInfo
-		count 0
+		count 1
+		entityDefName "Angel_StructureShipyard_Raitaru"
 	flagship "FrigatePirateHeavy"
 debrisData
 	numRandomMeshNamesLarge 8
