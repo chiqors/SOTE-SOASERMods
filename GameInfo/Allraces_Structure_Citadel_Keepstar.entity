@@ -128,10 +128,13 @@ picture "Allraces_Structure_Citadel_Keepstar"
 statCountType "StarBase"
 creationSourceAbility "AbilityDeployCitadelFortizar"
 maxUpgradeLevelCount 12
-UpgradeTypeCount 3
+UpgradeTypeCount 6
 UpgradeType "StarBaseUpgradeKeepStarToughness"
 UpgradeType "StarBaseUpgradeTechTradePort"
 UpgradeType "StarBaseUpgradeTechBlockColonize"
+UpgradeType "StarBaseUpgradeTechFactory"
+UpgradeType "StarBaseUpgradeTechHangar"
+UpgradeType "StarBaseUpgradeTechWeapons"
 MeshNameInfoCount 1
 MeshNameInfo
 	meshName "Keepstar"

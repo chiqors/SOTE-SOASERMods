@@ -10,8 +10,8 @@ effectInfo
 	mediumEffectName ""
 	largeEffectName ""
 	soundID "EFFECT_PhaseCloak"
-toggleStateOnNameStringID "Cloaking_On_Name"
-toggleStateOnDescStringID "Cloaking_On_Description"
+toggleStateOnNameStringID "Cloaking_On"
+toggleStateOnDescStringID "Cloaking_Off"
 needsToFaceTarget FALSE
 canCollideWithTarget TRUE
 moveThruTarget FALSE

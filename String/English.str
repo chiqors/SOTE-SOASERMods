@@ -1,5 +1,5 @@
 TXT
-NumStrings 8290
+NumStrings 8292
 StringInfo
     ID "IDS_ABILITY_RORQUALPANIC_NAME"
 	Value "P.A.N.I.C Module"
@@ -19052,22 +19052,22 @@ StringInfo
 	Value "*VALUE0*: *SPACING150* *VALUE1* *SPACING185* *VALUE2* *VALUE3*"
 StringInfo
 	ID "IDS_TITANUPGRADE_TECHLOYALIST_ABILITIES_NAME"
-	Value "Capacitor Funnelling"
+	Value "Powergrid Upgrade"
 StringInfo
 	ID "IDS_TITANUPGRADE_TECHLOYALIST_ABILITIES_DESCRIPTION"
-	Value "Refinements to the Ankylon's Capacitor storage unit grant the ship superior capacitor capacity and use."
+	Value "Refinements to the titan's Capacitor storage unit grant the ship superior capacitor capacity and use."
 StringInfo
 	ID "IDS_TITANUPGRADE_TECHLOYALIST_DURABILITY_NAME"
-	Value "Fortified Superstructure"
+	Value "Armor Tank Improvment"
 StringInfo
 	ID "IDS_TITANUPGRADE_TECHLOYALIST_DURABILITY_DESCRIPTION"
-	Value "Improves the Ankylon's superstructure, greatly adding to the survivability of the ship."
+	Value "Improves the Titan's superstructure, greatly adding to the survivability of the ship. Add Capital Armor Plates for each level."
 StringInfo
 	ID "IDS_TITANUPGRADE_TECHLOYALIST_WEAPONS_NAME"
-	Value "Superior Gunnery"
+	Value "Capital Weapons"
 StringInfo
 	ID "IDS_TITANUPGRADE_TECHLOYALIST_WEAPONS_DESCRIPTION"
-	Value "Gun crews aboard the Ankylon go through combat drills, improving the ship's weapon damage."
+	Value "Change the vanilla capital weapons aboard the titan for T2, faction and Officer modueles."
 StringInfo
 	ID "IDS_TITANUPGRADE_TECHREBEL_ABILITIES_NAME"
 	Value "Magnetic Containment"
@@ -19130,16 +19130,16 @@ StringInfo
 	Value "Recent technology acquired by the Vorastra allows its crew to significantly enhance its use of capacitor."
 StringInfo
 	ID "IDS_TITANUPGRADE_PHASELOYALIST_DURABILITY_NAME"
-	Value "Dense Composites"
+	Value "Titan Tank Upgrade"
 StringInfo
 	ID "IDS_TITANUPGRADE_PHASELOYALIST_DURABILITY_DESCRIPTION"
-	Value "The Vorastra uses new denser composite materials to fortify its hull from assaults."
+	Value "Improve the Titan Shield Tank fit, adding Capital Shield Extenders and improving Shield Recharge rate."
 StringInfo
 	ID "IDS_TITANUPGRADE_PHASELOYALIST_WEAPONS_NAME"
-	Value "Nano Enhancement"
+	Value "Citadel Payloads"
 StringInfo
 	ID "IDS_TITANUPGRADE_PHASELOYALIST_WEAPONS_DESCRIPTION"
-	Value "Payloads of destructive nanites are added to the Vorastra's weapons, substantially enhancing overall damage."
+	Value "Payloads of destructive nanites are added to the titan's weapons, substantially enhancing overall damage."
 StringInfo
 	ID "IDS_TITANUPGRADE_PHASEREBEL_ABILITIES_NAME"
 	Value "Harmonic Containment"
@@ -24870,4 +24870,10 @@ StringInfo
 StringInfo
 	ID "IDS_DRONE_BOMBVOLLEY_DESCRIPTION"
 	Value "Order the fighter Strike Craft to Shoot a Vollyey Of Missiles on taget"
-		
+StringInfo
+	ID "Cloaking_On"
+	Value "Active Cloaking"
+StringInfo
+	ID "Cloaking_Off"
+	Value "Deactivate Cloaking"
+	

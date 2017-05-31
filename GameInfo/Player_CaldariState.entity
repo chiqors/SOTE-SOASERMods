@@ -74,7 +74,7 @@ entities
 			entityDefName "FrigatePhaseTradeShip"
 			entityDefName "Amarr_Ship_Refineryship_Bestower"
 	researchInfo
-		count 137
+		count 138
 		entityDefName "RSACovertOps"
 		entityDefName "RSAHeavyAssault"
 		entityDefName "RSABlackOps"
@@ -212,6 +212,7 @@ entities
 		entityDefName "AllRaces_ResearchSubject_PlanetModuleAccess_Keepstar"
 		entityDefName "RESEARCHSUBJECT_STARBASEUPGRADEACCESS_TRADEPORTTECH"		
 		entityDefName "RESEARCHSUBJECT_PLANETMODULEACCESS_REPAIRPLATFORMPSI"
+		entityDefName "RESEARCHSUBJECT_STARBASEUPGRADEACCESS_FACTORY"		
 	starBaseInfo
 		count 3
 		entityDefName "Allraces_Structure_Citadel_Astrahus"

@@ -128,10 +128,12 @@ picture "Allraces_Structure_Citadel_Fortizar"
 statCountType "StarBase"
 creationSourceAbility "AbilityDeployCitadelFortizar"
 maxUpgradeLevelCount 9
-UpgradeTypeCount 3
+UpgradeTypeCount 5
 UpgradeType "StarBaseUpgradeFortizarToughness"
 UpgradeType "StarBaseUpgradeTechTradePort"
 UpgradeType "StarBaseUpgradeTechBlockColonize"
+UpgradeType "StarBaseUpgradeTechHangar"
+UpgradeType "StarBaseUpgradeTechFactory"
 MeshNameInfoCount 1
 MeshNameInfo
 	meshName "Fortizar"

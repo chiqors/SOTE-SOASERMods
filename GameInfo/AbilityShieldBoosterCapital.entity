@@ -26,8 +26,8 @@ aiUseTargetCondition "ShieldDamageExceedsAmount"
 onlyAutoCastWhenTargetShieldDamageExceedsAmount
 	Level:0 1000.000000
 	Level:1 1000.000000
-	Level:2 1000.500000
-	Level:3 1000.500000
+	Level:2 1000.000000
+	Level:3 1000.000000
 isAutoCastAvailable TRUE
 isAutoCastOnByDefault TRUE
 pickRandomPlanetToExploreForAutoCastTarget FALSE
@@ -36,9 +36,9 @@ onlyAutoCastWhenDamageTakenExceedsPerc 0.000000
 useCostType "AntiMatter"
 antiMatterCost
 	Level:0 2592.000000
-	Level:1 2592.000000
-	Level:2 2592.000000
-	Level:3 2592.000000
+	Level:1 2514.000000
+	Level:2 2436.000000
+	Level:3 2358.000000
 cooldownTime
 	Level:0 10.000000
 	Level:1 10.000000

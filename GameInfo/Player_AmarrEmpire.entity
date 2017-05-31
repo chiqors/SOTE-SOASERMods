@@ -73,7 +73,7 @@ entities
 			entityDefName "Amarr_Ship_Tradeship_Bestower"
 			entityDefName "Amarr_Ship_Refineryship_Bestower"
 	researchInfo
-		count 129
+		count 130
 		entityDefName "RSACovertOps"		
 		entityDefName "RSALogistic"
 		entityDefName "RSAHeavyAssault"
@@ -203,6 +203,7 @@ entities
 		entityDefName "RESEARCHSUBJECT_WEAPONDAMAGE_LASERTECH0"
 		entityDefName "RESEARCHSUBJECT_WEAPONDAMAGE_LASERTECH1"
 		entityDefName "RESEARCHSUBJECT_WEAPONDAMAGE_LASERTECH2"
+		entityDefName "RESEARCHSUBJECT_STARBASEUPGRADEACCESS_FACTORY"
 	starBaseInfo
 		count 3
 		entityDefName "Allraces_Structure_Citadel_Astrahus"

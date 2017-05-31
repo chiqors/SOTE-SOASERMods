@@ -39,7 +39,7 @@ stage
 	upgradePropertyCount 1
 	upgradeProperty
 		propertyType "FrigateBuildRate"
-		value 0.750000
+		value 0.500000
 	upgradeBoolPropertyCount 0
 stage
 	price
@@ -59,6 +59,6 @@ stage
 	upgradePropertyCount 1
 	upgradeProperty
 		propertyType "FrigateBuildRate"
-		value 1.750000
+		value 0.750000
 	upgradeBoolPropertyCount 0
 xpModifier 25.000000

@@ -15,16 +15,21 @@ Battleship 5
 
 I - Create
 
-1 - Carriers and Supers should have Anti-drone Fighters (rename and test)
-2 - Citadel should have hangars, factory, trade port
 3 - Noctis Construct pirate Navy Shipyards
 4 - Hangar Defense should summon ghost defense ships, buy noctis and navy cruiser and command cruiser 
 5 - Navy Ships: Logi Cruiser with guns, Battlecruiser with 2 or 3 command links
 6 - Supercarrier Titan
 7 - Change pirate shipyard mesh to "Shipyard"
 8 - Pirate logistics will be cruiser with logistics, frigate will have EWA
+9 - Refinary will summon Orcas, Bowhead
+10 - Orcas with extractor bonus
+11 - Noctis will be construction colony ship
+12 - Bowhead will construct industrial arrays
+13 - T3 Destroyer Sniper-Tank Mode ability with on/off
+14 - Fix citadel lack of modules
+15 - POS station will block other stations but will give system wide shield
 
 II - Test
 
-1 - Angel Module Shipyard need testing
- 
+1 - Carriers and Supers should have Anti-drone Fighters (rename and test)
+2 - Citadel should have hangars, factory, trade port
