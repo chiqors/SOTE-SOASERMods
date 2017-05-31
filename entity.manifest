@@ -1,5 +1,5 @@
 TXT
-entityNameCount 2269
+entityNameCount 2271
 entityName "ALLRACES_RESEARCHSUBJECT_ABILITYACCESS_AFTERBURNER.entity"
 entityName "ALLRACES_RESEARCHSUBJECT_ABILITYACCESS_BASTIONMODE.entity"
 entityName "ALLRACES_RESEARCHSUBJECT_ABILITYACCESS_CLOAK.entity"
@@ -2265,7 +2265,9 @@ entityName "Amarr_Drone_Anti-fighter.entity"
 entityName "Amarr_DroneSquad_Anti-fighter.entity"
 entityName "Caldari_Drone_Anti-fighter.entity"
 entityName "Caldari_DroneSquad_Anti-Fighter.entity"
-entityName "Gallente_Drone_Abti-Fighter.entity"
+entityName "Gallente_Drone_Anti-Fighter.entity"
 entityName "Gallente_DroneSquad_Anti-fighter.entity"
 entityName "Minmatar_Drone_Anit-Fighter.entity"
 entityName "Minmatar_DroneSquad_Anti-Fighter.entity"
+entityName "Angel_StructureShipyard_Raitaru.entity"
+entityName "Angel_ModuleShipyard.entity"

@@ -27,5 +27,4 @@ I - Create
 II - Test
 
 1 - Angel Module Shipyard need testing
-2 - Angel Industrial Array need testing
-3 - 
+ 
