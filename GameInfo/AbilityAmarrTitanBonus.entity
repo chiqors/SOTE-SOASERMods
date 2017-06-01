@@ -15,10 +15,10 @@ targetFilter
 	space "Normal"
 	numConstraints 0
 range
-	Level:0 75000.000000
-	Level:1 75000.000000
-	Level:2 75000.000000
-	Level:3 75000.000000
+	Level:0 20000.000000
+	Level:1 25000.000000
+	Level:2 30000.000000
+	Level:3 35000.000000
 maxTargetCount
 	Level:0 -1.000000
 	Level:1 -1.000000
@@ -37,14 +37,13 @@ canCollideWithTarget TRUE
 moveThruTarget FALSE
 isUltimateAbility FALSE
 maxNumLevels 4
-levelSourceType "TitanUpgradeLevel"
-sourcePropertyType "AbilityBLevel"
-aiUseTime "OnlyWhenManyTargetsInRange"
-onlyAutoCastWhenTargetCountExceedsAmount
-	Level:0 1.000000
+levelSourceType "Intrinsic"
+minExperienceLevelRequired
+	Level:0 0.000000
 	Level:1 1.000000
-	Level:2 1.000000
-	Level:3 1.000000
+	Level:2 2.000000
+	Level:3 3.000000
+aiUseTime "Anytime"
 aiUseTargetCondition "Any"
 isAutoCastAvailable TRUE
 isAutoCastOnByDefault TRUE
@@ -53,10 +52,10 @@ ignoreNonCombatShipsForAutoCastTarget TRUE
 onlyAutoCastWhenDamageTakenExceedsPerc 0.000000
 useCostType "AntiMatter"
 antiMatterCost
-	Level:0 0.000000
-	Level:1 0.000000
-	Level:2 0.000000
-	Level:3 0.000000
+	Level:0 500.000000
+	Level:1 450.000000
+	Level:2 400.000000
+	Level:3 350.000000
 cooldownTime
 	Level:0 30.000000
 	Level:1 30.000000

@@ -1,0 +1,338 @@
+Constraint
+CanBeCaptured
+CanBeJumpBlocked
+CanHaveFighters
+CanHaveShields
+CanPhaseDodge (?)
+CanSpreadWeaponDamage
+HasAntiMatterPool
+HasAntiMatterShortage
+HasEnergyWeapons
+HasHullDamage
+HasPhaseMissiles
+HasPopulation
+HasShieldDamage
+HasWeapons
+IsCargoShip
+IsColonizable
+IsExplored
+IsMovingToLocalOrbitBody
+IsPsi
+IsResourceExtractor (?)
+LinkedCargoShip
+LinkedSquad
+ModuleUnderConstruction
+NotSelf
+WithinSolarSystem (?)
+NotActivelyBeingConstructed
+
+aiUseTime
+Anytime
+Invalid
+NotInCombat
+OnlyInCombat
+OnlyWhenAttackTargetIsInFiringSolution
+OnlyWhenBombing
+OnlyWhenManyTargetsHaveHullDamage
+OnlyWhenManyTargetsHaveShieldDamage
+OnlyWhenManyTargetsHyperspacingTowardsMyGravityWell
+OnlyWhenMovingFar
+OnlyWhenOrbitingEnemyPlanet
+OnlyWhenTakingDamage
+OnlyWithNoOrder
+
+aiUseTargetCondition
+Any
+Invalid
+IsDifferentRoleType
+IsNotWeaponDisabled
+HullDamageExceedsAmount
+ShieldDamageExceedsAmount
+
+EntityBoolModifier
+ActivelyBeingConstructed
+CannotBeDamaged
+CanBeCaptured
+CannotBeColonized
+DisableAbilities
+DisableConstruction
+DisablePhaseJump
+DisableLinearEngines
+DisableAngularEngines
+DisableRegeneration
+DisableWeapons
+DisableModuleFunctionality
+DisableConstruction
+DisableWeaponsUltimate
+DisableAbilitiesUltimate
+DisableFighterLaunch
+DetectIncomingHyperspacingEntities
+HasShieldMeshEffect
+HasTauntTarget
+IsIllusionShip
+IsResourceFocusActive
+ImmuneToNonUltimateDisable
+InstantBuildFighters
+IsPhaseGateEndPoint
+JumpBlockerImmune
+PhaseOut
+ProxySensor
+WeaponsDealNoDamage
+
+ 
+
+EntityModifier
+buffEntityModifierType: Enumeration 
+	- AbilityCooldownRate 
+	- AngularThrust 
+	- AntimatterCostOfNonUltimates 
+	- AntimatterRestoration 
+	- AntimatterRestoreRate 
+	- ArmorAsDamageTarget 
+	- BonusMaxSquads 
+	- ChanceToBeNotOptimallyTargetted 
+	- ChanceToHitAsDamageDealer 
+	- ChanceToHitAsDamageTarget 
+	- ChanceToIgnoreShieldsAsDamageDealer 
+	- ChanceToIgnoreShieldsAsDamageTarget 
+	- CultureSpread 
+	- CultureSpreadModifier 
+	- CultureSpreadRateForOwner 
+	- DamageAsDamageDealer 
+	- DamageAsDamageTarget 
+	- DamageAsDamageTargetFromForward 
+	- DamageSharing 
+	- EnemyCultureSpread 
+	- EnergyWeaponCooldown 
+	- FightersPerSquadron 
+	- GravityWellRangeForHyperspace 
+	- HullPointRestoration 
+	- HullPointRestoreRate 
+	- HyperspaceChargeUpRate 
+	- HyperspaceSpeed 
+	- LinearMaxSpeed 
+	- LinearThrust 
+	- MaxHullPoints 
+	- MaxShieldPoints 
+	- PhysicalDamageAsDamageDealer 
+	- PhysicalDamageAsDamageTarget 
+	- PlanetBombingCooldown 
+	- PlanetBombingDamageAbsorption 
+	- PlanetHealthMaxAdjustment 
+	- PlanetMaxPopulation 
+	- PlanetModuleBuildTime 
+	- PlanetPopulationGrowthRate 
+	- PlanetProductionStolen 
+	- PlanetResourceOutput 
+	- PlanetTaxRate 
+	- PlanetUpgradeBuildRateAdjustment 
+	- PlanetUpgradeCost 
+	- PropagateWeaponDamagePerc 
+	- RefineryIncome 
+	- ResourceExtractionRate 
+	- ShieldMitigation 
+	- ShieldPointRestoration 
+	- ShieldPointRestoreRate 
+	- ShipBuildTime 
+	- TradeIncome 
+	- UnderConstructionRate 
+	- WeaponCooldown 
+	- WeaponRange
+
+ 
+
+buffInstantActionType
+ApplyBuffToLastSpawnerWithTravelNoFilterNoRange
+ApplyBuffToTarget
+ApplyBuffToSelf
+ApplyBuffToTargetWithTravel
+ApplyBuffToTargetsInRadiusWithTravel
+ApplyBuffToTargetsInRadius
+ApplyBuffToTargetsInRadiusWithChainTravel
+ApplyBuffToTargetNoRange
+ApplyBuffToTargetsAtOrbitBody
+ApplyBuffToTargetsLinked
+ApplyBuffToTargetWithEntryVehicles
+ApplyBuffToTargetsInColumn
+ApplyBuffToTargetOnWeaponFired
+ApplyOrRemoveBuffToSelf
+ApplyTargettedBuffToSelfNoFilterNoRange
+ApplyTargettedBuffToSelf
+ApplyTargettedBuffToSelfNoRange
+ApplyForceFromSpawner
+ApplyImpulseFromSpawner
+ChangePlayerIndexToFirstSpawner
+CreateFrigate
+CreateSquad
+CreateClonedFrigate
+CreateFrigateAtTarget
+CreateIllusionFighters
+CreateCannonShell
+ColonizePlanet
+ConvertDamageToAntiMatter
+DoInterrupt
+DoInterruptUltimate
+DoDamage
+DoDamageToPlanet
+Explore
+ForceAttackersToRepickAttackTarget
+MakeDead
+MatchTargetVelocity
+PlayAttachedEffect
+PlayPersistantAttachedEffect
+PlayPersistantBeamEffect
+PropagateWeaponDamageReceivedToTargetsInRadius
+RestoreAntiMatter
+RestoreHullPoints
+RestoreShieldPoints
+RemoveAntiMatter
+RetaliateBounty
+RetaliateDamage
+ResurrectCapitalShip
+StealAntiMatterForFirstSpawner
+StealResources
+SetTauntTargetToLastSpawner
+SpawnResourceExtractors
+SpawnShipsAtPlanet
+TeleportTowardsMoveTarget
+TeleportTowardsTarget
+
+ 
+
+buffOverTimeActionType
+DrainAntiMatterAndDoDamage
+DrainAntiMatter
+DoModuleConstruction
+DoPercOfMaxDamageToPlanet
+DoDamage
+DoDamageToTarget
+DoDamageToPlanet
+EarnResources
+Magnetize
+RestoreAntiMatter
+RestoreShields
+RestoreHull
+StealPlanetProduction
+
+ 
+
+* buffPeriodActionType use buffInstantActionType.
+
+instantActionTriggerType
+AlwaysPerform
+OnDelay
+OnBuffFinish
+OnWeaponFired
+OnDamageTaken
+OnOwnerDeath
+OnAbilityUsed
+
+finishConditiontypes - Thanks to Carbon 016
+TimeElapsed
+AllOnDelayInstantActionsDone
+EnterHyperspace
+ExitHyperspace
+FirstSpawnerNoLongerHasBuff
+LastSpawnerNoLongerHasBuff
+OutOfRange
+NoTarget
+DamageTaken
+ResearchNotMet
+OwnerChanged
+FightersKilled
+AllPeriodicActionsDone
+AntiMatterDepleted
+TargetIsConstructed
+TargetConstructionCannotBeUpdated
+ShieldFailure
+
+researchBoolModifiers
+AllowGalaxyTravel
+AllowWormHoleTravel
+CultureSpreadIsAlwaysVisible
+HyperspaceDetectionOneJump
+HyperspaceDetectionTwoJumps
+HyperspaceDetectionAnyJumps
+PlanetIsColonizable
+PlanetsDetectedByCulture
+
+researchFloatModifiers
+AllegianceFromCultureMaxPerc
+AntimatterCapacityAdjustment
+AntimatterRegenAdjustment
+ArmorBaseAdjustment
+BlackMarketBuyPriceAdjustment
+BountyBoughtAdjustment
+BountyCollectedAdjustment
+BombingDamageAsDamageDealerAdjustment
+BombingDamageAsDamageTargetAdjustment
+BombingPopulationKilledPercAsDamageTarget
+BombingRangeAdjustment
+CapitalShipCultureProtectRateAdjustment
+CapitalShipAngularThrustAdjustment
+CapitalShipMaxTrainableLevel
+CapitalShipMaxSlots
+CapitalShipMaxSlotLevel
+CargoShipCapacityAdjustment
+CreditCostAdjustment
+CultureEnemyBuildRateAdjustment
+CultureSpreadRateAdjustment
+CultureSpreadDecayAdjustment
+CultureResistPercent
+CultureWeaponDamageAdjustment
+CultureShieldMitigationAdjustment
+CultureAntimatterRegenAmount
+DerivativeCreditsFromTradePercent
+DerivativeCreditsFromPurchasesPercent
+ExtractionRateFromResourceFocus
+ExtractionRateMetalAdjustment
+ExtractionRateCrystalAdjustment
+ExperienceConstantGainRate
+ExperienceConstantGainLevelCap
+ExperienceAwardedAdjustment
+HangarFightersPerSquadAdjustment
+HullPointsMaxAdjustment
+HullPointsRegenAdjustment
+HyperspaceAntimatterCostAdjustment
+HyperspaceBetweenSystemSpeedAdjustment
+HyperspaceChargeUpRateAdjustment
+HyperspaceExitDistanceAdjustment
+HyperspaceInSystemSpeedAdjustment
+HyperspaceSpeedPhaseGateAdjustment
+IncomePercLost
+MassReduction
+ModuleBuildRateAdjustment
+ModuleCostForSimilarTypesAdjustment
+PirateStrengthAgainstYouAdjustment
+PlanetHealthRegenRateAdjustment
+PlanetPopulationCapAdjustment
+PlanetSlotsCivilianIncrease
+PlanetSlotsTacticalIncrease
+PlanetUpgradeBuildRateAdjustment
+PlanetUpgradeCostAdjustment
+PopulationGrowthRateAdjustment
+QuestDeadlineAdjustment
+QuestFailureHappinessAdjustment
+QuestRewardHappinessAdjustment
+RebellionLevel
+ResearchBuildRateAdjustment
+ResearchCostAdjustment
+SalvageWreckagePercent
+ScuttleRateAdjustment
+ScuttleValueAdjustment
+ShieldMaxMitigationAdjustment
+ShieldPointsMaxAdjustment
+ShieldPointsRegenAdjustment
+ShipBuildRateAdjustment
+ShipMaxSlots
+ShipMaxSlotLevel
+TradeGoodsValueAdjustment
+WeaponDamageAdjustment
+WeaponIgnoresShieldsAdjustment
+WeaponRangeAdjustment
+WeaponRateOfFireAdjustment
+
+
+
+
+

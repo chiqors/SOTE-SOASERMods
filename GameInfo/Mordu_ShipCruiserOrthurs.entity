@@ -11,8 +11,8 @@ frigateRoleType "Lrm"
 statCountType "FrigateLongRange"
 mainViewIcon "MAINVIEWICON_FRIGATE_CARACAL"
 picture "PICTURE_MORDU_ORTHURS"
-NameStringID "IDS_FRIGATE_CARACAL_NAME"
-DescriptionStringID "IDS_FRIGATE_CARACAL_DESCRIPTION"
+NameStringID "IDS_SUMMON_ORTHURS_NAME"
+DescriptionStringID "IDS_SUMMON_ORTHURS_DESCRIPTION"
 counterDescriptionStringID "IDS_COUNTERDESC_CORVETTE_TECH"
 basePrice
 	credits 292.000000
@@ -39,7 +39,7 @@ numRandomDebrisLarge 0
 numRandomDebrisSmall 0
 numSpecificDebris 0
 armorType "Medium"
-hudIcon "HUDICON_FRIGATE_CARACAL"
+hudIcon "HUDICON_MORDU_ORTHURS"
 smallHudIcon "HUDICONSMALL_FRIGATE_CARACAL"
 infoCardIcon "INFOCARDICON_FRIGATE_CARACAL"
 minZoomDistanceMult 1.000000

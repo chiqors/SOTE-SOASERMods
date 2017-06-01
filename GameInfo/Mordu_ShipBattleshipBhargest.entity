@@ -11,8 +11,8 @@ frigateRoleType "Heavy"
 statCountType "FrigateHeavy"
 mainViewIcon "MAINVIEWICON_FRIGATE_RAVEN"
 picture "PICTURE_MORDU_BARGHEST"
-NameStringID "IDS_CALDARI_SHIP_BATTLESHIP_RAVEN_NAME"
-DescriptionStringID "IDS_CALDARI_SHIP_BATTLESHIP_RAVEN_DESCRIPTION"
+NameStringID "IDS_SUMMON_BARGHEST_NAME"
+DescriptionStringID "IDS_SUMMON_BARGHEST_DESCRIPTION"
 counterDescriptionStringID "IDS_COUNTERDESC_FRIGATE_LONGRANGE"
 basePrice
 	credits 694.000000
@@ -36,7 +36,7 @@ numRandomDebrisLarge 0
 numRandomDebrisSmall 0
 numSpecificDebris 0
 armorType "Heavy"
-hudIcon "HUDICON_FRIGATE_RAVEN"
+hudIcon "HUDICON_MORDU_BARGHEST"
 smallHudIcon "HUDICONSMALL_FRIGATE_RAVEN"
 infoCardIcon "INFOCARDICON_FRIGATE_RAVEN"
 minZoomDistanceMult 1.000000
@@ -140,7 +140,7 @@ ExplosionName "EVEBattleship"
 HyperspaceChargingSoundID "HYPERSPACE_CHARGEUP"
 HyperspaceTravelSoundID "HYPERSPACE_TRAVEL"
 EngineSoundID "ENGINE_TECHCAPITALSHIP"
-ability:0 "AbilityMicroJumpDrive"
+ability:0 "AbilityMicrowarpdrive"
 ability:1 "AbilityWarpDisruptor"
 ability:2 ""
 ability:3 ""

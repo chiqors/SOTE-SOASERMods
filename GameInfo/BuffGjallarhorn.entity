@@ -31,7 +31,7 @@ instantAction
 		muzzleSoundMinRespawnTime 0.500000
 		muzzleSounds
 			soundCount 1
-			sound "EFFECT_NEUTRONTORPEDO_MUZZLE"
+			sound "WEAPON_ARTYCANNONHEAVY_MUZZLE"
 		hitEffectName "Ability_MeteorStrikePlanetImpact"
 		hitHullEffectSounds
 			soundCount 4
@@ -69,20 +69,14 @@ instantAction
 		muzzleSoundMinRespawnTime 0.500000
 		muzzleSounds
 			soundCount 1
-			sound "EFFECT_NEUTRONTORPEDO_MUZZLE"
+			sound "WEAPON_ARTYCANNONHEAVY_MUZZLE"
 		hitEffectName "Ability_MeteorStrikePlanetImpact"
 		hitHullEffectSounds
-			soundCount 4
-			sound "MISSILEEXPLOSION_EVEONLINE1"
-			sound "MISSILEEXPLOSION_EVEONLINE2"
-			sound "MISSILEEXPLOSION_EVEONLINE3"
-			sound "MISSILEEXPLOSION_EVEONLINE4"
+			soundCount 1
+			sound "WEAPON_ARTYCANNONHEAVY_HIT"
 		hitShieldsEffectSounds
-			soundCount 4
-			sound "MISSILEEXPLOSION_EVEONLINE1"
-			sound "MISSILEEXPLOSION_EVEONLINE2"
-			sound "MISSILEEXPLOSION_EVEONLINE3"
-			sound "MISSILEEXPLOSION_EVEONLINE4"
+			soundCount 1
+			sound "WEAPON_ARTYCANNONHEAVY_HIT"
 		projectileTravelEffectName "Weapon_TechCapitalAutoCannonMedium_Travel"		
 instantAction
 	buffInstantActionType "ApplyBuffToTargetWithTravelNoFilterNoRange"
@@ -107,7 +101,7 @@ instantAction
 		muzzleSoundMinRespawnTime 0.500000
 		muzzleSounds
 			soundCount 1
-			sound "EFFECT_NEUTRONTORPEDO_MUZZLE"
+			sound "WEAPON_ARTYCANNONHEAVY_MUZZLE"
 		hitEffectName "Ability_MeteorStrikePlanetImpact"
 		hitHullEffectSounds
 			soundCount 4
@@ -145,7 +139,7 @@ instantAction
 		muzzleSoundMinRespawnTime 0.500000
 		muzzleSounds
 			soundCount 1
-			sound "EFFECT_NEUTRONTORPEDO_MUZZLE"
+			sound "WEAPON_ARTYCANNONHEAVY_MUZZLE"
 		hitEffectName "Ability_MeteorStrikePlanetImpact"
 		hitHullEffectSounds
 			soundCount 4

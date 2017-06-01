@@ -19,7 +19,7 @@ moveThruTarget FALSE
 isUltimateAbility FALSE
 maxNumLevels 1
 levelSourceType "ResearchWithoutBase"
-improveSourceResearchSubject "RESEARCHSUBJECT_ARTIFACT_WORMHOLETRAVEL"
+improveSourceResearchSubject "RESEARCHSUBJECT_ARTIFACT_HYPERSPACESPEED"
 aiUseTime "Anytime"
 aiUseTargetCondition "Any"
 isAutoCastAvailable TRUE
@@ -46,12 +46,12 @@ orderAcknowledgementType "ONGENERALORDERISSUED"
 researchPrerequisites
 	NumResearchPrerequisites 1
 	ResearchPrerequisite
-		Subject "RESEARCHSUBJECT_ARTIFACT_WORMHOLETRAVEL"
+		Subject "RESEARCHSUBJECT_ARTIFACT_HYPERSPACESPEED"
 		Level 1
 	RequiredFactionNameID ""
 	RequiredCompletedResearchSubjects 0
 nameStringID "IDS_SUMMON_ORTHURS_NAME"
 descStringID "IDS_SUMMON_ORTHURS_DESCRIPTION"
-hudIcon "HUDICON_CAPITALSHIP_TECHTRANSPORT"
-smallHudIcon "HUDICON_CAPITALSHIP_TECHTRANSPORT"
+hudIcon "HUDICON_MORDU_ORTHURS"
+smallHudIcon "HUDICON_MORDU_ORTHURS"
 infoCardIcon ""

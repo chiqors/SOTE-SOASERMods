@@ -45,8 +45,8 @@ frigateRoleType "Siege"
 statCountType "FrigateSiege"
 mainViewIcon "MAINVIEWICON_FRIGATE_KESTREL"
 picture "PICTURE_MORDU_GAMUR"
-NameStringID "IDS_FRIGATE_KESTREL_NAME"
-DescriptionStringID "IDS_FRIGATE_KESTREL_DESCRIPTION"
+NameStringID "IDS_SUMMON_GAMUR_NAME"
+DescriptionStringID "IDS_SUMMON_GAMUR_DESCRIPTION"
 counterDescriptionStringID "IDS_COUNTERDESC_FRIGATE_NONCOMBAT"
 basePrice
 	credits 131.000000
@@ -73,7 +73,7 @@ numRandomDebrisLarge 0
 numRandomDebrisSmall 0
 numSpecificDebris 0
 armorType "Light"
-hudIcon "HUDICON_FRIGATE_KESTREL"
+hudIcon "HUDICON_MORDU_GAMUR"
 smallHudIcon "HUDICONSMALL_FRIGATE_KESTREL"
 infoCardIcon "INFOCARDICON_FRIGATE_KESTREL"
 minZoomDistanceMult 1.000000

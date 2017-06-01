@@ -74,7 +74,7 @@ entities
 			entityDefName "Gallente_Ship_Tradeship"
 			entityDefName "Amarr_Ship_Refineryship_Bestower"
 	researchInfo
-		count 127
+		count 128
 		entityDefName "RSACovertOps"
 		entityDefName "ALLRACES_RESEARCHSUBJECT_ABILITYACCESS_AFTERBURNER"
 		entityDefName "ALLRACES_RESEARCHSUBJECT_ABILITYACCESS_BASTIONMODE"
@@ -202,6 +202,7 @@ entities
 		entityDefName "RSABlackOps"
 		entityDefName "RSAHeavyAssault"
 		entityDefName "RSAMarauder"
+		entityDefName "RESEARCHSUBJECT_STARBASEUPGRADEACCESS_FACTORY"		
 	starBaseInfo
 		count 3
 		entityDefName "Allraces_Structure_Citadel_Astrahus"

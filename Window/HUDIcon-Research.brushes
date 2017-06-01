@@ -1787,32 +1787,32 @@ brush
 	name "HUDICON_RESEARCHSUBJECT_ARTIFACT_GALAXYTRAVEL"
 	content "Simple"
 	fileName "Research"
-	pixelBox [ 131 , 769 , 62 , 48 ]
+	pixelBox [ 258 , 869 , 62 , 48 ]
 brush
 	name "HUDICON_RESEARCHSUBJECT_ARTIFACT_HULLREPAIROVERTIMEINCREASE"
 	content "Simple"
 	fileName "Research"
-	pixelBox [ 3 , 820 , 62 , 48 ]
+	pixelBox [ 316 , 719 , 62 , 48 ]
 brush
 	name "HUDICON_RESEARCHSUBJECT_ARTIFACT_HYPERSPACESPEED"
 	content "Simple"
 	fileName "Research"
-	pixelBox [ 3 , 718 , 62 , 48 ]
+	pixelBox [ 315 , 768 , 62 , 48 ]
 brush
 	name "HUDICON_RESEARCHSUBJECT_ARTIFACT_SHIPBUILDTIMEREDUCTION"
 	content "Simple"
 	fileName "Research"
-	pixelBox [ 67 , 769 , 62 , 48 ]
+	pixelBox [ 130 , 917 , 62 , 48 ]
 brush
 	name "HUDICON_RESEARCHSUBJECT_ARTIFACT_PASSIVEREGENANTIMATTER"
 	content "Simple"
 	fileName "Research"
-	pixelBox [ 131 , 820 , 62 , 48 ]
+	pixelBox [ 260 , 819 , 62 , 48 ]
 brush
 	name "HUDICON_RESEARCHSUBJECT_ARTIFACT_PLANETBOMBINGSHIELD"
 	content "Simple"
 	fileName "Research"
-	pixelBox [ 198 , 772 , 62 , 48 ]
+	pixelBox [ 4 , 866 , 62 , 48 ]
 brush
 	name "HUDICON_RESEARCHSUBJECT_ARTIFACT_ORGANICAI"
 	content "Simple"
@@ -1837,12 +1837,12 @@ brush
 	name "HUDICON_RESEARCHSUBJECT_ARTIFACT_WEAPONBOOST"
 	content "Simple"
 	fileName "Research"
-	pixelBox [ 67 , 820 , 62 , 48 ]
+	pixelBox [ 316 , 817 , 62 , 48 ]
 brush
 	name "HUDICON_RESEARCHSUBJECT_ARTIFACT_WORMHOLETRAVEL"
 	content "Simple"
 	fileName "Research"
-	pixelBox [ 67 , 718 , 62 , 48 ]
+	pixelBox [ 258 , 718 , 62 , 48 ]
 brush
 	name "HUDICONSMALL_RESEARCHSUBJECT_ARTIFACT_GALAXYTRAVEL"
 	content "Simple"

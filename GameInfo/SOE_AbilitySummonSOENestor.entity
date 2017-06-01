@@ -49,8 +49,8 @@ researchPrerequisites
 		Level 1
 	RequiredFactionNameID ""
 	RequiredCompletedResearchSubjects 0
-nameStringID "IDS_SUMMON_BARGHEST_NAME"
-descStringID "IDS_SUMMON_BARGHEST_DESCRIPTION"
-hudIcon "HUDICON_CAPITALSHIP_TECHTRANSPORT"
-smallHudIcon "HUDICON_CAPITALSHIP_TECHTRANSPORT"
+nameStringID "IDS_SUMMON_NESTOR_NAME"
+descStringID "IDS_SUMMON_NESTOR_DESCRIPTION"
+hudIcon "HUDICON_SOE_NESTOR"
+smallHudIcon "HUDICON_SOE_NESTOR"
 infoCardIcon ""

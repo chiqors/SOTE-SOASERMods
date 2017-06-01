@@ -1,7 +1,7 @@
 ﻿TXT
 entityType "Titan"
 ability:0 "AbilityJudgment"
-ability:1 "AbilityAmarrTitanBonus"
+ability:1 "AbilityAmarrPhenomenaGenerator"
 ability:2 "AbilityTitanEMPSmartbomb"
 ability:3 "AbilityAmarrTitanJumpBridge"
 ability:4 ""
@@ -113,13 +113,13 @@ Weapon
 		DamageAffectType "AFFECTS_SHIELDS_AND_HULL"
 		DamageApplyType "OVERTIME"
 		DamageType "ENERGY"
-		WeaponClassType "RAILGUN"
-	DamagePerBank:FRONT 23520.000000
+		WeaponClassType "BEAM"
+	DamagePerBank:FRONT 17818.000000
 	DamagePerBank:BACK 0.000000
 	DamagePerBank:LEFT 0.000000
 	DamagePerBank:RIGHT 0.000000
 	Range 10000.000000
-	PreBuffCooldownTime 7.020000
+	PreBuffCooldownTime 8.770000
 	CanFireAtFighter FALSE
 	SynchronizedTargeting TRUE
 	PointStaggerDelay 00000

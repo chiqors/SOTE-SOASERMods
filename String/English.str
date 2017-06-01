@@ -1,5 +1,5 @@
 TXT
-NumStrings 8272
+NumStrings 8292
 StringInfo
     ID "IDS_ABILITY_RORQUALPANIC_NAME"
 	Value "P.A.N.I.C Module"
@@ -8159,10 +8159,10 @@ StringInfo
 	Value "Grants Orkulus class starbases access to Frontal Deflector Shield upgrades, allowing them to activate a protective shield that greatly reduces damage directed at its forward surfaces."
 StringInfo
 	ID "IDS_RESEARCHSUBJECT_STARBASEUPGRADEACCESS_FACTORY_NAME"
-	Value "Remote Construction"
+	Value "Standup Factory"
 StringInfo
 	ID "IDS_RESEARCHSUBJECT_STARBASEUPGRADEACCESS_FACTORY_DESCRIPTION"
-	Value "Grants Argonev class starbases access to Construction Bay upgrades, allowing them to build frigates, cruisers and corvettes."
+	Value "Grants Fortizar and Keepstar Upwell Citaddel access to Construction Bay upgrades, allowing them to build frigates, cruisers and Battleships."
 StringInfo
 	ID "IDS_RESEARCHSUBJECT_STARBASEUPGRADEACCESS_MASSDISORIENTATION_NAME"
 	Value "Mass Disorientation"
@@ -19052,22 +19052,22 @@ StringInfo
 	Value "*VALUE0*: *SPACING150* *VALUE1* *SPACING185* *VALUE2* *VALUE3*"
 StringInfo
 	ID "IDS_TITANUPGRADE_TECHLOYALIST_ABILITIES_NAME"
-	Value "Capacitor Funnelling"
+	Value "Powergrid Upgrade"
 StringInfo
 	ID "IDS_TITANUPGRADE_TECHLOYALIST_ABILITIES_DESCRIPTION"
-	Value "Refinements to the Ankylon's Capacitor storage unit grant the ship superior capacitor capacity and use."
+	Value "Refinements to the titan's Capacitor storage unit grant the ship superior capacitor capacity and use."
 StringInfo
 	ID "IDS_TITANUPGRADE_TECHLOYALIST_DURABILITY_NAME"
-	Value "Fortified Superstructure"
+	Value "Armor Tank Improvment"
 StringInfo
 	ID "IDS_TITANUPGRADE_TECHLOYALIST_DURABILITY_DESCRIPTION"
-	Value "Improves the Ankylon's superstructure, greatly adding to the survivability of the ship."
+	Value "Improves the Titan's superstructure, greatly adding to the survivability of the ship. Add Capital Armor Plates for each level."
 StringInfo
 	ID "IDS_TITANUPGRADE_TECHLOYALIST_WEAPONS_NAME"
-	Value "Superior Gunnery"
+	Value "Capital Weapons"
 StringInfo
 	ID "IDS_TITANUPGRADE_TECHLOYALIST_WEAPONS_DESCRIPTION"
-	Value "Gun crews aboard the Ankylon go through combat drills, improving the ship's weapon damage."
+	Value "Change the vanilla capital weapons aboard the titan for T2, faction and Officer modueles."
 StringInfo
 	ID "IDS_TITANUPGRADE_TECHREBEL_ABILITIES_NAME"
 	Value "Magnetic Containment"
@@ -19130,16 +19130,16 @@ StringInfo
 	Value "Recent technology acquired by the Vorastra allows its crew to significantly enhance its use of capacitor."
 StringInfo
 	ID "IDS_TITANUPGRADE_PHASELOYALIST_DURABILITY_NAME"
-	Value "Dense Composites"
+	Value "Titan Tank Upgrade"
 StringInfo
 	ID "IDS_TITANUPGRADE_PHASELOYALIST_DURABILITY_DESCRIPTION"
-	Value "The Vorastra uses new denser composite materials to fortify its hull from assaults."
+	Value "Improve the Titan Shield Tank fit, adding Capital Shield Extenders and improving Shield Recharge rate."
 StringInfo
 	ID "IDS_TITANUPGRADE_PHASELOYALIST_WEAPONS_NAME"
-	Value "Nano Enhancement"
+	Value "Citadel Payloads"
 StringInfo
 	ID "IDS_TITANUPGRADE_PHASELOYALIST_WEAPONS_DESCRIPTION"
-	Value "Payloads of destructive nanites are added to the Vorastra's weapons, substantially enhancing overall damage."
+	Value "Payloads of destructive nanites are added to the titan's weapons, substantially enhancing overall damage."
 StringInfo
 	ID "IDS_TITANUPGRADE_PHASEREBEL_ABILITIES_NAME"
 	Value "Harmonic Containment"
@@ -24816,4 +24816,64 @@ StringInfo
 StringInfo
 	ID "IDS_COMMAND_TITAN__DESCRIPTION"
 	Value "The commanda titan, also now as FC Titan, is modified version of titan. It comes with system wide bonus and equipament upgrades."
+StringInfo
+	ID "IDS_SUMMON_ASTERO_NAME"
+	Value "Astero Frigate"
+StringInfo
+	ID "IDS_SUMMON_ASTERO_DESCRIPTION"
+	Value "Strong ties with the Sisters of Eve and your Empire allow you to buy Asteros Frigates."
+StringInfo
+	ID "IDS_SUMMON_STRATIOS_NAME"
+	Value "Stratios Cruiser"
+StringInfo
+	ID "IDS_SUMMON_STRATIOS_DESCRIPTION"
+	Value "Strong ties with the Sisters of Eve and your Empire allow you to buy Stratios Cruisers."
+StringInfo
+	ID "IDS_SUMMON_NESTOR_NAME"
+	Value "Nestor Battleship"
+StringInfo
+	ID "IDS_SUMMON_NESTOR_DESCRIPTION"
+	Value "Strong ties with the Sisters of Eve and your Empire allow you to buy Nestor Battleship."
+StringInfo
+	ID "IDS_PHENOMENAGENERATOR_AMARR_NAME"
+	Value "Phenomena Generator"
+StringInfo
+	ID "IDS_PHENOMENAGENERATOR_AMARR_DESCRIPTION"
+	Value "Adapted from advanced research into natural wormhole phenomena, this module wields an Avatar's massive Radar sensor array to bend local space and affect the properties of all nearby vessels. The effects of this phenomenon impact both friendly and hostile ships, altering the entire battlefield in subtle but significant ways. Clever fleet commanders can take advantage of these effects to ensure victory, even against insurmountable odds. "
+StringInfo
+	ID "IDS_OBLIVION_NAME"
+	Value "Oblivion Doomsday Weapon" 
+StringInfo
+	ID "IDS_OBLIVION_DESCRIPTION"
+	Value "Using a targeting and tracking control system more advanced than any other in existence, this weapon launches and controls a storm of missile fire capable of neutralizing almost any target."
+StringInfo
+	ID "IDS_COMMAND_TITAN_BLOODRAIDER_MOLOK_NAME"
+	Value "Command Titan Molok"	
+StringInfo
+	ID "IDS_COMMAND_TITAN_BLOODRAIDER_MOLOK_DESCRIPTION"
+	Value ""Molok, libeled as 'The Deceiver' by the false faith, was truer than any so-called 'True Amarr' follower of the corrupted throne squatters could ever be. He it was that understood the true nature of the universe. There is only one truth: power is all; naked, merciless force wielded by those with the will to grapple with it..."	
+StringInfo
+	ID "IDS_SERPENTIS_SUPERCARRIER_VENDETTA_NAME"
+	Value "Supercarrier Vendetta"
+StringInfo
+	ID "IDS_SERPENTIS_SUPERCARRIER_VENDETTA_DESCRIPTION"
+	Value "“The Federation still thinks it can play games with the future of the human species. Just as it played games with the life’s work of my father..."	
+StringInfo
+	ID "IDS_DRONE_MISSILE_NAME"
+	Value "Drone Missle Launcher"
+StringInfo
+	ID "IDS_DRONE_MISSILE_DESCRIPTION"
+	Value "Order the fighter Strike Craft to Shoot a Vollyey Of Missiles on taget"
+StringInfo
+	ID "IDS_DRONE_BOMBVOLLEY_NAME"
+	Value "Drone Missle Launcher"
+StringInfo
+	ID "IDS_DRONE_BOMBVOLLEY_DESCRIPTION"
+	Value "Order the fighter Strike Craft to Shoot a Vollyey Of Missiles on taget"
+StringInfo
+	ID "Cloaking_On"
+	Value "Active Cloaking"
+StringInfo
+	ID "Cloaking_Off"
+	Value "Deactivate Cloaking"
 	

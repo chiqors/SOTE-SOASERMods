@@ -20,22 +20,29 @@ instantAction
 		largeEffectName ""
 		soundID ""
 numPeriodicActions 0
-numOverTimeActions 1
-overTimeAction
-	buffOverTimeActionType "RestoreHull"
-	hullRestoreRate
-		Level:0 100.000000
-		Level:1 125.000000
-		Level:2 125.000000
-		Level:3 125.000000
-numEntityModifiers 1
+numOverTimeActions 0
+numEntityModifiers 3
 entityModifier
-	buffEntityModifierType "WeaponCooldown"
+	buffEntityModifierType "AntimatterCostOfNonUltimates"
 	value
-		Level:0 -9.000000
-		Level:1 -9.000000
-		Level:2 -9.000000
-		Level:3 -9.000000
+		Level:0 -0.500000
+		Level:1 -0.500000
+		Level:2 -0.500000
+		Level:3 -0.500000
+entityModifier
+	buffEntityModifierType "AbilityCooldownRate"
+	value
+		Level:0 -0.750000
+		Level:1 -0.750000
+		Level:2 -0.750000
+		Level:3 -0.750000
+entityModifier
+	buffEntityModifierType "DamageAsDamageDealer"
+	value
+		Level:0 7.000000
+		Level:1 7.800000
+		Level:2 8.000000
+		Level:3 8.400000
 numEntityBoolModifiers 2
 entityBoolModifier "DisablePhaseJump"
 entityBoolModifier "DisableLinearEngines"

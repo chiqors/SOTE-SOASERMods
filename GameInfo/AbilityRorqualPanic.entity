@@ -1,8 +1,27 @@
 TXT
 entityType "Ability"
-buffInstantActionType "ApplyBuffToSelf"
+buffInstantActionType "ApplyBuffToTargetsInRadius"
 instantActionTriggerType "AlwaysPerform"
 buffType "BuffRorqualPanic"
+targetFilter
+	numOwnerships 1
+	ownership "Friendly"
+	numObjects 2
+	object "PlanetModule"
+	object "CapitalShip"
+	numSpaces 1
+	space "Normal"
+	numConstraints 0
+range
+	Level:0 75000.000000
+	Level:1 75000.000000
+	Level:2 75000.000000
+	Level:3 75000.000000
+maxTargetCount
+	Level:0 -1.000000
+	Level:1 -1.000000
+	Level:2 -1.000000
+	Level:3 -1.000000	
 effectInfo
 	effectAttachInfo
 		attachType "Center"
@@ -14,8 +33,13 @@ needsToFaceTarget FALSE
 canCollideWithTarget TRUE
 moveThruTarget FALSE
 isUltimateAbility FALSE
-maxNumLevels 1
-levelSourceType "FixedLevel0"
+maxNumLevels 4
+levelSourceType "Intrinsic"
+minExperienceLevelRequired
+	Level:0 0.000000
+	Level:1 1.000000
+	Level:2 2.000000
+	Level:3 3.000000
 aiUseTime "OnlyWhenAboutToDie"
 aiUseTargetCondition "Any"
 isAutoCastAvailable TRUE

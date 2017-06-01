@@ -39,8 +39,8 @@ numRandomDebrisLarge 0
 numRandomDebrisSmall 0
 numSpecificDebris 0
 armorType "Medium"
-hudIcon "HUDICON_FRIGATE_PHASEMINELAYER"
-smallHudIcon "HUDICONSMALL_FRIGATE_PHASEMINELAYER"
+hudIcon "HUDICON_SERPENTIS_VIGILANT"
+smallHudIcon "HUDICON_SERPENTIS_VIGILANT"
 infoCardIcon "INFOCARDICON_FRIGATE_PHASEMINELAYER"
 minZoomDistanceMult 1.000000
 NumWeapons 1

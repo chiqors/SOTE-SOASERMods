@@ -25,7 +25,7 @@ maxDecelerationAngular 241.000000
 maxSpeedLinear 850.000000
 maxRollRate 10.000000
 maxRollAngle 45.000000
-NumWeapons 1
+NumWeapons 2
 Weapon
 	WeaponType "Projectile"
 	damageEnums
@@ -33,8 +33,8 @@ Weapon
 		DamageAffectType "AFFECTS_SHIELDS_AND_HULL"
 		DamageApplyType "BACKLOADED"
 		DamageType "ENERGY"
-		WeaponClassType "PULSEGUN"
-	DamagePerBank:FRONT 77.000000
+		WeaponClassType "AUTOCANNON"
+	DamagePerBank:FRONT 127.000000
 	DamagePerBank:BACK 0.000000
 	DamagePerBank:LEFT 0.000000
 	DamagePerBank:RIGHT 0.000000
@@ -64,6 +64,53 @@ Weapon
 			soundCount 1
 			sound ""
 		projectileTravelEffectName "EVE_Weapon_Blaster_Micro_Blue"
+Weapon
+	WeaponType "Missile"
+	damageEnums
+		AttackType "ANTIHEAVY"
+		DamageAffectType "AFFECTS_SHIELDS_AND_HULL"
+		DamageApplyType "BACKLOADED"
+		DamageType "PHYSICAL"
+		WeaponClassType "MISSILE"
+	DamagePerBank:FRONT 223.000000
+	DamagePerBank:BACK 0.000000
+	DamagePerBank:LEFT 0.000000
+	DamagePerBank:RIGHT 0.000000
+	Range 5000.000000
+	PreBuffCooldownTime 14.000000
+	CanFireAtFighter FALSE
+	SynchronizedTargeting FALSE
+	PointStaggerDelay 2.000000
+	TravelSpeed 1200.000000
+	Duration 0.000000
+	fireConstraintType "CanAlwaysFire"
+	WeaponEffects
+		weaponType "Missile"
+		burstCount 1
+		burstDelay 0.000000
+		fireDelay 0.000000
+		muzzleEffectName ""
+		muzzleSoundMinRespawnTime 0.500000
+		muzzleSounds
+			soundCount 1
+			sound "EFFECT_NEUTRONTORPEDO_MUZZLE"
+		hitEffectName "EMP_SMARTBOMB"
+		hitHullEffectSounds
+			soundCount 4
+			sound "MISSILEEXPLOSION_EVEONLINE1"
+			sound "MISSILEEXPLOSION_EVEONLINE2"
+			sound "MISSILEEXPLOSION_EVEONLINE3"
+			sound "MISSILEEXPLOSION_EVEONLINE4"
+		hitShieldsEffectSounds
+			soundCount 4
+			sound "MISSILEEXPLOSION_EVEONLINE1"
+			sound "MISSILEEXPLOSION_EVEONLINE2"
+			sound "MISSILEEXPLOSION_EVEONLINE3"
+			sound "MISSILEEXPLOSION_EVEONLINE4"
+		missileTravelEffectName "EVE_MicroCitadel_Torpedo_Travel"
+		missileStartTurningDistance 1.000000
+		missileSlowTurnRate 6.000000
+		missileMaxSlowTurnTime 6.000000
 m_weaponIndexForRange 0
 firingAlignmentType "Default"
 TargetCountPerBank:FRONT 1

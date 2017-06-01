@@ -18,7 +18,7 @@ basePrice
 	credits 698.000000
 	metal 125.000000
 	crystal 133.000000
-slotCount 11.000000
+slotCount 10.000000
 BuildTime 52.000000
 hasLevels FALSE
 ExperiencePointsForDestroying 210.000000
@@ -52,12 +52,12 @@ Weapon
 		DamageApplyType "BACKLOADED"
 		DamageType "PHYSICAL"
 		WeaponClassType "GAUSS"
-	DamagePerBank:FRONT 603.000000
+	DamagePerBank:FRONT 2169.000000
 	DamagePerBank:BACK 0.000000
 	DamagePerBank:LEFT 0.000000
 	DamagePerBank:RIGHT 0.000000
 	Range 8000.000000
-	PreBuffCooldownTime 3.450000
+	PreBuffCooldownTime 18.000000
 	CanFireAtFighter FALSE
 	SynchronizedTargeting TRUE
 	PointStaggerDelay 0.000000
@@ -73,7 +73,7 @@ Weapon
 		muzzleSoundMinRespawnTime 1.000000
 		muzzleSounds
 			soundCount 1
-			sound "WEAPON_HEAVYAUTOCANNON"
+			sound "WEAPON_ARTYCANNONHEAVY_MUZZLE"
 		hitEffectName "Weapon_TechCapitalAutoCannonHeavy_Hit"
 		hitHullEffectSounds
 			soundCount 1

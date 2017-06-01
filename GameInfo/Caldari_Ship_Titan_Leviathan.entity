@@ -1,7 +1,7 @@
 ﻿TXT
 entityType "Titan"
 ability:0 "AbilityOblivion"
-ability:1 "AbilityGallenteTitanBonus"
+ability:1 "AbilityCaldariPhenomenaGenerator"
 ability:2 "AbilityTitanPLASMASmartbomb"
 ability:3 "AbilityAmarrTitanJumpBridge"
 ability:4 ""
@@ -50,7 +50,7 @@ basePrice
 	metal 2500.000000
 	crystal 5417.000000
 slotCount 1.000000
-BuildTime 350.000000
+BuildTime 150.000000
 MaxHullPoints
 	StartValue 150000.000000
 	ValueIncreasePerLevel 15000.000000
@@ -90,13 +90,13 @@ Prerequisites
 	RequiredCompletedResearchSubjects 0
 statCountType "Titan"
 UpgradeTypeCount 7
-UpgradeType "TitanUpgrade_PhaseLoyalist_AbilityA"
-UpgradeType "TitanUpgrade_PhaseLoyalist_AbilityB"
-UpgradeType "TitanUpgrade_PhaseLoyalist_AbilityC"
-UpgradeType "TitanUpgrade_PhaseLoyalist_AbilityD"
-UpgradeType "TitanUpgrade_TechLoyalist_Durability"
-UpgradeType "TitanUpgrade_TechLoyalist_Weapons"
-UpgradeType "TitanUpgrade_TechLoyalist_Abilities"
+UpgradeType "Caldari_TitanUpgrade_AbilityA"
+UpgradeType "Caldari_TitanUpgrade_AbilityB"
+UpgradeType "Caldari_TitanUpgrade_AbilityC"
+UpgradeType "Caldari_TitanUpgrade_AbilityD"
+UpgradeType "Caldari_TitanUpgrade_Durability"
+UpgradeType "Caldari_TitanUpgrade_Weapons"
+UpgradeType "Caldari_TitanUpgrade_Abilities"
 numRandomDebrisLarge 0
 numRandomDebrisSmall 0
 numSpecificDebris 0
@@ -114,12 +114,12 @@ Weapon
 		DamageApplyType "BACKLOADED"
 		DamageType "PHYSICAL"
 		WeaponClassType "MISSILE"
-	DamagePerBank:FRONT 23520.000000
+	DamagePerBank:FRONT 39356.000000
 	DamagePerBank:BACK 0.000000
 	DamagePerBank:LEFT 0.000000
 	DamagePerBank:RIGHT 0.000000
 	Range 10000.000000
-	PreBuffCooldownTime 16.300000
+	PreBuffCooldownTime 22.2700000
 	CanFireAtFighter FALSE
 	SynchronizedTargeting FALSE
 	PointStaggerDelay 0.050000

@@ -1,29 +1,35 @@
-Mesh Cynabal,
-Mesh Daredevil
 Badger Picture
-Drake Picture
-Bhaalgorn Picture
-Rattlesnake Picture
 Moa Picture
+Mesh Daredevil
 Put effects on buffs
-Finish missing cruisers and Battlecruisers
+Missing cruisers and Battlecruisers
 
-Avatar/Erebus abilities icons
-Leviathan/Ragnarok abilities icons
-Supercarrier titan
-Pirates shipyards
-Serpentis shipyards
-pirates ships icos
 download and covert musics
-capital titans ability missing
 
-Hangar Defenser should summon ghost defense ships, buy pirate ships and have fighters
-Citadel should have hangars, factory, trade port
-Titans, change icons for upgrades
-Supercarrier titan
-Serpentis shipyard
-Bloodraider shipyards
-Pirates ships icons
-download and covert musics
-Capital Titans ability missing
+Fix ships slots:
+Frigate 1
+Desrtoyer 2
+Cruiser 3
+Battlecruiser 4
+Battleship 5
 
+I - Create
+
+3 - Noctis Construct pirate Navy Shipyards
+4 - Hangar Defense should summon ghost defense ships, buy noctis and navy cruiser and command cruiser 
+5 - Navy Ships: Logi Cruiser with guns, Battlecruiser with 2 or 3 command links
+6 - Supercarrier Titan
+7 - Change pirate shipyard mesh to "Shipyard"
+8 - Pirate logistics will be cruiser with logistics, frigate will have EWA
+9 - Refinary will summon Orcas, Bowhead
+10 - Orcas with extractor bonus
+11 - Noctis will be construction colony ship
+12 - Bowhead will construct industrial arrays
+13 - T3 Destroyer Sniper-Tank Mode ability with on/off
+14 - Fix citadel lack of modules
+15 - POS station will block other stations but will give system wide shield
+
+II - Test
+
+1 - Carriers and Supers should have Anti-drone Fighters (rename and test)
+2 - Citadel should have hangars, factory, trade port

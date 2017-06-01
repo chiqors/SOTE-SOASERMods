@@ -49,8 +49,8 @@ researchPrerequisites
 		Level 1
 	RequiredFactionNameID ""
 	RequiredCompletedResearchSubjects 0
-nameStringID "IDS_SUMMON_GAMUR_NAME"
-descStringID "IDS_SUMMON_GAMUR_DESCRIPTION"
-hudIcon "HUDICON_CAPITALSHIP_TECHTRANSPORT"
-smallHudIcon "HUDICON_CAPITALSHIP_TECHTRANSPORT"
+nameStringID "IDS_SUMMON_ASTERO_NAME"
+descStringID "IDS_SUMMON_ASTERO_DESCRIPTION"
+hudIcon "HUDICON_SOE_ASTERO"
+smallHudIcon "HUDICON_SOE_ASTERO"
 infoCardIcon ""

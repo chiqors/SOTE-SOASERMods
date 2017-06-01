@@ -24,7 +24,7 @@ periodicAction
 	buffInstantActionType "DoInterrupt"
 	instantActionTriggerType "AlwaysPerform"
 numOverTimeActions 0
-numEntityModifiers 2
+numEntityModifiers 4
 entityModifier
 	buffEntityModifierType "HyperspaceChargeUpRate"
 	value
@@ -39,6 +39,20 @@ entityModifier
 		Level:1 -0.330000
 		Level:2 -0.330000
 		Level:3 -0.330000
+entityModifier
+	buffEntityModifierType "DamageAsDamageDealer"
+	value
+		Level:0 0.300000
+		Level:1 0.300000
+		Level:2 0.300000
+		Level:3 0.300000
+entityModifier
+	buffEntityModifierType "ChanceToHitAsDamageDealer"
+	value
+		Level:0 0.300000
+		Level:1 0.300000
+		Level:2 0.300000
+		Level:3 0.300000
 numEntityBoolModifiers 0
 numFinishConditions 1
 finishCondition
