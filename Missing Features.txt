@@ -23,10 +23,8 @@ I - Create
 12 - Bowhead will construct industrial arrays
 15 - POS station will block other stations but will give system wide shield
 16 - Create eletronic ships
-
 25 - Special ships should have AFB 
-26 - Citadel should have Anti-drone Fighters 
-27 - Fix Angel Ships names, meshs, pictures and icons
+ 
 29 - Orcas will have fix structures ability
 30 - Fix Ores Ships names, meshs, pictures and icons
 31 - Create Projectors abilities and efffects
@@ -41,3 +39,5 @@ II - Test
 2 - Pirate Orca will build Pirate Citadel/Shipyard
 3 - Test new Orca
 13 - T3 Destroyer Sniper/Tank Mode ability with on/off
+26 - Citadel should have Anti-drone Fighters
+27 - Fix Angel Ships names, meshs, pictures and icons
