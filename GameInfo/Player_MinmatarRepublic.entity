@@ -21,14 +21,13 @@ entities
 			entityDefName "Amarr_Structure_CivillianLab"
 			entityDefName "Minmatar_Structure_Refinery"
 		Page:1
-			count 8
+			count 7
 			entityDefName "Amarr_Structure_SmallPulseLaserBattery"
 			entityDefName "Amarr_Structure_MediumPulseLaserBattery"
 			entityDefName "Amarr_Structure_LargePulseLaserBattery"
 			entityDefName "Amarr_Structure_ECMBattery"
 			entityDefName "Amarr_Structure_JumpBridge"
 			entityDefName "Amarr_Structure_CynoJammer"
-			entityDefName "Angel_ModuleShipyard"
 			entityDefName "Minmatar_Structure_TitanFoundry"
 	titanInfo
 		Page:0

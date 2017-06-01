@@ -91,7 +91,7 @@ TargetCountPerBank:RIGHT 0
 canOnlyTargetStructures FALSE
 hasWeaponLevels FALSE
 mass 4000.000000
-ShieldMeshName "cynabal"
+ShieldMeshName "rifter"
 renderShield TRUE
 maxAccelerationLinear 90.000000
 maxAccelerationStrafe 10.000000
@@ -129,7 +129,7 @@ NumSoundsFor:ONSTARTPHASEJUMP 1
 SoundID "FRIGATE_TECHLONGRANGE_ONSTARTPHASEJUMP_0"
 MeshNameInfoCount 1
 MeshNameInfo
-	meshName "cynabal"
+	meshName "rifter"
 	criteriaType "None"
 meshNameIncreasedEffectName ""
 meshNameDecreasedEffectName ""
