@@ -8159,10 +8159,10 @@ StringInfo
 	Value "Grants Orkulus class starbases access to Frontal Deflector Shield upgrades, allowing them to activate a protective shield that greatly reduces damage directed at its forward surfaces."
 StringInfo
 	ID "IDS_RESEARCHSUBJECT_STARBASEUPGRADEACCESS_FACTORY_NAME"
-	Value "Remote Construction"
+	Value "Standup Factory"
 StringInfo
 	ID "IDS_RESEARCHSUBJECT_STARBASEUPGRADEACCESS_FACTORY_DESCRIPTION"
-	Value "Grants Argonev class starbases access to Construction Bay upgrades, allowing them to build frigates, cruisers and corvettes."
+	Value "Grants Fortizar and Keepstar Upwell Citaddel access to Construction Bay upgrades, allowing them to build frigates, cruisers and Battleships."
 StringInfo
 	ID "IDS_RESEARCHSUBJECT_STARBASEUPGRADEACCESS_MASSDISORIENTATION_NAME"
 	Value "Mass Disorientation"
