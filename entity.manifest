@@ -1,5 +1,5 @@
 TXT
-entityNameCount 2285
+entityNameCount 2293
 entityName "ALLRACES_RESEARCHSUBJECT_ABILITYACCESS_AFTERBURNER.entity"
 entityName "ALLRACES_RESEARCHSUBJECT_ABILITYACCESS_BASTIONMODE.entity"
 entityName "ALLRACES_RESEARCHSUBJECT_ABILITYACCESS_CLOAK.entity"
@@ -2285,3 +2285,11 @@ entityName "TitanUpgrade_TechRebel_Durability.entity"
 entityName "TitanUpgrade_TechRebel_Weapons.entity"
 entityName "Trigger.entity"
 entityName "Weapon.entity"
+entityName "Ore_AbilitySummonOrca.entity"
+entityName "Ore_ShipOrca.entity"
+entityName "AbilityT3Destoyer.entity"
+entityName "AbilityCruiserResistShield.entity"
+entityName "AbilityCruiserResistArmor.entity"
+entityName "BuffCruiserResistShield.entity"
+entityName "BuffCruiserResistArmor.entity"
+entityName "AbilityCruiserDamage.entity"

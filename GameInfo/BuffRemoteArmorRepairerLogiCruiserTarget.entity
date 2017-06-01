@@ -7,7 +7,18 @@ allowFirstSpawnerToStack FALSE
 buffExclusivityForAIType "ExclusiveForAllPlayers"
 isInterruptable FALSE
 isChannelling FALSE
-numInstantActions 1
+numInstantActions 2
+instantAction
+	buffInstantActionType "PlayPersistantAttachedEffect"
+	instantActionTriggerType "OnDelay"
+	delayTime 0.000000
+	effectInfo
+		effectAttachInfo
+			attachType "Center"
+			smallEffectName "EVE_Buff_ArmorR_Small"
+			mediumEffectName "EVE_Buff_ArmorR_Medium"
+			largeEffectName "EVE_Buff_ArmorR_Large"
+		soundID ""
 instantAction
 	buffInstantActionType "RestoreHullPoints"
 	instantActionTriggerType "OnDelay"

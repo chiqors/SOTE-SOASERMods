@@ -1,9 +1,9 @@
 ﻿TXT
 entityType "StarBase"
-ability:0 "Angel_AbilityAisupportCapitalShips"
-ability:1 "Angel_AbilityAisupportCapitalShipsSuperCapital"
-ability:2 ""
-ability:3 ""
+ability:0 "Angel_AbilitySummonCynabal"
+ability:1 "Angel_AbilitySummonMachariel"
+ability:2 "Angel_AbilityAisupportCapitalShips"
+ability:3 "Angel_AbilityAisupportCapitalShipsSuperCapital"
 ability:4 ""
 defaultAutoAttackRange "None"
 defaultAutoAttackOn TRUE
@@ -80,7 +80,7 @@ squadTypeEntityDef:3 ""
 squadAntiMatterCost:3 0.000000
 mainViewIcon "MainViewIconStarBaseTech"
 experiencePointsForDestroying 1000.000000
-nameStringID "IDS_CITADEL_ASTRAHUS"
+nameStringID "IDS_ANGEL_SHIPYARD_NAME"
 picture "PICTURE_INDUSTRIALARRAY_RAITARU"
 statCountType "StarBase"
 creationSourceAbility "Angel_AbilityDeployShipyard"

@@ -81,7 +81,7 @@ squadAntiMatterCost:3 0.000000
 mainViewIcon "MainViewIconStarBaseTech"
 experiencePointsForDestroying 1000.000000
 nameStringID "IDS_CITADEL_ASTRAHUS"
-picture "Allraces_Structure_Citadel_Astrahus"
+picture "PICTURE_CITADEL_ASTRAHUS"
 statCountType "StarBase"
 creationSourceAbility "AbilityDeployCitadelFortizar"
 maxUpgradeLevelCount 6

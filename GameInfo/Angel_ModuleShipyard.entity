@@ -2,10 +2,10 @@
 entityType "PlanetModuleHangarDefense"
 minZoomDistanceMult 3.500000
 ability:0 "AbilityRepairPlatformTech"
-ability:1 "Angel_AbilitySummonDramiel"
-ability:2 "Angel_AbilitySummonCynabal"
-ability:3 "Angel_AbilitySummonMachariel"
-ability:4 ""
+ability:1 ""
+ability:2 "Angel_AbilitySummonDramiel"
+ability:3 "Angel_AbilitySummonCynabal"
+ability:4 "Angel_AbilitySummonMachariel"
 MaxAntiMatter 300.000000
 AntiMatterRestoreRate 0.500000
 numRandomDebrisLarge 5

@@ -20,10 +20,10 @@ instantAction
 	buffType "BuffRemoteArmorRepairerTriageSelf"
 	effectInfo
 		effectAttachInfo
-			attachType "Invalid"
-		smallEffectName "EVE_Buff_shieldboost_Small"
-		mediumEffectName "EVE_Buff_shieldboost_Medium"
-		largeEffectName "EVE_Buff_shieldboost_Large"
+			attachType "Above"
+		smallEffectName "EVE_Buff_RRshieldbooster_Large"
+		mediumEffectName "EVE_Buff_RRshieldbooster_Medium"
+		largeEffectName "EVE_Buff_RRshieldbooster_Small"
 		soundID ""
 numPeriodicActions 0
 numOverTimeActions 0

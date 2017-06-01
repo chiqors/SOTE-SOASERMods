@@ -141,8 +141,8 @@ EngineSoundID "ENGINE_PHASECAPITALSHIP"
 ability:0 "AbilityMicrowarpdrive"
 ability:1 "AbilityDroneBonus"
 ability:2 ""
-ability:3 "AbilityT2CruiserIshitar"
-ability:4 "AbilityLaunchSquads"
+ability:3 ""
+ability:4 "AbilityT2CruiserIshitar"
 MaxAntiMatter 250.000000
 AntiMatterRestoreRate 0.500000
 cargoType "Invalid"

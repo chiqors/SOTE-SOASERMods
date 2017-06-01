@@ -49,8 +49,8 @@ researchPrerequisites
 		Level 1
 	RequiredFactionNameID ""
 	RequiredCompletedResearchSubjects 0
-nameStringID "IDS_SUMMON_BARGHEST_NAME"
-descStringID "IDS_SUMMON_BARGHEST_DESCRIPTION"
-hudIcon "HUDICON_CAPITALSHIP_TECHTRANSPORT"
-smallHudIcon "HUDICON_CAPITALSHIP_TECHTRANSPORT"
+nameStringID "IDS_Angel_Machariel_NAME"
+descStringID "IDS_Angel_Machariel_DESCRIPTION"
+hudIcon "HUDICON_ANGEL_MACHARIEL"
+smallHudIcon "HUDICON_ANGEL_MACHARIEL"
 infoCardIcon ""

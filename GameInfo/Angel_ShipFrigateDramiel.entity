@@ -11,8 +11,8 @@ frigateRoleType "Light"
 statCountType "FrigateLight"
 mainViewIcon "MAINVIEWICON_FRIGATE_TECHLIGHT"
 picture "PICTURE_ANGEL_DRAMIEL"
-NameStringID "IDS_FRIGATE_RIFTER_NAME"
-DescriptionStringID "IDS_FRIGATE_TECHLIGHT_DESCRIPTION"
+NameStringID "IDS_Angel_Dramiel_NAME"
+DescriptionStringID "IDS_Angel_Dramiel_DESCRIPTION"
 counterDescriptionStringID "IDS_COUNTERDESC_FRIGATE_NONCOMBAT"
 basePrice
 	credits 134.000000
@@ -36,7 +36,7 @@ numRandomDebrisLarge 0
 numRandomDebrisSmall 0
 numSpecificDebris 0
 armorType "Light"
-hudIcon "HUDICON_FRIGATE_RIFTER"
+hudIcon "HUDICON_ANGEL_DRAMIEL"
 smallHudIcon "HUDICONSMALL_FRIGATE_RIFTER"
 infoCardIcon "HUDICONSMALL_FRIGATE_RIFTER"
 minZoomDistanceMult 1.000000
