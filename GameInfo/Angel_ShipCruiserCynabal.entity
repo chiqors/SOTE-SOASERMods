@@ -18,7 +18,7 @@ basePrice
 	credits 327.000000
 	metal 60.000000
 	crystal 50.000000
-slotCount 4.000000
+slotCount 1.000000
 BuildTime 22.000000
 hasLevels FALSE
 ExperiencePointsForDestroying 55.000000
@@ -91,7 +91,7 @@ TargetCountPerBank:RIGHT 0
 canOnlyTargetStructures FALSE
 hasWeaponLevels FALSE
 mass 4000.000000
-ShieldMeshName "cynabal"
+ShieldMeshName "rifter"
 renderShield TRUE
 maxAccelerationLinear 90.000000
 maxAccelerationStrafe 10.000000
@@ -129,7 +129,7 @@ NumSoundsFor:ONSTARTPHASEJUMP 1
 SoundID "FRIGATE_TECHLONGRANGE_ONSTARTPHASEJUMP_0"
 MeshNameInfoCount 1
 MeshNameInfo
-	meshName "cynabal"
+	meshName "rifter"
 	criteriaType "None"
 meshNameIncreasedEffectName ""
 meshNameDecreasedEffectName ""

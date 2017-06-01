@@ -2,7 +2,7 @@
 entityType "StarBase"
 ability:0 "Angel_AbilityAisupportCapitalShips"
 ability:1 "Angel_AbilityAisupportCapitalShipsSuperCapital"
-ability:2 "AbilitySensorDampener"
+ability:2 ""
 ability:3 ""
 ability:4 ""
 defaultAutoAttackRange "None"
@@ -70,7 +70,7 @@ TargetCountPerBank:RIGHT 1
 canOnlyTargetStructures FALSE
 ShieldMeshName "Astrahus"
 renderShield TRUE
-squadTypeEntityDef:0 "Minmatar_Drone_LightFighter"
+squadTypeEntityDef:0 ""
 squadAntiMatterCost:0 0.000000
 squadTypeEntityDef:1 ""
 squadAntiMatterCost:1 0.000000
@@ -83,7 +83,7 @@ experiencePointsForDestroying 1000.000000
 nameStringID "IDS_CITADEL_ASTRAHUS"
 picture "PICTURE_INDUSTRIALARRAY_RAITARU"
 statCountType "StarBase"
-creationSourceAbility "AbilityDeployCitadelFortizar"
+creationSourceAbility "Angel_AbilityDeployShipyard"
 maxUpgradeLevelCount 6
 UpgradeTypeCount 6
 UpgradeType "StarBaseUpgradeTechToughness"
@@ -95,15 +95,7 @@ UpgradeType "StarBaseUpgradeTechResupply"
 MeshNameInfoCount 1
 MeshNameInfo
 meshName "azabel"
-	criteriaType "StarBaseUpgradeLevel"
-	levelRequirements
-		levelRequirementCount 2
-		levelRequirement
-			upgradePropertyType "TradePortMeshLevel"
-			upgradeLevel 2
-		levelRequirement
-			upgradePropertyType "WeaponUpgradeLevel"
-			upgradeLevel 2
+	criteriaType "None"
 meshNameIncreasedEffectName ""
 meshNameDecreasedEffectName ""
 NumSoundsFor:ONATTACKORDERISSUED 0
