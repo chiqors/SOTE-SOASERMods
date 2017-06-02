@@ -10,7 +10,7 @@ typeCount 1
 frigateRoleType "Raider"
 statCountType "FrigateLight"
 mainViewIcon "MAINVIEWICON_CAPITALSHIP_TECHSUPPORT"
-picture ""
+picture "PICTURE_BLOODRAIDER_BHAALGORN"
 NameStringID "IDS_BloodRaider_Ship_Battleship_CorpusArchon_NAME"
 DescriptionStringID "IDS_BloodRaider_Ship_Battleship_CorpusArchon_DESCRIPTION"
 counterDescriptionStringID "IDS_COUNTERDESC_FRIGATE_NONCOMBAT"
