@@ -1,5 +1,5 @@
 TXT
-entityNameCount 2293
+entityNameCount 2294
 entityName "ALLRACES_RESEARCHSUBJECT_ABILITYACCESS_AFTERBURNER.entity"
 entityName "ALLRACES_RESEARCHSUBJECT_ABILITYACCESS_BASTIONMODE.entity"
 entityName "ALLRACES_RESEARCHSUBJECT_ABILITYACCESS_CLOAK.entity"
@@ -2293,3 +2293,4 @@ entityName "AbilityCruiserResistArmor.entity"
 entityName "BuffCruiserResistShield.entity"
 entityName "BuffCruiserResistArmor.entity"
 entityName "AbilityCruiserDamage.entity"
+entityName "BloodRaider_ShipTitan_Molok.entity"

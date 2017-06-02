@@ -41,10 +41,12 @@ entities
 			entityDefName "BloodRaider_ShipCarrier_Archon"
 	frigateInfo
 		Page:0
-			count 3
+			count 5
 			entityDefName "Bloodraider_ShipFrigateCruor"
 			entityDefName "Bloodraider_ShipCruiserAshimuu"
 			entityDefName "BloodRaider_Ship_Frigate_CorpusFollower"
+			entityDefName "BloodRaider_ShipCruiser_Augoror"
+			entityDefName "Amarr_Ship_Frigate_Inquisitor"
 		Page:1
 			count 3
 			entityDefName "Bloodraider_ShipBattleshipBhaalgorn"
@@ -56,7 +58,8 @@ entities
 		count 1
 		entityDefName "RESEARCHSUBJECT_PIRATE_FINAL_UPGRADE"
 	starBaseInfo
-		count 0
+		count 1
+		entityDefName "BloodRaider_StructureShipyard_Raitaru"
 	flagship "FrigatePirateHeavy"
 debrisData
 	numRandomMeshNamesLarge 8

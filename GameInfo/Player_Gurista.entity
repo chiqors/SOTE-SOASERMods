@@ -31,32 +31,31 @@ entities
 	titanInfo
 		Page:0
 			count 1
-			entityDefName "BloodRaider_ShipTitan_Molok"
+			entityDefName "Guristas_ShipTitan_Leviathan"
 	capitalShipInfo
 		Page:0
 			count 4
-			entityDefName "BloodRaider_ShipSupercarrier_Aeon"
-			entityDefName "BloodRaider_ShipFAUX_Dagon"
-			entityDefName "BloodRaider_ShipDreadnought_Chemosh"
-			entityDefName "BloodRaider_ShipCarrier_Archon"
+			entityDefName "Guristas_ShipCarrier_Chimera"
+			entityDefName "Guristas_ShipFAUX_Minokawa"
+			entityDefName "Guristas_ShipSupercarrier_Wyvern"
+			entityDefName "Guristas_ShipDreadnought_Phoenix"
 	frigateInfo
 		Page:0
 			count 3
-			entityDefName "Bloodraider_ShipFrigateCruor"
-			entityDefName "Bloodraider_ShipCruiserAshimuu"
-			entityDefName "BloodRaider_Ship_Frigate_CorpusFollower"
+			entityDefName "Guristas_ShipCruiser_Gila"
+			entityDefName "Guristas_ShipFrigate_Worm"
+			entityDefName "Guristas_ShipCruiser_Osprey"
 		Page:1
-			count 3
-			entityDefName "Bloodraider_ShipBattleshipBhaalgorn"
-			entityDefName "BloodRaider_Ship_Battleship_CorpusArchon"
-			entityDefName "BloodRaider_Ship_Battleship_CorpusDarkCommander"
+			count 1
+			entityDefName "Guristas_ShipBattleshipRattlesnake"
 		NotOnPage
 			count 0
 	researchInfo
 		count 1
 		entityDefName "RESEARCHSUBJECT_PIRATE_FINAL_UPGRADE"
 	starBaseInfo
-		count 0
+		count 1
+		entityDefName "Guristas_StructureShipyard_Raitaru"
 	flagship "FrigatePirateHeavy"
 debrisData
 	numRandomMeshNamesLarge 8

@@ -41,3 +41,4 @@ II - Test
 13 - T3 Destroyer Sniper/Tank Mode ability with on/off
 26 - Citadel should have Anti-drone Fighters
 27 - Fix Angel Ships names, meshs, pictures and icons
+4 - Teste new angel, bloodraider, guristas and serpentis npc race
