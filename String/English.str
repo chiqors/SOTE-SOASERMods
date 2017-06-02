@@ -1,5 +1,5 @@
 TXT
-NumStrings 8305
+NumStrings 8309
 StringInfo
     ID "IDS_ABILITY_RORQUALPANIC_NAME"
 	Value "P.A.N.I.C Module"
@@ -24857,7 +24857,7 @@ StringInfo
 	Value "Supercarrier Vendetta"
 StringInfo
 	ID "IDS_SERPENTIS_SUPERCARRIER_VENDETTA_DESCRIPTION"
-	Value "“The Federation still thinks it can play games with the future of the human species. Just as it played games with the life’s work of my father..."	
+	Value "The Federation still thinks it can play games with the future of the human species. Just as it played games with the lifes work of my father..."	
 StringInfo
 	ID "IDS_DRONE_MISSILE_NAME"
 	Value "Drone Missle Launcher"
@@ -24915,4 +24915,16 @@ StringInfo
 StringInfo
 	ID "IDS_Angel_Dramiel_DESCRIPTION"
 	Value "The Dramiel is the most long-standing and often-used ship design in the Angel Cartel's vast repertoire of vessels. A frigate workhorse if ever there was one, this sharp-tusked, dangerous beauty can sting unimaginably hard if one is not prepared for its assault."
-		
+StringInfo
+	ID "IDS_AmarrMinmatar"
+	Value "Amarr/Minmatar"
+StringInfo
+	ID "IDS_GallenteCaldari"
+	Value "Gallente/Caldari"
+StringInfo
+	ID "IDS_RACESELECTDIALOG_AmarrMinmatar_DESCRIPTION"
+	Value "Choose between the Amarr or the Minmatar, Each race has it's own Sets of playstyles. The Amarr Primarily use Beam Weaponry, while the Minmatar Primarily use Projectile Weaponry."
+StringInfo
+	ID "IDS_RACESELECTDIALOG_GallenteCaldari_DESCRIPTION"
+	Value "Choose between the Gallente or the Caldari, Each race has it's own Sets of playstyles. The Gallente Primarily use Blaster Weaponry, while the Caldari Primarily use Missile Weaponry."
+	

@@ -6,8 +6,10 @@ prefersToFocusFire TRUE
 usesFighterAttack FALSE
 autoJoinFleetDefault TRUE
 canBomb FALSE
-typeCount 1
+typeCount 3
+frigateRoleType "Corvette"
 frigateRoleType "AntiFighter"
+frigateRoleType "Support"
 statCountType "FrigateAntiFighter"
 mainViewIcon "HUDICONSMALL_FRIGATE_SVIPUL"
 picture ""

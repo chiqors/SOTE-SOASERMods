@@ -1,5 +1,5 @@
 TXT
-entityNameCount 2294
+entityNameCount 2296
 entityName "ALLRACES_RESEARCHSUBJECT_ABILITYACCESS_AFTERBURNER.entity"
 entityName "ALLRACES_RESEARCHSUBJECT_ABILITYACCESS_BASTIONMODE.entity"
 entityName "ALLRACES_RESEARCHSUBJECT_ABILITYACCESS_CLOAK.entity"
@@ -1229,6 +1229,8 @@ entityName "Caldari_Ship_Refineryship_Badge.entity"
 entityName "Caldari_Ship_Supercarrier_Wyvern.entity"
 entityName "Caldari_Ship_Titan_Leviathan.entity"
 entityName "Caldari_Ship_Tradeship_Badge.entity"
+entityName "Caldari_Structure_CivillianLab.entity"
+entityName "Caldari_Structure_CombatLab.entity"
 entityName "Caldari_Structure_CultureCenter.entity"
 entityName "Caldari_Structure_Refinery.entity"
 entityName "Caldari_Structure_TitanFoundry.entity"

@@ -6,9 +6,8 @@ smallHudIcon "HUDICONSMALL_RESOURCEASTEROIDCRYSTAL"
 infoCardIcon "INFOCARDICON_RESOURCEASTEROIDCRYSTAL"
 mainViewIcon "MAINVIEWICON_RESOURCEASTEROIDCRYSTAL"
 picture "PICTURE_RESOURCEASTEROIDCRYSTAL"
-meshNameCount 2
-meshName "ResourceAsteroid_Crystal"
-meshName "ResourceAsteroid_Crystal2"
+meshNameCount 1
+meshName "ResourceField"
 nameStringID "IDS_RESOURCEASTEROIDCRYSTAL_NAME"
 descStringID "IDS_RESOURCEASTEROIDCRYSTAL_DESC"
 nearPlacementDistOffset 0.000000

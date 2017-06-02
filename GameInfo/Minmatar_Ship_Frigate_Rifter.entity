@@ -6,8 +6,9 @@ prefersToFocusFire TRUE
 usesFighterAttack FALSE
 autoJoinFleetDefault TRUE
 canBomb FALSE
-typeCount 1
+typeCount 2
 frigateRoleType "Light"
+frigateRoleType "AntiMine"
 statCountType "FrigateLight"
 mainViewIcon "MAINVIEWICON_FRIGATE_TECHLIGHT"
 picture "PICTURE_FRIGATE_RIFTER"

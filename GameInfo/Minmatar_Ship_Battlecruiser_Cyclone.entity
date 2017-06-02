@@ -6,8 +6,9 @@ prefersToFocusFire TRUE
 usesFighterAttack FALSE
 autoJoinFleetDefault TRUE
 canBomb FALSE
-typeCount 1
+typeCount 2
 frigateRoleType "Support"
+frigateRoleType "Corvette"
 statCountType "FrigateUtility0"
 mainViewIcon "HUDICONSMALL_FRIGATE_CYCLONE"
 picture "PICTURE_FRIGATE_CYCLONE"
