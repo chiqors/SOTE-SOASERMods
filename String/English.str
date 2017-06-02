@@ -1,5 +1,5 @@
 TXT
-NumStrings 8292
+NumStrings 8305
 StringInfo
     ID "IDS_ABILITY_RORQUALPANIC_NAME"
 	Value "P.A.N.I.C Module"
@@ -11,7 +11,7 @@ StringInfo
 	Value "Mining Boost"
 StringInfo
     ID "IDS_ABILITY_RORQUALEXTRACTOR_DESC"
-	Value "Boosts the output of nearby Extractors stacks with each Rorqual up to 10 times"
+	Value "Boosts the output of nearby Extractors stacks with each Orca or Rorqual up to 10 times"
 StringInfo
     ID "IDS_RESEARCHSUBJECT_SubCapitalAccess_Cyclone_NAME"
 	Value "Cyclone Envoy BPO"
@@ -22973,7 +22973,7 @@ StringInfo
 	Value "Projected ECM Burst"
 StringInfo
 	ID "IDS_ABILITY_PROJECTEDECMBURST_DESCRIPTION"
-	Value "Fires a beam of electromagnetic energy at a target and then jams the weapon targeting systems of all ships near to the target."	
+	Value "Emits an area-of-effect electronic burst, centered on the designated target, which has a chance to momentarily disrupt the target locks of any ship within range."	
 StringInfo
 	ID "IDS_RESEARCHSUBJECT_WEAPONDAMAGE_LASERTECH2_NAME"
 	Value "Modulated Pulse Lasers"
@@ -23918,7 +23918,7 @@ StringInfo
 	Value "Projected Energy Burst"
 StringInfo
 	ID "IDS_ABILITY_PROJECTEDENERGYNEUTRALIZATIONBURST_DESCRIPTION"
-	Value "Fires a beam of negative energy at a target and then neutralize a portion of it the capcitor reserves and all ships near to the target."	
+	Value "Emits an area-of-effect burst, centered on the designated location. The burst neutralizes a portion of the energy in affected ships' capacitor."	
 StringInfo
 	ID "IDS_MINMATAR_SHIP_CRUISER_SCIMITAR_NAME"
 	Value "Scimitar Upgrade"
@@ -24876,4 +24876,43 @@ StringInfo
 StringInfo
 	ID "Cloaking_Off"
 	Value "Deactivate Cloaking"
-	
+StringInfo
+	ID "IDS_Tank_Mode"
+	Value "Change to Tank Mode"
+StringInfo
+	ID "IDS_Sniper_Mode"
+	Value "Change to Sniper Mode"
+StringInfo
+	ID "IDS_T3_Mode_NAME"
+	Value "T3 Destoyer Mode"
+StringInfo
+	ID "IDS_T3_Mode_DESCRIPTION"
+	Value "T3 Destoyers are Sniper with mudular structures wich allow then change to Tank Mode."
+StringInfo
+	ID "IDS_T3_Mode_NAME"
+	Value "T3 Destoyer Mode"
+StringInfo
+	ID "IDS_T3_Mode_DESCRIPTION"
+	Value "T3 Destoyers are Sniper with mudular structures wich allow then change to Tank Mode."
+StringInfo
+	ID "IDS_Angel_Machariel_NAME"
+	Value "Machariel Battleship"
+StringInfo
+	ID "IDS_Angel_Machariel_DESCRIPTION"
+	Value "While its utilitarian look may not give much of an indication, many are convinced that the Machariel is based on an ancient Jovian design uncovered by the Angel Cartel in one of their extensive exploratory raids into uncharted territory some years ago."
+StringInfo
+	ID "IDS_ANGEL_SHIPYARD_NAME"
+	Value "Angel Shipyard"
+StringInfo
+	ID "IDS_Angel_Cynabal_NAME"
+	Value "Cynabal Cruiser"
+StringInfo
+	ID "IDS_Angel_Cynabal_DESCRIPTION"
+	Value "While its utilitarian look may not give much of an indication, many are convinced that the Machariel is based on an ancient Jovian design uncovered by the Angel Cartel in one of their extensive exploratory raids into uncharted territory some years ago."
+StringInfo
+	ID "IDS_Angel_Dramiel_NAME"
+	Value "Dramiel Frigate"
+StringInfo
+	ID "IDS_Angel_Dramiel_DESCRIPTION"
+	Value "The Dramiel is the most long-standing and often-used ship design in the Angel Cartel's vast repertoire of vessels. A frigate workhorse if ever there was one, this sharp-tusked, dangerous beauty can sting unimaginably hard if one is not prepared for its assault."
+		

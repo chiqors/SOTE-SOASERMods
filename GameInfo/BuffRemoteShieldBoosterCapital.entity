@@ -20,7 +20,7 @@ instantAction
 	buffType "BuffRemoteShieldBoosterCapitalSelf"
 	effectInfo
 		effectAttachInfo
-			attachType "Invalid"
+			attachType "Above"
 		smallEffectName "EVE_Buff_shieldboost_Small"
 		mediumEffectName "EVE_Buff_shieldboost_Medium"
 		largeEffectName "EVE_Buff_shieldboost_Large"

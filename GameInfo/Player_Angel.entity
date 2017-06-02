@@ -30,16 +30,23 @@ entities
 			entityDefName "PLANETMODULE_TECHORBITALCANNON"
 	titanInfo
 		Page:0
-			count 0
+			count 1
+			entityDefName "Angel_ShipTitanRagnarok"
 	capitalShipInfo
 		Page:0
-			count 1
-			entityDefName "Sansha_Ship_Supercarrier_Uroborus"
+			count 4
+			entityDefName "Angel_ShipCarrier_Nidhoggur"
+			entityDefName "Angel_ShipFAUX_Lif"
+			entityDefName "Angel_ShipDreadnoughtNaglfar"
+			entityDefName "Angel_ShipSupercarrierHel"
 	frigateInfo
 		Page:0
-			count 2
+			count 5
 			entityDefName "Angel_ShipCruiserCynabal"
-			entityDefName "Angel_ShipFrigateDramiel"			
+			entityDefName "Angel_ShipFrigateDramiel"
+			entityDefName "Angel_ShipCruiser_Scyther"
+			entityDefName "Angel_ShipColony_Orca"
+			entityDefName "Angel_ShipFrigate_Breacher"
 		Page:1
 			count 1
 			entityDefName "Angel_ShipBattleshipMachariel"

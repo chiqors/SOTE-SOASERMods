@@ -33,7 +33,7 @@ entities
 		Page:0
 			count 2
 			entityDefName "Amarr_Ship_Titan_Avatar"
-			entityDefName "Bloodraider_ShipTitan_Morlok"
+			entityDefName "BloodRaider_ShipTitan_Molok"
 	capitalShipInfo
 		Page:0
 			count 8

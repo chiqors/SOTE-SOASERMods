@@ -15,21 +15,30 @@ Battleship 5
 
 I - Create
 
-3 - Noctis Construct pirate Navy Shipyards
-4 - Hangar Defense should summon ghost defense ships, buy noctis and navy cruiser and command cruiser 
-5 - Navy Ships: Logi Cruiser with guns, Battlecruiser with 2 or 3 command links
-6 - Supercarrier Titan
-7 - Change pirate shipyard mesh to "Shipyard"
+4 - Hangar Defense should, buy Orca and navy cruiser and command cruiser
+6 - Navy Ships: Logi Cruiser with guns, Battlecruiser with 2 or 3 command links and Frigate Battleship
 8 - Pirate logistics will be cruiser with logistics, frigate will have EWA
-9 - Refinary will summon Orcas, Bowhead
-10 - Orcas with extractor bonus
-11 - Noctis will be construction colony ship
+9 - Refinary will summon Orcas and Bowhead
+11 - Noctis will be construction colony ship, Noctis Construct Navy Shipyards
 12 - Bowhead will construct industrial arrays
-13 - T3 Destroyer Sniper-Tank Mode ability with on/off
-14 - Fix citadel lack of modules
 15 - POS station will block other stations but will give system wide shield
+16 - Create eletronic ships
+25 - Special ships should have AFB 
+ 
+29 - Orcas will have fix structures ability
+30 - Fix Ores Ships names, meshs, pictures and icons
+31 - Create Projectors abilities and efffects
+32 - Create cruisers/interdictors
+33 - Remove interdictors
+34 - Cruiser Resist names and icons
+35 - Cruisers Damage name and icons
 
 II - Test
 
 1 - Carriers and Supers should have Anti-drone Fighters (rename and test)
-2 - Citadel should have hangars, factory, trade port
+2 - Pirate Orca will build Pirate Citadel/Shipyard
+3 - Test new Orca
+13 - T3 Destroyer Sniper/Tank Mode ability with on/off
+26 - Citadel should have Anti-drone Fighters
+27 - Fix Angel Ships names, meshs, pictures and icons
+4 - Teste new angel, bloodraider, guristas and serpentis npc race

@@ -148,7 +148,7 @@ EngineSoundID "ENGINE_TECHCAPITALSHIP"
 ability:0 "AbilityMicrowarpdrive"
 ability:1 "AbilityInterdictionSphere"
 ability:2 "AbilityAmarrCynosuralField"
-ability:3 "AbilityPhasedArmourHardener"
+ability:3 ""
 ability:4 ""
 MaxAntiMatter 700.000000
 AntiMatterRestoreRate 1.200000

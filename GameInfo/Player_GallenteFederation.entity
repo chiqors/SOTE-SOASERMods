@@ -33,7 +33,7 @@ entities
 		Page:0
 			count 2
 			entityDefName "Gallente_Ship_Titan_Erebus"
-			entityDefName "Gallente_Ship_Titan_Vanquisher"
+			entityDefName "Serpentis_ShipTitan_Vanquisher"
 	capitalShipInfo
 		Page:0
 			count 8

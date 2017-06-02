@@ -7,7 +7,18 @@ allowFirstSpawnerToStack FALSE
 buffExclusivityForAIType "ExclusiveForAllPlayers"
 isInterruptable FALSE
 isChannelling FALSE
-numInstantActions 1
+numInstantActions 2
+instantAction
+	buffInstantActionType "PlayPersistantAttachedEffect"
+	instantActionTriggerType "OnDelay"
+	delayTime 0.000000
+	effectInfo
+		effectAttachInfo
+			attachType "Above"
+		smallEffectName "EVE_Buff_burstProjectorEnergyNeutralization_Small"
+		mediumEffectName "EVE_Buff_burstProjectorEnergyNeutralization_Medium"
+		largeEffectName "EVE_Buff_burstProjectorEnergyNeutralization_Large"
+		soundID ""
 instantAction
 	buffInstantActionType "RemoveAntiMatterPerc"
 	instantActionTriggerType "OnDelay"
@@ -21,6 +32,13 @@ numPeriodicActions 0
 numOverTimeActions 0
 numEntityModifiers 0
 numEntityBoolModifiers 0
-numFinishConditions 1
+numFinishConditions 2
+finishCondition
+finishConditionType "TimeElapsed"
+	time
+		Level:0 5.000000
+		Level:1 5.000000
+		Level:2 5.000000
+		Level:3 5.000000
 finishCondition
 	finishConditionType "AllOnDelayInstantActionsDone"

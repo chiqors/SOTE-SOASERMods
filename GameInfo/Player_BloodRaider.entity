@@ -30,26 +30,36 @@ entities
 			entityDefName "PLANETMODULE_TECHORBITALCANNON"
 	titanInfo
 		Page:0
-			count 0
+			count 1
+			entityDefName "BloodRaider_ShipTitan_Molok"
 	capitalShipInfo
 		Page:0
-			count 1
-			entityDefName "Sansha_Ship_Supercarrier_Uroborus"
+			count 4
+			entityDefName "BloodRaider_ShipSupercarrier_Aeon"
+			entityDefName "BloodRaider_ShipFAUX_Dagon"
+			entityDefName "BloodRaider_ShipDreadnought_Chemosh"
+			entityDefName "BloodRaider_ShipCarrier_Archon"
 	frigateInfo
 		Page:0
-			count 2
-			entityDefName "Gurista_ShipCruiserGila"
-			entityDefName "Gurista_ShipFrigateWorm"
+			count 5
+			entityDefName "Bloodraider_ShipFrigateCruor"
+			entityDefName "Bloodraider_ShipCruiserAshimuu"
+			entityDefName "BloodRaider_Ship_Frigate_CorpusFollower"
+			entityDefName "BloodRaider_ShipCruiser_Augoror"
+			entityDefName "Amarr_Ship_Frigate_Inquisitor"
 		Page:1
-			count 1
-			entityDefName "Guristas_ShipBattleshipRattlesnake"
+			count 3
+			entityDefName "Bloodraider_ShipBattleshipBhaalgorn"
+			entityDefName "BloodRaider_Ship_Battleship_CorpusArchon"
+			entityDefName "BloodRaider_Ship_Battleship_CorpusDarkCommander"
 		NotOnPage
 			count 0
 	researchInfo
 		count 1
 		entityDefName "RESEARCHSUBJECT_PIRATE_FINAL_UPGRADE"
 	starBaseInfo
-		count 0
+		count 1
+		entityDefName "BloodRaider_StructureShipyard_Raitaru"
 	flagship "FrigatePirateHeavy"
 debrisData
 	numRandomMeshNamesLarge 8

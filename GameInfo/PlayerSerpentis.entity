@@ -30,16 +30,21 @@ entities
 			entityDefName "PLANETMODULE_TECHORBITALCANNON"
 	titanInfo
 		Page:0
-			count 0
+			count 1
+			entityDefName "Serpentis_ShipTitan_Vanquisher"
 	capitalShipInfo
 		Page:0
-			count 1
-			entityDefName "Sansha_Ship_Supercarrier_Uroborus"
+			count 4
+			entityDefName "Serpentis_ShipSupercarrier_Vendeta"
+			entityDefName "Serpentis_ShipFAUX_Ninazu"
+			entityDefName "Serpentis_ShipDreadnought_Vehement"
+			entityDefName "Serpentis_ShipCarrier_Ninazu"
 	frigateInfo
 		Page:0
-			count 2
+			count 3
 			entityDefName "Serpentis_ShipCruiserVigilant"
 			entityDefName "Serpentis_ShipFrigateDaredevil"
+			entityDefName "Serpentis_ShipCruiser_Execuror"
 		Page:1
 			count 1
 			entityDefName "Serpentis_ShipBattleshipVindicator"
@@ -49,7 +54,8 @@ entities
 		count 1
 		entityDefName "RESEARCHSUBJECT_PIRATE_FINAL_UPGRADE"
 	starBaseInfo
-		count 0
+		count 1
+		entityDefName "Serpentis_StructureShipyard_Raitaru"
 	flagship "FrigatePirateHeavy"
 debrisData
 	numRandomMeshNamesLarge 8

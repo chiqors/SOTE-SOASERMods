@@ -10,9 +10,9 @@ typeCount 1
 frigateRoleType "Lrm"
 statCountType "FrigateLongRange"
 mainViewIcon "HUDICONSMALL_FRIGATE_RUPTURE"
-picture "PICTURE_FRIGATE_RUPTURE"
-NameStringID "IDS_CRUISER_RUPTURE_NAME"
-DescriptionStringID "IDS_CRUISER_RUPTURE_DESCRIPTION"
+picture "PICTURE_ANGEL_CYNABAL"
+NameStringID "IDS_Angel_Cynabal_NAME"
+DescriptionStringID "IDS_Angel_Cynabal_DESCRIPTION"
 counterDescriptionStringID "IDS_COUNTERDESC_CORVETTE_TECH"
 basePrice
 	credits 327.000000
@@ -39,7 +39,7 @@ numRandomDebrisLarge 0
 numRandomDebrisSmall 0
 numSpecificDebris 0
 armorType "Medium"
-hudIcon "HUDICON_FRIGATE_RUPTURE"
+hudIcon "HUDICON_ANGEL_CYNABAL"
 smallHudIcon "HUDICONSMALL_FRIGATE_RUPTURE"
 infoCardIcon "HUDICONSMALL_FRIGATE_RUPTURE"
 minZoomDistanceMult 1.000000

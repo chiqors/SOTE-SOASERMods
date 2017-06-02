@@ -147,8 +147,8 @@ HyperspaceTravelSoundID "HYPERSPACE_TRAVEL"
 EngineSoundID "ENGINE_PHASECAPITALSHIP"
 ability:0 "AbilityAfterburner"
 ability:1 "AbilityStasisWebifier"
-ability:2 ""
-ability:3 ""
+ability:2 "AbilityTrackingComputer"
+ability:3 "AbilityInvulnerabilityShieldField"
 ability:4 ""
 MaxAntiMatter 225.000000
 AntiMatterRestoreRate 0.610000

@@ -124,7 +124,7 @@ squadAntiMatterCost:3 0.000000
 mainViewIcon "MainViewIconStarBaseTech"
 experiencePointsForDestroying 1000.000000
 nameStringID "IDS_CITADEL_KEEPSTAR"
-picture "Allraces_Structure_Citadel_Keepstar"
+picture "PICTURE_CITADEL_KEEPSTAR"
 statCountType "StarBase"
 creationSourceAbility "AbilityDeployCitadelFortizar"
 maxUpgradeLevelCount 12

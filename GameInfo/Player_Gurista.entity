@@ -30,26 +30,32 @@ entities
 			entityDefName "PLANETMODULE_TECHORBITALCANNON"
 	titanInfo
 		Page:0
-			count 0
+			count 1
+			entityDefName "Guristas_ShipTitan_Leviathan"
 	capitalShipInfo
 		Page:0
-			count 1
-			entityDefName "Sansha_Ship_Supercarrier_Uroborus"
+			count 4
+			entityDefName "Guristas_ShipCarrier_Chimera"
+			entityDefName "Guristas_ShipFAUX_Minokawa"
+			entityDefName "Guristas_ShipSupercarrier_Wyvern"
+			entityDefName "Guristas_ShipDreadnought_Phoenix"
 	frigateInfo
 		Page:0
-			count 2
-			entityDefName "Bloodraider_ShipFrigateCruor"
-			entityDefName "Bloodraiderr_ShipCruiserAshimuu"
+			count 3
+			entityDefName "Guristas_ShipCruiser_Gila"
+			entityDefName "Guristas_ShipFrigate_Worm"
+			entityDefName "Guristas_ShipCruiser_Osprey"
 		Page:1
 			count 1
-			entityDefName "Bloodraider_ShipBattleshipBhaalgorn"
+			entityDefName "Guristas_ShipBattleshipRattlesnake"
 		NotOnPage
 			count 0
 	researchInfo
 		count 1
 		entityDefName "RESEARCHSUBJECT_PIRATE_FINAL_UPGRADE"
 	starBaseInfo
-		count 0
+		count 1
+		entityDefName "Guristas_StructureShipyard_Raitaru"
 	flagship "FrigatePirateHeavy"
 debrisData
 	numRandomMeshNamesLarge 8

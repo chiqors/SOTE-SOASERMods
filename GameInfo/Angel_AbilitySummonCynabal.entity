@@ -49,8 +49,8 @@ researchPrerequisites
 		Level 1
 	RequiredFactionNameID ""
 	RequiredCompletedResearchSubjects 0
-nameStringID "IDS_SUMMON_ORTHURS_NAME"
-descStringID "IDS_SUMMON_ORTHURS_DESCRIPTION"
-hudIcon "HUDICON_CAPITALSHIP_TECHTRANSPORT"
-smallHudIcon "HUDICON_CAPITALSHIP_TECHTRANSPORT"
+nameStringID "IDS_Angel_Cynabal_NAME"
+descStringID "IDS_Angel_Cynabal_DESCRIPTION"
+hudIcon "HUDICON_ANGEL_CYNABAL"
+smallHudIcon "HUDICON_ANGEL_CYNABAL"
 infoCardIcon ""
