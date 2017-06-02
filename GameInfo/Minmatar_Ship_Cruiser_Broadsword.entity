@@ -6,9 +6,11 @@ prefersToFocusFire FALSE
 usesFighterAttack FALSE
 autoJoinFleetDefault TRUE
 canBomb FALSE
-typeCount 1
+typeCount 3
 frigateRoleType "Heavy"
-statCountType "FrigateAntiModule"
+frigateRoleType "Lrm"
+frigateRoleType "AntiMine"
+statCountType "FrigateHeavy"
 mainViewIcon "HUDICONSMALL_FRIGATE_RUPTURE"
 picture "PICTURE_FRIGATE_RUPTURE"
 NameStringID "IDS_CRUISER_BROADSWORD_NAME"

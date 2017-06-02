@@ -14,15 +14,15 @@ numFactionWindows 2
 		smallFactionPortraitOffset [0,0]
 		previousFactionPortraitBrush "RaceSelectDialogPhaseLoyalistPortraitSmall"
 		previousFactionPortraitArea [64, 215, 65, 40]
-		nextFactionPortraitBrush "RaceSelectDialogPsiLoyalistPortraitSmall"
+		nextFactionPortraitBrush "RaceSelectDialogPhaseLoyalistPortraitSmall"
 		nextFactionPortraitArea [896, 215, 65, 40]
 		leftPlayer "Player_AmarrEmpire"
 		rightPlayer "Player_MinmatarRepublic"
 		raceNameFont "WindowTitle"
-		raceNameID "IDS_PLAYERSELECT1"
+		raceNameID "IDS_AmarrMinmatar"
 		raceNameArea [507,75,0,0]
 		raceDescriptionFont "ListItemSmall"
-		raceDescriptionID "IDS_RACESELECTDIALOG_TECH_DESCRIPTION"
+		raceDescriptionID "IDS_RACESELECTDIALOG_AmarrMinmatar_DESCRIPTION"
 		raceDescriptionArea [420,27,190,190]
 		leftPlayerNameArea [270,315,0,0]
 		rightPlayerNameArea [754,315,0,0]
@@ -109,15 +109,15 @@ numFactionWindows 2
 		smallFactionPortraitOffset [0,0]
 		previousFactionPortraitBrush "RaceSelectDialogTechLoyalistPortraitSmall"
 		previousFactionPortraitArea [64, 215, 65, 40]
-		nextFactionPortraitBrush "RaceSelectDialogPhaseLoyalistPortraitSmall"
+		nextFactionPortraitBrush "RaceSelectDialogTechLoyalistPortraitSmall"
 		nextFactionPortraitArea [896, 215, 65, 40]
 		leftPlayer "Player_GallenteFederation"
 		rightPlayer "Player_CaldariState"
 		raceNameFont "WindowTitle"
-		raceNameID "IDS_PLAYERRACENAME_PSI"
+		raceNameID "IDS_GallenteCaldari"
 		raceNameArea [507,75,0,0]
 		raceDescriptionFont "ListItemSmall"
-		raceDescriptionID "IDS_RACESELECTDIALOG_PSI_DESCRIPTION"
+		raceDescriptionID "IDS_RACESELECTDIALOG_GallenteCaldari_DESCRIPTION"
 		raceDescriptionArea [420,27,190,190]
 		leftPlayerNameArea [270,315,0,0]
 		rightPlayerNameArea [754,315,0,0]
@@ -159,14 +159,14 @@ numFactionWindows 2
 			leftFactionTechThree "RESEARCHSUBJECT_ASSIMILATED_POPULACE"
 			leftFactionTechFour "RESEARCHSUBJECT_GLOBAL_UNITY"
 			leftFactionTechFive "RESEARCHSUBJECT_PLANET_FOR_A_PLANET"
-			leftFactionTechSix "RESEARCHSUBJECT_TITANACCESS_PSILOYALIST_1"
+			leftFactionTechSix "Gallente_ResearchSubject_CapitalAccess_Erebus"
 		rightFactionTechsStartPosition [553, 578]
 			rightFactionTechOne "RESEARCHSUBJECT_REANIMATION"
 			rightFactionTechTwo "RESEARCHSUBJECT_RETURN_OF_THE_FALLEN"
 			rightFactionTechThree "RESEARCHSUBJECT_MASS_COMMUNION"
 			rightFactionTechFour "RESEARCHSUBJECT_CLEANSE_AND_RENEW"
 			rightFactionTechFive "RESEARCHSUBJECT_PROTECTION_OF_THE_UNITY"
-			rightFactionTechSix "RESEARCHSUBJECT_TITANACCESS_PSIREBEL_1"
+			rightFactionTechSix "Caldari_ResearchSubject_CapitalAccess_Levathan"
 		selectLeftButton
 			area [68, 585, 230 , 105]
 			underlayBrush "RaceSelectPsiLoyalist"
@@ -204,7 +204,7 @@ numFactionWindows 2
 		smallFactionPortraitOffset [0,0]
 		previousFactionPortraitBrush "RaceSelectDialogPsiLoyalistPortraitSmall"
 		previousFactionPortraitArea [64, 215, 65, 40]
-		nextFactionPortraitBrush "RaceSelectDialogTechLoyalistPortraitSmall"
+		nextFactionPortraitBrush "RaceSelectDialogPsiLoyalistPortraitSmall"
 		nextFactionPortraitArea [896, 215, 65, 40]
 		leftPlayer "Player_GallenteFederation"
 		rightPlayer "PlayerPhaseRebel"

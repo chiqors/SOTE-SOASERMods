@@ -6,8 +6,10 @@ prefersToFocusFire TRUE
 usesFighterAttack FALSE
 autoJoinFleetDefault TRUE
 canBomb FALSE
-typeCount 1
+typeCount 3
 frigateRoleType "Heavy"
+frigateRoleType "Lrm"
+frigateRoleType "AntiMine"
 statCountType "FrigateHeavy"
 mainViewIcon "HUDICONSMALL_FRIGATE_TYPHOON"
 picture "PICTURE_FRIGATE_TYPHOON"

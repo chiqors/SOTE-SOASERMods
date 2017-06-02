@@ -6,8 +6,10 @@ prefersToFocusFire TRUE
 usesFighterAttack FALSE
 autoJoinFleetDefault TRUE
 canBomb FALSE
-typeCount 1
-frigateRoleType "Lrm"
+typeCount 3
+frigateRoleType "Carrier"
+frigateRoleType "AntiModule"
+frigateRoleType "AntiMine"
 statCountType "FrigateCarrier"
 mainViewIcon "HUDICONSMALL_FRIGATE_BELICOSE"
 picture "PICTURE_FRIGATE_BELICOSE"

@@ -6,8 +6,9 @@ prefersToFocusFire FALSE
 usesFighterAttack FALSE
 autoJoinFleetDefault FALSE
 canBomb FALSE
-typeCount 1
+typeCount 2
 frigateRoleType "Scout"
+frigateRoleType "AntiMine"
 statCountType "FrigateScout"
 mainViewIcon "HUDICONSMALL_FRIGATE_PROBE"
 picture "PICTURE_FRIGATE_PROBE"

@@ -6,8 +6,9 @@ prefersToFocusFire TRUE
 usesFighterAttack FALSE
 autoJoinFleetDefault TRUE
 canBomb FALSE
-typeCount 1
+typeCount 2
 frigateRoleType "AntiFighter"
+frigateRoleType "AntiMine"
 statCountType "FrigateAntiFighter"
 mainViewIcon "HUDICONSMALL_FRIGATE_TRASHER"
 picture "PICTURE_FRIGATE_THRASHER"
