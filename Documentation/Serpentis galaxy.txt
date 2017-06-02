@@ -1,0 +1,183 @@
+planetItemsTemplate
+	templateName "Template:LocalMilitiaStrongFair"
+	subTemplates 0
+	groups 8
+		group
+			condition
+				type "PlanetOwnerIsMilitia"
+				param ""
+			owner "PlanetOwner"
+			colonizeChance 1
+			items 19
+				item "Serpentis:Frigate:Frigate"
+				item "Serpentis:Frigate:Frigate"
+				item "Serpentis:Frigate:Frigate"
+				item "Serpentis:Frigate:Frigate"
+				item "Serpentis:Frigate:Frigate"
+				item "Serpentis:Frigate:Frigate"
+				item "Serpentis:Frigate:Cruiser"
+				item "Serpentis:Frigate:Cruiser"
+				item "Serpentis:Frigate:Cruiser"
+				item "Serpentis:Frigate:Cruiser"
+				item "Serpentis:Frigate:Logistics"
+				item "Serpentis:Frigate:Logistics"
+				item "Serpentis:Frigate:Logistics"
+				item "Serpentis:Frigate:Battleship"
+				item "Serpentis:Frigate:Battleship"
+				item "Serpentis:Frigate:Siege"
+				item "Serpentis:Frigate:Siege"
+				item "Amarr:Module:GaussDefense"	
+				item "Amarr:Module:GaussDefense"
+				item "Amarr:Module:GaussDefense"													
+				item "Amarr:Module:HangarDefense"
+				item "Amarr:Module:HangarDefense"
+				item "Amarr:Module:MetalExtractor"											
+				item "Amarr:Module:MetalExtractor"					
+		group
+			condition
+				type "PlanetOwnerIsMilitiaWithChance"
+				param "0.2"
+			owner "RandomMilitia"
+			colonizeChance 0
+			items 1
+				item "Serpentis:CapitalShip:Carrier"
+		group
+			condition
+				type "PlanetOwnerIsMilitiaWithChance"
+				param "0.2"
+			owner "RandomMilitia"
+			colonizeChance 0
+			items 1
+				item "Serpentis:CapitalShip:FAUX"
+		group
+			condition
+				type "PlanetOwnerIsMilitiaWithChance"
+				param "0.2"
+			owner "RandomMilitia"
+			colonizeChance 0
+			items 1
+				item "Serpentis:CapitalShip:Dreadnought"
+		group
+			condition
+				type "PlanetOwnerIsMilitiaWithChance"
+				param "0.1"
+			owner "RandomMilitia"
+			colonizeChance 0
+			items 1
+				item "Serpentis:CapitalShip:SuperCarrier"
+		group
+			condition
+				type "PlanetOwnerIsMilitiaWithChance"
+				param "0.1"
+			owner "RandomMilitia"
+			colonizeChance 0
+			items 1
+				item "Serpentis:CapitalShip:Titan"
+		group
+			condition
+				type "PlanetOwnerIsMilitiaWithChance"
+				param "0.3"
+			owner "RandomMilitia"
+			colonizeChance 0
+			items 1		
+				item "Serpentis:Frigate:Colony"
+		group
+			condition
+				type "PlanetOwnerIsMilitiaWithChance"
+				param "0.1"
+			owner "RandomMilitia"
+			colonizeChance 0
+			items 1
+				item "Serpentis:Frigate:Shipyard"
+		group
+			condition
+				type "NoPlanetOwner"
+				param ""
+			owner "RandomMilitia"
+			colonizeChance 0
+			items 9
+				item "Serpentis:Frigate:Frigate"
+				item "Serpentis:Frigate:Frigate"
+				item "Serpentis:Frigate:Frigate"
+				item "Serpentis:Frigate:Frigate"
+				item "Serpentis:Frigate:Cruiser"
+				item "Serpentis:Frigate:Cruiser"
+				item "Serpentis:Frigate:Siege"
+				item "Serpentis:Frigate:Siege"			
+				item "Serpentis:Frigate:Siege"
+		group
+			condition
+				type "NoPlanetOwnerWithChance"
+				param "0.4"
+			owner "RandomMilitia"
+			colonizeChance 0
+			items 2
+				item "Serpentis:Frigate:Frigate"
+				item "Serpentis:Frigate:Frigate"
+		group
+			condition
+				type "NoPlanetOwnerWithChance"
+				param "0.4"
+			owner "RandomMilitia"
+			colonizeChance 0
+			items 2
+				item "Serpentis:Frigate:Cruiser"
+				item "Serpentis:Frigate:Cruiser"
+		group
+			condition
+				type "NoPlanetOwnerWithChance"
+				param "0.3"
+			owner "RandomMilitia"
+			colonizeChance 0
+			items 1				
+				item "Serpentis:Frigate:Battleship"
+		group
+			condition
+				type "NoPlanetOwnerWithChance"
+				param "0.3"
+			owner "RandomMilitia"
+			colonizeChance 0
+			items 2		
+				item "Serpentis:Frigate:Siege"
+				item "Serpentis:Frigate:Siege"								
+		group
+			condition
+				type "NoPlanetOwnerWithChance"
+				param "0.2"
+			owner "RandomMilitia"
+			colonizeChance 0
+			items 2				
+				item "Serpentis:Frigate:Logistics"
+				item "Serpentis:Frigate:Logistics"
+		group
+			condition
+				type "NoPlanetOwnerWithChance"
+				param "0.2"
+			owner "RandomMilitia"
+			colonizeChance 0
+			items 1
+				item "Serpentis:Frigate:Colony"
+		group
+			condition
+				type "NoPlanetOwnerWithChance"
+				param "0.1"
+			owner "RandomMilitia"
+			colonizeChance 0
+			items 1
+				item "Serpentis:CapitalShip:Carrier"
+		group
+			condition
+				type "NoPlanetOwnerWithChance"
+				param "0.1"
+			owner "RandomMilitia"
+			colonizeChance 0
+			items 1				
+				item "Serpentis:CapitalShip:FAUX"
+		group
+			condition
+				type "NoPlanetOwnerWithChance"
+				param "0.1"
+			owner "RandomMilitia"
+			colonizeChance 0
+			items 1						
+				item "Serpentis:CapitalShip:Dreadnought"

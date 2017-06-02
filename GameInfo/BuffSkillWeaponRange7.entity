@@ -14,10 +14,10 @@ numEntityModifiers 1
 entityModifier
 	buffEntityModifierType "WeaponRange"
 	value
-		Level:0 1.375000
-		Level:1 1.375000
-		Level:2 1.375000
-		Level:3 1.375000
+		Level:0 0.375000
+		Level:1 0.375000
+		Level:2 0.375000
+		Level:3 0.375000
 numEntityBoolModifiers 0
 numFinishConditions 1
 finishCondition

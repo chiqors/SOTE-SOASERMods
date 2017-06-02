@@ -1,0 +1,39 @@
+planetItemType
+	designName "Angel:Frigate:Frigate"
+	entityDefName "Angel_ShipFrigateDramiel"
+planetItemType
+	designName "Angel:Frigate:Siege"
+	entityDefName "Angel_ShipFrigate_Breacher"
+planetItemType
+	designName "Angel:Frigate:Cruiser"
+	entityDefName "Angel_AbilitySummonCynabal"	
+planetItemType
+	designName "Angel:Frigate:Logistics"
+	entityDefName "Angel_ShipCruiser_Scyther"
+planetItemType
+	designName "Angel:Frigate:Battleship"
+	entityDefName "Angel_ShipBattleshipMachariel"
+planetItemType
+	designName "Angel:Frigate:Carrier"
+	entityDefName "Angel_ShipCarrier_Nidhoggur"
+planetItemType
+	designName "Angel:Frigate:FAUX"
+	entityDefName "Angel_ShipFAUX_Lif"
+planetItemType
+	designName "Angel:Frigate:Dreadnought"
+	entityDefName "Angel_ShipDreadnoughtNaglfar"
+planetItemType
+	designName "Angel:Frigate:SuperCarrier"
+	entityDefName "Angel_ShipSupercarrierHel"	
+planetItemType
+	designName "Angel:Frigate:Colony"
+	entityDefName "Angel_ShipColony_Orca"
+planetItemType
+	designName "Angel:Frigate:Titan"
+	entityDefName "Angel_ShipTitanRagnarok"	
+planetItemType
+	designName "Angel:Frigate:Shipyard"
+	entityDefName "Angel_StructureShipyard_Raitaru"
+
+
+

@@ -1,0 +1,183 @@
+planetItemsTemplate
+	templateName "Template:LocalMilitiaStrongFair"
+	subTemplates 0
+	groups 8
+		group
+			condition
+				type "PlanetOwnerIsMilitia"
+				param ""
+			owner "PlanetOwner"
+			colonizeChance 1
+			items 19
+				item "BloodRaider:Frigate:Frigate"
+				item "BloodRaider:Frigate:Frigate"
+				item "BloodRaider:Frigate:Frigate"
+				item "BloodRaider:Frigate:Frigate"
+				item "BloodRaider:Frigate:Frigate"
+				item "BloodRaider:Frigate:Frigate"
+				item "BloodRaider:Frigate:Cruiser"
+				item "BloodRaider:Frigate:Cruiser"
+				item "BloodRaider:Frigate:Cruiser"
+				item "BloodRaider:Frigate:Cruiser"
+				item "BloodRaider:Frigate:Logistics"
+				item "BloodRaider:Frigate:Logistics"
+				item "BloodRaider:Frigate:Logistics"
+				item "BloodRaider:Frigate:Battleship"
+				item "BloodRaider:Frigate:Battleship"
+				item "BloodRaider:Frigate:Siege"
+				item "BloodRaider:Frigate:Siege"
+				item "Amarr:Module:GaussDefense"	
+				item "Amarr:Module:GaussDefense"
+				item "Amarr:Module:GaussDefense"													
+				item "Amarr:Module:HangarDefense"
+				item "Amarr:Module:HangarDefense"
+				item "Amarr:Module:MetalExtractor"											
+				item "Amarr:Module:MetalExtractor"					
+		group
+			condition
+				type "PlanetOwnerIsMilitiaWithChance"
+				param "0.2"
+			owner "RandomMilitia"
+			colonizeChance 0
+			items 1
+				item "BloodRaider:CapitalShip:Carrier"
+		group
+			condition
+				type "PlanetOwnerIsMilitiaWithChance"
+				param "0.2"
+			owner "RandomMilitia"
+			colonizeChance 0
+			items 1
+				item "BloodRaider:CapitalShip:FAUX"
+		group
+			condition
+				type "PlanetOwnerIsMilitiaWithChance"
+				param "0.2"
+			owner "RandomMilitia"
+			colonizeChance 0
+			items 1
+				item "BloodRaider:CapitalShip:Dreadnought"
+		group
+			condition
+				type "PlanetOwnerIsMilitiaWithChance"
+				param "0.1"
+			owner "RandomMilitia"
+			colonizeChance 0
+			items 1
+				item "BloodRaider:CapitalShip:SuperCarrier"
+		group
+			condition
+				type "PlanetOwnerIsMilitiaWithChance"
+				param "0.1"
+			owner "RandomMilitia"
+			colonizeChance 0
+			items 1
+				item "BloodRaider:CapitalShip:Titan"
+		group
+			condition
+				type "PlanetOwnerIsMilitiaWithChance"
+				param "0.3"
+			owner "RandomMilitia"
+			colonizeChance 0
+			items 1		
+				item "BloodRaider:Frigate:Colony"
+		group
+			condition
+				type "PlanetOwnerIsMilitiaWithChance"
+				param "0.1"
+			owner "RandomMilitia"
+			colonizeChance 0
+			items 1
+				item "BloodRaider:Frigate:Shipyard"
+		group
+			condition
+				type "NoPlanetOwner"
+				param ""
+			owner "RandomMilitia"
+			colonizeChance 0
+			items 9
+				item "BloodRaider:Frigate:Frigate"
+				item "BloodRaider:Frigate:Frigate"
+				item "BloodRaider:Frigate:Frigate"
+				item "BloodRaider:Frigate:Frigate"
+				item "BloodRaider:Frigate:Cruiser"
+				item "BloodRaider:Frigate:Cruiser"
+				item "BloodRaider:Frigate:Siege"
+				item "BloodRaider:Frigate:Siege"			
+				item "BloodRaider:Frigate:Siege"
+		group
+			condition
+				type "NoPlanetOwnerWithChance"
+				param "0.4"
+			owner "RandomMilitia"
+			colonizeChance 0
+			items 2
+				item "BloodRaider:Frigate:Frigate"
+				item "BloodRaider:Frigate:Frigate"
+		group
+			condition
+				type "NoPlanetOwnerWithChance"
+				param "0.4"
+			owner "RandomMilitia"
+			colonizeChance 0
+			items 2
+				item "BloodRaider:Frigate:Cruiser"
+				item "BloodRaider:Frigate:Cruiser"
+		group
+			condition
+				type "NoPlanetOwnerWithChance"
+				param "0.3"
+			owner "RandomMilitia"
+			colonizeChance 0
+			items 1				
+				item "BloodRaider:Frigate:Battleship"
+		group
+			condition
+				type "NoPlanetOwnerWithChance"
+				param "0.3"
+			owner "RandomMilitia"
+			colonizeChance 0
+			items 2		
+				item "BloodRaider:Frigate:Siege"
+				item "BloodRaider:Frigate:Siege"								
+		group
+			condition
+				type "NoPlanetOwnerWithChance"
+				param "0.2"
+			owner "RandomMilitia"
+			colonizeChance 0
+			items 2				
+				item "BloodRaider:Frigate:Logistics"
+				item "BloodRaider:Frigate:Logistics"
+		group
+			condition
+				type "NoPlanetOwnerWithChance"
+				param "0.2"
+			owner "RandomMilitia"
+			colonizeChance 0
+			items 1
+				item "BloodRaider:Frigate:Colony"
+		group
+			condition
+				type "NoPlanetOwnerWithChance"
+				param "0.1"
+			owner "RandomMilitia"
+			colonizeChance 0
+			items 1
+				item "BloodRaider:CapitalShip:Carrier"
+		group
+			condition
+				type "NoPlanetOwnerWithChance"
+				param "0.1"
+			owner "RandomMilitia"
+			colonizeChance 0
+			items 1				
+				item "BloodRaider:CapitalShip:FAUX"
+		group
+			condition
+				type "NoPlanetOwnerWithChance"
+				param "0.1"
+			owner "RandomMilitia"
+			colonizeChance 0
+			items 1						
+				item "BloodRaider:CapitalShip:Dreadnought"

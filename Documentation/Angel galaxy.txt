@@ -1,0 +1,183 @@
+planetItemsTemplate
+	templateName "Template:LocalMilitiaStrongFair"
+	subTemplates 0
+	groups 8
+		group
+			condition
+				type "PlanetOwnerIsMilitia"
+				param ""
+			owner "PlanetOwner"
+			colonizeChance 1
+			items 19
+				item "Angel:Frigate:Frigate"
+				item "Angel:Frigate:Frigate"
+				item "Angel:Frigate:Frigate"
+				item "Angel:Frigate:Frigate"
+				item "Angel:Frigate:Frigate"
+				item "Angel:Frigate:Frigate"
+				item "Angel:Frigate:Cruiser"
+				item "Angel:Frigate:Cruiser"
+				item "Angel:Frigate:Cruiser"
+				item "Angel:Frigate:Cruiser"
+				item "Angel:Frigate:Logistics"
+				item "Angel:Frigate:Logistics"
+				item "Angel:Frigate:Logistics"
+				item "Angel:Frigate:Battleship"
+				item "Angel:Frigate:Battleship"
+				item "Angel:Frigate:Siege"
+				item "Angel:Frigate:Siege"
+				item "Amarr:Module:GaussDefense"	
+				item "Amarr:Module:GaussDefense"
+				item "Amarr:Module:GaussDefense"													
+				item "Amarr:Module:HangarDefense"
+				item "Amarr:Module:HangarDefense"
+				item "Amarr:Module:MetalExtractor"											
+				item "Amarr:Module:MetalExtractor"					
+		group
+			condition
+				type "PlanetOwnerIsMilitiaWithChance"
+				param "0.2"
+			owner "RandomMilitia"
+			colonizeChance 0
+			items 1
+				item "Angel:CapitalShip:Carrier"
+		group
+			condition
+				type "PlanetOwnerIsMilitiaWithChance"
+				param "0.2"
+			owner "RandomMilitia"
+			colonizeChance 0
+			items 1
+				item "Angel:CapitalShip:FAUX"
+		group
+			condition
+				type "PlanetOwnerIsMilitiaWithChance"
+				param "0.2"
+			owner "RandomMilitia"
+			colonizeChance 0
+			items 1
+				item "Angel:CapitalShip:Dreadnought"
+		group
+			condition
+				type "PlanetOwnerIsMilitiaWithChance"
+				param "0.1"
+			owner "RandomMilitia"
+			colonizeChance 0
+			items 1
+				item "Angel:CapitalShip:SuperCarrier"
+		group
+			condition
+				type "PlanetOwnerIsMilitiaWithChance"
+				param "0.1"
+			owner "RandomMilitia"
+			colonizeChance 0
+			items 1
+				item "Angel:CapitalShip:Titan"
+		group
+			condition
+				type "PlanetOwnerIsMilitiaWithChance"
+				param "0.3"
+			owner "RandomMilitia"
+			colonizeChance 0
+			items 1		
+				item "Angel:Frigate:Colony"
+		group
+			condition
+				type "PlanetOwnerIsMilitiaWithChance"
+				param "0.1"
+			owner "RandomMilitia"
+			colonizeChance 0
+			items 1
+				item "Angel:Frigate:Shipyard"
+		group
+			condition
+				type "NoPlanetOwner"
+				param ""
+			owner "RandomMilitia"
+			colonizeChance 0
+			items 9
+				item "Angel:Frigate:Frigate"
+				item "Angel:Frigate:Frigate"
+				item "Angel:Frigate:Frigate"
+				item "Angel:Frigate:Frigate"
+				item "Angel:Frigate:Cruiser"
+				item "Angel:Frigate:Cruiser"
+				item "Angel:Frigate:Siege"
+				item "Angel:Frigate:Siege"			
+				item "Angel:Frigate:Siege"
+		group
+			condition
+				type "NoPlanetOwnerWithChance"
+				param "0.4"
+			owner "RandomMilitia"
+			colonizeChance 0
+			items 2
+				item "Angel:Frigate:Frigate"
+				item "Angel:Frigate:Frigate"
+		group
+			condition
+				type "NoPlanetOwnerWithChance"
+				param "0.4"
+			owner "RandomMilitia"
+			colonizeChance 0
+			items 2
+				item "Angel:Frigate:Cruiser"
+				item "Angel:Frigate:Cruiser"
+		group
+			condition
+				type "NoPlanetOwnerWithChance"
+				param "0.3"
+			owner "RandomMilitia"
+			colonizeChance 0
+			items 1				
+				item "Angel:Frigate:Battleship"
+		group
+			condition
+				type "NoPlanetOwnerWithChance"
+				param "0.3"
+			owner "RandomMilitia"
+			colonizeChance 0
+			items 2		
+				item "Angel:Frigate:Siege"
+				item "Angel:Frigate:Siege"								
+		group
+			condition
+				type "NoPlanetOwnerWithChance"
+				param "0.2"
+			owner "RandomMilitia"
+			colonizeChance 0
+			items 2				
+				item "Angel:Frigate:Logistics"
+				item "Angel:Frigate:Logistics"
+		group
+			condition
+				type "NoPlanetOwnerWithChance"
+				param "0.2"
+			owner "RandomMilitia"
+			colonizeChance 0
+			items 1
+				item "Angel:Frigate:Colony"
+		group
+			condition
+				type "NoPlanetOwnerWithChance"
+				param "0.1"
+			owner "RandomMilitia"
+			colonizeChance 0
+			items 1
+				item "Angel:CapitalShip:Carrier"
+		group
+			condition
+				type "NoPlanetOwnerWithChance"
+				param "0.1"
+			owner "RandomMilitia"
+			colonizeChance 0
+			items 1				
+				item "Angel:CapitalShip:FAUX"
+		group
+			condition
+				type "NoPlanetOwnerWithChance"
+				param "0.1"
+			owner "RandomMilitia"
+			colonizeChance 0
+			items 1						
+				item "Angel:CapitalShip:Dreadnought"

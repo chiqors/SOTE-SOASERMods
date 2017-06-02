@@ -1,0 +1,39 @@
+planetItemType
+	designName "Serpentis:Frigate:Frigate"
+	entityDefName "Serpentis_ShipFrigateDaredevil"
+planetItemType
+	designName "Serpentis:Frigate:Siege"
+	entityDefName "Gallente_Ship_Frigate_Tristan.entity"
+planetItemType
+	designName "Serpentis:Frigate:Cruiser"
+	entityDefName "Serpentis_ShipCruiserVigilant"	
+planetItemType
+	designName "Serpentis:Frigate:Logistics"
+	entityDefName "Serpentis_ShipCruiser_Execuror"
+planetItemType
+	designName "Serpentis:Frigate:Battleship"
+	entityDefName "Serpentis_ShipBattleshipVindicator"
+planetItemType
+	designName "Serpentis:Frigate:Carrier"
+	entityDefName "Serpentis_ShipCarrier_Ninazu"
+planetItemType
+	designName "Serpentis:Frigate:FAUX"
+	entityDefName "Serpentis_ShipFAUX_Ninazu"
+planetItemType
+	designName "Serpentis:Frigate:Dreadnought"
+	entityDefName "Serpentis_ShipDreadnought_Vehement"
+planetItemType
+	designName "Serpentis:Frigate:SuperCarrier"
+	entityDefName "Serpentis_ShipSupercarrier_Vendeta"	
+planetItemType
+	designName "Serpentis:Frigate:Titan"
+	entityDefName "Serpentis_ShipTitan_Vanquisher"	
+planetItemType
+	designName "Serpentis:Frigate:Colony"
+	entityDefName "Angel_ShipColony_Orca"
+planetItemType
+	designName "Serpentis:Frigate:Shipyard"
+	entityDefName "Serpentis_StructureShipyard_Raitaru"
+
+
+
