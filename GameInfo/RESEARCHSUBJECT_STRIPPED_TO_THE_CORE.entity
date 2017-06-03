@@ -39,5 +39,5 @@ researchModifier
 	buffToApply "BuffStrippedToTheCoreSelf"
 researchFloatModifiers 0
 artifactPicture ""
-uniqueOverlayBrush "RebellionResearchOverlay"
+uniqueOverlayBrush ""
 dlcId 204880

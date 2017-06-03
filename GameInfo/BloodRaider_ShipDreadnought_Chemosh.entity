@@ -78,7 +78,7 @@ AntiMatterRestoreRate
 CultureProtectRate
 	StartValue 0.700000
 	ValueIncreasePerLevel 0.050000
-NameStringID "IDS_SNIPERREVELATION_NAME"
+NameStringID "IDS_BLOODRAIDER_NAME"
 DescriptionStringID "IDS_SNIPERREVELATION_DESCRIPTION"
 picture "PICTURE_CAPITAL_REVELATION"
 Prerequisites

@@ -34,6 +34,3 @@ planetItemType
 planetItemType
 	designName "BloodRaider:Frigate:Shipyard"
 	entityDefName "BloodRaider_StructureShipyard_Raitaru"
-
-
-

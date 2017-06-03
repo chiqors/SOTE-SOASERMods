@@ -38,5 +38,5 @@ researchModifier
 	pactUnlockEntityDefName "RESEARCHSUBJECT_PACTBONUS_ENERGY_WEAPON_COOLDOWN"
 researchFloatModifiers 0
 artifactPicture ""
-uniqueOverlayBrush "RebellionResearchOverlay"
+uniqueOverlayBrush ""
 dlcId 204880

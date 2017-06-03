@@ -1,4 +1,25 @@
 planetItemType
+	designName "Guristas:CapitalShip:Carrier"
+	entityDefName "Guristas_ShipCarrier_Chimera"
+planetItemType
+	designName "Guristas:CapitalShip:FAUX"
+	entityDefName "Guristas_ShipFAUX_Minokawa"
+planetItemType
+	designName "Guristas:CapitalShip:Dreadnought"
+	entityDefName "Guristas_ShipDreadnought_Phoenix"
+planetItemType
+	designName "Guristas:CapitalShip:SuperCarrier"
+	entityDefName "Guristas_ShipSupercarrier_Wyvern"	
+planetItemType
+	designName "Guristas:CapitalShip:Titan"
+	entityDefName "Guristas_ShipTitan_Leviathan"	
+planetItemType
+	designName "Guristas:Frigate:Colony"
+	entityDefName "Angel_ShipColony_Orca"
+planetItemType
+	designName "Guristas:Frigate:Shipyard"
+	entityDefName "Guristas_StructureShipyard_Raitaru"
+planetItemType
 	designName "Guristas:Frigate:Frigate"
 	entityDefName "Guristas_ShipFrigate_Worm"
 planetItemType
@@ -13,27 +34,3 @@ planetItemType
 planetItemType
 	designName "Guristas:Frigate:Battleship"
 	entityDefName "Guristas_ShipBattleshipRattlesnake"
-planetItemType
-	designName "Guristas:Frigate:Carrier"
-	entityDefName "Guristas_ShipCarrier_Chimera"
-planetItemType
-	designName "Guristas:Frigate:FAUX"
-	entityDefName "Guristas_ShipFAUX_Minokawa"
-planetItemType
-	designName "Guristas:Frigate:Dreadnought"
-	entityDefName "Guristas_ShipDreadnought_Phoenix"
-planetItemType
-	designName "Guristas:Frigate:SuperCarrier"
-	entityDefName "Guristas_ShipSupercarrier_Wyvern"	
-planetItemType
-	designName "Guristas:Frigate:Titan"
-	entityDefName "Guristas_ShipTitan_Leviathan"	
-planetItemType
-	designName "Guristas:Frigate:Colony"
-	entityDefName "Angel_ShipColony_Orca"
-planetItemType
-	designName "Guristas:Frigate:Shipyard"
-	entityDefName "Guristas_StructureShipyard_Raitaru"
-
-
-

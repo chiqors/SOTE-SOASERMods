@@ -39,5 +39,5 @@ researchModifier
 	perLevelValue 0.200000
 	linkedWeaponClass "WAVE"
 artifactPicture ""
-uniqueOverlayBrush "RebellionResearchOverlay"
+uniqueOverlayBrush ""
 dlcId 204880

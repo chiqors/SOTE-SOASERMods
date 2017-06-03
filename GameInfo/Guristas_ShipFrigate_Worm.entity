@@ -45,7 +45,7 @@ frigateRoleType "Siege"
 statCountType "FrigateSiege"
 mainViewIcon "MAINVIEWICON_FRIGATE_KESTREL"
 picture "PICTURE_GURISTA_WORM"
-NameStringID "IDS_FRIGATE_KESTREL_NAME"
+NameStringID "IDS_Guristas_Worm_NAME"
 DescriptionStringID "IDS_FRIGATE_KESTREL_DESCRIPTION"
 counterDescriptionStringID "IDS_COUNTERDESC_FRIGATE_NONCOMBAT"
 basePrice

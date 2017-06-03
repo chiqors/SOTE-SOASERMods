@@ -21,13 +21,14 @@ entities
 			entityDefName "Amarr_Structure_CivillianLab"
 			entityDefName "Minmatar_Structure_Refinery"
 		Page:1
-			count 7
+			count 8
 			entityDefName "Amarr_Structure_SmallPulseLaserBattery"
 			entityDefName "Amarr_Structure_MediumPulseLaserBattery"
 			entityDefName "Amarr_Structure_LargePulseLaserBattery"
 			entityDefName "Amarr_Structure_ECMBattery"
 			entityDefName "Amarr_Structure_JumpBridge"
 			entityDefName "Amarr_Structure_CynoJammer"
+			entityDefName "Angel_ModuleShipyard"
 			entityDefName "Minmatar_Structure_TitanFoundry"
 	titanInfo
 		Page:0
@@ -73,7 +74,7 @@ entities
 			entityDefName "Minmatar_Ship_Tradeship_Manmonth"
 			entityDefName "Minmatar_Ship_Refineryship_Mamonth"
 	researchInfo
-		count 135
+		count 136
 		entityDefName "RSACovertOps"
 		entityDefName "RSAHeavyAssault"
 		entityDefName "RSABlackOps"
@@ -208,7 +209,8 @@ entities
 		entityDefName "RESEARCHSUBJECT_SHARED_NETWORK"
 		entityDefName "RESEARCHSUBJECT_UNIVERSAL_NEGOTIATION"
 		entityDefName "AllRaces_ResearchSubject_ArcingVortonProjector"
-		entityDefName "RESEARCHSUBJECT_STARBASEUPGRADEACCESS_FACTORY"		
+		entityDefName "RESEARCHSUBJECT_STARBASEUPGRADEACCESS_FACTORY"
+		entityDefName "RESEARCHSUBJECT_PLANETMODULEACCESS_REPAIRPLATFORMPSI"
 	starBaseInfo
 		count 3
 		entityDefName "Allraces_Structure_Citadel_Astrahus"

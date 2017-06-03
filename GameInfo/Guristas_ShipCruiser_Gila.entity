@@ -11,7 +11,7 @@ frigateRoleType "Lrm"
 statCountType "FrigateLongRange"
 mainViewIcon "MAINVIEWICON_FRIGATE_CARACAL"
 picture "PICTURE_GURISTA_GILA"
-NameStringID "IDS_FRIGATE_CARACAL_NAME"
+NameStringID "IDS_Guristas_Gila_NAME"
 DescriptionStringID "IDS_FRIGATE_CARACAL_DESCRIPTION"
 counterDescriptionStringID "IDS_COUNTERDESC_CORVETTE_TECH"
 basePrice

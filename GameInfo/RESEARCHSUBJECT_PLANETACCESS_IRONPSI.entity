@@ -34,5 +34,5 @@ researchModifier
 	linkedPlanetType "Iron"
 researchFloatModifiers 0
 artifactPicture ""
-uniqueOverlayBrush "RebellionResearchOverlay"
+uniqueOverlayBrush ""
 dlcId 228601

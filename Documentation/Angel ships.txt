@@ -6,7 +6,7 @@ planetItemType
 	entityDefName "Angel_ShipFrigate_Breacher"
 planetItemType
 	designName "Angel:Frigate:Cruiser"
-	entityDefName "Angel_AbilitySummonCynabal"	
+	entityDefName "Angel_ShipCruiserCynabal"	
 planetItemType
 	designName "Angel:Frigate:Logistics"
 	entityDefName "Angel_ShipCruiser_Scyther"

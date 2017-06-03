@@ -39,5 +39,5 @@ researchModifier
 	perLevelValue 0.050000
 	linkedWeaponClass "PULSEGUN"
 artifactPicture ""
-uniqueOverlayBrush "RebellionResearchOverlay"
+uniqueOverlayBrush ""
 dlcId 204880

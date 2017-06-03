@@ -36,5 +36,5 @@ researchModifier
 	perLevelValue 0.120000
 	linkedPlanetType "Barren"
 artifactPicture ""
-uniqueOverlayBrush "RebellionResearchOverlay"
+uniqueOverlayBrush ""
 dlcId 228601

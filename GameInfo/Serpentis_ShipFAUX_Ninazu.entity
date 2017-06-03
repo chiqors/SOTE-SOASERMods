@@ -78,7 +78,7 @@ AntiMatterRestoreRate
 CultureProtectRate
 	StartValue 0.600000
 	ValueIncreasePerLevel 0.050000
-NameStringID "IDS_CAPITALSHIP_NINAZU_NAME"
+NameStringID "IDS_CAPITALSHIP_SERPENTIS_NINAZU_NAME"
 DescriptionStringID "IDS_CAPITALSHIP_NINAZU_DESCRIPTION"
 picture "PICTURE_CAPITAL_NINAZU"
 Prerequisites

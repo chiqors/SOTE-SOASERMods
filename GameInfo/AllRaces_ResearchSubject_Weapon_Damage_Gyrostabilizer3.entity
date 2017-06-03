@@ -44,5 +44,5 @@ researchModifier
 	perLevelValue 0.030000
 	linkedWeaponClass "GAUSS"	
 artifactPicture ""
-uniqueOverlayBrush "RebellionResearchOverlay"
+uniqueOverlayBrush ""
 dlcId 204880
