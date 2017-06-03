@@ -1,6 +1,6 @@
 ﻿TXT
 onlyLoadOnDemand FALSE
-brushCount 316
+brushCount 317
 brush
 	name "HUDICON_CORVETTE_PHASE"
 	content "States"
@@ -14,7 +14,7 @@ brush
 		fileName "Unit_Hud2_CursorOver"
 		pixelBox [ 202 , 76 , 47 , 33 ]
 	Focused
-		fileName "Unit_Hud2_Normal"
+		fileName "Unit_Hud2_Normal"	
 		pixelBox [ 202 , 76 , 47 , 33 ]
 	Normal
 		fileName "Unit_Hud2_Normal"
@@ -4090,3 +4090,22 @@ brush
 	Normal
 		fileName "Ships_Buttons_Normal"
 		pixelBox [ 973 , 866 , 47 , 33 ]
+brush
+	name "HUDICON_CALDARI_TENGU"
+	content "States"
+	Disabled
+		fileName "Ships_Buttons_Disabled"
+		pixelBox [ 566 , 866 , 47 , 33 ]
+	Pressed
+		fileName "Ships_Buttons_Pressed"
+		pixelBox [ 566 , 866 , 47 , 33 ]
+	CursorOver
+		fileName "Ships_Buttons_CursorOver"
+		pixelBox [ 566 , 866 , 47 , 33 ]
+	Focused
+		fileName "Ships_Buttons_Normal"
+		pixelBox [ 566 , 866 , 47 , 33 ]
+	Normal
+		fileName "Ships_Buttons_Normal"
+		pixelBox [ 566 , 866 , 47 , 33 ]
+		

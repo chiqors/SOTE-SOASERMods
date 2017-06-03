@@ -33,8 +33,8 @@ researchPrerequisites
 	NumResearchPrerequisites 0
 	RequiredFactionNameID ""
 	RequiredCompletedResearchSubjects 0
-nameStringID "IDS_DRONE_MISSILE_NAME"
-descStringID "IDS_DRONE_MISSILE_DESCRIPTION"
-hudIcon "HUDICON_ABILITY_DRONEBOMBER"
-smallHudIcon "HUDICON_ABILITY_DRONEBOMBER"
+nameStringID "IDS_SUPERCARRIER_REFIT_NAME"
+descStringID "IDS_SUPERCARRIER_REFIT_DESCRIPTION"
+hudIcon "HUDICON_ABILITY_SUPERCARRIER"
+smallHudIcon "HUDICON_ABILITY_SUPERCARRIER"
 infoCardIcon ""

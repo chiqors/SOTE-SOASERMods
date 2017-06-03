@@ -66,8 +66,8 @@ entities
 			entityDefName "Caldari_Ship_Battleship_Raven"
 			entityDefName "Caldari_Ship_Battleship_Rokh"
 			entityDefName "Caldari_Ship_Envoy_Ferox"
-			entityDefName "Guristas_ShipBattleshipRattlesnake"
 			entityDefName "Caldari_Ship_Destroyer_Jackdaw"
+			entityDefName "Caldari_ShipT3Cruiser_Tengu"
 		NotOnPage
 			count 3
 			entityDefName "Gallente_Ship_Constructor_Venture"

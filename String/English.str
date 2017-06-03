@@ -1,5 +1,5 @@
 TXT
-NumStrings 8327
+NumStrings 8331
 StringInfo
     ID "IDS_ABILITY_RORQUALPANIC_NAME"
 	Value "P.A.N.I.C Module"
@@ -24981,4 +24981,16 @@ StringInfo
 StringInfo
 	ID "IDS_Guristas_Worm_NAME"
 	Value "Guristas Worm"		
+StringInfo
+	ID "IDS_SUPERCARRIER_REFIT_NAME"
+	Value "Super Carrier Refit"
+StringInfo
+	ID "IDS_SUPERCARRIER_REFIT_DESCRIPTION"
+	Value "Change the fit of the Super Carrier with DED Armor Modules, greatly increasing survavility."		
+StringInfo
+	ID "IDS_TENGU_NAME"
+	Value "Tengu Strategic Cruiser"
+StringInfo
+	ID "IDS_TENGU_DESCRIPTION"
+	Value "Caldari Strategic Cruiser, multi purpose cruiser with the best technology avaliable for sub-capital ships."		
 		
