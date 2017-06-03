@@ -1,5 +1,5 @@
 TXT
-entityNameCount 2327
+entityNameCount 2326
 entityName "ALLRACES_RESEARCHSUBJECT_ABILITYACCESS_AFTERBURNER.entity"
 entityName "ALLRACES_RESEARCHSUBJECT_ABILITYACCESS_BASTIONMODE.entity"
 entityName "ALLRACES_RESEARCHSUBJECT_ABILITYACCESS_CLOAK.entity"
@@ -2305,7 +2305,6 @@ entityName "TitanUpgrade_TechRebel_Durability.entity"
 entityName "TitanUpgrade_TechRebel_Weapons.entity"
 entityName "Trigger.entity"
 entityName "Weapon.entity"
-entityName "Serpentis_Ship_Supercarrier_Vendeta.entity"
 entityName "Serpentis_ShipBattleshipVindicator.entity"
 entityName "Serpentis_ShipCarrier_Thanatos.entity"
 entityName "Serpentis_ShipCruiser_Execuror.entity"

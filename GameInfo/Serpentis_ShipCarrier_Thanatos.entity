@@ -154,7 +154,7 @@ TargetCountPerBank:RIGHT 0
 canOnlyTargetStructures FALSE
 mass 20000.000000
 ShieldMeshName "Thanatos"
-renderShield FALSE
+renderShield TRUE
 maxAccelerationLinear 13.750000
 maxAccelerationStrafe 1.000000
 maxDecelerationLinear 27.500000
