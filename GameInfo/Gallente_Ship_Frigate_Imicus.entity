@@ -89,7 +89,7 @@ canOnlyTargetStructures FALSE
 hasWeaponLevels FALSE
 mass 2000.000000
 ShieldMeshName "imicus"
-renderShield FALSE
+renderShield TRUE
 maxAccelerationLinear 225.000000
 maxAccelerationStrafe 10.000000
 maxDecelerationLinear 500.000000

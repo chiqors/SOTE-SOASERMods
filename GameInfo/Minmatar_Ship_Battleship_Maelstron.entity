@@ -93,8 +93,8 @@ TargetCountPerBank:RIGHT 1
 canOnlyTargetStructures FALSE
 hasWeaponLevels FALSE
 mass 11000.000000
-ShieldMeshName "Abaddon"
-renderShield FALSE
+ShieldMeshName "maelstron"
+renderShield TRUE
 maxAccelerationLinear 72.000000
 maxAccelerationStrafe 10.000000
 maxDecelerationLinear 500.000000

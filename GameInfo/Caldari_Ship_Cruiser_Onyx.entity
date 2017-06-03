@@ -96,8 +96,8 @@ TargetCountPerBank:RIGHT 0
 canOnlyTargetStructures FALSE
 hasWeaponLevels FALSE
 mass 2000.000000
-ShieldMeshName "Thorax"
-renderShield FALSE
+ShieldMeshName "onyx"
+renderShield TRUE
 maxAccelerationLinear 125.000000
 maxAccelerationStrafe 10.000000
 maxDecelerationLinear 500.000000

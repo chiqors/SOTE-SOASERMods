@@ -91,8 +91,8 @@ TargetCountPerBank:RIGHT 0
 canOnlyTargetStructures FALSE
 hasWeaponLevels FALSE
 mass 4300.000000
-ShieldMeshName "Harbinger"
-renderShield FALSE
+ShieldMeshName "hurricane"
+renderShield TRUE
 maxAccelerationLinear 83.000000
 maxAccelerationStrafe 10.000000
 maxDecelerationLinear 500.000000

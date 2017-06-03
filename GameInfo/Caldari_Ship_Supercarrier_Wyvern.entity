@@ -153,8 +153,8 @@ TargetCountPerBank:LEFT 0
 TargetCountPerBank:RIGHT 0
 canOnlyTargetStructures FALSE
 mass 50000.000000
-ShieldMeshName "Nyx"
-renderShield FALSE
+ShieldMeshName "wyvern"
+renderShield TRUE
 maxAccelerationLinear 12.500000
 maxAccelerationStrafe 0.500000
 maxDecelerationLinear 25.000000

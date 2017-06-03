@@ -96,8 +96,8 @@ TargetCountPerBank:RIGHT 1
 canOnlyTargetStructures FALSE
 hasWeaponLevels FALSE
 mass 7000.000000
-ShieldMeshName "Dominix"
-renderShield FALSE
+ShieldMeshName "scorpion"
+renderShield TRUE
 maxAccelerationLinear 75.000000
 maxAccelerationStrafe 10.000000
 maxDecelerationLinear 500.000000
