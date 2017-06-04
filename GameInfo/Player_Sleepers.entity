@@ -30,25 +30,20 @@ entities
 			entityDefName "PLANETMODULE_TECHORBITALCANNON"
 	titanInfo
 		Page:0
-			count 1
-			entityDefName "Serpentis_ShipTitan_Vanquisher"
+			count 0
 	capitalShipInfo
 		Page:0
-			count 4
-			entityDefName "Serpentis_ShipSupercarrier_Vendeta"
-			entityDefName "Serpentis_ShipFAUX_Ninazu"
-			entityDefName "Serpentis_ShipDreadnought_Vehement"
-			entityDefName "Serpentis_ShipCarrier_Thanatos"
+			count 0
 	frigateInfo
 		Page:0
-			count 3
+			count 2
 			entityDefName "Sleeper_ShipCruiserAwakenedKeeper"
-			entityDefName "Sleeper_ShipFrigateEmergentEscort"
 			entityDefName "Sleeper_ShipFrigateEmergentWarden"
 		Page:1
-			count 2
+			count 3
 			entityDefName "Sleeper_ShipBattleshipDrifter"
 			entityDefName "Sleeper_ShipBattleshipSentinel"
+			entityDefName "Sleeper_ShipBattleshipWarden"
 		NotOnPage
 			count 0
 	researchInfo

@@ -848,12 +848,27 @@ orbitBodyType
 orbitBodyType
 	typeName "Wormhole"
 	entityDefName "PlanetWormhole"
-	defaultTemplateName ""
+	defaultTemplateName "Template:DefaultStart_Sleeper"
 orbitBodyType
 	typeName "Occupied"
 	entityDefName "OccupiedPlanet"
 	defaultTemplateName "Template:OccupiedPlanet"
-planetItemTypeCount 234
+planetItemTypeCount 239
+planetItemType
+	designName "Sleeper:Frigate:Cruiser"
+	entityDefName "Sleeper_ShipCruiserAwakenedWarden"	
+planetItemType
+	designName "Sleeper:Frigate:Cruiser2"
+	entityDefName "Sleeper_ShipCruiserAwakenedKeeper"	
+planetItemType
+	designName "Sleeper:Frigate:Battleship"
+	entityDefName "Sleeper_ShipBattleshipWarden"
+planetItemType
+	designName "Sleeper:Frigate:Battleship2"
+	entityDefName "Sleeper_ShipBattleshipSentinel"
+planetItemType
+	designName "Sleeper:Frigate:Battleship3"
+	entityDefName "Sleeper_ShipBattleshipDrifter"	
 planetItemType
 	designName "Guristas:CapitalShip:Carrier"
 	entityDefName "Guristas_ShipCarrier_Chimera"
@@ -1590,7 +1605,7 @@ playerType
 playerType
 	designName "Sleepers"
 	entityDefName "Player_Sleepers"
-planetItemsTemplateCount 65
+planetItemsTemplateCount 68
 planetItemsTemplate
 	templateName "Empty"
 	subTemplates 0
@@ -1743,6 +1758,11 @@ planetItemsTemplate
 		template "Template:DefaultHomePlanetSetup"
 		template "Template:LocalMilitia_Asteroid"
 	groups 0
+planetItemsTemplate
+	templateName "Template:DefaultStart_Sleeper"
+	subTemplates 1
+		template "Template:LocalMilitia_Sleeper"			
+	groups 0		
 planetItemsTemplate
 	templateName "Template:DefaultStart_Asteroid2"
 	subTemplates 2		
@@ -2021,6 +2041,28 @@ planetItemsTemplate
 				item "Amarr:Frigate:Light"
 				item "Amarr:Frigate:Light"
 				item "Amarr:Frigate:Light"
+planetItemsTemplate
+	templateName "Template:LocalMilitiaSleeper"
+	subTemplates 0
+	groups 1
+		group
+			condition
+				type "NoPlanetOwner"
+				param ""
+			owner "RandomMilitia"
+			colonizeChance 0
+			items 11
+				item "Sleeper:Frigate:Cruiser"
+				item "Sleeper:Frigate:Cruiser"
+				item "Sleeper:Frigate:Cruiser"
+				item "Sleeper:Frigate:Cruiser"
+				item "Sleeper:Frigate:Cruiser2"
+				item "Sleeper:Frigate:Cruiser2"
+				item "Sleeper:Frigate:Cruiser2"
+				item "Sleeper:Frigate:Cruiser2"
+				item "Sleeper:Frigate:Battleship"
+				item "Sleeper:Frigate:Battleship2"						
+				item "Sleeper:Frigate:Battleship3"
 planetItemsTemplate
 	templateName "Template:LocalMilitiaVeryWeak4"
 	subTemplates 0
@@ -3239,6 +3281,11 @@ planetItemsTemplate
 	subTemplates 1
 		template "Template:LocalMilitiaVeryWeak"
 	groups 0
+planetItemsTemplate
+	templateName "Template:LocalMilitia_Sleeper"
+	subTemplates 1
+		template "Template:LocalMilitiaSleeper"
+	groups 0	
 planetItemsTemplate
 	templateName "Template:LocalMilitia_Asteroid2"
 	subTemplates 1

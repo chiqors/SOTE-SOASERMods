@@ -1,5 +1,5 @@
 TXT
-NumStrings 8348
+NumStrings 8356
 StringInfo
     ID "IDS_ABILITY_RORQUALPANIC_NAME"
 	Value "P.A.N.I.C Module"
@@ -25043,5 +25043,29 @@ StringInfo
 	Value "Jovian Drifter"
 StringInfo
 	ID "IDS_CONCORD_DRIFTER_DESCRIPTION"
-	Value "This Ancient and highly ancient vessels travel on space with a unknow purporse. One of this vessels alone is capable of bring down a carrier."			
+	Value "This Ancient and highly advanced vessels travel on space with a unknow purporse. One of this vessels alone is capable of bring down a carrier."			
+StringInfo
+	ID "IDS_SLEEPER_AWAKENEDWARDEN_NAME"
+	Value "Awakened Warden"
+StringInfo
+	ID "IDS_SLEEPER_AWAKENEDWARDEN_DESCRIPTION"
+	Value "This Ancient and highly advanced vessels travel on space with a unknow purporse."	
+StringInfo
+	ID "IDS_SLEEPER_AWAKENEDKEEPER_NAME"
+	Value "Awakened Keeper"
+StringInfo
+	ID "IDS_SLEEPER_AWAKENEDKEEPER_DESCRIPTION"
+	Value "This Ancient and highly advanced vessels travel on space with a unknow purporse."	
+StringInfo
+	ID "IDS_SLEEPER_WARDEN_NAME"
+	Value "Sleeper Warden"
+StringInfo
+	ID "IDS_SLEEPER_WARDEN_DESCRIPTION"
+	Value "This Ancient and highly advanced vessels travel on space with a unknow purporse."			
+StringInfo
+	ID "IDS_SLEEPER_SENTINEL_NAME"
+	Value "Awakened Keeper"
+StringInfo
+	ID "IDS_SLEEPER_SENTINEL_DESCRIPTION"
+	Value "This Ancient and highly advanced vessels travel on space with a unknow purporse."	
 	

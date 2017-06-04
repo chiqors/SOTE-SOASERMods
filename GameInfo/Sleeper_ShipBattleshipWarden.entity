@@ -11,8 +11,8 @@ frigateRoleType "Heavy"
 statCountType "FrigateHeavy"
 mainViewIcon "MAINVIEWICON_CAPITALSHIP_TECHSIEGE"
 picture ""
-NameStringID "IDS_CONCORD_BATTLESHIP_NAME"
-DescriptionStringID "IDS_CONCORD_BATTLESHIP_DESCRIPTION"
+NameStringID "IDS_SLEEPER_WARDEN_NAME"
+DescriptionStringID "IDS_SLEEPER_WARDEN_DESCRIPTION"
 counterDescriptionStringID "IDS_COUNTERDESC_FRIGATE_LONGRANGE"
 basePrice
 	credits 671.000000
