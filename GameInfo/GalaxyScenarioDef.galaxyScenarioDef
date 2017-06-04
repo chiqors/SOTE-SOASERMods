@@ -53,7 +53,7 @@ starType
 	designStringId "IDSGalaxyScenarioTypeStarPulsar"
 	orbitBodyTypeCount 1
 	orbitBodyType "PulsarStar"
-planetTypeCount 68
+planetTypeCount 69
 planetType
 	designName "WeightedNonIce"
 	designStringId "IDSGalaxyScenarioTypePlanetWeightedNonIce"
@@ -91,7 +91,7 @@ planetType
 planetType
 	designName "WeightedRandom"
 	designStringId "IDSGalaxyScenarioTypePlanetWeightedRandom"
-	orbitBodyTypeCount 45
+	orbitBodyTypeCount 46
 	orbitBodyType "Terran"
 	orbitBodyType "Terran"
 	orbitBodyType "Ice"
@@ -137,6 +137,7 @@ planetType
 	orbitBodyType "Greenhouse"
 	orbitBodyType "Greenhouse"
 	orbitBodyType "PirateSanctum"
+	orbitBodyType "SleeperTower"	
 planetType
 	designName "WeightedRandomFair"
 	designStringId "IDSGalaxyScenarioTypePlanetWeightedRandomFair"
@@ -371,7 +372,7 @@ planetType
 planetType
 	designName "RandomSpecial"
 	designStringId "IDSGalaxyScenarioTypePlanetRandomSpecial"
-	orbitBodyTypeCount 10
+	orbitBodyTypeCount 11
 	orbitBodyType "GasGiant"
 	orbitBodyType "PlasmaStorm"
 	orbitBodyType "Comet"
@@ -382,6 +383,7 @@ planetType
 	orbitBodyType "RadiationStorm"
 	orbitBodyType "MagneticCloud"
 	orbitBodyType "PirateSanctum"	
+	orbitBodyType "SleeperTower"		
 planetType
 	designName "RandomSpecialFair"
 	designStringId "IDSGalaxyScenarioTypePlanetRandomSpecialFair"
@@ -391,7 +393,7 @@ planetType
 planetType
 	designName "RandomUncolonizable"
 	designStringId "IDSGalaxyScenarioTypePlanetRandomUncolonizable"
-	orbitBodyTypeCount 11
+	orbitBodyTypeCount 12
 	orbitBodyType "GasGiant"
 	orbitBodyType "AsteroidBelt"
 	orbitBodyType "AsteroidSpaceJunk"
@@ -403,6 +405,7 @@ planetType
 	orbitBodyType "ShatteredMoon"
 	orbitBodyType "RadiationStorm"
 	orbitBodyType "MagneticCloud"
+	orbitBodyType "SleeperTower"		
 planetType
 	designName "RandomUncolonizableFair"
 	designStringId "IDSGalaxyScenarioTypePlanetRandomUncolonizableFair"
@@ -656,7 +659,12 @@ planetType
 	designStringId "IDSGalaxyScenarioTypePlanetSanctum"
 	orbitBodyTypeCount 1
 	orbitBodyType "PirateSanctum"	
-orbitBodyTypeCount 49
+planetType
+	designName "SleeperTower"
+	designStringId "IDSGalaxyScenarioTypePlanetSanctum"
+	orbitBodyTypeCount 1
+	orbitBodyType "SleeperTower"
+orbitBodyTypeCount 50
 orbitBodyType
 	typeName "BlueStar"
 	entityDefName "STAR_BLUE"
@@ -693,6 +701,10 @@ orbitBodyType
 	typeName "PirateSanctum"
 	entityDefName "PlanetPirateSanctum"
 	defaultTemplateName "Template:PirateSanctum"	
+orbitBodyType	
+	typeName "SleeperTower"
+	entityDefName "PlanetDrifterTower"
+	defaultTemplateName "Template:SleeperTower"		
 orbitBodyType	
 	typeName "BarrenFair"
 	entityDefName "PlanetBarrenFair"
@@ -1605,7 +1617,7 @@ playerType
 playerType
 	designName "Sleepers"
 	entityDefName "Player_Sleepers"
-planetItemsTemplateCount 68
+planetItemsTemplateCount 69
 planetItemsTemplate
 	templateName "Empty"
 	subTemplates 0
@@ -3351,6 +3363,28 @@ planetItemsTemplate
 	subTemplates 1
 		template "Template:LocalMilitiaMediumFair"
 	groups 0
+planetItemsTemplate
+	templateName "Template:SleeperTower"
+	subTemplates 0
+	groups 1
+		group
+			condition
+				type "NoPlanetOwner"
+				param ""
+			owner "RandomMilitia"
+			colonizeChance 0
+			items 11
+				item "Sleeper:Frigate:Cruiser"
+				item "Sleeper:Frigate:Cruiser"
+				item "Sleeper:Frigate:Cruiser"
+				item "Sleeper:Frigate:Cruiser"
+				item "Sleeper:Frigate:Cruiser2"
+				item "Sleeper:Frigate:Cruiser2"
+				item "Sleeper:Frigate:Cruiser2"
+				item "Sleeper:Frigate:Cruiser2"
+				item "Sleeper:Frigate:Battleship"
+				item "Sleeper:Frigate:Battleship2"						
+				item "Sleeper:Frigate:Battleship3"
 planetItemsTemplate
 	templateName "Template:PirateSanctum"
 	subTemplates 0

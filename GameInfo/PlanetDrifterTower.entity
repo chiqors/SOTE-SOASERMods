@@ -2,7 +2,7 @@
 entityType "Planet"
 meshInfoCount 3
 meshInfo
-	typeNameStringID "IDS_PLANETTYPE_PIRATESANCTUM"
+	typeNameStringID "IDS_PLANETTYPE_DRIFTERTOWER"
 	asteroidTemplate "Ring"
 	dustCloudTemplate "Sparse"
 	meshName "js2"
@@ -17,7 +17,7 @@ meshInfo
 	picture "PICTURE_PLANET_PIRATEBASE"
 	shouldPrefer FALSE
 meshInfo
-	typeNameStringID "IDS_PLANETTYPE_PIRATESANCTUM"
+	typeNameStringID "IDS_PLANETTYPE_DRIFTERTOWER"
 	asteroidTemplate "Sparse"
 	dustCloudTemplate "GrittySparse"
 	meshName "js2"
@@ -32,7 +32,7 @@ meshInfo
 	picture "PICTURE_PLANET_PIRATEBASE"
 	shouldPrefer FALSE
 meshInfo
-	typeNameStringID "IDS_PLANETTYPE_PIRATESANCTUM"
+	typeNameStringID "IDS_PLANETTYPE_DRIFTERTOWER"
 	asteroidTemplate "Wall"
 	dustCloudTemplate "Empty"
 	meshName "js2"

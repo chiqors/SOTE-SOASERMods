@@ -1,5 +1,5 @@
 TXT
-NumStrings 8356
+NumStrings 8357
 StringInfo
     ID "IDS_ABILITY_RORQUALPANIC_NAME"
 	Value "P.A.N.I.C Module"
@@ -11295,6 +11295,9 @@ StringInfo
 StringInfo
 	ID "IDS_PLANETTYPE_PIRATESANCTUM"
 	Value "Pirate Sanctum"	
+StringInfo
+	ID "IDS_PLANETTYPE_DRIFTERTOWER"
+	Value "Drifter Observatory"		
 StringInfo
 	ID "IDS_PLANETTYPE_PLASMASTORM"
 	Value "Plasma Storm"
