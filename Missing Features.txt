@@ -33,8 +33,9 @@ I - Create
 34 - Cruiser Resist names and icons
 35 - Cruisers Damage name and icons
 36 - Freighters Capital will deploy Keepstar
+37 - Create planet sleeper tower
+
 
 II - Test
 
 2 - Pirate Orca will build Pirate Citadel/Shipyard
-4 - Teste new angel, bloodraider, guristas and serpentis npc race
