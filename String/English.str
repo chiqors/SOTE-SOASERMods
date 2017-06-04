@@ -1,5 +1,5 @@
 TXT
-NumStrings 8345
+NumStrings 8348
 StringInfo
     ID "IDS_ABILITY_RORQUALPANIC_NAME"
 	Value "P.A.N.I.C Module"
@@ -24976,6 +24976,9 @@ StringInfo
 	ID "IDS_PLAYERRACENAME_SERPENTIS"
 	Value "Serpentis"		
 StringInfo
+	ID "IDS_PLAYERRACENAME_SLEEPERS"
+	Value "Sleepers"			
+StringInfo
 	ID "IDS_PLAYERRACENAME_GURISTAS"
 	Value "Guristas"
 StringInfo
@@ -25035,4 +25038,10 @@ StringInfo
 StringInfo
 	ID "IDS_ABILITY_PROJECTEDSENSORDAMPENERBURST_DESC"
 	Value "Emits an area-of-effect burst, centered on the designated location. The burst reduces the range and speed of affected ships' sensors."
+StringInfo
+	ID "IDS_CONCORD_DRIFTER_NAME"
+	Value "Jovian Drifter"
+StringInfo
+	ID "IDS_CONCORD_DRIFTER_DESCRIPTION"
+	Value "This Ancient and highly ancient vessels travel on space with a unknow purporse. One of this vessels alone is capable of bring down a carrier."			
 	

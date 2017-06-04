@@ -1,5 +1,5 @@
 TXT
-entityNameCount 2333
+entityNameCount 2340
 entityName "ALLRACES_RESEARCHSUBJECT_ABILITYACCESS_AFTERBURNER.entity"
 entityName "ALLRACES_RESEARCHSUBJECT_ABILITYACCESS_BASTIONMODE.entity"
 entityName "ALLRACES_RESEARCHSUBJECT_ABILITYACCESS_CLOAK.entity"
@@ -2333,3 +2333,10 @@ entityName "AbilityProjectedSensorDampenerBurst.entity"
 entityName "BuffProjectedSensorDampnerBurstSpawn.entity"
 entityName "BuffProjectedSensorDampnerBurstAction.entity"
 entityName "PlanetPirateSanctum.entity"
+entityName "Sleeper_ShipBattleshipDrifter.entity"
+entityName "Sleeper_ShipBattleshipSentinel.entity"
+entityName "Sleeper_ShipCruiserAwakenedKeeper.entity"
+entityName "Sleeper_ShipFrigateEmergentEscort.entity"
+entityName "Sleeper_ShipFrigateEmergentWarden.entity"
+entityName "Player_Sleepers.entity"
+entityName "PlanetDrifterTower.entity"

@@ -1556,7 +1556,7 @@ planetItemType
 planetItemType
 	designName "Caldari:Frigate:Light"
 	entityDefName "Caldari_Ship_Frigate_kestrel"	
-playerTypeCount 10
+playerTypeCount 11
 playerType
 	designName "AmarrEmpire"
 	entityDefName "Player_AmarrEmpire"
@@ -1587,6 +1587,9 @@ playerType
 playerType
 	designName "Guristas"
 	entityDefName "Player_Gurista"	
+playerType
+	designName "Sleepers"
+	entityDefName "Player_Sleepers"
 planetItemsTemplateCount 65
 planetItemsTemplate
 	templateName "Empty"
