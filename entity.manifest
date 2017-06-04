@@ -1,5 +1,5 @@
 TXT
-entityNameCount 2329
+entityNameCount 2333
 entityName "ALLRACES_RESEARCHSUBJECT_ABILITYACCESS_AFTERBURNER.entity"
 entityName "ALLRACES_RESEARCHSUBJECT_ABILITYACCESS_BASTIONMODE.entity"
 entityName "ALLRACES_RESEARCHSUBJECT_ABILITYACCESS_CLOAK.entity"
@@ -2329,3 +2329,7 @@ entityName "Player_Gurista.entity"
 entityName "Caldari_ShipT3Cruiser_Tengu.entity"
 entityName "RSACommand_Orca.entity"
 entityName "BuffT3Destroyer.entity"
+entityName "AbilityProjectedSensorDampenerBurst.entity"
+entityName "BuffProjectedSensorDampnerBurstSpawn.entity"
+entityName "BuffProjectedSensorDampnerBurstAction.entity"
+entityName "PlanetPirateSanctum.entity"

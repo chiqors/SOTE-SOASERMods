@@ -1,5 +1,5 @@
 TXT
-NumStrings 8341
+NumStrings 8345
 StringInfo
     ID "IDS_ABILITY_RORQUALPANIC_NAME"
 	Value "P.A.N.I.C Module"
@@ -11293,6 +11293,9 @@ StringInfo
 	ID "IDS_PLANETTYPE_PIRATEBASE"
 	Value "Sansha Base"
 StringInfo
+	ID "IDS_PLANETTYPE_PIRATESANCTUM"
+	Value "Pirate Sanctum"	
+StringInfo
 	ID "IDS_PLANETTYPE_PLASMASTORM"
 	Value "Plasma Storm"
 StringInfo
@@ -12251,7 +12254,7 @@ StringInfo
 	Value "Market"
 StringInfo
 	ID "IDSUserInputIDCategoryPirates"
-	Value "Sanshas"
+	Value "Pirates"
 StringInfo
 	ID "IDSUserInputIDCategoryHotKeyGroups"
 	Value "Hot Key Groups"
@@ -21482,7 +21485,7 @@ StringInfo
 	Value "All players combined offerings: *VALUE0*"
 StringInfo
 	ID "IDSScenarioPlayerNamePirates"
-	Value "Sanshas"
+	Value "Pirates"
 StringInfo
 	ID "IDSScenarioPlayerNameRebels"
 	Value "Rebels"
@@ -22642,6 +22645,9 @@ StringInfo
 	ID "IDSGalaxyScenarioTypePlanetPirateBase"
 	Value "Sansha Base"
 StringInfo
+	ID "IDSGalaxyScenarioTypePlanetSanctum"
+	Value "Pirates Sanctum"	
+StringInfo
 	ID "IDS_GAMEOPTION_LOCKEDTEAMS_NAME"
 	Value "Locked Teams"
 StringInfo
@@ -22649,7 +22655,7 @@ StringInfo
 	Value "Teams start the game with Peace Treaties between all players. Treaties cannot be broken."
 StringInfo
 	ID "IDS_GAMEOPTION_PIRATESACTIVE_NAME"
-	Value "Sanshas"
+	Value "Pirates"
 StringInfo
 	ID "IDS_GAMEOPTION_PIRATESACTIVE_DESCRIPTION"
 	Value "Sansha Incursions will peridiocally strike out from hidden pirate bases, pillaging worlds belonging to the player with the highest bountry. Seeking out and destroying all Sansha bases will bring an end to these attacks."
@@ -25023,4 +25029,10 @@ StringInfo
 StringInfo
 	ID "IDS_ORES_SUMMONORCA_DESCRIPTION"
 	Value "Construct a Command Orca wich provide bonus to resource extractors nearby."
+StringInfo
+	ID "IDS_ABILITY_PROJECTEDSENSORDAMPENERBURST_NAME"
+	Value "Sensor Dampening Burst"	
+StringInfo
+	ID "IDS_ABILITY_PROJECTEDSENSORDAMPENERBURST_DESC"
+	Value "Emits an area-of-effect burst, centered on the designated location. The burst reduces the range and speed of affected ships' sensors."
 	

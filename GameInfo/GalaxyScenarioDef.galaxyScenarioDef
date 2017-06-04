@@ -53,7 +53,7 @@ starType
 	designStringId "IDSGalaxyScenarioTypeStarPulsar"
 	orbitBodyTypeCount 1
 	orbitBodyType "PulsarStar"
-planetTypeCount 67
+planetTypeCount 68
 planetType
 	designName "WeightedNonIce"
 	designStringId "IDSGalaxyScenarioTypePlanetWeightedNonIce"
@@ -91,7 +91,7 @@ planetType
 planetType
 	designName "WeightedRandom"
 	designStringId "IDSGalaxyScenarioTypePlanetWeightedRandom"
-	orbitBodyTypeCount 44
+	orbitBodyTypeCount 45
 	orbitBodyType "Terran"
 	orbitBodyType "Terran"
 	orbitBodyType "Ice"
@@ -136,6 +136,7 @@ planetType
 	orbitBodyType "Greenhouse"
 	orbitBodyType "Greenhouse"
 	orbitBodyType "Greenhouse"
+	orbitBodyType "PirateSanctum"
 planetType
 	designName "WeightedRandomFair"
 	designStringId "IDSGalaxyScenarioTypePlanetWeightedRandomFair"
@@ -236,13 +237,14 @@ planetType
 planetType
 	designName "AsteroidOrDead"
 	designStringId "IDSGalaxyScenarioTypePlanetAsteroidOrDead"
-	orbitBodyTypeCount 6
+	orbitBodyTypeCount 7
 	orbitBodyType "Asteroid"
 	orbitBodyType "Moon"
 	orbitBodyType "DeadAsteroid"
 	orbitBodyType "ShipGraveyard"
 	orbitBodyType "AsteroidBelt"
 	orbitBodyType "AsteroidSpaceJunk"
+	orbitBodyType "PirateSanctum"
 planetType
 	designName "AsteroidOrDeadFair"
 	designStringId "IDSGalaxyScenarioTypePlanetAsteroidOrDeadFair"
@@ -268,7 +270,7 @@ planetType
 planetType
 	designName "Random"
 	designStringId "IDSGalaxyScenarioTypePlanetRandom"
-	orbitBodyTypeCount 15
+	orbitBodyTypeCount 16
 	orbitBodyType "Terran"
 	orbitBodyType "Ice"
 	orbitBodyType "Desert"
@@ -284,6 +286,7 @@ planetType
 	orbitBodyType "Oceanic"
 	orbitBodyType "Ferrus"
 	orbitBodyType "Greenhouse"
+	orbitBodyType "PirateSanctum"
 planetType
 	designName "RandomFair"
 	designStringId "IDSGalaxyScenarioTypePlanetRandomFair"
@@ -368,7 +371,7 @@ planetType
 planetType
 	designName "RandomSpecial"
 	designStringId "IDSGalaxyScenarioTypePlanetRandomSpecial"
-	orbitBodyTypeCount 9
+	orbitBodyTypeCount 10
 	orbitBodyType "GasGiant"
 	orbitBodyType "PlasmaStorm"
 	orbitBodyType "Comet"
@@ -378,6 +381,7 @@ planetType
 	orbitBodyType "ShatteredMoon"
 	orbitBodyType "RadiationStorm"
 	orbitBodyType "MagneticCloud"
+	orbitBodyType "PirateSanctum"	
 planetType
 	designName "RandomSpecialFair"
 	designStringId "IDSGalaxyScenarioTypePlanetRandomSpecialFair"
@@ -647,7 +651,12 @@ planetType
 	designStringId "IDSGalaxyScenarioTypePlanetPirateBase"
 	orbitBodyTypeCount 1
 	orbitBodyType "PirateBase"
-orbitBodyTypeCount 48
+planetType
+	designName "PirateSanctum"
+	designStringId "IDSGalaxyScenarioTypePlanetSanctum"
+	orbitBodyTypeCount 1
+	orbitBodyType "PirateSanctum"	
+orbitBodyTypeCount 49
 orbitBodyType
 	typeName "BlueStar"
 	entityDefName "STAR_BLUE"
@@ -680,6 +689,10 @@ orbitBodyType
 	typeName "PirateBase"
 	entityDefName "PlanetPirateBase"
 	defaultTemplateName "Template:PirateBase"
+orbitBodyType	
+	typeName "PirateSanctum"
+	entityDefName "PlanetPirateSanctum"
+	defaultTemplateName "Template:PirateSanctum"	
 orbitBodyType	
 	typeName "BarrenFair"
 	entityDefName "PlanetBarrenFair"
@@ -1574,7 +1587,7 @@ playerType
 playerType
 	designName "Guristas"
 	entityDefName "Player_Gurista"	
-planetItemsTemplateCount 64
+planetItemsTemplateCount 65
 planetItemsTemplate
 	templateName "Empty"
 	subTemplates 0
@@ -3288,6 +3301,74 @@ planetItemsTemplate
 	subTemplates 1
 		template "Template:LocalMilitiaMediumFair"
 	groups 0
+planetItemsTemplate
+	templateName "Template:PirateSanctum"
+	subTemplates 0
+	groups 1
+		group
+			condition
+				type "Always"
+				param ""
+			owner "Pirate"
+			colonizeChance 1
+			items 57
+				item "BloodRaider:CapitalShip:SuperCarrier"
+				item "BloodRaider:Frigate:Battleship"
+				item "BloodRaider:Frigate:Battleship"
+				item "BloodRaider:Frigate:Battleship"
+				item "BloodRaider:Frigate:Battleship"
+				item "BloodRaider:Frigate:Battleship"
+				item "BloodRaider:Frigate:Battleship"
+				item "BloodRaider:Frigate:Battleship"
+				item "BloodRaider:Frigate:Battleship"
+				item "BloodRaider:Frigate:Battleship"
+				item "BloodRaider:Frigate:Battleship"
+				item "BloodRaider:Frigate:Battleship"
+				item "BloodRaider:Frigate:Battleship"
+				item "BloodRaider:Frigate:Battleship"
+				item "BloodRaider:Frigate:Battleship"
+				item "BloodRaider:Frigate:Battleship"
+				item "BloodRaider:Frigate:Cruiser"
+				item "BloodRaider:Frigate:Cruiser"
+				item "BloodRaider:Frigate:Cruiser"
+				item "BloodRaider:Frigate:Cruiser"
+				item "BloodRaider:Frigate:Cruiser"
+				item "BloodRaider:Frigate:Cruiser"
+				item "BloodRaider:Frigate:Cruiser"
+				item "BloodRaider:Frigate:Cruiser"
+				item "BloodRaider:Frigate:Cruiser"
+				item "BloodRaider:Frigate:Cruiser"
+				item "BloodRaider:Frigate:Cruiser"
+				item "BloodRaider:Frigate:Cruiser"
+				item "BloodRaider:Frigate:Cruiser"
+				item "BloodRaider:Frigate:Cruiser"
+				item "BloodRaider:Frigate:Cruiser"
+				item "BloodRaider:Frigate:Cruiser"
+				item "BloodRaider:Frigate:Frigate"
+				item "BloodRaider:Frigate:Frigate"
+				item "BloodRaider:Frigate:Frigate"
+				item "BloodRaider:Frigate:Frigate"
+				item "BloodRaider:Frigate:Frigate"
+				item "BloodRaider:Frigate:Frigate"
+				item "BloodRaider:Frigate:Frigate"
+				item "BloodRaider:Frigate:Frigate"
+				item "BloodRaider:Frigate:Frigate"
+				item "BloodRaider:Frigate:Frigate"
+				item "BloodRaider:Frigate:Frigate"
+				item "BloodRaider:Frigate:Frigate"				
+				item "BloodRaider:Frigate:Frigate"
+				item "BloodRaider:Frigate:Frigate"
+				item "BloodRaider:Frigate:Frigate"
+				item "BloodRaider:Frigate:Frigate"
+				item "BloodRaider:Frigate:Frigate"
+				item "BloodRaider:Frigate:Frigate"
+				item "BloodRaider:Frigate:Logistics"
+				item "BloodRaider:Frigate:Logistics"
+				item "BloodRaider:Frigate:Logistics"
+				item "BloodRaider:Frigate:Logistics"
+				item "BloodRaider:Frigate:Logistics"
+				item "BloodRaider:Frigate:Logistics"								
+				item "Artifact:HyperspaceSpeed"
 planetItemsTemplate
 	templateName "Template:PirateBase"
 	subTemplates 0
