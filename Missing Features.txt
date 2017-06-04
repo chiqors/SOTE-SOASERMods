@@ -37,7 +37,6 @@ I - Create
 II - Test
 
 2 - Pirate Orca will build Pirate Citadel/Shipyard
-3 - Test new Orca
 13 - T3 Destroyer Sniper/Tank Mode ability with on/off
 26 - Citadel should have Anti-drone Fighters
 27 - Fix Angel Ships names, meshs, pictures and icons

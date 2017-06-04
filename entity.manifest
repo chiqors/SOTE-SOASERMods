@@ -1,5 +1,5 @@
 TXT
-entityNameCount 2328
+entityNameCount 2329
 entityName "ALLRACES_RESEARCHSUBJECT_ABILITYACCESS_AFTERBURNER.entity"
 entityName "ALLRACES_RESEARCHSUBJECT_ABILITYACCESS_BASTIONMODE.entity"
 entityName "ALLRACES_RESEARCHSUBJECT_ABILITYACCESS_CLOAK.entity"
@@ -2328,3 +2328,4 @@ entityName "Guristas_StructureShipyard_Raitaru.entity"
 entityName "Player_Gurista.entity"
 entityName "Caldari_ShipT3Cruiser_Tengu.entity"
 entityName "RSACommand_Orca.entity"
+entityName "BuffT3Destroyer.entity"

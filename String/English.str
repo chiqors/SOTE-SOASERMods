@@ -1,5 +1,5 @@
 TXT
-NumStrings 8342
+NumStrings 8341
 StringInfo
     ID "IDS_ABILITY_RORQUALPANIC_NAME"
 	Value "P.A.N.I.C Module"
@@ -24923,13 +24923,10 @@ StringInfo
 	Value "T3 Destoyer Mode"
 StringInfo
 	ID "IDS_T3_Mode_DESCRIPTION"
-	Value "T3 Destoyers are Sniper with mudular structures wich allow then change to Tank Mode."
+	Value "T3 Destoyers are Sniper with modular structures wich allow then change between Sniper mode and Tank Mode."
 StringInfo
 	ID "IDS_T3_Mode_NAME"
 	Value "T3 Destoyer Mode"
-StringInfo
-	ID "IDS_T3_Mode_DESCRIPTION"
-	Value "T3 Destoyers are Sniper with mudular structures wich allow then change to Tank Mode."
 StringInfo
 	ID "IDS_Angel_Machariel_NAME"
 	Value "Machariel Battleship"
