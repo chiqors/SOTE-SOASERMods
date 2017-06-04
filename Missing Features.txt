@@ -32,10 +32,10 @@ I - Create
 33 - Remove interdictors
 34 - Cruiser Resist names and icons
 35 - Cruisers Damage name and icons
+36 - Freighters Capital will deploy Keepstar
 
 II - Test
 
-1 - Carriers and Supers should have Anti-drone Fighters (rename and test)
 2 - Pirate Orca will build Pirate Citadel/Shipyard
 3 - Test new Orca
 13 - T3 Destroyer Sniper/Tank Mode ability with on/off

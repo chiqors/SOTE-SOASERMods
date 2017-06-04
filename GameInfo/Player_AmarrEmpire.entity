@@ -68,12 +68,14 @@ entities
 			entityDefName "Amarr_Ship_Envoy_Prophecy"
 			entityDefName "Amarr_Ship_Destroyer_Confessor"
 		NotOnPage
-			count 3
+			count 4
 			entityDefName "Amarr_Ship_Constructor_Venture"
 			entityDefName "Amarr_Ship_Tradeship_Bestower"
 			entityDefName "Amarr_Ship_Refineryship_Bestower"
+			entityDefName "Ore_ShipOrca"
 	researchInfo
-		count 130
+		count 131
+		entityDefName "RSACommand_Orca"
 		entityDefName "RSACovertOps"		
 		entityDefName "RSALogistic"
 		entityDefName "RSAHeavyAssault"

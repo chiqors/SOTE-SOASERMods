@@ -1,5 +1,5 @@
 TXT
-NumStrings 8331
+NumStrings 8342
 StringInfo
     ID "IDS_ABILITY_RORQUALPANIC_NAME"
 	Value "P.A.N.I.C Module"
@@ -24993,4 +24993,37 @@ StringInfo
 StringInfo
 	ID "IDS_TENGU_DESCRIPTION"
 	Value "Caldari Strategic Cruiser, multi purpose cruiser with the best technology avaliable for sub-capital ships."		
-		
+StringInfo
+	ID "IDS_AMARR_ANTI-FIGHTER_SQUAD_NAME"
+	Value "Equite Squad"
+StringInfo
+	ID "IDS_AMARR_ANTI-FIGHTER_NAME"
+	Value "Equite"	
+StringInfo
+	ID "IDS_CALDARI_ANTI-FIGHTER_NAME"
+	Value "Locust"
+StringInfo
+	ID "IDS_Gallente_ANTI-FIGHTER_NAME"
+	Value "Satyr"
+StringInfo
+	ID "IDS_MINMATAR_ANTI-FIGHTER_NAME"
+	Value "Gram"
+StringInfo
+	ID "IDS_CALDARI_ANTI-FIGHTER_SQUAD_NAME"
+	Value "Locust Squad"
+StringInfo
+	ID "IDS_Gallente_ANTI-FIGHTER_SQUAD_NAME"
+	Value "Satyr Squad"
+StringInfo
+	ID "IDS_MINMATAR_ANTI-FIGHTER_SQUAD_NAME"
+	Value "Gram Squad"	
+StringInfo
+	ID "IDS_AMARR_ANTI-FIGHTER_SQUAD_DESC"
+	Value "A dedicated space superiority fighter, the anti-fighters are designed to be lethal to fighter and drone craft in its area of operations."
+StringInfo
+	ID "IDS_ORES_SUMMONORCA_NAME"
+	Value "Command Orca"		
+StringInfo
+	ID "IDS_ORES_SUMMONORCA_DESCRIPTION"
+	Value "Construct a Command Orca wich provide bonus to resource extractors nearby."
+	

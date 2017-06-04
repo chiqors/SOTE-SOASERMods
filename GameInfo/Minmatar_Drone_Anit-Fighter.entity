@@ -12,7 +12,7 @@ hudIcon "HUDICON_FIGHTER_EINHERJI"
 smallHudIcon "HUDICONSMALL_PLANETMODULE_TECHORBITALCAPITALSHIPFACTORY"
 infoCardIcon "INFOCARDICON_PLANETMODULE_TECHORBITALCAPITALSHIPFACTORY"
 minZoomDistanceMult 9.000000
-nameStringID "IDS_SQUADEINHERJI_NAME"
+nameStringID "IDS_MINMATAR_ANTI-FIGHTER_NAME"
 counterDescriptionStringID "IDS_COUNTERDESC_FIGHTER_COMBAT"
 statCountType "FighterCombat"
 formationOffsetDistance 50.000000
@@ -22,7 +22,7 @@ maxAccelerationStrafe 100.000000
 maxDecelerationLinear 500.000000
 maxAccelerationAngular 120.999992
 maxDecelerationAngular 241.000000
-maxSpeedLinear 850.000000
+maxSpeedLinear 190.000000
 maxRollRate 10.000000
 maxRollAngle 45.000000
 NumWeapons 2
@@ -34,7 +34,7 @@ Weapon
 		DamageApplyType "OVERTIME"
 		DamageType "ENERGY"
 		WeaponClassType "BEAM"
-	DamagePerBank:FRONT 60.000000
+	DamagePerBank:FRONT 90.000000
 	DamagePerBank:BACK 0.000000
 	DamagePerBank:LEFT 0.000000
 	DamagePerBank:RIGHT 0.000000
@@ -81,7 +81,7 @@ Weapon
 		DamageApplyType "BACKLOADED"
 		DamageType "PHYSICAL"
 		WeaponClassType "MISSILE"
-	DamagePerBank:FRONT 110.000000
+	DamagePerBank:FRONT 165.000000
 	DamagePerBank:BACK 0.000000
 	DamagePerBank:LEFT 0.000000
 	DamagePerBank:RIGHT 0.000000

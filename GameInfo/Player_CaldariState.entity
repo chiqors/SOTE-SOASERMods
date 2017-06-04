@@ -69,12 +69,14 @@ entities
 			entityDefName "Caldari_Ship_Destroyer_Jackdaw"
 			entityDefName "Caldari_ShipT3Cruiser_Tengu"
 		NotOnPage
-			count 3
+			count 4
 			entityDefName "Gallente_Ship_Constructor_Venture"
 			entityDefName "FrigatePhaseTradeShip"
 			entityDefName "Amarr_Ship_Refineryship_Bestower"
+			entityDefName "Ore_ShipOrca"			
 	researchInfo
-		count 138
+		count 139
+		entityDefName "RSACommand_Orca"		
 		entityDefName "RSACovertOps"
 		entityDefName "RSAHeavyAssault"
 		entityDefName "RSABlackOps"

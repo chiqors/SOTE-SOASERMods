@@ -69,12 +69,14 @@ entities
 			entityDefName "Minmatar_Ship_Envoy_CycloneEnvoy"
 			entityDefName "Minmatar_Ship_Destroyer_Svipul"
 		NotOnPage
-			count 3
+			count 4
 			entityDefName "Amarr_Ship_Constructor_Venture"
 			entityDefName "Minmatar_Ship_Tradeship_Manmonth"
 			entityDefName "Minmatar_Ship_Refineryship_Mamonth"
+			entityDefName "Ore_ShipOrca"
 	researchInfo
-		count 136
+		count 137
+		entityDefName "RSACommand_Orca"
 		entityDefName "RSACovertOps"
 		entityDefName "RSAHeavyAssault"
 		entityDefName "RSABlackOps"

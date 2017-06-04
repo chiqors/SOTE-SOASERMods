@@ -166,9 +166,9 @@ maxRollRate 1.000000
 maxRollAngle 30.000000
 squadTypeEntityDef:0 "Amarr_DroneSquad_Templar"
 squadAntiMatterCost:0 0.000000
-squadTypeEntityDef:1 "Amarr_DroneSquad_Malleus"
+squadTypeEntityDef:1 "Amarr_DroneSquad_Anti-fighter"
 squadAntiMatterCost:1 0.000000
-squadTypeEntityDef:2 ""
+squadTypeEntityDef:2 "Amarr_DroneSquad_Malleus"
 squadAntiMatterCost:2 0.000000
 squadTypeEntityDef:3 ""
 squadAntiMatterCost:3 0.000000
