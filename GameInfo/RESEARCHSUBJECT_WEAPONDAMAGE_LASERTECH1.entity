@@ -39,5 +39,5 @@ researchModifier
 	perLevelValue 0.050000
 	linkedWeaponClass "LASERTECH"
 artifactPicture ""
-uniqueOverlayBrush "RebellionResearchOverlay"
+uniqueOverlayBrush ""
 dlcId 204880

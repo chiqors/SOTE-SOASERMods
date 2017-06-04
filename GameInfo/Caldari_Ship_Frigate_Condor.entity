@@ -96,8 +96,8 @@ TargetCountPerBank:RIGHT 0
 canOnlyTargetStructures FALSE
 hasWeaponLevels FALSE
 mass 400.000000
-ShieldMeshName "atron"
-renderShield FALSE
+ShieldMeshName "condor"
+renderShield TRUE
 maxAccelerationLinear 500.000000
 maxAccelerationStrafe 10.000000
 maxDecelerationLinear 1000.000000

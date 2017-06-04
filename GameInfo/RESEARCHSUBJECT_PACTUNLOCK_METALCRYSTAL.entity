@@ -35,5 +35,5 @@ researchModifier
 	pactUnlockEntityDefName "RESEARCHSUBJECT_PACTBONUS_METALCRYSTAL"
 researchFloatModifiers 0
 artifactPicture ""
-uniqueOverlayBrush "RebellionResearchOverlay"
+uniqueOverlayBrush ""
 dlcId 204880

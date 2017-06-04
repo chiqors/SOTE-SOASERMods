@@ -39,5 +39,5 @@ researchModifier
 	perLevelValue 0.075000
 	linkedPlanetType "Oceanic"
 artifactPicture ""
-uniqueOverlayBrush "RebellionResearchOverlay"
+uniqueOverlayBrush ""
 dlcId 228601

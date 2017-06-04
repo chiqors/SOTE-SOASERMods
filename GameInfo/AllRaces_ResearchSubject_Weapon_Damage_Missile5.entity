@@ -39,5 +39,5 @@ researchModifier
 	perLevelValue 0.030000
 	linkedWeaponClass "MISSILE"
 artifactPicture ""
-uniqueOverlayBrush "RebellionResearchOverlay"
+uniqueOverlayBrush ""
 dlcId 204880

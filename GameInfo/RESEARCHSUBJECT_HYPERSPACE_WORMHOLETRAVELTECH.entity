@@ -33,5 +33,5 @@ researchModifier
 	modifierType "AllowWormHoleTravel"
 researchFloatModifiers 0
 artifactPicture ""
-uniqueOverlayBrush "RebellionResearchOverlay"
+uniqueOverlayBrush ""
 dlcId 204880

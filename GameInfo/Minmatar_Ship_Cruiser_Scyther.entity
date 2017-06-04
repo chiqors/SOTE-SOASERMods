@@ -101,8 +101,8 @@ TargetCountPerBank:RIGHT 0
 canOnlyTargetStructures FALSE
 hasWeaponLevels FALSE
 mass 4000.000000
-ShieldMeshName "Augoror"
-renderShield FALSE
+ShieldMeshName "scyther"
+renderShield TRUE
 maxAccelerationLinear 90.000000
 maxAccelerationStrafe 10.000000
 maxDecelerationLinear 500.000000

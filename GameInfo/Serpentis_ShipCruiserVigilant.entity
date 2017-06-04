@@ -11,7 +11,7 @@ frigateRoleType "Heavy"
 statCountType "FrigateAntiModule"
 mainViewIcon "MAINVIEWICON_FRIGATE_PHASEMINELAYER"
 picture "PICTURE_SERPENTIS_VIGILANTE"
-NameStringID "IDS_FRIGATE_PHASEMINELAYER_NAME"
+NameStringID "IDS_FRIGATE_SERPENTIS_VIGILANTE_NAME"
 DescriptionStringID "IDS_FRIGATE_PHASEMINELAYER_DESCRIPTION"
 counterDescriptionStringID "IDS_COUNTERDESC_FRIGATE_NONCOMBAT"
 basePrice
@@ -92,7 +92,7 @@ canOnlyTargetStructures FALSE
 hasWeaponLevels FALSE
 mass 2000.000000
 ShieldMeshName "Thorax"
-renderShield FALSE
+renderShield TRUE
 maxAccelerationLinear 125.000000
 maxAccelerationStrafe 10.000000
 maxDecelerationLinear 500.000000

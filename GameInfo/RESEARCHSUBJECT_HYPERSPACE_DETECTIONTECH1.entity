@@ -36,5 +36,5 @@ researchModifier
 	modifierType "HyperspaceDetectionTwoJumps"
 researchFloatModifiers 0
 artifactPicture ""
-uniqueOverlayBrush "RebellionResearchOverlay"
+uniqueOverlayBrush ""
 dlcId 204880

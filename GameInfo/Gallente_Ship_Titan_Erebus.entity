@@ -153,7 +153,7 @@ TargetCountPerBank:RIGHT 0
 canOnlyTargetStructures FALSE
 mass 200000.000000
 ShieldMeshName "Erebus"
-renderShield FALSE
+renderShield TRUE
 maxAccelerationLinear 22.500000
 maxAccelerationStrafe 0.400000
 maxDecelerationLinear 45.000000

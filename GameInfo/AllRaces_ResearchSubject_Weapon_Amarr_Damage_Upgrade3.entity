@@ -47,5 +47,5 @@ researchModifier
 	perLevelValue 0.050000
 	linkedWeaponClass "FLAK"
 artifactPicture ""
-uniqueOverlayBrush "RebellionResearchOverlay"
+uniqueOverlayBrush ""
 dlcId 204880

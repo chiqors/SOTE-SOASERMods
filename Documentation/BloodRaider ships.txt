@@ -1,0 +1,36 @@
+planetItemType
+	designName "BloodRaider:Frigate:Frigate"
+	entityDefName "Bloodraider_ShipFrigateCruor"
+planetItemType
+	designName "BloodRaider:Frigate:Siege"
+	entityDefName "Amarr_Ship_Frigate_Inquisitor"
+planetItemType
+	designName "BloodRaider:Frigate:Cruiser"
+	entityDefName "Bloodraider_ShipCruiserAshimuu"	
+planetItemType
+	designName "BloodRaider:Frigate:Logistics"
+	entityDefName "BloodRaider_ShipCruiser_Augoror"
+planetItemType
+	designName "BloodRaider:Frigate:Battleship"
+	entityDefName "Bloodraider_ShipBattleshipBhaalgorn"
+planetItemType
+	designName "BloodRaider:Frigate:Carrier"
+	entityDefName "BloodRaider_ShipCarrier_Archon"
+planetItemType
+	designName "BloodRaider:Frigate:FAUX"
+	entityDefName "BloodRaider_ShipFAUX_Dagon"
+planetItemType
+	designName "BloodRaider:Frigate:Dreadnought"
+	entityDefName "BloodRaider_ShipDreadnought_Chemosh"
+planetItemType
+	designName "BloodRaider:Frigate:SuperCarrier"
+	entityDefName "BloodRaider_ShipSupercarrier_Aeon"	
+planetItemType
+	designName "BloodRaider:Frigate:Titan"
+	entityDefName "BloodRaider_ShipTitan_Molok"	
+planetItemType
+	designName "BloodRaider:Frigate:Colony"
+	entityDefName "Angel_ShipColony_Orca"
+planetItemType
+	designName "BloodRaider:Frigate:Shipyard"
+	entityDefName "BloodRaider_StructureShipyard_Raitaru"

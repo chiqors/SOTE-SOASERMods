@@ -11,7 +11,7 @@ frigateRoleType "Lrm"
 statCountType "FrigateLongRange"
 mainViewIcon "MAINVIEWICON_FRIGATE_CARACAL"
 picture "PICTURE_GURISTA_GILA"
-NameStringID "IDS_FRIGATE_CARACAL_NAME"
+NameStringID "IDS_Guristas_Gila_NAME"
 DescriptionStringID "IDS_FRIGATE_CARACAL_DESCRIPTION"
 counterDescriptionStringID "IDS_COUNTERDESC_CORVETTE_TECH"
 basePrice
@@ -96,8 +96,8 @@ TargetCountPerBank:RIGHT 0
 canOnlyTargetStructures FALSE
 hasWeaponLevels FALSE
 mass 4000.000000
-ShieldMeshName "vexor"
-renderShield FALSE
+ShieldMeshName "onyx"
+renderShield TRUE
 maxAccelerationLinear 90.000000
 maxAccelerationStrafe 10.000000
 maxDecelerationLinear 500.000000
@@ -132,20 +132,10 @@ SoundID "FRIGATE_TECHLONGRANGE_ONSELECTED_2"
 SoundID "FRIGATE_TECHLONGRANGE_ONSELECTED_3"
 NumSoundsFor:ONSTARTPHASEJUMP 1
 SoundID "FRIGATE_TECHLONGRANGE_ONSTARTPHASEJUMP_0"
-MeshNameInfoCount 2
+MeshNameInfoCount 1
 MeshNameInfo
-	meshName "caracal"
+	meshName "onyx"
 	criteriaType "None"
-MeshNameInfo
-	meshName "cerberus"
-	criteriaType "Research"
-	prerequisites
-		NumResearchPrerequisites 1
-		ResearchPrerequisite
-			Subject "RSAHeavyAssault"
-			Level 1
-		RequiredFactionNameID ""
-		RequiredCompletedResearchSubjects 1
 meshNameIncreasedEffectName ""
 meshNameDecreasedEffectName ""
 ExhaustParticleSystemName "Exhaust_EveCruiser"

@@ -1,6 +1,6 @@
 ﻿TXT
 entityType "Player"
-raceNameStringID "IDS_PLAYERRACENAME_PIRATE"
+raceNameStringID "IDS_PLAYERRACENAME_GURISTAS"
 canColonize TRUE
 isPsi FALSE
 isSelectable FALSE

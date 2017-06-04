@@ -9,7 +9,7 @@ spawnShips
 	requiredShipCount 0
 	randomShipCount 4
 	randomShip
-		type "Angel_ShipCarrier_Lif"
+		type "Angel_ShipFAUX_Lif"
 		weight 2
 	randomShip
 		type "Angel_ShipDreadnoughtNaglfar"

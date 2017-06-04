@@ -11,7 +11,7 @@ frigateRoleType "Support"
 statCountType "FrigateUtility1"
 mainViewIcon "HUDICONSMALL_FRIGATE_SCYTHER"
 picture "PICTURE_FRIGATE_SCYTHER"
-NameStringID "IDS_CRUISER_SCYTHER_NAME"
+NameStringID "IDS_CRUISER_ANGEL_SCYTHER_NAME"
 DescriptionStringID "IDS_CRUISER_SCYTHER_DESCRIPTION"
 counterDescriptionStringID "IDS_COUNTERDESC_CORVETTE_TECH"
 basePrice
@@ -99,8 +99,8 @@ TargetCountPerBank:RIGHT 0
 canOnlyTargetStructures FALSE
 hasWeaponLevels FALSE
 mass 4000.000000
-ShieldMeshName "Augoror"
-renderShield FALSE
+ShieldMeshName "scyther"
+renderShield TRUE
 maxAccelerationLinear 90.000000
 maxAccelerationStrafe 10.000000
 maxDecelerationLinear 500.000000

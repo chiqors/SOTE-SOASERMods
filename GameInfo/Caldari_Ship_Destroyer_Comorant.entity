@@ -91,8 +91,8 @@ TargetCountPerBank:RIGHT 0
 canOnlyTargetStructures FALSE
 hasWeaponLevels FALSE
 mass 3000.000000
-ShieldMeshName "catalyst"
-renderShield FALSE
+ShieldMeshName "comorant"
+renderShield TRUE
 maxAccelerationLinear 95.000000
 maxAccelerationStrafe 10.000000
 maxDecelerationLinear 500.000000

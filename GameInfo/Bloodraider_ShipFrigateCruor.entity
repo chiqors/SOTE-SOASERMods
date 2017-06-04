@@ -11,7 +11,7 @@ frigateRoleType "Light"
 statCountType "FrigateLight"
 mainViewIcon "MAINVIEWICON_FRIGATE_TECHLIGHT"
 picture "PICTURE_BLOODRAIDER_CRUOR"
-NameStringID "IDS_FRIGATE_TECHLIGHT_NAME"
+NameStringID "IDS_FRIGATE_BLOODRAIDER_CRUOR_NAME"
 DescriptionStringID "IDS_FRIGATE_TECHLIGHT_DESCRIPTION"
 counterDescriptionStringID "IDS_COUNTERDESC_FRIGATE_NONCOMBAT"
 basePrice
@@ -98,7 +98,7 @@ canOnlyTargetStructures FALSE
 hasWeaponLevels FALSE
 mass 2000.000000
 ShieldMeshName "punisher"
-renderShield FALSE
+renderShield TRUE
 maxAccelerationLinear 100.000000
 maxAccelerationStrafe 10.000000
 maxDecelerationLinear 500.000000

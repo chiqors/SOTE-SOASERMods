@@ -91,8 +91,8 @@ TargetCountPerBank:RIGHT 0
 canOnlyTargetStructures FALSE
 hasWeaponLevels FALSE
 mass 4300.000000
-ShieldMeshName "brutix"
-renderShield FALSE
+ShieldMeshName "ferox"
+renderShield TRUE
 maxAccelerationLinear 85.000000
 maxAccelerationStrafe 10.000000
 maxDecelerationLinear 500.000000

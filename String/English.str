@@ -1,5 +1,5 @@
 TXT
-NumStrings 8309
+NumStrings 8331
 StringInfo
     ID "IDS_ABILITY_RORQUALPANIC_NAME"
 	Value "P.A.N.I.C Module"
@@ -8996,7 +8996,7 @@ StringInfo
 	Value "Cannot colonize due to enemy starbase upgrade."
 StringInfo
 	ID "IDS_SQUADTECHCOMBAT_NAME"
-	Value "Templar x10"
+	Value "Templar Squad"
 StringInfo
 	ID "IDS_SQUADTECHCOMBAT_DESC"
 	Value "Templar fighters designed to provide fire support and DPS to friendly ships, These small craft are formidably powerful Amarr fighters."
@@ -9142,6 +9142,9 @@ StringInfo
 	ID "IDS_CAPITALSHIP_TECHBATTLESHIP_NAME"
 	Value "Archon"
 StringInfo
+	ID "IDS_CAPITALSHIP_BLOODRAIDER_ARCHON_NAME"
+	Value "Blood Raider Archon"	
+StringInfo
 	ID "IDS_CAPITALSHIP_TECHBATTLESHIP_DESCRIPTION"
 	Value "Combat Archon, Designed to operate in the middle of a battle providing fighter support and logistical assistance to friendly ships in range."
 StringInfo
@@ -9213,6 +9216,9 @@ StringInfo
 StringInfo
 	ID "IDS_CAPITALSHIP_PHASEBATTLESHIP_NAME"
 	Value "Thanatos"
+StringInfo
+	ID "IDS_CAPITALSHIP_SEPENTIS_THANATOS_NAME"
+	Value "Serpentis Thanatos"	
 StringInfo
 	ID "IDS_CAPITALSHIP_PHASEBATTLESHIP_DESCRIPTION"
 	Value "this carrier fields powerful fighters capable of supporting a fleet against medium sized ships, it also possesses support abilities to assist friendly ships."
@@ -10924,6 +10930,9 @@ StringInfo
 	ID "IDS_FRIGATE_TECHLONGRANGE_NAME"
 	Value "Omen"
 StringInfo
+	ID "IDS_FRIGATE_ASHIMUU_NAME"
+	Value "Blood Raider Ashimuu"	
+StringInfo
 	ID "IDS_FRIGATE_TECHLONGRANGE_DESCRIPTION"
 	Value "A Light Cruiser that excels at direct fire combat. Once the mainstay of the Amarrian fleet, the omen stays whithin their typical theme of strong armour and powerful energy weapons. The omen is an excellent good value combat cruiser."
 StringInfo
@@ -10953,6 +10962,9 @@ StringInfo
 StringInfo
 	ID "IDS_FRIGATE_TECHUTILITY1_NAME"
 	Value "Augoror"
+StringInfo
+	ID "IDS_FRIGATE_BLOODRAIDER_ASHIMUU_NAME"
+	Value "Blood Raider Augoror"	
 StringInfo
 	ID "IDS_FRIGATE_TECHUTILITY1_DESCRIPTION"
 	Value "A small but heavily armoured cruiser designed to provide armour to nearby friendly ships. It transfers armour to other ships at an impressive range in order to allow it to carry out its logistics role at a safe distance from a battle."
@@ -11128,11 +11140,20 @@ StringInfo
 	ID "IDS_FRIGATE_PHASEUTILITY1_NAME"
 	Value "Execuror"
 StringInfo
+	ID "IDS_FRIGATE_SERPENTIS_EXECUROR_NAME"
+	Value "Serpentis Execuror"	
+StringInfo
 	ID "IDS_FRIGATE_PHASEUTILITY1_DESCRIPTION"
 	Value "This light cruiser is designed to provide armor repair support to friendly ships within range, it however possesses limited combat ability."
 StringInfo
 	ID "IDS_FRIGATE_PHASEMINELAYER_NAME"
 	Value "Phobos"
+StringInfo
+	ID "IDS_FRIGATE_SERPENTIS_VIGILANTE_NAME"
+	Value "Serpentis Vigilante"	
+StringInfo
+	ID "IDS_FRIGATE_SERPENTIS_DAREDEVIL_NAME"
+	Value "Serpentis Daredevil"		
 StringInfo
 	ID "IDS_FRIGATE_PHASEMINELAYER_DESCRIPTION"
 	Value "The Phobos is the Gallente Heavy Interdiction Cruiser, it is capable of raising warp disruption fields that are capable of preventing any hostile ships within the field from jumping."
@@ -23038,6 +23059,9 @@ StringInfo
 	ID "IDS_SNIPERREVELATION_NAME"
 	Value "Anti-Capital Revelation"
 StringInfo
+	ID "IDS_BLOODRAIDER_NAME"
+	Value "Blood Raider Chemosh"	
+StringInfo
 	ID "IDS_SNIPERREVELATION_DESCRIPTION"
 	Value "After an increase in the need for an anti structure platform, the Revelation class dreadnought was born. Sporting 3 massive giga beam lasers and a specialized siege mode, it is specifically designed to combat structures and capital ships. This variety of Revelation is designed for longer ranged engagements where more range is required, it therefore deal far less damage than the short ranged variety however it can apply that damage over a much greater distance."
 StringInfo
@@ -23539,6 +23563,9 @@ StringInfo
 	ID "IDS_FRIGATE_OSPREY_NAME"
 	Value "Osprey"
 StringInfo
+	ID "IDS_FRIGATE_GURISTAS_OSPREY_NAME"
+	Value "Guristas Osprey"	
+StringInfo
 	ID "IDS_FRIGATE_OSPREY_DESCRIPTION"
 	Value "This light cruiser is designed to provide shield boost support to friendly ships within range, it however possesses limited combat ability."
 StringInfo
@@ -23671,6 +23698,9 @@ StringInfo
 	ID "IDS_CRUISER_SCYTHER_NAME"
 	Value "Scythe"
 StringInfo
+	ID "IDS_CRUISER_ANGEL_SCYTHER_NAME"
+	Value "Angel Scythe"	
+StringInfo
 	ID "IDS_CRUISER_SCYTHER_DESCRIPTION"
 	Value "A small but heavily armoured cruiser designed to provide armour to nearby friendly ships. It transfers armour to other ships at an impressive range in order to allow it to carry out its logistics role at a safe distance from a battle."
 StringInfo
@@ -23712,6 +23742,9 @@ StringInfo
 StringInfo
 	ID "IDS_CAPITALSHIP_NAGLFAR_RANGED_NAME"
 	Value "Anti-Capital Naglfar"
+StringInfo
+	ID "IDS_CAPITALSHIP_ANGEL_NAGLFAR_NAME"
+	Value "Angel Naglfar"	
 StringInfo
 	ID "IDS_CAPITALSHIP_NAGLFAR_RANGED_DESCRIPTION"
 	Value "The tallest ship in the universe, created to rain a hell of fire on enemies ships."
@@ -24515,7 +24548,10 @@ StringInfo
 	Value "Restore a great amount of own Shield HP."
 StringInfo
 	ID "IDS_CAPITALSHIP_NINAZU_NAME"
-	Value "NINAZU"
+	Value "Ninazu"
+StringInfo
+	ID "IDS_CAPITALSHIP_SERPENTIS_NINAZU_NAME"
+	Value "Serpentis Ninazu"	
 StringInfo
 	ID "IDS_CAPITALSHIP_NINAZU_DESCRIPTION"
 	Value "The Federal Intelligence Office additionally recommended that the Gallente build a Force Auxiliary capital of their own to maintain parity with the Amarr-Caldari alliance. The resulting crash development program created the Ninazu-class Force Auxiliary."
@@ -24927,4 +24963,34 @@ StringInfo
 StringInfo
 	ID "IDS_RACESELECTDIALOG_GallenteCaldari_DESCRIPTION"
 	Value "Choose between the Gallente or the Caldari, Each race has it's own Sets of playstyles. The Gallente Primarily use Blaster Weaponry, while the Caldari Primarily use Missile Weaponry."
-	
+StringInfo
+	ID "IDS_PLAYERRACENAME_ANGEL"
+	Value "Angel Cartel"
+StringInfo
+	ID "IDS_FRIGATE_BLOODRAIDER_CRUOR_NAME"
+	Value "Blood Raider Cruor"
+StringInfo
+	ID "IDS_PLAYERRACENAME_SERPENTIS"
+	Value "Serpentis"		
+StringInfo
+	ID "IDS_PLAYERRACENAME_GURISTAS"
+	Value "Guristas"
+StringInfo
+	ID "IDS_Guristas_Gila_NAME"
+	Value "Guristas Gila"		
+StringInfo
+	ID "IDS_Guristas_Worm_NAME"
+	Value "Guristas Worm"		
+StringInfo
+	ID "IDS_SUPERCARRIER_REFIT_NAME"
+	Value "Super Carrier Refit"
+StringInfo
+	ID "IDS_SUPERCARRIER_REFIT_DESCRIPTION"
+	Value "Change the fit of the Super Carrier with DED Armor Modules, greatly increasing survavility."		
+StringInfo
+	ID "IDS_TENGU_NAME"
+	Value "Tengu Strategic Cruiser"
+StringInfo
+	ID "IDS_TENGU_DESCRIPTION"
+	Value "Caldari Strategic Cruiser, multi purpose cruiser with the best technology avaliable for sub-capital ships."		
+		

@@ -39,5 +39,5 @@ researchModifier
 	perLevelValue 0.100000
 	linkedWeaponClass "PHASEMISSILE"
 artifactPicture ""
-uniqueOverlayBrush "RebellionResearchOverlay"
+uniqueOverlayBrush ""
 dlcId 204880

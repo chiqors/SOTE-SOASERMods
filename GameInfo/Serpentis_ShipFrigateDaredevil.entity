@@ -11,7 +11,7 @@ frigateRoleType "Light"
 statCountType "FrigateLight"
 mainViewIcon "MAINVIEWICON_FRIGATE_PHASELIGHT"
 picture "PICTURE_SERPENTIS_DAREDEVIL"
-NameStringID "IDS_FRIGATE_PHASELIGHT_NAME"
+NameStringID "IDS_FRIGATE_SERPENTIS_DAREDEVIL_NAME"
 DescriptionStringID "IDS_FRIGATE_PHASELIGHT_DESCRIPTION"
 counterDescriptionStringID "IDS_COUNTERDESC_FRIGATE_NONCOMBAT"
 basePrice
@@ -89,7 +89,7 @@ canOnlyTargetStructures FALSE
 hasWeaponLevels FALSE
 mass 2000.000000
 ShieldMeshName "incursus"
-renderShield FALSE
+renderShield TRUE
 maxAccelerationLinear 100.000000
 maxAccelerationStrafe 10.000000
 maxDecelerationLinear 500.000000

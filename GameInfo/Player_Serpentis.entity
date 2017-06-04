@@ -1,6 +1,6 @@
 ﻿TXT
 entityType "Player"
-raceNameStringID "IDS_PLAYERRACENAME_PIRATE"
+raceNameStringID "IDS_PLAYERRACENAME_SERPENTIS"
 canColonize TRUE
 isPsi FALSE
 isSelectable FALSE
@@ -38,7 +38,7 @@ entities
 			entityDefName "Serpentis_ShipSupercarrier_Vendeta"
 			entityDefName "Serpentis_ShipFAUX_Ninazu"
 			entityDefName "Serpentis_ShipDreadnought_Vehement"
-			entityDefName "Serpentis_ShipCarrier_Ninazu"
+			entityDefName "Serpentis_ShipCarrier_Thanatos"
 	frigateInfo
 		Page:0
 			count 3
