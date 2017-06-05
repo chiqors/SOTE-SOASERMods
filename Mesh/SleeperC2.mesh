@@ -1,5 +1,6 @@
-TXT
+﻿TXT
 MeshData
+	maxDiffuseMipLevel 0
 	hasValidTangents TRUE
 	BoundingRadius 310.029907
 	MaxBoundingExtents [ 87.749977 118.000000 272.750000 ]
@@ -15,7 +16,7 @@ MeshData
 		Ambient ffffffff
 		Specular ffffffff
 		Emissive ffffffff
-		Glossiness 50.000000
+		Glossiness 150.000000
 	NumPoints 12
 	Point
 		DataString "Above"
@@ -166224,10 +166225,9 @@ MeshData
 	Index 8720
 	Index 8696
 	Index 11253
+	Index 11233
 	Index 11244
 	Index 11245
-	Index 11227
-	Index 11231
 	Index 7108
 	Index 7862
 	Index 9129
@@ -166393,20 +166393,21 @@ MeshData
 	Index 8620
 	Index 6941
 	Index 6926
-	Index 6662
-	Index 6673
-	Index 6665
 	Index 10657
+	Index 6662
 	Index 10659
+	Index 6665
+	Index 6673
+	Index 6671
 	Index 9153
 	Index 9126
 	Index 4942
-	Index 5309
+	Index 5314
 	Index 6944
 	Index 6927
 	Index 3557
-	Index 8730
 	Index 8738
+	Index 8730
 	Index 7151
 	Index 9140
 	Index 7193

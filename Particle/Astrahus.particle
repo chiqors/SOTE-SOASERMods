@@ -7,13 +7,13 @@ ParticleSimulation
 	EmitterContents
 		Name "Out-In"
 		Enabled TRUE
-		EmitRate 20.000000
+		EmitRate 10.000000
 		HasInfiniteEmitCount TRUE
 		MaxEmitCount 1
 		hasEmitIntervals FALSE
 		emitIntervalRunDuration 0.000000
 		emitIntervalWaitDuration 0.000000
-		ParticleLifeTime 22.000000
+		ParticleLifeTime 20.000000
 		ParticleMinStartLinearSpeed -50.000000
 		ParticleMaxStartLinearSpeed -50.000000
 		ParticleMinStartAngularSpeed 0.000000
@@ -62,7 +62,7 @@ ParticleSimulation
 		SpawnAngleLatitudinalStart 0.000000
 		SpawnAngleLatitudinalStop 3.141593
 		SpawnAngleLongitudinalStart 0.000000
-		SpawnAngleLongitudinalStop 6.283185
+		SpawnAngleLongitudinalStop 3.141593
 	EmitterType "Sphere"
 	EmitterContents
 		Name "In-Out"
@@ -73,9 +73,9 @@ ParticleSimulation
 		hasEmitIntervals FALSE
 		emitIntervalRunDuration 0.000000
 		emitIntervalWaitDuration 0.000000
-		ParticleLifeTime 22.000000
-		ParticleMinStartLinearSpeed 50.000000
-		ParticleMaxStartLinearSpeed 100.000000
+		ParticleLifeTime 10.000000
+		ParticleMinStartLinearSpeed 110.000000
+		ParticleMaxStartLinearSpeed 110.000000
 		ParticleMinStartAngularSpeed 0.000000
 		ParticleMaxStartAngularSpeed 0.000000
 		ParticleMinStartRotation 0.000000
@@ -110,19 +110,19 @@ ParticleSimulation
 		MeshParticleRotationAxisType 0
 		MeshParticleRotationAxis [ 0.000000 0.000000 1.000000 ]
 		RotationDirectionType 0
-		SphereRadiusXMax 1.000000
-		SphereRadiusXMin 1.000000
+		SphereRadiusXMax 800.000000
+		SphereRadiusXMin 800.000000
 		SphereRadiusYMax 0.000000
 		SphereRadiusYMin 0.000000
-		SphereRadiusZMax 1.000000
-		SphereRadiusZMin 1.000000
+		SphereRadiusZMax 800.000000
+		SphereRadiusZMin 800.000000
 		ParticleMaxStartSpeedAzimuthalTangential 0.000000
 		ParticleMaxStartSpeedPolarTangential 0.000000
 		ScaleStartSpeedsByRadius FALSE
 		SpawnAngleLatitudinalStart 0.000000
-		SpawnAngleLatitudinalStop 3.141593
+		SpawnAngleLatitudinalStop 6.283185
 		SpawnAngleLongitudinalStart 0.000000
-		SpawnAngleLongitudinalStop 6.283185
+		SpawnAngleLongitudinalStop 3.141593
 	NumAffectors 2
 	AffectorType "ColorOscillator"
 	AffectorContents

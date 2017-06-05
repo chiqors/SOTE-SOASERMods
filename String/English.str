@@ -1,5 +1,5 @@
 TXT
-NumStrings 8357
+NumStrings 8358
 StringInfo
     ID "IDS_ABILITY_RORQUALPANIC_NAME"
 	Value "P.A.N.I.C Module"
@@ -21490,6 +21490,9 @@ StringInfo
 	ID "IDSScenarioPlayerNamePirates"
 	Value "Pirates"
 StringInfo
+	ID "IDSScenarioPlayerNameAngel"
+	Value "Angel Cartel"
+StringInfo
 	ID "IDSScenarioPlayerNameRebels"
 	Value "Rebels"
 StringInfo
@@ -21500,25 +21503,25 @@ StringInfo
 	Value "Mad Dark Fleet Remnants"
 StringInfo
 	ID "IDSScenarioPlayerNameMilitia0"
-	Value "Aluxian Refugees"
+	Value "Angel Cartel"
 StringInfo
 	ID "IDSScenarioPlayerNameMilitia1"
-	Value "Mustrin Outlanders"
+	Value "BloodRaiders"
 StringInfo
 	ID "IDSScenarioPlayerNameMilitia2"
-	Value "Talvor Corporate"
+	Value "Gurista"
 StringInfo
 	ID "IDSScenarioPlayerNameMilitia3"
-	Value "Vhorus Regency"
+	Value "Serpentis"
 StringInfo
 	ID "IDSScenarioPlayerNameMilitia4"
-	Value "Kilebi Scabites"
+	Value "Sleepers"
 StringInfo
 	ID "IDSScenarioPlayerNameMilitia5"
-	Value "Roider Union"
+	Value "Amaar Rebels"
 StringInfo
 	ID "IDSScenarioPlayerNameMilitia6"
-	Value "Dallmoor Bandits"
+	Value "Gallente Rebels"
 StringInfo
 	ID "IDSScenarioPlayerNameMilitia7"
 	Value "Serubu Syndicate"
