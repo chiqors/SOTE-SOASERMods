@@ -1,5 +1,5 @@
 TXT
-NumStrings 8331
+NumStrings 8357
 StringInfo
     ID "IDS_ABILITY_RORQUALPANIC_NAME"
 	Value "P.A.N.I.C Module"
@@ -11293,6 +11293,12 @@ StringInfo
 	ID "IDS_PLANETTYPE_PIRATEBASE"
 	Value "Sansha Base"
 StringInfo
+	ID "IDS_PLANETTYPE_PIRATESANCTUM"
+	Value "Pirate Sanctum"	
+StringInfo
+	ID "IDS_PLANETTYPE_DRIFTERTOWER"
+	Value "Drifter Observatory"		
+StringInfo
 	ID "IDS_PLANETTYPE_PLASMASTORM"
 	Value "Plasma Storm"
 StringInfo
@@ -12251,7 +12257,7 @@ StringInfo
 	Value "Market"
 StringInfo
 	ID "IDSUserInputIDCategoryPirates"
-	Value "Sanshas"
+	Value "Pirates"
 StringInfo
 	ID "IDSUserInputIDCategoryHotKeyGroups"
 	Value "Hot Key Groups"
@@ -21482,7 +21488,7 @@ StringInfo
 	Value "All players combined offerings: *VALUE0*"
 StringInfo
 	ID "IDSScenarioPlayerNamePirates"
-	Value "Sanshas"
+	Value "Pirates"
 StringInfo
 	ID "IDSScenarioPlayerNameRebels"
 	Value "Rebels"
@@ -22642,6 +22648,9 @@ StringInfo
 	ID "IDSGalaxyScenarioTypePlanetPirateBase"
 	Value "Sansha Base"
 StringInfo
+	ID "IDSGalaxyScenarioTypePlanetSanctum"
+	Value "Pirates Sanctum"	
+StringInfo
 	ID "IDS_GAMEOPTION_LOCKEDTEAMS_NAME"
 	Value "Locked Teams"
 StringInfo
@@ -22649,7 +22658,7 @@ StringInfo
 	Value "Teams start the game with Peace Treaties between all players. Treaties cannot be broken."
 StringInfo
 	ID "IDS_GAMEOPTION_PIRATESACTIVE_NAME"
-	Value "Sanshas"
+	Value "Pirates"
 StringInfo
 	ID "IDS_GAMEOPTION_PIRATESACTIVE_DESCRIPTION"
 	Value "Sansha Incursions will peridiocally strike out from hidden pirate bases, pillaging worlds belonging to the player with the highest bountry. Seeking out and destroying all Sansha bases will bring an end to these attacks."
@@ -24923,13 +24932,10 @@ StringInfo
 	Value "T3 Destoyer Mode"
 StringInfo
 	ID "IDS_T3_Mode_DESCRIPTION"
-	Value "T3 Destoyers are Sniper with mudular structures wich allow then change to Tank Mode."
+	Value "T3 Destoyers are Sniper with modular structures wich allow then change between Sniper mode and Tank Mode."
 StringInfo
 	ID "IDS_T3_Mode_NAME"
 	Value "T3 Destoyer Mode"
-StringInfo
-	ID "IDS_T3_Mode_DESCRIPTION"
-	Value "T3 Destoyers are Sniper with mudular structures wich allow then change to Tank Mode."
 StringInfo
 	ID "IDS_Angel_Machariel_NAME"
 	Value "Machariel Battleship"
@@ -24973,6 +24979,9 @@ StringInfo
 	ID "IDS_PLAYERRACENAME_SERPENTIS"
 	Value "Serpentis"		
 StringInfo
+	ID "IDS_PLAYERRACENAME_SLEEPERS"
+	Value "Sleepers"			
+StringInfo
 	ID "IDS_PLAYERRACENAME_GURISTAS"
 	Value "Guristas"
 StringInfo
@@ -24993,4 +25002,73 @@ StringInfo
 StringInfo
 	ID "IDS_TENGU_DESCRIPTION"
 	Value "Caldari Strategic Cruiser, multi purpose cruiser with the best technology avaliable for sub-capital ships."		
-		
+StringInfo
+	ID "IDS_AMARR_ANTI-FIGHTER_SQUAD_NAME"
+	Value "Equite Squad"
+StringInfo
+	ID "IDS_AMARR_ANTI-FIGHTER_NAME"
+	Value "Equite"	
+StringInfo
+	ID "IDS_CALDARI_ANTI-FIGHTER_NAME"
+	Value "Locust"
+StringInfo
+	ID "IDS_Gallente_ANTI-FIGHTER_NAME"
+	Value "Satyr"
+StringInfo
+	ID "IDS_MINMATAR_ANTI-FIGHTER_NAME"
+	Value "Gram"
+StringInfo
+	ID "IDS_CALDARI_ANTI-FIGHTER_SQUAD_NAME"
+	Value "Locust Squad"
+StringInfo
+	ID "IDS_Gallente_ANTI-FIGHTER_SQUAD_NAME"
+	Value "Satyr Squad"
+StringInfo
+	ID "IDS_MINMATAR_ANTI-FIGHTER_SQUAD_NAME"
+	Value "Gram Squad"	
+StringInfo
+	ID "IDS_AMARR_ANTI-FIGHTER_SQUAD_DESC"
+	Value "A dedicated space superiority fighter, the anti-fighters are designed to be lethal to fighter and drone craft in its area of operations."
+StringInfo
+	ID "IDS_ORES_SUMMONORCA_NAME"
+	Value "Command Orca"		
+StringInfo
+	ID "IDS_ORES_SUMMONORCA_DESCRIPTION"
+	Value "Construct a Command Orca wich provide bonus to resource extractors nearby."
+StringInfo
+	ID "IDS_ABILITY_PROJECTEDSENSORDAMPENERBURST_NAME"
+	Value "Sensor Dampening Burst"	
+StringInfo
+	ID "IDS_ABILITY_PROJECTEDSENSORDAMPENERBURST_DESC"
+	Value "Emits an area-of-effect burst, centered on the designated location. The burst reduces the range and speed of affected ships' sensors."
+StringInfo
+	ID "IDS_CONCORD_DRIFTER_NAME"
+	Value "Jovian Drifter"
+StringInfo
+	ID "IDS_CONCORD_DRIFTER_DESCRIPTION"
+	Value "This Ancient and highly advanced vessels travel on space with a unknow purporse. One of this vessels alone is capable of bring down a carrier."			
+StringInfo
+	ID "IDS_SLEEPER_AWAKENEDWARDEN_NAME"
+	Value "Awakened Warden"
+StringInfo
+	ID "IDS_SLEEPER_AWAKENEDWARDEN_DESCRIPTION"
+	Value "This Ancient and highly advanced vessels travel on space with a unknow purporse."	
+StringInfo
+	ID "IDS_SLEEPER_AWAKENEDKEEPER_NAME"
+	Value "Awakened Keeper"
+StringInfo
+	ID "IDS_SLEEPER_AWAKENEDKEEPER_DESCRIPTION"
+	Value "This Ancient and highly advanced vessels travel on space with a unknow purporse."	
+StringInfo
+	ID "IDS_SLEEPER_WARDEN_NAME"
+	Value "Sleeper Warden"
+StringInfo
+	ID "IDS_SLEEPER_WARDEN_DESCRIPTION"
+	Value "This Ancient and highly advanced vessels travel on space with a unknow purporse."			
+StringInfo
+	ID "IDS_SLEEPER_SENTINEL_NAME"
+	Value "Awakened Keeper"
+StringInfo
+	ID "IDS_SLEEPER_SENTINEL_DESCRIPTION"
+	Value "This Ancient and highly advanced vessels travel on space with a unknow purporse."	
+	

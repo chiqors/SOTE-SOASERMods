@@ -1,0 +1,42 @@
+﻿TXT
+entityType "Buff"
+onReapplyDuplicateType "PrioritizeNewBuffs"
+buffStackingLimitType "ForAllPlayers"
+stackingLimit 1
+allowFirstSpawnerToStack FALSE
+buffExclusivityForAIType "ExclusiveForAllPlayers"
+isInterruptable FALSE
+isChannelling FALSE
+numInstantActions 1
+instantAction
+	buffInstantActionType "PlayPersistantAttachedEffect"
+	instantActionTriggerType "OnDelay"
+	delayTime 0.000000
+	effectInfo
+		effectAttachInfo
+			attachType "Above"
+		smallEffectName "EVE_Buff_ECMJammer_Small"
+		mediumEffectName "EVE_Buff_ECMJammer_Medium"
+		largeEffectName "EVE_Buff_ECMJammer_Large"
+		soundID ""
+numPeriodicActions 0
+numOverTimeActions 0
+numEntityModifiers 1
+entityModifier
+	buffEntityModifierType "WeaponRange"
+	value
+		Level:0 -0.700000
+		Level:1 -0.750000
+		Level:2 -0.800000
+		Level:3 -0.850000
+numEntityBoolModifiers 0
+numFinishConditions 2
+finishCondition
+	finishConditionType "TimeElapsed"
+	time
+		Level:0 40.000000
+		Level:1 40.000000
+		Level:2 40.000000
+		Level:3 40.000000
+finishCondition
+	finishConditionType "OwnerChanged"

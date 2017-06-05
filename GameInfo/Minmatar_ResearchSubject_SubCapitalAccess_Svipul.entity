@@ -12,7 +12,7 @@ ResearchField "Combat"
 Prerequisites
 	NumResearchPrerequisites 1
 	ResearchPrerequisite
-		Subject "Minmatar_ResearchSubject_SubCapitalAccess_Thrasher"
+		Subject "AllRaces_ResearchSubject_T3ModuleAccess_DefensiveSystems"
 		Level 1
 	RequiredFactionNameID ""
 	RequiredCompletedResearchSubjects 0

@@ -51,7 +51,7 @@ angularSpeed 0.000000
 rotateSoundName ""
 rotateFacingType "None"
 rotateConstantly FALSE
-ShieldMeshName ""
+ShieldMeshName "caldari_refinary"
 renderShield TRUE
 NumSoundsFor:ONATTACKORDERISSUED 0
 NumSoundsFor:ONCREATION 0

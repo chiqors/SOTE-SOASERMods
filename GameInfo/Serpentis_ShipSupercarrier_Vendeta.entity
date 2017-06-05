@@ -1,9 +1,9 @@
 ﻿TXT
 entityType "CapitalShip"
-ability:0 "AbilityDroneBomb"
-ability:1 "AbilityEnergyNeutralizationBurst"
-ability:2 "AbilityProjectedECMBurst"
-ability:3 "AbilityRemoteArmorRepairerCapital"
+ability:0 "AbilityProjectedSensorDampenerBurst"
+ability:1 "AbilityPLASMASmartbomb"
+ability:2 "AbilityFighterControlUnitSuperCarrier"
+ability:3 "AbilitySuperCarrierArmor"
 ability:4 ""
 defaultAutoAttackRange "GravityWell"
 defaultAutoAttackOn TRUE
@@ -153,7 +153,7 @@ TargetCountPerBank:LEFT 0
 TargetCountPerBank:RIGHT 0
 canOnlyTargetStructures FALSE
 mass 50000.000000
-ShieldMeshName "Nyx"
+ShieldMeshName "Vendeta"
 renderShield TRUE
 maxAccelerationLinear 12.500000
 maxAccelerationStrafe 0.500000
@@ -189,7 +189,7 @@ NumSoundsFor:ONSTARTPHASEJUMP 1
 SoundID "CAPITALSHIP_TECHCARRIER_ONSTARTPHASEJUMP_0"
 MeshNameInfoCount 1
 MeshNameInfo
-	meshName "Nyx"
+	meshName "Vendeta"
 	criteriaType "None"
 meshNameIncreasedEffectName ""
 meshNameDecreasedEffectName ""

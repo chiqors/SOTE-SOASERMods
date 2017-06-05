@@ -152,7 +152,7 @@ ability:0 "AbilityAfterburner"
 ability:1 "AbilityStasisWebifier"
 ability:2 "AbilityTrackingComputer"
 ability:3 "AbilityPhasedArmourHardener"
-ability:4 ""
+ability:4 "AbilityT3Destoyer"
 MaxAntiMatter 225.000000
 AntiMatterRestoreRate 0.610000
 cargoType "Invalid"

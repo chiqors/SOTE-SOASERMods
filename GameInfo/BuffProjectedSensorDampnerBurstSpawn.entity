@@ -11,7 +11,7 @@ instantAction
 	buffInstantActionType "ApplyBuffToTargetsInRadius"
 	instantActionTriggerType "OnDelay"
 	delayTime 0.000000
-	buffType "BuffSensorDampenerPlacing"
+	buffType "BuffProjectedSensorDampnerBurstAction"
 	targetFilter
 		numOwnerships 1
 		ownership "Enemy"

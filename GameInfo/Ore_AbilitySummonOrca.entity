@@ -45,12 +45,12 @@ orderAcknowledgementType "ONGENERALORDERISSUED"
 researchPrerequisites
 	NumResearchPrerequisites 1
 	ResearchPrerequisite
-		Subject "RESEARCHSUBJECT_ARTIFACT_WORMHOLETRAVEL"
+		Subject "RSACommand_Orca"
 		Level 1
 	RequiredFactionNameID ""
 	RequiredCompletedResearchSubjects 0
-nameStringID "IDS_SUMMON_ORTHURS_NAME"
-descStringID "IDS_SUMMON_ORTHURS_DESCRIPTION"
-hudIcon "HUDICON_CAPITALSHIP_TECHTRANSPORT"
-smallHudIcon "HUDICON_CAPITALSHIP_TECHTRANSPORT"
+nameStringID "IDS_ORES_SUMMONORCA_NAME"
+descStringID "IDS_ORES_SUMMONORCA_DESCRIPTION"
+hudIcon "HUDIconStarBaseUpgradeTechFactory0"
+smallHudIcon "HUDIconStarBaseUpgradeTechFactory0"
 infoCardIcon ""

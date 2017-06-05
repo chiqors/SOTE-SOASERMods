@@ -10,12 +10,9 @@ researchWindowLocation
 	pos [ 2 , 4 ]
 ResearchField "Combat"
 Prerequisites
-	NumResearchPrerequisites 2
+	NumResearchPrerequisites 1
 	ResearchPrerequisite
-		Subject "Gallente_ResearchSubject_SubCapitalAccess_Catalyst"
-		Level 1
-	ResearchPrerequisite
-		Subject "AllRaces_ResearchSubject_T3ModuleAccess_PropursionSystems"
+		Subject "AllRaces_ResearchSubject_T3ModuleAccess_DefensiveSystems"
 		Level 1
 	RequiredFactionNameID ""
 	RequiredCompletedResearchSubjects 0

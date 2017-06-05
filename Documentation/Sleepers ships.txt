@@ -1,0 +1,15 @@
+planetItemType
+	designName "Sleeper:Frigate:Cruiser"
+	entityDefName "Sleeper_ShipCruiserAwakenedWarden"	
+planetItemType
+	designName "Sleeper:Frigate:Cruiser2"
+	entityDefName "Sleeper_ShipCruiserAwakenedKeeper"	
+planetItemType
+	designName "Sleeper:Frigate:Battleship"
+	entityDefName "Sleeper_ShipBattleshipWarden"
+planetItemType
+	designName "Sleeper:Frigate:Battleship2"
+	entityDefName "Sleeper_ShipBattleshipSentinel"
+planetItemType
+	designName "Sleeper:Frigate:Battleship3"
+	entityDefName "Sleeper_ShipBattleshipDrifter"	

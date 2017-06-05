@@ -12,7 +12,7 @@ ResearchField "Combat"
 Prerequisites
 	NumResearchPrerequisites 1
 	ResearchPrerequisite
-		Subject "Amarr_ResearchSubject_SubCapitalAccess_Coercer"
+		Subject "AllRaces_ResearchSubject_T3ModuleAccess_DefensiveSystems"
 		Level 1
 	RequiredFactionNameID ""
 	RequiredCompletedResearchSubjects 0

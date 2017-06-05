@@ -31,12 +31,9 @@ ShieldPointRestoreRate 1.000000
 BaseArmorPoints 0.000000
 maxMitigation 0.000000
 Prerequisites
-	NumResearchPrerequisites 2
+	NumResearchPrerequisites 1
 	ResearchPrerequisite
-		Subject "Minmatar_ResearchSubject_SubCapitalAccess_Thrasher"
-		Level 1
-	ResearchPrerequisite
-		Subject "AllRaces_ResearchSubject_T3ModuleAccess_PropursionSystems"
+		Subject "AllRaces_ResearchSubject_T3ModuleAccess_DefensiveSystems"
 		Level 1
 	RequiredFactionNameID ""
 	RequiredCompletedResearchSubjects 0
@@ -146,7 +143,7 @@ ability:0 "AbilityAfterburner"
 ability:1 "AbilityStasisWebifier"
 ability:2 "AbilityTrackingComputer"
 ability:3 "AbilityPhasedArmourHardener"
-ability:4 ""
+ability:4 "AbilityT3Destoyer"
 MaxAntiMatter 225.000000
 AntiMatterRestoreRate 0.610000
 cargoType "Invalid"

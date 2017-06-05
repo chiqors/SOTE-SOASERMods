@@ -53,7 +53,7 @@ starType
 	designStringId "IDSGalaxyScenarioTypeStarPulsar"
 	orbitBodyTypeCount 1
 	orbitBodyType "PulsarStar"
-planetTypeCount 67
+planetTypeCount 69
 planetType
 	designName "WeightedNonIce"
 	designStringId "IDSGalaxyScenarioTypePlanetWeightedNonIce"
@@ -91,7 +91,7 @@ planetType
 planetType
 	designName "WeightedRandom"
 	designStringId "IDSGalaxyScenarioTypePlanetWeightedRandom"
-	orbitBodyTypeCount 44
+	orbitBodyTypeCount 46
 	orbitBodyType "Terran"
 	orbitBodyType "Terran"
 	orbitBodyType "Ice"
@@ -136,6 +136,8 @@ planetType
 	orbitBodyType "Greenhouse"
 	orbitBodyType "Greenhouse"
 	orbitBodyType "Greenhouse"
+	orbitBodyType "PirateSanctum"
+	orbitBodyType "SleeperTower"	
 planetType
 	designName "WeightedRandomFair"
 	designStringId "IDSGalaxyScenarioTypePlanetWeightedRandomFair"
@@ -236,13 +238,14 @@ planetType
 planetType
 	designName "AsteroidOrDead"
 	designStringId "IDSGalaxyScenarioTypePlanetAsteroidOrDead"
-	orbitBodyTypeCount 6
+	orbitBodyTypeCount 7
 	orbitBodyType "Asteroid"
 	orbitBodyType "Moon"
 	orbitBodyType "DeadAsteroid"
 	orbitBodyType "ShipGraveyard"
 	orbitBodyType "AsteroidBelt"
 	orbitBodyType "AsteroidSpaceJunk"
+	orbitBodyType "PirateSanctum"
 planetType
 	designName "AsteroidOrDeadFair"
 	designStringId "IDSGalaxyScenarioTypePlanetAsteroidOrDeadFair"
@@ -268,7 +271,7 @@ planetType
 planetType
 	designName "Random"
 	designStringId "IDSGalaxyScenarioTypePlanetRandom"
-	orbitBodyTypeCount 15
+	orbitBodyTypeCount 16
 	orbitBodyType "Terran"
 	orbitBodyType "Ice"
 	orbitBodyType "Desert"
@@ -284,6 +287,7 @@ planetType
 	orbitBodyType "Oceanic"
 	orbitBodyType "Ferrus"
 	orbitBodyType "Greenhouse"
+	orbitBodyType "PirateSanctum"
 planetType
 	designName "RandomFair"
 	designStringId "IDSGalaxyScenarioTypePlanetRandomFair"
@@ -368,7 +372,7 @@ planetType
 planetType
 	designName "RandomSpecial"
 	designStringId "IDSGalaxyScenarioTypePlanetRandomSpecial"
-	orbitBodyTypeCount 9
+	orbitBodyTypeCount 11
 	orbitBodyType "GasGiant"
 	orbitBodyType "PlasmaStorm"
 	orbitBodyType "Comet"
@@ -378,6 +382,8 @@ planetType
 	orbitBodyType "ShatteredMoon"
 	orbitBodyType "RadiationStorm"
 	orbitBodyType "MagneticCloud"
+	orbitBodyType "PirateSanctum"	
+	orbitBodyType "SleeperTower"		
 planetType
 	designName "RandomSpecialFair"
 	designStringId "IDSGalaxyScenarioTypePlanetRandomSpecialFair"
@@ -387,7 +393,7 @@ planetType
 planetType
 	designName "RandomUncolonizable"
 	designStringId "IDSGalaxyScenarioTypePlanetRandomUncolonizable"
-	orbitBodyTypeCount 11
+	orbitBodyTypeCount 12
 	orbitBodyType "GasGiant"
 	orbitBodyType "AsteroidBelt"
 	orbitBodyType "AsteroidSpaceJunk"
@@ -399,6 +405,7 @@ planetType
 	orbitBodyType "ShatteredMoon"
 	orbitBodyType "RadiationStorm"
 	orbitBodyType "MagneticCloud"
+	orbitBodyType "SleeperTower"		
 planetType
 	designName "RandomUncolonizableFair"
 	designStringId "IDSGalaxyScenarioTypePlanetRandomUncolonizableFair"
@@ -647,7 +654,17 @@ planetType
 	designStringId "IDSGalaxyScenarioTypePlanetPirateBase"
 	orbitBodyTypeCount 1
 	orbitBodyType "PirateBase"
-orbitBodyTypeCount 48
+planetType
+	designName "PirateSanctum"
+	designStringId "IDSGalaxyScenarioTypePlanetSanctum"
+	orbitBodyTypeCount 1
+	orbitBodyType "PirateSanctum"	
+planetType
+	designName "SleeperTower"
+	designStringId "IDSGalaxyScenarioTypePlanetSanctum"
+	orbitBodyTypeCount 1
+	orbitBodyType "SleeperTower"
+orbitBodyTypeCount 50
 orbitBodyType
 	typeName "BlueStar"
 	entityDefName "STAR_BLUE"
@@ -680,6 +697,14 @@ orbitBodyType
 	typeName "PirateBase"
 	entityDefName "PlanetPirateBase"
 	defaultTemplateName "Template:PirateBase"
+orbitBodyType	
+	typeName "PirateSanctum"
+	entityDefName "PlanetPirateSanctum"
+	defaultTemplateName "Template:PirateSanctum"	
+orbitBodyType	
+	typeName "SleeperTower"
+	entityDefName "PlanetDrifterTower"
+	defaultTemplateName "Template:SleeperTower"		
 orbitBodyType	
 	typeName "BarrenFair"
 	entityDefName "PlanetBarrenFair"
@@ -835,12 +860,27 @@ orbitBodyType
 orbitBodyType
 	typeName "Wormhole"
 	entityDefName "PlanetWormhole"
-	defaultTemplateName ""
+	defaultTemplateName "Template:DefaultStart_Sleeper"
 orbitBodyType
 	typeName "Occupied"
 	entityDefName "OccupiedPlanet"
 	defaultTemplateName "Template:OccupiedPlanet"
-planetItemTypeCount 234
+planetItemTypeCount 239
+planetItemType
+	designName "Sleeper:Frigate:Cruiser"
+	entityDefName "Sleeper_ShipCruiserAwakenedWarden"	
+planetItemType
+	designName "Sleeper:Frigate:Cruiser2"
+	entityDefName "Sleeper_ShipCruiserAwakenedKeeper"	
+planetItemType
+	designName "Sleeper:Frigate:Battleship"
+	entityDefName "Sleeper_ShipBattleshipWarden"
+planetItemType
+	designName "Sleeper:Frigate:Battleship2"
+	entityDefName "Sleeper_ShipBattleshipSentinel"
+planetItemType
+	designName "Sleeper:Frigate:Battleship3"
+	entityDefName "Sleeper_ShipBattleshipDrifter"	
 planetItemType
 	designName "Guristas:CapitalShip:Carrier"
 	entityDefName "Guristas_ShipCarrier_Chimera"
@@ -1543,7 +1583,7 @@ planetItemType
 planetItemType
 	designName "Caldari:Frigate:Light"
 	entityDefName "Caldari_Ship_Frigate_kestrel"	
-playerTypeCount 10
+playerTypeCount 11
 playerType
 	designName "AmarrEmpire"
 	entityDefName "Player_AmarrEmpire"
@@ -1574,7 +1614,10 @@ playerType
 playerType
 	designName "Guristas"
 	entityDefName "Player_Gurista"	
-planetItemsTemplateCount 64
+playerType
+	designName "Sleepers"
+	entityDefName "Player_Sleepers"
+planetItemsTemplateCount 69
 planetItemsTemplate
 	templateName "Empty"
 	subTemplates 0
@@ -1727,6 +1770,11 @@ planetItemsTemplate
 		template "Template:DefaultHomePlanetSetup"
 		template "Template:LocalMilitia_Asteroid"
 	groups 0
+planetItemsTemplate
+	templateName "Template:DefaultStart_Sleeper"
+	subTemplates 1
+		template "Template:LocalMilitia_Sleeper"			
+	groups 0		
 planetItemsTemplate
 	templateName "Template:DefaultStart_Asteroid2"
 	subTemplates 2		
@@ -2005,6 +2053,28 @@ planetItemsTemplate
 				item "Amarr:Frigate:Light"
 				item "Amarr:Frigate:Light"
 				item "Amarr:Frigate:Light"
+planetItemsTemplate
+	templateName "Template:LocalMilitiaSleeper"
+	subTemplates 0
+	groups 1
+		group
+			condition
+				type "NoPlanetOwner"
+				param ""
+			owner "RandomMilitia"
+			colonizeChance 0
+			items 11
+				item "Sleeper:Frigate:Cruiser"
+				item "Sleeper:Frigate:Cruiser"
+				item "Sleeper:Frigate:Cruiser"
+				item "Sleeper:Frigate:Cruiser"
+				item "Sleeper:Frigate:Cruiser2"
+				item "Sleeper:Frigate:Cruiser2"
+				item "Sleeper:Frigate:Cruiser2"
+				item "Sleeper:Frigate:Cruiser2"
+				item "Sleeper:Frigate:Battleship"
+				item "Sleeper:Frigate:Battleship2"						
+				item "Sleeper:Frigate:Battleship3"
 planetItemsTemplate
 	templateName "Template:LocalMilitiaVeryWeak4"
 	subTemplates 0
@@ -3224,6 +3294,11 @@ planetItemsTemplate
 		template "Template:LocalMilitiaVeryWeak"
 	groups 0
 planetItemsTemplate
+	templateName "Template:LocalMilitia_Sleeper"
+	subTemplates 1
+		template "Template:LocalMilitiaSleeper"
+	groups 0	
+planetItemsTemplate
 	templateName "Template:LocalMilitia_Asteroid2"
 	subTemplates 1
 		template "Template:LocalMilitiaVeryWeak4"
@@ -3288,6 +3363,96 @@ planetItemsTemplate
 	subTemplates 1
 		template "Template:LocalMilitiaMediumFair"
 	groups 0
+planetItemsTemplate
+	templateName "Template:SleeperTower"
+	subTemplates 0
+	groups 1
+		group
+			condition
+				type "NoPlanetOwner"
+				param ""
+			owner "RandomMilitia"
+			colonizeChance 0
+			items 11
+				item "Sleeper:Frigate:Cruiser"
+				item "Sleeper:Frigate:Cruiser"
+				item "Sleeper:Frigate:Cruiser"
+				item "Sleeper:Frigate:Cruiser"
+				item "Sleeper:Frigate:Cruiser2"
+				item "Sleeper:Frigate:Cruiser2"
+				item "Sleeper:Frigate:Cruiser2"
+				item "Sleeper:Frigate:Cruiser2"
+				item "Sleeper:Frigate:Battleship"
+				item "Sleeper:Frigate:Battleship2"						
+				item "Sleeper:Frigate:Battleship3"
+planetItemsTemplate
+	templateName "Template:PirateSanctum"
+	subTemplates 0
+	groups 1
+		group
+			condition
+				type "Always"
+				param ""
+			owner "Pirate"
+			colonizeChance 1
+			items 57
+				item "BloodRaider:CapitalShip:SuperCarrier"
+				item "BloodRaider:Frigate:Battleship"
+				item "BloodRaider:Frigate:Battleship"
+				item "BloodRaider:Frigate:Battleship"
+				item "BloodRaider:Frigate:Battleship"
+				item "BloodRaider:Frigate:Battleship"
+				item "BloodRaider:Frigate:Battleship"
+				item "BloodRaider:Frigate:Battleship"
+				item "BloodRaider:Frigate:Battleship"
+				item "BloodRaider:Frigate:Battleship"
+				item "BloodRaider:Frigate:Battleship"
+				item "BloodRaider:Frigate:Battleship"
+				item "BloodRaider:Frigate:Battleship"
+				item "BloodRaider:Frigate:Battleship"
+				item "BloodRaider:Frigate:Battleship"
+				item "BloodRaider:Frigate:Battleship"
+				item "BloodRaider:Frigate:Cruiser"
+				item "BloodRaider:Frigate:Cruiser"
+				item "BloodRaider:Frigate:Cruiser"
+				item "BloodRaider:Frigate:Cruiser"
+				item "BloodRaider:Frigate:Cruiser"
+				item "BloodRaider:Frigate:Cruiser"
+				item "BloodRaider:Frigate:Cruiser"
+				item "BloodRaider:Frigate:Cruiser"
+				item "BloodRaider:Frigate:Cruiser"
+				item "BloodRaider:Frigate:Cruiser"
+				item "BloodRaider:Frigate:Cruiser"
+				item "BloodRaider:Frigate:Cruiser"
+				item "BloodRaider:Frigate:Cruiser"
+				item "BloodRaider:Frigate:Cruiser"
+				item "BloodRaider:Frigate:Cruiser"
+				item "BloodRaider:Frigate:Cruiser"
+				item "BloodRaider:Frigate:Frigate"
+				item "BloodRaider:Frigate:Frigate"
+				item "BloodRaider:Frigate:Frigate"
+				item "BloodRaider:Frigate:Frigate"
+				item "BloodRaider:Frigate:Frigate"
+				item "BloodRaider:Frigate:Frigate"
+				item "BloodRaider:Frigate:Frigate"
+				item "BloodRaider:Frigate:Frigate"
+				item "BloodRaider:Frigate:Frigate"
+				item "BloodRaider:Frigate:Frigate"
+				item "BloodRaider:Frigate:Frigate"
+				item "BloodRaider:Frigate:Frigate"				
+				item "BloodRaider:Frigate:Frigate"
+				item "BloodRaider:Frigate:Frigate"
+				item "BloodRaider:Frigate:Frigate"
+				item "BloodRaider:Frigate:Frigate"
+				item "BloodRaider:Frigate:Frigate"
+				item "BloodRaider:Frigate:Frigate"
+				item "BloodRaider:Frigate:Logistics"
+				item "BloodRaider:Frigate:Logistics"
+				item "BloodRaider:Frigate:Logistics"
+				item "BloodRaider:Frigate:Logistics"
+				item "BloodRaider:Frigate:Logistics"
+				item "BloodRaider:Frigate:Logistics"								
+				item "Artifact:HyperspaceSpeed"
 planetItemsTemplate
 	templateName "Template:PirateBase"
 	subTemplates 0

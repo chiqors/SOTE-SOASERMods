@@ -113,13 +113,13 @@ TargetCountPerBank:RIGHT 3
 canOnlyTargetStructures FALSE
 ShieldMeshName "Keepstar"
 renderShield TRUE
-squadTypeEntityDef:0 "Caldari_DroneSquad_LightFighter"
+squadTypeEntityDef:0 "Amarr_DroneSquad_Anti-fighter"
 squadAntiMatterCost:0 0.000000
-squadTypeEntityDef:1 ""
+squadTypeEntityDef:1 "Caldari_DroneSquad_Anti-Fighter"
 squadAntiMatterCost:1 0.000000
-squadTypeEntityDef:2 ""
+squadTypeEntityDef:2 "Gallente_DroneSquad_Anti-fighter"
 squadAntiMatterCost:2 0.000000
-squadTypeEntityDef:3 ""
+squadTypeEntityDef:3 "Minmatar_DroneSquad_Anti-Fighter"
 squadAntiMatterCost:3 0.000000
 mainViewIcon "MainViewIconStarBaseTech"
 experiencePointsForDestroying 1000.000000

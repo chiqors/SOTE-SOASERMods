@@ -1,9 +1,9 @@
 ﻿TXT
 entityType "CapitalShip"
-ability:0 "AbilityPLASMASmartbomb"
-ability:1 "AbilityEnergyNeutralizationBurst"
-ability:2 "AbilityProjectedECMBurst"
-ability:3 "AbilityDroneBomb"
+ability:0 "AbilityProjectedECMBurst"
+ability:1 "AbilityPLASMASmartbomb"
+ability:2 "AbilityFighterControlUnitSuperCarrier"
+ability:3 "AbilitySuperCarrierArmor"
 ability:4 ""
 defaultAutoAttackRange "GravityWell"
 defaultAutoAttackOn TRUE
@@ -165,9 +165,9 @@ maxRollRate 1.000000
 maxRollAngle 30.000000
 squadTypeEntityDef:0 "Gallente_DroneSquad_Firbolg"
 squadAntiMatterCost:0 0.000000
-squadTypeEntityDef:1 "Gallente_DroneSquad_Cyclops"
+squadTypeEntityDef:1 "Gallente_DroneSquad_Anti-fighter"
 squadAntiMatterCost:1 0.000000
-squadTypeEntityDef:2 ""
+squadTypeEntityDef:2 "Gallente_DroneSquad_Cyclops"
 squadAntiMatterCost:2 0.000000
 squadTypeEntityDef:3 ""
 squadAntiMatterCost:3 0.000000
