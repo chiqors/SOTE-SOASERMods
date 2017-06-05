@@ -1,6 +1,6 @@
 ﻿TXT
 onlyLoadOnDemand FALSE
-brushCount 317
+brushCount 321
 brush
 	name "HUDICON_CORVETTE_PHASE"
 	content "States"
@@ -4108,4 +4108,24 @@ brush
 	Normal
 		fileName "Ships_Buttons_Normal"
 		pixelBox [ 566 , 866 , 47 , 33 ]
-		
+brush
+	name "HUDICONSMALL_BATTLESHIP"
+	content "Simple"
+	fileName "Unit_Main2"
+	pixelBox [ 124 , 75 , 16 , 20 ]		
+brush
+	name "HUDICONSMALL_BATTLECRUISER"
+	content "Simple"
+	fileName "Unit_Main2"
+	pixelBox [ 87 , 43, 14 , 14 ]		
+brush
+	name "HUDICONSMALL_CRUISER"
+	content "Simple"
+	fileName "Unit_Main2"
+	pixelBox [ 88 , 78, 13 , 13 ]		
+brush
+	name "HUDICONSMALL_CARRIER"
+	content "Simple"
+	fileName "Unit_Main2"
+	pixelBox [ 159 , 38, 20 , 22 ]		
+	

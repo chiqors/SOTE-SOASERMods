@@ -34,6 +34,7 @@ I - Create
 35 - Cruisers Damage name and icons
 36 - Freighters Capital will deploy Keepstar
 37 - Create planet sleeper tower
+Bloodraider shiypayrd should be planet
 
 
 II - Test

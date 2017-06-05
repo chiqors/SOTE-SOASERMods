@@ -95,8 +95,8 @@ numRandomDebrisSmall 0
 numSpecificDebris 0
 armorType "VeryHeavy"
 hudIcon "HUDICON_FRIGATE_CHIMERA"
-smallHudIcon "HUDICONSMALL_CAPITALSHIP_CHIMERA"
-infoCardIcon "INFOCARDICON_CAPITALSHIP_CHIMERA"
+smallHudIcon "HUDICONSMALL_CARRIER"
+infoCardIcon "HUDICONSMALL_CARRIER"
 minZoomDistanceMult 1.000000
 NumWeapons 1
 Weapon
