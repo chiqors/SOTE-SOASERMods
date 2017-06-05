@@ -27,12 +27,11 @@ maxTargetCount
 	Level:3 -1.000000
 effectInfo
 	effectAttachInfo
-		attachType "Ability"
-		abilityIndex 0
+		attachType "Above"
 	smallEffectName "EVE_Buff_Tethered_Small"
 	mediumEffectName "EVE_Buff_Tethered_Medium"
 	largeEffectName "EVE_Buff_Tethered_Large"
-	soundID ""
+	soundID "EFFECT_REPAIR_TECH"
 needsToFaceTarget FALSE
 canCollideWithTarget TRUE
 moveThruTarget FALSE

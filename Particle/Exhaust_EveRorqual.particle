@@ -7,13 +7,13 @@ ParticleSimulation
 	EmitterContents
 		Name "Flame Trail"
 		Enabled TRUE
-		EmitRate 25.000000
+		EmitRate 12.000000
 		HasInfiniteEmitCount TRUE
 		MaxEmitCount 0
 		hasEmitIntervals FALSE
 		emitIntervalRunDuration 0.000000
 		emitIntervalWaitDuration 0.000000
-		ParticleLifeTime 1.500000
+		ParticleLifeTime 0.500000
 		ParticleMinStartLinearSpeed 80.000000
 		ParticleMaxStartLinearSpeed 80.000000
 		ParticleMinStartAngularSpeed 0.000000
@@ -22,7 +22,7 @@ ParticleSimulation
 		ParticleMaxStartRotation 0.000000
 		ParticleStartMass 1.000000
 		ParticleStartColor ffffc080
-		ParticleWidth 20.000000
+		ParticleWidth 15.000000
 		ParticleHeight 400.000000
 		MeshName ""
 		Position [ 0.000000 0.000000 50.000000 ]
@@ -55,7 +55,7 @@ ParticleSimulation
 	EmitterContents
 		Name "Engine Flare"
 		Enabled TRUE
-		EmitRate 0.480000
+		EmitRate 1.000000
 		HasInfiniteEmitCount TRUE
 		MaxEmitCount 0
 		hasEmitIntervals FALSE
@@ -73,7 +73,7 @@ ParticleSimulation
 		ParticleWidth 70.000000
 		ParticleHeight 90.000000
 		MeshName ""
-		Position [ 0.000000 0.000000 15.000000 ]
+		Position [ 0.000000 0.000000 10.000000 ]
 		Orientation
 			 [ 1.000000 0.000000 0.000000 ]
 			 [ 0.000000 1.000000 0.000000 ]
@@ -85,7 +85,7 @@ ParticleSimulation
 		HasInfiniteLifeTime TRUE
 		TotalLifeTime 0.000000
 		BillboardAnchor 0
-		ParticleFacing 2
+		ParticleFacing 0
 		PipelineEffectID "GS_Exhaust.fx"
 		AreParticlesAttached TRUE
 		numTextures 2
@@ -103,7 +103,7 @@ ParticleSimulation
 	EmitterContents
 		Name "Flame Fixed"
 		Enabled TRUE
-		EmitRate 5.000000
+		EmitRate 2.000000
 		HasInfiniteEmitCount TRUE
 		MaxEmitCount 0
 		hasEmitIntervals FALSE
@@ -118,8 +118,8 @@ ParticleSimulation
 		ParticleMaxStartRotation 0.000000
 		ParticleStartMass 1.000000
 		ParticleStartColor ffffc080
-		ParticleWidth 80.000000
-		ParticleHeight 175.000000
+		ParticleWidth 40.000000
+		ParticleHeight 150.000000
 		MeshName ""
 		Position [ 0.000000 0.000000 0.000000 ]
 		Orientation

@@ -2,7 +2,7 @@
 ParticleSimulation
 	HasInfiniteLifeTime TRUE
 	TotalLifeTime 60.000000
-	NumEmitters 7
+	NumEmitters 5
 	EmitterType "Point"
 	EmitterContents
 		Name "Missile Body mesh"
@@ -53,54 +53,6 @@ ParticleSimulation
 		AngleVariance 0.000000
 	EmitterType "Point"
 	EmitterContents
-		Name "Launch Flash"
-		Enabled TRUE
-		EmitRate 20.000000
-		HasInfiniteEmitCount FALSE
-		MaxEmitCount 1
-		hasEmitIntervals FALSE
-		emitIntervalRunDuration 0.000000
-		emitIntervalWaitDuration 0.000000
-		ParticleLifeTime 0.200000
-		ParticleMinStartLinearSpeed 0.000000
-		ParticleMaxStartLinearSpeed 0.000000
-		ParticleMinStartAngularSpeed 0.000000
-		ParticleMaxStartAngularSpeed 0.000000
-		ParticleMinStartRotation 0.000000
-		ParticleMaxStartRotation 6.283185
-		ParticleStartMass 1.000000
-		ParticleStartColor fffaf0e6
-		ParticleWidth 50.000000
-		ParticleHeight 50.000000
-		MeshName ""
-		Position [ 0.000000 0.000000 -15.000000 ]
-		Orientation
-			 [ 1.000000 0.000000 0.000000 ]
-			 [ 0.000000 1.000000 0.000000 ]
-			 [ 0.000000 0.000000 1.000000 ]
-		RotateAboutForward 0.000000
-		RotateAboutUp 0.000000
-		RotateAboutCross 0.000000
-		StartTime 0.000000
-		HasInfiniteLifeTime FALSE
-		TotalLifeTime 0.100000
-		BillboardAnchor 0
-		ParticleFacing 0
-		PipelineEffectID "Particle_Additive.fx"
-		AreParticlesAttached TRUE
-		numTextures 2
-		textureName "brightcenter.tga"
-		textureName ""
-		textureAnimationName ""
-		textureAnimationSpawnType "RandomFrames"
-		textureAnimationOnParticleFPS 0.000000
-		ParticlesRotate TRUE
-		MeshParticleRotationAxisType 0
-		MeshParticleRotationAxis [ 0.000000 0.100000 0.000000 ]
-		RotationDirectionType 0
-		AngleVariance 0.000000
-	EmitterType "Point"
-	EmitterContents
 		Name "Engine Flare"
 		Enabled TRUE
 		EmitRate 20.000000
@@ -118,8 +70,8 @@ ParticleSimulation
 		ParticleMaxStartRotation 6.283185
 		ParticleStartMass 1.000000
 		ParticleStartColor ffff8000
-		ParticleWidth 80.000000
-		ParticleHeight 40.000000
+		ParticleWidth 120.000000
+		ParticleHeight 60.000000
 		MeshName ""
 		Position [ 0.000000 0.000000 -15.000000 ]
 		Orientation
@@ -137,7 +89,7 @@ ParticleSimulation
 		PipelineEffectID "Particle_Additive.fx"
 		AreParticlesAttached TRUE
 		numTextures 2
-		textureName "EVE_MissileFlare.tga"
+		textureName "C:\Users\Vader\Documents\My Games\Ironclad Games\Sins of a Solar Empire Rebellion\Mods-Rebellion v1.85 Dev\Sins-of-Empires\Textures\EVE_MissileFlare.tga"
 		textureName ""
 		textureAnimationName ""
 		textureAnimationSpawnType "RandomFrames"
@@ -185,7 +137,7 @@ ParticleSimulation
 		PipelineEffectID "Particle_Additive.fx"
 		AreParticlesAttached TRUE
 		numTextures 2
-		textureName "gaussbullet.tga"
+		textureName "C:\Program Files (x86)\Steam\steamapps\common\Sins of a Solar Empire Rebellion\Textures\gaussbullet.tga"
 		textureName ""
 		textureAnimationName ""
 		textureAnimationSpawnType "RandomFrames"
@@ -210,76 +162,15 @@ ParticleSimulation
 		nonRandomSpawnLoopEmittedParticleCount 49
 	EmitterType "Ring"
 	EmitterContents
-		Name "Smoke (Trail)"
-		Enabled TRUE
-		EmitRate 40.000000
-		HasInfiniteEmitCount TRUE
-		MaxEmitCount 1
-		hasEmitIntervals FALSE
-		emitIntervalRunDuration 0.000000
-		emitIntervalWaitDuration 0.000000
-		ParticleLifeTime 3.000000
-		ParticleMinStartLinearSpeed 0.000000
-		ParticleMaxStartLinearSpeed 0.000000
-		ParticleMinStartAngularSpeed 0.000000
-		ParticleMaxStartAngularSpeed 0.000000
-		ParticleMinStartRotation 0.000000
-		ParticleMaxStartRotation 0.000000
-		ParticleStartMass 1.000000
-		ParticleStartColor ffe0e0e0
-		ParticleWidth 10.000000
-		ParticleHeight 400.000000
-		MeshName ""
-		Position [ 0.000000 0.000000 -100.000000 ]
-		Orientation
-			 [ 1.000000 0.000000 0.000000 ]
-			 [ 0.000000 1.000000 0.000000 ]
-			 [ 0.000000 0.000000 1.000000 ]
-		RotateAboutForward 0.000000
-		RotateAboutUp 0.000000
-		RotateAboutCross 0.000000
-		StartTime 0.500000
-		HasInfiniteLifeTime FALSE
-		TotalLifeTime 60.000000
-		BillboardAnchor 0
-		ParticleFacing 1
-		PipelineEffectID "Particle_Additive.fx"
-		AreParticlesAttached FALSE
-		numTextures 2
-		textureName "Smoke.dds"
-		textureName ""
-		textureAnimationName ""
-		textureAnimationSpawnType "RandomFrames"
-		textureAnimationOnParticleFPS 0.000000
-		ParticlesRotate FALSE
-		MeshParticleRotationAxisType 0
-		MeshParticleRotationAxis [ 0.000000 0.000000 0.000000 ]
-		RotationDirectionType 0
-		RingRadiusXMin 0.000000
-		RingRadiusXMax 0.000000
-		RingRadiusYMin 0.000000
-		RingRadiusYMax 0.000000
-		ParticleMaxStartSpeedTangential 0.000000
-		ParticleMaxStartSpeedRingNormal -400.000000
-		ScaleStartSpeedsByRadius FALSE
-		SpawnAngleStart 0.000000
-		SpawnAngleStop 0.000000
-		minSpawnHeight 0.000000
-		maxSpawnHeight 0.000000
-		spawnDirectionIsParallelToPlane FALSE
-		isSpawnAngleRandom FALSE
-		nonRandomSpawnLoopEmittedParticleCount 0
-	EmitterType "Ring"
-	EmitterContents
 		Name "Engine Fire (Trail)"
 		Enabled TRUE
-		EmitRate 120.000000
+		EmitRate 30.000000
 		HasInfiniteEmitCount TRUE
 		MaxEmitCount 1
 		hasEmitIntervals FALSE
 		emitIntervalRunDuration 0.000000
 		emitIntervalWaitDuration 0.000000
-		ParticleLifeTime 0.300000
+		ParticleLifeTime 0.600000
 		ParticleMinStartLinearSpeed 0.000000
 		ParticleMaxStartLinearSpeed 0.000000
 		ParticleMinStartAngularSpeed 0.000000
@@ -289,9 +180,9 @@ ParticleSimulation
 		ParticleStartMass 1.000000
 		ParticleStartColor ffff8000
 		ParticleWidth 7.000000
-		ParticleHeight 250.000000
+		ParticleHeight 150.000000
 		MeshName ""
-		Position [ 0.000000 0.000000 -100.000000 ]
+		Position [ 0.000000 0.000000 -50.000000 ]
 		Orientation
 			 [ 1.000000 0.000000 0.000000 ]
 			 [ 0.000000 1.000000 0.000000 ]
@@ -307,7 +198,7 @@ ParticleSimulation
 		PipelineEffectID "Particle_Additive.fx"
 		AreParticlesAttached FALSE
 		numTextures 2
-		textureName "Smoke.dds"
+		textureName "C:\Program Files (x86)\Steam\steamapps\common\Sins of a Solar Empire Rebellion\Textures\smoke1.tga"
 		textureName ""
 		textureAnimationName ""
 		textureAnimationSpawnType "RandomFrames"
@@ -368,7 +259,7 @@ ParticleSimulation
 		PipelineEffectID "Particle_Additive.fx"
 		AreParticlesAttached TRUE
 		numTextures 2
-		textureName "EVE_MissileFlare.tga"
+		textureName "C:\Users\Vader\Documents\My Games\Ironclad Games\Sins of a Solar Empire Rebellion\Mods-Rebellion v1.85 Dev\Sins-of-Empires\Textures\EVE_MissileFlare.tga"
 		textureName ""
 		textureAnimationName ""
 		textureAnimationSpawnType "RandomFrames"
@@ -378,7 +269,7 @@ ParticleSimulation
 		MeshParticleRotationAxis [ 0.000000 0.100000 0.000000 ]
 		RotationDirectionType 0
 		AngleVariance 0.000000
-	NumAffectors 8
+	NumAffectors 7
 	AffectorType "Fade"
 	AffectorContents
 		Name ""
@@ -409,8 +300,7 @@ ParticleSimulation
 		UseOldParticleAffectThreshold FALSE
 		OldParticleAffectThreshold 0.000000
 		AffectAttachedParticles TRUE
-		numAttachedEmitters 1
-		attachedEmitterName "Launch Flash"
+		numAttachedEmitters 0
 		DoFadeOut TRUE
 		FadeOutTime 0.200000
 		DoFadeIn FALSE
@@ -427,28 +317,11 @@ ParticleSimulation
 		UseOldParticleAffectThreshold FALSE
 		OldParticleAffectThreshold 0.000000
 		AffectAttachedParticles TRUE
-		numAttachedEmitters 1
-		attachedEmitterName "Smoke (Trail)"
+		numAttachedEmitters 0
 		DoFadeOut TRUE
 		FadeOutTime 10.000000
 		DoFadeIn TRUE
 		FadeInTime 0.200000
-	AffectorType "LinearInflate"
-	AffectorContents
-		Name "(new) LinearInflate-1"
-		Enabled TRUE
-		StartTime 0.000000
-		HasInfiniteLifeTime TRUE
-		TotalLifeTime 0.000000
-		UseYoungParticleAffectThreshold FALSE
-		YoungParticleAffectThreshold 0.000000
-		UseOldParticleAffectThreshold FALSE
-		OldParticleAffectThreshold 0.000000
-		AffectAttachedParticles TRUE
-		numAttachedEmitters 1
-		attachedEmitterName "Smoke (Trail)"
-		WidthInflateRate 12.000000
-		HeightInflateRate 12.000000
 	AffectorType "Fade"
 	AffectorContents
 		Name "Fire Fade"
@@ -517,9 +390,8 @@ ParticleSimulation
 		UseOldParticleAffectThreshold FALSE
 		OldParticleAffectThreshold 0.000000
 		AffectAttachedParticles TRUE
-		numAttachedEmitters 2
+		numAttachedEmitters 1
 		attachedEmitterName "Engine Fire (Trail)"
-		attachedEmitterName "Smoke (Trail)"
 		WidthInflateRate -15.000000
 		HeightInflateRate 0.000000
 	length 0.000000

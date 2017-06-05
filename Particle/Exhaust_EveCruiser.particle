@@ -7,23 +7,23 @@ ParticleSimulation
 	EmitterContents
 		Name "Flame Trail"
 		Enabled TRUE
-		EmitRate 25.000000
+		EmitRate 15.000000
 		HasInfiniteEmitCount TRUE
 		MaxEmitCount 0
 		hasEmitIntervals FALSE
 		emitIntervalRunDuration 0.000000
 		emitIntervalWaitDuration 0.000000
-		ParticleLifeTime 1.500000
-		ParticleMinStartLinearSpeed 70.000000
-		ParticleMaxStartLinearSpeed 70.000000
+		ParticleLifeTime 1.000000
+		ParticleMinStartLinearSpeed 15.000000
+		ParticleMaxStartLinearSpeed 15.000000
 		ParticleMinStartAngularSpeed 0.000000
 		ParticleMaxStartAngularSpeed 0.000000
 		ParticleMinStartRotation 0.000000
 		ParticleMaxStartRotation 0.000000
 		ParticleStartMass 1.000000
 		ParticleStartColor ffffc080
-		ParticleWidth 8.000000
-		ParticleHeight 150.000000
+		ParticleWidth 4.000000
+		ParticleHeight 100.000000
 		MeshName ""
 		Position [ 0.000000 0.000000 30.000000 ]
 		Orientation
@@ -55,7 +55,7 @@ ParticleSimulation
 	EmitterContents
 		Name "Engine Flare"
 		Enabled TRUE
-		EmitRate 0.480000
+		EmitRate 1.000000
 		HasInfiniteEmitCount TRUE
 		MaxEmitCount 0
 		hasEmitIntervals FALSE
@@ -70,10 +70,10 @@ ParticleSimulation
 		ParticleMaxStartRotation 3.141593
 		ParticleStartMass 1.000000
 		ParticleStartColor ffffc080
-		ParticleWidth 15.000000
-		ParticleHeight 20.000000
+		ParticleWidth 20.000000
+		ParticleHeight 15.000000
 		MeshName ""
-		Position [ 0.000000 0.000000 4.000000 ]
+		Position [ 0.000000 0.000000 0.000000 ]
 		Orientation
 			 [ 1.000000 0.000000 0.000000 ]
 			 [ 0.000000 1.000000 0.000000 ]
@@ -85,7 +85,7 @@ ParticleSimulation
 		HasInfiniteLifeTime TRUE
 		TotalLifeTime 0.000000
 		BillboardAnchor 0
-		ParticleFacing 2
+		ParticleFacing 0
 		PipelineEffectID "GS_Exhaust.fx"
 		AreParticlesAttached TRUE
 		numTextures 2
@@ -109,19 +109,19 @@ ParticleSimulation
 		hasEmitIntervals FALSE
 		emitIntervalRunDuration 0.000000
 		emitIntervalWaitDuration 0.000000
-		ParticleLifeTime 2.000000
-		ParticleMinStartLinearSpeed 40.000000
-		ParticleMaxStartLinearSpeed 50.000000
+		ParticleLifeTime 1.000000
+		ParticleMinStartLinearSpeed 10.000000
+		ParticleMaxStartLinearSpeed 10.000000
 		ParticleMinStartAngularSpeed 0.000000
 		ParticleMaxStartAngularSpeed 0.000000
 		ParticleMinStartRotation 0.000000
 		ParticleMaxStartRotation 0.000000
 		ParticleStartMass 1.000000
 		ParticleStartColor ffffc080
-		ParticleWidth 22.000000
-		ParticleHeight 40.000000
+		ParticleWidth 5.000000
+		ParticleHeight 10.000000
 		MeshName ""
-		Position [ 0.000000 0.000000 0.000000 ]
+		Position [ 0.000000 0.000000 -5.000000 ]
 		Orientation
 			 [ 1.000000 0.000000 0.000000 ]
 			 [ 0.000000 1.000000 0.000000 ]
@@ -147,7 +147,7 @@ ParticleSimulation
 		MeshParticleRotationAxis [ 0.000000 0.100000 0.000000 ]
 		RotationDirectionType 0
 		AngleVariance 0.000000
-	NumAffectors 5
+	NumAffectors 4
 	AffectorType "Fade"
 	AffectorContents
 		Name "Fadeout"
@@ -164,7 +164,7 @@ ParticleSimulation
 		attachedEmitterName "Flame Fixed"
 		attachedEmitterName "Engine Flare"
 		DoFadeOut TRUE
-		FadeOutTime 1.500000
+		FadeOutTime 0.500000
 		DoFadeIn TRUE
 		FadeInTime 0.500000
 	AffectorType "LinearInflate"
@@ -183,22 +183,6 @@ ParticleSimulation
 		attachedEmitterName "Flame Fixed"
 		WidthInflateRate 0.000000
 		HeightInflateRate 30.000000
-	AffectorType "LinearInflate"
-	AffectorContents
-		Name "(new) LinearInflate-1"
-		Enabled TRUE
-		StartTime 0.000000
-		HasInfiniteLifeTime TRUE
-		TotalLifeTime 0.000000
-		UseYoungParticleAffectThreshold FALSE
-		YoungParticleAffectThreshold 0.000000
-		UseOldParticleAffectThreshold FALSE
-		OldParticleAffectThreshold 0.000000
-		AffectAttachedParticles TRUE
-		numAttachedEmitters 1
-		attachedEmitterName "Flame Fixed"
-		WidthInflateRate -20.000000
-		HeightInflateRate 0.000000
 	AffectorType "Fade"
 	AffectorContents
 		Name "Trail Fade"
@@ -214,9 +198,9 @@ ParticleSimulation
 		numAttachedEmitters 1
 		attachedEmitterName "Flame Trail"
 		DoFadeOut TRUE
-		FadeOutTime 2.000000
+		FadeOutTime 0.600000
 		DoFadeIn TRUE
-		FadeInTime 0.200000
+		FadeInTime 0.600000
 	AffectorType "LinearInflate"
 	AffectorContents
 		Name "(new) LinearInflate-2"
@@ -231,6 +215,6 @@ ParticleSimulation
 		AffectAttachedParticles TRUE
 		numAttachedEmitters 1
 		attachedEmitterName "Flame Trail"
-		WidthInflateRate -3.000000
+		WidthInflateRate -6.000000
 		HeightInflateRate 0.000000
 	length 0.000000
