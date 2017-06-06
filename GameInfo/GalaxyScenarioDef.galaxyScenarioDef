@@ -2450,7 +2450,7 @@ planetItemsTemplate
 planetItemsTemplate
 	templateName "Template:LocalMilitiaVeryWeak2"
 	subTemplates 0
-	groups 18
+	groups 19
 		group
 			condition
 				type "PlanetOwnerIsMilitia"
@@ -2630,6 +2630,14 @@ planetItemsTemplate
 			colonizeChance 0
 			items 1						
 				item "BloodRaider:CapitalShip:Dreadnought"
+		group
+			condition
+				type "NoPlanetOwnerWithChance"
+				param "0.1"
+			owner "BloodRaider"
+			colonizeChance 0
+			items 1
+				item "BloodRaider:Frigate:Shipyard"
 planetItemsTemplate
 	templateName "Template:LocalMilitiaVeryWeak"
 	subTemplates 0
@@ -3687,7 +3695,7 @@ themeGroup "PlayerPhase"
 themeGroup "PlayerPsi"
 themeGroup "PlayerTech"
 themeGroup "NPC"
-autoAddPlayers 5
+autoAddPlayers 4
 player
 	designName "Pirate"
 	inGameName "IDSScenarioPlayerNamePirates"
@@ -3756,7 +3764,7 @@ player
 	themeIndex 15
 	pictureGroup "PlayerPhase"
 	pictureIndex 15
-autoAddMiltiaPlayerCountPerGalaxy 7
+autoAddMiltiaPlayerCountPerGalaxy 5
 autoAddMilitiaPlayers 7
 player
 	designName "Angel"

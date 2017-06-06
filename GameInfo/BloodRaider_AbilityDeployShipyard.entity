@@ -2,7 +2,7 @@
 entityType "Ability"
 buffInstantActionType "CreateStarBase"
 instantActionTriggerType "AlwaysPerform"
-starBaseType "Angel_StructureShipyard_Raitaru"
+starBaseType "BloodRaider_StructureShipyard_Raitaru"
 placementRadius
 	Level:0 3000.000000
 	Level:1 3000.000000
@@ -23,7 +23,7 @@ ignoreNonCombatShipsForAutoCastTarget TRUE
 onlyAutoCastWhenDamageTakenExceedsPerc 0.000000
 useCostType "Resources"
 resourceCost
-	credits 10000.000000
+	credits 0.000000
 	metal 0.000000
 	crystal 0.000000
 cooldownTime

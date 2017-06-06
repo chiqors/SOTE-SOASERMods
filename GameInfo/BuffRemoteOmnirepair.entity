@@ -1,0 +1,51 @@
+﻿TXT
+entityType "Buff"
+onReapplyDuplicateType "PrioritizeOldBuffs"
+buffStackingLimitType "ForAllPlayers"
+stackingLimit 200
+allowFirstSpawnerToStack FALSE
+buffExclusivityForAIType "ExclusiveForAllPlayers"
+isInterruptable TRUE
+isChannelling FALSE
+numInstantActions 4
+instantAction
+	buffInstantActionType "ApplyBuffToTargetNoFilterNoRange"
+	instantActionTriggerType "OnDelay"
+	delayTime 0.000000
+	buffType "BuffRemoteShieldBoosterCapitalTarget"
+instantAction
+	buffInstantActionType "ApplyBuffToSelf"
+	instantActionTriggerType "OnDelay"
+	delayTime 0.000000
+	buffType "BuffRemoteShieldBoosterCapitalSelf"
+	effectInfo
+		effectAttachInfo
+			attachType "Above"
+		smallEffectName "EVE_Buff_shieldboost_Small"
+		mediumEffectName "EVE_Buff_shieldboost_Medium"
+		largeEffectName "EVE_Buff_shieldboost_Large"
+		soundID ""
+instantAction
+	buffInstantActionType "ApplyBuffToTargetNoFilterNoRange"
+	instantActionTriggerType "OnDelay"
+	delayTime 0.000000
+	buffType "BuffRemoteArmorRepairerCapitalTarget"
+instantAction
+	buffInstantActionType "ApplyBuffToSelf"
+	instantActionTriggerType "OnDelay"
+	delayTime 0.000000
+	buffType "BuffRemoteArmorRepairerCapitalSelf"
+	effectInfo
+		effectAttachInfo
+			attachType "Above"
+		smallEffectName "EVE_Buff_ArmorRR_Small"
+		mediumEffectName "EVE_Buff_ArmorRR_Medium"
+		largeEffectName "EVE_Buff_ArmorRR_Large"
+		soundID ""
+numPeriodicActions 0
+numOverTimeActions 0
+numEntityModifiers 0
+numEntityBoolModifiers 0
+numFinishConditions 1
+finishCondition
+	finishConditionType "AllOnDelayInstantActionsDone"

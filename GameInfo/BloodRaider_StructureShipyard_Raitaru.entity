@@ -1,9 +1,9 @@
 ﻿TXT
 entityType "StarBase"
-ability:0 "Angel_AbilitySummonCynabal"
-ability:1 "Angel_AbilitySummonMachariel"
-ability:2 "Angel_AbilityAisupportCapitalShips"
-ability:3 "Angel_AbilityAisupportCapitalShipsSuperCapital"
+ability:0 "AbilityRemoteOmniRepair"
+ability:1 "BloodRaider_AbilitySummonLogi"
+ability:2 "BloodRaider_AbilitySummonBattleship"
+ability:3 "BloodRaider_AbilitySummonDreadnought"
 ability:4 ""
 defaultAutoAttackRange "None"
 defaultAutoAttackOn TRUE
@@ -80,8 +80,8 @@ squadTypeEntityDef:3 ""
 squadAntiMatterCost:3 0.000000
 mainViewIcon "MainViewIconStarBaseTech"
 experiencePointsForDestroying 1000.000000
-nameStringID "IDS_ANGEL_SHIPYARD_NAME"
-picture "PICTURE_INDUSTRIALARRAY_RAITARU"
+nameStringID "IDS_BLOODRAIDER_SHIPYARD_NAME"
+picture "PICTURE_INDUSTRIALARRAY_AZABEL"
 statCountType "StarBase"
 creationSourceAbility "Angel_AbilityDeployShipyard"
 maxUpgradeLevelCount 6
@@ -108,7 +108,7 @@ ExplosionName "StarBase0"
 formationRank 3
 minShadow 0.000000
 maxShadow 0.300000
-cargoShipType "Minmatar_Ship_Refineryship_Mamonth"
+cargoShipType "Amarr_Ship_Tradeship_Bestower"
 maxCargoShipCount 5
 cargoShipRespawnTime 25.000000
 baseBuildTime 1000.000000

@@ -1,0 +1,74 @@
+﻿TXT
+entityType "Ability"
+buffInstantActionType "ApplyTargettedBuffToSelf"
+instantActionTriggerType "AlwaysPerform"
+buffType "BuffRemoteOmnirepair"
+targetFilter
+	numOwnerships 1
+	ownership "Friendly"
+	numObjects 5
+	object "CapitalShip"
+	object "StarBase"
+	object "Titan"
+	object "Frigate"
+	object "Corvette"
+	numSpaces 1
+	space "Normal"
+	numConstraints 1
+	constraint "NotSelf"
+range
+	Level:0 25000.000000
+	Level:1 25000.000000
+	Level:2 25000.000000
+	Level:3 25000.000000
+effectInfo
+	effectAttachInfo
+		attachType "Above"
+	smallEffectName "EVE_Buff_ArmorRR_Small"
+	mediumEffectName "EVE_Buff_ArmorRR_Medium"
+	largeEffectName "EVE_Buff_ArmorRR_Large"
+	soundID ""
+needsToFaceTarget FALSE
+canCollideWithTarget TRUE
+moveThruTarget FALSE
+isUltimateAbility FALSE
+maxNumLevels 4
+levelSourceType "Intrinsic"
+minExperienceLevelRequired
+	Level:0 0.000000
+	Level:1 1.000000
+	Level:2 2.000000
+	Level:3 3.000000
+aiUseTime "Anytime"
+aiUseTargetCondition "HullDamageExceedsAmount"
+onlyAutoCastWhenTargetHullDamageExceedsAmount
+	Level:0 400.000000
+	Level:1 400.000000
+	Level:2 400.000000
+	Level:3 400.000000
+isAutoCastAvailable TRUE
+isAutoCastOnByDefault TRUE
+pickRandomPlanetToExploreForAutoCastTarget FALSE
+ignoreNonCombatShipsForAutoCastTarget TRUE
+onlyAutoCastWhenDamageTakenExceedsPerc 0.000000
+useCostType "AntiMatter"
+antiMatterCost
+	Level:0 1097.000000
+	Level:1 1064.000000
+	Level:2 1031.000000
+	Level:3 998.000000
+cooldownTime
+	Level:0 9.000000
+	Level:1 9.000000
+	Level:2 9.000000
+	Level:3 9.000000
+orderAcknowledgementType "ONGENERALORDERISSUED"
+researchPrerequisites
+	NumResearchPrerequisites 0
+	RequiredFactionNameID ""
+	RequiredCompletedResearchSubjects 0
+nameStringID "IDS_ABILITY_GAUSSBLAST_NAME"
+descStringID "IDS_ABILITY_GAUSSBLAST_DESCRIPTION"
+hudIcon "HUDICON_ABILITY_GAUSSBLAST"
+smallHudIcon "HUDICON_ABILITY_GAUSSBLAST"
+infoCardIcon ""

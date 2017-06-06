@@ -1,5 +1,5 @@
 TXT
-NumStrings 8358
+NumStrings 8361
 StringInfo
     ID "IDS_ABILITY_RORQUALPANIC_NAME"
 	Value "P.A.N.I.C Module"
@@ -25049,7 +25049,7 @@ StringInfo
 	Value "Jovian Drifter"
 StringInfo
 	ID "IDS_CONCORD_DRIFTER_DESCRIPTION"
-	Value "This Ancient and highly advanced vessels travel on space with a unknow purporse. One of this vessels alone is capable of bring down a carrier."			
+	Value "CONCORD's analysis of this battleship has been hampered by its advanced hull and shielding. The propulsion system is unfamiliar but tentative theories have suggested that the vessel somehow directly interacts with the fabric of space-time while moving. The standard weapon systems of this ship appear to be semi-autonomous and effective against a range of targets."
 StringInfo
 	ID "IDS_SLEEPER_AWAKENEDWARDEN_NAME"
 	Value "Awakened Warden"
@@ -25074,4 +25074,13 @@ StringInfo
 StringInfo
 	ID "IDS_SLEEPER_SENTINEL_DESCRIPTION"
 	Value "This Ancient and highly advanced vessels travel on space with a unknow purporse."	
+StringInfo
+	ID "IDS_SLEEPER_AUTOTHYSIAN_LANCER_NAME"
+	Value "Autothysian Lancer"
+StringInfo	
+	ID "IDS_SLEEPER_AUTOTHYSIAN_LANCER_DESCRIPTION"
+	Value "The Autothysian Lancer is a Drifter-allied drone with a similar base design to the Circadian Seekers but is much more dangerous, sporting an upgraded array of defenses and weapons. Though highly militarized in response to capsuleer resistance, the drone still explores New Eden with the mechanical indifference seen in previous, weaker variants."
+StringInfo
+	ID "IDS_BLOODRAIDER_SHIPYARD_NAME"
+	Value "BloodRaider Shipyard"	
 	
