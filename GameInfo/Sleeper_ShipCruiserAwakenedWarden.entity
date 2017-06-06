@@ -15,18 +15,18 @@ NameStringID "IDS_SLEEPER_AWAKENEDWARDEN_NAME"
 DescriptionStringID "IDS_SLEEPER_AWAKENEDWARDEN_DESCRIPTION"
 counterDescriptionStringID "IDS_COUNTERDESC_CORVETTE_TECH"
 basePrice
-	credits 364.000000
-	metal 57.000000
-	crystal 40.000000
-slotCount 4.000000
+	credits 1000.000000
+	metal 0.000000
+	crystal 0.000000
+slotCount 1.000000
 BuildTime 19.000000
 hasLevels FALSE
 ExperiencePointsForDestroying 55.000000
-MaxHullPoints 1700.000000
-MaxShieldPoints 1200.000000
-HullPointRestoreRate 1.00000
-ShieldPointRestoreRate 1.00000
-BaseArmorPoints 6.000000
+MaxHullPoints 7100.000000
+MaxShieldPoints 0.000000
+HullPointRestoreRate 0.00000
+ShieldPointRestoreRate 0.00000
+BaseArmorPoints 15.000000
 maxMitigation 0.000000
 Prerequisites
 	NumResearchPrerequisites 1
@@ -40,8 +40,8 @@ numRandomDebrisSmall 0
 numSpecificDebris 0
 armorType "Medium"
 hudIcon "HUDICON_FRIGATE_TECHLONGRANGE"
-smallHudIcon "HUDICONSMALL_FRIGATE_TECHLONGRANGE"
-infoCardIcon "INFOCARDICON_FRIGATE_TECHLONGRANGE"
+smallHudIcon "HUDICONSMALL_CRUISER"
+infoCardIcon "HUDICONSMALL_CRUISER"
 minZoomDistanceMult 1.000000
 NumWeapons 2
 Weapon
@@ -52,7 +52,7 @@ Weapon
 		DamageApplyType "OVERTIME"
 		DamageType "ENERGY"
 		WeaponClassType "BEAM"
-	DamagePerBank:FRONT 162.000000
+	DamagePerBank:FRONT 100.000000
 	DamagePerBank:BACK 0.000000
 	DamagePerBank:LEFT 0.000000
 	DamagePerBank:RIGHT 0.000000
@@ -98,12 +98,12 @@ Weapon
 		DamageApplyType "BACKLOADED"
 		DamageType "PHYSICAL"
 		WeaponClassType "MISSILE"
-	DamagePerBank:FRONT 180.000000
+	DamagePerBank:FRONT 9.000000
 	DamagePerBank:BACK 0.000000
 	DamagePerBank:LEFT 0.000000
 	DamagePerBank:RIGHT 0.000000
 	Range 20000.000000
-	PreBuffCooldownTime 9.00000
+	PreBuffCooldownTime 5.00000
 	CanFireAtFighter FALSE
 	SynchronizedTargeting TRUE
 	PointStaggerDelay 0.0500000
@@ -190,11 +190,11 @@ HyperspaceChargingSoundID "HYPERSPACE_CHARGEUP"
 HyperspaceTravelSoundID "HYPERSPACE_TRAVEL"
 EngineSoundID "ENGINE_TECHCAPITALSHIP"
 ability:0 "AbilityAfterburner"
-ability:1 "AbilityWarpDisruptor"
-ability:2 "AbilityStasisWebifier"
-ability:3 "AbilityECM"
+ability:1 "AbilityRemoteArmorRepairerLogiCruiser"
+ability:2 ""
+ability:3 ""
 ability:4 ""
-MaxAntiMatter 275.000000
+MaxAntiMatter 10000.000000
 AntiMatterRestoreRate 0.500000
 cargoType "Invalid"
 maxCargoCapacity 0.000000
