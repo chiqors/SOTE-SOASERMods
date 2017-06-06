@@ -1,5 +1,5 @@
 TXT
-NumStrings 8361
+NumStrings 8362
 StringInfo
     ID "IDS_ABILITY_RORQUALPANIC_NAME"
 	Value "P.A.N.I.C Module"
@@ -22653,6 +22653,9 @@ StringInfo
 StringInfo
 	ID "IDSGalaxyScenarioTypePlanetSanctum"
 	Value "Pirates Sanctum"	
+StringInfo
+	ID "IDSGalaxyScenarioTypePlanetSleeperTower"
+	Value "Jove Observatory"		
 StringInfo
 	ID "IDS_GAMEOPTION_LOCKEDTEAMS_NAME"
 	Value "Locked Teams"
