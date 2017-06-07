@@ -23,10 +23,10 @@ quickStartHomePlanetUpgradeLevel:Infrastructure 2
 recommendedGameTypeCount 1
 recommendedGameType "Solo"
 metersPerGalaxyUnit 25000.000000
-pixelsPerGalaxyUnit 3.999999
+pixelsPerGalaxyUnit 3.400000
 useRandomGenerator FALSE
-galaxyWidth 208.000000
-galaxyHeight 243.300003
+galaxyWidth 1920.000000
+galaxyHeight 993.000000
 nextStarNameUniqueId 0
 nextPlanetNameUniqueId 0
 triggerCount 0
@@ -588,7 +588,7 @@ star
 		useDefaultTemplate TRUE
 		entityCount 0
 		asteroidCount 0
-	connectionCount 30
+	connectionCount 31
 	connection
 		planetIndexA 0
 		planetIndexB -1
@@ -737,6 +737,11 @@ star
 	connection
 		planetIndexA 11
 		planetIndexB 4
+		spawnProbability 1.000000
+		type "PhaseLane"
+	connection
+		planetIndexA 6
+		planetIndexB 5
 		spawnProbability 1.000000
 		type "PhaseLane"
 	entityCount 0
