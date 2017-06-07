@@ -1,0 +1,65 @@
+planetType
+	designName "Asteroid3"
+	designStringId "IDSGalaxyScenarioTypePlanetAsteroid"
+	orbitBodyTypeCount 1
+	orbitBodyType "Asteroid3"
+	
+
+orbitBodyType	
+	typeName "Asteroid3"
+	entityDefName "PlanetAsteroid"
+	defaultTemplateName "Template:Asteroid3"
+	
+
+planetItemsTemplate
+	templateName "Template:Asteroid3"
+		subTemplates 0
+	groups 2
+		group
+			condition
+				type "PlanetOwnerIsMilitia"
+				param ""
+			owner "Minmatar"
+			colonizeChance 1
+			items 9
+				item "Minmatar:Frigate:Frigate"
+				item "Minmatar:Frigate:Frigate"
+				item "Minmatar:Frigate:Frigate"
+				item "Minmatar:Frigate:Frigate"
+				item "Minmatar:Frigate:Destoyer"
+				item "Minmatar:Frigate:Destoyer"
+				item "Minmatar:Frigate:Cruiser"
+				item "Minmatar:Frigate:Logistics"				
+				item "Minmatar:Frigate:Logistics"								
+		group
+			condition
+				type "NoPlanetOwner"
+				param ""				
+				owner "Minmatar"
+			colonizeChance 0
+			items 6
+				item "Minmatar:Frigate:Frigate"
+				item "Minmatar:Frigate:Frigate"
+				item "Minmatar:Frigate:Frigate"
+				item "Minmatar:Frigate:Frigate"
+				item "Minmatar:Frigate:Destoyer"
+				item "Minmatar:Frigate:Destoyer"			
+			
+			PlanetOwnerIsMilitiaWithChance
+			
+			
+			NoPlanetOwnerWithChance
+			
+			
+planetItemType
+	designName "Minmatar:Frigate:Frigate"
+	entityDefName "Minmatar_Ship_Frigate_Rifter"			
+planetItemType
+	designName "Minmatar:Frigate:Destoyer"
+	entityDefName "Minmatar_Ship_Destroyer_Thrasher"			
+planetItemType
+	designName "Minmatar:Frigate:Cruiser"
+	entityDefName "Minmatar_Ship_Cruiser_Rupture"				
+planetItemType
+	designName "Minmatar:Frigate:Logistics"
+	entityDefName "Minmatar_Ship_Cruiser_Scyther"					
