@@ -1441,7 +1441,7 @@ star
 	planet
 		designName "Moon-56"
 		inGameName ""
-		type "RandomMoon"
+		type "MoonFair"
 		pos [ 264 , 133 ]
 		owner ""
 		isHomePlanet FALSE
@@ -1491,7 +1491,7 @@ star
 	planet
 		designName "Asteroid-58"
 		inGameName ""
-		type "RandomAsteroid"
+		type "AsteroidFair"
 		pos [ 245 , 119 ]
 		owner ""
 		isHomePlanet FALSE
@@ -1541,7 +1541,7 @@ star
 	planet
 		designName "Moon-60"
 		inGameName ""
-		type "RandomMoon"
+		type "MoonFair"
 		pos [ 238 , 202 ]
 		owner ""
 		isHomePlanet FALSE
@@ -1591,7 +1591,7 @@ star
 	planet
 		designName "Asteroid-62"
 		inGameName ""
-		type "RandomAsteroid"
+		type "AsteroidFair"
 		pos [ 230 , 190 ]
 		owner ""
 		isHomePlanet FALSE
@@ -1641,7 +1641,7 @@ star
 	planet
 		designName "Moon-64"
 		inGameName ""
-		type "RandomMoon"
+		type "MoonFair"
 		pos [ 149 , 257 ]
 		owner ""
 		isHomePlanet FALSE
@@ -1691,7 +1691,7 @@ star
 	planet
 		designName "Asteroid-66"
 		inGameName ""
-		type "RandomAsteroid"
+		type "AsteroidFair"
 		pos [ 144 , 232 ]
 		owner ""
 		isHomePlanet FALSE
@@ -1741,7 +1741,7 @@ star
 	planet
 		designName "Moon-68"
 		inGameName ""
-		type "RandomMoon"
+		type "MoonFair"
 		pos [ 78 , 235 ]
 		owner ""
 		isHomePlanet FALSE
@@ -1791,7 +1791,7 @@ star
 	planet
 		designName "Asteroid-70"
 		inGameName ""
-		type "RandomAsteroid"
+		type "AsteroidFair"
 		pos [ 65 , 215 ]
 		owner ""
 		isHomePlanet FALSE
@@ -1841,7 +1841,7 @@ star
 	planet
 		designName "Moon-72"
 		inGameName ""
-		type "RandomMoon"
+		type "MoonFair"
 		pos [ 42 , 193 ]
 		owner ""
 		isHomePlanet FALSE
@@ -1891,7 +1891,7 @@ star
 	planet
 		designName "Asteroid-74"
 		inGameName ""
-		type "RandomAsteroid"
+		type "AsteroidFair"
 		pos [ 33 , 169 ]
 		owner ""
 		isHomePlanet FALSE
@@ -1941,7 +1941,7 @@ star
 	planet
 		designName "Moon-76"
 		inGameName ""
-		type "RandomMoon"
+		type "MoonFair"
 		pos [ 39 , 115 ]
 		owner ""
 		isHomePlanet FALSE
@@ -1991,7 +1991,7 @@ star
 	planet
 		designName "Asteroid-78"
 		inGameName ""
-		type "RandomAsteroid"
+		type "AsteroidFair"
 		pos [ 28 , 97 ]
 		owner ""
 		isHomePlanet FALSE
@@ -2041,7 +2041,7 @@ star
 	planet
 		designName "Moon-80"
 		inGameName ""
-		type "RandomMoon"
+		type "MoonFair"
 		pos [ 78 , 54 ]
 		owner ""
 		isHomePlanet FALSE
@@ -2091,7 +2091,7 @@ star
 	planet
 		designName "Asteroid-82"
 		inGameName ""
-		type "RandomAsteroid"
+		type "AsteroidFair"
 		pos [ 67 , 31 ]
 		owner ""
 		isHomePlanet FALSE
@@ -2141,7 +2141,7 @@ star
 	planet
 		designName "Moon-84"
 		inGameName ""
-		type "RandomMoon"
+		type "MoonFair"
 		pos [ 113 , 35 ]
 		owner ""
 		isHomePlanet FALSE
@@ -2191,7 +2191,7 @@ star
 	planet
 		designName "Asteroid-86"
 		inGameName ""
-		type "RandomAsteroid"
+		type "AsteroidFair"
 		pos [ 107 , 12 ]
 		owner ""
 		isHomePlanet FALSE
@@ -2241,7 +2241,7 @@ star
 	planet
 		designName "Moon-88"
 		inGameName ""
-		type "RandomMoon"
+		type "MoonFair"
 		pos [ 215 , 40 ]
 		owner ""
 		isHomePlanet FALSE
@@ -2291,7 +2291,7 @@ star
 	planet
 		designName "Asteroid-90"
 		inGameName ""
-		type "RandomAsteroid"
+		type "AsteroidFair"
 		pos [ 209 , 23 ]
 		owner ""
 		isHomePlanet FALSE
@@ -2341,7 +2341,7 @@ star
 	planet
 		designName "Moon-92"
 		inGameName ""
-		type "RandomMoon"
+		type "MoonFair"
 		pos [ 249 , 68 ]
 		owner ""
 		isHomePlanet FALSE
@@ -2391,7 +2391,7 @@ star
 	planet
 		designName "Asteroid-94"
 		inGameName ""
-		type "RandomAsteroid"
+		type "AsteroidFair"
 		pos [ 234 , 53 ]
 		owner ""
 		isHomePlanet FALSE

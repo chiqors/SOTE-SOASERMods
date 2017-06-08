@@ -866,7 +866,7 @@ star
 	planet
 		designName "Moon-33"
 		inGameName ""
-		type "RandomMoon"
+		type "MoonFair"
 		pos [ 211 , 136 ]
 		owner ""
 		isHomePlanet FALSE
@@ -891,7 +891,7 @@ star
 	planet
 		designName "Asteroid-34"
 		inGameName ""
-		type "RandomAsteroid"
+		type "AsteroidFair"
 		pos [ 221 , 114 ]
 		owner ""
 		isHomePlanet FALSE
@@ -966,7 +966,7 @@ star
 	planet
 		designName "Moon-37"
 		inGameName ""
-		type "RandomMoon"
+		type "MoonFair"
 		pos [ 141 , 225 ]
 		owner ""
 		isHomePlanet FALSE
@@ -991,7 +991,7 @@ star
 	planet
 		designName "Asteroid-38"
 		inGameName ""
-		type "RandomAsteroid"
+		type "AsteroidFair"
 		pos [ 148 , 205 ]
 		owner ""
 		isHomePlanet FALSE
@@ -1066,7 +1066,7 @@ star
 	planet
 		designName "Moon-41"
 		inGameName ""
-		type "RandomMoon"
+		type "MoonFair"
 		pos [ 36 , 205 ]
 		owner ""
 		isHomePlanet FALSE
@@ -1091,7 +1091,7 @@ star
 	planet
 		designName "Asteroid-42"
 		inGameName ""
-		type "RandomAsteroid"
+		type "AsteroidFair"
 		pos [ 48 , 184 ]
 		owner ""
 		isHomePlanet FALSE
@@ -1166,7 +1166,7 @@ star
 	planet
 		designName "Moon-45"
 		inGameName ""
-		type "RandomMoon"
+		type "MoonFair"
 		pos [ 11 , 90 ]
 		owner ""
 		isHomePlanet FALSE
@@ -1191,7 +1191,7 @@ star
 	planet
 		designName "Asteroid-46"
 		inGameName ""
-		type "RandomAsteroid"
+		type "AsteroidFair"
 		pos [ 24 , 72 ]
 		owner ""
 		isHomePlanet FALSE
@@ -1266,7 +1266,7 @@ star
 	planet
 		designName "Moon-49"
 		inGameName ""
-		type "RandomMoon"
+		type "MoonFair"
 		pos [ 56 , 28 ]
 		owner ""
 		isHomePlanet FALSE
@@ -1291,7 +1291,7 @@ star
 	planet
 		designName "Asteroid-50"
 		inGameName ""
-		type "RandomAsteroid"
+		type "AsteroidFair"
 		pos [ 71 , 11 ]
 		owner ""
 		isHomePlanet FALSE
@@ -1366,7 +1366,7 @@ star
 	planet
 		designName "Moon-53"
 		inGameName ""
-		type "RandomMoon"
+		type "MoonFair"
 		pos [ 165 , 51 ]
 		owner ""
 		isHomePlanet FALSE
@@ -1391,7 +1391,7 @@ star
 	planet
 		designName "Asteroid-54"
 		inGameName ""
-		type "RandomAsteroid"
+		type "AsteroidFair"
 		pos [ 173 , 28 ]
 		owner ""
 		isHomePlanet FALSE

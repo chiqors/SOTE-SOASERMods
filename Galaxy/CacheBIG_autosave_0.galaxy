@@ -1742,7 +1742,7 @@ star
 	planet
 		designName "K-RMI5"
 		inGameName "K-RMI5 Asteroid Belt"
-		type "RandomAsteroid"
+		type "AsteroidFair"
 		pos [ 11669 , 10868 ]
 		owner ""
 		isHomePlanet FALSE
@@ -2067,7 +2067,7 @@ star
 	planet
 		designName "B-T6BT"
 		inGameName "B-T6BT Moon"
-		type "RandomMoon"
+		type "MoonFair"
 		pos [ 11396 , 8818 ]
 		owner ""
 		isHomePlanet FALSE
