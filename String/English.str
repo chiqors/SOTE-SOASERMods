@@ -21530,13 +21530,13 @@ StringInfo
 	Value "Gallente Rebels"
 StringInfo
 	ID "IDSScenarioPlayerNameMilitia7"
-	Value "Serubu Syndicate"
+	Value "Caldari Rebels"
 StringInfo
 	ID "IDSScenarioPlayerNameMilitia8"
-	Value "OCVAN Cartel"
+	Value "Minmatar Rebels"
 StringInfo
 	ID "IDSScenarioPlayerNameMilitia9"
-	Value "Torsan Militants"
+	Value "Mordu's Legion"
 StringInfo
 	ID "IDSScenarioPlayerNameMilitia10"
 	Value "East Valc Front"
