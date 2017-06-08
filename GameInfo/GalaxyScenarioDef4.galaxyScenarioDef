@@ -948,31 +948,31 @@ orbitBodyType
 orbitBodyType	
 	typeName "MorduStagging"
 	entityDefName "PlanetPirateSanctum"
-	defaultTemplateName "Template:MorduStaggingPoint"
+	defaultTemplateName "Template:MorduStagging"
 orbitBodyType	
 	typeName "AsteroidB"
 	entityDefName "PlanetAsteroidB"
-	defaultTemplateName "Template:DefaultStart_AsteroidB"
+	defaultTemplateName "Template:AsteroidB"
 orbitBodyType	
 	typeName "AsteroidC"
 	entityDefName "PlanetAsteroidC"
-	defaultTemplateName "Template:DefaultStart_AsteroidC"
+	defaultTemplateName "Template:AsteroidC"
 orbitBodyType	
 	typeName "AsteroidD"
 	entityDefName "PlanetAsteroidD"
-	defaultTemplateName "Template:DefaultStart_AsteroidD"
+	defaultTemplateName "Template:AsteroidD"
 orbitBodyType	
 	typeName "MoonB"
 	entityDefName "PlanetMoon"
-	defaultTemplateName "Template:DefaultStart_AsteroidB"
+	defaultTemplateName "Template:AsteroidB"
 orbitBodyType	
 	typeName "Moon3"
 	entityDefName "PlanetMoon"
-	defaultTemplateName "Template:DefaultStart_AsteroidC"	
+	defaultTemplateName "Template:AsteroidC"	
 orbitBodyType	
 	typeName "Moon4"
 	entityDefName "PlanetMoon"
-	defaultTemplateName "Template:DefaultStart_AsteroidD"		
+	defaultTemplateName "Template:AsteroidD"		
 planetItemTypeCount 250
 planetItemType
 	designName "Caldari:Frigate:Destoyer"
@@ -1724,9 +1724,9 @@ planetItemType
 planetItemType
 	designName "Caldari:Frigate:Frigate"
 	entityDefName "Caldari_Ship_Frigate_kestrel"	
-playerTypeCount 11
+playerTypeCount 13
 playerType
-	designName "Amarr"
+	designName "AmarrEmpire"
 	entityDefName "Player_AmarrEmpire"
 playerType
 	designName "Caldari"
@@ -1735,14 +1735,20 @@ playerType
 	designName "Minmatar"
 	entityDefName "Player_MinmatarRepublic"
 playerType
-	designName "Gallente"
+	designName "GallenteFederation"
 	entityDefName "Player_GallenteFederation"
 playerType
-	designName "Mordu"
-	entityDefName "Player_Mordu"
+	designName "TechRebel"
+	entityDefName "PlayerTechRebel"
 playerType
 	designName "Pirate"
 	entityDefName "PlayerPirate"
+playerType
+	designName "Amarr"
+	entityDefName "Player_AmarrEmpire"
+playerType
+	designName "Gallente"
+	entityDefName "Player_AmarrEmpire"
 playerType
 	designName "Angel"
 	entityDefName "Player_Angel"	
@@ -1758,7 +1764,7 @@ playerType
 playerType
 	designName "Sleepers"
 	entityDefName "Player_Sleepers"
-planetItemsTemplateCount 78
+planetItemsTemplateCount 73
 planetItemsTemplate
 	templateName "Empty"
 	subTemplates 0
@@ -1770,7 +1776,7 @@ planetItemsTemplate
 		group
 			condition
 				type "PlanetOwnerIsRaceNormalStart"
-				param "Amarr"
+				param "AmarrEmpire"
 			owner "PlanetOwner"
 			colonizeChance 1
 			items 5
@@ -1794,7 +1800,7 @@ planetItemsTemplate
 		group
 			condition
 				type "PlanetOwnerIsRaceNormalStart"
-				param "Gallente"
+				param "GallenteFederation"
 			owner "PlanetOwner"
 			colonizeChance 1
 			items 5
@@ -1818,7 +1824,7 @@ planetItemsTemplate
 		group
 			condition
 				type "PlanetOwnerIsRaceQuickStart"
-				param "Amarr"
+				param "AmarrEmpire"
 			owner "PlanetOwner"
 			colonizeChance 1
 			items 11
@@ -1854,7 +1860,7 @@ planetItemsTemplate
 		group
 			condition
 				type "PlanetOwnerIsRaceQuickStart"
-				param "Gallente"
+				param "GallenteFederation"
 			owner "PlanetOwner"
 			colonizeChance 1
 			items 11
@@ -1886,25 +1892,191 @@ planetItemsTemplate
 				item "Gallente:Frigate:Constructor"
 				item "Caldari:Frigate:Scout"
 				item "Caldari:Frigate:Scout"
-				item "Gallente:CapitalShip:BattleShip2"	
+				item "Gallente:CapitalShip:BattleShip2"				
+planetItemsTemplate
+	templateName "Template:DefaultStart_Terran"
+	subTemplates 2
+		template "Template:DefaultHomePlanetSetup"
+		template "Template:LocalMilitia_Terran"
+	groups 0
+planetItemsTemplate
+	templateName "Template:DefaultStart_Desert"
+	subTemplates 2
+		template "Template:DefaultHomePlanetSetup"
+		template "Template:LocalMilitia_Desert"
+	groups 0
+planetItemsTemplate
+	templateName "Template:DefaultStart_Volcanic"
+	subTemplates 2
+		template "Template:DefaultHomePlanetSetup"
+		template "Template:LocalMilitia_Volcanic"
+	groups 0
+planetItemsTemplate
+	templateName "Template:DefaultStart_Asteroid"
+	subTemplates 2		
+		template "Template:DefaultHomePlanetSetup"
+		template "Template:LocalMilitia_Asteroid"
+	groups 0
+planetItemsTemplate
+	templateName "Template:DefaultStart_Sleeper"
+	subTemplates 1
+		template "Template:LocalMilitia_Sleeper"			
+	groups 0		
+planetItemsTemplate
+	templateName "Template:DefaultStart_AsteroidB"
+	subTemplates 2		
+		template "Template:DefaultHomePlanetSetup"
+		template "Template:LocalMilitia_AsteroidB"
+	groups 0	
+planetItemsTemplate
+	templateName "Template:DefaultStart_DeadAsteroid"
+	subTemplates 1
+		template "Template:LocalMilitia_DeadAsteroid"
+	groups 0
+planetItemsTemplate
+	templateName "Template:DefaultStart_ShipGraveyard"
+	subTemplates 1
+		template "Template:LocalMilitia_ShipGraveyard"
+	groups 0
+planetItemsTemplate
+	templateName "Template:DefaultStart_GasGiant"
+	subTemplates 1
+		template "Template:LocalMilitia_GasGiant"
+	groups 0
+planetItemsTemplate
+	templateName "Template:DefaultStart_PlasmaStorm"
+	subTemplates 1
+		template "Template:LocalMilitia_PlasmaStorm"
+	groups 0
+planetItemsTemplate
+	templateName "Template:DefaultStart_Comet"
+	subTemplates 1
+		template "Template:LocalMilitiaVeryWeakUncolonizable"
+	groups 0
+planetItemsTemplate
+	templateName "Template:DefaultStart_IceField"
+	subTemplates 1
+		template "Template:LocalMilitiaWeakUncolonizable"
+	groups 0
+planetItemsTemplate
+	templateName "Template:DefaultStart_ShatteredMoon"
+	subTemplates 1
+		template "Template:LocalMilitiaWeakUncolonizable"
+	groups 0
+planetItemsTemplate
+	templateName "Template:DefaultStart_RadiationStorm"
+	subTemplates 1
+		template "Template:LocalMilitiaVeryWeakUncolonizable"
+	groups 0
+planetItemsTemplate
+	templateName "Template:DefaultStart_AntimatterFountain"
+	subTemplates 1
+		template "Template:LocalMilitiaVeryWeakUncolonizable"
+	groups 0
+planetItemsTemplate
+	templateName "Template:DefaultStart_Ice"
+	subTemplates 2
+		template "Template:DefaultHomePlanetSetup"
+		template "Template:LocalMilitia_Ice"
+	groups 0
+planetItemsTemplate
+	templateName "Template:DefaultStart_TerranFair"
+	subTemplates 2
+		template "Template:DefaultHomePlanetSetup"
+		template "Template:LocalMilitia_TerranFair"
+	groups 0
+planetItemsTemplate
+	templateName "Template:DefaultStart_DesertFair"
+	subTemplates 2
+		template "Template:DefaultHomePlanetSetup"
+		template "Template:LocalMilitia_DesertFair"
+	groups 0
+planetItemsTemplate
+	templateName "Template:DefaultStart_VolcanicFair"
+	subTemplates 2
+		template "Template:DefaultHomePlanetSetup"
+		template "Template:LocalMilitia_VolcanicFair"
+	groups 0
+planetItemsTemplate
+	templateName "Template:DefaultStart_AsteroidFair"
+	subTemplates 2		
+		template "Template:DefaultHomePlanetSetup"
+		template "Template:LocalMilitia_AsteroidFair"
+	groups 0
+planetItemsTemplate
+	templateName "Template:DefaultStart_GasGiantFair"
+	subTemplates 1
+		template "Template:LocalMilitia_GasGiantFair"
+	groups 0
+planetItemsTemplate
+	templateName "Template:DefaultStart_PlasmaStormFair"
+	subTemplates 1
+		template "Template:LocalMilitia_PlasmaStormFair"
+	groups 0
+planetItemsTemplate
+	templateName "Template:DefaultStart_IceFair"
+	subTemplates 2
+		template "Template:DefaultHomePlanetSetup"
+		template "Template:LocalMilitia_IceFair"
+	groups 0
+planetItemsTemplate
+	templateName "Template:DefaultStart_FerrusFair"
+	subTemplates 2
+		template "Template:DefaultHomePlanetSetup"
+		template "Template:LocalMilitia_IceFair"
+	groups 0
+planetItemsTemplate
+	templateName "Template:DefaultStart_BarrenFair"
+	subTemplates 2
+		template "Template:DefaultHomePlanetSetup"
+		template "Template:LocalMilitia_Asteroid"
+	groups 0
+planetItemsTemplate
+	templateName "Template:DefaultStart_GreenhouseFair"
+	subTemplates 2
+		template "Template:DefaultHomePlanetSetup"
+		template "Template:LocalMilitia_IceFair"
+	groups 0
+planetItemsTemplate
+	templateName "Template:DefaultStart_OceanicFair"
+	subTemplates 2
+		template "Template:DefaultHomePlanetSetup"
+		template "Template:LocalMilitia_IceFair"
+	groups 0
+planetItemsTemplate
+	templateName "Template:DefaultStart_Ferrus"
+	subTemplates 2
+		template "Template:DefaultHomePlanetSetup"
+		template "Template:LocalMilitiaStrong"
+	groups 0
+planetItemsTemplate
+	templateName "Template:DefaultStart_Barren"
+	subTemplates 2
+		template "Template:DefaultHomePlanetSetup"
+		template "Template:LocalMilitiaWeak"
+	groups 0
+planetItemsTemplate
+	templateName "Template:DefaultStart_Greenhouse"
+	subTemplates 2
+		template "Template:DefaultHomePlanetSetup"
+		template "Template:LocalMilitiaMedium"
+	groups 0
+planetItemsTemplate
+	templateName "Template:DefaultStart_Oceanic"
+	subTemplates 2
+		template "Template:DefaultHomePlanetSetup"
+		template "Template:LocalMilitiaStrong"
+	groups 0
 planetItemsTemplate
 	templateName "Template:LightStart"
 	subTemplates 2
 		template "Template:DefaultHomePlanetSetup"
 		template "Template:LocalMilitiaMedium"
-	groups 8
+	groups 11
 		group
 			condition
 				type "PlanetOwnerIsRaceNormalStart"
-				param "Amarr"
-			owner "PlanetOwner"
-			colonizeChance 1
-			items 1
-				item "Amarr:Frigate:Scout"
-		group
-			condition
-				type "PlanetOwnerIsRaceQuickStart"
-				param "Amarr"
+				param "AmarrEmpire"
 			owner "PlanetOwner"
 			colonizeChance 1
 			items 5
@@ -1919,60 +2091,115 @@ planetItemsTemplate
 				param "Caldari"
 			owner "PlanetOwner"
 			colonizeChance 1
-			items 1
+			items 4
 				item "Caldari:Frigate:Scout"
+				item "Caldari:Frigate:Frigate"
+				item "Caldari:Frigate:Frigate"
+				item "Caldari:Frigate:Frigate"
+		group
+			condition
+				type "PlanetOwnerIsRaceNormalStart"
+				param "Minmatar"
+			owner "PlanetOwner"
+			colonizeChance 1
+			items 5
+				item "Minmatar:Frigate:Scout"
+				item "Minmatar:Frigate:Light"
+				item "Minmatar:Frigate:Light"
+				item "Minmatar:Frigate:Light"
+				item "Minmatar:Frigate:Light"
+		group
+			condition
+				type "PlanetOwnerIsRaceNormalStart"
+				param "GallenteFederation"
+			owner "PlanetOwner"
+			colonizeChance 1
+			items 4
+				item "Gallente:Frigate:Scout"
+				item "Gallente:Frigate:Frigate"
+				item "Gallente:Frigate:Frigate"
+				item "Gallente:Frigate:Frigate"
+		group
+			condition
+				type "PlanetOwnerIsRaceQuickStart"
+				param "AmarrEmpire"
+			owner "PlanetOwner"
+			colonizeChance 1
+			items 5
+				item "Amarr:Frigate:Scout"
+				item "Amarr:Frigate:Light"
+				item "Amarr:Frigate:Light"
+				item "Amarr:Frigate:Light"
+				item "Amarr:Frigate:Light"
+		group
+			condition
+				type "PlanetOwnerIsRaceQuickStart"
+				param "Minmatar"
+			owner "PlanetOwner"
+			colonizeChance 1
+			items 5
+				item "Minmatar:Frigate:Scout"
+				item "Minmatar:Frigate:Light"
+				item "Minmatar:Frigate:Light"
+				item "Minmatar:Frigate:Light"
+				item "Minmatar:Frigate:Light"
 		group
 			condition
 				type "PlanetOwnerIsRaceQuickStart"
 				param "Caldari"
 			owner "PlanetOwner"
 			colonizeChance 1
-			items 5
+			items 4
 				item "Caldari:Frigate:Scout"
 				item "Caldari:Frigate:Frigate"
 				item "Caldari:Frigate:Frigate"
 				item "Caldari:Frigate:Frigate"
-				item "Caldari:Frigate:Frigate"
-		group
-			condition
-				type "PlanetOwnerIsRaceNormalStart"
-				param "Minmatar"
-			owner "PlanetOwner"
-			colonizeChance 1
-			items 1
-				item "Minmatar:Frigate:Scout"
 		group
 			condition
 				type "PlanetOwnerIsRaceQuickStart"
-				param "Minmatar"
+				param "GallenteFederation"
 			owner "PlanetOwner"
 			colonizeChance 1
-			items 5
-				item "Minmatar:Frigate:Scout"
-				item "Minmatar:Frigate:Light"
-				item "Minmatar:Frigate:Light"
-				item "Minmatar:Frigate:Light"
-				item "Minmatar:Frigate:Light"
-		group
-			condition
-				type "PlanetOwnerIsRaceNormalStart"
-				param "Gallente"
-			owner "PlanetOwner"
-			colonizeChance 1
-			items 1
-				item "Gallente:Frigate:Scout"
-		group
-			condition
-				type "PlanetOwnerIsRaceQuickStart"
-				param "Gallente"
-			owner "PlanetOwner"
-			colonizeChance 1
-			items 5
+			items 4
 				item "Gallente:Frigate:Scout"
 				item "Gallente:Frigate:Frigate"
 				item "Gallente:Frigate:Frigate"
 				item "Gallente:Frigate:Frigate"
+		group
+			condition
+				type "PlanetOwnerIsRaceNormalStart"
+				param "TechRebel"
+			owner "PlanetOwner"
+			colonizeChance 1
+			items 5
+				item "Amarr:Frigate:Scout"
+				item "Amarr:Frigate:Light"
+				item "Amarr:Frigate:Light"
+				item "Amarr:Frigate:Light"
+				item "Amarr:Frigate:Light"
+		group
+			condition
+				type "PlanetOwnerIsRaceNormalStart"
+				param "Caldari"
+			owner "PlanetOwner"
+			colonizeChance 1
+			items 4
+				item "Gallente:Frigate:Scout"
 				item "Gallente:Frigate:Frigate"
+				item "Gallente:Frigate:Frigate"
+				item "Gallente:Frigate:Frigate"
+		group
+			condition
+				type "PlanetOwnerIsRaceQuickStart"
+				param "TechRebel"
+			owner "PlanetOwner"
+			colonizeChance 1
+			items 5
+				item "Amarr:Frigate:Scout"
+				item "Amarr:Frigate:Light"
+				item "Amarr:Frigate:Light"
+				item "Amarr:Frigate:Light"
+				item "Amarr:Frigate:Light"
 planetItemsTemplate
 	templateName "Template:LocalMilitiaSleeper"
 	subTemplates 0
@@ -2818,7 +3045,7 @@ planetItemsTemplate
 			condition
 				type "NoPlanetOwnerWithChance"
 				param "0.3"
-			owner "Gallente"
+			owner ""
 			colonizeChance 0
 			items 10
 				item "Gallente:Frigate:Cruiser"
@@ -2852,7 +3079,7 @@ planetItemsTemplate
 			condition
 				type "PlanetOwnerIsMilitiaWithChance"
 				param "0.5"
-			owner "Gallente"
+			owner ""
 			colonizeChance 0
 			items 3
 				item "Gallente:Module:MissileDefense"
@@ -2862,7 +3089,7 @@ planetItemsTemplate
 			condition
 				type "NoPlanetOwner"
 				param ""
-			owner "Gallente"
+			owner ""
 			colonizeChance 0
 			items 7
 				item "Gallente:Frigate:Frigate"
@@ -2923,7 +3150,7 @@ planetItemsTemplate
 			condition
 				type "NoPlanetOwnerWithChance"
 				param "0.5"
-			owner "Gallente"
+			owner ""
 			colonizeChance 0
 			items 5
 				item "Gallente:Frigate:Frigate"
@@ -3206,6 +3433,96 @@ planetItemsTemplate
 				item "Amarr:Frigate:Siege"
 				item "Amarr:Frigate:Siege"
 planetItemsTemplate
+	templateName "Template:LocalMilitia_Terran"
+	subTemplates 1
+		template "Template:LocalMilitiaStrong"
+	groups 0		
+planetItemsTemplate
+	templateName "Template:LocalMilitia_Desert"
+	subTemplates 1
+		template "Template:LocalMilitiaStrong"
+	groups 0
+planetItemsTemplate
+	templateName "Template:LocalMilitia_Volcanic"
+	subTemplates 1
+		template "Template:LocalMilitiaMedium"
+	groups 0
+planetItemsTemplate
+	templateName "Template:LocalMilitia_Asteroid"
+	subTemplates 1
+		template "Template:LocalMilitiaVeryWeak"
+	groups 0
+planetItemsTemplate
+	templateName "Template:LocalMilitia_Sleeper"
+	subTemplates 1
+		template "Template:LocalMilitiaSleeper"
+	groups 0	
+planetItemsTemplate
+	templateName "Template:LocalMilitia_AsteroidB"
+	subTemplates 1
+		template "Template:LocalMilitiaVeryWeak4"
+	groups 0	
+planetItemsTemplate
+	templateName "Template:LocalMilitia_DeadAsteroid"
+	subTemplates 1
+		template "Template:LocalMilitiaVeryWeak"
+	groups 0
+planetItemsTemplate
+	templateName "Template:LocalMilitia_ShipGraveyard"
+	subTemplates 1
+		template "Template:LocalMilitiaVeryWeak3"
+	groups 0
+planetItemsTemplate
+	templateName "Template:LocalMilitia_GasGiant"
+	subTemplates 1
+		template "Template:LocalMilitiaVeryWeakUncolonizable"
+	groups 0
+planetItemsTemplate
+	templateName "Template:LocalMilitia_PlasmaStorm"
+	subTemplates 1
+		template "Template:LocalMilitiaVeryWeakUncolonizable"
+	groups 0
+planetItemsTemplate
+	templateName "Template:LocalMilitia_Ice"
+	subTemplates 1
+		template "Template:LocalMilitiaMedium"
+	groups 0
+planetItemsTemplate
+	templateName "Template:LocalMilitia_TerranFair"
+	subTemplates 1
+		template "Template:LocalMilitiaStrongFair"
+	groups 0		
+planetItemsTemplate
+	templateName "Template:LocalMilitia_DesertFair"
+	subTemplates 1
+		template "Template:LocalMilitiaStrongFair"
+	groups 0
+planetItemsTemplate
+	templateName "Template:LocalMilitia_AsteroidFair"
+	subTemplates 1
+		template "Template:LocalMilitiaVeryWeak2"
+	groups 0
+planetItemsTemplate
+	templateName "Template:LocalMilitia_VolcanicFair"
+	subTemplates 1
+		template "Template:LocalMilitiaMediumFair"
+	groups 0
+planetItemsTemplate
+	templateName "Template:LocalMilitia_GasGiantFair"
+	subTemplates 1
+		template "Template:LocalMilitiaVeryWeakUncolonizable"
+	groups 0
+planetItemsTemplate
+	templateName "Template:LocalMilitia_PlasmaStormFair"
+	subTemplates 1
+		template "Template:LocalMilitiaVeryWeakUncolonizable"
+	groups 0
+planetItemsTemplate
+	templateName "Template:LocalMilitia_IceFair"
+	subTemplates 1
+		template "Template:LocalMilitiaMediumFair"
+	groups 0
+planetItemsTemplate
 	templateName "Template:AsteroidB"
 		subTemplates 0
 	groups 2
@@ -3213,7 +3530,7 @@ planetItemsTemplate
 			condition
 				type "PlanetOwnerIsMilitia"
 				param ""
-			owner "Gallente"
+			owner ""
 			colonizeChance 1
 			items 9
 				item "Gallente:Frigate:Frigate"
@@ -3229,7 +3546,7 @@ planetItemsTemplate
 			condition
 				type "NoPlanetOwner"
 				param ""				
-			owner "Gallente"
+				owner ""
 			colonizeChance 0
 			items 6
 				item "Gallente:Frigate:Frigate"
@@ -3262,7 +3579,7 @@ planetItemsTemplate
 			condition
 				type "NoPlanetOwner"
 				param ""				
-			owner "Minmatar"
+				owner "Minmatar"
 			colonizeChance 0
 			items 6
 				item "Minmatar:Frigate:Frigate"
@@ -3295,7 +3612,7 @@ planetItemsTemplate
 			condition
 				type "NoPlanetOwner"
 				param ""				
-			owner "Caldari"
+				owner "Caldari"
 			colonizeChance 0
 			items 6
 				item "Caldari:Frigate:Frigate"
@@ -3312,7 +3629,7 @@ planetItemsTemplate
 			condition
 				type "NoPlanetOwner"
 				param ""
-			owner "Sleepers"
+			owner "RandomMilitia"
 			colonizeChance 0
 			items 11
 				item "Sleeper:Frigate:Cruiser"
@@ -3660,7 +3977,7 @@ planetItemsTemplate
 			condition
 				type "NoPlanetOwner"
 				param ""
-			owner "Mordu"
+			owner "RandomMilitia"
 			colonizeChance 0
 			items 88
 				item "Mordu:Frigate:Battleship"
@@ -3814,295 +4131,6 @@ planetItemsTemplate
 				item "Gallente:Corvette:Loyalist"
 				item "Gallente:Corvette:Loyalist"
 				item "Gallente:Corvette:Loyalist"
-planetItemsTemplate
-	templateName "Template:DefaultStart_Terran"
-	subTemplates 2
-		template "Template:DefaultHomePlanetSetup"
-		template "Template:LocalMilitia_Terran"
-	groups 0
-planetItemsTemplate
-	templateName "Template:DefaultStart_Desert"
-	subTemplates 2
-		template "Template:DefaultHomePlanetSetup"
-		template "Template:LocalMilitia_Desert"
-	groups 0
-planetItemsTemplate
-	templateName "Template:DefaultStart_Ice"
-	subTemplates 2
-		template "Template:DefaultHomePlanetSetup"
-		template "Template:LocalMilitia_Ice"
-	groups 0
-planetItemsTemplate
-	templateName "Template:DefaultStart_Volcanic"
-	subTemplates 2
-		template "Template:DefaultHomePlanetSetup"
-		template "Template:LocalMilitia_Volcanic"
-	groups 0
-planetItemsTemplate
-	templateName "Template:DefaultStart_Ferrus"
-	subTemplates 2
-		template "Template:DefaultHomePlanetSetup"
-		template "Template:LocalMilitiaStrong"
-	groups 0
-planetItemsTemplate
-	templateName "Template:DefaultStart_Barren"
-	subTemplates 2
-		template "Template:DefaultHomePlanetSetup"
-		template "Template:LocalMilitiaWeak"
-	groups 0
-planetItemsTemplate
-	templateName "Template:DefaultStart_Greenhouse"
-	subTemplates 2
-		template "Template:DefaultHomePlanetSetup"
-		template "Template:LocalMilitiaMedium"
-	groups 0
-planetItemsTemplate
-	templateName "Template:DefaultStart_Oceanic"
-	subTemplates 2
-		template "Template:DefaultHomePlanetSetup"
-		template "Template:LocalMilitiaStrong"
-	groups 0
-planetItemsTemplate
-	templateName "Template:DefaultStart_Oceanic"
-	subTemplates 2
-		template "Template:DefaultHomePlanetSetup"
-		template "Template:LocalMilitiaStrong"
-	groups 0
-planetItemsTemplate
-	templateName "Template:DefaultStart_Asteroid"
-	subTemplates 2		
-		template "Template:DefaultHomePlanetSetup"
-		template "Template:LocalMilitia_Asteroid"
-	groups 0		
-planetItemsTemplate
-	templateName "Template:DefaultStart_AsteroidB"
-	subTemplates 1
-		template "Template:LocalMilitia_AsteroidB"
-	groups 0
-planetItemsTemplate
-	templateName "Template:DefaultStart_AsteroidC"
-	subTemplates 1
-		template "Template:LocalMilitia_AsteroidC"
-	groups 0	
-planetItemsTemplate
-	templateName "Template:DefaultStart_AsteroidD"
-	subTemplates 1
-		template "Template:LocalMilitia_AsteroidD"
-	groups 0	
-planetItemsTemplate
-	templateName "Template:DefaultStart_Sleeper"
-	subTemplates 1
-		template "Template:LocalMilitia_Sleeper"			
-	groups 0
-planetItemsTemplate
-	templateName "Template:DefaultStart_DeadAsteroid"
-	subTemplates 1
-		template "Template:LocalMilitia_DeadAsteroid"
-	groups 0
-planetItemsTemplate
-	templateName "Template:DefaultStart_ShipGraveyard"
-	subTemplates 1
-		template "Template:LocalMilitia_ShipGraveyard"
-	groups 0
-planetItemsTemplate
-	templateName "Template:DefaultStart_GasGiant"
-	subTemplates 1
-		template "Template:LocalMilitia_GasGiant"
-	groups 0
-planetItemsTemplate
-	templateName "Template:DefaultStart_PlasmaStorm"
-	subTemplates 1
-		template "Template:LocalMilitia_PlasmaStorm"
-	groups 0
-planetItemsTemplate
-	templateName "Template:DefaultStart_Comet"
-	subTemplates 1
-		template "Template:LocalMilitiaVeryWeakUncolonizable"
-	groups 0
-planetItemsTemplate
-	templateName "Template:DefaultStart_IceField"
-	subTemplates 1
-		template "Template:LocalMilitiaWeakUncolonizable"
-	groups 0
-planetItemsTemplate
-	templateName "Template:DefaultStart_ShatteredMoon"
-	subTemplates 1
-		template "Template:LocalMilitiaWeakUncolonizable"
-	groups 0
-planetItemsTemplate
-	templateName "Template:DefaultStart_RadiationStorm"
-	subTemplates 1
-		template "Template:LocalMilitiaVeryWeakUncolonizable"
-	groups 0
-planetItemsTemplate
-	templateName "Template:DefaultStart_AntimatterFountain"
-	subTemplates 1
-		template "Template:LocalMilitiaVeryWeakUncolonizable"
-	groups 0
-planetItemsTemplate
-	templateName "Template:DefaultStart_TerranFair"
-	subTemplates 2
-		template "Template:DefaultHomePlanetSetup"
-		template "Template:LocalMilitia_TerranFair"
-	groups 0
-planetItemsTemplate
-	templateName "Template:DefaultStart_DesertFair"
-	subTemplates 2
-		template "Template:DefaultHomePlanetSetup"
-		template "Template:LocalMilitia_DesertFair"
-	groups 0
-planetItemsTemplate
-	templateName "Template:DefaultStart_VolcanicFair"
-	subTemplates 2
-		template "Template:DefaultHomePlanetSetup"
-		template "Template:LocalMilitia_VolcanicFair"
-	groups 0
-planetItemsTemplate
-	templateName "Template:DefaultStart_AsteroidFair"
-	subTemplates 2		
-		template "Template:DefaultHomePlanetSetup"
-		template "Template:LocalMilitia_AsteroidFair"
-	groups 0
-planetItemsTemplate
-	templateName "Template:DefaultStart_GasGiantFair"
-	subTemplates 1
-		template "Template:LocalMilitia_GasGiantFair"
-	groups 0
-planetItemsTemplate
-	templateName "Template:DefaultStart_PlasmaStormFair"
-	subTemplates 1
-		template "Template:LocalMilitia_PlasmaStormFair"
-	groups 0
-planetItemsTemplate
-	templateName "Template:DefaultStart_IceFair"
-	subTemplates 2
-		template "Template:DefaultHomePlanetSetup"
-		template "Template:LocalMilitia_IceFair"
-	groups 0
-planetItemsTemplate
-	templateName "Template:DefaultStart_FerrusFair"
-	subTemplates 2
-		template "Template:DefaultHomePlanetSetup"
-		template "Template:LocalMilitia_IceFair"
-	groups 0
-planetItemsTemplate
-	templateName "Template:DefaultStart_BarrenFair"
-	subTemplates 2
-		template "Template:DefaultHomePlanetSetup"
-		template "Template:LocalMilitia_Asteroid"
-	groups 0
-planetItemsTemplate
-	templateName "Template:DefaultStart_GreenhouseFair"
-	subTemplates 2
-		template "Template:DefaultHomePlanetSetup"
-		template "Template:LocalMilitia_IceFair"
-	groups 0
-planetItemsTemplate
-	templateName "Template:DefaultStart_OceanicFair"
-	subTemplates 2
-		template "Template:DefaultHomePlanetSetup"
-		template "Template:LocalMilitia_IceFair"
-	groups 0
-planetItemsTemplate
-	templateName "Template:LocalMilitia_Terran"
-	subTemplates 1
-		template "Template:LocalMilitiaStrong"
-	groups 0		
-planetItemsTemplate
-	templateName "Template:LocalMilitia_Desert"
-	subTemplates 1
-		template "Template:LocalMilitiaStrong"
-	groups 0
-planetItemsTemplate
-	templateName "Template:LocalMilitia_Volcanic"
-	subTemplates 1
-		template "Template:LocalMilitiaMedium"
-	groups 0
-planetItemsTemplate
-	templateName "Template:LocalMilitia_Asteroid"
-	subTemplates 1
-		template "Template:LocalMilitiaVeryWeak"
-	groups 0
-planetItemsTemplate
-	templateName "Template:LocalMilitia_Sleeper"
-	subTemplates 1
-		template "Template:LocalMilitiaSleeper"
-	groups 0	
-planetItemsTemplate
-	templateName "Template:LocalMilitia_AsteroidB"
-	subTemplates 1
-		template "Template:AsteroidB"
-	groups 0	
-planetItemsTemplate
-	templateName "Template:LocalMilitia_AsteroidC"
-	subTemplates 1
-		template "Template:AsteroidC"
-	groups 0	
-planetItemsTemplate
-	templateName "Template:LocalMilitia_AsteroidD"
-	subTemplates 1
-		template "Template:AsteroidD"
-	groups 0		
-planetItemsTemplate
-	templateName "Template:LocalMilitia_DeadAsteroid"
-	subTemplates 1
-		template "Template:LocalMilitiaVeryWeak"
-	groups 0
-planetItemsTemplate
-	templateName "Template:LocalMilitia_ShipGraveyard"
-	subTemplates 1
-		template "Template:LocalMilitiaVeryWeak3"
-	groups 0
-planetItemsTemplate
-	templateName "Template:LocalMilitia_GasGiant"
-	subTemplates 1
-		template "Template:LocalMilitiaVeryWeakUncolonizable"
-	groups 0
-planetItemsTemplate
-	templateName "Template:LocalMilitia_PlasmaStorm"
-	subTemplates 1
-		template "Template:LocalMilitiaVeryWeakUncolonizable"
-	groups 0
-planetItemsTemplate
-	templateName "Template:LocalMilitia_Ice"
-	subTemplates 1
-		template "Template:LocalMilitiaMedium"
-	groups 0
-planetItemsTemplate
-	templateName "Template:LocalMilitia_TerranFair"
-	subTemplates 1
-		template "Template:LocalMilitiaStrongFair"
-	groups 0		
-planetItemsTemplate
-	templateName "Template:LocalMilitia_DesertFair"
-	subTemplates 1
-		template "Template:LocalMilitiaStrongFair"
-	groups 0
-planetItemsTemplate
-	templateName "Template:LocalMilitia_AsteroidFair"
-	subTemplates 1
-		template "Template:LocalMilitiaVeryWeak2"
-	groups 0
-planetItemsTemplate
-	templateName "Template:LocalMilitia_VolcanicFair"
-	subTemplates 1
-		template "Template:LocalMilitiaMediumFair"
-	groups 0
-planetItemsTemplate
-	templateName "Template:LocalMilitia_GasGiantFair"
-	subTemplates 1
-		template "Template:LocalMilitiaVeryWeakUncolonizable"
-	groups 0
-planetItemsTemplate
-	templateName "Template:LocalMilitia_PlasmaStormFair"
-	subTemplates 1
-		template "Template:LocalMilitiaVeryWeakUncolonizable"
-	groups 0
-planetItemsTemplate
-	templateName "Template:LocalMilitia_IceFair"
-	subTemplates 1
-		template "Template:LocalMilitiaMediumFair"
-	groups 0
 validPictureGroups 3
 pictureGroup "PlayerPhase"
 pictureGroup "PlayerPsi"
@@ -4181,8 +4209,8 @@ player
 	themeIndex 15
 	pictureGroup "PlayerPhase"
 	pictureIndex 15
-autoAddMiltiaPlayerCountPerGalaxy 10
-autoAddMilitiaPlayers 10
+autoAddMiltiaPlayerCountPerGalaxy 5
+autoAddMilitiaPlayers 9
 player
 	designName "Angel"
 	inGameName "IDSScenarioPlayerNameMilitia0"
@@ -4303,25 +4331,8 @@ player
 	pictureGroup "NPC"
 	pictureIndex 2
 player
-	designName "Caldari"
-	inGameName "IDSScenarioPlayerNameMilitia7"
-	overrideRaceName "Caldari"
-	teamIndex -1
-	startingCredits 1000
-	startingMetal 300
-	startingCrystal 100
-	isNormalPlayer FALSE
-	isRaidingPlayer FALSE
-	isInsurgentPlayer FALSE
-	isOccupationPlayer FALSE
-	isMadVasariPlayer FALSE
-	themeGroup "NPC"
-	themeIndex 9
-	pictureGroup "NPC"
-	pictureIndex 2
-player
 	designName "Minmatar"
-	inGameName "IDSScenarioPlayerNameMilitia8"
+	inGameName "IDSScenarioPlayerNameMilitia6"
 	overrideRaceName "Minmatar"
 	teamIndex -1
 	startingCredits 1000
@@ -4333,13 +4344,13 @@ player
 	isOccupationPlayer FALSE
 	isMadVasariPlayer FALSE
 	themeGroup "NPC"
-	themeIndex 10
+	themeIndex 8
 	pictureGroup "NPC"
 	pictureIndex 2
 player
-	designName "Mordu"
-	inGameName "IDSScenarioPlayerNameMilitia9"
-	overrideRaceName "Mordu"
+	designName "Caldari"
+	inGameName "IDSScenarioPlayerNameMilitia6"
+	overrideRaceName "Caldari"
 	teamIndex -1
 	startingCredits 1000
 	startingMetal 300
@@ -4350,7 +4361,7 @@ player
 	isOccupationPlayer FALSE
 	isMadVasariPlayer FALSE
 	themeGroup "NPC"
-	themeIndex 11
+	themeIndex 8
 	pictureGroup "NPC"
 	pictureIndex 2
-	
+		
