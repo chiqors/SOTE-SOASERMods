@@ -1,5 +1,5 @@
 TXT
-NumStrings 8363
+NumStrings 8364
 StringInfo
     ID "IDS_ABILITY_RORQUALPANIC_NAME"
 	Value "P.A.N.I.C Module"
@@ -21160,7 +21160,7 @@ StringInfo
 	ID "IDSGalaxyScenarioTypePlanetAsteroidFair"
 	Value "Asteroid Fair"
 StringInfo
-	ID "IDSGalaxyScenarioTypePlanetAsteroid"
+	ID "IDSGalaxyScenarioTypePlanetAsteroidRandom"
 	Value "Random - Asteroid"
 StringInfo
 	ID "IDSGalaxyScenarioTypePlanetAsteroidOrMoon"
@@ -21171,6 +21171,9 @@ StringInfo
 StringInfo
 	ID "IDSGalaxyScenarioTypePlanetMoon"
 	Value "Dwarf Planet"
+StringInfo
+	ID "IDSGalaxyScenarioTypePlanetMoonRandom"
+	Value "Random - Dwarf Planet"	
 StringInfo
 	ID "IDSGalaxyScenarioTypePlanetMoonFair"
 	Value "Dwarf Planet Fair"

@@ -275,20 +275,20 @@ planetType
 	orbitBodyType "AsteroidSpaceJunkFair"
 planetType
 	designName "RandomAsteroid"
-	designStringId "IDSGalaxyScenarioTypePlanetAsteroid"
+	designStringId "IDSGalaxyScenarioTypePlanetAsteroidRandom"
 	orbitBodyTypeCount 4
-	orbitBodyType "Asteroid"
 	orbitBodyType "AsteroidB"
 	orbitBodyType "AsteroidC"
 	orbitBodyType "AsteroidD"	
+	orbitBodyType "Asteroid"	
 planetType
 	designName "RandomMoon"
-	designStringId "IDSGalaxyScenarioTypePlanetMoon"
+	designStringId "IDSGalaxyScenarioTypePlanetMoonRandom"
 	orbitBodyTypeCount 4
-	orbitBodyType "Moon"
 	orbitBodyType "MoonB"
 	orbitBodyType "Moon3"	
 	orbitBodyType "Moon4"	
+	orbitBodyType "Moon"
 planetType
 	designName "AsteroidOrMoon"
 	designStringId "IDSGalaxyScenarioTypePlanetAsteroidOrMoon"
@@ -951,7 +951,7 @@ orbitBodyType
 	defaultTemplateName "Template:MorduStagging"
 orbitBodyType	
 	typeName "AsteroidB"
-	entityDefName "PlanetAsteroid"
+	entityDefName "PlanetAsteroidB"
 	defaultTemplateName "Template:AsteroidB"
 orbitBodyType	
 	typeName "AsteroidC"
