@@ -1,5 +1,5 @@
 TXT
-NumStrings 8364
+NumStrings 8366
 StringInfo
     ID "IDS_ABILITY_RORQUALPANIC_NAME"
 	Value "P.A.N.I.C Module"
@@ -25092,4 +25092,11 @@ StringInfo
 StringInfo
 	ID "IDS_BLOODRAIDER_SHIPYARD_NAME"
 	Value "BloodRaider Shipyard"	
+StringInfo
+	ID "IDS_ABILITY_DEPLOYDictorBubble_NAME"
+	Value "Interdictor Probe"		
+StringInfo
+	ID "IDS_ABILITY_DEPLOYDictorBubble_DESCRIPTION"
+	Value "Modified Interdictor Sphere Probe Launcher"		
+		
 	
