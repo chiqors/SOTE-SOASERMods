@@ -1,0 +1,63 @@
+planetType
+	designName "Asteroid4"
+	designStringId "IDSGalaxyScenarioTypePlanetAsteroid"
+	orbitBodyTypeCount 1
+	orbitBodyType "Asteroid4"
+	
+
+orbitBodyType	
+	typeName "Asteroid4"
+	entityDefName "PlanetAsteroid"
+	defaultTemplateName "Template:Asteroid4"
+	
+
+planetItemsTemplate
+	templateName "Template:Asteroid4"
+		subTemplates 0
+	groups 2
+		group
+			condition
+				type "PlanetOwnerIsMilitia"
+				param ""
+			owner "Caldari"
+			colonizeChance 1
+			items 9
+				item "Caldari:Frigate:Frigate"
+				item "Caldari:Frigate:Frigate"
+				item "Caldari:Frigate:Frigate"
+				item "Caldari:Frigate:Frigate"
+				item "Caldari:Frigate:Destoyer"
+				item "Caldari:Frigate:Destoyer"
+				item "Caldari:Frigate:Cruiser"
+				item "Caldari:Frigate:Logistics"				
+				item "Caldari:Frigate:Logistics"								
+		group
+			condition
+				type "NoPlanetOwner"
+				param ""				
+				owner "Caldari"
+			colonizeChance 0
+			items 6
+				item "Caldari:Frigate:Frigate"
+				item "Caldari:Frigate:Frigate"
+				item "Caldari:Frigate:Frigate"
+				item "Caldari:Frigate:Frigate"
+				item "Caldari:Frigate:Destoyer"
+				item "Caldari:Frigate:Destoyer"			
+			
+			PlanetOwnerIsMilitiaWithChance
+			
+			
+			NoPlanetOwnerWithChance
+			
+			
+		
+planetItemType
+	designName "Caldari:Frigate:Destoyer"
+	entityDefName "Caldari_Ship_Destroyer_Comorant"			
+planetItemType
+	designName "Caldari:Frigate:Cruiser"
+	entityDefName "Caldari_Ship_Cruiser_Caracal"				
+planetItemType
+	designName "Caldari:Frigate:Logistics"
+	entityDefName "Caldari_Ship_Cruiser_Osprey.entity"					

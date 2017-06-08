@@ -1,5 +1,5 @@
 TXT
-entityNameCount 2342
+entityNameCount 2353
 entityName "ALLRACES_RESEARCHSUBJECT_ABILITYACCESS_AFTERBURNER.entity"
 entityName "ALLRACES_RESEARCHSUBJECT_ABILITYACCESS_BASTIONMODE.entity"
 entityName "ALLRACES_RESEARCHSUBJECT_ABILITYACCESS_CLOAK.entity"
@@ -2342,3 +2342,14 @@ entityName "Sleeper_ShipFrigateEmergentEscort.entity"
 entityName "Sleeper_ShipFrigateEmergentWarden.entity"
 entityName "Player_Sleepers.entity"
 entityName "PlanetDrifterTower.entity"
+entityName "AbilityDrifterDoomsday.entity"
+entityName "Sleeper_AutothysianLancer.entity"
+entityName "BloodRaider_AbilityDeployShipyard.entity"
+entityName "AbilityRemoteOmniRepair.entity"
+entityName "BloodRaider_AbilitySummonBattleship.entity"
+entityName "BloodRaider_AbilitySummonDreadnought.entity"
+entityName "BloodRaider_AbilitySummonLogi.entity"
+entityName "BuffRemoteOmnirepair.entity"
+entityName "PlanetAsteroidB.entity"
+entityName "PlanetAsteroidC.entity"
+entityName "PlanetAsteroidD.entity"

@@ -1,0 +1,51 @@
+planetType
+	designName "Asteroid2"
+	designStringId "IDSGalaxyScenarioTypePlanetAsteroid"
+	orbitBodyTypeCount 1
+	orbitBodyType "Asteroid2"
+	
+
+orbitBodyType	
+	typeName "Asteroid2"
+	entityDefName "PlanetAsteroid"
+	defaultTemplateName "Template:Asteroid2"
+	
+
+planetItemsTemplate
+	templateName "Template:Asteroid2"
+		subTemplates 0
+	groups 2
+		group
+			condition
+				type "PlanetOwnerIsMilitia"
+				param ""
+			owner "Gallente"
+			colonizeChance 1
+			items 9
+				item "Gallente:Frigate:Frigate"
+				item "Gallente:Frigate:Frigate"
+				item "Gallente:Frigate:Frigate"
+				item "Gallente:Frigate:Frigate"
+				item "Gallente:Frigate:Destoyer"
+				item "Gallente:Frigate:Destoyer"
+				item "Gallente:Frigate:Cruiser"
+				item "Gallente:Frigate:Logistics"				
+				item "Gallente:Frigate:Logistics"								
+		group
+			condition
+				type "NoPlanetOwner"
+				param ""				
+				owner "Gallente"
+			colonizeChance 0
+			items 6
+				item "Gallente:Frigate:Frigate"
+				item "Gallente:Frigate:Frigate"
+				item "Gallente:Frigate:Frigate"
+				item "Gallente:Frigate:Frigate"
+				item "Gallente:Frigate:Destoyer"
+				item "Gallente:Frigate:Destoyer"			
+			
+			PlanetOwnerIsMilitiaWithChance
+			
+			
+			NoPlanetOwnerWithChance

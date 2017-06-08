@@ -22,8 +22,8 @@ slotCount 10.000000
 BuildTime 33.000000
 hasLevels FALSE
 ExperiencePointsForDestroying 175.000000
-MaxHullPoints 17000.000000
-MaxShieldPoints 2500.000000
+MaxHullPoints 32000.000000
+MaxShieldPoints 5000.000000
 HullPointRestoreRate 0.000000
 ShieldPointRestoreRate 0.000000
 BaseArmorPoints 10.000000
@@ -40,7 +40,7 @@ hudIcon "HUDICON_CAPITALSHIP_TECHSIEGE"
 smallHudIcon "HUDICONSMALL_BATTLESHIP"
 infoCardIcon "HUDICONSMALL_BATTLESHIP"
 minZoomDistanceMult 1.000000
-NumWeapons 2
+NumWeapons 1
 Weapon
 	WeaponType "Beam"
 	damageEnums
@@ -53,7 +53,7 @@ Weapon
 	DamagePerBank:BACK 0.000000
 	DamagePerBank:LEFT 0.000000
 	DamagePerBank:RIGHT 0.000000
-	Range 10000.000000
+	Range 20000.000000
 	PreBuffCooldownTime 5.000000
 	CanFireAtFighter TRUE
 	SynchronizedTargeting TRUE
@@ -87,49 +87,6 @@ Weapon
 		beamGlowColor aaffffff
 		beamCoreColor ffffffff
 		beamTilingRate 16.000000
-Weapon
-	WeaponType "Missile"
-	damageEnums
-		AttackType "ANTILIGHT"
-		DamageAffectType "AFFECTS_SHIELDS_AND_HULL"
-		DamageApplyType "BACKLOADED"
-		DamageType "PHYSICAL"
-		WeaponClassType "MISSILE"
-	DamagePerBank:FRONT 2376.000000
-	DamagePerBank:BACK 0.000000
-	DamagePerBank:LEFT 0.000000
-	DamagePerBank:RIGHT 0.000000
-	Range 20000.000000
-	PreBuffCooldownTime 9.00000
-	CanFireAtFighter FALSE
-	SynchronizedTargeting TRUE
-	PointStaggerDelay 0.0500000
-	TravelSpeed 3000.000000
-	Duration 0.000000
-	fireConstraintType "CanAlwaysFire"
-	WeaponEffects
-		weaponType "Missile"
-		burstCount 1
-		burstDelay 0.000000
-		fireDelay 0.000000
-		muzzleEffectName "Weapon_TechCapitalMissileHeavy_Muzzle"
-		muzzleSoundMinRespawnTime 0.500000
-		muzzleSounds
-			soundCount 1
-			sound "EFFECT_NEUTRONTORPEDO_MUZZLE"
-		hitEffectName "EVE_Missile_LightMissile_Hit"
-		hitHullEffectSounds
-			soundCount 2
-			sound "LIGHTMISSILEEXPLOSION1"
-			sound "LIGHTMISSILEEXPLOSION2"
-		hitShieldsEffectSounds
-			soundCount 2
-			sound "LIGHTMISSILEEXPLOSION1"
-			sound "LIGHTMISSILEEXPLOSION2"
-		missileTravelEffectName "EVE_Missile_LightMissile_Travel"
-		missileStartTurningDistance 0.000000
-		missileSlowTurnRate 0.500000
-		missileMaxSlowTurnTime 5.000000		
 m_weaponIndexForRange 0
 firingAlignmentType "Default"
 TargetCountPerBank:FRONT 1
@@ -190,7 +147,7 @@ ability:0 "AbilityAfterburner"
 ability:1 "AbilityWarpDisruptor"
 ability:2 "AbilityStasisWebifier"
 ability:3 "AbilityProjectedECMBurst"
-ability:4 "AbilityJudgmentCapital"
+ability:4 "AbilityDrifterDoomsday"
 MaxAntiMatter 700000.000000
 AntiMatterRestoreRate 1.250000
 cargoType "Invalid"

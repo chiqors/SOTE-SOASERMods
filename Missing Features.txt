@@ -20,21 +20,20 @@ I - Create
 8 - Pirate logistics will be cruiser with logistics, frigate will have EWA
 11 - Noctis will be construction colony ship, 
 12 - Bowhead will construct industrial arrays
-15 - POS station will block other stations but will give system wide shield
 16 - Create eletronic ships
 25 - Special ships should have AFB 
 37 - Orca Construct Navy Shipyards
- 
 29 - Orcas will have fix structures ability
 30 - Fix Ores Ships names, meshs, pictures and icons
 31 - Create Projectors abilities and efffects
 32 - Create cruisers/interdictors
 33 - Remove interdictors
+36 - Freighters Capital will deploy Keepstar
+
+
 34 - Cruiser Resist names and icons
 35 - Cruisers Damage name and icons
-36 - Freighters Capital will deploy Keepstar
-37 - Create planet sleeper tower
-Bloodraider shiypayrd should be planet
+36 - Blood Shipyard
 
 
 II - Test

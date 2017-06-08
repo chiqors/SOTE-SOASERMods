@@ -53,18 +53,22 @@ starType
 	designStringId "IDSGalaxyScenarioTypeStarPulsar"
 	orbitBodyTypeCount 1
 	orbitBodyType "PulsarStar"
-planetTypeCount 69
+planetTypeCount 77
 planetType
 	designName "WeightedNonIce"
 	designStringId "IDSGalaxyScenarioTypePlanetWeightedNonIce"
-	orbitBodyTypeCount 13
+	orbitBodyTypeCount 17
 	orbitBodyType "Terran"
 	orbitBodyType "Desert"
 	orbitBodyType "Volcanic"
 	orbitBodyType "Asteroid"
-	orbitBodyType "Asteroid"
+	orbitBodyType "AsteroidB"
+	orbitBodyType "AsteroidC"	
+	orbitBodyType "AsteroidD"
 	orbitBodyType "Moon"
-	orbitBodyType "Moon"
+	orbitBodyType "MoonB"
+	orbitBodyType "Moon3"	
+	orbitBodyType "Moon4"	
 	orbitBodyType "DeadAsteroid"
 	orbitBodyType "ShipGraveyard"
 	orbitBodyType "Barren"
@@ -91,7 +95,7 @@ planetType
 planetType
 	designName "WeightedRandom"
 	designStringId "IDSGalaxyScenarioTypePlanetWeightedRandom"
-	orbitBodyTypeCount 46
+	orbitBodyTypeCount 47
 	orbitBodyType "Terran"
 	orbitBodyType "Terran"
 	orbitBodyType "Ice"
@@ -104,13 +108,13 @@ planetType
 	orbitBodyType "Volcanic"
 	orbitBodyType "Volcanic"
 	orbitBodyType "Asteroid"
-	orbitBodyType "Asteroid"
-	orbitBodyType "Asteroid"
-	orbitBodyType "Asteroid"
+	orbitBodyType "AsteroidB"
+	orbitBodyType "AsteroidC"	
+	orbitBodyType "AsteroidD"
 	orbitBodyType "Moon"
-	orbitBodyType "Moon"
-	orbitBodyType "Moon"
-	orbitBodyType "Moon"
+	orbitBodyType "MoonB"
+	orbitBodyType "Moon3"	
+	orbitBodyType "Moon4"	
 	orbitBodyType "AsteroidBelt"
 	orbitBodyType "AsteroidBelt"
 	orbitBodyType "AsteroidBelt"
@@ -137,7 +141,8 @@ planetType
 	orbitBodyType "Greenhouse"
 	orbitBodyType "Greenhouse"
 	orbitBodyType "PirateSanctum"
-	orbitBodyType "SleeperTower"	
+	orbitBodyType "SleeperTower"
+	orbitBodyType "MorduStagging"
 planetType
 	designName "WeightedRandomFair"
 	designStringId "IDSGalaxyScenarioTypePlanetWeightedRandomFair"
@@ -184,7 +189,7 @@ planetType
 planetType
 	designName "WeightedColonizable"
 	designStringId "IDSGalaxyScenarioTypePlanetWeightedColonizable"
-	orbitBodyTypeCount 23
+	orbitBodyTypeCount 29
 	orbitBodyType "Terran"
 	orbitBodyType "Terran"
 	orbitBodyType "Ice"
@@ -196,7 +201,13 @@ planetType
 	orbitBodyType "Volcanic"
 	orbitBodyType "Volcanic"
 	orbitBodyType "Asteroid"
+	orbitBodyType "AsteroidB"
+	orbitBodyType "AsteroidC"	
+	orbitBodyType "AsteroidD"
 	orbitBodyType "Moon"
+	orbitBodyType "MoonB"
+	orbitBodyType "Moon3"	
+	orbitBodyType "Moon4"	
 	orbitBodyType "Barren"
 	orbitBodyType "Barren"
 	orbitBodyType "Barren"
@@ -238,9 +249,15 @@ planetType
 planetType
 	designName "AsteroidOrDead"
 	designStringId "IDSGalaxyScenarioTypePlanetAsteroidOrDead"
-	orbitBodyTypeCount 7
+	orbitBodyTypeCount 13
 	orbitBodyType "Asteroid"
+	orbitBodyType "AsteroidB"
+	orbitBodyType "AsteroidC"	
+	orbitBodyType "AsteroidD"
 	orbitBodyType "Moon"
+	orbitBodyType "MoonB"
+	orbitBodyType "Moon3"	
+	orbitBodyType "Moon4"	
 	orbitBodyType "DeadAsteroid"
 	orbitBodyType "ShipGraveyard"
 	orbitBodyType "AsteroidBelt"
@@ -257,11 +274,33 @@ planetType
 	orbitBodyType "AsteroidBeltFair"
 	orbitBodyType "AsteroidSpaceJunkFair"
 planetType
+	designName "RandomAsteroid"
+	designStringId "IDSGalaxyScenarioTypePlanetAsteroidRandom"
+	orbitBodyTypeCount 4
+	orbitBodyType "AsteroidB"
+	orbitBodyType "AsteroidC"
+	orbitBodyType "AsteroidD"	
+	orbitBodyType "Asteroid"	
+planetType
+	designName "RandomMoon"
+	designStringId "IDSGalaxyScenarioTypePlanetMoonRandom"
+	orbitBodyTypeCount 4
+	orbitBodyType "MoonB"
+	orbitBodyType "Moon3"	
+	orbitBodyType "Moon4"	
+	orbitBodyType "Moon"
+planetType
 	designName "AsteroidOrMoon"
 	designStringId "IDSGalaxyScenarioTypePlanetAsteroidOrMoon"
-	orbitBodyTypeCount 2
+	orbitBodyTypeCount 8
 	orbitBodyType "Asteroid"
+	orbitBodyType "AsteroidB"
+	orbitBodyType "AsteroidC"
+	orbitBodyType "AsteroidD"	
 	orbitBodyType "Moon"
+	orbitBodyType "MoonB"
+	orbitBodyType "Moon3"	
+	orbitBodyType "Moon4"	
 planetType
 	designName "AsteroidOrMoonFair"
 	designStringId "IDSGalaxyScenarioTypePlanetAsteroidOrMoonFair"
@@ -271,13 +310,19 @@ planetType
 planetType
 	designName "Random"
 	designStringId "IDSGalaxyScenarioTypePlanetRandom"
-	orbitBodyTypeCount 16
+	orbitBodyTypeCount 22
 	orbitBodyType "Terran"
 	orbitBodyType "Ice"
 	orbitBodyType "Desert"
 	orbitBodyType "Volcanic"
 	orbitBodyType "Asteroid"
+	orbitBodyType "AsteroidB"
+	orbitBodyType "AsteroidC"	
+	orbitBodyType "AsteroidD"
 	orbitBodyType "Moon"
+	orbitBodyType "MoonB"
+	orbitBodyType "Moon3"	
+	orbitBodyType "Moon4"	
 	orbitBodyType "DeadAsteroid"
 	orbitBodyType "ShipGraveyard"
 	orbitBodyType "AsteroidBelt"
@@ -372,7 +417,7 @@ planetType
 planetType
 	designName "RandomSpecial"
 	designStringId "IDSGalaxyScenarioTypePlanetRandomSpecial"
-	orbitBodyTypeCount 11
+	orbitBodyTypeCount 12
 	orbitBodyType "GasGiant"
 	orbitBodyType "PlasmaStorm"
 	orbitBodyType "Comet"
@@ -382,8 +427,9 @@ planetType
 	orbitBodyType "ShatteredMoon"
 	orbitBodyType "RadiationStorm"
 	orbitBodyType "MagneticCloud"
-	orbitBodyType "PirateSanctum"	
-	orbitBodyType "SleeperTower"		
+	orbitBodyType "PirateSanctum"
+	orbitBodyType "SleeperTower"
+	orbitBodyType "MorduStagging"
 planetType
 	designName "RandomSpecialFair"
 	designStringId "IDSGalaxyScenarioTypePlanetRandomSpecialFair"
@@ -393,7 +439,7 @@ planetType
 planetType
 	designName "RandomUncolonizable"
 	designStringId "IDSGalaxyScenarioTypePlanetRandomUncolonizable"
-	orbitBodyTypeCount 12
+	orbitBodyTypeCount 14
 	orbitBodyType "GasGiant"
 	orbitBodyType "AsteroidBelt"
 	orbitBodyType "AsteroidSpaceJunk"
@@ -405,7 +451,9 @@ planetType
 	orbitBodyType "ShatteredMoon"
 	orbitBodyType "RadiationStorm"
 	orbitBodyType "MagneticCloud"
-	orbitBodyType "SleeperTower"		
+	orbitBodyType "PirateSanctum"
+	orbitBodyType "SleeperTower"
+	orbitBodyType "MorduStagging"
 planetType
 	designName "RandomUncolonizableFair"
 	designStringId "IDSGalaxyScenarioTypePlanetRandomUncolonizableFair"
@@ -418,7 +466,7 @@ planetType
 planetType
 	designName "RandomUncolonizableNonMagnetic"
 	designStringId "IDSGalaxyScenarioTypeRandomUncolonizalbeNonMagnetic"
-	orbitBodyTypeCount 10
+	orbitBodyTypeCount 12
 	orbitBodyType "AsteroidSpaceJunk"
 	orbitBodyType "AsteroidBelt"
 	orbitBodyType "GasGiant"
@@ -429,6 +477,8 @@ planetType
 	orbitBodyType "AntimatterFountain"
 	orbitBodyType "ShatteredMoon"
 	orbitBodyType "RadiationStorm"
+	orbitBodyType "SleeperTower"
+	orbitBodyType "MorduStagging"	
 planetType
 	designName "RandomUncolonizableNonMagneticFair"
 	designStringId "IDSGalaxyScenarioTypeRandomUncolonizalbeNonMagneticFair"
@@ -560,6 +610,21 @@ planetType
 	orbitBodyTypeCount 1
 	orbitBodyType "Moon"
 planetType
+	designName "MoonB"
+	designStringId "IDSGalaxyScenarioTypePlanetMoon"
+	orbitBodyTypeCount 1
+	orbitBodyType "MoonB"
+planetType
+	designName "Moon3"
+	designStringId "IDSGalaxyScenarioTypePlanetMoon"
+	orbitBodyTypeCount 1
+	orbitBodyType "Moon3"	
+planetType
+	designName "Moon4"
+	designStringId "IDSGalaxyScenarioTypePlanetMoon"
+	orbitBodyTypeCount 1
+	orbitBodyType "Moon4"	
+planetType
 	designName "MoonFair"
 	designStringId "IDSGalaxyScenarioTypePlanetMoonFair"
 	orbitBodyTypeCount 1
@@ -661,10 +726,25 @@ planetType
 	orbitBodyType "PirateSanctum"	
 planetType
 	designName "SleeperTower"
-	designStringId "IDSGalaxyScenarioTypePlanetSanctum"
+	designStringId "IDSGalaxyScenarioTypePlanetSleeperTower"
 	orbitBodyTypeCount 1
 	orbitBodyType "SleeperTower"
-orbitBodyTypeCount 50
+planetType
+	designName "AsteroidB"
+	designStringId "IDSGalaxyScenarioTypePlanetAsteroid"
+	orbitBodyTypeCount 1
+	orbitBodyType "AsteroidB"
+planetType
+	designName "AsteroidC"
+	designStringId "IDSGalaxyScenarioTypePlanetAsteroid"
+	orbitBodyTypeCount 1
+	orbitBodyType "AsteroidC"
+planetType
+	designName "AsteroidD"
+	designStringId "IDSGalaxyScenarioTypePlanetAsteroid"
+	orbitBodyTypeCount 1
+	orbitBodyType "AsteroidD"
+orbitBodyTypeCount 57
 orbitBodyType
 	typeName "BlueStar"
 	entityDefName "STAR_BLUE"
@@ -780,7 +860,7 @@ orbitBodyType
 orbitBodyType	
 	typeName "Moon"
 	entityDefName "PlanetMoon"
-	defaultTemplateName "Template:DefaultStart_Asteroid2"
+	defaultTemplateName "Template:DefaultStart_Asteroid"
 orbitBodyType	
 	typeName "MoonFair"
 	entityDefName "PlanetMoonFair"
@@ -865,7 +945,56 @@ orbitBodyType
 	typeName "Occupied"
 	entityDefName "OccupiedPlanet"
 	defaultTemplateName "Template:OccupiedPlanet"
-planetItemTypeCount 239
+orbitBodyType	
+	typeName "MorduStagging"
+	entityDefName "PlanetPirateSanctum"
+	defaultTemplateName "Template:MorduStagging"
+orbitBodyType	
+	typeName "AsteroidB"
+	entityDefName "PlanetAsteroidB"
+	defaultTemplateName "Template:AsteroidB"
+orbitBodyType	
+	typeName "AsteroidC"
+	entityDefName "PlanetAsteroidC"
+	defaultTemplateName "Template:AsteroidC"
+orbitBodyType	
+	typeName "AsteroidD"
+	entityDefName "PlanetAsteroidD"
+	defaultTemplateName "Template:AsteroidD"
+orbitBodyType	
+	typeName "MoonB"
+	entityDefName "PlanetMoon"
+	defaultTemplateName "Template:AsteroidB"
+orbitBodyType	
+	typeName "Moon3"
+	entityDefName "PlanetMoon"
+	defaultTemplateName "Template:AsteroidC"	
+orbitBodyType	
+	typeName "Moon4"
+	entityDefName "PlanetMoon"
+	defaultTemplateName "Template:AsteroidD"		
+planetItemTypeCount 250
+planetItemType
+	designName "Caldari:Frigate:Destoyer"
+	entityDefName "Caldari_Ship_Destroyer_Comorant"			
+planetItemType
+	designName "Caldari:Frigate:Cruiser"
+	entityDefName "Caldari_Ship_Cruiser_Caracal"				
+planetItemType
+	designName "Caldari:Frigate:Logistics"
+	entityDefName "Caldari_Ship_Cruiser_Osprey"					
+planetItemType
+	designName "Mordu:Frigate:Shipyard"
+	entityDefName "Mordu_ModuleShipyard"
+planetItemType
+	designName "Mordu:Frigate:Frigate"
+	entityDefName "Mordu_ShipFrigateGamur"
+planetItemType
+	designName "Mordu:Frigate:Cruiser"
+	entityDefName "Mordu_ShipCruiserOrthurs"	
+planetItemType
+	designName "Mordu:Frigate:Battleship"
+	entityDefName "Mordu_ShipBattleshipBhargest"
 planetItemType
 	designName "Sleeper:Frigate:Cruiser"
 	entityDefName "Sleeper_ShipCruiserAwakenedWarden"	
@@ -1032,6 +1161,18 @@ planetItemType
 	designName "Minmatar:Frigate:Scout"
 	entityDefName "Minmatar_Ship_Frigate_Probe"
 planetItemType
+	designName "Minmatar:Frigate:Frigate"
+	entityDefName "Minmatar_Ship_Frigate_Rifter"			
+planetItemType
+	designName "Minmatar:Frigate:Destoyer"
+	entityDefName "Minmatar_Ship_Destroyer_Thrasher"			
+planetItemType
+	designName "Minmatar:Frigate:Cruiser"
+	entityDefName "Minmatar_Ship_Cruiser_Rupture"				
+planetItemType
+	designName "Minmatar:Frigate:Logistics"
+	entityDefName "Minmatar_Ship_Cruiser_Scyther"						
+planetItemType
 	designName "Gallente:Module:CapitalShipFactory"
 	entityDefName "Gallente_Structure_CapitalShipFactory"
 planetItemType
@@ -1122,7 +1263,7 @@ planetItemType
 	designName "Pirate:Module:GaussDefense"
 	entityDefName "Amarr_Structure_SmallPulseLaserBattery"
 planetItemType
-	designName "Gallente:Frigate:AntiFighter"
+	designName "Gallente:Frigate:Destoyer"
 	entityDefName "Gallente_Ship_Destroyer_Catalyst"
 planetItemType
 	designName "Gallente:Frigate:Carrier"
@@ -1134,10 +1275,10 @@ planetItemType
 	designName "Gallente:Frigate:Heavy"
 	entityDefName "Gallente_Ship_Battlecruiser_Myrmidon"
 planetItemType
-	designName "Gallente:Frigate:Light"
+	designName "Gallente:Frigate:Frigate"
 	entityDefName "Gallente_Ship_Frigate_Incursus"
 planetItemType
-	designName "Gallente:Frigate:LongRange"
+	designName "Gallente:Frigate:Cruiser"
 	entityDefName "Gallente_Ship_Cruiser_Vexor"
 planetItemType
 	designName "Gallente:Frigate:Scout"
@@ -1149,7 +1290,7 @@ planetItemType
 	designName "Gallente:Frigate:Utility0"
 	entityDefName "Gallente_Ship_Battlecruiser_Brutix"
 planetItemType
-	designName "Gallente:Frigate:Utility1"
+	designName "Gallente:Frigate:Logistics"
 	entityDefName "Gallente_Ship_Cruiser_Execuror"
 planetItemType
 	designName "Gallente:Frigate:Constructor"
@@ -1581,7 +1722,7 @@ planetItemType
 	designName "Caldari:Frigate:Scout"
 	entityDefName "Caldari_Ship_Frigate_Heron"
 planetItemType
-	designName "Caldari:Frigate:Light"
+	designName "Caldari:Frigate:Frigate"
 	entityDefName "Caldari_Ship_Frigate_kestrel"	
 playerTypeCount 13
 playerType
@@ -1623,7 +1764,7 @@ playerType
 playerType
 	designName "Sleepers"
 	entityDefName "Player_Sleepers"
-planetItemsTemplateCount 69
+planetItemsTemplateCount 73
 planetItemsTemplate
 	templateName "Empty"
 	subTemplates 0
@@ -1782,10 +1923,10 @@ planetItemsTemplate
 		template "Template:LocalMilitia_Sleeper"			
 	groups 0		
 planetItemsTemplate
-	templateName "Template:DefaultStart_Asteroid2"
+	templateName "Template:DefaultStart_AsteroidB"
 	subTemplates 2		
 		template "Template:DefaultHomePlanetSetup"
-		template "Template:LocalMilitia_Asteroid2"
+		template "Template:LocalMilitia_AsteroidB"
 	groups 0	
 planetItemsTemplate
 	templateName "Template:DefaultStart_DeadAsteroid"
@@ -1952,9 +2093,9 @@ planetItemsTemplate
 			colonizeChance 1
 			items 4
 				item "Caldari:Frigate:Scout"
-				item "Caldari:Frigate:Light"
-				item "Caldari:Frigate:Light"
-				item "Caldari:Frigate:Light"
+				item "Caldari:Frigate:Frigate"
+				item "Caldari:Frigate:Frigate"
+				item "Caldari:Frigate:Frigate"
 		group
 			condition
 				type "PlanetOwnerIsRaceNormalStart"
@@ -1975,9 +2116,9 @@ planetItemsTemplate
 			colonizeChance 1
 			items 4
 				item "Gallente:Frigate:Scout"
-				item "Gallente:Frigate:Light"
-				item "Gallente:Frigate:Light"
-				item "Gallente:Frigate:Light"
+				item "Gallente:Frigate:Frigate"
+				item "Gallente:Frigate:Frigate"
+				item "Gallente:Frigate:Frigate"
 		group
 			condition
 				type "PlanetOwnerIsRaceQuickStart"
@@ -2010,9 +2151,9 @@ planetItemsTemplate
 			colonizeChance 1
 			items 4
 				item "Caldari:Frigate:Scout"
-				item "Caldari:Frigate:Light"
-				item "Caldari:Frigate:Light"
-				item "Caldari:Frigate:Light"
+				item "Caldari:Frigate:Frigate"
+				item "Caldari:Frigate:Frigate"
+				item "Caldari:Frigate:Frigate"
 		group
 			condition
 				type "PlanetOwnerIsRaceQuickStart"
@@ -2021,9 +2162,9 @@ planetItemsTemplate
 			colonizeChance 1
 			items 4
 				item "Gallente:Frigate:Scout"
-				item "Gallente:Frigate:Light"
-				item "Gallente:Frigate:Light"
-				item "Gallente:Frigate:Light"
+				item "Gallente:Frigate:Frigate"
+				item "Gallente:Frigate:Frigate"
+				item "Gallente:Frigate:Frigate"
 		group
 			condition
 				type "PlanetOwnerIsRaceNormalStart"
@@ -2044,9 +2185,9 @@ planetItemsTemplate
 			colonizeChance 1
 			items 4
 				item "Gallente:Frigate:Scout"
-				item "Gallente:Frigate:Light"
-				item "Gallente:Frigate:Light"
-				item "Gallente:Frigate:Light"
+				item "Gallente:Frigate:Frigate"
+				item "Gallente:Frigate:Frigate"
+				item "Gallente:Frigate:Frigate"
 		group
 			condition
 				type "PlanetOwnerIsRaceQuickStart"
@@ -2361,16 +2502,20 @@ planetItemsTemplate
 				param ""
 			owner "Serpentis"
 			colonizeChance 0
-			items 9
+			items 13
 				item "Serpentis:Frigate:Frigate"
 				item "Serpentis:Frigate:Frigate"
 				item "Serpentis:Frigate:Frigate"
 				item "Serpentis:Frigate:Frigate"
 				item "Serpentis:Frigate:Cruiser"
 				item "Serpentis:Frigate:Cruiser"
-				item "Serpentis:Frigate:Siege"
-				item "Serpentis:Frigate:Siege"			
-				item "Serpentis:Frigate:Siege"
+				item "Serpentis:Frigate:Cruiser"
+				item "Serpentis:Frigate:Cruiser"				
+				item "Serpentis:Frigate:Logistics"
+				item "Serpentis:Frigate:Logistics"
+				item "Serpentis:Frigate:Logistics"				
+				item "Serpentis:Frigate:Battleship"
+				item "Serpentis:Frigate:Battleship"
 		group
 			condition
 				type "NoPlanetOwnerWithChance"
@@ -2450,7 +2595,7 @@ planetItemsTemplate
 planetItemsTemplate
 	templateName "Template:LocalMilitiaVeryWeak2"
 	subTemplates 0
-	groups 18
+	groups 19
 		group
 			condition
 				type "PlanetOwnerIsMilitia"
@@ -2630,6 +2775,14 @@ planetItemsTemplate
 			colonizeChance 0
 			items 1						
 				item "BloodRaider:CapitalShip:Dreadnought"
+		group
+			condition
+				type "NoPlanetOwnerWithChance"
+				param "0.1"
+			owner "BloodRaider"
+			colonizeChance 0
+			items 1
+				item "BloodRaider:Frigate:Shipyard"
 planetItemsTemplate
 	templateName "Template:LocalMilitiaVeryWeak"
 	subTemplates 0
@@ -2874,17 +3027,17 @@ planetItemsTemplate
 			colonizeChance 0
 			items 15
 				item "Gallente:Frigate:Utility0"
-				item "Gallente:Frigate:LongRange"
-				item "Gallente:Frigate:LongRange"
-				item "Gallente:Frigate:LongRange"
-				item "Gallente:Frigate:LongRange"
-				item "Gallente:Frigate:Utility1"				
-				item "Gallente:Frigate:Utility1"				
-				item "Gallente:Frigate:Utility1"								
-				item "Gallente:Frigate:Light"
-				item "Gallente:Frigate:Light"
-				item "Gallente:Frigate:Light"
-				item "Gallente:Frigate:Light"
+				item "Gallente:Frigate:Cruiser"
+				item "Gallente:Frigate:Cruiser"
+				item "Gallente:Frigate:Cruiser"
+				item "Gallente:Frigate:Cruiser"
+				item "Gallente:Frigate:Logistics"				
+				item "Gallente:Frigate:Logistics"				
+				item "Gallente:Frigate:Logistics"								
+				item "Gallente:Frigate:Frigate"
+				item "Gallente:Frigate:Frigate"
+				item "Gallente:Frigate:Frigate"
+				item "Gallente:Frigate:Frigate"
 				item "Gallente:Module:MissileDefense"
 				item "Amarr:Module:MetalExtractor"
 				item "Amarr:Module:CrystalExtractor"				
@@ -2895,13 +3048,13 @@ planetItemsTemplate
 			owner "Gallente"
 			colonizeChance 0
 			items 10
-				item "Gallente:Frigate:LongRange"
-				item "Gallente:Frigate:LongRange"
-				item "Gallente:Frigate:LongRange"
-				item "Gallente:Frigate:Utility1"				
-				item "Gallente:Frigate:Light"
-				item "Gallente:Frigate:Light"
-				item "Gallente:Frigate:Light"
+				item "Gallente:Frigate:Cruiser"
+				item "Gallente:Frigate:Cruiser"
+				item "Gallente:Frigate:Cruiser"
+				item "Gallente:Frigate:Logistics"				
+				item "Gallente:Frigate:Frigate"
+				item "Gallente:Frigate:Frigate"
+				item "Gallente:Frigate:Frigate"
 				item "Gallente:Module:MissileDefense"
 				item "Amarr:Module:MetalExtractor"
 				item "Amarr:Module:CrystalExtractor"		
@@ -2939,10 +3092,10 @@ planetItemsTemplate
 			owner "Gallente"
 			colonizeChance 0
 			items 7
-				item "Gallente:Frigate:Light"
-				item "Gallente:Frigate:Light"
-				item "Gallente:Frigate:Light"
-				item "Gallente:Frigate:Light"
+				item "Gallente:Frigate:Frigate"
+				item "Gallente:Frigate:Frigate"
+				item "Gallente:Frigate:Frigate"
+				item "Gallente:Frigate:Frigate"
 				item "Gallente:Frigate:Siege"
 				item "Gallente:Frigate:Siege"
 				item "Gallente:Frigate:Siege"				
@@ -2985,8 +3138,8 @@ planetItemsTemplate
 			owner "PlanetOwner"
 			colonizeChance 0
 			items 8
-				item "Gallente:Frigate:Light"
-				item "Gallente:Frigate:Light"
+				item "Gallente:Frigate:Frigate"
+				item "Gallente:Frigate:Frigate"
 				item "Gallente:Frigate:Siege"
 				item "Gallente:Module:MissileDefense"				
 				item "Gallente:Module:MissileDefense"				
@@ -3000,9 +3153,9 @@ planetItemsTemplate
 			owner "Gallente"
 			colonizeChance 0
 			items 5
-				item "Gallente:Frigate:Light"
-				item "Gallente:Frigate:Light"
-				item "Gallente:Frigate:Light"
+				item "Gallente:Frigate:Frigate"
+				item "Gallente:Frigate:Frigate"
+				item "Gallente:Frigate:Frigate"
 				item "Gallente:Frigate:Siege"
 				item "Gallente:Frigate:Siege"
 planetItemsTemplate
@@ -3305,7 +3458,7 @@ planetItemsTemplate
 		template "Template:LocalMilitiaSleeper"
 	groups 0	
 planetItemsTemplate
-	templateName "Template:LocalMilitia_Asteroid2"
+	templateName "Template:LocalMilitia_AsteroidB"
 	subTemplates 1
 		template "Template:LocalMilitiaVeryWeak4"
 	groups 0	
@@ -3369,6 +3522,105 @@ planetItemsTemplate
 	subTemplates 1
 		template "Template:LocalMilitiaMediumFair"
 	groups 0
+planetItemsTemplate
+	templateName "Template:AsteroidB"
+		subTemplates 0
+	groups 2
+		group
+			condition
+				type "PlanetOwnerIsMilitia"
+				param ""
+			owner "Gallente"
+			colonizeChance 1
+			items 9
+				item "Gallente:Frigate:Frigate"
+				item "Gallente:Frigate:Frigate"
+				item "Gallente:Frigate:Frigate"
+				item "Gallente:Frigate:Frigate"
+				item "Gallente:Frigate:Destoyer"
+				item "Gallente:Frigate:Destoyer"
+				item "Gallente:Frigate:Cruiser"
+				item "Gallente:Frigate:Logistics"				
+				item "Gallente:Frigate:Logistics"								
+		group
+			condition
+				type "NoPlanetOwner"
+				param ""				
+				owner "Gallente"
+			colonizeChance 0
+			items 6
+				item "Gallente:Frigate:Frigate"
+				item "Gallente:Frigate:Frigate"
+				item "Gallente:Frigate:Frigate"
+				item "Gallente:Frigate:Frigate"
+				item "Gallente:Frigate:Destoyer"
+				item "Gallente:Frigate:Destoyer"			
+planetItemsTemplate
+	templateName "Template:AsteroidC"
+		subTemplates 0
+	groups 2
+		group
+			condition
+				type "PlanetOwnerIsMilitia"
+				param ""
+			owner "Minmatar"
+			colonizeChance 1
+			items 9
+				item "Minmatar:Frigate:Frigate"
+				item "Minmatar:Frigate:Frigate"
+				item "Minmatar:Frigate:Frigate"
+				item "Minmatar:Frigate:Frigate"
+				item "Minmatar:Frigate:Destoyer"
+				item "Minmatar:Frigate:Destoyer"
+				item "Minmatar:Frigate:Cruiser"
+				item "Minmatar:Frigate:Logistics"				
+				item "Minmatar:Frigate:Logistics"								
+		group
+			condition
+				type "NoPlanetOwner"
+				param ""				
+				owner "Minmatar"
+			colonizeChance 0
+			items 6
+				item "Minmatar:Frigate:Frigate"
+				item "Minmatar:Frigate:Frigate"
+				item "Minmatar:Frigate:Frigate"
+				item "Minmatar:Frigate:Frigate"
+				item "Minmatar:Frigate:Destoyer"
+				item "Minmatar:Frigate:Destoyer"
+planetItemsTemplate
+	templateName "Template:AsteroidD"
+		subTemplates 0
+	groups 2
+		group
+			condition
+				type "PlanetOwnerIsMilitia"
+				param ""
+			owner "Caldari"
+			colonizeChance 1
+			items 9
+				item "Caldari:Frigate:Frigate"
+				item "Caldari:Frigate:Frigate"
+				item "Caldari:Frigate:Frigate"
+				item "Caldari:Frigate:Frigate"
+				item "Caldari:Frigate:Destoyer"
+				item "Caldari:Frigate:Destoyer"
+				item "Caldari:Frigate:Cruiser"
+				item "Caldari:Frigate:Logistics"				
+				item "Caldari:Frigate:Logistics"								
+		group
+			condition
+				type "NoPlanetOwner"
+				param ""				
+				owner "Caldari"
+			colonizeChance 0
+			items 6
+				item "Caldari:Frigate:Frigate"
+				item "Caldari:Frigate:Frigate"
+				item "Caldari:Frigate:Frigate"
+				item "Caldari:Frigate:Frigate"
+				item "Caldari:Frigate:Destoyer"
+				item "Caldari:Frigate:Destoyer"			
 planetItemsTemplate
 	templateName "Template:SleeperTower"
 	subTemplates 0
@@ -3616,6 +3868,207 @@ planetItemsTemplate
 				item "Sansha:Ship:RenynMeten"
 				item "Artifact:HyperspaceSpeed"
 planetItemsTemplate
+	templateName "Template:MorduStaggingPoint"
+	subTemplates 0
+	groups 2
+		group
+			condition
+				type "PlanetOwnerIsMilitia"
+				param ""
+			owner "PlanetOwner"
+			colonizeChance 1
+			items 95
+				item "Mordu:Frigate:Battleship"
+				item "Mordu:Frigate:Battleship"
+				item "Mordu:Frigate:Battleship"
+				item "Mordu:Frigate:Battleship"
+				item "Mordu:Frigate:Battleship"
+				item "Mordu:Frigate:Battleship"
+				item "Mordu:Frigate:Battleship"
+				item "Mordu:Frigate:Battleship"
+				item "Mordu:Frigate:Battleship"
+				item "Mordu:Frigate:Battleship"
+				item "Mordu:Frigate:Battleship"
+				item "Mordu:Frigate:Battleship"
+				item "Mordu:Frigate:Battleship"
+				item "Mordu:Frigate:Battleship"
+				item "Mordu:Frigate:Battleship"
+				item "Mordu:Frigate:Battleship"
+				item "Mordu:Frigate:Battleship"
+				item "Mordu:Frigate:Battleship"
+				item "Mordu:Frigate:Battleship"
+				item "Mordu:Frigate:Battleship"
+				item "Mordu:Frigate:Battleship"
+				item "Mordu:Frigate:Battleship"
+				item "Mordu:Frigate:Battleship"
+				item "Mordu:Frigate:Battleship"
+				item "Mordu:Frigate:Battleship"
+				item "Mordu:Frigate:Battleship"
+				item "Mordu:Frigate:Battleship"
+				item "Mordu:Frigate:Battleship"
+				item "Mordu:Frigate:Battleship"
+				item "Mordu:Frigate:Battleship"
+				item "Mordu:Frigate:Battleship"
+				item "Mordu:Frigate:Battleship"
+				item "Mordu:Frigate:Battleship"
+				item "Mordu:Frigate:Battleship"
+				item "Mordu:Frigate:Battleship"
+				item "Mordu:Frigate:Battleship"
+				item "Mordu:Frigate:Battleship"
+				item "Mordu:Frigate:Battleship"
+				item "Mordu:Frigate:Battleship"
+				item "Mordu:Frigate:Frigate"
+				item "Mordu:Frigate:Frigate"
+				item "Mordu:Frigate:Frigate"
+				item "Mordu:Frigate:Frigate"
+				item "Mordu:Frigate:Frigate"
+				item "Mordu:Frigate:Frigate"
+				item "Mordu:Frigate:Frigate"
+				item "Mordu:Frigate:Frigate"
+				item "Mordu:Frigate:Frigate"
+				item "Mordu:Frigate:Frigate"
+				item "Mordu:Frigate:Frigate"
+				item "Mordu:Frigate:Frigate"
+				item "Mordu:Frigate:Frigate"
+				item "Mordu:Frigate:Frigate"
+				item "Mordu:Frigate:Frigate"
+				item "Mordu:Frigate:Frigate"
+				item "Mordu:Frigate:Frigate"
+				item "Mordu:Frigate:Frigate"
+				item "Mordu:Frigate:Frigate"
+				item "Mordu:Frigate:Frigate"
+				item "Mordu:Frigate:Frigate"
+				item "Mordu:Frigate:Frigate"
+				item "Mordu:Frigate:Frigate"
+				item "Mordu:Frigate:Frigate"
+				item "Mordu:Frigate:Frigate"
+				item "Mordu:Frigate:Frigate"
+				item "Mordu:Frigate:Frigate"
+				item "Mordu:Frigate:Frigate"
+				item "Mordu:Frigate:Frigate"
+				item "Mordu:Frigate:Frigate"
+				item "Mordu:Frigate:Frigate"
+				item "Mordu:Frigate:Cruiser"
+				item "Mordu:Frigate:Cruiser"
+				item "Mordu:Frigate:Cruiser"
+				item "Mordu:Frigate:Cruiser"
+				item "Mordu:Frigate:Cruiser"
+				item "Mordu:Frigate:Cruiser"
+				item "Mordu:Frigate:Cruiser"
+				item "Mordu:Frigate:Cruiser"
+				item "Mordu:Frigate:Cruiser"
+				item "Mordu:Frigate:Cruiser"
+				item "Mordu:Frigate:Cruiser"
+				item "Mordu:Frigate:Cruiser"
+				item "Mordu:Frigate:Cruiser"
+				item "Mordu:Frigate:Cruiser"
+				item "Mordu:Frigate:Cruiser"
+				item "Mordu:Frigate:Cruiser"
+				item "Mordu:Frigate:Cruiser"
+				item "Mordu:Frigate:Cruiser"
+				item "Amarr:Module:GaussDefense"	
+				item "Amarr:Module:GaussDefense"
+				item "Amarr:Module:GaussDefense"													
+				item "Amarr:Module:HangarDefense"
+				item "Amarr:Module:HangarDefense"
+				item "Amarr:Module:MetalExtractor"											
+				item "Amarr:Module:MetalExtractor"					
+		group
+			condition
+				type "NoPlanetOwner"
+				param ""
+			owner "RandomMilitia"
+			colonizeChance 0
+			items 88
+				item "Mordu:Frigate:Battleship"
+				item "Mordu:Frigate:Battleship"
+				item "Mordu:Frigate:Battleship"
+				item "Mordu:Frigate:Battleship"
+				item "Mordu:Frigate:Battleship"
+				item "Mordu:Frigate:Battleship"
+				item "Mordu:Frigate:Battleship"
+				item "Mordu:Frigate:Battleship"
+				item "Mordu:Frigate:Battleship"
+				item "Mordu:Frigate:Battleship"
+				item "Mordu:Frigate:Battleship"
+				item "Mordu:Frigate:Battleship"
+				item "Mordu:Frigate:Battleship"
+				item "Mordu:Frigate:Battleship"
+				item "Mordu:Frigate:Battleship"
+				item "Mordu:Frigate:Battleship"
+				item "Mordu:Frigate:Battleship"
+				item "Mordu:Frigate:Battleship"
+				item "Mordu:Frigate:Battleship"
+				item "Mordu:Frigate:Battleship"
+				item "Mordu:Frigate:Battleship"
+				item "Mordu:Frigate:Battleship"
+				item "Mordu:Frigate:Battleship"
+				item "Mordu:Frigate:Battleship"
+				item "Mordu:Frigate:Battleship"
+				item "Mordu:Frigate:Battleship"
+				item "Mordu:Frigate:Battleship"
+				item "Mordu:Frigate:Battleship"
+				item "Mordu:Frigate:Battleship"
+				item "Mordu:Frigate:Battleship"
+				item "Mordu:Frigate:Battleship"
+				item "Mordu:Frigate:Battleship"
+				item "Mordu:Frigate:Battleship"
+				item "Mordu:Frigate:Battleship"
+				item "Mordu:Frigate:Battleship"
+				item "Mordu:Frigate:Battleship"
+				item "Mordu:Frigate:Battleship"
+				item "Mordu:Frigate:Battleship"
+				item "Mordu:Frigate:Battleship"
+				item "Mordu:Frigate:Frigate"
+				item "Mordu:Frigate:Frigate"
+				item "Mordu:Frigate:Frigate"
+				item "Mordu:Frigate:Frigate"
+				item "Mordu:Frigate:Frigate"
+				item "Mordu:Frigate:Frigate"
+				item "Mordu:Frigate:Frigate"
+				item "Mordu:Frigate:Frigate"
+				item "Mordu:Frigate:Frigate"
+				item "Mordu:Frigate:Frigate"
+				item "Mordu:Frigate:Frigate"
+				item "Mordu:Frigate:Frigate"
+				item "Mordu:Frigate:Frigate"
+				item "Mordu:Frigate:Frigate"
+				item "Mordu:Frigate:Frigate"
+				item "Mordu:Frigate:Frigate"
+				item "Mordu:Frigate:Frigate"
+				item "Mordu:Frigate:Frigate"
+				item "Mordu:Frigate:Frigate"
+				item "Mordu:Frigate:Frigate"
+				item "Mordu:Frigate:Frigate"
+				item "Mordu:Frigate:Frigate"
+				item "Mordu:Frigate:Frigate"
+				item "Mordu:Frigate:Frigate"
+				item "Mordu:Frigate:Frigate"
+				item "Mordu:Frigate:Frigate"
+				item "Mordu:Frigate:Frigate"
+				item "Mordu:Frigate:Frigate"
+				item "Mordu:Frigate:Frigate"
+				item "Mordu:Frigate:Frigate"
+				item "Mordu:Frigate:Frigate"
+				item "Mordu:Frigate:Cruiser"
+				item "Mordu:Frigate:Cruiser"
+				item "Mordu:Frigate:Cruiser"
+				item "Mordu:Frigate:Cruiser"
+				item "Mordu:Frigate:Cruiser"
+				item "Mordu:Frigate:Cruiser"
+				item "Mordu:Frigate:Cruiser"
+				item "Mordu:Frigate:Cruiser"
+				item "Mordu:Frigate:Cruiser"
+				item "Mordu:Frigate:Cruiser"
+				item "Mordu:Frigate:Cruiser"
+				item "Mordu:Frigate:Cruiser"
+				item "Mordu:Frigate:Cruiser"
+				item "Mordu:Frigate:Cruiser"
+				item "Mordu:Frigate:Cruiser"
+				item "Mordu:Frigate:Cruiser"
+				item "Mordu:Frigate:Cruiser"
+				item "Mordu:Frigate:Cruiser"
+planetItemsTemplate
 	templateName "Template:OccupiedPlanet"
 	subTemplates 0
 	groups 1
@@ -3628,24 +4081,24 @@ planetItemsTemplate
 			items 52
 				item "Gallente:StarBase"
 				item "Gallente:Titan:Loyalist"
-				item "Gallente:Frigate:LongRange"
-				item "Gallente:Frigate:LongRange"
-				item "Gallente:Frigate:LongRange"
-				item "Gallente:Frigate:LongRange"
-				item "Gallente:Frigate:LongRange"
-				item "Gallente:Frigate:LongRange"
+				item "Gallente:Frigate:Cruiser"
+				item "Gallente:Frigate:Cruiser"
+				item "Gallente:Frigate:Cruiser"
+				item "Gallente:Frigate:Cruiser"
+				item "Gallente:Frigate:Cruiser"
+				item "Gallente:Frigate:Cruiser"
 				item "Gallente:Frigate:Carrier"
 				item "Gallente:Frigate:Carrier"
 				item "Gallente:Frigate:Carrier"
 				item "Gallente:Frigate:Siege"
 				item "Gallente:Frigate:Siege"
 				item "Gallente:Frigate:Siege"
-				item "Gallente:Frigate:AntiFighter"
-				item "Gallente:Frigate:AntiFighter"
-				item "Gallente:Frigate:AntiFighter"
-				item "Gallente:Frigate:AntiFighter"
-				item "Gallente:Frigate:AntiFighter"
-				item "Gallente:Frigate:AntiFighter"
+				item "Gallente:Frigate:Destoyer"
+				item "Gallente:Frigate:Destoyer"
+				item "Gallente:Frigate:Destoyer"
+				item "Gallente:Frigate:Destoyer"
+				item "Gallente:Frigate:Destoyer"
+				item "Gallente:Frigate:Destoyer"
 				item "Gallente:Module:HangarDefense"
 				item "Gallente:Module:HangarDefense"
 				item "Gallente:Module:MissileDefense"
@@ -3687,7 +4140,7 @@ themeGroup "PlayerPhase"
 themeGroup "PlayerPsi"
 themeGroup "PlayerTech"
 themeGroup "NPC"
-autoAddPlayers 5
+autoAddPlayers 4
 player
 	designName "Pirate"
 	inGameName "IDSScenarioPlayerNamePirates"
@@ -3756,7 +4209,7 @@ player
 	themeIndex 15
 	pictureGroup "PlayerPhase"
 	pictureIndex 15
-autoAddMiltiaPlayerCountPerGalaxy 7
+autoAddMiltiaPlayerCountPerGalaxy 5
 autoAddMilitiaPlayers 7
 player
 	designName "Angel"
@@ -3877,3 +4330,4 @@ player
 	themeIndex 8
 	pictureGroup "NPC"
 	pictureIndex 2
+	
