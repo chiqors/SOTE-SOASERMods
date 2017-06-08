@@ -29,10 +29,13 @@ ShieldPointRestoreRate 1.000000
 BaseArmorPoints 0.000000
 maxMitigation 0.000000
 Prerequisites
-	NumResearchPrerequisites 1
+	NumResearchPrerequisites 2
 	ResearchPrerequisite
 		Subject "AllRaces_ResearchSubject_T3ModuleAccess_DefensiveSystems"
 		Level 1
+	ResearchPrerequisite
+		Subject "Caldari_ResearchSubject_SubCapitalAccess_Jackdaw"
+		Level 1		
 	RequiredFactionNameID ""
 	RequiredCompletedResearchSubjects 0
 numRandomDebrisLarge 0

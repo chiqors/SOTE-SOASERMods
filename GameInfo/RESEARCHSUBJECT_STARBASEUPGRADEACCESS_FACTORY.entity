@@ -12,7 +12,7 @@ ResearchField "Defense"
 Prerequisites
 	NumResearchPrerequisites 1
 	ResearchPrerequisite
-		Subject "Amarr_ResearchSubject_PlanetModuleAccess_AmarrTacticalOutpost"
+		Subject "AllRaces_ResearchSubject_PlanetModuleAccess_Fortizar"
 		Level 1
 	RequiredFactionNameID ""
 	RequiredCompletedResearchSubjects 0

@@ -1,5 +1,5 @@
 TXT
-entityNameCount 2353
+entityNameCount 2354
 entityName "ALLRACES_RESEARCHSUBJECT_ABILITYACCESS_AFTERBURNER.entity"
 entityName "ALLRACES_RESEARCHSUBJECT_ABILITYACCESS_BASTIONMODE.entity"
 entityName "ALLRACES_RESEARCHSUBJECT_ABILITYACCESS_CLOAK.entity"
@@ -2353,3 +2353,4 @@ entityName "BuffRemoteOmnirepair.entity"
 entityName "PlanetAsteroidB.entity"
 entityName "PlanetAsteroidC.entity"
 entityName "PlanetAsteroidD.entity"
+entityName "Player_Mordu.entity"
