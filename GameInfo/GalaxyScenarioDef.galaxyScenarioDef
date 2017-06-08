@@ -3045,7 +3045,7 @@ planetItemsTemplate
 			condition
 				type "NoPlanetOwnerWithChance"
 				param "0.3"
-			owner "Gallente"
+			owner ""
 			colonizeChance 0
 			items 10
 				item "Gallente:Frigate:Cruiser"
@@ -3079,7 +3079,7 @@ planetItemsTemplate
 			condition
 				type "PlanetOwnerIsMilitiaWithChance"
 				param "0.5"
-			owner "Gallente"
+			owner ""
 			colonizeChance 0
 			items 3
 				item "Gallente:Module:MissileDefense"
@@ -3089,7 +3089,7 @@ planetItemsTemplate
 			condition
 				type "NoPlanetOwner"
 				param ""
-			owner "Gallente"
+			owner ""
 			colonizeChance 0
 			items 7
 				item "Gallente:Frigate:Frigate"
@@ -3150,7 +3150,7 @@ planetItemsTemplate
 			condition
 				type "NoPlanetOwnerWithChance"
 				param "0.5"
-			owner "Gallente"
+			owner ""
 			colonizeChance 0
 			items 5
 				item "Gallente:Frigate:Frigate"
@@ -3530,7 +3530,7 @@ planetItemsTemplate
 			condition
 				type "PlanetOwnerIsMilitia"
 				param ""
-			owner "Gallente"
+			owner ""
 			colonizeChance 1
 			items 9
 				item "Gallente:Frigate:Frigate"
@@ -3546,7 +3546,7 @@ planetItemsTemplate
 			condition
 				type "NoPlanetOwner"
 				param ""				
-				owner "Gallente"
+				owner ""
 			colonizeChance 0
 			items 6
 				item "Gallente:Frigate:Frigate"
@@ -4210,7 +4210,7 @@ player
 	pictureGroup "PlayerPhase"
 	pictureIndex 15
 autoAddMiltiaPlayerCountPerGalaxy 5
-autoAddMilitiaPlayers 7
+autoAddMilitiaPlayers 9
 player
 	designName "Angel"
 	inGameName "IDSScenarioPlayerNameMilitia0"
@@ -4330,4 +4330,38 @@ player
 	themeIndex 8
 	pictureGroup "NPC"
 	pictureIndex 2
-	
+player
+	designName "Minmatar"
+	inGameName "IDSScenarioPlayerNameMilitia6"
+	overrideRaceName "Minmatar"
+	teamIndex -1
+	startingCredits 1000
+	startingMetal 300
+	startingCrystal 100
+	isNormalPlayer FALSE
+	isRaidingPlayer FALSE
+	isInsurgentPlayer FALSE
+	isOccupationPlayer FALSE
+	isMadVasariPlayer FALSE
+	themeGroup "NPC"
+	themeIndex 8
+	pictureGroup "NPC"
+	pictureIndex 2
+player
+	designName "Caldari"
+	inGameName "IDSScenarioPlayerNameMilitia6"
+	overrideRaceName "Caldari"
+	teamIndex -1
+	startingCredits 1000
+	startingMetal 300
+	startingCrystal 100
+	isNormalPlayer FALSE
+	isRaidingPlayer FALSE
+	isInsurgentPlayer FALSE
+	isOccupationPlayer FALSE
+	isMadVasariPlayer FALSE
+	themeGroup "NPC"
+	themeIndex 8
+	pictureGroup "NPC"
+	pictureIndex 2
+		
