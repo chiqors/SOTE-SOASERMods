@@ -66,7 +66,7 @@ planetType
 	orbitBodyType "AsteroidC"	
 	orbitBodyType "AsteroidD"
 	orbitBodyType "Moon"
-	orbitBodyType "Moon2"
+	orbitBodyType "MoonB"
 	orbitBodyType "Moon3"	
 	orbitBodyType "Moon4"	
 	orbitBodyType "DeadAsteroid"
@@ -112,7 +112,7 @@ planetType
 	orbitBodyType "AsteroidC"	
 	orbitBodyType "AsteroidD"
 	orbitBodyType "Moon"
-	orbitBodyType "Moon2"
+	orbitBodyType "MoonB"
 	orbitBodyType "Moon3"	
 	orbitBodyType "Moon4"	
 	orbitBodyType "AsteroidBelt"
@@ -205,7 +205,7 @@ planetType
 	orbitBodyType "AsteroidC"	
 	orbitBodyType "AsteroidD"
 	orbitBodyType "Moon"
-	orbitBodyType "Moon2"
+	orbitBodyType "MoonB"
 	orbitBodyType "Moon3"	
 	orbitBodyType "Moon4"	
 	orbitBodyType "Barren"
@@ -255,7 +255,7 @@ planetType
 	orbitBodyType "AsteroidC"	
 	orbitBodyType "AsteroidD"
 	orbitBodyType "Moon"
-	orbitBodyType "Moon2"
+	orbitBodyType "MoonB"
 	orbitBodyType "Moon3"	
 	orbitBodyType "Moon4"	
 	orbitBodyType "DeadAsteroid"
@@ -286,7 +286,7 @@ planetType
 	designStringId "IDSGalaxyScenarioTypePlanetMoon"
 	orbitBodyTypeCount 4
 	orbitBodyType "Moon"
-	orbitBodyType "Moon2"
+	orbitBodyType "MoonB"
 	orbitBodyType "Moon3"	
 	orbitBodyType "Moon4"	
 planetType
@@ -298,7 +298,7 @@ planetType
 	orbitBodyType "AsteroidC"
 	orbitBodyType "AsteroidD"	
 	orbitBodyType "Moon"
-	orbitBodyType "Moon2"
+	orbitBodyType "MoonB"
 	orbitBodyType "Moon3"	
 	orbitBodyType "Moon4"	
 planetType
@@ -320,7 +320,7 @@ planetType
 	orbitBodyType "AsteroidC"	
 	orbitBodyType "AsteroidD"
 	orbitBodyType "Moon"
-	orbitBodyType "Moon2"
+	orbitBodyType "MoonB"
 	orbitBodyType "Moon3"	
 	orbitBodyType "Moon4"	
 	orbitBodyType "DeadAsteroid"
@@ -610,10 +610,10 @@ planetType
 	orbitBodyTypeCount 1
 	orbitBodyType "Moon"
 planetType
-	designName "Moon2"
+	designName "MoonB"
 	designStringId "IDSGalaxyScenarioTypePlanetMoon"
 	orbitBodyTypeCount 1
-	orbitBodyType "Moon2"
+	orbitBodyType "MoonB"
 planetType
 	designName "Moon3"
 	designStringId "IDSGalaxyScenarioTypePlanetMoon"
@@ -955,14 +955,14 @@ orbitBodyType
 	defaultTemplateName "Template:AsteroidB"
 orbitBodyType	
 	typeName "AsteroidC"
-	entityDefName "PlanetAsteroid"
+	entityDefName "PlanetAsteroidC"
 	defaultTemplateName "Template:AsteroidC"
 orbitBodyType	
 	typeName "AsteroidD"
-	entityDefName "PlanetAsteroid"
+	entityDefName "PlanetAsteroidD"
 	defaultTemplateName "Template:AsteroidD"
 orbitBodyType	
-	typeName "Moon2"
+	typeName "MoonB"
 	entityDefName "PlanetMoon"
 	defaultTemplateName "Template:AsteroidB"
 orbitBodyType	
