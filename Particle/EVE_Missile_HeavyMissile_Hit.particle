@@ -7,23 +7,23 @@ ParticleSimulation
 	EmitterContents
 		Name "WhiteGrow"
 		Enabled TRUE
-		EmitRate 7.000000
+		EmitRate 4.000000
 		HasInfiniteEmitCount FALSE
 		MaxEmitCount 1
 		hasEmitIntervals FALSE
 		emitIntervalRunDuration 0.000000
 		emitIntervalWaitDuration 0.000000
-		ParticleLifeTime 0.100000
+		ParticleLifeTime 0.200000
 		ParticleMinStartLinearSpeed 0.000000
 		ParticleMaxStartLinearSpeed 0.000000
 		ParticleMinStartAngularSpeed 0.000000
 		ParticleMaxStartAngularSpeed 0.000000
 		ParticleMinStartRotation 0.000000
-		ParticleMaxStartRotation 6.283185
+		ParticleMaxStartRotation 0.000000
 		ParticleStartMass 1.000000
 		ParticleStartColor aaff4b1e
-		ParticleWidth 300.000000
-		ParticleHeight 300.000000
+		ParticleWidth 250.000000
+		ParticleHeight 250.000000
 		MeshName ""
 		Position [ 0.000000 0.000000 0.000000 ]
 		Orientation
@@ -55,19 +55,19 @@ ParticleSimulation
 	EmitterContents
 		Name "BlueGrow"
 		Enabled TRUE
-		EmitRate 7.000000
+		EmitRate 4.000000
 		HasInfiniteEmitCount FALSE
 		MaxEmitCount 1
 		hasEmitIntervals FALSE
 		emitIntervalRunDuration 0.000000
 		emitIntervalWaitDuration 0.000000
-		ParticleLifeTime 0.400000
+		ParticleLifeTime 0.200000
 		ParticleMinStartLinearSpeed 0.000000
 		ParticleMaxStartLinearSpeed 0.000000
 		ParticleMinStartAngularSpeed 0.000000
 		ParticleMaxStartAngularSpeed 0.000000
 		ParticleMinStartRotation 0.000000
-		ParticleMaxStartRotation 6.283185
+		ParticleMaxStartRotation 0.000000
 		ParticleStartMass 1.000000
 		ParticleStartColor aaffbe96
 		ParticleWidth 200.000000
@@ -109,7 +109,7 @@ ParticleSimulation
 		hasEmitIntervals FALSE
 		emitIntervalRunDuration 0.000000
 		emitIntervalWaitDuration 0.000000
-		ParticleLifeTime 1.500000
+		ParticleLifeTime 0.800000
 		ParticleMinStartLinearSpeed 0.000000
 		ParticleMaxStartLinearSpeed 0.000000
 		ParticleMinStartAngularSpeed 0.000000
@@ -118,8 +118,8 @@ ParticleSimulation
 		ParticleMaxStartRotation 0.000000
 		ParticleStartMass 1.000000
 		ParticleStartColor ffffffff
-		ParticleWidth 80.000000
-		ParticleHeight 80.000000
+		ParticleWidth 60.000000
+		ParticleHeight 60.000000
 		MeshName ""
 		Position [ 0.000000 0.000000 0.000000 ]
 		Orientation
@@ -151,13 +151,13 @@ ParticleSimulation
 	EmitterContents
 		Name "explosionCore"
 		Enabled TRUE
-		EmitRate 500.000000
+		EmitRate 1.000000
 		HasInfiniteEmitCount FALSE
 		MaxEmitCount 1
 		hasEmitIntervals FALSE
 		emitIntervalRunDuration 0.000000
 		emitIntervalWaitDuration 0.000000
-		ParticleLifeTime 1.500000
+		ParticleLifeTime 0.800000
 		ParticleMinStartLinearSpeed 0.000000
 		ParticleMaxStartLinearSpeed 0.000000
 		ParticleMinStartAngularSpeed 0.000000
@@ -166,8 +166,8 @@ ParticleSimulation
 		ParticleMaxStartRotation 0.000000
 		ParticleStartMass 1.000000
 		ParticleStartColor ffffffff
-		ParticleWidth 50.000000
-		ParticleHeight 50.000000
+		ParticleWidth 25.000000
+		ParticleHeight 25.000000
 		MeshName ""
 		Position [ 0.000000 0.000000 0.000000 ]
 		Orientation
@@ -194,7 +194,7 @@ ParticleSimulation
 		MeshParticleRotationAxisType 0
 		MeshParticleRotationAxis [ 0.000000 0.100000 0.000000 ]
 		RotationDirectionType 2
-		AngleVariance 3.141593
+		AngleVariance 0.000000
 	EmitterType "Point"
 	EmitterContents
 		Name "Flash"
@@ -205,7 +205,7 @@ ParticleSimulation
 		hasEmitIntervals FALSE
 		emitIntervalRunDuration 0.000000
 		emitIntervalWaitDuration 0.000000
-		ParticleLifeTime 0.300000
+		ParticleLifeTime 0.200000
 		ParticleMinStartLinearSpeed 0.000000
 		ParticleMaxStartLinearSpeed 0.000000
 		ParticleMinStartAngularSpeed 0.000000
@@ -214,8 +214,8 @@ ParticleSimulation
 		ParticleMaxStartRotation 0.000000
 		ParticleStartMass 1.000000
 		ParticleStartColor ffff8000
-		ParticleWidth 350.000000
-		ParticleHeight 350.000000
+		ParticleWidth 300.000000
+		ParticleHeight 300.000000
 		MeshName ""
 		Position [ 0.000000 0.000000 0.000000 ]
 		Orientation
@@ -247,23 +247,23 @@ ParticleSimulation
 	EmitterContents
 		Name "Smoke Trails"
 		Enabled TRUE
-		EmitRate 200.000000
+		EmitRate 160.000000
 		HasInfiniteEmitCount FALSE
-		MaxEmitCount 50
+		MaxEmitCount 300
 		hasEmitIntervals FALSE
 		emitIntervalRunDuration 0.000000
 		emitIntervalWaitDuration 0.000000
-		ParticleLifeTime 2.000000
-		ParticleMinStartLinearSpeed 10.000000
-		ParticleMaxStartLinearSpeed 10.000000
+		ParticleLifeTime 3.000000
+		ParticleMinStartLinearSpeed 35.000000
+		ParticleMaxStartLinearSpeed 35.000000
 		ParticleMinStartAngularSpeed 0.034907
 		ParticleMaxStartAngularSpeed 0.034907
 		ParticleMinStartRotation 0.034907
 		ParticleMaxStartRotation 0.034907
 		ParticleStartMass 1.000000
 		ParticleStartColor ffffffff
-		ParticleWidth 5.000000
-		ParticleHeight 8.000000
+		ParticleWidth 10.000000
+		ParticleHeight 20.000000
 		MeshName ""
 		Position [ 0.000000 0.000000 0.000000 ]
 		Orientation
@@ -290,11 +290,11 @@ ParticleSimulation
 		MeshParticleRotationAxisType 0
 		MeshParticleRotationAxis [ 0.000000 0.100000 0.000000 ]
 		RotationDirectionType 2
-		SphereRadiusXMax 5.000000
+		SphereRadiusXMax 1.000000
 		SphereRadiusXMin 0.000000
-		SphereRadiusYMax 5.000000
+		SphereRadiusYMax 1.000000
 		SphereRadiusYMin 0.000000
-		SphereRadiusZMax 5.000000
+		SphereRadiusZMax 1.000000
 		SphereRadiusZMin 0.000000
 		ParticleMaxStartSpeedAzimuthalTangential 5.000000
 		ParticleMaxStartSpeedPolarTangential 15.000000
@@ -371,8 +371,8 @@ ParticleSimulation
 		numAttachedEmitters 2
 		attachedEmitterName "explosion"
 		attachedEmitterName "explosionCore"
-		WidthInflateRate -20.000000
-		HeightInflateRate -20.000000
+		WidthInflateRate -10.000000
+		HeightInflateRate -10.000000
 	AffectorType "Fade"
 	AffectorContents
 		Name "(new) Fade-1"
@@ -424,8 +424,8 @@ ParticleSimulation
 		AffectAttachedParticles TRUE
 		numAttachedEmitters 1
 		attachedEmitterName "Smoke Trails"
-		WidthInflateRate 10.000000
-		HeightInflateRate 25.000000
+		WidthInflateRate 15.000000
+		HeightInflateRate 45.000000
 	AffectorType "Fade"
 	AffectorContents
 		Name "(new) Fade-3"
@@ -441,7 +441,7 @@ ParticleSimulation
 		numAttachedEmitters 1
 		attachedEmitterName "Smoke Trails"
 		DoFadeOut TRUE
-		FadeOutTime 2.000000
-		DoFadeIn TRUE
+		FadeOutTime 4.000000
+		DoFadeIn FALSE
 		FadeInTime 2.000000
 	length 0.000000

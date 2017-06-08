@@ -74,7 +74,7 @@ Weapon
 		muzzleSounds
 			soundCount 1
 			sound "EFFECT_NEUTRONTORPEDO_MUZZLE"
-		hitEffectName "Weapon_TechCapitalMissileHeavy_Hit"
+		hitEffectName "EVE_Missile_HeavyMissile_Hit"
 		hitHullEffectSounds
 			soundCount 2
 			sound "LIGHTMISSILEEXPLOSION1"
