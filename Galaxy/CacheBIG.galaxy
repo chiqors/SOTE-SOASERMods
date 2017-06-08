@@ -1067,7 +1067,7 @@ star
 	planet
 		designName "IVP-KA Asteroid Belt"
 		inGameName "IVP-KA Asteroid Belt"
-		type "AsteroidRandom"
+		type "RandomAsteroid"
 		pos [ 7172 , 11931 ]
 		owner ""
 		isHomePlanet FALSE
@@ -1092,7 +1092,7 @@ star
 	planet
 		designName "W2T-TR"
 		inGameName "W2T-TR Asteroid Belt"
-		type "AsteroidRandom"
+		type "RandomAsteroid"
 		pos [ 7654 , 11541 ]
 		owner ""
 		isHomePlanet FALSE
@@ -1117,7 +1117,7 @@ star
 	planet
 		designName "W2T-TR"
 		inGameName "W2T-TR Moon"
-		type "MoonRandom"
+		type "RandomMoon"
 		pos [ 7683 , 11527 ]
 		owner ""
 		isHomePlanet FALSE
@@ -1142,7 +1142,7 @@ star
 	planet
 		designName "M-CNUD"
 		inGameName "M-CNUD Asteroid Belt"
-		type "AsteroidRandom"
+		type "RandomAsteroid"
 		pos [ 7938 , 11568 ]
 		owner ""
 		isHomePlanet FALSE
@@ -1167,7 +1167,7 @@ star
 	planet
 		designName "M-CNUD"
 		inGameName "M-CNUD Moon"
-		type "MoonRandom"
+		type "RandomMoon"
 		pos [ 7902 , 11578 ]
 		owner ""
 		isHomePlanet FALSE
@@ -1192,7 +1192,7 @@ star
 	planet
 		designName "04EI-U"
 		inGameName "04EI-U Asteroid Belt"
-		type "AsteroidRandom"
+		type "RandomAsteroid"
 		pos [ 7458 , 11143 ]
 		owner ""
 		isHomePlanet FALSE
@@ -1217,7 +1217,7 @@ star
 	planet
 		designName "04EI-U"
 		inGameName "04EI-U Moon"
-		type "MoonRandom"
+		type "RandomMoon"
 		pos [ 7513 , 11116 ]
 		owner ""
 		isHomePlanet FALSE
@@ -1242,7 +1242,7 @@ star
 	planet
 		designName "YE1-9S"
 		inGameName "YE1-9S Asteroid Belt"
-		type "AsteroidRandom"
+		type "RandomAsteroid"
 		pos [ 8236 , 11006 ]
 		owner ""
 		isHomePlanet FALSE
@@ -1267,7 +1267,7 @@ star
 	planet
 		designName "Q-UEN6"
 		inGameName "Q-UEN6 Moon"
-		type "MoonRandom"
+		type "RandomMoon"
 		pos [ 8940 , 11107 ]
 		owner ""
 		isHomePlanet FALSE
@@ -1292,7 +1292,7 @@ star
 	planet
 		designName "BLMX-B"
 		inGameName "BLMX-B Moon"
-		type "MoonRandom"
+		type "RandomMoon"
 		pos [ 8919 , 11426 ]
 		owner ""
 		isHomePlanet FALSE
@@ -1317,7 +1317,7 @@ star
 	planet
 		designName "YE1-9S"
 		inGameName "YE1-9S Moon"
-		type "MoonRandom"
+		type "RandomMoon"
 		pos [ 8289 , 10971 ]
 		owner ""
 		isHomePlanet FALSE
@@ -1342,7 +1342,7 @@ star
 	planet
 		designName "BLMX-B"
 		inGameName "BLMX-B Asteroid Belt"
-		type "AsteroidRandom"
+		type "RandomAsteroid"
 		pos [ 8983 , 11446 ]
 		owner ""
 		isHomePlanet FALSE
@@ -1367,7 +1367,7 @@ star
 	planet
 		designName "IVP-KA Moon"
 		inGameName "IVP-KA Moon"
-		type "MoonRandom"
+		type "RandomMoon"
 		pos [ 7241 , 11949 ]
 		owner ""
 		isHomePlanet FALSE
@@ -1392,7 +1392,7 @@ star
 	planet
 		designName "Q-UEN6"
 		inGameName "Q-UEN6 Asteroid Belt"
-		type "AsteroidRandom"
+		type "RandomAsteroid"
 		pos [ 8859 , 11018 ]
 		owner ""
 		isHomePlanet FALSE
@@ -1417,7 +1417,7 @@ star
 	planet
 		designName "2-2EWC"
 		inGameName "2-2EWC Asteroid Belt"
-		type "AsteroidRandom"
+		type "RandomAsteroid"
 		pos [ 9793 , 10673 ]
 		owner ""
 		isHomePlanet FALSE
@@ -1442,7 +1442,7 @@ star
 	planet
 		designName "995-3G"
 		inGameName "995-3G Asteroid Belt"
-		type "AsteroidRandom"
+		type "RandomAsteroid"
 		pos [ 9956 , 10770 ]
 		owner ""
 		isHomePlanet FALSE
@@ -1467,7 +1467,7 @@ star
 	planet
 		designName "LMM7-L"
 		inGameName "LMM7-L Asteroid Belt"
-		type "AsteroidRandom"
+		type "RandomAsteroid"
 		pos [ 10487 , 10365 ]
 		owner ""
 		isHomePlanet FALSE
@@ -1492,7 +1492,7 @@ star
 	planet
 		designName "D-6H64"
 		inGameName "D-6H64 Asteroid Belt"
-		type "AsteroidRandom"
+		type "RandomAsteroid"
 		pos [ 10771 , 11238 ]
 		owner ""
 		isHomePlanet FALSE
@@ -1517,7 +1517,7 @@ star
 	planet
 		designName "8-BIE3"
 		inGameName "8-BIE3 Asteroid Belt"
-		type "AsteroidRandom"
+		type "RandomAsteroid"
 		pos [ 11181 , 11257 ]
 		owner ""
 		isHomePlanet FALSE
@@ -1542,7 +1542,7 @@ star
 	planet
 		designName "4S0-NP"
 		inGameName "4S0-NP Asteroid Belt"
-		type "AsteroidRandom"
+		type "RandomAsteroid"
 		pos [ 11279 , 10933 ]
 		owner ""
 		isHomePlanet FALSE
@@ -1567,7 +1567,7 @@ star
 	planet
 		designName "2-2EWC"
 		inGameName "2-2EWC Moon"
-		type "MoonRandom"
+		type "RandomMoon"
 		pos [ 9831 , 10647 ]
 		owner ""
 		isHomePlanet FALSE
@@ -1592,7 +1592,7 @@ star
 	planet
 		designName "995-3G"
 		inGameName "995-3G Moon"
-		type "MoonRandom"
+		type "RandomMoon"
 		pos [ 9997 , 10791 ]
 		owner ""
 		isHomePlanet FALSE
@@ -1617,7 +1617,7 @@ star
 	planet
 		designName "LMM7-L"
 		inGameName "LMM7-L Moon"
-		type "MoonRandom"
+		type "RandomMoon"
 		pos [ 10529 , 10351 ]
 		owner ""
 		isHomePlanet FALSE
@@ -1642,7 +1642,7 @@ star
 	planet
 		designName "8-BIE3"
 		inGameName "8-BIE3 Moon"
-		type "MoonRandom"
+		type "RandomMoon"
 		pos [ 11230 , 11226 ]
 		owner ""
 		isHomePlanet FALSE
@@ -1667,7 +1667,7 @@ star
 	planet
 		designName "D-6H64"
 		inGameName "D-6H64 Moon"
-		type "MoonRandom"
+		type "RandomMoon"
 		pos [ 10819 , 11237 ]
 		owner ""
 		isHomePlanet FALSE
@@ -1692,7 +1692,7 @@ star
 	planet
 		designName "4S0-NP"
 		inGameName "4S0-NP Moon"
-		type "MoonRandom"
+		type "RandomMoon"
 		pos [ 11335 , 10918 ]
 		owner ""
 		isHomePlanet FALSE
@@ -1717,7 +1717,7 @@ star
 	planet
 		designName "K-RMI5"
 		inGameName "K-RMI5 Moon"
-		type "MoonRandom"
+		type "RandomMoon"
 		pos [ 11719 , 10857 ]
 		owner ""
 		isHomePlanet FALSE
@@ -1742,7 +1742,7 @@ star
 	planet
 		designName "K-RMI5"
 		inGameName "K-RMI5 Asteroid Belt"
-		type "AsteroidRandom"
+		type "RandomAsteroid"
 		pos [ 11669 , 10868 ]
 		owner ""
 		isHomePlanet FALSE
@@ -1767,7 +1767,7 @@ star
 	planet
 		designName "E1W-TB"
 		inGameName "E1W-TB Asteroid Belt"
-		type "AsteroidRandom"
+		type "RandomAsteroid"
 		pos [ 9948 , 9936 ]
 		owner ""
 		isHomePlanet FALSE
@@ -1792,7 +1792,7 @@ star
 	planet
 		designName "O-5TN1"
 		inGameName "O-5TN1 Asteroid Belt"
-		type "AsteroidRandom"
+		type "RandomAsteroid"
 		pos [ 10277 , 9781 ]
 		owner ""
 		isHomePlanet FALSE
@@ -1817,7 +1817,7 @@ star
 	planet
 		designName "I6-SYN"
 		inGameName "I6-SYN Asteroid Belt"
-		type "AsteroidRandom"
+		type "RandomAsteroid"
 		pos [ 9976 , 9535 ]
 		owner ""
 		isHomePlanet FALSE
@@ -1842,7 +1842,7 @@ star
 	planet
 		designName "U-QMOA"
 		inGameName "U-QMOA Asteroid Belt"
-		type "AsteroidRandom"
+		type "RandomAsteroid"
 		pos [ 10186 , 10235 ]
 		owner ""
 		isHomePlanet FALSE
@@ -1867,7 +1867,7 @@ star
 	planet
 		designName "VK-A5G"
 		inGameName "VK-A5G Asteroid Belt"
-		type "AsteroidRandom"
+		type "RandomAsteroid"
 		pos [ 10472 , 9058 ]
 		owner ""
 		isHomePlanet FALSE
@@ -1892,7 +1892,7 @@ star
 	planet
 		designName "B-T6BT"
 		inGameName "B-T6BT Asteroid Belt"
-		type "AsteroidRandom"
+		type "RandomAsteroid"
 		pos [ 11392 , 8778 ]
 		owner ""
 		isHomePlanet FALSE
@@ -1917,7 +1917,7 @@ star
 	planet
 		designName "8-SPNN"
 		inGameName "8-SPNN Asteroid Belt"
-		type "AsteroidRandom"
+		type "RandomAsteroid"
 		pos [ 11284 , 8658 ]
 		owner ""
 		isHomePlanet FALSE
@@ -1942,7 +1942,7 @@ star
 	planet
 		designName "U-QMOA"
 		inGameName "U-QMOA Moon"
-		type "MoonRandom"
+		type "RandomMoon"
 		pos [ 10219 , 10244 ]
 		owner ""
 		isHomePlanet FALSE
@@ -1967,7 +1967,7 @@ star
 	planet
 		designName "E1W-TB"
 		inGameName "E1W-TB Moon"
-		type "MoonRandom"
+		type "RandomMoon"
 		pos [ 9983 , 9957 ]
 		owner ""
 		isHomePlanet FALSE
@@ -1992,7 +1992,7 @@ star
 	planet
 		designName "O-5TN1"
 		inGameName "O-5TN1 Moon"
-		type "MoonRandom"
+		type "RandomMoon"
 		pos [ 10250 , 9750 ]
 		owner ""
 		isHomePlanet FALSE
@@ -2017,7 +2017,7 @@ star
 	planet
 		designName "I6-SYN"
 		inGameName "I6-SYN Moon"
-		type "MoonRandom"
+		type "RandomMoon"
 		pos [ 9957 , 9571 ]
 		owner ""
 		isHomePlanet FALSE
@@ -2042,7 +2042,7 @@ star
 	planet
 		designName "VK-A5G"
 		inGameName "VK-A5G Moon"
-		type "MoonRandom"
+		type "RandomMoon"
 		pos [ 10431 , 9087 ]
 		owner ""
 		isHomePlanet FALSE
@@ -2067,7 +2067,7 @@ star
 	planet
 		designName "B-T6BT"
 		inGameName "B-T6BT Moon"
-		type "MoonRandom"
+		type "RandomMoon"
 		pos [ 11396 , 8818 ]
 		owner ""
 		isHomePlanet FALSE
@@ -2092,7 +2092,7 @@ star
 	planet
 		designName "8-SPNN"
 		inGameName "8-SPNN Moon"
-		type "MoonRandom"
+		type "RandomMoon"
 		pos [ 11315 , 8636 ]
 		owner ""
 		isHomePlanet FALSE
@@ -2117,7 +2117,7 @@ star
 	planet
 		designName "5F-MG1"
 		inGameName "5F-MG1 Moon"
-		type "MoonRandom"
+		type "RandomMoon"
 		pos [ 14086 , 9571 ]
 		owner ""
 		isHomePlanet FALSE
@@ -2142,7 +2142,7 @@ star
 	planet
 		designName "W4C8-Q"
 		inGameName "W4C8-Q Moon"
-		type "MoonRandom"
+		type "RandomMoon"
 		pos [ 13974 , 10167 ]
 		owner ""
 		isHomePlanet FALSE
@@ -2167,7 +2167,7 @@ star
 	planet
 		designName "M-MCP8"
 		inGameName "M-MCP8 Moon"
-		type "MoonRandom"
+		type "RandomMoon"
 		pos [ 14378 , 8555 ]
 		owner ""
 		isHomePlanet FALSE
@@ -2192,7 +2192,7 @@ star
 	planet
 		designName "P7-45V"
 		inGameName "P7-45V Moon"
-		type "MoonRandom"
+		type "RandomMoon"
 		pos [ 14256 , 9089 ]
 		owner ""
 		isHomePlanet FALSE
@@ -2217,7 +2217,7 @@ star
 	planet
 		designName "JZ-B5Y"
 		inGameName "JZ-B5Y Moon"
-		type "MoonRandom"
+		type "RandomMoon"
 		pos [ 15033 , 8683 ]
 		owner ""
 		isHomePlanet FALSE
@@ -2242,7 +2242,7 @@ star
 	planet
 		designName "W4C8-Q"
 		inGameName "W4C8-Q Asteroid Belt"
-		type "AsteroidRandom"
+		type "RandomAsteroid"
 		pos [ 14006 , 10146 ]
 		owner ""
 		isHomePlanet FALSE
@@ -2267,7 +2267,7 @@ star
 	planet
 		designName "5F-MG1"
 		inGameName "5F-MG1 Asteroid Belt"
-		type "AsteroidRandom"
+		type "RandomAsteroid"
 		pos [ 14083 , 9508 ]
 		owner ""
 		isHomePlanet FALSE
@@ -2292,7 +2292,7 @@ star
 	planet
 		designName "TPG-DD"
 		inGameName "TPG-DD Asteroid Belt"
-		type "AsteroidRandom"
+		type "RandomAsteroid"
 		pos [ 14705 , 9508 ]
 		owner ""
 		isHomePlanet FALSE
@@ -2317,7 +2317,7 @@ star
 	planet
 		designName "P7-45V"
 		inGameName "P7-45V Asteroid Belt"
-		type "AsteroidRandom"
+		type "RandomAsteroid"
 		pos [ 14255 , 9147 ]
 		owner ""
 		isHomePlanet FALSE
@@ -2342,7 +2342,7 @@ star
 	planet
 		designName "M-MCP8"
 		inGameName "M-MCP8 Asteroid Belt"
-		type "AsteroidRandom"
+		type "RandomAsteroid"
 		pos [ 14363 , 8508 ]
 		owner ""
 		isHomePlanet FALSE
@@ -2367,7 +2367,7 @@ star
 	planet
 		designName "JZ-B5Y"
 		inGameName "JZ-B5Y Asteroid Belt"
-		type "AsteroidRandom"
+		type "RandomAsteroid"
 		pos [ 15102 , 8638 ]
 		owner ""
 		isHomePlanet FALSE
@@ -2392,7 +2392,7 @@ star
 	planet
 		designName "NIF-JE"
 		inGameName "NIF-JE Asteroid Belt"
-		type "AsteroidRandom"
+		type "RandomAsteroid"
 		pos [ 16056 , 9269 ]
 		owner ""
 		isHomePlanet FALSE
@@ -2417,7 +2417,7 @@ star
 	planet
 		designName "0LY-W1"
 		inGameName "0LY-W1 Asteroid Belt"
-		type "AsteroidRandom"
+		type "RandomAsteroid"
 		pos [ 15783 , 10299 ]
 		owner ""
 		isHomePlanet FALSE
@@ -2442,7 +2442,7 @@ star
 	planet
 		designName "BTLH-I"
 		inGameName "BTLH-I Asteroid Belt"
-		type "AsteroidRandom"
+		type "RandomAsteroid"
 		pos [ 15903 , 10422 ]
 		owner ""
 		isHomePlanet FALSE
@@ -2467,7 +2467,7 @@ star
 	planet
 		designName "U93O-A"
 		inGameName "U93O-A Asteroid Belt"
-		type "AsteroidRandom"
+		type "RandomAsteroid"
 		pos [ 17074 , 9871 ]
 		owner ""
 		isHomePlanet FALSE
@@ -2492,7 +2492,7 @@ star
 	planet
 		designName "4YO-QK"
 		inGameName "4YO-QK Asteroid Belt"
-		type "AsteroidRandom"
+		type "RandomAsteroid"
 		pos [ 18099 , 9990 ]
 		owner ""
 		isHomePlanet FALSE
@@ -2517,7 +2517,7 @@ star
 	planet
 		designName "LJ-RJK"
 		inGameName "LJ-RJK Asteroid Belt"
-		type "AsteroidRandom"
+		type "RandomAsteroid"
 		pos [ 18424 , 9253 ]
 		owner ""
 		isHomePlanet FALSE
@@ -2542,7 +2542,7 @@ star
 	planet
 		designName "8-VC6H"
 		inGameName "8-VC6H Asteroid Belt"
-		type "AsteroidRandom"
+		type "RandomAsteroid"
 		pos [ 18712 , 10417 ]
 		owner ""
 		isHomePlanet FALSE
@@ -2567,7 +2567,7 @@ star
 	planet
 		designName "K85Y-6"
 		inGameName "K85Y-6 Asteroid Belt"
-		type "AsteroidRandom"
+		type "RandomAsteroid"
 		pos [ 12946 , 6251 ]
 		owner ""
 		isHomePlanet FALSE
@@ -2592,7 +2592,7 @@ star
 	planet
 		designName "8OYE-Z"
 		inGameName "8OYE-Z Asteroid Belt"
-		type "AsteroidRandom"
+		type "RandomAsteroid"
 		pos [ 13101 , 6996 ]
 		owner ""
 		isHomePlanet FALSE
@@ -2617,7 +2617,7 @@ star
 	planet
 		designName "NG-M8K"
 		inGameName "NG-M8K Asteroid Belt"
-		type "AsteroidRandom"
+		type "RandomAsteroid"
 		pos [ 13749 , 6640 ]
 		owner ""
 		isHomePlanet FALSE
@@ -2642,7 +2642,7 @@ star
 	planet
 		designName "RV5-TT"
 		inGameName "RV5-TT Asteroid Belt"
-		type "AsteroidRandom"
+		type "RandomAsteroid"
 		pos [ 15152 , 7134 ]
 		owner ""
 		isHomePlanet FALSE
@@ -2667,7 +2667,7 @@ star
 	planet
 		designName "LQ-01M"
 		inGameName "LQ-01M Asteroid Belt"
-		type "AsteroidRandom"
+		type "RandomAsteroid"
 		pos [ 14400 , 7331 ]
 		owner ""
 		isHomePlanet FALSE
@@ -2692,7 +2692,7 @@ star
 	planet
 		designName "PKN-NJ"
 		inGameName "PKN-NJ Asteroid Belt"
-		type "AsteroidRandom"
+		type "RandomAsteroid"
 		pos [ 15719 , 6158 ]
 		owner ""
 		isHomePlanet FALSE
@@ -2717,7 +2717,7 @@ star
 	planet
 		designName "TPG-DD"
 		inGameName "TPG-DD Moon"
-		type "MoonRandom"
+		type "RandomMoon"
 		pos [ 14606 , 9435 ]
 		owner ""
 		isHomePlanet FALSE
@@ -2742,7 +2742,7 @@ star
 	planet
 		designName "NIF-JE"
 		inGameName "NIF-JE Moon"
-		type "MoonRandom"
+		type "RandomMoon"
 		pos [ 16070 , 9355 ]
 		owner ""
 		isHomePlanet FALSE
@@ -2767,7 +2767,7 @@ star
 	planet
 		designName "0LY-W1"
 		inGameName "0LY-W1 Moon"
-		type "MoonRandom"
+		type "RandomMoon"
 		pos [ 15774 , 10360 ]
 		owner ""
 		isHomePlanet FALSE
@@ -2792,7 +2792,7 @@ star
 	planet
 		designName "BTLH-I"
 		inGameName "BTLH-I Moon"
-		type "MoonRandom"
+		type "RandomMoon"
 		pos [ 15940 , 10444 ]
 		owner ""
 		isHomePlanet FALSE
@@ -2817,7 +2817,7 @@ star
 	planet
 		designName "U93O-A"
 		inGameName "U93O-A Moon"
-		type "MoonRandom"
+		type "RandomMoon"
 		pos [ 16933 , 9858 ]
 		owner ""
 		isHomePlanet FALSE
@@ -2842,7 +2842,7 @@ star
 	planet
 		designName "4YO-QK"
 		inGameName "4YO-QK Moon"
-		type "MoonRandom"
+		type "RandomMoon"
 		pos [ 18128 , 9973 ]
 		owner ""
 		isHomePlanet FALSE
@@ -2867,7 +2867,7 @@ star
 	planet
 		designName "8-VC6H"
 		inGameName "8-VC6H Moon"
-		type "MoonRandom"
+		type "RandomMoon"
 		pos [ 18688 , 10390 ]
 		owner ""
 		isHomePlanet FALSE
@@ -2892,7 +2892,7 @@ star
 	planet
 		designName "LJ-RJK"
 		inGameName "LJ-RJK Moon"
-		type "MoonRandom"
+		type "RandomMoon"
 		pos [ 18394 , 9265 ]
 		owner ""
 		isHomePlanet FALSE
@@ -2917,7 +2917,7 @@ star
 	planet
 		designName "K85Y-6"
 		inGameName "K85Y-6 Moon"
-		type "MoonRandom"
+		type "RandomMoon"
 		pos [ 12872 , 6278 ]
 		owner ""
 		isHomePlanet FALSE
@@ -2942,7 +2942,7 @@ star
 	planet
 		designName "8OYE-Z"
 		inGameName "8OYE-Z Moon"
-		type "MoonRandom"
+		type "RandomMoon"
 		pos [ 13185 , 7005 ]
 		owner ""
 		isHomePlanet FALSE
@@ -2967,7 +2967,7 @@ star
 	planet
 		designName "NG-M8K"
 		inGameName "NG-M8K Moon"
-		type "MoonRandom"
+		type "RandomMoon"
 		pos [ 13788 , 6693 ]
 		owner ""
 		isHomePlanet FALSE
@@ -2992,7 +2992,7 @@ star
 	planet
 		designName "LQ-01M"
 		inGameName "LQ-01M Moon"
-		type "MoonRandom"
+		type "RandomMoon"
 		pos [ 14434 , 7396 ]
 		owner ""
 		isHomePlanet FALSE
@@ -3017,7 +3017,7 @@ star
 	planet
 		designName "RV5-TT"
 		inGameName "RV5-TT Moon"
-		type "MoonRandom"
+		type "RandomMoon"
 		pos [ 15194 , 7109 ]
 		owner ""
 		isHomePlanet FALSE
@@ -3042,7 +3042,7 @@ star
 	planet
 		designName "PKN-NJ"
 		inGameName "PKN-NJ Moon"
-		type "MoonRandom"
+		type "RandomMoon"
 		pos [ 15772 , 6115 ]
 		owner ""
 		isHomePlanet FALSE

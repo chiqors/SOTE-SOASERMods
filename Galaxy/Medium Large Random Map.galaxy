@@ -866,7 +866,7 @@ star
 	planet
 		designName "Moon-33"
 		inGameName ""
-		type "MoonRandom"
+		type "RandomMoon"
 		pos [ 211 , 136 ]
 		owner ""
 		isHomePlanet FALSE
@@ -891,7 +891,7 @@ star
 	planet
 		designName "Asteroid-34"
 		inGameName ""
-		type "AsteroidRandom"
+		type "RandomAsteroid"
 		pos [ 221 , 114 ]
 		owner ""
 		isHomePlanet FALSE
@@ -966,7 +966,7 @@ star
 	planet
 		designName "Moon-37"
 		inGameName ""
-		type "MoonRandom"
+		type "RandomMoon"
 		pos [ 141 , 225 ]
 		owner ""
 		isHomePlanet FALSE
@@ -991,7 +991,7 @@ star
 	planet
 		designName "Asteroid-38"
 		inGameName ""
-		type "AsteroidRandom"
+		type "RandomAsteroid"
 		pos [ 148 , 205 ]
 		owner ""
 		isHomePlanet FALSE
@@ -1066,7 +1066,7 @@ star
 	planet
 		designName "Moon-41"
 		inGameName ""
-		type "MoonRandom"
+		type "RandomMoon"
 		pos [ 36 , 205 ]
 		owner ""
 		isHomePlanet FALSE
@@ -1091,7 +1091,7 @@ star
 	planet
 		designName "Asteroid-42"
 		inGameName ""
-		type "AsteroidRandom"
+		type "RandomAsteroid"
 		pos [ 48 , 184 ]
 		owner ""
 		isHomePlanet FALSE
@@ -1166,7 +1166,7 @@ star
 	planet
 		designName "Moon-45"
 		inGameName ""
-		type "MoonRandom"
+		type "RandomMoon"
 		pos [ 11 , 90 ]
 		owner ""
 		isHomePlanet FALSE
@@ -1191,7 +1191,7 @@ star
 	planet
 		designName "Asteroid-46"
 		inGameName ""
-		type "AsteroidRandom"
+		type "RandomAsteroid"
 		pos [ 24 , 72 ]
 		owner ""
 		isHomePlanet FALSE
@@ -1266,7 +1266,7 @@ star
 	planet
 		designName "Moon-49"
 		inGameName ""
-		type "MoonRandom"
+		type "RandomMoon"
 		pos [ 56 , 28 ]
 		owner ""
 		isHomePlanet FALSE
@@ -1291,7 +1291,7 @@ star
 	planet
 		designName "Asteroid-50"
 		inGameName ""
-		type "AsteroidRandom"
+		type "RandomAsteroid"
 		pos [ 71 , 11 ]
 		owner ""
 		isHomePlanet FALSE
@@ -1366,7 +1366,7 @@ star
 	planet
 		designName "Moon-53"
 		inGameName ""
-		type "MoonRandom"
+		type "RandomMoon"
 		pos [ 165 , 51 ]
 		owner ""
 		isHomePlanet FALSE
@@ -1391,7 +1391,7 @@ star
 	planet
 		designName "Asteroid-54"
 		inGameName ""
-		type "AsteroidRandom"
+		type "RandomAsteroid"
 		pos [ 173 , 28 ]
 		owner ""
 		isHomePlanet FALSE
@@ -1867,7 +1867,7 @@ star
 	entityCount 0
 	spawnProbability 1.000000
 interStarConnectionCount 0
-playerCount 10
+playerCount 6
 player
 	designName "Player-0"
 	inGameName ""
@@ -1955,74 +1955,6 @@ player
 	pictureIndex 0
 player
 	designName "Player-5"
-	inGameName ""
-	overrideRaceName ""
-	teamIndex -1
-	startingCredits 3000
-	startingMetal 800
-	startingCrystal 250
-	isNormalPlayer TRUE
-	isRaidingPlayer FALSE
-	isInsurgentPlayer FALSE
-	isOccupationPlayer FALSE
-	isMadVasariPlayer FALSE
-	themeGroup ""
-	themeIndex 0
-	pictureGroup ""
-	pictureIndex 0
-player
-	designName "Player-6"
-	inGameName ""
-	overrideRaceName ""
-	teamIndex -1
-	startingCredits 3000
-	startingMetal 800
-	startingCrystal 250
-	isNormalPlayer TRUE
-	isRaidingPlayer FALSE
-	isInsurgentPlayer FALSE
-	isOccupationPlayer FALSE
-	isMadVasariPlayer FALSE
-	themeGroup ""
-	themeIndex 0
-	pictureGroup ""
-	pictureIndex 0
-player
-	designName "Player-7"
-	inGameName ""
-	overrideRaceName ""
-	teamIndex -1
-	startingCredits 3000
-	startingMetal 800
-	startingCrystal 250
-	isNormalPlayer TRUE
-	isRaidingPlayer FALSE
-	isInsurgentPlayer FALSE
-	isOccupationPlayer FALSE
-	isMadVasariPlayer FALSE
-	themeGroup ""
-	themeIndex 0
-	pictureGroup ""
-	pictureIndex 0
-player
-	designName "Player-8"
-	inGameName ""
-	overrideRaceName ""
-	teamIndex -1
-	startingCredits 3000
-	startingMetal 800
-	startingCrystal 250
-	isNormalPlayer TRUE
-	isRaidingPlayer FALSE
-	isInsurgentPlayer FALSE
-	isOccupationPlayer FALSE
-	isMadVasariPlayer FALSE
-	themeGroup ""
-	themeIndex 0
-	pictureGroup ""
-	pictureIndex 0
-player
-	designName "Player-9"
 	inGameName ""
 	overrideRaceName ""
 	teamIndex -1

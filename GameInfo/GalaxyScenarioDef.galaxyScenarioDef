@@ -62,9 +62,9 @@ planetType
 	orbitBodyType "Desert"
 	orbitBodyType "Volcanic"
 	orbitBodyType "Asteroid"
-	orbitBodyType "Asteroid2"
-	orbitBodyType "Asteroid3"	
-	orbitBodyType "Asteroid4"
+	orbitBodyType "AsteroidB"
+	orbitBodyType "AsteroidC"	
+	orbitBodyType "AsteroidD"
 	orbitBodyType "Moon"
 	orbitBodyType "Moon2"
 	orbitBodyType "Moon3"	
@@ -108,9 +108,9 @@ planetType
 	orbitBodyType "Volcanic"
 	orbitBodyType "Volcanic"
 	orbitBodyType "Asteroid"
-	orbitBodyType "Asteroid2"
-	orbitBodyType "Asteroid3"	
-	orbitBodyType "Asteroid4"
+	orbitBodyType "AsteroidB"
+	orbitBodyType "AsteroidC"	
+	orbitBodyType "AsteroidD"
 	orbitBodyType "Moon"
 	orbitBodyType "Moon2"
 	orbitBodyType "Moon3"	
@@ -201,9 +201,9 @@ planetType
 	orbitBodyType "Volcanic"
 	orbitBodyType "Volcanic"
 	orbitBodyType "Asteroid"
-	orbitBodyType "Asteroid2"
-	orbitBodyType "Asteroid3"	
-	orbitBodyType "Asteroid4"
+	orbitBodyType "AsteroidB"
+	orbitBodyType "AsteroidC"	
+	orbitBodyType "AsteroidD"
 	orbitBodyType "Moon"
 	orbitBodyType "Moon2"
 	orbitBodyType "Moon3"	
@@ -251,9 +251,9 @@ planetType
 	designStringId "IDSGalaxyScenarioTypePlanetAsteroidOrDead"
 	orbitBodyTypeCount 13
 	orbitBodyType "Asteroid"
-	orbitBodyType "Asteroid2"
-	orbitBodyType "Asteroid3"	
-	orbitBodyType "Asteroid4"
+	orbitBodyType "AsteroidB"
+	orbitBodyType "AsteroidC"	
+	orbitBodyType "AsteroidD"
 	orbitBodyType "Moon"
 	orbitBodyType "Moon2"
 	orbitBodyType "Moon3"	
@@ -274,15 +274,15 @@ planetType
 	orbitBodyType "AsteroidBeltFair"
 	orbitBodyType "AsteroidSpaceJunkFair"
 planetType
-	designName "AsteroidRandom"
+	designName "RandomAsteroid"
 	designStringId "IDSGalaxyScenarioTypePlanetAsteroid"
 	orbitBodyTypeCount 4
 	orbitBodyType "Asteroid"
-	orbitBodyType "Asteroid2"
-	orbitBodyType "Asteroid3"
-	orbitBodyType "Asteroid4"	
+	orbitBodyType "AsteroidB"
+	orbitBodyType "AsteroidC"
+	orbitBodyType "AsteroidD"	
 planetType
-	designName "MoonRandom"
+	designName "RandomMoon"
 	designStringId "IDSGalaxyScenarioTypePlanetMoon"
 	orbitBodyTypeCount 4
 	orbitBodyType "Moon"
@@ -294,9 +294,9 @@ planetType
 	designStringId "IDSGalaxyScenarioTypePlanetAsteroidOrMoon"
 	orbitBodyTypeCount 8
 	orbitBodyType "Asteroid"
-	orbitBodyType "Asteroid2"
-	orbitBodyType "Asteroid3"
-	orbitBodyType "Asteroid4"	
+	orbitBodyType "AsteroidB"
+	orbitBodyType "AsteroidC"
+	orbitBodyType "AsteroidD"	
 	orbitBodyType "Moon"
 	orbitBodyType "Moon2"
 	orbitBodyType "Moon3"	
@@ -316,9 +316,9 @@ planetType
 	orbitBodyType "Desert"
 	orbitBodyType "Volcanic"
 	orbitBodyType "Asteroid"
-	orbitBodyType "Asteroid2"
-	orbitBodyType "Asteroid3"	
-	orbitBodyType "Asteroid4"
+	orbitBodyType "AsteroidB"
+	orbitBodyType "AsteroidC"	
+	orbitBodyType "AsteroidD"
 	orbitBodyType "Moon"
 	orbitBodyType "Moon2"
 	orbitBodyType "Moon3"	
@@ -730,20 +730,20 @@ planetType
 	orbitBodyTypeCount 1
 	orbitBodyType "SleeperTower"
 planetType
-	designName "Asteroid2"
+	designName "AsteroidB"
 	designStringId "IDSGalaxyScenarioTypePlanetAsteroid"
 	orbitBodyTypeCount 1
-	orbitBodyType "Asteroid2"
+	orbitBodyType "AsteroidB"
 planetType
-	designName "Asteroid3"
+	designName "AsteroidC"
 	designStringId "IDSGalaxyScenarioTypePlanetAsteroid"
 	orbitBodyTypeCount 1
-	orbitBodyType "Asteroid3"
+	orbitBodyType "AsteroidC"
 planetType
-	designName "Asteroid4"
+	designName "AsteroidD"
 	designStringId "IDSGalaxyScenarioTypePlanetAsteroid"
 	orbitBodyTypeCount 1
-	orbitBodyType "Asteroid4"
+	orbitBodyType "AsteroidD"
 orbitBodyTypeCount 57
 orbitBodyType
 	typeName "BlueStar"
@@ -950,29 +950,29 @@ orbitBodyType
 	entityDefName "PlanetPirateSanctum"
 	defaultTemplateName "Template:MorduStagging"
 orbitBodyType	
-	typeName "Asteroid2"
+	typeName "AsteroidB"
 	entityDefName "PlanetAsteroid"
-	defaultTemplateName "Template:Asteroid2"
+	defaultTemplateName "Template:AsteroidB"
 orbitBodyType	
-	typeName "Asteroid3"
+	typeName "AsteroidC"
 	entityDefName "PlanetAsteroid"
-	defaultTemplateName "Template:Asteroid3"
+	defaultTemplateName "Template:AsteroidC"
 orbitBodyType	
-	typeName "Asteroid4"
+	typeName "AsteroidD"
 	entityDefName "PlanetAsteroid"
-	defaultTemplateName "Template:Asteroid4"
+	defaultTemplateName "Template:AsteroidD"
 orbitBodyType	
 	typeName "Moon2"
 	entityDefName "PlanetMoon"
-	defaultTemplateName "Template:Asteroid2"
+	defaultTemplateName "Template:AsteroidB"
 orbitBodyType	
 	typeName "Moon3"
 	entityDefName "PlanetMoon"
-	defaultTemplateName "Template:Asteroid3"	
+	defaultTemplateName "Template:AsteroidC"	
 orbitBodyType	
 	typeName "Moon4"
 	entityDefName "PlanetMoon"
-	defaultTemplateName "Template:Asteroid4"		
+	defaultTemplateName "Template:AsteroidD"		
 planetItemTypeCount 250
 planetItemType
 	designName "Caldari:Frigate:Destoyer"
@@ -1923,10 +1923,10 @@ planetItemsTemplate
 		template "Template:LocalMilitia_Sleeper"			
 	groups 0		
 planetItemsTemplate
-	templateName "Template:DefaultStart_Asteroid2"
+	templateName "Template:DefaultStart_AsteroidB"
 	subTemplates 2		
 		template "Template:DefaultHomePlanetSetup"
-		template "Template:LocalMilitia_Asteroid2"
+		template "Template:LocalMilitia_AsteroidB"
 	groups 0	
 planetItemsTemplate
 	templateName "Template:DefaultStart_DeadAsteroid"
@@ -3458,7 +3458,7 @@ planetItemsTemplate
 		template "Template:LocalMilitiaSleeper"
 	groups 0	
 planetItemsTemplate
-	templateName "Template:LocalMilitia_Asteroid2"
+	templateName "Template:LocalMilitia_AsteroidB"
 	subTemplates 1
 		template "Template:LocalMilitiaVeryWeak4"
 	groups 0	
@@ -3523,7 +3523,7 @@ planetItemsTemplate
 		template "Template:LocalMilitiaMediumFair"
 	groups 0
 planetItemsTemplate
-	templateName "Template:Asteroid2"
+	templateName "Template:AsteroidB"
 		subTemplates 0
 	groups 2
 		group
@@ -3556,7 +3556,7 @@ planetItemsTemplate
 				item "Gallente:Frigate:Destoyer"
 				item "Gallente:Frigate:Destoyer"			
 planetItemsTemplate
-	templateName "Template:Asteroid3"
+	templateName "Template:AsteroidC"
 		subTemplates 0
 	groups 2
 		group
@@ -3589,7 +3589,7 @@ planetItemsTemplate
 				item "Minmatar:Frigate:Destoyer"
 				item "Minmatar:Frigate:Destoyer"
 planetItemsTemplate
-	templateName "Template:Asteroid4"
+	templateName "Template:AsteroidD"
 		subTemplates 0
 	groups 2
 		group
