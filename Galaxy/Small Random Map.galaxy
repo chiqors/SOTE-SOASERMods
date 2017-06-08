@@ -441,7 +441,7 @@ star
 	planet
 		designName "Asteroid-16"
 		inGameName ""
-		type "AsteroidRandom"
+		type "AsteroidOrMoon"
 		pos [ 128 , 234 ]
 		owner ""
 		isHomePlanet FALSE
@@ -541,7 +541,7 @@ star
 	planet
 		designName "Asteroid-20"
 		inGameName ""
-		type "AsteroidRandom"
+		type "AsteroidOrMoon"
 		pos [ 54 , 27 ]
 		owner ""
 		isHomePlanet FALSE
