@@ -14,17 +14,17 @@ numEntityModifiers 2
 entityModifier
 	buffEntityModifierType "MaxShieldPoints"
 	value
-		Level:0 500.000000
-		Level:1 0.000000
-		Level:2 0.000000
-		Level:3 0.000000
+		Level:0 2000.000000
+		Level:1 2000.000000
+		Level:2 2000.000000
+		Level:3 2000.000000
 entityModifier
 	buffEntityModifierType "ShieldMitigation"
 	value
-		Level:0 0.100000
-		Level:1 0.000000
-		Level:2 0.000000
-		Level:3 0.000000
+		Level:0 0.200000
+		Level:1 0.200000
+		Level:2 0.200000
+		Level:3 0.200000
 numEntityBoolModifiers 0
 numFinishConditions 1
 finishCondition

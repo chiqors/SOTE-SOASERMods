@@ -75,7 +75,8 @@ entities
 			entityDefName "Amarr_Ship_Refineryship_Bestower"
 			entityDefName "Ore_ShipOrca"			
 	researchInfo
-		count 129
+		count 130
+		entityDefName "RSAInterdictor"
 		entityDefName "RSACommand_Orca"		
 		entityDefName "RSACovertOps"
 		entityDefName "ALLRACES_RESEARCHSUBJECT_ABILITYACCESS_AFTERBURNER"
