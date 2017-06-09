@@ -39,7 +39,7 @@ numRandomDebrisLarge 0
 numRandomDebrisSmall 0
 numSpecificDebris 0
 armorType "Heavy"
-hudIcon "HUDICON_CAPITALSHIP_TECHSIEGE"
+hudIcon "HUDICON_CONCORD_BATTLESHIP"
 smallHudIcon "HUDICONSMALL_CAPITALSHIP_TECHSIEGE"
 infoCardIcon "INFOCARDICON_CAPITALSHIP_TECHSIEGE"
 minZoomDistanceMult 1.000000
