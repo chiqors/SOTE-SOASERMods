@@ -1,5 +1,5 @@
 TXT
-entityNameCount 2354
+entityNameCount 2355
 entityName "ALLRACES_RESEARCHSUBJECT_ABILITYACCESS_AFTERBURNER.entity"
 entityName "ALLRACES_RESEARCHSUBJECT_ABILITYACCESS_BASTIONMODE.entity"
 entityName "ALLRACES_RESEARCHSUBJECT_ABILITYACCESS_CLOAK.entity"
@@ -2354,3 +2354,4 @@ entityName "PlanetAsteroidB.entity"
 entityName "PlanetAsteroidC.entity"
 entityName "PlanetAsteroidD.entity"
 entityName "Player_Mordu.entity"
+entityName "Player_SOE.entity"
