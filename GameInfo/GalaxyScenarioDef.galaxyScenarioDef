@@ -963,15 +963,15 @@ orbitBodyType
 	defaultTemplateName "Template:DefaultStart_AsteroidD"
 orbitBodyType	
 	typeName "MoonB"
-	entityDefName "PlanetMoon"
+	entityDefName "PlanetMoonB"
 	defaultTemplateName "Template:DefaultStart_MoonB"
 orbitBodyType	
 	typeName "MoonC"
-	entityDefName "PlanetMoon"
+	entityDefName "PlanetMoonC"
 	defaultTemplateName "Template:DefaultStart_MoonC"	
 orbitBodyType	
 	typeName "MoonD"
-	entityDefName "PlanetMoon"
+	entityDefName "PlanetMoonD"
 	defaultTemplateName "Template:DefaultStart_MoonD"		
 planetItemTypeCount 250
 planetItemType

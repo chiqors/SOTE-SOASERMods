@@ -1,5 +1,5 @@
 TXT
-entityNameCount 2355
+entityNameCount 2358
 entityName "ALLRACES_RESEARCHSUBJECT_ABILITYACCESS_AFTERBURNER.entity"
 entityName "ALLRACES_RESEARCHSUBJECT_ABILITYACCESS_BASTIONMODE.entity"
 entityName "ALLRACES_RESEARCHSUBJECT_ABILITYACCESS_CLOAK.entity"
@@ -1564,6 +1564,9 @@ entityName "PlanetIceFair.entity"
 entityName "PlanetIceField.entity"
 entityName "PlanetMagneticCloud.entity"
 entityName "PlanetMoon.entity"
+entityName "PlanetMoonB.entity"
+entityName "PlanetMoonC.entity"
+entityName "PlanetMoonD.entity"
 entityName "PlanetMoonFair.entity"
 entityName "PlanetOceanic.entity"
 entityName "PlanetOceanicFair.entity"
