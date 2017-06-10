@@ -57,8 +57,10 @@ planetTypeCount 77
 planetType
 	designName "WeightedNonIce"
 	designStringId "IDSGalaxyScenarioTypePlanetWeightedNonIce"
-	orbitBodyTypeCount 17
+	orbitBodyTypeCount 19
 	orbitBodyType "Terran"
+	orbitBodyType "Terran"
+	orbitBodyType "Desert"
 	orbitBodyType "Desert"
 	orbitBodyType "Volcanic"
 	orbitBodyType "Asteroid"
@@ -95,15 +97,14 @@ planetType
 planetType
 	designName "WeightedRandom"
 	designStringId "IDSGalaxyScenarioTypePlanetWeightedRandom"
-	orbitBodyTypeCount 47
+	orbitBodyTypeCount 46
 	orbitBodyType "Terran"
 	orbitBodyType "Terran"
+	orbitBodyType "Desert"
+	orbitBodyType "Desert"
 	orbitBodyType "Ice"
 	orbitBodyType "Ice"
 	orbitBodyType "Ice"
-	orbitBodyType "Desert"
-	orbitBodyType "Desert"
-	orbitBodyType "Desert"
 	orbitBodyType "Volcanic"
 	orbitBodyType "Volcanic"
 	orbitBodyType "Volcanic"
@@ -189,14 +190,13 @@ planetType
 planetType
 	designName "WeightedColonizable"
 	designStringId "IDSGalaxyScenarioTypePlanetWeightedColonizable"
-	orbitBodyTypeCount 29
+	orbitBodyTypeCount 28
 	orbitBodyType "Terran"
 	orbitBodyType "Terran"
+	orbitBodyType "Desert"
+	orbitBodyType "Desert"
 	orbitBodyType "Ice"
 	orbitBodyType "Ice"
-	orbitBodyType "Desert"
-	orbitBodyType "Desert"
-	orbitBodyType "Desert"
 	orbitBodyType "Volcanic"
 	orbitBodyType "Volcanic"
 	orbitBodyType "Volcanic"
@@ -310,10 +310,12 @@ planetType
 planetType
 	designName "Random"
 	designStringId "IDSGalaxyScenarioTypePlanetRandom"
-	orbitBodyTypeCount 22
+	orbitBodyTypeCount 24
 	orbitBodyType "Terran"
-	orbitBodyType "Ice"
+	orbitBodyType "Terran"
 	orbitBodyType "Desert"
+	orbitBodyType "Desert"
+	orbitBodyType "Ice"
 	orbitBodyType "Volcanic"
 	orbitBodyType "Asteroid"
 	orbitBodyType "AsteroidB"
@@ -355,10 +357,12 @@ planetType
 planetType
 	designName "RandomTrue"
 	designStringId "IDSGalaxyScenarioTypePlanetRandomTrue"
-	orbitBodyTypeCount 7
+	orbitBodyTypeCount 9
 	orbitBodyType "Terran"
-	orbitBodyType "Ice"
+	orbitBodyType "Terran"
 	orbitBodyType "Desert"
+	orbitBodyType "Desert"
+	orbitBodyType "Ice"
 	orbitBodyType "Volcanic"
 	orbitBodyType "Oceanic"
 	orbitBodyType "Ferrus"
@@ -377,8 +381,10 @@ planetType
 planetType
 	designName "RandomTrueNonIce"
 	designStringId "IDSGalaxyScenarioTypePlanetRandomTrueNonIce"
-	orbitBodyTypeCount 6
+	orbitBodyTypeCount 8
 	orbitBodyType "Terran"
+	orbitBodyType "Terran"
+	orbitBodyType "Desert"
 	orbitBodyType "Desert"
 	orbitBodyType "Volcanic"
 	orbitBodyType "Oceanic"
@@ -397,8 +403,9 @@ planetType
 planetType
 	designName "RandomTrueNonTerran"
 	designStringId "IDSGalaxyScenarioTypePlanetRandomTrueNonTerran"
-	orbitBodyTypeCount 6
+	orbitBodyTypeCount 7
 	orbitBodyType "Ice"
+	orbitBodyType "Desert"
 	orbitBodyType "Desert"
 	orbitBodyType "Volcanic"
 	orbitBodyType "Oceanic"
@@ -832,7 +839,7 @@ orbitBodyType
 orbitBodyType	
 	typeName "Desert"
 	entityDefName "PlanetDesert"
-	defaultTemplateName "Template:DefaultStart_Desert"		
+	defaultTemplateName "Template:DefaultStart_Desert"
 orbitBodyType	
 	typeName "DesertFair"
 	entityDefName "PlanetDesertFair"
@@ -876,23 +883,23 @@ orbitBodyType
 orbitBodyType	
 	typeName "DeadAsteroid"
 	entityDefName "PlanetDeadAsteroid"
-	defaultTemplateName ""	
+	defaultTemplateName "Template:DefaultStart_DeadAsteroid"	
 orbitBodyType	
 	typeName "AsteroidBelt"
 	entityDefName "PlanetAsteroidBelt"
-	defaultTemplateName ""		
+	defaultTemplateName "Template:DefaultStart_DeadAsteroid"		
 orbitBodyType	
 	typeName "AsteroidBeltFair"
 	entityDefName "PlanetAsteroidBeltFair"
-	defaultTemplateName ""		
+	defaultTemplateName "Template:DefaultStart_DeadAsteroid"		
 orbitBodyType	
 	typeName "AsteroidSpaceJunk"
 	entityDefName "PlanetAsteroidSpaceJunk"
-	defaultTemplateName ""	
+	defaultTemplateName "Template:DefaultStart_DeadAsteroid"	
 orbitBodyType	
 	typeName "AsteroidSpaceJunkFair"
 	entityDefName "PlanetAsteroidSpaceJunkFair"
-	defaultTemplateName ""		
+	defaultTemplateName "Template:DefaultStart_DeadAsteroid"		
 orbitBodyType	
 	typeName "GasGiant"
 	entityDefName "PlanetGasGiant"
@@ -928,7 +935,7 @@ orbitBodyType
 orbitBodyType	
 	typeName "AntimatterFountain"
 	entityDefName "PlanetAntimatterFountain"
-	defaultTemplateName ""
+	defaultTemplateName "Template:DefaultStart_RadiationStorm"
 orbitBodyType	
 	typeName "PlasmaStormFair"
 	entityDefName "PlanetPlasmaStormFair"
@@ -936,7 +943,7 @@ orbitBodyType
 orbitBodyType	
 	typeName "MagneticCloud"
 	entityDefName "PlanetMagneticCloud"
-	defaultTemplateName ""
+	defaultTemplateName "Template:DefaultStart_RadiationStorm"
 orbitBodyType
 	typeName "Wormhole"
 	entityDefName "PlanetWormhole"
@@ -973,16 +980,97 @@ orbitBodyType
 	typeName "MoonD"
 	entityDefName "PlanetMoonD"
 	defaultTemplateName "Template:DefaultStart_MoonD"		
-planetItemTypeCount 250
+planetItemTypeCount 236
+planetItemType
+	designName "Caldari:Frigate:Scout"
+	entityDefName "Caldari_Ship_Frigate_Heron"
+planetItemType
+	designName "Caldari:Frigate:Frigate"
+	entityDefName "Caldari_Ship_Frigate_Condor"	
 planetItemType
 	designName "Caldari:Frigate:Destoyer"
 	entityDefName "Caldari_Ship_Destroyer_Comorant"			
 planetItemType
 	designName "Caldari:Frigate:Cruiser"
-	entityDefName "Caldari_Ship_Cruiser_Caracal"				
+	entityDefName "Caldari_Ship_Cruiser_Caracal"
 planetItemType
 	designName "Caldari:Frigate:Logistics"
-	entityDefName "Caldari_Ship_Cruiser_Osprey"					
+	entityDefName "Caldari_Ship_Cruiser_Osprey"				
+planetItemType
+	designName "Caldari:Frigate:Battlecruiser"
+	entityDefName "Caldari_Ship_Battlecruiser_Drake"
+planetItemType
+	designName "Caldari:Frigate:Battleship"
+	entityDefName "Caldari_Ship_Battleship_Raven"		
+planetItemType
+	designName "Minmatar:Frigate:Scout"
+	entityDefName "Minmatar_Ship_Frigate_Probe"
+planetItemType
+	designName "Minmatar:Frigate:Frigate"
+	entityDefName "Minmatar_Ship_Frigate_Rifter"			
+planetItemType
+	designName "Minmatar:Frigate:Destoyer"
+	entityDefName "Minmatar_Ship_Destroyer_Thrasher"			
+planetItemType
+	designName "Minmatar:Frigate:Cruiser"
+	entityDefName "Minmatar_Ship_Cruiser_Rupture"				
+planetItemType
+	designName "Minmatar:Frigate:Logistics"
+	entityDefName "Minmatar_Ship_Cruiser_Scyther"	
+planetItemType
+	designName "Minmatar:Frigate:Battlecruiser"
+	entityDefName "Minmatar_Ship_Battlecruiser_Hurricane"
+planetItemType
+	designName "Minmatar:Frigate:Battleship"
+	entityDefName "Minmatar_Ship_Battleship_Maelstron"		
+planetItemType
+	designName "Gallente:Frigate:Scout"
+	entityDefName "Gallente_Ship_Frigate_Imicus"
+planetItemType
+	designName "Gallente:Frigate:Frigate"
+	entityDefName "Gallente_Ship_Frigate_Incursus"
+planetItemType
+	designName "Gallente:Frigate:Destoyer"
+	entityDefName "Gallente_Ship_Destroyer_Catalyst"
+planetItemType
+	designName "Gallente:Frigate:Cruiser"
+	entityDefName "Gallente_Ship_Cruiser_Vexor"
+planetItemType
+	designName "Gallente:Frigate:Battlecruiser"
+	entityDefName "Gallente_Ship_Battlecruiser_Brutix"
+planetItemType
+	designName "Gallente:Frigate:Battleship"
+	entityDefName "Gallente_Ship_Battleship_Megathron"
+planetItemType
+	designName "Gallente:Frigate:Logistics"
+	entityDefName "Gallente_Ship_Cruiser_Execuror"
+planetItemType
+	designName "Gallente:Frigate:Constructor"
+	entityDefName "Gallente_Ship_Constructor_Venture"
+planetItemType
+	designName "Amarr:Frigate:Scout"
+	entityDefName "Amarr_Ship_Frigate_Magnate"
+planetItemType
+	designName "Amarr:Frigate:Frigate"
+	entityDefName "Amarr_Ship_Frigate_Punisher"
+planetItemType
+	designName "Amarr:Frigate:Destroyer"
+	entityDefName "Amarr_Ship_Destroyer_Coercer"
+planetItemType
+	designName "Amarr:Frigate:Cruiser"
+	entityDefName "Amarr_Ship_Cruiser_Omen"
+planetItemType
+	designName "Amarr:Frigate:Battlecruiser"
+	entityDefName "Amarr_Ship_Battlecruiser_Prophecy"
+planetItemType
+	designName "Amarr:Frigate:Battleship"
+	entityDefName "Amarr_Ship_Battleship_Apocalypse"
+planetItemType
+	designName "Amarr:Frigate:Logistics"
+	entityDefName "Amarr_Ship_Cruiser_Augoror"
+planetItemType
+	designName "Amarr:Frigate:Constructor"
+	entityDefName "Amarr_Ship_Constructor_Venture"
 planetItemType
 	designName "Mordu:Frigate:Shipyard"
 	entityDefName "Mordu_ModuleShipyard"
@@ -1156,22 +1244,7 @@ planetItemType
 	entityDefName "Angel_StructureShipyard_Raitaru"
 planetItemType
 	designName "Gallente:StarBase"
-	entityDefName "Allraces_Structure_Citadel_Keepstar"
-planetItemType
-	designName "Minmatar:Frigate:Scout"
-	entityDefName "Minmatar_Ship_Frigate_Probe"
-planetItemType
-	designName "Minmatar:Frigate:Frigate"
-	entityDefName "Minmatar_Ship_Frigate_Rifter"			
-planetItemType
-	designName "Minmatar:Frigate:Destoyer"
-	entityDefName "Minmatar_Ship_Destroyer_Thrasher"			
-planetItemType
-	designName "Minmatar:Frigate:Cruiser"
-	entityDefName "Minmatar_Ship_Cruiser_Rupture"				
-planetItemType
-	designName "Minmatar:Frigate:Logistics"
-	entityDefName "Minmatar_Ship_Cruiser_Scyther"						
+	entityDefName "Allraces_Structure_Citadel_Keepstar"					
 planetItemType
 	designName "Gallente:Module:CapitalShipFactory"
 	entityDefName "Gallente_Structure_CapitalShipFactory"
@@ -1263,137 +1336,29 @@ planetItemType
 	designName "Pirate:Module:GaussDefense"
 	entityDefName "Amarr_Structure_SmallPulseLaserBattery"
 planetItemType
-	designName "Gallente:Frigate:Destoyer"
-	entityDefName "Gallente_Ship_Destroyer_Catalyst"
-planetItemType
-	designName "Gallente:Frigate:Carrier"
-	entityDefName "Gallente_Ship_Cruiser_Celestis"
-planetItemType
-	designName "Gallente:Frigate:Colony"
-	entityDefName "Gallente_Ship_Colony_Orca"
-planetItemType
-	designName "Gallente:Frigate:Heavy"
-	entityDefName "Gallente_Ship_Battlecruiser_Myrmidon"
-planetItemType
-	designName "Gallente:Frigate:Frigate"
-	entityDefName "Gallente_Ship_Frigate_Incursus"
-planetItemType
-	designName "Gallente:Frigate:Cruiser"
-	entityDefName "Gallente_Ship_Cruiser_Vexor"
-planetItemType
-	designName "Gallente:Frigate:Scout"
-	entityDefName "Gallente_Ship_Frigate_Imicus"
-planetItemType
-	designName "Gallente:Frigate:Siege"
-	entityDefName "Gallente_Ship_Frigate_Tristan"
-planetItemType
-	designName "Gallente:Frigate:Utility0"
-	entityDefName "Gallente_Ship_Battlecruiser_Brutix"
-planetItemType
-	designName "Gallente:Frigate:Logistics"
-	entityDefName "Gallente_Ship_Cruiser_Execuror"
-planetItemType
-	designName "Gallente:Frigate:Constructor"
-	entityDefName "Gallente_Ship_Constructor_Venture"	
-planetItemType
-	designName "Gallente:Corvette:Loyalist"
-	entityDefName "Gallente_Ship_Frigate_Atron"
-planetItemType
-	designName "Gallente:Frigate:Envoy"
-	entityDefName "Gallente_Ship_Envoy_Brutix"
-planetItemType
-	designName "Amarr:Frigate:AntiFighter"
-	entityDefName "Amarr_Ship_Destroyer_Coercer"
-planetItemType
-	designName "Amarr:Frigate:Carrier"
-	entityDefName "Amarr_Ship_Cruiser_Arbitrator"
-planetItemType
-	designName "Amarr:Frigate:Colony"
-	entityDefName "Amarr_Ship_Colony_Orca"
-planetItemType
-	designName "Amarr:Frigate:Heavy"
-	entityDefName "Amarr_Ship_Battlecruiser_Harbinger"
-planetItemType
-	designName "Amarr:Frigate:Light"
-	entityDefName "Amarr_Ship_Frigate_Punisher"
-planetItemType
-	designName "Minmatar:Frigate:Light"
-	entityDefName "Minmatar_Ship_Frigate_Rifter"	
-planetItemType
-	designName "Amarr:Frigate:LongRange"
-	entityDefName "Amarr_Ship_Cruiser_Omen"
-planetItemType
-	designName "Amarr:Frigate:Scout"
-	entityDefName "Amarr_Ship_Frigate_Magnate"
-planetItemType
-	designName "Amarr:Frigate:Siege"
-	entityDefName "Amarr_Ship_Frigate_Inquisitor"
-planetItemType
-	designName "Amarr:Frigate:Utility0"
-	entityDefName "Amarr_Ship_Battlecruiser_Prophecy"
-planetItemType
-	designName "Amarr:Frigate:Utility1"
-	entityDefName "Amarr_Ship_Cruiser_Augoror"
-planetItemType
-	designName "Amarr:Frigate:Constructor"
-	entityDefName "Amarr_Ship_Constructor_Venture"
-planetItemType
-	designName "Amarr:Frigate:Envoy"
-	entityDefName "Amarr_Ship_Envoy_Prophecy"
-planetItemType
-	designName "Amarr:Corvette:Loyalist"
-	entityDefName "Amarr_Ship_Frigate_Excecutioner"
-planetItemType
-	designName "Gallente:CapitalShip:BattleShip"
-	entityDefName "Gallente_Ship_Carrier_Thanatos"
-planetItemType
 	designName "Gallente:CapitalShip:BattleShip2"
 	entityDefName "Gallente_Ship_ColonyCapital_Rorqual"
 planetItemType
-	designName "Gallente:CapitalShip:Carrier"
-	entityDefName "Gallente_Ship_Supercarrier_Nyx"
-planetItemType
-	designName "Gallente:CapitalShip:Colony"
-	entityDefName "Gallente_Ship_Dreadnought_Moros_ShortRange"
-planetItemType
-	designName "Gallente:CapitalShip:Scout"
-	entityDefName "Gallente_Ship_Carrier_Triage_Thanatos"
-planetItemType
-	designName "Gallente:CapitalShip:Siege"
-	entityDefName "Gallente_Ship_Dreadnought_Moros_LongRange"
-planetItemType
-	designName "Amarr:CapitalShip:BattleShip"
-	entityDefName "Amarr_Ship_Carrier_Archon"
-planetItemType
-	designName "Amarr:CapitalShip:Carrier"
-	entityDefName "Amarr_Ship_Supercarrier_Aeon"
-planetItemType
-	designName "Amarr:CapitalShip:Colony"
-	entityDefName "Amarr_Ship_Dreadnought_Revelation_ShortRange"
-planetItemType
 	designName "Amarr:CapitalShip:Transport"
-	entityDefName "Amarr_Ship_ColonyCapital_Rorqual"
+	entityDefName "Amarr_Ship_ColonyCapital_Rorqual"	
 planetItemType
 	designName "Gallente:Titan:Loyalist"
 	entityDefName "Gallente_Ship_Titan_Erebus"
 planetItemType
-	designName "Amarr:Titan:Loyalist"
-	entityDefName "Amarr_Ship_Titan_Avatar"
-planetItemType
 	designName "Pirate:Frigate:Medium"
-	entityDefName "FrigatePirateMedium"
+	entityDefName "BloodRaider_ShipCruiser_Augoror"
 planetItemType
 	designName "Pirate:Frigate:Scout"
-	entityDefName "BloodRaider_Ship_Battleship_CorpusDarkCommander"
+	entityDefName "Bloodraider_ShipFrigateCruor"
 planetItemType
 	designName "Pirate:Frigate:Siege"
-	entityDefName "FrigatePirateSiege"
+	entityDefName "BloodRaider_ShipBattleshipBhaalgorn"
 planetItemType
 	designName "Pirate:Frigate:Heavy"
-	entityDefName "FrigatePirateHeavy"
+	entityDefName "BloodRaider_Ship_Battleship_CorpusDarkCommander"
 planetItemType
 	designName "Pirate:Frigate:AntiFighter"
-	entityDefName "FrigatePirateAntiFighter"
+	entityDefName "Bloodraider_ShipCruiserAshimuu"
 planetItemType
 	designName "Bonus:FW:AbandonedNaniteFactory"
 	entityDefName "PlanetBonusAbandonedNaniteFactory"
@@ -1724,7 +1689,7 @@ planetItemType
 planetItemType
 	designName "Caldari:Frigate:Frigate"
 	entityDefName "Caldari_Ship_Frigate_kestrel"	
-playerTypeCount 13
+playerTypeCount 12
 playerType
 	designName "Amarr"
 	entityDefName "Player_AmarrEmpire"
@@ -1757,10 +1722,7 @@ playerType
 	entityDefName "Player_Gurista"	
 playerType
 	designName "Sleepers"
-	entityDefName "Player_Sleepers"
-playerType
-	designName "Mordu"
-	entityDefName "Player_Mordu"	
+	entityDefName "Player_Sleepers"	
 playerType
 	designName "SOE"
 	entityDefName "Player_SOE"		
@@ -2755,10 +2717,13 @@ planetItemsTemplate
 				param ""
 			owner "Pirate"
 			colonizeChance 1
-			items 3
+			items 6
 				item "Pirate:Frigate:Scout"
-				item "Pirate:Frigate:AntiFighter"
+				item "Pirate:Frigate:Scout"
 				item "Pirate:Frigate:Medium"
+				item "Pirate:Frigate:AntiFighter"
+				item "Pirate:Frigate:AntiFighter"
+				item "Pirate:Frigate:Heavy"
 planetItemsTemplate
 	templateName "Template:LocalMilitiaVeryWeakUncolonizable"
 	subTemplates 0
@@ -2782,19 +2747,18 @@ planetItemsTemplate
 				param ""
 			owner "PlanetOwner"
 			colonizeChance 0
-			items 15
-				item "Amarr:Frigate:Utility0"
-				item "Amarr:Frigate:LongRange"
-				item "Amarr:Frigate:LongRange"
-				item "Amarr:Frigate:LongRange"		
-				item "Amarr:Frigate:LongRange"						
-				item "Amarr:Frigate:Utility1"		
-				item "Amarr:Frigate:Utility1"						
-				item "Amarr:Frigate:Utility1"										
-				item "Amarr:Frigate:Light"
-				item "Amarr:Frigate:Light"
-				item "Amarr:Frigate:Light"
-				item "Amarr:Frigate:Light"
+			items 14
+				item "Amarr:Frigate:Battlecruiser"
+				item "Amarr:Frigate:Cruiser"
+				item "Amarr:Frigate:Cruiser"
+				item "Amarr:Frigate:Cruiser"		
+				item "Amarr:Frigate:Cruiser"						
+				item "Amarr:Frigate:Logistics"		
+				item "Amarr:Frigate:Logistics"																
+				item "Amarr:Frigate:Frigate"
+				item "Amarr:Frigate:Frigate"
+				item "Amarr:Frigate:Frigate"
+				item "Amarr:Frigate:Frigate"
 				item "Amarr:Module:GaussDefense"
 				item "Amarr:Module:MetalExtractor"
 				item "Amarr:Module:CrystalExtractor"
@@ -2802,30 +2766,29 @@ planetItemsTemplate
 			condition
 				type "NoPlanetOwner"
 				param ""
-			owner "Gallente"
+			owner "Amarr"
 			colonizeChance 0
-			items 7
-				item "Amarr:Frigate:Light"
-				item "Amarr:Frigate:Light"
-				item "Amarr:Frigate:Light"
-				item "Amarr:Frigate:Light"
-				item "Amarr:Frigate:Siege"
-				item "Amarr:Frigate:Siege"
-				item "Amarr:Frigate:Siege"
+			items 6
+				item "Amarr:Frigate:Frigate"
+				item "Amarr:Frigate:Frigate"
+				item "Amarr:Frigate:Frigate"
+				item "Amarr:Frigate:Destroyer"
+				item "Amarr:Frigate:Destroyer"
+				item "Amarr:Frigate:Destroyer"
 planetItemsTemplate
 	templateName "Template:LocalMilitiaWeakFair"
 	subTemplates 0
-	groups 4
+	groups 2
 		group
 			condition
-				type "PlanetOwnerIsMilitiaWithChance"
+				type "PlanetOwnerIsMilitia"
 				param "0.5"
 			owner "PlanetOwner"
 			colonizeChance 0
 			items 8
-				item "Amarr:Frigate:Light"
-				item "Amarr:Frigate:Light"
-				item "Amarr:Frigate:Siege"
+				item "Amarr:Frigate:Frigate"
+				item "Amarr:Frigate:Frigate"
+				item "Amarr:Frigate:Destroyer"
 				item "Amarr:Module:GaussDefense"
 				item "Amarr:Module:GaussDefense"
 				item "Amarr:Module:GaussDefense"
@@ -2833,48 +2796,21 @@ planetItemsTemplate
 				item "Amarr:Module:CrystalExtractor"
 		group
 			condition
-				type "NoPlanetOwnerWithChance"
+				type "NoPlanetOwner"
 				param "0.5"
 			owner "Amarr"
 			colonizeChance 0
 			items 6
-				item "Amarr:Frigate:Light"
-				item "Amarr:Frigate:Light"
-				item "Amarr:Frigate:Light"
-				item "Amarr:Frigate:Light"				
-				item "Amarr:Frigate:Siege"
-				item "Amarr:Frigate:Siege"				
-		group
-			condition
-				type "PlanetOwnerIsMilitiaWithChance"
-				param "0.5"
-			owner "PlanetOwner"
-			colonizeChance 0
-			items 8
-				item "Gallente:Frigate:Frigate"
-				item "Gallente:Frigate:Frigate"
-				item "Gallente:Frigate:Siege"
-				item "Gallente:Module:MissileDefense"				
-				item "Gallente:Module:MissileDefense"				
-				item "Gallente:Module:MissileDefense"				
-				item "Amarr:Module:MetalExtractor"
-				item "Amarr:Module:CrystalExtractor"				
-		group
-			condition
-				type "NoPlanetOwnerWithChance"
-				param "0.5"
-			owner "Gallente"
-			colonizeChance 0
-			items 5
-				item "Gallente:Frigate:Frigate"
-				item "Gallente:Frigate:Frigate"
-				item "Gallente:Frigate:Frigate"
-				item "Gallente:Frigate:Siege"
-				item "Gallente:Frigate:Siege"
+				item "Amarr:Frigate:Frigate"
+				item "Amarr:Frigate:Frigate"
+				item "Amarr:Frigate:Frigate"
+				item "Amarr:Frigate:Frigate"				
+				item "Amarr:Frigate:Destroyer"
+				item "Amarr:Frigate:Destroyer"
 planetItemsTemplate
 	templateName "Template:LocalMilitiaMedium"
 	subTemplates 0
-	groups 6
+	groups 2
 		group
 			condition
 				type "PlanetOwnerIsMilitia"
@@ -2882,68 +2818,32 @@ planetItemsTemplate
 			owner "PlanetOwner"
 			colonizeChance 0
 			items 9
-				item "Amarr:Frigate:Light"
-				item "Amarr:Frigate:Light"
-				item "Amarr:Frigate:Siege"
+				item "Amarr:Frigate:Frigate"
+				item "Amarr:Frigate:Frigate"
+				item "Amarr:Frigate:Destroyer"
 				item "Amarr:Module:GaussDefense"
 				item "Amarr:Module:GaussDefense"
 				item "Amarr:Module:GaussDefense"
 				item "Amarr:Module:HangarDefense"
 				item "Amarr:Module:CrystalExtractor"
-				item "Amarr:Module:MetalExtractor"
-		group
-			condition
-				type "PlanetOwnerIsMilitiaWithChance"
-				param "0.5"
-			owner "PlanetOwner"
-			colonizeChance 0
-			items 4
-				item "Amarr:Frigate:LongRange"
-				item "Amarr:Frigate:LongRange"
-				item "Amarr:Module:GaussDefense"
-				item "Amarr:Module:GaussDefense"				
-		group
-			condition
-				type "PlanetOwnerIsMilitiaWithChance"
-				param "0.5"
-			owner "PlanetOwner"
-			colonizeChance 0
-			items 3
-				item "Amarr:Frigate:Siege"
-				item "Amarr:Frigate:Siege"	
-				item "Amarr:Module:HangarDefense"				
+				item "Amarr:Module:MetalExtractor"			
 		group
 			condition
 				type "NoPlanetOwner"
 				param ""
 			owner "Amarr"
 			colonizeChance 0
-			items 7
-				item "Amarr:Frigate:Light"
-				item "Amarr:Frigate:Light"
-				item "Amarr:Frigate:Light"
-				item "Amarr:Frigate:Light"
-				item "Amarr:Frigate:Siege"
-				item "Amarr:Frigate:Siege"
-				item "Amarr:Frigate:Siege"
-		group
-			condition
-				type "NoPlanetOwnerWithChance"
-				param "0.5"
-			owner "Amarr"
-			colonizeChance 0
-			items 2
-				item "Amarr:Frigate:LongRange"
-				item "Amarr:Frigate:LongRange"
-		group
-			condition
-				type "NoPlanetOwnerWithChance"
-				param "0.5"
-			owner "Amarr"
-			colonizeChance 0
-			items 2
-				item "Amarr:Frigate:Siege"
-				item "Amarr:Frigate:Siege"
+			items 10
+				item "Amarr:Frigate:Frigate"
+				item "Amarr:Frigate:Frigate"
+				item "Amarr:Frigate:Frigate"
+				item "Amarr:Frigate:Frigate"
+				item "Amarr:Frigate:Destroyer"
+				item "Amarr:Frigate:Destroyer"
+				item "Amarr:Frigate:Destroyer"
+				item "Amarr:Frigate:Cruiser"
+				item "Amarr:Frigate:Cruiser"
+				item "Amarr:Frigate:Logistics"
 planetItemsTemplate
 	templateName "Template:LocalMilitiaMediumFair"
 	subTemplates 0
@@ -2955,11 +2855,11 @@ planetItemsTemplate
 			owner "PlanetOwner"
 			colonizeChance 0
 			items 13
-				item "Amarr:Frigate:Light"
-				item "Amarr:Frigate:Light"
-				item "Amarr:Frigate:LongRange"
-				item "Amarr:Frigate:Siege"
-				item "Amarr:Frigate:Siege"
+				item "Amarr:Frigate:Frigate"
+				item "Amarr:Frigate:Frigate"
+				item "Amarr:Frigate:Cruiser"
+				item "Amarr:Frigate:Destroyer"
+				item "Amarr:Frigate:Destroyer"
 				item "Amarr:Module:GaussDefense"
 				item "Amarr:Module:GaussDefense"
 				item "Amarr:Module:GaussDefense"
@@ -2974,132 +2874,70 @@ planetItemsTemplate
 				param ""
 			owner "Amarr"
 			colonizeChance 0
-			items 5
-				item "Amarr:Frigate:Light"
-				item "Amarr:Frigate:Light"
-				item "Amarr:Frigate:LongRange"
-				item "Amarr:Frigate:Siege"
-				item "Amarr:Frigate:Siege"
+			items 7
+				item "Amarr:Frigate:Frigate"
+				item "Amarr:Frigate:Frigate"
+				item "Amarr:Frigate:Frigate"
+				item "Amarr:Frigate:Destroyer"
+				item "Amarr:Frigate:Destroyer"
+				item "Amarr:Frigate:Cruiser"
+				item "Amarr:Frigate:Cruiser"
 planetItemsTemplate
 	templateName "Template:LocalMilitiaStrong"
 	subTemplates 0
-	groups 10
+	groups 2
 		group
 			condition
 				type "PlanetOwnerIsMilitia"
 				param ""
-			owner "PlanetOwner"
+			owner "Amarr"
 			colonizeChance 0
-			items 9
-				item "Amarr:Frigate:Light"
-				item "Amarr:Frigate:LongRange"
-				item "Amarr:Frigate:Heavy"
-				item "Amarr:Frigate:Heavy"
-				item "Amarr:Module:GaussDefense"		
-				item "Amarr:Module:GaussDefense"														
-				item "Amarr:Module:HangarDefense"		
-				item "Amarr:Module:MetalExtractor"														
-				item "Amarr:Module:MetalExtractor"														
-		group
-			condition
-				type "PlanetOwnerIsMilitiaWithChance"
-				param "0.3"
-			owner "PlanetOwner"
-			colonizeChance 0
-			items 5
-				item "Amarr:Frigate:LongRange"
-				item "Amarr:Frigate:LongRange"
-				item "Amarr:Frigate:Heavy"
-				item "Amarr:Module:GaussDefense"						
-				item "Amarr:Module:HangarDefense"						
-		group
-			condition
-				type "PlanetOwnerIsMilitiaWithChance"
-				param "0.3"
-			owner "PlanetOwner"
-			colonizeChance 0
-			items 8
-				item "Amarr:Frigate:Light"
-				item "Amarr:Frigate:Light"
-				item "Amarr:Frigate:Light"
-				item "Amarr:Frigate:Light"
-				item "Amarr:Frigate:Light"
-				item "Amarr:Frigate:Light"
-				item "Amarr:Frigate:Heavy"
-				item "Amarr:Module:HangarDefense"						
-		group
-			condition
-				type "PlanetOwnerIsMilitiaWithChance"
-				param "0.3"
-			owner "PlanetOwner"
-			colonizeChance 0
-			items 2
-				item "Amarr:Frigate:Heavy"
-				item "Amarr:Module:GaussDefense"						
-		group
-			condition
-				type "PlanetOwnerIsMilitiaWithChance"
-				param "0.3"
-			owner "PlanetOwner"
-			colonizeChance 0
-			items 5
-				item "Amarr:Frigate:Siege"
-				item "Amarr:Frigate:Siege"
-				item "Amarr:Frigate:Heavy"
-				item "Amarr:Frigate:Heavy"
-				item "Amarr:Module:HangarDefense"					
+			items 19
+				item "Amarr:Frigate:Frigate"
+				item "Amarr:Frigate:Frigate"
+				item "Amarr:Frigate:Frigate"
+				item "Amarr:Frigate:Frigate"
+				item "Amarr:Frigate:Frigate"
+				item "Amarr:Frigate:Frigate"
+				item "Amarr:Frigate:Destroyer"
+				item "Amarr:Frigate:Destroyer"
+				item "Amarr:Frigate:Destroyer"
+				item "Amarr:Frigate:Destroyer"
+				item "Amarr:Frigate:Cruiser"
+				item "Amarr:Frigate:Cruiser"
+				item "Amarr:Frigate:Cruiser"
+				item "Amarr:Frigate:Cruiser"
+				item "Amarr:Frigate:Logistics"
+				item "Amarr:Frigate:Logistics"
+				item "Amarr:Frigate:Battlecruiser"
+				item "Amarr:Frigate:Battlecruiser"
+				item "Amarr:Frigate:Battleship"
 		group
 			condition
 				type "NoPlanetOwner"
 				param ""
 			owner "Amarr"
 			colonizeChance 0
-			items 4
-				item "Amarr:Frigate:Light"
-				item "Amarr:Frigate:LongRange"
-				item "Amarr:Frigate:Heavy"
-				item "Amarr:Frigate:Siege"
-		group
-			condition
-				type "NoPlanetOwnerWithChance"
-				param "0.3"
-			owner "Amarr"
-			colonizeChance 0
-			items 3
-				item "Amarr:Frigate:Light"
-				item "Amarr:Frigate:LongRange"
-				item "Amarr:Frigate:LongRange"
-		group
-			condition
-				type "NoPlanetOwnerWithChance"
-				param "0.3"
-			owner "Amarr"
-			colonizeChance 0
-			items 5
-				item "Amarr:Frigate:Light"
-				item "Amarr:Frigate:Light"
-				item "Amarr:Frigate:Light"
-				item "Amarr:Frigate:Siege"
-				item "Amarr:Frigate:Siege"
-		group
-			condition
-				type "NoPlanetOwnerWithChance"
-				param "0.3"
-			owner "Amarr"
-			colonizeChance 0
-			items 2
-				item "Amarr:Frigate:Light"
-				item "Amarr:Frigate:Heavy"
-		group
-			condition
-				type "NoPlanetOwnerWithChance"
-				param "0.3"
-			owner "Amarr"
-			colonizeChance 0
-			items 3
-				item "Amarr:Frigate:Light"
-				item "Amarr:Frigate:Siege"
-				item "Amarr:Frigate:Heavy"
+			items 19
+				item "Amarr:Frigate:Frigate"
+				item "Amarr:Frigate:Frigate"
+				item "Amarr:Frigate:Frigate"
+				item "Amarr:Frigate:Frigate"
+				item "Amarr:Frigate:Frigate"
+				item "Amarr:Frigate:Frigate"
+				item "Amarr:Frigate:Destroyer"
+				item "Amarr:Frigate:Destroyer"
+				item "Amarr:Frigate:Destroyer"
+				item "Amarr:Frigate:Destroyer"
+				item "Amarr:Frigate:Cruiser"
+				item "Amarr:Frigate:Cruiser"
+				item "Amarr:Frigate:Cruiser"
+				item "Amarr:Frigate:Cruiser"
+				item "Amarr:Frigate:Logistics"
+				item "Amarr:Frigate:Logistics"
+				item "Amarr:Frigate:Battlecruiser"
+				item "Amarr:Frigate:Battlecruiser"
+				item "Amarr:Frigate:Battleship"
 planetItemsTemplate
 	templateName "Template:LocalMilitiaStrongFair"
 	subTemplates 0
@@ -3146,7 +2984,7 @@ planetItemsTemplate
 				item "Amarr:Frigate:Siege"
 				item "Amarr:Frigate:Siege"
 planetItemsTemplate
-	templateName "Template:AsteroidB"
+	templateName "Template:LocalMilitiaAsteroidB"
 		subTemplates 0
 	groups 2
 		group
@@ -3179,7 +3017,7 @@ planetItemsTemplate
 				item "Gallente:Frigate:Destoyer"
 				item "Gallente:Frigate:Destoyer"			
 planetItemsTemplate
-	templateName "Template:MoonB"
+	templateName "Template:LocalMilitiaMoonB"
 		subTemplates 0
 	groups 2
 		group
@@ -3212,7 +3050,7 @@ planetItemsTemplate
 				item "Gallente:Frigate:Destoyer"
 				item "Gallente:Frigate:Destoyer"							
 planetItemsTemplate
-	templateName "Template:AsteroidC"
+	templateName "Template:LocalMilitiaAsteroidC"
 		subTemplates 0
 	groups 2
 		group
@@ -3245,7 +3083,7 @@ planetItemsTemplate
 				item "Minmatar:Frigate:Destoyer"
 				item "Minmatar:Frigate:Destoyer"
 planetItemsTemplate
-	templateName "Template:MoonC"
+	templateName "Template:LocalMilitiaMoonC"
 		subTemplates 0
 	groups 2
 		group
@@ -3278,7 +3116,7 @@ planetItemsTemplate
 				item "Minmatar:Frigate:Destoyer"
 				item "Minmatar:Frigate:Destoyer"				
 planetItemsTemplate
-	templateName "Template:AsteroidD"
+	templateName "Template:LocalMilitiaAsteroidD"
 		subTemplates 0
 	groups 2
 		group
@@ -3311,7 +3149,7 @@ planetItemsTemplate
 				item "Caldari:Frigate:Destoyer"
 				item "Caldari:Frigate:Destoyer"			
 planetItemsTemplate
-	templateName "Template:MoonD"
+	templateName "Template:LocalMilitiaMoonD"
 		subTemplates 0
 	groups 2
 		group
@@ -4085,32 +3923,32 @@ planetItemsTemplate
 planetItemsTemplate
 	templateName "Template:LocalMilitia_AsteroidB"
 	subTemplates 1
-		template "Template:AsteroidB"
+		template "Template:LocalMilitiaAsteroidB"
 	groups 0	
 planetItemsTemplate
 	templateName "Template:LocalMilitia_AsteroidC"
 	subTemplates 1
-		template "Template:AsteroidC"
+		template "Template:LocalMilitiaAsteroidC"
 	groups 0	
 planetItemsTemplate
 	templateName "Template:LocalMilitia_AsteroidD"
 	subTemplates 1
-		template "Template:AsteroidD"
+		template "Template:LocalMilitiaAsteroidD"
 	groups 0		
 planetItemsTemplate
 	templateName "Template:LocalMilitia_MoonB"
 	subTemplates 1
-		template "Template:MoonB"
+		template "Template:LocalMilitiaMoonB"
 	groups 0	
 planetItemsTemplate
 	templateName "Template:LocalMilitia_MoonC"
 	subTemplates 1
-		template "Template:MoonC"
+		template "Template:LocalMilitiaMoonC"
 	groups 0	
 planetItemsTemplate
 	templateName "Template:LocalMilitia_MoonD"
 	subTemplates 1
-		template "Template:MoonD"
+		template "Template:LocalMilitiaMoonD"
 	groups 0			
 planetItemsTemplate
 	templateName "Template:LocalMilitia_DeadAsteroid"
@@ -4200,23 +4038,6 @@ player
 	pictureGroup "NPC"
 	pictureIndex 0
 player
-	designName "SOE"
-	inGameName "IDSScenarioPlayerNameRebels"
-	overrideRaceName "SOE"
-	teamIndex -1
-	startingCredits 1000
-	startingMetal 300
-	startingCrystal 100
-	isNormalPlayer FALSE
-	isRaidingPlayer FALSE
-	isInsurgentPlayer TRUE
-	isOccupationPlayer FALSE
-	isMadVasariPlayer FALSE
-	themeGroup "SpecialNPC"
-	themeIndex 1
-	pictureGroup "NPC"
-	pictureIndex 1
-player
 	designName "Occupation"
 	inGameName "IDSScenarioPlayerNameOccupation"
 	overrideRaceName "Gallente"
@@ -4250,6 +4071,23 @@ player
 	themeIndex 15
 	pictureGroup "PlayerPhase"
 	pictureIndex 15
+player
+	designName "SOE"
+	inGameName "IDSScenarioPlayerNameRebels"
+	overrideRaceName "SOE"
+	teamIndex -1
+	startingCredits 1000
+	startingMetal 300
+	startingCrystal 100
+	isNormalPlayer FALSE
+	isRaidingPlayer FALSE
+	isInsurgentPlayer TRUE
+	isOccupationPlayer FALSE
+	isMadVasariPlayer FALSE
+	themeGroup "SpecialNPC"
+	themeIndex 1
+	pictureGroup "NPC"
+	pictureIndex 1
 autoAddMiltiaPlayerCountPerGalaxy 10
 autoAddMilitiaPlayers 10
 player
