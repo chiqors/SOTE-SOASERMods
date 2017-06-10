@@ -82,10 +82,7 @@ NameStringID "IDS_CAPITALSHIP_DREADNOUGHT_PHOENIX_CRUISE_NAME"
 DescriptionStringID "IDS_CAPITALSHIP_DREADNOUGHT_PHOENIX_CRUISE_DESCRIPTION"
 picture "PICTURE_DREADNOUGHT_PHOENIX"
 Prerequisites
-	NumResearchPrerequisites 1
-	ResearchPrerequisite
-		Subject "Caldari_ResearchSubject_CapitalAccess_Phoenix"
-		Level 1
+	NumResearchPrerequisites 0
 	RequiredFactionNameID ""
 	RequiredCompletedResearchSubjects 0
 roleType "Invalid"

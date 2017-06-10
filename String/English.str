@@ -1,5 +1,5 @@
 TXT
-NumStrings 8379
+NumStrings 8380
 StringInfo
     ID "IDS_ABILITY_RORQUALPANIC_NAME"
 	Value "P.A.N.I.C Module"
@@ -24485,7 +24485,7 @@ StringInfo
 	Value "Moa"
 StringInfo
 	ID "IDS_FRIGATE_MOA_DESCRIPTION"
-	Value ""	
+	Value "The Moa was designed as an all-out combat ship, and its heavy armament allows the Moa to tackle almost anything that floats in space. In contrast of it older version wich use railguns, this version use missiles."	
 StringInfo
 	ID "IDS_RESEARCHSUBJECT_FRIGATEACCESS_MOA_NAME"
 	Value "Moa BPO"
@@ -24809,7 +24809,7 @@ StringInfo
 	Value "Thorax Cruiser"
 StringInfo
 	ID "IDS_RSG_THORAX_DESCRIPTION"
-	Value ""
+	Value "The Thorax-class cruiser is the latest combat ship commissioned by the Federation. While the Thorax is a very effective ship at any range, typical of modern Gallente design philosophy it is most effective when working at extreme close range where its blasters and hordes of combat drones tear through even the toughest of enemies."
 StringInfo
 	ID "IDS_TITAN_VANQUISHER_NAME"
 	Value "The Vanquisher"
@@ -24864,6 +24864,9 @@ StringInfo
 StringInfo
 	ID "IDS_COMMAND_TITAN_LEVIATHAN_NAME"
 	Value "Command Titan Leviathan"
+StringInfo
+	ID "IDS_ANGEL_TITAN_LEVIATHAN_NAME"
+	Value "Guristas Titan Leviathan"
 StringInfo
 	ID "IDS_COMMAND_TITAN_GALLENTE_NAME"
 	Value "Command Titan Erebus"		

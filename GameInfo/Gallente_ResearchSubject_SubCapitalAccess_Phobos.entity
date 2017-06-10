@@ -1,30 +1,30 @@
 ﻿TXT
 entityType "ResearchSubject"
-hudIcon "HUDICON_RESEARCHSUBJECT_FRIGATEACCESS_MINELAYERPHASE"
-smallHudIcon "HUDICON_RESEARCHSUBJECT_FRIGATEACCESS_MINELAYERPHASE"
+hudIcon "HUDICON_RESEARCHSUBJECT_SUBCAPITALACCESS_THORAX"
+smallHudIcon "HUDICON_RESEARCHSUBJECT_SUBCAPITALACCESS_THORAX"
 infoCardIcon ""
-NameStringID "IDS_RESEARCHSUBJECT_FRIGATEACCESS_MINELAYERPHASE_NAME"
-DescriptionStringID "IDS_RESEARCHSUBJECT_FRIGATEACCESS_MINELAYERPHASE_DESCRIPTION"
+NameStringID "IDS_RESEARCHSUBJECT_FRIGATEACCESS_THORAX_NAME"
+DescriptionStringID "IDS_RESEARCHSUBJECT_FRIGATEACCESS_THORAX_DESC"
 researchWindowLocation
 	block 2
-	pos [ 5 , 3 ]
+	pos [ 2 , 1 ]
 ResearchField "Combat"
 Prerequisites
 	NumResearchPrerequisites 0
 	RequiredFactionNameID ""
 	RequiredCompletedResearchSubjects 0
 MinimumArtifactLevel -1
-BaseUpgradeTime 90.000000
-PerLevelUpgradeTime 10.000000
+BaseUpgradeTime 50.000000
+PerLevelUpgradeTime 5.000000
 BaseCost
-	credits 1400.000000
-	metal 250.000000
-	crystal 400.000000
+	credits 800.000000
+	metal 100.000000
+	crystal 175.000000
 PerLevelCostIncrease
 	credits 100.000000
 	metal 25.000000
 	crystal 25.000000
-Tier 5
+Tier 2
 onlyWorksIfTierLabsExist TRUE
 MaxNumResearchLevels 1
 priority 0.000000
