@@ -12,7 +12,7 @@ ResearchField "Combat"
 Prerequisites
 	NumResearchPrerequisites 1
 	ResearchPrerequisite
-		Subject "AllRaces_ResearchSubject_T3ModuleAccess_DefensiveSystems"
+		Subject "AllRaces_ResearchSubject_T3ModuleAccess_PropursionSystems"
 		Level 1
 	RequiredFactionNameID ""
 	RequiredCompletedResearchSubjects 0
