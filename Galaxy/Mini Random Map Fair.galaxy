@@ -47,12 +47,12 @@ randomizerParams
 			minCount 1
 			maxCount 1
 			planetTypeCount 1
-			planetType "AsteroidFair"
+			planetType "RandomAsteroid"
 		extraPlanetGroup
 			minCount 1
 			maxCount 1
 			planetTypeCount 1
-			planetType "MoonFair"
+			planetType "RandomMoon"
 	starCount 1
 	star
 		type "RandomStar"
@@ -103,9 +103,9 @@ randomizerParams
 				minCount 1
 				maxCount 1
 				planetTypeCount 1
-				planetType "AsteroidFair"
+				planetType "RandomAsteroid"
 			planetGroup
 				minCount 1
 				maxCount 1
 				planetTypeCount 1
-				planetType "MoonFair"
+				planetType "RandomMoon"

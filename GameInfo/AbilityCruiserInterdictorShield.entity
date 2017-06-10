@@ -2,7 +2,7 @@
 entityType "Ability"
 buffInstantActionType "ApplyBuffToSelf"
 instantActionTriggerType "AlwaysPerform"
-buffType "BuffCruiserResist"
+buffType "BuffCruiserInterdictorShield"
 effectInfo
 	effectAttachInfo
 		attachType "Invalid"
@@ -16,7 +16,7 @@ moveThruTarget FALSE
 isUltimateAbility FALSE
 maxNumLevels 1
 levelSourceType "ResearchWithoutBase"
-improveSourceResearchSubject "RSAHeavyAssault"
+improveSourceResearchSubject "RSAInterdictor"
 aiUseTime "Invalid"
 aiUseTargetCondition "Invalid"
 isAutoCastAvailable FALSE
@@ -28,12 +28,12 @@ useCostType "Passive"
 researchPrerequisites
 	NumResearchPrerequisites 1
 	ResearchPrerequisite
-		Subject "RSAHeavyAssault"
+		Subject "RSAInterdictor"
 		Level 1
 	RequiredFactionNameID ""
 	RequiredCompletedResearchSubjects 0
-nameStringID "AbilityT2CruiserCerberusName"
-descStringID "AbilityT2CruiserCerberuskDescription"
-hudIcon "HUDICON_FRIGATEACCESS_CERBERUS"
-smallHudIcon "HUDICON_FRIGATEACCESS_CERBERUS"
+nameStringID "IDS_RSA_INTERDICTOR_NAME"
+descStringID "IDS_RSA_INTERDICTOR_DESCRIPTION"
+hudIcon "HUDICON_FRIGATE_TECHHEAVY"
+smallHudIcon "HUDICONSMALL_FRIGATE_TECHHEAVY"
 infoCardIcon ""

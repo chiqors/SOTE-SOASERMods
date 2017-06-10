@@ -146,10 +146,10 @@ ExplosionName "EVECruiser"
 HyperspaceChargingSoundID "HYPERSPACE_CHARGEUP"
 HyperspaceTravelSoundID "HYPERSPACE_TRAVEL"
 EngineSoundID "ENGINE_TECHCAPITALSHIP"
-ability:0 "AbilityAfterburner"
+ability:0 "AbilityMicrowarpdrive"
 ability:1 "AbilityStasisWebifier"
-ability:2 "AbilityPhasedArmourHardener"
-ability:3 ""
+ability:2 ""
+ability:3 "AbilityCruiserDamage"
 ability:4 "AbilityT2CruiserZealot"
 MaxAntiMatter 275.000000
 AntiMatterRestoreRate 0.500000

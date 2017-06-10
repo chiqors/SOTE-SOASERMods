@@ -82,10 +82,7 @@ NameStringID "IDS_CAPITALSHIP_SEPENTIS_THANATOS_NAME"
 DescriptionStringID "IDS_CAPITALSHIP_PHASEBATTLESHIP_DESCRIPTION"
 picture "PICTURE_CAPITAL_THANATOS"
 Prerequisites
-	NumResearchPrerequisites 1
-	ResearchPrerequisite
-		Subject "Gallente_ResearchSubject_CapitalAccess_Thanatos"
-		Level 1
+	NumResearchPrerequisites 0
 	RequiredFactionNameID ""
 	RequiredCompletedResearchSubjects 0
 roleType "Invalid"

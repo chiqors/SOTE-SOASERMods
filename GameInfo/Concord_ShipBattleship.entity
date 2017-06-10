@@ -29,17 +29,14 @@ ShieldPointRestoreRate 10.000000
 BaseArmorPoints 18.000000
 maxMitigation 0.150000
 Prerequisites
-	NumResearchPrerequisites 1
-	ResearchPrerequisite
-		Subject "Amarr_ResearchSubject_SubCapitalAccess_Apocalypse"
-		Level 1
+	NumResearchPrerequisites 0
 	RequiredFactionNameID ""
 	RequiredCompletedResearchSubjects 0
 numRandomDebrisLarge 0
 numRandomDebrisSmall 0
 numSpecificDebris 0
 armorType "Heavy"
-hudIcon "HUDICON_CAPITALSHIP_TECHSIEGE"
+hudIcon "HUDICON_CONCORD_BATTLESHIP"
 smallHudIcon "HUDICONSMALL_CAPITALSHIP_TECHSIEGE"
 infoCardIcon "INFOCARDICON_CAPITALSHIP_TECHSIEGE"
 minZoomDistanceMult 1.000000

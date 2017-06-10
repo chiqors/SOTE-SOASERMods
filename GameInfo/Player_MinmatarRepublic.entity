@@ -76,6 +76,7 @@ entities
 			entityDefName "Ore_ShipOrca"
 	researchInfo
 		count 137
+		entityDefName "RSAInterdictor"
 		entityDefName "RSACommand_Orca"
 		entityDefName "RSACovertOps"
 		entityDefName "RSAHeavyAssault"
@@ -122,7 +123,6 @@ entities
 		entityDefName "Minmatar_ResearchSubject_CapitalAccess_Nidhoggur"
 		entityDefName "Minmatar_ResearchSubject_SubCapitalAccess_Belicose"
 		entityDefName "Minmatar_ResearchSubject_SubCapitalAccess_Breacher"
-		entityDefName "Minmatar_ResearchSubject_SubCapitalAccess_Broadsword"
 		entityDefName "Minmatar_ResearchSubject_SubCapitalAccess_Cyclone"
 		entityDefName "Minmatar_ResearchSubject_SubCapitalAccess_CycloneEnvoy"
 		entityDefName "Minmatar_ResearchSubject_SubCapitalAccess_Hurricane"

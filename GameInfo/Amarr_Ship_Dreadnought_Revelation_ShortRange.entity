@@ -102,17 +102,17 @@ NumWeapons 1
 Weapon
 	WeaponType "Beam"
 	damageEnums
-		AttackType "ANTIHEAVY"
+		AttackType "ANTIMEDIUM"
 		DamageAffectType "AFFECTS_SHIELDS_AND_HULL"
 		DamageApplyType "OVERTIME"
 		DamageType "ENERGY"
 		WeaponClassType "BEAM"
-	DamagePerBank:FRONT 1102.000000
+	DamagePerBank:FRONT 2784.000000
 	DamagePerBank:BACK 0.000000
 	DamagePerBank:LEFT 0.000000
 	DamagePerBank:RIGHT 0.000000
 	Range 10000.000000
-	PreBuffCooldownTime 33.000000
+	PreBuffCooldownTime 8.7800000
 	CanFireAtFighter FALSE
 	SynchronizedTargeting TRUE
 	PointStaggerDelay 0.000000

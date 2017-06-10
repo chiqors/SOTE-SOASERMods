@@ -78,14 +78,11 @@ AntiMatterRestoreRate
 CultureProtectRate
 	StartValue 2.800000
 	ValueIncreasePerLevel 0.050000
-NameStringID "IDS_COMMAND_TITAN_MINMATAR_NAME"
+NameStringID "IDS_COMMAND_TITAN_ANGEL_NAME"
 DescriptionStringID "IDS_COMMAND_TITAN__DESCRIPTION"
 picture "PICTURE_CAPITAL_RAGNAROK"
 Prerequisites
-	NumResearchPrerequisites 1
-	ResearchPrerequisite
-		Subject "Minmatar_RESEARCHSUBJECT_TITANACCESS_Ragnarok"
-		Level 1
+	NumResearchPrerequisites 0
 	RequiredFactionNameID ""
 	RequiredCompletedResearchSubjects 0
 statCountType "Titan"

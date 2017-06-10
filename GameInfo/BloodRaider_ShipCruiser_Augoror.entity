@@ -29,10 +29,7 @@ ShieldPointRestoreRate 1.00000
 BaseArmorPoints 6.000000
 maxMitigation 0.000000
 Prerequisites
-	NumResearchPrerequisites 1
-	ResearchPrerequisite
-		Subject "Amarr_ResearchSubject_SubCapitalAccess_Augoror"
-		Level 1
+	NumResearchPrerequisites 0
 	RequiredFactionNameID ""
 	RequiredCompletedResearchSubjects 0
 numRandomDebrisLarge 0

@@ -2,7 +2,7 @@
 entityType "Ability"
 buffInstantActionType "ApplyBuffToSelf"
 instantActionTriggerType "AlwaysPerform"
-buffType "BuffSkillWeaponDamage5"
+buffType "BuffT2CaldariBasilisk"
 effectInfo
 	effectAttachInfo
 		attachType "Invalid"
@@ -16,7 +16,7 @@ moveThruTarget FALSE
 isUltimateAbility FALSE
 maxNumLevels 1
 levelSourceType "ResearchWithoutBase"
-improveSourceResearchSubject "Minmatar_ResearchSubject_SubCapitalAccess_Breacher"
+improveSourceResearchSubject "RSALogistic"
 aiUseTime "Invalid"
 aiUseTargetCondition "Invalid"
 isAutoCastAvailable FALSE
@@ -28,12 +28,12 @@ useCostType "Passive"
 researchPrerequisites
 	NumResearchPrerequisites 1
 	ResearchPrerequisite
-		Subject "Minmatar_ResearchSubject_SubCapitalAccess_Breacher"
+		Subject "RSALogistic"
 		Level 1
 	RequiredFactionNameID ""
 	RequiredCompletedResearchSubjects 0
-nameStringID "IDS_FRIGATE_BREACHER_NAME"
-descStringID "IDS_FRIGATE_BREACHER_DESCRIPTION"
-hudIcon "HUDICON_FRIGATE_BREACHER"
-smallHudIcon "HUDICONSMALL_FRIGATE_BREACHER"
+nameStringID "IDS_AMARR_SHIP_CRUISER_GUARDIAN_NAME"
+descStringID "IDS_AMARR_SHIP_CRUISER_GUARDIAN_Description"
+hudIcon "HUDICON_RESEARCHSUBJECT_FRIGATEACCESS_GUARDIAN"
+smallHudIcon "HUDICON_RESEARCHSUBJECT_FRIGATEACCESS_GUARDIAN"
 infoCardIcon ""

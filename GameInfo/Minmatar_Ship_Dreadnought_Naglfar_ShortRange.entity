@@ -70,11 +70,11 @@ maxMitigation
 	StartValue 0.300000
 	ValueIncreasePerLevel 0.005000
 MaxAntiMatter
-	StartValue 8000.000000
-	ValueIncreasePerLevel 800.000000
+	StartValue 62500.000000
+	ValueIncreasePerLevel 625.000000
 AntiMatterRestoreRate
-	StartValue 1.000000
-	ValueIncreasePerLevel 0.100000
+	StartValue 57.000000
+	ValueIncreasePerLevel 1.000000
 CultureProtectRate
 	StartValue 0.700000
 	ValueIncreasePerLevel 0.050000
@@ -107,12 +107,12 @@ Weapon
 		DamageApplyType "BACKLOADED"
 		DamageType "PHYSICAL"
 		WeaponClassType "GAUSS"
-	DamagePerBank:FRONT 594.000000
+	DamagePerBank:FRONT 2784.000000
 	DamagePerBank:BACK 0.000000
 	DamagePerBank:LEFT 0.000000
 	DamagePerBank:RIGHT 0.000000
 	Range 10000.000000
-	PreBuffCooldownTime 17.400000
+	PreBuffCooldownTime 8.405000
 	CanFireAtFighter FALSE
 	SynchronizedTargeting TRUE
 	PointStaggerDelay 0.000000

@@ -67,8 +67,8 @@ planetType
 	orbitBodyType "AsteroidD"
 	orbitBodyType "Moon"
 	orbitBodyType "MoonB"
-	orbitBodyType "Moon3"	
-	orbitBodyType "Moon4"	
+	orbitBodyType "MoonC"	
+	orbitBodyType "MoonD"	
 	orbitBodyType "DeadAsteroid"
 	orbitBodyType "ShipGraveyard"
 	orbitBodyType "Barren"
@@ -113,8 +113,8 @@ planetType
 	orbitBodyType "AsteroidD"
 	orbitBodyType "Moon"
 	orbitBodyType "MoonB"
-	orbitBodyType "Moon3"	
-	orbitBodyType "Moon4"	
+	orbitBodyType "MoonC"	
+	orbitBodyType "MoonD"	
 	orbitBodyType "AsteroidBelt"
 	orbitBodyType "AsteroidBelt"
 	orbitBodyType "AsteroidBelt"
@@ -206,8 +206,8 @@ planetType
 	orbitBodyType "AsteroidD"
 	orbitBodyType "Moon"
 	orbitBodyType "MoonB"
-	orbitBodyType "Moon3"	
-	orbitBodyType "Moon4"	
+	orbitBodyType "MoonC"	
+	orbitBodyType "MoonD"	
 	orbitBodyType "Barren"
 	orbitBodyType "Barren"
 	orbitBodyType "Barren"
@@ -256,8 +256,8 @@ planetType
 	orbitBodyType "AsteroidD"
 	orbitBodyType "Moon"
 	orbitBodyType "MoonB"
-	orbitBodyType "Moon3"	
-	orbitBodyType "Moon4"	
+	orbitBodyType "MoonC"	
+	orbitBodyType "MoonD"	
 	orbitBodyType "DeadAsteroid"
 	orbitBodyType "ShipGraveyard"
 	orbitBodyType "AsteroidBelt"
@@ -277,18 +277,18 @@ planetType
 	designName "RandomAsteroid"
 	designStringId "IDSGalaxyScenarioTypePlanetAsteroidRandom"
 	orbitBodyTypeCount 4
+	orbitBodyType "Asteroid"	
 	orbitBodyType "AsteroidB"
 	orbitBodyType "AsteroidC"
 	orbitBodyType "AsteroidD"	
-	orbitBodyType "Asteroid"	
 planetType
 	designName "RandomMoon"
 	designStringId "IDSGalaxyScenarioTypePlanetMoonRandom"
 	orbitBodyTypeCount 4
-	orbitBodyType "MoonB"
-	orbitBodyType "Moon3"	
-	orbitBodyType "Moon4"	
 	orbitBodyType "Moon"
+	orbitBodyType "MoonB"
+	orbitBodyType "MoonC"	
+	orbitBodyType "MoonD"	
 planetType
 	designName "AsteroidOrMoon"
 	designStringId "IDSGalaxyScenarioTypePlanetAsteroidOrMoon"
@@ -299,8 +299,8 @@ planetType
 	orbitBodyType "AsteroidD"	
 	orbitBodyType "Moon"
 	orbitBodyType "MoonB"
-	orbitBodyType "Moon3"	
-	orbitBodyType "Moon4"	
+	orbitBodyType "MoonC"	
+	orbitBodyType "MoonD"	
 planetType
 	designName "AsteroidOrMoonFair"
 	designStringId "IDSGalaxyScenarioTypePlanetAsteroidOrMoonFair"
@@ -321,8 +321,8 @@ planetType
 	orbitBodyType "AsteroidD"
 	orbitBodyType "Moon"
 	orbitBodyType "MoonB"
-	orbitBodyType "Moon3"	
-	orbitBodyType "Moon4"	
+	orbitBodyType "MoonC"	
+	orbitBodyType "MoonD"	
 	orbitBodyType "DeadAsteroid"
 	orbitBodyType "ShipGraveyard"
 	orbitBodyType "AsteroidBelt"
@@ -615,15 +615,15 @@ planetType
 	orbitBodyTypeCount 1
 	orbitBodyType "MoonB"
 planetType
-	designName "Moon3"
+	designName "MoonC"
 	designStringId "IDSGalaxyScenarioTypePlanetMoon"
 	orbitBodyTypeCount 1
-	orbitBodyType "Moon3"	
+	orbitBodyType "MoonC"	
 planetType
-	designName "Moon4"
+	designName "MoonD"
 	designStringId "IDSGalaxyScenarioTypePlanetMoon"
 	orbitBodyTypeCount 1
-	orbitBodyType "Moon4"	
+	orbitBodyType "MoonD"	
 planetType
 	designName "MoonFair"
 	designStringId "IDSGalaxyScenarioTypePlanetMoonFair"
@@ -963,16 +963,16 @@ orbitBodyType
 	defaultTemplateName "Template:DefaultStart_AsteroidD"
 orbitBodyType	
 	typeName "MoonB"
-	entityDefName "PlanetMoon"
-	defaultTemplateName "Template:DefaultStart_AsteroidB"
+	entityDefName "PlanetMoonB"
+	defaultTemplateName "Template:DefaultStart_MoonB"
 orbitBodyType	
-	typeName "Moon3"
-	entityDefName "PlanetMoon"
-	defaultTemplateName "Template:DefaultStart_AsteroidC"	
+	typeName "MoonC"
+	entityDefName "PlanetMoonC"
+	defaultTemplateName "Template:DefaultStart_MoonC"	
 orbitBodyType	
-	typeName "Moon4"
-	entityDefName "PlanetMoon"
-	defaultTemplateName "Template:DefaultStart_AsteroidD"		
+	typeName "MoonD"
+	entityDefName "PlanetMoonD"
+	defaultTemplateName "Template:DefaultStart_MoonD"		
 planetItemTypeCount 250
 planetItemType
 	designName "Caldari:Frigate:Destoyer"
@@ -1724,7 +1724,7 @@ planetItemType
 planetItemType
 	designName "Caldari:Frigate:Frigate"
 	entityDefName "Caldari_Ship_Frigate_kestrel"	
-playerTypeCount 11
+playerTypeCount 13
 playerType
 	designName "Amarr"
 	entityDefName "Player_AmarrEmpire"
@@ -1758,7 +1758,13 @@ playerType
 playerType
 	designName "Sleepers"
 	entityDefName "Player_Sleepers"
-planetItemsTemplateCount 78
+playerType
+	designName "Mordu"
+	entityDefName "Player_Mordu"	
+playerType
+	designName "SOE"
+	entityDefName "Player_SOE"		
+planetItemsTemplateCount 87
 planetItemsTemplate
 	templateName "Empty"
 	subTemplates 0
@@ -2769,11 +2775,11 @@ planetItemsTemplate
 planetItemsTemplate
 	templateName "Template:LocalMilitiaWeak"
 	subTemplates 0
-	groups 6
+	groups 2
 		group
 			condition
-				type "PlanetOwnerIsMilitiaWithChance"
-				param "0.3"
+				type "PlanetOwnerIsMilitia"
+				param ""
 			owner "PlanetOwner"
 			colonizeChance 0
 			items 15
@@ -2794,84 +2800,18 @@ planetItemsTemplate
 				item "Amarr:Module:CrystalExtractor"
 		group
 			condition
-				type "PlanetOwnerIsMilitia"
-				param ""
-			owner "PlanetOwner"
-			colonizeChance 0
-			items 15
-				item "Gallente:Frigate:Utility0"
-				item "Gallente:Frigate:Cruiser"
-				item "Gallente:Frigate:Cruiser"
-				item "Gallente:Frigate:Cruiser"
-				item "Gallente:Frigate:Cruiser"
-				item "Gallente:Frigate:Logistics"				
-				item "Gallente:Frigate:Logistics"				
-				item "Gallente:Frigate:Logistics"								
-				item "Gallente:Frigate:Frigate"
-				item "Gallente:Frigate:Frigate"
-				item "Gallente:Frigate:Frigate"
-				item "Gallente:Frigate:Frigate"
-				item "Gallente:Module:MissileDefense"
-				item "Amarr:Module:MetalExtractor"
-				item "Amarr:Module:CrystalExtractor"				
-		group
-			condition
-				type "NoPlanetOwnerWithChance"
-				param "0.3"
-			owner "Gallente"
-			colonizeChance 0
-			items 10
-				item "Gallente:Frigate:Cruiser"
-				item "Gallente:Frigate:Cruiser"
-				item "Gallente:Frigate:Cruiser"
-				item "Gallente:Frigate:Logistics"				
-				item "Gallente:Frigate:Frigate"
-				item "Gallente:Frigate:Frigate"
-				item "Gallente:Frigate:Frigate"
-				item "Gallente:Module:MissileDefense"
-				item "Amarr:Module:MetalExtractor"
-				item "Amarr:Module:CrystalExtractor"		
-		group
-			condition
-				type "NoPlanetOwnerWithChance"
-				param "0.3"
-			owner "Amarr"
-			colonizeChance 0
-			items 10
-				item "Amarr:Frigate:LongRange"
-				item "Amarr:Frigate:LongRange"
-				item "Amarr:Frigate:LongRange"		
-				item "Amarr:Frigate:Utility1"										
-				item "Amarr:Frigate:Light"
-				item "Amarr:Frigate:Light"
-				item "Amarr:Frigate:Light"
-				item "Amarr:Module:GaussDefense"
-				item "Amarr:Module:MetalExtractor"
-				item "Amarr:Module:CrystalExtractor"
-		group
-			condition
-				type "PlanetOwnerIsMilitiaWithChance"
-				param "0.5"
-			owner "Gallente"
-			colonizeChance 0
-			items 3
-				item "Gallente:Module:MissileDefense"
-				item "Gallente:Module:MissileDefense"
-				item "Gallente:Module:MissileDefense"
-		group
-			condition
 				type "NoPlanetOwner"
 				param ""
 			owner "Gallente"
 			colonizeChance 0
 			items 7
-				item "Gallente:Frigate:Frigate"
-				item "Gallente:Frigate:Frigate"
-				item "Gallente:Frigate:Frigate"
-				item "Gallente:Frigate:Frigate"
-				item "Gallente:Frigate:Siege"
-				item "Gallente:Frigate:Siege"
-				item "Gallente:Frigate:Siege"				
+				item "Amarr:Frigate:Light"
+				item "Amarr:Frigate:Light"
+				item "Amarr:Frigate:Light"
+				item "Amarr:Frigate:Light"
+				item "Amarr:Frigate:Siege"
+				item "Amarr:Frigate:Siege"
+				item "Amarr:Frigate:Siege"
 planetItemsTemplate
 	templateName "Template:LocalMilitiaWeakFair"
 	subTemplates 0
@@ -3239,6 +3179,39 @@ planetItemsTemplate
 				item "Gallente:Frigate:Destoyer"
 				item "Gallente:Frigate:Destoyer"			
 planetItemsTemplate
+	templateName "Template:MoonB"
+		subTemplates 0
+	groups 2
+		group
+			condition
+				type "PlanetOwnerIsMilitia"
+				param ""
+			owner "Gallente"
+			colonizeChance 1
+			items 9
+				item "Gallente:Frigate:Frigate"
+				item "Gallente:Frigate:Frigate"
+				item "Gallente:Frigate:Frigate"
+				item "Gallente:Frigate:Frigate"
+				item "Gallente:Frigate:Destoyer"
+				item "Gallente:Frigate:Destoyer"
+				item "Gallente:Frigate:Cruiser"
+				item "Gallente:Frigate:Logistics"				
+				item "Gallente:Frigate:Logistics"								
+		group
+			condition
+				type "NoPlanetOwner"
+				param ""				
+			owner "Gallente"
+			colonizeChance 0
+			items 6
+				item "Gallente:Frigate:Frigate"
+				item "Gallente:Frigate:Frigate"
+				item "Gallente:Frigate:Frigate"
+				item "Gallente:Frigate:Frigate"
+				item "Gallente:Frigate:Destoyer"
+				item "Gallente:Frigate:Destoyer"							
+planetItemsTemplate
 	templateName "Template:AsteroidC"
 		subTemplates 0
 	groups 2
@@ -3272,6 +3245,39 @@ planetItemsTemplate
 				item "Minmatar:Frigate:Destoyer"
 				item "Minmatar:Frigate:Destoyer"
 planetItemsTemplate
+	templateName "Template:MoonC"
+		subTemplates 0
+	groups 2
+		group
+			condition
+				type "PlanetOwnerIsMilitia"
+				param ""
+			owner "Minmatar"
+			colonizeChance 1
+			items 9
+				item "Minmatar:Frigate:Frigate"
+				item "Minmatar:Frigate:Frigate"
+				item "Minmatar:Frigate:Frigate"
+				item "Minmatar:Frigate:Frigate"
+				item "Minmatar:Frigate:Destoyer"
+				item "Minmatar:Frigate:Destoyer"
+				item "Minmatar:Frigate:Cruiser"
+				item "Minmatar:Frigate:Logistics"				
+				item "Minmatar:Frigate:Logistics"								
+		group
+			condition
+				type "NoPlanetOwner"
+				param ""				
+			owner "Minmatar"
+			colonizeChance 0
+			items 6
+				item "Minmatar:Frigate:Frigate"
+				item "Minmatar:Frigate:Frigate"
+				item "Minmatar:Frigate:Frigate"
+				item "Minmatar:Frigate:Frigate"
+				item "Minmatar:Frigate:Destoyer"
+				item "Minmatar:Frigate:Destoyer"				
+planetItemsTemplate
 	templateName "Template:AsteroidD"
 		subTemplates 0
 	groups 2
@@ -3304,6 +3310,39 @@ planetItemsTemplate
 				item "Caldari:Frigate:Frigate"
 				item "Caldari:Frigate:Destoyer"
 				item "Caldari:Frigate:Destoyer"			
+planetItemsTemplate
+	templateName "Template:MoonD"
+		subTemplates 0
+	groups 2
+		group
+			condition
+				type "PlanetOwnerIsMilitia"
+				param ""
+			owner "Caldari"
+			colonizeChance 1
+			items 9
+				item "Caldari:Frigate:Frigate"
+				item "Caldari:Frigate:Frigate"
+				item "Caldari:Frigate:Frigate"
+				item "Caldari:Frigate:Frigate"
+				item "Caldari:Frigate:Destoyer"
+				item "Caldari:Frigate:Destoyer"
+				item "Caldari:Frigate:Cruiser"
+				item "Caldari:Frigate:Logistics"				
+				item "Caldari:Frigate:Logistics"								
+		group
+			condition
+				type "NoPlanetOwner"
+				param ""				
+			owner "Caldari"
+			colonizeChance 0
+			items 6
+				item "Caldari:Frigate:Frigate"
+				item "Caldari:Frigate:Frigate"
+				item "Caldari:Frigate:Frigate"
+				item "Caldari:Frigate:Frigate"
+				item "Caldari:Frigate:Destoyer"
+				item "Caldari:Frigate:Destoyer"							
 planetItemsTemplate
 	templateName "Template:SleeperTower"
 	subTemplates 0
@@ -3872,7 +3911,7 @@ planetItemsTemplate
 	templateName "Template:DefaultStart_Asteroid"
 	subTemplates 2		
 		template "Template:DefaultHomePlanetSetup"
-		template "Template:LocalMilitia_Asteroid"
+		template "Template:LocalMilitiaWeak"
 	groups 0		
 planetItemsTemplate
 	templateName "Template:DefaultStart_AsteroidB"
@@ -3888,6 +3927,21 @@ planetItemsTemplate
 	templateName "Template:DefaultStart_AsteroidD"
 	subTemplates 1
 		template "Template:LocalMilitia_AsteroidD"
+	groups 0	
+planetItemsTemplate
+	templateName "Template:DefaultStart_MoonB"
+	subTemplates 1
+		template "Template:LocalMilitia_MoonB"
+	groups 0
+planetItemsTemplate
+	templateName "Template:DefaultStart_MoonC"
+	subTemplates 1
+		template "Template:LocalMilitia_MoonC"
+	groups 0	
+planetItemsTemplate
+	templateName "Template:DefaultStart_MoonD"
+	subTemplates 1
+		template "Template:LocalMilitia_MoonD"
 	groups 0	
 planetItemsTemplate
 	templateName "Template:DefaultStart_Sleeper"
@@ -4044,6 +4098,21 @@ planetItemsTemplate
 		template "Template:AsteroidD"
 	groups 0		
 planetItemsTemplate
+	templateName "Template:LocalMilitia_MoonB"
+	subTemplates 1
+		template "Template:MoonB"
+	groups 0	
+planetItemsTemplate
+	templateName "Template:LocalMilitia_MoonC"
+	subTemplates 1
+		template "Template:MoonC"
+	groups 0	
+planetItemsTemplate
+	templateName "Template:LocalMilitia_MoonD"
+	subTemplates 1
+		template "Template:MoonD"
+	groups 0			
+planetItemsTemplate
 	templateName "Template:LocalMilitia_DeadAsteroid"
 	subTemplates 1
 		template "Template:LocalMilitiaVeryWeak"
@@ -4131,9 +4200,9 @@ player
 	pictureGroup "NPC"
 	pictureIndex 0
 player
-	designName "Rebel"
+	designName "SOE"
 	inGameName "IDSScenarioPlayerNameRebels"
-	overrideRaceName "TechRebel"
+	overrideRaceName "SOE"
 	teamIndex -1
 	startingCredits 1000
 	startingMetal 300
@@ -4150,7 +4219,7 @@ player
 player
 	designName "Occupation"
 	inGameName "IDSScenarioPlayerNameOccupation"
-	overrideRaceName "GallenteFederation"
+	overrideRaceName "Gallente"
 	teamIndex -1
 	startingCredits 0
 	startingMetal 0
@@ -4167,7 +4236,7 @@ player
 player
 	designName "MadVasari"
 	inGameName "IDSScenarioPlayerNameMadVasari"
-	overrideRaceName "GallenteFederation"
+	overrideRaceName "Gallente"
 	teamIndex -1
 	startingCredits 0
 	startingMetal 0

@@ -22,8 +22,8 @@ slotCount 5.000000
 BuildTime 23.000000
 hasLevels FALSE
 ExperiencePointsForDestroying 86.000000
-MaxHullPoints 2400.000000
-MaxShieldPoints 1100.000000
+MaxHullPoints 2880.000000
+MaxShieldPoints 1250.000000
 HullPointRestoreRate 1.00000
 ShieldPointRestoreRate 1.00000
 BaseArmorPoints 6.000000
@@ -47,17 +47,17 @@ NumWeapons 1
 Weapon
 	WeaponType "Beam"
 	damageEnums
-		AttackType "ANTIVERYHEAVY"
+		AttackType "ANTIMEDIUM"
 		DamageAffectType "AFFECTS_SHIELDS_AND_HULL"
 		DamageApplyType "OVERTIME"
 		DamageType "ENERGY"
 		WeaponClassType "LASERTECH"
-	DamagePerBank:FRONT 262.000000
+	DamagePerBank:FRONT 300.000000
 	DamagePerBank:BACK 0.000000
 	DamagePerBank:LEFT 0.000000
 	DamagePerBank:RIGHT 0.000000
-	Range 6000.000000
-	PreBuffCooldownTime 3.070000
+	Range 4000.000000
+	PreBuffCooldownTime 3.530000
 	CanFireAtFighter FALSE
 	SynchronizedTargeting TRUE
 	PointStaggerDelay 0.000000
@@ -146,10 +146,10 @@ HyperspaceChargingSoundID "HYPERSPACE_CHARGEUP"
 HyperspaceTravelSoundID "HYPERSPACE_TRAVEL"
 EngineSoundID "ENGINE_TECHCAPITALSHIP"
 ability:0 "AbilityMicrowarpdrive"
-ability:1 "AbilityInterdictionSphere"
+ability:1 "AbilityStasisWebifier"
 ability:2 "AbilityAmarrCynosuralField"
-ability:3 ""
-ability:4 ""
+ability:3 "AbilityInterdictionSphere"
+ability:4 "AbilityCruiserInterdictorArmor"
 MaxAntiMatter 700.000000
 AntiMatterRestoreRate 1.200000
 cargoType "Invalid"

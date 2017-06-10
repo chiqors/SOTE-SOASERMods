@@ -63,10 +63,7 @@ ShieldPointRestoreRate 0.165000
 BaseArmorPoints 0.000000
 maxMitigation 0.400000
 Prerequisites
-	NumResearchPrerequisites 1
-	ResearchPrerequisite
-		Subject "Amarr_ResearchSubject_SubCapitalAccess_Inquisitor"
-		Level 1
+	NumResearchPrerequisites 0
 	RequiredFactionNameID ""
 	RequiredCompletedResearchSubjects 0
 numRandomDebrisLarge 0

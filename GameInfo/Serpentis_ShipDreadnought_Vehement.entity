@@ -78,8 +78,8 @@ AntiMatterRestoreRate
 CultureProtectRate
 	StartValue 0.700000
 	ValueIncreasePerLevel 0.050000
-NameStringID "IDS_CAPITALSHIP_PHASESIEGE_NAME"
-DescriptionStringID "IDS_CAPITALSHIP_PHASESIEGE_DESCRIPTION"
+NameStringID "IDS_SERPENTIS_VEHEMENT_NAME"
+DescriptionStringID "IDS_SERPENTIS_VEHEMENT_DESCRIPTION"
 picture "PICTURE_CAPITAL_MOROS"
 Prerequisites
 	NumResearchPrerequisites 1

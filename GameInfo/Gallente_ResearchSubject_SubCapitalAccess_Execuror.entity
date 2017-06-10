@@ -7,7 +7,7 @@ NameStringID "IDS_RESEARCHSUBJECT_FRIGATEACCESS_UTILITY1PHASE_NAME"
 DescriptionStringID "IDS_RESEARCHSUBJECT_FRIGATEACCESS_UTILITY1PHASE_DESCRIPTION"
 researchWindowLocation
 	block 2
-	pos [ 2 , 1 ]
+	pos [ 2 , 0 ]
 ResearchField "Combat"
 Prerequisites
 	NumResearchPrerequisites 0

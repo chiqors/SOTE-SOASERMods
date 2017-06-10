@@ -76,6 +76,7 @@ entities
 			entityDefName "Ore_ShipOrca"			
 	researchInfo
 		count 139
+		entityDefName "RSAInterdictor"		
 		entityDefName "RSACommand_Orca"		
 		entityDefName "RSACovertOps"
 		entityDefName "RSAHeavyAssault"
@@ -124,7 +125,6 @@ entities
 		entityDefName "Caldari_ResearchSubject_SubCapitalAccess_Rokh"
 		entityDefName "Caldari_ResearchSubject_SubCapitalAccess_Scorpion"
 		entityDefName "Caldari_ResearchSubject_SubCapitalAccess_Comorant"
-		entityDefName "Caldari_ResearchSubject_SubCapitalAccess_Moa"
 		entityDefName "Caldari_ResearchSubject_SubCapitalAccess_Osprey"
 		entityDefName "RSALogistic"
 		entityDefName "Caldari_ResearchSubject_SubCapitalAccess_Caracal"

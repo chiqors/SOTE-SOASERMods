@@ -82,10 +82,7 @@ NameStringID "IDS_BLOODRAIDER_NAME"
 DescriptionStringID "IDS_SNIPERREVELATION_DESCRIPTION"
 picture "PICTURE_CAPITAL_REVELATION"
 Prerequisites
-	NumResearchPrerequisites 1
-	ResearchPrerequisite
-		Subject "Amarr_ResearchSubject_CapitalAccess_Revelation"
-		Level 1
+	NumResearchPrerequisites 0
 	RequiredFactionNameID ""
 	RequiredCompletedResearchSubjects 0
 roleType "COLONY"

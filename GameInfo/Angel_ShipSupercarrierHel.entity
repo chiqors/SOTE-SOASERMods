@@ -82,10 +82,7 @@ NameStringID "IDS_CAPITALSHIP_HEL_NAME"
 DescriptionStringID "IDS_CAPITALSHIP_HEL_DESCRIPTION"
 picture "PICTURE_CAPITAL_HEL"
 Prerequisites
-	NumResearchPrerequisites 1
-	ResearchPrerequisite
-		Subject "Minmatar_ResearchSubject_CapitalAccess_Hel"
-		Level 1
+	NumResearchPrerequisites 0
 	RequiredFactionNameID ""
 	RequiredCompletedResearchSubjects 0
 roleType "Invalid"
@@ -164,11 +161,11 @@ maxDecelerationAngular 1.000000
 maxSpeedLinear 250.000000
 maxRollRate 1.000000
 maxRollAngle 30.000000
-squadTypeEntityDef:0 "Minmatar_DroneSquad_LightFighter"
+squadTypeEntityDef:0 "Minmatar_DroneSquad_Anti-Fighter"
 squadAntiMatterCost:0 0.000000
-squadTypeEntityDef:1 "Minmatar_DroneSquad_HeavyFighter"
+squadTypeEntityDef:1 "Minmatar_DroneSquad_LightFighter"
 squadAntiMatterCost:1 0.000000
-squadTypeEntityDef:2 ""
+squadTypeEntityDef:2 "Minmatar_DroneSquad_HeavyFighter"
 squadAntiMatterCost:2 0.000000
 squadTypeEntityDef:3 ""
 squadAntiMatterCost:3 0.000000

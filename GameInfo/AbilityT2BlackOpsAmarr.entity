@@ -28,7 +28,7 @@ useCostType "Passive"
 researchPrerequisites
 	NumResearchPrerequisites 1
 	ResearchPrerequisite
-		Subject "AllRaces_ResearchSubject_CovertOpsJumpBridge"
+		Subject "RSABlackOps"
 		Level 1
 	RequiredFactionNameID ""
 	RequiredCompletedResearchSubjects 0

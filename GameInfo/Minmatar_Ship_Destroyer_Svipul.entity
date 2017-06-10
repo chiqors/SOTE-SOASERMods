@@ -33,7 +33,7 @@ maxMitigation 0.000000
 Prerequisites
 	NumResearchPrerequisites 1
 	ResearchPrerequisite
-		Subject "AllRaces_ResearchSubject_T3ModuleAccess_DefensiveSystems"
+		Subject "Minmatar_ResearchSubject_SubCapitalAccess_Svipul"
 		Level 1
 	RequiredFactionNameID ""
 	RequiredCompletedResearchSubjects 0

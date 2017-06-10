@@ -1,7 +1,7 @@
 ﻿TXT
 entityType "ResearchSubject"
-hudIcon "HUDICON_RESEARCHSUBJECT_HULLTECH2"
-smallHudIcon "HUDICON_RESEARCHSUBJECT_HULLTECH2"
+hudIcon "HUDICON_RESEARCHSUBJECT_CONFESSOR"
+smallHudIcon "HUDICON_RESEARCHSUBJECT_CONFESSOR"
 infoCardIcon ""
 NameStringID "IDS_Amarr_ResearchSubject_SubCapitalAccess_Confessor_NAME"
 DescriptionStringID "IDS_Amarr_ResearchSubject_SubCapitalAccess_Confessor_DESCRIPTION"
@@ -12,7 +12,7 @@ ResearchField "Combat"
 Prerequisites
 	NumResearchPrerequisites 1
 	ResearchPrerequisite
-		Subject "AllRaces_ResearchSubject_T3ModuleAccess_DefensiveSystems"
+		Subject "AllRaces_ResearchSubject_T3ModuleAccess_PropursionSystems"
 		Level 1
 	RequiredFactionNameID ""
 	RequiredCompletedResearchSubjects 0

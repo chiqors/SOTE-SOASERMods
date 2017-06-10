@@ -1,5 +1,5 @@
 TXT
-NumStrings 8364
+NumStrings 8379
 StringInfo
     ID "IDS_ABILITY_RORQUALPANIC_NAME"
 	Value "P.A.N.I.C Module"
@@ -6605,10 +6605,10 @@ StringInfo
 	Value "Grants access to the Catalyst. a small destroyer class vessel that is designed originally as an anti frigate platform. it also serves the purpose of helping to eliminate combat drones, fighters and fighter bombers that are fielded by hostile ships."
 StringInfo
 	ID "IDS_Amarr_ResearchSubject_SubCapitalAccess_Devoter_NAME"
-	Value "Devoter BPO"
+	Value "Maller BPO"
 StringInfo
 	ID "IDS_Amarr_ResearchSubject_SubCapitalAccess_Devoter_DESCRIPTION"
-	Value "Grants access to Devoter class interdictors, heavily armoured cruisers designed to prevent groups of ships escaping battle."
+	Value "Grants access to Maller Cruiser, heavily armoured cruisers designed to resist a great deal of damage."
 StringInfo
 	ID "IDS_RESEARCHSUBJECT_FRIGATEACCESS_ANTIMODULEPSI_NAME"
 	Value "Adjudicator Design"
@@ -9128,7 +9128,7 @@ StringInfo
 	Value "Increases the range at which incoming enemy capital ships can be detected."
 StringInfo
 	ID "IDS_CAPITALSHIP_TECHCOLONY_NAME"
-	Value "anti Sub-capital Revelation"
+	Value "Anti Sub-capital Revelation"
 StringInfo
 	ID "IDS_CAPITALSHIP_TECHCOLONY_DESCRIPTION"
 	Value "After an increase in the need for anti sub-capital ships, the Revelation class dreadnought was redesign. Sporting 3 groups of 4 mega pulse lasers and a specialized siege mode,"
@@ -10898,10 +10898,10 @@ StringInfo
 	Value "The Coercer is a basic combat destroyer sporting relatively heavy weaponry for a small ship. Its primary role is that of an anti fighter platform, designed to use its many pulse lasers to engage drones, fighters and fighter bombers."
 StringInfo
 	ID "IDS_FRIGATE_TECHANTIMODULE_NAME"
-	Value "Devoter"
+	Value "Maller"
 StringInfo
 	ID "IDS_FRIGATE_TECHANTIMODULE_DESCRIPTION"
-	Value "A specialized cruiser with very strong armour and resistance arrays, its primary role is to prevent ships leaving battle. It achieves this with a special interdiction sphere launcher capable of jamming the jump drives of all ships in range."
+	Value "A specialized cruiser with very strong armour and resistance arrays."
 StringInfo
 	ID "IDS_FRIGATE_TECHCARRIER_NAME"
 	Value "Arbitrator"
@@ -24791,7 +24791,7 @@ StringInfo
 	Value "Stabber Cruiser"
 StringInfo
 	ID "IDS_RSM_STABBER_DESCRIPTION"
-	Value ""
+	Value "The Stabber is the mainstay of the Minmatar fleet. It is light and extremely fast, yet surprisingly powerful, with a wide variety of weapons. It is one of few Minmatar vessels that have reached popularity outside Minmatar space."
 StringInfo
 	ID "IDS_RSC_MOA_NAME"
 	Value "Moa Cruiser"
@@ -24871,6 +24871,9 @@ StringInfo
 	ID "IDS_COMMAND_TITAN_MINMATAR_NAME"
 	Value "Command Titan Ragnarok"			
 StringInfo
+	ID "IDS_COMMAND_TITAN_ANGEL_NAME"
+	Value "Angel Titan Ragnarok"				
+StringInfo
 	ID "IDS_COMMAND_TITAN__DESCRIPTION"
 	Value "The commanda titan, also now as FC Titan, is modified version of titan. It comes with system wide bonus and equipament upgrades."
 StringInfo
@@ -24884,7 +24887,7 @@ StringInfo
 	Value "Stratios Cruiser"
 StringInfo
 	ID "IDS_SUMMON_STRATIOS_DESCRIPTION"
-	Value "Strong ties with the Sisters of Eve and your Empire allow you to buy Stratios Cruisers."
+	Value "This was one of the first vessels the Sisters of EVE made available to capsuleers. It had been under development by the Sanctuary corporation, whose interest in exploration includes not only search & rescue operations but also a constant inquiry into the nature of the EVE Gate."
 StringInfo
 	ID "IDS_SUMMON_NESTOR_NAME"
 	Value "Nestor Battleship"
@@ -25092,4 +25095,46 @@ StringInfo
 StringInfo
 	ID "IDS_BLOODRAIDER_SHIPYARD_NAME"
 	Value "BloodRaider Shipyard"	
+StringInfo
+	ID "IDS_ABILITY_DEPLOYDictorBubble_NAME"
+	Value "Interdictor Probe"		
+StringInfo
+	ID "IDS_ABILITY_DEPLOYDictorBubble_DESCRIPTION"
+	Value "Modified Interdictor Sphere Probe Launcher"		
+StringInfo
+	ID "IDS_FRIGATE_APOSTLE_NAME"
+	Value "Apostle"
+StringInfo
+	ID "IDS_FRIGATE_APOSTLE_DESCRIPTION"
+	Value "A heavily armed combat battlecruiser with a number of supporting combat abilities that enable it to carry out its role as a front line combat ship effectively."		
+StringInfo
+	ID "IDS_RSA_CRUISERDPS_NAME"
+	Value "Weapons Damage Uprade"
+StringInfo
+	ID "IDS_RSA_CRUISERDPS_DESCRIPTION"
+	Value "Install on attack cruisers aditional Weapon Damage Upgrade increassing wepons damage."			
+StringInfo
+	ID "IDS_RSA_CRUISERRESISTARMOR_NAME"
+	Value "Cruiser Armor Upgrade"
+StringInfo
+	ID "IDS_RSA_CRUISERRESISTARMOR_DESCRIPTION"
+	Value "Install on attack cruisers aditional Plate armors and Resist upgrades increassing overall survavility."
+StringInfo
+	ID "IDS_RSA_CRUISERRESISTSHIELD_NAME"
+	Value "Cruiser Shield Uprade"
+StringInfo
+	ID "IDS_RSA_CRUISERRESISTSHIELD_DESCRIPTION"
+	Value "Install on attack cruisers aditional Shield Extenders armors and Resist Smplifiers increassing overall survavility."
+StringInfo
+	ID "IDS_RSA_INTERDICTOR_NAME"
+	Value "Interdictor Upgrade"
+StringInfo
+	ID "IDS_RSA_INTERDICTOR_DESCRIPTION"
+	Value "Effectively combining the trapping power of interdictors with the defensive capabilities of heavy assault cruisers, the heavy interdiction cruiser is an invaluable addition to any skirmish force, offensive or defensive. Heavy interdiction cruisers are the only ships able to use the warp disruption field generator, a module which creates a warp disruption field that moves with the origin ship wherever it goes."
+StringInfo
+	ID "IDS_SERPENTIS_VEHEMENT_NAME"
+	Value "Vehement Dreadnought"
+StringInfo
+	ID "IDS_SERPENTIS_VEHEMENT_DESCRIPTION"
+	Value "Reacting to the rise of capsuleer capital fleets, the Serpentis Corporation requested that the Angel Cartel’s naval architects design a dreadnought class capital ship.Reacting to the rise of capsuleer capital fleets, the Serpentis Corporation requested that the Angel Cartel’s naval architects design a dreadnought class capital ship. "
 	

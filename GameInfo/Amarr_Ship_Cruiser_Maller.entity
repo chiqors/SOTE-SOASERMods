@@ -15,18 +15,18 @@ NameStringID "IDS_FRIGATE_TECHANTIMODULE_NAME"
 DescriptionStringID "IDS_FRIGATE_TECHANTIMODULE_DESCRIPTION"
 counterDescriptionStringID "IDS_COUNTERDESC_CORVETTE_TECH"
 basePrice
-	credits 339.000000
-	metal 177.000000
-	crystal 57.000000
+	credits 342.000000
+	metal 80.000000
+	crystal 37.000000
 slotCount 5.000000
 BuildTime 23.000000
 hasLevels FALSE
 ExperiencePointsForDestroying 86.000000
-MaxHullPoints 5320.000000
-MaxShieldPoints 1720.000000
+MaxHullPoints 2880.000000
+MaxShieldPoints 1250.000000
 HullPointRestoreRate 1.00000
 ShieldPointRestoreRate 1.00000
-BaseArmorPoints 10.000000
+BaseArmorPoints 6.000000
 maxMitigation 0.000000
 Prerequisites
 	NumResearchPrerequisites 1
@@ -47,7 +47,7 @@ NumWeapons 1
 Weapon
 	WeaponType "Beam"
 	damageEnums
-		AttackType "ANTIVERYHEAVY"
+		AttackType "ANTIMEDIUM"
 		DamageAffectType "AFFECTS_SHIELDS_AND_HULL"
 		DamageApplyType "OVERTIME"
 		DamageType "ENERGY"
@@ -146,10 +146,10 @@ HyperspaceChargingSoundID "HYPERSPACE_CHARGEUP"
 HyperspaceTravelSoundID "HYPERSPACE_TRAVEL"
 EngineSoundID "ENGINE_TECHCAPITALSHIP"
 ability:0 "AbilityMicrowarpdrive"
-ability:1 "AbilityInterdictionSphere"
+ability:1 "AbilityStasisWebifier"
 ability:2 "AbilityAmarrCynosuralField"
-ability:3 ""
-ability:4 ""
+ability:3 "AbilityInterdictionSphere"
+ability:4 "AbilityCruiserInterdictorArmor"
 MaxAntiMatter 700.000000
 AntiMatterRestoreRate 1.200000
 cargoType "Invalid"
