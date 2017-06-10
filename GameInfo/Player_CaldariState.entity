@@ -51,15 +51,15 @@ entities
 			entityDefName "Caldari_Ship_Frigate_Heron"
 			entityDefName "Caldari_Ship_Frigate_Condor"
 			entityDefName "Caldari_Ship_Frigate_Kestrel"
+			entityDefName "Caldari_Ship_Frigate_Merlin"
 			entityDefName "Caldari_Ship_Destroyer_Comorant"
 			entityDefName "Gallente_Ship_Colony_Orca"
 			entityDefName "Caldari_Ship_Cruiser_Caracal"
 			entityDefName "Caldari_Ship_Cruiser_Blackbird"
-			entityDefName "Caldari_Ship_Cruiser_Osprey"
 			entityDefName "Caldari_Ship_Cruiser_Onyx"
 		Page:1
 			count 9
-			entityDefName "Caldari_Ship_Battlecruiser_Ferox"
+			entityDefName "Caldari_Ship_Cruiser_Osprey"
 			entityDefName "Caldari_Ship_Battlecruiser_Drake"
 			entityDefName "Caldari_Ship_Battlecruiser_Naga"
 			entityDefName "Caldari_Ship_Battleship_Scorpion"
@@ -75,7 +75,7 @@ entities
 			entityDefName "Amarr_Ship_Refineryship_Bestower"
 			entityDefName "Ore_ShipOrca"			
 	researchInfo
-		count 139
+		count 138
 		entityDefName "RSAInterdictor"		
 		entityDefName "RSACommand_Orca"		
 		entityDefName "RSACovertOps"
@@ -115,7 +115,6 @@ entities
 		entityDefName "Caldari_ResearchSubject_CapitalAccess_Phoenix"
 		entityDefName "Caldari_ResearchSubject_CapitalAccess_Wyvern"
 		entityDefName "Caldari_ResearchSubject_SubCapitalAccess_Blackbird"
-		entityDefName "Caldari_ResearchSubject_SubCapitalAccess_Ferox"
 		entityDefName "Caldari_ResearchSubject_SubCapitalAccess_FeroxEnvoy"
 		entityDefName "Caldari_ResearchSubject_SubCapitalAccess_Kestrel"
 		entityDefName "Caldari_ResearchSubject_SubCapitalAccess_Drake"
