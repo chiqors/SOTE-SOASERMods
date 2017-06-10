@@ -75,10 +75,14 @@ entities
 			entityDefName "Amarr_Ship_Refineryship_Bestower"
 			entityDefName "Ore_ShipOrca"			
 	researchInfo
-		count 130
-		entityDefName "RSAInterdictor"
+		count 129
+		entityDefName "RSALogistic"
+		entityDefName "RSAInterdictor"		
 		entityDefName "RSACommand_Orca"		
 		entityDefName "RSACovertOps"
+		entityDefName "RSAHeavyAssault"
+		entityDefName "RSABlackOps"
+		entityDefName "RSAMarauder"
 		entityDefName "ALLRACES_RESEARCHSUBJECT_ABILITYACCESS_AFTERBURNER"
 		entityDefName "ALLRACES_RESEARCHSUBJECT_ABILITYACCESS_BASTIONMODE"
 		entityDefName "ALLRACES_RESEARCHSUBJECT_ABILITYACCESS_CLOAK"
@@ -126,8 +130,6 @@ entities
 		entityDefName "Gallente_ResearchSubject_SubCapitalAccess_Hyperion"
 		entityDefName "Gallente_ResearchSubject_SubCapitalAccess_Megathron"
 		entityDefName "Gallente_ResearchSubject_SubCapitalAccess_Myrmidon"
-		entityDefName "Gallente_ResearchSubject_SubCapitalAccess_Oneiros"
-		entityDefName "Gallente_ResearchSubject_SubCapitalAccess_Phobos"
 		entityDefName "Gallente_ResearchSubject_SubCapitalAccess_Tristan"
 		entityDefName "Gallente_ResearchSubject_SubCapitalAccess_Vexor"
 		entityDefName "RESEARCHSUBJECT_ABILITYACCESS_MUTUALTHREAT"
@@ -202,9 +204,6 @@ entities
 		entityDefName "RESEARCHSUBJECT_STRUCTUREWORK_METALEXTRACTPSI2"
 		entityDefName "RESEARCHSUBJECT_STRUCTUREWORK_METALEXTRACTPSI3"
 		entityDefName "RESEARCHSUBJECT_XENO_MANIPULATION"
-		entityDefName "RSABlackOps"
-		entityDefName "RSAHeavyAssault"
-		entityDefName "RSAMarauder"
 		entityDefName "RESEARCHSUBJECT_STARBASEUPGRADEACCESS_FACTORY"		
 	starBaseInfo
 		count 3

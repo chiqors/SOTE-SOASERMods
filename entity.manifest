@@ -1,5 +1,5 @@
 TXT
-entityNameCount 2364
+entityNameCount 2361
 entityName "ALLRACES_RESEARCHSUBJECT_ABILITYACCESS_AFTERBURNER.entity"
 entityName "ALLRACES_RESEARCHSUBJECT_ABILITYACCESS_BASTIONMODE.entity"
 entityName "ALLRACES_RESEARCHSUBJECT_ABILITYACCESS_CLOAK.entity"
@@ -322,10 +322,6 @@ entityName "AbilityStunBurst.entity"
 entityName "AbilitySubjugatingAssault.entity"
 entityName "AbilitySubversion.entity"
 entityName "AbilitySuffusion.entity"
-entityName "AbilitySummonAvatar.entity"
-entityName "AbilitySummonErebus.entity"
-entityName "AbilitySummonLeviathan.entity"
-entityName "AbilitySummonRagnarok.entity"
 entityName "AbilitySummonRevenant.entity"
 entityName "AbilitySuperCarrierArmor.entity"
 entityName "AbilitySuperCarrierShield.entity"
@@ -2364,3 +2360,4 @@ entityName "BuffCruiserInterdictorShield.entity"
 entityName "RSACruiserDPS.entity"
 entityName "RSACruiserResistArmor.entity"
 entityName "RSACruiserResistShield.entity"
+entityName "AbilityCruiserInterdictorShield.entity"

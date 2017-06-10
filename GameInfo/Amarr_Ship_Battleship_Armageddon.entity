@@ -149,8 +149,8 @@ EngineSoundID "ENGINE_TECHCAPITALSHIP"
 ability:0 "AbilityHeavyEnergyNeutralizer"
 ability:1 "AbilityDroneBonus"
 ability:2 "AbilityT2Cloak"
-ability:3 "AbilityT2BlackOpsAmarr"
-ability:4 "AbilityCovertOpsJumpBridge"
+ability:3 "AbilityCovertOpsJumpBridge"
+ability:4 "AbilityT2BlackOpsAmarr"
 MaxAntiMatter 7750.000000
 AntiMatterRestoreRate 23.650000
 cargoType "Invalid"

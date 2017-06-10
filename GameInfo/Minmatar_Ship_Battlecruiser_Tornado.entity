@@ -29,10 +29,7 @@ ShieldPointRestoreRate 1.00000
 BaseArmorPoints 10.0000
 maxMitigation 0.30000
 Prerequisites
-	NumResearchPrerequisites 1
-	ResearchPrerequisite
-		Subject "Minmatar_ResearchSubject_SubCapitalAccess_Hurricane"
-		Level 1
+	NumResearchPrerequisites 0
 	RequiredFactionNameID ""
 	RequiredCompletedResearchSubjects 0
 numRandomDebrisLarge 0

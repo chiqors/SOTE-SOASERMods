@@ -11,8 +11,8 @@ frigateRoleType "Lrm"
 statCountType "FrigateLongRange"
 mainViewIcon "MAINVIEWICON_FRIGATE_PHASELONGRANGE"
 picture "PICTURE_SOE_STRATIOS"
-NameStringID "IDS_FRIGATE_PHASELONGRANGE_NAME"
-DescriptionStringID "IDS_FRIGATE_PHASELONGRANGE_DESCRIPTION"
+NameStringID "IDS_SUMMON_STRATIOS_NAME"
+DescriptionStringID "IDS_SUMMON_STRATIOS_DESCRIPTION"
 counterDescriptionStringID "IDS_COUNTERDESC_CORVETTE_TECH"
 basePrice
 	credits 259.000000
@@ -29,10 +29,7 @@ ShieldPointRestoreRate 1.000000
 BaseArmorPoints 10.000000
 maxMitigation 0.000000
 Prerequisites
-	NumResearchPrerequisites 1
-	ResearchPrerequisite
-		Subject "Gallente_ResearchSubject_SubCapitalAccess_Vexor"
-		Level 1
+	NumResearchPrerequisites 0
 	RequiredFactionNameID ""
 	RequiredCompletedResearchSubjects 0
 numRandomDebrisLarge 0
