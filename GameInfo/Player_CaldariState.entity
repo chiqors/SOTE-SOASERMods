@@ -49,9 +49,9 @@ entities
 		Page:0
 			count 9
 			entityDefName "Caldari_Ship_Frigate_Heron"
+			entityDefName "Caldari_Ship_Frigate_Merlin"
 			entityDefName "Caldari_Ship_Frigate_Condor"
 			entityDefName "Caldari_Ship_Frigate_Kestrel"
-			entityDefName "Caldari_Ship_Frigate_Merlin"
 			entityDefName "Caldari_Ship_Destroyer_Comorant"
 			entityDefName "Gallente_Ship_Colony_Orca"
 			entityDefName "Caldari_Ship_Cruiser_Caracal"
