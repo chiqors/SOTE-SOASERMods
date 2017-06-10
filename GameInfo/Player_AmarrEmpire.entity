@@ -52,19 +52,19 @@ entities
 			entityDefName "Amarr_Ship_Frigate_Punisher"
 			entityDefName "Amarr_Ship_Frigate_Inquisitor"
 			entityDefName "Amarr_Ship_Destroyer_Coercer"
-			entityDefName "Amarr_Ship_Colony_Orca"
+			entityDefName "Amarr_Ship_Destroyer_Dragoon"
 			entityDefName "Amarr_Ship_Cruiser_Omen"
 			entityDefName "Amarr_Ship_Cruiser_Arbitrator"
-			entityDefName "Amarr_Ship_Cruiser_Augoror"
 			entityDefName "Amarr_Ship_Cruiser_Devoter"
+			entityDefName "Amarr_Ship_Colony_Orca"
 		Page:1
 			count 8
+			entityDefName "Amarr_Ship_Cruiser_Augoror"
 			entityDefName "Amarr_Ship_Battlecruiser_Prophecy"
 			entityDefName "Amarr_Ship_Battlecruiser_Harbinger"
 			entityDefName "Amarr_Ship_Battleship_Armageddon"
 			entityDefName "Amarr_Ship_Battleship_Apocalypse"
 			entityDefName "Amarr_Ship_Battleship_Abaddon"
-			entityDefName "Bloodraider_ShipBattleshipBhaalgorn"
 			entityDefName "Amarr_Ship_Envoy_Prophecy"
 			entityDefName "Amarr_Ship_Destroyer_Confessor"
 		NotOnPage
