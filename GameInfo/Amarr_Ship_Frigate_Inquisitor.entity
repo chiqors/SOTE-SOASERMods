@@ -81,17 +81,17 @@ NumWeapons 1
 Weapon
 	WeaponType "Missile"
 	damageEnums
-		AttackType "ANTIMEDIUM"
+		AttackType "ANTIHEAVY"
 		DamageAffectType "AFFECTS_SHIELDS_AND_HULL"
 		DamageApplyType "BACKLOADED"
 		DamageType "PHYSICAL"
 		WeaponClassType "MISSILE"
-	DamagePerBank:FRONT 35.000000
+	DamagePerBank:FRONT 70.000000
 	DamagePerBank:BACK 0.000000
 	DamagePerBank:LEFT 0.000000
 	DamagePerBank:RIGHT 0.000000
 	Range 4500.000000
-	PreBuffCooldownTime 1.720000
+	PreBuffCooldownTime 3.440000
 	CanFireAtFighter FALSE
 	SynchronizedTargeting TRUE
 	PointStaggerDelay 0.0500000
@@ -101,7 +101,7 @@ Weapon
 	WeaponEffects
 		weaponType "Missile"
 		burstCount 1
-		burstDelay 0.000000
+		burstDelay 0.050000
 		fireDelay 0.000000
 		muzzleEffectName "Weapon_TechCapitalMissileHeavy_Muzzle"
 		muzzleSoundMinRespawnTime 0.500000
@@ -177,7 +177,7 @@ HyperspaceChargingSoundID "HYPERSPACE_CHARGEUP"
 HyperspaceTravelSoundID "HYPERSPACE_TRAVEL"
 EngineSoundID "ENGINE_TECHCAPITALSHIP"
 ability:0 "AbilityAfterburner"
-ability:1 "AbilityWarpDisruptor"
+ability:1 "AbilityTargetPainter"
 ability:2 "AbilityT2CloakCovertOps"
 ability:3 "AbilityStealthBomb"
 ability:4 ""

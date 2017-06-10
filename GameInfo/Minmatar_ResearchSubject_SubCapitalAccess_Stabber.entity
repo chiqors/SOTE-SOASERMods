@@ -1,10 +1,10 @@
 ﻿TXT
 entityType "ResearchSubject"
-hudIcon "HUDICON_RESEARCHSUBJECT_WEAPONRANGE_GAUSS"
-smallHudIcon "HUDICON_RESEARCHSUBJECT_WEAPONRANGE_GAUSS"
+hudIcon "HUDICON_STABBER"
+smallHudIcon "HUDICON_STABBER"
 infoCardIcon ""
-NameStringID "IDS_Amarr_ResearchSubject_SubCapitalAccess_Devoter_NAME"
-DescriptionStringID "IDS_Amarr_ResearchSubject_SubCapitalAccess_Devoter_DESCRIPTION"
+NameStringID "IDS_RSM_STABBER_NAME"
+DescriptionStringID "IDS_RSM_STABBER_DESCRIPTION"
 researchWindowLocation
 	block 2
 	pos [ 2 , 1 ]

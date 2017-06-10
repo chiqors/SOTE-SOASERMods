@@ -7,7 +7,7 @@ NameStringID "IDS_Amarr_ResearchSubject_SubCapitalAccess_Augoror_NAME"
 DescriptionStringID "IDS_Amarr_ResearchSubject_SubCapitalAccess_Augoror_DESCRIPTION"
 researchWindowLocation
 	block 2
-	pos [ 2 , 1 ]
+	pos [ 2 , 0 ]
 ResearchField "Combat"
 Prerequisites
 	NumResearchPrerequisites 0

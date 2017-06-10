@@ -16,7 +16,7 @@ moveThruTarget FALSE
 isUltimateAbility FALSE
 maxNumLevels 1
 levelSourceType "ResearchWithoutBase"
-improveSourceResearchSubject "Amarr_ResearchSubject_SubCapitalAccess_Devoter"
+improveSourceResearchSubject "RSAInterdictor"
 aiUseTime "Invalid"
 aiUseTargetCondition "Invalid"
 isAutoCastAvailable FALSE
@@ -28,12 +28,12 @@ useCostType "Passive"
 researchPrerequisites
 	NumResearchPrerequisites 1
 	ResearchPrerequisite
-		Subject "Amarr_ResearchSubject_SubCapitalAccess_Devoter"
+		Subject "RSAInterdictor"
 		Level 1
 	RequiredFactionNameID ""
 	RequiredCompletedResearchSubjects 0
-nameStringID "IDS_FRIGATE_TECHHEAVY_NAME"
-descStringID "IDS_FRIGATE_TECHHEAVY_DESCRIPTION"
+nameStringID "IDS_RSA_INTERDICTOR_NAME"
+descStringID "IDS_RSA_INTERDICTOR_DESCRIPTION"
 hudIcon "HUDICON_FRIGATE_TECHHEAVY"
 smallHudIcon "HUDICONSMALL_FRIGATE_TECHHEAVY"
 infoCardIcon ""

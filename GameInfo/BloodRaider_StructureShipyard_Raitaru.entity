@@ -83,7 +83,7 @@ experiencePointsForDestroying 1000.000000
 nameStringID "IDS_BLOODRAIDER_SHIPYARD_NAME"
 picture "PICTURE_INDUSTRIALARRAY_AZABEL"
 statCountType "StarBase"
-creationSourceAbility "Angel_AbilityDeployShipyard"
+creationSourceAbility "BloodRaider_AbilityDeployShipyard"
 maxUpgradeLevelCount 6
 UpgradeTypeCount 6
 UpgradeType "StarBaseUpgradeTechToughness"

@@ -29,10 +29,7 @@ ShieldPointRestoreRate 1.000000
 BaseArmorPoints 0.000000
 maxMitigation 0.30000
 Prerequisites
-	NumResearchPrerequisites 1
-	ResearchPrerequisite
-		Subject "Caldari_ResearchSubject_SubCapitalAccess_Caracal"
-		Level 1
+	NumResearchPrerequisites 0
 	RequiredFactionNameID ""
 	RequiredCompletedResearchSubjects 0
 numRandomDebrisLarge 0
@@ -132,20 +129,10 @@ SoundID "FRIGATE_TECHLONGRANGE_ONSELECTED_2"
 SoundID "FRIGATE_TECHLONGRANGE_ONSELECTED_3"
 NumSoundsFor:ONSTARTPHASEJUMP 1
 SoundID "FRIGATE_TECHLONGRANGE_ONSTARTPHASEJUMP_0"
-MeshNameInfoCount 2
+MeshNameInfoCount 1
 MeshNameInfo
 	meshName "orthurs"
 	criteriaType "None"
-MeshNameInfo
-	meshName "cerberus"
-	criteriaType "Research"
-	prerequisites
-		NumResearchPrerequisites 1
-		ResearchPrerequisite
-			Subject "RSAHeavyAssault"
-			Level 1
-		RequiredFactionNameID ""
-		RequiredCompletedResearchSubjects 1
 meshNameIncreasedEffectName ""
 meshNameDecreasedEffectName ""
 ExhaustParticleSystemName "Exhaust_EveCruiser"

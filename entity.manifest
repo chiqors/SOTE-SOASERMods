@@ -1,5 +1,5 @@
 TXT
-entityNameCount 2361
+entityNameCount 2364
 entityName "ALLRACES_RESEARCHSUBJECT_ABILITYACCESS_AFTERBURNER.entity"
 entityName "ALLRACES_RESEARCHSUBJECT_ABILITYACCESS_BASTIONMODE.entity"
 entityName "ALLRACES_RESEARCHSUBJECT_ABILITYACCESS_CLOAK.entity"
@@ -2361,3 +2361,6 @@ entityName "Player_SOE.entity"
 entityName "AbilityCruiserInterdictorArmor.entity"
 entityName "BuffCruiserInterdictorArmor.entity"
 entityName "BuffCruiserInterdictorShield.entity"
+entityName "RSACruiserDPS.entity"
+entityName "RSACruiserResistArmor.entity"
+entityName "RSACruiserResistShield.entity"
