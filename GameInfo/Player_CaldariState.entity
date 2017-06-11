@@ -50,9 +50,9 @@ entities
 			count 9
 			entityDefName "Caldari_Ship_Frigate_Heron"
 			entityDefName "Caldari_Ship_Frigate_Merlin"
+			entityDefName "Caldari_Ship_Frigate_Condor"
 			entityDefName "Caldari_Ship_Frigate_Kestrel"
 			entityDefName "Caldari_Ship_Destroyer_Comorant"
-			entityDefName "Caldari_Ship_Destroyer_Corax"
 			entityDefName "Gallente_Ship_Colony_Orca"
 			entityDefName "Caldari_Ship_Cruiser_Caracal"
 			entityDefName "Caldari_Ship_Cruiser_Blackbird"
@@ -75,8 +75,7 @@ entities
 			entityDefName "Amarr_Ship_Refineryship_Bestower"
 			entityDefName "Ore_ShipOrca"			
 	researchInfo
-		count 139
-		entityDefName "RSACruiserResistShield"
+		count 138
 		entityDefName "RSAInterdictor"		
 		entityDefName "RSACommand_Orca"		
 		entityDefName "RSACovertOps"
@@ -116,7 +115,6 @@ entities
 		entityDefName "Caldari_ResearchSubject_CapitalAccess_Phoenix"
 		entityDefName "Caldari_ResearchSubject_CapitalAccess_Wyvern"
 		entityDefName "Caldari_ResearchSubject_SubCapitalAccess_Blackbird"
-		entityDefName "Caldari_ResearchSubject_SubCapitalAccess_Corax"
 		entityDefName "Caldari_ResearchSubject_SubCapitalAccess_FeroxEnvoy"
 		entityDefName "Caldari_ResearchSubject_SubCapitalAccess_Kestrel"
 		entityDefName "Caldari_ResearchSubject_SubCapitalAccess_Drake"
@@ -134,6 +132,7 @@ entities
 		entityDefName "Gallente_ResearchSubject_PlanetModuleAccess_JumpBridge"
 		entityDefName "Gallente_ResearchSubject_PlanetModuleAccess_LargeBlasterBattery"
 		entityDefName "Gallente_ResearchSubject_PlanetModuleAccess_MediumBlasterBattery"
+		entityDefName "Caldari_ResearchSubject_SubCapitalAccess_Condor"
 		entityDefName "RESEARCHSUBJECT_ABILITYACCESS_MUTUALTHREAT"
 		entityDefName "RESEARCHSUBJECT_ABILITYACCESS_NANOMEDICINE_OUTREACH"
 		entityDefName "RESEARCHSUBJECT_ABILITYACCESS_UNSTOPPABLEPHASEJUMPTECH"

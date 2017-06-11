@@ -1,0 +1,39 @@
+buff﻿TXT
+entityType "Ability"
+buffInstantActionType "ApplyBuffToSelf"
+instantActionTriggerType "AlwaysPerform"
+buffType "BuffSkillArmor20"
+effectInfo
+	effectAttachInfo
+		attachType "Invalid"
+	smallEffectName ""
+	mediumEffectName ""
+	largeEffectName ""
+	soundID ""
+needsToFaceTarget FALSE
+canCollideWithTarget TRUE
+moveThruTarget FALSE
+isUltimateAbility FALSE
+maxNumLevels 4
+levelSourceType "ResearchWithoutBase"
+improveSourceResearchSubject "Amarr_ResearchSubject_SubCapitalAccess_Prophecy"
+aiUseTime "Invalid"
+aiUseTargetCondition "Invalid"
+isAutoCastAvailable FALSE
+isAutoCastOnByDefault FALSE
+pickRandomPlanetToExploreForAutoCastTarget FALSE
+ignoreNonCombatShipsForAutoCastTarget TRUE
+onlyAutoCastWhenDamageTakenExceedsPerc 0.000000
+useCostType "Passive"
+researchPrerequisites
+	NumResearchPrerequisites 1
+	ResearchPrerequisite
+		Subject "Amarr_ResearchSubject_SubCapitalAccess_Prophecy"
+		Level 1
+	RequiredFactionNameID ""
+	RequiredCompletedResearchSubjects 0
+nameStringID "IDS_FRIGATE_TECHUTILITY0_NAME"
+descStringID "IDS_FRIGATE_TECHUTILITY0_DESCRIPTION"
+hudIcon "HUDICON_FRIGATE_TECHUTILITY0"
+smallHudIcon "HUDICONSMALL_FRIGATE_TECHUTILITY0"
+infoCardIcon ""

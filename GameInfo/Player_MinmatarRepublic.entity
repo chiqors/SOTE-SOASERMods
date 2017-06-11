@@ -75,8 +75,7 @@ entities
 			entityDefName "Minmatar_Ship_Refineryship_Mamonth"
 			entityDefName "Ore_ShipOrca"
 	researchInfo
-		count 138
-		entityDefName "RSACruiserResistShield"
+		count 137
 		entityDefName "RSAInterdictor"
 		entityDefName "RSACommand_Orca"
 		entityDefName "RSACovertOps"

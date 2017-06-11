@@ -147,8 +147,8 @@ HyperspaceTravelSoundID "HYPERSPACE_TRAVEL"
 EngineSoundID "ENGINE_TECHCAPITALSHIP"
 ability:0 "AbilityMicrowarpdrive"
 ability:1 "AbilityStasisWebifier"
-ability:2 "AbilityInterdictionSphere"
-ability:3 "RSACruiserResistArmor"
+ability:2 "AbilityAmarrCynosuralField"
+ability:3 "AbilityInterdictionSphere"
 ability:4 "AbilityCruiserInterdictorArmor"
 MaxAntiMatter 700.000000
 AntiMatterRestoreRate 1.200000
