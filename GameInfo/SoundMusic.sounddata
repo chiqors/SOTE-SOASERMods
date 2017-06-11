@@ -1,5 +1,5 @@
 TXT
-numMusic 102
+numMusic 114
 music
 	name "MUSIC_FRONTEND"
 	fileName "01 EVE Online Theme.ogg"
@@ -34,7 +34,7 @@ music
 	emotionRange 1.0
 music
 	name "MUSIC_BATTLE_4"
-	fileName "CONCORD Grid.ogg"
+	fileName "Battle Rock 4.ogg"
 	isLooping FALSE
 	actionLevel 0.75
 	actionRange 0.35
@@ -42,7 +42,7 @@ music
 	emotionRange 1.0
 music
 	name "MUSIC_BATTLE_5"
-	fileName "Battle Rock 4.ogg"
+	fileName "CONCORD Grid.ogg"
 	isLooping FALSE
 	actionLevel 0.75
 	actionRange 0.35
@@ -816,3 +816,99 @@ music
 	actionRange 0.4
 	emotionLevel 0.2
 	emotionRange 0.8	
+music
+	name "MUSIC_MINMATAR_1"
+	fileName "Minmatar Melody 1.ogg"
+	isLooping FALSE
+	actionLevel 0.4
+	actionRange 0.4
+	emotionLevel 0.2
+	emotionRange 0.8
+music
+	name "MUSIC_MINMATAR_2"
+	fileName "Minmatar Melody 2.ogg"
+	isLooping FALSE
+	actionLevel 0.4
+	actionRange 0.4
+	emotionLevel 0.2
+	emotionRange 0.8
+music
+	name "MUSIC_MINMATAR_3"
+	fileName "Minmatar Melody 3.ogg"
+	isLooping FALSE
+	actionLevel 0.4
+	actionRange 0.4
+	emotionLevel 0.2
+	emotionRange 0.8
+music
+	name "MUSIC_MINMATAR_4"
+	fileName "Minmatar Melody 4.ogg"
+	isLooping FALSE
+	actionLevel 0.4
+	actionRange 0.4
+	emotionLevel 0.2
+	emotionRange 0.8
+music
+	name "MUSIC_1"
+	fileName "Below the Asteroids.ogg"
+	isLooping FALSE
+	actionLevel 0.4
+	actionRange 0.4
+	emotionLevel 0.2
+	emotionRange 0.8
+music
+	name "MUSIC_2"
+	fileName "Bonanza Excavation.ogg"
+	isLooping FALSE
+	actionLevel 0.4
+	actionRange 0.4
+	emotionLevel 0.2
+	emotionRange 0.8
+music
+	name "MUSIC_3"
+	fileName "Eve_Online-Miner Stories.ogg"
+	isLooping FALSE
+	actionLevel 0.4
+	actionRange 0.4
+	emotionLevel 0.2
+	emotionRange 0.8
+music
+	name "MUSIC_4"
+	fileName "Home at Last.ogg"
+	isLooping FALSE
+	actionLevel 0.4
+	actionRange 0.4
+	emotionLevel 0.2
+	emotionRange 0.8								
+music
+	name "MUSIC_5"
+	fileName "We Fight Proud For The Holder.ogg"
+	isLooping FALSE
+	actionLevel 0.4
+	actionRange 0.4
+	emotionLevel 0.2
+	emotionRange 0.8								
+music
+	name "MUSIC_6"
+	fileName "In The Depth Of Space.ogg"
+	isLooping FALSE
+	actionLevel 0.4
+	actionRange 0.4
+	emotionLevel 0.2
+	emotionRange 0.8									
+music
+	name "MUSIC_7"
+	fileName "Ride Out The Storm.ogg"
+	isLooping FALSE
+	actionLevel 0.4
+	actionRange 0.4
+	emotionLevel 0.2
+	emotionRange 0.8									
+music
+	name "MUSIC_8"
+	fileName "Tomorrows Neverending Yesterday.ogg"
+	isLooping FALSE
+	actionLevel 0.4
+	actionRange 0.4
+	emotionLevel 0.2
+	emotionRange 0.8									

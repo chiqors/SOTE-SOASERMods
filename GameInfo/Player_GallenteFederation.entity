@@ -506,19 +506,21 @@ planetElevatorData
 musicThemeData
 	startupMusicThemeCount 1
 	musicTheme "MUSIC_GALLENTE_THEME"
-	neutralMusicThemeCount 12
-	musicTheme "MUSIC_VASARI_THEME_1"
+	neutralMusicThemeCount 14
+	musicTheme "MUSIC_TEC_THEME_1"
 	musicTheme "MUSIC_TEC_QUIET_1"
 	musicTheme "MUSIC_TEC_MISC_1"
 	musicTheme "MUSIC_TEC_MISC_2"
 	musicTheme "MUSIC_BATTLE_7"
-	musicTheme "MUSIC_BATTLE_13"
 	musicTheme "MUSIC_TROUBLE_4"
-	musicTheme "MUSIC_TEC_MISC_4"
-	musicTheme "MUSIC_TEC_OPENING"
-	musicTheme "MUSIC_TEC_LOYALIST_1"
-	musicTheme "MUSIC_TEC_LOYALIST_2"
-	musicTheme "MUSIC_TEC_LOYALIST_3"
+	musicTheme "MUSIC_1"
+	musicTheme "MUSIC_2"
+	musicTheme "MUSIC_3"
+	musicTheme "MUSIC_4"
+	musicTheme "MUSIC_5"
+	musicTheme "MUSIC_6"
+	musicTheme "MUSIC_7"
+	musicTheme "MUSIC_8"
 	scareThemeCount 5
 	musicTheme "MUSIC_BATTLE_7"
 	musicTheme "MUSIC_BATTLE_13"

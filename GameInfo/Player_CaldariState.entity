@@ -528,12 +528,16 @@ musicThemeData
 	musicTheme "MUSIC_TEC_LOYALIST_1"
 	musicTheme "MUSIC_TEC_LOYALIST_2"
 	musicTheme "MUSIC_TEC_LOYALIST_3"
-	scareThemeCount 5
+	scareThemeCount 9
 	musicTheme "MUSIC_CALDARI_1"
 	musicTheme "MUSIC_CALDARI_2"
 	musicTheme "MUSIC_CALDARI_3"
 	musicTheme "MUSIC_CALDARI_4"
-	musicTheme "MUSIC_BATTLE_4"
+	musicTheme "MUSIC_BATTLE_1"
+	musicTheme "MUSIC_BATTLE_2"
+	musicTheme "MUSIC_BATTLE_3"
+	musicTheme "MUSIC_BATTLE_4"		
+	musicTheme "MUSIC_BATTLE_5"			
 	announcementCount 1
 	musicTheme "MUSIC_TEC_ANNOUNCEMENT"
 hudSkinData
