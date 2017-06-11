@@ -31,7 +31,7 @@ effectInfo
 	smallEffectName "EVE_Buff_Tethered_Small"
 	mediumEffectName "EVE_Buff_Tethered_Medium"
 	largeEffectName "EVE_Buff_Tethered_Large"
-	soundID "EFFECT_REPAIR_TECH"
+	soundID ""
 needsToFaceTarget FALSE
 canCollideWithTarget TRUE
 moveThruTarget FALSE

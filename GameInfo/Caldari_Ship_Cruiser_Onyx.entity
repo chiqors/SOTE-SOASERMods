@@ -39,8 +39,8 @@ numRandomDebrisLarge 0
 numRandomDebrisSmall 0
 numSpecificDebris 0
 armorType "Medium"
-hudIcon "HUDICON_FRIGATE_ONYX"
-smallHudIcon "HUDICONSMALL_FRIGATE_ONYX"
+hudIcon "HUDICON_RESEARCHSUBJECT_FRIGATEACCESS_MOA"
+smallHudIcon "HUDICON_RESEARCHSUBJECT_FRIGATEACCESS_MOA"
 infoCardIcon "INFOCARDICON_FRIGATE_ONYX"
 minZoomDistanceMult 1.000000
 NumWeapons 1

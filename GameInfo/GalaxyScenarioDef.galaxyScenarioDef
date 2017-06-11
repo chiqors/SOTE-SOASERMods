@@ -2758,10 +2758,10 @@ planetItemsTemplate
 				item "Amarr:Frigate:Cruiser"						
 				item "Amarr:Frigate:Logistics"		
 				item "Amarr:Frigate:Logistics"																
-				item "Amarr:Frigate:light"
-				item "Amarr:Frigate:light"
-				item "Amarr:Frigate:light"
-				item "Amarr:Frigate:light"
+				item "Amarr:Frigate:Light"
+				item "Amarr:Frigate:Light"
+				item "Amarr:Frigate:Light"
+				item "Amarr:Frigate:Light"
 				item "Amarr:Module:GaussDefense"
 				item "Amarr:Module:MetalExtractor"
 				item "Amarr:Module:CrystalExtractor"
@@ -2772,9 +2772,9 @@ planetItemsTemplate
 			owner "Amarr"
 			colonizeChance 0
 			items 6
-				item "Amarr:Frigate:light"
-				item "Amarr:Frigate:light"
-				item "Amarr:Frigate:light"
+				item "Amarr:Frigate:Light"
+				item "Amarr:Frigate:Light"
+				item "Amarr:Frigate:Light"
 				item "Amarr:Frigate:Destroyer"
 				item "Amarr:Frigate:Destroyer"
 				item "Amarr:Frigate:Destroyer"
@@ -2789,8 +2789,8 @@ planetItemsTemplate
 			owner "PlanetOwner"
 			colonizeChance 0
 			items 8
-				item "Amarr:Frigate:light"
-				item "Amarr:Frigate:light"
+				item "Amarr:Frigate:Light"
+				item "Amarr:Frigate:Light"
 				item "Amarr:Frigate:Destroyer"
 				item "Amarr:Module:GaussDefense"
 				item "Amarr:Module:GaussDefense"
@@ -2804,10 +2804,10 @@ planetItemsTemplate
 			owner "Amarr"
 			colonizeChance 0
 			items 6
-				item "Amarr:Frigate:light"
-				item "Amarr:Frigate:light"
-				item "Amarr:Frigate:light"
-				item "Amarr:Frigate:light"				
+				item "Amarr:Frigate:Light"
+				item "Amarr:Frigate:Light"
+				item "Amarr:Frigate:Light"
+				item "Amarr:Frigate:Light"				
 				item "Amarr:Frigate:Destroyer"
 				item "Amarr:Frigate:Destroyer"
 planetItemsTemplate
@@ -2821,8 +2821,8 @@ planetItemsTemplate
 			owner "PlanetOwner"
 			colonizeChance 0
 			items 9
-				item "Amarr:Frigate:light"
-				item "Amarr:Frigate:light"
+				item "Amarr:Frigate:Light"
+				item "Amarr:Frigate:Light"
 				item "Amarr:Frigate:Destroyer"
 				item "Amarr:Module:GaussDefense"
 				item "Amarr:Module:GaussDefense"
@@ -2837,10 +2837,10 @@ planetItemsTemplate
 			owner "Amarr"
 			colonizeChance 0
 			items 10
-				item "Amarr:Frigate:light"
-				item "Amarr:Frigate:light"
-				item "Amarr:Frigate:light"
-				item "Amarr:Frigate:light"
+				item "Amarr:Frigate:Light"
+				item "Amarr:Frigate:Light"
+				item "Amarr:Frigate:Light"
+				item "Amarr:Frigate:Light"
 				item "Amarr:Frigate:Destroyer"
 				item "Amarr:Frigate:Destroyer"
 				item "Amarr:Frigate:Destroyer"
@@ -2858,8 +2858,8 @@ planetItemsTemplate
 			owner "PlanetOwner"
 			colonizeChance 0
 			items 13
-				item "Amarr:Frigate:light"
-				item "Amarr:Frigate:light"
+				item "Amarr:Frigate:Light"
+				item "Amarr:Frigate:Light"
 				item "Amarr:Frigate:Cruiser"
 				item "Amarr:Frigate:Destroyer"
 				item "Amarr:Frigate:Destroyer"
@@ -2878,9 +2878,9 @@ planetItemsTemplate
 			owner "Amarr"
 			colonizeChance 0
 			items 7
-				item "Amarr:Frigate:light"
-				item "Amarr:Frigate:light"
-				item "Amarr:Frigate:light"
+				item "Amarr:Frigate:Light"
+				item "Amarr:Frigate:Light"
+				item "Amarr:Frigate:Light"
 				item "Amarr:Frigate:Destroyer"
 				item "Amarr:Frigate:Destroyer"
 				item "Amarr:Frigate:Cruiser"
@@ -2896,12 +2896,12 @@ planetItemsTemplate
 			owner "Amarr"
 			colonizeChance 0
 			items 19
-				item "Amarr:Frigate:light"
-				item "Amarr:Frigate:light"
-				item "Amarr:Frigate:light"
-				item "Amarr:Frigate:light"
-				item "Amarr:Frigate:light"
-				item "Amarr:Frigate:light"
+				item "Amarr:Frigate:Light"
+				item "Amarr:Frigate:Light"
+				item "Amarr:Frigate:Light"
+				item "Amarr:Frigate:Light"
+				item "Amarr:Frigate:Light"
+				item "Amarr:Frigate:Light"
 				item "Amarr:Frigate:Destroyer"
 				item "Amarr:Frigate:Destroyer"
 				item "Amarr:Frigate:Destroyer"
@@ -2922,12 +2922,12 @@ planetItemsTemplate
 			owner "Amarr"
 			colonizeChance 0
 			items 19
-				item "Amarr:Frigate:light"
-				item "Amarr:Frigate:light"
-				item "Amarr:Frigate:light"
-				item "Amarr:Frigate:light"
-				item "Amarr:Frigate:light"
-				item "Amarr:Frigate:light"
+				item "Amarr:Frigate:Light"
+				item "Amarr:Frigate:Light"
+				item "Amarr:Frigate:Light"
+				item "Amarr:Frigate:Light"
+				item "Amarr:Frigate:Light"
+				item "Amarr:Frigate:Light"
 				item "Amarr:Frigate:Destroyer"
 				item "Amarr:Frigate:Destroyer"
 				item "Amarr:Frigate:Destroyer"
