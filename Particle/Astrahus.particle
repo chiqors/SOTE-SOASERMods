@@ -2,20 +2,20 @@
 ParticleSimulation
 	HasInfiniteLifeTime TRUE
 	TotalLifeTime 10.000000
-	NumEmitters 2
-	EmitterType "Sphere"
+	NumEmitters 5
+	EmitterType "Ring"
 	EmitterContents
-		Name "Out-In"
+		Name "Circulo"
 		Enabled TRUE
-		EmitRate 10.000000
+		EmitRate 100.000000
 		HasInfiniteEmitCount TRUE
 		MaxEmitCount 1
-		hasEmitIntervals FALSE
-		emitIntervalRunDuration 0.000000
-		emitIntervalWaitDuration 0.000000
-		ParticleLifeTime 20.000000
-		ParticleMinStartLinearSpeed -50.000000
-		ParticleMaxStartLinearSpeed -50.000000
+		hasEmitIntervals TRUE
+		emitIntervalRunDuration 1.000000
+		emitIntervalWaitDuration 2.000000
+		ParticleLifeTime 3.000000
+		ParticleMinStartLinearSpeed 0.000000
+		ParticleMaxStartLinearSpeed 0.000000
 		ParticleMinStartAngularSpeed 0.000000
 		ParticleMaxStartAngularSpeed 0.000000
 		ParticleMinStartRotation 0.000000
@@ -25,13 +25,13 @@ ParticleSimulation
 		ParticleWidth 20.000000
 		ParticleHeight 20.000000
 		MeshName ""
-		Position [ 0.000000 0.000000 0.000000 ]
+		Position [ -500.000000 0.000000 0.000000 ]
 		Orientation
-			 [ 1.000000 0.000000 0.000000 ]
-			 [ 0.000000 1.000000 0.000000 ]
-			 [ 0.000000 0.000000 1.000000 ]
-		RotateAboutForward 0.000000
-		RotateAboutUp 0.000000
+			 [ -1.000000 -0.000000 -0.000000 ]
+			 [ -0.000000 -0.000000 1.000000 ]
+			 [ -0.000000 1.000000 0.000000 ]
+		RotateAboutForward 90.000000
+		RotateAboutUp 180.000000
 		RotateAboutCross 0.000000
 		StartTime 0.000000
 		HasInfiniteLifeTime TRUE
@@ -50,48 +50,49 @@ ParticleSimulation
 		MeshParticleRotationAxisType 0
 		MeshParticleRotationAxis [ 0.000000 0.100000 0.000000 ]
 		RotationDirectionType 0
-		SphereRadiusXMax 2000.000000
-		SphereRadiusXMin 2000.000000
-		SphereRadiusYMax 0.000000
-		SphereRadiusYMin 0.000000
-		SphereRadiusZMax 2000.000000
-		SphereRadiusZMin 2000.000000
-		ParticleMaxStartSpeedAzimuthalTangential 0.000000
-		ParticleMaxStartSpeedPolarTangential 0.000000
-		ScaleStartSpeedsByRadius FALSE
-		SpawnAngleLatitudinalStart 0.000000
-		SpawnAngleLatitudinalStop 3.141593
-		SpawnAngleLongitudinalStart 0.000000
-		SpawnAngleLongitudinalStop 3.141593
-	EmitterType "Sphere"
+		RingRadiusXMin 4500.000000
+		RingRadiusXMax 4500.000000
+		RingRadiusYMin 4500.000000
+		RingRadiusYMax 4500.000000
+		ParticleMaxStartSpeedTangential 0.000000
+		ParticleMaxStartSpeedRingNormal 0.000000
+		ScaleStartSpeedsByRadius TRUE
+		SpawnAngleStart 0.000000
+		SpawnAngleStop 6.283185
+		minSpawnHeight 0.000000
+		maxSpawnHeight 0.000000
+		spawnDirectionIsParallelToPlane TRUE
+		isSpawnAngleRandom TRUE
+		nonRandomSpawnLoopEmittedParticleCount 0
+	EmitterType "Ring"
 	EmitterContents
-		Name "In-Out"
+		Name "Internal 1"
 		Enabled TRUE
-		EmitRate 10.000000
+		EmitRate 50.000000
 		HasInfiniteEmitCount TRUE
 		MaxEmitCount 1
-		hasEmitIntervals FALSE
-		emitIntervalRunDuration 0.000000
-		emitIntervalWaitDuration 0.000000
-		ParticleLifeTime 10.000000
-		ParticleMinStartLinearSpeed 110.000000
-		ParticleMaxStartLinearSpeed 110.000000
+		hasEmitIntervals TRUE
+		emitIntervalRunDuration 1.000000
+		emitIntervalWaitDuration 4.000000
+		ParticleLifeTime 30.000000
+		ParticleMinStartLinearSpeed 20.000000
+		ParticleMaxStartLinearSpeed 60.000000
 		ParticleMinStartAngularSpeed 0.000000
 		ParticleMaxStartAngularSpeed 0.000000
 		ParticleMinStartRotation 0.000000
 		ParticleMaxStartRotation 0.000000
 		ParticleStartMass 1.000000
-		ParticleStartColor ffffffff
-		ParticleWidth 20.000000
-		ParticleHeight 20.000000
+		ParticleStartColor ffffffc0
+		ParticleWidth 15.000000
+		ParticleHeight 15.000000
 		MeshName ""
-		Position [ 0.000000 70.000000 0.000000 ]
+		Position [ 0.000000 0.000000 0.000000 ]
 		Orientation
-			 [ 1.000000 0.000000 0.000000 ]
-			 [ 0.000000 1.000000 0.000000 ]
-			 [ 0.000000 0.000000 1.000000 ]
-		RotateAboutForward 0.000000
-		RotateAboutUp 0.000000
+			 [ -1.000000 -0.000000 -0.000000 ]
+			 [ -0.000000 -0.000000 1.000000 ]
+			 [ -0.000000 1.000000 0.000000 ]
+		RotateAboutForward 90.000000
+		RotateAboutUp 180.000000
 		RotateAboutCross 0.000000
 		StartTime 0.000000
 		HasInfiniteLifeTime TRUE
@@ -108,22 +109,238 @@ ParticleSimulation
 		textureAnimationOnParticleFPS 0.000000
 		ParticlesRotate FALSE
 		MeshParticleRotationAxisType 0
-		MeshParticleRotationAxis [ 0.000000 0.000000 1.000000 ]
+		MeshParticleRotationAxis [ 0.000000 0.100000 0.000000 ]
 		RotationDirectionType 0
-		SphereRadiusXMax 800.000000
-		SphereRadiusXMin 800.000000
-		SphereRadiusYMax 0.000000
-		SphereRadiusYMin 0.000000
-		SphereRadiusZMax 800.000000
-		SphereRadiusZMin 800.000000
-		ParticleMaxStartSpeedAzimuthalTangential 0.000000
-		ParticleMaxStartSpeedPolarTangential 0.000000
-		ScaleStartSpeedsByRadius FALSE
-		SpawnAngleLatitudinalStart 0.000000
-		SpawnAngleLatitudinalStop 6.283185
-		SpawnAngleLongitudinalStart 0.000000
-		SpawnAngleLongitudinalStop 3.141593
-	NumAffectors 2
+		RingRadiusXMin 10.000000
+		RingRadiusXMax 10.000000
+		RingRadiusYMin 10.000000
+		RingRadiusYMax 10.000000
+		ParticleMaxStartSpeedTangential 0.000000
+		ParticleMaxStartSpeedRingNormal 0.000000
+		ScaleStartSpeedsByRadius TRUE
+		SpawnAngleStart 0.000000
+		SpawnAngleStop 6.283185
+		minSpawnHeight 0.000000
+		maxSpawnHeight 0.000000
+		spawnDirectionIsParallelToPlane TRUE
+		isSpawnAngleRandom TRUE
+		nonRandomSpawnLoopEmittedParticleCount 0
+	EmitterType "Ring"
+	EmitterContents
+		Name "Internal 2"
+		Enabled TRUE
+		EmitRate 50.000000
+		HasInfiniteEmitCount TRUE
+		MaxEmitCount 1
+		hasEmitIntervals TRUE
+		emitIntervalRunDuration 1.000000
+		emitIntervalWaitDuration 4.000000
+		ParticleLifeTime 30.000000
+		ParticleMinStartLinearSpeed 20.000000
+		ParticleMaxStartLinearSpeed 60.000000
+		ParticleMinStartAngularSpeed 0.000000
+		ParticleMaxStartAngularSpeed 0.000000
+		ParticleMinStartRotation 0.000000
+		ParticleMaxStartRotation 0.000000
+		ParticleStartMass 1.000000
+		ParticleStartColor ffffc0ff
+		ParticleWidth 15.000000
+		ParticleHeight 15.000000
+		MeshName ""
+		Position [ 0.000000 0.000000 0.000000 ]
+		Orientation
+			 [ -1.000000 -0.000000 -0.000000 ]
+			 [ -0.000000 -0.000000 1.000000 ]
+			 [ -0.000000 1.000000 0.000000 ]
+		RotateAboutForward 90.000000
+		RotateAboutUp 180.000000
+		RotateAboutCross 0.000000
+		StartTime 0.000000
+		HasInfiniteLifeTime TRUE
+		TotalLifeTime 0.000000
+		BillboardAnchor 0
+		ParticleFacing 0
+		PipelineEffectID "Particle_Additive.fx"
+		AreParticlesAttached TRUE
+		numTextures 2
+		textureName "x_blast_glow.dds"
+		textureName ""
+		textureAnimationName ""
+		textureAnimationSpawnType "RandomFrames"
+		textureAnimationOnParticleFPS 0.000000
+		ParticlesRotate FALSE
+		MeshParticleRotationAxisType 0
+		MeshParticleRotationAxis [ 0.000000 0.100000 0.000000 ]
+		RotationDirectionType 0
+		RingRadiusXMin 10.000000
+		RingRadiusXMax 10.000000
+		RingRadiusYMin 10.000000
+		RingRadiusYMax 10.000000
+		ParticleMaxStartSpeedTangential 0.000000
+		ParticleMaxStartSpeedRingNormal 0.000000
+		ScaleStartSpeedsByRadius TRUE
+		SpawnAngleStart 0.000000
+		SpawnAngleStop 6.283185
+		minSpawnHeight 0.000000
+		maxSpawnHeight 0.000000
+		spawnDirectionIsParallelToPlane TRUE
+		isSpawnAngleRandom TRUE
+		nonRandomSpawnLoopEmittedParticleCount 0
+	EmitterType "Ring"
+	EmitterContents
+		Name "External 1"
+		Enabled TRUE
+		EmitRate 25.000000
+		HasInfiniteEmitCount TRUE
+		MaxEmitCount 1
+		hasEmitIntervals TRUE
+		emitIntervalRunDuration 1.000000
+		emitIntervalWaitDuration 4.000000
+		ParticleLifeTime 15.000000
+		ParticleMinStartLinearSpeed -60.000000
+		ParticleMaxStartLinearSpeed -60.000000
+		ParticleMinStartAngularSpeed 0.000000
+		ParticleMaxStartAngularSpeed 0.000000
+		ParticleMinStartRotation 0.000000
+		ParticleMaxStartRotation 0.000000
+		ParticleStartMass 1.000000
+		ParticleStartColor ffffc0ff
+		ParticleWidth 15.000000
+		ParticleHeight 15.000000
+		MeshName ""
+		Position [ 0.000000 0.000000 0.000000 ]
+		Orientation
+			 [ -1.000000 -0.000000 -0.000000 ]
+			 [ -0.000000 -0.000000 1.000000 ]
+			 [ -0.000000 1.000000 0.000000 ]
+		RotateAboutForward 90.000000
+		RotateAboutUp 180.000000
+		RotateAboutCross 0.000000
+		StartTime 0.000000
+		HasInfiniteLifeTime TRUE
+		TotalLifeTime 0.000000
+		BillboardAnchor 0
+		ParticleFacing 0
+		PipelineEffectID "Particle_Additive.fx"
+		AreParticlesAttached TRUE
+		numTextures 2
+		textureName "x_blast_glow.dds"
+		textureName ""
+		textureAnimationName ""
+		textureAnimationSpawnType "RandomFrames"
+		textureAnimationOnParticleFPS 0.000000
+		ParticlesRotate FALSE
+		MeshParticleRotationAxisType 0
+		MeshParticleRotationAxis [ 0.000000 0.100000 0.000000 ]
+		RotationDirectionType 0
+		RingRadiusXMin 1750.000000
+		RingRadiusXMax 1750.000000
+		RingRadiusYMin 1750.000000
+		RingRadiusYMax 1750.000000
+		ParticleMaxStartSpeedTangential 0.000000
+		ParticleMaxStartSpeedRingNormal 0.000000
+		ScaleStartSpeedsByRadius TRUE
+		SpawnAngleStart 0.000000
+		SpawnAngleStop 6.283185
+		minSpawnHeight 0.000000
+		maxSpawnHeight 0.000000
+		spawnDirectionIsParallelToPlane TRUE
+		isSpawnAngleRandom TRUE
+		nonRandomSpawnLoopEmittedParticleCount 0
+	EmitterType "Ring"
+	EmitterContents
+		Name "External 2"
+		Enabled TRUE
+		EmitRate 25.000000
+		HasInfiniteEmitCount TRUE
+		MaxEmitCount 1
+		hasEmitIntervals TRUE
+		emitIntervalRunDuration 1.000000
+		emitIntervalWaitDuration 4.000000
+		ParticleLifeTime 15.000000
+		ParticleMinStartLinearSpeed -60.000000
+		ParticleMaxStartLinearSpeed -60.000000
+		ParticleMinStartAngularSpeed 0.000000
+		ParticleMaxStartAngularSpeed 0.000000
+		ParticleMinStartRotation 0.000000
+		ParticleMaxStartRotation 0.000000
+		ParticleStartMass 1.000000
+		ParticleStartColor ffffffc0
+		ParticleWidth 15.000000
+		ParticleHeight 15.000000
+		MeshName ""
+		Position [ 0.000000 0.000000 0.000000 ]
+		Orientation
+			 [ -1.000000 -0.000000 -0.000000 ]
+			 [ -0.000000 -0.000000 1.000000 ]
+			 [ -0.000000 1.000000 0.000000 ]
+		RotateAboutForward 90.000000
+		RotateAboutUp 180.000000
+		RotateAboutCross 0.000000
+		StartTime 0.000000
+		HasInfiniteLifeTime TRUE
+		TotalLifeTime 0.000000
+		BillboardAnchor 0
+		ParticleFacing 0
+		PipelineEffectID "Particle_Additive.fx"
+		AreParticlesAttached TRUE
+		numTextures 2
+		textureName "x_blast_glow.dds"
+		textureName ""
+		textureAnimationName ""
+		textureAnimationSpawnType "RandomFrames"
+		textureAnimationOnParticleFPS 0.000000
+		ParticlesRotate FALSE
+		MeshParticleRotationAxisType 0
+		MeshParticleRotationAxis [ 0.000000 0.100000 0.000000 ]
+		RotationDirectionType 0
+		RingRadiusXMin 1750.000000
+		RingRadiusXMax 1750.000000
+		RingRadiusYMin 1750.000000
+		RingRadiusYMax 1750.000000
+		ParticleMaxStartSpeedTangential 0.000000
+		ParticleMaxStartSpeedRingNormal 0.000000
+		ScaleStartSpeedsByRadius TRUE
+		SpawnAngleStart 0.000000
+		SpawnAngleStop 6.283185
+		minSpawnHeight 0.000000
+		maxSpawnHeight 0.000000
+		spawnDirectionIsParallelToPlane TRUE
+		isSpawnAngleRandom TRUE
+		nonRandomSpawnLoopEmittedParticleCount 0
+	NumAffectors 8
+	AffectorType "LinearForceInDirection"
+	AffectorContents
+		Name "Forçar direita"
+		Enabled TRUE
+		StartTime 0.000000
+		HasInfiniteLifeTime TRUE
+		TotalLifeTime 0.000000
+		UseYoungParticleAffectThreshold FALSE
+		YoungParticleAffectThreshold 0.000000
+		UseOldParticleAffectThreshold TRUE
+		OldParticleAffectThreshold 1.000000
+		AffectAttachedParticles TRUE
+		numAttachedEmitters 0
+		MinForce 1.000000
+		MaxForce 5.000000
+		Direction [ 100.000000 0.000000 40.000000 ]
+	AffectorType "LinearForceInDirection"
+	AffectorContents
+		Name "Força Acima"
+		Enabled TRUE
+		StartTime 0.000000
+		HasInfiniteLifeTime TRUE
+		TotalLifeTime 0.000000
+		UseYoungParticleAffectThreshold FALSE
+		YoungParticleAffectThreshold 0.000000
+		UseOldParticleAffectThreshold TRUE
+		OldParticleAffectThreshold 4.000000
+		AffectAttachedParticles TRUE
+		numAttachedEmitters 0
+		MinForce 1.000000
+		MaxForce 5.000000
+		Direction [ -100.000000 0.000000 100.000000 ]
 	AffectorType "ColorOscillator"
 	AffectorContents
 		Name "(new) ColorOscillator-1"
@@ -136,16 +353,65 @@ ParticleSimulation
 		UseOldParticleAffectThreshold FALSE
 		OldParticleAffectThreshold 0.000000
 		AffectAttachedParticles TRUE
-		numAttachedEmitters 1
-		attachedEmitterName "Out-In"
-		TransitionPeriod 11.000000
+		numAttachedEmitters 0
+		TransitionPeriod 1.000000
 		StartColor ffff8000
 		StartAlpha 1.000000
-		EndColor ffff80ff
+		EndColor ffffffff
 		EndAlpha 1.000000
 	AffectorType "ColorOscillator"
 	AffectorContents
-		Name "(copy) (new) ColorOscillator-1-1"
+		Name "(new) ColorOscillator-2"
+		Enabled TRUE
+		StartTime 0.000000
+		HasInfiniteLifeTime TRUE
+		TotalLifeTime 0.000000
+		UseYoungParticleAffectThreshold FALSE
+		YoungParticleAffectThreshold 0.000000
+		UseOldParticleAffectThreshold TRUE
+		OldParticleAffectThreshold 7.000000
+		AffectAttachedParticles TRUE
+		numAttachedEmitters 0
+		TransitionPeriod 1.000000
+		StartColor ff00ff00
+		StartAlpha 1.000000
+		EndColor ffc0ffff
+		EndAlpha 1.000000
+	AffectorType "LinearForceInDirection"
+	AffectorContents
+		Name "Forçar direita 2"
+		Enabled TRUE
+		StartTime 0.000000
+		HasInfiniteLifeTime TRUE
+		TotalLifeTime 0.000000
+		UseYoungParticleAffectThreshold FALSE
+		YoungParticleAffectThreshold 0.000000
+		UseOldParticleAffectThreshold TRUE
+		OldParticleAffectThreshold 1.000000
+		AffectAttachedParticles TRUE
+		numAttachedEmitters 0
+		MinForce 1.000000
+		MaxForce 5.000000
+		Direction [ 100.000000 0.000000 -70.000000 ]
+	AffectorType "LinearForceInDirection"
+	AffectorContents
+		Name "Força esquerada 2"
+		Enabled TRUE
+		StartTime 0.000000
+		HasInfiniteLifeTime TRUE
+		TotalLifeTime 0.000000
+		UseYoungParticleAffectThreshold FALSE
+		YoungParticleAffectThreshold 0.000000
+		UseOldParticleAffectThreshold TRUE
+		OldParticleAffectThreshold 4.000000
+		AffectAttachedParticles TRUE
+		numAttachedEmitters 0
+		MinForce 1.000000
+		MaxForce 5.000000
+		Direction [ -100.000000 0.000000 -150.000000 ]
+	AffectorType "LinearForceInDirection"
+	AffectorContents
+		Name "Puxar Abaixo"
 		Enabled TRUE
 		StartTime 0.000000
 		HasInfiniteLifeTime TRUE
@@ -155,11 +421,24 @@ ParticleSimulation
 		UseOldParticleAffectThreshold FALSE
 		OldParticleAffectThreshold 0.000000
 		AffectAttachedParticles TRUE
-		numAttachedEmitters 1
-		attachedEmitterName "In-Out"
-		TransitionPeriod 11.000000
-		StartColor ff00ffff
-		StartAlpha 1.000000
-		EndColor ff80ff80
-		EndAlpha 1.000000
+		numAttachedEmitters 0
+		MinForce 1000.000000
+		MaxForce 1000.000000
+		Direction [ 0.000000 -1.000000 0.000000 ]
+	AffectorType "LinearForceInDirection"
+	AffectorContents
+		Name "Puxar Acima"
+		Enabled TRUE
+		StartTime 0.000000
+		HasInfiniteLifeTime TRUE
+		TotalLifeTime 0.000000
+		UseYoungParticleAffectThreshold FALSE
+		YoungParticleAffectThreshold 0.000000
+		UseOldParticleAffectThreshold FALSE
+		OldParticleAffectThreshold 0.000000
+		AffectAttachedParticles TRUE
+		numAttachedEmitters 0
+		MinForce 1000.000000
+		MaxForce 1000.000000
+		Direction [ 0.000000 1.000000 0.000000 ]
 	length 0.000000

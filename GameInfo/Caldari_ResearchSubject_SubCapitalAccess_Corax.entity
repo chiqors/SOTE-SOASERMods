@@ -7,7 +7,7 @@ NameStringID "IDS_RESEARCHSUBJECT_FRIGATEACCESS_COMORANT_NAME"
 DescriptionStringID "IDS_RESEARCHSUBJECT_FRIGATEACCESS_COMORANT_DESCRIPTION"
 researchWindowLocation
 	block 2
-	pos [ 1 , 4 ]
+	pos [ 1 , 3 ]
 ResearchField "Combat"
 Prerequisites
 	NumResearchPrerequisites 0
