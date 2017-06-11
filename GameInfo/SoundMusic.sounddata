@@ -1,5 +1,5 @@
 TXT
-numMusic 114
+numMusic 123
 music
 	name "MUSIC_FRONTEND"
 	fileName "01 EVE Online Theme.ogg"
@@ -912,3 +912,75 @@ music
 	actionRange 0.4
 	emotionLevel 0.2
 	emotionRange 0.8									
+music
+	name "MUSIC_GALLENTE_1"
+	fileName "Gallente Melody 1.OGG"
+	isLooping FALSE
+	actionLevel 0.4
+	actionRange 0.4
+	emotionLevel 0.2
+	emotionRange 0.8
+music
+	name "MUSIC_GALLENTE_2"
+	fileName "Gallente Melody 2.OGG"
+	isLooping FALSE
+	actionLevel 0.4
+	actionRange 0.4
+	emotionLevel 0.2
+	emotionRange 0.8
+music
+	name "MUSIC_GALLENTE_3"
+	fileName "Gallente Melody 3.OGG"
+	isLooping FALSE
+	actionLevel 0.4
+	actionRange 0.4
+	emotionLevel 0.2
+	emotionRange 0.8
+music
+	name "MUSIC_GALLENTE_4"
+	fileName "Gallente Melody 4.OGG"
+	isLooping FALSE
+	actionLevel 0.4
+	actionRange 0.4
+	emotionLevel 0.2
+	emotionRange 0.8
+music
+	name "MUSIC_GALLENTE_5"
+	fileName "Gallente Melody 5.OGG"
+	isLooping FALSE
+	actionLevel 0.4
+	actionRange 0.4
+	emotionLevel 0.2
+	emotionRange 0.8
+	music
+	name "MUSIC_GALLENTE_6"
+	fileName "Gallente Melody 6.OGG"
+	isLooping FALSE
+	actionLevel 0.4
+	actionRange 0.4
+	emotionLevel 0.2
+	emotionRange 0.8
+music
+	name "MUSIC_GALLENTE_7"
+	fileName "Gallente Melody 7.OGG"
+	isLooping FALSE
+	actionLevel 0.4
+	actionRange 0.4
+	emotionLevel 0.2
+	emotionRange 0.8
+music
+	name "MUSIC_GALLENTE_8"
+	fileName "Gallente Melody 8.OGG"
+	isLooping FALSE
+	actionLevel 0.4
+	actionRange 0.4
+	emotionLevel 0.2
+	emotionRange 0.8
+music
+	name "MUSIC_GALLENTE_9"
+	fileName "Gallente Melody 9.OGG"
+	isLooping FALSE
+	actionLevel 0.4
+	actionRange 0.4
+	emotionLevel 0.2
+	emotionRange 0.8

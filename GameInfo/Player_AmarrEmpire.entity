@@ -522,12 +522,17 @@ musicThemeData
 	musicTheme "MUSIC_6"
 	musicTheme "MUSIC_7"
 	musicTheme "MUSIC_8"
-	scareThemeCount 5
-	musicTheme "MUSIC_BATTLE_7"
-	musicTheme "MUSIC_BATTLE_13"
-	musicTheme "MUSIC_NEWBATTLE_1"
+	scareThemeCount 10
+	musicTheme "MUSIC_TEC_LOYALIST_1"
+	musicTheme "MUSIC_TEC_LOYALIST_2"
+	musicTheme "MUSIC_TEC_LOYALIST_3"
 	musicTheme "MUSIC_NEWBATTLE_2"
 	musicTheme "MUSIC_NEWBATTLE_3"
+	musicTheme "MUSIC_BATTLE_1"
+	musicTheme "MUSIC_BATTLE_2"
+	musicTheme "MUSIC_BATTLE_3"
+	musicTheme "MUSIC_BATTLE_4"		
+	musicTheme "MUSIC_BATTLE_5"
 	announcementCount 1
 	musicTheme "MUSIC_TEC_ANNOUNCEMENT"
 hudSkinData
