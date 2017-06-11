@@ -5,7 +5,7 @@ StringInfo
 	Value "P.A.N.I.C Module"
 StringInfo
     ID "IDS_ABILITY_RORQUALPANIC_DESC"
-	Value "The Pulse Activated Nexus Invulnerability Core makes the Rorqual invulnerable for 2 minutes, however the module has a 10 minute cooldown so use it wisely"
+	Value "The Pulse Activated Nexus Invulnerability Core makes the Rorqual invulnerable for 2 minutes."
 StringInfo
     ID "IDS_ABILITY_RORQUALEXTRACTOR_NAME"
 	Value "Mining Boost"
@@ -23624,7 +23624,7 @@ StringInfo
 	Value "Triage Booster"
 StringInfo
 	ID "IDS_ABILITY_TRIAGEBOOST_DESCRIPTION"
-	Value "A Modified version of the Capital Shield Booster, This module is designed to function in tandem with the carrier's Triage mode which greatly increases the cycle speed of the logistical modules of the ship at the expense of mobility. It provides a far greater amount of repair at a greater speed than a normal repairer allowing the Triage Carrier to far better support friendly ships in large scale combat situations. However, while out of Triage the effective value of the repair is lower than that of a normal carrier."
+	Value "A Modified version of the Capital Shield Booster."
 StringInfo
 	ID "IDS_RESEARCHSUBJECT_SHIELDTECH0_NAME"
 	Value "Shield Amplifier"

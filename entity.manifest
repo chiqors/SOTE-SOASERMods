@@ -1,5 +1,5 @@
 TXT
-entityNameCount 2361
+entityNameCount 2360
 entityName "ALLRACES_RESEARCHSUBJECT_ABILITYACCESS_AFTERBURNER.entity"
 entityName "ALLRACES_RESEARCHSUBJECT_ABILITYACCESS_BASTIONMODE.entity"
 entityName "ALLRACES_RESEARCHSUBJECT_ABILITYACCESS_CLOAK.entity"
@@ -262,7 +262,6 @@ entityName "AbilityRemoteArmorRepairerTriage.entity"
 entityName "AbilityRemoteArmorRepairerTriageSecondary.entity"
 entityName "AbilityRemoteShieldBoosterCapital.entity"
 entityName "AbilityRemoteShieldBoosterLogiCruiser.entity"
-entityName "AbilityRemoteShieldBoosterTriage.entity"
 entityName "AbilityRepairAura.entity"
 entityName "AbilityRepairDroids.entity"
 entityName "AbilityRepairPlatformPhase.entity"
