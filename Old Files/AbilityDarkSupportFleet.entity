@@ -1,0 +1,72 @@
+﻿TXT
+entityType "Ability"
+buffInstantActionType "SpawnShipsAtPlanet"
+instantActionTriggerType "AlwaysPerform"
+spawnShipsLevelCount 1
+spawnShips
+	minFleetPoints 120.000000
+	maxFleetPoints 120.000000
+	requiredShipCount 0
+	randomShipCount 6
+	randomShip
+		type "Gallente_Ship_Battlecruiser_Brutix"
+		weight 4
+	randomShip
+		type "Gallente_Ship_Cruiser_Execuror"
+		weight 5
+	randomShip
+		type "Gallente_Ship_Frigate_Tristan"
+		weight 3
+	randomShip
+		type "Gallente_Ship_Cruiser_Celestis"
+		weight 6
+	randomShip
+		type "Gallente_Ship_Frigate_Imicus"
+		weight 2
+	randomShip
+		type "Gallente_Ship_Colony_Orca"
+		weight 2
+spawnShipsArrivalDelayTime 7.000000
+spawnShipsHyperspaceSpawnType "FleetBeacon"
+needsToFaceTarget FALSE
+canCollideWithTarget TRUE
+moveThruTarget FALSE
+isUltimateAbility FALSE
+maxNumLevels 1
+levelSourceType "ResearchWithoutBase"
+improveSourceResearchSubject "RESEARCHSUBJECT_ABILITYACCESS_DARKFLEET"
+aiUseTime "Anytime"
+aiUseTargetCondition "Any"
+isAutoCastAvailable TRUE
+isAutoCastOnByDefault FALSE
+pickRandomPlanetToExploreForAutoCastTarget FALSE
+ignoreNonCombatShipsForAutoCastTarget TRUE
+onlyAutoCastWhenDamageTakenExceedsPerc 0.000000
+useCostType "ResourcesAndMustHaveShipSlots"
+resourceCost
+	credits 5000.000000
+	metal 1025.000000
+	crystal 980.000000
+requiredShipSlots
+	Level:0 120.000000
+	Level:1 0.000000
+	Level:2 0.000000
+	Level:3 0.000000
+cooldownTime
+	Level:0 240.000000
+	Level:1 240.000000
+	Level:2 0.000000
+	Level:3 0.000000
+orderAcknowledgementType "ONGENERALORDERISSUED"
+researchPrerequisites
+	NumResearchPrerequisites 1
+	ResearchPrerequisite
+		Subject "RESEARCHSUBJECT_ABILITYACCESS_DARKFLEET"
+		Level 1
+	RequiredFactionNameID ""
+	RequiredCompletedResearchSubjects 0
+nameStringID "IDS_ABILITY_DARKSUPPORTFLEET_NAME"
+descStringID "IDS_ABILITY_DARKSUPPORTFLEET_DESCRIPTION"
+hudIcon "HUDICON_ABILITY_DARKSUPPORTFLEET"
+smallHudIcon "HUDICON_ABILITY_DARKSUPPORTFLEET"
+infoCardIcon ""

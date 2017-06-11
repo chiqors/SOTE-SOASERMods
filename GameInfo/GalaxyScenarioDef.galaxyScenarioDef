@@ -980,7 +980,7 @@ orbitBodyType
 	typeName "MoonD"
 	entityDefName "PlanetMoonD"
 	defaultTemplateName "Template:DefaultStart_MoonD"		
-planetItemTypeCount 236
+planetItemTypeCount 237
 planetItemType
 	designName "Caldari:Frigate:Scout"
 	entityDefName "Caldari_Ship_Frigate_Heron"
@@ -1051,8 +1051,11 @@ planetItemType
 	designName "Amarr:Frigate:Scout"
 	entityDefName "Amarr_Ship_Frigate_Magnate"
 planetItemType
-	designName "Amarr:Frigate:Frigate"
+	designName "Amarr:Frigate:Light"
 	entityDefName "Amarr_Ship_Frigate_Punisher"
+planetItemType
+	designName "Amarr:Frigate:Siege"
+	entityDefName "Amarr_Ship_Frigate_Inquisitor"
 planetItemType
 	designName "Amarr:Frigate:Destroyer"
 	entityDefName "Amarr_Ship_Destroyer_Coercer"
@@ -2755,10 +2758,10 @@ planetItemsTemplate
 				item "Amarr:Frigate:Cruiser"						
 				item "Amarr:Frigate:Logistics"		
 				item "Amarr:Frigate:Logistics"																
-				item "Amarr:Frigate:Frigate"
-				item "Amarr:Frigate:Frigate"
-				item "Amarr:Frigate:Frigate"
-				item "Amarr:Frigate:Frigate"
+				item "Amarr:Frigate:light"
+				item "Amarr:Frigate:light"
+				item "Amarr:Frigate:light"
+				item "Amarr:Frigate:light"
 				item "Amarr:Module:GaussDefense"
 				item "Amarr:Module:MetalExtractor"
 				item "Amarr:Module:CrystalExtractor"
@@ -2769,9 +2772,9 @@ planetItemsTemplate
 			owner "Amarr"
 			colonizeChance 0
 			items 6
-				item "Amarr:Frigate:Frigate"
-				item "Amarr:Frigate:Frigate"
-				item "Amarr:Frigate:Frigate"
+				item "Amarr:Frigate:light"
+				item "Amarr:Frigate:light"
+				item "Amarr:Frigate:light"
 				item "Amarr:Frigate:Destroyer"
 				item "Amarr:Frigate:Destroyer"
 				item "Amarr:Frigate:Destroyer"
@@ -2786,8 +2789,8 @@ planetItemsTemplate
 			owner "PlanetOwner"
 			colonizeChance 0
 			items 8
-				item "Amarr:Frigate:Frigate"
-				item "Amarr:Frigate:Frigate"
+				item "Amarr:Frigate:light"
+				item "Amarr:Frigate:light"
 				item "Amarr:Frigate:Destroyer"
 				item "Amarr:Module:GaussDefense"
 				item "Amarr:Module:GaussDefense"
@@ -2801,10 +2804,10 @@ planetItemsTemplate
 			owner "Amarr"
 			colonizeChance 0
 			items 6
-				item "Amarr:Frigate:Frigate"
-				item "Amarr:Frigate:Frigate"
-				item "Amarr:Frigate:Frigate"
-				item "Amarr:Frigate:Frigate"				
+				item "Amarr:Frigate:light"
+				item "Amarr:Frigate:light"
+				item "Amarr:Frigate:light"
+				item "Amarr:Frigate:light"				
 				item "Amarr:Frigate:Destroyer"
 				item "Amarr:Frigate:Destroyer"
 planetItemsTemplate
@@ -2818,8 +2821,8 @@ planetItemsTemplate
 			owner "PlanetOwner"
 			colonizeChance 0
 			items 9
-				item "Amarr:Frigate:Frigate"
-				item "Amarr:Frigate:Frigate"
+				item "Amarr:Frigate:light"
+				item "Amarr:Frigate:light"
 				item "Amarr:Frigate:Destroyer"
 				item "Amarr:Module:GaussDefense"
 				item "Amarr:Module:GaussDefense"
@@ -2834,10 +2837,10 @@ planetItemsTemplate
 			owner "Amarr"
 			colonizeChance 0
 			items 10
-				item "Amarr:Frigate:Frigate"
-				item "Amarr:Frigate:Frigate"
-				item "Amarr:Frigate:Frigate"
-				item "Amarr:Frigate:Frigate"
+				item "Amarr:Frigate:light"
+				item "Amarr:Frigate:light"
+				item "Amarr:Frigate:light"
+				item "Amarr:Frigate:light"
 				item "Amarr:Frigate:Destroyer"
 				item "Amarr:Frigate:Destroyer"
 				item "Amarr:Frigate:Destroyer"
@@ -2855,8 +2858,8 @@ planetItemsTemplate
 			owner "PlanetOwner"
 			colonizeChance 0
 			items 13
-				item "Amarr:Frigate:Frigate"
-				item "Amarr:Frigate:Frigate"
+				item "Amarr:Frigate:light"
+				item "Amarr:Frigate:light"
 				item "Amarr:Frigate:Cruiser"
 				item "Amarr:Frigate:Destroyer"
 				item "Amarr:Frigate:Destroyer"
@@ -2875,9 +2878,9 @@ planetItemsTemplate
 			owner "Amarr"
 			colonizeChance 0
 			items 7
-				item "Amarr:Frigate:Frigate"
-				item "Amarr:Frigate:Frigate"
-				item "Amarr:Frigate:Frigate"
+				item "Amarr:Frigate:light"
+				item "Amarr:Frigate:light"
+				item "Amarr:Frigate:light"
 				item "Amarr:Frigate:Destroyer"
 				item "Amarr:Frigate:Destroyer"
 				item "Amarr:Frigate:Cruiser"
@@ -2893,12 +2896,12 @@ planetItemsTemplate
 			owner "Amarr"
 			colonizeChance 0
 			items 19
-				item "Amarr:Frigate:Frigate"
-				item "Amarr:Frigate:Frigate"
-				item "Amarr:Frigate:Frigate"
-				item "Amarr:Frigate:Frigate"
-				item "Amarr:Frigate:Frigate"
-				item "Amarr:Frigate:Frigate"
+				item "Amarr:Frigate:light"
+				item "Amarr:Frigate:light"
+				item "Amarr:Frigate:light"
+				item "Amarr:Frigate:light"
+				item "Amarr:Frigate:light"
+				item "Amarr:Frigate:light"
 				item "Amarr:Frigate:Destroyer"
 				item "Amarr:Frigate:Destroyer"
 				item "Amarr:Frigate:Destroyer"
@@ -2919,12 +2922,12 @@ planetItemsTemplate
 			owner "Amarr"
 			colonizeChance 0
 			items 19
-				item "Amarr:Frigate:Frigate"
-				item "Amarr:Frigate:Frigate"
-				item "Amarr:Frigate:Frigate"
-				item "Amarr:Frigate:Frigate"
-				item "Amarr:Frigate:Frigate"
-				item "Amarr:Frigate:Frigate"
+				item "Amarr:Frigate:light"
+				item "Amarr:Frigate:light"
+				item "Amarr:Frigate:light"
+				item "Amarr:Frigate:light"
+				item "Amarr:Frigate:light"
+				item "Amarr:Frigate:light"
 				item "Amarr:Frigate:Destroyer"
 				item "Amarr:Frigate:Destroyer"
 				item "Amarr:Frigate:Destroyer"
@@ -2952,13 +2955,13 @@ planetItemsTemplate
 				item "Amarr:Frigate:Light"
 				item "Amarr:Frigate:Light"
 				item "Amarr:Frigate:Light"
-				item "Amarr:Frigate:LongRange"
-				item "Amarr:Frigate:LongRange"
-				item "Amarr:Frigate:Heavy"
-				item "Amarr:Frigate:Heavy"
-				item "Amarr:Frigate:Heavy"
-				item "Amarr:Frigate:Heavy"
-				item "Amarr:Frigate:Heavy"
+				item "Amarr:Frigate:Cruiser"
+				item "Amarr:Frigate:Cruiser"
+				item "Amarr:Frigate:Battleship"
+				item "Amarr:Frigate:Battleship"
+				item "Amarr:Frigate:Battleship"
+				item "Amarr:Frigate:Battleship"
+				item "Amarr:Frigate:Battleship"
 				item "Amarr:Frigate:Siege"
 				item "Amarr:Frigate:Siege"
 				item "Amarr:Module:GaussDefense"	
@@ -2977,10 +2980,10 @@ planetItemsTemplate
 			items 8
 				item "Amarr:Frigate:Light"
 				item "Amarr:Frigate:Light"
-				item "Amarr:Frigate:LongRange"
-				item "Amarr:Frigate:LongRange"
-				item "Amarr:Frigate:Heavy"
-				item "Amarr:Frigate:Heavy"
+				item "Amarr:Frigate:Cruiser"
+				item "Amarr:Frigate:Cruiser"
+				item "Amarr:Frigate:Battleship"
+				item "Amarr:Frigate:Battleship"
 				item "Amarr:Frigate:Siege"
 				item "Amarr:Frigate:Siege"
 planetItemsTemplate
