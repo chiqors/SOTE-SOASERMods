@@ -5,7 +5,7 @@ meshInfo
 	typeNameStringID "IDS_PLANETTYPE_PIRATESANCTUM"
 	asteroidTemplate "Ring"
 	dustCloudTemplate "Sparse"
-	meshName "js2"
+	meshName "js3"
 	cloudColor 0
 	nullMeshRadius 0.000000
 	nullMeshParticleEffect ""
@@ -20,7 +20,7 @@ meshInfo
 	typeNameStringID "IDS_PLANETTYPE_PIRATESANCTUM"
 	asteroidTemplate "Sparse"
 	dustCloudTemplate "GrittySparse"
-	meshName "js2"
+	meshName "js3"
 	cloudColor 0
 	nullMeshRadius 0.000000
 	nullMeshParticleEffect ""
@@ -35,7 +35,7 @@ meshInfo
 	typeNameStringID "IDS_PLANETTYPE_PIRATESANCTUM"
 	asteroidTemplate "Wall"
 	dustCloudTemplate "Empty"
-	meshName "js2"
+	meshName "js3"
 	cloudColor 0
 	nullMeshRadius 0.000000
 	nullMeshParticleEffect ""

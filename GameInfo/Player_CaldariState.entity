@@ -49,17 +49,17 @@ entities
 		Page:0
 			count 9
 			entityDefName "Caldari_Ship_Frigate_Heron"
+			entityDefName "Caldari_Ship_Frigate_Merlin"
 			entityDefName "Caldari_Ship_Frigate_Condor"
 			entityDefName "Caldari_Ship_Frigate_Kestrel"
 			entityDefName "Caldari_Ship_Destroyer_Comorant"
 			entityDefName "Gallente_Ship_Colony_Orca"
 			entityDefName "Caldari_Ship_Cruiser_Caracal"
 			entityDefName "Caldari_Ship_Cruiser_Blackbird"
-			entityDefName "Caldari_Ship_Cruiser_Osprey"
 			entityDefName "Caldari_Ship_Cruiser_Onyx"
 		Page:1
 			count 9
-			entityDefName "Caldari_Ship_Battlecruiser_Ferox"
+			entityDefName "Caldari_Ship_Cruiser_Osprey"
 			entityDefName "Caldari_Ship_Battlecruiser_Drake"
 			entityDefName "Caldari_Ship_Battlecruiser_Naga"
 			entityDefName "Caldari_Ship_Battleship_Scorpion"
@@ -75,7 +75,7 @@ entities
 			entityDefName "Amarr_Ship_Refineryship_Bestower"
 			entityDefName "Ore_ShipOrca"			
 	researchInfo
-		count 139
+		count 138
 		entityDefName "RSAInterdictor"		
 		entityDefName "RSACommand_Orca"		
 		entityDefName "RSACovertOps"
@@ -115,7 +115,6 @@ entities
 		entityDefName "Caldari_ResearchSubject_CapitalAccess_Phoenix"
 		entityDefName "Caldari_ResearchSubject_CapitalAccess_Wyvern"
 		entityDefName "Caldari_ResearchSubject_SubCapitalAccess_Blackbird"
-		entityDefName "Caldari_ResearchSubject_SubCapitalAccess_Ferox"
 		entityDefName "Caldari_ResearchSubject_SubCapitalAccess_FeroxEnvoy"
 		entityDefName "Caldari_ResearchSubject_SubCapitalAccess_Kestrel"
 		entityDefName "Caldari_ResearchSubject_SubCapitalAccess_Drake"
@@ -516,25 +515,31 @@ planetElevatorData
 musicThemeData
 	startupMusicThemeCount 1
 	musicTheme "MUSIC_CALDARI_THEME"
-	neutralMusicThemeCount 12
+	neutralMusicThemeCount 14
 	musicTheme "MUSIC_ADVENT_THEME_1"
 	musicTheme "MUSIC_TEC_QUIET_1"
 	musicTheme "MUSIC_TEC_MISC_1"
 	musicTheme "MUSIC_TEC_MISC_2"
 	musicTheme "MUSIC_BATTLE_7"
-	musicTheme "MUSIC_BATTLE_13"
 	musicTheme "MUSIC_TROUBLE_4"
-	musicTheme "MUSIC_TEC_MISC_4"
-	musicTheme "MUSIC_TEC_OPENING"
-	musicTheme "MUSIC_TEC_LOYALIST_1"
-	musicTheme "MUSIC_TEC_LOYALIST_2"
-	musicTheme "MUSIC_TEC_LOYALIST_3"
-	scareThemeCount 5
+	musicTheme "MUSIC_1"
+	musicTheme "MUSIC_2"
+	musicTheme "MUSIC_3"
+	musicTheme "MUSIC_4"
+	musicTheme "MUSIC_5"
+	musicTheme "MUSIC_6"
+	musicTheme "MUSIC_7"
+	musicTheme "MUSIC_8"
+	scareThemeCount 9
 	musicTheme "MUSIC_CALDARI_1"
 	musicTheme "MUSIC_CALDARI_2"
 	musicTheme "MUSIC_CALDARI_3"
 	musicTheme "MUSIC_CALDARI_4"
-	musicTheme "MUSIC_BATTLE_4"
+	musicTheme "MUSIC_BATTLE_1"
+	musicTheme "MUSIC_BATTLE_2"
+	musicTheme "MUSIC_BATTLE_3"
+	musicTheme "MUSIC_BATTLE_4"		
+	musicTheme "MUSIC_BATTLE_5"			
 	announcementCount 1
 	musicTheme "MUSIC_TEC_ANNOUNCEMENT"
 hudSkinData

@@ -91,7 +91,7 @@ TargetCountPerBank:RIGHT 0
 canOnlyTargetStructures FALSE
 hasWeaponLevels FALSE
 mass 4000.000000
-ShieldMeshName "Rupture"
+ShieldMeshName "stabber"
 renderShield TRUE
 maxAccelerationLinear 90.000000
 maxAccelerationStrafe 10.000000
@@ -129,7 +129,7 @@ NumSoundsFor:ONSTARTPHASEJUMP 1
 SoundID "FRIGATE_TECHLONGRANGE_ONSTARTPHASEJUMP_0"
 MeshNameInfoCount 1
 MeshNameInfo
-	meshName "Rupture"
+	meshName "stabber"
 	criteriaType "None"
 meshNameIncreasedEffectName ""
 meshNameDecreasedEffectName ""
