@@ -3273,7 +3273,8 @@ brush
 	name "HUDICONSMALL_FRIGATE_MAELSTRON"
 	content "Simple"
 	fileName "Unit_Infocard"
-	pixelBox [ 438 , 47 , 22 , 22 ]brush
+	pixelBox [ 438 , 47 , 22 , 22 ]
+brush
 	name "HUDICONSMALL_FRIGATE_RUPTURE"
 	content "Simple"
 	fileName "Unit_Infocard"
