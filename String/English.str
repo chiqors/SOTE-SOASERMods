@@ -1,5 +1,5 @@
 TXT
-NumStrings 8380
+NumStrings 8382
 StringInfo
     ID "IDS_ABILITY_RORQUALPANIC_NAME"
 	Value "P.A.N.I.C Module"
@@ -25140,4 +25140,10 @@ StringInfo
 StringInfo
 	ID "IDS_SERPENTIS_VEHEMENT_DESCRIPTION"
 	Value "Reacting to the rise of capsuleer capital fleets, the Serpentis Corporation requested that the Angel Cartel’s naval architects design a dreadnought class capital ship.Reacting to the rise of capsuleer capital fleets, the Serpentis Corporation requested that the Angel Cartel’s naval architects design a dreadnought class capital ship. "
+StringInfo
+	ID "IDS_ABILITY_BOSONIC_FIELD_NAME"
+	Value "Bosonic Field"
+StringInfo
+	ID "IDS_ABILITY_BOSONIC_FIELD_DESCRIPTION"
+	Value "The Bosonic Field Generator provides a means to massively distort localized spacetime at short ranges, placing enormous stresses on any object in the affected area. In practical terms, the device is a weapon that can literally tear apart ships caught in its kill zone."
 	

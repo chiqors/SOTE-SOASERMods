@@ -1,7 +1,7 @@
 ﻿TXT
 entityType "Titan"
 ability:0 "AbilityGjallarhorn"
-ability:1 "Minmatar_AbilityPhenomenaGenerator"
+ability:1 "AbilityMinmatarPhenomenaGenerator"
 ability:2 "AbilityTitanEMPSmartbomb"
 ability:3 "AbilityAmarrTitanJumpBridge"
 ability:4 ""

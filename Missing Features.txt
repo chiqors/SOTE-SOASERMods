@@ -15,7 +15,7 @@ Missing cruisers and Battlecruisers
 11 - Freighters Capital will deploy Keepstar
 12 - Cruisers Damage name and icons
 13 - Blood Shipyard
-
+10000.00000014 - New titan ability with AbilityScattershot
 
 II - Test
 

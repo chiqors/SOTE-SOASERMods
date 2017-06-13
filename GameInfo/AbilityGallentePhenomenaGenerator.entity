@@ -2,7 +2,7 @@
 entityType "Ability"
 buffInstantActionType "ApplyBuffToTargetsInRadius"
 instantActionTriggerType "AlwaysPerform"
-buffType "BuffCaldariPhenomena"
+buffType "BuffAmarrPhenomena"
 targetFilter
 	numOwnerships 4
 	ownership "Friendly"
@@ -67,6 +67,6 @@ researchPrerequisites
 	RequiredCompletedResearchSubjects 0
 nameStringID "IDS_PHENOMENAGENERATOR_AMARR_NAME"
 descStringID "IDS_PHENOMENAGENERATOR_AMARR_DESCRIPTION"
-hudIcon "HUDICON_ABILITY_CALDARIPHENOMENA"
-smallHudIcon "HUDICON_ABILITY_CALDARIPHENOMENA"
+hudIcon "HUDICON_ABILITY_GALLENTEPHENOMENA"
+smallHudIcon "HUDICON_ABILITY_GALLENTEPHENOMENA"
 infoCardIcon ""

@@ -1,5 +1,5 @@
 TXT
-entityNameCount 2341
+entityNameCount 2344
 entityName "ALLRACES_RESEARCHSUBJECT_ABILITYACCESS_AFTERBURNER.entity"
 entityName "ALLRACES_RESEARCHSUBJECT_ABILITYACCESS_BASTIONMODE.entity"
 entityName "ALLRACES_RESEARCHSUBJECT_ABILITYACCESS_CLOAK.entity"
@@ -2341,3 +2341,6 @@ entityName "RSACruiserResistShield.entity"
 entityName "AbilityCruiserInterdictorShield.entity"
 entityName "Gallente_Ship_Cruiser_Thorax.entity"
 entityName "Gallente_ResearchSubject_SubCapitalAccess_Phobos.entity"
+entityName "BuffCaldariPhenomena.entity"
+entityName "AbilityGallentePhenomenaGenerator.entity"
+entityName "AbilityBosonicField.entity"
