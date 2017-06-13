@@ -10919,7 +10919,7 @@ StringInfo
 	Value "Apocalypse Imperial Issue"
 StringInfo
 	ID "IDS_FRIGATE_TECHFLAGSHIP_DESCRIPTION"
-	Value "A variant of the Apocalypse Battleship equipped to be this empire's Flagship."
+	Value "Designed by master starship engineers and constructed in the royal shipyards of the Emperor himself, the imperial issue of the dreaded Apocalypse battleship is held in awe throughout the Empire."
 StringInfo
 	ID "IDS_FRIGATE_TECHLIGHT_NAME"
 	Value "Punisher"

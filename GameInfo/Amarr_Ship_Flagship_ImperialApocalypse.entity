@@ -55,12 +55,12 @@ slotCount 1.000000
 BuildTime 1.000000
 hasLevels FALSE
 ExperiencePointsForDestroying 0.000000
-MaxHullPoints 15000.000000
-MaxShieldPoints 15000.000000
-HullPointRestoreRate 15.000000
-ShieldPointRestoreRate 15.000000
-BaseArmorPoints 0.000000
-maxMitigation 0.650000
+MaxHullPoints 30000.000000
+MaxShieldPoints 14000.000000
+HullPointRestoreRate 0.000000
+ShieldPointRestoreRate 18.000000
+BaseArmorPoints 10.000000
+maxMitigation 0.100000
 Prerequisites
 	NumResearchPrerequisites 0
 	RequiredFactionNameID ""
@@ -131,7 +131,7 @@ hasWeaponLevels FALSE
 mass 10000.000000
 ShieldMeshName "Apocalypse"
 renderShield TRUE
-maxAccelerationLinear 74.000000
+maxAccelerationLinear 118.000000
 maxAccelerationStrafe 10.000000
 maxDecelerationLinear 500.000000
 maxAccelerationAngular 6.800000
@@ -176,13 +176,13 @@ ExplosionName "EVETitan"
 HyperspaceChargingSoundID "HYPERSPACE_CHARGEUP"
 HyperspaceTravelSoundID "HYPERSPACE_TRAVEL"
 EngineSoundID "ENGINE_TECHCAPITALSHIP"
-ability:0 ""
-ability:1 "AbilityEMPSmartbomb"
-ability:2 "AbilityTrackingComputer"
+ability:0 "AbilityAfterburner"
+ability:1 "AbilityAmarrArmoredWarfareMindlink"
+ability:2 "AbilityEMPSmartbomb"
 ability:3 "AbilityPhasedArmourHardener"
 ability:4 "AbilityFlagship"
-MaxAntiMatter 1400.000000
-AntiMatterRestoreRate 7.500000
+MaxAntiMatter 10300.000000
+AntiMatterRestoreRate 27.500000
 cargoType "Invalid"
 maxCargoCapacity 0.000000
 formationRank 0

@@ -22,7 +22,7 @@ basePrice
 slotCount 1.000000
 BuildTime 4.000000
 hasLevels FALSE
-ExperiencePointsForDestroying 15.000000
+ExperiencePointsForDestroying 5.000000
 MaxHullPoints 300.000000
 MaxShieldPoints 300.000000
 HullPointRestoreRate 0.000000

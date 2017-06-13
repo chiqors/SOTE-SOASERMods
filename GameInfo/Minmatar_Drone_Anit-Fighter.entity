@@ -137,6 +137,6 @@ maxHullPoints 3025.000000
 hullPointRestoreRate 1.000000
 armorPoints 10.000000
 maxMitigation 0.000000
-experiencePointsForDestroying 15.000000
+experiencePointsForDestroying 5.000000
 minShadow 0.000000
 maxShadow 0.500000

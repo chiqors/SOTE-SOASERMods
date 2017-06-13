@@ -7,12 +7,12 @@ usesFighterAttack FALSE
 autoJoinFleetDefault TRUE
 canBomb FALSE
 typeCount 1
-frigateRoleType "Lrm"
-statCountType "FrigateLongRange"
-mainViewIcon "HUDICONSMALL_FRIGATE_RUPTURE"
-picture "PICTURE_FRIGATE_RUPTURE"
-NameStringID "IDS_CRUISER_RUPTURE_NAME"
-DescriptionStringID "IDS_CRUISER_RUPTURE_DESCRIPTION"
+frigateRoleType "Corvette"
+statCountType "FrigateCorvette"
+mainViewIcon ""
+picture ""
+NameStringID "IDS_RSM_STABBER_NAME"
+DescriptionStringID "IDS_RSM_STABBER_DESCRIPTION"
 counterDescriptionStringID "IDS_COUNTERDESC_CORVETTE_TECH"
 basePrice
 	credits 261.000000
@@ -21,7 +21,7 @@ basePrice
 slotCount 3.000000
 BuildTime 34.000000
 hasLevels FALSE
-ExperiencePointsForDestroying 55.000000
+ExperiencePointsForDestroying 15.000000
 MaxHullPoints 2410.000000
 MaxShieldPoints 2760.000000
 HullPointRestoreRate 1.000000
@@ -31,7 +31,7 @@ maxMitigation 0.30000
 Prerequisites
 	NumResearchPrerequisites 1
 	ResearchPrerequisite
-		Subject "Minmatar_ResearchSubject_SubCapitalAccess_Rupture"
+		Subject "Minmatar_ResearchSubject_SubCapitalAccess_Stabber"
 		Level 1
 	RequiredFactionNameID ""
 	RequiredCompletedResearchSubjects 0
@@ -39,9 +39,9 @@ numRandomDebrisLarge 0
 numRandomDebrisSmall 0
 numSpecificDebris 0
 armorType "Medium"
-hudIcon "HUDICON_FRIGATE_RUPTURE"
-smallHudIcon "HUDICONSMALL_FRIGATE_RUPTURE"
-infoCardIcon "HUDICONSMALL_FRIGATE_RUPTURE"
+hudIcon "HUDICON_CALDARI_CORAX"
+smallHudIcon "HUDICONSMALL_FRIGATE_STABBER"
+infoCardIcon "HUDICONSMALL_FRIGATE_STABBER"
 minZoomDistanceMult 1.000000
 NumWeapons 1
 Weapon
