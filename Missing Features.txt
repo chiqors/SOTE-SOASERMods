@@ -1,22 +1,26 @@
+Dragoon Picture and hudicon
 Badger Picture
 Moa Picture
-Missing cruisers and Battlecruisers
+
+
+1 - Fix Ores Ships names, meshs, pictures and icons
+2 - Create Projectors abilities and efffects
+3 - Cruisers Damage name and icons
+4 - Teste and see if Blood Shipyard is working
+5 - Insert dragoon on amar race
+6 - finish talos, apostle, algos and talawar model (missing points)
+7 - Assemble t3 ships
+
+MOD fase II
 
 1 - Hangar Defense navy cruiser and command navy cruiser
-2 - Navy Ships: Logi Cruiser with guns, Battlecruiser with 2 or 3 command links and Frigate Battleship
-3 - Pirate logistics will be cruiser with logistics, frigate will have EWA
+2 - Navy Ships: Logi Cruiser with guns, Battlecruiser with 2 command links and Navy Battleship
+3 - Pirate Orca will build Pirate Citadel/Shipyard
 4 - Noctis will be construction colony ship, 
 5 - Bowhead will construct industrial arrays
 6 - Create eletronic ships
 7 - Orca Construct Navy Shipyards
 8 - Orcas will have fix structures ability
-9 - Fix Ores Ships names, meshs, pictures and icons
-10 - Create Projectors abilities and efffects
-11 - Freighters Capital will deploy Keepstar
-12 - Cruisers Damage name and icons
-13 - Blood Shipyard
-10000.00000014 - New titan ability with AbilityScattershot
+9 - Freighters Capital will deploy Keepstar
+10 - New titan ability with AbilityScattershot
 
-II - Test
-
-2 - Pirate Orca will build Pirate Citadel/Shipyard

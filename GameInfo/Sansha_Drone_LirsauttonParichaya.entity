@@ -89,7 +89,7 @@ engineSoundID "ENGINE_TECHSUPPORTSHIP"
 maxHullPoints 4000.000000
 hullPointRestoreRate 1.000000
 armorPoints 10.000000
-maxMitigation 0.000000
+maxMitigation 0.500000
 experiencePointsForDestroying 100.000000
 minShadow 0.000000
 maxShadow 0.500000

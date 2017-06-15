@@ -2,7 +2,7 @@ TXT
 pictureCount 2
 LargeScreenPicture
 	textureName "Player_Portrait_Large.tga"
-	startTopLeft [0,666]
+	startTopLeft [0,893]
 	width 195
 	height 219
 	rowItemCount 6

@@ -27,7 +27,7 @@ MaxShieldPoints 39600.000000
 HullPointRestoreRate 10.000000
 ShieldPointRestoreRate 10.000000
 BaseArmorPoints 0.000000
-maxMitigation 0.400000
+maxMitigation 0.500000
 Prerequisites
 	NumResearchPrerequisites 0
 	RequiredFactionNameID ""

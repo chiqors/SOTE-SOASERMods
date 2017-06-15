@@ -31,7 +31,7 @@ maxMitigation 0.000000
 Prerequisites
 	NumResearchPrerequisites 1
 	ResearchPrerequisite
-		Subject "Amarr_ResearchSubject_SubCapitalAccess_Coercer"
+		Subject "Amarr_ResearchSubject_SubCapitalAccess_Dragoon"
 		Level 1
 	RequiredFactionNameID ""
 	RequiredCompletedResearchSubjects 0
@@ -146,9 +146,9 @@ HyperspaceChargingSoundID "HYPERSPACE_CHARGEUP"
 HyperspaceTravelSoundID "HYPERSPACE_TRAVEL"
 EngineSoundID "ENGINE_TECHCAPITALSHIP"
 ability:0 "AbilityAfterburner"
-ability:1 "AbilityStasisWebifier"
-ability:2 "AbilityPhasedArmourHardener"
-ability:3 "AbilityDroneBonus"
+ability:1 "AbilityDroneBonus"
+ability:2 ""
+ability:3 ""
 ability:4 ""
 MaxAntiMatter 225.000000
 AntiMatterRestoreRate 0.610000
