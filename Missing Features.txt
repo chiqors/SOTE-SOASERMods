@@ -23,4 +23,4 @@ MOD fase II
 8 - Orcas will have fix structures ability
 9 - Freighters Capital will deploy Keepstar
 10 - New titan ability with AbilityScattershot
-
+11 - Test battleship shield resist

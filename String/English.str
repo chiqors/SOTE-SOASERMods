@@ -1,5 +1,5 @@
 TXT
-NumStrings 8382
+NumStrings 8384
 StringInfo
     ID "IDS_ABILITY_RORQUALPANIC_NAME"
 	Value "P.A.N.I.C Module"
@@ -23435,7 +23435,7 @@ StringInfo
 	Value "Raven"
 StringInfo
 	ID "IDS_CALDARI_SHIP_BATTLESHIP_RAVEN_DESCRIPTION"
-	Value "The Raven is a mobile ranged Missile platform, it is equipped with long range cruise missiles enable this ship to act as a long range sniper platform. Although the Shield of the ship is somewhat weaker than its counterparts, it makes up for this with its exceptional damage projection."
+	Value "The Raven is the powerhouse of the Caldari Navy. With its myriad launcher slots and powerful shields, few ships can rival it in strength or majesty."
 StringInfo
 	ID "IDS_RESEARCHSUBJECT_BATTLESHIPACCESS_RAVEN"
 	Value "Raven BPO"
@@ -25146,4 +25146,10 @@ StringInfo
 StringInfo
 	ID "IDS_ABILITY_BOSONIC_FIELD_DESCRIPTION"
 	Value "The Bosonic Field Generator provides a means to massively distort localized spacetime at short ranges, placing enormous stresses on any object in the affected area. In practical terms, the device is a weapon that can literally tear apart ships caught in its kill zone."
+StringInfo
+	ID "IDS_CALDARI_SHIP_BATTLESHIP_RAVEN_NAVY_NAME"
+	Value "Raven Navy Issue"
+StringInfo
+	ID "IDS_CALDARI_SHIP_BATTLESHIP_RAVEN_NAVY_NAME"	
+	Value "The Navy Issue Raven represents the best the Caldari have to offer on the battlefield: an all-out assault vessel with tremendous electronic warfare capabilities."	
 	
