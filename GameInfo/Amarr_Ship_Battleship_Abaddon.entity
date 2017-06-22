@@ -15,18 +15,18 @@ NameStringID "IDS_CAPITALSHIP_TECHTRANSPORT_NAME"
 DescriptionStringID "IDS_CAPITALSHIP_TECHTRANSPORT_DESCRIPTION"
 counterDescriptionStringID "IDS_COUNTERDESC_FRIGATE_LONGRANGE"
 basePrice
-	credits 728.000000
-	metal 142.000000
-	crystal 117.000000
+	credits 625.000000
+	metal 283.000000
+	crystal 233.000000
 slotCount 5.000000
 BuildTime 52.000000
 hasLevels FALSE
 ExperiencePointsForDestroying 50.000000
-MaxHullPoints 4250.000000
-MaxShieldPoints 3500.000000
+MaxHullPoints 8500.000000
+MaxShieldPoints 7000.000000
 HullPointRestoreRate 1.000000
-ShieldPointRestoreRate 1.000000
-BaseArmorPoints 25.000000
+ShieldPointRestoreRate 10.000000
+BaseArmorPoints 10.000000
 maxMitigation 0.000000
 Prerequisites
 	NumResearchPrerequisites 1
@@ -52,12 +52,12 @@ Weapon
 		DamageApplyType "OVERTIME"
 		DamageType "ENERGY"
 		WeaponClassType "BEAM"
-	DamagePerBank:FRONT 838.000000
+	DamagePerBank:FRONT 1143.000000
 	DamagePerBank:BACK 0.000000
 	DamagePerBank:LEFT 0.000000
 	DamagePerBank:RIGHT 0.000000
-	Range 8000.000000
-	PreBuffCooldownTime 4.610000
+	Range 17000.000000
+	PreBuffCooldownTime 7.310000
 	CanFireAtFighter FALSE
 	SynchronizedTargeting TRUE
 	PointStaggerDelay 0.000000
@@ -146,12 +146,12 @@ HyperspaceChargingSoundID "HYPERSPACE_CHARGEUP"
 HyperspaceTravelSoundID "HYPERSPACE_TRAVEL"
 EngineSoundID "ENGINE_TECHCAPITALSHIP"
 ability:0 "AbilityAfterburner"
-ability:1 "AbilityMicroJumpDrive"
+ability:1 "AbilityTrackingComputer"
 ability:2 "AbilityPhasedArmourHardener"
-ability:3 "AbilityTrackingComputer"
-ability:4 "AbilityLaunchSquads"
-MaxAntiMatter 7970.000000
-AntiMatterRestoreRate 21.300000
+ability:3 "AbilityBattlefieldResistArmor"
+ability:4 "AbilityArmorRepairer"
+MaxAntiMatter 6380.000000
+AntiMatterRestoreRate 26.600000
 cargoType "Invalid"
 maxCargoCapacity 0.000000
 formationRank 0

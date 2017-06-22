@@ -16,18 +16,18 @@ DescriptionStringID "IDS_CALDARI_SHIP_BATTLESHIP_ROKH_DESCRIPTION"
 counterDescriptionStringID "IDS_COUNTERDESC_FRIGATE_LONGRANGE"
 basePrice
 	credits 714.000000
-	metal 117.000000
-	crystal 142.000000
+	metal 292.000000
+	crystal 390.000000
 slotCount 5.000000
 BuildTime 52.000000
 hasLevels FALSE
 ExperiencePointsForDestroying 50.000000
-MaxHullPoints 3500.000000
-MaxShieldPoints 4250.000000
+MaxHullPoints 7250.000000
+MaxShieldPoints 9650.000000
 HullPointRestoreRate 1.000000
-ShieldPointRestoreRate 1.000000
-BaseArmorPoints 15.000000
-maxMitigation 0.150000
+ShieldPointRestoreRate 61.000000
+BaseArmorPoints 0.000000
+maxMitigation 0.200000
 Prerequisites
 	NumResearchPrerequisites 1
 	ResearchPrerequisite
@@ -56,7 +56,7 @@ Weapon
 	DamagePerBank:BACK 0.000000
 	DamagePerBank:LEFT 0.000000
 	DamagePerBank:RIGHT 0.000000
-	Range 8000.000000
+	Range 27000.000000
 	PreBuffCooldownTime 4.610000
 	CanFireAtFighter FALSE
 	SynchronizedTargeting TRUE
@@ -138,12 +138,12 @@ HyperspaceChargingSoundID "HYPERSPACE_CHARGEUP"
 HyperspaceTravelSoundID "HYPERSPACE_TRAVEL"
 EngineSoundID "ENGINE_TECHCAPITALSHIP"
 ability:0 "AbilityAfterburner"
-ability:1 "AbilityInvulnerabilityShieldField"
-ability:2 "AbilityShieldBooster"
+ability:1 "AbilityTrackingComputer"
+ability:2 "AbilityInvulnerabilityShieldField"
 ability:3 "AbilityBattleshipResistShield"
-ability:4 ""
-MaxAntiMatter 7500.000000
-AntiMatterRestoreRate 20.000000
+ability:4 "AbilityShieldBooster"
+MaxAntiMatter 6620.000000
+AntiMatterRestoreRate 21.100000
 cargoType "Invalid"
 maxCargoCapacity 0.000000
 formationRank 0

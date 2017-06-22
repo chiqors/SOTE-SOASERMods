@@ -16,18 +16,18 @@ DescriptionStringID "IDS_GALLENTE_SHIP_BATTLESHIP_HYPERION_DESCRIPTION"
 counterDescriptionStringID "IDS_COUNTERDESC_FRIGATE_LONGRANGE"
 basePrice
 	credits 803.000000
-	metal 133.000000
-	crystal 125.000000
+	metal 313.000000
+	crystal 333.000000
 slotCount 5.000000
-BuildTime 52.000000
+BuildTime 65.000000
 hasLevels FALSE
 ExperiencePointsForDestroying 50.000000
-MaxHullPoints 4000.000000
-MaxShieldPoints 3750.000000
+MaxHullPoints 9380.000000
+MaxShieldPoints 10000.000000
 HullPointRestoreRate 1.000000
-ShieldPointRestoreRate 1.000000
-BaseArmorPoints 25.000000
-maxMitigation 0.300000
+ShieldPointRestoreRate 10.000000
+BaseArmorPoints 5.000000
+maxMitigation 0.000000
 Prerequisites
 	NumResearchPrerequisites 1
 	ResearchPrerequisite
@@ -56,7 +56,7 @@ Weapon
 	DamagePerBank:BACK 0.000000
 	DamagePerBank:LEFT 0.000000
 	DamagePerBank:RIGHT 0.000000
-	Range 8000.000000
+	Range 8770.000000
 	PreBuffCooldownTime 4.600000
 	CanFireAtFighter FALSE
 	SynchronizedTargeting TRUE
@@ -142,8 +142,8 @@ ability:1 "AbilityMicroJumpDrive"
 ability:2 "AbilityPhasedArmourHardener"
 ability:3 "AbilityTrackingComputer"
 ability:4 ""
-MaxAntiMatter 9000.000000
-AntiMatterRestoreRate 20.000000
+MaxAntiMatter 7200.000000
+AntiMatterRestoreRate 16.000000
 cargoType "Invalid"
 maxCargoCapacity 0.000000
 formationRank 0

@@ -1,5 +1,5 @@
 TXT
-entityNameCount 2348
+entityNameCount 2349
 entityName "ALLRACES_RESEARCHSUBJECT_ABILITYACCESS_AFTERBURNER.entity"
 entityName "ALLRACES_RESEARCHSUBJECT_ABILITYACCESS_BASTIONMODE.entity"
 entityName "ALLRACES_RESEARCHSUBJECT_ABILITYACCESS_CLOAK.entity"
@@ -2348,3 +2348,4 @@ entityName "AbilityCarrier.entity"
 entityName "BuffCarrierArmor.entity"
 entityName "AbilityBattleshipResistShield.entity"
 entityName "BuffBattleshipResistShield.entity"
+entityName "AbilityBattlefieldResistArmor.entity"

@@ -17,18 +17,18 @@ NameStringID "IDS_BATTLESHIP_MAELSTRON_NAME"
 DescriptionStringID "IDS_BATTLESHIP_MAELSTRON_DESCRIPTION"
 counterDescriptionStringID "IDS_COUNTERDESC_FRIGATE_LONGRANGE"
 basePrice
-	credits 698.000000
-	metal 125.000000
-	crystal 133.000000
+	credits 482.000000
+	metal 313.000000
+	crystal 333.000000
 slotCount 5.000000
 BuildTime 52.000000
 hasLevels FALSE
 ExperiencePointsForDestroying 50.000000
-MaxHullPoints 3750.000000
-MaxShieldPoints 4000.000000
+MaxHullPoints 9380.000000
+MaxShieldPoints 10000.000000
 HullPointRestoreRate 1.000000
-ShieldPointRestoreRate 1.000000
-BaseArmorPoints 15.000000
+ShieldPointRestoreRate 45.000000
+BaseArmorPoints 0.000000
 maxMitigation 0.150000
 Prerequisites
 	NumResearchPrerequisites 1
@@ -58,7 +58,7 @@ Weapon
 	DamagePerBank:BACK 0.000000
 	DamagePerBank:LEFT 0.000000
 	DamagePerBank:RIGHT 0.000000
-	Range 8000.000000
+	Range 50000.000000
 	PreBuffCooldownTime 18.000000
 	CanFireAtFighter FALSE
 	SynchronizedTargeting TRUE

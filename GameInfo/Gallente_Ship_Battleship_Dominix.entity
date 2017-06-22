@@ -15,19 +15,19 @@ NameStringID "IDS_GALLENTE_SHIP_BATTLESHIP_DOMINIX_NAME"
 DescriptionStringID "IDS_GALLENTE_SHIP_BATTLESHIP_DOMINIX_DESCRIPTION"
 counterDescriptionStringID "IDS_COUNTERDESC_FRIGATE_LONGRANGE"
 basePrice
-	credits 294.000000
-	metal 133.000000
-	crystal 120.000000
+	credits 588.000000
+	metal 333.000000
+	crystal 300.000000
 slotCount 5.000000
-BuildTime 51.000000
+BuildTime 63.000000
 hasLevels FALSE
 ExperiencePointsForDestroying 50.000000
-MaxHullPoints 4000.000000
-MaxShieldPoints 3600.000000
+MaxHullPoints 10000.000000
+MaxShieldPoints 9000.000000
 HullPointRestoreRate 1.000000
-ShieldPointRestoreRate 1.000000
-BaseArmorPoints 25.000000
-maxMitigation 0.300000
+ShieldPointRestoreRate 10.000000
+BaseArmorPoints 5.000000
+maxMitigation 0.000000
 Prerequisites
 	NumResearchPrerequisites 1
 	ResearchPrerequisite
@@ -56,7 +56,7 @@ Weapon
 	DamagePerBank:BACK 0.000000
 	DamagePerBank:LEFT 0.000000
 	DamagePerBank:RIGHT 0.000000
-	Range 10000.000000
+	Range 36000.000000
 	PreBuffCooldownTime 3.420000
 	CanFireAtFighter FALSE
 	SynchronizedTargeting TRUE
