@@ -148,7 +148,7 @@ EngineSoundID "ENGINE_TECHCAPITALSHIP"
 ability:0 "AbilityAfterburner"
 ability:1 "AbilityTrackingComputer"
 ability:2 "AbilityPhasedArmourHardener"
-ability:3 "AbilityBattlefieldResistArmor"
+ability:3 "AbilityBattleshipResistArmor"
 ability:4 "AbilityArmorRepairer"
 MaxAntiMatter 6380.000000
 AntiMatterRestoreRate 26.600000

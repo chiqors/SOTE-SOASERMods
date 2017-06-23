@@ -2,7 +2,7 @@
 entityType "Ability"
 buffInstantActionType "ApplyBuffToSelf"
 instantActionTriggerType "AlwaysPerform"
-buffType "BuffBattleshipArmor"
+buffType "BuffBattleshipResistArmor"
 effectInfo
 	effectAttachInfo
 		attachType "Invalid"

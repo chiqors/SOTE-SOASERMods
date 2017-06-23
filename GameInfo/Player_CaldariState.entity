@@ -889,7 +889,7 @@ field "IDS_PHASE_RESEARCHFIELD_DIPLOMACY"
 field "IDS_PHASE_RESEARCHFIELD_ARTIFACT"
 field "IDS_PHASE_RESEARCHFIELD_FLEET"
 playerThemeGroupName "PlayerCaldari"
-playerPictureGroupName "PlayerPsi"
+playerPictureGroupName "PlayerCaldari"
 raceRelationsModCount 6
 raceRelationsModifier
 	raceNameID "IDS_PLAYERRACENAME_TECHREBEL"

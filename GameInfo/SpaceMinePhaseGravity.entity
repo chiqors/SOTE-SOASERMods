@@ -44,7 +44,7 @@ NumSoundsFor:ONSELECTED 1
 SoundID "MINE_PHASEGRAVITY_ONSELECTED"
 NumSoundsFor:ONSTARTPHASEJUMP 0
 maxHullPoints 25.000000
-HullPointRestoreRate 1.000000
+hullPointRestoreRate 1.000000
 maxShieldPoints 0.000000
 shieldPointRestoreRate 0.000000
 maxShieldMitigation 0.000000

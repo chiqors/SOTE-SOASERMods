@@ -4193,7 +4193,7 @@ planetItemsTemplate
 		template "Template:LocalMilitiaMediumFair"
 	groups 0
 validPictureGroups 3
-pictureGroup "PlayerPhase"
+pictureGroup "PlayerMinmatar"
 pictureGroup "PlayerPsi"
 pictureGroup "PlayerTech"
 validThemeGroups 4
