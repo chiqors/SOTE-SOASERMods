@@ -147,7 +147,7 @@ HyperspaceTravelSoundID "HYPERSPACE_TRAVEL"
 EngineSoundID "ENGINE_PHASECAPITALSHIP"
 ability:0 "AbilityAfterburner"
 ability:1 "AbilityRemoteArmorRepairerLogiCruiser"
-ability:2 ""
+ability:2 "AbilityRemoteArmorRepairerLogiCruiser"
 ability:3 ""
 ability:4 "AbilityT2CruiserOneiros"
 MaxAntiMatter 2410.000000
