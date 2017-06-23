@@ -472,57 +472,57 @@ DamagePercentBonus:ANTIVERYLIGHT:CapitalShip 0.994
 		pirateRaidComposition:2
 			requiredShipCount 4
 			requiredShip
-				type "Sansha_Ship_Frigate_NiarjaMyelen"
+				type "Sansha_Ship_Frigate_NiarjaMyelen2"
 				minCount 6
 				maxCount 12
 			requiredShip
-				type "Sansha_Ship_Cruiser_MaraPaleo"
+				type "Sansha_Ship_Cruiser_MaraPaleo2"
 				minCount 4
 				maxCount 8
 			requiredShip
-				type "Sansha_Ship_Cruiser_AugaHypophysis"
+				type "Sansha_Ship_Cruiser_AugaHypophysis2"
 				minCount 12
 				maxCount 18
 			requiredShip
-				type "Sansha_Ship_Battleship_OutuniMesen"
+				type "Sansha_Ship_Battleship_OutuniMesen2"
 				minCount 6
 				maxCount 10
 			randomShipCount 0
 		pirateRaidComposition:3
 			requiredShipCount 5
 			requiredShip
-				type "Sansha_Ship_Frigate_NiarjaMyelen"
+				type "Sansha_Ship_Frigate_NiarjaMyelen2"
 				minCount 10
 				maxCount 12
 			requiredShip
-				type "Sansha_Ship_Cruiser_MaraPaleo"
+				type "Sansha_Ship_Cruiser_MaraPaleo2"
 				minCount 5
 				maxCount 10
 			requiredShip
-				type "Sansha_Ship_Cruiser_AugaHypophysis"
+				type "Sansha_Ship_Cruiser_AugaHypophysis2"
 				minCount 15
 				maxCount 21
 			requiredShip
-				type "Sansha_Ship_Battleship_OutuniMesen"
+				type "Sansha_Ship_Battleship_OutuniMesen2"
 				minCount 8
 				maxCount 14
 			requiredShip
-				type "Sansha_Ship_Battleship_DeltoleTegmentum"
+				type "Sansha_Ship_Battleship_DeltoleTegmentum2"
 				minCount 5
 				maxCount 8
 			randomShipCount 0
 		pirateRaidComposition:4
 			requiredShipCount 5
 			requiredShip
-				type "Sansha_Ship_Cruiser_ArnonEpithalamus"
+				type "Sansha_Ship_Cruiser_ArnonEpithalamus2"
 				minCount 10
 				maxCount 12
 			requiredShip
-				type "Sansha_Ship_Cruiser_MaraPaleo"
+				type "Sansha_Ship_Cruiser_MaraPaleo2"
 				minCount 9
 				maxCount 13
 			requiredShip
-				type "Sansha_Ship_Battleship_OutuniMesen"
+				type "Sansha_Ship_Battleship_OutuniMesen2"
 				minCount 10
 				maxCount 20
 			requiredShip
@@ -530,7 +530,7 @@ DamagePercentBonus:ANTIVERYLIGHT:CapitalShip 0.994
 				minCount 1
 				maxCount 1
 			requiredShip
-				type "Sansha_Ship_Battleship_DeltoleTegmentum"
+				type "Sansha_Ship_Battleship_DeltoleTegmentum2"
 				minCount 7
 				maxCount 10
 			randomShipCount 0
