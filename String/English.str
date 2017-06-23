@@ -1,5 +1,5 @@
 TXT
-NumStrings 8384
+NumStrings 8386
 StringInfo
     ID "IDS_ABILITY_RORQUALPANIC_NAME"
 	Value "P.A.N.I.C Module"
@@ -25152,4 +25152,10 @@ StringInfo
 StringInfo
 	ID "IDS_CALDARI_SHIP_BATTLESHIP_RAVEN_NAVY_NAME"	
 	Value "The Navy Issue Raven represents the best the Caldari have to offer on the battlefield: an all-out assault vessel with tremendous electronic warfare capabilities."	
-	
+StringInfo
+	ID "IDS_ABILITY_ARMORREPAIR_NAME"
+	Value "Armor Repair"
+StringInfo
+	ID "IDS_ABILITY_ARMORREPAIR_DESCRIPTION"
+	Value "Restore portion of the self armor."
+		
