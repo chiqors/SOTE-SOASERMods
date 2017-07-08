@@ -165,10 +165,20 @@ SoundID "FRIGATE_TECHSIEGE_ONSELECTED_1"
 SoundID "FRIGATE_TECHSIEGE_ONSELECTED_2"
 NumSoundsFor:ONSTARTPHASEJUMP 1
 SoundID "FRIGATE_TECHSIEGE_ONSTARTPHASEJUMP_0"
-MeshNameInfoCount 1
+MeshNameInfoCount 2
 MeshNameInfo
 	meshName "breacher"
 	criteriaType "None"
+MeshNameInfo
+	meshName "hound"
+	criteriaType "Research"
+	prerequisites
+		NumResearchPrerequisites 1
+		ResearchPrerequisite
+			Subject "RSACovertOps"
+			Level 1
+		RequiredFactionNameID ""
+		RequiredCompletedResearchSubjects 1
 meshNameIncreasedEffectName ""
 meshNameDecreasedEffectName ""
 ExhaustParticleSystemName "Exhaust_EveFrigate"
