@@ -83,7 +83,7 @@ experiencePointsForDestroying 1000.000000
 nameStringID "IDS_CITADEL_ASTRAHUS"
 picture "PICTURE_CITADEL_ASTRAHUS"
 statCountType "StarBase"
-creationSourceAbility "AbilityDeployCitadelFortizar"
+creationSourceAbility "AbilityDeployCitadelAstrahus"
 maxUpgradeLevelCount 6
 UpgradeTypeCount 3
 UpgradeType "StarBaseUpgradeTechToughness"
