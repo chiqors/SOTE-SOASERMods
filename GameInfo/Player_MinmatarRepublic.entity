@@ -50,24 +50,24 @@ entities
 			count 9
 			entityDefName "Minmatar_Ship_Frigate_Probe"
 			entityDefName "Minmatar_Ship_Frigate_Rifter"
-			entityDefName "Minmatar_Ship_Frigate_Slasher"
 			entityDefName "Minmatar_Ship_Frigate_Breacher"
 			entityDefName "Minmatar_Ship_Destroyer_Thrasher"
+			entityDefName "Minmatar_Ship_Destroyer_Talwar"
+			entityDefName "Minmatar_Ship_Destroyer_Svipul"
 			entityDefName "Minmatar_Ship_Cruiser_Rupture"
-			entityDefName "Minmatar_Ship_Cruiser_Belicose"
-			entityDefName "Minmatar_Ship_Cruiser_Scyther"
+			entityDefName "Minmatar_Ship_Envoy_CycloneEnvoy"
 			entityDefName "Amarr_Ship_Colony_Orca"
 		Page:1
 			count 9
+			entityDefName "Minmatar_Ship_Cruiser_Belicose"
+			entityDefName "Minmatar_Ship_Cruiser_Scyther"
+			entityDefName "Minmatar_Ship_Cruiser_Stabber"
 			entityDefName "Minmatar_Ship_Battlecruiser_Cyclone"
 			entityDefName "Minmatar_Ship_Battlecruiser_Hurricane"
-			entityDefName "Minmatar_Ship_Cruiser_Broadsword"
+			entityDefName "Minmatar_Ship_Battlecruiser_Tornado"
 			entityDefName "Minmatar_Ship_Battleship_Typhoon"
 			entityDefName "Minmatar_Ship_Battleship_Tempest"
 			entityDefName "Minmatar_Ship_Battleship_Maelstron"
-			entityDefName "Bloodraider_ShipBattleshipBhaalgorn"
-			entityDefName "Minmatar_Ship_Envoy_CycloneEnvoy"
-			entityDefName "Minmatar_Ship_Destroyer_Svipul"
 		NotOnPage
 			count 4
 			entityDefName "Amarr_Ship_Constructor_Venture"

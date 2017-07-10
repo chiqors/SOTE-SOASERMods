@@ -29,7 +29,10 @@ ShieldPointRestoreRate 1.000000
 BaseArmorPoints 0.000000
 maxMitigation 0.000000
 Prerequisites
-	NumResearchPrerequisites 0
+	NumResearchPrerequisites 1
+	ResearchPrerequisite
+		Subject "Minmatar_ResearchSubject_SubCapitalAccess_Thrasher"
+		Level 1
 	RequiredFactionNameID ""
 	RequiredCompletedResearchSubjects 0
 numRandomDebrisLarge 0
@@ -88,7 +91,7 @@ TargetCountPerBank:RIGHT 1
 canOnlyTargetStructures FALSE
 hasWeaponLevels FALSE
 mass 3000.000000
-ShieldMeshName "thrasher"
+ShieldMeshName "talwar"
 renderShield TRUE
 maxAccelerationLinear 95.000000
 maxAccelerationStrafe 10.000000
@@ -125,7 +128,7 @@ NumSoundsFor:ONSTARTPHASEJUMP 1
 SoundID "FRIGATE_TECHAA_ONSTARTPHASEJUMP_0"
 MeshNameInfoCount 1
 MeshNameInfo
-	meshName "thrasher"
+	meshName "talwar"
 	criteriaType "None"
 meshNameIncreasedEffectName ""
 meshNameDecreasedEffectName ""

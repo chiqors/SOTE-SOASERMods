@@ -1,5 +1,5 @@
 TXT
-entityNameCount 2366
+entityNameCount 2370
 entityName "ALLRACES_RESEARCHSUBJECT_ABILITYACCESS_AFTERBURNER.entity"
 entityName "ALLRACES_RESEARCHSUBJECT_ABILITYACCESS_BASTIONMODE.entity"
 entityName "ALLRACES_RESEARCHSUBJECT_ABILITYACCESS_CLOAK.entity"
@@ -2366,3 +2366,7 @@ entityName "TitanUpgrade_TechRebel_Weapons.entity"
 entityName "Trigger.entity"
 entityName "Weapon.entity"
 entityName "AbilityMinmatarPhenomenaGenerator.entity"
+entityName "Minmatar_Ship_Destroyer_Talwar.entity"
+entityName "Minmatar_Ship_Cruiser_Stabber.entity"
+entityName "Minmatar_Ship_Battleship_Machariel.entity"
+entityName "Minmatar_Ship_Battlecruiser_Tornado.entity"
