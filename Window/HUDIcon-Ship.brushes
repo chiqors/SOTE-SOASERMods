@@ -1,6 +1,6 @@
 ﻿TXT
 onlyLoadOnDemand FALSE
-brushCount 332
+brushCount 336
 brush
 	name "HUDICON_CORVETTE_PHASE"
 	content "States"
@@ -4286,6 +4286,16 @@ brush
 	fileName "Unit_Main2"
 	pixelBox [ 88 , 78, 13 , 13 ]		
 brush
+	name "HUDICONSMALL_DESTROYER"
+	content "Simple"
+	fileName "Unit_Main2"
+	pixelBox [ 52 , 46, 12 , 14 ]			
+brush
+	name "HUDICONSMALL_FRIGATE"
+	content "Simple"
+	fileName "Unit_Main2"
+	pixelBox [ 17 , 82, 12 , 7 ]				
+brush
 	name "HUDICONSMALL_CARRIER"
 	content "Simple"
 	fileName "Unit_Main2"
@@ -4309,20 +4319,57 @@ brush
 		fileName "Ships_Buttons_Normal"
 		pixelBox [ 259 , 681, 47 , 33 ]
 brush
-	name "HUDICON_CALDARI_CORAX"
+	name "HUDICON_MINMATAR_STABBER"
 	content "States"
 	Disabled
 		fileName "Ships_Buttons_Disabled"
-		pixelBox [ 412 , 459, 47 , 33 ]
+		pixelBox [ 464 , 460, 47 , 33 ]
 	Pressed
 		fileName "Ships_Buttons_Pressed"
-		pixelBox [ 412 , 459, 47 , 33 ]
+		pixelBox [ 464 , 460, 47 , 33 ]
 	CursorOver
 		fileName "Ships_Buttons_CursorOver"
-		pixelBox [ 412 , 459, 47 , 33 ]
+		pixelBox [ 464 , 460, 47 , 33 ]
 	Focused
 		fileName "Ships_Buttons_Normal"
-		pixelBox [ 412 , 459, 47 , 33 ]
+		pixelBox [ 464 , 460, 47 , 33 ]
 	Normal
 		fileName "Ships_Buttons_Normal"
-		pixelBox [ 412 , 459, 47 , 33 ]
+		pixelBox [ 464 , 460, 47 , 33 ]
+brush
+	name "HUDICON_MINMATAR_TORNADO"
+	content "States"
+	Disabled
+		fileName "Ships_Buttons_Disabled"
+		pixelBox [ 667 , 460, 47 , 33 ]
+	Pressed
+		fileName "Ships_Buttons_Pressed"
+		pixelBox [ 667 , 460, 47 , 33 ]
+	CursorOver
+		fileName "Ships_Buttons_CursorOver"
+		pixelBox [ 667 , 460, 47 , 33 ]
+	Focused
+		fileName "Ships_Buttons_Normal"
+		pixelBox [ 667 , 460, 47 , 33 ]
+	Normal
+		fileName "Ships_Buttons_Normal"
+		pixelBox [ 667 , 460, 47 , 33 ]		
+brush
+	name "HUDICON_MINMATAR_TALWAR"
+	content "States"
+	Disabled
+		fileName "Ships_Buttons_Disabled"
+		pixelBox [ 310 , 459, 47 , 33 ]
+	Pressed
+		fileName "Ships_Buttons_Pressed"
+		pixelBox [ 310 , 459, 47 , 33 ]
+	CursorOver
+		fileName "Ships_Buttons_CursorOver"
+		pixelBox [ 310 , 459, 47 , 33 ]
+	Focused
+		fileName "Ships_Buttons_Normal"
+		pixelBox [ 310 , 459, 47 , 33 ]
+	Normal
+		fileName "Ships_Buttons_Normal"
+		pixelBox [ 310 , 459, 47 , 33 ]
+		

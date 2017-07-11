@@ -36,9 +36,9 @@ numRandomDebrisLarge 0
 numRandomDebrisSmall 0
 numSpecificDebris 0
 armorType "Medium"
-hudIcon "HUDICON_FRIGATE_HURRICANE"
-smallHudIcon "HUDICONSMALL_FRIGATE_HURRICANE"
-infoCardIcon "HUDICONSMALL_FRIGATE_HURRICANE"
+hudIcon "HUDICON_MINMATAR_TORNADO"
+smallHudIcon "HUDICONSMALL_BATTLECRUISER"
+infoCardIcon "HUDICONSMALL_BATTLECRUISER"
 minZoomDistanceMult 1.000000
 NumWeapons 1
 Weapon

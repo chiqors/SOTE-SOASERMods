@@ -39,9 +39,9 @@ numRandomDebrisLarge 0
 numRandomDebrisSmall 0
 numSpecificDebris 0
 armorType "Medium"
-hudIcon "HUDICON_FRIGATE_THRASHER"
-smallHudIcon "HUDICONSMALL_FRIGATE_TRASHER"
-infoCardIcon "HUDICONSMALL_FRIGATE_TRASHER"
+hudIcon "HUDICON_MINMATAR_TALWAR"
+smallHudIcon "HUDICONSMALL_DESTROYER"
+infoCardIcon "HUDICONSMALL_DESTROYER"
 minZoomDistanceMult 1.000000
 NumWeapons 1
 Weapon

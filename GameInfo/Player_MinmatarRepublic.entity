@@ -58,11 +58,10 @@ entities
 			entityDefName "Minmatar_Ship_Envoy_CycloneEnvoy"
 			entityDefName "Amarr_Ship_Colony_Orca"
 		Page:1
-			count 9
+			count 8
 			entityDefName "Minmatar_Ship_Cruiser_Belicose"
 			entityDefName "Minmatar_Ship_Cruiser_Scyther"
 			entityDefName "Minmatar_Ship_Cruiser_Stabber"
-			entityDefName "Minmatar_Ship_Battlecruiser_Cyclone"
 			entityDefName "Minmatar_Ship_Battlecruiser_Hurricane"
 			entityDefName "Minmatar_Ship_Battlecruiser_Tornado"
 			entityDefName "Minmatar_Ship_Battleship_Typhoon"
@@ -75,7 +74,7 @@ entities
 			entityDefName "Minmatar_Ship_Refineryship_Mamonth"
 			entityDefName "Ore_ShipOrca"
 	researchInfo
-		count 137
+		count 138
 		entityDefName "RSAInterdictor"
 		entityDefName "RSACommand_Orca"
 		entityDefName "RSACovertOps"
@@ -213,6 +212,7 @@ entities
 		entityDefName "AllRaces_ResearchSubject_ArcingVortonProjector"
 		entityDefName "RESEARCHSUBJECT_STARBASEUPGRADEACCESS_FACTORY"
 		entityDefName "RESEARCHSUBJECT_PLANETMODULEACCESS_REPAIRPLATFORMPSI"
+		entityDefName "Minmatar_ResearchSubject_SubCapitalAccess_Stabber"
 	starBaseInfo
 		count 3
 		entityDefName "Allraces_Structure_Citadel_Astrahus"
