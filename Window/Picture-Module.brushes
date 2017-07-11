@@ -125,7 +125,7 @@ brush
 	name "PLANETMODULEPICTURE_PSIORBITALREPAIRPLATFORM"
 	content "Simple"
 	fileName "Unit_Picture"
-	pixelBox [ 852 , 158 , 167 , 75 ]
+	pixelBox [ 1019 , 859 , 167 , 75 ]
 brush
 	name "PLANETMODULEPICTURE_PSIORBITALCOMBATLABORATORY"
 	content "Simple"

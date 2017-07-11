@@ -131,10 +131,20 @@ SoundID "FRIGATE_TECHANTIMODULE_ONSELECTED_1"
 SoundID "FRIGATE_TECHANTIMODULE_ONSELECTED_2"
 NumSoundsFor:ONSTARTPHASEJUMP 1
 SoundID "FRIGATE_TECHANTIMODULE_ONSTARTPHASEJUMP_0"
-MeshNameInfoCount 1
+MeshNameInfoCount 2
 MeshNameInfo
-	meshName "onyx"
+	meshName "eagle"
 	criteriaType "None"
+MeshNameInfo
+	meshName "Onyx"
+	criteriaType "Research"
+	prerequisites
+		NumResearchPrerequisites 1
+		ResearchPrerequisite
+			Subject "RSAInterdictor"
+			Level 1
+		RequiredFactionNameID ""
+		RequiredCompletedResearchSubjects 1
 meshNameIncreasedEffectName ""
 meshNameDecreasedEffectName ""
 ExhaustParticleSystemName "Exhaust_EveCruiser"
