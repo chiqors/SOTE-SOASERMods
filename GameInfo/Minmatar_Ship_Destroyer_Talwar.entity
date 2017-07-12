@@ -91,7 +91,7 @@ TargetCountPerBank:RIGHT 1
 canOnlyTargetStructures FALSE
 hasWeaponLevels FALSE
 mass 3000.000000
-ShieldMeshName "talwar"
+ShieldMeshName "thrasher"
 renderShield TRUE
 maxAccelerationLinear 95.000000
 maxAccelerationStrafe 10.000000
@@ -128,7 +128,7 @@ NumSoundsFor:ONSTARTPHASEJUMP 1
 SoundID "FRIGATE_TECHAA_ONSTARTPHASEJUMP_0"
 MeshNameInfoCount 1
 MeshNameInfo
-	meshName "talwar"
+	meshName "thrasher"
 	criteriaType "None"
 meshNameIncreasedEffectName ""
 meshNameDecreasedEffectName ""
