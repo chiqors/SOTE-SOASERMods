@@ -384,19 +384,19 @@ brush
 	content "States"
 	Disabled
 		fileName "Unit_Hud_Disabled"
-		pixelBox [ 251 , 154 , 47 , 33 ]
+		pixelBox [ 153 , 119 , 47 , 33 ]
 	Pressed
 		fileName "Unit_Hud_Pressed"
-		pixelBox [ 251 , 154 , 47 , 33 ]
+		pixelBox [ 153 , 119 , 47 , 33 ]
 	CursorOver
 		fileName "Unit_Hud_CursorOver"
-		pixelBox [ 251 , 154 , 47 , 33 ]
+		pixelBox [ 153 , 119 , 47 , 33 ]
 	Focused
 		fileName "Unit_Hud_Normal"
-		pixelBox [ 251 , 154 , 47 , 33 ]
+		pixelBox [ 153 , 119 , 47 , 33 ]
 	Normal
 		fileName "Unit_Hud_Normal"
-		pixelBox [ 251 , 154 , 47 , 33 ]
+		pixelBox [ 153 , 119 , 47 , 33 ]
 brush
 	name "HUDICON_PLANETMODULE_PSIORBITALCOMBATLABORATORY"
 	content "States"

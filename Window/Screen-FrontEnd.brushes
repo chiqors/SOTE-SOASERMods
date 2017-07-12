@@ -215,7 +215,7 @@ brush
 	name "RaceSelectDialogPsiLoyalistPortraitSmall"
 	content "Simple"
 	fileName "Player_Portrait_Small"
-	pixelBox [ 250 , 77 , 55 , 67 ]
+	pixelBox [ 127 , 77 , 55 , 67 ]
 brush
 	name "RaceSelectDialogPhaseLoyalistPortraitSmall"
 	content "Simple"
@@ -230,7 +230,7 @@ brush
 	name "RaceSelectDialogTechRebelPortrait"
 	content "Simple"
 	fileName "Player_Portrait_Large"
-	pixelBox [ 397 , 1 , 195 , 219 ]
+	pixelBox [ 5 , 449 , 195 , 219 ]
 brush
 	name "RaceSelectDialogPsiLoyalistPortrait"
 	content "Simple"

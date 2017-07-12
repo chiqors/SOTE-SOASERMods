@@ -11474,10 +11474,10 @@ StringInfo
 	Value "An array of Beam Weapons defend nearby structures and the planet from hostile ships."
 StringInfo
 	ID "IDS_PLANETMODULE_PSIORBITALREPAIRPLATFORM_NAME"
-	Value "Repair Platform"
+	Value "Repair Shipyard Platform"
 StringInfo
 	ID "IDS_PLANETMODULE_PSIORBITALREPAIRPLATFORM_DESCRIPTION"
-	Value "Repairs friendly ships near the planet over time."
+	Value "This modified shipyards are used to Repairs friendly ships near the planet over time. From time to time this shipyards are used as stagging point to pirate ships with good standing."
 StringInfo
 	ID "IDS_PLANETMODULE_PSIORBITALCOMBATLABORATORY_NAME"
 	Value "Temple of Hostility"
