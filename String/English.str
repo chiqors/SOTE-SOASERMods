@@ -1,5 +1,5 @@
 TXT
-NumStrings 8386
+NumStrings 8388
 StringInfo
     ID "IDS_ABILITY_RORQUALPANIC_NAME"
 	Value "P.A.N.I.C Module"
@@ -25158,4 +25158,10 @@ StringInfo
 StringInfo
 	ID "IDS_ABILITY_ARMORREPAIR_DESCRIPTION"
 	Value "Restore portion of the self armor."
-		
+StringInfo
+	ID "IDS_MINMATAR_ENVOY_NAME"
+	Value "Cyclone Envoy"
+StringInfo
+	ID "IDS_MINMATAR_ENVOY_DESCRIPTION"
+	Value "Modified Battlecruiser designed to diplomatic missions."
+				

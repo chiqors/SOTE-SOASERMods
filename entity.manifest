@@ -2370,4 +2370,8 @@ entityName "Minmatar_Ship_Destroyer_Talwar.entity"
 entityName "Minmatar_Ship_Cruiser_Stabber.entity"
 entityName "Minmatar_Ship_Battleship_Machariel.entity"
 entityName "Minmatar_Ship_Battlecruiser_Tornado.entity"
+<<<<<<< HEAD
 entityName "Minmatar_Structure_HangarDefense.entity"
+=======
+entityName "Minmatar_ResearchSubject_SubCapitalAccess_Stabber.entity"
+>>>>>>> branch 'master' of https://github.com/kabivel/Sins-of-Empires.git
