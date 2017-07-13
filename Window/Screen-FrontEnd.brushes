@@ -1,6 +1,6 @@
 ﻿TXT
 onlyLoadOnDemand FALSE
-brushCount 225
+brushCount 226
 brush
 	name "DLCButtonBackgroundPlanetDLC1"
 	content "Simple"
@@ -220,7 +220,12 @@ brush
 	name "RaceSelectDialogPhaseLoyalistPortraitSmall"
 	content "Simple"
 	fileName "Player_Portrait_Small"
-	pixelBox [ 127 , 150 , 55 , 67 ]
+	pixelBox [ 180 , 200 , 55 , 67 ]
+brush
+	name "RaceSelectDialogGallentePortraitSmall"
+	content "Simple"
+	fileName "Player_Portrait_Small"
+	pixelBox [ 120 , 200 , 55 , 67 ]	
 brush
 	name "RaceSelectDialogTechLoyalistPortrait"
 	content "Simple"
