@@ -240,12 +240,12 @@ brush
 	name "RaceSelectDialogPsiLoyalistPortrait"
 	content "Simple"
 	fileName "Player_Portrait_Large"
-	pixelBox [ 793 , 224 , 195 , 219 ]
+	pixelBox [ 402 , 672 , 195 , 219 ]
 brush
 	name "RaceSelectDialogPsiRebelPortrait"
 	content "Simple"
 	fileName "Player_Portrait_Large"
-	pixelBox [ 397 , 224 , 195 , 219 ]
+	pixelBox [ 599 , 671 , 195 , 219 ]
 brush
 	name "RaceSelectDialogPhaseLoyalistPortrait"
 	content "Simple"
