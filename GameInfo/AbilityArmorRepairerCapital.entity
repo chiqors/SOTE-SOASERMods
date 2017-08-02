@@ -1,8 +1,21 @@
 ﻿TXT
 entityType "Ability"
-buffInstantActionType "ApplyBuffToSelf"
+buffInstantActionType "ApplyTargettedBuffToSelf"
 instantActionTriggerType "AlwaysPerform"
 buffType "BuffArmorRepairCapital"
+targetFilter
+	numOwnerships 1
+	ownership "Friendly"
+	numObjects 1
+	object "CapitalShip"
+	numSpaces 1
+	space "Normal"
+	numConstraints 0
+range
+	Level:0 0.000000
+	Level:1 0.000000
+	Level:2 0.000000
+	Level:3 0.000000
 effectInfo
 	effectAttachInfo
 		attachType "Center"
@@ -24,15 +37,15 @@ minExperienceLevelRequired
 aiUseTime "Anytime"
 aiUseTargetCondition "HullDamageExceedsAmount"
 onlyAutoCastWhenTargetHullDamageExceedsAmount
-	Level:0 600.000000
-	Level:1 600.000000
-	Level:2 600.000000
-	Level:3 600.000000
+	Level:0 7920.000000
+	Level:1 7920.000000
+	Level:2 7920.000000
+	Level:3 7920.000000
 isAutoCastAvailable TRUE
 isAutoCastOnByDefault TRUE
 pickRandomPlanetToExploreForAutoCastTarget FALSE
 ignoreNonCombatShipsForAutoCastTarget TRUE
-onlyAutoCastWhenDamageTakenExceedsPerc 0.010000
+onlyAutoCastWhenDamageTakenExceedsPerc 0.000000
 useCostType "AntiMatter"
 antiMatterCost
 	Level:0 2592.000000
