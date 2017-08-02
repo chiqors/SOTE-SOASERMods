@@ -43,15 +43,15 @@ minExperienceLevelRequired
 aiUseTime "Anytime"
 aiUseTargetCondition "ShieldDamageExceedsAmount"
 onlyAutoCastWhenTargetShieldDamageExceedsAmount
-	Level:0 250.000000
-	Level:1 275.000000
-	Level:2 302.500000
-	Level:3 332.500000
+	Level:0 1150.000000
+	Level:1 1150.000000
+	Level:2 1150.500000
+	Level:3 1150.500000
 isAutoCastAvailable TRUE
 isAutoCastOnByDefault TRUE
 pickRandomPlanetToExploreForAutoCastTarget FALSE
 ignoreNonCombatShipsForAutoCastTarget TRUE
-onlyAutoCastWhenDamageTakenExceedsPerc 0.010000
+onlyAutoCastWhenDamageTakenExceedsPerc 0.000000
 useCostType "AntiMatter"
 antiMatterCost
 	Level:0 1485.000000
