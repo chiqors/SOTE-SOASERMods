@@ -147,7 +147,7 @@ ability:0 "AbilityAfterburner"
 ability:1 "AbilityStasisWebifier"
 ability:2 "AbilityPhasedArmourHardener"
 ability:3 ""
-ability:4 "AbilityT2CruiserZealot"
+ability:4 ""
 MaxAntiMatter 275.000000
 AntiMatterRestoreRate 0.500000
 cargoType "Invalid"
