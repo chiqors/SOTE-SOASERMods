@@ -1,5 +1,5 @@
 TXT
-NumStrings 8388
+NumStrings 8390
 StringInfo
     ID "IDS_ABILITY_RORQUALPANIC_NAME"
 	Value "P.A.N.I.C Module"
@@ -25164,4 +25164,10 @@ StringInfo
 StringInfo
 	ID "IDS_MINMATAR_ENVOY_DESCRIPTION"
 	Value "Modified Battlecruiser designed to diplomatic missions."
-				
+StringInfo
+	ID "IDS_FRIGATE_CYCLONE_ENVOY_NAME"
+	Value "Cyclone Envoy"
+StringInfo
+	ID "IDS_FRIGATE_CYCLONE_ENVOY_DESCRIPTION"
+	Value "A refitted prophecy battlecruiser that can improve relations with opposing factions."				
+	

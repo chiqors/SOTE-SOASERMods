@@ -39,7 +39,7 @@ numRandomDebrisLarge 0
 numRandomDebrisSmall 0
 numSpecificDebris 0
 armorType "Medium"
-hudIcon "HUDICON_CALDARI_CORAX"
+hudIcon "HUDICON_FRIGATE_STABBER"
 smallHudIcon "HUDICONSMALL_FRIGATE_STABBER"
 infoCardIcon "HUDICONSMALL_FRIGATE_STABBER"
 minZoomDistanceMult 1.000000
