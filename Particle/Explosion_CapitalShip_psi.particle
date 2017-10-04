@@ -7,7 +7,7 @@ ParticleSimulation
 	EmitterContents
 		Name "WhiteGrow"
 		Enabled TRUE
-		EmitRate 7.000000
+		EmitRate 1.000000
 		HasInfiniteEmitCount FALSE
 		MaxEmitCount 1
 		hasEmitIntervals FALSE
@@ -55,7 +55,7 @@ ParticleSimulation
 	EmitterContents
 		Name "BlueGrow"
 		Enabled TRUE
-		EmitRate 7.000000
+		EmitRate 1.000000
 		HasInfiniteEmitCount FALSE
 		MaxEmitCount 1
 		hasEmitIntervals FALSE
@@ -151,9 +151,9 @@ ParticleSimulation
 	EmitterContents
 		Name "sparks2"
 		Enabled TRUE
-		EmitRate 1000.000000
+		EmitRate 200.000000
 		HasInfiniteEmitCount FALSE
-		MaxEmitCount 150
+		MaxEmitCount 200
 		hasEmitIntervals FALSE
 		emitIntervalRunDuration 0.000000
 		emitIntervalWaitDuration 0.000000
@@ -211,9 +211,9 @@ ParticleSimulation
 	EmitterContents
 		Name "sparks"
 		Enabled TRUE
-		EmitRate 1000.000000
+		EmitRate 200.000000
 		HasInfiniteEmitCount FALSE
-		MaxEmitCount 180
+		MaxEmitCount 200
 		hasEmitIntervals FALSE
 		emitIntervalRunDuration 0.000000
 		emitIntervalWaitDuration 0.000000
@@ -271,7 +271,7 @@ ParticleSimulation
 	EmitterContents
 		Name "shockwave"
 		Enabled TRUE
-		EmitRate 1000.000000
+		EmitRate 1.000000
 		HasInfiniteEmitCount FALSE
 		MaxEmitCount 1
 		hasEmitIntervals FALSE
@@ -319,9 +319,9 @@ ParticleSimulation
 	EmitterContents
 		Name "debris0"
 		Enabled TRUE
-		EmitRate 250.000000
+		EmitRate 10.000000
 		HasInfiniteEmitCount FALSE
-		MaxEmitCount 16
+		MaxEmitCount 10
 		hasEmitIntervals FALSE
 		emitIntervalRunDuration 0.000000
 		emitIntervalWaitDuration 0.000000
@@ -379,9 +379,9 @@ ParticleSimulation
 	EmitterContents
 		Name "debris1"
 		Enabled TRUE
-		EmitRate 250.000000
+		EmitRate 10.000000
 		HasInfiniteEmitCount FALSE
-		MaxEmitCount 16
+		MaxEmitCount 10
 		hasEmitIntervals FALSE
 		emitIntervalRunDuration 0.000000
 		emitIntervalWaitDuration 0.000000
@@ -439,7 +439,7 @@ ParticleSimulation
 	EmitterContents
 		Name "cloud1"
 		Enabled TRUE
-		EmitRate 60.000000
+		EmitRate 10.000000
 		HasInfiniteEmitCount FALSE
 		MaxEmitCount 10
 		hasEmitIntervals FALSE
@@ -487,9 +487,9 @@ ParticleSimulation
 	EmitterContents
 		Name "cloud2"
 		Enabled TRUE
-		EmitRate 180.000000
+		EmitRate 10.000000
 		HasInfiniteEmitCount FALSE
-		MaxEmitCount 20
+		MaxEmitCount 10
 		hasEmitIntervals FALSE
 		emitIntervalRunDuration 0.000000
 		emitIntervalWaitDuration 0.000000
@@ -666,8 +666,8 @@ ParticleSimulation
 		AffectAttachedParticles TRUE
 		numAttachedEmitters 1
 		attachedEmitterName "shockwave"
-		WidthInflateRate 1500.000000
-		HeightInflateRate 750.000000
+		WidthInflateRate 2400.000000
+		HeightInflateRate 1200.000000
 	AffectorType "Drag"
 	AffectorContents
 		Name "(new) Drag-1"

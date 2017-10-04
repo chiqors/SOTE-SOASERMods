@@ -2,14 +2,14 @@
 ParticleSimulation
 	HasInfiniteLifeTime FALSE
 	TotalLifeTime 10.000000
-	NumEmitters 9
+	NumEmitters 6
 	EmitterType "Ring"
 	EmitterContents
 		Name "OrangeGrow"
 		Enabled TRUE
-		EmitRate 100.000000
+		EmitRate 20.000000
 		HasInfiniteEmitCount FALSE
-		MaxEmitCount 40
+		MaxEmitCount 20
 		hasEmitIntervals FALSE
 		emitIntervalRunDuration 0.000000
 		emitIntervalWaitDuration 0.000000
@@ -68,9 +68,9 @@ ParticleSimulation
 	EmitterContents
 		Name "Shockwave"
 		Enabled TRUE
-		EmitRate 60.000000
+		EmitRate 10.000000
 		HasInfiniteEmitCount FALSE
-		MaxEmitCount 15
+		MaxEmitCount 10
 		hasEmitIntervals FALSE
 		emitIntervalRunDuration 0.000000
 		emitIntervalWaitDuration 0.000000
@@ -129,7 +129,7 @@ ParticleSimulation
 	EmitterContents
 		Name "Firecloud"
 		Enabled TRUE
-		EmitRate 80.000000
+		EmitRate 20.000000
 		HasInfiniteEmitCount FALSE
 		MaxEmitCount 20
 		hasEmitIntervals FALSE
@@ -190,9 +190,9 @@ ParticleSimulation
 	EmitterContents
 		Name "Firecloud2"
 		Enabled TRUE
-		EmitRate 21.000000
-		HasInfiniteEmitCount TRUE
-		MaxEmitCount 0
+		EmitRate 15.000000
+		HasInfiniteEmitCount FALSE
+		MaxEmitCount 15
 		hasEmitIntervals FALSE
 		emitIntervalRunDuration 0.000000
 		emitIntervalWaitDuration 0.000000
@@ -249,70 +249,9 @@ ParticleSimulation
 		nonRandomSpawnLoopEmittedParticleCount 20
 	EmitterType "Ring"
 	EmitterContents
-		Name "sparks"
-		Enabled TRUE
-		EmitRate 11.000000
-		HasInfiniteEmitCount TRUE
-		MaxEmitCount 10
-		hasEmitIntervals FALSE
-		emitIntervalRunDuration 0.000000
-		emitIntervalWaitDuration 0.000000
-		ParticleLifeTime 2.000000
-		ParticleMinStartLinearSpeed 0.000000
-		ParticleMaxStartLinearSpeed 0.000000
-		ParticleMinStartAngularSpeed 0.000000
-		ParticleMaxStartAngularSpeed 0.000000
-		ParticleMinStartRotation 0.000000
-		ParticleMaxStartRotation 6.283185
-		ParticleStartMass 1.000000
-		ParticleStartColor ffff8246
-		ParticleWidth 200.000000
-		ParticleHeight 200.000000
-		MeshName ""
-		Position [ 0.000000 0.000000 50.000000 ]
-		Orientation
-			 [ 0.965926 0.000000 0.258819 ]
-			 [ 0.000000 1.000000 0.000000 ]
-			 [ -0.258819 0.000000 0.965926 ]
-		RotateAboutForward 0.000000
-		RotateAboutUp -15.000000
-		RotateAboutCross 0.000000
-		StartTime 6.000000
-		HasInfiniteLifeTime FALSE
-		TotalLifeTime 2.000000
-		BillboardAnchor 0
-		ParticleFacing 2
-		PipelineEffectID "Particle_Additive.fx"
-		AreParticlesAttached TRUE
-		numTextures 2
-		textureName "psifriendlyspots.tga"
-		textureName ""
-		textureAnimationName ""
-		textureAnimationSpawnType "RandomFrames"
-		textureAnimationOnParticleFPS 0.000000
-		ParticlesRotate TRUE
-		MeshParticleRotationAxisType 0
-		MeshParticleRotationAxis [ 0.000000 0.100000 0.000000 ]
-		RotationDirectionType 2
-		RingRadiusXMin 100.000000
-		RingRadiusXMax 400.000000
-		RingRadiusYMin 100.000000
-		RingRadiusYMax 400.000000
-		ParticleMaxStartSpeedTangential 0.000000
-		ParticleMaxStartSpeedRingNormal 0.100000
-		ScaleStartSpeedsByRadius FALSE
-		SpawnAngleStart 0.000000
-		SpawnAngleStop 6.283185
-		minSpawnHeight 0.000000
-		maxSpawnHeight 0.000000
-		spawnDirectionIsParallelToPlane TRUE
-		isSpawnAngleRandom TRUE
-		nonRandomSpawnLoopEmittedParticleCount 20
-	EmitterType "Ring"
-	EmitterContents
 		Name "ball"
 		Enabled TRUE
-		EmitRate 4.000000
+		EmitRate 2.000000
 		HasInfiniteEmitCount TRUE
 		MaxEmitCount 0
 		hasEmitIntervals FALSE
@@ -373,7 +312,7 @@ ParticleSimulation
 	EmitterContents
 		Name "ball2"
 		Enabled TRUE
-		EmitRate 100.000000
+		EmitRate 2.000000
 		HasInfiniteEmitCount FALSE
 		MaxEmitCount 2
 		hasEmitIntervals FALSE
@@ -417,128 +356,6 @@ ParticleSimulation
 		MeshParticleRotationAxis [ 0.000000 0.100000 0.000000 ]
 		RotationDirectionType 2
 		AngleVariance 0.000000
-	EmitterType "Ring"
-	EmitterContents
-		Name "Firesmoke"
-		Enabled TRUE
-		EmitRate 21.000000
-		HasInfiniteEmitCount TRUE
-		MaxEmitCount 0
-		hasEmitIntervals FALSE
-		emitIntervalRunDuration 0.000000
-		emitIntervalWaitDuration 0.000000
-		ParticleLifeTime 3.000000
-		ParticleMinStartLinearSpeed 10.000000
-		ParticleMaxStartLinearSpeed 10.000000
-		ParticleMinStartAngularSpeed 0.000000
-		ParticleMaxStartAngularSpeed 0.872665
-		ParticleMinStartRotation 0.000000
-		ParticleMaxStartRotation 6.283185
-		ParticleStartMass 1.000000
-		ParticleStartColor ffffffff
-		ParticleWidth 100.000000
-		ParticleHeight 100.000000
-		MeshName ""
-		Position [ 0.000000 0.000000 50.000000 ]
-		Orientation
-			 [ 0.965926 0.000000 0.258819 ]
-			 [ 0.000000 1.000000 0.000000 ]
-			 [ -0.258819 0.000000 0.965926 ]
-		RotateAboutForward 0.000000
-		RotateAboutUp -15.000000
-		RotateAboutCross 0.000000
-		StartTime 0.000000
-		HasInfiniteLifeTime FALSE
-		TotalLifeTime 4.500000
-		BillboardAnchor 0
-		ParticleFacing 0
-		PipelineEffectID "Particle_Additive.fx"
-		AreParticlesAttached TRUE
-		numTextures 2
-		textureName "atomiccloud2.tga"
-		textureName ""
-		textureAnimationName ""
-		textureAnimationSpawnType "RandomFrames"
-		textureAnimationOnParticleFPS 0.000000
-		ParticlesRotate TRUE
-		MeshParticleRotationAxisType 0
-		MeshParticleRotationAxis [ 0.000000 0.100000 0.000000 ]
-		RotationDirectionType 2
-		RingRadiusXMin 0.000000
-		RingRadiusXMax 450.000000
-		RingRadiusYMin 0.000000
-		RingRadiusYMax 450.000000
-		ParticleMaxStartSpeedTangential 0.000000
-		ParticleMaxStartSpeedRingNormal 120.000000
-		ScaleStartSpeedsByRadius FALSE
-		SpawnAngleStart 0.000000
-		SpawnAngleStop 6.283185
-		minSpawnHeight 0.000000
-		maxSpawnHeight 0.000000
-		spawnDirectionIsParallelToPlane TRUE
-		isSpawnAngleRandom TRUE
-		nonRandomSpawnLoopEmittedParticleCount 20
-	EmitterType "Ring"
-	EmitterContents
-		Name "sparks2"
-		Enabled TRUE
-		EmitRate 30.000000
-		HasInfiniteEmitCount TRUE
-		MaxEmitCount 0
-		hasEmitIntervals FALSE
-		emitIntervalRunDuration 0.000000
-		emitIntervalWaitDuration 0.000000
-		ParticleLifeTime 3.000000
-		ParticleMinStartLinearSpeed 50.000000
-		ParticleMaxStartLinearSpeed 100.000000
-		ParticleMinStartAngularSpeed 0.000000
-		ParticleMaxStartAngularSpeed 0.261799
-		ParticleMinStartRotation 0.000000
-		ParticleMaxStartRotation 6.283185
-		ParticleStartMass 1.000000
-		ParticleStartColor ffff8000
-		ParticleWidth 600.000000
-		ParticleHeight 600.000000
-		MeshName ""
-		Position [ 0.000000 0.000000 50.000000 ]
-		Orientation
-			 [ 0.965926 0.000000 0.258819 ]
-			 [ 0.000000 1.000000 0.000000 ]
-			 [ -0.258819 0.000000 0.965926 ]
-		RotateAboutForward 0.000000
-		RotateAboutUp -15.000000
-		RotateAboutCross 0.000000
-		StartTime 0.000000
-		HasInfiniteLifeTime FALSE
-		TotalLifeTime 5.000000
-		BillboardAnchor 0
-		ParticleFacing 0
-		PipelineEffectID "Particle_Additive.fx"
-		AreParticlesAttached TRUE
-		numTextures 2
-		textureName "sparkles.tga"
-		textureName ""
-		textureAnimationName ""
-		textureAnimationSpawnType "RandomFrames"
-		textureAnimationOnParticleFPS 0.000000
-		ParticlesRotate TRUE
-		MeshParticleRotationAxisType 0
-		MeshParticleRotationAxis [ 0.000000 0.100000 0.000000 ]
-		RotationDirectionType 2
-		RingRadiusXMin 150.000000
-		RingRadiusXMax 250.000000
-		RingRadiusYMin 150.000000
-		RingRadiusYMax 250.000000
-		ParticleMaxStartSpeedTangential 0.000000
-		ParticleMaxStartSpeedRingNormal 150.000000
-		ScaleStartSpeedsByRadius FALSE
-		SpawnAngleStart 0.000000
-		SpawnAngleStop 6.283185
-		minSpawnHeight 0.000000
-		maxSpawnHeight 0.000000
-		spawnDirectionIsParallelToPlane FALSE
-		isSpawnAngleRandom TRUE
-		nonRandomSpawnLoopEmittedParticleCount 20
 	NumAffectors 10
 	AffectorType "LinearInflate"
 	AffectorContents
@@ -638,11 +455,9 @@ ParticleSimulation
 		UseOldParticleAffectThreshold FALSE
 		OldParticleAffectThreshold 0.000000
 		AffectAttachedParticles TRUE
-		numAttachedEmitters 4
-		attachedEmitterName "sparks"
+		numAttachedEmitters 2
 		attachedEmitterName "Firecloud2"
 		attachedEmitterName "ball"
-		attachedEmitterName "sparks2"
 		DoFadeOut TRUE
 		FadeOutTime 1.000000
 		DoFadeIn TRUE
@@ -659,8 +474,7 @@ ParticleSimulation
 		UseOldParticleAffectThreshold FALSE
 		OldParticleAffectThreshold 0.000000
 		AffectAttachedParticles TRUE
-		numAttachedEmitters 3
-		attachedEmitterName "Firesmoke"
+		numAttachedEmitters 2
 		attachedEmitterName "Firecloud2"
 		attachedEmitterName "Firecloud"
 		WidthInflateRate 100.000000
@@ -695,8 +509,7 @@ ParticleSimulation
 		UseOldParticleAffectThreshold FALSE
 		OldParticleAffectThreshold 0.000000
 		AffectAttachedParticles TRUE
-		numAttachedEmitters 1
-		attachedEmitterName "Firesmoke"
+		numAttachedEmitters 0
 		DoFadeOut TRUE
 		FadeOutTime 1.000000
 		DoFadeIn TRUE
@@ -713,8 +526,7 @@ ParticleSimulation
 		UseOldParticleAffectThreshold FALSE
 		OldParticleAffectThreshold 0.000000
 		AffectAttachedParticles TRUE
-		numAttachedEmitters 1
-		attachedEmitterName "Firesmoke"
+		numAttachedEmitters 0
 		JitterForce 3000.000000
 		UseCommonForce FALSE
 	length 0.000000

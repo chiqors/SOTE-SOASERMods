@@ -55,7 +55,7 @@ ParticleSimulation
 	EmitterContents
 		Name "Launch Flash"
 		Enabled TRUE
-		EmitRate 20.000000
+		EmitRate 1.000000
 		HasInfiniteEmitCount FALSE
 		MaxEmitCount 1
 		hasEmitIntervals FALSE
@@ -103,7 +103,7 @@ ParticleSimulation
 	EmitterContents
 		Name "Engine Flare"
 		Enabled TRUE
-		EmitRate 20.000000
+		EmitRate 5.000000
 		HasInfiniteEmitCount FALSE
 		MaxEmitCount 1
 		hasEmitIntervals FALSE
@@ -151,7 +151,7 @@ ParticleSimulation
 	EmitterContents
 		Name "Engine Flame"
 		Enabled TRUE
-		EmitRate 30.000000
+		EmitRate 20.000000
 		HasInfiniteEmitCount TRUE
 		MaxEmitCount 1
 		hasEmitIntervals FALSE
@@ -212,7 +212,7 @@ ParticleSimulation
 	EmitterContents
 		Name "Smoke (Trail)"
 		Enabled TRUE
-		EmitRate 40.000000
+		EmitRate 20.000000
 		HasInfiniteEmitCount TRUE
 		MaxEmitCount 1
 		hasEmitIntervals FALSE
@@ -273,7 +273,7 @@ ParticleSimulation
 	EmitterContents
 		Name "Engine Fire (Trail)"
 		Enabled TRUE
-		EmitRate 120.000000
+		EmitRate 20.000000
 		HasInfiniteEmitCount TRUE
 		MaxEmitCount 1
 		hasEmitIntervals FALSE
@@ -334,7 +334,7 @@ ParticleSimulation
 	EmitterContents
 		Name "Engine Flare Glow (Bloom)"
 		Enabled TRUE
-		EmitRate 20.000000
+		EmitRate 10.000000
 		HasInfiniteEmitCount FALSE
 		MaxEmitCount 1
 		hasEmitIntervals FALSE
