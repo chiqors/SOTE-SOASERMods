@@ -1,42 +1,26 @@
-Model Stabber
+Dragoon Picture and hudicon
 Badger Picture
 Moa Picture
-Mesh Daredevil
-Put effects on buffs
-Missing cruisers and Battlecruisers
-
-download and covert musics
-
-Fix ships slots:
-Frigate 1
-Desrtoyer 2
-Cruiser 3
-Battlecruiser 4
-Battleship 5
-
-I - Create
-
-4 - Hangar Defense navy cruiser and command navy cruiser
-6 - Navy Ships: Logi Cruiser with guns, Battlecruiser with 2 or 3 command links and Frigate Battleship
-8 - Pirate logistics will be cruiser with logistics, frigate will have EWA
-11 - Noctis will be construction colony ship, 
-12 - Bowhead will construct industrial arrays
-16 - Create eletronic ships
-25 - Special ships should have AFB 
-37 - Orca Construct Navy Shipyards
-29 - Orcas will have fix structures ability
-30 - Fix Ores Ships names, meshs, pictures and icons
-31 - Create Projectors abilities and efffects
-32 - Create cruisers/interdictors
-33 - Remove interdictors
-36 - Freighters Capital will deploy Keepstar
 
 
-34 - Cruiser Resist names and icons
-35 - Cruisers Damage name and icons
-36 - Blood Shipyard
+1 - Fix Ores Ships names, meshs, pictures and icons
+2 - Create Projectors abilities and efffects
+3 - Cruisers Damage name and icons
+4 - Teste and see if Blood Shipyard is working
+5 - Insert dragoon on amar race
+6 - finish talos, apostle, algos and talawar model (missing points)
+7 - Assemble t3 ships
 
+MOD fase II
 
-II - Test
-
-2 - Pirate Orca will build Pirate Citadel/Shipyard
+1 - Hangar Defense navy cruiser and command navy cruiser
+2 - Navy Ships: Logi Cruiser with guns, Battlecruiser with 2 command links and Navy Battleship
+3 - Pirate Orca will build Pirate Citadel/Shipyard
+4 - Noctis will be construction colony ship, 
+5 - Bowhead will construct industrial arrays
+6 - Create eletronic ships
+7 - Orca Construct Navy Shipyards
+8 - Orcas will have fix structures ability
+9 - Freighters Capital will deploy Keepstar
+10 - New titan ability with AbilityScattershot
+11 - Test battleship shield resist

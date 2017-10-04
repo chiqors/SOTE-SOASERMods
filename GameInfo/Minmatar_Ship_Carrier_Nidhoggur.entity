@@ -2,8 +2,8 @@
 entityType "CapitalShip"
 ability:0 "AbilityFighterControlUnit"
 ability:1 "AbilityPLASMASmartbomb"
-ability:2 "AbilityCaldariShieldWarfareMindlink"
-ability:3 "AbilityShieldBoosterCapital"
+ability:2 "AbilityShieldBoosterCapital"
+ability:3 "AbilityCarrier"
 ability:4 ""
 defaultAutoAttackRange "GravityWell"
 defaultAutoAttackOn TRUE

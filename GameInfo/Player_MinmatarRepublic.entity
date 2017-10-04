@@ -37,37 +37,37 @@ entities
 	capitalShipInfo
 		Page:0
 			count 8
+			entityDefName "Amarr_Ship_ColonyCapital_Rorqual"
 			entityDefName "Minmatar_Ship_Carrier_Nidhoggur"
 			entityDefName "Minmatar_Ship_Carrier_Triage_Lif"
 			entityDefName "Minmatar_Ship_Dreadnought_Naglfar_ShortRange"
 			entityDefName "Minmatar_Ship_Dreadnought_Naglfar_LongRange"
 			entityDefName "Minmatar_Ship_Supercarrier_Hel"
-			entityDefName "Amarr_Ship_ColonyCapital_Rorqual"
-			entityDefName "AllRaces_Ship_Supercarrier_Revenant"
 			entityDefName "Minmatar_Ship_Capital_Titan_Ragnarok"
+			entityDefName "AllRaces_Ship_Supercarrier_Revenant"
 	frigateInfo
 		Page:0
 			count 9
 			entityDefName "Minmatar_Ship_Frigate_Probe"
 			entityDefName "Minmatar_Ship_Frigate_Rifter"
-			entityDefName "Minmatar_Ship_Frigate_Slasher"
 			entityDefName "Minmatar_Ship_Frigate_Breacher"
 			entityDefName "Minmatar_Ship_Destroyer_Thrasher"
+			entityDefName "Minmatar_Ship_Destroyer_Talwar"
+			entityDefName "Minmatar_Ship_Destroyer_Svipul"
 			entityDefName "Minmatar_Ship_Cruiser_Rupture"
-			entityDefName "Minmatar_Ship_Cruiser_Belicose"
-			entityDefName "Minmatar_Ship_Cruiser_Scyther"
+			entityDefName "Minmatar_Ship_Envoy_CycloneEnvoy"
 			entityDefName "Amarr_Ship_Colony_Orca"
 		Page:1
 			count 9
+			entityDefName "Minmatar_Ship_Cruiser_Belicose"
+			entityDefName "Minmatar_Ship_Cruiser_Scyther"
+			entityDefName "Minmatar_Ship_Cruiser_Stabber"
 			entityDefName "Minmatar_Ship_Battlecruiser_Cyclone"
 			entityDefName "Minmatar_Ship_Battlecruiser_Hurricane"
-			entityDefName "Minmatar_Ship_Cruiser_Broadsword"
+			entityDefName "Minmatar_Ship_Battlecruiser_Tornado"
 			entityDefName "Minmatar_Ship_Battleship_Typhoon"
 			entityDefName "Minmatar_Ship_Battleship_Tempest"
 			entityDefName "Minmatar_Ship_Battleship_Maelstron"
-			entityDefName "Bloodraider_ShipBattleshipBhaalgorn"
-			entityDefName "Minmatar_Ship_Envoy_CycloneEnvoy"
-			entityDefName "Minmatar_Ship_Destroyer_Svipul"
 		NotOnPage
 			count 4
 			entityDefName "Amarr_Ship_Constructor_Venture"
@@ -75,13 +75,14 @@ entities
 			entityDefName "Minmatar_Ship_Refineryship_Mamonth"
 			entityDefName "Ore_ShipOrca"
 	researchInfo
-		count 137
+		count 138
 		entityDefName "RSAInterdictor"
 		entityDefName "RSACommand_Orca"
 		entityDefName "RSACovertOps"
 		entityDefName "RSAHeavyAssault"
 		entityDefName "RSABlackOps"
 		entityDefName "RSAMarauder"
+		entityDefName "Minmatar_ResearchSubject_SubCapitalAccess_Stabber"
 		entityDefName "AllRaces_ResearchSubject_CovertOpsJumpBridge"
 		entityDefName "Minmatar_ResearchSubject_SubCapitalAccess_Svipul"
 		entityDefName "ALLRACES_RESEARCHSUBJECT_ABILITYACCESS_AFTERBURNER"
@@ -885,7 +886,7 @@ field "IDS_TECH_RESEARCHFIELD_DIPLOMACY"
 field "IDS_TECH_RESEARCHFIELD_ARTIFACT"
 field "IDS_TECH_RESEARCHFIELD_FLEET"
 playerThemeGroupName "PlayerTech"
-playerPictureGroupName "PlayerTech"
+playerPictureGroupName "PlayerMinmatar"
 raceRelationsModCount 6
 raceRelationsModifier
 	raceNameID "IDS_PLAYERRACENAME_TECHREBEL"

@@ -11,8 +11,8 @@ frigateRoleType "Envoy"
 statCountType "FrigateEnvoy"
 mainViewIcon "MAINVIEWICON_FRIGATE_TECHUTILITY0"
 picture "PICTURE_FRIGATE_CYCLONE"
-NameStringID "IDS_FRIGATE_TECHENVOY_NAME"
-DescriptionStringID "IDS_FRIGATE_TECHENVOY_DESCRIPTION"
+NameStringID "IDS_FRIGATE_CYCLONE_ENVOY_NAME"
+DescriptionStringID "IDS_FRIGATE_CYCLONE_ENVOY_DESCRIPTION"
 counterDescriptionStringID "IDS_COUNTERDESC_FRIGATE_NONCOMBAT"
 basePrice
 	credits 185.000000
@@ -39,9 +39,9 @@ numRandomDebrisLarge 0
 numRandomDebrisSmall 0
 numSpecificDebris 0
 armorType "Medium"
-hudIcon "HUDICON_FRIGATE_RUPTURE"
-smallHudIcon "HUDICONSMALL_FRIGATE_TECHUTILITY0"
-infoCardIcon "INFOCARDICON_FRIGATE_TECHUTILITY0"
+hudIcon "HUDICON_FRIGATE_CYCLONE"
+smallHudIcon "HUDICONSMALL_BATTLECRUISER"
+infoCardIcon "HUDICONSMALL_BATTLECRUISER"
 minZoomDistanceMult 1.000000
 NumWeapons 0
 m_weaponIndexForRange 0

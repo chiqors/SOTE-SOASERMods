@@ -7,7 +7,18 @@ allowFirstSpawnerToStack FALSE
 buffExclusivityForAIType "ExclusiveForAllPlayers"
 isInterruptable TRUE
 isChannelling FALSE
-numInstantActions 1
+numInstantActions 2
+instantAction
+	buffInstantActionType "PlayPersistantAttachedEffect"
+	instantActionTriggerType "OnDelay"
+	delayTime 0.000000
+	effectInfo
+		effectAttachInfo
+			attachType "Center"
+			smallEffectName "EVE_Buff_ArmorRR_Small"
+			mediumEffectName "EVE_Buff_ArmorRR_Medium"
+			largeEffectName "EVE_Buff_ArmorRR_Large"
+		soundID ""
 instantAction
 	buffInstantActionType "PlayPersistantBeamEffect"
 	instantActionTriggerType "OnDelay"

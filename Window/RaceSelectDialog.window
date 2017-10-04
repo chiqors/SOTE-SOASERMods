@@ -12,7 +12,7 @@ numFactionWindows 2
 		backdropArea [40,30,946,717]
 		smallFactionPortraitOverlay "RaceSelectSmallPortraitOverlay"
 		smallFactionPortraitOffset [0,0]
-		previousFactionPortraitBrush "RaceSelectDialogPhaseLoyalistPortraitSmall"
+		previousFactionPortraitBrush "RaceSelectDialogGallentePortraitSmall"
 		previousFactionPortraitArea [64, 215, 65, 40]
 		nextFactionPortraitBrush "RaceSelectDialogPhaseLoyalistPortraitSmall"
 		nextFactionPortraitArea [896, 215, 65, 40]

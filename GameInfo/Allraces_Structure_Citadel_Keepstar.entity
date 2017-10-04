@@ -126,7 +126,7 @@ experiencePointsForDestroying 1000.000000
 nameStringID "IDS_CITADEL_KEEPSTAR"
 picture "PICTURE_CITADEL_KEEPSTAR"
 statCountType "StarBase"
-creationSourceAbility "AbilityDeployCitadelFortizar"
+creationSourceAbility "AbilityDeployCitadelKeepstar"
 maxUpgradeLevelCount 12
 UpgradeTypeCount 6
 UpgradeType "StarBaseUpgradeKeepStarToughness"

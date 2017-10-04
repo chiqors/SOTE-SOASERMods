@@ -1,0 +1,157 @@
+﻿TXT
+entityType "Frigate"
+defaultAutoAttackRange "GravityWell"
+defaultAutoAttackOn TRUE
+prefersToFocusFire TRUE
+usesFighterAttack FALSE
+autoJoinFleetDefault TRUE
+canBomb FALSE
+typeCount 1
+frigateRoleType "Heavy"
+statCountType "FrigateHeavy"
+mainViewIcon "MAINVIEWICON_FRIGATE_PIRATELIGHT"
+picture "PICTURE_FRIGATE_NIGHTMARE"
+NameStringID "IDS_FRIGATE_YULAICRUSCEREBI_NAME"
+DescriptionStringID "IDS_FRIGATE_YULAICRUSCEREBI_DESCRIPTION"
+counterDescriptionStringID "IDS_COUNTERDESC_FRIGATE_LONGRANGE"
+basePrice
+	credits 20000.000000
+	metal 0.000000
+	crystal 0.000000
+slotCount 16.000000
+BuildTime 260.000000
+hasLevels FALSE
+ExperiencePointsForDestroying 500.000000
+MaxHullPoints 8250.000000
+MaxShieldPoints 16500.000000
+HullPointRestoreRate 15.000000
+ShieldPointRestoreRate 60.000000
+BaseArmorPoints 5.000000
+maxMitigation 0.600000
+Prerequisites
+	NumResearchPrerequisites 0
+	RequiredFactionNameID ""
+	RequiredCompletedResearchSubjects 0
+numRandomDebrisLarge 0
+numRandomDebrisSmall 0
+numSpecificDebris 0
+armorType "Heavy"
+hudIcon "HUDICON_FRIGATE_PIRATELIGHT"
+smallHudIcon "HUDICONSMALL_FRIGATE_PIRATELIGHT"
+infoCardIcon "INFOCARDICON_FRIGATE_PIRATELIGHT"
+minZoomDistanceMult 1.000000
+NumWeapons 1
+Weapon
+	WeaponType "Beam"
+	damageEnums
+		AttackType "ANTIHEAVY"
+		DamageAffectType "AFFECTS_SHIELDS_AND_HULL"
+		DamageApplyType "OVERTIME"
+		DamageType "ENERGY"
+		WeaponClassType "BEAM"
+	DamagePerBank:FRONT 496.000000
+	DamagePerBank:BACK 0.000000
+	DamagePerBank:LEFT 0.000000
+	DamagePerBank:RIGHT 0.000000
+	Range 24000.000000
+	PreBuffCooldownTime 5.000000
+	CanFireAtFighter FALSE
+	SynchronizedTargeting TRUE
+	PointStaggerDelay 0.000000
+	TravelSpeed 0.000000
+	Duration 1.300000
+	fireConstraintType "CanAlwaysFire"
+	WeaponEffects
+		weaponType "Beam"
+		burstCount 1
+		burstDelay 0.000000
+		fireDelay 0.000000
+		muzzleEffectName "EVE_BeamLaser_Red_Medium_Muzzle"
+		muzzleSoundMinRespawnTime 0.100000
+		muzzleSounds
+			soundCount 1
+			sound ""
+		hitEffectName "EVE_BeamLaser_Red_Medium_Hit"
+		hitHullEffectSounds
+			soundCount 1
+			sound ""
+		hitShieldsEffectSounds
+			soundCount 1
+			sound ""
+		beamEffectSounds
+			soundCount 1
+			sound "WEAPON_TECH_GAUSSCANNON_MUZZLE"
+		beamGlowTextureName "EVE_Weapon_Redlaser_Glow.dds"
+		beamCoreTextureName "EVE_Weapon_Redlaser_Core.dds"
+		beamWidth 40.000000
+		beamGlowColor aaffffff
+		beamCoreColor ffffffff
+		beamTilingRate 16.000000
+m_weaponIndexForRange 0
+firingAlignmentType "Default"
+TargetCountPerBank:FRONT 1
+TargetCountPerBank:BACK 0
+TargetCountPerBank:LEFT 0
+TargetCountPerBank:RIGHT 0
+canOnlyTargetStructures FALSE
+hasWeaponLevels FALSE
+mass 11000.000000
+ShieldMeshName "Sb1"
+renderShield TRUE
+maxAccelerationLinear 72.000000
+maxAccelerationStrafe 10.000000
+maxDecelerationLinear 500.000000
+maxAccelerationAngular 6.400000
+maxDecelerationAngular 8.999996
+maxSpeedLinear 300.000000
+maxRollRate 2.000000
+maxRollAngle 40.000000
+squadTypeEntityDef:0 ""
+squadAntiMatterCost:0 0.000000
+squadTypeEntityDef:1 ""
+squadAntiMatterCost:1 0.000000
+squadTypeEntityDef:2 ""
+squadAntiMatterCost:2 0.000000
+squadTypeEntityDef:3 ""
+squadAntiMatterCost:3 0.000000
+maxNumCommandPoints 0
+NumSoundsFor:ONATTACKORDERISSUED 3
+SoundID "CAPITALSHIP_TECHTRANSPORT_ONATTACKORDERISSUED_0"
+SoundID "CAPITALSHIP_TECHTRANSPORT_ONATTACKORDERISSUED_1"
+SoundID "CAPITALSHIP_TECHTRANSPORT_ONATTACKORDERISSUED_2"
+NumSoundsFor:ONCREATION 1
+SoundID "CAPITALSHIP_TECHTRANSPORT_ONCREATION_0"
+NumSoundsFor:ONGENERALORDERISSUED 3
+SoundID "CAPITALSHIP_TECHTRANSPORT_ONGENERALORDERISSUED_0"
+SoundID "CAPITALSHIP_TECHTRANSPORT_ONGENERALORDERISSUED_1"
+SoundID "CAPITALSHIP_TECHTRANSPORT_ONGENERALORDERISSUED_2"
+NumSoundsFor:ONSELECTED 3
+SoundID "CAPITALSHIP_TECHTRANSPORT_ONSELECTED_0"
+SoundID "CAPITALSHIP_TECHTRANSPORT_ONSELECTED_1"
+SoundID "CAPITALSHIP_TECHTRANSPORT_ONSELECTED_2"
+NumSoundsFor:ONSTARTPHASEJUMP 1
+SoundID "CAPITALSHIP_TECHTRANSPORT_ONSTARTPHASEJUMP_0"
+MeshNameInfoCount 1
+MeshNameInfo
+	meshName "Sb1"
+	criteriaType "None"
+meshNameIncreasedEffectName ""
+meshNameDecreasedEffectName ""
+ExhaustParticleSystemName "Exhaust_EveBattleship"
+ExplosionName "EVEBattleship"
+HyperspaceChargingSoundID "HYPERSPACE_CHARGEUP"
+HyperspaceTravelSoundID "HYPERSPACE_TRAVEL"
+EngineSoundID "ENGINE_TECHCAPITALSHIP"
+ability:0 "AbilityMicrowarpdrive"
+ability:1 ""
+ability:2 ""
+ability:3 ""
+ability:4 "AbilityLaunchSquads"
+MaxAntiMatter 5600.000000
+AntiMatterRestoreRate 7.500000
+cargoType "Invalid"
+maxCargoCapacity 0.000000
+formationRank 0
+minShadow 0.000000
+maxShadow 0.600000
+allegianceDecreasePerRoundtrip 0.000000

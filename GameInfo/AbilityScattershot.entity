@@ -18,10 +18,10 @@ targetFilter
 	constraint "NotInvulnerable"
 weaponBank "FRONT"
 range
-	Level:0 6000.000000
-	Level:1 6000.000000
-	Level:2 6000.000000
-	Level:3 6000.000000
+	Level:0 10000.000000
+	Level:1 10000.000000
+	Level:2 10000.000000
+	Level:3 10000.000000
 coneAngle
 	Level:0 1.570000
 	Level:1 1.570000

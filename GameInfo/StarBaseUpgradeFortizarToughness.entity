@@ -88,7 +88,7 @@ stage
 		propertyType "HullPointRestoreRate"
 		value 30.000000
 	upgradeProperty
-		propertyType "ShieldPointRestoreRate"
+		propertyType "MaxShieldPoints"
 		value 1623750.000000
 	upgradeProperty
 		propertyType "ShieldPointRestoreRate"

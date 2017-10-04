@@ -960,7 +960,7 @@ brush
 	name "PICTURE_CONCORD_BATTLESHIP"
 	content "Simple"
 	fileName "Unit_Picture"
-	pixelBox [ 1091 , 394 , 167 , 75 ]				
+	pixelBox [ 1191 , 394 , 167 , 75 ]				
 brush
 	name "PICTURE_BLOODRAIDER_CRUOR"
 	content "Simple"

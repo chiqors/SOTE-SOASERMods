@@ -1,6 +1,6 @@
 ﻿TXT
 onlyLoadOnDemand FALSE
-brushCount 225
+brushCount 226
 brush
 	name "DLCButtonBackgroundPlanetDLC1"
 	content "Simple"
@@ -215,12 +215,17 @@ brush
 	name "RaceSelectDialogPsiLoyalistPortraitSmall"
 	content "Simple"
 	fileName "Player_Portrait_Small"
-	pixelBox [ 250 , 77 , 55 , 67 ]
+	pixelBox [ 127 , 77 , 55 , 67 ]
 brush
 	name "RaceSelectDialogPhaseLoyalistPortraitSmall"
 	content "Simple"
 	fileName "Player_Portrait_Small"
-	pixelBox [ 127 , 150 , 55 , 67 ]
+	pixelBox [ 180 , 200 , 55 , 67 ]
+brush
+	name "RaceSelectDialogGallentePortraitSmall"
+	content "Simple"
+	fileName "Player_Portrait_Small"
+	pixelBox [ 120 , 200 , 55 , 67 ]	
 brush
 	name "RaceSelectDialogTechLoyalistPortrait"
 	content "Simple"
@@ -230,17 +235,17 @@ brush
 	name "RaceSelectDialogTechRebelPortrait"
 	content "Simple"
 	fileName "Player_Portrait_Large"
-	pixelBox [ 397 , 1 , 195 , 219 ]
+	pixelBox [ 5 , 449 , 195 , 219 ]
 brush
 	name "RaceSelectDialogPsiLoyalistPortrait"
 	content "Simple"
 	fileName "Player_Portrait_Large"
-	pixelBox [ 793 , 224 , 195 , 219 ]
+	pixelBox [ 402 , 672 , 195 , 219 ]
 brush
 	name "RaceSelectDialogPsiRebelPortrait"
 	content "Simple"
 	fileName "Player_Portrait_Large"
-	pixelBox [ 397 , 224 , 195 , 219 ]
+	pixelBox [ 599 , 671 , 195 , 219 ]
 brush
 	name "RaceSelectDialogPhaseLoyalistPortrait"
 	content "Simple"

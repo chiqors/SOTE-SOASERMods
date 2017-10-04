@@ -1729,7 +1729,7 @@ playerType
 playerType
 	designName "SOE"
 	entityDefName "Player_SOE"		
-planetItemsTemplateCount 87
+planetItemsTemplateCount 91
 planetItemsTemplate
 	templateName "Empty"
 	subTemplates 0
@@ -3431,6 +3431,185 @@ planetItemsTemplate
 				item "Sansha:Ship:RenynMeten"
 				item "Artifact:HyperspaceSpeed"
 planetItemsTemplate
+	templateName "Template:ScoutSite"
+	subTemplates 0
+	groups 1
+		group
+			condition
+				type "Always"
+				param ""
+			owner "Pirate"
+			colonizeChance 1
+			items 4
+				item "Sansha:Ship:MaraPaleo"
+				item "Sansha:Ship:AntemNeo"
+				item "Sansha:Ship:ArnonEpithalamus"
+				item "Sansha:Ship:TamaCerebellum"
+planetItemsTemplate
+	templateName "Template:AssaultSite"
+	subTemplates 0
+	groups 1
+		group
+			condition
+				type "Always"
+				param ""
+			owner "Pirate"
+			colonizeChance 1
+			items 30
+				item "Sansha:Ship:DeltoleTegmentum"
+				item "Sansha:Ship:IntakiColliculus"
+				item "Sansha:Ship:IntakiColliculus"
+				item "Sansha:Ship:IntakiColliculus"
+				item "Sansha:Ship:OutuniMesen"
+				item "Sansha:Ship:YulaiCrusCerebi"
+				item "Sansha:Ship:MaraPaleo"
+				item "Sansha:Ship:AugaHypophysis"
+				item "Sansha:Ship:AntemNeo"
+				item "Sansha:Ship:AntemNeo"
+				item "Sansha:Ship:ArnonEpithalamus"
+				item "Sansha:Ship:ArnonEpithalamus"
+				item "Sansha:Ship:ArnonEpithalamus"
+				item "Sansha:Ship:ArnonEpithalamus"
+				item "Sansha:Ship:TamaCerebellum"
+				item "Sansha:Ship:EyesturRhomben"
+				item "Sansha:Ship:EyesturRhomben"
+				item "Sansha:Ship:EyesturRhomben"
+				item "Sansha:Ship:EyesturRhomben"
+				item "Sansha:Ship:NiarjaMyelen"
+				item "Sansha:Ship:NiarjaMyelen"
+				item "Sansha:Ship:NiarjaMyelen"
+				item "Sansha:Ship:NiarjaMyelen"
+				item "Sansha:Ship:NiarjaMyelen"
+				item "Sansha:Ship:NiarjaMyelen"
+				item "Sansha:Ship:NiarjaMyelen"
+				item "Sansha:Ship:NiarjaMyelen"
+				item "Sansha:Ship:NiarjaMyelen"
+				item "Sansha:Ship:NiarjaMyelen"
+				item "Sansha:Ship:RenynMeten"
+planetItemsTemplate
+	templateName "Template:VanguardSite"
+	subTemplates 0
+	groups 1
+		group
+			condition
+				type "Always"
+				param ""
+			owner "Pirate"
+			colonizeChance 1
+			items 40
+				item "Sansha:Ship:YulaiCrusCerebi"
+				item "Sansha:Ship:MaraPaleo"
+				item "Sansha:Ship:AugaHypophysis"
+				item "Sansha:Ship:TamaCerebellum"
+				item "Sansha:Ship:TamaCerebellum"
+				item "Sansha:Ship:TamaCerebellum"
+				item "Sansha:Ship:TamaCerebellum"
+				item "Sansha:Ship:TamaCerebellum"
+				item "Sansha:Ship:TamaCerebellum"
+				item "Sansha:Ship:TamaCerebellum"
+				item "Sansha:Ship:TamaCerebellum"
+				item "Sansha:Ship:EyesturRhomben"
+				item "Sansha:Ship:EyesturRhomben"
+				item "Sansha:Ship:EyesturRhomben"
+				item "Sansha:Ship:EyesturRhomben"
+				item "Sansha:Ship:NiarjaMyelen"
+				item "Sansha:Ship:NiarjaMyelen"
+				item "Sansha:Ship:NiarjaMyelen"
+				item "Sansha:Ship:NiarjaMyelen"
+				item "Sansha:Ship:RenynMeten"
+				item "Sansha:Ship:RenynMeten"
+				item "Sansha:Ship:RenynMeten"
+				item "Sansha:Ship:RenynMeten"
+				item "Sansha:Ship:RenynMeten"
+				item "Sansha:Ship:RenynMeten"
+				item "Sansha:Ship:RenynMeten"
+				item "Sansha:Ship:RenynMeten"
+				item "Sansha:Ship:RenynMeten"
+				item "Sansha:Ship:RenynMeten"
+				item "Sansha:Ship:RenynMeten"
+				item "Sansha:Ship:RenynMeten"
+				item "Sansha:Ship:RenynMeten"
+				item "Sansha:Ship:RenynMeten"
+				item "Sansha:Ship:RenynMeten"
+				item "Sansha:Ship:ArnonEpithalamus"
+				item "Sansha:Ship:ArnonEpithalamus"
+				item "Sansha:Ship:ArnonEpithalamus"
+				item "Sansha:Ship:ArnonEpithalamus"
+				item "Sansha:Ship:ArnonEpithalamus"
+				item "Sansha:Ship:ArnonEpithalamus"
+planetItemsTemplate
+	templateName "Template:HeadQuarters"
+	subTemplates 0
+	groups 1
+		group
+			condition
+				type "Always"
+				param ""
+			owner "Pirate"
+			colonizeChance 1
+			items 61
+				item "Sansha:Ship:DeltoleTegmentum"
+				item "Sansha:Ship:DeltoleTegmentum"
+				item "Sansha:Ship:DeltoleTegmentum"
+				item "Sansha:Ship:DeltoleTegmentum"
+				item "Sansha:Ship:DeltoleTegmentum"
+				item "Sansha:Ship:IntakiColliculus"
+				item "Sansha:Ship:IntakiColliculus"
+				item "Sansha:Ship:IntakiColliculus"
+				item "Sansha:Ship:IntakiColliculus"
+				item "Sansha:Ship:IntakiColliculus"
+				item "Sansha:Ship:OutuniMesen"
+				item "Sansha:Ship:OutuniMesen"
+				item "Sansha:Ship:OutuniMesen"
+				item "Sansha:Ship:OutuniMesen"
+				item "Sansha:Ship:OutuniMesen"
+				item "Sansha:Ship:OutuniMesen"
+				item "Sansha:Ship:YulaiCrusCerebi"
+				item "Sansha:Ship:YulaiCrusCerebi"
+				item "Sansha:Ship:YulaiCrusCerebi"
+				item "Sansha:Ship:YulaiCrusCerebi"
+				item "Sansha:Ship:YulaiCrusCerebi"
+				item "Sansha:Ship:MaraPaleo"
+				item "Sansha:Ship:MaraPaleo"
+				item "Sansha:Ship:MaraPaleo"
+				item "Sansha:Ship:MaraPaleo"
+				item "Sansha:Ship:MaraPaleo"
+				item "Sansha:Ship:AugaHypophysis"
+				item "Sansha:Ship:AugaHypophysis"
+				item "Sansha:Ship:AugaHypophysis"
+				item "Sansha:Ship:AugaHypophysis"
+				item "Sansha:Ship:AugaHypophysis"
+				item "Sansha:Ship:AntemNeo"
+				item "Sansha:Ship:AntemNeo"
+				item "Sansha:Ship:AntemNeo"
+				item "Sansha:Ship:AntemNeo"
+				item "Sansha:Ship:AntemNeo"
+				item "Sansha:Ship:AntemNeo"
+				item "Sansha:Ship:ArnonEpithalamus"
+				item "Sansha:Ship:ArnonEpithalamus"
+				item "Sansha:Ship:ArnonEpithalamus"
+				item "Sansha:Ship:ArnonEpithalamus"
+				item "Sansha:Ship:TamaCerebellum"
+				item "Sansha:Ship:TamaCerebellum"
+				item "Sansha:Ship:TamaCerebellum"
+				item "Sansha:Ship:TamaCerebellum"
+				item "Sansha:Ship:TamaCerebellum"
+				item "Sansha:Ship:EyesturRhomben"
+				item "Sansha:Ship:EyesturRhomben"
+				item "Sansha:Ship:EyesturRhomben"
+				item "Sansha:Ship:EyesturRhomben"
+				item "Sansha:Ship:EyesturRhomben"
+				item "Sansha:Ship:NiarjaMyelen"
+				item "Sansha:Ship:NiarjaMyelen"
+				item "Sansha:Ship:NiarjaMyelen"
+				item "Sansha:Ship:NiarjaMyelen"
+				item "Sansha:Ship:NiarjaMyelen"
+				item "Sansha:Ship:RenynMeten"
+				item "Sansha:Ship:RenynMeten"
+				item "Sansha:Ship:RenynMeten"
+				item "Sansha:Ship:RenynMeten"
+				item "Sansha:Ship:RenynMeten"
+planetItemsTemplate
 	templateName "Template:MorduStaggingPoint"
 	subTemplates 0
 	groups 2
@@ -4014,7 +4193,7 @@ planetItemsTemplate
 		template "Template:LocalMilitiaMediumFair"
 	groups 0
 validPictureGroups 3
-pictureGroup "PlayerPhase"
+pictureGroup "PlayerMinmatar"
 pictureGroup "PlayerPsi"
 pictureGroup "PlayerTech"
 validThemeGroups 4

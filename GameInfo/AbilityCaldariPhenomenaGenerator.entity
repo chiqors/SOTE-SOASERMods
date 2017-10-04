@@ -2,7 +2,7 @@
 entityType "Ability"
 buffInstantActionType "ApplyBuffToTargetsInRadius"
 instantActionTriggerType "AlwaysPerform"
-buffType "BuffAmarrPhenomena"
+buffType "BuffCaldariPhenomena"
 targetFilter
 	numOwnerships 4
 	ownership "Friendly"

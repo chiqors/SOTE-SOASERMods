@@ -11,17 +11,17 @@ frigateRoleType "Heavy"
 statCountType "FrigateHeavy"
 mainViewIcon "HUDICONSMALL_FRIGATE_HURRICANE"
 picture "PICTURE_FRIGATE_HURRICANE"
-NameStringID "IDS_BATTLECRUISER_HURRICANE_NAME"
-DescriptionStringID "IDS_BATTLECRUISER_HURRICANE_DESCRIPTION"
+NameStringID "IDS_RSM_TORNADO_NAME"
+DescriptionStringID "IDS_RSM_TORNADO_DESCRIPTION"
 counterDescriptionStringID "IDS_COUNTERDESC_CORVETTE_TECH"
 basePrice
 	credits 423.000000
 	metal 109.000000
 	crystal 112.000000
-slotCount 7.000000
+slotCount 4.000000
 BuildTime 44.000000
 hasLevels FALSE
-ExperiencePointsForDestroying 84.000000
+ExperiencePointsForDestroying 20.000000
 MaxHullPoints 3260.000000
 MaxShieldPoints 3360.000000
 HullPointRestoreRate 1.000000
@@ -88,7 +88,7 @@ TargetCountPerBank:RIGHT 0
 canOnlyTargetStructures FALSE
 hasWeaponLevels FALSE
 mass 4300.000000
-ShieldMeshName "hurricane"
+ShieldMeshName "tornado"
 renderShield TRUE
 maxAccelerationLinear 83.000000
 maxAccelerationStrafe 10.000000
@@ -127,7 +127,7 @@ NumSoundsFor:ONSTARTPHASEJUMP 1
 SoundID "FRIGATE_TECHHEAVY_ONSTARTPHASEJUMP_0"
 MeshNameInfoCount 1
 MeshNameInfo
-	meshName "hurricane"
+	meshName "tornado"
 	criteriaType "None"
 meshNameIncreasedEffectName ""
 meshNameDecreasedEffectName ""

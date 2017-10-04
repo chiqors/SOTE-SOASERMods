@@ -18,7 +18,7 @@ basePrice
 	credits 970.000000
 	metal 155.000000
 	crystal 146.000000
-slotCount 8.000000
+slotCount 5.000000
 BuildTime 60.000000
 hasLevels FALSE
 ExperiencePointsForDestroying 250.000000
@@ -143,8 +143,8 @@ ability:1 "AbilityWarpDisruptor"
 ability:2 "AbilityStasisWebifier"
 ability:3 "AbilityPhasedArmourHardener"
 ability:4 "AbilityLaunchSquads"
-MaxAntiMatter 950.000000
-AntiMatterRestoreRate 1.450000
+MaxAntiMatter 9000.000000
+AntiMatterRestoreRate 20.000000
 cargoType "Invalid"
 maxCargoCapacity 0.000000
 formationRank 0

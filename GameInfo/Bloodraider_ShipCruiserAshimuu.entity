@@ -18,10 +18,10 @@ basePrice
 	credits 364.000000
 	metal 57.000000
 	crystal 40.000000
-slotCount 4.000000
+slotCount 1.000000
 BuildTime 19.000000
 hasLevels FALSE
-ExperiencePointsForDestroying 55.000000
+ExperiencePointsForDestroying 30.000000
 MaxHullPoints 1700.000000
 MaxShieldPoints 1200.000000
 HullPointRestoreRate 1.00000
@@ -147,7 +147,7 @@ ability:0 "AbilityAfterburner"
 ability:1 "AbilityStasisWebifier"
 ability:2 "AbilityPhasedArmourHardener"
 ability:3 ""
-ability:4 "AbilityT2CruiserZealot"
+ability:4 ""
 MaxAntiMatter 275.000000
 AntiMatterRestoreRate 0.500000
 cargoType "Invalid"

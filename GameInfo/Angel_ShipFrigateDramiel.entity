@@ -21,10 +21,10 @@ basePrice
 slotCount 1.000000
 BuildTime 5.000000
 hasLevels FALSE
-ExperiencePointsForDestroying 22.000000
+ExperiencePointsForDestroying 5.000000
 MaxHullPoints 450.000000
 MaxShieldPoints 450.000000
-HullPointRestoreRate 0.000000
+HullPointRestoreRate 1.000000
 ShieldPointRestoreRate 1.000000
 BaseArmorPoints 0.000000
 maxMitigation 0.000000
@@ -37,8 +37,8 @@ numRandomDebrisSmall 0
 numSpecificDebris 0
 armorType "Light"
 hudIcon "HUDICON_ANGEL_DRAMIEL"
-smallHudIcon "HUDICONSMALL_FRIGATE_RIFTER"
-infoCardIcon "HUDICONSMALL_FRIGATE_RIFTER"
+smallHudIcon "HUDICONSMALL_FRIGATE"
+infoCardIcon "HUDICONSMALL_FRIGATE"
 minZoomDistanceMult 1.000000
 NumWeapons 1
 Weapon
