@@ -1,8 +1,14 @@
 Kabivel
-Creation of the Caldari and Mimatar Races
+Creation of the Caldari and Minmatar Races
 
 Vader111
 For fixing models and textures
+
+Goliath
+For finding bugs and helping people
+
+Scotty Erata 
+For new UI
 
 Butcherfly 
 For as coder with Logistics fixings
