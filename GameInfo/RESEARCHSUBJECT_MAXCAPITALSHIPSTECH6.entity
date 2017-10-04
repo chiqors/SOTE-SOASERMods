@@ -29,14 +29,14 @@ PerLevelCostIncrease
 	crystal 25.000000
 Tier 6
 onlyWorksIfTierLabsExist FALSE
-MaxNumResearchLevels 1
+MaxNumResearchLevels 4
 priority 0.000000
 researchBoolModifiers 0
 researchFloatModifiers 2
 researchModifier
 	modifierType "CapitalShipMaxSlots"
 	baseValue 0.000000
-	perLevelValue 3.000000
+	perLevelValue 7.000000
 researchModifier
 	modifierType "CapitalShipMaxSlotLevel"
 	baseValue 0.000000
