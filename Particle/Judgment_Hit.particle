@@ -7,7 +7,7 @@ ParticleSimulation
 	EmitterContents
 		Name "Flares"
 		Enabled TRUE
-		EmitRate 20.000000
+		EmitRate 10.000000
 		HasInfiniteEmitCount TRUE
 		MaxEmitCount 0
 		hasEmitIntervals FALSE
@@ -55,7 +55,7 @@ ParticleSimulation
 	EmitterContents
 		Name "electric"
 		Enabled TRUE
-		EmitRate 30.000000
+		EmitRate 1.000000
 		HasInfiniteEmitCount TRUE
 		MaxEmitCount 1
 		hasEmitIntervals FALSE
@@ -103,7 +103,7 @@ ParticleSimulation
 	EmitterContents
 		Name "shockwave"
 		Enabled TRUE
-		EmitRate 5.000000
+		EmitRate 1.000000
 		HasInfiniteEmitCount TRUE
 		MaxEmitCount 1
 		hasEmitIntervals FALSE
@@ -164,7 +164,7 @@ ParticleSimulation
 	EmitterContents
 		Name "sparks"
 		Enabled TRUE
-		EmitRate 9.000000
+		EmitRate 1.000000
 		HasInfiniteEmitCount TRUE
 		MaxEmitCount 1
 		hasEmitIntervals FALSE
@@ -225,9 +225,9 @@ ParticleSimulation
 	EmitterContents
 		Name "ball2"
 		Enabled TRUE
-		EmitRate 500.000000
+		EmitRate 4.000000
 		HasInfiniteEmitCount FALSE
-		MaxEmitCount 3
+		MaxEmitCount 4
 		hasEmitIntervals FALSE
 		emitIntervalRunDuration 0.000000
 		emitIntervalWaitDuration 0.000000
@@ -273,7 +273,7 @@ ParticleSimulation
 	EmitterContents
 		Name "electricFlat"
 		Enabled TRUE
-		EmitRate 5.000000
+		EmitRate 1.000000
 		HasInfiniteEmitCount TRUE
 		MaxEmitCount 1
 		hasEmitIntervals FALSE
@@ -321,7 +321,7 @@ ParticleSimulation
 	EmitterContents
 		Name "Middle Flares"
 		Enabled TRUE
-		EmitRate 400.000000
+		EmitRate 200.000000
 		HasInfiniteEmitCount TRUE
 		MaxEmitCount 1
 		hasEmitIntervals FALSE
@@ -382,7 +382,7 @@ ParticleSimulation
 	EmitterContents
 		Name "Inner Flares"
 		Enabled TRUE
-		EmitRate 400.000000
+		EmitRate 200.000000
 		HasInfiniteEmitCount TRUE
 		MaxEmitCount 1
 		hasEmitIntervals FALSE
@@ -443,7 +443,7 @@ ParticleSimulation
 	EmitterContents
 		Name "Outer flares"
 		Enabled TRUE
-		EmitRate 400.000000
+		EmitRate 200.000000
 		HasInfiniteEmitCount TRUE
 		MaxEmitCount 1
 		hasEmitIntervals FALSE

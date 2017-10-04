@@ -7,7 +7,7 @@ ParticleSimulation
 	EmitterContents
 		Name "lines"
 		Enabled TRUE
-		EmitRate 50.000000
+		EmitRate 15.000000
 		HasInfiniteEmitCount TRUE
 		MaxEmitCount 1
 		hasEmitIntervals FALSE
