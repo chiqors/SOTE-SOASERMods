@@ -55,9 +55,9 @@ ParticleSimulation
 	EmitterContents
 		Name "Flare"
 		Enabled TRUE
-		EmitRate 1000.000000
+		EmitRate 1.000000
 		HasInfiniteEmitCount FALSE
-		MaxEmitCount 3
+		MaxEmitCount 2
 		hasEmitIntervals FALSE
 		emitIntervalRunDuration 0.000000
 		emitIntervalWaitDuration 0.000000
@@ -103,9 +103,9 @@ ParticleSimulation
 	EmitterContents
 		Name "Sparks"
 		Enabled TRUE
-		EmitRate 500.000000
+		EmitRate 10.000000
 		HasInfiniteEmitCount FALSE
-		MaxEmitCount 250
+		MaxEmitCount 10
 		hasEmitIntervals FALSE
 		emitIntervalRunDuration 0.000000
 		emitIntervalWaitDuration 0.000000
@@ -163,9 +163,9 @@ ParticleSimulation
 	EmitterContents
 		Name "Fire"
 		Enabled TRUE
-		EmitRate 50.000000
+		EmitRate 25.000000
 		HasInfiniteEmitCount FALSE
-		MaxEmitCount 250
+		MaxEmitCount 25
 		hasEmitIntervals FALSE
 		emitIntervalRunDuration 0.000000
 		emitIntervalWaitDuration 0.000000
@@ -223,9 +223,9 @@ ParticleSimulation
 	EmitterContents
 		Name "Core 2"
 		Enabled TRUE
-		EmitRate 100.000000
+		EmitRate 2.000000
 		HasInfiniteEmitCount FALSE
-		MaxEmitCount 5
+		MaxEmitCount 2
 		hasEmitIntervals FALSE
 		emitIntervalRunDuration 0.000000
 		emitIntervalWaitDuration 0.000000
@@ -271,7 +271,7 @@ ParticleSimulation
 	EmitterContents
 		Name "Shockwave"
 		Enabled TRUE
-		EmitRate 4.000000
+		EmitRate 2.000000
 		HasInfiniteEmitCount TRUE
 		MaxEmitCount 1
 		hasEmitIntervals FALSE
@@ -319,7 +319,7 @@ ParticleSimulation
 	EmitterContents
 		Name "Shockwave-1"
 		Enabled TRUE
-		EmitRate 4.000000
+		EmitRate 2.000000
 		HasInfiniteEmitCount TRUE
 		MaxEmitCount 1
 		hasEmitIntervals FALSE
@@ -367,9 +367,9 @@ ParticleSimulation
 	EmitterContents
 		Name "Fragments"
 		Enabled TRUE
-		EmitRate 500.000000
+		EmitRate 25.000000
 		HasInfiniteEmitCount FALSE
-		MaxEmitCount 250
+		MaxEmitCount 25
 		hasEmitIntervals FALSE
 		emitIntervalRunDuration 0.000000
 		emitIntervalWaitDuration 0.000000
@@ -427,9 +427,9 @@ ParticleSimulation
 	EmitterContents
 		Name "Rays"
 		Enabled TRUE
-		EmitRate 999.000000
+		EmitRate 10.000000
 		HasInfiniteEmitCount FALSE
-		MaxEmitCount 50
+		MaxEmitCount 10
 		hasEmitIntervals FALSE
 		emitIntervalRunDuration 0.000000
 		emitIntervalWaitDuration 0.000000
@@ -466,18 +466,18 @@ ParticleSimulation
 		textureAnimationName ""
 		textureAnimationSpawnType "RandomFrames"
 		textureAnimationOnParticleFPS 0.000000
-		ParticlesRotate TRUE
+		ParticlesRotate FALSE
 		MeshParticleRotationAxisType 0
 		MeshParticleRotationAxis [ 0.000000 0.100000 0.000000 ]
 		RotationDirectionType 2
-		AngleVariance 3.141593
+		AngleVariance 0.000000
 	EmitterType "Sphere"
 	EmitterContents
 		Name "LargeDebris1"
 		Enabled TRUE
-		EmitRate 500.000000
+		EmitRate 4.000000
 		HasInfiniteEmitCount FALSE
-		MaxEmitCount 10
+		MaxEmitCount 4
 		hasEmitIntervals FALSE
 		emitIntervalRunDuration 0.000000
 		emitIntervalWaitDuration 0.000000
@@ -535,9 +535,9 @@ ParticleSimulation
 	EmitterContents
 		Name "LargeDebris2"
 		Enabled TRUE
-		EmitRate 500.000000
+		EmitRate 4.000000
 		HasInfiniteEmitCount FALSE
-		MaxEmitCount 10
+		MaxEmitCount 4
 		hasEmitIntervals FALSE
 		emitIntervalRunDuration 0.000000
 		emitIntervalWaitDuration 0.000000
@@ -595,9 +595,9 @@ ParticleSimulation
 	EmitterContents
 		Name "FlareFlash"
 		Enabled TRUE
-		EmitRate 1000.000000
+		EmitRate 3.000000
 		HasInfiniteEmitCount FALSE
-		MaxEmitCount 6
+		MaxEmitCount 3
 		hasEmitIntervals FALSE
 		emitIntervalRunDuration 0.000000
 		emitIntervalWaitDuration 0.000000

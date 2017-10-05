@@ -2,20 +2,20 @@
 ParticleSimulation
 	HasInfiniteLifeTime TRUE
 	TotalLifeTime 10.000000
-	NumEmitters 8
+	NumEmitters 6
 	EmitterType "Ring"
 	EmitterContents
 		Name "line 1"
 		Enabled TRUE
-		EmitRate 40.000000
+		EmitRate 20.000000
 		HasInfiniteEmitCount TRUE
 		MaxEmitCount 1
 		hasEmitIntervals FALSE
 		emitIntervalRunDuration 0.000000
 		emitIntervalWaitDuration 0.000000
-		ParticleLifeTime 2.000000
-		ParticleMinStartLinearSpeed 1000.000000
-		ParticleMaxStartLinearSpeed 1000.000000
+		ParticleLifeTime 1.000000
+		ParticleMinStartLinearSpeed 1500.000000
+		ParticleMaxStartLinearSpeed 1500.000000
 		ParticleMinStartAngularSpeed 0.000000
 		ParticleMaxStartAngularSpeed 0.000000
 		ParticleMinStartRotation 0.000000
@@ -25,13 +25,13 @@ ParticleSimulation
 		ParticleWidth 15.000000
 		ParticleHeight 15.000000
 		MeshName ""
-		Position [ 0.000000 0.000000 0.000000 ]
+		Position [ 290.000000 -550.000000 -1440.000000 ]
 		Orientation
-			 [ 0.000000 0.000000 -1.000000 ]
-			 [ 0.000000 -1.000000 -0.000000 ]
-			 [ -1.000000 0.000000 -0.000000 ]
-		RotateAboutForward 180.000000
-		RotateAboutUp 270.000000
+			 [ -0.087156 0.000000 0.996195 ]
+			 [ 0.000000 1.000000 0.000000 ]
+			 [ -0.996195 0.000000 -0.087156 ]
+		RotateAboutForward 0.000000
+		RotateAboutUp -95.000000
 		RotateAboutCross 0.000000
 		StartTime 0.000000
 		HasInfiniteLifeTime TRUE
@@ -52,69 +52,8 @@ ParticleSimulation
 		RotationDirectionType 0
 		RingRadiusXMin 1.000000
 		RingRadiusXMax 1.000000
-		RingRadiusYMin 1.000000
-		RingRadiusYMax 1.000000
-		ParticleMaxStartSpeedTangential 0.000000
-		ParticleMaxStartSpeedRingNormal 0.000000
-		ScaleStartSpeedsByRadius FALSE
-		SpawnAngleStart 3.141593
-		SpawnAngleStop 3.141593
-		minSpawnHeight 0.000000
-		maxSpawnHeight 0.000000
-		spawnDirectionIsParallelToPlane TRUE
-		isSpawnAngleRandom TRUE
-		nonRandomSpawnLoopEmittedParticleCount 1
-	EmitterType "Ring"
-	EmitterContents
-		Name "line 2"
-		Enabled TRUE
-		EmitRate 40.000000
-		HasInfiniteEmitCount TRUE
-		MaxEmitCount 1
-		hasEmitIntervals FALSE
-		emitIntervalRunDuration 0.000000
-		emitIntervalWaitDuration 0.000000
-		ParticleLifeTime 2.000000
-		ParticleMinStartLinearSpeed 1000.000000
-		ParticleMaxStartLinearSpeed 1000.000000
-		ParticleMinStartAngularSpeed 0.000000
-		ParticleMaxStartAngularSpeed 0.000000
-		ParticleMinStartRotation 0.000000
-		ParticleMaxStartRotation 0.000000
-		ParticleStartMass 1.000000
-		ParticleStartColor ffc0ffc0
-		ParticleWidth 15.000000
-		ParticleHeight 15.000000
-		MeshName ""
-		Position [ 250.000000 0.000000 0.000000 ]
-		Orientation
-			 [ 0.000000 0.000000 -1.000000 ]
-			 [ 0.000000 -1.000000 -0.000000 ]
-			 [ -1.000000 0.000000 -0.000000 ]
-		RotateAboutForward 180.000000
-		RotateAboutUp 270.000000
-		RotateAboutCross 0.000000
-		StartTime 0.000000
-		HasInfiniteLifeTime TRUE
-		TotalLifeTime 0.000000
-		BillboardAnchor 0
-		ParticleFacing 0
-		PipelineEffectID "Particle_Additive.fx"
-		AreParticlesAttached TRUE
-		numTextures 2
-		textureName "C:\Users\administrador\Documents\My Games\Ironclad Games\Sins of a Solar Empire Rebellion\Mods-Rebellion v1.82\star-trek-armada-3\Textures\x_blast_glow.dds"
-		textureName ""
-		textureAnimationName ""
-		textureAnimationSpawnType "RandomFrames"
-		textureAnimationOnParticleFPS 0.000000
-		ParticlesRotate FALSE
-		MeshParticleRotationAxisType 1
-		MeshParticleRotationAxis [ 0.000000 0.100000 0.000000 ]
-		RotationDirectionType 0
-		RingRadiusXMin 1.000000
-		RingRadiusXMax 1.000000
-		RingRadiusYMin 1.000000
-		RingRadiusYMax 11.000000
+		RingRadiusYMin 0.000000
+		RingRadiusYMax 5.000000
 		ParticleMaxStartSpeedTangential 0.000000
 		ParticleMaxStartSpeedRingNormal 0.000000
 		ScaleStartSpeedsByRadius FALSE
@@ -127,94 +66,33 @@ ParticleSimulation
 		nonRandomSpawnLoopEmittedParticleCount 1
 	EmitterType "Ring"
 	EmitterContents
-		Name "Pulse 1"
+		Name "line 2"
 		Enabled TRUE
-		EmitRate 0.200000
+		EmitRate 20.000000
 		HasInfiniteEmitCount TRUE
 		MaxEmitCount 1
 		hasEmitIntervals FALSE
 		emitIntervalRunDuration 0.000000
 		emitIntervalWaitDuration 0.000000
-		ParticleLifeTime 4.000000
-		ParticleMinStartLinearSpeed 500.000000
-		ParticleMaxStartLinearSpeed 500.000000
+		ParticleLifeTime 1.000000
+		ParticleMinStartLinearSpeed 1500.000000
+		ParticleMaxStartLinearSpeed 1500.000000
 		ParticleMinStartAngularSpeed 0.000000
 		ParticleMaxStartAngularSpeed 0.000000
 		ParticleMinStartRotation 0.000000
 		ParticleMaxStartRotation 0.000000
 		ParticleStartMass 1.000000
 		ParticleStartColor ffc0ffc0
-		ParticleWidth 20.000000
-		ParticleHeight 20.000000
+		ParticleWidth 15.000000
+		ParticleHeight 15.000000
 		MeshName ""
-		Position [ 0.000000 0.000000 0.000000 ]
+		Position [ 600.000000 -550.000000 -1440.000000 ]
 		Orientation
-			 [ 0.000000 0.000000 -1.000000 ]
-			 [ 0.000000 -1.000000 -0.000000 ]
-			 [ -1.000000 0.000000 -0.000000 ]
-		RotateAboutForward 180.000000
-		RotateAboutUp 270.000000
-		RotateAboutCross 0.000000
-		StartTime 0.000000
-		HasInfiniteLifeTime TRUE
-		TotalLifeTime 0.000000
-		BillboardAnchor 0
-		ParticleFacing 0
-		PipelineEffectID "Particle_Additive.fx"
-		AreParticlesAttached TRUE
-		numTextures 2
-		textureName "C:\Users\administrador\Documents\My Games\Ironclad Games\Sins of a Solar Empire Rebellion\Mods-Rebellion v1.82\star-trek-armada-3\Textures\x_blast_glow.dds"
-		textureName ""
-		textureAnimationName ""
-		textureAnimationSpawnType "RandomFrames"
-		textureAnimationOnParticleFPS 0.000000
-		ParticlesRotate FALSE
-		MeshParticleRotationAxisType 0
-		MeshParticleRotationAxis [ 0.000000 0.100000 0.000000 ]
-		RotationDirectionType 0
-		RingRadiusXMin 1.000000
-		RingRadiusXMax 1.000000
-		RingRadiusYMin 1.000000
-		RingRadiusYMax 1.000000
-		ParticleMaxStartSpeedTangential 0.000000
-		ParticleMaxStartSpeedRingNormal 0.000000
-		ScaleStartSpeedsByRadius FALSE
-		SpawnAngleStart 3.141593
-		SpawnAngleStop 3.141593
-		minSpawnHeight 0.000000
-		maxSpawnHeight 0.000000
-		spawnDirectionIsParallelToPlane TRUE
-		isSpawnAngleRandom TRUE
-		nonRandomSpawnLoopEmittedParticleCount 1
-	EmitterType "Ring"
-	EmitterContents
-		Name "Pulse 2"
-		Enabled TRUE
-		EmitRate 0.200000
-		HasInfiniteEmitCount TRUE
-		MaxEmitCount 1
-		hasEmitIntervals FALSE
-		emitIntervalRunDuration 0.000000
-		emitIntervalWaitDuration 0.000000
-		ParticleLifeTime 4.000000
-		ParticleMinStartLinearSpeed 500.000000
-		ParticleMaxStartLinearSpeed 500.000000
-		ParticleMinStartAngularSpeed 0.000000
-		ParticleMaxStartAngularSpeed 0.000000
-		ParticleMinStartRotation 0.000000
-		ParticleMaxStartRotation 0.000000
-		ParticleStartMass 1.000000
-		ParticleStartColor ffc0ffc0
-		ParticleWidth 20.000000
-		ParticleHeight 20.000000
-		MeshName ""
-		Position [ 250.000000 0.000000 0.000000 ]
-		Orientation
-			 [ 0.000000 0.000000 -1.000000 ]
-			 [ 0.000000 -1.000000 -0.000000 ]
-			 [ -1.000000 0.000000 -0.000000 ]
-		RotateAboutForward 180.000000
-		RotateAboutUp 270.000000
+			 [ -0.087156 0.000000 0.996195 ]
+			 [ 0.000000 1.000000 0.000000 ]
+			 [ -0.996195 0.000000 -0.087156 ]
+		RotateAboutForward 0.000000
+		RotateAboutUp -95.000000
 		RotateAboutCross 0.000000
 		StartTime 0.000000
 		HasInfiniteLifeTime TRUE
@@ -235,8 +113,8 @@ ParticleSimulation
 		RotationDirectionType 0
 		RingRadiusXMin 1.000000
 		RingRadiusXMax 1.000000
-		RingRadiusYMin 1.000000
-		RingRadiusYMax 1.000000
+		RingRadiusYMin 0.000000
+		RingRadiusYMax 5.000000
 		ParticleMaxStartSpeedTangential 0.000000
 		ParticleMaxStartSpeedRingNormal 0.000000
 		ScaleStartSpeedsByRadius FALSE
@@ -245,7 +123,7 @@ ParticleSimulation
 		minSpawnHeight 0.000000
 		maxSpawnHeight 0.000000
 		spawnDirectionIsParallelToPlane TRUE
-		isSpawnAngleRandom TRUE
+		isSpawnAngleRandom FALSE
 		nonRandomSpawnLoopEmittedParticleCount 1
 	EmitterType "Ring"
 	EmitterContents
@@ -253,7 +131,7 @@ ParticleSimulation
 		Enabled TRUE
 		EmitRate 1.000000
 		HasInfiniteEmitCount TRUE
-		MaxEmitCount 1
+		MaxEmitCount 0
 		hasEmitIntervals FALSE
 		emitIntervalRunDuration 0.000000
 		emitIntervalWaitDuration 0.000000
@@ -269,7 +147,7 @@ ParticleSimulation
 		ParticleWidth 15.000000
 		ParticleHeight 15.000000
 		MeshName ""
-		Position [ -1000.000000 0.000000 -1000.000000 ]
+		Position [ 500.000000 -250.000000 -800.000000 ]
 		Orientation
 			 [ -1.000000 -0.000000 -0.000000 ]
 			 [ -0.000000 -0.000000 1.000000 ]
@@ -294,13 +172,13 @@ ParticleSimulation
 		MeshParticleRotationAxisType 0
 		MeshParticleRotationAxis [ 0.000000 0.100000 0.000000 ]
 		RotationDirectionType 0
-		RingRadiusXMin 10.000000
-		RingRadiusXMax 10.000000
-		RingRadiusYMin 10.000000
-		RingRadiusYMax 10.000000
+		RingRadiusXMin 40.000000
+		RingRadiusXMax 40.000000
+		RingRadiusYMin 40.000000
+		RingRadiusYMax 40.000000
 		ParticleMaxStartSpeedTangential 0.000000
 		ParticleMaxStartSpeedRingNormal 0.000000
-		ScaleStartSpeedsByRadius TRUE
+		ScaleStartSpeedsByRadius FALSE
 		SpawnAngleStart 0.000000
 		SpawnAngleStop 6.283185
 		minSpawnHeight 0.000000
@@ -308,74 +186,13 @@ ParticleSimulation
 		spawnDirectionIsParallelToPlane TRUE
 		isSpawnAngleRandom TRUE
 		nonRandomSpawnLoopEmittedParticleCount 10
-	EmitterType "Ring"
-	EmitterContents
-		Name "Circulo"
-		Enabled TRUE
-		EmitRate 50.000000
-		HasInfiniteEmitCount TRUE
-		MaxEmitCount 1
-		hasEmitIntervals FALSE
-		emitIntervalRunDuration 0.000000
-		emitIntervalWaitDuration 0.000000
-		ParticleLifeTime 3.000000
-		ParticleMinStartLinearSpeed 0.000000
-		ParticleMaxStartLinearSpeed 0.000000
-		ParticleMinStartAngularSpeed 0.000000
-		ParticleMaxStartAngularSpeed 0.000000
-		ParticleMinStartRotation 0.000000
-		ParticleMaxStartRotation 0.000000
-		ParticleStartMass 1.000000
-		ParticleStartColor ffffffff
-		ParticleWidth 20.000000
-		ParticleHeight 20.000000
-		MeshName ""
-		Position [ -500.000000 0.000000 0.000000 ]
-		Orientation
-			 [ -1.000000 -0.000000 -0.000000 ]
-			 [ -0.000000 -0.000000 1.000000 ]
-			 [ -0.000000 1.000000 0.000000 ]
-		RotateAboutForward 90.000000
-		RotateAboutUp 180.000000
-		RotateAboutCross 0.000000
-		StartTime 0.000000
-		HasInfiniteLifeTime TRUE
-		TotalLifeTime 0.000000
-		BillboardAnchor 0
-		ParticleFacing 0
-		PipelineEffectID "Particle_Additive.fx"
-		AreParticlesAttached TRUE
-		numTextures 2
-		textureName "C:\Users\administrador\Documents\My Games\Ironclad Games\Sins of a Solar Empire Rebellion\Mods-Rebellion v1.82\star-trek-armada-3\Textures\x_blast_glow.dds"
-		textureName ""
-		textureAnimationName ""
-		textureAnimationSpawnType "RandomFrames"
-		textureAnimationOnParticleFPS 0.000000
-		ParticlesRotate FALSE
-		MeshParticleRotationAxisType 0
-		MeshParticleRotationAxis [ 0.000000 0.100000 0.000000 ]
-		RotationDirectionType 0
-		RingRadiusXMin 3500.000000
-		RingRadiusXMax 3500.000000
-		RingRadiusYMin 2500.000000
-		RingRadiusYMax 2500.000000
-		ParticleMaxStartSpeedTangential 0.000000
-		ParticleMaxStartSpeedRingNormal 0.000000
-		ScaleStartSpeedsByRadius TRUE
-		SpawnAngleStart 0.000000
-		SpawnAngleStop 6.283185
-		minSpawnHeight 0.000000
-		maxSpawnHeight 0.000000
-		spawnDirectionIsParallelToPlane TRUE
-		isSpawnAngleRandom TRUE
-		nonRandomSpawnLoopEmittedParticleCount 0
 	EmitterType "Ring"
 	EmitterContents
 		Name "Random-2"
 		Enabled TRUE
 		EmitRate 1.000000
 		HasInfiniteEmitCount TRUE
-		MaxEmitCount 1
+		MaxEmitCount 0
 		hasEmitIntervals FALSE
 		emitIntervalRunDuration 0.000000
 		emitIntervalWaitDuration 0.000000
@@ -391,7 +208,7 @@ ParticleSimulation
 		ParticleWidth 15.000000
 		ParticleHeight 15.000000
 		MeshName ""
-		Position [ 0.000000 0.000000 -1000.000000 ]
+		Position [ 0.000000 -200.000000 -500.000000 ]
 		Orientation
 			 [ -1.000000 -0.000000 -0.000000 ]
 			 [ -0.000000 -0.000000 1.000000 ]
@@ -416,13 +233,13 @@ ParticleSimulation
 		MeshParticleRotationAxisType 0
 		MeshParticleRotationAxis [ 0.000000 0.100000 0.000000 ]
 		RotationDirectionType 0
-		RingRadiusXMin 10.000000
-		RingRadiusXMax 10.000000
-		RingRadiusYMin 10.000000
-		RingRadiusYMax 10.000000
+		RingRadiusXMin 40.000000
+		RingRadiusXMax 40.000000
+		RingRadiusYMin 40.000000
+		RingRadiusYMax 40.000000
 		ParticleMaxStartSpeedTangential 0.000000
 		ParticleMaxStartSpeedRingNormal 0.000000
-		ScaleStartSpeedsByRadius TRUE
+		ScaleStartSpeedsByRadius FALSE
 		SpawnAngleStart 0.000000
 		SpawnAngleStop 6.283185
 		minSpawnHeight 0.000000
@@ -432,15 +249,15 @@ ParticleSimulation
 		nonRandomSpawnLoopEmittedParticleCount 10
 	EmitterType "Ring"
 	EmitterContents
-		Name "docking"
+		Name "docking 1"
 		Enabled TRUE
-		EmitRate 50.000000
+		EmitRate 15.000000
 		HasInfiniteEmitCount TRUE
 		MaxEmitCount 1
 		hasEmitIntervals FALSE
 		emitIntervalRunDuration 0.000000
 		emitIntervalWaitDuration 0.000000
-		ParticleLifeTime 3.000000
+		ParticleLifeTime 5.000000
 		ParticleMinStartLinearSpeed 0.000000
 		ParticleMaxStartLinearSpeed 0.000000
 		ParticleMinStartAngularSpeed 0.000000
@@ -448,23 +265,23 @@ ParticleSimulation
 		ParticleMinStartRotation 0.000000
 		ParticleMaxStartRotation 0.000000
 		ParticleStartMass 1.000000
-		ParticleStartColor ffc0ffff
+		ParticleStartColor ffff8000
 		ParticleWidth 10.000000
-		ParticleHeight 300.000000
+		ParticleHeight 480.000000
 		MeshName ""
-		Position [ 0.000000 -200.000000 0.000000 ]
+		Position [ 290.000000 -550.000000 -1440.000000 ]
 		Orientation
-			 [ -1.000000 0.000000 0.000000 ]
-			 [ 0.000000 1.000000 0.000000 ]
-			 [ -0.000000 0.000000 -1.000000 ]
-		RotateAboutForward 0.000000
-		RotateAboutUp 180.000000
+			 [ 1.000000 0.000000 0.000000 ]
+			 [ 0.000000 -0.000000 1.000000 ]
+			 [ 0.000000 -1.000000 -0.000000 ]
+		RotateAboutForward 90.000000
+		RotateAboutUp 0.000000
 		RotateAboutCross 0.000000
 		StartTime 0.000000
 		HasInfiniteLifeTime TRUE
 		TotalLifeTime 0.000000
 		BillboardAnchor 0
-		ParticleFacing 0
+		ParticleFacing 1
 		PipelineEffectID "Particle_Additive.fx"
 		AreParticlesAttached TRUE
 		numTextures 2
@@ -473,46 +290,126 @@ ParticleSimulation
 		textureAnimationName ""
 		textureAnimationSpawnType "RandomFrames"
 		textureAnimationOnParticleFPS 0.000000
-		ParticlesRotate TRUE
+		ParticlesRotate FALSE
 		MeshParticleRotationAxisType 2
 		MeshParticleRotationAxis [ 0.000000 0.100000 0.000000 ]
-		RotationDirectionType 0
+		RotationDirectionType 1
 		RingRadiusXMin 10.000000
-		RingRadiusXMax 250.000000
-		RingRadiusYMin 90.000000
-		RingRadiusYMax 90.000000
+		RingRadiusXMax 160.000000
+		RingRadiusYMin 0.000000
+		RingRadiusYMax 0.000000
 		ParticleMaxStartSpeedTangential 0.000000
 		ParticleMaxStartSpeedRingNormal 0.000000
 		ScaleStartSpeedsByRadius FALSE
-		SpawnAngleStart 3.141593
-		SpawnAngleStop 3.141593
+		SpawnAngleStart 0.000000
+		SpawnAngleStop 0.000000
 		minSpawnHeight 0.000000
 		maxSpawnHeight 0.000000
-		spawnDirectionIsParallelToPlane TRUE
-		isSpawnAngleRandom TRUE
-		nonRandomSpawnLoopEmittedParticleCount 1
+		spawnDirectionIsParallelToPlane FALSE
+		isSpawnAngleRandom FALSE
+		nonRandomSpawnLoopEmittedParticleCount 0
+	EmitterType "Ring"
+	EmitterContents
+		Name "docking 2"
+		Enabled TRUE
+		EmitRate 15.000000
+		HasInfiniteEmitCount TRUE
+		MaxEmitCount 1
+		hasEmitIntervals FALSE
+		emitIntervalRunDuration 0.000000
+		emitIntervalWaitDuration 0.000000
+		ParticleLifeTime 5.000000
+		ParticleMinStartLinearSpeed 0.000000
+		ParticleMaxStartLinearSpeed 0.000000
+		ParticleMinStartAngularSpeed 0.000000
+		ParticleMaxStartAngularSpeed 0.000000
+		ParticleMinStartRotation 0.000000
+		ParticleMaxStartRotation 0.000000
+		ParticleStartMass 1.000000
+		ParticleStartColor ffff8000
+		ParticleWidth 10.000000
+		ParticleHeight 480.000000
+		MeshName ""
+		Position [ 440.000000 -550.000000 -1380.000000 ]
+		Orientation
+			 [ 1.000000 0.000000 0.000000 ]
+			 [ 0.000000 -0.000000 1.000000 ]
+			 [ 0.000000 -1.000000 -0.000000 ]
+		RotateAboutForward 90.000000
+		RotateAboutUp 0.000000
+		RotateAboutCross 0.000000
+		StartTime 0.000000
+		HasInfiniteLifeTime TRUE
+		TotalLifeTime 0.000000
+		BillboardAnchor 0
+		ParticleFacing 1
+		PipelineEffectID "Particle_Additive.fx"
+		AreParticlesAttached TRUE
+		numTextures 2
+		textureName "C:\Users\administrador\Documents\My Games\Ironclad Games\Sins of a Solar Empire Rebellion\Mods-Rebellion v1.82\star-trek-armada-3\Textures\x_blast_glow.dds"
+		textureName ""
+		textureAnimationName ""
+		textureAnimationSpawnType "RandomFrames"
+		textureAnimationOnParticleFPS 0.000000
+		ParticlesRotate FALSE
+		MeshParticleRotationAxisType 2
+		MeshParticleRotationAxis [ 0.000000 0.100000 0.000000 ]
+		RotationDirectionType 1
+		RingRadiusXMin 10.000000
+		RingRadiusXMax 160.000000
+		RingRadiusYMin 0.000000
+		RingRadiusYMax 0.000000
+		ParticleMaxStartSpeedTangential 0.000000
+		ParticleMaxStartSpeedRingNormal 0.000000
+		ScaleStartSpeedsByRadius FALSE
+		SpawnAngleStart 0.000000
+		SpawnAngleStop 0.000000
+		minSpawnHeight 0.000000
+		maxSpawnHeight 0.000000
+		spawnDirectionIsParallelToPlane FALSE
+		isSpawnAngleRandom FALSE
+		nonRandomSpawnLoopEmittedParticleCount 0
 	NumAffectors 3
-	AffectorType "LinearForceInDirection"
+	AffectorType "ColorOscillator"
 	AffectorContents
-		Name "(new) LinearForceInDirection-1"
+		Name "ColorOscillator-1"
 		Enabled TRUE
 		StartTime 0.000000
 		HasInfiniteLifeTime TRUE
 		TotalLifeTime 0.000000
 		UseYoungParticleAffectThreshold FALSE
 		YoungParticleAffectThreshold 0.000000
-		UseOldParticleAffectThreshold TRUE
-		OldParticleAffectThreshold 20.000000
+		UseOldParticleAffectThreshold FALSE
+		OldParticleAffectThreshold 0.000000
 		AffectAttachedParticles TRUE
-		numAttachedEmitters 2
+		numAttachedEmitters 1
 		attachedEmitterName "Random"
-		attachedEmitterName "Random-2"
-		MinForce 1.000000
-		MaxForce 5.000000
-		Direction [ 100.000000 0.000000 0.000000 ]
+		TransitionPeriod 1.000000
+		StartColor ffc0ffc0
+		StartAlpha 1.000000
+		EndColor ff80ffff
+		EndAlpha 1.000000
+	AffectorType "Fade"
+	AffectorContents
+		Name "Fade-1"
+		Enabled FALSE
+		StartTime 0.000000
+		HasInfiniteLifeTime TRUE
+		TotalLifeTime 0.000000
+		UseYoungParticleAffectThreshold TRUE
+		YoungParticleAffectThreshold 0.000000
+		UseOldParticleAffectThreshold TRUE
+		OldParticleAffectThreshold 1.000000
+		AffectAttachedParticles TRUE
+		numAttachedEmitters 1
+		attachedEmitterName "docking 1"
+		DoFadeOut TRUE
+		FadeOutTime 3.000000
+		DoFadeIn TRUE
+		FadeInTime 1.000000
 	AffectorType "ColorOscillator"
 	AffectorContents
-		Name "(new) ColorOscillator-1"
+		Name "ColorOscillator-2"
 		Enabled TRUE
 		StartTime 0.000000
 		HasInfiniteLifeTime TRUE
@@ -523,29 +420,11 @@ ParticleSimulation
 		OldParticleAffectThreshold 0.000000
 		AffectAttachedParticles TRUE
 		numAttachedEmitters 2
-		attachedEmitterName "Random"
-		attachedEmitterName "docking"
+		attachedEmitterName "docking 1"
+		attachedEmitterName "docking 2"
 		TransitionPeriod 1.000000
-		StartColor ffc0ffc0
+		StartColor ffff8000
 		StartAlpha 1.000000
-		EndColor ff80ffff
+		EndColor ff804000
 		EndAlpha 1.000000
-	AffectorType "Fade"
-	AffectorContents
-		Name "(new) Fade-1"
-		Enabled TRUE
-		StartTime 0.000000
-		HasInfiniteLifeTime TRUE
-		TotalLifeTime 0.000000
-		UseYoungParticleAffectThreshold TRUE
-		YoungParticleAffectThreshold 0.000000
-		UseOldParticleAffectThreshold TRUE
-		OldParticleAffectThreshold 1.000000
-		AffectAttachedParticles TRUE
-		numAttachedEmitters 1
-		attachedEmitterName "docking"
-		DoFadeOut TRUE
-		FadeOutTime 3.000000
-		DoFadeIn TRUE
-		FadeInTime 1.000000
 	length 0.000000

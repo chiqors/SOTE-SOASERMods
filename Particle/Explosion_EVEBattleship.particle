@@ -7,7 +7,7 @@ ParticleSimulation
 	EmitterContents
 		Name "Core"
 		Enabled TRUE
-		EmitRate 100.000000
+		EmitRate 2.000000
 		HasInfiniteEmitCount FALSE
 		MaxEmitCount 2
 		hasEmitIntervals FALSE
@@ -55,7 +55,7 @@ ParticleSimulation
 	EmitterContents
 		Name "Flare"
 		Enabled TRUE
-		EmitRate 400.000000
+		EmitRate 2.000000
 		HasInfiniteEmitCount FALSE
 		MaxEmitCount 2
 		hasEmitIntervals FALSE
@@ -103,7 +103,7 @@ ParticleSimulation
 	EmitterContents
 		Name "Sparks"
 		Enabled TRUE
-		EmitRate 1000.000000
+		EmitRate 50.000000
 		HasInfiniteEmitCount FALSE
 		MaxEmitCount 50
 		hasEmitIntervals FALSE
@@ -163,9 +163,9 @@ ParticleSimulation
 	EmitterContents
 		Name "Fire"
 		Enabled TRUE
-		EmitRate 900.000000
+		EmitRate 50.000000
 		HasInfiniteEmitCount FALSE
-		MaxEmitCount 70
+		MaxEmitCount 50
 		hasEmitIntervals FALSE
 		emitIntervalRunDuration 0.000000
 		emitIntervalWaitDuration 0.000000
@@ -223,7 +223,7 @@ ParticleSimulation
 	EmitterContents
 		Name "Core 2"
 		Enabled TRUE
-		EmitRate 100.000000
+		EmitRate 2.000000
 		HasInfiniteEmitCount FALSE
 		MaxEmitCount 2
 		hasEmitIntervals TRUE
@@ -271,7 +271,7 @@ ParticleSimulation
 	EmitterContents
 		Name "Shockwave"
 		Enabled TRUE
-		EmitRate 4.000000
+		EmitRate 1.000000
 		HasInfiniteEmitCount TRUE
 		MaxEmitCount 1
 		hasEmitIntervals FALSE
@@ -319,7 +319,7 @@ ParticleSimulation
 	EmitterContents
 		Name "Shockwave-1"
 		Enabled TRUE
-		EmitRate 4.000000
+		EmitRate 1.000000
 		HasInfiniteEmitCount TRUE
 		MaxEmitCount 1
 		hasEmitIntervals FALSE
@@ -367,9 +367,9 @@ ParticleSimulation
 	EmitterContents
 		Name "Fragments"
 		Enabled TRUE
-		EmitRate 300.000000
+		EmitRate 30.000000
 		HasInfiniteEmitCount FALSE
-		MaxEmitCount 50
+		MaxEmitCount 30
 		hasEmitIntervals FALSE
 		emitIntervalRunDuration 0.000000
 		emitIntervalWaitDuration 0.000000
@@ -427,9 +427,9 @@ ParticleSimulation
 	EmitterContents
 		Name "Rays"
 		Enabled TRUE
-		EmitRate 800.000000
+		EmitRate 20.000000
 		HasInfiniteEmitCount FALSE
-		MaxEmitCount 30
+		MaxEmitCount 20
 		hasEmitIntervals FALSE
 		emitIntervalRunDuration 0.000000
 		emitIntervalWaitDuration 0.000000
@@ -475,7 +475,7 @@ ParticleSimulation
 	EmitterContents
 		Name "flash"
 		Enabled TRUE
-		EmitRate 400.000000
+		EmitRate 3.000000
 		HasInfiniteEmitCount FALSE
 		MaxEmitCount 3
 		hasEmitIntervals FALSE

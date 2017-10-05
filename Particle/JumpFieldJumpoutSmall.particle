@@ -7,13 +7,13 @@ ParticleSimulation
 	EmitterContents
 		Name "Inward Field"
 		Enabled TRUE
-		EmitRate 40.000000
+		EmitRate 20.000000
 		HasInfiniteEmitCount TRUE
 		MaxEmitCount 0
 		hasEmitIntervals FALSE
 		emitIntervalRunDuration 0.000000
 		emitIntervalWaitDuration 0.000000
-		ParticleLifeTime 3.000000
+		ParticleLifeTime 1.000000
 		ParticleMinStartLinearSpeed 0.000000
 		ParticleMaxStartLinearSpeed 0.000000
 		ParticleMinStartAngularSpeed 0.174533
@@ -61,7 +61,7 @@ ParticleSimulation
 		hasEmitIntervals FALSE
 		emitIntervalRunDuration 0.000000
 		emitIntervalWaitDuration 0.000000
-		ParticleLifeTime 0.600000
+		ParticleLifeTime 0.500000
 		ParticleMinStartLinearSpeed 0.000000
 		ParticleMaxStartLinearSpeed 0.000000
 		ParticleMinStartAngularSpeed 0.017453
@@ -103,7 +103,7 @@ ParticleSimulation
 	EmitterContents
 		Name "Lightning1"
 		Enabled TRUE
-		EmitRate 30.000000
+		EmitRate 10.000000
 		HasInfiniteEmitCount TRUE
 		MaxEmitCount 0
 		hasEmitIntervals FALSE
@@ -131,7 +131,7 @@ ParticleSimulation
 		RotateAboutCross 0.000000
 		StartTime 0.500000
 		HasInfiniteLifeTime FALSE
-		TotalLifeTime 2.000000
+		TotalLifeTime 1.000000
 		BillboardAnchor 0
 		ParticleFacing 0
 		PipelineEffectID "Particle_Additive.fx"
@@ -151,13 +151,13 @@ ParticleSimulation
 	EmitterContents
 		Name "Second Swirl"
 		Enabled TRUE
-		EmitRate 20.000000
+		EmitRate 10.000000
 		HasInfiniteEmitCount TRUE
 		MaxEmitCount 0
 		hasEmitIntervals FALSE
 		emitIntervalRunDuration 0.000000
 		emitIntervalWaitDuration 0.000000
-		ParticleLifeTime 1.000000
+		ParticleLifeTime 0.800000
 		ParticleMinStartLinearSpeed 0.000000
 		ParticleMaxStartLinearSpeed 0.000000
 		ParticleMinStartAngularSpeed 0.174533
@@ -199,7 +199,7 @@ ParticleSimulation
 	EmitterContents
 		Name "core"
 		Enabled TRUE
-		EmitRate 5.000000
+		EmitRate 1.000000
 		HasInfiniteEmitCount FALSE
 		MaxEmitCount 1
 		hasEmitIntervals FALSE
@@ -247,7 +247,7 @@ ParticleSimulation
 	EmitterContents
 		Name "Secondary core"
 		Enabled TRUE
-		EmitRate 150.000000
+		EmitRate 15.000000
 		HasInfiniteEmitCount TRUE
 		MaxEmitCount 0
 		hasEmitIntervals FALSE

@@ -7,7 +7,7 @@ ParticleSimulation
 	EmitterContents
 		Name "Flare"
 		Enabled TRUE
-		EmitRate 10.000000
+		EmitRate 1.000000
 		HasInfiniteEmitCount TRUE
 		MaxEmitCount 1
 		hasEmitIntervals FALSE
@@ -55,7 +55,7 @@ ParticleSimulation
 	EmitterContents
 		Name "Rays"
 		Enabled TRUE
-		EmitRate 4.000000
+		EmitRate 1.000000
 		HasInfiniteEmitCount TRUE
 		MaxEmitCount 1
 		hasEmitIntervals FALSE
@@ -151,7 +151,7 @@ ParticleSimulation
 	EmitterContents
 		Name "Shockwave2"
 		Enabled TRUE
-		EmitRate 8.000000
+		EmitRate 1.000000
 		HasInfiniteEmitCount TRUE
 		MaxEmitCount 1
 		hasEmitIntervals FALSE
@@ -199,7 +199,7 @@ ParticleSimulation
 	EmitterContents
 		Name "Explosion Core"
 		Enabled TRUE
-		EmitRate 30.000000
+		EmitRate 10.000000
 		HasInfiniteEmitCount TRUE
 		MaxEmitCount 1
 		hasEmitIntervals FALSE
@@ -247,7 +247,7 @@ ParticleSimulation
 	EmitterContents
 		Name "Sparks Blue"
 		Enabled TRUE
-		EmitRate 500.000000
+		EmitRate 100.000000
 		HasInfiniteEmitCount TRUE
 		MaxEmitCount 1
 		hasEmitIntervals FALSE
@@ -307,7 +307,7 @@ ParticleSimulation
 	EmitterContents
 		Name "Sparks Yellow"
 		Enabled TRUE
-		EmitRate 500.000000
+		EmitRate 200.000000
 		HasInfiniteEmitCount TRUE
 		MaxEmitCount 1
 		hasEmitIntervals FALSE
@@ -367,7 +367,7 @@ ParticleSimulation
 	EmitterContents
 		Name "Fire"
 		Enabled TRUE
-		EmitRate 200.000000
+		EmitRate 100.000000
 		HasInfiniteEmitCount TRUE
 		MaxEmitCount 1
 		hasEmitIntervals FALSE
@@ -427,7 +427,7 @@ ParticleSimulation
 	EmitterContents
 		Name "Smoke"
 		Enabled TRUE
-		EmitRate 200.000000
+		EmitRate 100.000000
 		HasInfiniteEmitCount TRUE
 		MaxEmitCount 1
 		hasEmitIntervals FALSE
@@ -487,7 +487,7 @@ ParticleSimulation
 	EmitterContents
 		Name "Subexplosions"
 		Enabled TRUE
-		EmitRate 20.000000
+		EmitRate 10.000000
 		HasInfiniteEmitCount TRUE
 		MaxEmitCount 0
 		hasEmitIntervals TRUE

@@ -7,7 +7,7 @@ ParticleSimulation
 	EmitterContents
 		Name "Circulo"
 		Enabled TRUE
-		EmitRate 100.000000
+		EmitRate 50.000000
 		HasInfiniteEmitCount TRUE
 		MaxEmitCount 1
 		hasEmitIntervals FALSE
@@ -68,7 +68,7 @@ ParticleSimulation
 	EmitterContents
 		Name "Random Abaixo"
 		Enabled TRUE
-		EmitRate 5.000000
+		EmitRate 4.000000
 		HasInfiniteEmitCount TRUE
 		MaxEmitCount 1
 		hasEmitIntervals FALSE
@@ -129,7 +129,7 @@ ParticleSimulation
 	EmitterContents
 		Name "Random Acima"
 		Enabled TRUE
-		EmitRate 5.000000
+		EmitRate 4.000000
 		HasInfiniteEmitCount TRUE
 		MaxEmitCount 1
 		hasEmitIntervals FALSE
@@ -190,7 +190,7 @@ ParticleSimulation
 	EmitterContents
 		Name "Internal 1"
 		Enabled TRUE
-		EmitRate 50.000000
+		EmitRate 25.000000
 		HasInfiniteEmitCount TRUE
 		MaxEmitCount 1
 		hasEmitIntervals TRUE
@@ -251,7 +251,7 @@ ParticleSimulation
 	EmitterContents
 		Name "Internal 2"
 		Enabled TRUE
-		EmitRate 50.000000
+		EmitRate 25.000000
 		HasInfiniteEmitCount TRUE
 		MaxEmitCount 1
 		hasEmitIntervals TRUE
