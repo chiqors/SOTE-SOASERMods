@@ -101,7 +101,7 @@ HyperspaceTravelSoundID "HYPERSPACE_TRAVEL"
 EngineSoundID "ENGINE_TECHSUPPORTSHIP"
 ability:0 "AbilityDiplomaticImmunity"
 ability:1 "AbilityGoodwill"
-ability:2 "AbilityMutualThreat"
+ability:2 "AbilityMutualThreat2"
 ability:3 "AbilityNanomedicineOutreach"
 ability:4 "AbilityXenoDefense"
 MaxAntiMatter 0.000000

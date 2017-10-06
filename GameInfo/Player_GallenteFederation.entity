@@ -132,7 +132,7 @@ entities
 		entityDefName "Gallente_ResearchSubject_SubCapitalAccess_Phobos"
 		entityDefName "Gallente_ResearchSubject_SubCapitalAccess_Tristan"
 		entityDefName "Gallente_ResearchSubject_SubCapitalAccess_Vexor"
-		entityDefName "RESEARCHSUBJECT_ABILITYACCESS_MUTUALTHREAT"
+		entityDefName "RESEARCHSUBJECT_ABILITYACCESS_MUTUALTHREAT2"
 		entityDefName "RESEARCHSUBJECT_ABILITYACCESS_NANOMEDICINE_OUTREACH"
 		entityDefName "RESEARCHSUBJECT_ABILITYACCESS_UNSTOPPABLEPHASEJUMPTECH"
 		entityDefName "RESEARCHSUBJECT_ABILITYACCESS_XENODEFENSE"
