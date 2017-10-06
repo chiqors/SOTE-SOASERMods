@@ -39,7 +39,7 @@ researchFloatModifiers 2
 researchModifier
 	modifierType "CargoShipCapacityAdjustment"
 	baseValue 0.000000
-	perLevelValue 1.430000
+	perLevelValue 0.050000
 researchModifier
 	modifierType "TradeGoodsValueAdjustment"
 	baseValue 0.000000
