@@ -11414,7 +11414,7 @@ StringInfo
 	Value "Allows the establishment of new trade routes."
 StringInfo
 	ID "IDS_PLANETMODULE_TECHORBITALREFINERY_NAME"
-	Value "Raitaru Industrial Array"
+	Value "Tatara Refinery Array"
 StringInfo
 	ID "IDS_PLANETMODULE_TECHORBITALREFINERY_DESC"
 	Value "Replacemente for old refinaries, Refines raw resources gathered by Mining Barges."
@@ -25139,7 +25139,7 @@ StringInfo
 	Value "Vehement Dreadnought"
 StringInfo
 	ID "IDS_SERPENTIS_VEHEMENT_DESCRIPTION"
-	Value "Reacting to the rise of capsuleer capital fleets, the Serpentis Corporation requested that the Angel Cartel’s naval architects design a dreadnought class capital ship.Reacting to the rise of capsuleer capital fleets, the Serpentis Corporation requested that the Angel Cartel’s naval architects design a dreadnought class capital ship. "
+	Value "Reacting to the rise of capsuleer capital fleets, the Serpentis Corporation requested that the Angel Cartels naval architects design a dreadnought class capital ship.Reacting to the rise of capsuleer capital fleets, the Serpentis Corporation requested that the Angel Cartels naval architects design a dreadnought class capital ship. "
 StringInfo
 	ID "IDS_ABILITY_BOSONIC_FIELD_NAME"
 	Value "Bosonic Field"
