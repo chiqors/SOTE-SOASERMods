@@ -1055,17 +1055,17 @@ brush
 	name "PICTURE_CITADEL_ASTRAHUS"
 	content "Simple"
 	fileName "Unit_Picture"
-	pixelBox [ 1019 , 859 , 167 , 75 ]				
+	pixelBox [ 1019 , 858 , 168 , 73 ]				
 brush
 	name "PICTURE_CITADEL_FORTIZAR"
 	content "Simple"
 	fileName "Unit_Picture"
-	pixelBox [ 1187 , 858 , 167 , 75 ]				
+	pixelBox [ 1187 , 858 , 168 , 73 ]				
 brush
 	name "PICTURE_CITADEL_KEEPSTAR"
 	content "Simple"
 	fileName "Unit_Picture"
-	pixelBox [ 1356 , 859 , 167 , 75 ]				
+	pixelBox [ 1356 , 858 , 168 , 73 ]				
 brush
 	name "PICTURE_INDUSTRIALARRAY_RAITARU"
 	content "Simple"

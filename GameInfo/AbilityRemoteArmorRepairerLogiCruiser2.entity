@@ -1,14 +1,32 @@
 ﻿TXT
 entityType "Ability"
-buffInstantActionType "ApplyBuffToSelf"
+buffInstantActionType "ApplyTargettedBuffToSelf"
 instantActionTriggerType "AlwaysPerform"
-buffType "BuffRemoteArmorRepairerLogiCruiserTarget"
+buffType "BuffRemoteArmorRepairerLogiCruiser"
+targetFilter
+	numOwnerships 1
+	ownership "Friendly"
+	numObjects 5
+	object "CapitalShip"
+	object "Titan"
+	object "Frigate"
+	object "StarBase"
+	object "Corvette"
+	numSpaces 1
+	space "Normal"
+	numConstraints 1
+	constraint "NotSelf"
+range
+	Level:0 25000.000000
+	Level:1 25000.000000
+	Level:2 25000.000000
+	Level:3 25000.000000
 effectInfo
 	effectAttachInfo
-		attachType "Center"
-		smallEffectName "EVE_Buff_ArmorR_Small"
-		mediumEffectName "EVE_Buff_ArmorR_Medium"
-		largeEffectName "EVE_Buff_ArmorR_Large"
+		attachType "Above"
+	smallEffectName "EVE_Buff_ArmorRR_Small"
+	mediumEffectName "EVE_Buff_ArmorRR_Medium"
+	largeEffectName "EVE_Buff_ArmorRR_Large"
 	soundID ""
 needsToFaceTarget FALSE
 canCollideWithTarget TRUE
@@ -18,9 +36,9 @@ maxNumLevels 4
 levelSourceType "Intrinsic"
 minExperienceLevelRequired
 	Level:0 0.000000
-	Level:1 1.000000
-	Level:2 2.000000
-	Level:3 3.000000
+	Level:1 2.000000
+	Level:2 4.000000
+	Level:3 6.000000
 aiUseTime "Anytime"
 aiUseTargetCondition "HullDamageExceedsAmount"
 onlyAutoCastWhenTargetHullDamageExceedsAmount
@@ -35,22 +53,22 @@ ignoreNonCombatShipsForAutoCastTarget TRUE
 onlyAutoCastWhenDamageTakenExceedsPerc 0.000000
 useCostType "AntiMatter"
 antiMatterCost
-	Level:0 300.000000
-	Level:1 291.000000
-	Level:2 282.000000
-	Level:3 273.000000
+	Level:0 96.000000
+	Level:1 96.000000
+	Level:2 96.000000
+	Level:3 96.000000
 cooldownTime
-	Level:0 22.500000
-	Level:1 22.500000
-	Level:2 22.500000
-	Level:3 22.500000
+	Level:0 6.000000
+	Level:1 6.000000
+	Level:2 6.000000
+	Level:3 6.000000
 orderAcknowledgementType "ONGENERALORDERISSUED"
 researchPrerequisites
 	NumResearchPrerequisites 0
 	RequiredFactionNameID ""
 	RequiredCompletedResearchSubjects 0
-nameStringID "IDS_ABILITY_ARMORREPAIR_NAME"
-descStringID "IDS_ABILITY_ARMORREPAIR_DESCRIPTION"
+nameStringID "IDS_ABILITY_REMOTEREPAIRAUGOROR_NAME"
+descStringID "IDS_ABILITY_REMOTEREPAIRAUGOROR_DESCRIPTION"
 hudIcon "HUDICON_ABILITY_GAUSSBLAST"
 smallHudIcon "HUDICON_ABILITY_GAUSSBLAST"
 infoCardIcon ""
