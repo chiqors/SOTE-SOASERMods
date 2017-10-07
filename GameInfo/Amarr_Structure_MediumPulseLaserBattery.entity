@@ -61,7 +61,7 @@ SoundID "PLANETMODULE_TECHORBITALGAUSSDEFENSE_ONSELECTION_0"
 NumSoundsFor:ONSTARTPHASEJUMP 0
 MeshNameInfoCount 1
 MeshNameInfo
-	meshName "ad_battleplatform"
+	meshName "AmarrSentryMedium"
 	criteriaType "None"
 meshNameIncreasedEffectName "GaussGetupgrade"
 meshNameDecreasedEffectName "Gaussloseupgrade"

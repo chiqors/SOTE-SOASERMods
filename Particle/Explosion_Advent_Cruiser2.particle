@@ -137,7 +137,7 @@ ParticleSimulation
 		PipelineEffectID "Particle_Additive.fx"
 		AreParticlesAttached TRUE
 		numTextures 2
-		textureName "C:\Games\ParticleForge 3\Textures\explosion_core_purple2.tga"
+		textureName "explosion_core_purple2.tga"
 		textureName ""
 		textureAnimationName ""
 		textureAnimationSpawnType "RandomFrames"
@@ -245,7 +245,7 @@ ParticleSimulation
 		PipelineEffectID "Particle_Additive.fx"
 		AreParticlesAttached FALSE
 		numTextures 2
-		textureName "C:\Games\ParticleForge 3\Textures\atomiccloud2_purple.tga"
+		textureName "atomiccloud2_purple.tga"
 		textureName ""
 		textureAnimationName ""
 		textureAnimationSpawnType "RandomFrames"
@@ -305,7 +305,7 @@ ParticleSimulation
 		PipelineEffectID "Particle_Additive.fx"
 		AreParticlesAttached FALSE
 		numTextures 2
-		textureName "C:\Games\ParticleForge 3\Textures\atomiccloud2_purple.tga"
+		textureName "atomiccloud2_purple.tga"
 		textureName ""
 		textureAnimationName ""
 		textureAnimationSpawnType "RandomFrames"

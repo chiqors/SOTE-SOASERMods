@@ -11,12 +11,12 @@ entities
 	planetModuleInfo
 		Page:0
 			count 9
-			entityDefName "PLANETMODULE_PHASEORBITALMETALEXTRACTOR"
+			entityDefName "Allraces_Structure_MetalExtractor"
 			entityDefName "Gallente_Structure_FrigateFactory"
 			entityDefName "Gallente_Structure_CombatLab"
 			entityDefName "Gallente_Structure_TradePort"
 			entityDefName "Gallente_Structure_CultureCenter"
-			entityDefName "PLANETMODULE_PHASEORBITALCRYSTALEXTRACTOR"
+			entityDefName "Allraces_Structure_CrystalExtractor"
 			entityDefName "Gallente_Structure_CapitalShipFactory"
 			entityDefName "Gallente_Structure_CivillianLab"
 			entityDefName "Amarr_Structure_Refinery"

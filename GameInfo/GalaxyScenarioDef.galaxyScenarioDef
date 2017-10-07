@@ -1256,7 +1256,7 @@ planetItemType
 	entityDefName "Gallente_Structure_CombatLab"
 planetItemType
 	designName "Gallente:Module:CrystalExtractor"
-	entityDefName "PLANETMODULE_PHASEORBITALCRYSTALEXTRACTOR"
+	entityDefName "Allraces_Structure_CrystalExtractor"
 planetItemType
 	designName "Gallente:Module:CultureCenter"
 	entityDefName "Gallente_Structure_CultureCenter"
@@ -1268,7 +1268,7 @@ planetItemType
 	entityDefName "Gallente_Structure_ECMBattery"
 planetItemType
 	designName "Gallente:Module:MetalExtractor"
-	entityDefName "PLANETMODULE_PHASEORBITALMETALEXTRACTOR"
+	entityDefName "Allraces_Structure_MetalExtractor"
 planetItemType
 	designName "Gallente:Module:NonCombatLab"
 	entityDefName "Gallente_Structure_CivillianLab"
@@ -1301,7 +1301,7 @@ planetItemType
 	entityDefName "Amarr_Structure_CombatLab"
 planetItemType
 	designName "Amarr:Module:CrystalExtractor"
-	entityDefName "PLANETMODULE_TECHORBITALCRYSTALEXTRACTOR"
+	entityDefName "Allraces_Structure_CrystalExtractor"
 planetItemType
 	designName "Amarr:Module:CultureCenter"
 	entityDefName "Amarr_Structure_CultureCenter"
@@ -1313,7 +1313,7 @@ planetItemType
 	entityDefName "Amarr_Structure_ECMBattery"
 planetItemType
 	designName "Amarr:Module:MetalExtractor"
-	entityDefName "PLANETMODULE_TECHORBITALMETALEXTRACTOR"
+	entityDefName "Allraces_Structure_MetalExtractor"
 planetItemType
 	designName "Amarr:Module:NonCombatLab"
 	entityDefName "Amarr_Structure_CivillianLab"

@@ -1,26 +1,8 @@
 TXT
 entityType "Ability"
-buffInstantActionType "ApplyBuffToTargetsInRadius"
+buffInstantActionType "ApplyBuffToSelf"
 instantActionTriggerType "AlwaysPerform"
 buffType "BuffRorqualPanic"
-targetFilter
-	numOwnerships 1
-	ownership "Friendly"
-	numObjects 1
-	object "PlanetModule"
-	numSpaces 1
-	space "Normal"
-	numConstraints 0
-range
-	Level:0 75000.000000
-	Level:1 75000.000000
-	Level:2 75000.000000
-	Level:3 75000.000000
-maxTargetCount
-	Level:0 -1.000000
-	Level:1 -1.000000
-	Level:2 -1.000000
-	Level:3 -1.000000	
 effectInfo
 	effectAttachInfo
 		attachType "Center"

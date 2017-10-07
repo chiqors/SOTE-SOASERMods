@@ -41,8 +41,8 @@ ParticleSimulation
 		PipelineEffectID "Particle_Additive.fx"
 		AreParticlesAttached TRUE
 		numTextures 2
-		textureName "C:\gs\DataSource\Textures\Effects\smokeblack.tga"
-		textureName "C:\GS\DataSource\Textures\Effects\smoke2.dds"
+		textureName "smokeblack.tga"
+		textureName "smoke2.tga"
 		textureAnimationName ""
 		textureAnimationSpawnType "RandomFrames"
 		textureAnimationOnParticleFPS 0.000000
@@ -161,7 +161,7 @@ ParticleSimulation
 		PipelineEffectID "Particle_Additive.fx"
 		AreParticlesAttached TRUE
 		numTextures 2
-		textureName "C:\gs\DataSource\Textures\Effects\shockwave5.tga"
+		textureName "shockwave5.tga"
 		textureName ""
 		textureAnimationName ""
 		textureAnimationSpawnType "RandomFrames"
@@ -209,7 +209,7 @@ ParticleSimulation
 		PipelineEffectID "Particle_Additive.fx"
 		AreParticlesAttached TRUE
 		numTextures 2
-		textureName "C:\gs\DataSource\Textures\Effects\shockwave5.tga"
+		textureName "shockwave5.tga"
 		textureName ""
 		textureAnimationName ""
 		textureAnimationSpawnType "RandomFrames"
@@ -257,7 +257,7 @@ ParticleSimulation
 		PipelineEffectID "Particle_Additive.fx"
 		AreParticlesAttached TRUE
 		numTextures 2
-		textureName "C:\IRONCLAD\effects\TEC weapon hit\explosion_core.tga"
+		textureName "explosion_core.tga"
 		textureName ""
 		textureAnimationName ""
 		textureAnimationSpawnType "RandomFrames"
@@ -305,7 +305,7 @@ ParticleSimulation
 		PipelineEffectID "Particle_Additive.fx"
 		AreParticlesAttached TRUE
 		numTextures 2
-		textureName "C:\IRONCLAD\effects\TEC weapon hit\explosion_cloudout.tga"
+		textureName "explosion_cloudout.tga"
 		textureName ""
 		textureAnimationName ""
 		textureAnimationSpawnType "RandomFrames"

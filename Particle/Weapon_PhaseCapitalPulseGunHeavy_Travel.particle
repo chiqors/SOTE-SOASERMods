@@ -41,7 +41,7 @@ ParticleSimulation
 		PipelineEffectID "GS_Exhaust.fx"
 		AreParticlesAttached TRUE
 		numTextures 2
-		textureName "C:\gs\main\DataSource\Textures\Effects\pulse.tga"
+		textureName "pulse.tga"
 		textureName "starcore-red.dds"
 		textureAnimationName ""
 		textureAnimationSpawnType "RandomFrames"

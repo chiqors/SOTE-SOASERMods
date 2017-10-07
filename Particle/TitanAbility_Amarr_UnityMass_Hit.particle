@@ -41,7 +41,7 @@ ParticleSimulation
 		PipelineEffectID "Particle_Additive.fx"
 		AreParticlesAttached TRUE
 		numTextures 2
-		textureName "Explosion1_Debris.tga"
+		textureName "explosion_core_2_debris.tga"
 		textureName ""
 		textureAnimationName ""
 		textureAnimationSpawnType "RandomFrames"
@@ -211,8 +211,8 @@ ParticleSimulation
 		PipelineEffectID "GS_Exhaust.fx"
 		AreParticlesAttached TRUE
 		numTextures 2
-		textureName "Explosion1_Debris.dds"
-		textureName "Explosion1_Debris.tga"
+		textureName "explosion_core_2_debris.tga"
+		textureName "explosion_core_2_debris.tga"
 		textureAnimationName ""
 		textureAnimationSpawnType "RandomFrames"
 		textureAnimationOnParticleFPS 0.000000
@@ -272,7 +272,7 @@ ParticleSimulation
 		PipelineEffectID "Particle_Additive.fx"
 		AreParticlesAttached TRUE
 		numTextures 2
-		textureName "Explosion1_Debris.tga"
+		textureName "explosion_core_2_debris.tga"
 		textureName ""
 		textureAnimationName ""
 		textureAnimationSpawnType "RandomFrames"
@@ -394,7 +394,7 @@ ParticleSimulation
 		PipelineEffectID "Particle_Additive.fx"
 		AreParticlesAttached TRUE
 		numTextures 2
-		textureName "Explosion1_Debris.tga"
+		textureName "explosion_core_2_debris.tga"
 		textureName ""
 		textureAnimationName ""
 		textureAnimationSpawnType "RandomFrames"
@@ -456,7 +456,7 @@ ParticleSimulation
 		AreParticlesAttached TRUE
 		numTextures 2
 		textureName "base.tga"
-		textureName "Explosion1_Debris.tga"
+		textureName "explosion_core_2_debris.tga"
 		textureAnimationName ""
 		textureAnimationSpawnType "RandomFrames"
 		textureAnimationOnParticleFPS 0.000000
@@ -516,7 +516,7 @@ ParticleSimulation
 		PipelineEffectID "Particle_Additive.fx"
 		AreParticlesAttached TRUE
 		numTextures 2
-		textureName "Explosion1_Debris.tga"
+		textureName "explosion_core_2_debris.tga"
 		textureName ""
 		textureAnimationName ""
 		textureAnimationSpawnType "RandomFrames"

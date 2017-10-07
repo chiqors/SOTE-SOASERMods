@@ -174,9 +174,8 @@ picture ""
 statCountType "StarBase"
 creationSourceAbility "AbilityDeployStarBaseTech"
 maxUpgradeLevelCount 8
-UpgradeTypeCount 3
+UpgradeTypeCount 2
 UpgradeType "StarBaseUpgradeTechToughness"
-UpgradeType ""
 UpgradeType "StarBaseUpgradeTechBlockColonize"
 MeshNameInfoCount 1
 MeshNameInfo

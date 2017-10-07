@@ -2351,13 +2351,13 @@ StringInfo
 	Value "Duration"
 StringInfo
 	ID "IDS_INFOCARD_TITLE_CREDITS"
-	Value "ISK Summary"
+	Value "ISK Income"
 StringInfo
 	ID "IDS_INFOCARD_TITLE_METAL"
-	Value "Common Metals Summary"
+	Value "Common Metals Intake"
 StringInfo
 	ID "IDS_INFOCARD_TITLE_CRYSTAL"
-	Value "Rare Metals Summary"
+	Value "Rare Metals Intake"
 StringInfo
 	ID "IDS_INFOCARD_LABEL_RESEARCHSUBJECTLEVEL"
 	Value "Level *SPACING3* *VALUE0* / *VALUE1*"
@@ -2387,7 +2387,7 @@ StringInfo
 	Value "Requires *VALUE0* more completed research topics."
 StringInfo
 	ID "IDS_ENTITYINFOCARD_RESOURCEASTEROID_RATE"
-	Value "Rate with Extractor:*SPACING170* *VALUE0* /sec"
+	Value "Rate with Extractor:*SPACING170* *VALUE0* K/sec"
 StringInfo
 	ID "IDS_ENTITYINFOCARD_CARGOSHIP_CARGOAMOUNT"
 	Value "Cargo Hold contains *VALUE0* *VALUE1*"
@@ -2444,7 +2444,7 @@ StringInfo
 	Value "Recent DPS:*SPACING170* *VALUE0*"
 StringInfo
 	ID "IDS_INFOCARD_WEAPONNAMEANDDPS"
-	Value "Average *VALUE0* Damage:*SPACING170* *VALUE1*"
+	Value "*VALUE0* DPS:*SPACING170* *VALUE1*"
 StringInfo
 	ID "IDS_INFOCARD_STRINGINFO_BUFFVALUES"
 	Value "*VALUE0*: *SPACING150* *VALUE1* *SPACING185* *VALUE2* *VALUE3*"
@@ -2462,7 +2462,7 @@ StringInfo
 	Value "Has Remote Sensor"
 StringInfo
 	ID "IDS_INFOCARD_BUFFOVERTIME_CREDITRATE"
-	Value "ISK earned /sec"
+	Value "ISK earned K/sec"
 StringInfo
 	ID "IDS_INFOCARD_BUFFOVERTIME_DAMAGERATETOPLANET"
 	Value "Bombing damage done /sec"
@@ -2471,22 +2471,22 @@ StringInfo
 	Value "Planet damage done /sec"
 StringInfo
 	ID "IDS_INFOCARD_BUFFOVERTIME_POPULATIONKILLEDRATEPERC"
-	Value "Population killed /sec"
+	Value "Population killed M/sec"
 StringInfo
 	ID "IDS_INFOCARD_BUFFOVERTIME_DAMAGERATETOTARGET"
 	Value "Damage done /sec"
 StringInfo
 	ID "IDS_INFOCARD_BUFFOVERTIME_RESOURCERATE"
-	Value "Resources earned /sec"
+	Value "Resources earned K/sec"
 StringInfo
 	ID "IDS_INFOCARD_BUFFOVERTIME_RESTOREANTIMATTER"
 	Value "Capacitor restored /sec"
 StringInfo
 	ID "IDS_INFOCARD_BUFFOVERTIME_RESTORESHIELDSRATE"
-	Value "Shields restored /sec"
+	Value "Shields HP restored /sec"
 StringInfo
 	ID "IDS_INFOCARD_BUFFOVERTIME_RESTOREHULLRATE"
-	Value "Hull repaired /sec"
+	Value "Hull HP repaired /sec"
 StringInfo
 	ID "IDS_INFOCARD_BUFFOVERTIME_DAMAGERATE"
 	Value "Damage taken /sec"
@@ -2903,10 +2903,10 @@ StringInfo
 	Value "Flagship *VALUE0*"
 StringInfo
 	ID "IDS_INFOCARD_STRINGINFO_CAPITALSHIPEXPERIENCE"
-	Value "Experience Points:*SPACING100* *VALUE0* / *VALUE1*"
+	Value "Skill Points:*SPACING100* *VALUE0* / *VALUE1*"
 StringInfo
 	ID "IDS_INFOCARD_STRINGINFO_CAPITALSHIPMAXLEVELREACHED"
-	Value "Maximum experience level reached."
+	Value "Maximum Skill Points reached."
 StringInfo
 	ID "IDS_INFOCARD_STRINGINFO_CAPITALSHIPCULTUREPROTECTRATE"
 	Value "Culture Repel rate:*SPACING100* *VALUE0*/sec"
@@ -3035,31 +3035,31 @@ StringInfo
 	Value "*VALUE0*"
 StringInfo
 	ID "IDS_INFOCARD_STRINGINFO_HULL"
-	Value "Hull:*SPACING60* *VALUE0* / *VALUE1*"
+	Value "Hull/Armor HP:*SPACING60* *VALUE0* / *VALUE1*"
 StringInfo
 	ID "IDS_INFOCARD_STRINGINFO_SHIELDS"
-	Value "Shields:*SPACING60* *VALUE0* / *VALUE1*"
+	Value "Shield HP:*SPACING60* *VALUE0* / *VALUE1*"
 StringInfo
 	ID "IDS_INFOCARD_STRINGINFO_ANTIMATTER"
-	Value "Capacitor:*SPACING60* *VALUE0* / *VALUE1*"
+	Value "Capacitor Level:*SPACING60* *VALUE0* / *VALUE1*"
 StringInfo
 	ID "IDS_INFOCARD_STRINGINFO_ARMOR"
-	Value "Armor:*SPACING100* *VALUE0*"
+	Value "Armor Modules:*SPACING100* *VALUE0*"
 StringInfo
 	ID "IDS_INFOCARD_STRINGINFO_MAXARMOR"
-	Value "Armor:*SPACING170* *VALUE0*"
+	Value "Armor Modules:*SPACING170* *VALUE0*"
 StringInfo
 	ID "IDS_INFOCARD_STRINGINFO_SHIELDBONUS"
-	Value "Damage Resistance:*SPACING100* *VALUE0*"
+	Value "Damage Control:*SPACING100* *VALUE0*"
 StringInfo
 	ID "IDS_INFOCARD_STRINGINFO_MAXHULL"
-	Value "Hull:*SPACING170* *VALUE0*"
+	Value "Hull/Armor HP:*SPACING170* *VALUE0*"
 StringInfo
 	ID "IDS_INFOCARD_STRINGINFO_MAXSHIELDS"
-	Value "Shields:*SPACING170* *VALUE0*"
+	Value "Shields HP:*SPACING170* *VALUE0*"
 StringInfo
 	ID "IDS_INFOCARD_STRINGINFO_MAXANTIMATTER"
-	Value "Capacitor:*SPACING170* *VALUE0*"
+	Value "Capacitor Level:*SPACING170* *VALUE0*"
 StringInfo
 	ID "IDS_INFOCARD_STRINGINFO_EXPERIENCEFORDESTROYING"
 	Value "Experience value:*SPACING100* *VALUE0*"
@@ -3071,46 +3071,46 @@ StringInfo
 	Value "Population:*SPACING100* *VALUE0*"
 StringInfo
 	ID "IDS_INFOCARD_STRINGINFO_STARBASETAXINCOMERATE"
-	Value "Tax Income rate:*SPACING100* *VALUE0* /sec"
+	Value "Tax Income rate:*SPACING100* *VALUE0* *SPACING100*K/sec"
 StringInfo
 	ID "IDS_INFOCARD_STRINGINFO_STARBASETRADEINCOMERATE"
-	Value "Trade Income rate:*SPACING100* *VALUE0* /sec"
+	Value "Trade Income rate:*SPACING100* *VALUE0* *SPACING100*K/sec"
 StringInfo
 	ID "IDS_INFOCARD_STRINGINFO_SPACEMINECOUNT"
 	Value "Space Mines:*SPACING130* *VALUE0* / *VALUE1*"
 StringInfo
 	ID "IDSEconomyInfoCardTotalIncomeRate"
-	Value "Total Income *SPACING160* *VALUE0* *SPACING195*/sec"
+	Value "Total Income *SPACING160* *VALUE0* *SPACING100*K/sec"
 StringInfo
 	ID "IDSEconomyInfoCardFleetUpkeep"
-	Value "*VALUE0* Fleet Upkeep - *VALUE1* *SPACING160* *VALUE2* *SPACING195*/sec"
+	Value "*VALUE0* Fleet Upkeep - *VALUE1* *SPACING160* *VALUE2* *SPACING100*K/sec"
 StringInfo
 	ID "IDSEconomyInfoCardTotalPlanetIncome"
-	Value "*VALUE0* Planet Income *SPACING160* *VALUE1* *SPACING195*/sec"
+	Value "*VALUE0* Planet Income *SPACING160* *VALUE1* *SPACING100*K/sec"
 StringInfo
 	ID "IDSEconomyInfoCardIndividualPlanetIncome"
-	Value "*VALUE0* *VALUE1* *SPACING160* *VALUE2* *SPACING195*/sec"
+	Value "*VALUE0* *VALUE1* *SPACING160* *VALUE2* *SPACING100*K/sec"
 StringInfo
 	ID "IDSEconomyInfoCardIndividualPlanetIncomeOverflow"
 	Value "..."
 StringInfo
 	ID "IDSEconomyInfoCardTotalTradeNetworkIncome"
-	Value "*VALUE0* Trade Port Income *SPACING160* *VALUE1* *SPACING195*/sec"
+	Value "*VALUE0* Trade Port Income *SPACING160* *VALUE1* *SPACING100*K/sec"
 StringInfo
 	ID "IDSEconomyInfoCardTotalStarBaseIncome"
-	Value "*VALUE0* Starbase Tax Income *SPACING160* *VALUE1* *SPACING195*/sec"
+	Value "*VALUE0* Starbase Tax Income *SPACING160* *VALUE1* *SPACING100*K/sec"
 StringInfo
 	ID "IDSEconomyInfoCardTotalCapitalShipIncome"
-	Value "*VALUE0* Capital Ship Tax Income *SPACING160* *VALUE1* *SPACING195*/sec"
+	Value "*VALUE0* Capital Ship Tax Income *SPACING160* *VALUE1* *SPACING100*K/sec"
 StringInfo
 	ID "IDSEconomyInfoCardTotalResourceExtractionIncome"
-	Value "*VALUE0* Extractor Income *SPACING160* *VALUE1* *SPACING195*/sec"
+	Value "*VALUE0* Extractor Income *SPACING160* *VALUE1* *SPACING100*K/sec"
 StringInfo
 	ID "IDSEconomyInfoCardTotalResourceRefineryIncome"
-	Value "*VALUE0* Refinery Income *SPACING160* *VALUE1* *SPACING195*/sec"
+	Value "*VALUE0* Refinery Income *SPACING160* *VALUE1* *SPACING100*K/sec"
 StringInfo
 	ID "IDSEconomyInfoCardAbilityIncome"
-	Value "Income from Abilities*SPACING160* *VALUE0* *SPACING195*/sec"
+	Value "Income from Abilities*SPACING160* *VALUE0* *SPACING100*K/sec"
 StringInfo
 	ID "IDSEconomyInfoCardShipSlots"
 	Value "Fleet Supply"
@@ -3152,7 +3152,7 @@ StringInfo
 	Value "*VALUE0* Slots:*SPACING130* *VALUE1* / *VALUE2*"
 StringInfo
 	ID "IDS_PLANETDETAILSINFOCARD_TAXRATE"
-	Value "Tax Income Rate:*SPACING130* *VALUE0* /sec"
+	Value "Tax Income Rate:*SPACING130* *VALUE0* K/sec"
 StringInfo
 	ID "IDS_PLANETDETAILSINFOCARD_CULTURE"
 	Value "Culture Rate:*SPACING130* *VALUE0* /sec"
@@ -3161,13 +3161,13 @@ StringInfo
 	Value "Planet Health:*SPACING130* *VALUE0* / *VALUE1*"
 StringInfo
 	ID "IDS_PLANETDETAILSINFOCARD_PLANETPOPULATION"
-	Value "Population:*SPACING130* *VALUE0* / *VALUE1*"
+	Value "Population:*SPACING130* *VALUE0* m/ *VALUE1* m"
 StringInfo
 	ID "IDS_PLANETDETAILSINFOCARD_RESOURCEASTEROID"
-	Value "*VALUE0* *VALUE1* *SPACING130* *VALUE2* /sec"
+	Value "*VALUE0* *VALUE1* *SPACING130* *VALUE2* K/sec"
 StringInfo
 	ID "IDS_PLANETDETAILSINFOCARD_RESOURCEASTEROID_FROMEXTRACTOR"
-	Value "Rate:*SPACING100* *VALUE0* /sec"
+	Value "Rate:*SPACING100* *VALUE0* K/sec"
 StringInfo
 	ID "IDS_PLANETDETAILSINFOCARD_RESOURCEASTEROID_REFINERYUSAGE"
 	Value "Refinery Quota: *SPACING100* *VALUE0*"
@@ -3281,10 +3281,10 @@ StringInfo
 	Value "*VALUE0*"
 StringInfo
 	ID "IDSBottomEntityInfoWindowInfoCardNameShipHull"
-	Value "Hull Strength"
+	Value "Hull/Armor HP"
 StringInfo
 	ID "IDSBottomEntityInfoWindowInfoCardNameShipShield"
-	Value "Shield Strength"
+	Value "Shield HP"
 StringInfo
 	ID "IDSBottomEntityInfoWindowInfoCardAbilityStatus"
 	Value "*VALUE0*: *SPACING150* *VALUE1* seconds"
@@ -3560,13 +3560,13 @@ StringInfo
 	Value ""
 StringInfo
 	ID "IDS_INFOCARD_SQUADOWNER_COMMANDPOINTS"
-	Value "Squadrons: *VALUE0*"
+	Value "Squadron Bandwidth: *VALUE0*"
 StringInfo
 	ID "IDS_INFOCARD_SQUADOWNER_COMMANDPOINTSUNSPENDONEPOINT"
-	Value "%d unspent Command Point"
+	Value "%d Unallocated Bandwidth"
 StringInfo
 	ID "IDS_INFOCARD_SQUADOWNER_COMMANDPOINTSUNSPENDMANYPOINTS"
-	Value "%d unspent Command Points"
+	Value "%d Unallocated Bandwidth"
 StringInfo
 	ID "IDS_INFOCARD_SQUADOWNER_SQUADDETAILS"
 	Value "*SPACING20* *VALUE0* *SPACING170* *VALUE1*"
@@ -3578,10 +3578,10 @@ StringInfo
 	Value "Launched"
 StringInfo
 	ID "IDS_INFOCARD_SQUADOWNER_SQUADISDOCKEDSTATUS"
-	Value "*VALUE0*'s Squadron: *SPACING150* *VALUE1*"
+	Value "*VALUE0*'s Squadron: *SPACING100* *VALUE1*"
 StringInfo
 	ID "IDS_INFOCARD_SQUADOWNER_SQUADHEALTHSTATUS"
-	Value "*VALUE0*'s Squadron: *SPACING150* *VALUE1*"
+	Value "*VALUE0*'s Squadron HP: *SPACING150* *VALUE1*"
 StringInfo
 	ID "IDS_INFOCARD_SQUAD_OWNER"
 	Value "Owned by *VALUE0*"
@@ -20756,7 +20756,7 @@ StringInfo
 	Value "Incursions Active"
 StringInfo
 	ID "IDSGameOptionsArePiratesActiveFalse"
-	Value "Sansha Incursions Inactive"
+	Value "Incursions Inactive"
 StringInfo
 	ID "IDSGameOptionsAreOutlawSectorsActiveTrue"
 	Value "Outlaw Sectors"
