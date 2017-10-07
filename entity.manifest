@@ -1,5 +1,5 @@
 TXT
-entityNameCount 2372
+entityNameCount 2376
 entityName "ALLRACES_RESEARCHSUBJECT_ABILITYACCESS_AFTERBURNER.entity"
 entityName "ALLRACES_RESEARCHSUBJECT_ABILITYACCESS_BASTIONMODE.entity"
 entityName "ALLRACES_RESEARCHSUBJECT_ABILITYACCESS_CLOAK.entity"
@@ -2372,3 +2372,7 @@ entityName "Minmatar_Ship_Battleship_Machariel.entity"
 entityName "Minmatar_Ship_Battlecruiser_Tornado.entity"
 entityName "Minmatar_Structure_HangarDefense.entity"
 entityName "Minmatar_ResearchSubject_SubCapitalAccess_Stabber.entity"
+entityName "AbilityRemoteArmorRepairerLogiCruiser2.entity"
+entityName "AbilityRemoteShieldBoosterLogiCruiser2.entity"
+entityName "RESEARCHSUBJECT_ABILITYACCESS_MUTUALTHREAT2.entity"
+entityName "AbilityMutualThreat2.entity"

@@ -10,7 +10,7 @@ typeCount 1
 frigateRoleType "Cargo"
 statCountType "FrigateTradeShip"
 mainViewIcon "MAINVIEWICON_TRADESHIP_TECH"
-picture "PICTURE_FRIGATE_BESTOWER"
+picture "PICTURE_FRIGATE_ITERON"
 NameStringID "IDS_TRADESHIP_GALLENTE_NAME"
 DescriptionStringID "Gallente Trade Ship"
 counterDescriptionStringID "IDS_COUNTERDESC_FRIGATE_NONCOMBAT"

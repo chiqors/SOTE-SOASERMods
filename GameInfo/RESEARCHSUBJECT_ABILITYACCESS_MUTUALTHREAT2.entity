@@ -1,16 +1,19 @@
 ﻿TXT
 entityType "ResearchSubject"
-hudIcon "HUDICON_RESEARCHSUBJECT_TARGETPAINTER"
-smallHudIcon "HUDICON_RESEARCHSUBJECT_TARGETPAINTER"
+hudIcon "HUDICON_RESEARCHSUBJECT_MUTUAL_THREAT"
+smallHudIcon "HUDICON_RESEARCHSUBJECT_MUTUAL_THREAT"
 infoCardIcon ""
-NameStringID "IDS_ABILITY_TARGETPAINTER_NAME"
-DescriptionStringID "IDS_ABILITY_TARGETPAINTER_DESCRIPTION"
+NameStringID "IDS_RESEARCHSUBJECT_ABILITYACCESS_MUTUALTHREAT_NAME"
+DescriptionStringID "IDS_RESEARCHSUBJECT_ABILITYACCESS_MUTUALTHREAT_DESCRIPTION"
 researchWindowLocation
 	block 0
 	pos [ 3 , 0 ]
-ResearchField "Combat"
+ResearchField "Diplomacy"
 Prerequisites
-	NumResearchPrerequisites 0
+	NumResearchPrerequisites 1
+	ResearchPrerequisite
+		Subject "Caldari_ResearchSubject_SubCapitalAccess_FeroxEnvoy"
+		Level 1
 	RequiredFactionNameID ""
 	RequiredCompletedResearchSubjects 0
 MinimumArtifactLevel -1

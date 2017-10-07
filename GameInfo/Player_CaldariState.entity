@@ -53,13 +53,13 @@ entities
 			entityDefName "Caldari_Ship_Frigate_Condor"
 			entityDefName "Caldari_Ship_Frigate_Kestrel"
 			entityDefName "Caldari_Ship_Destroyer_Comorant"
-			entityDefName "Gallente_Ship_Colony_Orca"
 			entityDefName "Caldari_Ship_Cruiser_Caracal"
 			entityDefName "Caldari_Ship_Cruiser_Blackbird"
-			entityDefName "Caldari_Ship_Cruiser_Onyx"
+			entityDefName "Caldari_Ship_Cruiser_Osprey"
+			entityDefName "Gallente_Ship_Colony_Orca"			
 		Page:1
 			count 9
-			entityDefName "Caldari_Ship_Cruiser_Osprey"
+			entityDefName "Caldari_Ship_Cruiser_Onyx"
 			entityDefName "Caldari_Ship_Battlecruiser_Drake"
 			entityDefName "Caldari_Ship_Battlecruiser_Naga"
 			entityDefName "Caldari_Ship_Battleship_Scorpion"
