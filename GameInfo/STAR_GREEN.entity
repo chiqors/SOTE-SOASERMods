@@ -1,11 +1,11 @@
 ﻿TXT
 entityType "Star"
-coronaStartColor ff94c012
-coronaEndColor ff217001
+coronaStartColor ffffffff
+coronaEndColor ff008bff
 coronaStartColorDistance 0.000000
 coronaEndColorDistance 1.200000
-farIcon "HUDICON_SOLARSYSTEM_GREEN"
-coloredSkyboxMeshInfoCount 4
+farIcon "Axeldude_FarStar"
+coloredSkyboxMeshInfoCount 7
 meshInfo
 	meshName "SkyboxBackdrop2"
 	shouldPrefer TRUE
@@ -18,11 +18,20 @@ meshInfo
 meshInfo
 	meshName "SkyboxBackdrop8"
 	shouldPrefer FALSE
+meshInfo
+	meshName "SkyboxBackdrop9"
+	shouldPrefer FALSE
+meshInfo
+	meshName "SkyboxBackdrop10"
+	shouldPrefer FALSE
+meshInfo
+	meshName "SkyboxBackdrop11"
+	shouldPrefer FALSE
 deepSpaceSkyboxMeshInfoCount 1
 meshInfo
 	meshName "SkyboxBackdrop7"
 	shouldPrefer FALSE
-iconTextureName "starcore-green"
+iconTextureName "Axeldude_FarStar_Icon_White"
 dlcID 204880
 ability:0 "AbilitySolarRegeneration"
 ability:1 "AbilitySolarGamma"
@@ -33,8 +42,8 @@ hudIcon "HUDICON_STAR_GREEN"
 smallHudIcon "HUDICONSMALL_STAR_GREEN"
 infoCardIcon "INFOCARDICON_STAR_GREEN"
 minZoomDistanceMult 2.000000
-moveAreaRadius 80000.000000
-hyperspaceExitRadius 60000.000000
+moveAreaRadius 160000.000000
+hyperspaceExitRadius 140000.000000
 isWormhole FALSE
 maxStarBaseCountPerPlayer 4
 maxSpaceMineCountPerPlayer 500

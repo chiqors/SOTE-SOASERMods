@@ -75,13 +75,14 @@ entities
 			entityDefName "Minmatar_Ship_Refineryship_Mamonth"
 			entityDefName "Ore_ShipOrca"
 	researchInfo
-		count 138
+		count 136
 		entityDefName "RSAInterdictor"
 		entityDefName "RSACommand_Orca"
 		entityDefName "RSACovertOps"
 		entityDefName "RSAHeavyAssault"
 		entityDefName "RSABlackOps"
 		entityDefName "RSAMarauder"
+		entityDefName "RESEARCH_FORCEAI_AID"
 		entityDefName "Minmatar_ResearchSubject_SubCapitalAccess_Stabber"
 		entityDefName "AllRaces_ResearchSubject_CovertOpsJumpBridge"
 		entityDefName "Minmatar_ResearchSubject_SubCapitalAccess_Svipul"
@@ -140,9 +141,6 @@ entities
 		entityDefName "RESEARCHSUBJECT_ABILITYACCESS_UNSTOPPABLEPHASEJUMPTECH"
 		entityDefName "RESEARCHSUBJECT_ABILITYACCESS_WORTHYCAUSE"
 		entityDefName "RESEARCHSUBJECT_ADVANCED_CULTURAL_RELATIONS"
-		entityDefName "RESEARCHSUBJECT_AIBOOST_STAGE1"
-		entityDefName "RESEARCHSUBJECT_AIBOOST_STAGE2"
-		entityDefName "RESEARCHSUBJECT_AIBOOST_STAGE3"
 		entityDefName "RESEARCHSUBJECT_ANTIMATTERTECH0"
 		entityDefName "RESEARCHSUBJECT_ANTIMATTERTECH1"
 		entityDefName "RESEARCHSUBJECT_ANTIMATTERTECH2"
@@ -275,9 +273,9 @@ hyperspaceData
 	baseHyperspaceAntiMatterCost 0.000000
 	baseHyperspaceChargeUpTime 2.200000
 shieldData
-	shieldAbsorbGrowthPerDamage 0.100000
+	shieldAbsorbGrowthPerDamage 0.050000
 	shieldAbsorbDecayRate 0.000100
-	shieldAbsorbBaseMin 0.100000
+	shieldAbsorbBaseMin 0.0500000
 	shieldColor ffff9966
 gameEventData
 	GameEventSound:AllianceCeaseFireBroken "EVENTTECH_ALLIANCECEASEFIREBROKEN"

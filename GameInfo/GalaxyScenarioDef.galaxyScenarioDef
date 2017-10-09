@@ -1,23 +1,29 @@
 TXT
-starTypeCount 9
+starTypeCount 10
 starType
 	designName "RandomStar"
 	designStringId "IDSGalaxyScenarioTypeStarRandom"
-	orbitBodyTypeCount 7
+	orbitBodyTypeCount 8
 	orbitBodyType "BlueStar"
 	orbitBodyType "GreenStar"
 	orbitBodyType "RedStar"
 	orbitBodyType "YellowStar"
+	orbitBodyType "OrangeStar"
 	orbitBodyType "NeutronStar"
 	orbitBodyType "BlackHoleStar"
 	orbitBodyType "PulsarStar"
 starType
 	designName "RandomNonGreenStar"
 	designStringId "IDSGalaxyScenarioTypeStarRandomNonGreen"
-	orbitBodyTypeCount 3
+	orbitBodyTypeCount 8
 	orbitBodyType "BlueStar"
+	orbitBodyType "GreenStar"
 	orbitBodyType "RedStar"
-	orbitBodyType "YellowStar"	
+	orbitBodyType "YellowStar"
+	orbitBodyType "OrangeStar"
+	orbitBodyType "NeutronStar"
+	orbitBodyType "BlackHoleStar"
+	orbitBodyType "PulsarStar"
 starType
 	designName "BlueStar"
 	designStringId "IDSGalaxyScenarioTypeStarBlue"
@@ -33,6 +39,11 @@ starType
 	designStringId "IDSGalaxyScenarioTypeStarYellow"
 	orbitBodyTypeCount 1
 	orbitBodyType "YellowStar"
+starType
+	designName "OrangeStar"
+	designStringId "IDSGalaxyScenarioTypeStarOrange"
+	orbitBodyTypeCount 1
+	orbitBodyType "OrangeStar"
 starType
 	designName "GreenStar"
 	designStringId "IDSGalaxyScenarioTypeStarGreen"
@@ -53,16 +64,27 @@ starType
 	designStringId "IDSGalaxyScenarioTypeStarPulsar"
 	orbitBodyTypeCount 1
 	orbitBodyType "PulsarStar"
-planetTypeCount 77
+planetTypeCount 89
 planetType
 	designName "WeightedNonIce"
 	designStringId "IDSGalaxyScenarioTypePlanetWeightedNonIce"
-	orbitBodyTypeCount 19
-	orbitBodyType "Terran"
-	orbitBodyType "Terran"
-	orbitBodyType "Desert"
-	orbitBodyType "Desert"
+	orbitBodyTypeCount 43
+	orbitBodyType "Terran_0"
+	orbitBodyType "Terran_0"
+	orbitBodyType "Desert_0"
+	orbitBodyType "Desert_0"
+	orbitBodyType "Desert_1"
 	orbitBodyType "Volcanic"
+	orbitBodyType "Volcanic_0"
+	orbitBodyType "Rock_0"
+	orbitBodyType "Rock_0"
+	orbitBodyType "Rock_0"
+	orbitBodyType "Forest_0"
+	orbitBodyType "Forest_0"
+	orbitBodyType "Hydrocarbon_0"
+	orbitBodyType "Hydrocarbon_0"
+	orbitBodyType "Oceanic_0"
+	orbitBodyType "Asteroid"
 	orbitBodyType "Asteroid"
 	orbitBodyType "AsteroidB"
 	orbitBodyType "AsteroidC"	
@@ -70,186 +92,138 @@ planetType
 	orbitBodyType "Moon"
 	orbitBodyType "MoonB"
 	orbitBodyType "MoonC"	
-	orbitBodyType "MoonD"	
-	orbitBodyType "DeadAsteroid"
-	orbitBodyType "ShipGraveyard"
-	orbitBodyType "Barren"
-	orbitBodyType "Oceanic"
+	orbitBodyType "MoonD"
 	orbitBodyType "Ferrus"
-	orbitBodyType "Greenhouse"
-planetType
-	designName "WeightedNonIceFair"
-	designStringId "IDSGalaxyScenarioTypePlanetWeightedNonIceFair"
-	orbitBodyTypeCount 13
-	orbitBodyType "TerranFair"
-	orbitBodyType "DesertFair"
-	orbitBodyType "VolcanicFair"
-	orbitBodyType "AsteroidFair"
-	orbitBodyType "AsteroidFair"
-	orbitBodyType "MoonFair"
-	orbitBodyType "MoonFair"
+	orbitBodyType "Ferrus"
 	orbitBodyType "DeadAsteroid"
-	orbitBodyType "ShipGraveyard"
-	orbitBodyType "BarrenFair"
-	orbitBodyType "OceanicFair"
-	orbitBodyType "FerrusFair"
-	orbitBodyType "GreenhouseFair"
+	orbitBodyType "Barren"
+	orbitBodyType "Barren"
+	orbitBodyType "Greenhouse"
+	orbitBodyType "Greenhouse"
+	orbitBodyType "Asteroid"
+	orbitBodyType "Asteroid"
+	orbitBodyType "DeadAsteroid"
+	orbitBodyType "Toxic"	
+	orbitBodyType "Toxic"
+	orbitBodyType "City"	
+	orbitBodyType "Military"	
+	orbitBodyType "Paradise"
+	orbitBodyType "Grass"
+	orbitBodyType "Grass"
+	orbitBodyType "Swamp"
+	orbitBodyType "Swamp"
 planetType
 	designName "WeightedRandom"
 	designStringId "IDSGalaxyScenarioTypePlanetWeightedRandom"
-	orbitBodyTypeCount 46
-	orbitBodyType "Terran"
-	orbitBodyType "Terran"
-	orbitBodyType "Desert"
-	orbitBodyType "Desert"
-	orbitBodyType "Ice"
-	orbitBodyType "Ice"
-	orbitBodyType "Ice"
+	orbitBodyTypeCount 67
+	orbitBodyType "Terran_0"
+	orbitBodyType "Carbon_0"
+	orbitBodyType "Desert_0"
+	orbitBodyType "Desert_0"
+	orbitBodyType "Desert_1"
 	orbitBodyType "Volcanic"
-	orbitBodyType "Volcanic"
-	orbitBodyType "Volcanic"
+	orbitBodyType "Volcanic_0"
+	orbitBodyType "Ice"
+	orbitBodyType "Ice_0"
+	orbitBodyType "Rock_0"
+	orbitBodyType "Rock_0"
+	orbitBodyType "Rock_0"
+	orbitBodyType "Forest_0"
+	orbitBodyType "Forest_0"
+	orbitBodyType "Hydrocarbon_0"
+	orbitBodyType "Hydrocarbon_0"
+	orbitBodyType "Oceanic_0"
 	orbitBodyType "Asteroid"
 	orbitBodyType "AsteroidB"
 	orbitBodyType "AsteroidC"	
 	orbitBodyType "AsteroidD"
-	orbitBodyType "Moon"
-	orbitBodyType "MoonB"
-	orbitBodyType "MoonC"	
-	orbitBodyType "MoonD"	
-	orbitBodyType "AsteroidBelt"
 	orbitBodyType "AsteroidBelt"
 	orbitBodyType "AsteroidBelt"
 	orbitBodyType "AsteroidSpaceJunk"
 	orbitBodyType "GasGiant"
+	orbitBodyType "GasGiant_0"
+	orbitBodyType "GasGiant_1"
 	orbitBodyType "DeadAsteroid"
-	orbitBodyType "ShipGraveyard"
-	orbitBodyType "PlasmaStorm"
 	orbitBodyType "Comet"
 	orbitBodyType "IceField"
 	orbitBodyType "AntimatterFountain"
 	orbitBodyType "ShatteredMoon"
 	orbitBodyType "RadiationStorm"
+	orbitBodyType "PlasmaStorm"
 	orbitBodyType "MagneticCloud"
+	orbitBodyType "Moon"
+	orbitBodyType "MoonB"
+	orbitBodyType "MoonC"	
+	orbitBodyType "MoonD"	
+	orbitBodyType "Desert_Moon_0"
+	orbitBodyType "Desert_Moon_1"
+	orbitBodyType "Terran_Moon_0"
+	orbitBodyType "Forest_Moon_0"
+	orbitBodyType "Rock_Moon_0"
+	orbitBodyType "Ice_Moon_0"
+	orbitBodyType "Carbon_Moon_0"
+	orbitBodyType "Hydrocarbon_Moon_0"
+	orbitBodyType "Volcanic_Moon_0"
+	orbitBodyType "Oceanic_Moon_0"
+	orbitBodyType "Greenhouse"
+	orbitBodyType "Greenhouse"
+	orbitBodyType "Greenhouse"	
 	orbitBodyType "Barren"
-	orbitBodyType "Barren"
-	orbitBodyType "Barren"
-	orbitBodyType "Oceanic"
-	orbitBodyType "Oceanic"
 	orbitBodyType "Oceanic"
 	orbitBodyType "Ferrus"
-	orbitBodyType "Ferrus"
-	orbitBodyType "Greenhouse"
-	orbitBodyType "Greenhouse"
-	orbitBodyType "Greenhouse"
+	orbitBodyType "Toxic"	
+	orbitBodyType "Toxic"
+	orbitBodyType "City"	
+	orbitBodyType "Military"	
+	orbitBodyType "Paradise"
+	orbitBodyType "Grass"
+	orbitBodyType "Grass"
+	orbitBodyType "Swamp"
+	orbitBodyType "Swamp"
 	orbitBodyType "PirateSanctum"
 	orbitBodyType "SleeperTower"
 	orbitBodyType "MorduStagging"
 planetType
-	designName "WeightedRandomFair"
-	designStringId "IDSGalaxyScenarioTypePlanetWeightedRandomFair"
-	orbitBodyTypeCount 39
-	orbitBodyType "TerranFair"
-	orbitBodyType "TerranFair"
-	orbitBodyType "IceFair"
-	orbitBodyType "IceFair"
-	orbitBodyType "IceFair"
-	orbitBodyType "DesertFair"
-	orbitBodyType "DesertFair"
-	orbitBodyType "DesertFair"
-	orbitBodyType "VolcanicFair"
-	orbitBodyType "VolcanicFair"
-	orbitBodyType "VolcanicFair"
-	orbitBodyType "AsteroidFair"
-	orbitBodyType "AsteroidFair"
-	orbitBodyType "AsteroidFair"
-	orbitBodyType "AsteroidFair"
-	orbitBodyType "MoonFair"
-	orbitBodyType "MoonFair"
-	orbitBodyType "MoonFair"
-	orbitBodyType "MoonFair"
-	orbitBodyType "AsteroidBeltFair"
-	orbitBodyType "AsteroidBeltFair"
-	orbitBodyType "AsteroidBeltFair"
-	orbitBodyType "AsteroidSpaceJunkFair"
-	orbitBodyType "GasGiantFair"
-	orbitBodyType "DeadAsteroid"
-	orbitBodyType "ShipGraveyard"
-	orbitBodyType "PlasmaStormFair"
-	orbitBodyType "MagneticCloud"
-	orbitBodyType "BarrenFair"
-	orbitBodyType "BarrenFair"
-	orbitBodyType "BarrenFair"
-	orbitBodyType "OceanicFair"
-	orbitBodyType "OceanicFair"
-	orbitBodyType "OceanicFair"
-	orbitBodyType "FerrusFair"
-	orbitBodyType "FerrusFair"
-	orbitBodyType "GreenhouseFair"
-	orbitBodyType "GreenhouseFair"
-	orbitBodyType "GreenhouseFair"
-planetType
 	designName "WeightedColonizable"
 	designStringId "IDSGalaxyScenarioTypePlanetWeightedColonizable"
-	orbitBodyTypeCount 28
-	orbitBodyType "Terran"
-	orbitBodyType "Terran"
-	orbitBodyType "Desert"
-	orbitBodyType "Desert"
+	orbitBodyTypeCount 33
+	orbitBodyType "Terran_0"
+	orbitBodyType "Terran_0"
+	orbitBodyType "Desert_0"
+	orbitBodyType "Desert_0"
+	orbitBodyType "Desert_1"
+	orbitBodyType "Volcanic"
+	orbitBodyType "Volcanic_0"
 	orbitBodyType "Ice"
-	orbitBodyType "Ice"
-	orbitBodyType "Volcanic"
-	orbitBodyType "Volcanic"
-	orbitBodyType "Volcanic"
-	orbitBodyType "Asteroid"
-	orbitBodyType "AsteroidB"
-	orbitBodyType "AsteroidC"	
-	orbitBodyType "AsteroidD"
+	orbitBodyType "Ice_0"
+	orbitBodyType "Rock_0"
+	orbitBodyType "Rock_0"
+	orbitBodyType "Rock_0"
+	orbitBodyType "Forest_0"
+	orbitBodyType "Forest_0"
+	orbitBodyType "Hydrocarbon_0"
+	orbitBodyType "Hydrocarbon_0"
+	orbitBodyType "Oceanic_0"
+	orbitBodyType "Carbon_0"
 	orbitBodyType "Moon"
-	orbitBodyType "MoonB"
-	orbitBodyType "MoonC"	
-	orbitBodyType "MoonD"	
-	orbitBodyType "Barren"
-	orbitBodyType "Barren"
 	orbitBodyType "Barren"
 	orbitBodyType "Oceanic"
-	orbitBodyType "Oceanic"
-	orbitBodyType "Oceanic"
-	orbitBodyType "Ferrus"
 	orbitBodyType "Ferrus"
 	orbitBodyType "Greenhouse"
 	orbitBodyType "Greenhouse"
-	orbitBodyType "Greenhouse"
-planetType
-	designName "WeightedColonizableFair"
-	designStringId "IDSGalaxyScenarioTypePlanetWeightedColonizableFair"
-	orbitBodyTypeCount 23
-	orbitBodyType "TerranFair"
-	orbitBodyType "TerranFair"
-	orbitBodyType "IceFair"
-	orbitBodyType "IceFair"
-	orbitBodyType "DesertFair"
-	orbitBodyType "DesertFair"
-	orbitBodyType "DesertFair"
-	orbitBodyType "VolcanicFair"
-	orbitBodyType "VolcanicFair"
-	orbitBodyType "VolcanicFair"
-	orbitBodyType "AsteroidFair"
-	orbitBodyType "MoonFair"
-	orbitBodyType "BarrenFair"
-	orbitBodyType "BarrenFair"
-	orbitBodyType "BarrenFair"
-	orbitBodyType "OceanicFair"
-	orbitBodyType "OceanicFair"
-	orbitBodyType "OceanicFair"
-	orbitBodyType "FerrusFair"
-	orbitBodyType "FerrusFair"
-	orbitBodyType "GreenhouseFair"
-	orbitBodyType "GreenhouseFair"
-	orbitBodyType "GreenhouseFair"
+	orbitBodyType "Toxic"	
+	orbitBodyType "Toxic"
+	orbitBodyType "City"	
+	orbitBodyType "Military"	
+	orbitBodyType "Paradise"
+	orbitBodyType "Grass"
+	orbitBodyType "Grass"
+	orbitBodyType "Swamp"
+	orbitBodyType "Swamp"
 planetType
 	designName "AsteroidOrDead"
 	designStringId "IDSGalaxyScenarioTypePlanetAsteroidOrDead"
-	orbitBodyTypeCount 13
+	orbitBodyTypeCount 12
 	orbitBodyType "Asteroid"
 	orbitBodyType "AsteroidB"
 	orbitBodyType "AsteroidC"	
@@ -259,20 +233,187 @@ planetType
 	orbitBodyType "MoonC"	
 	orbitBodyType "MoonD"	
 	orbitBodyType "DeadAsteroid"
-	orbitBodyType "ShipGraveyard"
 	orbitBodyType "AsteroidBelt"
 	orbitBodyType "AsteroidSpaceJunk"
 	orbitBodyType "PirateSanctum"
 planetType
-	designName "AsteroidOrDeadFair"
-	designStringId "IDSGalaxyScenarioTypePlanetAsteroidOrDeadFair"
-	orbitBodyTypeCount 6
-	orbitBodyType "AsteroidFair"
-	orbitBodyType "MoonFair"
-	orbitBodyType "DeadAsteroid"
-	orbitBodyType "ShipGraveyard"
-	orbitBodyType "AsteroidBeltFair"
-	orbitBodyType "AsteroidSpaceJunkFair"
+	designName "Random"
+	designStringId "IDSGalaxyScenarioTypePlanetRandom"
+	orbitBodyTypeCount 42
+	orbitBodyType "Terran_0"
+	orbitBodyType "Terran_0"
+	orbitBodyType "Desert_0"
+	orbitBodyType "Desert_0"
+	orbitBodyType "Volcanic"
+	orbitBodyType "Volcanic_0"
+	orbitBodyType "Ice"
+	orbitBodyType "Ice_0"
+	orbitBodyType "Rock_0"
+	orbitBodyType "Rock_0"
+	orbitBodyType "Forest_0"
+	orbitBodyType "Forest_0"
+	orbitBodyType "Hydrocarbon_0"
+	orbitBodyType "Hydrocarbon_0"
+	orbitBodyType "Oceanic_0"
+	orbitBodyType "Oceanic_0"
+	orbitBodyType "GasGiant_0"
+	orbitBodyType "GasGiant_1"
+	orbitBodyType "Carbon_0"
+	orbitBodyType "Barren"
+	orbitBodyType "Oceanic"
+	orbitBodyType "Ferrus"
+	orbitBodyType "Asteroid"
+	orbitBodyType "AsteroidB"
+	orbitBodyType "AsteroidC"	
+	orbitBodyType "AsteroidD"
+	orbitBodyType "Moon"
+	orbitBodyType "MoonB"
+	orbitBodyType "MoonC"	
+	orbitBodyType "MoonD"
+	orbitBodyType "Greenhouse"
+	orbitBodyType "Greenhouse"
+	orbitBodyType "Toxic"	
+	orbitBodyType "Toxic"
+	orbitBodyType "City"	
+	orbitBodyType "Military"	
+	orbitBodyType "Paradise"
+	orbitBodyType "Grass"
+	orbitBodyType "Grass"
+	orbitBodyType "Swamp"
+	orbitBodyType "Swamp"
+	orbitBodyType "PirateSanctum"
+planetType
+	designName "RandomTrue"
+	designStringId "IDSGalaxyScenarioTypePlanetRandomTrue"
+	orbitBodyTypeCount 35
+	orbitBodyType "Terran_0"
+	orbitBodyType "Terran_0"
+	orbitBodyType "Desert_0"
+	orbitBodyType "Desert_0"
+	orbitBodyType "Volcanic"
+	orbitBodyType "Volcanic_0"
+	orbitBodyType "Ice"
+	orbitBodyType "Ice_0"
+	orbitBodyType "Rock_0"
+	orbitBodyType "Rock_0"
+	orbitBodyType "Forest_0"
+	orbitBodyType "Forest_0"
+	orbitBodyType "Hydrocarbon_0"
+	orbitBodyType "Hydrocarbon_0"
+	orbitBodyType "Oceanic_0"
+	orbitBodyType "Oceanic_0"
+	orbitBodyType "Carbon_0"
+	orbitBodyType "Moon"
+	orbitBodyType "MoonB"
+	orbitBodyType "MoonC"	
+	orbitBodyType "MoonD"
+	orbitBodyType "Barren"
+	orbitBodyType "Oceanic"
+	orbitBodyType "Ferrus"
+	orbitBodyType "Greenhouse"
+	orbitBodyType "Greenhouse"
+	orbitBodyType "Toxic"	
+	orbitBodyType "Toxic"
+	orbitBodyType "City"	
+	orbitBodyType "Military"	
+	orbitBodyType "Paradise"
+	orbitBodyType "Grass"
+	orbitBodyType "Grass"
+	orbitBodyType "Swamp"
+	orbitBodyType "Swamp"
+planetType
+	designName "RandomTrueNonIce"
+	designStringId "IDSGalaxyScenarioTypePlanetRandomTrueNonIce"
+	orbitBodyTypeCount 26
+	orbitBodyType "Terran_0"
+	orbitBodyType "Terran_0"
+	orbitBodyType "Desert_0"
+	orbitBodyType "Desert_0"
+	orbitBodyType "Volcanic"
+	orbitBodyType "Volcanic_0"
+	orbitBodyType "Rock_0"
+	orbitBodyType "Rock_0"
+	orbitBodyType "Forest_0"
+	orbitBodyType "Forest_0"
+	orbitBodyType "Oceanic_0"
+	orbitBodyType "Carbon_0"
+	orbitBodyType "Barren"
+	orbitBodyType "Oceanic"
+	orbitBodyType "Ferrus"
+	orbitBodyType "Greenhouse"
+	orbitBodyType "Greenhouse"
+	orbitBodyType "Toxic"	
+	orbitBodyType "Toxic"
+	orbitBodyType "City"	
+	orbitBodyType "Military"	
+	orbitBodyType "Paradise"
+	orbitBodyType "Grass"
+	orbitBodyType "Grass"
+	orbitBodyType "Swamp"
+	orbitBodyType "Swamp"
+planetType
+	designName "RandomTrueNonTerran"
+	designStringId "IDSGalaxyScenarioTypePlanetRandomTrueNonTerran"
+	orbitBodyTypeCount 29
+	orbitBodyType "Desert_0"
+	orbitBodyType "Desert_0"
+	orbitBodyType "Volcanic"
+	orbitBodyType "Volcanic_0"
+	orbitBodyType "Ice"
+	orbitBodyType "Ice_0"
+	orbitBodyType "Rock_0"
+	orbitBodyType "Rock_0"
+	orbitBodyType "Forest_0"
+	orbitBodyType "Forest_0"
+	orbitBodyType "Hydrocarbon_0"
+	orbitBodyType "Hydrocarbon_0"
+	orbitBodyType "Oceanic_0"
+	orbitBodyType "Oceanic_0"
+	orbitBodyType "Carbon_0"
+	orbitBodyType "Barren"
+	orbitBodyType "Oceanic"
+	orbitBodyType "Ferrus"
+	orbitBodyType "Greenhouse"
+	orbitBodyType "Greenhouse"
+	orbitBodyType "Toxic"	
+	orbitBodyType "Toxic"
+	orbitBodyType "City"	
+	orbitBodyType "Military"	
+	orbitBodyType "Paradise"
+	orbitBodyType "Grass"
+	orbitBodyType "Grass"
+	orbitBodyType "Swamp"
+	orbitBodyType "Swamp"
+planetType
+	designName "RandomSpecial"
+	designStringId "IDSGalaxyScenarioTypePlanetRandomSpecial"
+	orbitBodyTypeCount 10
+	orbitBodyType "PlasmaStorm"
+	orbitBodyType "MagneticCloud"
+	orbitBodyType "Comet"
+	orbitBodyType "IceField"
+	orbitBodyType "AntimatterFountain"
+	orbitBodyType "ShatteredMoon"
+	orbitBodyType "RadiationStorm"
+	orbitBodyType "PirateSanctum"
+	orbitBodyType "SleeperTower"
+	orbitBodyType "MorduStagging"
+planetType
+	designName "RandomUncolonizable"
+	designStringId "IDSGalaxyScenarioTypePlanetRandomUncolonizable"
+	orbitBodyTypeCount 12
+	orbitBodyType "AsteroidBelt"
+	orbitBodyType "AsteroidSpaceJunk"
+	orbitBodyType "PlasmaStorm"
+	orbitBodyType "MagneticCloud"
+	orbitBodyType "Comet"
+	orbitBodyType "IceField"
+	orbitBodyType "AntimatterFountain"
+	orbitBodyType "ShatteredMoon"
+	orbitBodyType "RadiationStorm"
+	orbitBodyType "PirateSanctum"
+	orbitBodyType "SleeperTower"
+	orbitBodyType "MorduStagging"
 planetType
 	designName "RandomAsteroid"
 	designStringId "IDSGalaxyScenarioTypePlanetAsteroidRandom"
@@ -290,232 +431,18 @@ planetType
 	orbitBodyType "MoonC"	
 	orbitBodyType "MoonD"	
 planetType
-	designName "AsteroidOrMoon"
-	designStringId "IDSGalaxyScenarioTypePlanetAsteroidOrMoon"
-	orbitBodyTypeCount 8
-	orbitBodyType "Asteroid"
-	orbitBodyType "AsteroidB"
-	orbitBodyType "AsteroidC"
-	orbitBodyType "AsteroidD"	
-	orbitBodyType "Moon"
-	orbitBodyType "MoonB"
-	orbitBodyType "MoonC"	
-	orbitBodyType "MoonD"	
-planetType
-	designName "AsteroidOrMoonFair"
-	designStringId "IDSGalaxyScenarioTypePlanetAsteroidOrMoonFair"
-	orbitBodyTypeCount 2
-	orbitBodyType "AsteroidFair"
-	orbitBodyType "MoonFair"
-planetType
-	designName "Random"
-	designStringId "IDSGalaxyScenarioTypePlanetRandom"
-	orbitBodyTypeCount 24
-	orbitBodyType "Terran"
-	orbitBodyType "Terran"
-	orbitBodyType "Desert"
-	orbitBodyType "Desert"
-	orbitBodyType "Ice"
-	orbitBodyType "Volcanic"
-	orbitBodyType "Asteroid"
-	orbitBodyType "AsteroidB"
-	orbitBodyType "AsteroidC"	
-	orbitBodyType "AsteroidD"
-	orbitBodyType "Moon"
-	orbitBodyType "MoonB"
-	orbitBodyType "MoonC"	
-	orbitBodyType "MoonD"	
-	orbitBodyType "DeadAsteroid"
-	orbitBodyType "ShipGraveyard"
-	orbitBodyType "AsteroidBelt"
-	orbitBodyType "AsteroidSpaceJunk"
-	orbitBodyType "GasGiant"
-	orbitBodyType "Barren"
-	orbitBodyType "Oceanic"
-	orbitBodyType "Ferrus"
-	orbitBodyType "Greenhouse"
-	orbitBodyType "PirateSanctum"
-planetType
-	designName "RandomFair"
-	designStringId "IDSGalaxyScenarioTypePlanetRandomFair"
-	orbitBodyTypeCount 15
-	orbitBodyType "TerranFair"
-	orbitBodyType "IceFair"
-	orbitBodyType "DesertFair"
-	orbitBodyType "VolcanicFair"
-	orbitBodyType "AsteroidFair"
-	orbitBodyType "MoonFair"
-	orbitBodyType "DeadAsteroid"
-	orbitBodyType "ShipGraveyard"
-	orbitBodyType "AsteroidBeltFair"
-	orbitBodyType "AsteroidSpaceJunkFair"
-	orbitBodyType "GasGiantFair"
-	orbitBodyType "BarrenFair"
-	orbitBodyType "OceanicFair"
-	orbitBodyType "FerrusFair"
-	orbitBodyType "GreenhouseFair"
-planetType
-	designName "RandomTrue"
-	designStringId "IDSGalaxyScenarioTypePlanetRandomTrue"
-	orbitBodyTypeCount 9
-	orbitBodyType "Terran"
-	orbitBodyType "Terran"
-	orbitBodyType "Desert"
-	orbitBodyType "Desert"
-	orbitBodyType "Ice"
-	orbitBodyType "Volcanic"
-	orbitBodyType "Oceanic"
-	orbitBodyType "Ferrus"
-	orbitBodyType "Greenhouse"
-planetType
-	designName "RandomTrueFair"
-	designStringId "IDSGalaxyScenarioTypePlanetRandomTrueFair"
-	orbitBodyTypeCount 7
-	orbitBodyType "TerranFair"
-	orbitBodyType "IceFair"
-	orbitBodyType "DesertFair"
-	orbitBodyType "VolcanicFair"
-	orbitBodyType "OceanicFair"
-	orbitBodyType "FerrusFair"
-	orbitBodyType "GreenhouseFair"
-planetType
-	designName "RandomTrueNonIce"
-	designStringId "IDSGalaxyScenarioTypePlanetRandomTrueNonIce"
-	orbitBodyTypeCount 8
-	orbitBodyType "Terran"
-	orbitBodyType "Terran"
-	orbitBodyType "Desert"
-	orbitBodyType "Desert"
-	orbitBodyType "Volcanic"
-	orbitBodyType "Oceanic"
-	orbitBodyType "Ferrus"
-	orbitBodyType "Greenhouse"
-planetType
-	designName "RandomTrueNonIceFair"
-	designStringId "IDSGalaxyScenarioTypePlanetRandomTrueNonIceFair"
-	orbitBodyTypeCount 6
-	orbitBodyType "TerranFair"
-	orbitBodyType "DesertFair"
-	orbitBodyType "VolcanicFair"
-	orbitBodyType "OceanicFair"
-	orbitBodyType "FerrusFair"
-	orbitBodyType "GreenhouseFair"
-planetType
-	designName "RandomTrueNonTerran"
-	designStringId "IDSGalaxyScenarioTypePlanetRandomTrueNonTerran"
-	orbitBodyTypeCount 7
-	orbitBodyType "Ice"
-	orbitBodyType "Desert"
-	orbitBodyType "Desert"
-	orbitBodyType "Volcanic"
-	orbitBodyType "Oceanic"
-	orbitBodyType "Ferrus"
-	orbitBodyType "Greenhouse"
-planetType
-	designName "RandomTrueNonTerranFair"
-	designStringId "IDSGalaxyScenarioTypePlanetRandomTrueNonTerranFair"
-	orbitBodyTypeCount 6
-	orbitBodyType "IceFair"
-	orbitBodyType "DesertFair"
-	orbitBodyType "VolcanicFair"
-	orbitBodyType "OceanicFair"
-	orbitBodyType "FerrusFair"
-	orbitBodyType "GreenhouseFair"
-planetType
-	designName "RandomSpecial"
-	designStringId "IDSGalaxyScenarioTypePlanetRandomSpecial"
-	orbitBodyTypeCount 12
-	orbitBodyType "GasGiant"
-	orbitBodyType "PlasmaStorm"
-	orbitBodyType "Comet"
-	orbitBodyType "IceField"
-	orbitBodyType "ShipGraveyard"
-	orbitBodyType "AntimatterFountain"
-	orbitBodyType "ShatteredMoon"
-	orbitBodyType "RadiationStorm"
-	orbitBodyType "MagneticCloud"
-	orbitBodyType "PirateSanctum"
-	orbitBodyType "SleeperTower"
-	orbitBodyType "MorduStagging"
-planetType
-	designName "RandomSpecialFair"
-	designStringId "IDSGalaxyScenarioTypePlanetRandomSpecialFair"
-	orbitBodyTypeCount 2
-	orbitBodyType "GasGiantFair"
-	orbitBodyType "PlasmaStormFair"
-planetType
-	designName "RandomUncolonizable"
-	designStringId "IDSGalaxyScenarioTypePlanetRandomUncolonizable"
-	orbitBodyTypeCount 14
-	orbitBodyType "GasGiant"
-	orbitBodyType "AsteroidBelt"
-	orbitBodyType "AsteroidSpaceJunk"
-	orbitBodyType "PlasmaStorm"
-	orbitBodyType "Comet"
-	orbitBodyType "IceField"
-	orbitBodyType "ShipGraveyard"
-	orbitBodyType "AntimatterFountain"
-	orbitBodyType "ShatteredMoon"
-	orbitBodyType "RadiationStorm"
-	orbitBodyType "MagneticCloud"
-	orbitBodyType "PirateSanctum"
-	orbitBodyType "SleeperTower"
-	orbitBodyType "MorduStagging"
-planetType
-	designName "RandomUncolonizableFair"
-	designStringId "IDSGalaxyScenarioTypePlanetRandomUncolonizableFair"
-	orbitBodyTypeCount 5
-	orbitBodyType "GasGiantFair"
-	orbitBodyType "AsteroidBeltFair"
-	orbitBodyType "AsteroidSpaceJunkFair"
-	orbitBodyType "PlasmaStormFair"
-	orbitBodyType "MagneticCloud"
-planetType
-	designName "RandomUncolonizableNonMagnetic"
-	designStringId "IDSGalaxyScenarioTypeRandomUncolonizalbeNonMagnetic"
-	orbitBodyTypeCount 12
-	orbitBodyType "AsteroidSpaceJunk"
-	orbitBodyType "AsteroidBelt"
-	orbitBodyType "GasGiant"
-	orbitBodyType "PlasmaStorm"
-	orbitBodyType "Comet"
-	orbitBodyType "IceField"
-	orbitBodyType "ShipGraveyard"
-	orbitBodyType "AntimatterFountain"
-	orbitBodyType "ShatteredMoon"
-	orbitBodyType "RadiationStorm"
-	orbitBodyType "SleeperTower"
-	orbitBodyType "MorduStagging"	
-planetType
-	designName "RandomUncolonizableNonMagneticFair"
-	designStringId "IDSGalaxyScenarioTypeRandomUncolonizalbeNonMagneticFair"
-	orbitBodyTypeCount 4
-	orbitBodyType "AsteroidSpaceJunkFair"
-	orbitBodyType "AsteroidBeltFair"
-	orbitBodyType "GasGiantFair"
-	orbitBodyType "PlasmaStormFair"
-planetType
 	designName "RandomIceVolcanic"
 	designStringId "IDSGalaxyScenarioTypeRandomIceVolcanic"
-	orbitBodyTypeCount 2
-	orbitBodyType "Ice"	
+	orbitBodyTypeCount 4
 	orbitBodyType "Volcanic"
-planetType
-	designName "RandomIceVolcanicFair"
-	designStringId "IDSGalaxyScenarioTypeRandomIceVolcanicFair"
-	orbitBodyTypeCount 2
-	orbitBodyType "IceFair"	
-	orbitBodyType "VolcanicFair"
+	orbitBodyType "Volcanic_0"
+	orbitBodyType "Ice"
+	orbitBodyType "Ice_0"
 planetType
 	designName "Barren"
 	designStringId "IDSGalaxyScenarioTypePlanetBarren"
 	orbitBodyTypeCount 1
-	orbitBodyType "Barren"
-planetType
-	designName "Oceanic"
-	designStringId "IDSGalaxyScenarioTypePlanetOceanic"
-	orbitBodyTypeCount 1
-	orbitBodyType "Oceanic"
+	orbitBodyType "Rock_0"
 planetType
 	designName "Ferrus"
 	designStringId "IDSGalaxyScenarioTypePlanetFerrous"
@@ -530,7 +457,7 @@ planetType
 	designName "BarrenFair"
 	designStringId "IDSGalaxyScenarioTypePlanetBarrenFair"
 	orbitBodyTypeCount 1
-	orbitBodyType "BarrenFair"
+	orbitBodyType "Rock_0"
 planetType
 	designName "OceanicFair"
 	designStringId "IDSGalaxyScenarioTypePlanetOceanicFair"
@@ -552,125 +479,124 @@ planetType
 	orbitBodyTypeCount 1
 	orbitBodyType "Occupied"
 planetType
+	designName "Hydrocarbon"
+	designStringId "Axeldude_PlanetType_Hydrocarbon"
+	orbitBodyTypeCount 4
+	orbitBodyType "Hydrocarbon_0"
+	orbitBodyType "Hydrocarbon_0"
+	orbitBodyType "Hydrocarbon_0"
+	orbitBodyType "Hydrocarbon_Moon_0"
+planetType
+	designName "Carbon"
+	designStringId "Axeldude_PlanetType_Carbon"
+	orbitBodyTypeCount 4
+	orbitBodyType "Carbon_0"
+	orbitBodyType "Carbon_0"
+	orbitBodyType "Carbon_0"
+	orbitBodyType "Carbon_Moon_0"
+planetType
+	designName "Oceanic"
+	designStringId "Axeldude_PlanetType_Oceanic"
+	orbitBodyTypeCount 4
+	orbitBodyType "Oceanic_0"
+	orbitBodyType "Oceanic_0"
+	orbitBodyType "Oceanic_0"
+	orbitBodyType "Oceanic_Moon_0"
+planetType
+	designName "Rock"
+	designStringId "Axeldude_PlanetType_Rock"
+	orbitBodyTypeCount 4
+	orbitBodyType "Rock_0"
+	orbitBodyType "Rock_0"
+	orbitBodyType "Rock_0"
+	orbitBodyType "Rock_Moon_0"
+planetType
+	designName "Forest"
+	designStringId "Axeldude_PlanetType_Forest"
+	orbitBodyTypeCount 4
+	orbitBodyType "Forest_0"
+	orbitBodyType "Forest_0"
+	orbitBodyType "Forest_0"
+	orbitBodyType "Forest_Moon_0"
+planetType
 	designName "Terran"
 	designStringId "IDSGalaxyScenarioTypePlanetTerran"
-	orbitBodyTypeCount 1
-	orbitBodyType "Terran"
-planetType
-	designName "TerranFair"
-	designStringId "IDSGalaxyScenarioTypePlanetTerranFair"
-	orbitBodyTypeCount 1
-	orbitBodyType "TerranFair"
+	orbitBodyTypeCount 4
+	orbitBodyType "Terran_0"	
+	orbitBodyType "Terran_0"
+	orbitBodyType "Terran_0"	
+	orbitBodyType "Terran_Moon_0"
 planetType
 	designName "TerranHome"
 	designStringId "IDSGalaxyScenarioTypePlanetTerranHome"
-	orbitBodyTypeCount 1
+	orbitBodyTypeCount 2
+	orbitBodyType "TerranHome"
 	orbitBodyType "TerranHome"
 planetType
 	designName "Ice"
 	designStringId "IDSGalaxyScenarioTypePlanetIce"
-	orbitBodyTypeCount 1
+	orbitBodyTypeCount 5
 	orbitBodyType "Ice"
-planetType
-	designName "IceFair"
-	designStringId "IDSGalaxyScenarioTypePlanetIceFair"
-	orbitBodyTypeCount 1
-	orbitBodyType "IceFair"
+	orbitBodyType "Ice_0"
+	orbitBodyType "Ice_0"
+	orbitBodyType "Ice_0"
+	orbitBodyType "Ice_Moon_0"
 planetType
 	designName "Desert"
 	designStringId "IDSGalaxyScenarioTypePlanetDesert"
-	orbitBodyTypeCount 1
-	orbitBodyType "Desert"
-planetType
-	designName "DesertFair"
-	designStringId "IDSGalaxyScenarioTypePlanetDesertFair"
-	orbitBodyTypeCount 1
-	orbitBodyType "DesertFair"
+	orbitBodyTypeCount 7
+	orbitBodyType "Desert_0"
+	orbitBodyType "Desert_0"
+	orbitBodyType "Desert_1"
+	orbitBodyType "Desert_0"
+	orbitBodyType "Desert_1"
+	orbitBodyType "Desert_Moon_0"
+	orbitBodyType "Desert_Moon_1"
 planetType
 	designName "DesertHome"
 	designStringId "IDSGalaxyScenarioTypePlanetDesertHome"
-	orbitBodyTypeCount 1
-	orbitBodyType "DesertHome"	
+	orbitBodyTypeCount 2
+	orbitBodyType "DesertHome"
+	orbitBodyType "DesertHome"
 planetType
 	designName "Volcanic"
 	designStringId "IDSGalaxyScenarioTypePlanetVolcanic"
-	orbitBodyTypeCount 1
+	orbitBodyTypeCount 5
 	orbitBodyType "Volcanic"
-planetType
-	designName "VolcanicFair"
-	designStringId "IDSGalaxyScenarioTypePlanetVolcanicFair"
-	orbitBodyTypeCount 1
-	orbitBodyType "VolcanicFair"
+	orbitBodyType "Volcanic_0"
+	orbitBodyType "Volcanic_0"
+	orbitBodyType "Volcanic_0"
+	orbitBodyType "Volcanic_Moon_0"
 planetType
 	designName "Asteroid"
 	designStringId "IDSGalaxyScenarioTypePlanetAsteroid"
 	orbitBodyTypeCount 1
 	orbitBodyType "Asteroid"
 planetType
-	designName "AsteroidFair"
-	designStringId "IDSGalaxyScenarioTypePlanetAsteroidFair"
-	orbitBodyTypeCount 1
-	orbitBodyType "AsteroidFair"
-planetType
 	designName "Moon"
 	designStringId "IDSGalaxyScenarioTypePlanetMoon"
 	orbitBodyTypeCount 1
 	orbitBodyType "Moon"
-planetType
-	designName "MoonB"
-	designStringId "IDSGalaxyScenarioTypePlanetMoon"
-	orbitBodyTypeCount 1
-	orbitBodyType "MoonB"
-planetType
-	designName "MoonC"
-	designStringId "IDSGalaxyScenarioTypePlanetMoon"
-	orbitBodyTypeCount 1
-	orbitBodyType "MoonC"	
-planetType
-	designName "MoonD"
-	designStringId "IDSGalaxyScenarioTypePlanetMoon"
-	orbitBodyTypeCount 1
-	orbitBodyType "MoonD"	
-planetType
-	designName "MoonFair"
-	designStringId "IDSGalaxyScenarioTypePlanetMoonFair"
-	orbitBodyTypeCount 1
-	orbitBodyType "MoonFair"
 planetType
 	designName "DeadAsteroid"
 	designStringId "IDSGalaxyScenarioTypePlanetDeadAsteroid"
 	orbitBodyTypeCount 1
 	orbitBodyType "DeadAsteroid"	
 planetType
-	designName "ShipGraveyard"
-	designStringId "IDSGalaxyScenarioTypePlanetShipGraveyard"
-	orbitBodyTypeCount 1
-	orbitBodyType "ShipGraveyard"	
-planetType
 	designName "AsteroidBelt"
 	designStringId "IDSGalaxyScenarioTypePlanetAsteroidBelt"
 	orbitBodyTypeCount 1	
 	orbitBodyType "AsteroidBelt"
-planetType
-	designName "AsteroidBeltFair"
-	designStringId "IDSGalaxyScenarioTypePlanetAsteroidBeltFair"
-	orbitBodyTypeCount 1	
-	orbitBodyType "AsteroidBeltFair"
 planetType
 	designName "AsteroidSpaceJunk"
 	designStringId "IDSGalaxyScenarioTypePlanetAsteroidSpaceJunk"
 	orbitBodyTypeCount 1	
 	orbitBodyType "AsteroidSpaceJunk"
 planetType
-	designName "AsteroidSpaceJunkFair"
-	designStringId "IDSGalaxyScenarioTypePlanetAsteroidSpaceJunkFair"
-	orbitBodyTypeCount 1	
-	orbitBodyType "AsteroidSpaceJunkFair"
-planetType
 	designName "PlasmaStorm"
 	designStringId "IDSGalaxyScenarioTypePlanetPlasmaStorm"
 	orbitBodyTypeCount 1
-	orbitBodyType "PlasmaStorm"
+	orbitBodyType "PlasmaStorm"	
 planetType
 	designName "Comet"
 	designStringId "IDSGalaxyScenarioTypePlanetComet"
@@ -697,11 +623,6 @@ planetType
 	orbitBodyTypeCount 1
 	orbitBodyType "AntimatterFountain"
 planetType
-	designName "PlasmaStormFair"
-	designStringId "IDSGalaxyScenarioTypePlanetPlasmaStormFair"
-	orbitBodyTypeCount 1
-	orbitBodyType "PlasmaStormFair"	
-planetType
 	designName "MagneticCloud"
 	designStringId "IDSGalaxyScenarioTypePlanetMagneticCloud"
 	orbitBodyTypeCount 1
@@ -709,13 +630,10 @@ planetType
 planetType
 	designName "GasGiant"
 	designStringId "IDSGalaxyScenarioTypePlanetGasGiant"
-	orbitBodyTypeCount 1	
+	orbitBodyTypeCount 3	
 	orbitBodyType "GasGiant"
-planetType
-	designName "GasGiantFair"
-	designStringId "IDSGalaxyScenarioTypePlanetGasGiantFair"
-	orbitBodyTypeCount 1	
-	orbitBodyType "GasGiantFair"
+	orbitBodyType "GasGiant_0"
+	orbitBodyType "GasGiant_1"
 planetType
 	designName "Wormhole"
 	designStringId "IDSGalaxyScenarioTypePlanetWormhole"
@@ -726,6 +644,311 @@ planetType
 	designStringId "IDSGalaxyScenarioTypePlanetPirateBase"
 	orbitBodyTypeCount 1
 	orbitBodyType "PirateBase"
+planetType
+	designName "City"
+	designStringId "IDSGalaxyScenarioTypePlanetCity"
+	orbitBodyTypeCount 1
+	orbitBodyType "City"
+planetType
+	designName "Military"
+	designStringId "IDSGalaxyScenarioTypePlanetMilitary"
+	orbitBodyTypeCount 1
+	orbitBodyType "Military"
+planetType
+	designName "Industrial"
+	designStringId "IDSGalaxyScenarioTypePlanetIndustrial"
+	orbitBodyTypeCount 1
+	orbitBodyType "Industrial"
+planetType
+	designName "Paradise"
+	designStringId "IDSGalaxyScenarioTypePlanetParadise"
+	orbitBodyTypeCount 1
+	orbitBodyType "Paradise"
+planetType
+	designName "Toxic"
+	designStringId "IDSGalaxyScenarioTypePlanetToxic"
+	orbitBodyTypeCount 1
+	orbitBodyType "Toxic"
+planetType
+	designName "Savannah"
+	designStringId "IDSGalaxyScenarioTypePlanetGrass"
+	orbitBodyTypeCount 1	
+	orbitBodyType "Grass"
+planetType
+	designName "Swamp"
+	designStringId "IDSGalaxyScenarioTypePlanetSwamp"
+	orbitBodyTypeCount 1	
+	orbitBodyType "Swamp"
+planetType
+	designName "RandomUncolonizableNonMagnetic"
+	designStringId "IDSGalaxyScenarioTypeRandomUncolonizalbeNonMagnetic"
+	orbitBodyTypeCount 6
+	orbitBodyType "AsteroidSpaceJunk"
+	orbitBodyType "AsteroidBelt"
+	orbitBodyType "GasGiant"
+	orbitBodyType "PlasmaStorm"
+	orbitBodyType "SleeperTower"
+	orbitBodyType "MorduStagging"
+planetType
+	designName "WeightedNonIceFair"
+	designStringId "IDSGalaxyScenarioTypePlanetWeightedNonIceFair"
+	orbitBodyTypeCount 8
+	orbitBodyType "TerranFair"
+	orbitBodyType "DesertFair"
+	orbitBodyType "VolcanicFair"
+	orbitBodyType "AsteroidFair"
+	orbitBodyType "AsteroidFair"
+	orbitBodyType "MoonFair"
+	orbitBodyType "MoonFair"
+	orbitBodyType "DeadAsteroid"
+planetType
+	designName "WeightedRandomFair"
+	designStringId "IDSGalaxyScenarioTypePlanetWeightedRandomFair"
+	orbitBodyTypeCount 36
+	orbitBodyType "TerranFair"
+	orbitBodyType "TerranFair"
+	orbitBodyType "IceFair"
+	orbitBodyType "IceFair"
+	orbitBodyType "IceFair"
+	orbitBodyType "DesertFair"
+	orbitBodyType "DesertFair"
+	orbitBodyType "DesertFair"
+	orbitBodyType "VolcanicFair"
+	orbitBodyType "VolcanicFair"
+	orbitBodyType "VolcanicFair"
+	orbitBodyType "AsteroidFair"
+	orbitBodyType "AsteroidFair"
+	orbitBodyType "AsteroidFair"
+	orbitBodyType "AsteroidFair"
+	orbitBodyType "MoonFair"
+	orbitBodyType "MoonFair"
+	orbitBodyType "MoonFair"
+	orbitBodyType "MoonFair"
+	orbitBodyType "AsteroidBeltFair"
+	orbitBodyType "AsteroidBeltFair"
+	orbitBodyType "AsteroidBeltFair"
+	orbitBodyType "AsteroidSpaceJunkFair"
+	orbitBodyType "Comet"
+	orbitBodyType "IceField"
+	orbitBodyType "AntimatterFountain"
+	orbitBodyType "ShatteredMoon"
+	orbitBodyType "RadiationStorm"
+	orbitBodyType "GasGiantFair"
+	orbitBodyType "DeadAsteroid"
+	orbitBodyType "PlasmaStormFair"
+	orbitBodyType "MagneticCloud"
+	orbitBodyType "Barren"
+	orbitBodyType "Oceanic"
+	orbitBodyType "Ferrus"
+	orbitBodyType "Greenhouse"
+planetType
+	designName "WeightedColonizableFair"
+	designStringId "IDSGalaxyScenarioTypePlanetWeightedColonizableFair"
+	orbitBodyTypeCount 17
+	orbitBodyType "TerranFair"
+	orbitBodyType "TerranFair"
+	orbitBodyType "IceFair"
+	orbitBodyType "IceFair"
+	orbitBodyType "DesertFair"
+	orbitBodyType "DesertFair"
+	orbitBodyType "DesertFair"
+	orbitBodyType "VolcanicFair"
+	orbitBodyType "VolcanicFair"
+	orbitBodyType "VolcanicFair"
+	orbitBodyType "AsteroidFair"
+	orbitBodyType "GreenhouseFair"
+	orbitBodyType "GreenhouseFair"	
+	orbitBodyType "MoonFair"
+	orbitBodyType "Barren"
+	orbitBodyType "Oceanic"
+	orbitBodyType "Ferrus"
+planetType
+	designName "AsteroidOrDeadFair"
+	designStringId "IDSGalaxyScenarioTypePlanetAsteroidOrDeadFair"
+	orbitBodyTypeCount 5
+	orbitBodyType "AsteroidFair"
+	orbitBodyType "MoonFair"
+	orbitBodyType "DeadAsteroid"
+	orbitBodyType "AsteroidBeltFair"
+	orbitBodyType "AsteroidSpaceJunkFair"
+planetType
+	designName "AsteroidOrMoon"
+	designStringId "IDSGalaxyScenarioTypePlanetAsteroidOrMoon"
+	orbitBodyTypeCount 8
+	orbitBodyType "Asteroid"
+	orbitBodyType "AsteroidB"
+	orbitBodyType "AsteroidC"
+	orbitBodyType "AsteroidD"	
+	orbitBodyType "Moon"
+	orbitBodyType "MoonB"
+	orbitBodyType "MoonC"	
+	orbitBodyType "MoonD"	
+planetType
+	designName "AsteroidOrMoonFair"
+	designStringId "IDSGalaxyScenarioTypePlanetAsteroidOrMoonFair"
+	orbitBodyTypeCount 2
+	orbitBodyType "AsteroidFair"
+	orbitBodyType "MoonFair"
+planetType
+	designName "RandomFair"
+	designStringId "IDSGalaxyScenarioTypePlanetRandomFair"
+	orbitBodyTypeCount 15
+	orbitBodyType "TerranFair"
+	orbitBodyType "IceFair"
+	orbitBodyType "DesertFair"
+	orbitBodyType "VolcanicFair"
+	orbitBodyType "AsteroidFair"
+	orbitBodyType "MoonFair"
+	orbitBodyType "DeadAsteroid"
+	orbitBodyType "AsteroidBeltFair"
+	orbitBodyType "AsteroidSpaceJunkFair"
+	orbitBodyType "GasGiantFair"
+	orbitBodyType "GreenhouseFair"
+	orbitBodyType "GreenhouseFair"
+	orbitBodyType "Barren"
+	orbitBodyType "Oceanic"
+	orbitBodyType "Ferrus"
+planetType
+	designName "RandomTrueFair"
+	designStringId "IDSGalaxyScenarioTypePlanetRandomTrueFair"
+	orbitBodyTypeCount 9
+	orbitBodyType "TerranFair"
+	orbitBodyType "IceFair"
+	orbitBodyType "DesertFair"
+	orbitBodyType "VolcanicFair"
+	orbitBodyType "GreenhouseFair"
+	orbitBodyType "GreenhouseFair"
+	orbitBodyType "Barren"
+	orbitBodyType "Oceanic"
+	orbitBodyType "Ferrus"
+planetType
+	designName "RandomTrueNonIceFair"
+	designStringId "IDSGalaxyScenarioTypePlanetRandomTrueNonIceFair"
+	orbitBodyTypeCount 8
+	orbitBodyType "TerranFair"
+	orbitBodyType "DesertFair"
+	orbitBodyType "VolcanicFair"
+	orbitBodyType "GreenhouseFair"
+	orbitBodyType "GreenhouseFair"
+	orbitBodyType "Barren"
+	orbitBodyType "Oceanic"
+	orbitBodyType "Ferrus"
+planetType
+	designName "RandomTrueNonTerranFair"
+	designStringId "IDSGalaxyScenarioTypePlanetRandomTrueNonTerranFair"
+	orbitBodyTypeCount 8
+	orbitBodyType "IceFair"
+	orbitBodyType "DesertFair"
+	orbitBodyType "VolcanicFair"
+	orbitBodyType "GreenhouseFair"
+	orbitBodyType "GreenhouseFair"	
+	orbitBodyType "Barren"
+	orbitBodyType "Oceanic"
+	orbitBodyType "Ferrus"
+planetType
+	designName "RandomSpecialFair"
+	designStringId "IDSGalaxyScenarioTypePlanetRandomSpecialFair"
+	orbitBodyTypeCount 2
+	orbitBodyType "GasGiantFair"
+	orbitBodyType "PlasmaStormFair"
+planetType
+	designName "RandomUncolonizableFair"
+	designStringId "IDSGalaxyScenarioTypePlanetRandomUncolonizableFair"
+	orbitBodyTypeCount 5
+	orbitBodyType "GasGiantFair"
+	orbitBodyType "AsteroidBeltFair"
+	orbitBodyType "AsteroidSpaceJunkFair"
+	orbitBodyType "PlasmaStormFair"
+	orbitBodyType "MagneticCloud"
+planetType
+	designName "RandomUncolonizableNonMagneticFair"
+	designStringId "IDSGalaxyScenarioTypeRandomUncolonizalbeNonMagneticFair"
+	orbitBodyTypeCount 4
+	orbitBodyType "AsteroidSpaceJunkFair"
+	orbitBodyType "AsteroidBeltFair"
+	orbitBodyType "GasGiantFair"
+	orbitBodyType "PlasmaStormFair"
+planetType
+	designName "RandomIceVolcanicFair"
+	designStringId "IDSGalaxyScenarioTypeRandomIceVolcanicFair"
+	orbitBodyTypeCount 2
+	orbitBodyType "IceFair"	
+	orbitBodyType "VolcanicFair"	
+planetType
+	designName "TerranFair"
+	designStringId "IDSGalaxyScenarioTypePlanetTerranFair"
+	orbitBodyTypeCount 1
+	orbitBodyType "TerranFair"
+planetType
+	designName "IceFair"
+	designStringId "IDSGalaxyScenarioTypePlanetIceFair"
+	orbitBodyTypeCount 1
+	orbitBodyType "IceFair"
+planetType
+	designName "DesertFair"
+	designStringId "IDSGalaxyScenarioTypePlanetDesertFair"
+	orbitBodyTypeCount 1
+	orbitBodyType "DesertFair"
+planetType
+	designName "VolcanicFair"
+	designStringId "IDSGalaxyScenarioTypePlanetVolcanicFair"
+	orbitBodyTypeCount 1
+	orbitBodyType "VolcanicFair"
+planetType
+	designName "AsteroidFair"
+	designStringId "IDSGalaxyScenarioTypePlanetAsteroidFair"
+	orbitBodyTypeCount 1
+	orbitBodyType "AsteroidFair"
+planetType
+	designName "Moon"
+	designStringId "IDSGalaxyScenarioTypePlanetMoon"
+	orbitBodyTypeCount 1
+	orbitBodyType "Moon"
+planetType
+	designName "MoonB"
+	designStringId "IDSGalaxyScenarioTypePlanetMoon"
+	orbitBodyTypeCount 1
+	orbitBodyType "MoonB"
+planetType
+	designName "MoonC"
+	designStringId "IDSGalaxyScenarioTypePlanetMoon"
+	orbitBodyTypeCount 1
+	orbitBodyType "MoonC"	
+planetType
+	designName "MoonD"
+	designStringId "IDSGalaxyScenarioTypePlanetMoon"
+	orbitBodyTypeCount 1
+	orbitBodyType "MoonD"
+planetType
+	designName "MoonFair"
+	designStringId "IDSGalaxyScenarioTypePlanetMoonFair"
+	orbitBodyTypeCount 1
+	orbitBodyType "MoonFair"	
+planetType
+	designName "AsteroidBeltFair"
+	designStringId "IDSGalaxyScenarioTypePlanetAsteroidBeltFair"
+	orbitBodyTypeCount 1	
+	orbitBodyType "AsteroidBeltFair"
+planetType
+	designName "AsteroidSpaceJunkFair"
+	designStringId "IDSGalaxyScenarioTypePlanetAsteroidSpaceJunkFair"
+	orbitBodyTypeCount 1	
+	orbitBodyType "AsteroidSpaceJunkFair"
+planetType
+	designName "PlasmaStormFair"
+	designStringId "IDSGalaxyScenarioTypePlanetPlasmaStormFair"
+	orbitBodyTypeCount 1
+	orbitBodyType "PlasmaStormFair"	
+planetType
+	designName "GasGiantFair"
+	designStringId "IDSGalaxyScenarioTypePlanetGasGiantFair"
+	orbitBodyTypeCount 1	
+	orbitBodyType "GasGiantFair"
+planetType
+	designName "Wormhole"
+	designStringId "IDSGalaxyScenarioTypePlanetWormhole"
+	orbitBodyTypeCount 1
+	orbitBodyType "Wormhole"
 planetType
 	designName "PirateSanctum"
 	designStringId "IDSGalaxyScenarioTypePlanetSanctum"
@@ -751,7 +974,123 @@ planetType
 	designStringId "IDSGalaxyScenarioTypePlanetAsteroid"
 	orbitBodyTypeCount 1
 	orbitBodyType "AsteroidD"
-orbitBodyTypeCount 57
+orbitBodyTypeCount 87
+orbitBodyType	
+	typeName "Forest_0"
+	entityDefName "PlanetForest_0"
+	defaultTemplateName "Template:DefaultStart_Terran"
+orbitBodyType	
+	typeName "Rock_0"
+	entityDefName "PlanetRock_0"
+	defaultTemplateName "Template:DefaultStart_Desert"
+orbitBodyType	
+	typeName "Oceanic_0"
+	entityDefName "PlanetOceanic_0"
+	defaultTemplateName "Template:DefaultStart_Terran"
+orbitBodyType	
+	typeName "Carbon_0"
+	entityDefName "PlanetCarbon_0"
+	defaultTemplateName "Template:DefaultStart_Desert"	
+orbitBodyType	
+	typeName "Hydrocarbon_0"
+	entityDefName "PlanetHydrocarbon_0"
+	defaultTemplateName "Template:DefaultStart_Desert"	
+orbitBodyType	
+	typeName "Terran_0"
+	entityDefName "PlanetTerran_0"
+	defaultTemplateName "Template:DefaultStart_Terran"	
+orbitBodyType	
+	typeName "Desert_0"
+	entityDefName "PlanetDesert_0"
+	defaultTemplateName "Template:DefaultStart_Desert"
+orbitBodyType	
+	typeName "Desert_1"
+	entityDefName "PlanetDesert_1"
+	defaultTemplateName "Template:DefaultStart_Desert"
+orbitBodyType	
+	typeName "Volcanic_0"
+	entityDefName "PlanetVolcanic_0"
+	defaultTemplateName "Template:DefaultStart_Volcanic"	
+orbitBodyType	
+	typeName "Ice_0"
+	entityDefName "PlanetIce_0"
+	defaultTemplateName "Template:DefaultStart_Ice"	
+orbitBodyType	
+	typeName "GasGiant_0"
+	entityDefName "PlanetGasGiant_0"
+	defaultTemplateName "Template:DefaultStart_Terran"	
+orbitBodyType	
+	typeName "GasGiant_1"
+	entityDefName "PlanetGasGiant_1"
+	defaultTemplateName "Template:DefaultStart_Terran"
+orbitBodyType	
+	typeName "Forest_Moon_0"
+	entityDefName "PlanetForest_Moon_0"
+	defaultTemplateName "Template:DefaultStart_Terran"
+orbitBodyType	
+	typeName "Rock_Moon_0"
+	entityDefName "PlanetRock_Moon_0"
+	defaultTemplateName "Template:DefaultStart_Desert"
+orbitBodyType	
+	typeName "Oceanic_Moon_0"
+	entityDefName "PlanetOceanic_Moon_0"
+	defaultTemplateName "Template:DefaultStart_Terran"
+orbitBodyType	
+	typeName "Carbon_Moon_0"
+	entityDefName "PlanetCarbon_Moon_0"
+	defaultTemplateName "Template:DefaultStart_Desert"	
+orbitBodyType	
+	typeName "Hydrocarbon_Moon_0"
+	entityDefName "PlanetHydrocarbon_Moon_0"
+	defaultTemplateName "Template:DefaultStart_Desert"	
+orbitBodyType	
+	typeName "Terran_Moon_0"
+	entityDefName "PlanetTerran_Moon_0"
+	defaultTemplateName "Template:DefaultStart_Terran"	
+orbitBodyType	
+	typeName "Desert_Moon_0"
+	entityDefName "PlanetDesert_Moon_0"
+	defaultTemplateName "Template:DefaultStart_Desert"
+orbitBodyType	
+	typeName "Desert_Moon_1"
+	entityDefName "PlanetDesert_Moon_1"
+	defaultTemplateName "Template:DefaultStart_Desert"
+orbitBodyType	
+	typeName "Volcanic_Moon_0"
+	entityDefName "PlanetVolcanic_Moon_0"
+	defaultTemplateName "Template:DefaultStart_Volcanic"	
+orbitBodyType	
+	typeName "Ice_Moon_0"
+	entityDefName "PlanetIce_Moon_0"
+	defaultTemplateName "Template:DefaultStart_Ice"	
+orbitBodyType	
+	typeName "City"
+	entityDefName "PlanetCity"
+	defaultTemplateName "Template:DefaultStart_Terran"
+orbitBodyType	
+	typeName "Military"
+	entityDefName "PlanetMilitary"
+	defaultTemplateName "Template:DefaultStart_Terran"
+orbitBodyType	
+	typeName "Industrial"
+	entityDefName "PlanetIndustrial"
+	defaultTemplateName "Template:DefaultStart_Desert"
+orbitBodyType	
+	typeName "Paradise"
+	entityDefName "PlanetParadise"
+	defaultTemplateName "Template:DefaultStart_Terran"
+orbitBodyType	
+	typeName "Toxic"
+	entityDefName "PlanetToxic"
+	defaultTemplateName "Template:DefaultStart_Asteroid"
+orbitBodyType	
+	typeName "Grass"
+	entityDefName "PlanetGrass"
+	defaultTemplateName "Template:DefaultStart_Terran"
+orbitBodyType	
+	typeName "Swamp"
+	entityDefName "PlanetSwamp"
+	defaultTemplateName "Template:DefaultStart_Asteroid"
 orbitBodyType
 	typeName "BlueStar"
 	entityDefName "STAR_BLUE"
@@ -768,6 +1107,10 @@ orbitBodyType
 	typeName "GreenStar"
 	entityDefName "STAR_GREEN"
 	defaultTemplateName ""	
+orbitBodyType	
+	typeName "OrangeStar"
+	entityDefName "STAR_ORANGE"
+	defaultTemplateName ""
 orbitBodyType	
 	typeName "NeutronStar"
 	entityDefName "STAR_NEUTRON"
@@ -791,7 +1134,7 @@ orbitBodyType
 orbitBodyType	
 	typeName "SleeperTower"
 	entityDefName "PlanetDrifterTower"
-	defaultTemplateName "Template:SleeperTower"		
+	defaultTemplateName "Template:SleeperTower"	
 orbitBodyType	
 	typeName "BarrenFair"
 	entityDefName "PlanetBarrenFair"
@@ -839,7 +1182,7 @@ orbitBodyType
 orbitBodyType	
 	typeName "Desert"
 	entityDefName "PlanetDesert"
-	defaultTemplateName "Template:DefaultStart_Desert"
+	defaultTemplateName "Template:DefaultStart_Desert"		
 orbitBodyType	
 	typeName "DesertFair"
 	entityDefName "PlanetDesertFair"
@@ -907,7 +1250,7 @@ orbitBodyType
 orbitBodyType	
 	typeName "GasGiantFair"
 	entityDefName "PlanetGasGiantFair"
-	defaultTemplateName "Template:DefaultStart_GasGiantFair"	
+	defaultTemplateName "Template:DefaultStart_GasGiantFair"		
 orbitBodyType	
 	typeName "PlasmaStorm"
 	entityDefName "PlanetPlasmaStorm"
@@ -979,8 +1322,8 @@ orbitBodyType
 orbitBodyType	
 	typeName "MoonD"
 	entityDefName "PlanetMoonD"
-	defaultTemplateName "Template:DefaultStart_MoonD"		
-planetItemTypeCount 237
+	defaultTemplateName "Template:DefaultStart_MoonD"
+planetItemTypeCount 235
 planetItemType
 	designName "Caldari:Frigate:Scout"
 	entityDefName "Caldari_Ship_Frigate_Heron"
@@ -1363,12 +1706,6 @@ planetItemType
 	designName "Pirate:Frigate:AntiFighter"
 	entityDefName "Bloodraider_ShipCruiserAshimuu"
 planetItemType
-	designName "Bonus:FW:AbandonedNaniteFactory"
-	entityDefName "PlanetBonusAbandonedNaniteFactory"
-planetItemType
-	designName "Bonus:FW:AblativeCrust"
-	entityDefName "PlanetBonusAblativeCrust"
-planetItemType
 	designName "Bonus:CrystalMiners"
 	entityDefName "PlanetBonusCrystalMiners"
 planetItemType
@@ -1408,74 +1745,17 @@ planetItemType
 	designName "Bonus:AcidAtmosphere"
 	entityDefName "PlanetBonusAcidAtmosphere"
 planetItemType
-	designName "Bonus:FW:AncientArcology"
-	entityDefName "PlanetBonusAncientArcology"
-planetItemType
-	designName "Bonus:FW:AncientMineFactory"
-	entityDefName "PlanetBonusAncientMineFactory"
-planetItemType
-	designName "Bonus:FW:AntimatterCores"
-	entityDefName "PlanetBonusAntimatterCores"
-planetItemType
-	designName "Bonus:FW:AutomatedFactories"
-	entityDefName "PlanetBonusAutomatedFactories"
-planetItemType
-	designName "Bonus:FW:BombardmentShelters"
-	entityDefName "PlanetBonusBombardmentShelters"
-planetItemType
-	designName "Bonus:FW:ChaoticSociety"
-	entityDefName "PlanetBonusChaoticSociety"
-planetItemType
-	designName "Bonus:ConductiveInterior"
-	entityDefName "PlanetBonusConductiveInterior"
-planetItemType
-	designName "Bonus:CrystalMiners"
-	entityDefName "PlanetBonusCrystalMiners"
-planetItemType
-	designName "Bonus:FW:DeathWorld"
-	entityDefName "PlanetBonusDeathWorld"
-planetItemType
-	designName "Bonus:FW:DenseAtmosphere"
-	entityDefName "PlanetBonusDenseAtmosphere"
-planetItemType
-	designName "Bonus:FW:DenseCore"
-	entityDefName "PlanetBonusDenseCore"
-planetItemType
 	designName "Bonus:CavernSystem"
 	entityDefName "PlanetBonusCavernSystem"
 planetItemType
 	designName "Bonus:DustStorms"
 	entityDefName "PlanetBonusDustStorms"
 planetItemType
-	designName "Bonus:FW:FeudalSociety"
-	entityDefName "PlanetBonusFeudalSociety"
-planetItemType
-	designName "Bonus:FW:FortressWorld"
-	entityDefName "PlanetBonusFortressWorld"
-planetItemType
-	designName "Bonus:FW:FreeMarketSociety"
-	entityDefName "PlanetBonusFreeMarketSociety"
-planetItemType
-	designName "Bonus:FW:FrequentRaiders"
-	entityDefName "PlanetBonusFrequentRaiders"
-planetItemType
-	designName "Bonus:FW:FusionPowerCore"
-	entityDefName "PlanetBonusFusionPowerCore"
-planetItemType
-	designName "Bonus:FW:HealingNanites"
-	entityDefName "PlanetBonusHealingNanites"
-planetItemType
 	designName "Bonus:HighGravity"
 	entityDefName "PlanetBonusHighGravity"
 planetItemType
 	designName "Bonus:HugeGlaciers"
 	entityDefName "PlanetBonusHugeGlaciers"
-planetItemType
-	designName "Bonus:FW:IntenseGravityField"
-	entityDefName "PlanetBonusIntenseGravityField"
-planetItemType
-	designName "Bonus:FW:InterstellarExchange"
-	entityDefName "PlanetBonusInterstellarExchange"
 planetItemType
 	designName "Bonus:IonicStorms"
 	entityDefName "PlanetBonusIonicStorms"
@@ -1492,47 +1772,17 @@ planetItemType
 	designName "Bonus:MetalMiners"
 	entityDefName "PlanetBonusMetalMiners"
 planetItemType
-	designName "Bonus:FW:ModernSociety"
-	entityDefName "PlanetBonusModernSociety"
-planetItemType
-	designName "Bonus:FW:OceanicEnergyConverter"
-	entityDefName "PlanetBonusOceanicEnergyConverter"
-planetItemType
-	designName "Bonus:FW:OrderedSociety"
-	entityDefName "PlanetBonusOrderedSociety"
-planetItemType
-	designName "Bonus:FW:PacifistSociety"
-	entityDefName "PlanetBonusPacifistSociety"
-planetItemType
 	designName "Bonus:PenalColony"
 	entityDefName "PlanetBonusPenalColony"
 planetItemType
 	designName "Bonus:PirateTreasure"
 	entityDefName "PlanetBonusPirateTreasure"
 planetItemType
-	designName "Bonus:FW:PlanetaryCorruption"
-	entityDefName "PlanetBonusPlanetaryCorruption"
-planetItemType
-	designName "Bonus:FW:PollutedEnvironment"
-	entityDefName "PlanetBonusPollutedEnvironment"
-planetItemType
-	designName "Bonus:FW:PopulationBoom"
-	entityDefName "PlanetBonusPopulationBoom"
-planetItemType
-	designName "Bonus:FW:QuantumCommHub"
-	entityDefName "PlanetBonusQuantumCommHub"
-planetItemType
 	designName "Bonus:RareMetalDeposits"
 	entityDefName "PlanetBonusRareMetalDeposits0"
 planetItemType
-	designName "Bonus:FW:RustedCore"
-	entityDefName "PlanetBonusRustedCore"
-planetItemType
 	designName "Bonus:SalvagerOutpost"
 	entityDefName "PlanetBonusSalvagerOutpost"
-planetItemType
-	designName "Bonus:FW:ShipFactories"
-	entityDefName "PlanetBonusShipFactories"
 planetItemType
 	designName "Bonus:SpiceTrade"
 	entityDefName "PlanetBonusSpiceTrade"
@@ -1540,53 +1790,140 @@ planetItemType
 	designName "Bonus:StrictSecuirty"
 	entityDefName "PlanetBonusStrictSecurity"
 planetItemType
-	designName "Bonus:FW:StrongMagneticField"
-	entityDefName "PlanetBonusStrongMagneticField"
-planetItemType
-	designName "Bonus:FW:SubsurfaceCrystalDeposits"
-	entityDefName "PlanetBonusSubsurfaceCrystalDeposits"
-planetItemType
-	designName "Bonus:FW:SubsurfaceMetalDeposits"
-	entityDefName "PlanetBonusSubsurfaceMetalDeposits"
-planetItemType
-	designName "Bonus:FW:SubzeroTwisters"
-	entityDefName "PlanetBonusSubzeroTwisters"
-planetItemType
 	designName "Bonus:SurplusFoodstuffs"
 	entityDefName "PlanetBonusSurplusFoodstuffs"
 planetItemType
 	designName "Bonus:ThermalLift"
 	entityDefName "PlanetBonusThermalLift"
 planetItemType
-	designName "Bonus:FW:TraderMining"
-	entityDefName "PlanetBonusTraderMining"
-planetItemType
-	designName "Bonus:FW:TrainingAcademy"
-	entityDefName "PlanetBonusTrainingAcademy"
-planetItemType
-	designName "Bonus:FW:TropicalParadise"
-	entityDefName "PlanetBonusTropicalParadise"
-planetItemType
 	designName "Bonus:TundraFarms"
 	entityDefName "PlanetBonusTundraFarms"
-planetItemType
-	designName "Bonus:FW:UnderseaCaverns"
-	entityDefName "PlanetBonusUnderseaCaverns"
-planetItemType
-	designName "Bonus:FW:UnityNomads"
-	entityDefName "PlanetBonusUnityNomads"
 planetItemType
 	designName "Bonus:VacationCenter"
 	entityDefName "PlanetBonusVacationCenter"
 planetItemType
-	designName "Bonus:FW:VirtualRealityPark"
+	designName "Bonus:WeaponTestGrounds"
+	entityDefName "PlanetBonusWeaponTestGrounds"
+planetItemType
+	designName "Bonus:AbandonedNaniteFactory"
+	entityDefName "PlanetBonusAbandonedNaniteFactory"
+planetItemType
+	designName "Bonus:AblativeCrust"
+	entityDefName "PlanetBonusAblativeCrust"
+planetItemType
+	designName "Bonus:AncientArcology"
+	entityDefName "PlanetBonusAncientArcology"
+planetItemType
+	designName "Bonus:AncientMineFactory"
+	entityDefName "PlanetBonusAncientMineFactory"
+planetItemType
+	designName "Bonus:AntimatterCores"
+	entityDefName "PlanetBonusAntimatterCores"
+planetItemType
+	designName "Bonus:AutomatedFactories"
+	entityDefName "PlanetBonusAutomatedFactories"
+planetItemType
+	designName "Bonus:BombardmentShelters"
+	entityDefName "PlanetBonusBombardmentShelters"
+planetItemType
+	designName "Bonus:ChaoticSociety"
+	entityDefName "PlanetBonusChaoticSociety"
+planetItemType
+	designName "Bonus:DeathWorld"
+	entityDefName "PlanetBonusDeathWorld"
+planetItemType
+	designName "Bonus:DenseAtmosphere"
+	entityDefName "PlanetBonusDenseAtmosphere"
+planetItemType
+	designName "Bonus:DenseCore"
+	entityDefName "PlanetBonusDenseCore"
+planetItemType
+	designName "Bonus:FeudalSociety"
+	entityDefName "PlanetBonusFeudalSociety"
+planetItemType
+	designName "Bonus:FortressWorld"
+	entityDefName "PlanetBonusFortressWorld"
+planetItemType
+	designName "Bonus:FreeMarketSociety"
+	entityDefName "PlanetBonusFreeMarketSociety"
+planetItemType
+	designName "Bonus:FrequentRaiders"
+	entityDefName "PlanetBonusFrequentRaiders"
+planetItemType
+	designName "Bonus:FusionPowerCore"
+	entityDefName "PlanetBonusFusionPowerCore"
+planetItemType
+	designName "Bonus:HealingNanites"
+	entityDefName "PlanetBonusHealingNanites"
+planetItemType
+	designName "Bonus:IntenseGravityField"
+	entityDefName "PlanetBonusIntenseGravityField"
+planetItemType
+	designName "Bonus:InterstellarExchange"
+	entityDefName "PlanetBonusInterstellarExchange"
+planetItemType
+	designName "Bonus:ModernSociety"
+	entityDefName "PlanetBonusModernSociety"
+planetItemType
+	designName "Bonus:OceanicEnergyConverter"
+	entityDefName "PlanetBonusOceanicEnergyConverter"
+planetItemType
+	designName "Bonus:OrderedSociety"
+	entityDefName "PlanetBonusOrderedSociety"
+planetItemType
+	designName "Bonus:PacifistSociety"
+	entityDefName "PlanetBonusPacifistSociety"
+planetItemType
+	designName "Bonus:PlanetaryCorruption"
+	entityDefName "PlanetBonusPlanetaryCorruption"
+planetItemType
+	designName "Bonus:PollutedEnvironment"
+	entityDefName "PlanetBonusPollutedEnvironment"
+planetItemType
+	designName "Bonus:PopulationBoom"
+	entityDefName "PlanetBonusPopulationBoom"
+planetItemType
+	designName "Bonus:QuantumCommHub"
+	entityDefName "PlanetBonusQuantumCommHub"
+planetItemType
+	designName "Bonus:RustedCore"
+	entityDefName "PlanetBonusRustedCore"
+planetItemType
+	designName "Bonus:ShipFactories"
+	entityDefName "PlanetBonusShipFactories"
+planetItemType
+	designName "Bonus:StrongMagneticField"
+	entityDefName "PlanetBonusStrongMagneticField"
+planetItemType
+	designName "Bonus:SubsurfaceCrystalDeposits"
+	entityDefName "PlanetBonusSubsurfaceCrystalDeposits"
+planetItemType
+	designName "Bonus:SubsurfaceMetalDeposits"
+	entityDefName "PlanetBonusSubsurfaceMetalDeposits"
+planetItemType
+	designName "Bonus:SubzeroTwisters"
+	entityDefName "PlanetBonusSubzeroTwisters"
+planetItemType
+	designName "Bonus:TraderMining"
+	entityDefName "PlanetBonusTraderMining"
+planetItemType
+	designName "Bonus:TrainingAcademy"
+	entityDefName "PlanetBonusTrainingAcademy"
+planetItemType
+	designName "Bonus:TropicalParadise"
+	entityDefName "PlanetBonusTropicalParadise"
+planetItemType
+	designName "Bonus:UnderseaCaverns"
+	entityDefName "PlanetBonusUnderseaCaverns"
+planetItemType
+	designName "Bonus:UnityNomads"
+	entityDefName "PlanetBonusUnityNomads"
+planetItemType
+	designName "Bonus:VirtualRealityPark"
 	entityDefName "PlanetBonusVirtualRealityPark"
 planetItemType
-	designName "Bonus:FW:VirulentPlague"
+	designName "Bonus:VirulentPlague"
 	entityDefName "PlanetBonusVirulentPlague"
-planetItemType
-	designName "Bonus:WeaponTestGrounds"
-	entityDefName "PlanetBonusWeaponTestGrounds"		
 planetItemType
 	designName "Artifact:WeaponBoost"
 	entityDefName "RESEARCHSUBJECT_ARTIFACT_WEAPONBOOST"

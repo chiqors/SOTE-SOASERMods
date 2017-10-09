@@ -1,99 +1,54 @@
 ﻿TXT
 entityType "Planet"
-meshInfoCount 5
+meshInfoCount 2
 meshInfo
-	typeNameStringID "IDS_PLANETTYPE_TERRAN"
-	asteroidTemplate "Sparse"
-	dustCloudTemplate "Sparse"
-	meshName "Planet_Terran_2"
-	cloudColor ffffffff
-	nullMeshRadius 0.000000
-	nullMeshParticleEffect ""
-	hudIcon "HUDICON_PLANET_TERRAN0"
-	smallHudIcon "HUDICONSMALL_PLANET_TERRAN0"
-	infoCardIcon "INFOCARDICON_PLANET_TERRAN0"
-	mainViewIcon "MAINVIEWICON_PLANET_TERRAN0"
-	undetectedMainViewIcon "MAINVIEWUNDETECTEDICON_PLANET_TERRAN0"
-	picture "PICTURE_PLANET_TERRAN0"
-	shouldPrefer FALSE
-meshInfo
-	typeNameStringID "IDS_PLANETTYPE_TERRAN"
-	asteroidTemplate "Dense"
-	dustCloudTemplate "Sparse"
-	meshName "Planet_Terran_2"
-	cloudColor ffffffff
-	nullMeshRadius 0.000000
-	nullMeshParticleEffect ""
-	hudIcon "HUDICON_PLANET_TERRAN1"
-	smallHudIcon "HUDICONSMALL_PLANET_TERRAN1"
-	infoCardIcon "INFOCARDICON_PLANET_TERRAN1"
-	mainViewIcon "MAINVIEWICON_PLANET_TERRAN1"
-	undetectedMainViewIcon "MAINVIEWUNDETECTEDICON_PLANET_TERRAN1"
-	picture "PICTURE_PLANET_TERRAN1"
-	shouldPrefer FALSE
-meshInfo
-	typeNameStringID "IDS_PLANETTYPE_TERRAN"
-	asteroidTemplate "Wall"
+	typeNameStringID "Axeldude_PlanetType_Terran"
+	asteroidTemplate "Empty"
 	dustCloudTemplate "Empty"
-	meshName "Planet_Terran_2"
+	meshName "Planet_Terran_0"
 	cloudColor ffffffff
 	nullMeshRadius 0.000000
 	nullMeshParticleEffect ""
-	hudIcon "HUDICON_PLANET_TERRAN2"
-	smallHudIcon "HUDICONSMALL_PLANET_TERRAN2"
-	infoCardIcon "INFOCARDICON_PLANET_TERRAN2"
-	mainViewIcon "MAINVIEWICON_PLANET_TERRAN2"
-	undetectedMainViewIcon "MAINVIEWUNDETECTEDICON_PLANET_TERRAN2"
-	picture "PICTURE_PLANET_TERRAN2"
+	hudIcon "Axeldude_PLANET_Terran_0"
+	smallHudIcon "Axeldude_PLANET_Terran_0"
+	infoCardIcon "Axeldude_PLANET_Terran_0"
+	mainViewIcon "Axeldude_PLANET_Terran_0"
+	undetectedMainViewIcon "Axeldude_PLANET_Terran_0_Unknown"
+	picture ""
 	shouldPrefer FALSE
 meshInfo
-	typeNameStringID "IDS_PLANETTYPE_TERRAN"
+	typeNameStringID "Axeldude_PlanetType_Terran"
 	asteroidTemplate "Empty"
 	dustCloudTemplate "Empty"
 	meshName "Planet_Terran_2"
 	cloudColor ffffffff
 	nullMeshRadius 0.000000
 	nullMeshParticleEffect ""
-	hudIcon "HUDICON_PLANET_TERRAN2"
-	smallHudIcon "HUDICONSMALL_PLANET_TERRAN2"
-	infoCardIcon "INFOCARDICON_PLANET_TERRAN2"
-	mainViewIcon "MAINVIEWICON_PLANET_TERRAN2"
-	undetectedMainViewIcon "MAINVIEWUNDETECTEDICON_PLANET_TERRAN2"
-	picture "PICTURE_PLANET_TERRAN2"
-	shouldPrefer FALSE
-meshInfo
-	typeNameStringID "IDS_PLANETTYPE_TERRAN"
-	asteroidTemplate "Sparse"
-	dustCloudTemplate "Dense"
-	meshName "Planet_Terran_2"
-	cloudColor ffffffff
-	nullMeshRadius 0.000000
-	nullMeshParticleEffect ""
-	hudIcon "HUDICON_PLANET_TERRAN2"
-	smallHudIcon "HUDICONSMALL_PLANET_TERRAN2"
-	infoCardIcon "INFOCARDICON_PLANET_TERRAN2"
-	mainViewIcon "MAINVIEWICON_PLANET_TERRAN2"
-	undetectedMainViewIcon "MAINVIEWUNDETECTEDICON_PLANET_TERRAN2"
-	picture "PICTURE_PLANET_TERRAN2"
+	hudIcon "Axeldude_PLANET_Terran_1"
+	smallHudIcon "Axeldude_PLANET_Terran_1"
+	infoCardIcon "Axeldude_PLANET_Terran_1"
+	mainViewIcon "Axeldude_PLANET_Terran_1"
+	undetectedMainViewIcon "Axeldude_PLANET_Terran_1_Unknown"
+	picture ""
 	shouldPrefer FALSE
 minZoomDistanceMult 2.750000
 glowColor 8f0099ff
 ringColor ffffffff
-cloudLayerTextureName "PlanetCloudLayer"
+cloudLayerTextureName "Axeldude_Cloudmap_Dense"
 planetResourceSetupInfo
 	asteroidSpawnAngleVariance 3.141593
 	totalMaxResourceAsteroids 4
 	metalResourceAsteroidSetup
-		minCount 1
+		minCount 0
 		maxCount 2
-		extractionRate 0.400000
-		refineryRate 0.060000
+		extractionRate 0.540000
+		refineryRate 0.078000
 		maxRefineryCount 3
 	crystalResourceAsteroidSetup
-		minCount 1
+		minCount 0
 		maxCount 2
-		extractionRate 0.400000
-		refineryRate 0.060000
+		extractionRate 0.460000
+		refineryRate 0.066000
 		maxRefineryCount 3
 	neutralMetalResourceAsteroidSetup
 		minCount 0
@@ -474,49 +429,18 @@ skyboxScalars
 	diffuseScalar 0.700000
 	ambientScalar 0.250000
 requiredPlanetBonusesCount 0
-possibleRandomPlanetBonusesCount 42
-bonus "PlanetBonusHugeGlaciers"
-bonus "PlanetBonusSurplusFoodstuffs"
-bonus "PlanetBonusMedicinalPlants"
-bonus "PlanetBonusLowGravity"
-bonus "PlanetBonusHighGravity"
-bonus "PlanetBonusSpiceTrade"
-bonus "PlanetBonusStrictSecurity"
-bonus "PlanetBonusToxicFallout"
-bonus "PlanetBonusFortressWorld"
-bonus "PlanetBonusStrongMagneticField"
-bonus "PlanetBonusAbandonedNaniteFactory"
-bonus "PlanetBonusAncientMineFactory"
-bonus "PlanetBonusUnderseaCaverns"
-bonus "PlanetBonusBombardmentShelters"
-bonus "PlanetBonusPollutedEnvironment"
-bonus "PlanetBonusUnderseaCaverns"
-bonus "PlanetBonusOrderedSociety"
-bonus "PlanetBonusFeudalSociety"
-bonus "PlanetBonusFreeMarketSociety"
-bonus "PlanetBonusChaoticSociety"
-bonus "PlanetBonusModernSociety"
-bonus "PlanetBonusPacifistSociety"
-bonus "PlanetBonusSubsurfaceMetalDeposits"
-bonus "PlanetBonusSubsurfaceCrystalDeposits"
-bonus "PlanetBonusFusionPowerCore"
-bonus "PlanetBonusAncientArcology"
-bonus "PlanetBonusDenseAtmosphere"
-bonus "PlanetBonusHealingNanites"
-bonus "PlanetBonusAutomatedFactories"
-bonus "PlanetBonusOceanicEnergyConverter"
-bonus "PlanetBonusInterstellarExchange"
-bonus "PlanetBonusQuantumCommHub"
-bonus "PlanetBonusDeathWorld"
-bonus "PlanetBonusTropicalParadise"
-bonus "PlanetBonusTraderMining"
-bonus "PlanetBonusVirulentPlague"
-bonus "PlanetBonusPlanetaryCorruption"
-bonus "PlanetBonusIntenseGravityField"
-bonus "PlanetBonusFrequentRaiders"
-bonus "PlanetBonusTrainingAcademy"
-bonus "PlanetBonusShipFactories"
-bonus "PlanetBonusPopulationBoom"
+possibleRandomPlanetBonusesCount 11
+bonus "Axeldude_PLANETBONUS_LVL-1_GreenhouseTFO"
+bonus "Axeldude_PLANETBONUS_LVL-1_LowAltitudeDebris"
+bonus "Axeldude_PLANETBONUS_LVL-1_SeismicActivity"
+bonus "Axeldude_PLANETBONUS_LVL-1_WeakMagneticField"
+bonus "Axeldude_PLANETBONUS_LVL-1_MeteorShowers"
+bonus "Axeldude_PLANETBONUS_LVL0_Hurricanes"
+bonus "Axeldude_PLANETBONUS_LVL0_HazardousAtmosphere"
+bonus "Axeldude_PLANETBONUS_LVL0_FertileSoil"
+bonus "Axeldude_PLANETBONUS_LVL0_CavernSystem"
+bonus "Axeldude_PLANETBONUS_LVL0_Ruins"
+bonus "Axeldude_PLANETBONUS_LVL0_BiohydrocarbonAlgae"
 ambienceSoundID "EFFECT_PLANETAMBIENCE_LOOP"
 renderAsVolcanic FALSE
 planetRuinDef

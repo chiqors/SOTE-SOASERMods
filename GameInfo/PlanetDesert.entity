@@ -2,68 +2,68 @@
 entityType "Planet"
 meshInfoCount 3
 meshInfo
-	typeNameStringID "IDS_PLANETTYPE_DESERT"
+	typeNameStringID "Axeldude_PlanetType_Desert"
 	asteroidTemplate "Empty"
 	dustCloudTemplate "Sparse"
-	meshName "Planet_Desert_2"
-	cloudColor ffe7c362
+	meshName "Planet_Desert_0"
+	cloudColor ffffffff
 	nullMeshRadius 0.000000
 	nullMeshParticleEffect ""
-	hudIcon "HUDICON_PLANET_DESERT0"
-	smallHudIcon "HUDICONSMALL_PLANET_DESERT0"
-	infoCardIcon "INFOCARDICON_PLANET_DESERT0"
-	mainViewIcon "MAINVIEWICON_PLANET_DESERT0"
-	undetectedMainViewIcon "MAINVIEWUNDETECTEDICON_PLANET_DESERT0"
-	picture "PICTURE_PLANET_DESERT0"
+	hudIcon "Axeldude_PLANET_Desert_0"
+	smallHudIcon "Axeldude_PLANET_Desert_0"
+	infoCardIcon "Axeldude_PLANET_Desert_0"
+	mainViewIcon "Axeldude_PLANET_Desert_0"
+	undetectedMainViewIcon "Axeldude_PLANET_Desert_0_Unknown"
+	picture ""
 	shouldPrefer FALSE
 meshInfo
-	typeNameStringID "IDS_PLANETTYPE_DESERT"
+	typeNameStringID "Axeldude_PlanetType_Desert"
 	asteroidTemplate "Dense"
 	dustCloudTemplate "Sparse"
-	meshName "Planet_Desert_2"
-	cloudColor ffe7c362
+	meshName "Planet_Desert_1"
+	cloudColor ffffffff
 	nullMeshRadius 0.000000
 	nullMeshParticleEffect ""
-	hudIcon "HUDICON_PLANET_DESERT1"
-	smallHudIcon "HUDICONSMALL_PLANET_DESERT1"
-	infoCardIcon "INFOCARDICON_PLANET_DESERT1"
-	mainViewIcon "MAINVIEWICON_PLANET_DESERT1"
-	undetectedMainViewIcon "MAINVIEWUNDETECTEDICON_PLANET_DESERT1"
-	picture "PICTURE_PLANET_DESERT1"
+	hudIcon "Axeldude_PLANET_Desert_0"
+	smallHudIcon "Axeldude_PLANET_Desert_0"
+	infoCardIcon "Axeldude_PLANET_Desert_0"
+	mainViewIcon "Axeldude_PLANET_Desert_0"
+	undetectedMainViewIcon "Axeldude_PLANET_Desert_0_Unknown"
+	picture ""
 	shouldPrefer FALSE
 meshInfo
-	typeNameStringID "IDS_PLANETTYPE_DESERT"
+	typeNameStringID "Axeldude_PlanetType_Desert"
 	asteroidTemplate "Dense"
 	dustCloudTemplate "Empty"
 	meshName "Planet_Desert_2"
-	cloudColor ffe7c362
+	cloudColor ffffffff
 	nullMeshRadius 0.000000
 	nullMeshParticleEffect ""
-	hudIcon "HUDICON_PLANET_DESERT2"
-	smallHudIcon "HUDICONSMALL_PLANET_DESERT2"
-	infoCardIcon "INFOCARDICON_PLANET_DESERT2"
-	mainViewIcon "MAINVIEWICON_PLANET_DESERT2"
-	undetectedMainViewIcon "MAINVIEWUNDETECTEDICON_PLANET_DESERT2"
-	picture "PICTURE_PLANET_DESERT2"
+	hudIcon "Axeldude_PLANET_Desert_1"
+	smallHudIcon "Axeldude_PLANET_Desert_1"
+	infoCardIcon "Axeldude_PLANET_Desert_1"
+	mainViewIcon "Axeldude_PLANET_Desert_1"
+	undetectedMainViewIcon "Axeldude_PLANET_Desert_1_Unknown"
+	picture ""
 	shouldPrefer FALSE
 minZoomDistanceMult 2.750000
-glowColor 7fb87a10
-ringColor ffe7c362
-cloudLayerTextureName "PlanetCloudLayer"
+glowColor 7fb5967b
+ringColor ffffffff
+cloudLayerTextureName "Axeldude_Cloudmap_Fair"
 planetResourceSetupInfo
 	asteroidSpawnAngleVariance 3.141593
 	totalMaxResourceAsteroids 4
 	metalResourceAsteroidSetup
-		minCount 1
+		minCount 0
 		maxCount 2
-		extractionRate 0.400000
-		refineryRate 0.060000
+		extractionRate 0.540000
+		refineryRate 0.078000
 		maxRefineryCount 3
 	crystalResourceAsteroidSetup
-		minCount 1
+		minCount 0
 		maxCount 2
-		extractionRate 0.400000
-		refineryRate 0.060000
+		extractionRate 0.460000
+		refineryRate 0.066000
 		maxRefineryCount 3
 	neutralMetalResourceAsteroidSetup
 		minCount 0
@@ -422,44 +422,17 @@ skyboxScalars
 	diffuseScalar 1.000000
 	ambientScalar 0.200000
 requiredPlanetBonusesCount 0
-possibleRandomPlanetBonusesCount 37
-bonus "PlanetBonusCavernSystem"
-bonus "PlanetBonusCrystalMiners"
-bonus "PlanetBonusDustStorms"
-bonus "PlanetBonusLowGravity"
-bonus "PlanetBonusHighGravity"
-bonus "PlanetBonusSpiceTrade"
-bonus "PlanetBonusThermalLift"
-bonus "PlanetBonusStrictSecurity"
-bonus "PlanetBonusToxicFallout"
-bonus "PlanetBonusVacationCenter"
-bonus "PlanetBonusStrongMagneticField"
-bonus "PlanetBonusWeaponTestGrounds"
-bonus "PlanetBonusFortressWorld"
-bonus "PlanetBonusAbandonedNaniteFactory"
-bonus "PlanetBonusAncientMineFactory"
-bonus "PlanetBonusBombardmentShelters"
-bonus "PlanetBonusPollutedEnvironment"
-bonus "PlanetBonusOrderedSociety"
-bonus "PlanetBonusFeudalSociety"
-bonus "PlanetBonusFreeMarketSociety"
-bonus "PlanetBonusChaoticSociety"
-bonus "PlanetBonusModernSociety"
-bonus "PlanetBonusPacifistSociety"
-bonus "PlanetBonusSubsurfaceCrystalDeposits"
-bonus "PlanetBonusSubsurfaceMetalDeposits"
-bonus "PlanetBonusFusionPowerCore"
-bonus "PlanetBonusAncientArcology"
-bonus "PlanetBonusDenseAtmosphere"
-bonus "PlanetBonusAutomatedFactories"
-bonus "PlanetBonusQuantumCommHub"
-bonus "PlanetBonusAntimatterCores"
-bonus "PlanetBonusPlanetaryCorruption"
-bonus "PlanetBonusIntenseGravityField"
-bonus "PlanetBonusUnityNomads"
-bonus "PlanetBonusFrequentRaiders"
-bonus "PlanetBonusTrainingAcademy"
-bonus "PlanetBonusShipFactories"
+possibleRandomPlanetBonusesCount 10
+bonus "Axeldude_PLANETBONUS_LVL-1_GreenhouseRD"
+bonus "Axeldude_PLANETBONUS_LVL-1_LowAltitudeDebris"
+bonus "Axeldude_PLANETBONUS_LVL-1_SeismicActivity"
+bonus "Axeldude_PLANETBONUS_LVL-1_WeakMagneticField"
+bonus "Axeldude_PLANETBONUS_LVL-1_MeteorShowers"
+bonus "Axeldude_PLANETBONUS_LVL0_DustStorms"
+bonus "Axeldude_PLANETBONUS_LVL0_MineralRichSoil"
+bonus "Axeldude_PLANETBONUS_LVL0_HazardousAtmosphere"
+bonus "Axeldude_PLANETBONUS_LVL0_CavernSystem"
+bonus "Axeldude_PLANETBONUS_LVL0_Ruins"
 ambienceSoundID "EFFECT_PLANETAMBIENCE_LOOP"
 renderAsVolcanic FALSE
 planetRuinDef

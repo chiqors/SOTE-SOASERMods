@@ -71,17 +71,18 @@ entities
 		NotOnPage
 			count 4
 			entityDefName "Gallente_Ship_Constructor_Venture"
-			entityDefName "FrigatePhaseTradeShip"
+			entityDefName "Caldari_Ship_Tradeship_Badge"
 			entityDefName "Amarr_Ship_Refineryship_Bestower"
 			entityDefName "Ore_ShipOrca"			
 	researchInfo
-		count 138
+		count 136
 		entityDefName "RSAInterdictor"		
 		entityDefName "RSACommand_Orca"		
 		entityDefName "RSACovertOps"
 		entityDefName "RSAHeavyAssault"
 		entityDefName "RSABlackOps"
 		entityDefName "RSAMarauder"
+		entityDefName "RESEARCH_FORCEAI_AID"
 		entityDefName "AllRaces_ResearchSubject_CovertOpsJumpBridge"		
 		entityDefName "AllRaces_ResearchSubject_ArcingVortonProjector"		
 		entityDefName "Caldari_ResearchSubject_SubCapitalAccess_Jackdaw"
@@ -139,9 +140,6 @@ entities
 		entityDefName "RESEARCHSUBJECT_ABILITYACCESS_XENODEFENSE"
 		entityDefName "RESEARCHSUBJECT_ADVANCED_INTER_SPECIES_RELATIONS"
 		entityDefName "RESEARCHSUBJECT_ADVANCED_XENO_MANIPULATION"
-		entityDefName "RESEARCHSUBJECT_AIBOOST_STAGE1"
-		entityDefName "RESEARCHSUBJECT_AIBOOST_STAGE2"
-		entityDefName "RESEARCHSUBJECT_AIBOOST_STAGE3"
 		entityDefName "RESEARCHSUBJECT_ANTIMATTERTECH0"
 		entityDefName "RESEARCHSUBJECT_ANTIMATTERTECH1"
 		entityDefName "RESEARCHSUBJECT_ANTIMATTERTECH2"
@@ -278,9 +276,9 @@ hyperspaceData
 	baseHyperspaceAntiMatterCost 0.000000
 	baseHyperspaceChargeUpTime 2.200000
 shieldData
-	shieldAbsorbGrowthPerDamage 0.100000
+	shieldAbsorbGrowthPerDamage 0.050000
 	shieldAbsorbDecayRate 0.000100
-	shieldAbsorbBaseMin 0.100000
+	shieldAbsorbBaseMin 0.0500000
 	shieldColor ff00ffff
 gameEventData
 	GameEventSound:AllianceCeaseFireBroken "EVENTTECH_ALLIANCECEASEFIREBROKEN"

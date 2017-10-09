@@ -1,10 +1,10 @@
 ﻿TXT
 entityType "Star"
-coronaStartColor 0
-coronaEndColor 0
+coronaStartColor ffffff
+coronaEndColor ff008bff
 coronaStartColorDistance 0.000000
 coronaEndColorDistance 2.000000
-farIcon "HUDICON_SOLARSYSTEM_BLUE"
+farIcon "Axeldude_FarStar"
 coloredSkyboxMeshInfoCount 5
 meshInfo
 	meshName "SkyboxBackdrop2"
@@ -25,7 +25,7 @@ deepSpaceSkyboxMeshInfoCount 1
 meshInfo
 	meshName "SkyboxBackdrop7"
 	shouldPrefer FALSE
-iconTextureName "starcore-blue"
+iconTextureName "Axeldude_FarStar_Icon_Neutron"
 dlcID 255910
 ability:0 "AbilityStarNeutron"
 ability:1 ""
@@ -36,14 +36,14 @@ hudIcon "HUDICON_STAR_NEUTRON"
 smallHudIcon "HUDICON_STAR_NEUTRON"
 infoCardIcon "INFOCARDICON_STAR_NEUTRON"
 minZoomDistanceMult 2.000000
-moveAreaRadius 80000.000000
-hyperspaceExitRadius 60000.000000
+moveAreaRadius 60000.000000
+hyperspaceExitRadius 50000.000000
 isWormhole FALSE
 maxStarBaseCountPerPlayer 4
 maxSpaceMineCountPerPlayer 500
 mainViewIcon "MAINVIEWICON_STAR_NEUTRON"
 picture "STARPICTURE_NEUTRON"
-MeshName "Star_White"
+MeshName "Star_Blue"
 MaxMeshVisibilityDistanceToCamera -1.000000
 minShadow 0.000000
 maxShadow 0.000000

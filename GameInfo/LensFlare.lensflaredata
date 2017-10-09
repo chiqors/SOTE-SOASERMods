@@ -8,13 +8,13 @@ numHalos 9
 halo
 	textureName "lensflarebar"
 	lengthScale 1
-	imageScale 5
-	imageColor 9Affffff
+	imageScale 2.5
+	imageColor ccffffff
 halo
 	textureName "lensflare4"
 	lengthScale 1
-	imageScale 10.0
-	imageColor b5ffffff
+	imageScale 2.5
+	imageColor aaffffff
 halo
 	textureName "lensflare2"
 	lengthScale 0.13

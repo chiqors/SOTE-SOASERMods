@@ -9,11 +9,11 @@ meshInfo
 	cloudColor 0
 	nullMeshRadius 0.000000
 	nullMeshParticleEffect ""
-	hudIcon "MAINVIEWICON_PLANET_MOON0"
-	smallHudIcon "HUDICONSMALL_PLANET_MOON0"
-	infoCardIcon "INFOCARDICON_PLANET_MOON0"
-	mainViewIcon "MAINVIEWICON_PLANET_MOON0"
-	undetectedMainViewIcon "MAINVIEWUNDETECTEDICON_PLANET_MOON0"
+	hudIcon "Axeldude_DWARF_0"
+	smallHudIcon "Axeldude_DWARF_0"
+	infoCardIcon "Axeldude_DWARF_0"
+	mainViewIcon "Axeldude_DWARF_0"
+	undetectedMainViewIcon "Axeldude_DWARF_0_Unknown"
 	picture "PICTURE_PLANET_MOON0"
 	shouldPrefer FALSE
 meshInfo
@@ -24,26 +24,26 @@ meshInfo
 	cloudColor 0
 	nullMeshRadius 0.000000
 	nullMeshParticleEffect ""
-	hudIcon "MAINVIEWICON_PLANET_MOON0"
-	smallHudIcon "HUDICONSMALL_PLANET_MOON0"
-	infoCardIcon "INFOCARDICON_PLANET_MOON0"
-	mainViewIcon "MAINVIEWICON_PLANET_MOON0"
-	undetectedMainViewIcon "MAINVIEWUNDETECTEDICON_PLANET_MOON0"
+	hudIcon "Axeldude_DWARF_0"
+	smallHudIcon "Axeldude_DWARF_0"
+	infoCardIcon "Axeldude_DWARF_0"
+	mainViewIcon "Axeldude_DWARF_0"
+	undetectedMainViewIcon "Axeldude_DWARF_0_Unknown"
 	picture "PICTURE_PLANET_MOON0"
 	shouldPrefer FALSE
 meshInfo
 	typeNameStringID "IDS_PLANETTYPE_MOON"
 	asteroidTemplate "Sparse"
 	dustCloudTemplate "Sparse"
-	meshName "Planet_Dwarf_0"
+	meshName "Planet_Dwarf_1"
 	cloudColor 0
 	nullMeshRadius 0.000000
 	nullMeshParticleEffect ""
-	hudIcon "MAINVIEWICON_PLANET_MOON0"
-	smallHudIcon "HUDICONSMALL_PLANET_MOON0"
-	infoCardIcon "INFOCARDICON_PLANET_MOON0"
-	mainViewIcon "MAINVIEWICON_PLANET_MOON0"
-	undetectedMainViewIcon "MAINVIEWUNDETECTEDICON_PLANET_MOON0"
+	hudIcon "Axeldude_DWARF_0"
+	smallHudIcon "Axeldude_DWARF_0"
+	infoCardIcon "Axeldude_DWARF_0"
+	mainViewIcon "Axeldude_DWARF_0"
+	undetectedMainViewIcon "Axeldude_DWARF_0_Unknown"
 	picture "PICTURE_PLANET_MOON0"
 	shouldPrefer FALSE
 meshInfo
@@ -54,11 +54,11 @@ meshInfo
 	cloudColor 0
 	nullMeshRadius 0.000000
 	nullMeshParticleEffect ""
-	hudIcon "MAINVIEWICON_PLANET_MOON0"
-	smallHudIcon "HUDICONSMALL_PLANET_MOON0"
-	infoCardIcon "INFOCARDICON_PLANET_MOON0"
-	mainViewIcon "MAINVIEWICON_PLANET_MOON0"
-	undetectedMainViewIcon "MAINVIEWUNDETECTEDICON_PLANET_MOON0"
+	hudIcon "Axeldude_DWARF_0"
+	smallHudIcon "Axeldude_DWARF_0"
+	infoCardIcon "Axeldude_DWARF_0"
+	mainViewIcon "Axeldude_DWARF_0"
+	undetectedMainViewIcon "Axeldude_DWARF_0_Unknown"
 	picture "PICTURE_PLANET_MOON0"
 	shouldPrefer FALSE
 meshInfo
@@ -69,28 +69,28 @@ meshInfo
 	cloudColor 0
 	nullMeshRadius 0.000000
 	nullMeshParticleEffect ""
-	hudIcon "MAINVIEWICON_PLANET_MOON0"
-	smallHudIcon "HUDICONSMALL_PLANET_MOON0"
-	infoCardIcon "INFOCARDICON_PLANET_MOON0"
-	mainViewIcon "MAINVIEWICON_PLANET_MOON0"
-	undetectedMainViewIcon "MAINVIEWUNDETECTEDICON_PLANET_MOON0"
+	hudIcon "Axeldude_DWARF_0"
+	smallHudIcon "Axeldude_DWARF_0"
+	infoCardIcon "Axeldude_DWARF_0"
+	mainViewIcon "Axeldude_DWARF_0"
+	undetectedMainViewIcon "Axeldude_DWARF_0_Unknown"
 	picture "PICTURE_PLANET_MOON0"
 	shouldPrefer FALSE
-minZoomDistanceMult 2.250000
+minZoomDistanceMult 3.200000
 glowColor 0
 ringColor 0
 cloudLayerTextureName ""
 planetResourceSetupInfo
 	asteroidSpawnAngleVariance 3.141593
-	totalMaxResourceAsteroids 3
+	totalMaxResourceAsteroids 2
 	metalResourceAsteroidSetup
-		minCount 2
-		maxCount 2
+		minCount 0
+		maxCount 1
 		extractionRate 0.400000
 		refineryRate 0.060000
 		maxRefineryCount 3
 	crystalResourceAsteroidSetup
-		minCount 1
+		minCount 0
 		maxCount 1
 		extractionRate 0.400000
 		refineryRate 0.060000

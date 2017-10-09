@@ -1,0 +1,57 @@
+﻿TXT
+onlyLoadOnDemand FALSE
+brushCount 3
+brush
+	name "HUDICON_RESEARCHSUBJECT_PLANETACCESS_GAS"
+	content "States"
+	Disabled
+		fileName "SinsPlus"
+		pixelBox [ 64 , 616 , 47 , 33 ]
+	Pressed
+		fileName "SinsPlus"
+		pixelBox [ 176 , 616 , 47 , 33 ]
+	CursorOver
+		fileName "SinsPlus"
+		pixelBox [ 8 , 616 , 47 , 33 ]
+	Focused
+		fileName "SinsPlus"
+		pixelBox [ 120 , 616 , 47 , 33 ]
+	Normal
+		fileName "SinsPlus"
+		pixelBox [ 120 , 616 , 47 , 33 ]
+brush
+	name "HUDICON_RESEARCHSUBJECT_POPULATIONCAPROCK"
+	content "States"
+	Disabled
+		fileName "SinsPlus"
+		pixelBox [ 64 , 696 , 47 , 33 ]
+	Pressed
+		fileName "SinsPlus"
+		pixelBox [ 176 , 696 , 47 , 33 ]
+	CursorOver
+		fileName "SinsPlus"
+		pixelBox [ 8 , 696 , 47 , 33 ]
+	Focused
+		fileName "SinsPlus"
+		pixelBox [ 120 , 696 , 47 , 33 ]
+	Normal
+		fileName "SinsPlus"
+		pixelBox [ 120 , 696 , 47 , 33 ]
+brush
+	name "HUDICON_RESEARCHSUBJECT_POPULATIONCAPGAS"
+	content "States"
+	Disabled
+		fileName "SinsPlus"
+		pixelBox [ 64 , 656 , 47 , 33 ]
+	Pressed
+		fileName "SinsPlus"
+		pixelBox [ 176 , 656 , 47 , 33 ]
+	CursorOver
+		fileName "SinsPlus"
+		pixelBox [ 8 , 656 , 47 , 33 ]
+	Focused
+		fileName "SinsPlus"
+		pixelBox [ 120 , 656 , 47 , 33 ]
+	Normal
+		fileName "SinsPlus"
+		pixelBox [ 120 , 656 , 47 , 33 ]

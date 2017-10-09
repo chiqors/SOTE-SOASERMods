@@ -2,65 +2,65 @@
 entityType "Planet"
 meshInfoCount 3
 meshInfo
-	typeNameStringID "IDS_PLANETTYPE_DESERT"
+	typeNameStringID "Axeldude_PlanetType_Desert"
 	asteroidTemplate "Empty"
 	dustCloudTemplate "Sparse"
-	meshName "Planet_Desert_2"
-	cloudColor ffe7c362
+	meshName "Planet_Desert_0"
+	cloudColor ffffffff
 	nullMeshRadius 0.000000
 	nullMeshParticleEffect ""
-	hudIcon "HUDICON_PLANET_DESERT0"
-	smallHudIcon "HUDICONSMALL_PLANET_DESERT0"
-	infoCardIcon "INFOCARDICON_PLANET_DESERT0"
-	mainViewIcon "MAINVIEWICON_PLANET_DESERT0"
-	undetectedMainViewIcon "MAINVIEWUNDETECTEDICON_PLANET_DESERT0"
-	picture "PICTURE_PLANET_DESERT0"
+	hudIcon "Axeldude_PLANET_Desert_0"
+	smallHudIcon "Axeldude_PLANET_Desert_0"
+	infoCardIcon "Axeldude_PLANET_Desert_0"
+	mainViewIcon "Axeldude_PLANET_Desert_0"
+	undetectedMainViewIcon "Axeldude_PLANET_Desert_0_Unknown"
+	picture ""
 	shouldPrefer FALSE
 meshInfo
-	typeNameStringID "IDS_PLANETTYPE_DESERT"
+	typeNameStringID "Axeldude_PlanetType_Desert"
 	asteroidTemplate "Dense"
 	dustCloudTemplate "Sparse"
-	meshName "Planet_Desert_2"
-	cloudColor ffe7c362
+	meshName "Planet_Desert_1"
+	cloudColor ffffffff
 	nullMeshRadius 0.000000
 	nullMeshParticleEffect ""
-	hudIcon "HUDICON_PLANET_DESERT1"
-	smallHudIcon "HUDICONSMALL_PLANET_DESERT1"
-	infoCardIcon "INFOCARDICON_PLANET_DESERT1"
-	mainViewIcon "MAINVIEWICON_PLANET_DESERT1"
-	undetectedMainViewIcon "MAINVIEWUNDETECTEDICON_PLANET_DESERT1"
-	picture "PICTURE_PLANET_DESERT1"
+	hudIcon "Axeldude_PLANET_Desert_0"
+	smallHudIcon "Axeldude_PLANET_Desert_0"
+	infoCardIcon "Axeldude_PLANET_Desert_0"
+	mainViewIcon "Axeldude_PLANET_Desert_0"
+	undetectedMainViewIcon "Axeldude_PLANET_Desert_0_Unknown"
+	picture ""
 	shouldPrefer FALSE
 meshInfo
-	typeNameStringID "IDS_PLANETTYPE_DESERT"
+	typeNameStringID "Axeldude_PlanetType_Desert"
 	asteroidTemplate "Dense"
 	dustCloudTemplate "Empty"
 	meshName "Planet_Desert_2"
-	cloudColor ffe7c362
+	cloudColor ffffffff
 	nullMeshRadius 0.000000
 	nullMeshParticleEffect ""
-	hudIcon "HUDICON_PLANET_DESERT2"
-	smallHudIcon "HUDICONSMALL_PLANET_DESERT2"
-	infoCardIcon "INFOCARDICON_PLANET_DESERT2"
-	mainViewIcon "MAINVIEWICON_PLANET_DESERT2"
-	undetectedMainViewIcon "MAINVIEWUNDETECTEDICON_PLANET_DESERT2"
-	picture "PICTURE_PLANET_DESERT2"
+	hudIcon "Axeldude_PLANET_Desert_1"
+	smallHudIcon "Axeldude_PLANET_Desert_1"
+	infoCardIcon "Axeldude_PLANET_Desert_1"
+	mainViewIcon "Axeldude_PLANET_Desert_1"
+	undetectedMainViewIcon "Axeldude_PLANET_Desert_1_Unknown"
+	picture ""
 	shouldPrefer FALSE
 minZoomDistanceMult 2.750000
-glowColor 7fb87a10
-ringColor ffe7c362
-cloudLayerTextureName "PlanetCloudLayer"
+glowColor 7fb5967b
+ringColor ffffffff
+cloudLayerTextureName "Axeldude_Cloudmap_Fair"
 planetResourceSetupInfo
 	asteroidSpawnAngleVariance 3.141593
 	totalMaxResourceAsteroids 2
 	metalResourceAsteroidSetup
-		minCount 1
+		minCount 0
 		maxCount 1
 		extractionRate 0.400000
 		refineryRate 0.060000
 		maxRefineryCount 3
 	crystalResourceAsteroidSetup
-		minCount 1
+		minCount 0
 		maxCount 1
 		extractionRate 0.400000
 		refineryRate 0.060000

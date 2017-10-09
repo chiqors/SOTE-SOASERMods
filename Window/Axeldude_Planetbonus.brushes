@@ -1,0 +1,18 @@
+﻿TXT
+onlyLoadOnDemand FALSE
+brushCount 3
+brush
+	name "Axeldude_PLANETBONUS_FIRSTSCAN"
+	content "Simple"
+	fileName "Axeldude_PLANETBONUS_FIRSTSCAN"
+	pixelBox [ 0 , 0 , 22 , 20 ]
+brush
+	name "Axeldude_PLANETBONUS_SURVEY"
+	content "Simple"
+	fileName "Axeldude_PLANETBONUS_SURVEY"
+	pixelBox [ 0 , 0 , 22 , 20 ]
+brush
+	name "Axeldude_PLANETBONUS_DEPOSIT"
+	content "Simple"
+	fileName "Axeldude_PLANETBONUS_DEPOSIT"
+	pixelBox [ 0 , 0 , 22 , 20 ]

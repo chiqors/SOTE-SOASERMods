@@ -1,96 +1,81 @@
 ﻿TXT
 entityType "Planet"
-meshInfoCount 5
+meshInfoCount 4
 meshInfo
-	typeNameStringID "IDS_PLANETTYPE_OCEANIC"
-	asteroidTemplate "Sparse"
-	dustCloudTemplate "Sparse"
-	meshName "Planet_Oceanic_0"
-	cloudColor ffffffff
-	nullMeshRadius 0.000000
-	nullMeshParticleEffect ""
-	hudIcon "MAINVIEWICON_PLANET_OCEANIC"
-	smallHudIcon "HUDICONSMALL_PLANET_OCEANIC"
-	infoCardIcon "INFOCARDICON_PLANET_OCEANIC"
-	mainViewIcon "MAINVIEWICON_PLANET_OCEANIC"
-	undetectedMainViewIcon "MAINVIEWICON_PLANET_OCEANIC_UNDETECTED"
-	picture "PICTURE_PLANET_OCEANIC"
-	shouldPrefer FALSE
-meshInfo
-	typeNameStringID "IDS_PLANETTYPE_OCEANIC"
-	asteroidTemplate "Empty"
-	dustCloudTemplate "Sparse"
-	meshName "Planet_Oceanic_0"
-	cloudColor ffffffff
-	nullMeshRadius 0.000000
-	nullMeshParticleEffect ""
-	hudIcon "MAINVIEWICON_PLANET_OCEANIC"
-	smallHudIcon "HUDICONSMALL_PLANET_OCEANIC"
-	infoCardIcon "INFOCARDICON_PLANET_OCEANIC"
-	mainViewIcon "MAINVIEWICON_PLANET_OCEANIC"
-	undetectedMainViewIcon "MAINVIEWICON_PLANET_OCEANIC_UNDETECTED"
-	picture "PICTURE_PLANET_OCEANIC"
-	shouldPrefer FALSE
-meshInfo
-	typeNameStringID "IDS_PLANETTYPE_OCEANIC"
-	asteroidTemplate "Wall"
-	dustCloudTemplate "Empty"
-	meshName "Planet_Oceanic_0"
-	cloudColor ffffffff
-	nullMeshRadius 0.000000
-	nullMeshParticleEffect ""
-	hudIcon "MAINVIEWICON_PLANET_OCEANIC"
-	smallHudIcon "HUDICONSMALL_PLANET_OCEANIC"
-	infoCardIcon "INFOCARDICON_PLANET_OCEANIC"
-	mainViewIcon "MAINVIEWICON_PLANET_OCEANIC"
-	undetectedMainViewIcon "MAINVIEWICON_PLANET_OCEANIC_UNDETECTED"
-	picture "PICTURE_PLANET_OCEANIC"
-	shouldPrefer FALSE
-meshInfo
-	typeNameStringID "IDS_PLANETTYPE_OCEANIC"
+	typeNameStringID "Axeldude_PlanetType_Oceanic"
 	asteroidTemplate "Empty"
 	dustCloudTemplate "Empty"
-	meshName "Planet_Oceanic_0"
+	meshName "Axeldude_PLANET_NORMAL_Terran_1"
 	cloudColor ffffffff
 	nullMeshRadius 0.000000
 	nullMeshParticleEffect ""
-	hudIcon "MAINVIEWICON_PLANET_OCEANIC"
-	smallHudIcon "HUDICONSMALL_PLANET_OCEANIC"
-	infoCardIcon "INFOCARDICON_PLANET_OCEANIC"
-	mainViewIcon "MAINVIEWICON_PLANET_OCEANIC"
-	undetectedMainViewIcon "MAINVIEWICON_PLANET_OCEANIC_UNDETECTED"
+	hudIcon "Axeldude_PLANET_Normal_Terran_1"
+	smallHudIcon "Axeldude_PLANET_Normal_Terran_1"
+	infoCardIcon "Axeldude_PLANET_Normal_Terran_1"
+	mainViewIcon "Axeldude_PLANET_Normal_Terran_1"
+	undetectedMainViewIcon "Axeldude_PLANET_Normal_Terran_1_Unknown"
 	picture "PICTURE_PLANET_OCEANIC"
 	shouldPrefer FALSE
 meshInfo
-	typeNameStringID "IDS_PLANETTYPE_OCEANIC"
-	asteroidTemplate "Sparse"
-	dustCloudTemplate "Dense"
-	meshName "Planet_Oceanic_0"
+	typeNameStringID "Axeldude_PlanetType_Oceanic"
+	asteroidTemplate "Empty"
+	dustCloudTemplate "Empty"
+	meshName "Axeldude_PLANET_NORMAL_Terran_0"
 	cloudColor ffffffff
 	nullMeshRadius 0.000000
 	nullMeshParticleEffect ""
-	hudIcon "MAINVIEWICON_PLANET_OCEANIC"
-	smallHudIcon "HUDICONSMALL_PLANET_OCEANIC"
-	infoCardIcon "INFOCARDICON_PLANET_OCEANIC"
-	mainViewIcon "MAINVIEWICON_PLANET_OCEANIC"
-	undetectedMainViewIcon "MAINVIEWICON_PLANET_OCEANIC_UNDETECTED"
+	hudIcon "Axeldude_PLANET_Normal_Terran_0"
+	smallHudIcon "Axeldude_PLANET_Normal_Terran_0"
+	infoCardIcon "Axeldude_PLANET_Normal_Terran_0"
+	mainViewIcon "Axeldude_PLANET_Normal_Terran_0"
+	undetectedMainViewIcon "Axeldude_PLANET_Normal_Terran_0_Unknown"
+	picture "PICTURE_PLANET_OCEANIC"
+	shouldPrefer FALSE
+meshInfo
+	typeNameStringID "Axeldude_PlanetType_Oceanic"
+	asteroidTemplate "Empty"
+	dustCloudTemplate "Empty"
+	meshName "Axeldude_PLANET_NORMAL_Oceanic_0"
+	cloudColor ffffffff
+	nullMeshRadius 0.000000
+	nullMeshParticleEffect ""
+	hudIcon "Axeldude_PLANET_Normal_Oceanic_0"
+	smallHudIcon "Axeldude_PLANET_Normal_Oceanic_0"
+	infoCardIcon "Axeldude_PLANET_Normal_Oceanic_0"
+	mainViewIcon "Axeldude_PLANET_Normal_Oceanic_0"
+	undetectedMainViewIcon "Axeldude_PLANET_Normal_Oceanic_0_Unknown"
+	picture "PICTURE_PLANET_OCEANIC"
+	shouldPrefer FALSE
+meshInfo
+	typeNameStringID "Axeldude_PlanetType_Oceanic"
+	asteroidTemplate "Empty"
+	dustCloudTemplate "Empty"
+	meshName "Axeldude_PLANET_NORMAL_Oceanic_1"
+	cloudColor ffffffff
+	nullMeshRadius 0.000000
+	nullMeshParticleEffect ""
+	hudIcon "Axeldude_PLANET_Normal_Oceanic_1"
+	smallHudIcon "Axeldude_PLANET_Normal_Oceanic_1"
+	infoCardIcon "Axeldude_PLANET_Normal_Oceanic_1"
+	mainViewIcon "Axeldude_PLANET_Normal_Oceanic_1"
+	undetectedMainViewIcon "Axeldude_PLANET_Normal_Oceanic_1_Unknown"
 	picture "PICTURE_PLANET_OCEANIC"
 	shouldPrefer FALSE
 minZoomDistanceMult 2.750000
 glowColor 8f0099ff
 ringColor ffffffff
-cloudLayerTextureName "PlanetCloudLayer"
+cloudLayerTextureName "Axeldude_Cloudmap_Storm"
 planetResourceSetupInfo
 	asteroidSpawnAngleVariance 3.141593
 	totalMaxResourceAsteroids 4
 	metalResourceAsteroidSetup
-		minCount 1
+		minCount 0
 		maxCount 1
 		extractionRate 0.400000
 		refineryRate 0.060000
 		maxRefineryCount 3
 	crystalResourceAsteroidSetup
-		minCount 1
+		minCount 0
 		maxCount 3
 		extractionRate 0.400000
 		refineryRate 0.060000

@@ -2,64 +2,64 @@
 entityType "Planet"
 meshInfoCount 4
 meshInfo
-	typeNameStringID "IDS_PLANETTYPE_ICE"
-	asteroidTemplate "Sparse"
-	dustCloudTemplate "IceSafe"
+	typeNameStringID "Axeldude_PlanetType_Ice"
+	asteroidTemplate "Empty"
+	dustCloudTemplate "Empty"
 	meshName "Planet_Ice_0"
 	cloudColor ffdafcff
 	nullMeshRadius 0.000000
 	nullMeshParticleEffect ""
-	hudIcon "HUDICON_PLANET_ICE0"
-	smallHudIcon "HUDICONSMALL_PLANET_ICE0"
-	infoCardIcon "INFOCARDICON_PLANET_ICE0"
-	mainViewIcon "MAINVIEWICON_PLANET_ICE0"
-	undetectedMainViewIcon "MAINVIEWUNDETECTEDICON_PLANET_ICE0"
-	picture "PICTURE_PLANET_ICE0"
+	hudIcon "Axeldude_PLANET_Ice_0"
+	smallHudIcon "Axeldude_PLANET_Ice_0"
+	infoCardIcon "Axeldude_PLANET_Ice_0"
+	mainViewIcon "Axeldude_PLANET_Ice_0"
+	undetectedMainViewIcon "Axeldude_PLANET_Ice_0_Unknown"
+	picture ""
 	shouldPrefer FALSE
 meshInfo
-	typeNameStringID "IDS_PLANETTYPE_ICE"
-	asteroidTemplate "Sparse"
-	dustCloudTemplate "IceSafe"
-	meshName "Planet_Ice_0"
+	typeNameStringID "Axeldude_PlanetType_Ice"
+	asteroidTemplate "Empty"
+	dustCloudTemplate "Empty"
+	meshName "Planet_Ice_1"
 	cloudColor ffdafcff
 	nullMeshRadius 0.000000
 	nullMeshParticleEffect ""
-	hudIcon "HUDICON_PLANET_ICE1"
-	smallHudIcon "HUDICONSMALL_PLANET_ICE1"
-	infoCardIcon "INFOCARDICON_PLANET_ICE1"
-	mainViewIcon "MAINVIEWICON_PLANET_ICE1"
-	undetectedMainViewIcon "MAINVIEWUNDETECTEDICON_PLANET_ICE1"
-	picture "PICTURE_PLANET_ICE1"
+	hudIcon "Axeldude_PLANET_Ice_0"
+	smallHudIcon "Axeldude_PLANET_Ice_0"
+	infoCardIcon "Axeldude_PLANET_Ice_0"
+	mainViewIcon "Axeldude_PLANET_Ice_0"
+	undetectedMainViewIcon "Axeldude_PLANET_Ice_0_Unknown"
+	picture ""
 	shouldPrefer FALSE
 meshInfo
-	typeNameStringID "IDS_PLANETTYPE_ICE"
-	asteroidTemplate "Sparse"
-	dustCloudTemplate "IceSafe"
-	meshName "Planet_Ice_0"
+	typeNameStringID "Axeldude_PlanetType_Ice"
+	asteroidTemplate "Empty"
+	dustCloudTemplate "Empty"
+	meshName "Planet_Ice_2"
 	cloudColor 0
 	nullMeshRadius 0.000000
 	nullMeshParticleEffect ""
-	hudIcon "HUDICON_PLANET_ICE2"
-	smallHudIcon "HUDICONSMALL_PLANET_ICE2"
-	infoCardIcon "INFOCARDICON_PLANET_ICE2"
-	mainViewIcon "MAINVIEWICON_PLANET_ICE2"
-	undetectedMainViewIcon "MAINVIEWUNDETECTEDICON_PLANET_ICE2"
-	picture "PICTURE_PLANET_ICE2"
+	hudIcon "Axeldude_PLANET_Ice_1"
+	smallHudIcon "Axeldude_PLANET_Ice_1"
+	infoCardIcon "Axeldude_PLANET_Ice_1"
+	mainViewIcon "Axeldude_PLANET_Ice_1"
+	undetectedMainViewIcon "Axeldude_PLANET_Ice_1_Unknown"
+	picture ""
 	shouldPrefer FALSE
 meshInfo
-	typeNameStringID "IDS_PLANETTYPE_ICE"
-	asteroidTemplate "Sparse"
-	dustCloudTemplate "IceSafe"
-	meshName "Planet_Ice_0"
+	typeNameStringID "Axeldude_PlanetType_Ice"
+	asteroidTemplate "Empty"
+	dustCloudTemplate "Empty"
+	meshName "Planet_Ice_3"
 	cloudColor 0
 	nullMeshRadius 0.000000
 	nullMeshParticleEffect ""
-	hudIcon "HUDICON_PLANET_ICE3"
-	smallHudIcon "HUDICONSMALL_PLANET_ICE3"
-	infoCardIcon "INFOCARDICON_PLANET_ICE3"
-	mainViewIcon "MAINVIEWICON_PLANET_ICE3"
-	undetectedMainViewIcon "MAINVIEWUNDETECTEDICON_PLANET_ICE3"
-	picture "PICTURE_PLANET_ICE3"
+	hudIcon "Axeldude_PLANET_Ice_1"
+	smallHudIcon "Axeldude_PLANET_Ice_1"
+	infoCardIcon "Axeldude_PLANET_Ice_1"
+	mainViewIcon "Axeldude_PLANET_Ice_1"
+	undetectedMainViewIcon "Axeldude_PLANET_Ice_1_Unknown"
+	picture ""
 	shouldPrefer FALSE
 minZoomDistanceMult 2.750000
 glowColor 7f52afe1
@@ -70,15 +70,15 @@ planetResourceSetupInfo
 	totalMaxResourceAsteroids 4
 	metalResourceAsteroidSetup
 		minCount 0
-		maxCount 0
-		extractionRate 0.000000
-		refineryRate 0.000000
+		maxCount 1
+		extractionRate 0.540000
+		refineryRate 0.078000
 		maxRefineryCount 0
 	crystalResourceAsteroidSetup
-		minCount 2
-		maxCount 4
-		extractionRate 0.400000
-		refineryRate 0.060000
+		minCount 0
+		maxCount 3
+		extractionRate 0.460000
+		refineryRate 0.066000
 		maxRefineryCount 3
 	neutralMetalResourceAsteroidSetup
 		minCount 0
@@ -408,38 +408,15 @@ skyboxScalars
 	diffuseScalar 0.720000
 	ambientScalar 0.800000
 requiredPlanetBonusesCount 0
-possibleRandomPlanetBonusesCount 31
-bonus "PlanetBonusCavernSystem"
-bonus "PlanetBonusGeothermalHeatSource"
-bonus "PlanetBonusHeliumAtmosphere"
-bonus "PlanetBonusHugeGlaciers"
-bonus "PlanetBonusLowGravity"
-bonus "PlanetBonusMegaFauna"
-bonus "PlanetBonusStrictSecurity"
-bonus "PlanetBonusThawCells"
-bonus "PlanetBonusTundraFarms"
-bonus "PlanetBonusVacationCenter"
-bonus "PlanetBonusFortressWorld"
-bonus "PlanetBonusAbandonedNaniteFactory"
-bonus "PlanetBonusOrderedSociety"
-bonus "PlanetBonusFeudalSociety"
-bonus "PlanetBonusFreeMarketSociety"
-bonus "PlanetBonusChaoticSociety"
-bonus "PlanetBonusModernSociety"
-bonus "PlanetBonusPacifistSociety"
-bonus "PlanetBonusSubsurfaceCrystalDeposits"
-bonus "PlanetBonusFusionPowerCore"
-bonus "PlanetBonusVirtualRealityPark"
-bonus "PlanetBonusDenseAtmosphere"
-bonus "PlanetBonusHealingNanites"
-bonus "PlanetBonusQuantumCommHub"
-bonus "PlanetBonusDeathWorld"
-bonus "PlanetBonusSubzeroTwisters"
-bonus "PlanetBonusPlanetaryCorruption"
-bonus "PlanetBonusFrequentRaiders"
-bonus "PlanetBonusTrainingAcademy"
-bonus "PlanetBonusShipFactories"
-bonus "PlanetBonusPopulationBoom"
+possibleRandomPlanetBonusesCount 8
+bonus "Axeldude_PLANETBONUS_LVL-1_GreenhouseIce"
+bonus "Axeldude_PLANETBONUS_LVL-1_LowAltitudeDebris"
+bonus "Axeldude_PLANETBONUS_LVL-1_SeismicActivity"
+bonus "Axeldude_PLANETBONUS_LVL-1_WeakMagneticField"
+bonus "Axeldude_PLANETBONUS_LVL-1_MeteorShowers"
+bonus "Axeldude_PLANETBONUS_LVL0_Blizards"
+bonus "Axeldude_PLANETBONUS_LVL0_CavernSystem"
+bonus "Axeldude_PLANETBONUS_LVL0_Ruins"
 ambienceSoundID "EFFECT_PLANETAMBIENCE_LOOP"
 renderAsVolcanic FALSE
 planetRuinDef

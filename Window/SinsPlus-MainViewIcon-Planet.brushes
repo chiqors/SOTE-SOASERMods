@@ -1,0 +1,173 @@
+﻿TXT
+onlyLoadOnDemand FALSE
+brushCount 34
+brush
+	name "MAINVIEWICON_PLANET_OCEAN0"
+	content "Simple"
+	fileName "SinsPlus"
+	pixelBox [ 856 , 8 , 50 , 50 ]
+brush
+	name "MAINVIEWUNDETECTEDICON_PLANET_OCEAN0"
+	content "Simple"
+	fileName "SinsPlus"
+	pixelBox [ 328 , 496 , 50 , 50 ]
+brush
+	name "MAINVIEWICON_PLANET_ROCK0"
+	content "Simple"
+	fileName "SinsPlus"
+	pixelBox [ 912 , 8 , 50 , 50 ]
+brush
+	name "MAINVIEWUNDETECTEDICON_PLANET_ROCK0"
+	content "Simple"
+	fileName "SinsPlus"
+	pixelBox [ 384 , 496 , 50 , 50 ]
+brush
+	name "MAINVIEWICON_PLANET_FOREST0"
+	content "Simple"
+	fileName "SinsPlus"
+	pixelBox [ 968 , 8 , 50 , 50 ]
+brush
+	name "MAINVIEWUNDETECTEDICON_PLANET_FOREST0"
+	content "Simple"
+	fileName "SinsPlus"
+	pixelBox [ 440 , 496 , 50 , 50 ]
+brush
+	name "MAINVIEWICON_PLANET_CITY0"
+	content "Simple"
+	fileName "SinsPlus"
+	pixelBox [ 856 , 64 , 50 , 50 ]
+brush
+	name "MAINVIEWUNDETECTEDICON_PLANET_CITY0"
+	content "Simple"
+	fileName "SinsPlus"
+	pixelBox [ 496 , 496 , 50 , 50 ]
+brush
+	name "MAINVIEWICON_PLANET_CITY1"
+	content "Simple"
+	fileName "SinsPlus"
+	pixelBox [ 856 , 232 , 50 , 50 ]
+brush
+	name "MAINVIEWUNDETECTEDICON_PLANET_CITY1"
+	content "Simple"
+	fileName "SinsPlus"
+	pixelBox [ 496 , 552 , 50 , 50 ]
+brush
+	name "MAINVIEWICON_PLANET_CITY2"
+	content "Simple"
+	fileName "SinsPlus"
+	pixelBox [ 912 , 232 , 50 , 50 ]
+brush
+	name "MAINVIEWUNDETECTEDICON_PLANET_CITY2"
+	content "Simple"
+	fileName "SinsPlus"
+	pixelBox [ 552 , 552 , 50 , 50 ]
+brush
+	name "MAINVIEWICON_PLANET_TOXIC0"
+	content "Simple"
+	fileName "SinsPlus"
+	pixelBox [ 912 , 64 , 50 , 50 ]
+brush
+	name "MAINVIEWUNDETECTEDICON_PLANET_TOXIC0"
+	content "Simple"
+	fileName "SinsPlus"
+	pixelBox [ 552 , 496 , 50 , 50 ]
+brush
+	name "MAINVIEWICON_PLANET_PARADISE0"
+	content "Simple"
+	fileName "SinsPlus"
+	pixelBox [ 968 , 64 , 50 , 50 ]
+brush
+	name "MAINVIEWUNDETECTEDICON_PLANET_PARADISE0"
+	content "Simple"
+	fileName "SinsPlus"
+	pixelBox [ 608 , 496 , 50 , 50 ]
+brush
+	name "MAINVIEWICON_PLANET_PARADISE1"
+	content "Simple"
+	fileName "SinsPlus"
+	pixelBox [ 856 , 288 , 50 , 50 ]
+brush
+	name "MAINVIEWUNDETECTEDICON_PLANET_PARADISE1"
+	content "Simple"
+	fileName "SinsPlus"
+	pixelBox [ 664 , 552 , 50 , 50 ]
+brush
+	name "MAINVIEWICON_PLANET_PARADISE2"
+	content "Simple"
+	fileName "SinsPlus"
+	pixelBox [ 912 , 288 , 50 , 50 ]
+brush
+	name "MAINVIEWUNDETECTEDICON_PLANET_PARADISE2"
+	content "Simple"
+	fileName "SinsPlus"
+	pixelBox [ 720 , 552 , 50 , 50 ]
+brush
+	name "MAINVIEWICON_PLANET_MILITARY0"
+	content "Simple"
+	fileName "SinsPlus"
+	pixelBox [ 856 , 120 , 50 , 50 ]
+brush
+	name "MAINVIEWUNDETECTEDICON_PLANET_MILITARY0"
+	content "Simple"
+	fileName "SinsPlus"
+	pixelBox [ 664 , 496 , 50 , 50 ]
+brush
+	name "MAINVIEWICON_PLANET_INDUSTRIAL0"
+	content "Simple"
+	fileName "SinsPlus"
+	pixelBox [ 912 , 120 , 50 , 50 ]
+brush
+	name "MAINVIEWUNDETECTEDICON_PLANET_INDUSTRIAL0"
+	content "Simple"
+	fileName "SinsPlus"
+	pixelBox [ 720 , 496 , 50 , 50 ]
+brush
+	name "MAINVIEWICON_PLANET_INDUSTRIAL1"
+	content "Simple"
+	fileName "SinsPlus"
+	pixelBox [ 968 , 232 , 50 , 50 ]
+brush
+	name "MAINVIEWUNDETECTEDICON_PLANET_INDUSTRIAL1"
+	content "Simple"
+	fileName "SinsPlus"
+	pixelBox [ 608 , 552 , 50 , 50 ]
+brush
+	name "MAINVIEWICON_PLANET_SWAMP0"
+	content "Simple"
+	fileName "SinsPlus"
+	pixelBox [ 968 , 120 , 50 , 50 ]
+brush
+	name "MAINVIEWUNDETECTEDICON_PLANET_SWAMP0"
+	content "Simple"
+	fileName "SinsPlus"
+	pixelBox [ 776 , 496 , 50 , 50 ]
+brush
+	name "MAINVIEWICON_PLANET_GRASS0"
+	content "Simple"
+	fileName "SinsPlus"
+	pixelBox [ 856 , 176 , 50 , 50 ]
+brush
+	name "MAINVIEWUNDETECTEDICON_PLANET_GRASS0"
+	content "Simple"
+	fileName "SinsPlus"
+	pixelBox [ 328 , 552 , 50 , 50 ]
+brush
+	name "MAINVIEWICON_PLANET_RELIC0"
+	content "Simple"
+	fileName "SinsPlus"
+	pixelBox [ 912 , 176 , 50 , 50 ]
+brush
+	name "MAINVIEWUNDETECTEDICON_PLANET_RELIC0"
+	content "Simple"
+	fileName "SinsPlus"
+	pixelBox [ 384 , 552 , 50 , 50 ]
+brush
+	name "MAINVIEWICON_PLANET_GRAVE0"
+	content "Simple"
+	fileName "SinsPlus"
+	pixelBox [ 968 , 176 , 50 , 50 ]
+brush
+	name "MAINVIEWUNDETECTEDICON_PLANET_GRAVE0"
+	content "Simple"
+	fileName "SinsPlus"
+	pixelBox [ 440 , 552 , 50 , 50 ]

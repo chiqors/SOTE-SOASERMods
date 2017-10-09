@@ -1,75 +1,45 @@
 ﻿TXT
 entityType "Planet"
-meshInfoCount 4
+meshInfoCount 2
 meshInfo
-	typeNameStringID "IDS_PLANETTYPE_VOLCANIC"
-	asteroidTemplate "Sparse"
-	dustCloudTemplate "PuffySparse"
-	meshName "Planet_Volcanic_0"
-	cloudColor ffed8b3b
-	nullMeshRadius 0.000000
-	nullMeshParticleEffect ""
-	hudIcon "HUDICON_PLANET_VOLCANIC0"
-	smallHudIcon "HUDICONSMALL_PLANET_VOLCANIC0"
-	infoCardIcon "INFOCARDICON_PLANET_VOLCANIC0"
-	mainViewIcon "MAINVIEWICON_PLANET_VOLCANIC0"
-	undetectedMainViewIcon "MAINVIEWUNDETECTEDICON_PLANET_VOLCANIC0"
-	picture "PICTURE_PLANET_VOLCANIC0"
-	shouldPrefer FALSE
-meshInfo
-	typeNameStringID "IDS_PLANETTYPE_VOLCANIC"
-	asteroidTemplate "Ring"
-	dustCloudTemplate "Sparse"
-	meshName "Planet_Volcanic_0"
-	cloudColor ffed8b3b
-	nullMeshRadius 0.000000
-	nullMeshParticleEffect ""
-	hudIcon "HUDICON_PLANET_VOLCANIC1"
-	smallHudIcon "HUDICONSMALL_PLANET_VOLCANIC1"
-	infoCardIcon "INFOCARDICON_PLANET_VOLCANIC1"
-	mainViewIcon "MAINVIEWICON_PLANET_VOLCANIC1"
-	undetectedMainViewIcon "MAINVIEWUNDETECTEDICON_PLANET_VOLCANIC1"
-	picture "PICTURE_PLANET_VOLCANIC1"
-	shouldPrefer FALSE
-meshInfo
-	typeNameStringID "IDS_PLANETTYPE_VOLCANIC"
-	asteroidTemplate "Wall"
+	typeNameStringID "Axeldude_PlanetType_Volcanic"
+	asteroidTemplate "Empty"
 	dustCloudTemplate "Empty"
 	meshName "Planet_Volcanic_0"
-	cloudColor ffed8b3b
+	cloudColor 448f6d5b
 	nullMeshRadius 0.000000
 	nullMeshParticleEffect ""
-	hudIcon "HUDICON_PLANET_VOLCANIC2"
-	smallHudIcon "HUDICONSMALL_PLANET_VOLCANIC2"
-	infoCardIcon "INFOCARDICON_PLANET_VOLCANIC2"
-	mainViewIcon "MAINVIEWICON_PLANET_VOLCANIC2"
-	undetectedMainViewIcon "MAINVIEWUNDETECTEDICON_PLANET_VOLCANIC2"
-	picture "PICTURE_PLANET_VOLCANIC2"
+	hudIcon "Axeldude_PLANET_Volcanic_0"
+	smallHudIcon "Axeldude_PLANET_Volcanic_0"
+	infoCardIcon "Axeldude_PLANET_Volcanic_0"
+	mainViewIcon "Axeldude_PLANET_Volcanic_0"
+	undetectedMainViewIcon "Axeldude_PLANET_Volcanic_0_Unknown"
+	picture ""
 	shouldPrefer FALSE
 meshInfo
-	typeNameStringID "IDS_PLANETTYPE_VOLCANIC"
+	typeNameStringID "Axeldude_PlanetType_Volcanic"
 	asteroidTemplate "Empty"
-	dustCloudTemplate "PuffyDense"
-	meshName "Planet_Volcanic_0"
-	cloudColor ffed8b3b
+	dustCloudTemplate "Empty"
+	meshName "Planet_Volcanic_1"
+	cloudColor 448f6d5b
 	nullMeshRadius 0.000000
 	nullMeshParticleEffect ""
-	hudIcon "HUDICON_PLANET_VOLCANIC2"
-	smallHudIcon "HUDICONSMALL_PLANET_VOLCANIC2"
-	infoCardIcon "INFOCARDICON_PLANET_VOLCANIC2"
-	mainViewIcon "MAINVIEWICON_PLANET_VOLCANIC2"
-	undetectedMainViewIcon "MAINVIEWUNDETECTEDICON_PLANET_VOLCANIC2"
-	picture "PICTURE_PLANET_VOLCANIC2"
+	hudIcon "Axeldude_PLANET_Volcanic_1"
+	smallHudIcon "Axeldude_PLANET_Volcanic_1"
+	infoCardIcon "Axeldude_PLANET_Volcanic_1"
+	mainViewIcon "Axeldude_PLANET_Volcanic_1"
+	undetectedMainViewIcon "Axeldude_PLANET_Volcanic_1_Unknown"
+	picture ""
 	shouldPrefer FALSE
 minZoomDistanceMult 2.750000
 glowColor 8f6b1e00
-ringColor ffed8b3b
-cloudLayerTextureName "PlanetCloudLayer"
+ringColor ffffffff
+cloudLayerTextureName "Axeldude_Cloudmap_HotHouse"
 planetResourceSetupInfo
 	asteroidSpawnAngleVariance 3.141593
 	totalMaxResourceAsteroids 4
 	metalResourceAsteroidSetup
-		minCount 4
+		minCount 0
 		maxCount 4
 		extractionRate 0.400000
 		refineryRate 0.060000
