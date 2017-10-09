@@ -1,69 +1,99 @@
 ﻿TXT
 entityType "Planet"
-meshInfoCount 3
+meshInfoCount 5
 meshInfo
-	typeNameStringID "IDS_PLANETTYPE_DESERT"
+	typeNameStringID "Axeldude_PlanetType_Terran"
 	asteroidTemplate "Empty"
-	dustCloudTemplate "Sparse"
-	meshName "Planet_Desert_2"
-	cloudColor ffe7c362
-	nullMeshRadius 0.000000
-	nullMeshParticleEffect ""
-	hudIcon "HUDICON_PLANET_DESERT0"
-	smallHudIcon "HUDICONSMALL_PLANET_DESERT0"
-	infoCardIcon "INFOCARDICON_PLANET_DESERT0"
-	mainViewIcon "MAINVIEWICON_PLANET_DESERT0"
-	undetectedMainViewIcon "MAINVIEWUNDETECTEDICON_PLANET_DESERT0"
-	picture "PICTURE_PLANET_DESERT0"
-	shouldPrefer FALSE
-meshInfo
-	typeNameStringID "IDS_PLANETTYPE_DESERT"
-	asteroidTemplate "Sparse"
-	dustCloudTemplate "Dense"
-	meshName "Planet_Desert_2"
-	cloudColor ffe7c362
-	nullMeshRadius 0.000000
-	nullMeshParticleEffect ""
-	hudIcon "HUDICON_PLANET_DESERT1"
-	smallHudIcon "HUDICONSMALL_PLANET_DESERT1"
-	infoCardIcon "INFOCARDICON_PLANET_DESERT1"
-	mainViewIcon "MAINVIEWICON_PLANET_DESERT1"
-	undetectedMainViewIcon "MAINVIEWUNDETECTEDICON_PLANET_DESERT1"
-	picture "PICTURE_PLANET_DESERT1"
-	shouldPrefer FALSE
-meshInfo
-	typeNameStringID "IDS_PLANETTYPE_DESERT"
-	asteroidTemplate "Sparse"
 	dustCloudTemplate "Empty"
-	meshName "Planet_Desert_2"
-	cloudColor ffe7c362
+	meshName "Axeldude_PLANET_NORMAL_TerranHome_0"
+	cloudColor ffffffff
 	nullMeshRadius 0.000000
 	nullMeshParticleEffect ""
-	hudIcon "HUDICON_PLANET_DESERT2"
-	smallHudIcon "HUDICONSMALL_PLANET_DESERT2"
-	infoCardIcon "INFOCARDICON_PLANET_DESERT2"
-	mainViewIcon "MAINVIEWICON_PLANET_DESERT2"
-	undetectedMainViewIcon "MAINVIEWUNDETECTEDICON_PLANET_DESERT2"
-	picture "PICTURE_PLANET_DESERT2"
+	hudIcon "Axeldude_PLANET_TerranHome_0"
+	smallHudIcon "Axeldude_PLANET_TerranHome_0"
+	infoCardIcon "Axeldude_PLANET_TerranHome_0"
+	mainViewIcon "Axeldude_PLANET_TerranHome_0"
+	undetectedMainViewIcon "Axeldude_PLANET_TerranHome_0_Unknown"
+	picture ""
+	shouldPrefer FALSE
+meshInfo
+	typeNameStringID "Axeldude_PlanetType_Terran"
+	asteroidTemplate "Empty"
+	dustCloudTemplate "Empty"
+	meshName "Planet_Terran_0"
+	cloudColor ffffffff
+	nullMeshRadius 0.000000
+	nullMeshParticleEffect ""
+	hudIcon "Axeldude_PLANET_Terran_0"
+	smallHudIcon "Axeldude_PLANET_Terran_0"
+	infoCardIcon "Axeldude_PLANET_Terran_0"
+	mainViewIcon "Axeldude_PLANET_Terran_0"
+	undetectedMainViewIcon "Axeldude_PLANET_Terran_0_Unknown"
+	picture ""
+	shouldPrefer FALSE
+meshInfo
+	typeNameStringID "Axeldude_PlanetType_Terran"
+	asteroidTemplate "Empty"
+	dustCloudTemplate "Empty"
+	meshName "Planet_Terran_2"
+	cloudColor ffffffff
+	nullMeshRadius 0.000000
+	nullMeshParticleEffect ""
+	hudIcon "Axeldude_PLANET_Terran_1"
+	smallHudIcon "Axeldude_PLANET_Terran_1"
+	infoCardIcon "Axeldude_PLANET_Terran_1"
+	mainViewIcon "Axeldude_PLANET_Terran_1"
+	undetectedMainViewIcon "Axeldude_PLANET_Terran_1_Unknown"
+	picture ""
+	shouldPrefer FALSE
+meshInfo
+	typeNameStringID "Axeldude_PlanetType_Desert"
+	asteroidTemplate "Empty"
+	dustCloudTemplate "Empty"
+	meshName "Planet_Desert_1"
+	cloudColor ffffffff
+	nullMeshRadius 0.000000
+	nullMeshParticleEffect ""
+	hudIcon "Axeldude_PLANET_Desert_0"
+	smallHudIcon "Axeldude_PLANET_Desert_0"
+	infoCardIcon "Axeldude_PLANET_Desert_0"
+	mainViewIcon "Axeldude_PLANET_Desert_0"
+	undetectedMainViewIcon "Axeldude_PLANET_Desert_0_Unknown"
+	picture ""
+	shouldPrefer FALSE
+meshInfo
+	typeNameStringID "Axeldude_PlanetType_Desert"
+	asteroidTemplate "Empty"
+	dustCloudTemplate "Empty"
+	meshName "Axeldude_PLANET_NORMAL_Desert_4"
+	cloudColor 7fb5967b
+	nullMeshRadius 0.000000
+	nullMeshParticleEffect ""
+	hudIcon "Axeldude_PLANET_Normal_Desert_4"
+	smallHudIcon "Axeldude_PLANET_Normal_Desert_4"
+	infoCardIcon "Axeldude_PLANET_Normal_Desert_4"
+	mainViewIcon "Axeldude_PLANET_Normal_Desert_4"
+	undetectedMainViewIcon "Axeldude_PLANET_Normal_Desert_4_Unknown"
+	picture ""
 	shouldPrefer FALSE
 minZoomDistanceMult 2.750000
-glowColor 7fb87a10
-ringColor ffe7c362
-cloudLayerTextureName "PlanetCloudLayer"
+glowColor 8fffffff
+ringColor ffffffff
+cloudLayerTextureName "Axeldude_Cloudmap_Dense"
 planetResourceSetupInfo
 	asteroidSpawnAngleVariance 1.256637
-	totalMaxResourceAsteroids 4
+	totalMaxResourceAsteroids 3
 	metalResourceAsteroidSetup
 		minCount 2
 		maxCount 2
-		extractionRate 0.400000
-		refineryRate 0.060000
+		extractionRate 0.540000
+		refineryRate 0.078000
 		maxRefineryCount 3
 	crystalResourceAsteroidSetup
-		minCount 2
-		maxCount 2
-		extractionRate 0.400000
-		refineryRate 0.060000
+		minCount 1
+		maxCount 1
+		extractionRate 0.460000
+		refineryRate 0.066000
 		maxRefineryCount 3
 	neutralMetalResourceAsteroidSetup
 		minCount 0
@@ -81,7 +111,7 @@ isAsteroid FALSE
 healthRegenRate 6.000000
 planetUpgradeDef
 	path:Population
-		stageCount 4
+		stageCount 5
 		stage
 			price
 				credits 0.000000
@@ -118,8 +148,17 @@ planetUpgradeDef
 			maxPopulation 190.000000
 			populationGrowthRate 0.125000
 			developmentTaxPenalty 0.000000
+		stage
+			price
+				credits 750.000000
+				metal 225.000000
+				crystal 225.000000
+			upgradeTime 90.000000
+			maxPopulation 280.000000
+			populationGrowthRate 0.125000
+			developmentTaxPenalty 0.000000
 	path:CivilianModules
-		stageCount 5
+		stageCount 3
 		stage
 			price
 				credits 0.000000
@@ -143,22 +182,6 @@ planetUpgradeDef
 				crystal 125.000000
 			upgradeTime 60.000000
 			maxModuleSlotCount:Civilian 24.000000
-			maxModuleConstructorCount 1
-		stage
-			price
-				credits 650.000000
-				metal 200.000000
-				crystal 175.000000
-			upgradeTime 75.000000
-			maxModuleSlotCount:Civilian 30.000000
-			maxModuleConstructorCount 1
-		stage
-			price
-				credits 750.000000
-				metal 225.000000
-				crystal 225.000000
-			upgradeTime 90.000000
-			maxModuleSlotCount:Civilian 36.000000
 			maxModuleConstructorCount 1
 	path:TacticalModules
 		stageCount 3
@@ -185,7 +208,7 @@ planetUpgradeDef
 				crystal 125.000000
 			upgradeTime 60.000000
 			maxModuleSlotCount:Tactical 35.000000
-			maxModuleConstructorCount 2
+			maxModuleConstructorCount 3
 	path:Home
 		stageCount 2
 		stage
@@ -259,7 +282,7 @@ planetUpgradeDef
 			upgradeTime 75.000000
 			maxHealth 7500.000000
 	path:Social
-		stageCount 5
+		stageCount 7
 		stage
 			price
 				credits 0.000000
@@ -280,8 +303,8 @@ planetUpgradeDef
 			maxPopulation 10.000000
 			populationGrowthRate 0.125000
 			tradeIncomeModifier -0.150000
-			shipBuildRateModifier -0.083334
-			cultureSpreadRateModifier 0.208335
+			shipBuildRateModifier -0.052084
+			cultureSpreadRateModifier 0.166667
 		stage
 			price
 				credits 550.000000
@@ -291,8 +314,8 @@ planetUpgradeDef
 			maxPopulation 30.000000
 			populationGrowthRate 0.138000
 			tradeIncomeModifier -0.250000
-			shipBuildRateModifier -0.166668
-			cultureSpreadRateModifier 0.312503
+			shipBuildRateModifier -0.104168
+			cultureSpreadRateModifier 0.333334
 		stage
 			price
 				credits 650.000000
@@ -302,8 +325,8 @@ planetUpgradeDef
 			maxPopulation 100.000000
 			populationGrowthRate 0.151000
 			tradeIncomeModifier -0.350000
-			shipBuildRateModifier -0.250002
-			cultureSpreadRateModifier 0.468754
+			shipBuildRateModifier -0.156252
+			cultureSpreadRateModifier 0.500001
 		stage
 			price
 				credits 750.000000
@@ -313,10 +336,32 @@ planetUpgradeDef
 			maxPopulation 190.000000
 			populationGrowthRate 0.169000
 			tradeIncomeModifier -0.450000
-			shipBuildRateModifier -0.333336
-			cultureSpreadRateModifier 0.703111
+			shipBuildRateModifier -0.208336
+			cultureSpreadRateModifier 0.666668
+		stage
+			price
+				credits 850.000000
+				metal 250.000000
+				crystal 275.000000
+			upgradeTime 105.000000
+			maxPopulation 280.000000
+			populationGrowthRate 0.195000
+			tradeIncomeModifier -0.550000
+			shipBuildRateModifier -0.260420
+			cultureSpreadRateModifier 0.833335
+		stage
+			price
+				credits 950.000000
+				metal 275.000000
+				crystal 325.000000
+			upgradeTime 120.000000
+			maxPopulation 420.000000
+			populationGrowthRate 0.224000
+			tradeIncomeModifier -0.660000
+			shipBuildRateModifier -0.312504
+			cultureSpreadRateModifier 1.000000
 	path:Industry
-		stageCount 4
+		stageCount 5
 		stage
 			price
 				credits 0.000000
@@ -335,7 +380,7 @@ planetUpgradeDef
 			upgradeTime 45.000000
 			maxPopulation -3.000000
 			tradeIncomeModifier 0.100000
-			shipBuildRateModifier 0.166667
+			shipBuildRateModifier 0.104168
 			cultureSpreadRateModifier -0.166667
 		stage
 			price
@@ -345,7 +390,7 @@ planetUpgradeDef
 			upgradeTime 60.000000
 			maxPopulation -9.000000
 			tradeIncomeModifier 0.200000
-			shipBuildRateModifier 0.333334
+			shipBuildRateModifier 0.208336
 			cultureSpreadRateModifier -0.333334
 		stage
 			price
@@ -355,8 +400,18 @@ planetUpgradeDef
 			upgradeTime 75.000000
 			maxPopulation -30.000000
 			tradeIncomeModifier 0.300000
-			shipBuildRateModifier 0.500001
+			shipBuildRateModifier 0.312504
 			cultureSpreadRateModifier -0.500001
+		stage
+			price
+				credits 750.000000
+				metal 225.000000
+				crystal 225.000000
+			upgradeTime 90.000000
+			maxPopulation -57.000000
+			tradeIncomeModifier 0.400000
+			shipBuildRateModifier 0.416672
+			cultureSpreadRateModifier -0.666680
 	path:Smuggler
 		stageCount 4
 		stage
@@ -391,28 +446,25 @@ planetUpgradeDef
 			upgradeTime 75.000000
 			corruptionPercent 0.750000
 			smugglingPercent 0.045000
-ringsChance 0.050000
+ringsChance 0.000000
 isColonizable TRUE
-planetTypeForResearch "Desert"
-skyboxScalarsCount 6
-skyboxScalars
-	diffuseScalar 1.100000
-	ambientScalar 0.100000
-skyboxScalars
-	diffuseScalar 0.650000
-	ambientScalar 1.000000
+planetTypeForResearch "Terran"
+skyboxScalarsCount 5
 skyboxScalars
 	diffuseScalar 1.000000
 	ambientScalar 0.200000
+skyboxScalars
+	diffuseScalar 0.600000
+	ambientScalar 0.500000
+skyboxScalars
+	diffuseScalar 0.800000
+	ambientScalar 0.300000
+skyboxScalars
+	diffuseScalar 0.600000
+	ambientScalar 0.700000
 skyboxScalars
 	diffuseScalar 0.700000
-	ambientScalar 0.800000
-skyboxScalars
-	diffuseScalar 1.000000
-	ambientScalar 0.200000
-skyboxScalars
-	diffuseScalar 1.000000
-	ambientScalar 0.200000
+	ambientScalar 0.250000
 requiredPlanetBonusesCount 0
 possibleRandomPlanetBonusesCount 0
 ambienceSoundID "EFFECT_PLANETAMBIENCE_LOOP"
@@ -423,9 +475,9 @@ planetRuinDef
 	effectName "StripToTheCore_Planet_TerranHome"
 	startTime 9.000000
 	soundID "EFFECT_STRIPPEDTOTHECORE"
-	creditsOnStrippedToTheCore 8000.000000
-	metalOnStrippedToTheCore 1000.000000
-	crystalOnStrippedToTheCore 335.000000
+	creditsOnStrippedToTheCore 13400.000000
+	metalOnStrippedToTheCore 6700.000000
+	crystalOnStrippedToTheCore 3350.000000
 	extraScuttleTimeOnStrip 340.000000
 dlcId 204880
 ShieldMeshName "Shield_PlanetSmall"

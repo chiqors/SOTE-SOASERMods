@@ -24,7 +24,7 @@ ParticleSimulation
 		ParticleStartColor ffffffff
 		ParticleWidth 1.000000
 		ParticleHeight 1.000000
-		MeshName "C:\Users\administrador\OneDrive for Business\OneDrive - HSBS\EVE\SINS\ForgeTools 3\Particle Forge\Mesh\arkanor.mesh"
+		MeshName "arkanor.mesh"
 		Position [ 0.000000 0.000000 0.000000 ]
 		Orientation
 			 [ 1.000000 0.000000 0.000000 ]
@@ -84,7 +84,7 @@ ParticleSimulation
 		ParticleStartColor ffffffff
 		ParticleWidth 1.000000
 		ParticleHeight 1.000000
-		MeshName "C:\Users\administrador\OneDrive for Business\OneDrive - HSBS\EVE\SINS\ForgeTools 3\Particle Forge\Mesh\arkanor.mesh"
+		MeshName "arkanor.mesh"
 		Position [ 0.000000 0.000000 0.000000 ]
 		Orientation
 			 [ 1.000000 0.000000 0.000000 ]
@@ -144,7 +144,7 @@ ParticleSimulation
 		ParticleStartColor ffffffff
 		ParticleWidth 1.000000
 		ParticleHeight 1.000000
-		MeshName "C:\Users\administrador\OneDrive for Business\OneDrive - HSBS\EVE\SINS\ForgeTools 3\Particle Forge\Mesh\arkanor.mesh"
+		MeshName "arkanor.mesh"
 		Position [ 0.000000 0.000000 0.000000 ]
 		Orientation
 			 [ 1.000000 0.000000 0.000000 ]
@@ -204,7 +204,7 @@ ParticleSimulation
 		ParticleStartColor ffffffff
 		ParticleWidth 1.000000
 		ParticleHeight 1.000000
-		MeshName "C:\Users\administrador\OneDrive for Business\OneDrive - HSBS\EVE\SINS\ForgeTools 3\Particle Forge\Mesh\arkanor.mesh"
+		MeshName "arkanor.mesh"
 		Position [ 0.000000 0.000000 0.000000 ]
 		Orientation
 			 [ 1.000000 0.000000 0.000000 ]
@@ -264,7 +264,7 @@ ParticleSimulation
 		ParticleStartColor ffffffff
 		ParticleWidth 1.000000
 		ParticleHeight 1.000000
-		MeshName "C:\Users\administrador\OneDrive for Business\OneDrive - HSBS\EVE\SINS\ForgeTools 3\Particle Forge\Mesh\arkanor.mesh"
+		MeshName "arkanor.mesh"
 		Position [ 0.000000 0.000000 0.000000 ]
 		Orientation
 			 [ 1.000000 0.000000 0.000000 ]
@@ -324,7 +324,7 @@ ParticleSimulation
 		ParticleStartColor ffffffff
 		ParticleWidth 1.000000
 		ParticleHeight 1.000000
-		MeshName "C:\Users\administrador\OneDrive for Business\OneDrive - HSBS\EVE\SINS\ForgeTools 3\Particle Forge\Mesh\arkanor.mesh"
+		MeshName "arkanor.mesh"
 		Position [ 0.000000 0.000000 0.000000 ]
 		Orientation
 			 [ 1.000000 0.000000 0.000000 ]
@@ -384,7 +384,7 @@ ParticleSimulation
 		ParticleStartColor ffffffff
 		ParticleWidth 1.000000
 		ParticleHeight 1.000000
-		MeshName "C:\Users\administrador\OneDrive for Business\OneDrive - HSBS\EVE\SINS\ForgeTools 3\Particle Forge\Mesh\arkanor.mesh"
+		MeshName "arkanor.mesh"
 		Position [ 0.000000 0.000000 0.000000 ]
 		Orientation
 			 [ 1.000000 0.000000 0.000000 ]

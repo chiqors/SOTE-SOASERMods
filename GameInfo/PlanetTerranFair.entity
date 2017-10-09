@@ -1,96 +1,51 @@
 ﻿TXT
 entityType "Planet"
-meshInfoCount 5
+meshInfoCount 2
 meshInfo
-	typeNameStringID "IDS_PLANETTYPE_TERRAN"
-	asteroidTemplate "Sparse"
-	dustCloudTemplate "Sparse"
-	meshName "Planet_Terran_2"
-	cloudColor ffffffff
-	nullMeshRadius 0.000000
-	nullMeshParticleEffect ""
-	hudIcon "HUDICON_PLANET_TERRAN0"
-	smallHudIcon "HUDICONSMALL_PLANET_TERRAN0"
-	infoCardIcon "INFOCARDICON_PLANET_TERRAN0"
-	mainViewIcon "MAINVIEWICON_PLANET_TERRAN0"
-	undetectedMainViewIcon "MAINVIEWUNDETECTEDICON_PLANET_TERRAN0"
-	picture "PICTURE_PLANET_TERRAN0"
-	shouldPrefer FALSE
-meshInfo
-	typeNameStringID "IDS_PLANETTYPE_TERRAN"
-	asteroidTemplate "Dense"
-	dustCloudTemplate "Sparse"
-	meshName "Planet_Terran_2"
-	cloudColor ffffffff
-	nullMeshRadius 0.000000
-	nullMeshParticleEffect ""
-	hudIcon "HUDICON_PLANET_TERRAN1"
-	smallHudIcon "HUDICONSMALL_PLANET_TERRAN1"
-	infoCardIcon "INFOCARDICON_PLANET_TERRAN1"
-	mainViewIcon "MAINVIEWICON_PLANET_TERRAN1"
-	undetectedMainViewIcon "MAINVIEWUNDETECTEDICON_PLANET_TERRAN1"
-	picture "PICTURE_PLANET_TERRAN1"
-	shouldPrefer FALSE
-meshInfo
-	typeNameStringID "IDS_PLANETTYPE_TERRAN"
-	asteroidTemplate "Wall"
+	typeNameStringID "Axeldude_PlanetType_Terran"
+	asteroidTemplate "Empty"
 	dustCloudTemplate "Empty"
-	meshName "Planet_Terran_2"
+	meshName "Planet_Terran_0"
 	cloudColor ffffffff
 	nullMeshRadius 0.000000
 	nullMeshParticleEffect ""
-	hudIcon "HUDICON_PLANET_TERRAN2"
-	smallHudIcon "HUDICONSMALL_PLANET_TERRAN2"
-	infoCardIcon "INFOCARDICON_PLANET_TERRAN2"
-	mainViewIcon "MAINVIEWICON_PLANET_TERRAN2"
-	undetectedMainViewIcon "MAINVIEWUNDETECTEDICON_PLANET_TERRAN2"
-	picture "PICTURE_PLANET_TERRAN2"
+	hudIcon "Axeldude_PLANET_Terran_0"
+	smallHudIcon "Axeldude_PLANET_Terran_0"
+	infoCardIcon "Axeldude_PLANET_Terran_0"
+	mainViewIcon "Axeldude_PLANET_Terran_0"
+	undetectedMainViewIcon "Axeldude_PLANET_Terran_0_Unknown"
+	picture ""
 	shouldPrefer FALSE
 meshInfo
-	typeNameStringID "IDS_PLANETTYPE_TERRAN"
+	typeNameStringID "Axeldude_PlanetType_Terran"
 	asteroidTemplate "Empty"
 	dustCloudTemplate "Empty"
 	meshName "Planet_Terran_2"
 	cloudColor ffffffff
 	nullMeshRadius 0.000000
 	nullMeshParticleEffect ""
-	hudIcon "HUDICON_PLANET_TERRAN2"
-	smallHudIcon "HUDICONSMALL_PLANET_TERRAN2"
-	infoCardIcon "INFOCARDICON_PLANET_TERRAN2"
-	mainViewIcon "MAINVIEWICON_PLANET_TERRAN2"
-	undetectedMainViewIcon "MAINVIEWUNDETECTEDICON_PLANET_TERRAN2"
-	picture "PICTURE_PLANET_TERRAN2"
-	shouldPrefer FALSE
-meshInfo
-	typeNameStringID "IDS_PLANETTYPE_TERRAN"
-	asteroidTemplate "Sparse"
-	dustCloudTemplate "Dense"
-	meshName "Planet_Terran_2"
-	cloudColor ffffffff
-	nullMeshRadius 0.000000
-	nullMeshParticleEffect ""
-	hudIcon "HUDICON_PLANET_TERRAN2"
-	smallHudIcon "HUDICONSMALL_PLANET_TERRAN2"
-	infoCardIcon "INFOCARDICON_PLANET_TERRAN2"
-	mainViewIcon "MAINVIEWICON_PLANET_TERRAN2"
-	undetectedMainViewIcon "MAINVIEWUNDETECTEDICON_PLANET_TERRAN2"
-	picture "PICTURE_PLANET_TERRAN2"
+	hudIcon "Axeldude_PLANET_Terran_1"
+	smallHudIcon "Axeldude_PLANET_Terran_1"
+	infoCardIcon "Axeldude_PLANET_Terran_1"
+	mainViewIcon "Axeldude_PLANET_Terran_1"
+	undetectedMainViewIcon "Axeldude_PLANET_Terran_1_Unknown"
+	picture ""
 	shouldPrefer FALSE
 minZoomDistanceMult 2.750000
 glowColor 8f0099ff
 ringColor ffffffff
-cloudLayerTextureName "PlanetCloudLayer"
+cloudLayerTextureName "Axeldude_Cloudmap_Dense"
 planetResourceSetupInfo
 	asteroidSpawnAngleVariance 3.141593
 	totalMaxResourceAsteroids 2
 	metalResourceAsteroidSetup
-		minCount 1
+		minCount 0
 		maxCount 1
 		extractionRate 0.400000
 		refineryRate 0.060000
 		maxRefineryCount 3
 	crystalResourceAsteroidSetup
-		minCount 1
+		minCount 0
 		maxCount 1
 		extractionRate 0.400000
 		refineryRate 0.060000

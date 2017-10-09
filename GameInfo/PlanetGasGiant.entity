@@ -1,133 +1,192 @@
 ﻿TXT
 entityType "Planet"
-meshInfoCount 4
+meshInfoCount 2
 meshInfo
-	typeNameStringID "IDS_PLANETTYPE_GASGIANT"
-	asteroidTemplate "Ring"
-	dustCloudTemplate "PuffyDense"
+	typeNameStringID "Axeldude_PlanetType_GasGiant"
+	asteroidTemplate "Empty"
+	dustCloudTemplate "Empty"
 	meshName "Planet_Gas_0"
 	cloudColor 0
 	nullMeshRadius 0.000000
 	nullMeshParticleEffect ""
-	hudIcon "HUDICON_PLANET_GASGIANT0"
-	smallHudIcon "HUDICONSMALL_PLANET_GASGIANT0"
-	infoCardIcon "INFOCARDICON_PLANET_GASGIANT0"
-	mainViewIcon "MAINVIEWICON_PLANET_GASGIANT0"
-	undetectedMainViewIcon "MAINVIEWUNDETECTEDICON_PLANET_GASGIANT0"
-	picture "PICTURE_PLANET_GASGIANT0"
+	hudIcon "Axeldude_PLANET_Gas_1"
+	smallHudIcon "Axeldude_PLANET_Gas_1"
+	infoCardIcon "Axeldude_PLANET_Gas_1"
+	mainViewIcon "Axeldude_PLANET_Gas_1"
+	undetectedMainViewIcon "Axeldude_PLANET_Gas_1_Unknown"
+	picture ""
 	shouldPrefer FALSE
 meshInfo
-	typeNameStringID "IDS_PLANETTYPE_GASGIANT"
-	asteroidTemplate "Empty"
-	dustCloudTemplate "GrittyDense"
-	meshName "Planet_Gas_1"
-	cloudColor 0
-	nullMeshRadius 0.000000
-	nullMeshParticleEffect ""
-	hudIcon "HUDICON_PLANET_GASGIANT1"
-	smallHudIcon "HUDICONSMALL_PLANET_GASGIANT1"
-	infoCardIcon "INFOCARDICON_PLANET_GASGIANT1"
-	mainViewIcon "MAINVIEWICON_PLANET_GASGIANT1"
-	undetectedMainViewIcon "MAINVIEWUNDETECTEDICON_PLANET_GASGIANT1"
-	picture "PICTURE_PLANET_GASGIANT1"
-	shouldPrefer FALSE
-meshInfo
-	typeNameStringID "IDS_PLANETTYPE_GASGIANT"
+	typeNameStringID "Axeldude_PlanetType_GasGiant"
 	asteroidTemplate "Empty"
 	dustCloudTemplate "Empty"
 	meshName "Planet_Gas_1"
 	cloudColor 0
 	nullMeshRadius 0.000000
 	nullMeshParticleEffect ""
-	hudIcon "HUDICON_PLANET_GASGIANT1"
-	smallHudIcon "HUDICONSMALL_PLANET_GASGIANT1"
-	infoCardIcon "INFOCARDICON_PLANET_GASGIANT1"
-	mainViewIcon "MAINVIEWICON_PLANET_GASGIANT1"
-	undetectedMainViewIcon "MAINVIEWUNDETECTEDICON_PLANET_GASGIANT1"
-	picture "PICTURE_PLANET_GASGIANT1"
-	shouldPrefer FALSE
-meshInfo
-	typeNameStringID "IDS_PLANETTYPE_GASGIANT"
-	asteroidTemplate "Empty"
-	dustCloudTemplate "PuffySparse"
-	meshName "Planet_Gas_0"
-	cloudColor 0
-	nullMeshRadius 0.000000
-	nullMeshParticleEffect ""
-	hudIcon "HUDICON_PLANET_GASGIANT0"
-	smallHudIcon "HUDICONSMALL_PLANET_GASGIANT0"
-	infoCardIcon "INFOCARDICON_PLANET_GASGIANT0"
-	mainViewIcon "MAINVIEWICON_PLANET_GASGIANT0"
-	undetectedMainViewIcon "MAINVIEWUNDETECTEDICON_PLANET_GASGIANT0"
-	picture "PICTURE_PLANET_GASGIANT0"
+	hudIcon "Axeldude_PLANET_Gas_0"
+	smallHudIcon "Axeldude_PLANET_Gas_0"
+	infoCardIcon "Axeldude_PLANET_Gas_0"
+	mainViewIcon "Axeldude_PLANET_Gas_0"
+	undetectedMainViewIcon "Axeldude_PLANET_Gas_0_Unknown"
+	picture ""
 	shouldPrefer FALSE
 minZoomDistanceMult 2.750000
-glowColor 7fbd9626
-ringColor ffdafcff
+glowColor 55ffffff
+ringColor ffffffff
 cloudLayerTextureName ""
 planetResourceSetupInfo
 	asteroidSpawnAngleVariance 3.141593
-	totalMaxResourceAsteroids 4
+	totalMaxResourceAsteroids 7
 	metalResourceAsteroidSetup
 		minCount 0
-		maxCount 0
-		extractionRate 0.000000
-		refineryRate 0.000000
-		maxRefineryCount 0
+		maxCount 3
+		extractionRate 0.540000
+		refineryRate 0.078000
+		maxRefineryCount 3
 	crystalResourceAsteroidSetup
 		minCount 0
+		maxCount 4
+		extractionRate 0.460000
+		refineryRate 0.066000
+		maxRefineryCount 3
+	neutralMetalResourceAsteroidSetup
+		minCount 0
 		maxCount 0
 		extractionRate 0.000000
 		refineryRate 0.000000
 		maxRefineryCount 0
-	neutralMetalResourceAsteroidSetup
-		minCount 0
-		maxCount 3
-		extractionRate 0.533333
-		refineryRate 0.080000
-		maxRefineryCount 4
 	neutralCrystalResourceAsteroidSetup
 		minCount 0
-		maxCount 1
-		extractionRate 0.533333
-		refineryRate 0.080000
-		maxRefineryCount 4
+		maxCount 0
+		extractionRate 0.000000
+		refineryRate 0.000000
+		maxRefineryCount 0
 isAsteroid FALSE
 healthRegenRate 6.000000
 planetUpgradeDef
 	path:Population
-		stageCount 1
+		stageCount 2
 		stage
 			price
 				credits 0.000000
 				metal 0.000000
 				crystal 0.000000
 			upgradeTime 0.000000
-			maxPopulation 0.000000
-			populationGrowthRate 0.000000
+			maxPopulation 25.000000
+			populationGrowthRate 0.125000
+			developmentTaxPenalty -2.000000
+		stage
+			price
+				credits 450.000000
+				metal 150.000000
+				crystal 75.000000
+			upgradeTime 45.000000
+			maxPopulation 50.000000
+			populationGrowthRate 0.125000
 			developmentTaxPenalty 0.000000
 	path:CivilianModules
-		stageCount 1
+		stageCount 7
 		stage
 			price
 				credits 0.000000
 				metal 0.000000
 				crystal 0.000000
 			upgradeTime 0.000000
-			maxModuleSlotCount:Civilian 0.000000
+			maxModuleSlotCount:Civilian 12.000000
 			maxModuleConstructorCount 0
+		stage
+			price
+				credits 450.000000
+				metal 150.000000
+				crystal 75.000000
+			upgradeTime 45.000000
+			maxModuleSlotCount:Civilian 18.000000
+			maxModuleConstructorCount 1
+		stage
+			price
+				credits 550.000000
+				metal 175.000000
+				crystal 125.000000
+			upgradeTime 60.000000
+			maxModuleSlotCount:Civilian 24.000000
+			maxModuleConstructorCount 1
+		stage
+			price
+				credits 650.000000
+				metal 200.000000
+				crystal 175.000000
+			upgradeTime 75.000000
+			maxModuleSlotCount:Civilian 30.000000
+			maxModuleConstructorCount 1
+		stage
+			price
+				credits 750.000000
+				metal 225.000000
+				crystal 225.000000
+			upgradeTime 90.000000
+			maxModuleSlotCount:Civilian 36.000000
+			maxModuleConstructorCount 1
+		stage
+			price
+				credits 850.000000
+				metal 250.000000
+				crystal 275.000000
+			upgradeTime 105.000000
+			maxModuleSlotCount:Civilian 42.000000
+			maxModuleConstructorCount 1
+		stage
+			price
+				credits 950.000000
+				metal 275.000000
+				crystal 325.000000
+			upgradeTime 120.000000
+			maxModuleSlotCount:Civilian 48.000000
+			maxModuleConstructorCount 1
 	path:TacticalModules
-		stageCount 1
+		stageCount 5
 		stage
 			price
 				credits 0.000000
 				metal 0.000000
 				crystal 0.000000
 			upgradeTime 0.000000
-			maxModuleSlotCount:Tactical 0.000000
-			maxModuleConstructorCount 0
+			maxModuleSlotCount:Tactical 5.000000
+			maxModuleConstructorCount 1
+		stage
+			price
+				credits 450.000000
+				metal 150.000000
+				crystal 75.000000
+			upgradeTime 45.000000
+			maxModuleSlotCount:Tactical 15.000000
+			maxModuleConstructorCount 2
+		stage
+			price
+				credits 550.000000
+				metal 175.000000
+				crystal 125.000000
+			upgradeTime 60.000000
+			maxModuleSlotCount:Tactical 25.000000
+			maxModuleConstructorCount 3
+		stage
+			price
+				credits 650.000000
+				metal 200.000000
+				crystal 175.000000
+			upgradeTime 75.000000
+			maxModuleSlotCount:Tactical 35.000000
+			maxModuleConstructorCount 3
+		stage
+			price
+				credits 750.000000
+				metal 225.000000
+				crystal 225.000000
+			upgradeTime 90.000000
+			maxModuleSlotCount:Tactical 45.000000
+			maxModuleConstructorCount 4
 	path:Home
-		stageCount 1
+		stageCount 2
 		stage
 			price
 				credits 0.000000
@@ -138,14 +197,36 @@ planetUpgradeDef
 			homePlanetTaxRateBonus 0.000000
 			homePlanetMetalIncomeBonus 0.000000
 			homePlanetCrystalIncomeBonus 0.000000
+		stage
+			price
+				credits 2000.000000
+				metal 300.000000
+				crystal 200.000000
+			upgradeTime 75.000000
+			isHomePlanet TRUE
+			homePlanetTaxRateBonus 4.000000
+			homePlanetMetalIncomeBonus 0.400000
+			homePlanetCrystalIncomeBonus 0.400000
 	path:ArtifactLevel
-		stageCount 1
+		stageCount 3
 		stage
 			price
 				credits 0.000000
 				metal 0.000000
 				crystal 0.000000
 			upgradeTime 0.000000
+		stage
+			price
+				credits 450.000000
+				metal 150.000000
+				crystal 75.000000
+			upgradeTime 45.000000
+		stage
+			price
+				credits 550.000000
+				metal 175.000000
+				crystal 125.000000
+			upgradeTime 60.000000
 	path:Infrastructure
 		stageCount 1
 		stage
@@ -154,7 +235,7 @@ planetUpgradeDef
 				metal 0.000000
 				crystal 0.000000
 			upgradeTime 0.000000
-			maxHealth 1.000000
+			maxHealth 1500.000000
 	path:Social
 		stageCount 1
 		stage
@@ -215,7 +296,7 @@ planetUpgradeDef
 			corruptionPercent 0.750000
 			smugglingPercent 0.045000
 ringsChance 0.100000
-isColonizable FALSE
+isColonizable TRUE
 planetTypeForResearch "Uncolonizable"
 skyboxScalarsCount 5
 skyboxScalars
@@ -250,8 +331,8 @@ planetRuinDef
 dlcId 204880
 ShieldMeshName "Shield_PlanetSmall"
 renderShield TRUE
-moveAreaRadius 48000.000000
-hyperspaceExitRadius 40000.000000
+moveAreaRadius 40000.000000
+hyperspaceExitRadius 30000.000000
 isWormhole FALSE
 maxStarBaseCountPerPlayer 1
 maxSpaceMineCountPerPlayer 150

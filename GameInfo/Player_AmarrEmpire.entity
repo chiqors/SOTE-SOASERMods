@@ -11,12 +11,12 @@ entities
 	planetModuleInfo
 		Page:0
 			count 9
-			entityDefName "PLANETMODULE_TECHORBITALMETALEXTRACTOR"
+			entityDefName "Allraces_Structure_MetalExtractor"
 			entityDefName "Amarr_Structure_FrigateFactory"
 			entityDefName "Amarr_Structure_CombatLab"
 			entityDefName "Amarr_Structure_TradePort"
 			entityDefName "Amarr_Structure_CultureCenter"
-			entityDefName "PLANETMODULE_TECHORBITALCRYSTALEXTRACTOR"
+			entityDefName "Allraces_Structure_CrystalExtractor"
 			entityDefName "Amarr_Structure_CapitalShipFactory"
 			entityDefName "Amarr_Structure_CivillianLab"
 			entityDefName "Amarr_Structure_Refinery"
@@ -74,7 +74,7 @@ entities
 			entityDefName "Amarr_Ship_Refineryship_Bestower"
 			entityDefName "Ore_ShipOrca"
 	researchInfo
-		count 133
+		count 131
 		entityDefName "Amarr_ResearchSubject_SubCapitalAccess_Dragoon"
 		entityDefName "RSAInterdictor"		
 		entityDefName "RSACommand_Orca"
@@ -83,6 +83,7 @@ entities
 		entityDefName "RSAHeavyAssault"
 		entityDefName "RSABlackOps"
 		entityDefName "RSAMarauder"
+		entityDefName "RESEARCH_FORCEAI_AID"
 		entityDefName "AllRaces_ResearchSubject_CovertOpsJumpBridge"		
 		entityDefName "AllRaces_ResearchSubject_ArcingVortonProjector"
 		entityDefName "ALLRACES_RESEARCHSUBJECT_ABILITYACCESS_AFTERBURNER"
@@ -130,9 +131,6 @@ entities
 		entityDefName "RESEARCHSUBJECT_ABILITYACCESS_UNSTOPPABLEPHASEJUMPTECH"
 		entityDefName "RESEARCHSUBJECT_ABILITYACCESS_WORTHYCAUSE"
 		entityDefName "RESEARCHSUBJECT_ADVANCED_CULTURAL_RELATIONS"
-		entityDefName "RESEARCHSUBJECT_AIBOOST_STAGE1"
-		entityDefName "RESEARCHSUBJECT_AIBOOST_STAGE2"
-		entityDefName "RESEARCHSUBJECT_AIBOOST_STAGE3"
 		entityDefName "RESEARCHSUBJECT_ANTIMATTERTECH0"
 		entityDefName "RESEARCHSUBJECT_ANTIMATTERTECH1"
 		entityDefName "RESEARCHSUBJECT_ANTIMATTERTECH2"

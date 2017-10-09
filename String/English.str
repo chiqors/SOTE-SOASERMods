@@ -1,5 +1,5 @@
 TXT
-NumStrings 8390
+NumStrings 8685
 StringInfo
     ID "IDS_ABILITY_RORQUALPANIC_NAME"
 	Value "P.A.N.I.C Module"
@@ -2351,13 +2351,13 @@ StringInfo
 	Value "Duration"
 StringInfo
 	ID "IDS_INFOCARD_TITLE_CREDITS"
-	Value "ISK Summary"
+	Value "ISK Income"
 StringInfo
 	ID "IDS_INFOCARD_TITLE_METAL"
-	Value "Common Metals Summary"
+	Value "Common Metals Intake"
 StringInfo
 	ID "IDS_INFOCARD_TITLE_CRYSTAL"
-	Value "Rare Metals Summary"
+	Value "Rare Metals Intake"
 StringInfo
 	ID "IDS_INFOCARD_LABEL_RESEARCHSUBJECTLEVEL"
 	Value "Level *SPACING3* *VALUE0* / *VALUE1*"
@@ -2387,7 +2387,7 @@ StringInfo
 	Value "Requires *VALUE0* more completed research topics."
 StringInfo
 	ID "IDS_ENTITYINFOCARD_RESOURCEASTEROID_RATE"
-	Value "Rate with Extractor:*SPACING170* *VALUE0* /sec"
+	Value "Rate with Extractor:*SPACING170* *VALUE0* K/sec"
 StringInfo
 	ID "IDS_ENTITYINFOCARD_CARGOSHIP_CARGOAMOUNT"
 	Value "Cargo Hold contains *VALUE0* *VALUE1*"
@@ -2444,7 +2444,7 @@ StringInfo
 	Value "Recent DPS:*SPACING170* *VALUE0*"
 StringInfo
 	ID "IDS_INFOCARD_WEAPONNAMEANDDPS"
-	Value "Average *VALUE0* Damage:*SPACING170* *VALUE1*"
+	Value "*VALUE0* DPS:*SPACING170* *VALUE1*"
 StringInfo
 	ID "IDS_INFOCARD_STRINGINFO_BUFFVALUES"
 	Value "*VALUE0*: *SPACING150* *VALUE1* *SPACING185* *VALUE2* *VALUE3*"
@@ -2462,7 +2462,7 @@ StringInfo
 	Value "Has Remote Sensor"
 StringInfo
 	ID "IDS_INFOCARD_BUFFOVERTIME_CREDITRATE"
-	Value "ISK earned /sec"
+	Value "ISK earned K/sec"
 StringInfo
 	ID "IDS_INFOCARD_BUFFOVERTIME_DAMAGERATETOPLANET"
 	Value "Bombing damage done /sec"
@@ -2471,22 +2471,22 @@ StringInfo
 	Value "Planet damage done /sec"
 StringInfo
 	ID "IDS_INFOCARD_BUFFOVERTIME_POPULATIONKILLEDRATEPERC"
-	Value "Population killed /sec"
+	Value "Population killed M/sec"
 StringInfo
 	ID "IDS_INFOCARD_BUFFOVERTIME_DAMAGERATETOTARGET"
 	Value "Damage done /sec"
 StringInfo
 	ID "IDS_INFOCARD_BUFFOVERTIME_RESOURCERATE"
-	Value "Resources earned /sec"
+	Value "Resources earned K/sec"
 StringInfo
 	ID "IDS_INFOCARD_BUFFOVERTIME_RESTOREANTIMATTER"
 	Value "Capacitor restored /sec"
 StringInfo
 	ID "IDS_INFOCARD_BUFFOVERTIME_RESTORESHIELDSRATE"
-	Value "Shields restored /sec"
+	Value "Shields HP restored /sec"
 StringInfo
 	ID "IDS_INFOCARD_BUFFOVERTIME_RESTOREHULLRATE"
-	Value "Hull repaired /sec"
+	Value "Hull HP repaired /sec"
 StringInfo
 	ID "IDS_INFOCARD_BUFFOVERTIME_DAMAGERATE"
 	Value "Damage taken /sec"
@@ -2903,10 +2903,10 @@ StringInfo
 	Value "Flagship *VALUE0*"
 StringInfo
 	ID "IDS_INFOCARD_STRINGINFO_CAPITALSHIPEXPERIENCE"
-	Value "Experience Points:*SPACING100* *VALUE0* / *VALUE1*"
+	Value "Skill Points:*SPACING100* *VALUE0* / *VALUE1*"
 StringInfo
 	ID "IDS_INFOCARD_STRINGINFO_CAPITALSHIPMAXLEVELREACHED"
-	Value "Maximum experience level reached."
+	Value "Maximum Skill Points reached."
 StringInfo
 	ID "IDS_INFOCARD_STRINGINFO_CAPITALSHIPCULTUREPROTECTRATE"
 	Value "Culture Repel rate:*SPACING100* *VALUE0*/sec"
@@ -3035,31 +3035,31 @@ StringInfo
 	Value "*VALUE0*"
 StringInfo
 	ID "IDS_INFOCARD_STRINGINFO_HULL"
-	Value "Hull:*SPACING60* *VALUE0* / *VALUE1*"
+	Value "Hull/Armor HP:*SPACING60* *VALUE0* / *VALUE1*"
 StringInfo
 	ID "IDS_INFOCARD_STRINGINFO_SHIELDS"
-	Value "Shields:*SPACING60* *VALUE0* / *VALUE1*"
+	Value "Shield HP:*SPACING60* *VALUE0* / *VALUE1*"
 StringInfo
 	ID "IDS_INFOCARD_STRINGINFO_ANTIMATTER"
-	Value "Capacitor:*SPACING60* *VALUE0* / *VALUE1*"
+	Value "Capacitor Level:*SPACING60* *VALUE0* / *VALUE1*"
 StringInfo
 	ID "IDS_INFOCARD_STRINGINFO_ARMOR"
-	Value "Armor:*SPACING100* *VALUE0*"
+	Value "Armor Modules:*SPACING100* *VALUE0*"
 StringInfo
 	ID "IDS_INFOCARD_STRINGINFO_MAXARMOR"
-	Value "Armor:*SPACING170* *VALUE0*"
+	Value "Armor Modules:*SPACING170* *VALUE0*"
 StringInfo
 	ID "IDS_INFOCARD_STRINGINFO_SHIELDBONUS"
-	Value "Damage Resistance:*SPACING100* *VALUE0*"
+	Value "Damage Control:*SPACING100* *VALUE0*"
 StringInfo
 	ID "IDS_INFOCARD_STRINGINFO_MAXHULL"
-	Value "Hull:*SPACING170* *VALUE0*"
+	Value "Hull/Armor HP:*SPACING170* *VALUE0*"
 StringInfo
 	ID "IDS_INFOCARD_STRINGINFO_MAXSHIELDS"
-	Value "Shields:*SPACING170* *VALUE0*"
+	Value "Shields HP:*SPACING170* *VALUE0*"
 StringInfo
 	ID "IDS_INFOCARD_STRINGINFO_MAXANTIMATTER"
-	Value "Capacitor:*SPACING170* *VALUE0*"
+	Value "Capacitor Level:*SPACING170* *VALUE0*"
 StringInfo
 	ID "IDS_INFOCARD_STRINGINFO_EXPERIENCEFORDESTROYING"
 	Value "Experience value:*SPACING100* *VALUE0*"
@@ -3071,46 +3071,46 @@ StringInfo
 	Value "Population:*SPACING100* *VALUE0*"
 StringInfo
 	ID "IDS_INFOCARD_STRINGINFO_STARBASETAXINCOMERATE"
-	Value "Tax Income rate:*SPACING100* *VALUE0* /sec"
+	Value "Tax Income rate:*SPACING100* *VALUE0* *SPACING100*K/sec"
 StringInfo
 	ID "IDS_INFOCARD_STRINGINFO_STARBASETRADEINCOMERATE"
-	Value "Trade Income rate:*SPACING100* *VALUE0* /sec"
+	Value "Trade Income rate:*SPACING100* *VALUE0* *SPACING100*K/sec"
 StringInfo
 	ID "IDS_INFOCARD_STRINGINFO_SPACEMINECOUNT"
 	Value "Space Mines:*SPACING130* *VALUE0* / *VALUE1*"
 StringInfo
 	ID "IDSEconomyInfoCardTotalIncomeRate"
-	Value "Total Income *SPACING160* *VALUE0* *SPACING195*/sec"
+	Value "Total Income *SPACING160* *VALUE0* *SPACING100*K/sec"
 StringInfo
 	ID "IDSEconomyInfoCardFleetUpkeep"
-	Value "*VALUE0* Fleet Upkeep - *VALUE1* *SPACING160* *VALUE2* *SPACING195*/sec"
+	Value "*VALUE0* Fleet Upkeep - *VALUE1* *SPACING160* *VALUE2* *SPACING100*K/sec"
 StringInfo
 	ID "IDSEconomyInfoCardTotalPlanetIncome"
-	Value "*VALUE0* Planet Income *SPACING160* *VALUE1* *SPACING195*/sec"
+	Value "*VALUE0* Planet Income *SPACING160* *VALUE1* *SPACING100*K/sec"
 StringInfo
 	ID "IDSEconomyInfoCardIndividualPlanetIncome"
-	Value "*VALUE0* *VALUE1* *SPACING160* *VALUE2* *SPACING195*/sec"
+	Value "*VALUE0* *VALUE1* *SPACING160* *VALUE2* *SPACING100*K/sec"
 StringInfo
 	ID "IDSEconomyInfoCardIndividualPlanetIncomeOverflow"
 	Value "..."
 StringInfo
 	ID "IDSEconomyInfoCardTotalTradeNetworkIncome"
-	Value "*VALUE0* Trade Port Income *SPACING160* *VALUE1* *SPACING195*/sec"
+	Value "*VALUE0* Trade Port Income *SPACING160* *VALUE1* *SPACING100*K/sec"
 StringInfo
 	ID "IDSEconomyInfoCardTotalStarBaseIncome"
-	Value "*VALUE0* Starbase Tax Income *SPACING160* *VALUE1* *SPACING195*/sec"
+	Value "*VALUE0* Starbase Tax Income *SPACING160* *VALUE1* *SPACING100*K/sec"
 StringInfo
 	ID "IDSEconomyInfoCardTotalCapitalShipIncome"
-	Value "*VALUE0* Capital Ship Tax Income *SPACING160* *VALUE1* *SPACING195*/sec"
+	Value "*VALUE0* Capital Ship Tax Income *SPACING160* *VALUE1* *SPACING100*K/sec"
 StringInfo
 	ID "IDSEconomyInfoCardTotalResourceExtractionIncome"
-	Value "*VALUE0* Extractor Income *SPACING160* *VALUE1* *SPACING195*/sec"
+	Value "*VALUE0* Extractor Income *SPACING160* *VALUE1* *SPACING100*K/sec"
 StringInfo
 	ID "IDSEconomyInfoCardTotalResourceRefineryIncome"
-	Value "*VALUE0* Refinery Income *SPACING160* *VALUE1* *SPACING195*/sec"
+	Value "*VALUE0* Refinery Income *SPACING160* *VALUE1* *SPACING100*K/sec"
 StringInfo
 	ID "IDSEconomyInfoCardAbilityIncome"
-	Value "Income from Abilities*SPACING160* *VALUE0* *SPACING195*/sec"
+	Value "Income from Abilities*SPACING160* *VALUE0* *SPACING100*K/sec"
 StringInfo
 	ID "IDSEconomyInfoCardShipSlots"
 	Value "Fleet Supply"
@@ -3152,7 +3152,7 @@ StringInfo
 	Value "*VALUE0* Slots:*SPACING130* *VALUE1* / *VALUE2*"
 StringInfo
 	ID "IDS_PLANETDETAILSINFOCARD_TAXRATE"
-	Value "Tax Income Rate:*SPACING130* *VALUE0* /sec"
+	Value "Tax Income Rate:*SPACING130* *VALUE0* K/sec"
 StringInfo
 	ID "IDS_PLANETDETAILSINFOCARD_CULTURE"
 	Value "Culture Rate:*SPACING130* *VALUE0* /sec"
@@ -3161,13 +3161,13 @@ StringInfo
 	Value "Planet Health:*SPACING130* *VALUE0* / *VALUE1*"
 StringInfo
 	ID "IDS_PLANETDETAILSINFOCARD_PLANETPOPULATION"
-	Value "Population:*SPACING130* *VALUE0* / *VALUE1*"
+	Value "Population:*SPACING130* *VALUE0* m/ *VALUE1* m"
 StringInfo
 	ID "IDS_PLANETDETAILSINFOCARD_RESOURCEASTEROID"
-	Value "*VALUE0* *VALUE1* *SPACING130* *VALUE2* /sec"
+	Value "*VALUE0* *VALUE1* *SPACING130* *VALUE2* K/sec"
 StringInfo
 	ID "IDS_PLANETDETAILSINFOCARD_RESOURCEASTEROID_FROMEXTRACTOR"
-	Value "Rate:*SPACING100* *VALUE0* /sec"
+	Value "Rate:*SPACING100* *VALUE0* K/sec"
 StringInfo
 	ID "IDS_PLANETDETAILSINFOCARD_RESOURCEASTEROID_REFINERYUSAGE"
 	Value "Refinery Quota: *SPACING100* *VALUE0*"
@@ -3281,10 +3281,10 @@ StringInfo
 	Value "*VALUE0*"
 StringInfo
 	ID "IDSBottomEntityInfoWindowInfoCardNameShipHull"
-	Value "Hull Strength"
+	Value "Hull/Armor HP"
 StringInfo
 	ID "IDSBottomEntityInfoWindowInfoCardNameShipShield"
-	Value "Shield Strength"
+	Value "Shield HP"
 StringInfo
 	ID "IDSBottomEntityInfoWindowInfoCardAbilityStatus"
 	Value "*VALUE0*: *SPACING150* *VALUE1* seconds"
@@ -3560,13 +3560,13 @@ StringInfo
 	Value ""
 StringInfo
 	ID "IDS_INFOCARD_SQUADOWNER_COMMANDPOINTS"
-	Value "Squadrons: *VALUE0*"
+	Value "Squadron Bandwidth: *VALUE0*"
 StringInfo
 	ID "IDS_INFOCARD_SQUADOWNER_COMMANDPOINTSUNSPENDONEPOINT"
-	Value "%d unspent Command Point"
+	Value "%d Unallocated Bandwidth"
 StringInfo
 	ID "IDS_INFOCARD_SQUADOWNER_COMMANDPOINTSUNSPENDMANYPOINTS"
-	Value "%d unspent Command Points"
+	Value "%d Unallocated Bandwidth"
 StringInfo
 	ID "IDS_INFOCARD_SQUADOWNER_SQUADDETAILS"
 	Value "*SPACING20* *VALUE0* *SPACING170* *VALUE1*"
@@ -3578,10 +3578,10 @@ StringInfo
 	Value "Launched"
 StringInfo
 	ID "IDS_INFOCARD_SQUADOWNER_SQUADISDOCKEDSTATUS"
-	Value "*VALUE0*'s Squadron: *SPACING150* *VALUE1*"
+	Value "*VALUE0*'s Squadron: *SPACING100* *VALUE1*"
 StringInfo
 	ID "IDS_INFOCARD_SQUADOWNER_SQUADHEALTHSTATUS"
-	Value "*VALUE0*'s Squadron: *SPACING150* *VALUE1*"
+	Value "*VALUE0*'s Squadron HP: *SPACING150* *VALUE1*"
 StringInfo
 	ID "IDS_INFOCARD_SQUAD_OWNER"
 	Value "Owned by *VALUE0*"
@@ -5341,6 +5341,9 @@ StringInfo
 	ID "IDS_RACESELECTDIALOG_NEXTRACE"
 	Value "Next Race"
 StringInfo
+	ID "IDS_PLAYERFACTIONNAME_NONE"
+	Value ""
+StringInfo
 	ID "IDS_PLAYERFACTIONNAME_NEUTRAL"
 	Value "Neutral"
 StringInfo
@@ -5349,6 +5352,12 @@ StringInfo
 StringInfo
 	ID "IDS_PLAYERFACTIONNAME_REBEL"
 	Value "Rebel"
+StringInfo
+	ID "IDS_PLAYERFACTIONNAME_AI"
+	Value ""
+StringInfo
+	ID "blank"
+	Value ""
 StringInfo
 	ID "IDS_PLANETBONUS_ABANDNANITEFACTORY_NAME"
 	Value "Abandoned Nanite Factory"
@@ -5793,6 +5802,402 @@ StringInfo
 StringInfo
 	ID "IDS_PLANETBONUS_WEAPONSTESTGROUNDS_DESC"
 	Value "A portion of the planet's surface is used by an arms corporation for weapons testing, reducing available space for colony development but increasing the defensibility of the planet."
+StringInfo
+	ID "IDS_PLANETBONUS_DESIGN1_NAME"
+	Value "Well Designed Buildings"
+StringInfo
+	ID "IDS_PLANETBONUS_DESIGN1_DESC"
+	Value "The buildings on this planet have been thoughtfully constructed, increasing living space and structural integrity."
+StringInfo
+	ID "IDS_PLANETBONUS_DESIGN2_NAME"
+	Value "Brilliantly Designed Buildings"
+StringInfo
+	ID "IDS_PLANETBONUS_DESIGN2_DESC"
+	Value "The buildings on this planet have been expertly constructed, increasing living space and structural integrity greatly."
+StringInfo
+	ID "IDS_PLANETBONUS_DENSEC_NAME"
+	Value "Dense Canopy"
+StringInfo
+	ID "IDS_PLANETBONUS_DENSEC_DESC"
+	Value "The extremely dense canopy of vegetation on this planet increases how much bombardment it can take."
+StringInfo
+	ID "IDS_PLANETBONUS_DENSEJ_NAME"
+	Value "Dense Jungle"
+StringInfo
+	ID "IDS_PLANETBONUS_DENSEJ_DESC"
+	Value "The dense overgrown jungle on this planet makes expansion very difficult and time consuming."
+StringInfo
+	ID "IDS_PLANETBONUS_CORROA_NAME"
+	Value "Corrosive Atmosphere"
+StringInfo
+	ID "IDS_PLANETBONUS_CORROA_DESC"
+	Value "The atmosphere on this planet contains corrosive compounds that eat away at the structures here."
+StringInfo
+	ID "IDS_PLANETBONUS_SUBT_NAME"
+	Value "Subterranean Colony"
+StringInfo
+	ID "IDS_PLANETBONUS_SUBT_DESC"
+	Value "An abandoned subterranean colony has been discovered, increasing the maximum population of the planet."
+StringInfo
+	ID "IDS_PLANETBONUS_SUBM_NAME"
+	Value "Submerged Colony"
+StringInfo
+	ID "IDS_PLANETBONUS_SUBM_DESC"
+	Value "An abandoned colony deep underwater has been discovered, increasing the maximum population of the planet."
+StringInfo
+	ID "IDS_PLANETBONUS_RESIN_NAME"
+	Value "Adhesive Resin"
+StringInfo
+	ID "IDS_PLANETBONUS_RESIN_DESC"
+	Value "A resin excreted from a certain plant on this planet acts as a powerful adhesive, increasing trade income."
+StringInfo
+	ID "IDS_PLANETBONUS_O1_NAME"
+	Value "Traces of Oxygen"
+StringInfo
+	ID "IDS_PLANETBONUS_O1_DESC"
+	Value "Traces of Oxygen in the atmosphere allow larger colonies to be sustained by the same number of Air Purifiers"
+StringInfo
+	ID "IDS_PLANETBONUS_O2_NAME"
+	Value "Breathable Atmosphere"
+StringInfo
+	ID "IDS_PLANETBONUS_O2_DESC"
+	Value "Breathable Oxygen levels in the atmosphere allow colonies to be constructed without Air Purifiers, thus increasing the maximum population."
+StringInfo
+	ID "IDS_PLANETBONUS_GAMEOVER_NAME"
+	Value "A Deadly Secret"
+StringInfo
+	ID "IDS_PLANETBONUS_GAMEOVER_DESC"
+	Value "Explorers on this planet accidentally uncovered a deadly secret buried deep within a cave network, wiping out the population and making this planet uncolonisable."
+StringInfo
+	ID "IDS_PLANETBONUS_SMUG+_NAME"
+	Value "Smugglers Base (Abandoned)"
+StringInfo
+	ID "IDS_PLANETBONUS_SMUG+_DESC"
+	Value "An old abandoned smugglers base hidden on this planet still has plenty of goods to be sold off."
+StringInfo
+	ID "IDS_PLANETBONUS_SMUG-_NAME"
+	Value "Smugglers Base (Active)"
+StringInfo
+	ID "IDS_PLANETBONUS_SMUG-_DESC"
+	Value "Smugglers use this planet as a base of operations in the area, and constantly "borrow" goods from the planet's traders."
+StringInfo
+	ID "IDS_PLANETBONUS_ATMO+_NAME"
+	Value "Thick Atmosphere"
+StringInfo
+	ID "IDS_PLANETBONUS_ATMO+_DESC"
+	Value "The atmosphere around this planet is extremely thick, giving it a naturally high defence against bombardment."
+StringInfo
+	ID "IDS_PLANETBONUS_LOOKS+_NAME"
+	Value "Beautiful Population"
+StringInfo
+	ID "IDS_PLANETBONUS_LOOKS+_DESC"
+	Value "The local inhabitants of this planet are stunning to look at, and as a result are renown for it across the system."
+StringInfo
+	ID "IDS_PLANETBONUS_LOOKS-_NAME"
+	Value "Hideous Population"
+StringInfo
+	ID "IDS_PLANETBONUS_LOOKS-_DESC"
+	Value "The local inhabitants of this planet are so hideous to look at, that many men have gouged out their own eyes to avoid the sight of them."
+StringInfo
+	ID "IDS_PLANETBONUS_HERD_NAME"
+	Value "Huge Herds of Cattle"
+StringInfo
+	ID "IDS_PLANETBONUS_HERD_DESC"
+	Value "The herds of cattle on this planet have expanded into millions of beasts per group, due to the lack of natural predators who prey on them."
+StringInfo
+	ID "IDS_PLANETBONUS_ROBOTS+_NAME"
+	Value "Construction Droids"
+StringInfo
+	ID "IDS_PLANETBONUS_ROBOTS+_DESC"
+	Value "These extremely helpful robots increase the build rate of both orbital and planetary structures, and can also pilot extra constructors."
+StringInfo
+	ID "IDS_PLANETBONUS_ROBOTS-_NAME"
+	Value "Automated Defence Droids"
+StringInfo
+	ID "IDS_PLANETBONUS_ROBOTS-_DESC"
+	Value "Something we have done has activated these once dormant robots, as now they sweep mercilessly across the planet killing everyone they encounter. We are putting up resistance, but they seem to just keep coming."
+StringInfo
+	ID "IDS_PLANETBONUS_RODENT+_NAME"
+	Value "Pleasant Rodents"
+StringInfo
+	ID "IDS_PLANETBONUS_RODENT+_DESC"
+	Value "These strange little creatures seem to take a liking to everyone, as we have also taken a liking to them. They are excellent pets, and racing them has become a popular sport across the system."
+StringInfo
+	ID "IDS_PLANETBONUS_RODENT-_NAME"
+	Value "Vermin Infestation"
+StringInfo
+	ID "IDS_PLANETBONUS_RODENT-_DESC"
+	Value "These vicious creatures seem to be everywhere. Keeping them at bay and making structures vermin-proof is costing us time and resources."
+StringInfo
+	ID "IDS_PLANETBONUS_UNSTABLE_NAME"
+	Value "Unstable Ground"
+StringInfo
+	ID "IDS_PLANETBONUS_UNSTABLE_DESC"
+	Value "The entire surface of this planet appears to be very unstable and doesn't support much weight. It is costing us more time and resources to build on it."
+StringInfo
+	ID "IDS_PLANETBONUS_HOLLOW_NAME"
+	Value "Completely Hollow Core"
+StringInfo
+	ID "IDS_PLANETBONUS_HOLLOW_DESC"
+	Value "The core of this asteroid is completely hollow giving it an extremely small gravity well."
+StringInfo
+	ID "IDS_PLANETBONUS_SLAVES_NAME"
+	Value "Slaves"
+StringInfo
+	ID "IDS_PLANETBONUS_SLAVES_DESC"
+	Value "The dominant race on this Planet has enslaved other races who live here, reducing building prices and Planetary build times. Their sale also increases trade income slightly."
+StringInfo
+	ID "IDS_PLANETBONUS_LIONS_NAME"
+	Value "Indigenous Carnivores"
+StringInfo
+	ID "IDS_PLANETBONUS_LIONS_DESC"
+	Value "The huge monsters that roam this Planet's surface slow population growth significantly."
+StringInfo
+	ID "IDS_PLANETBONUS_BIGASS_NAME"
+	Value "Super Dense Core"
+StringInfo
+	ID "IDS_PLANETBONUS_BIGASS_DESC"
+	Value "The extremely dense core of this Planet causes it to have an extra large Gravity Well."
+StringInfo
+	ID "IDS_PLANETBONUS_HARDASS_NAME"
+	Value "Strong Building Materials"
+StringInfo
+	ID "IDS_PLANETBONUS_HARDASS_DESC"
+	Value "The materials on this Planet increase the structural strength of all buildings allowing it to withstand more punishment from orbital bombing. Also, it slightly increases trade income."
+StringInfo
+	ID "IDS_PLANETBONUS_REVOLT_NAME"
+	Value "Planetary Revolt"
+StringInfo
+	ID "IDS_PLANETBONUS_REVOLT_DESC"
+	Value "There is a huge revolt on this Planet causing widespread chaos."
+StringInfo
+	ID "IDS_PLANETBONUS_REVOLT+1_NAME"
+	Value "Planetary Insurgency"
+StringInfo
+	ID "IDS_PLANETBONUS_REVOLT+1_DESC"
+	Value "There is widespread Insurgency on this Planet causing massive disruptions."
+StringInfo
+	ID "IDS_PLANETBONUS_COMM_NAME"
+	Value "Huge Comm Station Array"
+StringInfo
+	ID "IDS_PLANETBONUS_BLACK_NAME"
+	Value "Black Market"
+StringInfo
+	ID "IDS_PLANETBONUS_BLACK_DESC"
+	Value "Black Market"
+StringInfo
+	ID "IDS_PLANETBONUS_CONSTRUCTO_NAME"
+	Value "Orbital Construction Specialists"
+StringInfo
+	ID "IDS_PLANETBONUS_CONSTRUCTO_DESC"	
+	Value "The population of this Planet are well educated in orbital construction techniques."
+StringInfo
+	ID "IDS_PLANETBONUS_CONSTRUCTP_NAME"
+	Value "Planetary Construction Specialists"
+StringInfo
+	ID "IDS_PLANETBONUS_CONSTRUCTP_DESC"
+	Value "The population of this Planet are well educated in planetary construction techniques."
+StringInfo
+	ID "IDS_PLANETBONUS_FLOOD_NAME"
+	Value "Constant Flooding"
+StringInfo
+	ID "IDS_PLANETBONUS_FLOOD_DESC"
+	Value "Nearly every piece of land on this planet is flooded frequently, making life hard for the colonists living here."
+StringInfo
+	ID "IDS_PLANETBONUS_FRESHWATER_NAME"
+	Value "Fresh Water Oceans"
+StringInfo
+	ID "IDS_PLANETBONUS_FRESHWATER_DESC"
+	Value "The oceans on this planet contain no other compounds other than pure H2O."
+StringInfo
+	ID "IDS_PLANETBONUS_FROZEN_NAME"
+	Value "Frozen Over"
+StringInfo
+	ID "IDS_PLANETBONUS_FROZEN_DESC"
+	Value "The temperatures here are just so cold that machines and ships freeze over extremely quickly, which slows build times on this planet by a great deal."
+StringInfo
+	ID "IDS_PLANETBONUS_GRAV+_NAME"
+	Value "Gravitational Anomaly"
+StringInfo
+	ID "IDS_PLANETBONUS_GRAV+_DESC"
+	Value "This anomaly causes a huge Gravity Well around this planet."
+StringInfo
+	ID "IDS_PLANETBONUS_GRAV-_NAME"
+	Value "Gravitational Anomaly"
+StringInfo
+	ID "IDS_PLANETBONUS_GRAV-_DESC"
+	Value "This anomaly causes a near non-existent Gravity Well around this planet."
+StringInfo
+	ID "IDS_PLANETBONUS_MILITARY_NAME"
+	Value "Militaristic Population"
+StringInfo
+	ID "IDS_PLANETBONUS_MILITARY_DESC"
+	Value "The society of this Planet is centralised around the Military."
+StringInfo
+	ID "IDS_PLANETBONUS_MOON_NAME"
+	Value "Moon"
+StringInfo
+	ID "IDS_PLANETBONUS_MOON_DESC"
+	Value "This Planet has one moon in orbit(no visuals, sorry guys) allowing it to support another orbital Civilian Station and slightly reduce Orbital build times."
+StringInfo
+	ID "IDS_PLANETBONUS_MOON+1_NAME"
+	Value "Moons"
+StringInfo
+	ID "IDS_PLANETBONUS_MOON+1_DESC"
+	Value "This Planet has more than one moon in orbit(no visuals, sorry guys) allowing it to support another two orbital Civilian Stations and reduce Orbital build times."
+StringInfo
+	ID "IDS_PLANETBONUS_OUTPOST_NAME"
+	Value "Old Military Outpost"
+StringInfo
+	ID "IDS_PLANETBONUS_OUTPOST_DESC"
+	Value "A long abandoned military outpost discovered by your explorers had an unused Constructor and systems which increase the number of Tactical slots in orbit."
+StringInfo
+	ID "IDS_PLANETBONUS_OVERGROWN_NAME"
+	Value "Completely Overgrown"
+StringInfo
+	ID "IDS_PLANETBONUS_OVERGROWN_DESC"
+	Value "This planet's vegetation grows at such an astonishing rate, that keeping it back is very time consuming, let alone clearing it to build new structures."
+StringInfo
+	ID "IDS_PLANETBONUS_PLAGUE_NAME"
+	Value "Diseased Planet"
+StringInfo
+	ID "IDS_PLANETBONUS_PLAGUE_DESC"
+	Value "An unstoppable Plague has crippled this Planet, making life extremely hard for all life here."
+StringInfo
+	ID "IDS_PLANETBONUS_PLANTC_NAME"
+	Value "Huge Crystal Processing Plant"
+StringInfo
+	ID "IDS_PLANETBONUS_PLANTC_DESC"
+	Value "This massive processing plant increases the Crystal output of the planet by 200%"
+StringInfo
+	ID "IDS_PLANETBONUS_PLANTM_NAME"
+	Value "Huge Metal Processing Plant"
+StringInfo
+	ID "IDS_PLANETBONUS_PLANTM_DESC"
+	Value "This massive processing plant increases the Metal output of the planet by 200%"
+StringInfo
+	ID "IDS_PLANETBONUS_PUREC_NAME"
+	Value "Super Pure Crystals"
+StringInfo
+	ID "IDS_PLANETBONUS_PUREC_DESC"
+	Value "A deposit of super pure crystals has been discovered. This will hugely increase the crystal extraction rate of the planet."
+StringInfo
+	ID "IDS_PLANETBONUS_PUREM_NAME"
+	Value "Super Pure Metal"
+StringInfo
+	ID "IDS_PLANETBONUS_PUREM_DESC"
+	Value "A deposit of super pure metal has been discovered. This will hugely increase the metal extraction rate of the planet."
+StringInfo
+	ID "IDS_PLANETBONUS_RADIATION_NAME"
+	Value "Natural Radiation"
+StringInfo
+	ID "IDS_PLANETBONUS_RADIATION_DESC"
+	Value "This planet's surface contains a compound that gives off natural radiation, making living here very difficult."
+StringInfo
+	ID "IDS_PLANETBONUS_RELIGION+_NAME"
+	Value "Religious Population (Friendly)"
+StringInfo
+	ID "IDS_PLANETBONUS_RELIGION+_DESC"
+	Value "The people on this planet are extremely religious, but have taken a liking to your empire's ways, and so support it when spreading their faith."
+StringInfo
+	ID "IDS_PLANETBONUS_RELIGION-_NAME"
+	Value "Religious Population (Hostile)"
+StringInfo
+	ID "IDS_PLANETBONUS_RELIGION-_DESC"
+	Value "The people on this planet are extremely religious, and hate your empire because of its heretical ways, therefore shun its support where ever they spread their faith."
+StringInfo
+	ID "IDS_PLANETBONUS_SEISMIC_NAME"
+	Value "Seismic Activity"
+StringInfo
+	ID "IDS_PLANETBONUS_SEISMIC_DESC"
+	Value "The huge Seismic activity on this Planet hampers life here in many different ways."
+StringInfo
+	ID "IDS_PLANETBONUS_SHIELD1_NAME"
+	Value "Ancient Planetary Shield (Damaged)"
+StringInfo
+	ID "IDS_PLANETBONUS_SHIELD1_DESC"
+	Value "An ancient planetary shield, although partly damaged and overgrown, increases the bombardment this planet can take."
+StringInfo
+	ID "IDS_PLANETBONUS_SHIELD2_NAME"
+	Value "Ancient Planetary Shield"
+StringInfo
+	ID "IDS_PLANETBONUS_SHIELD2_DESC"
+	Value "An ancient planetary shield, in full working order, greatly increases the bombardment this planet can take."
+StringInfo
+	ID "IDS_PLANETBONUS_SMELL-_NAME"
+	Value "Foul Smell"
+StringInfo
+	ID "IDS_PLANETBONUS_SMELL-_DESC"
+	Value "Something in the atmosphere on this planet causes the entire planet to have a rank odour."
+StringInfo
+	ID "IDS_PLANETBONUS_SMELL+_NAME"
+	Value "Scented Plants"
+StringInfo
+	ID "IDS_PLANETBONUS_SMELL+_DESC"
+	Value "The plants growing naturally on this planet have a pleasant smell to them."
+StringInfo
+	ID "IDS_PLANETBONUS_STORM_NAME"
+	Value "Storm Ridden Planet"
+StringInfo
+	ID "IDS_PLANETBONUS_STORM_DESC"
+	Value "Violent storms plague this planet, making living here difficult."
+StringInfo
+	ID "IDS_PLANETBONUS_STONES_NAME"
+	Value "Precious Stones"
+StringInfo
+	ID "IDS_PLANETBONUS_STONES_DESC"
+	Value "Precious stones and gems found naturally on this Planet hugely increase Trade income. With the extra money from this export, an extra Civilian Station can be built in orbit."
+StringInfo
+	ID "IDS_PLANETBONUS_WARTORN_NAME"
+	Value "War Torn Planet"
+StringInfo
+	ID "IDS_PLANETBONUS_WARTORN_DESC"
+	Value "This Planet has been consumed by an all out war between its inhabitants."
+StringInfo
+	ID "IDS_PLANETBONUS_WOOD_NAME"
+	Value "Valuable Timber"
+StringInfo
+	ID "IDS_PLANETBONUS_WOOD_DESC"
+	Value "A valuable timber from a certain tree on this planet increases trade income."
+StringInfo
+	ID "IDS_PLANETBONUS_WOOD+_NAME"
+	Value "Extremely Valuable Timber"
+StringInfo
+	ID "IDS_PLANETBONUS_WOOD+_DESC"
+	Value "A extremely valuable timber from a certain tree on this planet increases trade income dramatically."
+StringInfo
+	ID "IDS_PLANETBONUS_WOOD++_NAME"
+	Value "Priceless Timber"
+StringInfo
+	ID "IDS_PLANETBONUS_WOOD++_DESC"
+	Value "A priceless timber from a certain tree on this planet increases trade income exponentially."
+StringInfo
+	ID "IDS_PLANETBONUS_HOLIDAY_NAME"
+	Value "Perfect Holiday Destination"
+StringInfo
+	ID "IDS_PLANETBONUS_HOLIDAY_DESC"
+	Value "This planet is 'The' holiday destination for most of this system's inhabitance."
+StringInfo
+	ID "IDS_PLANETBONUS_GALTRADE_NAME"
+	Value "Galactic Trade Center"
+StringInfo
+	ID "IDS_PLANETBONUS_GALTRADE_DESC"
+	Value "A building of great importance, it is a hub of trade from all over the Galaxy."
+StringInfo
+	ID "IDS_PLANETBONUS_IMPUREC_NAME"
+	Value "Impure Crystals"
+StringInfo
+	ID "IDS_PLANETBONUS_IMPUREC_DESC"
+	Value "The Crystal deposits around this Planet are mostly impure, reducing it's mine outputs dramatically."
+StringInfo
+	ID "IDS_PLANETBONUS_IMPUREM_NAME"
+	Value "Impure Metal"
+StringInfo
+	ID "IDS_PLANETBONUS_IMPUREM_DESC"
+	Value "The Metal deposits around this Planet are mostly impure, reducing it's mine outputs dramatically."
+StringInfo
+	ID "IDS_PLANETBONUS_COMM_DESC"
+	Value "The massive orbital and planetary comm arrays present on and around this Planet increase its cultural spread rate dramatically."
 StringInfo
 	ID "IDS_RESEARCHSUBJECT_ABILITYACCESS_XENODEFENSE_NAME"
 	Value "Xeno Defense"
@@ -7539,6 +7944,114 @@ StringInfo
 StringInfo
 	ID "IDS_RESEARCHSUBJECT_PLANETACCESS_VOLCANICPHASE_DESCRIPTION"
 	Value "Allows colonization of Volcanic Planets."
+StringInfo
+	ID "IDS_RESEARCHSUBJECT_PLANETACCESS_OCEANTECH_NAME"
+	Value "Oceanic Colonisation"
+StringInfo
+	ID "IDS_RESEARCHSUBJECT_PLANETACCESS_OCEANTECH_DESCRIPTION"
+	Value "Allows colonisation of Oceanic Planets."
+StringInfo
+	ID "IDS_RESEARCHSUBJECT_PLANETACCESS_OCEANPSI_NAME"
+	Value "Oceanic Colonisation"
+StringInfo
+	ID "IDS_RESEARCHSUBJECT_PLANETACCESS_OCEANPSI_DESCRIPTION"
+	Value "Allows colonisation of Oceanic Planets."
+StringInfo
+	ID "IDS_RESEARCHSUBJECT_PLANETACCESS_OCEANPHASE_NAME"
+	Value "Oceanic Colonisation"
+StringInfo
+	ID "IDS_RESEARCHSUBJECT_PLANETACCESS_OCEANPHASE_DESCRIPTION"
+	Value "Allows colonisation of Oceanic Planets."
+StringInfo
+	ID "IDS_RESEARCHSUBJECT_PLANETACCESS_ROCKTECH_NAME"
+	Value "Barren Colonisation"
+StringInfo
+	ID "IDS_RESEARCHSUBJECT_PLANETACCESS_ROCKTECH_DESCRIPTION"
+	Value "Allows colonisation of Barren Planets."
+StringInfo
+	ID "IDS_RESEARCHSUBJECT_PLANETACCESS_ROCKPSI_NAME"
+	Value "Barren Colonisation"
+StringInfo
+	ID "IDS_RESEARCHSUBJECT_PLANETACCESS_ROCKPSI_DESCRIPTION"
+	Value "Allows colonisation of Barren Planets."
+StringInfo
+	ID "IDS_RESEARCHSUBJECT_PLANETACCESS_ROCKPHASE_NAME"
+	Value "Barren Colonisation"
+StringInfo
+	ID "IDS_RESEARCHSUBJECT_PLANETACCESS_ROCKPHASE_DESCRIPTION"
+	Value "Allows colonisation of Barren Planets."
+StringInfo
+	ID "IDS_RESEARCHSUBJECT_PLANETACCESS_GASTECH_NAME"
+	Value "Gas Giant Colonisation"
+StringInfo
+	ID "IDS_RESEARCHSUBJECT_PLANETACCESS_GASTECH_DESCRIPTION"
+	Value "Allows colonisation of Gas Giants."
+StringInfo
+	ID "IDS_RESEARCHSUBJECT_PLANETACCESS_GASPSI_NAME"
+	Value "Gas Giant Colonisation"
+StringInfo
+	ID "IDS_RESEARCHSUBJECT_PLANETACCESS_GASPSI_DESCRIPTION"
+	Value "Allows colonisation of Gas Giants."
+StringInfo
+	ID "IDS_RESEARCHSUBJECT_PLANETACCESS_GASPHASE_NAME"
+	Value "Gas Giant Colonisation"
+StringInfo
+	ID "IDS_RESEARCHSUBJECT_PLANETACCESS_GASPHASE_DESCRIPTION"
+	Value "Allows colonisation of Gas Giants."
+StringInfo
+	ID "IDS_RESEARCHSUBJECT_POPULATIONCAPGASTECH_NAME"
+	Value "Improved Anti-Grav"
+StringInfo
+	ID "IDS_RESEARCHSUBJECT_POPULATIONCAPGASTECH_DESCRIPTION"
+	Value "Allows larger colony platforms above Gas Giants due to improved Anti-Grav technology."
+StringInfo
+	ID "IDS_RESEARCHSUBJECT_POPULATIONCAPGASPSI_NAME"
+	Value "Improved Anti-Grav"
+StringInfo
+	ID "IDS_RESEARCHSUBJECT_POPULATIONCAPGASPSI_DESCRIPTION"
+	Value "Allows larger colony platforms above Gas Giants due to improved Anti-Grav technology."
+StringInfo
+	ID "IDS_RESEARCHSUBJECT_POPULATIONCAPGASPHASE_NAME"
+	Value "Improved Anti-Grav"
+StringInfo
+	ID "IDS_RESEARCHSUBJECT_POPULATIONCAPGASPHASE_DESCRIPTION"
+	Value "Allows larger colony platforms above Gas Giants due to improved Anti-Grav technology."
+StringInfo
+	ID "IDS_RESEARCHSUBJECT_POPULATIONCAPROCKTECH_NAME"
+	Value "Improved Tunneling"
+StringInfo
+	ID "IDS_RESEARCHSUBJECT_POPULATIONCAPROCKTECH_DESCRIPTION"
+	Value "Widespread tunneling with improved equipment increases the population on Barren and Urban planets, as well as Asteroids."
+StringInfo
+	ID "IDS_RESEARCHSUBJECT_POPULATIONCAPROCKPSI_NAME"
+	Value "Improved Tunneling"
+StringInfo
+	ID "IDS_RESEARCHSUBJECT_POPULATIONCAPROCKPSI_DESCRIPTION"
+	Value "Widespread tunneling with improved equipment increases the population on Barren and Urban planets, as well as Asteroids."
+StringInfo
+	ID "IDS_RESEARCHSUBJECT_POPULATIONCAPROCKPHASE_NAME"
+	Value "Improved Tunneling"
+StringInfo
+	ID "IDS_RESEARCHSUBJECT_POPULATIONCAPROCKPHASE_DESCRIPTION"
+	Value "Widespread tunneling with improved equipment increases the population on Barren and Urban planets, as well as Asteroids."
+StringInfo
+	ID "IDS_RESEARCHSUBJECT_POPULATIONCAPFORESTTECH_NAME"
+	Value "Improved Deforestation"
+StringInfo
+	ID "IDS_RESEARCHSUBJECT_POPULATIONCAPFORESTTECH_DESCRIPTION"
+	Value "With improved machines, colonies can deforest larger areas of woodland and urbanise them, increasing the overall population."
+StringInfo
+	ID "IDS_RESEARCHSUBJECT_POPULATIONCAPFORESTPSI_NAME"
+	Value "Improved Deforestation"
+StringInfo
+	ID "IDS_RESEARCHSUBJECT_POPULATIONCAPFORESTPSI_DESCRIPTION"
+	Value "With improved machines, colonies can deforest larger areas of woodland and urbanise them, increasing the overall population."
+StringInfo
+	ID "IDS_RESEARCHSUBJECT_POPULATIONCAPFORESTPHASE_NAME"
+	Value "Improved Deforestation"
+StringInfo
+	ID "IDS_RESEARCHSUBJECT_POPULATIONCAPFORESTPHASE_DESCRIPTION"
+	Value "With improved machines, colonies can deforest larger areas of woodland and urbanise them, increasing the overall population"
 StringInfo
 	ID "IDS_RESEARCHSUBJECT_PLANETBONUSCOSTDECREASE_NAME"
 	Value "Divination"
@@ -11340,6 +11853,111 @@ StringInfo
 StringInfo
 	ID "IDS_PLANETTYPE_ICE_FIELD"
 	Value "Ice Field"
+StringInfo
+	ID "IDS_PLANETTYPE_CITY"
+	Value "Class-1 Urban Planet"
+StringInfo
+	ID "IDS_PLANETTYPE_CITY_DAVEDON"
+	Value "Class-2 Urban Planet"
+StringInfo
+	ID "IDS_PLANETTYPE_CITY_HOEUS"
+	Value "Class-3 Urban Planet"
+StringInfo
+	ID "IDS_PLANETTYPE_FOREST"
+	Value "Forest Planet"
+StringInfo
+	ID "IDS_PLANETTYPE_TOXIC_DAVEDON"
+	Value "Toxic Planet"
+StringInfo
+	ID "IDS_PLANETTYPE_PARADISE"
+	Value "Class-1 Paradise Planet"
+StringInfo
+	ID "IDS_PLANETTYPE_PARADISE_DIABLO"
+	Value "Class-2 Paradise Planet"
+StringInfo
+	ID "IDS_PLANETTYPE_PARADISE_DIABLO2"
+	Value "Class-3 Paradise Planet"
+StringInfo
+	ID "IDS_PLANETTYPE_INDUSTRIAL"
+	Value "Class-1 Industrial Planet"
+StringInfo
+	ID "IDS_PLANETTYPE_INDUSTRIAL_DAVEDON"
+	Value "Class-2 Industrial Planet"
+StringInfo
+	ID "IDS_PLANETTYPE_MILITARY"
+	Value "Old Naval Base"
+StringInfo
+	ID "IDS_PLANETTYPE_RELIC"
+	Value "Relic World"
+StringInfo
+	ID "IDS_PLANETTYPE_GRASS"
+	Value "Savannah Planet"
+StringInfo
+	ID "IDS_PLANETTYPE_SWAMP"
+	Value "Swamp Planet"
+StringInfo
+	ID "IDSGalaxyScenarioTypePlanetNewFair"
+	Value "Sins Plus Planets Fair"
+StringInfo
+	ID "IDSGalaxyScenarioTypePlanetCityFair"
+	Value "Urban Fair"
+StringInfo
+	ID "IDSGalaxyScenarioTypePlanetRockFair"
+	Value "Rock Fair"
+StringInfo
+	ID "IDSGalaxyScenarioTypePlanetForestFair"
+	Value "Forest Fair"
+StringInfo
+	ID "IDSGalaxyScenarioTypePlanetToxicFair"
+	Value "Toxic Fair"
+StringInfo
+	ID "IDSGalaxyScenarioTypePlanetParadiseFair"
+	Value "Paradise Fair"
+StringInfo
+	ID "IDSGalaxyScenarioTypePlanetIndustrialFair"
+	Value "Industrial Fair"
+StringInfo
+	ID "IDSGalaxyScenarioTypePlanetMilitaryFair"
+	Value "Old Naval Base Fair"
+StringInfo
+	ID "IDSGalaxyScenarioTypePlanetRelicFair"
+	Value "Relic Fair "
+StringInfo
+	ID "IDSGalaxyScenarioTypePlanetGrassFair"
+	Value "Savannah Fair"
+StringInfo
+	ID "IDSGalaxyScenarioTypePlanetSwampFair"
+	Value "Swamp Fair"
+StringInfo
+	ID "IDSGalaxyScenarioTypePlanetCity"
+	Value "Urban"
+StringInfo
+	ID "IDSGalaxyScenarioTypePlanetRock"
+	Value "Rock"
+StringInfo
+	ID "IDSGalaxyScenarioTypePlanetForest"
+	Value "Forest"
+StringInfo
+	ID "IDSGalaxyScenarioTypePlanetToxic"
+	Value "Toxic"
+StringInfo
+	ID "IDSGalaxyScenarioTypePlanetParadise"
+	Value "Paradise"
+StringInfo
+	ID "IDSGalaxyScenarioTypePlanetIndustrial"
+	Value "Industrial"
+StringInfo
+	ID "IDSGalaxyScenarioTypePlanetMilitary"
+	Value "Old Naval Base"
+StringInfo
+	ID "IDSGalaxyScenarioTypePlanetRelic"
+	Value "Relic"
+StringInfo
+	ID "IDSGalaxyScenarioTypePlanetGrass"
+	Value "Savannah"
+StringInfo
+	ID "IDSGalaxyScenarioTypePlanetSwamp"
+	Value "Swamp"
 StringInfo
 	ID "IDS_PLANETMODULE_TECHORBITALFRIGATEFACTORY_NAME"
 	Value "Sub Capital Ship Array"
@@ -20756,7 +21374,7 @@ StringInfo
 	Value "Incursions Active"
 StringInfo
 	ID "IDSGameOptionsArePiratesActiveFalse"
-	Value "Sansha Incursions Inactive"
+	Value "Incursions Inactive"
 StringInfo
 	ID "IDSGameOptionsAreOutlawSectorsActiveTrue"
 	Value "Outlaw Sectors"
@@ -21024,6 +21642,9 @@ StringInfo
 StringInfo
 	ID "IDSGalaxyScenarioTypeStarGreen"
 	Value "Green Star"
+StringInfo
+	ID "IDSGalaxyScenarioTypeStarOrange"
+	Value "Orange Star"
 StringInfo
 	ID "IDSGalaxyScenarioTypeStarNeutron"
 	Value "Neutron Star"
@@ -25169,5 +25790,268 @@ StringInfo
 	Value "Cyclone Envoy"
 StringInfo
 	ID "IDS_FRIGATE_CYCLONE_ENVOY_DESCRIPTION"
-	Value "A refitted prophecy battlecruiser that can improve relations with opposing factions."				
-	
+	Value "A refitted prophecy battlecruiser that can improve relations with opposing factions."
+StringInfo
+	ID "IDS_ABILITY_NAVALBASE_NAME"
+	Value "Targeting Array Network"
+StringInfo
+	ID "IDS_ABILITY_NAVALBASE_DESCRIPTION"
+	Value "A powerful network of targeting arrays on this planet's surface increase the accuracy, and therefore damage and range, of friendly Weapon Platforms and Capital ships in orbit. However, this system can be used by any empire if the Planet is not controlled."
+StringInfo
+	ID "IDS_ABILITY_INDUST_NAME"
+	Value "Huge Industrial Factories"
+StringInfo
+	ID "IDS_ABILITY_INDUST_DESCRIPTION"
+	Value "The massive factories present on this planet double the build rate of ships constructed in orbit."
+StringInfo
+	ID "IDS_ABILITY_SWAMP_NAME"
+	Value "Storm Season"
+StringInfo
+	ID "IDS_ABILITY_SWAMP_DESCRIPTION"
+	Value "While in the storm season, the weather is so bad and turbulent, that large ships, such as those who can set up colonies, cannot enter the planet's atmosphere, therefore making it uncolonisable for this period of time."	
+StringInfo
+	ID "IDS_ABILITY_RELIC_NAME"
+	Value "Ancient Planetary Shield"
+StringInfo
+	ID "IDS_ABILITY_RELIC_DESCRIPTION"
+	Value "While this shield is active, the planet below is immune to bombardment, and also cannot be colonised. This shield uses ancient technology, and its generators and control systems are incomprehensible, therefor cannot be controlled."
+StringInfo
+	ID "IDS_RESEARCHSUBJECT_PLANETACCESS_ICETECH_NAME"
+	Value "Arctic Colonization"
+StringInfo
+	ID "IDS_RESEARCHSUBJECT_PLANETACCESS_ICETECH_DESCRIPTION"
+	Value "Allows colonization of Ice Planets."
+StringInfo
+	ID "IDS_RESEARCHSUBJECT_PLANETACCESS_ICEPSI_NAME"
+	Value "Arctic Colonization"
+StringInfo
+	ID "IDS_RESEARCHSUBJECT_PLANETACCESS_ICEPSI_DESCRIPTION"
+	Value "Allows colonization of Ice Planets."
+StringInfo
+	ID "IDS_RESEARCHSUBJECT_PLANETACCESS_ICEPHASE_NAME"
+	Value "Arctic Colonization"
+StringInfo
+	ID "IDS_RESEARCHSUBJECT_PLANETACCESS_ICEPHASE_DESCRIPTION"
+	Value "Allows colonization of Ice Planets."
+StringInfo
+	ID "IDS_RESEARCHSUBJECT_PLANETACCESS_VOLCANICTECH_NAME"
+	Value "E.C. Colonization"
+StringInfo
+	ID "IDS_RESEARCHSUBJECT_PLANETACCESS_VOLCANICTECH_DESCRIPTION"
+	Value "Allows colonization of extreme condition types like Volcanic, Hothouse and Carbon Planets."
+StringInfo
+	ID "IDS_RESEARCHSUBJECT_PLANETACCESS_VOLCANICPSI_NAME"
+	Value "E.C. Colonization"
+StringInfo
+	ID "IDS_RESEARCHSUBJECT_PLANETACCESS_VOLCANICPSI_DESCRIPTION"
+	Value "Allows colonization of extreme types like Volcanic, Hothouse and Carbon Planets."
+StringInfo
+	ID "IDS_RESEARCHSUBJECT_PLANETACCESS_VOLCANICPHASE_NAME"
+	Value "E.C. Colonization"
+StringInfo
+	ID "IDS_RESEARCHSUBJECT_PLANETACCESS_VOLCANICPHASE_DESCRIPTION"
+	Value "Allows colonization of extreme types like Volcanic, Hothouse and Carbon Planets."
+StringInfo
+	ID "Axeldude_PLANETACCES_Hydrocarbon_Name"
+	Value "Hydrocarbon Colonization"
+StringInfo
+	ID "Axeldude_PLANETACCES_Hydrocarbon_Desc"
+	Value "Allows colonization of Hydrocarbon Planets."
+StringInfo
+	ID "Axeldude_PLANETACCES_Barren_Name"
+	Value "Barren Colonization"
+StringInfo
+	ID "Axeldude_PLANETACCES_Barren_Desc"
+	Value "Allows colonization of Barren Planets."
+StringInfo
+	ID "Axeldude_PLANETACCES_Gas_Name"
+	Value "Gas Giant Colonization"
+StringInfo
+	ID "Axeldude_PLANETACCES_Gas_Desc"
+	Value "Allows colonization of Gas and Ice Giant Planets."
+StringInfo
+	ID "Axeldude_PLANETBONUS_Hurricanes_Name"
+	Value "SURVEY: Severe Hurricanes"
+StringInfo
+	ID "Axeldude_PLANETBONUS_Hurricanes_Desc"
+	Value "This planet constantly has severe global hurricanes, hindering population and planet development."
+StringInfo
+	ID "Axeldude_PLANETBONUS_HazardousAtmosphere_Name"
+	Value "SURVEY: Hazardous Atmosphere"
+StringInfo
+	ID "Axeldude_PLANETBONUS_HazardousAtmosphere_Desc"
+	Value "Microscopic life forms in the atmosphere cause major health issues to non-native life and may result to death, making this a very undesirable planet."
+StringInfo
+	ID "Axeldude_PLANETBONUS_FertileSoil_Name"
+	Value "SURVEY: Fertile Soil"
+StringInfo
+	ID "Axeldude_PLANETBONUS_FertileSoil_Desc"
+	Value "The soil on this planet easily grows crops and other planets, attracting mid-sized farming businesses."
+StringInfo
+	ID "Axeldude_PLANETBONUS_CavernSystem_Name"
+	Value "SURVEY: Cavern System"
+StringInfo
+	ID "Axeldude_PLANETBONUS_CavernSystem_Desc"
+	Value "Surveyors found cavern systems all over this planet, serving as habitable space."
+StringInfo
+	ID "Axeldude_PLANETBONUS_Ruins_Name"
+	Value "SURVEY: Ruins"
+StringInfo
+	ID "Axeldude_PLANETBONUS_Ruins_Desc"
+	Value "The ruins scattered across this planet can be used for city centers."
+StringInfo
+	ID "Axeldude_PLANETBONUS_NatSat_Name"
+	Value "SCAN: Natural Satellite"
+StringInfo
+	ID "Axeldude_PLANETBONUS_NatSat_Desc"
+	Value "This planet has a natural satellite."
+StringInfo
+	ID "Axeldude_PLANETBONUS_BiohydrocarbonAlgae_Name"
+	Value "SURVEY: Biohydrocarbon Algae"
+StringInfo
+	ID "Axeldude_PLANETBONUS_BiohydrocarbonAlgae_Desc"
+	Value "Huge stretches of biohydrocarbon algae grow in the ocean, these algae can be used for fuel for private transportation, attracting large businesses."
+StringInfo
+	ID "Axeldude_PLANETBONUS_DustStorms_Name"
+	Value "SURVEY: Global Dust Storms"
+StringInfo
+	ID "Axeldude_PLANETBONUS_DustStorms_Desc"
+	Value "Dust storms sweep globally across the planet, hindering planet development and population."
+StringInfo
+	ID "Axeldude_PLANETBONUS_MineralRichSoil_Name"
+	Value "SURVEY: Mineral Rich Soil"
+StringInfo
+	ID "Axeldude_PLANETBONUS_MineralRichSoil_Desc"
+	Value "The soil of this planet contains high concentrations of rare minerals, which attracts large businesses."
+StringInfo
+	ID "Axeldude_PLANETBONUS_Blizards_Name"
+	Value "SURVEY: Severe Blizards"
+StringInfo
+	ID "Axeldude_PLANETBONUS_Blizards_Desc"
+	Value "Constant blizards hinder all planet development and population."
+StringInfo
+	ID "Axeldude_PLANETBONUS_PoisonousFlora_Name"
+	Value "SURVEY: Poisonous Flora"
+StringInfo
+	ID "Axeldude_PLANETBONUS_PoisonousFlora_Desc"
+	Value "The plant life releases poisonous substances causing shock and paralysis, decreasing desirability."
+StringInfo
+	ID "Axeldude_PLANETBONUS_GreenhouseRD_Name"
+	Value "SCAN: Greenhouse Effect"
+StringInfo
+	ID "Axeldude_PLANETBONUS_GreenhouseRD_Desc"
+	Value "Scanning shows the atmosphere of this planet has a greenhouse effect, surface temperatures are unusually high, dramaticaly decreasing desirability."
+StringInfo
+	ID "Axeldude_PLANETBONUS_GreenhouseTFO_Name"
+	Value "SCAN: Greenhouse Effect"
+StringInfo
+	ID "Axeldude_PLANETBONUS_GreenhouseTFO_Desc"
+	Value "Scanning shows the atmosphere of this planet has a greenhouse effect, surface temperatures are uncomfortably high, decreasing desirability."
+StringInfo
+	ID "Axeldude_PLANETBONUS_GreenhouseIce_Name"
+	Value "SCAN: Greenhouse Effect"
+StringInfo
+	ID "Axeldude_PLANETBONUS_GreenhouseIce_Desc"
+	Value "Scanning shows the atmosphere of this planet has a greenhouse effect, surface temperatures are milder, increasing desirability."
+StringInfo
+	ID "Axeldude_PLANETBONUS_LowAltitudeDebris_Name"
+	Value "SCAN: Low Altitude Debris"
+StringInfo
+	ID "Axeldude_PLANETBONUS_LowAltitudeDebris_Desc"
+	Value "Debris floating in the upper atmosphere of this planet damages ships that are trying to land, decreasing trade."
+StringInfo
+	ID "Axeldude_PLANETBONUS_SeismicActivity_Name"
+	Value "SCAN: Seismic Activity"
+StringInfo
+	ID "Axeldude_PLANETBONUS_SeismicActivity_Desc"
+	Value "Scans show seismic activity resulting into less buildable land, decreasing maximum population."
+StringInfo
+	ID "Axeldude_PLANETBONUS_IncreasedSeismicActivity_Name"
+	Value "SCAN: Increased Seismic Activity"
+StringInfo
+	ID "Axeldude_PLANETBONUS_IncreasedSeismicActivity_Desc"
+	Value "Scans show increased seismic activity resulting into less buildable land, decreasing maximum population."
+StringInfo
+	ID "Axeldude_PLANETBONUS_WeakMagneticField_Name"
+	Value "SCAN: Weak Magnetic Field"
+StringInfo
+	ID "Axeldude_PLANETBONUS_WeakMagneticField_Desc"
+	Value "Initial scans of this planet reveal a weak magnetic field, causing solar winds to sweep across the surface hindering planet development and decreasing desirability."
+StringInfo
+	ID "Axeldude_PLANETBONUS_MeteorShowers_Name"
+	Value "SCAN: Meteor Showers"
+StringInfo
+	ID "Axeldude_PLANETBONUS_MeteorShowers_Desc"
+	Value "Meteors crash in large numbers on this planet, slowing down planet development and making it more expensive."
+StringInfo
+	ID "Axeldude_PlanetType_Carbon"
+	Value "Carbon Planet"
+StringInfo
+	ID "Axeldude_PlanetType_Carbon_Planetoid"
+	Value "Carbon Planet Planetoid"
+StringInfo
+	ID "Axeldude_PlanetType_Desert"
+	Value "Desert Planet"
+StringInfo
+	ID "Axeldude_PlanetType_Desert_Planetoid"
+	Value "Desert Planetoid"
+StringInfo
+	ID "Axeldude_PlanetType_Barren"
+	Value "Barren Planet"
+StringInfo
+	ID "Axeldude_PlanetType_Barren_Planetoid"
+	Value "Barren Planetoid"
+StringInfo
+	ID "Axeldude_PlanetType_Ice"
+	Value "Ice Planet"
+StringInfo
+	ID "Axeldude_PlanetType_Ice_Planetoid"
+	Value "Ice Planetoid"
+StringInfo
+	ID "Axeldude_PlanetType_Volcanic"
+	Value "Volcanic Planet"
+StringInfo
+	ID "Axeldude_PlanetType_Volcanic_Planetoid"
+	Value "Volcanic Planetoid"
+StringInfo
+	ID "Axeldude_PlanetType_Hydrocarbon"
+	Value "Hydrocarbon Planet"
+StringInfo
+	ID "Axeldude_PlanetType_Hydrocarbon_Planetoid"
+	Value "Hydrocarbon Planetoid"
+StringInfo
+	ID "Axeldude_PlanetType_Terran"
+	Value "Garden Planet"
+StringInfo
+	ID "Axeldude_PlanetType_Terran_Planetoid"
+	Value "Garden Planetoid"
+StringInfo
+	ID "Axeldude_PlanetType_Oceanic"
+	Value "Oceanic Planet"
+StringInfo
+	ID "Axeldude_PlanetType_Oceanic_Planetoid"
+	Value "Oceanic Planetoid"
+StringInfo
+	ID "Axeldude_PlanetType_Forest"
+	Value "Forest Planet"
+StringInfo
+	ID "Axeldude_PlanetType_Forest_Planetoid"
+	Value "Forest Planetoid"
+StringInfo
+	ID "Axeldude_PlanetType_Hothouse"
+	Value "Hothouse Planet"
+StringInfo
+	ID "Axeldude_PlanetType_Hothouse_Planetoid"
+	Value "Hothouse Planetoid"
+StringInfo
+	ID "Axeldude_PlanetType_GasGiant"
+	Value "Gas Giant Planet"
+StringInfo
+	ID "Axeldude_PlanetType_IceGiant"
+	Value "Ice Giant Planet"
+StringInfo
+	ID "Axeldude_PlanetType_Rock"
+	Value "Rock Planet"
+StringInfo
+	ID "Axeldude_PlanetType_Rock_Planetoid"
+	Value "Rock Planetoid"

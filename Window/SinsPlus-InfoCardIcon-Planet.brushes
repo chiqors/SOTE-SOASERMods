@@ -1,0 +1,88 @@
+﻿TXT
+onlyLoadOnDemand FALSE
+brushCount 17
+brush
+	name "INFOCARDICON_PLANET_OCEAN0"
+	content "Simple"
+	fileName "SinsPlus"
+	pixelBox [ 232 , 456 , 22 , 22 ]
+brush
+	name "INFOCARDICON_PLANET_ROCK0"
+	content "Simple"
+	fileName "SinsPlus"
+	pixelBox [ 264 , 456 , 22 , 22 ]
+brush
+	name "INFOCARDICON_PLANET_FOREST0"
+	content "Simple"
+	fileName "SinsPlus"
+	pixelBox [ 296 , 456 , 22 , 22 ]
+brush
+	name "INFOCARDICON_PLANET_CITY0"
+	content "Simple"
+	fileName "SinsPlus"
+	pixelBox [ 232 , 488 , 22 , 22 ]
+brush
+	name "INFOCARDICON_PLANET_CITY1"
+	content "Simple"
+	fileName "SinsPlus"
+	pixelBox [ 232 , 584 , 22 , 22 ]
+brush
+	name "INFOCARDICON_PLANET_CITY2"
+	content "Simple"
+	fileName "SinsPlus"
+	pixelBox [ 264 , 584 , 22 , 22 ]
+brush
+	name "INFOCARDICON_PLANET_TOXIC0"
+	content "Simple"
+	fileName "SinsPlus"
+	pixelBox [ 264 , 488 , 22 , 22 ]
+brush
+	name "INFOCARDICON_PLANET_PARADISE0"
+	content "Simple"
+	fileName "SinsPlus"
+	pixelBox [ 296 , 488 , 22 , 22 ]
+brush
+	name "INFOCARDICON_PLANET_PARADISE1"
+	content "Simple"
+	fileName "SinsPlus"
+	pixelBox [ 232 , 616 , 22 , 22 ]
+brush
+	name "INFOCARDICON_PLANET_PARADISE2"
+	content "Simple"
+	fileName "SinsPlus"
+	pixelBox [ 264 , 616 , 22 , 22 ]
+brush
+	name "INFOCARDICON_PLANET_MILITARY0"
+	content "Simple"
+	fileName "SinsPlus"
+	pixelBox [ 232 , 520 , 22 , 22 ]
+brush
+	name "INFOCARDICON_PLANET_INDUSTRIAL0"
+	content "Simple"
+	fileName "SinsPlus"
+	pixelBox [ 264 , 520 , 22 , 22 ]
+brush
+	name "INFOCARDICON_PLANET_INDUSTRIAL1"
+	content "Simple"
+	fileName "SinsPlus"
+	pixelBox [ 296 , 584 , 22 , 22 ]
+brush
+	name "INFOCARDICON_PLANET_SWAMP0"
+	content "Simple"
+	fileName "SinsPlus"
+	pixelBox [ 296 , 520 , 22 , 22 ]
+brush
+	name "INFOCARDICON_PLANET_GRASS0"
+	content "Simple"
+	fileName "SinsPlus"
+	pixelBox [ 232 , 552 , 22 , 22 ]
+brush
+	name "INFOCARDICON_PLANET_RELIC0"
+	content "Simple"
+	fileName "SinsPlus"
+	pixelBox [ 264 , 552 , 22 , 22 ]
+brush
+	name "INFOCARDICON_PLANET_GRAVE0"
+	content "Simple"
+	fileName "SinsPlus"
+	pixelBox [ 296 , 552 , 22 , 22 ]

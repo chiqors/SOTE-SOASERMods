@@ -85,7 +85,7 @@ MeshNameInfo
 		NumResearchPrerequisites 1
 		ResearchPrerequisite
 			Subject "RESEARCHSUBJECT_CARGOSHIPCAPACITY0"
-			Level 3
+			Level 4
 		RequiredFactionNameID ""
 		RequiredCompletedResearchSubjects 1
 MeshNameInfo
@@ -95,10 +95,10 @@ MeshNameInfo
 		NumResearchPrerequisites 2
 		ResearchPrerequisite
 			Subject "RESEARCHSUBJECT_CARGOSHIPCAPACITY0"
-			Level 3
+			Level 4
 		ResearchPrerequisite
 			Subject "RESEARCHSUBJECT_CARGOSHIPCAPACITY1"
-			Level 3
+			Level 4
 		RequiredFactionNameID ""
 		RequiredCompletedResearchSubjects 1		
 meshNameIncreasedEffectName ""

@@ -41,7 +41,7 @@ ParticleSimulation
 		PipelineEffectID "GS_Exhaust.fx"
 		AreParticlesAttached TRUE
 		numTextures 2
-		textureName "portalcloud.tga"
+		textureName "portalcloud.dds"
 		textureName "beamblast_core.dds"
 		textureAnimationName ""
 		textureAnimationSpawnType "RandomFrames"

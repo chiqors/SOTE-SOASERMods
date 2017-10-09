@@ -1,0 +1,147 @@
+﻿TXT
+onlyLoadOnDemand FALSE
+brushCount 8
+brush
+	name "HUDICON_ABILITY_INDUST"
+	content "States"
+	Disabled
+		fileName "SinsPlus"
+		pixelBox [ 64 , 536 , 47 , 33 ]
+	Pressed
+		fileName "SinsPlus"
+		pixelBox [ 176 , 536 , 47 , 33 ]
+	CursorOver
+		fileName "SinsPlus"
+		pixelBox [ 8 , 536 , 47 , 33 ]
+	Focused
+		fileName "SinsPlus"
+		pixelBox [ 120 , 536 , 47 , 33 ]
+	Normal
+		fileName "SinsPlus"
+		pixelBox [ 120 , 536 , 47 , 33 ]
+brush
+	name "HUDICON_ABILITY_CAPTUREDEAD"
+	content "States"
+	Disabled
+		fileName "SinsPlus"
+		pixelBox [ 64 , 456 , 47 , 33 ]
+	Pressed
+		fileName "SinsPlus"
+		pixelBox [ 176 , 456 , 47 , 33 ]
+	CursorOver
+		fileName "SinsPlus"
+		pixelBox [ 8 , 456 , 47 , 33 ]
+	Focused
+		fileName "SinsPlus"
+		pixelBox [ 120 , 456 , 47 , 33 ]
+	Normal
+		fileName "SinsPlus"
+		pixelBox [ 120 , 456 , 47 , 33 ]
+brush
+	name "HUDICON_ABILITY_GRAVE"
+	content "States"
+	Disabled
+		fileName "SinsPlus"
+		pixelBox [ 64 , 496 , 47 , 33 ]
+	Pressed
+		fileName "SinsPlus"
+		pixelBox [ 176 , 496 , 47 , 33 ]
+	CursorOver
+		fileName "SinsPlus"
+		pixelBox [ 8 , 496 , 47 , 33 ]
+	Focused
+		fileName "SinsPlus"
+		pixelBox [ 120 , 496 , 47 , 33 ]
+	Normal
+		fileName "SinsPlus"
+		pixelBox [ 120 , 496 , 47 , 33 ]
+brush
+	name "HUDICON_ABILITY_RELIC"
+	content "States"
+	Disabled
+		fileName "SinsPlus"
+		pixelBox [ 64 , 736 , 47 , 33 ]
+	Pressed
+		fileName "SinsPlus"
+		pixelBox [ 176 , 736 , 47 , 33 ]
+	CursorOver
+		fileName "SinsPlus"
+		pixelBox [ 8 , 736 , 47 , 33 ]
+	Focused
+		fileName "SinsPlus"
+		pixelBox [ 120 , 736 , 47 , 33 ]
+	Normal
+		fileName "SinsPlus"
+		pixelBox [ 120 , 736 , 47 , 33 ]
+brush
+	name "HUDICON_ABILITY_RELIC2"
+	content "States"
+	Disabled
+		fileName "SinsPlus"
+		pixelBox [ 64 , 776 , 47 , 33 ]
+	Pressed
+		fileName "SinsPlus"
+		pixelBox [ 176 , 776 , 47 , 33 ]
+	CursorOver
+		fileName "SinsPlus"
+		pixelBox [ 8 , 776 , 47 , 33 ]
+	Focused
+		fileName "SinsPlus"
+		pixelBox [ 120 , 776 , 47 , 33 ]
+	Normal
+		fileName "SinsPlus"
+		pixelBox [ 120 , 776 , 47 , 33 ]
+brush
+	name "HUDICON_ABILITY_SWAMP"
+	content "States"
+	Disabled
+		fileName "SinsPlus"
+		pixelBox [ 64 , 816 , 47 , 33 ]
+	Pressed
+		fileName "SinsPlus"
+		pixelBox [ 176 , 816 , 47 , 33 ]
+	CursorOver
+		fileName "SinsPlus"
+		pixelBox [ 8 , 816 , 47 , 33 ]
+	Focused
+		fileName "SinsPlus"
+		pixelBox [ 120 , 816 , 47 , 33 ]
+	Normal
+		fileName "SinsPlus"
+		pixelBox [ 120 , 816 , 47 , 33 ]
+brush
+	name "HUDICON_ABILITY_SWAMP2"
+	content "States"
+	Disabled
+		fileName "SinsPlus"
+		pixelBox [ 64 , 856 , 47 , 33 ]
+	Pressed
+		fileName "SinsPlus"
+		pixelBox [ 176 , 856 , 47 , 33 ]
+	CursorOver
+		fileName "SinsPlus"
+		pixelBox [ 8 , 856 , 47 , 33 ]
+	Focused
+		fileName "SinsPlus"
+		pixelBox [ 120 , 856 , 47 , 33 ]
+	Normal
+		fileName "SinsPlus"
+		pixelBox [ 120 , 856 , 47 , 33 ]
+brush
+	name "HUDICON_ABILITY_NAVALBASE"
+	content "States"
+	Disabled
+		fileName "SinsPlus"
+		pixelBox [ 64 , 576 , 47 , 33 ]
+	Pressed
+		fileName "SinsPlus"
+		pixelBox [ 176 , 576 , 47 , 33 ]
+	CursorOver
+		fileName "SinsPlus"
+		pixelBox [ 8 , 576 , 47 , 33 ]
+	Focused
+		fileName "SinsPlus"
+		pixelBox [ 120 , 576 , 47 , 33 ]
+	Normal
+		fileName "SinsPlus"
+		pixelBox [ 120 , 576 , 47 , 33 ]

@@ -1,0 +1,57 @@
+﻿TXT
+onlyLoadOnDemand FALSE
+brushCount 3
+brush
+	name "AXELDUDE_HUDICON_RESEARCHSUBJECT_PLANETACCESS_GASTECH"
+	content "States"
+	Disabled
+		fileName "Axeldude_ResearchButton_GasGiant_Disabled"
+		pixelBox [ 0 , 0 , 51 , 32 ]
+	Pressed
+		fileName "Axeldude_ResearchButton_GasGiant_Normal"
+		pixelBox [ 0 , 0 , 51 , 32 ]
+	CursorOver
+		fileName "Axeldude_ResearchButton_GasGiant_CursorOver"
+		pixelBox [ 0 , 0 , 51 , 32 ]
+	Focused
+		fileName "Axeldude_ResearchButton_GasGiant_Normal"
+		pixelBox [ 0 , 0 , 51 , 32 ]
+	Normal
+		fileName "Axeldude_ResearchButton_GasGiant_Normal"
+		pixelBox [ 0 , 0 , 51 , 32 ]
+brush
+	name "AXELDUDE_HUDICON_RESEARCHSUBJECT_PLANETACCESS_BARRENTECH"
+	content "States"
+	Disabled
+		fileName "Axeldude_ResearchButton_Barren_Disabled"
+		pixelBox [ 0 , 0 , 51 , 32 ]
+	Pressed
+		fileName "Axeldude_ResearchButton_Barren_Normal"
+		pixelBox [ 0 , 0 , 51 , 32 ]
+	CursorOver
+		fileName "Axeldude_ResearchButton_Barren_CursorOver"
+		pixelBox [ 0 , 0 , 51 , 32 ]
+	Focused
+		fileName "Axeldude_ResearchButton_Barren_Normal"
+		pixelBox [ 0 , 0 , 51 , 32 ]
+	Normal
+		fileName "Axeldude_ResearchButton_Barren_Normal"
+		pixelBox [ 0 , 0 , 51 , 32 ]
+brush
+	name "AXELDUDE_HUDICON_RESEARCHSUBJECT_PLANETACCESS_HYDROCARBONTECH"
+	content "States"
+	Disabled
+		fileName "Axeldude_ResearchButton_Hydrocarbon_Disabled"
+		pixelBox [ 0 , 0 , 51 , 32 ]
+	Pressed
+		fileName "Axeldude_ResearchButton_Hydrocarbon_Normal"
+		pixelBox [ 0 , 0 , 51 , 32 ]
+	CursorOver
+		fileName "Axeldude_ResearchButton_Hydrocarbon_CursorOver"
+		pixelBox [ 0 , 0 , 51 , 32 ]
+	Focused
+		fileName "Axeldude_ResearchButton_Hydrocarbon_Normal"
+		pixelBox [ 0 , 0 , 51 , 32 ]
+	Normal
+		fileName "Axeldude_ResearchButton_Hydrocarbon_Normal"
+		pixelBox [ 0 , 0 , 51 , 32 ]

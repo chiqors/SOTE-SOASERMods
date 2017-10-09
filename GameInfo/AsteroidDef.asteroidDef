@@ -1,5 +1,16 @@
 TXT
-meshGroupCount 10
+meshGroupCount 11
+meshGroup
+	name "Moon_Small_0"
+	meshNameCount 8
+	meshName "Axeldude_Moon_Small_0"
+	meshName "Axeldude_Moon_Small_1"
+	meshName "Axeldude_Moon_Small_2"
+	meshName "Axeldude_Moon_Small_3"
+	meshName "Axeldude_Moon_Small_4"
+	meshName "Axeldude_Moon_Small_5"
+	meshName "Axeldude_Moon_Small_6"
+	meshName "Axeldude_Moon_Small_7"
 meshGroup
 	name "ShatteredMoon"
 	meshNameCount 8
@@ -73,14 +84,14 @@ meshGroup
 meshGroup
 	name "CapShipDebris"
 	meshNameCount 8
-	meshName "Armageddon"
-	meshName "Dominix"
-	meshName "Apocalypse"
-	meshName "Megathron"
-	meshName "Harbinger"
-	meshName "Archon"
-	meshName "Abaddon"
-	meshName "Omen"
+	meshName "CapitalShip_TechBattleship"
+	meshName "CapitalShip_PsiBattleship"
+	meshName "CapitalShip_TechSupport"
+	meshName "CapitalShip_PsiBattlePsionic"
+	meshName "CapitalShip_PsiCarrier"
+	meshName "CapitalShip_PsiPlanetPsionic"
+	meshName "CapitalShip_TechCarrier"
+	meshName "CapitalShip_TechSiege"
 meshGroup
 	name "DebrisLarge"
 	meshNameCount 5
@@ -89,7 +100,20 @@ meshGroup
 	meshName "DebrisPhaseCapitalShipColony"
 	meshName "DebrisAdventLarge"
 	meshName "DebrisTechLarge"
-templateCount 14
+templateCount 15
+template
+	name "Moon_Small_One"
+	clusterCount 1
+	cluster
+		meshGroupName "Moon_Small_0"
+		asteroidCount 1
+		minDistance 0
+		maxDistance 0
+		maxZOffset 1.0
+		minAngle 270
+		maxAngle 271
+		minAngularSpeed 0.002
+		maxAngularSpeed 0.003
 template
 	name "Shattered"
 	clusterCount 1
@@ -422,4 +446,3 @@ template
 		maxAngle 10
 		minAngularSpeed 0.2
 		maxAngularSpeed 0.35
-		

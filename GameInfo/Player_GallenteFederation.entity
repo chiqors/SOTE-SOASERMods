@@ -11,12 +11,12 @@ entities
 	planetModuleInfo
 		Page:0
 			count 9
-			entityDefName "PLANETMODULE_PHASEORBITALMETALEXTRACTOR"
+			entityDefName "Allraces_Structure_MetalExtractor"
 			entityDefName "Gallente_Structure_FrigateFactory"
 			entityDefName "Gallente_Structure_CombatLab"
 			entityDefName "Gallente_Structure_TradePort"
 			entityDefName "Gallente_Structure_CultureCenter"
-			entityDefName "PLANETMODULE_PHASEORBITALCRYSTALEXTRACTOR"
+			entityDefName "Allraces_Structure_CrystalExtractor"
 			entityDefName "Gallente_Structure_CapitalShipFactory"
 			entityDefName "Gallente_Structure_CivillianLab"
 			entityDefName "Amarr_Structure_Refinery"
@@ -74,7 +74,7 @@ entities
 			entityDefName "Amarr_Ship_Refineryship_Bestower"
 			entityDefName "Ore_ShipOrca"			
 	researchInfo
-		count 130
+		count 128
 		entityDefName "RSALogistic"
 		entityDefName "RSAInterdictor"		
 		entityDefName "RSACommand_Orca"		
@@ -82,6 +82,7 @@ entities
 		entityDefName "RSAHeavyAssault"
 		entityDefName "RSABlackOps"
 		entityDefName "RSAMarauder"
+		entityDefName "RESEARCH_FORCEAI_AID"
 		entityDefName "ALLRACES_RESEARCHSUBJECT_ABILITYACCESS_AFTERBURNER"
 		entityDefName "ALLRACES_RESEARCHSUBJECT_ABILITYACCESS_BASTIONMODE"
 		entityDefName "ALLRACES_RESEARCHSUBJECT_ABILITYACCESS_CLOAK"
@@ -138,9 +139,6 @@ entities
 		entityDefName "RESEARCHSUBJECT_ABILITYACCESS_XENODEFENSE"
 		entityDefName "RESEARCHSUBJECT_ADVANCED_INTER_SPECIES_RELATIONS"
 		entityDefName "RESEARCHSUBJECT_ADVANCED_XENO_MANIPULATION"
-		entityDefName "RESEARCHSUBJECT_AIBOOST_STAGE1"
-		entityDefName "RESEARCHSUBJECT_AIBOOST_STAGE2"
-		entityDefName "RESEARCHSUBJECT_AIBOOST_STAGE3"
 		entityDefName "RESEARCHSUBJECT_ANTIMATTERTECH0"
 		entityDefName "RESEARCHSUBJECT_ARMORTECH0"
 		entityDefName "RESEARCHSUBJECT_ARMORTECH1"
@@ -269,7 +267,7 @@ hyperspaceData
 	baseHyperspaceAntiMatterCost 0.000000
 	baseHyperspaceChargeUpTime 2.200000
 shieldData
-	shieldAbsorbGrowthPerDamage 0.0500000
+	shieldAbsorbGrowthPerDamage 0.050000
 	shieldAbsorbDecayRate 0.000100
 	shieldAbsorbBaseMin 0.0500000
 	shieldColor ff66ffcc

@@ -32,7 +32,7 @@ instantAction
 		muzzleSounds
 			soundCount 1
 			sound "EFFECT_NEUTRONTORPEDO_MUZZLE"
-		hitEffectName "Oblivion_Hit2"
+		hitEffectName "Oblivion_Hit"
 		hitHullEffectSounds
 			soundCount 4
 			sound "MISSILEEXPLOSION_EVEONLINE1"
@@ -73,7 +73,7 @@ instantAction
 		muzzleSounds
 			soundCount 1
 			sound "EFFECT_NEUTRONTORPEDO_MUZZLE"
-		hitEffectName "Oblivion_Hit2"
+		hitEffectName "Oblivion_Hit"
 		hitHullEffectSounds
 			soundCount 4
 			sound "MISSILEEXPLOSION_EVEONLINE1"
@@ -114,7 +114,7 @@ instantAction
 		muzzleSounds
 			soundCount 1
 			sound "EFFECT_NEUTRONTORPEDO_MUZZLE"
-		hitEffectName "Oblivion_Hit2"
+		hitEffectName "Oblivion_Hit"
 		hitHullEffectSounds
 			soundCount 4
 			sound "MISSILEEXPLOSION_EVEONLINE1"
@@ -155,7 +155,7 @@ instantAction
 		muzzleSounds
 			soundCount 1
 			sound "EFFECT_NEUTRONTORPEDO_MUZZLE"
-		hitEffectName "Oblivion_Hit2"
+		hitEffectName "Oblivion_Hit"
 		hitHullEffectSounds
 			soundCount 4
 			sound "MISSILEEXPLOSION_EVEONLINE1"

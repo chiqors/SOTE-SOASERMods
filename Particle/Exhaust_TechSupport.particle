@@ -1,4 +1,4 @@
-﻿TXT
+ ﻿TXT
 ParticleSimulation
 	HasInfiniteLifeTime TRUE
 	TotalLifeTime 10.000000
@@ -41,7 +41,7 @@ ParticleSimulation
 		PipelineEffectID "Particle_Additive.fx"
 		AreParticlesAttached TRUE
 		numTextures 2
-		textureName "C:\IRONCLAD\effects\brightcenter.tga"
+		textureName "brightcenter.tga"
 		textureName ""
 		textureAnimationName ""
 		textureAnimationSpawnType "RandomFrames"
@@ -89,8 +89,8 @@ ParticleSimulation
 		PipelineEffectID "GS_Exhaust.fx"
 		AreParticlesAttached TRUE
 		numTextures 2
-		textureName "C:\gs\DataSource\Textures\Effects\rayoflightstrands.tga"
-		textureName "C:\gs\DataSource\Textures\Effects\straightray.tga"
+		textureName "rayoflightstrands.tga"
+		textureName "straightray.tga"
 		textureAnimationName ""
 		textureAnimationSpawnType "RandomFrames"
 		textureAnimationOnParticleFPS 0.000000
@@ -137,8 +137,8 @@ ParticleSimulation
 		PipelineEffectID "GS_Exhaust.fx"
 		AreParticlesAttached TRUE
 		numTextures 2
-		textureName "C:\gs\DataSource\Textures\Effects\zap.tga"
-		textureName "C:\gs\DataSource\Textures\Effects\zap.tga"
+		textureName "zap.tga"
+		textureName "zap.tga"
 		textureAnimationName ""
 		textureAnimationSpawnType "RandomFrames"
 		textureAnimationOnParticleFPS 0.000000
@@ -185,8 +185,8 @@ ParticleSimulation
 		PipelineEffectID "GS_Exhaust.fx"
 		AreParticlesAttached TRUE
 		numTextures 2
-		textureName "C:\gs\main\DataSource\Textures\Effects\cloud.dds"
-		textureName "C:\gs\main\DataSource\Textures\Effects\cloud.dds"
+		textureName "cloud.dds"
+		textureName "cloud.dds"
 		textureAnimationName ""
 		textureAnimationSpawnType "RandomFrames"
 		textureAnimationOnParticleFPS 0.000000

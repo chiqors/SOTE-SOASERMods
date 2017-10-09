@@ -43,7 +43,7 @@ ParticleSimulation
 		numTextures 2
 		textureName ""
 		textureName ""
-		textureAnimationName "C:\gs\entrenchment\DataSource\TextureAnimations\chaosbolt.texanim"
+		textureAnimationName "chaosbolt.texanim"
 		textureAnimationSpawnType "SequentialFrames"
 		textureAnimationOnParticleFPS 30.000000
 		ParticlesRotate FALSE
@@ -89,7 +89,7 @@ ParticleSimulation
 		PipelineEffectID "Particle_Additive.fx"
 		AreParticlesAttached TRUE
 		numTextures 2
-		textureName "C:\gs\entrenchment\DataSource\Textures\Effects\rayoflightcurve.tga"
+		textureName "rayoflightcurve.tga"
 		textureName ""
 		textureAnimationName ""
 		textureAnimationSpawnType "RandomFrames"

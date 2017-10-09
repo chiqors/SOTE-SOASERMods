@@ -1,0 +1,88 @@
+﻿TXT
+onlyLoadOnDemand FALSE
+brushCount 17
+brush
+	name "PICTURE_PLANET_OCEAN0"
+	content "Simple"
+	fileName "SinsPlus"
+	pixelBox [ 680 , 8 , 167 , 75 ]
+brush
+	name "PICTURE_PLANET_ROCK0"
+	content "Simple"
+	fileName "SinsPlus"
+	pixelBox [ 328 , 8 , 167 , 75 ]
+brush
+	name "PICTURE_PLANET_FOREST0"
+	content "Simple"
+	fileName "SinsPlus"
+	pixelBox [ 504 , 8 , 167 , 75 ]
+brush
+	name "PICTURE_PLANET_CITY0"
+	content "Simple"
+	fileName "SinsPlus"
+	pixelBox [ 328 , 88 , 167 , 75 ]
+brush
+	name "PICTURE_PLANET_CITY1"
+	content "Simple"
+	fileName "SinsPlus"
+	pixelBox [ 328 , 328 , 167 , 75 ]
+brush
+	name "PICTURE_PLANET_CITY2"
+	content "Simple"
+	fileName "SinsPlus"
+	pixelBox [ 504 , 328 , 167 , 75 ]
+brush
+	name "PICTURE_PLANET_TOXIC0"
+	content "Simple"
+	fileName "SinsPlus"
+	pixelBox [ 504 , 88 , 167 , 75 ]
+brush
+	name "PICTURE_PLANET_PARADISE0"
+	content "Simple"
+	fileName "SinsPlus"
+	pixelBox [ 680 , 88 , 167 , 75 ]
+brush
+	name "PICTURE_PLANET_PARADISE1"
+	content "Simple"
+	fileName "SinsPlus"
+	pixelBox [ 328 , 408 , 167 , 75 ]
+brush
+	name "PICTURE_PLANET_PARADISE2"
+	content "Simple"
+	fileName "SinsPlus"
+	pixelBox [ 504 , 408 , 167 , 75 ]
+brush
+	name "PICTURE_PLANET_MILITARY0"
+	content "Simple"
+	fileName "SinsPlus"
+	pixelBox [ 328 , 168 , 167 , 75 ]
+brush
+	name "PICTURE_PLANET_INDUSTRIAL0"
+	content "Simple"
+	fileName "SinsPlus"
+	pixelBox [ 504 , 168 , 167 , 75 ]
+brush
+	name "PICTURE_PLANET_INDUSTRIAL1"
+	content "Simple"
+	fileName "SinsPlus"
+	pixelBox [ 680 , 328 , 167 , 75 ]
+brush
+	name "PICTURE_PLANET_SWAMP0"
+	content "Simple"
+	fileName "SinsPlus"
+	pixelBox [ 680 , 168 , 167 , 75 ]
+brush
+	name "PICTURE_PLANET_GRASS0"
+	content "Simple"
+	fileName "SinsPlus"
+	pixelBox [ 328 , 248 , 167 , 75 ]
+brush
+	name "PICTURE_PLANET_RELIC0"
+	content "Simple"
+	fileName "SinsPlus"
+	pixelBox [ 504 , 248 , 167 , 75 ]
+brush
+	name "PICTURE_PLANET_GRAVE0"
+	content "Simple"
+	fileName "SinsPlus"
+	pixelBox [ 680 , 248 , 167 , 75 ]

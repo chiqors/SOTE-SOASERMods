@@ -24,7 +24,7 @@ ParticleSimulation
 		ParticleStartColor ffffffff
 		ParticleWidth 1.000000
 		ParticleHeight 1.000000
-		MeshName "C:\GS\DataSource\Mesh\Weapon_PsiKinetic.MESH"
+		MeshName "Weapon_PsiKinetic.MESH"
 		Position [ 0.000000 0.000000 20.000000 ]
 		Orientation
 			 [ 1.000000 0.000000 0.000000 ]

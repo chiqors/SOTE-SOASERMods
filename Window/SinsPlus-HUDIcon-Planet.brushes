@@ -1,0 +1,498 @@
+﻿TXT
+onlyLoadOnDemand FALSE
+brushCount 99
+brush
+	name "HUDICON_PLANETBONUS_BLACK"
+	content "Simple"
+	fileName "SinsPlus"
+	pixelBox [ 8 , 8 , 22 , 22 ]
+brush
+	name "HUDICON_PLANETBONUS_CONSTRUCTO"
+	content "Simple"
+	fileName "SinsPlus"
+	pixelBox [ 40 , 8 , 22 , 22 ]
+brush
+	name "HUDICON_PLANETBONUS_CONSTRUCTP"
+	content "Simple"
+	fileName "SinsPlus"
+	pixelBox [ 72 , 8 , 22 , 22 ]
+brush
+	name "HUDICON_PLANETBONUS_FLOOD"
+	content "Simple"
+	fileName "SinsPlus"
+	pixelBox [ 104 , 8 , 22 , 22 ]
+brush
+	name "HUDICON_PLANETBONUS_FRESHWATER"
+	content "Simple"
+	fileName "SinsPlus"
+	pixelBox [ 136 , 8 , 22 , 22 ]
+brush
+	name "HUDICON_PLANETBONUS_FROZEN"
+	content "Simple"
+	fileName "SinsPlus"
+	pixelBox [ 168 , 8 , 22 , 22 ]
+brush
+	name "HUDICON_PLANETBONUS_GRAV-"
+	content "Simple"
+	fileName "SinsPlus"
+	pixelBox [ 200 , 8 , 22 , 22 ]
+brush
+	name "HUDICON_PLANETBONUS_GRAV+"
+	content "Simple"
+	fileName "SinsPlus"
+	pixelBox [ 232 , 8 , 22 , 22 ]
+brush
+	name "HUDICON_PLANETBONUS_MILITARY"
+	content "Simple"
+	fileName "SinsPlus"
+	pixelBox [ 264 , 8 , 22 , 22 ]
+brush
+	name "HUDICON_PLANETBONUS_MOON"
+	content "Simple"
+	fileName "SinsPlus"
+	pixelBox [ 296 , 8 , 22 , 22 ]
+brush
+	name "HUDICON_PLANETBONUS_MOON+1"
+	content "Simple"
+	fileName "SinsPlus"
+	pixelBox [ 8 , 40 , 22 , 22 ]
+brush
+	name "HUDICON_PLANETBONUS_OUTPOST"
+	content "Simple"
+	fileName "SinsPlus"
+	pixelBox [ 40 , 40 , 22 , 22 ]
+brush
+	name "HUDICON_PLANETBONUS_OVERGROWN"
+	content "Simple"
+	fileName "SinsPlus"
+	pixelBox [ 72 , 40 , 22 , 22 ]
+brush
+	name "HUDICON_PLANETBONUS_PLAGUE"
+	content "Simple"
+	fileName "SinsPlus"
+	pixelBox [ 104 , 40 , 22 , 22 ]
+brush
+	name "HUDICON_PLANETBONUS_PLANTC"
+	content "Simple"
+	fileName "SinsPlus"
+	pixelBox [ 136 , 40 , 22 , 22 ]
+brush
+	name "HUDICON_PLANETBONUS_PLANTM"
+	content "Simple"
+	fileName "SinsPlus"
+	pixelBox [ 168 , 40 , 22 , 22 ]
+brush
+	name "HUDICON_PLANETBONUS_PUREC"
+	content "Simple"
+	fileName "SinsPlus"
+	pixelBox [ 200 , 40 , 22 , 22 ]
+brush
+	name "HUDICON_PLANETBONUS_PUREM"
+	content "Simple"
+	fileName "SinsPlus"
+	pixelBox [ 232 , 40 , 22 , 22 ]
+brush
+	name "HUDICON_PLANETBONUS_RADIATION"
+	content "Simple"
+	fileName "SinsPlus"
+	pixelBox [ 264 , 40 , 22 , 22 ]
+brush
+	name "HUDICON_PLANETBONUS_RELIGION-"
+	content "Simple"
+	fileName "SinsPlus"
+	pixelBox [ 296 , 40 , 22 , 22 ]
+brush
+	name "HUDICON_PLANETBONUS_RELIGION+"
+	content "Simple"
+	fileName "SinsPlus"
+	pixelBox [ 8 , 72 , 22 , 22 ]
+brush
+	name "HUDICON_PLANETBONUS_SEISMIC"
+	content "Simple"
+	fileName "SinsPlus"
+	pixelBox [ 40 , 72 , 22 , 22 ]
+brush
+	name "HUDICON_PLANETBONUS_SHIELD1"
+	content "Simple"
+	fileName "SinsPlus"
+	pixelBox [ 72 , 72 , 22 , 22 ]
+brush
+	name "HUDICON_PLANETBONUS_SHIELD2"
+	content "Simple"
+	fileName "SinsPlus"
+	pixelBox [ 104 , 72 , 22 , 22 ]
+brush
+	name "HUDICON_PLANETBONUS_SMELL-"
+	content "Simple"
+	fileName "SinsPlus"
+	pixelBox [ 136 , 72 , 22 , 22 ]
+brush
+	name "HUDICON_PLANETBONUS_SMELL+"
+	content "Simple"
+	fileName "SinsPlus"
+	pixelBox [ 168 , 72 , 22 , 22 ]
+brush
+	name "HUDICON_PLANETBONUS_STORM"
+	content "Simple"
+	fileName "SinsPlus"
+	pixelBox [ 200 , 72 , 22 , 22 ]
+brush
+	name "HUDICON_PLANETBONUS_STONES"
+	content "Simple"
+	fileName "SinsPlus"
+	pixelBox [ 232 , 72 , 22 , 22 ]
+brush
+	name "HUDICON_PLANETBONUS_WARTORN"
+	content "Simple"
+	fileName "SinsPlus"
+	pixelBox [ 264 , 72 , 22 , 22 ]
+brush
+	name "HUDICON_PLANETBONUS_WOOD"
+	content "Simple"
+	fileName "SinsPlus"
+	pixelBox [ 296 , 72 , 22 , 22 ]
+brush
+	name "HUDICON_PLANETBONUS_WOOD+"
+	content "Simple"
+	fileName "SinsPlus"
+	pixelBox [ 8 , 104 , 22 , 22 ]
+brush
+	name "HUDICON_PLANETBONUS_WOOD++"
+	content "Simple"
+	fileName "SinsPlus"
+	pixelBox [ 40 , 104 , 22 , 22 ]
+brush
+	name "HUDICON_PLANETBONUS_HOLIDAY"
+	content "Simple"
+	fileName "SinsPlus"
+	pixelBox [ 72 , 104 , 22 , 22 ]
+brush
+	name "HUDICON_PLANETBONUS_GALTRADE"
+	content "Simple"
+	fileName "SinsPlus"
+	pixelBox [ 104 , 104 , 22 , 22 ]
+brush
+	name "HUDICON_PLANETBONUS_IMPUREC"
+	content "Simple"
+	fileName "SinsPlus"
+	pixelBox [ 136 , 104 , 22 , 22 ]
+brush
+	name "HUDICON_PLANETBONUS_IMPUREM"
+	content "Simple"
+	fileName "SinsPlus"
+	pixelBox [ 168 , 104 , 22 , 22 ]
+brush
+	name "HUDICON_PLANETBONUS_HOLLOW"
+	content "Simple"
+	fileName "SinsPlus"
+	pixelBox [ 200 , 104 , 22 , 22 ]
+brush
+	name "HUDICON_PLANETBONUS_SLAVES"
+	content "Simple"
+	fileName "SinsPlus"
+	pixelBox [ 232 , 104 , 22 , 22 ]
+brush
+	name "HUDICON_PLANETBONUS_BIGASS"
+	content "Simple"
+	fileName "SinsPlus"
+	pixelBox [ 264 , 104 , 22 , 22 ]
+brush
+	name "HUDICON_PLANETBONUS_HARDASS"
+	content "Simple"
+	fileName "SinsPlus"
+	pixelBox [ 296 , 104 , 22 , 22 ]
+brush
+	name "HUDICON_PLANETBONUS_REVOLT"
+	content "Simple"
+	fileName "SinsPlus"
+	pixelBox [ 8 , 136 , 22 , 22 ]
+brush
+	name "HUDICON_PLANETBONUS_REVOLT+1"
+	content "Simple"
+	fileName "SinsPlus"
+	pixelBox [ 40 , 136 , 22 , 22 ]
+brush
+	name "HUDICON_PLANETBONUS_COMM"
+	content "Simple"
+	fileName "SinsPlus"
+	pixelBox [ 72 , 136 , 22 , 22 ]
+brush
+	name "HUDICON_PLANETBONUS_O1"
+	content "Simple"
+	fileName "SinsPlus"
+	pixelBox [ 104 , 136 , 22 , 22 ]
+brush
+	name "HUDICON_PLANETBONUS_O2"
+	content "Simple"
+	fileName "SinsPlus"
+	pixelBox [ 136 , 136 , 22 , 22 ]
+brush
+	name "HUDICON_PLANETBONUS_DESIGN1"
+	content "Simple"
+	fileName "SinsPlus"
+	pixelBox [ 168 , 136 , 22 , 22 ]
+brush
+	name "HUDICON_PLANETBONUS_DESIGN2"
+	content "Simple"
+	fileName "SinsPlus"
+	pixelBox [ 200 , 136 , 22 , 22 ]
+brush
+	name "HUDICON_PLANETBONUS_DENSEJ"
+	content "Simple"
+	fileName "SinsPlus"
+	pixelBox [ 232 , 136 , 22 , 22 ]
+brush
+	name "HUDICON_PLANETBONUS_DENSEC"
+	content "Simple"
+	fileName "SinsPlus"
+	pixelBox [ 264 , 136 , 22 , 22 ]
+brush
+	name "HUDICON_PLANETBONUS_CORROA"
+	content "Simple"
+	fileName "SinsPlus"
+	pixelBox [ 296 , 136 , 22 , 22 ]
+brush
+	name "HUDICON_PLANETBONUS_SUBT"
+	content "Simple"
+	fileName "SinsPlus"
+	pixelBox [ 8 , 168 , 22 , 22 ]
+brush
+	name "HUDICON_PLANETBONUS_SUBM"
+	content "Simple"
+	fileName "SinsPlus"
+	pixelBox [ 40 , 168 , 22 , 22 ]
+brush
+	name "HUDICON_PLANETBONUS_RESIN"
+	content "Simple"
+	fileName "SinsPlus"
+	pixelBox [ 72 , 168 , 22 , 22 ]
+brush
+	name "HUDICON_PLANETBONUS_SMUG+"
+	content "Simple"
+	fileName "SinsPlus"
+	pixelBox [ 104 , 168 , 22 , 22 ]
+brush
+	name "HUDICON_PLANETBONUS_SMUG-"
+	content "Simple"
+	fileName "SinsPlus"
+	pixelBox [ 136 , 168 , 22 , 22 ]
+brush
+	name "HUDICON_PLANETBONUS_ATMO+"
+	content "Simple"
+	fileName "SinsPlus"
+	pixelBox [ 168 , 168 , 22 , 22 ]
+brush
+	name "HUDICON_PLANETBONUS_LOOKS+"
+	content "Simple"
+	fileName "SinsPlus"
+	pixelBox [ 200 , 168 , 22 , 22 ]
+brush
+	name "HUDICON_PLANETBONUS_LOOKS-"
+	content "Simple"
+	fileName "SinsPlus"
+	pixelBox [ 232 , 168 , 22 , 22 ]
+brush
+	name "HUDICON_PLANETBONUS_HERD"
+	content "Simple"
+	fileName "SinsPlus"
+	pixelBox [ 264 , 168 , 22 , 22 ]
+brush
+	name "HUDICON_PLANETBONUS_ROBOTS+"
+	content "Simple"
+	fileName "SinsPlus"
+	pixelBox [ 296 , 168 , 22 , 22 ]
+brush
+	name "HUDICON_PLANETBONUS_ROBOTS-"
+	content "Simple"
+	fileName "SinsPlus"
+	pixelBox [ 8 , 200 , 22 , 22 ]
+brush
+	name "HUDICON_PLANETBONUS_UNSTABLE"
+	content "Simple"
+	fileName "SinsPlus"
+	pixelBox [ 40 , 200 , 22 , 22 ]
+brush
+	name "HUDICON_PLANETBONUS_RODENT+"
+	content "Simple"
+	fileName "SinsPlus"
+	pixelBox [ 72 , 200 , 22 , 22 ]
+brush
+	name "HUDICON_PLANETBONUS_RODENT-"
+	content "Simple"
+	fileName "SinsPlus"
+	pixelBox [ 104 , 200 , 22 , 22 ]
+brush
+	name "HUDICON_PLANETBONUS_LIONS"
+	content "Simple"
+	fileName "SinsPlus"
+	pixelBox [ 136 , 200 , 22 , 22 ]
+brush
+	name "HUDICONSMALL_PLANET_OCEAN0"
+	content "Simple"
+	fileName "SinsPlus"
+	pixelBox [ 856 , 344 , 28 , 23 ]
+brush
+	name "HUDICON_PLANET_OCEAN0"
+	content "Simple"
+	fileName "SinsPlus"
+	pixelBox [ 856 , 8 , 50 , 50 ]
+brush
+	name "HUDICONSMALL_PLANET_ROCK0"
+	content "Simple"
+	fileName "SinsPlus"
+	pixelBox [ 896 , 344 , 28 , 23 ]
+brush
+	name "HUDICON_PLANET_ROCK0"
+	content "Simple"
+	fileName "SinsPlus"
+	pixelBox [ 912 , 8 , 50 , 50 ]
+brush
+	name "HUDICONSMALL_PLANET_FOREST0"
+	content "Simple"
+	fileName "SinsPlus"
+	pixelBox [ 936 , 344 , 28 , 23 ]
+brush
+	name "HUDICON_PLANET_FOREST0"
+	content "Simple"
+	fileName "SinsPlus"
+	pixelBox [ 968 , 8 , 50 , 50 ]
+brush
+	name "HUDICONSMALL_PLANET_CITY0"
+	content "Simple"
+	fileName "SinsPlus"
+	pixelBox [ 976 , 344 , 28 , 23 ]
+brush
+	name "HUDICON_PLANET_CITY0"
+	content "Simple"
+	fileName "SinsPlus"
+	pixelBox [ 856 , 64 , 50 , 50 ]
+brush
+	name "HUDICONSMALL_PLANET_CITY1"
+	content "Simple"
+	fileName "SinsPlus"
+	pixelBox [ 856 , 440 , 28 , 23 ]
+brush
+	name "HUDICON_PLANET_CITY1"
+	content "Simple"
+	fileName "SinsPlus"
+	pixelBox [ 856 , 232 , 50 , 50 ]
+brush
+	name "HUDICONSMALL_PLANET_CITY2"
+	content "Simple"
+	fileName "SinsPlus"
+	pixelBox [ 896 , 440 , 28 , 23 ]
+brush
+	name "HUDICON_PLANET_CITY2"
+	content "Simple"
+	fileName "SinsPlus"
+	pixelBox [ 912 , 232 , 50 , 50 ]
+brush
+	name "HUDICONSMALL_PLANET_TOXIC0"
+	content "Simple"
+	fileName "SinsPlus"
+	pixelBox [ 856 , 376 , 28 , 23 ]
+brush
+	name "HUDICON_PLANET_TOXIC0"
+	content "Simple"
+	fileName "SinsPlus"
+	pixelBox [ 912 , 64 , 50 , 50 ]
+brush
+	name "HUDICONSMALL_PLANET_PARADISE0"
+	content "Simple"
+	fileName "SinsPlus"
+	pixelBox [ 896 , 376 , 28 , 23 ]
+brush
+	name "HUDICON_PLANET_PARADISE0"
+	content "Simple"
+	fileName "SinsPlus"
+	pixelBox [ 968 , 64 , 50 , 50 ]
+brush
+	name "HUDICONSMALL_PLANET_PARADISE1"
+	content "Simple"
+	fileName "SinsPlus"
+	pixelBox [ 976 , 440 , 28 , 23 ]
+brush
+	name "HUDICON_PLANET_PARADISE1"
+	content "Simple"
+	fileName "SinsPlus"
+	pixelBox [ 856 , 288 , 50 , 50 ]
+brush
+	name "HUDICONSMALL_PLANET_PARADISE2"
+	content "Simple"
+	fileName "SinsPlus"
+	pixelBox [ 856 , 472 , 28 , 23 ]
+brush
+	name "HUDICON_PLANET_PARADISE2"
+	content "Simple"
+	fileName "SinsPlus"
+	pixelBox [ 912 , 288 , 50 , 50 ]
+brush
+	name "HUDICONSMALL_PLANET_MILITARY0"
+	content "Simple"
+	fileName "SinsPlus"
+	pixelBox [ 936 , 376 , 28 , 23 ]
+brush
+	name "HUDICON_PLANET_MILITARY0"
+	content "Simple"
+	fileName "SinsPlus"
+	pixelBox [ 856 , 120 , 50 , 50 ]
+brush
+	name "HUDICONSMALL_PLANET_INDUSTRIAL0"
+	content "Simple"
+	fileName "SinsPlus"
+	pixelBox [ 976 , 376 , 28 , 23 ]
+brush
+	name "HUDICON_PLANET_INDUSTRIAL0"
+	content "Simple"
+	fileName "SinsPlus"
+	pixelBox [ 912 , 120 , 50 , 50 ]
+brush
+	name "HUDICONSMALL_PLANET_INDUSTRIAL1"
+	content "Simple"
+	fileName "SinsPlus"
+	pixelBox [ 936 , 440 , 28 , 23 ]
+brush
+	name "HUDICON_PLANET_INDUSTRIAL1"
+	content "Simple"
+	fileName "SinsPlus"
+	pixelBox [ 968 , 232 , 50 , 50 ]
+brush
+	name "HUDICONSMALL_PLANET_SWAMP0"
+	content "Simple"
+	fileName "SinsPlus"
+	pixelBox [ 856 , 408 , 28 , 23 ]
+brush
+	name "HUDICON_PLANET_SWAMP0"
+	content "Simple"
+	fileName "SinsPlus"
+	pixelBox [ 968 , 120 , 50 , 50 ]
+brush
+	name "HUDICONSMALL_PLANET_GRASS0"
+	content "Simple"
+	fileName "SinsPlus"
+	pixelBox [ 896 , 408 , 28 , 23 ]
+brush
+	name "HUDICON_PLANET_GRASS0"
+	content "Simple"
+	fileName "SinsPlus"
+	pixelBox [ 856 , 176 , 50 , 50 ]
+brush
+	name "HUDICONSMALL_PLANET_RELIC0"
+	content "Simple"
+	fileName "SinsPlus"
+	pixelBox [ 936 , 408 , 28 , 23 ]
+brush
+	name "HUDICON_PLANET_RELIC0"
+	content "Simple"
+	fileName "SinsPlus"
+	pixelBox [ 912 , 176 , 50 , 50 ]
+brush
+	name "HUDICONSMALL_PLANET_GRAVE0"
+	content "Simple"
+	fileName "SinsPlus"
+	pixelBox [ 976 , 408 , 28 , 23 ]
+brush
+	name "HUDICON_PLANET_GRAVE0"
+	content "Simple"
+	fileName "SinsPlus"
+	pixelBox [ 968 , 176 , 50 , 50 ]

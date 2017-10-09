@@ -138,7 +138,7 @@ ParticleSimulation
 		AreParticlesAttached TRUE
 		numTextures 2
 		textureName "explosion_core.tga"
-		textureName "smoke2.dds"
+		textureName "smoke2.tga"
 		textureAnimationName ""
 		textureAnimationSpawnType "RandomFrames"
 		textureAnimationOnParticleFPS 0.000000
@@ -198,7 +198,7 @@ ParticleSimulation
 		AreParticlesAttached TRUE
 		numTextures 2
 		textureName "smokeblack.tga"
-		textureName "smoke2.dds"
+		textureName "smoke2.tga"
 		textureAnimationName ""
 		textureAnimationSpawnType "RandomFrames"
 		textureAnimationOnParticleFPS 0.000000

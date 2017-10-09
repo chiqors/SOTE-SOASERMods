@@ -2,64 +2,64 @@
 entityType "Planet"
 meshInfoCount 4
 meshInfo
-	typeNameStringID "IDS_PLANETTYPE_ICE"
-	asteroidTemplate "Sparse"
-	dustCloudTemplate "IceSafe"
-	meshName "Planet_Ice_2"
+	typeNameStringID "Axeldude_PlanetType_Ice"
+	asteroidTemplate "Empty"
+	dustCloudTemplate "Empty"
+	meshName "Planet_Ice_0"
 	cloudColor ffdafcff
 	nullMeshRadius 0.000000
 	nullMeshParticleEffect ""
-	hudIcon "HUDICON_PLANET_ICE0"
-	smallHudIcon "HUDICONSMALL_PLANET_ICE0"
-	infoCardIcon "INFOCARDICON_PLANET_ICE0"
-	mainViewIcon "MAINVIEWICON_PLANET_ICE0"
-	undetectedMainViewIcon "MAINVIEWUNDETECTEDICON_PLANET_ICE0"
-	picture "PICTURE_PLANET_ICE0"
+	hudIcon "Axeldude_PLANET_Ice_0"
+	smallHudIcon "Axeldude_PLANET_Ice_0"
+	infoCardIcon "Axeldude_PLANET_Ice_0"
+	mainViewIcon "Axeldude_PLANET_Ice_0"
+	undetectedMainViewIcon "Axeldude_PLANET_Ice_0_Unknown"
+	picture ""
 	shouldPrefer FALSE
 meshInfo
-	typeNameStringID "IDS_PLANETTYPE_ICE"
-	asteroidTemplate "Sparse"
-	dustCloudTemplate "IceSafe"
-	meshName "Planet_Ice_2"
+	typeNameStringID "Axeldude_PlanetType_Ice"
+	asteroidTemplate "Empty"
+	dustCloudTemplate "Empty"
+	meshName "Planet_Ice_1"
 	cloudColor ffdafcff
 	nullMeshRadius 0.000000
 	nullMeshParticleEffect ""
-	hudIcon "HUDICON_PLANET_ICE1"
-	smallHudIcon "HUDICONSMALL_PLANET_ICE1"
-	infoCardIcon "INFOCARDICON_PLANET_ICE1"
-	mainViewIcon "MAINVIEWICON_PLANET_ICE1"
-	undetectedMainViewIcon "MAINVIEWUNDETECTEDICON_PLANET_ICE1"
-	picture "PICTURE_PLANET_ICE1"
+	hudIcon "Axeldude_PLANET_Ice_0"
+	smallHudIcon "Axeldude_PLANET_Ice_0"
+	infoCardIcon "Axeldude_PLANET_Ice_0"
+	mainViewIcon "Axeldude_PLANET_Ice_0"
+	undetectedMainViewIcon "Axeldude_PLANET_Ice_0_Unknown"
+	picture ""
 	shouldPrefer FALSE
 meshInfo
-	typeNameStringID "IDS_PLANETTYPE_ICE"
-	asteroidTemplate "Sparse"
-	dustCloudTemplate "IceSafe"
+	typeNameStringID "Axeldude_PlanetType_Ice"
+	asteroidTemplate "Empty"
+	dustCloudTemplate "Empty"
 	meshName "Planet_Ice_2"
 	cloudColor 0
 	nullMeshRadius 0.000000
 	nullMeshParticleEffect ""
-	hudIcon "HUDICON_PLANET_ICE2"
-	smallHudIcon "HUDICONSMALL_PLANET_ICE2"
-	infoCardIcon "INFOCARDICON_PLANET_ICE2"
-	mainViewIcon "MAINVIEWICON_PLANET_ICE2"
-	undetectedMainViewIcon "MAINVIEWUNDETECTEDICON_PLANET_ICE2"
-	picture "PICTURE_PLANET_ICE2"
+	hudIcon "Axeldude_PLANET_Ice_1"
+	smallHudIcon "Axeldude_PLANET_Ice_1"
+	infoCardIcon "Axeldude_PLANET_Ice_1"
+	mainViewIcon "Axeldude_PLANET_Ice_1"
+	undetectedMainViewIcon "Axeldude_PLANET_Ice_1_Unknown"
+	picture ""
 	shouldPrefer FALSE
 meshInfo
-	typeNameStringID "IDS_PLANETTYPE_ICE"
-	asteroidTemplate "Sparse"
-	dustCloudTemplate "IceSafe"
-	meshName "Planet_Ice_2"
+	typeNameStringID "Axeldude_PlanetType_Ice"
+	asteroidTemplate "Empty"
+	dustCloudTemplate "Empty"
+	meshName "Planet_Ice_3"
 	cloudColor 0
 	nullMeshRadius 0.000000
 	nullMeshParticleEffect ""
-	hudIcon "HUDICON_PLANET_ICE3"
-	smallHudIcon "HUDICONSMALL_PLANET_ICE3"
-	infoCardIcon "INFOCARDICON_PLANET_ICE3"
-	mainViewIcon "MAINVIEWICON_PLANET_ICE3"
-	undetectedMainViewIcon "MAINVIEWUNDETECTEDICON_PLANET_ICE3"
-	picture "PICTURE_PLANET_ICE3"
+	hudIcon "Axeldude_PLANET_Ice_1"
+	smallHudIcon "Axeldude_PLANET_Ice_1"
+	infoCardIcon "Axeldude_PLANET_Ice_1"
+	mainViewIcon "Axeldude_PLANET_Ice_1"
+	undetectedMainViewIcon "Axeldude_PLANET_Ice_1_Unknown"
+	picture ""
 	shouldPrefer FALSE
 minZoomDistanceMult 2.750000
 glowColor 7f52afe1
@@ -75,7 +75,7 @@ planetResourceSetupInfo
 		refineryRate 0.000000
 		maxRefineryCount 0
 	crystalResourceAsteroidSetup
-		minCount 4
+		minCount 0
 		maxCount 4
 		extractionRate 0.400000
 		refineryRate 0.060000

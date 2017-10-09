@@ -41,7 +41,7 @@ ParticleSimulation
 		PipelineEffectID "Particle_Additive.fx"
 		AreParticlesAttached TRUE
 		numTextures 2
-		textureName "C:\Games\ParticleForge 3\Textures\explosion_core_green3.tga"
+		textureName "explosion_core_green3.tga"
 		textureName ""
 		textureAnimationName ""
 		textureAnimationSpawnType "RandomFrames"
@@ -89,7 +89,7 @@ ParticleSimulation
 		PipelineEffectID "Particle_Additive.fx"
 		AreParticlesAttached TRUE
 		numTextures 2
-		textureName "C:\Games\ParticleForge 3\Textures\explosion_core_green3.tga"
+		textureName "explosion_core_green3.tga"
 		textureName ""
 		textureAnimationName ""
 		textureAnimationSpawnType "RandomFrames"
@@ -137,7 +137,7 @@ ParticleSimulation
 		PipelineEffectID "Particle_Additive.fx"
 		AreParticlesAttached TRUE
 		numTextures 2
-		textureName "C:\Games\ParticleForge 3\Textures\explosion_core_green1.tga"
+		textureName "explosion_core_green1.tga"
 		textureName ""
 		textureAnimationName ""
 		textureAnimationSpawnType "RandomFrames"
@@ -185,7 +185,7 @@ ParticleSimulation
 		PipelineEffectID "Particle_Additive.fx"
 		AreParticlesAttached TRUE
 		numTextures 2
-		textureName "C:\Games\ParticleForge 3\Textures\explosionbig_core_green1.tga"
+		textureName "explosionbig_core_green1.tga"
 		textureName ""
 		textureAnimationName ""
 		textureAnimationSpawnType "RandomFrames"
@@ -461,7 +461,7 @@ ParticleSimulation
 		PipelineEffectID "Particle_Additive.fx"
 		AreParticlesAttached FALSE
 		numTextures 2
-		textureName "C:\Games\ParticleForge 3\Textures\atomiccloud2_green.tga"
+		textureName "atomiccloud2_green.tga"
 		textureName ""
 		textureAnimationName ""
 		textureAnimationSpawnType "RandomFrames"
@@ -521,7 +521,7 @@ ParticleSimulation
 		PipelineEffectID "Particle_Additive.fx"
 		AreParticlesAttached FALSE
 		numTextures 2
-		textureName "C:\Games\ParticleForge 3\Textures\smoke_black.dds"
+		textureName "smoke_black.dds"
 		textureName ""
 		textureAnimationName ""
 		textureAnimationSpawnType "RandomFrames"

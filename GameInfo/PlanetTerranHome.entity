@@ -1,84 +1,99 @@
 ﻿TXT
 entityType "Planet"
-meshInfoCount 4
+meshInfoCount 5
 meshInfo
-	typeNameStringID "IDS_PLANETTYPE_TERRAN"
+	typeNameStringID "Axeldude_PlanetType_Terran"
 	asteroidTemplate "Empty"
-	dustCloudTemplate "Sparse"
-	meshName "Planet_Terran_2"
+	dustCloudTemplate "Empty"
+	meshName "Axeldude_PLANET_NORMAL_TerranHome_0"
 	cloudColor ffffffff
 	nullMeshRadius 0.000000
 	nullMeshParticleEffect ""
-	hudIcon "HUDICON_PLANET_TERRAN0"
-	smallHudIcon "HUDICONSMALL_PLANET_TERRAN0"
-	infoCardIcon "INFOCARDICON_PLANET_TERRAN0"
-	mainViewIcon "MAINVIEWICON_PLANET_TERRAN0"
-	undetectedMainViewIcon "MAINVIEWUNDETECTEDICON_PLANET_TERRAN0"
-	picture "PICTURE_PLANET_TERRAN0"
+	hudIcon "Axeldude_PLANET_TerranHome_0"
+	smallHudIcon "Axeldude_PLANET_TerranHome_0"
+	infoCardIcon "Axeldude_PLANET_TerranHome_0"
+	mainViewIcon "Axeldude_PLANET_TerranHome_0"
+	undetectedMainViewIcon "Axeldude_PLANET_TerranHome_0_Unknown"
+	picture ""
 	shouldPrefer FALSE
 meshInfo
-	typeNameStringID "IDS_PLANETTYPE_TERRAN"
-	asteroidTemplate "Sparse"
-	dustCloudTemplate "Sparse"
-	meshName "Planet_Terran_2"
+	typeNameStringID "Axeldude_PlanetType_Terran"
+	asteroidTemplate "Empty"
+	dustCloudTemplate "Empty"
+	meshName "Planet_Terran_0"
 	cloudColor ffffffff
 	nullMeshRadius 0.000000
 	nullMeshParticleEffect ""
-	hudIcon "HUDICON_PLANET_TERRAN1"
-	smallHudIcon "HUDICONSMALL_PLANET_TERRAN1"
-	infoCardIcon "INFOCARDICON_PLANET_TERRAN1"
-	mainViewIcon "MAINVIEWICON_PLANET_TERRAN1"
-	undetectedMainViewIcon "MAINVIEWUNDETECTEDICON_PLANET_TERRAN1"
-	picture "PICTURE_PLANET_TERRAN1"
+	hudIcon "Axeldude_PLANET_Terran_0"
+	smallHudIcon "Axeldude_PLANET_Terran_0"
+	infoCardIcon "Axeldude_PLANET_Terran_0"
+	mainViewIcon "Axeldude_PLANET_Terran_0"
+	undetectedMainViewIcon "Axeldude_PLANET_Terran_0_Unknown"
+	picture ""
 	shouldPrefer FALSE
 meshInfo
-	typeNameStringID "IDS_PLANETTYPE_TERRAN"
-	asteroidTemplate "Dense"
-	dustCloudTemplate "Sparse"
+	typeNameStringID "Axeldude_PlanetType_Terran"
+	asteroidTemplate "Empty"
+	dustCloudTemplate "Empty"
 	meshName "Planet_Terran_2"
 	cloudColor ffffffff
 	nullMeshRadius 0.000000
 	nullMeshParticleEffect ""
-	hudIcon "HUDICON_PLANET_TERRAN2"
-	smallHudIcon "HUDICONSMALL_PLANET_TERRAN2"
-	infoCardIcon "INFOCARDICON_PLANET_TERRAN2"
-	mainViewIcon "MAINVIEWICON_PLANET_TERRAN2"
-	undetectedMainViewIcon "MAINVIEWUNDETECTEDICON_PLANET_TERRAN2"
-	picture "PICTURE_PLANET_TERRAN2"
+	hudIcon "Axeldude_PLANET_Terran_1"
+	smallHudIcon "Axeldude_PLANET_Terran_1"
+	infoCardIcon "Axeldude_PLANET_Terran_1"
+	mainViewIcon "Axeldude_PLANET_Terran_1"
+	undetectedMainViewIcon "Axeldude_PLANET_Terran_1_Unknown"
+	picture ""
 	shouldPrefer FALSE
 meshInfo
-	typeNameStringID "IDS_PLANETTYPE_TERRAN"
-	asteroidTemplate "Sparse"
-	dustCloudTemplate "Dense"
-	meshName "Planet_Terran_2"
+	typeNameStringID "Axeldude_PlanetType_Desert"
+	asteroidTemplate "Empty"
+	dustCloudTemplate "Empty"
+	meshName "Planet_Desert_1"
 	cloudColor ffffffff
 	nullMeshRadius 0.000000
 	nullMeshParticleEffect ""
-	hudIcon "HUDICON_PLANET_TERRAN2"
-	smallHudIcon "HUDICONSMALL_PLANET_TERRAN2"
-	infoCardIcon "INFOCARDICON_PLANET_TERRAN2"
-	mainViewIcon "MAINVIEWICON_PLANET_TERRAN2"
-	undetectedMainViewIcon "MAINVIEWUNDETECTEDICON_PLANET_TERRAN2"
-	picture "PICTURE_PLANET_TERRAN2"
+	hudIcon "Axeldude_PLANET_Desert_0"
+	smallHudIcon "Axeldude_PLANET_Desert_0"
+	infoCardIcon "Axeldude_PLANET_Desert_0"
+	mainViewIcon "Axeldude_PLANET_Desert_0"
+	undetectedMainViewIcon "Axeldude_PLANET_Desert_0_Unknown"
+	picture ""
+	shouldPrefer FALSE
+meshInfo
+	typeNameStringID "Axeldude_PlanetType_Desert"
+	asteroidTemplate "Empty"
+	dustCloudTemplate "Empty"
+	meshName "Axeldude_PLANET_NORMAL_Desert_4"
+	cloudColor 7fb5967b
+	nullMeshRadius 0.000000
+	nullMeshParticleEffect ""
+	hudIcon "Axeldude_PLANET_Normal_Desert_4"
+	smallHudIcon "Axeldude_PLANET_Normal_Desert_4"
+	infoCardIcon "Axeldude_PLANET_Normal_Desert_4"
+	mainViewIcon "Axeldude_PLANET_Normal_Desert_4"
+	undetectedMainViewIcon "Axeldude_PLANET_Normal_Desert_4_Unknown"
+	picture ""
 	shouldPrefer FALSE
 minZoomDistanceMult 2.750000
-glowColor 8f64c1ff
+glowColor 8fffffff
 ringColor ffffffff
-cloudLayerTextureName "PlanetCloudLayer"
+cloudLayerTextureName "Axeldude_Cloudmap_Dense"
 planetResourceSetupInfo
 	asteroidSpawnAngleVariance 1.256637
 	totalMaxResourceAsteroids 3
 	metalResourceAsteroidSetup
 		minCount 2
 		maxCount 2
-		extractionRate 0.400000
-		refineryRate 0.060000
+		extractionRate 0.540000
+		refineryRate 0.078000
 		maxRefineryCount 3
 	crystalResourceAsteroidSetup
 		minCount 1
 		maxCount 1
-		extractionRate 0.400000
-		refineryRate 0.060000
+		extractionRate 0.460000
+		refineryRate 0.066000
 		maxRefineryCount 3
 	neutralMetalResourceAsteroidSetup
 		minCount 0
