@@ -13,12 +13,12 @@ entities
 			count 9
 			entityDefName "Allraces_Structure_MetalExtractor"
 			entityDefName "Amarr_Structure_FrigateFactory"
-			entityDefName "Amarr_Structure_CombatLab"
+			entityDefName "Minmatar_Structure_CombatLab"
 			entityDefName "Minmatar_Structure_TradePort"
-			entityDefName "Amarr_Structure_CultureCenter"
+			entityDefName "Minmatar_Structure_CultureCenter"
 			entityDefName "Allraces_Structure_CrystalExtractor"
 			entityDefName "Amarr_Structure_CapitalShipFactory"
-			entityDefName "Amarr_Structure_CivillianLab"
+			entityDefName "Minmatar_Structure_CivillianLab"
 			entityDefName "Minmatar_Structure_Refinery"
 		Page:1
 			count 8

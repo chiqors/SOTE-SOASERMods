@@ -58,7 +58,7 @@ SoundID "PLANETMODULE_TECHORBITALNONCOMBATLABORATORY_ONSELECTION_0"
 NumSoundsFor:ONSTARTPHASEJUMP 0
 MeshNameInfoCount 1
 MeshNameInfo
-	meshName "as_research"
+	meshName "as6"
 	criteriaType "None"
 meshNameIncreasedEffectName ""
 meshNameDecreasedEffectName ""
