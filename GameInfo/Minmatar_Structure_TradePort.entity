@@ -61,7 +61,7 @@ SoundID "PLANETMODULE_TECHORBITALTRADEPORT_ONSELECTION_0"
 NumSoundsFor:ONSTARTPHASEJUMP 0
 MeshNameInfoCount 1
 MeshNameInfo
-	meshName "as_tradepost"
+	meshName "ms1"
 	criteriaType "None"
 meshNameIncreasedEffectName ""
 meshNameDecreasedEffectName ""
@@ -74,6 +74,6 @@ formationRank 3
 baseBuildTime 90.000000
 buildEffectName ""
 cargoShipType "Minmatar_Ship_Tradeship_Manmonth"
-maxCargoShipCount 5
+maxCargoShipCount 4
 cargoShipRespawnTime 30.000000
 baseTradeIncomeRate 1.000000

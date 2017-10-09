@@ -1,5 +1,5 @@
 TXT
-entityNameCount 2467
+entityNameCount 2470
 entityName "ALLRACES_RESEARCHSUBJECT_ABILITYACCESS_AFTERBURNER.entity"
 entityName "ALLRACES_RESEARCHSUBJECT_ABILITYACCESS_BASTIONMODE.entity"
 entityName "ALLRACES_RESEARCHSUBJECT_ABILITYACCESS_CLOAK.entity"
@@ -1419,6 +1419,9 @@ entityName "Minmatar_Ship_Refineryship_Mamonth.entity"
 entityName "Minmatar_Ship_Supercarrier_Hel.entity"
 entityName "Minmatar_Ship_Titan_Ragnarok.entity"
 entityName "Minmatar_Ship_Tradeship_Manmonth.entity"
+entityName "Minmatar_Structure_CivillianLab.entity"
+entityName "Minmatar_Structure_CombatLab.entity"
+entityName "Minmatar_Structure_CultureCenter.entity"
 entityName "Minmatar_Structure_Refinery.entity"
 entityName "Minmatar_Structure_TitanFoundry.entity"
 entityName "Minmatar_Structure_TradePort.entity"
