@@ -1,4 +1,4 @@
-﻿TXT
+TXT
 entityType "Frigate"
 defaultAutoAttackRange "GravityWell"
 defaultAutoAttackOn TRUE
@@ -29,8 +29,11 @@ ShieldPointRestoreRate 1.00000
 BaseArmorPoints 10.0000
 maxMitigation 0.30000
 Prerequisites
-	NumResearchPrerequisites 0
-	RequiredFactionNameID "Minmatar_ResearchSubject_SubCapitalAccess_Hurricane"
+	NumResearchPrerequisites 1
+	ResearchPrerequisite
+		Subject "Minmatar_ResearchSubject_SubCapitalAccess_Hurricane"
+		Level 1
+	RequiredFactionNameID ""
 	RequiredCompletedResearchSubjects 0
 numRandomDebrisLarge 0
 numRandomDebrisSmall 0
