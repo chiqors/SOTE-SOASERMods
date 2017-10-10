@@ -638,60 +638,60 @@ DamagePercentBonus:ANTIVERYLIGHT:CapitalShip 0.994
 		netChangeForBoom 0.3
 	playerAISharedDef
 		table-Aggressive
-			BuildShip 300
-			BuildModuleTactical 1
-			BuildModuleCivilian 10
-			BuildModuleResearch 10
-			UpgradeResearch 100
-			UpgradePlanetArtifactLevel 1
-			UpgradePlanetPopulation 50
-			UpgradePlanetInfastructure 1
-			UpgradePlanetSocial 0
-			UpgradePlanetIndustry 0
-			MaxBountyBidCount 0
-			UpgradeStarBase 3
+			BuildShip 60
+			BuildModuleTactical 6
+			BuildModuleCivilian 3
+			BuildModuleResearch 9
+			UpgradeResearch 30
+			UpgradePlanetArtifactLevel 3
+			UpgradePlanetPopulation 3
+			UpgradePlanetInfastructure 3
+			UpgradePlanetSocial 3
+			UpgradePlanetIndustry 9
+			MaxBountyBidCount 3
+			UpgradeStarBase 9
 			BuildMines 0
 		table-Defensive
-			BuildShip 300
-			BuildModuleTactical 1
-			BuildModuleCivilian 10
-			BuildModuleResearch 10
-			UpgradeResearch 100
+			BuildShip 60
+			BuildModuleTactical 12
+			BuildModuleCivilian 6
+			BuildModuleResearch 6
+			UpgradeResearch 30
 			UpgradePlanetArtifactLevel 1
-			UpgradePlanetPopulation 50
-			UpgradePlanetInfastructure 1
-			UpgradePlanetSocial 0
-			UpgradePlanetIndustry 0
-			MaxBountyBidCount 0
-			UpgradeStarBase 3
-			BuildMines 0
+			UpgradePlanetPopulation 3
+			UpgradePlanetInfastructure 6
+			UpgradePlanetSocial 6
+			UpgradePlanetIndustry 6
+			MaxBountyBidCount 3
+			UpgradeStarBase 15
+			BuildMines 3
 		table-Research
-			BuildShip 300
-			BuildModuleTactical 1
-			BuildModuleCivilian 10
-			BuildModuleResearch 10
-			UpgradeResearch 100
-			UpgradePlanetArtifactLevel 1
-			UpgradePlanetPopulation 50
-			UpgradePlanetInfastructure 1
-			UpgradePlanetSocial 0
-			UpgradePlanetIndustry 0
-			MaxBountyBidCount 0
-			UpgradeStarBase 3
+			BuildShip 60
+			BuildModuleTactical 6
+			BuildModuleCivilian 6
+			BuildModuleResearch 9
+			UpgradeResearch 30
+			UpgradePlanetArtifactLevel 6
+			UpgradePlanetPopulation 3
+			UpgradePlanetInfastructure 3
+			UpgradePlanetSocial 6
+			UpgradePlanetIndustry 6
+			MaxBountyBidCount 3
+			UpgradeStarBase 9
 			BuildMines 0
 		table-Economic
-			BuildShip 300
-			BuildModuleTactical 1
-			BuildModuleCivilian 10
-			BuildModuleResearch 10
-			UpgradeResearch 100
-			UpgradePlanetArtifactLevel 1
-			UpgradePlanetPopulation 50
-			UpgradePlanetInfastructure 1
-			UpgradePlanetSocial 0
-			UpgradePlanetIndustry 0
-			MaxBountyBidCount 0
-			UpgradeStarBase 3
+			BuildShip 60
+			BuildModuleTactical 6
+			BuildModuleCivilian 9
+			BuildModuleResearch 6
+			UpgradeResearch 30
+			UpgradePlanetArtifactLevel 6
+			UpgradePlanetPopulation 9
+			UpgradePlanetInfastructure 9
+			UpgradePlanetSocial 1
+			UpgradePlanetIndustry 9
+			MaxBountyBidCount 3
+			UpgradeStarBase 9
 			BuildMines 0
 	playerDiplomacyAIDef
 		breakRelationshipThreshold:Trade 1.0
