@@ -1,5 +1,5 @@
 TXT
-entityNameCount 2470
+entityNameCount 2473
 entityName "ALLRACES_RESEARCHSUBJECT_ABILITYACCESS_AFTERBURNER.entity"
 entityName "ALLRACES_RESEARCHSUBJECT_ABILITYACCESS_BASTIONMODE.entity"
 entityName "ALLRACES_RESEARCHSUBJECT_ABILITYACCESS_CLOAK.entity"
@@ -2273,7 +2273,6 @@ entityName "SOE_AbilitySummonSOENestor.entity"
 entityName "SOE_AbilitySummonSOEStratios.entity"
 entityName "SOE_ModuleShipyard.entity"
 entityName "SOE_ShipBattleshipNestor.entity"
-entityName "SOE_ShipBattleshipNestor.entity"
 entityName "SOE_ShipCruiserStratios.entity"
 entityName "SOE_ShipFrigateAstero.entity"
 entityName "STAR_BLACKHOLE.entity"
@@ -2470,3 +2469,6 @@ entityName "PlanetTerran_0.entity"
 entityName "PlanetTerran_Moon_0.entity"
 entityName "PlanetVolcanic_0.entity"
 entityName "PlanetVolcanic_Moon_0.entity"
+entityName "AbilityAisupportAmarrCapitalShips.entity"
+entityName "AbilityAisupportAmarrCapitalShipsSupers.entity"
+entityName "AbilityAisupportAmarrShips.entity"

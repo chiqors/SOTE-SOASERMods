@@ -4,18 +4,18 @@ buffInstantActionType "SpawnShipsAtPlanet"
 instantActionTriggerType "AlwaysPerform"
 spawnShipsLevelCount 1
 spawnShips
-	minFleetPoints 1.000000
-	maxFleetPoints 1.000000
+	minFleetPoints 10.000000
+	maxFleetPoints 20.000000
 	requiredShipCount 0
 	randomShipCount 3
 	randomShip
-		type "Bloodraider_ShipCruiserAshimuu"
+		type "SOE_ShipCruiserStratios"
 		weight 2
 	randomShip
-		type "Bloodraider_ShipFrigateCruor"
+		type "SOE_ShipFrigateAstero"
 		weight 3
 	randomShip
-		type "BloodRaider_ShipBattleshipBhaalgorn"
+		type "SOE_ShipBattleshipNestor"
 		weight 1
 spawnShipsArrivalDelayTime 5.000000
 spawnShipsHyperspaceSpawnType "FleetBeacon"
