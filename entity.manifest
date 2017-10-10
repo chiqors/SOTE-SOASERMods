@@ -1,5 +1,5 @@
 TXT
-entityNameCount 2473
+entityNameCount 2472
 entityName "ALLRACES_RESEARCHSUBJECT_ABILITYACCESS_AFTERBURNER.entity"
 entityName "ALLRACES_RESEARCHSUBJECT_ABILITYACCESS_BASTIONMODE.entity"
 entityName "ALLRACES_RESEARCHSUBJECT_ABILITYACCESS_CLOAK.entity"
@@ -2472,4 +2472,3 @@ entityName "PlanetVolcanic_Moon_0.entity"
 entityName "AbilityAisupportAmarrCapitalShips.entity"
 entityName "AbilityAisupportAmarrCapitalShipsSupers.entity"
 entityName "AbilityAisupportAmarrShips.entity"
-entityName "Minmatar_ResearchSubject_SubCapitalAccess_Tornado.entiy"
