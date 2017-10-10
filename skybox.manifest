@@ -1,8 +1,9 @@
 TXT
-meshFileCount 6
-meshFileName "SkyboxBackdrop2.MESH"
-meshFileName "SkyboxBackdrop4.MESH"
-meshFileName "SkyboxBackdrop5.MESH"
-meshFileName "SkyboxBackdrop6.MESH"
-meshFileName "SkyboxBackdrop7.MESH"
-meshFileName "SkyboxBackdrop8.MESH"
+meshFileCount 7
+meshFileName "SkyboxBackdrop1.mesh"
+meshFileName "SkyboxBackdrop3.mesh"
+meshFileName "SkyboxBackdrop4.mesh"
+meshFileName "SkyboxBackdrop5.mesh"
+meshFileName "SkyboxBackdrop6.mesh"
+meshFileName "SkyboxBackdrop7.mesh"
+meshFileName "SkyboxBackdrop9.mesh"

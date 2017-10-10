@@ -1,7 +1,7 @@
 TXT
-numProperties 10
+numProperties 7
 properties
-	meshName "SkyboxBackdrop2"
+	meshName "SkyboxBackdrop1"
 	diffuseLiteColor ffd5f6f9
 	diffuseDarkColor ff5b85b6
 	ambientLiteColor ff304c68
@@ -12,8 +12,8 @@ properties
 	textureName "galaxyspiral"
 	textureName "galaxyspiral2"
 	textureName "galaxyspiral3"
-	environmentMapName "skybox07environmentcube.dds"
-	environmentIlluminationMapName "skybox07irradiance.dds"
+	environmentMapName "skybox1environmentcube.dds"
+	environmentIlluminationMapName "skybox1irradiance.dds"
 properties
 	meshName "SkyboxBackdrop3"
 	diffuseLiteColor ffd5f6f9
@@ -26,8 +26,8 @@ properties
 	textureName "galaxyspiral"
 	textureName "galaxyspiral2"
 	textureName "galaxyspiral3"
-	environmentMapName "skybox07environmentcube.dds"
-	environmentIlluminationMapName "skybox07irradiance.dds"
+	environmentMapName "skybox3environmentcube.dds"
+	environmentIlluminationMapName "skybox3irradiance.dds"
 properties
 	meshName "SkyboxBackdrop4"
 	diffuseLiteColor ffd5f6f9
@@ -40,8 +40,8 @@ properties
 	textureName "galaxyspiral"
 	textureName "galaxyspiral2"
 	textureName "galaxyspiral3"
-	environmentMapName "skybox07environmentcube.dds"
-	environmentIlluminationMapName "skybox07irradiance.dds"
+	environmentMapName "skybox4environmentcube.dds"
+	environmentIlluminationMapName "skybox4irradiance.dds"
 properties
 	meshName "SkyboxBackdrop5"
 	diffuseLiteColor ffd5f6f9
@@ -54,8 +54,8 @@ properties
 	textureName "galaxyspiral"
 	textureName "galaxyspiral2"
 	textureName "galaxyspiral3"
-	environmentMapName "skybox07environmentcube.dds"
-	environmentIlluminationMapName "skybox07irradiance.dds"
+	environmentMapName "skybox5environmentcube.dds"
+	environmentIlluminationMapName "skybox5irradiance.dds"
 properties
 	meshName "SkyboxBackdrop6"
 	diffuseLiteColor ffd5f6f9
@@ -68,8 +68,8 @@ properties
 	textureName "galaxyspiral"
 	textureName "galaxyspiral2"
 	textureName "galaxyspiral3"
-	environmentMapName "skybox07environmentcube.dds"
-	environmentIlluminationMapName "skybox07irradiance.dds"
+	environmentMapName "skybox6environmentcube.dds"
+	environmentIlluminationMapName "skybox6irradiance.dds"
 properties
 	meshName "SkyboxBackdrop7"
 	diffuseLiteColor ffd5f6f9
@@ -82,22 +82,8 @@ properties
 	textureName "galaxyspiral"
 	textureName "galaxyspiral2"
 	textureName "galaxyspiral3"
-	environmentMapName "skybox07environmentcube.dds"
-	environmentIlluminationMapName "skybox07irradiance.dds"
-properties
-	meshName "SkyboxBackdrop8"
-	diffuseLiteColor ffd5f6f9
-	diffuseDarkColor ff5b85b6
-	ambientLiteColor ff304c68
-	ambientDarkColor ff14263e
-	specularColor ffc8eef9
-	dustCloudColor ff1b2b3c
-	numFarStarIconCloudTextureNames 3
-	textureName "galaxyspiral"
-	textureName "galaxyspiral2"
-	textureName "galaxyspiral3"
-	environmentMapName "skybox07environmentcube.dds"
-	environmentIlluminationMapName "skybox07irradiance.dds"
+	environmentMapName "skybox7environmentcube.dds"
+	environmentIlluminationMapName "skybox7irradiance.dds"
 properties
 	meshName "SkyboxBackdrop9"
 	diffuseLiteColor ffd5f6f9
@@ -110,33 +96,5 @@ properties
 	textureName "galaxyspiral"
 	textureName "galaxyspiral2"
 	textureName "galaxyspiral3"
-	environmentMapName "skybox07environmentcube.dds"
-	environmentIlluminationMapName "skybox07irradiance.dds"
-properties
-	meshName "SkyboxBackdrop10"
-	diffuseLiteColor ffd5f6f9
-	diffuseDarkColor ff5b85b6
-	ambientLiteColor ff304c68
-	ambientDarkColor ff14263e
-	specularColor ffc8eef9
-	dustCloudColor ff1b2b3c
-	numFarStarIconCloudTextureNames 3
-	textureName "galaxyspiral"
-	textureName "galaxyspiral2"
-	textureName "galaxyspiral3"
-	environmentMapName "skybox07environmentcube.dds"
-	environmentIlluminationMapName "skybox07irradiance.dds"
-properties
-	meshName "SkyboxBackdrop11"
-	diffuseLiteColor ffd5f6f9
-	diffuseDarkColor ff5b85b6
-	ambientLiteColor ff304c68
-	ambientDarkColor ff14263e
-	specularColor ffc8eef9
-	dustCloudColor ff1b2b3c
-	numFarStarIconCloudTextureNames 3
-	textureName "galaxyspiral"
-	textureName "galaxyspiral2"
-	textureName "galaxyspiral3"
-	environmentMapName "skybox07environmentcube.dds"
-	environmentIlluminationMapName "skybox07irradiance.dds"
+	environmentMapName "skybox9environmentcube.dds"
+	environmentIlluminationMapName "skybox9irradiance.dds"
