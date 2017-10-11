@@ -1,0 +1,72 @@
+﻿TXT
+entityType "Ability"
+buffInstantActionType "SpawnShipsAtPlanet"
+instantActionTriggerType "AlwaysPerform"
+spawnShipsLevelCount 1
+spawnShips
+	minFleetPoints 1.000000
+	maxFleetPoints 1.000000
+	requiredShipCount 0
+	randomShipCount 5
+	randomShip
+		type "Minmatar_Ship_Dreadnought_Naglfar_LongRange"
+		weight 2
+	randomShip
+		type "Minmatar_Ship_Dreadnought_Naglfar_ShortRange"
+		weight 2
+	randomShip
+		type "Minmatar_Ship_Carrier_Nidhoggur"
+		weight 3
+	randomShip
+		type "Minmatar_Ship_Carrier_Triage_Lif"
+		weight 3
+	randomShip
+		type "Amarr_Ship_ColonyCapital_Rorqual"
+		weight 1
+spawnShipsArrivalDelayTime 5.000000
+spawnShipsHyperspaceSpawnType "FleetBeacon"
+needsToFaceTarget FALSE
+canCollideWithTarget TRUE
+moveThruTarget FALSE
+isUltimateAbility FALSE
+maxNumLevels 1
+levelSourceType "ResearchWithoutBase"
+improveSourceResearchSubject "RESEARCH_FORCEAI_AID"
+aiUseTime "Anytime"
+aiUseTargetCondition "Any"
+isAutoCastAvailable TRUE
+isAutoCastOnByDefault TRUE
+pickRandomPlanetToExploreForAutoCastTarget FALSE
+ignoreNonCombatShipsForAutoCastTarget TRUE
+onlyAutoCastWhenDamageTakenExceedsPerc 0.000000
+useCostType "ResourcesAndMustHaveShipSlots"
+resourceCost
+	credits 5000.000000
+	metal 300.000000
+	crystal 300.000000
+requiredShipSlots
+	Level:0 1.000000
+	Level:1 1.000000
+	Level:2 1.000000
+	Level:3 1.000000
+cooldownTime
+	Level:0 300.000000
+	Level:1 300.000000
+	Level:2 300.000000
+	Level:3 300.000000
+orderAcknowledgementType "ONGENERALORDERISSUED"
+researchPrerequisites
+	NumResearchPrerequisites 2
+	ResearchPrerequisite
+		Subject "RESEARCH_FORCEAI_AID"
+		Level 1
+	ResearchPrerequisite
+		Subject "Minmatar_Ship_Carrier_Nidhoggur"
+		Level 1		
+	RequiredFactionNameID ""
+	RequiredCompletedResearchSubjects 0
+nameStringID "IDS_CAPITALSHIP_TECHTRANSPORT_NAME"
+descStringID "IDS_CAPITALSHIP_TECHTRANSPORT_DESCRIPTION"
+hudIcon "HUDICON_CAPITALSHIP_TECHTRANSPORT"
+smallHudIcon "HUDICON_CAPITALSHIP_TECHTRANSPORT"
+infoCardIcon ""
