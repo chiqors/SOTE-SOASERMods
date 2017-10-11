@@ -16,10 +16,10 @@ spawnShips
 		weight 2
 	randomShip
 		type "Amarr_Ship_Carrier_Archon"
-		weight 5
+		weight 3
 	randomShip
 		type "Amarr_Ship_Carrier_Triage_Archon"
-		weight 2
+		weight 3
 	randomShip
 		type "Amarr_Ship_ColonyCapital_Rorqual"
 		weight 1
@@ -41,7 +41,7 @@ ignoreNonCombatShipsForAutoCastTarget TRUE
 onlyAutoCastWhenDamageTakenExceedsPerc 0.000000
 useCostType "ResourcesAndMustHaveShipSlots"
 resourceCost
-	credits 18500.000000
+	credits 5000.000000
 	metal 0.000000
 	crystal 0.000000
 requiredShipSlots
@@ -50,10 +50,10 @@ requiredShipSlots
 	Level:2 1.000000
 	Level:3 1.000000
 cooldownTime
-	Level:0 1200.000000
-	Level:1 1200.000000
-	Level:2 1200.000000
-	Level:3 1200.000000
+	Level:0 300.000000
+	Level:1 300.000000
+	Level:2 300.000000
+	Level:3 300.000000
 orderAcknowledgementType "ONGENERALORDERISSUED"
 researchPrerequisites
 	NumResearchPrerequisites 2
