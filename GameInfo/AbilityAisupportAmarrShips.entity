@@ -4,8 +4,8 @@ buffInstantActionType "SpawnShipsAtPlanet"
 instantActionTriggerType "AlwaysPerform"
 spawnShipsLevelCount 1
 spawnShips
-	minFleetPoints 10.000000
-	maxFleetPoints 20.000000
+	minFleetPoints 5.000000
+	maxFleetPoints 10.000000
 	requiredShipCount 0
 	randomShipCount 3
 	randomShip

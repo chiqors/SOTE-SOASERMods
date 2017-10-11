@@ -224,5 +224,5 @@ randomEventDefCount 14
 		respawnCount 0
 		nextSpawnTimeMin 300.0
 		nextSpawnTimeMax 900.0
-		spawnWeight 0.10			
+		spawnWeight 0.15			
 				
