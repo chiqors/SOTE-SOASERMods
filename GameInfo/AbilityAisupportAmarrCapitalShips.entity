@@ -7,9 +7,21 @@ spawnShips
 	minFleetPoints 1.000000
 	maxFleetPoints 1.000000
 	requiredShipCount 0
-	randomShipCount 1
+	randomShipCount 5
 	randomShip
-		type "Amarr_Ship_SuperCarrier_Aeon"
+		type "Amarr_Ship_Dreadnought_Revelation_LongRange"
+		weight 2
+	randomShip
+		type "Amarr_Ship_Dreadnought_Revelation_ShortRange"
+		weight 2
+	randomShip
+		type "Amarr_Ship_Carrier_Archon"
+		weight 3
+	randomShip
+		type "Amarr_Ship_Carrier_Triage_Archon"
+		weight 3
+	randomShip
+		type "Amarr_Ship_ColonyCapital_Rorqual"
 		weight 1
 spawnShipsArrivalDelayTime 5.000000
 spawnShipsHyperspaceSpawnType "FleetBeacon"
@@ -19,7 +31,7 @@ moveThruTarget FALSE
 isUltimateAbility FALSE
 maxNumLevels 1
 levelSourceType "ResearchWithoutBase"
-improveSourceResearchSubject "RESEARCHSUBJECT_AIBOOST_STAGE3"
+improveSourceResearchSubject "RESEARCH_FORCEAI_AID"
 aiUseTime "Anytime"
 aiUseTargetCondition "Any"
 isAutoCastAvailable TRUE
@@ -29,7 +41,7 @@ ignoreNonCombatShipsForAutoCastTarget TRUE
 onlyAutoCastWhenDamageTakenExceedsPerc 0.000000
 useCostType "ResourcesAndMustHaveShipSlots"
 resourceCost
-	credits 67500.000000
+	credits 5000.000000
 	metal 0.000000
 	crystal 0.000000
 requiredShipSlots
@@ -38,20 +50,23 @@ requiredShipSlots
 	Level:2 1.000000
 	Level:3 1.000000
 cooldownTime
-	Level:0 1600.000000
-	Level:1 1600.000000
-	Level:2 1600.000000
-	Level:3 1600.000000
+	Level:0 300.000000
+	Level:1 300.000000
+	Level:2 300.000000
+	Level:3 300.000000
 orderAcknowledgementType "ONGENERALORDERISSUED"
 researchPrerequisites
-	NumResearchPrerequisites 1
+	NumResearchPrerequisites 2
 	ResearchPrerequisite
-		Subject "RESEARCHSUBJECT_AIBOOST_STAGE3"
+		Subject "RESEARCH_FORCEAI_AID"
 		Level 1
+	ResearchPrerequisite
+		Subject "Amarr_ResearchSubject_CapitalAccess_Archon"
+		Level 1		
 	RequiredFactionNameID ""
 	RequiredCompletedResearchSubjects 0
-nameStringID "IDS_CAPITALSHIP_TECHCARRIER_NAME"
-descStringID "IDS_CAPITALSHIP_TECHCARRIER_DESCRIPTION"
-hudIcon "HUDICON_CAPITALSHIP_TECHCARRIER"
-smallHudIcon "HUDICONSMALL_CAPITALSHIP_TECHCARRIER"
+nameStringID "IDS_CAPITALSHIP_TECHTRANSPORT_NAME"
+descStringID "IDS_CAPITALSHIP_TECHTRANSPORT_DESCRIPTION"
+hudIcon "HUDICON_CAPITALSHIP_TECHTRANSPORT"
+smallHudIcon "HUDICON_CAPITALSHIP_TECHTRANSPORT"
 infoCardIcon ""

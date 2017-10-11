@@ -7,21 +7,15 @@ spawnShips
 	minFleetPoints 1.000000
 	maxFleetPoints 1.000000
 	requiredShipCount 0
-	randomShipCount 5
+	randomShipCount 3
 	randomShip
-		type "Amarr_Ship_Dreadnought_Revelation_LongRange"
+		type "Bloodraider_ShipCruiserAshimuu"
 		weight 2
 	randomShip
-		type "Amarr_Ship_Dreadnought_Revelation_ShortRange"
-		weight 2
+		type "Bloodraider_ShipFrigateCruor"
+		weight 3
 	randomShip
-		type "Amarr_Ship_Carrier_Archon"
-		weight 5
-	randomShip
-		type "Amarr_Ship_Carrier_Triage_Archon"
-		weight 2
-	randomShip
-		type "Amarr_Ship_ColonyCapital_Rorqual"
+		type "BloodRaider_ShipBattleshipBhaalgorn"
 		weight 1
 spawnShipsArrivalDelayTime 5.000000
 spawnShipsHyperspaceSpawnType "FleetBeacon"
@@ -31,7 +25,7 @@ moveThruTarget FALSE
 isUltimateAbility FALSE
 maxNumLevels 1
 levelSourceType "ResearchWithoutBase"
-improveSourceResearchSubject "RESEARCHSUBJECT_AIBOOST_STAGE2"
+improveSourceResearchSubject "RESEARCH_FORCEAI_AID"
 aiUseTime "Anytime"
 aiUseTargetCondition "Any"
 isAutoCastAvailable TRUE
@@ -41,7 +35,7 @@ ignoreNonCombatShipsForAutoCastTarget TRUE
 onlyAutoCastWhenDamageTakenExceedsPerc 0.000000
 useCostType "ResourcesAndMustHaveShipSlots"
 resourceCost
-	credits 18500.000000
+	credits 500.000000
 	metal 0.000000
 	crystal 0.000000
 requiredShipSlots
@@ -56,10 +50,13 @@ cooldownTime
 	Level:3 1200.000000
 orderAcknowledgementType "ONGENERALORDERISSUED"
 researchPrerequisites
-	NumResearchPrerequisites 1
+	NumResearchPrerequisites 2
 	ResearchPrerequisite
-		Subject "RESEARCHSUBJECT_AIBOOST_STAGE2"
+		Subject "RESEARCH_FORCEAI_AID"
 		Level 1
+	ResearchPrerequisite
+		Subject "Amarr_ResearchSubject_CapitalAccess_Archon"
+		Level 1		
 	RequiredFactionNameID ""
 	RequiredCompletedResearchSubjects 0
 nameStringID "IDS_CAPITALSHIP_TECHTRANSPORT_NAME"
