@@ -44,7 +44,7 @@ entities
 			entityDefName "Amarr_Ship_Cruiser_Omen"
 			entityDefName "Amarr_Ship_Frigate_Inquisitor"
 			entityDefName "Amarr_Ship_Destroyer_Coercer"
-			entityDefName "Amarr_Ship_Colony_Orca"
+			entityDefName "AllRaces_Ship_Colony_Orca"
 		Page:1
 			count 6
 			entityDefName "Amarr_Ship_Cruiser_Arbitrator"
@@ -54,10 +54,11 @@ entities
 			entityDefName "Amarr_Ship_Cruiser_Devoter"
 			entityDefName "Amarr_Ship_Envoy_Prophecy"
 		NotOnPage
-			count 3
-			entityDefName "Amarr_Ship_Constructor_Venture"
+			count 4
+			entityDefName "AllRaces_Ship_Constructor_Venture"
+			entityDefName "AllRaces_Ship_Refineryship"
+			entityDefName "AllRaces_Ship_Orca"
 			entityDefName "Amarr_Ship_Tradeship_Bestower"
-			entityDefName "Amarr_Ship_Refineryship_Bestower"
 	researchInfo
 		count 155
 		entityDefName "RESEARCHSUBJECT_BACKROOM_DEALS"

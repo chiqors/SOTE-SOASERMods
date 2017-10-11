@@ -56,7 +56,7 @@ entities
 			entityDefName "Amarr_Ship_Destroyer_Confessor"
 			entityDefName "Amarr_Ship_Cruiser_Omen"
 			entityDefName "Amarr_Ship_Cruiser_Augoror"
-			entityDefName "Amarr_Ship_Colony_Orca"
+			entityDefName "AllRaces_Ship_Colony_Orca"
 		Page:1
 			count 8
 			entityDefName "Amarr_Ship_Cruiser_Arbitrator"
@@ -69,10 +69,10 @@ entities
 			entityDefName "Amarr_Ship_Envoy_Prophecy"
 		NotOnPage
 			count 4
-			entityDefName "Amarr_Ship_Constructor_Venture"
+			entityDefName "AllRaces_Ship_Constructor_Venture"
+			entityDefName "AllRaces_Ship_Refineryship"
+			entityDefName "AllRaces_Ship_Orca"
 			entityDefName "Amarr_Ship_Tradeship_Bestower"
-			entityDefName "Amarr_Ship_Refineryship_Bestower"
-			entityDefName "Ore_ShipOrca"
 	researchInfo
 		count 131
 		entityDefName "Amarr_ResearchSubject_SubCapitalAccess_Dragoon"

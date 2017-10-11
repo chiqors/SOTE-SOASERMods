@@ -56,7 +56,7 @@ entities
 			entityDefName "Minmatar_Ship_Destroyer_Svipul"
 			entityDefName "Minmatar_Ship_Cruiser_Rupture"
 			entityDefName "Minmatar_Ship_Cruiser_Scyther"
-			entityDefName "Amarr_Ship_Colony_Orca"
+			entityDefName "AllRaces_Ship_Colony_Orca"
 		Page:1
 			count 9
 			entityDefName "Minmatar_Ship_Cruiser_Belicose"
@@ -70,10 +70,10 @@ entities
 			entityDefName "Minmatar_Ship_Battleship_Maelstron"
 		NotOnPage
 			count 4
-			entityDefName "Amarr_Ship_Constructor_Venture"
+			entityDefName "AllRaces_Ship_Constructor_Venture"
+			entityDefName "AllRaces_Ship_Refineryship"
+			entityDefName "AllRaces_Ship_Orca"
 			entityDefName "Minmatar_Ship_Tradeship_Manmonth"
-			entityDefName "Minmatar_Ship_Refineryship_Mamonth"
-			entityDefName "Ore_ShipOrca"
 	researchInfo
 		count 136
 		entityDefName "RSAInterdictor"
