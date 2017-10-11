@@ -74,5 +74,5 @@ formationRank 3
 baseBuildTime 130.000000
 buildEffectName ""
 cargoShipType "Amarr_Ship_Refineryship_Bestower"
-maxCargoShipCount 10
+maxCargoShipCount 5
 cargoShipRespawnTime 30.000000
