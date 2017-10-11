@@ -24,7 +24,6 @@ canCollideWithTarget TRUE
 moveThruTarget FALSE
 isUltimateAbility FALSE
 maxNumLevels 1
-priority 9999.000000
 levelSourceType "ResearchWithoutBase"
 improveSourceResearchSubject "RESEARCH_FORCEAI_AID"
 aiUseTime "Anytime"
