@@ -36,7 +36,7 @@ ignoreNonCombatShipsForAutoCastTarget TRUE
 onlyAutoCastWhenDamageTakenExceedsPerc 0.000000
 useCostType "ResourcesAndMustHaveShipSlots"
 resourceCost
-	credits 4000.000000
+	credits 3000.000000
 	metal 200.000000
 	crystal 200.000000
 requiredShipSlots

@@ -9,16 +9,16 @@ spawnShips
 	requiredShipCount 0
 	randomShipCount 5
 	randomShip
-		type "Amarr_Ship_Dreadnought_Revelation_LongRange"
+		type "Caldari_Ship_Dreadnought_Phoenix_LongRange"
 		weight 2
 	randomShip
-		type "Amarr_Ship_Dreadnought_Revelation_ShortRange"
+		type "Caldari_Ship_Dreadnought_Phoenix_ShortRange"
 		weight 2
 	randomShip
-		type "Amarr_Ship_Carrier_Archon"
+		type "Caldari_Ship_Carrier_Chimera"
 		weight 3
 	randomShip
-		type "Amarr_Ship_Carrier_Triage_Archon"
+		type "Caldari_Ship_Carrier_Triage_Chimera"
 		weight 3
 	randomShip
 		type "Amarr_Ship_ColonyCapital_Rorqual"
@@ -61,7 +61,7 @@ researchPrerequisites
 		Subject "RESEARCH_FORCEAI_AID"
 		Level 1
 	ResearchPrerequisite
-		Subject "Amarr_ResearchSubject_CapitalAccess_Archon"
+		Subject "Caldari_ResearchSubject_CapitalAccess_Chimera"
 		Level 1		
 	RequiredFactionNameID ""
 	RequiredCompletedResearchSubjects 0

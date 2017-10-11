@@ -4,24 +4,18 @@ buffInstantActionType "SpawnShipsAtPlanet"
 instantActionTriggerType "AlwaysPerform"
 spawnShipsLevelCount 1
 spawnShips
-	minFleetPoints 1.000000
-	maxFleetPoints 1.000000
+	minFleetPoints 5.000000
+	maxFleetPoints 10.000000
 	requiredShipCount 0
-	randomShipCount 5
+	randomShipCount 3
 	randomShip
-		type "Amarr_Ship_Dreadnought_Revelation_LongRange"
+		type "Mordu_ShipCruiserOrthurs"
 		weight 2
 	randomShip
-		type "Amarr_Ship_Dreadnought_Revelation_ShortRange"
-		weight 2
-	randomShip
-		type "Amarr_Ship_Carrier_Archon"
+		type "Mordu_ShipFrigateGamur"
 		weight 3
 	randomShip
-		type "Amarr_Ship_Carrier_Triage_Archon"
-		weight 3
-	randomShip
-		type "Amarr_Ship_ColonyCapital_Rorqual"
+		type "Mordu_ShipBattleshipBhargest"
 		weight 1
 spawnShipsArrivalDelayTime 5.000000
 spawnShipsHyperspaceSpawnType "FleetBeacon"
@@ -30,6 +24,7 @@ canCollideWithTarget TRUE
 moveThruTarget FALSE
 isUltimateAbility FALSE
 maxNumLevels 1
+priority 9999.000000
 levelSourceType "ResearchWithoutBase"
 improveSourceResearchSubject "RESEARCH_FORCEAI_AID"
 aiUseTime "Anytime"
@@ -41,28 +36,25 @@ ignoreNonCombatShipsForAutoCastTarget TRUE
 onlyAutoCastWhenDamageTakenExceedsPerc 0.000000
 useCostType "ResourcesAndMustHaveShipSlots"
 resourceCost
-	credits 4000.000000
-	metal 400.000000
-	crystal 400.000000
+	credits 3000.000000
+	metal 200.000000
+	crystal 200.000000
 requiredShipSlots
 	Level:0 1.000000
 	Level:1 1.000000
 	Level:2 1.000000
 	Level:3 1.000000
 cooldownTime
-	Level:0 300.000000
-	Level:1 300.000000
-	Level:2 300.000000
-	Level:3 300.000000
+	Level:0 600.000000
+	Level:1 600.000000
+	Level:2 600.000000
+	Level:3 600.000000
 orderAcknowledgementType "ONGENERALORDERISSUED"
 researchPrerequisites
-	NumResearchPrerequisites 2
+	NumResearchPrerequisites 1
 	ResearchPrerequisite
 		Subject "RESEARCH_FORCEAI_AID"
 		Level 1
-	ResearchPrerequisite
-		Subject "Amarr_ResearchSubject_CapitalAccess_Archon"
-		Level 1		
 	RequiredFactionNameID ""
 	RequiredCompletedResearchSubjects 0
 nameStringID "IDS_CAPITALSHIP_TECHTRANSPORT_NAME"
