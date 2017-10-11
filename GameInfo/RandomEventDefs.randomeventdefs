@@ -5,7 +5,7 @@ failedRespawnTimeMin 120.0
 failedRespawnTimeMax 300.0
 lowAllegianceCheckPeriod 240.0
 lowAllegianceThreshold 0.15
-randomEventDefCount 13
+randomEventDefCount 14
 	randomEventDef
 		id "CORONALMASSEJECTION"
 		nameID "IDS_RANDOMEVENT_CORONALMASSEJECTION_NAME"
@@ -211,4 +211,18 @@ randomEventDefCount 13
 		nextSpawnTimeMin 300.0
 		nextSpawnTimeMax 900.0
 		spawnWeight 0.10			
-		
+	randomEventDef
+		id "DRIFTERS"
+		nameID "IDS_RANDOMEVENT_PIRATBLACKOPS_NAME"
+		warningID "IDS_GAMEMESSAGE_RANDOMEVENTDETECTEDPIRATEBLACKOPS"
+		spawnType "BuffAtLocation"
+		spawnEntity "RandomEventDrifterIncursion"
+		playerOwnerType "MadVasari"
+		spawnLocation "RandomLocation"
+		excludedSpawnLocationCount 0
+		spawnRequirement "Timer"
+		respawnCount 0
+		nextSpawnTimeMin 300.0
+		nextSpawnTimeMax 900.0
+		spawnWeight 0.10			
+				
