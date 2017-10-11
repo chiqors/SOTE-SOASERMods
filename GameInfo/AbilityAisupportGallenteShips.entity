@@ -50,7 +50,7 @@ cooldownTime
 	Level:3 600.000000
 orderAcknowledgementType "ONGENERALORDERISSUED"
 researchPrerequisites
-	NumResearchPrerequisites 2
+	NumResearchPrerequisites 1
 	ResearchPrerequisite
 		Subject "RESEARCH_FORCEAI_AID"
 		Level 1
