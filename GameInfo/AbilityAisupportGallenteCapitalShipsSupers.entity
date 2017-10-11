@@ -9,10 +9,10 @@ spawnShips
 	requiredShipCount 0
 	randomShipCount 2
 	randomShip
-		type "Amarr_Ship_SuperCarrier_Aeon"
+		type "Gallente_Ship_Supercarrier_Nyx"
 		weight 2
 	randomShip
-		type "Amarr_Ship_Capital_Titan_Avatar"
+		type "Gallente_Ship_Capital_Titan_Erebus"
 		weight 1		
 spawnShipsArrivalDelayTime 5.000000
 spawnShipsHyperspaceSpawnType "FleetBeacon"
@@ -52,7 +52,7 @@ researchPrerequisites
 		Subject "RESEARCH_FORCEAI_AID"
 		Level 1
 	ResearchPrerequisite
-		Subject "Amarr_ResearchSubject_CapitalAccess_Aeon"
+		Subject "Gallente_ResearchSubject_CapitalAccess_Nyx"
 		Level 1	
 	RequiredFactionNameID ""
 	RequiredCompletedResearchSubjects 0
