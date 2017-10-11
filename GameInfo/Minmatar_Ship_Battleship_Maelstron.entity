@@ -24,12 +24,12 @@ slotCount 5.000000
 BuildTime 52.000000
 hasLevels FALSE
 ExperiencePointsForDestroying 50.000000
-MaxHullPoints 9380.000000
-MaxShieldPoints 10000.000000
+MaxHullPoints 8250.000000
+MaxShieldPoints 7450.000000
 HullPointRestoreRate 1.000000
 ShieldPointRestoreRate 45.000000
 BaseArmorPoints 0.000000
-maxMitigation 0.150000
+maxMitigation 0.200000
 Prerequisites
 	NumResearchPrerequisites 1
 	ResearchPrerequisite
@@ -54,7 +54,7 @@ Weapon
 		DamageApplyType "BACKLOADED"
 		DamageType "PHYSICAL"
 		WeaponClassType "GAUSS"
-	DamagePerBank:FRONT 2169.000000
+	DamagePerBank:FRONT 1950.000000
 	DamagePerBank:BACK 0.000000
 	DamagePerBank:LEFT 0.000000
 	DamagePerBank:RIGHT 0.000000

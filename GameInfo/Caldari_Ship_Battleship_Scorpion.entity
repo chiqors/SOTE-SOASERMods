@@ -22,8 +22,8 @@ slotCount 5.000000
 BuildTime 52.000000
 hasLevels FALSE
 ExperiencePointsForDestroying 50.000000
-MaxHullPoints 6880.000000
-MaxShieldPoints 8750.000000
+MaxHullPoints 6650.000000
+MaxShieldPoints 8950.000000
 HullPointRestoreRate 1.000000
 ShieldPointRestoreRate 42.600000
 BaseArmorPoints 0.000000
@@ -52,12 +52,12 @@ Weapon
 		DamageApplyType "BACKLOADED"
 		DamageType "PHYSICAL"
 		WeaponClassType "MISSILE"
-	DamagePerBank:FRONT 578.000000
+	DamagePerBank:FRONT 2075.000000
 	DamagePerBank:BACK 0.000000
 	DamagePerBank:LEFT 0.000000
 	DamagePerBank:RIGHT 0.000000
 	Range 50000.000000
-	PreBuffCooldownTime 7.720000
+	PreBuffCooldownTime 16.000000
 	CanFireAtFighter FALSE
 	SynchronizedTargeting TRUE
 	PointStaggerDelay 0.050000

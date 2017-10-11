@@ -22,12 +22,12 @@ slotCount 4.000000
 BuildTime 44.000000
 hasLevels FALSE
 ExperiencePointsForDestroying 20.000000
-MaxHullPoints 3260.000000
-MaxShieldPoints 3360.000000
+MaxHullPoints 1850.000000
+MaxShieldPoints 1080.000000
 HullPointRestoreRate 1.000000
 ShieldPointRestoreRate 1.00000
-BaseArmorPoints 10.0000
-maxMitigation 0.30000
+BaseArmorPoints 0.0000
+maxMitigation 0.10000
 Prerequisites
 	NumResearchPrerequisites 0
 	RequiredFactionNameID ""
@@ -49,12 +49,12 @@ Weapon
 		DamageApplyType "BACKLOADED"
 		DamageType "PHYSICAL"
 		WeaponClassType "GAUSS"
-	DamagePerBank:FRONT 1555.000000
+	DamagePerBank:FRONT 1650.000000
 	DamagePerBank:BACK 0.000000
 	DamagePerBank:LEFT 0.000000
 	DamagePerBank:RIGHT 0.000000
-	Range 10000.000000
-	PreBuffCooldownTime 14.710000
+	Range 24000.000000
+	PreBuffCooldownTime 14.000000
 	CanFireAtFighter FALSE
 	SynchronizedTargeting TRUE
 	PointStaggerDelay 0.000000

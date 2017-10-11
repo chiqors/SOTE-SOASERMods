@@ -23,7 +23,7 @@ BuildTime 50.000000
 hasLevels FALSE
 ExperiencePointsForDestroying 10.000000
 MaxHullPoints 450.000000
-MaxShieldPoints 900.000000
+MaxShieldPoints 950.000000
 HullPointRestoreRate 1.000000
 ShieldPointRestoreRate 1.000000
 BaseArmorPoints 0.000000
@@ -52,12 +52,12 @@ Weapon
 		DamageApplyType "BACKLOADED"
 		DamageType "ENERGY"
 		WeaponClassType "PULSEGUN"
-	DamagePerBank:FRONT 162.000000
+	DamagePerBank:FRONT 155.000000
 	DamagePerBank:BACK 0.000000
 	DamagePerBank:LEFT 0.000000
 	DamagePerBank:RIGHT 0.000000
-	Range 5000.000000
-	PreBuffCooldownTime 3.600000
+	Range 18000.000000
+	PreBuffCooldownTime 4.000000
 	CanFireAtFighter TRUE
 	SynchronizedTargeting TRUE
 	PointStaggerDelay 0.050000

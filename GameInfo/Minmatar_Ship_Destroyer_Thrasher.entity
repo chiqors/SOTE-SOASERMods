@@ -23,8 +23,8 @@ slotCount 2.000000
 BuildTime 50.000000
 hasLevels FALSE
 ExperiencePointsForDestroying 10.000000
-MaxHullPoints 950.000000
-MaxShieldPoints 475.000000
+MaxHullPoints 475.000000
+MaxShieldPoints 625.000000
 HullPointRestoreRate 1.000000
 ShieldPointRestoreRate 1.000000
 BaseArmorPoints 0.000000
@@ -53,12 +53,12 @@ Weapon
 		DamageApplyType "BACKLOADED"
 		DamageType "PHYSICAL"
 		WeaponClassType "AUTOCANNON"
-	DamagePerBank:FRONT 600.859985
+	DamagePerBank:FRONT 585.000000
 	DamagePerBank:BACK 0.000000
 	DamagePerBank:LEFT 0.000000
 	DamagePerBank:RIGHT 0.000000
-	Range 9800.000000
-	PreBuffCooldownTime 20.000000
+	Range 10000.000000
+	PreBuffCooldownTime 12.000000
 	CanFireAtFighter TRUE
 	SynchronizedTargeting TRUE
 	PointStaggerDelay 0.000000

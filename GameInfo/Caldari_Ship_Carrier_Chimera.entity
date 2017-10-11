@@ -55,8 +55,8 @@ MaxHullPoints
 	StartValue 30500.000000
 	ValueIncreasePerLevel 3050.000000
 MaxShieldPoints
-	StartValue 34000.000000
-	ValueIncreasePerLevel 3400.000000
+	StartValue 32500.000000
+	ValueIncreasePerLevel 3250.000000
 HullPointRestoreRate
 	StartValue 1.000000
 	ValueIncreasePerLevel 0.500000
@@ -64,11 +64,11 @@ ShieldPointRestoreRate
 	StartValue 10.000000
 	ValueIncreasePerLevel 1.000000
 ArmorPointsFromExperience
-	StartValue 18.000000
+	StartValue 15.000000
 	ValueIncreasePerLevel 0.000000
 maxMitigation
 	StartValue 0.300000
-	ValueIncreasePerLevel 0.000000
+	ValueIncreasePerLevel 0.010000
 MaxAntiMatter
 	StartValue 63800.000000
 	ValueIncreasePerLevel 6380.000000

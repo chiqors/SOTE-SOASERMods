@@ -3,7 +3,7 @@ entityType "CapitalShip"
 ability:0 "AbilitySiegeMode"
 ability:1 "AbilityTrackingComputer"
 ability:2 "AbilityInvulnerabilityShieldFieldCapital"
-ability:3 "AbilityShieldBoosterCapital"
+ability:3 ""
 ability:4 ""
 defaultAutoAttackRange "GravityWell"
 defaultAutoAttackOn TRUE
@@ -52,11 +52,11 @@ basePrice
 slotCount 1.000000
 BuildTime 75.000000
 MaxHullPoints
-	StartValue 85938.000000
-	ValueIncreasePerLevel 8593.000000
+	StartValue 45000.000000
+	ValueIncreasePerLevel 4500.000000
 MaxShieldPoints
-	StartValue 85938.000000
-	ValueIncreasePerLevel 8593.000000
+	StartValue 195000.000000
+	ValueIncreasePerLevel 19500.000000
 HullPointRestoreRate
 	StartValue 1.000000
 	ValueIncreasePerLevel 0.500000
@@ -64,11 +64,11 @@ ShieldPointRestoreRate
 	StartValue 10.000000
 	ValueIncreasePerLevel 1.000000
 ArmorPointsFromExperience
-	StartValue 17.000000
+	StartValue 0.000000
 	ValueIncreasePerLevel 0.000000
 maxMitigation
 	StartValue 0.300000
-	ValueIncreasePerLevel 0.005000
+	ValueIncreasePerLevel 0.010000
 MaxAntiMatter
 	StartValue 62500.000000
 	ValueIncreasePerLevel 625.000000
