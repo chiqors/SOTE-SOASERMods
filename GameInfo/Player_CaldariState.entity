@@ -56,7 +56,7 @@ entities
 			entityDefName "Caldari_Ship_Cruiser_Caracal"
 			entityDefName "Caldari_Ship_Cruiser_Blackbird"
 			entityDefName "Caldari_Ship_Cruiser_Osprey"
-			entityDefName "Gallente_Ship_Colony_Orca"			
+			entityDefName "AllRaces_Ship_Colony_Orca"			
 		Page:1
 			count 9
 			entityDefName "Caldari_Ship_Cruiser_Onyx"
@@ -70,10 +70,10 @@ entities
 			entityDefName "Caldari_ShipT3Cruiser_Tengu"
 		NotOnPage
 			count 4
-			entityDefName "Gallente_Ship_Constructor_Venture"
-			entityDefName "Caldari_Ship_Tradeship_Badge"
-			entityDefName "Amarr_Ship_Refineryship_Bestower"
-			entityDefName "Ore_ShipOrca"			
+			entityDefName "AllRaces_Ship_Constructor_Venture"
+			entityDefName "AllRaces_Ship_Refineryship"
+			entityDefName "AllRaces_Ship_Orca"
+			entityDefName "Caldari_Ship_Tradeship_Badge"			
 	researchInfo
 		count 136
 		entityDefName "RSAInterdictor"		

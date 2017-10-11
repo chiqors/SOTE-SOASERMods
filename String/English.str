@@ -1,5 +1,5 @@
 TXT
-NumStrings 8691
+NumStrings 8693
 StringInfo
     ID "IDS_ABILITY_RORQUALPANIC_NAME"
 	Value "P.A.N.I.C Module"
@@ -26073,3 +26073,10 @@ StringInfo
 StringInfo
 	ID "IDS_FIGHTERVALKYRIE_NAME"
 	Value "Valkyrie Drone"
+StringInfo
+	ID "IDS_TRADESHIP_ORE_NAME"
+	Value "ORE Trade Ship"
+StringInfo
+	ID "IDS_TRADESHIP_ORE_DESCRIPTION"
+	Value "A large commercial vessel that carries merchant cargo between distant worlds."
+	

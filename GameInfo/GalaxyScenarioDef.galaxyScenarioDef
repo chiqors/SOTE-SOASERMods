@@ -1416,7 +1416,7 @@ planetItemType
 	entityDefName "Amarr_Ship_Cruiser_Augoror"
 planetItemType
 	designName "Amarr:Frigate:Constructor"
-	entityDefName "Amarr_Ship_Constructor_Venture"
+	entityDefName "AllRaces_Ship_Constructor_Venture"
 planetItemType
 	designName "Mordu:Frigate:Shipyard"
 	entityDefName "Mordu_ModuleShipyard"

@@ -22,7 +22,7 @@ slotCount 0.000000
 BuildTime 30.000000
 hasLevels FALSE
 ExperiencePointsForDestroying 3.000000
-MaxHullPoints 500.000000
+MaxHullPoints 800.000000
 MaxShieldPoints 0.000000
 HullPointRestoreRate 1.000000
 ShieldPointRestoreRate 0.000000
@@ -85,7 +85,7 @@ MeshNameInfo
 		NumResearchPrerequisites 1
 		ResearchPrerequisite
 			Subject "RESEARCHSUBJECT_CARGOSHIPCAPACITY0"
-			Level 4
+			Level 3
 		RequiredFactionNameID ""
 		RequiredCompletedResearchSubjects 1
 MeshNameInfo
@@ -95,10 +95,10 @@ MeshNameInfo
 		NumResearchPrerequisites 2
 		ResearchPrerequisite
 			Subject "RESEARCHSUBJECT_CARGOSHIPCAPACITY0"
-			Level 4
+			Level 3
 		ResearchPrerequisite
 			Subject "RESEARCHSUBJECT_CARGOSHIPCAPACITY1"
-			Level 4
+			Level 3
 		RequiredFactionNameID ""
 		RequiredCompletedResearchSubjects 1		
 meshNameIncreasedEffectName ""
