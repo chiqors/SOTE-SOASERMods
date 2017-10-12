@@ -7,7 +7,7 @@ NameStringID "blank"
 DescriptionStringID "blank"
 researchWindowLocation
 	block 0
-	pos [ 50 , 5 ]
+	pos [ 7 , 50 ]
 ResearchField "Fleet"
 Prerequisites
 	NumResearchPrerequisites 1
@@ -36,15 +36,15 @@ researchFloatModifiers 3
 researchModifier
 	modifierType "ShipMaxSlots"
 	baseValue 0.000000
-	perLevelValue 100.000000
+	perLevelValue 10.000000
 researchModifier
 	modifierType "TradeGoodsValueAdjustment"
 	baseValue 0.000000
-	perLevelValue 1.000000
+	perLevelValue 0.500000
 researchModifier
 	modifierType "RefineryShipCapacityAdjustment"
 	baseValue 0.000000
-	perLevelValue 0.500000
+	perLevelValue 0.100000
 artifactPicture ""
 uniqueOverlayBrush ""
 dlcId 204880

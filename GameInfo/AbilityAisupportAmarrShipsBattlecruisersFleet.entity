@@ -9,13 +9,13 @@ spawnShips
 	requiredShipCount 0
 	randomShipCount 3
 	randomShip
-		type "Bloodraider_ShipCruiserAshimuu"
+		type "Amarr_Ship_Battlecruiser_Apostle"
 		weight 2
 	randomShip
-		type "Bloodraider_ShipFrigateCruor"
-		weight 3
+		type "Amarr_Ship_Battlecruiser_Harbinger"
+		weight 1
 	randomShip
-		type "BloodRaider_ShipBattleshipBhaalgorn"
+		type "Amarr_Ship_Battlecruiser_Oracle"
 		weight 1
 spawnShipsArrivalDelayTime 5.000000
 spawnShipsHyperspaceSpawnType "FleetBeacon"
@@ -35,27 +35,24 @@ ignoreNonCombatShipsForAutoCastTarget TRUE
 onlyAutoCastWhenDamageTakenExceedsPerc 0.000000
 useCostType "ResourcesAndMustHaveShipSlots"
 resourceCost
-	credits 3000.000000
-	metal 1400.000000
-	crystal 1165.000000
+	credits 2000.000000
+	metal 400.000000
+	crystal 400.000000
 requiredShipSlots
 	Level:0 1.000000
 	Level:1 1.000000
 	Level:2 1.000000
 	Level:3 1.000000
 cooldownTime
-	Level:0 600.000000
-	Level:1 600.000000
-	Level:2 600.000000
-	Level:3 600.000000
+	Level:0 60.000000
+	Level:1 60.000000
+	Level:2 60.000000
+	Level:3 60.000000
 orderAcknowledgementType "ONGENERALORDERISSUED"
 researchPrerequisites
-	NumResearchPrerequisites 2
+	NumResearchPrerequisites 1
 	ResearchPrerequisite
-		Subject "RESEARCH_FORCEAI_AID2"
-		Level 1
-	ResearchPrerequisite
-		Subject "Amarr_ResearchSubject_SubCapitalAccess_Augoror"
+		Subject "RESEARCH_FORCEAI_AID4"
 		Level 1
 	RequiredFactionNameID ""
 	RequiredCompletedResearchSubjects 0
