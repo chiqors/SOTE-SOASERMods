@@ -1,5 +1,5 @@
 TXT
-entityNameCount 2481
+entityNameCount 2483
 entityName "ALLRACES_RESEARCHSUBJECT_ABILITYACCESS_AFTERBURNER.entity"
 entityName "ALLRACES_RESEARCHSUBJECT_ABILITYACCESS_BASTIONMODE.entity"
 entityName "ALLRACES_RESEARCHSUBJECT_ABILITYACCESS_CLOAK.entity"
@@ -2481,3 +2481,5 @@ entityName "AbilityAisupportGallenteCapitalShipsSupers.entity"
 entityName "AbilityAisupportAmarrShips.entity"
 entityName "AbilityAisupportGallenteShips.entity"
 entityName "AbilityAisupportSOEShips.entity"
+entityName "RESEARCH_FORCEAI_AID2.entity"
+entityName "RESEARCH_FORCEAI_AID3.entity"
