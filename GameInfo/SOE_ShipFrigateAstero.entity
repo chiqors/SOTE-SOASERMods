@@ -9,10 +9,10 @@ canBomb FALSE
 typeCount 1
 frigateRoleType "Light"
 statCountType "FrigateLight"
-mainViewIcon "MAINVIEWICON_FRIGATE_PHASELIGHT"
+mainViewIcon "MAINVIEWICON_FRIGATE_TECHLIGHT"
 picture "PICTURE_SOE_ASTERO"
-NameStringID "IDS_FRIGATE_PHASELIGHT_NAME"
-DescriptionStringID "IDS_FRIGATE_PHASELIGHT_DESCRIPTION"
+NameStringID "IDS_SUMMON_ASTERO_NAME"
+DescriptionStringID "IDS_SUMMON_ASTERO_DESCRIPTION"
 counterDescriptionStringID "IDS_COUNTERDESC_FRIGATE_NONCOMBAT"
 basePrice
 	credits 18.000000
@@ -36,9 +36,9 @@ numRandomDebrisLarge 0
 numRandomDebrisSmall 0
 numSpecificDebris 0
 armorType "Light"
-hudIcon "HUDICON_FRIGATE_PHASELIGHT"
-smallHudIcon "HUDICONSMALL_FRIGATE"
-infoCardIcon "HUDICONSMALL_FRIGATE"
+hudIcon "HUDICON_SOE_ASTERO"
+smallHudIcon "HUDICON_SOE_ASTERO"
+infoCardIcon "HUDICON_SOE_ASTERO"
 minZoomDistanceMult 1.000000
 NumWeapons 1
 Weapon
@@ -135,10 +135,10 @@ HyperspaceChargingSoundID "HYPERSPACE_CHARGEUP"
 HyperspaceTravelSoundID "HYPERSPACE_TRAVEL"
 EngineSoundID "ENGINE_PHASECAPITALSHIP"
 ability:0 "AbilityMicrowarpdrive"
-ability:1 "AbilityStasisWebifier"
+ability:1 "AbilityT2CloakCovertOps"
 ability:2 ""
-ability:3 ""
-ability:4 ""
+ability:3 "AbilityDroneBonus"
+ability:4 "AbilityLaunchSquads"
 MaxAntiMatter 180.000000
 AntiMatterRestoreRate 0.500000
 cargoType "Invalid"

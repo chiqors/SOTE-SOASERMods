@@ -21,13 +21,14 @@ entities
 			entityDefName "Amarr_Structure_CivillianLab"
 			entityDefName "Amarr_Structure_Refinery"
 		Page:1
-			count 7
+			count 8
 			entityDefName "Amarr_Structure_SmallPulseLaserBattery"
 			entityDefName "Amarr_Structure_MediumPulseLaserBattery"
 			entityDefName "Amarr_Structure_LargePulseLaserBattery"
 			entityDefName "Amarr_Structure_ECMBattery"
 			entityDefName "Amarr_Structure_JumpBridge"
 			entityDefName "Amarr_Structure_CynoJammer"
+			entityDefName "SOE_ModuleShipyard"
 			entityDefName "Amarr_Structure_TitanFoundry"
 	titanInfo
 		Page:0
@@ -74,7 +75,7 @@ entities
 			entityDefName "Amarr_Ship_Refineryship_Bestower"
 			entityDefName "Ore_ShipOrca"
 	researchInfo
-		count 131
+		count 132
 		entityDefName "Amarr_ResearchSubject_SubCapitalAccess_Dragoon"
 		entityDefName "RSAInterdictor"		
 		entityDefName "RSACommand_Orca"
@@ -206,6 +207,7 @@ entities
 		entityDefName "RESEARCHSUBJECT_WEAPONDAMAGE_LASERTECH1"
 		entityDefName "RESEARCHSUBJECT_WEAPONDAMAGE_LASERTECH2"
 		entityDefName "RESEARCHSUBJECT_STARBASEUPGRADEACCESS_FACTORY"
+		entityDefName "RESEARCHSUBJECT_PLANETMODULEACCESS_REPAIRPLATFORMPSI"
 	starBaseInfo
 		count 3
 		entityDefName "Allraces_Structure_Citadel_Astrahus"

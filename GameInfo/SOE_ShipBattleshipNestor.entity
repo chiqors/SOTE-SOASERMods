@@ -36,7 +36,7 @@ numRandomDebrisLarge 0
 numRandomDebrisSmall 0
 numSpecificDebris 0
 armorType "Heavy"
-hudIcon "HUDICON_CAPITALSHIP_TECHSUPPORT"
+hudIcon "HUDICON_SOE_NESTOR"
 smallHudIcon "HUDICONSMALL_BATTLESHIP"
 infoCardIcon "HUDICONSMALL_BATTLESHIP"
 minZoomDistanceMult 1.000000
@@ -143,11 +143,11 @@ ExplosionName "EVEBattleship"
 HyperspaceChargingSoundID "HYPERSPACE_CHARGEUP"
 HyperspaceTravelSoundID "HYPERSPACE_TRAVEL"
 EngineSoundID "ENGINE_TECHCAPITALSHIP"
-ability:0 "AbilityHeavyEnergyNeutralizer"
-ability:1 "AbilityDroneBonus"
-ability:2 "AbilityT2Cloak"
-ability:3 "AbilityT2BlackOpsAmarr"
-ability:4 "AbilityCovertOpsJumpBridge"
+ability:0 "AbilityT2Cloak"
+ability:1 "AbilityRemoteArmorRepairerLogiCruiser"
+ability:2 "AbilityRemoteArmorRepairerLogiCruiser2"
+ability:3 "AbilityDroneBonus"
+ability:4 "AbilityLaunchSquads"
 MaxAntiMatter 7750.000000
 AntiMatterRestoreRate 23.650000
 cargoType "Invalid"
