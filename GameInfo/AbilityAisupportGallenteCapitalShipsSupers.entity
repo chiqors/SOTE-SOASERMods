@@ -9,10 +9,10 @@ spawnShips
 	requiredShipCount 0
 	randomShipCount 2
 	randomShip
-		type "Amarr_Ship_SuperCarrier_Aeon"
+		type "Gallente_Ship_Supercarrier_Nyx"
 		weight 2
 	randomShip
-		type "Amarr_Ship_Capital_Titan_Avatar"
+		type "Gallente_Ship_Capital_Titan_Erebus"
 		weight 1		
 spawnShipsArrivalDelayTime 5.000000
 spawnShipsHyperspaceSpawnType "FleetBeacon"
@@ -32,9 +32,9 @@ ignoreNonCombatShipsForAutoCastTarget TRUE
 onlyAutoCastWhenDamageTakenExceedsPerc 0.000000
 useCostType "ResourcesAndMustHaveShipSlots"
 resourceCost
-	credits 20109.000000
-	metal 5250.000000
-	crystal 2167.000000
+	credits 10000.000000
+	metal 400.000000
+	crystal 400.000000
 requiredShipSlots
 	Level:0 1.000000
 	Level:1 1.000000
@@ -47,10 +47,13 @@ cooldownTime
 	Level:3 300.000000
 orderAcknowledgementType "ONGENERALORDERISSUED"
 researchPrerequisites
-	NumResearchPrerequisites 1
+	NumResearchPrerequisites 2
 	ResearchPrerequisite
-		Subject "RESEARCH_FORCEAI_AID3"
+		Subject "RESEARCH_FORCEAI_AID"
 		Level 1
+	ResearchPrerequisite
+		Subject "Gallente_ResearchSubject_CapitalAccess_Nyx"
+		Level 1	
 	RequiredFactionNameID ""
 	RequiredCompletedResearchSubjects 0
 nameStringID "IDS_CAPITALSHIP_TECHCARRIER_NAME"

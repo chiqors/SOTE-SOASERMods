@@ -4,8 +4,8 @@ buffInstantActionType "SpawnShipsAtPlanet"
 instantActionTriggerType "AlwaysPerform"
 spawnShipsLevelCount 1
 spawnShips
-	minFleetPoints 10.000000
-	maxFleetPoints 20.000000
+	minFleetPoints 5.000000
+	maxFleetPoints 10.000000
 	requiredShipCount 0
 	randomShipCount 3
 	randomShip
@@ -35,9 +35,9 @@ ignoreNonCombatShipsForAutoCastTarget TRUE
 onlyAutoCastWhenDamageTakenExceedsPerc 0.000000
 useCostType "ResourcesAndMustHaveShipSlots"
 resourceCost
-	credits 4000.000000
-	metal 200.000000
-	crystal 200.000000
+	credits 3000.000000
+	metal 1400.000000
+	crystal 1165.000000
 requiredShipSlots
 	Level:0 1.000000
 	Level:1 1.000000
@@ -52,11 +52,11 @@ orderAcknowledgementType "ONGENERALORDERISSUED"
 researchPrerequisites
 	NumResearchPrerequisites 2
 	ResearchPrerequisite
-		Subject "RESEARCH_FORCEAI_AID"
+		Subject "RESEARCH_FORCEAI_AID2"
 		Level 1
 	ResearchPrerequisite
-		Subject "Amarr_ResearchSubject_CapitalAccess_Archon"
-		Level 1		
+		Subject "Amarr_ResearchSubject_SubCapitalAccess_Augoror"
+		Level 1
 	RequiredFactionNameID ""
 	RequiredCompletedResearchSubjects 0
 nameStringID "IDS_CAPITALSHIP_TECHTRANSPORT_NAME"

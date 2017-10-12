@@ -7,13 +7,22 @@ spawnShips
 	minFleetPoints 1.000000
 	maxFleetPoints 1.000000
 	requiredShipCount 0
-	randomShipCount 2
+	randomShipCount 5
 	randomShip
-		type "Amarr_Ship_SuperCarrier_Aeon"
+		type "Minmatar_Ship_Dreadnought_Naglfar_LongRange"
 		weight 2
 	randomShip
-		type "Amarr_Ship_Capital_Titan_Avatar"
-		weight 1		
+		type "Minmatar_Ship_Dreadnought_Naglfar_ShortRange"
+		weight 2
+	randomShip
+		type "Minmatar_Ship_Carrier_Nidhoggur"
+		weight 3
+	randomShip
+		type "Minmatar_Ship_Carrier_Triage_Lif"
+		weight 3
+	randomShip
+		type "Amarr_Ship_ColonyCapital_Rorqual"
+		weight 1
 spawnShipsArrivalDelayTime 5.000000
 spawnShipsHyperspaceSpawnType "FleetBeacon"
 needsToFaceTarget FALSE
@@ -32,9 +41,9 @@ ignoreNonCombatShipsForAutoCastTarget TRUE
 onlyAutoCastWhenDamageTakenExceedsPerc 0.000000
 useCostType "ResourcesAndMustHaveShipSlots"
 resourceCost
-	credits 20109.000000
-	metal 5250.000000
-	crystal 2167.000000
+	credits 4000.000000
+	metal 400.000000
+	crystal 400.000000
 requiredShipSlots
 	Level:0 1.000000
 	Level:1 1.000000
@@ -47,14 +56,17 @@ cooldownTime
 	Level:3 300.000000
 orderAcknowledgementType "ONGENERALORDERISSUED"
 researchPrerequisites
-	NumResearchPrerequisites 1
+	NumResearchPrerequisites 2
 	ResearchPrerequisite
-		Subject "RESEARCH_FORCEAI_AID3"
+		Subject "RESEARCH_FORCEAI_AID"
 		Level 1
+	ResearchPrerequisite
+		Subject "Minmatar_Ship_Carrier_Nidhoggur"
+		Level 1		
 	RequiredFactionNameID ""
 	RequiredCompletedResearchSubjects 0
-nameStringID "IDS_CAPITALSHIP_TECHCARRIER_NAME"
-descStringID "IDS_CAPITALSHIP_TECHCARRIER_DESCRIPTION"
-hudIcon "HUDICON_CAPITALSHIP_TECHCARRIER"
-smallHudIcon "HUDICONSMALL_CAPITALSHIP_TECHCARRIER"
+nameStringID "IDS_CAPITALSHIP_TECHTRANSPORT_NAME"
+descStringID "IDS_CAPITALSHIP_TECHTRANSPORT_DESCRIPTION"
+hudIcon "HUDICON_CAPITALSHIP_TECHTRANSPORT"
+smallHudIcon "HUDICON_CAPITALSHIP_TECHTRANSPORT"
 infoCardIcon ""

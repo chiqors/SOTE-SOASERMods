@@ -14,25 +14,19 @@ instantAction
 	delayTime 0.000000
 	spawnShipsLevelCount 1
 	spawnShips
-		minFleetPoints 100.000000
-		maxFleetPoints 100.000000
+		minFleetPoints 30.000000
+		maxFleetPoints 50.000000
 		requiredShipCount 1
 		requiredShip
-			type "BloodRaider_Ship_Battleship_CorpusDarkCommander"
-			minCount 1
-			maxCount 1
-		randomShipCount 4
+			type "Sleeper_ShipBattleshipDrifter"
+			minCount 5
+			maxCount 10
+		randomShipCount 2
 		randomShip
-			type "Amarr_Ship_Battleship_Armageddon"
+			type "Sleeper_ShipBattleshipDrifter"
 			weight 1
 		randomShip
-			type "Gallente_Ship_Battleship_Dominix"
-			weight 1
-		randomShip
-			type "Minmatar_Ship_Battleship_Typhoon"
-			weight 1
-		randomShip
-			type "Amarr_Ship_Battleship_Armageddon"
+			type "Sleeper_AutothysianLancer"
 			weight 1
 	spawnShipsArrivalDelayTime 7.000000
 	spawnShipsHyperspaceSpawnType "FleetBeacon"
