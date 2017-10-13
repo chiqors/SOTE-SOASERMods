@@ -1,5 +1,5 @@
 TXT
-NumStrings 8685
+NumStrings 8693
 StringInfo
     ID "IDS_ABILITY_RORQUALPANIC_NAME"
 	Value "P.A.N.I.C Module"
@@ -26055,3 +26055,28 @@ StringInfo
 StringInfo
 	ID "Axeldude_PlanetType_Rock_Planetoid"
 	Value "Rock Planetoid"
+StringInfo
+	ID "IDS_SQUADVESPA_NAME"
+	Value "Vespa x5"
+StringInfo
+	ID "IDS_SQUADVESPA_DESC"
+	Value "Small combat drones launched from a variety of different ships."	
+StringInfo
+	ID "IDS_FIGHTERVESPA_NAME"
+	Value "Vespa Drone"
+StringInfo
+	ID "IDS_SQUADVALKYRIE_NAME"
+	Value "Valkyrie x5"
+StringInfo
+	ID "IDS_SQUADVALKYRIE_DESC"
+	Value "Small combat drones launched from a variety of different ships."	
+StringInfo
+	ID "IDS_FIGHTERVALKYRIE_NAME"
+	Value "Valkyrie Drone"
+StringInfo
+	ID "IDS_TRADESHIP_ORE_NAME"
+	Value "ORE Trade Ship"
+StringInfo
+	ID "IDS_TRADESHIP_ORE_DESCRIPTION"
+	Value "A large commercial vessel that carries merchant cargo between distant worlds."
+	

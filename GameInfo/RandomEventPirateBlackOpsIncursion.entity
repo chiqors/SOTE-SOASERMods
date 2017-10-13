@@ -14,8 +14,8 @@ instantAction
 	delayTime 0.000000
 	spawnShipsLevelCount 1
 	spawnShips
-		minFleetPoints 50.000000
-		maxFleetPoints 50.000000
+		minFleetPoints 100.000000
+		maxFleetPoints 100.000000
 		requiredShipCount 1
 		requiredShip
 			type "BloodRaider_Ship_Battleship_CorpusDarkCommander"

@@ -106,10 +106,10 @@ numOverTimeActions 1
 overTimeAction
 	buffOverTimeActionType "DoDamage"
 	damageRate
-		Level:0 50000.000000
-		Level:1 50000.000000
-		Level:2 50000.000000
-		Level:3 50000.000000
+		Level:0 250000.000000
+		Level:1 250000.000000
+		Level:2 250000.000000
+		Level:3 250000.000000
 	damageAffectType "AFFECTS_SHIELDS_AND_HULL"
 	damageType "ENERGY"
 	isDamageShared FALSE

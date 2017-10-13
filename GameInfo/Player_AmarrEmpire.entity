@@ -21,13 +21,14 @@ entities
 			entityDefName "Amarr_Structure_CivillianLab"
 			entityDefName "Amarr_Structure_Refinery"
 		Page:1
-			count 7
+			count 8
 			entityDefName "Amarr_Structure_SmallPulseLaserBattery"
 			entityDefName "Amarr_Structure_MediumPulseLaserBattery"
 			entityDefName "Amarr_Structure_LargePulseLaserBattery"
 			entityDefName "Amarr_Structure_ECMBattery"
 			entityDefName "Amarr_Structure_JumpBridge"
 			entityDefName "Amarr_Structure_CynoJammer"
+			entityDefName "SOE_ModuleShipyard"
 			entityDefName "Amarr_Structure_TitanFoundry"
 	titanInfo
 		Page:0
@@ -56,7 +57,7 @@ entities
 			entityDefName "Amarr_Ship_Destroyer_Confessor"
 			entityDefName "Amarr_Ship_Cruiser_Omen"
 			entityDefName "Amarr_Ship_Cruiser_Augoror"
-			entityDefName "Amarr_Ship_Colony_Orca"
+			entityDefName "AllRaces_Ship_Colony_Orca"
 		Page:1
 			count 8
 			entityDefName "Amarr_Ship_Cruiser_Arbitrator"
@@ -69,12 +70,12 @@ entities
 			entityDefName "Amarr_Ship_Envoy_Prophecy"
 		NotOnPage
 			count 4
-			entityDefName "Amarr_Ship_Constructor_Venture"
+			entityDefName "AllRaces_Ship_Constructor_Venture"
+			entityDefName "AllRaces_Ship_Refineryship"
+			entityDefName "AllRaces_Ship_Orca"
 			entityDefName "Amarr_Ship_Tradeship_Bestower"
-			entityDefName "Amarr_Ship_Refineryship_Bestower"
-			entityDefName "Ore_ShipOrca"
 	researchInfo
-		count 131
+		count 137
 		entityDefName "Amarr_ResearchSubject_SubCapitalAccess_Dragoon"
 		entityDefName "RSAInterdictor"		
 		entityDefName "RSACommand_Orca"
@@ -84,6 +85,11 @@ entities
 		entityDefName "RSABlackOps"
 		entityDefName "RSAMarauder"
 		entityDefName "RESEARCH_FORCEAI_AID"
+		entityDefName "RESEARCH_FORCEAI_AID2"
+		entityDefName "RESEARCH_FORCEAI_AID3"
+		entityDefName "RESEARCH_FORCEAI_AID4"
+		entityDefName "RESEARCH_FORCEAI_AID5"
+		entityDefName "RESEARCH_FORCEAI_AID6"
 		entityDefName "AllRaces_ResearchSubject_CovertOpsJumpBridge"		
 		entityDefName "AllRaces_ResearchSubject_ArcingVortonProjector"
 		entityDefName "ALLRACES_RESEARCHSUBJECT_ABILITYACCESS_AFTERBURNER"
@@ -206,6 +212,7 @@ entities
 		entityDefName "RESEARCHSUBJECT_WEAPONDAMAGE_LASERTECH1"
 		entityDefName "RESEARCHSUBJECT_WEAPONDAMAGE_LASERTECH2"
 		entityDefName "RESEARCHSUBJECT_STARBASEUPGRADEACCESS_FACTORY"
+		entityDefName "RESEARCHSUBJECT_PLANETMODULEACCESS_REPAIRPLATFORMPSI"
 	starBaseInfo
 		count 3
 		entityDefName "Allraces_Structure_Citadel_Astrahus"

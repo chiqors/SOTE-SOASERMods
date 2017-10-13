@@ -51,7 +51,7 @@ angularSpeed 0.000000
 rotateSoundName ""
 rotateFacingType "None"
 rotateConstantly FALSE
-ShieldMeshName "caldari_refinary"
+ShieldMeshName "Tatara"
 renderShield TRUE
 NumSoundsFor:ONATTACKORDERISSUED 0
 NumSoundsFor:ONCREATION 0
@@ -61,7 +61,7 @@ SoundID "PLANETMODULE_TECHORBITALREFINERY_ONSELECTION_0"
 NumSoundsFor:ONSTARTPHASEJUMP 0
 MeshNameInfoCount 1
 MeshNameInfo
-	meshName "caldari_refinary"
+	meshName "Tatara"
 	criteriaType "None"
 meshNameIncreasedEffectName ""
 meshNameDecreasedEffectName ""
@@ -73,6 +73,6 @@ maxShadow 0.800000
 formationRank 3
 baseBuildTime 130.000000
 buildEffectName ""
-cargoShipType "FrigatePhaseRefineryShip"
-maxCargoShipCount 10
+cargoShipType "AllRaces_Ship_Refineryship"
+maxCargoShipCount 5
 cargoShipRespawnTime 30.000000

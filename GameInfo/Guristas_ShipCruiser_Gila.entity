@@ -9,7 +9,7 @@ canBomb FALSE
 typeCount 1
 frigateRoleType "Lrm"
 statCountType "FrigateLongRange"
-mainViewIcon "MAINVIEWICON_FRIGATE_CARACAL"
+mainViewIcon "MAINVIEWICON_FRIGATE_ONYX"
 picture "PICTURE_GURISTA_GILA"
 NameStringID "IDS_Guristas_Gila_NAME"
 DescriptionStringID "IDS_FRIGATE_CARACAL_DESCRIPTION"
@@ -144,7 +144,7 @@ ability:0 "AbilityAfterburner"
 ability:1 ""
 ability:2 ""
 ability:3 "AbilityDroneBonus"
-ability:4 "AbilityT2CruiserCerberus"
+ability:4 ""
 MaxAntiMatter 250.000000
 AntiMatterRestoreRate 0.500000
 cargoType "Invalid"
