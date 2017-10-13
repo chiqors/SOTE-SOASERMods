@@ -63,10 +63,10 @@ Weapon
 		missileMaxSlowTurnTime 5.000000		
 m_weaponIndexForRange 1
 firingAlignmentType "Default"
-TargetCountPerBank:FRONT 5
-TargetCountPerBank:BACK 5
-TargetCountPerBank:LEFT 5
-TargetCountPerBank:RIGHT 5
+TargetCountPerBank:FRONT 4
+TargetCountPerBank:BACK 4
+TargetCountPerBank:LEFT 4
+TargetCountPerBank:RIGHT 4
 canOnlyTargetStructures FALSE
 ShieldMeshName "Keepstar"
 renderShield TRUE
@@ -108,8 +108,8 @@ ExplosionName "StarBase0"
 formationRank 3
 minShadow 0.000000
 maxShadow 0.300000
-cargoShipType "Amarr_Ship_Tradeship_Bestower"
-maxCargoShipCount 5
+cargoShipType "Allraces_Ship_Tradeship_Bowhead"
+maxCargoShipCount 4
 cargoShipRespawnTime 25.000000
 baseBuildTime 1000.000000
 buildEffectName ""

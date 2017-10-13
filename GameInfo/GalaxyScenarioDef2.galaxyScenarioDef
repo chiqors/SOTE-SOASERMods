@@ -1092,7 +1092,7 @@ planetItemType
 	entityDefName "Amarr_Ship_Cruiser_Arbitrator"
 planetItemType
 	designName "Tech:Frigate:Colony"
-	entityDefName "Amarr_Ship_Colony_Orca"
+	entityDefName "AllRaces_Ship_Colony_Orca"
 planetItemType
 	designName "Tech:Frigate:Heavy"
 	entityDefName "Amarr_Ship_Battlecruiser_Harbinger"
@@ -1116,7 +1116,7 @@ planetItemType
 	entityDefName "Amarr_Ship_Cruiser_Augoror"
 planetItemType
 	designName "Tech:Frigate:Constructor"
-	entityDefName "Amarr_Ship_Constructor_Venture"
+	entityDefName "AllRaces_Ship_Constructor_Venture"
 planetItemType
 	designName "Tech:Frigate:Envoy"
 	entityDefName "Amarr_Ship_Envoy_Prophecy"

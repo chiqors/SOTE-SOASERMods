@@ -40,7 +40,7 @@ numRandomDebrisSmall 0
 numSpecificDebris 0
 armorType "Heavy"
 hudIcon "HUDICON_SERPENTIS_VIDICATOR"
-smallHudIcon "HUDICON_SERPENTIS_VIDICATOR"
+smallHudIcon "HUDICONSMALL_CAPITALSHIP_PHASESCOUT"
 infoCardIcon "INFOCARDICON_CAPITALSHIP_PHASESCOUT"
 minZoomDistanceMult 1.000000
 NumWeapons 1

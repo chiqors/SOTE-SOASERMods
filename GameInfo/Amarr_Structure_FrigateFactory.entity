@@ -1,11 +1,11 @@
 ﻿TXT
 entityType "PlanetModuleShipFactory"
 minZoomDistanceMult 1.000000
-ability:0 ""
-ability:1 ""
-ability:2 ""
-ability:3 ""
-ability:4 ""
+ability:0 "AbilityAisupportAmarrShipsFrigateFleet"
+ability:1 "AbilityAisupportAmarrShipsDestroyersFleet"
+ability:2 "AbilityAisupportAmarrShipsCruisersFleet"
+ability:3 "AbilityAisupportAmarrShipsBattlecruisersFleet"
+ability:4 "AbilityAisupportAmarrShipsBattleshipsFleet"
 MaxAntiMatter 0.000000
 AntiMatterRestoreRate 0.000000
 numRandomDebrisLarge 0

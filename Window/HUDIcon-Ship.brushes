@@ -1,6 +1,6 @@
 ﻿TXT
 onlyLoadOnDemand FALSE
-brushCount 333
+brushCount 334
 brush
 	name "HUDICON_CORVETTE_PHASE"
 	content "States"
@@ -4290,6 +4290,11 @@ brush
 	content "Simple"
 	fileName "Unit_Main2"
 	pixelBox [ 159 , 38, 20 , 22 ]		
+brush
+	name "HUDICONSMALL_FRIGATE"
+	content "Simple"
+	fileName "Unit_Main2"
+	pixelBox [ 16 , 83, 14 , 14 ]			
 brush
 	name "HUDICON_CALDARI_CORAX"
 	content "States"

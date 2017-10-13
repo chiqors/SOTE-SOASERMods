@@ -16,7 +16,7 @@ float4 g_Light0_Specular;
 
 float4 g_MaterialAmbient:Ambient;
 float4 g_MaterialDiffuse:Diffuse;
-float g_MaterialGlossiness = 9999;
+float g_MaterialGlossiness = 50;
 float4 g_GlowColor = float4(1.0f, 1.0f, 1.0f, 1.0f);
 float4 g_CloudColor = float4(1.0f, 1.0f, 1.0f, 1.0f);
 
@@ -35,17 +35,23 @@ float TeamColorScalar = 1;
 sampler TextureColorSampler = sampler_state
 {
     Texture	= <g_TextureDiffuse0>;    
-    MipFilter = LINEAR;
-    MinFilter = LINEAR;
-    MagFilter = LINEAR;
+#ifndef Anisotropy
+    Filter = LINEAR;
+#else
+	Filter = ANISOTROPIC;
+	MaxAnisotropy = AnisotropyLevel;
+#endif
 };
 
 sampler TextureDataSampler = sampler_state
 {
     Texture = <g_TextureSelfIllumination>;    
-    MipFilter = LINEAR;
-    MinFilter = LINEAR;
-    MagFilter = LINEAR;
+#ifndef Anisotropy
+    Filter = LINEAR;
+#else
+	Filter = ANISOTROPIC;
+	MaxAnisotropy = AnisotropyLevel;
+#endif
 };
 
 sampler NoiseSampler = sampler_state 
@@ -116,7 +122,7 @@ VsSceneOutput RenderSceneVS(
 
 float4 GetSpecularColor(float3 light, float3 normal, float3 view, float4 colorSample)
 {
-	float cosang = max(dot(reflect(-light, normal), view), 0.00001f);
+	float cosang = clamp(dot(reflect(-light, normal), view), 0.00001f, 0.95f);
 	float glossScalar = colorSample.a;
 	float specularScalar = pow(cosang, g_MaterialGlossiness) * glossScalar;
 	return (g_Light0_Specular * specularScalar);
@@ -146,15 +152,15 @@ float4 RenderScenePS(VsSceneOutput input) : COLOR0
 	float dotLight = dot(input.lightDir, input.normal);
 
 	#ifndef IsDebug	
-		finalColor += lightSideSample * GetLightColor(dotLight, 1.0f, 0.7f, 1.0f, g_Light0_DiffuseLite, g_Light0_DiffuseDark);
-		finalColor += lightSideSample * GetLightColor(-dotLight, 0.75f, 0.05f, 0.05f, g_Light_AmbientLite, g_Light_AmbientDark);
-		finalColor += darkSideSample * GetLightColor(dotLight, 0.5f, 0.7f, 0.0f, 1.0f, 0.f);
+		finalColor += lightSideSample * GetLightColor(dotLight, 1.25f, .25f, 1.f, g_Light0_DiffuseLite, g_Light0_DiffuseDark);
+		finalColor += lightSideSample * GetLightColor(-dotLight, 1.25f, .25f, 0.f, g_Light_AmbientLite, g_Light_AmbientDark);
+		finalColor += darkSideSample * GetLightColor(dotLight, 1.25f, .25f, 0.f, 1.f, 0.f);
 		finalColor += GetSpecularColor(input.lightDir, input.normal, input.viewDir, lightSideSample);
 	#else	
-		finalColor += lightSideSample * GetLightColor(dotLight, 1.0f, 0.7f, 1.0f, g_Light0_DiffuseLite, g_Light0_DiffuseDark) * DiffuseScalar;
-		finalColor += lightSideSample * GetLightColor(-dotLight, 0.75f, 0.05f, 0.05f, g_Light_AmbientLite, g_Light_AmbientDark) * AmbientScalar;
-		finalColor += darkSideSample * GetLightColor(dotLight, 0.5f, 0.7f, 0.0f, 1.f, 0.f) * SelfIllumScalar;
-		finalColor += GetSpecularColor(input.lightDir, input.normal, input.viewDir, lightSideSample) * SpecularScalar;
+		finalColor += lightSideSample * GetLightColor(dotLight, 1.f, .25f, 1.f, g_Light0_DiffuseLite, g_Light0_DiffuseDark) * DiffuseScalar;
+		finalColor += lightSideSample * GetLightColor(-dotLight, 1.25f, .25f, 0.f, g_Light_AmbientLite, g_Light_AmbientDark) * AmbientScalar;
+		finalColor += darkSideSample * GetLightColor(dotLight, 1.25f, .25f, 0.f, 1.f, 0.f) * SelfIllumScalar;
+		finalColor += GetSpecularColor(input.lightDir, input.normal, input.viewDir, lightSideSample) * SpecularScalar *2;
 	#endif
 	
 	return finalColor;
@@ -188,7 +194,7 @@ RenderCloudVertex(float thicknessModifier, float3 iPosition, float3 iNormal, flo
     float3 positionInWorldSpace = mul(float4(iPosition, 1.f), g_World).xyz;
       
     //Calculate Light
-	o.Light = ( normalize(g_Light0_Position - positionInWorldSpace)) * 1.f;
+	o.Light = normalize(g_Light0_Position - positionInWorldSpace);
 	
 	//Calculate ViewVector
 	o.View = normalize(-positionInWorldSpace);
@@ -208,7 +214,7 @@ RenderCloudsVS(
 
 void RenderCloudsPS(VsCloudsOutput i, out float4 oColor0:COLOR0) 
 { 
-	float noiseScale = 10.f;
+	float noiseScale = 6.0f;
 	
 	float rotatationTime = g_Time / 800;
 	float indexTime = g_Time/70;
@@ -217,8 +223,8 @@ void RenderCloudsPS(VsCloudsOutput i, out float4 oColor0:COLOR0)
 	float domainPhaseShift = tex3D(NoiseSampler, noiseScale * index).x;
 	
 	float4 cloudColor = tex2D(CloudLayerSampler, float2(i.TexCoord0.x + rotatationTime, i.TexCoord0.y));
-	cloudColor *= domainPhaseShift * 1.f;
-	cloudColor *= g_CloudColor * 2.f;
+	cloudColor *= domainPhaseShift;
+	cloudColor *= g_CloudColor;
 	
 	//Light and Normal - renormalized because linear interpolation screws it up
 	float3 light = normalize(i.Light);
@@ -229,9 +235,10 @@ void RenderCloudsPS(VsCloudsOutput i, out float4 oColor0:COLOR0)
 	
 	//Atmosphere Scattering
     float ratio = 1.f - max(dot(normal, view), 0.f);
-	float4 atmosphere = g_GlowColor * pow(ratio, 2.f);
+	float4 atmosphere = g_GlowColor * pow(ratio, 1.f);
 		
-	oColor0 = (cloudColor + atmosphere) * dotLightNormal;
+//	oColor0 = (cloudColor + atmosphere) * dotLightNormal;
+	oColor0 = (cloudColor * 1.3f + atmosphere ) * dotLightNormal;	
 		
 	oColor0.a = lerp(1.f, 0.f, (i.PercentHeight - .8f) / .2f);
 }

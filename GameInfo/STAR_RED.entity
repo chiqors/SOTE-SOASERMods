@@ -5,26 +5,29 @@ coronaEndColor f00000
 coronaStartColorDistance 0.000000
 coronaEndColorDistance 1.000000
 farIcon "Axeldude_FarStar"
-coloredSkyboxMeshInfoCount 5
+coloredSkyboxMeshInfoCount 6
 meshInfo
-	meshName "SkyboxBackdrop2"
-	shouldPrefer TRUE
+	meshName "SkyboxBackdrop1"
+	shouldPrefer FALSE
+meshInfo
+	meshName "SkyboxBackdrop3"
+	shouldPrefer FALSE
+meshInfo
+	meshName "SkyboxBackdrop4"
+	shouldPrefer FALSE
+meshInfo
+	meshName "SkyboxBackdrop5"
+	shouldPrefer FALSE
 meshInfo
 	meshName "SkyboxBackdrop6"
-	shouldPrefer TRUE
-meshInfo
-	meshName "SkyboxBackdrop9"
 	shouldPrefer FALSE
-meshInfo
-	meshName "SkyboxBackdrop10"
-	shouldPrefer FALSE
-meshInfo
-	meshName "SkyboxBackdrop11"
-	shouldPrefer FALSE
-deepSpaceSkyboxMeshInfoCount 1
 meshInfo
 	meshName "SkyboxBackdrop7"
 	shouldPrefer FALSE
+deepSpaceSkyboxMeshInfoCount 1
+meshInfo
+	meshName "SkyboxBackdrop9"
+	shouldPrefer TRUE
 iconTextureName "Axeldude_FarStar_Icon_Red"
 dlcID 204880
 ability:0 "AbilitySolarRegeneration"

@@ -1,0 +1,50 @@
+TXT
+entityType "ResearchSubject"
+hudIcon "HUDICON_RESEARCHSUBJECT_MAXSHIPSLOTSTECH0"
+smallHudIcon "HUDICON_RESEARCHSUBJECT_MAXSHIPSLOTSTECH0"
+infoCardIcon ""
+NameStringID "blank"
+DescriptionStringID "blank"
+researchWindowLocation
+	block 0
+	pos [ 1 , 50 ]
+ResearchField "Fleet"
+Prerequisites
+	NumResearchPrerequisites 1
+	ResearchPrerequisite
+		Subject "RESEARCH_FORCEAI_AID"
+		Level 1
+	RequiredFactionNameID ""
+	RequiredCompletedResearchSubjects 0
+MinimumArtifactLevel -1
+BaseUpgradeTime 0.000000
+PerLevelUpgradeTime 0
+BaseCost
+	credits 0.000000
+	metal 0.000000
+	crystal 0.000000
+PerLevelCostIncrease
+	credits 0.000000
+	metal 0.000000
+	crystal 0.000000
+Tier 1
+onlyWorksIfTierLabsExist FALSE
+MaxNumResearchLevels 1
+priority 9999.000000
+researchBoolModifiers 0
+researchFloatModifiers 3
+researchModifier
+	modifierType "ShipMaxSlots"
+	baseValue 0.000000
+	perLevelValue 10.000000
+researchModifier
+	modifierType "TradeGoodsValueAdjustment"
+	baseValue 0.000000
+	perLevelValue 0.500000
+researchModifier
+	modifierType "RefineryShipCapacityAdjustment"
+	baseValue 0.000000
+	perLevelValue 0.100000
+artifactPicture ""
+uniqueOverlayBrush ""
+dlcId 204880

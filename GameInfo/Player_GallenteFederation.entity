@@ -51,14 +51,15 @@ entities
 			entityDefName "Gallente_Ship_Frigate_Imicus"
 			entityDefName "Gallente_Ship_Frigate_Incursus"
 			entityDefName "Gallente_Ship_Frigate_Tristan"
+			entityDefName "Gallente_Ship_Frigate_Atron"
 			entityDefName "Gallente_Ship_Destroyer_Catalyst"
 			entityDefName "Gallente_Ship_Destroyer_Hecate"		
 			entityDefName "Gallente_Ship_Cruiser_Vexor"
-			entityDefName "Gallente_Ship_Cruiser_Thorax"
 			entityDefName "Gallente_Ship_Cruiser_Execuror"
-			entityDefName "Gallente_Ship_Colony_Orca"
+			entityDefName "AllRaces_Ship_Colony_Orca"
 		Page:1
 			count 8
+			entityDefName "Gallente_Ship_Cruiser_Thorax"
 			entityDefName "Gallente_Ship_Cruiser_Celestis"
 			entityDefName "Gallente_Ship_Battlecruiser_Brutix"
 			entityDefName "Gallente_Ship_Battlecruiser_Myrmidon"
@@ -66,13 +67,12 @@ entities
 			entityDefName "Gallente_Ship_Battleship_Megathron"
 			entityDefName "Gallente_Ship_Battleship_Hyperion"
 			entityDefName "Gallente_Ship_Envoy_Brutix"
-			entityDefName "Serpentis_ShipBattleshipVindicator"
 		NotOnPage
 			count 4
-			entityDefName "Gallente_Ship_Constructor_Venture"
-			entityDefName "Gallente_Ship_Tradeship"
-			entityDefName "Amarr_Ship_Refineryship_Bestower"
-			entityDefName "Ore_ShipOrca"			
+			entityDefName "AllRaces_Ship_Constructor_Venture"
+			entityDefName "AllRaces_Ship_Refineryship"
+			entityDefName "AllRaces_Ship_Orca"
+			entityDefName "Gallente_Ship_Tradeship"		
 	researchInfo
 		count 128
 		entityDefName "RSALogistic"
@@ -208,7 +208,7 @@ entities
 		entityDefName "Allraces_Structure_Citadel_Astrahus"
 		entityDefName "Allraces_Structure_Citadel_Fortizar"
 		entityDefName "Allraces_Structure_Citadel_Keepstar"
-	flagship "FrigatePhaseFlagship"
+	flagship "Amarr_Ship_Flagship_ImperialApocalypse"
 debrisData
 	numRandomMeshNamesLarge 8
 	randomMeshName "DebrisPhaseGenericLarge0"
@@ -267,7 +267,7 @@ hyperspaceData
 	baseHyperspaceAntiMatterCost 0.000000
 	baseHyperspaceChargeUpTime 2.200000
 shieldData
-	shieldAbsorbGrowthPerDamage 0.050000
+	shieldAbsorbGrowthPerDamage 0.0500000
 	shieldAbsorbDecayRate 0.000100
 	shieldAbsorbBaseMin 0.0500000
 	shieldColor ff66ffcc

@@ -5,7 +5,7 @@ failedRespawnTimeMin 120.0
 failedRespawnTimeMax 300.0
 lowAllegianceCheckPeriod 240.0
 lowAllegianceThreshold 0.15
-randomEventDefCount 13
+randomEventDefCount 14
 	randomEventDef
 		id "CORONALMASSEJECTION"
 		nameID "IDS_RANDOMEVENT_CORONALMASSEJECTION_NAME"
@@ -20,7 +20,7 @@ randomEventDefCount 13
 		spawnRequirement "Timer"
 		respawnCount 9
 		nextSpawnTimeMin 300.0
-		nextSpawnTimeMax 900.0
+		nextSpawnTimeMax 600.0
 		spawnWeight 0.15
 	randomEventDef
 		id "GAMMARAYBURST"
@@ -35,7 +35,7 @@ randomEventDefCount 13
 		spawnRequirement "Timer"
 		respawnCount 5
 		nextSpawnTimeMin 300.0
-		nextSpawnTimeMax 900.0
+		nextSpawnTimeMax 600.0
 		spawnWeight 0.05
 	randomEventDef
 		id "MAGNETICSTORM"
@@ -50,7 +50,7 @@ randomEventDefCount 13
 		spawnRequirement "Timer"
 		respawnCount 9
 		nextSpawnTimeMin 300.0
-		nextSpawnTimeMax 900.0
+		nextSpawnTimeMax 600.0
 		spawnWeight 0.1
 	randomEventDef
 		id "PLASMASTORM"
@@ -65,7 +65,7 @@ randomEventDefCount 13
 		spawnRequirement "Timer"
 		respawnCount 9
 		nextSpawnTimeMin 300.0
-		nextSpawnTimeMax 900.0
+		nextSpawnTimeMax 600.0
 		spawnWeight 0.1
 	randomEventDef
 		id "PIRATETITAN"
@@ -79,7 +79,7 @@ randomEventDefCount 13
 		spawnRequirement "Timer"
 		respawnCount 0
 		nextSpawnTimeMin 300.0
-		nextSpawnTimeMax 900.0
+		nextSpawnTimeMax 600.0
 		spawnWeight 0.05
 	randomEventDef
 		id "PARTISANS"
@@ -198,7 +198,7 @@ randomEventDefCount 13
 		nextSpawnTimeMax 900.0
 		spawnWeight 0.05
 	randomEventDef
-		id "PIRATETITAN"
+		id "BLACKOPS"
 		nameID "IDS_RANDOMEVENT_PIRATBLACKOPS_NAME"
 		warningID "IDS_GAMEMESSAGE_RANDOMEVENTDETECTEDPIRATEBLACKOPS"
 		spawnType "BuffAtLocation"
@@ -210,5 +210,19 @@ randomEventDefCount 13
 		respawnCount 0
 		nextSpawnTimeMin 300.0
 		nextSpawnTimeMax 900.0
-		spawnWeight 0.05			
-		
+		spawnWeight 0.10			
+	randomEventDef
+		id "DRIFTERS"
+		nameID "IDS_RANDOMEVENT_PIRATBLACKOPS_NAME"
+		warningID "IDS_GAMEMESSAGE_RANDOMEVENTDETECTEDPIRATEBLACKOPS"
+		spawnType "BuffAtLocation"
+		spawnEntity "RandomEventDrifterIncursion"
+		playerOwnerType "MadVasari"
+		spawnLocation "RandomLocation"
+		excludedSpawnLocationCount 0
+		spawnRequirement "Timer"
+		respawnCount 0
+		nextSpawnTimeMin 300.0
+		nextSpawnTimeMax 900.0
+		spawnWeight 0.15			
+				
