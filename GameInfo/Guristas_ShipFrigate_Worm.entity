@@ -174,10 +174,10 @@ HyperspaceChargingSoundID "HYPERSPACE_CHARGEUP"
 HyperspaceTravelSoundID "HYPERSPACE_TRAVEL"
 EngineSoundID "ENGINE_PHASECAPITALSHIP"
 ability:0 "AbilityMicrowarpdrive"
-ability:1 "AbilityT2CloakCovertOps"
-ability:2 "AbilityStealthBomb"
+ability:1 ""
+ability:2 ""
 ability:3 ""
-ability:4 ""
+ability:4 "AbilityDroneBonus"
 MaxAntiMatter 200.000000
 AntiMatterRestoreRate 0.550000
 cargoType "Invalid"

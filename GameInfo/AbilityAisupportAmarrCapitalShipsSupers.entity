@@ -32,9 +32,9 @@ ignoreNonCombatShipsForAutoCastTarget TRUE
 onlyAutoCastWhenDamageTakenExceedsPerc 0.000000
 useCostType "ResourcesAndMustHaveShipSlots"
 resourceCost
-	credits 10000.000000
-	metal 0.000000
-	crystal 0.000000
+	credits 20109.000000
+	metal 5250.000000
+	crystal 2167.000000
 requiredShipSlots
 	Level:0 1.000000
 	Level:1 1.000000
@@ -47,13 +47,10 @@ cooldownTime
 	Level:3 300.000000
 orderAcknowledgementType "ONGENERALORDERISSUED"
 researchPrerequisites
-	NumResearchPrerequisites 2
+	NumResearchPrerequisites 1
 	ResearchPrerequisite
-		Subject "RESEARCH_FORCEAI_AID"
+		Subject "RESEARCH_FORCEAI_AID3"
 		Level 1
-	ResearchPrerequisite
-		Subject "Amarr_ResearchSubject_CapitalAccess_Aeon"
-		Level 1	
 	RequiredFactionNameID ""
 	RequiredCompletedResearchSubjects 0
 nameStringID "IDS_CAPITALSHIP_TECHCARRIER_NAME"

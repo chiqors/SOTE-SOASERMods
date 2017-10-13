@@ -7,7 +7,7 @@ NameStringID "blank"
 DescriptionStringID "blank"
 researchWindowLocation
 	block 0
-	pos [ 50 , 0 ]
+	pos [ 0 , 50 ]
 ResearchField "Fleet"
 Prerequisites
 	NumResearchPrerequisites 0

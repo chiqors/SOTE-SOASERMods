@@ -22,11 +22,11 @@ slotCount 4.000000
 BuildTime 28.000000
 hasLevels FALSE
 ExperiencePointsForDestroying 72.000000
-MaxHullPoints 2750.000000
-MaxShieldPoints 1500.000000
+MaxHullPoints 3750.000000
+MaxShieldPoints 850.000000
 HullPointRestoreRate 1.000000
 ShieldPointRestoreRate 1.00000
-BaseArmorPoints 25.000000
+BaseArmorPoints 20.000000
 maxMitigation 0.100000
 Prerequisites
 	NumResearchPrerequisites 1
@@ -52,12 +52,12 @@ Weapon
 		DamageApplyType "OVERTIME"
 		DamageType "ENERGY"
 		WeaponClassType "BEAM"
-	DamagePerBank:FRONT 273.000000
+	DamagePerBank:FRONT 125.000000
 	DamagePerBank:BACK 0.000000
 	DamagePerBank:LEFT 0.000000
 	DamagePerBank:RIGHT 0.000000
 	Range 6000.000000
-	PreBuffCooldownTime 3.060000
+	PreBuffCooldownTime 4.000000
 	CanFireAtFighter FALSE
 	SynchronizedTargeting TRUE
 	PointStaggerDelay 0.000000

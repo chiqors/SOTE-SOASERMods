@@ -36,7 +36,7 @@ numRandomDebrisLarge 0
 numRandomDebrisSmall 0
 numSpecificDebris 0
 armorType "Medium"
-hudIcon "HUDICON_FRIGATE_PHASELONGRANGE"
+hudIcon "HUDICON_SOE_STRATIOS"
 smallHudIcon "HUDICONSMALL_CRUISER"
 infoCardIcon "HUDICONSMALL_CRUISER"
 minZoomDistanceMult 1.000000
@@ -136,9 +136,9 @@ HyperspaceChargingSoundID "HYPERSPACE_CHARGEUP"
 HyperspaceTravelSoundID "HYPERSPACE_TRAVEL"
 EngineSoundID "ENGINE_PHASECAPITALSHIP"
 ability:0 "AbilityMicrowarpdrive"
-ability:1 "AbilityDroneBonus"
+ability:1 "AbilityT2CloakCovertOps"
 ability:2 ""
-ability:3 "AbilityT2CruiserIshitar"
+ability:3 "AbilityDroneBonus"
 ability:4 "AbilityLaunchSquads"
 MaxAntiMatter 250.000000
 AntiMatterRestoreRate 0.500000
