@@ -81,7 +81,7 @@ Weapon
 		DamageApplyType "BACKLOADED"
 		DamageType "PHYSICAL"
 		WeaponClassType "MISSILE"
-	DamagePerBank:FRONT 165.000000
+	DamagePerBank:FRONT 175.000000
 	DamagePerBank:BACK 0.000000
 	DamagePerBank:LEFT 0.000000
 	DamagePerBank:RIGHT 0.000000
@@ -133,7 +133,7 @@ ExplosionName "Fighter0"
 exhaustTrailTextureName "ExhaustTrail"
 exhaustTrailWidth 6.000000
 engineSoundID "ENGINE_PHASESUPPORTSHIP"
-maxHullPoints 3043.000000
+maxHullPoints 4000.000000
 hullPointRestoreRate 1.000000
 armorPoints 10.000000
 maxMitigation 0.000000

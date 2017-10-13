@@ -133,7 +133,7 @@ ExplosionName "Fighter0"
 exhaustTrailTextureName "ExhaustTrail"
 exhaustTrailWidth 6.000000
 engineSoundID "ENGINE_TECHSUPPORTSHIP"
-maxHullPoints 1100.000000
+maxHullPoints 4000.000000
 hullPointRestoreRate 11.000000
 armorPoints 10.000000
 maxMitigation 0.000000

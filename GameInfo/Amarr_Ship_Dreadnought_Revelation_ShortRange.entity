@@ -3,7 +3,7 @@ entityType "CapitalShip"
 ability:0 "AbilitySiegeMode"
 ability:1 "AbilityTrackingComputer"
 ability:2 "AbilityPhasedArmourHardenerCapital"
-ability:3 ""
+ability:3 "AbilityArmorRepairerCapital"
 ability:4 ""
 defaultAutoAttackRange "GravityWell"
 defaultAutoAttackOn TRUE
@@ -52,10 +52,10 @@ basePrice
 slotCount 1.000000
 BuildTime 75.000000
 MaxHullPoints
-	StartValue 101563.000000
-	ValueIncreasePerLevel 10156.000000
+	StartValue 101250.000000
+	ValueIncreasePerLevel 10125.000000
 MaxShieldPoints
-	StartValue 70313.000000
+	StartValue 25000.000000
 	ValueIncreasePerLevel 7031.000000
 HullPointRestoreRate
 	StartValue 10.000000
@@ -64,8 +64,8 @@ ShieldPointRestoreRate
 	StartValue 1.000000
 	ValueIncreasePerLevel 1.00000
 ArmorPointsFromExperience
-	StartValue 25.000000
-	ValueIncreasePerLevel 0.000000
+	StartValue 30.000000
+	ValueIncreasePerLevel 1.000000
 maxMitigation
 	StartValue 0.2500000
 	ValueIncreasePerLevel 0.000000
@@ -107,12 +107,12 @@ Weapon
 		DamageApplyType "OVERTIME"
 		DamageType "ENERGY"
 		WeaponClassType "BEAM"
-	DamagePerBank:FRONT 2784.000000
+	DamagePerBank:FRONT 1650.000000
 	DamagePerBank:BACK 0.000000
 	DamagePerBank:LEFT 0.000000
 	DamagePerBank:RIGHT 0.000000
-	Range 10000.000000
-	PreBuffCooldownTime 8.7800000
+	Range 25000.000000
+	PreBuffCooldownTime 7.7500000
 	CanFireAtFighter FALSE
 	SynchronizedTargeting TRUE
 	PointStaggerDelay 0.000000

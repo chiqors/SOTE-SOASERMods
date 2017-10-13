@@ -3,7 +3,7 @@ entityType "CapitalShip"
 ability:0 "AbilitySiegeMode"
 ability:1 "AbilityMISSILEGUIDANCECOMPUTER"
 ability:2 "AbilityInvulnerabilityShieldFieldCapital"
-ability:3 "AbilityShieldBoosterCapital"
+ability:3 ""
 ability:4 ""
 defaultAutoAttackRange "GravityWell"
 defaultAutoAttackOn TRUE
@@ -52,11 +52,11 @@ basePrice
 slotCount 1.000000
 BuildTime 75.000000
 MaxHullPoints
-	StartValue 78125.000000
-	ValueIncreasePerLevel 7812.000000
+	StartValue 57500.000000
+	ValueIncreasePerLevel 5750.000000
 MaxShieldPoints
-	StartValue 93750.000000
-	ValueIncreasePerLevel 9375.000000
+	StartValue 157500.000000
+	ValueIncreasePerLevel 15750.000000
 HullPointRestoreRate
 	StartValue 1.000000
 	ValueIncreasePerLevel 0.000000
@@ -64,11 +64,11 @@ ShieldPointRestoreRate
 	StartValue 10.000000
 	ValueIncreasePerLevel 1.000000
 ArmorPointsFromExperience
-	StartValue 17.000000
+	StartValue 18.000000
 	ValueIncreasePerLevel 0.000000
 maxMitigation
 	StartValue 0.300000
-	ValueIncreasePerLevel 0.000000
+	ValueIncreasePerLevel 0.010000
 MaxAntiMatter
 	StartValue 62500.000000
 	ValueIncreasePerLevel 625.000000
@@ -102,17 +102,17 @@ NumWeapons 1
 Weapon
 	WeaponType "Missile"
 	damageEnums
-		AttackType "ANTIVERYHEAVY"
+		AttackType "ANTIHEAVY"
 		DamageAffectType "AFFECTS_SHIELDS_AND_HULL"
 		DamageApplyType "BACKLOADED"
 		DamageType "PHYSICAL"
 		WeaponClassType "MISSILE"
-	DamagePerBank:FRONT 8700.000000
+	DamagePerBank:FRONT 12950.000000
 	DamagePerBank:BACK 0.000000
 	DamagePerBank:LEFT 0.000000
 	DamagePerBank:RIGHT 0.000000
-	Range 10000.000000
-	PreBuffCooldownTime 13.710000
+	Range 14000.000000
+	PreBuffCooldownTime 18.500000
 	CanFireAtFighter FALSE
 	SynchronizedTargeting TRUE
 	PointStaggerDelay 0.050000
