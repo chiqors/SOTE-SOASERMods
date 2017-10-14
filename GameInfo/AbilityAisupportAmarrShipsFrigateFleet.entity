@@ -50,9 +50,12 @@ cooldownTime
 	Level:3 300.000000
 orderAcknowledgementType "ONGENERALORDERISSUED"
 researchPrerequisites
-	NumResearchPrerequisites 1
+	NumResearchPrerequisites 2
 	ResearchPrerequisite
 		Subject "RESEARCH_FORCEAI_AID"
+		Level 1
+	ResearchPrerequisite
+		Subject "Amarr_ResearchSubject_SubCapitalAccess_Inquisitor"
 		Level 1
 	RequiredFactionNameID ""
 	RequiredCompletedResearchSubjects 0
