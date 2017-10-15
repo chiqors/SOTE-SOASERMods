@@ -35,7 +35,7 @@ entities
 	capitalShipInfo
 		Page:0
 			count 4
-			entityDefName "Serpentis_ShipSupercarrier_Vendeta"
+			entityDefName "Serpentis_ShipSupercarrier_Vendetta"
 			entityDefName "Serpentis_ShipFAUX_Ninazu"
 			entityDefName "Serpentis_ShipDreadnought_Vehement"
 			entityDefName "Serpentis_ShipCarrier_Thanatos"

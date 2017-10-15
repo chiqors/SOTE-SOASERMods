@@ -7,13 +7,13 @@ ParticleSimulation
 	EmitterContents
 		Name "Flame Trail"
 		Enabled TRUE
-		EmitRate 25.000000
+		EmitRate 15.000000
 		HasInfiniteEmitCount TRUE
 		MaxEmitCount 0
 		hasEmitIntervals FALSE
 		emitIntervalRunDuration 0.000000
 		emitIntervalWaitDuration 0.000000
-		ParticleLifeTime 1.500000
+		ParticleLifeTime 1.000000
 		ParticleMinStartLinearSpeed 80.000000
 		ParticleMaxStartLinearSpeed 80.000000
 		ParticleMinStartAngularSpeed 0.000000

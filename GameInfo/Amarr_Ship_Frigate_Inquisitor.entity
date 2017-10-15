@@ -39,8 +39,7 @@ bombEffectsDef
 	missileStartTurningDistance 0.000000
 	missileSlowTurnRate 0.500000
 	missileMaxSlowTurnTime 5.000000
-typeCount 2
-frigateRoleType "Lrm"
+typeCount 1
 frigateRoleType "Siege"
 statCountType "FrigateSiege"
 mainViewIcon "MAINVIEWICON_FRIGATE_TECHSIEGE"

@@ -52,15 +52,14 @@ entities
 			entityDefName "Amarr_Ship_Frigate_Magnate"
 			entityDefName "Amarr_Ship_Frigate_Punisher"
 			entityDefName "Amarr_Ship_Frigate_Inquisitor"
+			entityDefName "Amarr_Ship_Frigate_Excecutioner"
 			entityDefName "Amarr_Ship_Destroyer_Coercer"
-			entityDefName "Amarr_Ship_Destroyer_Dragoon"
-			entityDefName "Amarr_Ship_Destroyer_Confessor"
 			entityDefName "Amarr_Ship_Cruiser_Omen"
+			entityDefName "Amarr_Ship_Cruiser_Arbitrator"
 			entityDefName "Amarr_Ship_Cruiser_Augoror"
 			entityDefName "AllRaces_Ship_Colony_Orca"
 		Page:1
-			count 8
-			entityDefName "Amarr_Ship_Cruiser_Arbitrator"
+			count 9
 			entityDefName "Amarr_Ship_Cruiser_Devoter"
 			entityDefName "Amarr_Ship_Battlecruiser_Prophecy"
 			entityDefName "Amarr_Ship_Battlecruiser_Harbinger"
@@ -68,6 +67,8 @@ entities
 			entityDefName "Amarr_Ship_Battleship_Apocalypse"
 			entityDefName "Amarr_Ship_Battleship_Abaddon"
 			entityDefName "Amarr_Ship_Envoy_Prophecy"
+			entityDefName "Amarr_Ship_Destroyer_Confessor"
+			entityDefName "Amarr_ShipT3Cruiser_Legion"
 		NotOnPage
 			count 4
 			entityDefName "AllRaces_Ship_Constructor_Venture"

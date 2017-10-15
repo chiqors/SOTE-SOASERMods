@@ -30,12 +30,12 @@ Weapon
 	DamagePerBank:BACK 15000.000000
 	DamagePerBank:LEFT 15000.000000
 	DamagePerBank:RIGHT 15000.000000
-	Range 50000.000000
+	Range 60000.000000
 	PreBuffCooldownTime 15.000000
 	CanFireAtFighter FALSE
 	SynchronizedTargeting TRUE
 	PointStaggerDelay 0.050000
-	TravelSpeed 900.000000
+	TravelSpeed 1500.000000
 	Duration 0.000000
 	fireConstraintType "CanAlwaysFire"
 	WeaponEffects
@@ -58,10 +58,10 @@ Weapon
 			sound "LIGHTMISSILEEXPLOSION1"
 			sound "LIGHTMISSILEEXPLOSION2"
 		missileTravelEffectName "EVE_Missile_LightMissile_Travel"
-		missileStartTurningDistance 0.000000
-		missileSlowTurnRate 0.500000
-		missileMaxSlowTurnTime 5.000000		
-m_weaponIndexForRange 1
+		missileStartTurningDistance 0.500000
+		missileSlowTurnRate 0.900000
+		missileMaxSlowTurnTime 0.500000	
+m_weaponIndexForRange 0
 firingAlignmentType "Default"
 TargetCountPerBank:FRONT 4
 TargetCountPerBank:BACK 4
@@ -85,13 +85,12 @@ picture "PICTURE_CITADEL_KEEPSTAR"
 statCountType "StarBase"
 creationSourceAbility "AbilityDeployCitadelKeepstar"
 maxUpgradeLevelCount 12
-UpgradeTypeCount 6
+UpgradeTypeCount 5
 UpgradeType "StarBaseUpgradeKeepStarToughness"
 UpgradeType "StarBaseUpgradeTechTradePort"
 UpgradeType "StarBaseUpgradeTechBlockColonize"
 UpgradeType "StarBaseUpgradeTechFactory"
 UpgradeType "StarBaseUpgradeTechHangar"
-UpgradeType "StarBaseUpgradeTechWeapons"
 MeshNameInfoCount 1
 MeshNameInfo
 	meshName "Keepstar"

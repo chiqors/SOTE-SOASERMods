@@ -79,7 +79,7 @@ MeshNameInfo
 	meshName "oreba1"
 	criteriaType "None"
 MeshNameInfo
-	meshName "retriever"
+	meshName "covertor_new"
 	criteriaType "Research"
 	prerequisites
 		NumResearchPrerequisites 1
@@ -89,7 +89,7 @@ MeshNameInfo
 		RequiredFactionNameID ""
 		RequiredCompletedResearchSubjects 1
 MeshNameInfo
-	meshName "covertor_new"
+	meshName "retriever"
 	criteriaType "Research"
 	prerequisites
 		NumResearchPrerequisites 2

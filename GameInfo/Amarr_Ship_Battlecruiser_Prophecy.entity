@@ -6,9 +6,11 @@ prefersToFocusFire TRUE
 usesFighterAttack FALSE
 autoJoinFleetDefault TRUE
 canBomb FALSE
-typeCount 1
-frigateRoleType "Support"
-statCountType "FrigateUtility0"
+typeCount 3
+frigateRoleType "Lrm"
+frigateRoleType "Heavy"
+frigateRoleType "Carrier"
+statCountType "FrigateHeavy"
 mainViewIcon "MAINVIEWICON_FRIGATE_TECHUTILITY0"
 picture "PICTURE_FRIGATE_PROPHECY"
 NameStringID "IDS_FRIGATE_TECHUTILITY0_NAME"

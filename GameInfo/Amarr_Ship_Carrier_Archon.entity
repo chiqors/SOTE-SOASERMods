@@ -89,7 +89,7 @@ Prerequisites
 	RequiredFactionNameID ""
 	RequiredCompletedResearchSubjects 0
 roleType "Invalid"
-statCountType "CapitalShipBattleship"
+statCountType "CapitalShipCarrier"
 numRandomDebrisLarge 0
 numRandomDebrisSmall 0
 numSpecificDebris 0

@@ -6,8 +6,9 @@ prefersToFocusFire TRUE
 usesFighterAttack FALSE
 autoJoinFleetDefault TRUE
 canBomb FALSE
-typeCount 1
-frigateRoleType "Lrm"
+typeCount 2
+frigateRoleType "Light"
+frigateRoleType "AntiFighter"
 statCountType "FrigateCarrier"
 mainViewIcon "MAINVIEWICON_FRIGATE_TECHCARRIER"
 picture ""

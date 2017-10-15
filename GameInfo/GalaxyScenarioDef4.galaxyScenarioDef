@@ -1057,7 +1057,7 @@ planetItemType
 	entityDefName "Serpentis_ShipDreadnought_Vehement"
 planetItemType
 	designName "Serpentis:CapitalShip:SuperCarrier"
-	entityDefName "Serpentis_ShipSupercarrier_Vendeta"	
+	entityDefName "Serpentis_ShipSupercarrier_Vendetta"	
 planetItemType
 	designName "Serpentis:CapitalShip:Titan"
 	entityDefName "Serpentis_ShipTitan_Vanquisher"	
