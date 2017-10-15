@@ -21,13 +21,14 @@ entities
 			entityDefName "Gallente_Structure_CivillianLab"
 			entityDefName "Amarr_Structure_Refinery"
 		Page:1
-			count 7
+			count 8
 			entityDefName "Gallente_Structure_SmallBlasterBattery"
 			entityDefName "Gallente_Structure_MediumBlasterBattery"
 			entityDefName "Gallente_Structure_LargeBlasterBattery"
 			entityDefName "Gallente_Structure_ECMBattery"
 			entityDefName "Gallente_Structure_JumpBridge"
 			entityDefName "Gallente_Structure_CynoJammer"
+			entityDefName "Serpentis_ModuleShipyard"
 			entityDefName "Gallente_Structure_TitanFoundry"
 	titanInfo
 		Page:0
@@ -37,15 +38,15 @@ entities
 	capitalShipInfo
 		Page:0
 			count 9
+			entityDefName "Gallente_Ship_ColonyCapital_Rorqual"
 			entityDefName "Gallente_Ship_Carrier_Thanatos"
 			entityDefName "Gallente_Ship_Carrier_Triage_Thanatos"
 			entityDefName "Gallente_Ship_Dreadnought_Moros_ShortRange"
 			entityDefName "Gallente_Ship_Dreadnought_Moros_LongRange"
 			entityDefName "Gallente_Ship_Supercarrier_Nyx"
-			entityDefName "Gallente_Ship_ColonyCapital_Rorqual"
 			entityDefName "Gallente_Ship_Capital_Titan_Erebus"
-			entityDefName "AllRaces_Ship_Supercarrier_Revenant"
 			entityDefName "Serpentis_ShipSupercarrier_Vendeta"
+			entityDefName "AllRaces_Ship_Supercarrier_Revenant"
 	frigateInfo
 		Page:0
 			count 9
@@ -84,7 +85,6 @@ entities
 		entityDefName "RSABlackOps"
 		entityDefName "RSAMarauder"
 		entityDefName "RESEARCH_FORCEAI_AID"
-		entityDefName "Serpentis_ModuleShipyard"
 		entityDefName "ALLRACES_RESEARCHSUBJECT_ABILITYACCESS_AFTERBURNER"
 		entityDefName "ALLRACES_RESEARCHSUBJECT_ABILITYACCESS_BASTIONMODE"
 		entityDefName "ALLRACES_RESEARCHSUBJECT_ABILITYACCESS_CLOAK"
@@ -205,6 +205,7 @@ entities
 		entityDefName "RESEARCHSUBJECT_STRUCTUREWORK_METALEXTRACTPSI3"
 		entityDefName "RESEARCHSUBJECT_XENO_MANIPULATION"
 		entityDefName "RESEARCHSUBJECT_STARBASEUPGRADEACCESS_FACTORY"		
+		entityDefName "RESEARCHSUBJECT_PLANETMODULEACCESS_REPAIRPLATFORMPSI"
 	starBaseInfo
 		count 3
 		entityDefName "Allraces_Structure_Citadel_Astrahus"

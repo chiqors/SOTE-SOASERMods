@@ -6,7 +6,7 @@ ability:2 "AbilityCapTransferTriage"
 ability:3 "AbilityShieldBoosterCapital"
 ability:4 ""
 defaultAutoAttackRange "GravityWell"
-defaultAutoAttackOn TRUE
+defaultAutoAttackOn FALSE
 prefersToFocusFire FALSE
 usesFighterAttack FALSE
 autoJoinFleetDefault TRUE
