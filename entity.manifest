@@ -1,5 +1,5 @@
 TXT
-entityNameCount 2491
+entityNameCount 2495
 entityName "ALLRACES_RESEARCHSUBJECT_ABILITYACCESS_AFTERBURNER.entity"
 entityName "ALLRACES_RESEARCHSUBJECT_ABILITYACCESS_BASTIONMODE.entity"
 entityName "ALLRACES_RESEARCHSUBJECT_ABILITYACCESS_CLOAK.entity"
@@ -2491,3 +2491,7 @@ entityName "AbilityAisupportAmarrShipsDestroyersFleet.entity"
 entityName "AbilityAisupportAmarrShipsCruisersFleet.entity"
 entityName "AbilityAisupportAmarrShipsBattlecruisersFleet.entity"
 entityName "AbilityAisupportAmarrShipsBattleshipsFleet.entity"
+entityName "Serpentis_ModuleShipyard.entity"
+entityName "Serpentis_AbilitySummonVigilant.entity"
+entityName "Serpentis_AbilitySummonDaredevil.entity"
+entityName "Serpentis_AbilitySummonVindicator.entity"

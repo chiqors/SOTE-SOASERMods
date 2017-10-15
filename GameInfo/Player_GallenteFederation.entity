@@ -36,7 +36,7 @@ entities
 			entityDefName "Serpentis_ShipTitan_Vanquisher"
 	capitalShipInfo
 		Page:0
-			count 8
+			count 9
 			entityDefName "Gallente_Ship_Carrier_Thanatos"
 			entityDefName "Gallente_Ship_Carrier_Triage_Thanatos"
 			entityDefName "Gallente_Ship_Dreadnought_Moros_ShortRange"
@@ -45,6 +45,7 @@ entities
 			entityDefName "Gallente_Ship_ColonyCapital_Rorqual"
 			entityDefName "Gallente_Ship_Capital_Titan_Erebus"
 			entityDefName "AllRaces_Ship_Supercarrier_Revenant"
+			entityDefName "Serpentis_ShipSupercarrier_Vendeta"
 	frigateInfo
 		Page:0
 			count 9
@@ -74,7 +75,7 @@ entities
 			entityDefName "Amarr_Ship_Refineryship_Bestower"
 			entityDefName "Ore_ShipOrca"			
 	researchInfo
-		count 128
+		count 129
 		entityDefName "RSALogistic"
 		entityDefName "RSAInterdictor"		
 		entityDefName "RSACommand_Orca"		
@@ -83,6 +84,7 @@ entities
 		entityDefName "RSABlackOps"
 		entityDefName "RSAMarauder"
 		entityDefName "RESEARCH_FORCEAI_AID"
+		entityDefName "Serpentis_ModuleShipyard"
 		entityDefName "ALLRACES_RESEARCHSUBJECT_ABILITYACCESS_AFTERBURNER"
 		entityDefName "ALLRACES_RESEARCHSUBJECT_ABILITYACCESS_BASTIONMODE"
 		entityDefName "ALLRACES_RESEARCHSUBJECT_ABILITYACCESS_CLOAK"

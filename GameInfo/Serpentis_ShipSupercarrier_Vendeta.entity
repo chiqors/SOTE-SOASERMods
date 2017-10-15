@@ -84,7 +84,7 @@ picture "PICTURE_CAPITAL_NYX"
 Prerequisites
 	NumResearchPrerequisites 1
 	ResearchPrerequisite
-		Subject "Gallente_ResearchSubject_CapitalAccess_Nyx"
+		Subject "RESEARCHSUBJECT_ARTIFACT_WORMHOLETRAVEL"
 		Level 1
 	RequiredFactionNameID ""
 	RequiredCompletedResearchSubjects 0
