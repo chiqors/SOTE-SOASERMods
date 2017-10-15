@@ -469,7 +469,7 @@ bonus "PlanetBonusPopulationBoom"
 ambienceSoundID "EFFECT_PLANETAMBIENCE_LOOP"
 renderAsVolcanic FALSE
 planetRuinDef
-	ruinPlanetType "PlanetDeadAsteroid"
+	ruinPlanetType "PlanetShatteredMoonMined"
 	attachType "Center"
 	effectName "StripToTheCore_Planet_TerranHome"
 	startTime 9.000000

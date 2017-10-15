@@ -7,8 +7,8 @@ usesFighterAttack FALSE
 autoJoinFleetDefault TRUE
 canBomb FALSE
 typeCount 1
-frigateRoleType "Corvette"
-statCountType "FrigateCorvette"
+frigateRoleType "Light"
+statCountType "FrigateLongRange"
 mainViewIcon "MAINVIEWICON_CORVETTE_TECH"
 picture "PICTURE_FRIGATE_EXECUTIONER"
 NameStringID "IDS_CORVETTE_TECHLOYALIST_NAME"

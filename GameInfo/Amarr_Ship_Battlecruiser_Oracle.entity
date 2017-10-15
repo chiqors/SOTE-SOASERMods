@@ -86,10 +86,10 @@ Weapon
 			sound "WEAPON_HEAVYPULSELAZER"
 		beamGlowTextureName "EVE_Weapon_WhiteLaser_Glow.dds"
 		beamCoreTextureName "EVE_Weapon_WhiteLaser_Core.dds"
-		beamWidth 30.000000
-		beamGlowColor aaffffff
-		beamCoreColor ffffffff
-		beamTilingRate 16.000000
+		beamWidth 35.000000
+		beamGlowColor ffffffff
+		beamCoreColor fff8f8f8
+		beamTilingRate 10.000000
 m_weaponIndexForRange 0
 firingAlignmentType "Default"
 TargetCountPerBank:FRONT 1

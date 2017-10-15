@@ -1,19 +1,19 @@
 ﻿TXT
 ParticleSimulation
 	HasInfiniteLifeTime FALSE
-	TotalLifeTime 1.800000
+	TotalLifeTime 2.500000
 	NumEmitters 4
 	EmitterType "Point"
 	EmitterContents
 		Name "Flares"
 		Enabled TRUE
-		EmitRate 800.000000
+		EmitRate 200.000000
 		HasInfiniteEmitCount FALSE
 		MaxEmitCount 10
 		hasEmitIntervals FALSE
 		emitIntervalRunDuration 0.000000
 		emitIntervalWaitDuration 0.000000
-		ParticleLifeTime 1.000000
+		ParticleLifeTime 0.500000
 		ParticleMinStartLinearSpeed 0.000000
 		ParticleMaxStartLinearSpeed 0.000000
 		ParticleMinStartAngularSpeed 0.000000
@@ -61,7 +61,7 @@ ParticleSimulation
 		hasEmitIntervals FALSE
 		emitIntervalRunDuration 0.000000
 		emitIntervalWaitDuration 0.000000
-		ParticleLifeTime 1.400000
+		ParticleLifeTime 2.500000
 		ParticleMinStartLinearSpeed 0.000000
 		ParticleMaxStartLinearSpeed 0.000000
 		ParticleMinStartAngularSpeed 0.000000
@@ -157,7 +157,7 @@ ParticleSimulation
 		hasEmitIntervals FALSE
 		emitIntervalRunDuration 0.000000
 		emitIntervalWaitDuration 0.000000
-		ParticleLifeTime 0.100000
+		ParticleLifeTime 0.500000
 		ParticleMinStartLinearSpeed 4.000000
 		ParticleMaxStartLinearSpeed 17.000000
 		ParticleMinStartAngularSpeed 0.000000

@@ -7,7 +7,7 @@ NameStringID "blank"
 DescriptionStringID "blank"
 researchWindowLocation
 	block 0
-	pos [ 1 , 50 ]
+	pos [ 1 , 91 ]
 ResearchField "Fleet"
 Prerequisites
 	NumResearchPrerequisites 1
@@ -32,19 +32,31 @@ onlyWorksIfTierLabsExist FALSE
 MaxNumResearchLevels 1
 priority 9999.000000
 researchBoolModifiers 0
-researchFloatModifiers 3
+researchFloatModifiers 6
 researchModifier
-	modifierType "ShipMaxSlots"
+	modifierType "ResearchBuildRateAdjustment"
 	baseValue 0.000000
-	perLevelValue 10.000000
+	perLevelValue -0.100000
 researchModifier
-	modifierType "TradeGoodsValueAdjustment"
-	baseValue 0.000000
-	perLevelValue 0.500000
-researchModifier
-	modifierType "RefineryShipCapacityAdjustment"
+	modifierType "ShipBuildRateAdjustment"
 	baseValue 0.000000
 	perLevelValue 0.100000
+researchModifier
+	modifierType "CreditCostAdjustment"
+	baseValue 0.000000
+	perLevelValue 0.150000
+researchModifier
+	modifierType "ResourceCostAdjustment"
+	baseValue 0.000000
+	perLevelValue 0.150000
+researchModifier
+	modifierType "ResearchCostAdjustment"
+	baseValue 0.000000
+	perLevelValue -0.250000
+researchModifier
+	modifierType "ExperienceConstantGainRate"
+	baseValue 0.000000
+	perLevelValue 10.000000
 artifactPicture ""
 uniqueOverlayBrush ""
 dlcId 204880
