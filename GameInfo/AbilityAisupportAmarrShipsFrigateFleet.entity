@@ -44,15 +44,18 @@ requiredShipSlots
 	Level:2 1.000000
 	Level:3 1.000000
 cooldownTime
-	Level:0 60.000000
-	Level:1 60.000000
-	Level:2 60.000000
-	Level:3 60.000000
+	Level:0 300.000000
+	Level:1 300.000000
+	Level:2 300.000000
+	Level:3 300.000000
 orderAcknowledgementType "ONGENERALORDERISSUED"
 researchPrerequisites
-	NumResearchPrerequisites 1
+	NumResearchPrerequisites 2
 	ResearchPrerequisite
 		Subject "RESEARCH_FORCEAI_AID"
+		Level 1
+	ResearchPrerequisite
+		Subject "Amarr_ResearchSubject_SubCapitalAccess_Inquisitor"
 		Level 1
 	RequiredFactionNameID ""
 	RequiredCompletedResearchSubjects 0
