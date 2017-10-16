@@ -64,8 +64,8 @@ ShieldPointRestoreRate
 	StartValue 1.000000
 	ValueIncreasePerLevel 1.000000
 ArmorPointsFromExperience
-	StartValue 25.000000
-	ValueIncreasePerLevel 0.000000
+	StartValue 30.000000
+	ValueIncreasePerLevel 1.000000
 maxMitigation
 	StartValue 0.1000000
 	ValueIncreasePerLevel 0.000000
@@ -88,8 +88,8 @@ Prerequisites
 		Level 1
 	RequiredFactionNameID ""
 	RequiredCompletedResearchSubjects 0
-roleType "COLONY"
-statCountType "CapitalShipUtility2"
+roleType "Invalid"
+statCountType "CapitalShipBattleship"
 numRandomDebrisLarge 0
 numRandomDebrisSmall 0
 numSpecificDebris 0
@@ -117,7 +117,7 @@ Weapon
 	SynchronizedTargeting TRUE
 	PointStaggerDelay 00000
 	TravelSpeed 0.000000
-	Duration 1.500000 
+	Duration 2.500000
 	fireConstraintType "CanAlwaysFire"
 	WeaponEffects
 		weaponType "Beam"
@@ -132,19 +132,19 @@ Weapon
 		hitEffectName "EVE_Beamlaser_White_Large_Hit"
 		hitHullEffectSounds
 			soundCount 1
-			sound ""
+			sound "WEAPON_XLENERGY_HIT"
 		hitShieldsEffectSounds
 			soundCount 1
 			sound ""
 		beamEffectSounds
 			soundCount 1
-			sound "WEAPON_TECH_GAUSSCANNON_MUZZLE"
+			sound "WEAPON_XLBEAM_FIRE"
 		beamGlowTextureName "EVE_Weapon_WhiteLaser_Glow.dds"
 		beamCoreTextureName "EVE_Weapon_WhiteLaser_Core.dds"
-		beamWidth 150.000000
+		beamWidth 100.000000
 		beamGlowColor ffffffff
 		beamCoreColor ffffffff
-		beamTilingRate 12.000000
+		beamTilingRate 8.000000
 m_weaponIndexForRange 0
 firingAlignmentType "Default"
 TargetCountPerBank:FRONT 1

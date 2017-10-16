@@ -1,11 +1,11 @@
 ﻿TXT
 entityType "PlanetModuleRefinery"
 minZoomDistanceMult 1.000000
-ability:0 "Ore_AbilitySummonOrca"
+ability:0 "AbilityMoonMining"
 ability:1 ""
 ability:2 ""
 ability:3 ""
-ability:4 ""
+ability:4 "Ore_AbilitySummonOrca"
 MaxAntiMatter 0.000000
 AntiMatterRestoreRate 0.000000
 numRandomDebrisLarge 0
@@ -43,15 +43,15 @@ resourceExtractionType "Invalid"
 cultureSpreadRate 0.000000
 isAffectedBySimilarModuleCostResearch FALSE
 placementRadius 1725.000000
-nearPlacementDistOffset 0.000000
-farPlacementDistOffset 9000.000000
+nearPlacementDistOffset 5000.000000
+farPlacementDistOffset 17200.000000
 spawnCount 1
 swapMineType ""
 angularSpeed 0.000000
 rotateSoundName ""
 rotateFacingType "None"
 rotateConstantly FALSE
-ShieldMeshName "caldari_refinary"
+ShieldMeshName "Tatara"
 renderShield TRUE
 NumSoundsFor:ONATTACKORDERISSUED 0
 NumSoundsFor:ONCREATION 0
@@ -73,6 +73,6 @@ maxShadow 0.600000
 formationRank 3
 baseBuildTime 130.000000
 buildEffectName ""
-cargoShipType "Amarr_Ship_Refineryship_Bestower"
+cargoShipType "AllRaces_Ship_Refineryship"
 maxCargoShipCount 5
 cargoShipRespawnTime 30.000000

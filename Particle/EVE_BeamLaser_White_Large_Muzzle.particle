@@ -1,7 +1,7 @@
 ﻿TXT
 ParticleSimulation
 	HasInfiniteLifeTime FALSE
-	TotalLifeTime 2.000000
+	TotalLifeTime 2.500000
 	NumEmitters 4
 	EmitterType "Point"
 	EmitterContents
@@ -13,7 +13,7 @@ ParticleSimulation
 		hasEmitIntervals FALSE
 		emitIntervalRunDuration 0.000000
 		emitIntervalWaitDuration 0.000000
-		ParticleLifeTime 1.300000
+		ParticleLifeTime 2.500000
 		ParticleMinStartLinearSpeed 0.000000
 		ParticleMaxStartLinearSpeed 0.000000
 		ParticleMinStartAngularSpeed 0.000000
@@ -61,7 +61,7 @@ ParticleSimulation
 		hasEmitIntervals FALSE
 		emitIntervalRunDuration 0.000000
 		emitIntervalWaitDuration 0.000000
-		ParticleLifeTime 0.350000
+		ParticleLifeTime 0.500000
 		ParticleMinStartLinearSpeed 0.000000
 		ParticleMaxStartLinearSpeed 0.000000
 		ParticleMinStartAngularSpeed 0.000000
@@ -109,7 +109,7 @@ ParticleSimulation
 		hasEmitIntervals FALSE
 		emitIntervalRunDuration 0.000000
 		emitIntervalWaitDuration 0.000000
-		ParticleLifeTime 0.300000
+		ParticleLifeTime 0.500000
 		ParticleMinStartLinearSpeed 0.000000
 		ParticleMaxStartLinearSpeed 0.000000
 		ParticleMinStartAngularSpeed 0.000000
@@ -157,7 +157,7 @@ ParticleSimulation
 		hasEmitIntervals FALSE
 		emitIntervalRunDuration 0.000000
 		emitIntervalWaitDuration 0.000000
-		ParticleLifeTime 1.300000
+		ParticleLifeTime 2.500000
 		ParticleMinStartLinearSpeed 0.000000
 		ParticleMaxStartLinearSpeed 0.000000
 		ParticleMinStartAngularSpeed 0.000000

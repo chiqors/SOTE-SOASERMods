@@ -3,7 +3,7 @@ entityType "CapitalShip"
 ability:0 "AbilitySiegeMode"
 ability:1 "AbilityTrackingComputer"
 ability:2 "AbilityPhasedArmourHardenerCapital"
-ability:3 "AbilityArmorRepairerCapital"
+ability:3 ""
 ability:4 ""
 defaultAutoAttackRange "GravityWell"
 defaultAutoAttackOn TRUE
@@ -52,11 +52,11 @@ basePrice
 slotCount 1.000000
 BuildTime 75.000000
 MaxHullPoints
-	StartValue 101563.000000
-	ValueIncreasePerLevel 10156.000000
+	StartValue 125000.000000
+	ValueIncreasePerLevel 12500.000000
 MaxShieldPoints
-	StartValue 70313.000000
-	ValueIncreasePerLevel 7031.000000
+	StartValue 25000.000000
+	ValueIncreasePerLevel 2500.000000
 HullPointRestoreRate
 	StartValue 10.000000
 	ValueIncreasePerLevel 0.500000
@@ -64,8 +64,8 @@ ShieldPointRestoreRate
 	StartValue 1.000000
 	ValueIncreasePerLevel 1.00000
 ArmorPointsFromExperience
-	StartValue 25.000000
-	ValueIncreasePerLevel 0.000000
+	StartValue 30.000000
+	ValueIncreasePerLevel 1.000000
 maxMitigation
 	StartValue 0.2500000
 	ValueIncreasePerLevel 0.000000
@@ -88,8 +88,8 @@ Prerequisites
 		Level 1
 	RequiredFactionNameID ""
 	RequiredCompletedResearchSubjects 0
-roleType "COLONY"
-statCountType "CapitalShipUtility2"
+roleType "Invalid"
+statCountType "CapitalShipUtility1"
 numRandomDebrisLarge 0
 numRandomDebrisSmall 0
 numSpecificDebris 0
@@ -107,17 +107,17 @@ Weapon
 		DamageApplyType "OVERTIME"
 		DamageType "ENERGY"
 		WeaponClassType "BEAM"
-	DamagePerBank:FRONT 5568.000000
+	DamagePerBank:FRONT 5700.000000
 	DamagePerBank:BACK 0.000000
 	DamagePerBank:LEFT 0.000000
 	DamagePerBank:RIGHT 0.000000
-	Range 10000.000000
-	PreBuffCooldownTime 8.780000
+	Range 16000.000000
+	PreBuffCooldownTime 8.500000
 	CanFireAtFighter FALSE
 	SynchronizedTargeting TRUE
 	PointStaggerDelay 0.000000
 	TravelSpeed 0.000000
-	Duration 1.300000
+	Duration 2.500000
 	fireConstraintType "CanAlwaysFire"
 	WeaponEffects
 		weaponType "Beam"
@@ -132,19 +132,19 @@ Weapon
 		hitEffectName "EVE_Beamlaser_White_Large_Hit"
 		hitHullEffectSounds
 			soundCount 1
-			sound ""
+			sound "WEAPON_XLENERGY_HIT"
 		hitShieldsEffectSounds
 			soundCount 1
 			sound ""
 		beamEffectSounds
 			soundCount 1
-			sound "WEAPON_TECH_GAUSSCANNON_MUZZLE"
+			sound "WEAPON_XLBEAM_FIRE"
 		beamGlowTextureName "EVE_Weapon_WhiteLaser_Glow.dds"
 		beamCoreTextureName "EVE_Weapon_WhiteLaser_Core.dds"
-		beamWidth 150.000000
+		beamWidth 100.000000
 		beamGlowColor ffffffff
 		beamCoreColor ffffffff
-		beamTilingRate 12.000000
+		beamTilingRate 8.000000
 m_weaponIndexForRange 0
 firingAlignmentType "Default"
 TargetCountPerBank:FRONT 1

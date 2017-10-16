@@ -1323,7 +1323,10 @@ orbitBodyType
 	typeName "MoonD"
 	entityDefName "PlanetMoonD"
 	defaultTemplateName "Template:DefaultStart_MoonD"
-planetItemTypeCount 235
+planetItemTypeCount 236
+planetItemType
+	designName "AllRaces:Frigate:AICredits"
+	entityDefName "FRIGATE_AICREDITS"
 planetItemType
 	designName "Caldari:Frigate:Scout"
 	entityDefName "Caldari_Ship_Frigate_Heron"
@@ -1416,7 +1419,7 @@ planetItemType
 	entityDefName "Amarr_Ship_Cruiser_Augoror"
 planetItemType
 	designName "Amarr:Frigate:Constructor"
-	entityDefName "Amarr_Ship_Constructor_Venture"
+	entityDefName "AllRaces_Ship_Constructor_Venture"
 planetItemType
 	designName "Mordu:Frigate:Shipyard"
 	entityDefName "Mordu_ModuleShipyard"
@@ -1491,7 +1494,7 @@ planetItemType
 	entityDefName "Serpentis_ShipDreadnought_Vehement"
 planetItemType
 	designName "Serpentis:CapitalShip:SuperCarrier"
-	entityDefName "Serpentis_ShipSupercarrier_Vendeta"	
+	entityDefName "Serpentis_ShipSupercarrier_Vendetta"	
 planetItemType
 	designName "Serpentis:CapitalShip:Titan"
 	entityDefName "Serpentis_ShipTitan_Vanquisher"	
@@ -2081,7 +2084,8 @@ planetItemsTemplate
 				param "Amarr"
 			owner "PlanetOwner"
 			colonizeChance 1
-			items 5
+			items 6
+				item "AllRaces:Frigate:AICredits"
 				item "Amarr:Module:FrigateFactory"
 				item "Amarr:Module:FrigateFactory"			
 				item "Amarr:Frigate:Constructor"
@@ -2093,7 +2097,8 @@ planetItemsTemplate
 				param "Minmatar"
 			owner "PlanetOwner"
 			colonizeChance 1
-			items 5		
+			items 6
+				item "AllRaces:Frigate:AICredits"
 				item "Amarr:Module:FrigateFactory"
 				item "Amarr:Module:FrigateFactory"
 				item "Amarr:Frigate:Constructor"
@@ -2105,7 +2110,8 @@ planetItemsTemplate
 				param "Gallente"
 			owner "PlanetOwner"
 			colonizeChance 1
-			items 5
+			items 6
+				item "AllRaces:Frigate:AICredits"
 				item "Gallente:Module:FrigateFactory"
 				item "Gallente:Module:FrigateFactory"
 				item "Gallente:Frigate:Constructor"
@@ -2117,7 +2123,8 @@ planetItemsTemplate
 				param "Caldari"
 			owner "PlanetOwner"
 			colonizeChance 1
-			items 5
+			items 6
+				item "AllRaces:Frigate:AICredits"
 				item "Gallente:Module:FrigateFactory"
 				item "Gallente:Module:FrigateFactory"
 				item "Gallente:Frigate:Constructor"
@@ -2129,7 +2136,8 @@ planetItemsTemplate
 				param "Amarr"
 			owner "PlanetOwner"
 			colonizeChance 1
-			items 11
+			items 12
+				item "AllRaces:Frigate:AICredits"
 				item "Amarr:Module:FrigateFactory"
 				item "Amarr:Module:FrigateFactory"				
 				item "Amarr:Module:CapitalShipFactory"
@@ -2147,7 +2155,8 @@ planetItemsTemplate
 				param "Minmatar"
 			owner "PlanetOwner"
 			colonizeChance 1
-			items 11
+			items 12
+				item "AllRaces:Frigate:AICredits"
 				item "Amarr:Module:FrigateFactory"
 				item "Amarr:Module:FrigateFactory"				
 				item "Amarr:Module:CapitalShipFactory"
@@ -2165,7 +2174,8 @@ planetItemsTemplate
 				param "Gallente"
 			owner "PlanetOwner"
 			colonizeChance 1
-			items 11
+			items 12
+				item "AllRaces:Frigate:AICredits"
 				item "Gallente:Module:FrigateFactory"
 				item "Gallente:Module:FrigateFactory"
 				item "Gallente:Module:CapitalShipFactory"
@@ -2183,7 +2193,8 @@ planetItemsTemplate
 				param "Caldari"
 			owner "PlanetOwner"
 			colonizeChance 1
-			items 11
+			items 12
+				item "AllRaces:Frigate:AICredits"
 				item "Gallente:Module:FrigateFactory"
 				item "Gallente:Module:FrigateFactory"
 				item "Gallente:Module:CapitalShipFactory"

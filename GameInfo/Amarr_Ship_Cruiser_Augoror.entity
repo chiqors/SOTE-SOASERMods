@@ -6,7 +6,8 @@ prefersToFocusFire FALSE
 usesFighterAttack FALSE
 autoJoinFleetDefault TRUE
 canBomb FALSE
-typeCount 1
+typeCount 2
+frigateRoleType "Light"
 frigateRoleType "Support"
 statCountType "FrigateUtility1"
 mainViewIcon "MAINVIEWICON_FRIGATE_TECHUTILITY1"
@@ -22,8 +23,8 @@ slotCount 3.000000
 BuildTime 17.000000
 hasLevels FALSE
 ExperiencePointsForDestroying 15.000000
-MaxHullPoints 1650.000000
-MaxShieldPoints 1000.000000
+MaxHullPoints 2250.000000
+MaxShieldPoints 600.000000
 HullPointRestoreRate 1.00000
 ShieldPointRestoreRate 1.00000
 BaseArmorPoints 6.000000

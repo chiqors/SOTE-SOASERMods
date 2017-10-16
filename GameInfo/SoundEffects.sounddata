@@ -1,5 +1,5 @@
 TXT
-numEffects 406
+numEffects 411
 effect
 	name "BUTTONPRESS"
 	fileName "ButtonPress.ogg"
@@ -5881,8 +5881,8 @@ effect
 	fadeOutTime 0.0
 	alternateGroup "WEAPON_MEGABEAMLASER"
 effect
-	name "WEAPON_GIGAPULSELASER"
-	fileName "GigaPulseLaser.ogg"
+	name "WEAPON_XLPULSE_FIRE"
+	fileName "XLPulse_Fire.ogg"
 	type "Effect"
 	is3D TRUE
 	priority 5
@@ -5894,7 +5894,37 @@ effect
 	minRespawnTime 0.1
 	fadeInTime 0.0
 	fadeOutTime 0.0
-	alternateGroup "WEAPON_GIGAPULSELASER"
+	alternateGroup ""
+effect
+	name "WEAPON_XLENERGY_HIT"
+	fileName "XLEnergy_Hit.ogg"
+	type "Effect"
+	is3D TRUE
+	priority 5
+	threshold 65000.000000
+	minAttenuationDist 700.000000
+	maxNumPlayingSimultaneously 5
+	isLooping FALSE
+	isResident TRUE
+	minRespawnTime 0.1
+	fadeInTime 0.0
+	fadeOutTime 0.0
+	alternateGroup ""
+effect
+	name "WEAPON_XLBEAM_FIRE"
+	fileName "XLBeam_Fire.ogg"
+	type "Effect"
+	is3D TRUE
+	priority 5
+	threshold 65000.000000
+	minAttenuationDist 700.000000
+	maxNumPlayingSimultaneously 5
+	isLooping FALSE
+	isResident TRUE
+	minRespawnTime 0.1
+	fadeInTime 0.0
+	fadeOutTime 0.0
+	alternateGroup ""
 effect
 	name "WEAPON_MEGAPULSELASER"
 	fileName "MegaPulseLaser.ogg"
@@ -6089,5 +6119,50 @@ effect
 	minRespawnTime 0.1
 	fadeInTime 0.0
 	fadeOutTime 0.0
-	alternateGroup "WEAPON_MEDIUMRAILGUN"	
+	alternateGroup "WEAPON_MEDIUMRAILGUN"
+effect
+	name "WEAPON_XLARTILLERY_FIRE"
+	fileName "XLArtillery_Fire.ogg"
+	type "Effect"
+	is3D TRUE
+	priority 5
+	threshold 50000.000000
+	minAttenuationDist 700.000000
+	maxNumPlayingSimultaneously 5
+	isLooping FALSE
+	isResident TRUE
+	minRespawnTime 0.1
+	fadeInTime 0.0
+	fadeOutTime 0.0
+	alternateGroup ""
+effect
+	name "WEAPON_XLAUTOCANNON_FIRE"
+	fileName "XLAutoCannon_Fire.ogg"
+	type "Effect"
+	is3D TRUE
+	priority 5
+	threshold 50000.000000
+	minAttenuationDist 700.000000
+	maxNumPlayingSimultaneously 5
+	isLooping FALSE
+	isResident TRUE
+	minRespawnTime 0.1
+	fadeInTime 0.0
+	fadeOutTime 0.0
+	alternateGroup ""
+effect
+	name "WEAPON_XLPROJECTILE_HIT"
+	fileName "XLProjectile_Hit.ogg"
+	type "Effect"
+	is3D TRUE
+	priority 5
+	threshold 50000.000000
+	minAttenuationDist 700.000000
+	maxNumPlayingSimultaneously 5
+	isLooping FALSE
+	isResident TRUE
+	minRespawnTime 0.1
+	fadeInTime 0.0
+	fadeOutTime 0.0
+	alternateGroup ""		
 	

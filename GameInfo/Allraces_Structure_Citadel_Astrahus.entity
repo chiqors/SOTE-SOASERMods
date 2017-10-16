@@ -21,17 +21,17 @@ NumWeapons 1
 Weapon
 	WeaponType "Missile"
 	damageEnums
-		AttackType "ANTIHEAVY"
+		AttackType "ANTIMEDIUM"
 		DamageAffectType "AFFECTS_SHIELDS_AND_HULL"
 		DamageApplyType "BACKLOADED"
 		DamageType "PHYSICAL"
 		WeaponClassType "MISSILE"
-	DamagePerBank:FRONT 1180.000000
-	DamagePerBank:BACK 1180.000000
-	DamagePerBank:LEFT 1180.000000
-	DamagePerBank:RIGHT 1180.000000
-	Range 22000.000000
-	PreBuffCooldownTime 4.000000
+	DamagePerBank:FRONT 5000.000000
+	DamagePerBank:BACK 5000.000000
+	DamagePerBank:LEFT 5000.000000
+	DamagePerBank:RIGHT 5000.000000
+	Range 20000.000000
+	PreBuffCooldownTime 15.000000
 	CanFireAtFighter FALSE
 	SynchronizedTargeting TRUE
 	PointStaggerDelay 0.050000
@@ -63,10 +63,10 @@ Weapon
 		missileMaxSlowTurnTime 0.500000
 m_weaponIndexForRange 0
 firingAlignmentType "Default"
-TargetCountPerBank:FRONT 1
-TargetCountPerBank:BACK 1
-TargetCountPerBank:LEFT 1
-TargetCountPerBank:RIGHT 1
+TargetCountPerBank:FRONT 2
+TargetCountPerBank:BACK 2
+TargetCountPerBank:LEFT 2
+TargetCountPerBank:RIGHT 2
 canOnlyTargetStructures FALSE
 ShieldMeshName "Astrahus"
 renderShield TRUE
@@ -105,8 +105,8 @@ ExplosionName "StarBase0"
 formationRank 3
 minShadow 0.000000
 maxShadow 0.300000
-cargoShipType "Amarr_Ship_Tradeship_Bestower"
-maxCargoShipCount 5
+cargoShipType "Allraces_Ship_Tradeship_Bowhead"
+maxCargoShipCount 4
 cargoShipRespawnTime 25.000000
 baseBuildTime 1000.000000
 buildEffectName ""

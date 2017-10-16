@@ -58,7 +58,7 @@ entities
 			entityDefName "Gallente_Ship_Destroyer_Hecate"		
 			entityDefName "Gallente_Ship_Cruiser_Vexor"
 			entityDefName "Gallente_Ship_Cruiser_Execuror"
-			entityDefName "Gallente_Ship_Colony_Orca"
+			entityDefName "AllRaces_Ship_Colony_Orca"
 		Page:1
 			count 8
 			entityDefName "Gallente_Ship_Cruiser_Thorax"
@@ -71,10 +71,10 @@ entities
 			entityDefName "Gallente_Ship_Envoy_Brutix"
 		NotOnPage
 			count 4
-			entityDefName "Gallente_Ship_Constructor_Venture"
-			entityDefName "Gallente_Ship_Tradeship"
-			entityDefName "Amarr_Ship_Refineryship_Bestower"
-			entityDefName "Ore_ShipOrca"			
+			entityDefName "AllRaces_Ship_Constructor_Venture"
+			entityDefName "AllRaces_Ship_Refineryship"
+			entityDefName "AllRaces_Ship_Orca"
+			entityDefName "Gallente_Ship_Tradeship"		
 	researchInfo
 		count 129
 		entityDefName "RSALogistic"

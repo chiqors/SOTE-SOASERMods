@@ -53,10 +53,10 @@ slotCount 1.000000
 BuildTime 350.000000
 MaxHullPoints
 	StartValue 195000.000000
-	ValueIncreasePerLevel 19500.000000
+	ValueIncreasePerLevel 1950.000000
 MaxShieldPoints
-	StartValue 315000.000000
-	ValueIncreasePerLevel 31500.000000
+	StartValue 430000.000000
+	ValueIncreasePerLevel 43000.000000
 HullPointRestoreRate
 	StartValue 1.000000
 	ValueIncreasePerLevel 0.500000
@@ -64,11 +64,11 @@ ShieldPointRestoreRate
 	StartValue 10.000000
 	ValueIncreasePerLevel 1.000000
 ArmorPointsFromExperience
-	StartValue 20.000000
+	StartValue 10.000000
 	ValueIncreasePerLevel 0.000000
 maxMitigation
-	StartValue 0.300000
-	ValueIncreasePerLevel 0.00000
+	StartValue 0.3000000
+	ValueIncreasePerLevel 0.0100000
 MaxAntiMatter
 	StartValue 15000.000000
 	ValueIncreasePerLevel 1500.000000

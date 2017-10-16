@@ -1,5 +1,5 @@
 TXT
-NumStrings 8691
+NumStrings 8699
 StringInfo
     ID "IDS_ABILITY_RORQUALPANIC_NAME"
 	Value "P.A.N.I.C Module"
@@ -11711,7 +11711,7 @@ StringInfo
 	Value "Pirate Reaper"
 StringInfo
 	ID "IDS_FRIGATE_PIRATESCOUT_NAME"
-	Value "Corpus Dark Commander"
+	Value "Dark Blood Commander"
 StringInfo
 	ID "IDS_FRIGATE_PIRATESCOUT_DESCRIPTION"
 	Value "Blood Raider Specific Command battleship spawns another wave when killed"
@@ -25636,11 +25636,29 @@ StringInfo
 	ID "IDS_SUPERCARRIER_REFIT_DESCRIPTION"
 	Value "Change the fit of the Super Carrier with DED Armor Modules, greatly increasing survavility."		
 StringInfo
+	ID "IDS_LEGION_NAME"
+	Value "Legion Strategic Cruiser"
+StringInfo
+	ID "IDS_LEGION_DESCRIPTION"
+	Value "Amarr Strategic Cruiser, multi purpose cruiser with the best technology avaliable for sub-capital ships."
+StringInfo
+	ID "IDS_LOKI_NAME"
+	Value "Loki Strategic Cruiser"
+StringInfo
+	ID "IDS_LOKI_DESCRIPTION"
+	Value "Minmatar Strategic Cruiser, multi purpose cruiser with the best technology avaliable for sub-capital ships."
+StringInfo
+	ID "IDS_PROTEUS_NAME"
+	Value "Proteus Strategic Cruiser"
+StringInfo
+	ID "IDS_PROTEUS_DESCRIPTION"
+	Value "Gallente Strategic Cruiser, multi purpose cruiser with the best technology avaliable for sub-capital ships."	
+StringInfo
 	ID "IDS_TENGU_NAME"
 	Value "Tengu Strategic Cruiser"
 StringInfo
 	ID "IDS_TENGU_DESCRIPTION"
-	Value "Caldari Strategic Cruiser, multi purpose cruiser with the best technology avaliable for sub-capital ships."		
+	Value "Caldari Strategic Cruiser, multi purpose cruiser with the best technology avaliable for sub-capital ships."
 StringInfo
 	ID "IDS_AMARR_ANTI-FIGHTER_SQUAD_NAME"
 	Value "Equite Squad"
@@ -26073,3 +26091,10 @@ StringInfo
 StringInfo
 	ID "IDS_FIGHTERVALKYRIE_NAME"
 	Value "Valkyrie Drone"
+StringInfo
+	ID "IDS_TRADESHIP_ORE_NAME"
+	Value "ORE Trade Ship"
+StringInfo
+	ID "IDS_TRADESHIP_ORE_DESCRIPTION"
+	Value "A large commercial vessel that carries merchant cargo between distant worlds."
+	

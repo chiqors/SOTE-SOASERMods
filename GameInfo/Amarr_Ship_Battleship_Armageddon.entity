@@ -6,8 +6,10 @@ prefersToFocusFire TRUE
 usesFighterAttack FALSE
 autoJoinFleetDefault TRUE
 canBomb FALSE
-typeCount 1
+typeCount 3
+frigateRoleType "Lrm"
 frigateRoleType "Heavy"
+frigateRoleType "Carrier"
 statCountType "FrigateHeavy"
 mainViewIcon "MAINVIEWICON_CAPITALSHIP_TECHSUPPORT"
 picture "PICTURE_FRIGATE_ARMAGEDON"
@@ -22,11 +24,11 @@ slotCount 5.000000
 BuildTime 52.000000
 hasLevels FALSE
 ExperiencePointsForDestroying 50.000000
-MaxHullPoints 8500.000000
-MaxShieldPoints 6800.000000
+MaxHullPoints 7250.000000
+MaxShieldPoints 5500.000000
 HullPointRestoreRate 1.000000
 ShieldPointRestoreRate 10.000000
-BaseArmorPoints 5.000000
+BaseArmorPoints 20.000000
 maxMitigation 0.000000
 Prerequisites
 	NumResearchPrerequisites 1
@@ -52,12 +54,12 @@ Weapon
 		DamageApplyType "OVERTIME"
 		DamageType "ENERGY"
 		WeaponClassType "BEAM"
-	DamagePerBank:FRONT 419.000000
+	DamagePerBank:FRONT 275.000000
 	DamagePerBank:BACK 0.000000
 	DamagePerBank:LEFT 0.000000
 	DamagePerBank:RIGHT 0.000000
-	Range 15000.000000
-	PreBuffCooldownTime 4.6100000
+	Range 8000.000000
+	PreBuffCooldownTime 4.0000000
 	CanFireAtFighter FALSE
 	SynchronizedTargeting TRUE
 	PointStaggerDelay 0.000000
@@ -117,7 +119,7 @@ squadTypeEntityDef:2 ""
 squadAntiMatterCost:2 0.000000
 squadTypeEntityDef:3 ""
 squadAntiMatterCost:3 0.000000
-maxNumCommandPoints 1
+maxNumCommandPoints 2
 NumSoundsFor:ONATTACKORDERISSUED 3
 SoundID "CAPITALSHIP_TECHSUPPORT_ONATTACKORDERISSUED_0"
 SoundID "CAPITALSHIP_TECHSUPPORT_ONATTACKORDERISSUED_1"

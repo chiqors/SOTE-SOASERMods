@@ -6,8 +6,9 @@ prefersToFocusFire TRUE
 usesFighterAttack FALSE
 autoJoinFleetDefault TRUE
 canBomb FALSE
-typeCount 1
-frigateRoleType "Lrm"
+typeCount 2
+frigateRoleType "Light"
+frigateRoleType "AntiFighter"
 statCountType "FrigateCarrier"
 mainViewIcon "MAINVIEWICON_FRIGATE_TECHCARRIER"
 picture ""
@@ -22,8 +23,8 @@ slotCount 3.000000
 BuildTime 17.000000
 hasLevels FALSE
 ExperiencePointsForDestroying 15.000000
-MaxHullPoints 1500.000000
-MaxShieldPoints 1100.000000
+MaxHullPoints 1650.000000
+MaxShieldPoints 950.000000
 HullPointRestoreRate 1.00000
 ShieldPointRestoreRate 1.00000
 BaseArmorPoints 6.000000
@@ -52,12 +53,12 @@ Weapon
 		DamageApplyType "OVERTIME"
 		DamageType "ENERGY"
 		WeaponClassType "DART"
-	DamagePerBank:FRONT 175.000000
+	DamagePerBank:FRONT 1.000000
 	DamagePerBank:BACK 0.000000
 	DamagePerBank:LEFT 0.000000
 	DamagePerBank:RIGHT 0.000000
-	Range 5000.000000
-	PreBuffCooldownTime 4.000000
+	Range 12000.000000
+	PreBuffCooldownTime 999999.000000
 	CanFireAtFighter FALSE
 	SynchronizedTargeting TRUE
 	PointStaggerDelay 0.000000
