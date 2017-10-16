@@ -84,7 +84,7 @@ picture "PICTURE_CAPITAL_NYX"
 Prerequisites
 	NumResearchPrerequisites 1
 	ResearchPrerequisite
-		Subject "RESEARCHSUBJECT_ARTIFACT_WORMHOLETRAVEL"
+		Subject "Gallente_ResearchSubject_CapitalAccess_Nyx"
 		Level 1
 	RequiredFactionNameID ""
 	RequiredCompletedResearchSubjects 0
@@ -153,7 +153,7 @@ TargetCountPerBank:LEFT 0
 TargetCountPerBank:RIGHT 0
 canOnlyTargetStructures FALSE
 mass 50000.000000
-ShieldMeshName "Vendeta"
+ShieldMeshName "Vendetta"
 renderShield TRUE
 maxAccelerationLinear 12.500000
 maxAccelerationStrafe 0.500000
@@ -189,7 +189,7 @@ NumSoundsFor:ONSTARTPHASEJUMP 1
 SoundID "CAPITALSHIP_TECHCARRIER_ONSTARTPHASEJUMP_0"
 MeshNameInfoCount 1
 MeshNameInfo
-	meshName "Vendeta"
+	meshName "Vendetta"
 	criteriaType "None"
 meshNameIncreasedEffectName ""
 meshNameDecreasedEffectName ""
