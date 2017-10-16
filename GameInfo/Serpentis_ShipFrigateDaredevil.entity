@@ -37,8 +37,8 @@ numRandomDebrisSmall 0
 numSpecificDebris 0
 armorType "Light"
 hudIcon "HUDICON_SERPENTIS_DAREDEVIL"
-smallHudIcon "HUDICON_SERPENTIS_DAREDEVIL"
-infoCardIcon "INFOCARDICON_FRIGATE_PHASELIGHT"
+smallHudIcon "HUDICONSMALL_FRIGATE"
+infoCardIcon "HUDICONSMALL_FRIGATE"
 minZoomDistanceMult 1.000000
 NumWeapons 1
 Weapon
