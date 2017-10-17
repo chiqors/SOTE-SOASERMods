@@ -1,23 +1,29 @@
 TXT
-starTypeCount 9
+starTypeCount 10
 starType
 	designName "RandomStar"
 	designStringId "IDSGalaxyScenarioTypeStarRandom"
-	orbitBodyTypeCount 7
+	orbitBodyTypeCount 8
 	orbitBodyType "BlueStar"
 	orbitBodyType "GreenStar"
 	orbitBodyType "RedStar"
 	orbitBodyType "YellowStar"
+	orbitBodyType "OrangeStar"
 	orbitBodyType "NeutronStar"
 	orbitBodyType "BlackHoleStar"
 	orbitBodyType "PulsarStar"
 starType
 	designName "RandomNonGreenStar"
 	designStringId "IDSGalaxyScenarioTypeStarRandomNonGreen"
-	orbitBodyTypeCount 3
+	orbitBodyTypeCount 8
 	orbitBodyType "BlueStar"
+	orbitBodyType "GreenStar"
 	orbitBodyType "RedStar"
-	orbitBodyType "YellowStar"	
+	orbitBodyType "YellowStar"
+	orbitBodyType "OrangeStar"
+	orbitBodyType "NeutronStar"
+	orbitBodyType "BlackHoleStar"
+	orbitBodyType "PulsarStar"
 starType
 	designName "BlueStar"
 	designStringId "IDSGalaxyScenarioTypeStarBlue"
@@ -33,6 +39,11 @@ starType
 	designStringId "IDSGalaxyScenarioTypeStarYellow"
 	orbitBodyTypeCount 1
 	orbitBodyType "YellowStar"
+starType
+	designName "OrangeStar"
+	designStringId "IDSGalaxyScenarioTypeStarOrange"
+	orbitBodyTypeCount 1
+	orbitBodyType "OrangeStar"
 starType
 	designName "GreenStar"
 	designStringId "IDSGalaxyScenarioTypeStarGreen"
@@ -53,462 +64,385 @@ starType
 	designStringId "IDSGalaxyScenarioTypeStarPulsar"
 	orbitBodyTypeCount 1
 	orbitBodyType "PulsarStar"
-planetTypeCount 77
+planetTypeCount 89
 planetType
 	designName "WeightedNonIce"
 	designStringId "IDSGalaxyScenarioTypePlanetWeightedNonIce"
-	orbitBodyTypeCount 17
-	orbitBodyType "Terran"
-	orbitBodyType "Desert"
+	orbitBodyTypeCount 43
+	orbitBodyType "Terran_0"
+	orbitBodyType "Terran_0"
+	orbitBodyType "Desert_0"
+	orbitBodyType "Desert_0"
+	orbitBodyType "Desert_1"
 	orbitBodyType "Volcanic"
+	orbitBodyType "Volcanic_0"
+	orbitBodyType "Rock_0"
+	orbitBodyType "Rock_0"
+	orbitBodyType "Rock_0"
+	orbitBodyType "Forest_0"
+	orbitBodyType "Forest_0"
+	orbitBodyType "Hydrocarbon_0"
+	orbitBodyType "Hydrocarbon_0"
+	orbitBodyType "Oceanic_0"
+	orbitBodyType "Asteroid"
 	orbitBodyType "Asteroid"
 	orbitBodyType "AsteroidB"
 	orbitBodyType "AsteroidC"	
 	orbitBodyType "AsteroidD"
 	orbitBodyType "Moon"
 	orbitBodyType "MoonB"
-	orbitBodyType "Moon3"	
-	orbitBodyType "Moon4"	
-	orbitBodyType "DeadAsteroid"
-	orbitBodyType "ShipGraveyard"
-	orbitBodyType "Barren"
-	orbitBodyType "Oceanic"
+	orbitBodyType "MoonC"	
+	orbitBodyType "MoonD"
 	orbitBodyType "Ferrus"
-	orbitBodyType "Greenhouse"
-planetType
-	designName "WeightedNonIceFair"
-	designStringId "IDSGalaxyScenarioTypePlanetWeightedNonIceFair"
-	orbitBodyTypeCount 13
-	orbitBodyType "TerranFair"
-	orbitBodyType "DesertFair"
-	orbitBodyType "VolcanicFair"
-	orbitBodyType "AsteroidFair"
-	orbitBodyType "AsteroidFair"
-	orbitBodyType "MoonFair"
-	orbitBodyType "MoonFair"
+	orbitBodyType "Ferrus"
 	orbitBodyType "DeadAsteroid"
-	orbitBodyType "ShipGraveyard"
-	orbitBodyType "BarrenFair"
-	orbitBodyType "OceanicFair"
-	orbitBodyType "FerrusFair"
-	orbitBodyType "GreenhouseFair"
+	orbitBodyType "Barren"
+	orbitBodyType "Barren"
+	orbitBodyType "Greenhouse"
+	orbitBodyType "Greenhouse"
+	orbitBodyType "Asteroid"
+	orbitBodyType "Asteroid"
+	orbitBodyType "DeadAsteroid"
+	orbitBodyType "Toxic"	
+	orbitBodyType "Toxic"
+	orbitBodyType "City"	
+	orbitBodyType "Military"	
+	orbitBodyType "Paradise"
+	orbitBodyType "Grass"
+	orbitBodyType "Grass"
+	orbitBodyType "Swamp"
+	orbitBodyType "Swamp"
 planetType
 	designName "WeightedRandom"
 	designStringId "IDSGalaxyScenarioTypePlanetWeightedRandom"
-	orbitBodyTypeCount 47
-	orbitBodyType "Terran"
-	orbitBodyType "Terran"
-	orbitBodyType "Ice"
-	orbitBodyType "Ice"
-	orbitBodyType "Ice"
-	orbitBodyType "Desert"
-	orbitBodyType "Desert"
-	orbitBodyType "Desert"
+	orbitBodyTypeCount 67
+	orbitBodyType "Terran_0"
+	orbitBodyType "Carbon_0"
+	orbitBodyType "Desert_0"
+	orbitBodyType "Desert_0"
+	orbitBodyType "Desert_1"
 	orbitBodyType "Volcanic"
-	orbitBodyType "Volcanic"
-	orbitBodyType "Volcanic"
+	orbitBodyType "Volcanic_0"
+	orbitBodyType "Ice"
+	orbitBodyType "Ice_0"
+	orbitBodyType "Rock_0"
+	orbitBodyType "Rock_0"
+	orbitBodyType "Rock_0"
+	orbitBodyType "Forest_0"
+	orbitBodyType "Forest_0"
+	orbitBodyType "Hydrocarbon_0"
+	orbitBodyType "Hydrocarbon_0"
+	orbitBodyType "Oceanic_0"
 	orbitBodyType "Asteroid"
 	orbitBodyType "AsteroidB"
 	orbitBodyType "AsteroidC"	
 	orbitBodyType "AsteroidD"
-	orbitBodyType "Moon"
-	orbitBodyType "MoonB"
-	orbitBodyType "Moon3"	
-	orbitBodyType "Moon4"	
-	orbitBodyType "AsteroidBelt"
 	orbitBodyType "AsteroidBelt"
 	orbitBodyType "AsteroidBelt"
 	orbitBodyType "AsteroidSpaceJunk"
 	orbitBodyType "GasGiant"
+	orbitBodyType "GasGiant_0"
+	orbitBodyType "GasGiant_1"
 	orbitBodyType "DeadAsteroid"
-	orbitBodyType "ShipGraveyard"
-	orbitBodyType "PlasmaStorm"
 	orbitBodyType "Comet"
 	orbitBodyType "IceField"
 	orbitBodyType "AntimatterFountain"
 	orbitBodyType "ShatteredMoon"
 	orbitBodyType "RadiationStorm"
+	orbitBodyType "PlasmaStorm"
 	orbitBodyType "MagneticCloud"
+	orbitBodyType "Moon"
+	orbitBodyType "MoonB"
+	orbitBodyType "MoonC"	
+	orbitBodyType "MoonD"	
+	orbitBodyType "Desert_Moon_0"
+	orbitBodyType "Desert_Moon_1"
+	orbitBodyType "Terran_Moon_0"
+	orbitBodyType "Forest_Moon_0"
+	orbitBodyType "Rock_Moon_0"
+	orbitBodyType "Ice_Moon_0"
+	orbitBodyType "Carbon_Moon_0"
+	orbitBodyType "Hydrocarbon_Moon_0"
+	orbitBodyType "Volcanic_Moon_0"
+	orbitBodyType "Oceanic_Moon_0"
+	orbitBodyType "Greenhouse"
+	orbitBodyType "Greenhouse"
+	orbitBodyType "Greenhouse"	
 	orbitBodyType "Barren"
-	orbitBodyType "Barren"
-	orbitBodyType "Barren"
-	orbitBodyType "Oceanic"
-	orbitBodyType "Oceanic"
 	orbitBodyType "Oceanic"
 	orbitBodyType "Ferrus"
-	orbitBodyType "Ferrus"
-	orbitBodyType "Greenhouse"
-	orbitBodyType "Greenhouse"
-	orbitBodyType "Greenhouse"
+	orbitBodyType "Toxic"	
+	orbitBodyType "Toxic"
+	orbitBodyType "City"	
+	orbitBodyType "Military"	
+	orbitBodyType "Paradise"
+	orbitBodyType "Grass"
+	orbitBodyType "Grass"
+	orbitBodyType "Swamp"
+	orbitBodyType "Swamp"
 	orbitBodyType "PirateSanctum"
 	orbitBodyType "SleeperTower"
 	orbitBodyType "MorduStagging"
 planetType
-	designName "WeightedRandomFair"
-	designStringId "IDSGalaxyScenarioTypePlanetWeightedRandomFair"
-	orbitBodyTypeCount 39
-	orbitBodyType "TerranFair"
-	orbitBodyType "TerranFair"
-	orbitBodyType "IceFair"
-	orbitBodyType "IceFair"
-	orbitBodyType "IceFair"
-	orbitBodyType "DesertFair"
-	orbitBodyType "DesertFair"
-	orbitBodyType "DesertFair"
-	orbitBodyType "VolcanicFair"
-	orbitBodyType "VolcanicFair"
-	orbitBodyType "VolcanicFair"
-	orbitBodyType "AsteroidFair"
-	orbitBodyType "AsteroidFair"
-	orbitBodyType "AsteroidFair"
-	orbitBodyType "AsteroidFair"
-	orbitBodyType "MoonFair"
-	orbitBodyType "MoonFair"
-	orbitBodyType "MoonFair"
-	orbitBodyType "MoonFair"
-	orbitBodyType "AsteroidBeltFair"
-	orbitBodyType "AsteroidBeltFair"
-	orbitBodyType "AsteroidBeltFair"
-	orbitBodyType "AsteroidSpaceJunkFair"
-	orbitBodyType "GasGiantFair"
-	orbitBodyType "DeadAsteroid"
-	orbitBodyType "ShipGraveyard"
-	orbitBodyType "PlasmaStormFair"
-	orbitBodyType "MagneticCloud"
-	orbitBodyType "BarrenFair"
-	orbitBodyType "BarrenFair"
-	orbitBodyType "BarrenFair"
-	orbitBodyType "OceanicFair"
-	orbitBodyType "OceanicFair"
-	orbitBodyType "OceanicFair"
-	orbitBodyType "FerrusFair"
-	orbitBodyType "FerrusFair"
-	orbitBodyType "GreenhouseFair"
-	orbitBodyType "GreenhouseFair"
-	orbitBodyType "GreenhouseFair"
-planetType
 	designName "WeightedColonizable"
 	designStringId "IDSGalaxyScenarioTypePlanetWeightedColonizable"
-	orbitBodyTypeCount 29
-	orbitBodyType "Terran"
-	orbitBodyType "Terran"
+	orbitBodyTypeCount 33
+	orbitBodyType "Terran_0"
+	orbitBodyType "Terran_0"
+	orbitBodyType "Desert_0"
+	orbitBodyType "Desert_0"
+	orbitBodyType "Desert_1"
+	orbitBodyType "Volcanic"
+	orbitBodyType "Volcanic_0"
 	orbitBodyType "Ice"
-	orbitBodyType "Ice"
-	orbitBodyType "Desert"
-	orbitBodyType "Desert"
-	orbitBodyType "Desert"
-	orbitBodyType "Volcanic"
-	orbitBodyType "Volcanic"
-	orbitBodyType "Volcanic"
-	orbitBodyType "Asteroid"
-	orbitBodyType "AsteroidB"
-	orbitBodyType "AsteroidC"	
-	orbitBodyType "AsteroidD"
+	orbitBodyType "Ice_0"
+	orbitBodyType "Rock_0"
+	orbitBodyType "Rock_0"
+	orbitBodyType "Rock_0"
+	orbitBodyType "Forest_0"
+	orbitBodyType "Forest_0"
+	orbitBodyType "Hydrocarbon_0"
+	orbitBodyType "Hydrocarbon_0"
+	orbitBodyType "Oceanic_0"
+	orbitBodyType "Carbon_0"
 	orbitBodyType "Moon"
-	orbitBodyType "MoonB"
-	orbitBodyType "Moon3"	
-	orbitBodyType "Moon4"	
-	orbitBodyType "Barren"
-	orbitBodyType "Barren"
 	orbitBodyType "Barren"
 	orbitBodyType "Oceanic"
-	orbitBodyType "Oceanic"
-	orbitBodyType "Oceanic"
-	orbitBodyType "Ferrus"
 	orbitBodyType "Ferrus"
 	orbitBodyType "Greenhouse"
 	orbitBodyType "Greenhouse"
-	orbitBodyType "Greenhouse"
-planetType
-	designName "WeightedColonizableFair"
-	designStringId "IDSGalaxyScenarioTypePlanetWeightedColonizableFair"
-	orbitBodyTypeCount 23
-	orbitBodyType "TerranFair"
-	orbitBodyType "TerranFair"
-	orbitBodyType "IceFair"
-	orbitBodyType "IceFair"
-	orbitBodyType "DesertFair"
-	orbitBodyType "DesertFair"
-	orbitBodyType "DesertFair"
-	orbitBodyType "VolcanicFair"
-	orbitBodyType "VolcanicFair"
-	orbitBodyType "VolcanicFair"
-	orbitBodyType "AsteroidFair"
-	orbitBodyType "MoonFair"
-	orbitBodyType "BarrenFair"
-	orbitBodyType "BarrenFair"
-	orbitBodyType "BarrenFair"
-	orbitBodyType "OceanicFair"
-	orbitBodyType "OceanicFair"
-	orbitBodyType "OceanicFair"
-	orbitBodyType "FerrusFair"
-	orbitBodyType "FerrusFair"
-	orbitBodyType "GreenhouseFair"
-	orbitBodyType "GreenhouseFair"
-	orbitBodyType "GreenhouseFair"
+	orbitBodyType "Toxic"	
+	orbitBodyType "Toxic"
+	orbitBodyType "City"	
+	orbitBodyType "Military"	
+	orbitBodyType "Paradise"
+	orbitBodyType "Grass"
+	orbitBodyType "Grass"
+	orbitBodyType "Swamp"
+	orbitBodyType "Swamp"
 planetType
 	designName "AsteroidOrDead"
 	designStringId "IDSGalaxyScenarioTypePlanetAsteroidOrDead"
-	orbitBodyTypeCount 13
+	orbitBodyTypeCount 12
 	orbitBodyType "Asteroid"
 	orbitBodyType "AsteroidB"
 	orbitBodyType "AsteroidC"	
 	orbitBodyType "AsteroidD"
 	orbitBodyType "Moon"
 	orbitBodyType "MoonB"
-	orbitBodyType "Moon3"	
-	orbitBodyType "Moon4"	
+	orbitBodyType "MoonC"	
+	orbitBodyType "MoonD"	
 	orbitBodyType "DeadAsteroid"
-	orbitBodyType "ShipGraveyard"
 	orbitBodyType "AsteroidBelt"
 	orbitBodyType "AsteroidSpaceJunk"
 	orbitBodyType "PirateSanctum"
 planetType
-	designName "AsteroidOrDeadFair"
-	designStringId "IDSGalaxyScenarioTypePlanetAsteroidOrDeadFair"
-	orbitBodyTypeCount 6
-	orbitBodyType "AsteroidFair"
-	orbitBodyType "MoonFair"
-	orbitBodyType "DeadAsteroid"
-	orbitBodyType "ShipGraveyard"
-	orbitBodyType "AsteroidBeltFair"
-	orbitBodyType "AsteroidSpaceJunkFair"
+	designName "Random"
+	designStringId "IDSGalaxyScenarioTypePlanetRandom"
+	orbitBodyTypeCount 42
+	orbitBodyType "Terran_0"
+	orbitBodyType "Terran_0"
+	orbitBodyType "Desert_0"
+	orbitBodyType "Desert_0"
+	orbitBodyType "Volcanic"
+	orbitBodyType "Volcanic_0"
+	orbitBodyType "Ice"
+	orbitBodyType "Ice_0"
+	orbitBodyType "Rock_0"
+	orbitBodyType "Rock_0"
+	orbitBodyType "Forest_0"
+	orbitBodyType "Forest_0"
+	orbitBodyType "Hydrocarbon_0"
+	orbitBodyType "Hydrocarbon_0"
+	orbitBodyType "Oceanic_0"
+	orbitBodyType "Oceanic_0"
+	orbitBodyType "GasGiant_0"
+	orbitBodyType "GasGiant_1"
+	orbitBodyType "Carbon_0"
+	orbitBodyType "Barren"
+	orbitBodyType "Oceanic"
+	orbitBodyType "Ferrus"
+	orbitBodyType "Asteroid"
+	orbitBodyType "AsteroidB"
+	orbitBodyType "AsteroidC"	
+	orbitBodyType "AsteroidD"
+	orbitBodyType "Moon"
+	orbitBodyType "MoonB"
+	orbitBodyType "MoonC"	
+	orbitBodyType "MoonD"
+	orbitBodyType "Greenhouse"
+	orbitBodyType "Greenhouse"
+	orbitBodyType "Toxic"	
+	orbitBodyType "Toxic"
+	orbitBodyType "City"	
+	orbitBodyType "Military"	
+	orbitBodyType "Paradise"
+	orbitBodyType "Grass"
+	orbitBodyType "Grass"
+	orbitBodyType "Swamp"
+	orbitBodyType "Swamp"
+	orbitBodyType "PirateSanctum"
+planetType
+	designName "RandomTrue"
+	designStringId "IDSGalaxyScenarioTypePlanetRandomTrue"
+	orbitBodyTypeCount 35
+	orbitBodyType "Terran_0"
+	orbitBodyType "Terran_0"
+	orbitBodyType "Desert_0"
+	orbitBodyType "Desert_0"
+	orbitBodyType "Volcanic"
+	orbitBodyType "Volcanic_0"
+	orbitBodyType "Ice"
+	orbitBodyType "Ice_0"
+	orbitBodyType "Rock_0"
+	orbitBodyType "Rock_0"
+	orbitBodyType "Forest_0"
+	orbitBodyType "Forest_0"
+	orbitBodyType "Hydrocarbon_0"
+	orbitBodyType "Hydrocarbon_0"
+	orbitBodyType "Oceanic_0"
+	orbitBodyType "Oceanic_0"
+	orbitBodyType "Carbon_0"
+	orbitBodyType "Moon"
+	orbitBodyType "MoonB"
+	orbitBodyType "MoonC"	
+	orbitBodyType "MoonD"
+	orbitBodyType "Barren"
+	orbitBodyType "Oceanic"
+	orbitBodyType "Ferrus"
+	orbitBodyType "Greenhouse"
+	orbitBodyType "Greenhouse"
+	orbitBodyType "Toxic"	
+	orbitBodyType "Toxic"
+	orbitBodyType "City"	
+	orbitBodyType "Military"	
+	orbitBodyType "Paradise"
+	orbitBodyType "Grass"
+	orbitBodyType "Grass"
+	orbitBodyType "Swamp"
+	orbitBodyType "Swamp"
+planetType
+	designName "RandomTrueNonIce"
+	designStringId "IDSGalaxyScenarioTypePlanetRandomTrueNonIce"
+	orbitBodyTypeCount 26
+	orbitBodyType "Terran_0"
+	orbitBodyType "Terran_0"
+	orbitBodyType "Desert_0"
+	orbitBodyType "Desert_0"
+	orbitBodyType "Volcanic"
+	orbitBodyType "Volcanic_0"
+	orbitBodyType "Rock_0"
+	orbitBodyType "Rock_0"
+	orbitBodyType "Forest_0"
+	orbitBodyType "Forest_0"
+	orbitBodyType "Oceanic_0"
+	orbitBodyType "Carbon_0"
+	orbitBodyType "Barren"
+	orbitBodyType "Oceanic"
+	orbitBodyType "Ferrus"
+	orbitBodyType "Greenhouse"
+	orbitBodyType "Greenhouse"
+	orbitBodyType "Toxic"	
+	orbitBodyType "Toxic"
+	orbitBodyType "City"	
+	orbitBodyType "Military"	
+	orbitBodyType "Paradise"
+	orbitBodyType "Grass"
+	orbitBodyType "Grass"
+	orbitBodyType "Swamp"
+	orbitBodyType "Swamp"
+planetType
+	designName "RandomTrueNonTerran"
+	designStringId "IDSGalaxyScenarioTypePlanetRandomTrueNonTerran"
+	orbitBodyTypeCount 29
+	orbitBodyType "Desert_0"
+	orbitBodyType "Desert_0"
+	orbitBodyType "Volcanic"
+	orbitBodyType "Volcanic_0"
+	orbitBodyType "Ice"
+	orbitBodyType "Ice_0"
+	orbitBodyType "Rock_0"
+	orbitBodyType "Rock_0"
+	orbitBodyType "Forest_0"
+	orbitBodyType "Forest_0"
+	orbitBodyType "Hydrocarbon_0"
+	orbitBodyType "Hydrocarbon_0"
+	orbitBodyType "Oceanic_0"
+	orbitBodyType "Oceanic_0"
+	orbitBodyType "Carbon_0"
+	orbitBodyType "Barren"
+	orbitBodyType "Oceanic"
+	orbitBodyType "Ferrus"
+	orbitBodyType "Greenhouse"
+	orbitBodyType "Greenhouse"
+	orbitBodyType "Toxic"	
+	orbitBodyType "Toxic"
+	orbitBodyType "City"	
+	orbitBodyType "Military"	
+	orbitBodyType "Paradise"
+	orbitBodyType "Grass"
+	orbitBodyType "Grass"
+	orbitBodyType "Swamp"
+	orbitBodyType "Swamp"
+planetType
+	designName "RandomSpecial"
+	designStringId "IDSGalaxyScenarioTypePlanetRandomSpecial"
+	orbitBodyTypeCount 10
+	orbitBodyType "PlasmaStorm"
+	orbitBodyType "MagneticCloud"
+	orbitBodyType "Comet"
+	orbitBodyType "IceField"
+	orbitBodyType "AntimatterFountain"
+	orbitBodyType "ShatteredMoon"
+	orbitBodyType "RadiationStorm"
+	orbitBodyType "PirateSanctum"
+	orbitBodyType "SleeperTower"
+	orbitBodyType "MorduStagging"
+planetType
+	designName "RandomUncolonizable"
+	designStringId "IDSGalaxyScenarioTypePlanetRandomUncolonizable"
+	orbitBodyTypeCount 12
+	orbitBodyType "AsteroidBelt"
+	orbitBodyType "AsteroidSpaceJunk"
+	orbitBodyType "PlasmaStorm"
+	orbitBodyType "MagneticCloud"
+	orbitBodyType "Comet"
+	orbitBodyType "IceField"
+	orbitBodyType "AntimatterFountain"
+	orbitBodyType "ShatteredMoon"
+	orbitBodyType "RadiationStorm"
+	orbitBodyType "PirateSanctum"
+	orbitBodyType "SleeperTower"
+	orbitBodyType "MorduStagging"
 planetType
 	designName "RandomAsteroid"
-	designStringId "IDSGalaxyScenarioTypePlanetAsteroid"
+	designStringId "IDSGalaxyScenarioTypePlanetAsteroidRandom"
 	orbitBodyTypeCount 4
-	orbitBodyType "Asteroid"
+	orbitBodyType "Asteroid"	
 	orbitBodyType "AsteroidB"
 	orbitBodyType "AsteroidC"
 	orbitBodyType "AsteroidD"	
 planetType
 	designName "RandomMoon"
-	designStringId "IDSGalaxyScenarioTypePlanetMoon"
+	designStringId "IDSGalaxyScenarioTypePlanetMoonRandom"
 	orbitBodyTypeCount 4
 	orbitBodyType "Moon"
 	orbitBodyType "MoonB"
-	orbitBodyType "Moon3"	
-	orbitBodyType "Moon4"	
-planetType
-	designName "AsteroidOrMoon"
-	designStringId "IDSGalaxyScenarioTypePlanetAsteroidOrMoon"
-	orbitBodyTypeCount 8
-	orbitBodyType "Asteroid"
-	orbitBodyType "AsteroidB"
-	orbitBodyType "AsteroidC"
-	orbitBodyType "AsteroidD"	
-	orbitBodyType "Moon"
-	orbitBodyType "MoonB"
-	orbitBodyType "Moon3"	
-	orbitBodyType "Moon4"	
-planetType
-	designName "AsteroidOrMoonFair"
-	designStringId "IDSGalaxyScenarioTypePlanetAsteroidOrMoonFair"
-	orbitBodyTypeCount 2
-	orbitBodyType "AsteroidFair"
-	orbitBodyType "MoonFair"
-planetType
-	designName "Random"
-	designStringId "IDSGalaxyScenarioTypePlanetRandom"
-	orbitBodyTypeCount 22
-	orbitBodyType "Terran"
-	orbitBodyType "Ice"
-	orbitBodyType "Desert"
-	orbitBodyType "Volcanic"
-	orbitBodyType "Asteroid"
-	orbitBodyType "AsteroidB"
-	orbitBodyType "AsteroidC"	
-	orbitBodyType "AsteroidD"
-	orbitBodyType "Moon"
-	orbitBodyType "MoonB"
-	orbitBodyType "Moon3"	
-	orbitBodyType "Moon4"	
-	orbitBodyType "DeadAsteroid"
-	orbitBodyType "ShipGraveyard"
-	orbitBodyType "AsteroidBelt"
-	orbitBodyType "AsteroidSpaceJunk"
-	orbitBodyType "GasGiant"
-	orbitBodyType "Barren"
-	orbitBodyType "Oceanic"
-	orbitBodyType "Ferrus"
-	orbitBodyType "Greenhouse"
-	orbitBodyType "PirateSanctum"
-planetType
-	designName "RandomFair"
-	designStringId "IDSGalaxyScenarioTypePlanetRandomFair"
-	orbitBodyTypeCount 15
-	orbitBodyType "TerranFair"
-	orbitBodyType "IceFair"
-	orbitBodyType "DesertFair"
-	orbitBodyType "VolcanicFair"
-	orbitBodyType "AsteroidFair"
-	orbitBodyType "MoonFair"
-	orbitBodyType "DeadAsteroid"
-	orbitBodyType "ShipGraveyard"
-	orbitBodyType "AsteroidBeltFair"
-	orbitBodyType "AsteroidSpaceJunkFair"
-	orbitBodyType "GasGiantFair"
-	orbitBodyType "BarrenFair"
-	orbitBodyType "OceanicFair"
-	orbitBodyType "FerrusFair"
-	orbitBodyType "GreenhouseFair"
-planetType
-	designName "RandomTrue"
-	designStringId "IDSGalaxyScenarioTypePlanetRandomTrue"
-	orbitBodyTypeCount 7
-	orbitBodyType "Terran"
-	orbitBodyType "Ice"
-	orbitBodyType "Desert"
-	orbitBodyType "Volcanic"
-	orbitBodyType "Oceanic"
-	orbitBodyType "Ferrus"
-	orbitBodyType "Greenhouse"
-planetType
-	designName "RandomTrueFair"
-	designStringId "IDSGalaxyScenarioTypePlanetRandomTrueFair"
-	orbitBodyTypeCount 7
-	orbitBodyType "TerranFair"
-	orbitBodyType "IceFair"
-	orbitBodyType "DesertFair"
-	orbitBodyType "VolcanicFair"
-	orbitBodyType "OceanicFair"
-	orbitBodyType "FerrusFair"
-	orbitBodyType "GreenhouseFair"
-planetType
-	designName "RandomTrueNonIce"
-	designStringId "IDSGalaxyScenarioTypePlanetRandomTrueNonIce"
-	orbitBodyTypeCount 6
-	orbitBodyType "Terran"
-	orbitBodyType "Desert"
-	orbitBodyType "Volcanic"
-	orbitBodyType "Oceanic"
-	orbitBodyType "Ferrus"
-	orbitBodyType "Greenhouse"
-planetType
-	designName "RandomTrueNonIceFair"
-	designStringId "IDSGalaxyScenarioTypePlanetRandomTrueNonIceFair"
-	orbitBodyTypeCount 6
-	orbitBodyType "TerranFair"
-	orbitBodyType "DesertFair"
-	orbitBodyType "VolcanicFair"
-	orbitBodyType "OceanicFair"
-	orbitBodyType "FerrusFair"
-	orbitBodyType "GreenhouseFair"
-planetType
-	designName "RandomTrueNonTerran"
-	designStringId "IDSGalaxyScenarioTypePlanetRandomTrueNonTerran"
-	orbitBodyTypeCount 6
-	orbitBodyType "Ice"
-	orbitBodyType "Desert"
-	orbitBodyType "Volcanic"
-	orbitBodyType "Oceanic"
-	orbitBodyType "Ferrus"
-	orbitBodyType "Greenhouse"
-planetType
-	designName "RandomTrueNonTerranFair"
-	designStringId "IDSGalaxyScenarioTypePlanetRandomTrueNonTerranFair"
-	orbitBodyTypeCount 6
-	orbitBodyType "IceFair"
-	orbitBodyType "DesertFair"
-	orbitBodyType "VolcanicFair"
-	orbitBodyType "OceanicFair"
-	orbitBodyType "FerrusFair"
-	orbitBodyType "GreenhouseFair"
-planetType
-	designName "RandomSpecial"
-	designStringId "IDSGalaxyScenarioTypePlanetRandomSpecial"
-	orbitBodyTypeCount 12
-	orbitBodyType "GasGiant"
-	orbitBodyType "PlasmaStorm"
-	orbitBodyType "Comet"
-	orbitBodyType "IceField"
-	orbitBodyType "ShipGraveyard"
-	orbitBodyType "AntimatterFountain"
-	orbitBodyType "ShatteredMoon"
-	orbitBodyType "RadiationStorm"
-	orbitBodyType "MagneticCloud"
-	orbitBodyType "PirateSanctum"
-	orbitBodyType "SleeperTower"
-	orbitBodyType "MorduStagging"
-planetType
-	designName "RandomSpecialFair"
-	designStringId "IDSGalaxyScenarioTypePlanetRandomSpecialFair"
-	orbitBodyTypeCount 2
-	orbitBodyType "GasGiantFair"
-	orbitBodyType "PlasmaStormFair"
-planetType
-	designName "RandomUncolonizable"
-	designStringId "IDSGalaxyScenarioTypePlanetRandomUncolonizable"
-	orbitBodyTypeCount 14
-	orbitBodyType "GasGiant"
-	orbitBodyType "AsteroidBelt"
-	orbitBodyType "AsteroidSpaceJunk"
-	orbitBodyType "PlasmaStorm"
-	orbitBodyType "Comet"
-	orbitBodyType "IceField"
-	orbitBodyType "ShipGraveyard"
-	orbitBodyType "AntimatterFountain"
-	orbitBodyType "ShatteredMoon"
-	orbitBodyType "RadiationStorm"
-	orbitBodyType "MagneticCloud"
-	orbitBodyType "PirateSanctum"
-	orbitBodyType "SleeperTower"
-	orbitBodyType "MorduStagging"
-planetType
-	designName "RandomUncolonizableFair"
-	designStringId "IDSGalaxyScenarioTypePlanetRandomUncolonizableFair"
-	orbitBodyTypeCount 5
-	orbitBodyType "GasGiantFair"
-	orbitBodyType "AsteroidBeltFair"
-	orbitBodyType "AsteroidSpaceJunkFair"
-	orbitBodyType "PlasmaStormFair"
-	orbitBodyType "MagneticCloud"
-planetType
-	designName "RandomUncolonizableNonMagnetic"
-	designStringId "IDSGalaxyScenarioTypeRandomUncolonizalbeNonMagnetic"
-	orbitBodyTypeCount 12
-	orbitBodyType "AsteroidSpaceJunk"
-	orbitBodyType "AsteroidBelt"
-	orbitBodyType "GasGiant"
-	orbitBodyType "PlasmaStorm"
-	orbitBodyType "Comet"
-	orbitBodyType "IceField"
-	orbitBodyType "ShipGraveyard"
-	orbitBodyType "AntimatterFountain"
-	orbitBodyType "ShatteredMoon"
-	orbitBodyType "RadiationStorm"
-	orbitBodyType "SleeperTower"
-	orbitBodyType "MorduStagging"	
-planetType
-	designName "RandomUncolonizableNonMagneticFair"
-	designStringId "IDSGalaxyScenarioTypeRandomUncolonizalbeNonMagneticFair"
-	orbitBodyTypeCount 4
-	orbitBodyType "AsteroidSpaceJunkFair"
-	orbitBodyType "AsteroidBeltFair"
-	orbitBodyType "GasGiantFair"
-	orbitBodyType "PlasmaStormFair"
+	orbitBodyType "MoonC"	
+	orbitBodyType "MoonD"	
 planetType
 	designName "RandomIceVolcanic"
 	designStringId "IDSGalaxyScenarioTypeRandomIceVolcanic"
-	orbitBodyTypeCount 2
-	orbitBodyType "Ice"	
+	orbitBodyTypeCount 4
 	orbitBodyType "Volcanic"
-planetType
-	designName "RandomIceVolcanicFair"
-	designStringId "IDSGalaxyScenarioTypeRandomIceVolcanicFair"
-	orbitBodyTypeCount 2
-	orbitBodyType "IceFair"	
-	orbitBodyType "VolcanicFair"
+	orbitBodyType "Volcanic_0"
+	orbitBodyType "Ice"
+	orbitBodyType "Ice_0"
 planetType
 	designName "Barren"
 	designStringId "IDSGalaxyScenarioTypePlanetBarren"
 	orbitBodyTypeCount 1
-	orbitBodyType "Barren"
-planetType
-	designName "Oceanic"
-	designStringId "IDSGalaxyScenarioTypePlanetOceanic"
-	orbitBodyTypeCount 1
-	orbitBodyType "Oceanic"
+	orbitBodyType "Rock_0"
 planetType
 	designName "Ferrus"
 	designStringId "IDSGalaxyScenarioTypePlanetFerrous"
@@ -523,7 +457,7 @@ planetType
 	designName "BarrenFair"
 	designStringId "IDSGalaxyScenarioTypePlanetBarrenFair"
 	orbitBodyTypeCount 1
-	orbitBodyType "BarrenFair"
+	orbitBodyType "Rock_0"
 planetType
 	designName "OceanicFair"
 	designStringId "IDSGalaxyScenarioTypePlanetOceanicFair"
@@ -545,125 +479,124 @@ planetType
 	orbitBodyTypeCount 1
 	orbitBodyType "Occupied"
 planetType
+	designName "Hydrocarbon"
+	designStringId "Axeldude_PlanetType_Hydrocarbon"
+	orbitBodyTypeCount 4
+	orbitBodyType "Hydrocarbon_0"
+	orbitBodyType "Hydrocarbon_0"
+	orbitBodyType "Hydrocarbon_0"
+	orbitBodyType "Hydrocarbon_Moon_0"
+planetType
+	designName "Carbon"
+	designStringId "Axeldude_PlanetType_Carbon"
+	orbitBodyTypeCount 4
+	orbitBodyType "Carbon_0"
+	orbitBodyType "Carbon_0"
+	orbitBodyType "Carbon_0"
+	orbitBodyType "Carbon_Moon_0"
+planetType
+	designName "Oceanic"
+	designStringId "Axeldude_PlanetType_Oceanic"
+	orbitBodyTypeCount 4
+	orbitBodyType "Oceanic_0"
+	orbitBodyType "Oceanic_0"
+	orbitBodyType "Oceanic_0"
+	orbitBodyType "Oceanic_Moon_0"
+planetType
+	designName "Rock"
+	designStringId "Axeldude_PlanetType_Rock"
+	orbitBodyTypeCount 4
+	orbitBodyType "Rock_0"
+	orbitBodyType "Rock_0"
+	orbitBodyType "Rock_0"
+	orbitBodyType "Rock_Moon_0"
+planetType
+	designName "Forest"
+	designStringId "Axeldude_PlanetType_Forest"
+	orbitBodyTypeCount 4
+	orbitBodyType "Forest_0"
+	orbitBodyType "Forest_0"
+	orbitBodyType "Forest_0"
+	orbitBodyType "Forest_Moon_0"
+planetType
 	designName "Terran"
 	designStringId "IDSGalaxyScenarioTypePlanetTerran"
-	orbitBodyTypeCount 1
-	orbitBodyType "Terran"
-planetType
-	designName "TerranFair"
-	designStringId "IDSGalaxyScenarioTypePlanetTerranFair"
-	orbitBodyTypeCount 1
-	orbitBodyType "TerranFair"
+	orbitBodyTypeCount 4
+	orbitBodyType "Terran_0"	
+	orbitBodyType "Terran_0"
+	orbitBodyType "Terran_0"	
+	orbitBodyType "Terran_Moon_0"
 planetType
 	designName "TerranHome"
 	designStringId "IDSGalaxyScenarioTypePlanetTerranHome"
-	orbitBodyTypeCount 1
+	orbitBodyTypeCount 2
+	orbitBodyType "TerranHome"
 	orbitBodyType "TerranHome"
 planetType
 	designName "Ice"
 	designStringId "IDSGalaxyScenarioTypePlanetIce"
-	orbitBodyTypeCount 1
+	orbitBodyTypeCount 5
 	orbitBodyType "Ice"
-planetType
-	designName "IceFair"
-	designStringId "IDSGalaxyScenarioTypePlanetIceFair"
-	orbitBodyTypeCount 1
-	orbitBodyType "IceFair"
+	orbitBodyType "Ice_0"
+	orbitBodyType "Ice_0"
+	orbitBodyType "Ice_0"
+	orbitBodyType "Ice_Moon_0"
 planetType
 	designName "Desert"
 	designStringId "IDSGalaxyScenarioTypePlanetDesert"
-	orbitBodyTypeCount 1
-	orbitBodyType "Desert"
-planetType
-	designName "DesertFair"
-	designStringId "IDSGalaxyScenarioTypePlanetDesertFair"
-	orbitBodyTypeCount 1
-	orbitBodyType "DesertFair"
+	orbitBodyTypeCount 7
+	orbitBodyType "Desert_0"
+	orbitBodyType "Desert_0"
+	orbitBodyType "Desert_1"
+	orbitBodyType "Desert_0"
+	orbitBodyType "Desert_1"
+	orbitBodyType "Desert_Moon_0"
+	orbitBodyType "Desert_Moon_1"
 planetType
 	designName "DesertHome"
 	designStringId "IDSGalaxyScenarioTypePlanetDesertHome"
-	orbitBodyTypeCount 1
-	orbitBodyType "DesertHome"	
+	orbitBodyTypeCount 2
+	orbitBodyType "DesertHome"
+	orbitBodyType "DesertHome"
 planetType
 	designName "Volcanic"
 	designStringId "IDSGalaxyScenarioTypePlanetVolcanic"
-	orbitBodyTypeCount 1
+	orbitBodyTypeCount 5
 	orbitBodyType "Volcanic"
-planetType
-	designName "VolcanicFair"
-	designStringId "IDSGalaxyScenarioTypePlanetVolcanicFair"
-	orbitBodyTypeCount 1
-	orbitBodyType "VolcanicFair"
+	orbitBodyType "Volcanic_0"
+	orbitBodyType "Volcanic_0"
+	orbitBodyType "Volcanic_0"
+	orbitBodyType "Volcanic_Moon_0"
 planetType
 	designName "Asteroid"
 	designStringId "IDSGalaxyScenarioTypePlanetAsteroid"
 	orbitBodyTypeCount 1
 	orbitBodyType "Asteroid"
 planetType
-	designName "AsteroidFair"
-	designStringId "IDSGalaxyScenarioTypePlanetAsteroidFair"
-	orbitBodyTypeCount 1
-	orbitBodyType "AsteroidFair"
-planetType
 	designName "Moon"
 	designStringId "IDSGalaxyScenarioTypePlanetMoon"
 	orbitBodyTypeCount 1
 	orbitBodyType "Moon"
-planetType
-	designName "MoonB"
-	designStringId "IDSGalaxyScenarioTypePlanetMoon"
-	orbitBodyTypeCount 1
-	orbitBodyType "MoonB"
-planetType
-	designName "Moon3"
-	designStringId "IDSGalaxyScenarioTypePlanetMoon"
-	orbitBodyTypeCount 1
-	orbitBodyType "Moon3"	
-planetType
-	designName "Moon4"
-	designStringId "IDSGalaxyScenarioTypePlanetMoon"
-	orbitBodyTypeCount 1
-	orbitBodyType "Moon4"	
-planetType
-	designName "MoonFair"
-	designStringId "IDSGalaxyScenarioTypePlanetMoonFair"
-	orbitBodyTypeCount 1
-	orbitBodyType "MoonFair"
 planetType
 	designName "DeadAsteroid"
 	designStringId "IDSGalaxyScenarioTypePlanetDeadAsteroid"
 	orbitBodyTypeCount 1
 	orbitBodyType "DeadAsteroid"	
 planetType
-	designName "ShipGraveyard"
-	designStringId "IDSGalaxyScenarioTypePlanetShipGraveyard"
-	orbitBodyTypeCount 1
-	orbitBodyType "ShipGraveyard"	
-planetType
 	designName "AsteroidBelt"
 	designStringId "IDSGalaxyScenarioTypePlanetAsteroidBelt"
 	orbitBodyTypeCount 1	
 	orbitBodyType "AsteroidBelt"
-planetType
-	designName "AsteroidBeltFair"
-	designStringId "IDSGalaxyScenarioTypePlanetAsteroidBeltFair"
-	orbitBodyTypeCount 1	
-	orbitBodyType "AsteroidBeltFair"
 planetType
 	designName "AsteroidSpaceJunk"
 	designStringId "IDSGalaxyScenarioTypePlanetAsteroidSpaceJunk"
 	orbitBodyTypeCount 1	
 	orbitBodyType "AsteroidSpaceJunk"
 planetType
-	designName "AsteroidSpaceJunkFair"
-	designStringId "IDSGalaxyScenarioTypePlanetAsteroidSpaceJunkFair"
-	orbitBodyTypeCount 1	
-	orbitBodyType "AsteroidSpaceJunkFair"
-planetType
 	designName "PlasmaStorm"
 	designStringId "IDSGalaxyScenarioTypePlanetPlasmaStorm"
 	orbitBodyTypeCount 1
-	orbitBodyType "PlasmaStorm"
+	orbitBodyType "PlasmaStorm"	
 planetType
 	designName "Comet"
 	designStringId "IDSGalaxyScenarioTypePlanetComet"
@@ -690,11 +623,6 @@ planetType
 	orbitBodyTypeCount 1
 	orbitBodyType "AntimatterFountain"
 planetType
-	designName "PlasmaStormFair"
-	designStringId "IDSGalaxyScenarioTypePlanetPlasmaStormFair"
-	orbitBodyTypeCount 1
-	orbitBodyType "PlasmaStormFair"	
-planetType
 	designName "MagneticCloud"
 	designStringId "IDSGalaxyScenarioTypePlanetMagneticCloud"
 	orbitBodyTypeCount 1
@@ -702,13 +630,10 @@ planetType
 planetType
 	designName "GasGiant"
 	designStringId "IDSGalaxyScenarioTypePlanetGasGiant"
-	orbitBodyTypeCount 1	
+	orbitBodyTypeCount 3	
 	orbitBodyType "GasGiant"
-planetType
-	designName "GasGiantFair"
-	designStringId "IDSGalaxyScenarioTypePlanetGasGiantFair"
-	orbitBodyTypeCount 1	
-	orbitBodyType "GasGiantFair"
+	orbitBodyType "GasGiant_0"
+	orbitBodyType "GasGiant_1"
 planetType
 	designName "Wormhole"
 	designStringId "IDSGalaxyScenarioTypePlanetWormhole"
@@ -719,6 +644,311 @@ planetType
 	designStringId "IDSGalaxyScenarioTypePlanetPirateBase"
 	orbitBodyTypeCount 1
 	orbitBodyType "PirateBase"
+planetType
+	designName "City"
+	designStringId "IDSGalaxyScenarioTypePlanetCity"
+	orbitBodyTypeCount 1
+	orbitBodyType "City"
+planetType
+	designName "Military"
+	designStringId "IDSGalaxyScenarioTypePlanetMilitary"
+	orbitBodyTypeCount 1
+	orbitBodyType "Military"
+planetType
+	designName "Industrial"
+	designStringId "IDSGalaxyScenarioTypePlanetIndustrial"
+	orbitBodyTypeCount 1
+	orbitBodyType "Industrial"
+planetType
+	designName "Paradise"
+	designStringId "IDSGalaxyScenarioTypePlanetParadise"
+	orbitBodyTypeCount 1
+	orbitBodyType "Paradise"
+planetType
+	designName "Toxic"
+	designStringId "IDSGalaxyScenarioTypePlanetToxic"
+	orbitBodyTypeCount 1
+	orbitBodyType "Toxic"
+planetType
+	designName "Savannah"
+	designStringId "IDSGalaxyScenarioTypePlanetGrass"
+	orbitBodyTypeCount 1	
+	orbitBodyType "Grass"
+planetType
+	designName "Swamp"
+	designStringId "IDSGalaxyScenarioTypePlanetSwamp"
+	orbitBodyTypeCount 1	
+	orbitBodyType "Swamp"
+planetType
+	designName "RandomUncolonizableNonMagnetic"
+	designStringId "IDSGalaxyScenarioTypeRandomUncolonizalbeNonMagnetic"
+	orbitBodyTypeCount 6
+	orbitBodyType "AsteroidSpaceJunk"
+	orbitBodyType "AsteroidBelt"
+	orbitBodyType "GasGiant"
+	orbitBodyType "PlasmaStorm"
+	orbitBodyType "SleeperTower"
+	orbitBodyType "MorduStagging"
+planetType
+	designName "WeightedNonIceFair"
+	designStringId "IDSGalaxyScenarioTypePlanetWeightedNonIceFair"
+	orbitBodyTypeCount 8
+	orbitBodyType "TerranFair"
+	orbitBodyType "DesertFair"
+	orbitBodyType "VolcanicFair"
+	orbitBodyType "AsteroidFair"
+	orbitBodyType "AsteroidFair"
+	orbitBodyType "MoonFair"
+	orbitBodyType "MoonFair"
+	orbitBodyType "DeadAsteroid"
+planetType
+	designName "WeightedRandomFair"
+	designStringId "IDSGalaxyScenarioTypePlanetWeightedRandomFair"
+	orbitBodyTypeCount 36
+	orbitBodyType "TerranFair"
+	orbitBodyType "TerranFair"
+	orbitBodyType "IceFair"
+	orbitBodyType "IceFair"
+	orbitBodyType "IceFair"
+	orbitBodyType "DesertFair"
+	orbitBodyType "DesertFair"
+	orbitBodyType "DesertFair"
+	orbitBodyType "VolcanicFair"
+	orbitBodyType "VolcanicFair"
+	orbitBodyType "VolcanicFair"
+	orbitBodyType "AsteroidFair"
+	orbitBodyType "AsteroidFair"
+	orbitBodyType "AsteroidFair"
+	orbitBodyType "AsteroidFair"
+	orbitBodyType "MoonFair"
+	orbitBodyType "MoonFair"
+	orbitBodyType "MoonFair"
+	orbitBodyType "MoonFair"
+	orbitBodyType "AsteroidBeltFair"
+	orbitBodyType "AsteroidBeltFair"
+	orbitBodyType "AsteroidBeltFair"
+	orbitBodyType "AsteroidSpaceJunkFair"
+	orbitBodyType "Comet"
+	orbitBodyType "IceField"
+	orbitBodyType "AntimatterFountain"
+	orbitBodyType "ShatteredMoon"
+	orbitBodyType "RadiationStorm"
+	orbitBodyType "GasGiantFair"
+	orbitBodyType "DeadAsteroid"
+	orbitBodyType "PlasmaStormFair"
+	orbitBodyType "MagneticCloud"
+	orbitBodyType "Barren"
+	orbitBodyType "Oceanic"
+	orbitBodyType "Ferrus"
+	orbitBodyType "Greenhouse"
+planetType
+	designName "WeightedColonizableFair"
+	designStringId "IDSGalaxyScenarioTypePlanetWeightedColonizableFair"
+	orbitBodyTypeCount 17
+	orbitBodyType "TerranFair"
+	orbitBodyType "TerranFair"
+	orbitBodyType "IceFair"
+	orbitBodyType "IceFair"
+	orbitBodyType "DesertFair"
+	orbitBodyType "DesertFair"
+	orbitBodyType "DesertFair"
+	orbitBodyType "VolcanicFair"
+	orbitBodyType "VolcanicFair"
+	orbitBodyType "VolcanicFair"
+	orbitBodyType "AsteroidFair"
+	orbitBodyType "GreenhouseFair"
+	orbitBodyType "GreenhouseFair"	
+	orbitBodyType "MoonFair"
+	orbitBodyType "Barren"
+	orbitBodyType "Oceanic"
+	orbitBodyType "Ferrus"
+planetType
+	designName "AsteroidOrDeadFair"
+	designStringId "IDSGalaxyScenarioTypePlanetAsteroidOrDeadFair"
+	orbitBodyTypeCount 5
+	orbitBodyType "AsteroidFair"
+	orbitBodyType "MoonFair"
+	orbitBodyType "DeadAsteroid"
+	orbitBodyType "AsteroidBeltFair"
+	orbitBodyType "AsteroidSpaceJunkFair"
+planetType
+	designName "AsteroidOrMoon"
+	designStringId "IDSGalaxyScenarioTypePlanetAsteroidOrMoon"
+	orbitBodyTypeCount 8
+	orbitBodyType "Asteroid"
+	orbitBodyType "AsteroidB"
+	orbitBodyType "AsteroidC"
+	orbitBodyType "AsteroidD"	
+	orbitBodyType "Moon"
+	orbitBodyType "MoonB"
+	orbitBodyType "MoonC"	
+	orbitBodyType "MoonD"	
+planetType
+	designName "AsteroidOrMoonFair"
+	designStringId "IDSGalaxyScenarioTypePlanetAsteroidOrMoonFair"
+	orbitBodyTypeCount 2
+	orbitBodyType "AsteroidFair"
+	orbitBodyType "MoonFair"
+planetType
+	designName "RandomFair"
+	designStringId "IDSGalaxyScenarioTypePlanetRandomFair"
+	orbitBodyTypeCount 15
+	orbitBodyType "TerranFair"
+	orbitBodyType "IceFair"
+	orbitBodyType "DesertFair"
+	orbitBodyType "VolcanicFair"
+	orbitBodyType "AsteroidFair"
+	orbitBodyType "MoonFair"
+	orbitBodyType "DeadAsteroid"
+	orbitBodyType "AsteroidBeltFair"
+	orbitBodyType "AsteroidSpaceJunkFair"
+	orbitBodyType "GasGiantFair"
+	orbitBodyType "GreenhouseFair"
+	orbitBodyType "GreenhouseFair"
+	orbitBodyType "Barren"
+	orbitBodyType "Oceanic"
+	orbitBodyType "Ferrus"
+planetType
+	designName "RandomTrueFair"
+	designStringId "IDSGalaxyScenarioTypePlanetRandomTrueFair"
+	orbitBodyTypeCount 9
+	orbitBodyType "TerranFair"
+	orbitBodyType "IceFair"
+	orbitBodyType "DesertFair"
+	orbitBodyType "VolcanicFair"
+	orbitBodyType "GreenhouseFair"
+	orbitBodyType "GreenhouseFair"
+	orbitBodyType "Barren"
+	orbitBodyType "Oceanic"
+	orbitBodyType "Ferrus"
+planetType
+	designName "RandomTrueNonIceFair"
+	designStringId "IDSGalaxyScenarioTypePlanetRandomTrueNonIceFair"
+	orbitBodyTypeCount 8
+	orbitBodyType "TerranFair"
+	orbitBodyType "DesertFair"
+	orbitBodyType "VolcanicFair"
+	orbitBodyType "GreenhouseFair"
+	orbitBodyType "GreenhouseFair"
+	orbitBodyType "Barren"
+	orbitBodyType "Oceanic"
+	orbitBodyType "Ferrus"
+planetType
+	designName "RandomTrueNonTerranFair"
+	designStringId "IDSGalaxyScenarioTypePlanetRandomTrueNonTerranFair"
+	orbitBodyTypeCount 8
+	orbitBodyType "IceFair"
+	orbitBodyType "DesertFair"
+	orbitBodyType "VolcanicFair"
+	orbitBodyType "GreenhouseFair"
+	orbitBodyType "GreenhouseFair"	
+	orbitBodyType "Barren"
+	orbitBodyType "Oceanic"
+	orbitBodyType "Ferrus"
+planetType
+	designName "RandomSpecialFair"
+	designStringId "IDSGalaxyScenarioTypePlanetRandomSpecialFair"
+	orbitBodyTypeCount 2
+	orbitBodyType "GasGiantFair"
+	orbitBodyType "PlasmaStormFair"
+planetType
+	designName "RandomUncolonizableFair"
+	designStringId "IDSGalaxyScenarioTypePlanetRandomUncolonizableFair"
+	orbitBodyTypeCount 5
+	orbitBodyType "GasGiantFair"
+	orbitBodyType "AsteroidBeltFair"
+	orbitBodyType "AsteroidSpaceJunkFair"
+	orbitBodyType "PlasmaStormFair"
+	orbitBodyType "MagneticCloud"
+planetType
+	designName "RandomUncolonizableNonMagneticFair"
+	designStringId "IDSGalaxyScenarioTypeRandomUncolonizalbeNonMagneticFair"
+	orbitBodyTypeCount 4
+	orbitBodyType "AsteroidSpaceJunkFair"
+	orbitBodyType "AsteroidBeltFair"
+	orbitBodyType "GasGiantFair"
+	orbitBodyType "PlasmaStormFair"
+planetType
+	designName "RandomIceVolcanicFair"
+	designStringId "IDSGalaxyScenarioTypeRandomIceVolcanicFair"
+	orbitBodyTypeCount 2
+	orbitBodyType "IceFair"	
+	orbitBodyType "VolcanicFair"	
+planetType
+	designName "TerranFair"
+	designStringId "IDSGalaxyScenarioTypePlanetTerranFair"
+	orbitBodyTypeCount 1
+	orbitBodyType "TerranFair"
+planetType
+	designName "IceFair"
+	designStringId "IDSGalaxyScenarioTypePlanetIceFair"
+	orbitBodyTypeCount 1
+	orbitBodyType "IceFair"
+planetType
+	designName "DesertFair"
+	designStringId "IDSGalaxyScenarioTypePlanetDesertFair"
+	orbitBodyTypeCount 1
+	orbitBodyType "DesertFair"
+planetType
+	designName "VolcanicFair"
+	designStringId "IDSGalaxyScenarioTypePlanetVolcanicFair"
+	orbitBodyTypeCount 1
+	orbitBodyType "VolcanicFair"
+planetType
+	designName "AsteroidFair"
+	designStringId "IDSGalaxyScenarioTypePlanetAsteroidFair"
+	orbitBodyTypeCount 1
+	orbitBodyType "AsteroidFair"
+planetType
+	designName "Moon"
+	designStringId "IDSGalaxyScenarioTypePlanetMoon"
+	orbitBodyTypeCount 1
+	orbitBodyType "Moon"
+planetType
+	designName "MoonB"
+	designStringId "IDSGalaxyScenarioTypePlanetMoon"
+	orbitBodyTypeCount 1
+	orbitBodyType "MoonB"
+planetType
+	designName "MoonC"
+	designStringId "IDSGalaxyScenarioTypePlanetMoon"
+	orbitBodyTypeCount 1
+	orbitBodyType "MoonC"	
+planetType
+	designName "MoonD"
+	designStringId "IDSGalaxyScenarioTypePlanetMoon"
+	orbitBodyTypeCount 1
+	orbitBodyType "MoonD"
+planetType
+	designName "MoonFair"
+	designStringId "IDSGalaxyScenarioTypePlanetMoonFair"
+	orbitBodyTypeCount 1
+	orbitBodyType "MoonFair"	
+planetType
+	designName "AsteroidBeltFair"
+	designStringId "IDSGalaxyScenarioTypePlanetAsteroidBeltFair"
+	orbitBodyTypeCount 1	
+	orbitBodyType "AsteroidBeltFair"
+planetType
+	designName "AsteroidSpaceJunkFair"
+	designStringId "IDSGalaxyScenarioTypePlanetAsteroidSpaceJunkFair"
+	orbitBodyTypeCount 1	
+	orbitBodyType "AsteroidSpaceJunkFair"
+planetType
+	designName "PlasmaStormFair"
+	designStringId "IDSGalaxyScenarioTypePlanetPlasmaStormFair"
+	orbitBodyTypeCount 1
+	orbitBodyType "PlasmaStormFair"	
+planetType
+	designName "GasGiantFair"
+	designStringId "IDSGalaxyScenarioTypePlanetGasGiantFair"
+	orbitBodyTypeCount 1	
+	orbitBodyType "GasGiantFair"
+planetType
+	designName "Wormhole"
+	designStringId "IDSGalaxyScenarioTypePlanetWormhole"
+	orbitBodyTypeCount 1
+	orbitBodyType "Wormhole"
 planetType
 	designName "PirateSanctum"
 	designStringId "IDSGalaxyScenarioTypePlanetSanctum"
@@ -744,7 +974,123 @@ planetType
 	designStringId "IDSGalaxyScenarioTypePlanetAsteroid"
 	orbitBodyTypeCount 1
 	orbitBodyType "AsteroidD"
-orbitBodyTypeCount 57
+orbitBodyTypeCount 87
+orbitBodyType	
+	typeName "Forest_0"
+	entityDefName "PlanetForest_0"
+	defaultTemplateName "Template:DefaultStart_Terran"
+orbitBodyType	
+	typeName "Rock_0"
+	entityDefName "PlanetRock_0"
+	defaultTemplateName "Template:DefaultStart_Desert"
+orbitBodyType	
+	typeName "Oceanic_0"
+	entityDefName "PlanetOceanic_0"
+	defaultTemplateName "Template:DefaultStart_Terran"
+orbitBodyType	
+	typeName "Carbon_0"
+	entityDefName "PlanetCarbon_0"
+	defaultTemplateName "Template:DefaultStart_Desert"	
+orbitBodyType	
+	typeName "Hydrocarbon_0"
+	entityDefName "PlanetHydrocarbon_0"
+	defaultTemplateName "Template:DefaultStart_Desert"	
+orbitBodyType	
+	typeName "Terran_0"
+	entityDefName "PlanetTerran_0"
+	defaultTemplateName "Template:DefaultStart_Terran"	
+orbitBodyType	
+	typeName "Desert_0"
+	entityDefName "PlanetDesert_0"
+	defaultTemplateName "Template:DefaultStart_Desert"
+orbitBodyType	
+	typeName "Desert_1"
+	entityDefName "PlanetDesert_1"
+	defaultTemplateName "Template:DefaultStart_Desert"
+orbitBodyType	
+	typeName "Volcanic_0"
+	entityDefName "PlanetVolcanic_0"
+	defaultTemplateName "Template:DefaultStart_Volcanic"	
+orbitBodyType	
+	typeName "Ice_0"
+	entityDefName "PlanetIce_0"
+	defaultTemplateName "Template:DefaultStart_Ice"	
+orbitBodyType	
+	typeName "GasGiant_0"
+	entityDefName "PlanetGasGiant_0"
+	defaultTemplateName "Template:DefaultStart_Terran"	
+orbitBodyType	
+	typeName "GasGiant_1"
+	entityDefName "PlanetGasGiant_1"
+	defaultTemplateName "Template:DefaultStart_Terran"
+orbitBodyType	
+	typeName "Forest_Moon_0"
+	entityDefName "PlanetForest_Moon_0"
+	defaultTemplateName "Template:DefaultStart_Terran"
+orbitBodyType	
+	typeName "Rock_Moon_0"
+	entityDefName "PlanetRock_Moon_0"
+	defaultTemplateName "Template:DefaultStart_Desert"
+orbitBodyType	
+	typeName "Oceanic_Moon_0"
+	entityDefName "PlanetOceanic_Moon_0"
+	defaultTemplateName "Template:DefaultStart_Terran"
+orbitBodyType	
+	typeName "Carbon_Moon_0"
+	entityDefName "PlanetCarbon_Moon_0"
+	defaultTemplateName "Template:DefaultStart_Desert"	
+orbitBodyType	
+	typeName "Hydrocarbon_Moon_0"
+	entityDefName "PlanetHydrocarbon_Moon_0"
+	defaultTemplateName "Template:DefaultStart_Desert"	
+orbitBodyType	
+	typeName "Terran_Moon_0"
+	entityDefName "PlanetTerran_Moon_0"
+	defaultTemplateName "Template:DefaultStart_Terran"	
+orbitBodyType	
+	typeName "Desert_Moon_0"
+	entityDefName "PlanetDesert_Moon_0"
+	defaultTemplateName "Template:DefaultStart_Desert"
+orbitBodyType	
+	typeName "Desert_Moon_1"
+	entityDefName "PlanetDesert_Moon_1"
+	defaultTemplateName "Template:DefaultStart_Desert"
+orbitBodyType	
+	typeName "Volcanic_Moon_0"
+	entityDefName "PlanetVolcanic_Moon_0"
+	defaultTemplateName "Template:DefaultStart_Volcanic"	
+orbitBodyType	
+	typeName "Ice_Moon_0"
+	entityDefName "PlanetIce_Moon_0"
+	defaultTemplateName "Template:DefaultStart_Ice"	
+orbitBodyType	
+	typeName "City"
+	entityDefName "PlanetCity"
+	defaultTemplateName "Template:DefaultStart_Terran"
+orbitBodyType	
+	typeName "Military"
+	entityDefName "PlanetMilitary"
+	defaultTemplateName "Template:DefaultStart_Terran"
+orbitBodyType	
+	typeName "Industrial"
+	entityDefName "PlanetIndustrial"
+	defaultTemplateName "Template:DefaultStart_Desert"
+orbitBodyType	
+	typeName "Paradise"
+	entityDefName "PlanetParadise"
+	defaultTemplateName "Template:DefaultStart_Terran"
+orbitBodyType	
+	typeName "Toxic"
+	entityDefName "PlanetToxic"
+	defaultTemplateName "Template:DefaultStart_Asteroid"
+orbitBodyType	
+	typeName "Grass"
+	entityDefName "PlanetGrass"
+	defaultTemplateName "Template:DefaultStart_Terran"
+orbitBodyType	
+	typeName "Swamp"
+	entityDefName "PlanetSwamp"
+	defaultTemplateName "Template:DefaultStart_Asteroid"
 orbitBodyType
 	typeName "BlueStar"
 	entityDefName "STAR_BLUE"
@@ -761,6 +1107,10 @@ orbitBodyType
 	typeName "GreenStar"
 	entityDefName "STAR_GREEN"
 	defaultTemplateName ""	
+orbitBodyType	
+	typeName "OrangeStar"
+	entityDefName "STAR_ORANGE"
+	defaultTemplateName ""
 orbitBodyType	
 	typeName "NeutronStar"
 	entityDefName "STAR_NEUTRON"
@@ -784,7 +1134,7 @@ orbitBodyType
 orbitBodyType	
 	typeName "SleeperTower"
 	entityDefName "PlanetDrifterTower"
-	defaultTemplateName "Template:SleeperTower"		
+	defaultTemplateName "Template:SleeperTower"	
 orbitBodyType	
 	typeName "BarrenFair"
 	entityDefName "PlanetBarrenFair"
@@ -876,23 +1226,23 @@ orbitBodyType
 orbitBodyType	
 	typeName "DeadAsteroid"
 	entityDefName "PlanetDeadAsteroid"
-	defaultTemplateName ""	
+	defaultTemplateName "Template:DefaultStart_DeadAsteroid"	
 orbitBodyType	
 	typeName "AsteroidBelt"
 	entityDefName "PlanetAsteroidBelt"
-	defaultTemplateName ""		
+	defaultTemplateName "Template:DefaultStart_DeadAsteroid"		
 orbitBodyType	
 	typeName "AsteroidBeltFair"
 	entityDefName "PlanetAsteroidBeltFair"
-	defaultTemplateName ""		
+	defaultTemplateName "Template:DefaultStart_DeadAsteroid"		
 orbitBodyType	
 	typeName "AsteroidSpaceJunk"
 	entityDefName "PlanetAsteroidSpaceJunk"
-	defaultTemplateName ""	
+	defaultTemplateName "Template:DefaultStart_DeadAsteroid"	
 orbitBodyType	
 	typeName "AsteroidSpaceJunkFair"
 	entityDefName "PlanetAsteroidSpaceJunkFair"
-	defaultTemplateName ""		
+	defaultTemplateName "Template:DefaultStart_DeadAsteroid"		
 orbitBodyType	
 	typeName "GasGiant"
 	entityDefName "PlanetGasGiant"
@@ -900,7 +1250,7 @@ orbitBodyType
 orbitBodyType	
 	typeName "GasGiantFair"
 	entityDefName "PlanetGasGiantFair"
-	defaultTemplateName "Template:DefaultStart_GasGiantFair"	
+	defaultTemplateName "Template:DefaultStart_GasGiantFair"		
 orbitBodyType	
 	typeName "PlasmaStorm"
 	entityDefName "PlanetPlasmaStorm"
@@ -928,7 +1278,7 @@ orbitBodyType
 orbitBodyType	
 	typeName "AntimatterFountain"
 	entityDefName "PlanetAntimatterFountain"
-	defaultTemplateName ""
+	defaultTemplateName "Template:DefaultStart_RadiationStorm"
 orbitBodyType	
 	typeName "PlasmaStormFair"
 	entityDefName "PlanetPlasmaStormFair"
@@ -936,7 +1286,7 @@ orbitBodyType
 orbitBodyType	
 	typeName "MagneticCloud"
 	entityDefName "PlanetMagneticCloud"
-	defaultTemplateName ""
+	defaultTemplateName "Template:DefaultStart_RadiationStorm"
 orbitBodyType
 	typeName "Wormhole"
 	entityDefName "PlanetWormhole"
@@ -948,41 +1298,128 @@ orbitBodyType
 orbitBodyType	
 	typeName "MorduStagging"
 	entityDefName "PlanetPirateSanctum"
-	defaultTemplateName "Template:MorduStagging"
+	defaultTemplateName "Template:MorduStaggingPoint"
 orbitBodyType	
 	typeName "AsteroidB"
 	entityDefName "PlanetAsteroidB"
-	defaultTemplateName "Template:AsteroidB"
+	defaultTemplateName "Template:DefaultStart_AsteroidB"
 orbitBodyType	
 	typeName "AsteroidC"
 	entityDefName "PlanetAsteroidC"
-	defaultTemplateName "Template:AsteroidC"
+	defaultTemplateName "Template:DefaultStart_AsteroidC"
 orbitBodyType	
 	typeName "AsteroidD"
 	entityDefName "PlanetAsteroidD"
-	defaultTemplateName "Template:AsteroidD"
+	defaultTemplateName "Template:DefaultStart_AsteroidD"
 orbitBodyType	
 	typeName "MoonB"
-	entityDefName "PlanetMoon"
-	defaultTemplateName "Template:AsteroidB"
+	entityDefName "PlanetMoonB"
+	defaultTemplateName "Template:DefaultStart_MoonB"
 orbitBodyType	
-	typeName "Moon3"
-	entityDefName "PlanetMoon"
-	defaultTemplateName "Template:AsteroidC"	
+	typeName "MoonC"
+	entityDefName "PlanetMoonC"
+	defaultTemplateName "Template:DefaultStart_MoonC"	
 orbitBodyType	
-	typeName "Moon4"
-	entityDefName "PlanetMoon"
-	defaultTemplateName "Template:AsteroidD"		
-planetItemTypeCount 250
+	typeName "MoonD"
+	entityDefName "PlanetMoonD"
+	defaultTemplateName "Template:DefaultStart_MoonD"
+planetItemTypeCount 236
+planetItemType
+	designName "AllRaces:Frigate:AICredits"
+	entityDefName "FRIGATE_AICREDITS"
+planetItemType
+	designName "Caldari:Frigate:Scout"
+	entityDefName "Caldari_Ship_Frigate_Heron"
+planetItemType
+	designName "Caldari:Frigate:Frigate"
+	entityDefName "Caldari_Ship_Frigate_Condor"	
 planetItemType
 	designName "Caldari:Frigate:Destoyer"
 	entityDefName "Caldari_Ship_Destroyer_Comorant"			
 planetItemType
 	designName "Caldari:Frigate:Cruiser"
-	entityDefName "Caldari_Ship_Cruiser_Caracal"				
+	entityDefName "Caldari_Ship_Cruiser_Caracal"
 planetItemType
 	designName "Caldari:Frigate:Logistics"
-	entityDefName "Caldari_Ship_Cruiser_Osprey"					
+	entityDefName "Caldari_Ship_Cruiser_Osprey"				
+planetItemType
+	designName "Caldari:Frigate:Battlecruiser"
+	entityDefName "Caldari_Ship_Battlecruiser_Drake"
+planetItemType
+	designName "Caldari:Frigate:Battleship"
+	entityDefName "Caldari_Ship_Battleship_Raven"		
+planetItemType
+	designName "Minmatar:Frigate:Scout"
+	entityDefName "Minmatar_Ship_Frigate_Probe"
+planetItemType
+	designName "Minmatar:Frigate:Frigate"
+	entityDefName "Minmatar_Ship_Frigate_Rifter"			
+planetItemType
+	designName "Minmatar:Frigate:Destoyer"
+	entityDefName "Minmatar_Ship_Destroyer_Thrasher"			
+planetItemType
+	designName "Minmatar:Frigate:Cruiser"
+	entityDefName "Minmatar_Ship_Cruiser_Rupture"				
+planetItemType
+	designName "Minmatar:Frigate:Logistics"
+	entityDefName "Minmatar_Ship_Cruiser_Scyther"	
+planetItemType
+	designName "Minmatar:Frigate:Battlecruiser"
+	entityDefName "Minmatar_Ship_Battlecruiser_Hurricane"
+planetItemType
+	designName "Minmatar:Frigate:Battleship"
+	entityDefName "Minmatar_Ship_Battleship_Maelstron"		
+planetItemType
+	designName "Gallente:Frigate:Scout"
+	entityDefName "Gallente_Ship_Frigate_Imicus"
+planetItemType
+	designName "Gallente:Frigate:Frigate"
+	entityDefName "Gallente_Ship_Frigate_Incursus"
+planetItemType
+	designName "Gallente:Frigate:Destoyer"
+	entityDefName "Gallente_Ship_Destroyer_Catalyst"
+planetItemType
+	designName "Gallente:Frigate:Cruiser"
+	entityDefName "Gallente_Ship_Cruiser_Vexor"
+planetItemType
+	designName "Gallente:Frigate:Battlecruiser"
+	entityDefName "Gallente_Ship_Battlecruiser_Brutix"
+planetItemType
+	designName "Gallente:Frigate:Battleship"
+	entityDefName "Gallente_Ship_Battleship_Megathron"
+planetItemType
+	designName "Gallente:Frigate:Logistics"
+	entityDefName "Gallente_Ship_Cruiser_Execuror"
+planetItemType
+	designName "Gallente:Frigate:Constructor"
+	entityDefName "Gallente_Ship_Constructor_Venture"
+planetItemType
+	designName "Amarr:Frigate:Scout"
+	entityDefName "Amarr_Ship_Frigate_Magnate"
+planetItemType
+	designName "Amarr:Frigate:Light"
+	entityDefName "Amarr_Ship_Frigate_Punisher"
+planetItemType
+	designName "Amarr:Frigate:Siege"
+	entityDefName "Amarr_Ship_Frigate_Inquisitor"
+planetItemType
+	designName "Amarr:Frigate:Destroyer"
+	entityDefName "Amarr_Ship_Destroyer_Coercer"
+planetItemType
+	designName "Amarr:Frigate:Cruiser"
+	entityDefName "Amarr_Ship_Cruiser_Omen"
+planetItemType
+	designName "Amarr:Frigate:Battlecruiser"
+	entityDefName "Amarr_Ship_Battlecruiser_Prophecy"
+planetItemType
+	designName "Amarr:Frigate:Battleship"
+	entityDefName "Amarr_Ship_Battleship_Apocalypse"
+planetItemType
+	designName "Amarr:Frigate:Logistics"
+	entityDefName "Amarr_Ship_Cruiser_Augoror"
+planetItemType
+	designName "Amarr:Frigate:Constructor"
+	entityDefName "AllRaces_Ship_Constructor_Venture"
 planetItemType
 	designName "Mordu:Frigate:Shipyard"
 	entityDefName "Mordu_ModuleShipyard"
@@ -1057,7 +1494,7 @@ planetItemType
 	entityDefName "Serpentis_ShipDreadnought_Vehement"
 planetItemType
 	designName "Serpentis:CapitalShip:SuperCarrier"
-	entityDefName "Serpentis_ShipSupercarrier_Vendeta"	
+	entityDefName "Serpentis_ShipSupercarrier_Vendetta"	
 planetItemType
 	designName "Serpentis:CapitalShip:Titan"
 	entityDefName "Serpentis_ShipTitan_Vanquisher"	
@@ -1156,22 +1593,7 @@ planetItemType
 	entityDefName "Angel_StructureShipyard_Raitaru"
 planetItemType
 	designName "Gallente:StarBase"
-	entityDefName "Allraces_Structure_Citadel_Keepstar"
-planetItemType
-	designName "Minmatar:Frigate:Scout"
-	entityDefName "Minmatar_Ship_Frigate_Probe"
-planetItemType
-	designName "Minmatar:Frigate:Frigate"
-	entityDefName "Minmatar_Ship_Frigate_Rifter"			
-planetItemType
-	designName "Minmatar:Frigate:Destoyer"
-	entityDefName "Minmatar_Ship_Destroyer_Thrasher"			
-planetItemType
-	designName "Minmatar:Frigate:Cruiser"
-	entityDefName "Minmatar_Ship_Cruiser_Rupture"				
-planetItemType
-	designName "Minmatar:Frigate:Logistics"
-	entityDefName "Minmatar_Ship_Cruiser_Scyther"						
+	entityDefName "Allraces_Structure_Citadel_Keepstar"					
 planetItemType
 	designName "Gallente:Module:CapitalShipFactory"
 	entityDefName "Gallente_Structure_CapitalShipFactory"
@@ -1180,7 +1602,7 @@ planetItemType
 	entityDefName "Gallente_Structure_CombatLab"
 planetItemType
 	designName "Gallente:Module:CrystalExtractor"
-	entityDefName "PLANETMODULE_PHASEORBITALCRYSTALEXTRACTOR"
+	entityDefName "Allraces_Structure_CrystalExtractor"
 planetItemType
 	designName "Gallente:Module:CultureCenter"
 	entityDefName "Gallente_Structure_CultureCenter"
@@ -1192,7 +1614,7 @@ planetItemType
 	entityDefName "Gallente_Structure_ECMBattery"
 planetItemType
 	designName "Gallente:Module:MetalExtractor"
-	entityDefName "PLANETMODULE_PHASEORBITALMETALEXTRACTOR"
+	entityDefName "Allraces_Structure_MetalExtractor"
 planetItemType
 	designName "Gallente:Module:NonCombatLab"
 	entityDefName "Gallente_Structure_CivillianLab"
@@ -1225,7 +1647,7 @@ planetItemType
 	entityDefName "Amarr_Structure_CombatLab"
 planetItemType
 	designName "Amarr:Module:CrystalExtractor"
-	entityDefName "PLANETMODULE_TECHORBITALCRYSTALEXTRACTOR"
+	entityDefName "Allraces_Structure_CrystalExtractor"
 planetItemType
 	designName "Amarr:Module:CultureCenter"
 	entityDefName "Amarr_Structure_CultureCenter"
@@ -1237,7 +1659,7 @@ planetItemType
 	entityDefName "Amarr_Structure_ECMBattery"
 planetItemType
 	designName "Amarr:Module:MetalExtractor"
-	entityDefName "PLANETMODULE_TECHORBITALMETALEXTRACTOR"
+	entityDefName "Allraces_Structure_MetalExtractor"
 planetItemType
 	designName "Amarr:Module:NonCombatLab"
 	entityDefName "Amarr_Structure_CivillianLab"
@@ -1263,143 +1685,29 @@ planetItemType
 	designName "Pirate:Module:GaussDefense"
 	entityDefName "Amarr_Structure_SmallPulseLaserBattery"
 planetItemType
-	designName "Gallente:Frigate:Destoyer"
-	entityDefName "Gallente_Ship_Destroyer_Catalyst"
-planetItemType
-	designName "Gallente:Frigate:Carrier"
-	entityDefName "Gallente_Ship_Cruiser_Celestis"
-planetItemType
-	designName "Gallente:Frigate:Colony"
-	entityDefName "Gallente_Ship_Colony_Orca"
-planetItemType
-	designName "Gallente:Frigate:Heavy"
-	entityDefName "Gallente_Ship_Battlecruiser_Myrmidon"
-planetItemType
-	designName "Gallente:Frigate:Frigate"
-	entityDefName "Gallente_Ship_Frigate_Incursus"
-planetItemType
-	designName "Gallente:Frigate:Cruiser"
-	entityDefName "Gallente_Ship_Cruiser_Vexor"
-planetItemType
-	designName "Gallente:Frigate:Scout"
-	entityDefName "Gallente_Ship_Frigate_Imicus"
-planetItemType
-	designName "Gallente:Frigate:Siege"
-	entityDefName "Gallente_Ship_Frigate_Tristan"
-planetItemType
-	designName "Gallente:Frigate:Utility0"
-	entityDefName "Gallente_Ship_Battlecruiser_Brutix"
-planetItemType
-	designName "Gallente:Frigate:Logistics"
-	entityDefName "Gallente_Ship_Cruiser_Execuror"
-planetItemType
-	designName "Gallente:Frigate:Constructor"
-	entityDefName "Gallente_Ship_Constructor_Venture"	
-planetItemType
-	designName "Gallente:Corvette:Loyalist"
-	entityDefName "Gallente_Ship_Frigate_Atron"
-planetItemType
-	designName "Gallente:Frigate:Envoy"
-	entityDefName "Gallente_Ship_Envoy_Brutix"
-planetItemType
-	designName "Amarr:Frigate:AntiFighter"
-	entityDefName "Amarr_Ship_Destroyer_Coercer"
-planetItemType
-	designName "Amarr:Frigate:Carrier"
-	entityDefName "Amarr_Ship_Cruiser_Arbitrator"
-planetItemType
-	designName "Amarr:Frigate:Colony"
-	entityDefName "Amarr_Ship_Colony_Orca"
-planetItemType
-	designName "Amarr:Frigate:Heavy"
-	entityDefName "Amarr_Ship_Battlecruiser_Harbinger"
-planetItemType
-	designName "Amarr:Frigate:Light"
-	entityDefName "Amarr_Ship_Frigate_Punisher"
-planetItemType
-	designName "Minmatar:Frigate:Light"
-	entityDefName "Minmatar_Ship_Frigate_Rifter"	
-planetItemType
-	designName "Amarr:Frigate:LongRange"
-	entityDefName "Amarr_Ship_Cruiser_Omen"
-planetItemType
-	designName "Amarr:Frigate:Scout"
-	entityDefName "Amarr_Ship_Frigate_Magnate"
-planetItemType
-	designName "Amarr:Frigate:Siege"
-	entityDefName "Amarr_Ship_Frigate_Inquisitor"
-planetItemType
-	designName "Amarr:Frigate:Utility0"
-	entityDefName "Amarr_Ship_Battlecruiser_Prophecy"
-planetItemType
-	designName "Amarr:Frigate:Utility1"
-	entityDefName "Amarr_Ship_Cruiser_Augoror"
-planetItemType
-	designName "Amarr:Frigate:Constructor"
-	entityDefName "Amarr_Ship_Constructor_Venture"
-planetItemType
-	designName "Amarr:Frigate:Envoy"
-	entityDefName "Amarr_Ship_Envoy_Prophecy"
-planetItemType
-	designName "Amarr:Corvette:Loyalist"
-	entityDefName "Amarr_Ship_Frigate_Excecutioner"
-planetItemType
-	designName "Gallente:CapitalShip:BattleShip"
-	entityDefName "Gallente_Ship_Carrier_Thanatos"
-planetItemType
 	designName "Gallente:CapitalShip:BattleShip2"
 	entityDefName "Gallente_Ship_ColonyCapital_Rorqual"
 planetItemType
-	designName "Gallente:CapitalShip:Carrier"
-	entityDefName "Gallente_Ship_Supercarrier_Nyx"
-planetItemType
-	designName "Gallente:CapitalShip:Colony"
-	entityDefName "Gallente_Ship_Dreadnought_Moros_ShortRange"
-planetItemType
-	designName "Gallente:CapitalShip:Scout"
-	entityDefName "Gallente_Ship_Carrier_Triage_Thanatos"
-planetItemType
-	designName "Gallente:CapitalShip:Siege"
-	entityDefName "Gallente_Ship_Dreadnought_Moros_LongRange"
-planetItemType
-	designName "Amarr:CapitalShip:BattleShip"
-	entityDefName "Amarr_Ship_Carrier_Archon"
-planetItemType
-	designName "Amarr:CapitalShip:Carrier"
-	entityDefName "Amarr_Ship_Supercarrier_Aeon"
-planetItemType
-	designName "Amarr:CapitalShip:Colony"
-	entityDefName "Amarr_Ship_Dreadnought_Revelation_ShortRange"
-planetItemType
 	designName "Amarr:CapitalShip:Transport"
-	entityDefName "Amarr_Ship_ColonyCapital_Rorqual"
+	entityDefName "Amarr_Ship_ColonyCapital_Rorqual"	
 planetItemType
 	designName "Gallente:Titan:Loyalist"
 	entityDefName "Gallente_Ship_Titan_Erebus"
 planetItemType
-	designName "Amarr:Titan:Loyalist"
-	entityDefName "Amarr_Ship_Titan_Avatar"
-planetItemType
 	designName "Pirate:Frigate:Medium"
-	entityDefName "FrigatePirateMedium"
+	entityDefName "BloodRaider_ShipCruiser_Augoror"
 planetItemType
 	designName "Pirate:Frigate:Scout"
-	entityDefName "BloodRaider_Ship_Battleship_CorpusDarkCommander"
+	entityDefName "Bloodraider_ShipFrigateCruor"
 planetItemType
 	designName "Pirate:Frigate:Siege"
-	entityDefName "FrigatePirateSiege"
+	entityDefName "BloodRaider_ShipBattleshipBhaalgorn"
 planetItemType
 	designName "Pirate:Frigate:Heavy"
-	entityDefName "FrigatePirateHeavy"
+	entityDefName "BloodRaider_Ship_Battleship_CorpusDarkCommander"
 planetItemType
 	designName "Pirate:Frigate:AntiFighter"
-	entityDefName "FrigatePirateAntiFighter"
-planetItemType
-	designName "Bonus:FW:AbandonedNaniteFactory"
-	entityDefName "PlanetBonusAbandonedNaniteFactory"
-planetItemType
-	designName "Bonus:FW:AblativeCrust"
-	entityDefName "PlanetBonusAblativeCrust"
+	entityDefName "Bloodraider_ShipCruiserAshimuu"
 planetItemType
 	designName "Bonus:CrystalMiners"
 	entityDefName "PlanetBonusCrystalMiners"
@@ -1440,74 +1748,17 @@ planetItemType
 	designName "Bonus:AcidAtmosphere"
 	entityDefName "PlanetBonusAcidAtmosphere"
 planetItemType
-	designName "Bonus:FW:AncientArcology"
-	entityDefName "PlanetBonusAncientArcology"
-planetItemType
-	designName "Bonus:FW:AncientMineFactory"
-	entityDefName "PlanetBonusAncientMineFactory"
-planetItemType
-	designName "Bonus:FW:AntimatterCores"
-	entityDefName "PlanetBonusAntimatterCores"
-planetItemType
-	designName "Bonus:FW:AutomatedFactories"
-	entityDefName "PlanetBonusAutomatedFactories"
-planetItemType
-	designName "Bonus:FW:BombardmentShelters"
-	entityDefName "PlanetBonusBombardmentShelters"
-planetItemType
-	designName "Bonus:FW:ChaoticSociety"
-	entityDefName "PlanetBonusChaoticSociety"
-planetItemType
-	designName "Bonus:ConductiveInterior"
-	entityDefName "PlanetBonusConductiveInterior"
-planetItemType
-	designName "Bonus:CrystalMiners"
-	entityDefName "PlanetBonusCrystalMiners"
-planetItemType
-	designName "Bonus:FW:DeathWorld"
-	entityDefName "PlanetBonusDeathWorld"
-planetItemType
-	designName "Bonus:FW:DenseAtmosphere"
-	entityDefName "PlanetBonusDenseAtmosphere"
-planetItemType
-	designName "Bonus:FW:DenseCore"
-	entityDefName "PlanetBonusDenseCore"
-planetItemType
 	designName "Bonus:CavernSystem"
 	entityDefName "PlanetBonusCavernSystem"
 planetItemType
 	designName "Bonus:DustStorms"
 	entityDefName "PlanetBonusDustStorms"
 planetItemType
-	designName "Bonus:FW:FeudalSociety"
-	entityDefName "PlanetBonusFeudalSociety"
-planetItemType
-	designName "Bonus:FW:FortressWorld"
-	entityDefName "PlanetBonusFortressWorld"
-planetItemType
-	designName "Bonus:FW:FreeMarketSociety"
-	entityDefName "PlanetBonusFreeMarketSociety"
-planetItemType
-	designName "Bonus:FW:FrequentRaiders"
-	entityDefName "PlanetBonusFrequentRaiders"
-planetItemType
-	designName "Bonus:FW:FusionPowerCore"
-	entityDefName "PlanetBonusFusionPowerCore"
-planetItemType
-	designName "Bonus:FW:HealingNanites"
-	entityDefName "PlanetBonusHealingNanites"
-planetItemType
 	designName "Bonus:HighGravity"
 	entityDefName "PlanetBonusHighGravity"
 planetItemType
 	designName "Bonus:HugeGlaciers"
 	entityDefName "PlanetBonusHugeGlaciers"
-planetItemType
-	designName "Bonus:FW:IntenseGravityField"
-	entityDefName "PlanetBonusIntenseGravityField"
-planetItemType
-	designName "Bonus:FW:InterstellarExchange"
-	entityDefName "PlanetBonusInterstellarExchange"
 planetItemType
 	designName "Bonus:IonicStorms"
 	entityDefName "PlanetBonusIonicStorms"
@@ -1524,47 +1775,17 @@ planetItemType
 	designName "Bonus:MetalMiners"
 	entityDefName "PlanetBonusMetalMiners"
 planetItemType
-	designName "Bonus:FW:ModernSociety"
-	entityDefName "PlanetBonusModernSociety"
-planetItemType
-	designName "Bonus:FW:OceanicEnergyConverter"
-	entityDefName "PlanetBonusOceanicEnergyConverter"
-planetItemType
-	designName "Bonus:FW:OrderedSociety"
-	entityDefName "PlanetBonusOrderedSociety"
-planetItemType
-	designName "Bonus:FW:PacifistSociety"
-	entityDefName "PlanetBonusPacifistSociety"
-planetItemType
 	designName "Bonus:PenalColony"
 	entityDefName "PlanetBonusPenalColony"
 planetItemType
 	designName "Bonus:PirateTreasure"
 	entityDefName "PlanetBonusPirateTreasure"
 planetItemType
-	designName "Bonus:FW:PlanetaryCorruption"
-	entityDefName "PlanetBonusPlanetaryCorruption"
-planetItemType
-	designName "Bonus:FW:PollutedEnvironment"
-	entityDefName "PlanetBonusPollutedEnvironment"
-planetItemType
-	designName "Bonus:FW:PopulationBoom"
-	entityDefName "PlanetBonusPopulationBoom"
-planetItemType
-	designName "Bonus:FW:QuantumCommHub"
-	entityDefName "PlanetBonusQuantumCommHub"
-planetItemType
 	designName "Bonus:RareMetalDeposits"
 	entityDefName "PlanetBonusRareMetalDeposits0"
 planetItemType
-	designName "Bonus:FW:RustedCore"
-	entityDefName "PlanetBonusRustedCore"
-planetItemType
 	designName "Bonus:SalvagerOutpost"
 	entityDefName "PlanetBonusSalvagerOutpost"
-planetItemType
-	designName "Bonus:FW:ShipFactories"
-	entityDefName "PlanetBonusShipFactories"
 planetItemType
 	designName "Bonus:SpiceTrade"
 	entityDefName "PlanetBonusSpiceTrade"
@@ -1572,53 +1793,140 @@ planetItemType
 	designName "Bonus:StrictSecuirty"
 	entityDefName "PlanetBonusStrictSecurity"
 planetItemType
-	designName "Bonus:FW:StrongMagneticField"
-	entityDefName "PlanetBonusStrongMagneticField"
-planetItemType
-	designName "Bonus:FW:SubsurfaceCrystalDeposits"
-	entityDefName "PlanetBonusSubsurfaceCrystalDeposits"
-planetItemType
-	designName "Bonus:FW:SubsurfaceMetalDeposits"
-	entityDefName "PlanetBonusSubsurfaceMetalDeposits"
-planetItemType
-	designName "Bonus:FW:SubzeroTwisters"
-	entityDefName "PlanetBonusSubzeroTwisters"
-planetItemType
 	designName "Bonus:SurplusFoodstuffs"
 	entityDefName "PlanetBonusSurplusFoodstuffs"
 planetItemType
 	designName "Bonus:ThermalLift"
 	entityDefName "PlanetBonusThermalLift"
 planetItemType
-	designName "Bonus:FW:TraderMining"
-	entityDefName "PlanetBonusTraderMining"
-planetItemType
-	designName "Bonus:FW:TrainingAcademy"
-	entityDefName "PlanetBonusTrainingAcademy"
-planetItemType
-	designName "Bonus:FW:TropicalParadise"
-	entityDefName "PlanetBonusTropicalParadise"
-planetItemType
 	designName "Bonus:TundraFarms"
 	entityDefName "PlanetBonusTundraFarms"
-planetItemType
-	designName "Bonus:FW:UnderseaCaverns"
-	entityDefName "PlanetBonusUnderseaCaverns"
-planetItemType
-	designName "Bonus:FW:UnityNomads"
-	entityDefName "PlanetBonusUnityNomads"
 planetItemType
 	designName "Bonus:VacationCenter"
 	entityDefName "PlanetBonusVacationCenter"
 planetItemType
-	designName "Bonus:FW:VirtualRealityPark"
+	designName "Bonus:WeaponTestGrounds"
+	entityDefName "PlanetBonusWeaponTestGrounds"
+planetItemType
+	designName "Bonus:AbandonedNaniteFactory"
+	entityDefName "PlanetBonusAbandonedNaniteFactory"
+planetItemType
+	designName "Bonus:AblativeCrust"
+	entityDefName "PlanetBonusAblativeCrust"
+planetItemType
+	designName "Bonus:AncientArcology"
+	entityDefName "PlanetBonusAncientArcology"
+planetItemType
+	designName "Bonus:AncientMineFactory"
+	entityDefName "PlanetBonusAncientMineFactory"
+planetItemType
+	designName "Bonus:AntimatterCores"
+	entityDefName "PlanetBonusAntimatterCores"
+planetItemType
+	designName "Bonus:AutomatedFactories"
+	entityDefName "PlanetBonusAutomatedFactories"
+planetItemType
+	designName "Bonus:BombardmentShelters"
+	entityDefName "PlanetBonusBombardmentShelters"
+planetItemType
+	designName "Bonus:ChaoticSociety"
+	entityDefName "PlanetBonusChaoticSociety"
+planetItemType
+	designName "Bonus:DeathWorld"
+	entityDefName "PlanetBonusDeathWorld"
+planetItemType
+	designName "Bonus:DenseAtmosphere"
+	entityDefName "PlanetBonusDenseAtmosphere"
+planetItemType
+	designName "Bonus:DenseCore"
+	entityDefName "PlanetBonusDenseCore"
+planetItemType
+	designName "Bonus:FeudalSociety"
+	entityDefName "PlanetBonusFeudalSociety"
+planetItemType
+	designName "Bonus:FortressWorld"
+	entityDefName "PlanetBonusFortressWorld"
+planetItemType
+	designName "Bonus:FreeMarketSociety"
+	entityDefName "PlanetBonusFreeMarketSociety"
+planetItemType
+	designName "Bonus:FrequentRaiders"
+	entityDefName "PlanetBonusFrequentRaiders"
+planetItemType
+	designName "Bonus:FusionPowerCore"
+	entityDefName "PlanetBonusFusionPowerCore"
+planetItemType
+	designName "Bonus:HealingNanites"
+	entityDefName "PlanetBonusHealingNanites"
+planetItemType
+	designName "Bonus:IntenseGravityField"
+	entityDefName "PlanetBonusIntenseGravityField"
+planetItemType
+	designName "Bonus:InterstellarExchange"
+	entityDefName "PlanetBonusInterstellarExchange"
+planetItemType
+	designName "Bonus:ModernSociety"
+	entityDefName "PlanetBonusModernSociety"
+planetItemType
+	designName "Bonus:OceanicEnergyConverter"
+	entityDefName "PlanetBonusOceanicEnergyConverter"
+planetItemType
+	designName "Bonus:OrderedSociety"
+	entityDefName "PlanetBonusOrderedSociety"
+planetItemType
+	designName "Bonus:PacifistSociety"
+	entityDefName "PlanetBonusPacifistSociety"
+planetItemType
+	designName "Bonus:PlanetaryCorruption"
+	entityDefName "PlanetBonusPlanetaryCorruption"
+planetItemType
+	designName "Bonus:PollutedEnvironment"
+	entityDefName "PlanetBonusPollutedEnvironment"
+planetItemType
+	designName "Bonus:PopulationBoom"
+	entityDefName "PlanetBonusPopulationBoom"
+planetItemType
+	designName "Bonus:QuantumCommHub"
+	entityDefName "PlanetBonusQuantumCommHub"
+planetItemType
+	designName "Bonus:RustedCore"
+	entityDefName "PlanetBonusRustedCore"
+planetItemType
+	designName "Bonus:ShipFactories"
+	entityDefName "PlanetBonusShipFactories"
+planetItemType
+	designName "Bonus:StrongMagneticField"
+	entityDefName "PlanetBonusStrongMagneticField"
+planetItemType
+	designName "Bonus:SubsurfaceCrystalDeposits"
+	entityDefName "PlanetBonusSubsurfaceCrystalDeposits"
+planetItemType
+	designName "Bonus:SubsurfaceMetalDeposits"
+	entityDefName "PlanetBonusSubsurfaceMetalDeposits"
+planetItemType
+	designName "Bonus:SubzeroTwisters"
+	entityDefName "PlanetBonusSubzeroTwisters"
+planetItemType
+	designName "Bonus:TraderMining"
+	entityDefName "PlanetBonusTraderMining"
+planetItemType
+	designName "Bonus:TrainingAcademy"
+	entityDefName "PlanetBonusTrainingAcademy"
+planetItemType
+	designName "Bonus:TropicalParadise"
+	entityDefName "PlanetBonusTropicalParadise"
+planetItemType
+	designName "Bonus:UnderseaCaverns"
+	entityDefName "PlanetBonusUnderseaCaverns"
+planetItemType
+	designName "Bonus:UnityNomads"
+	entityDefName "PlanetBonusUnityNomads"
+planetItemType
+	designName "Bonus:VirtualRealityPark"
 	entityDefName "PlanetBonusVirtualRealityPark"
 planetItemType
-	designName "Bonus:FW:VirulentPlague"
+	designName "Bonus:VirulentPlague"
 	entityDefName "PlanetBonusVirulentPlague"
-planetItemType
-	designName "Bonus:WeaponTestGrounds"
-	entityDefName "PlanetBonusWeaponTestGrounds"		
 planetItemType
 	designName "Artifact:WeaponBoost"
 	entityDefName "RESEARCHSUBJECT_ARTIFACT_WEAPONBOOST"
@@ -1724,9 +2032,9 @@ planetItemType
 planetItemType
 	designName "Caldari:Frigate:Frigate"
 	entityDefName "Caldari_Ship_Frigate_kestrel"	
-playerTypeCount 13
+playerTypeCount 12
 playerType
-	designName "AmarrEmpire"
+	designName "Amarr"
 	entityDefName "Player_AmarrEmpire"
 playerType
 	designName "Caldari"
@@ -1735,20 +2043,14 @@ playerType
 	designName "Minmatar"
 	entityDefName "Player_MinmatarRepublic"
 playerType
-	designName "GallenteFederation"
+	designName "Gallente"
 	entityDefName "Player_GallenteFederation"
 playerType
-	designName "TechRebel"
-	entityDefName "PlayerTechRebel"
+	designName "Mordu"
+	entityDefName "Player_Mordu"
 playerType
 	designName "Pirate"
 	entityDefName "PlayerPirate"
-playerType
-	designName "Amarr"
-	entityDefName "Player_AmarrEmpire"
-playerType
-	designName "Gallente"
-	entityDefName "Player_AmarrEmpire"
 playerType
 	designName "Angel"
 	entityDefName "Player_Angel"	
@@ -1763,8 +2065,11 @@ playerType
 	entityDefName "Player_Gurista"	
 playerType
 	designName "Sleepers"
-	entityDefName "Player_Sleepers"
-planetItemsTemplateCount 73
+	entityDefName "Player_Sleepers"	
+playerType
+	designName "SOE"
+	entityDefName "Player_SOE"		
+planetItemsTemplateCount 91
 planetItemsTemplate
 	templateName "Empty"
 	subTemplates 0
@@ -1776,10 +2081,11 @@ planetItemsTemplate
 		group
 			condition
 				type "PlanetOwnerIsRaceNormalStart"
-				param "AmarrEmpire"
+				param "Amarr"
 			owner "PlanetOwner"
 			colonizeChance 1
-			items 5
+			items 6
+				item "AllRaces:Frigate:AICredits"
 				item "Amarr:Module:FrigateFactory"
 				item "Amarr:Module:FrigateFactory"			
 				item "Amarr:Frigate:Constructor"
@@ -1791,7 +2097,8 @@ planetItemsTemplate
 				param "Minmatar"
 			owner "PlanetOwner"
 			colonizeChance 1
-			items 5		
+			items 6
+				item "AllRaces:Frigate:AICredits"
 				item "Amarr:Module:FrigateFactory"
 				item "Amarr:Module:FrigateFactory"
 				item "Amarr:Frigate:Constructor"
@@ -1800,10 +2107,11 @@ planetItemsTemplate
 		group
 			condition
 				type "PlanetOwnerIsRaceNormalStart"
-				param "GallenteFederation"
+				param "Gallente"
 			owner "PlanetOwner"
 			colonizeChance 1
-			items 5
+			items 6
+				item "AllRaces:Frigate:AICredits"
 				item "Gallente:Module:FrigateFactory"
 				item "Gallente:Module:FrigateFactory"
 				item "Gallente:Frigate:Constructor"
@@ -1815,7 +2123,8 @@ planetItemsTemplate
 				param "Caldari"
 			owner "PlanetOwner"
 			colonizeChance 1
-			items 5
+			items 6
+				item "AllRaces:Frigate:AICredits"
 				item "Gallente:Module:FrigateFactory"
 				item "Gallente:Module:FrigateFactory"
 				item "Gallente:Frigate:Constructor"
@@ -1824,10 +2133,11 @@ planetItemsTemplate
 		group
 			condition
 				type "PlanetOwnerIsRaceQuickStart"
-				param "AmarrEmpire"
+				param "Amarr"
 			owner "PlanetOwner"
 			colonizeChance 1
-			items 11
+			items 12
+				item "AllRaces:Frigate:AICredits"
 				item "Amarr:Module:FrigateFactory"
 				item "Amarr:Module:FrigateFactory"				
 				item "Amarr:Module:CapitalShipFactory"
@@ -1845,7 +2155,8 @@ planetItemsTemplate
 				param "Minmatar"
 			owner "PlanetOwner"
 			colonizeChance 1
-			items 11
+			items 12
+				item "AllRaces:Frigate:AICredits"
 				item "Amarr:Module:FrigateFactory"
 				item "Amarr:Module:FrigateFactory"				
 				item "Amarr:Module:CapitalShipFactory"
@@ -1860,10 +2171,11 @@ planetItemsTemplate
 		group
 			condition
 				type "PlanetOwnerIsRaceQuickStart"
-				param "GallenteFederation"
+				param "Gallente"
 			owner "PlanetOwner"
 			colonizeChance 1
-			items 11
+			items 12
+				item "AllRaces:Frigate:AICredits"
 				item "Gallente:Module:FrigateFactory"
 				item "Gallente:Module:FrigateFactory"
 				item "Gallente:Module:CapitalShipFactory"
@@ -1881,7 +2193,8 @@ planetItemsTemplate
 				param "Caldari"
 			owner "PlanetOwner"
 			colonizeChance 1
-			items 11
+			items 12
+				item "AllRaces:Frigate:AICredits"
 				item "Gallente:Module:FrigateFactory"
 				item "Gallente:Module:FrigateFactory"
 				item "Gallente:Module:CapitalShipFactory"
@@ -1892,191 +2205,25 @@ planetItemsTemplate
 				item "Gallente:Frigate:Constructor"
 				item "Caldari:Frigate:Scout"
 				item "Caldari:Frigate:Scout"
-				item "Gallente:CapitalShip:BattleShip2"				
-planetItemsTemplate
-	templateName "Template:DefaultStart_Terran"
-	subTemplates 2
-		template "Template:DefaultHomePlanetSetup"
-		template "Template:LocalMilitia_Terran"
-	groups 0
-planetItemsTemplate
-	templateName "Template:DefaultStart_Desert"
-	subTemplates 2
-		template "Template:DefaultHomePlanetSetup"
-		template "Template:LocalMilitia_Desert"
-	groups 0
-planetItemsTemplate
-	templateName "Template:DefaultStart_Volcanic"
-	subTemplates 2
-		template "Template:DefaultHomePlanetSetup"
-		template "Template:LocalMilitia_Volcanic"
-	groups 0
-planetItemsTemplate
-	templateName "Template:DefaultStart_Asteroid"
-	subTemplates 2		
-		template "Template:DefaultHomePlanetSetup"
-		template "Template:LocalMilitia_Asteroid"
-	groups 0
-planetItemsTemplate
-	templateName "Template:DefaultStart_Sleeper"
-	subTemplates 1
-		template "Template:LocalMilitia_Sleeper"			
-	groups 0		
-planetItemsTemplate
-	templateName "Template:DefaultStart_AsteroidB"
-	subTemplates 2		
-		template "Template:DefaultHomePlanetSetup"
-		template "Template:LocalMilitia_AsteroidB"
-	groups 0	
-planetItemsTemplate
-	templateName "Template:DefaultStart_DeadAsteroid"
-	subTemplates 1
-		template "Template:LocalMilitia_DeadAsteroid"
-	groups 0
-planetItemsTemplate
-	templateName "Template:DefaultStart_ShipGraveyard"
-	subTemplates 1
-		template "Template:LocalMilitia_ShipGraveyard"
-	groups 0
-planetItemsTemplate
-	templateName "Template:DefaultStart_GasGiant"
-	subTemplates 1
-		template "Template:LocalMilitia_GasGiant"
-	groups 0
-planetItemsTemplate
-	templateName "Template:DefaultStart_PlasmaStorm"
-	subTemplates 1
-		template "Template:LocalMilitia_PlasmaStorm"
-	groups 0
-planetItemsTemplate
-	templateName "Template:DefaultStart_Comet"
-	subTemplates 1
-		template "Template:LocalMilitiaVeryWeakUncolonizable"
-	groups 0
-planetItemsTemplate
-	templateName "Template:DefaultStart_IceField"
-	subTemplates 1
-		template "Template:LocalMilitiaWeakUncolonizable"
-	groups 0
-planetItemsTemplate
-	templateName "Template:DefaultStart_ShatteredMoon"
-	subTemplates 1
-		template "Template:LocalMilitiaWeakUncolonizable"
-	groups 0
-planetItemsTemplate
-	templateName "Template:DefaultStart_RadiationStorm"
-	subTemplates 1
-		template "Template:LocalMilitiaVeryWeakUncolonizable"
-	groups 0
-planetItemsTemplate
-	templateName "Template:DefaultStart_AntimatterFountain"
-	subTemplates 1
-		template "Template:LocalMilitiaVeryWeakUncolonizable"
-	groups 0
-planetItemsTemplate
-	templateName "Template:DefaultStart_Ice"
-	subTemplates 2
-		template "Template:DefaultHomePlanetSetup"
-		template "Template:LocalMilitia_Ice"
-	groups 0
-planetItemsTemplate
-	templateName "Template:DefaultStart_TerranFair"
-	subTemplates 2
-		template "Template:DefaultHomePlanetSetup"
-		template "Template:LocalMilitia_TerranFair"
-	groups 0
-planetItemsTemplate
-	templateName "Template:DefaultStart_DesertFair"
-	subTemplates 2
-		template "Template:DefaultHomePlanetSetup"
-		template "Template:LocalMilitia_DesertFair"
-	groups 0
-planetItemsTemplate
-	templateName "Template:DefaultStart_VolcanicFair"
-	subTemplates 2
-		template "Template:DefaultHomePlanetSetup"
-		template "Template:LocalMilitia_VolcanicFair"
-	groups 0
-planetItemsTemplate
-	templateName "Template:DefaultStart_AsteroidFair"
-	subTemplates 2		
-		template "Template:DefaultHomePlanetSetup"
-		template "Template:LocalMilitia_AsteroidFair"
-	groups 0
-planetItemsTemplate
-	templateName "Template:DefaultStart_GasGiantFair"
-	subTemplates 1
-		template "Template:LocalMilitia_GasGiantFair"
-	groups 0
-planetItemsTemplate
-	templateName "Template:DefaultStart_PlasmaStormFair"
-	subTemplates 1
-		template "Template:LocalMilitia_PlasmaStormFair"
-	groups 0
-planetItemsTemplate
-	templateName "Template:DefaultStart_IceFair"
-	subTemplates 2
-		template "Template:DefaultHomePlanetSetup"
-		template "Template:LocalMilitia_IceFair"
-	groups 0
-planetItemsTemplate
-	templateName "Template:DefaultStart_FerrusFair"
-	subTemplates 2
-		template "Template:DefaultHomePlanetSetup"
-		template "Template:LocalMilitia_IceFair"
-	groups 0
-planetItemsTemplate
-	templateName "Template:DefaultStart_BarrenFair"
-	subTemplates 2
-		template "Template:DefaultHomePlanetSetup"
-		template "Template:LocalMilitia_Asteroid"
-	groups 0
-planetItemsTemplate
-	templateName "Template:DefaultStart_GreenhouseFair"
-	subTemplates 2
-		template "Template:DefaultHomePlanetSetup"
-		template "Template:LocalMilitia_IceFair"
-	groups 0
-planetItemsTemplate
-	templateName "Template:DefaultStart_OceanicFair"
-	subTemplates 2
-		template "Template:DefaultHomePlanetSetup"
-		template "Template:LocalMilitia_IceFair"
-	groups 0
-planetItemsTemplate
-	templateName "Template:DefaultStart_Ferrus"
-	subTemplates 2
-		template "Template:DefaultHomePlanetSetup"
-		template "Template:LocalMilitiaStrong"
-	groups 0
-planetItemsTemplate
-	templateName "Template:DefaultStart_Barren"
-	subTemplates 2
-		template "Template:DefaultHomePlanetSetup"
-		template "Template:LocalMilitiaWeak"
-	groups 0
-planetItemsTemplate
-	templateName "Template:DefaultStart_Greenhouse"
-	subTemplates 2
-		template "Template:DefaultHomePlanetSetup"
-		template "Template:LocalMilitiaMedium"
-	groups 0
-planetItemsTemplate
-	templateName "Template:DefaultStart_Oceanic"
-	subTemplates 2
-		template "Template:DefaultHomePlanetSetup"
-		template "Template:LocalMilitiaStrong"
-	groups 0
+				item "Gallente:CapitalShip:BattleShip2"	
 planetItemsTemplate
 	templateName "Template:LightStart"
 	subTemplates 2
 		template "Template:DefaultHomePlanetSetup"
 		template "Template:LocalMilitiaMedium"
-	groups 11
+	groups 8
 		group
 			condition
 				type "PlanetOwnerIsRaceNormalStart"
-				param "AmarrEmpire"
+				param "Amarr"
+			owner "PlanetOwner"
+			colonizeChance 1
+			items 1
+				item "Amarr:Frigate:Scout"
+		group
+			condition
+				type "PlanetOwnerIsRaceQuickStart"
+				param "Amarr"
 			owner "PlanetOwner"
 			colonizeChance 1
 			items 5
@@ -2091,14 +2238,31 @@ planetItemsTemplate
 				param "Caldari"
 			owner "PlanetOwner"
 			colonizeChance 1
-			items 4
+			items 1
 				item "Caldari:Frigate:Scout"
+		group
+			condition
+				type "PlanetOwnerIsRaceQuickStart"
+				param "Caldari"
+			owner "PlanetOwner"
+			colonizeChance 1
+			items 5
+				item "Caldari:Frigate:Scout"
+				item "Caldari:Frigate:Frigate"
 				item "Caldari:Frigate:Frigate"
 				item "Caldari:Frigate:Frigate"
 				item "Caldari:Frigate:Frigate"
 		group
 			condition
 				type "PlanetOwnerIsRaceNormalStart"
+				param "Minmatar"
+			owner "PlanetOwner"
+			colonizeChance 1
+			items 1
+				item "Minmatar:Frigate:Scout"
+		group
+			condition
+				type "PlanetOwnerIsRaceQuickStart"
 				param "Minmatar"
 			owner "PlanetOwner"
 			colonizeChance 1
@@ -2111,95 +2275,23 @@ planetItemsTemplate
 		group
 			condition
 				type "PlanetOwnerIsRaceNormalStart"
-				param "GallenteFederation"
+				param "Gallente"
 			owner "PlanetOwner"
 			colonizeChance 1
-			items 4
+			items 1
+				item "Gallente:Frigate:Scout"
+		group
+			condition
+				type "PlanetOwnerIsRaceQuickStart"
+				param "Gallente"
+			owner "PlanetOwner"
+			colonizeChance 1
+			items 5
 				item "Gallente:Frigate:Scout"
 				item "Gallente:Frigate:Frigate"
 				item "Gallente:Frigate:Frigate"
 				item "Gallente:Frigate:Frigate"
-		group
-			condition
-				type "PlanetOwnerIsRaceQuickStart"
-				param "AmarrEmpire"
-			owner "PlanetOwner"
-			colonizeChance 1
-			items 5
-				item "Amarr:Frigate:Scout"
-				item "Amarr:Frigate:Light"
-				item "Amarr:Frigate:Light"
-				item "Amarr:Frigate:Light"
-				item "Amarr:Frigate:Light"
-		group
-			condition
-				type "PlanetOwnerIsRaceQuickStart"
-				param "Minmatar"
-			owner "PlanetOwner"
-			colonizeChance 1
-			items 5
-				item "Minmatar:Frigate:Scout"
-				item "Minmatar:Frigate:Light"
-				item "Minmatar:Frigate:Light"
-				item "Minmatar:Frigate:Light"
-				item "Minmatar:Frigate:Light"
-		group
-			condition
-				type "PlanetOwnerIsRaceQuickStart"
-				param "Caldari"
-			owner "PlanetOwner"
-			colonizeChance 1
-			items 4
-				item "Caldari:Frigate:Scout"
-				item "Caldari:Frigate:Frigate"
-				item "Caldari:Frigate:Frigate"
-				item "Caldari:Frigate:Frigate"
-		group
-			condition
-				type "PlanetOwnerIsRaceQuickStart"
-				param "GallenteFederation"
-			owner "PlanetOwner"
-			colonizeChance 1
-			items 4
-				item "Gallente:Frigate:Scout"
 				item "Gallente:Frigate:Frigate"
-				item "Gallente:Frigate:Frigate"
-				item "Gallente:Frigate:Frigate"
-		group
-			condition
-				type "PlanetOwnerIsRaceNormalStart"
-				param "TechRebel"
-			owner "PlanetOwner"
-			colonizeChance 1
-			items 5
-				item "Amarr:Frigate:Scout"
-				item "Amarr:Frigate:Light"
-				item "Amarr:Frigate:Light"
-				item "Amarr:Frigate:Light"
-				item "Amarr:Frigate:Light"
-		group
-			condition
-				type "PlanetOwnerIsRaceNormalStart"
-				param "Caldari"
-			owner "PlanetOwner"
-			colonizeChance 1
-			items 4
-				item "Gallente:Frigate:Scout"
-				item "Gallente:Frigate:Frigate"
-				item "Gallente:Frigate:Frigate"
-				item "Gallente:Frigate:Frigate"
-		group
-			condition
-				type "PlanetOwnerIsRaceQuickStart"
-				param "TechRebel"
-			owner "PlanetOwner"
-			colonizeChance 1
-			items 5
-				item "Amarr:Frigate:Scout"
-				item "Amarr:Frigate:Light"
-				item "Amarr:Frigate:Light"
-				item "Amarr:Frigate:Light"
-				item "Amarr:Frigate:Light"
 planetItemsTemplate
 	templateName "Template:LocalMilitiaSleeper"
 	subTemplates 0
@@ -2976,10 +3068,13 @@ planetItemsTemplate
 				param ""
 			owner "Pirate"
 			colonizeChance 1
-			items 3
+			items 6
 				item "Pirate:Frigate:Scout"
-				item "Pirate:Frigate:AntiFighter"
+				item "Pirate:Frigate:Scout"
 				item "Pirate:Frigate:Medium"
+				item "Pirate:Frigate:AntiFighter"
+				item "Pirate:Frigate:AntiFighter"
+				item "Pirate:Frigate:Heavy"
 planetItemsTemplate
 	templateName "Template:LocalMilitiaVeryWeakUncolonizable"
 	subTemplates 0
@@ -2996,79 +3091,22 @@ planetItemsTemplate
 planetItemsTemplate
 	templateName "Template:LocalMilitiaWeak"
 	subTemplates 0
-	groups 6
-		group
-			condition
-				type "PlanetOwnerIsMilitiaWithChance"
-				param "0.3"
-			owner "PlanetOwner"
-			colonizeChance 0
-			items 15
-				item "Amarr:Frigate:Utility0"
-				item "Amarr:Frigate:LongRange"
-				item "Amarr:Frigate:LongRange"
-				item "Amarr:Frigate:LongRange"		
-				item "Amarr:Frigate:LongRange"						
-				item "Amarr:Frigate:Utility1"		
-				item "Amarr:Frigate:Utility1"						
-				item "Amarr:Frigate:Utility1"										
-				item "Amarr:Frigate:Light"
-				item "Amarr:Frigate:Light"
-				item "Amarr:Frigate:Light"
-				item "Amarr:Frigate:Light"
-				item "Amarr:Module:GaussDefense"
-				item "Amarr:Module:MetalExtractor"
-				item "Amarr:Module:CrystalExtractor"
+	groups 2
 		group
 			condition
 				type "PlanetOwnerIsMilitia"
 				param ""
 			owner "PlanetOwner"
 			colonizeChance 0
-			items 15
-				item "Gallente:Frigate:Utility0"
-				item "Gallente:Frigate:Cruiser"
-				item "Gallente:Frigate:Cruiser"
-				item "Gallente:Frigate:Cruiser"
-				item "Gallente:Frigate:Cruiser"
-				item "Gallente:Frigate:Logistics"				
-				item "Gallente:Frigate:Logistics"				
-				item "Gallente:Frigate:Logistics"								
-				item "Gallente:Frigate:Frigate"
-				item "Gallente:Frigate:Frigate"
-				item "Gallente:Frigate:Frigate"
-				item "Gallente:Frigate:Frigate"
-				item "Gallente:Module:MissileDefense"
-				item "Amarr:Module:MetalExtractor"
-				item "Amarr:Module:CrystalExtractor"				
-		group
-			condition
-				type "NoPlanetOwnerWithChance"
-				param "0.3"
-			owner "Gallente"
-			colonizeChance 0
-			items 10
-				item "Gallente:Frigate:Cruiser"
-				item "Gallente:Frigate:Cruiser"
-				item "Gallente:Frigate:Cruiser"
-				item "Gallente:Frigate:Logistics"				
-				item "Gallente:Frigate:Frigate"
-				item "Gallente:Frigate:Frigate"
-				item "Gallente:Frigate:Frigate"
-				item "Gallente:Module:MissileDefense"
-				item "Amarr:Module:MetalExtractor"
-				item "Amarr:Module:CrystalExtractor"		
-		group
-			condition
-				type "NoPlanetOwnerWithChance"
-				param "0.3"
-			owner "Amarr"
-			colonizeChance 0
-			items 10
-				item "Amarr:Frigate:LongRange"
-				item "Amarr:Frigate:LongRange"
-				item "Amarr:Frigate:LongRange"		
-				item "Amarr:Frigate:Utility1"										
+			items 14
+				item "Amarr:Frigate:Battlecruiser"
+				item "Amarr:Frigate:Cruiser"
+				item "Amarr:Frigate:Cruiser"
+				item "Amarr:Frigate:Cruiser"		
+				item "Amarr:Frigate:Cruiser"						
+				item "Amarr:Frigate:Logistics"		
+				item "Amarr:Frigate:Logistics"																
+				item "Amarr:Frigate:Light"
 				item "Amarr:Frigate:Light"
 				item "Amarr:Frigate:Light"
 				item "Amarr:Frigate:Light"
@@ -3077,42 +3115,31 @@ planetItemsTemplate
 				item "Amarr:Module:CrystalExtractor"
 		group
 			condition
-				type "PlanetOwnerIsMilitiaWithChance"
-				param "0.5"
-			owner "Gallente"
-			colonizeChance 0
-			items 3
-				item "Gallente:Module:MissileDefense"
-				item "Gallente:Module:MissileDefense"
-				item "Gallente:Module:MissileDefense"
-		group
-			condition
 				type "NoPlanetOwner"
 				param ""
-			owner "Gallente"
+			owner "Amarr"
 			colonizeChance 0
-			items 7
-				item "Gallente:Frigate:Frigate"
-				item "Gallente:Frigate:Frigate"
-				item "Gallente:Frigate:Frigate"
-				item "Gallente:Frigate:Frigate"
-				item "Gallente:Frigate:Siege"
-				item "Gallente:Frigate:Siege"
-				item "Gallente:Frigate:Siege"				
+			items 6
+				item "Amarr:Frigate:Light"
+				item "Amarr:Frigate:Light"
+				item "Amarr:Frigate:Light"
+				item "Amarr:Frigate:Destroyer"
+				item "Amarr:Frigate:Destroyer"
+				item "Amarr:Frigate:Destroyer"
 planetItemsTemplate
 	templateName "Template:LocalMilitiaWeakFair"
 	subTemplates 0
-	groups 4
+	groups 2
 		group
 			condition
-				type "PlanetOwnerIsMilitiaWithChance"
+				type "PlanetOwnerIsMilitia"
 				param "0.5"
 			owner "PlanetOwner"
 			colonizeChance 0
 			items 8
 				item "Amarr:Frigate:Light"
 				item "Amarr:Frigate:Light"
-				item "Amarr:Frigate:Siege"
+				item "Amarr:Frigate:Destroyer"
 				item "Amarr:Module:GaussDefense"
 				item "Amarr:Module:GaussDefense"
 				item "Amarr:Module:GaussDefense"
@@ -3120,7 +3147,7 @@ planetItemsTemplate
 				item "Amarr:Module:CrystalExtractor"
 		group
 			condition
-				type "NoPlanetOwnerWithChance"
+				type "NoPlanetOwner"
 				param "0.5"
 			owner "Amarr"
 			colonizeChance 0
@@ -3129,39 +3156,12 @@ planetItemsTemplate
 				item "Amarr:Frigate:Light"
 				item "Amarr:Frigate:Light"
 				item "Amarr:Frigate:Light"				
-				item "Amarr:Frigate:Siege"
-				item "Amarr:Frigate:Siege"				
-		group
-			condition
-				type "PlanetOwnerIsMilitiaWithChance"
-				param "0.5"
-			owner "PlanetOwner"
-			colonizeChance 0
-			items 8
-				item "Gallente:Frigate:Frigate"
-				item "Gallente:Frigate:Frigate"
-				item "Gallente:Frigate:Siege"
-				item "Gallente:Module:MissileDefense"				
-				item "Gallente:Module:MissileDefense"				
-				item "Gallente:Module:MissileDefense"				
-				item "Amarr:Module:MetalExtractor"
-				item "Amarr:Module:CrystalExtractor"				
-		group
-			condition
-				type "NoPlanetOwnerWithChance"
-				param "0.5"
-			owner "Gallente"
-			colonizeChance 0
-			items 5
-				item "Gallente:Frigate:Frigate"
-				item "Gallente:Frigate:Frigate"
-				item "Gallente:Frigate:Frigate"
-				item "Gallente:Frigate:Siege"
-				item "Gallente:Frigate:Siege"
+				item "Amarr:Frigate:Destroyer"
+				item "Amarr:Frigate:Destroyer"
 planetItemsTemplate
 	templateName "Template:LocalMilitiaMedium"
 	subTemplates 0
-	groups 6
+	groups 2
 		group
 			condition
 				type "PlanetOwnerIsMilitia"
@@ -3171,66 +3171,30 @@ planetItemsTemplate
 			items 9
 				item "Amarr:Frigate:Light"
 				item "Amarr:Frigate:Light"
-				item "Amarr:Frigate:Siege"
+				item "Amarr:Frigate:Destroyer"
 				item "Amarr:Module:GaussDefense"
 				item "Amarr:Module:GaussDefense"
 				item "Amarr:Module:GaussDefense"
 				item "Amarr:Module:HangarDefense"
 				item "Amarr:Module:CrystalExtractor"
-				item "Amarr:Module:MetalExtractor"
-		group
-			condition
-				type "PlanetOwnerIsMilitiaWithChance"
-				param "0.5"
-			owner "PlanetOwner"
-			colonizeChance 0
-			items 4
-				item "Amarr:Frigate:LongRange"
-				item "Amarr:Frigate:LongRange"
-				item "Amarr:Module:GaussDefense"
-				item "Amarr:Module:GaussDefense"				
-		group
-			condition
-				type "PlanetOwnerIsMilitiaWithChance"
-				param "0.5"
-			owner "PlanetOwner"
-			colonizeChance 0
-			items 3
-				item "Amarr:Frigate:Siege"
-				item "Amarr:Frigate:Siege"	
-				item "Amarr:Module:HangarDefense"				
+				item "Amarr:Module:MetalExtractor"			
 		group
 			condition
 				type "NoPlanetOwner"
 				param ""
 			owner "Amarr"
 			colonizeChance 0
-			items 7
+			items 10
 				item "Amarr:Frigate:Light"
 				item "Amarr:Frigate:Light"
 				item "Amarr:Frigate:Light"
 				item "Amarr:Frigate:Light"
-				item "Amarr:Frigate:Siege"
-				item "Amarr:Frigate:Siege"
-				item "Amarr:Frigate:Siege"
-		group
-			condition
-				type "NoPlanetOwnerWithChance"
-				param "0.5"
-			owner "Amarr"
-			colonizeChance 0
-			items 2
-				item "Amarr:Frigate:LongRange"
-				item "Amarr:Frigate:LongRange"
-		group
-			condition
-				type "NoPlanetOwnerWithChance"
-				param "0.5"
-			owner "Amarr"
-			colonizeChance 0
-			items 2
-				item "Amarr:Frigate:Siege"
-				item "Amarr:Frigate:Siege"
+				item "Amarr:Frigate:Destroyer"
+				item "Amarr:Frigate:Destroyer"
+				item "Amarr:Frigate:Destroyer"
+				item "Amarr:Frigate:Cruiser"
+				item "Amarr:Frigate:Cruiser"
+				item "Amarr:Frigate:Logistics"
 planetItemsTemplate
 	templateName "Template:LocalMilitiaMediumFair"
 	subTemplates 0
@@ -3244,9 +3208,9 @@ planetItemsTemplate
 			items 13
 				item "Amarr:Frigate:Light"
 				item "Amarr:Frigate:Light"
-				item "Amarr:Frigate:LongRange"
-				item "Amarr:Frigate:Siege"
-				item "Amarr:Frigate:Siege"
+				item "Amarr:Frigate:Cruiser"
+				item "Amarr:Frigate:Destroyer"
+				item "Amarr:Frigate:Destroyer"
 				item "Amarr:Module:GaussDefense"
 				item "Amarr:Module:GaussDefense"
 				item "Amarr:Module:GaussDefense"
@@ -3261,132 +3225,70 @@ planetItemsTemplate
 				param ""
 			owner "Amarr"
 			colonizeChance 0
-			items 5
+			items 7
 				item "Amarr:Frigate:Light"
 				item "Amarr:Frigate:Light"
-				item "Amarr:Frigate:LongRange"
-				item "Amarr:Frigate:Siege"
-				item "Amarr:Frigate:Siege"
+				item "Amarr:Frigate:Light"
+				item "Amarr:Frigate:Destroyer"
+				item "Amarr:Frigate:Destroyer"
+				item "Amarr:Frigate:Cruiser"
+				item "Amarr:Frigate:Cruiser"
 planetItemsTemplate
 	templateName "Template:LocalMilitiaStrong"
 	subTemplates 0
-	groups 10
+	groups 2
 		group
 			condition
 				type "PlanetOwnerIsMilitia"
 				param ""
-			owner "PlanetOwner"
+			owner "Amarr"
 			colonizeChance 0
-			items 9
-				item "Amarr:Frigate:Light"
-				item "Amarr:Frigate:LongRange"
-				item "Amarr:Frigate:Heavy"
-				item "Amarr:Frigate:Heavy"
-				item "Amarr:Module:GaussDefense"		
-				item "Amarr:Module:GaussDefense"														
-				item "Amarr:Module:HangarDefense"		
-				item "Amarr:Module:MetalExtractor"														
-				item "Amarr:Module:MetalExtractor"														
-		group
-			condition
-				type "PlanetOwnerIsMilitiaWithChance"
-				param "0.3"
-			owner "PlanetOwner"
-			colonizeChance 0
-			items 5
-				item "Amarr:Frigate:LongRange"
-				item "Amarr:Frigate:LongRange"
-				item "Amarr:Frigate:Heavy"
-				item "Amarr:Module:GaussDefense"						
-				item "Amarr:Module:HangarDefense"						
-		group
-			condition
-				type "PlanetOwnerIsMilitiaWithChance"
-				param "0.3"
-			owner "PlanetOwner"
-			colonizeChance 0
-			items 8
+			items 19
 				item "Amarr:Frigate:Light"
 				item "Amarr:Frigate:Light"
 				item "Amarr:Frigate:Light"
 				item "Amarr:Frigate:Light"
 				item "Amarr:Frigate:Light"
 				item "Amarr:Frigate:Light"
-				item "Amarr:Frigate:Heavy"
-				item "Amarr:Module:HangarDefense"						
-		group
-			condition
-				type "PlanetOwnerIsMilitiaWithChance"
-				param "0.3"
-			owner "PlanetOwner"
-			colonizeChance 0
-			items 2
-				item "Amarr:Frigate:Heavy"
-				item "Amarr:Module:GaussDefense"						
-		group
-			condition
-				type "PlanetOwnerIsMilitiaWithChance"
-				param "0.3"
-			owner "PlanetOwner"
-			colonizeChance 0
-			items 5
-				item "Amarr:Frigate:Siege"
-				item "Amarr:Frigate:Siege"
-				item "Amarr:Frigate:Heavy"
-				item "Amarr:Frigate:Heavy"
-				item "Amarr:Module:HangarDefense"					
+				item "Amarr:Frigate:Destroyer"
+				item "Amarr:Frigate:Destroyer"
+				item "Amarr:Frigate:Destroyer"
+				item "Amarr:Frigate:Destroyer"
+				item "Amarr:Frigate:Cruiser"
+				item "Amarr:Frigate:Cruiser"
+				item "Amarr:Frigate:Cruiser"
+				item "Amarr:Frigate:Cruiser"
+				item "Amarr:Frigate:Logistics"
+				item "Amarr:Frigate:Logistics"
+				item "Amarr:Frigate:Battlecruiser"
+				item "Amarr:Frigate:Battlecruiser"
+				item "Amarr:Frigate:Battleship"
 		group
 			condition
 				type "NoPlanetOwner"
 				param ""
 			owner "Amarr"
 			colonizeChance 0
-			items 4
-				item "Amarr:Frigate:Light"
-				item "Amarr:Frigate:LongRange"
-				item "Amarr:Frigate:Heavy"
-				item "Amarr:Frigate:Siege"
-		group
-			condition
-				type "NoPlanetOwnerWithChance"
-				param "0.3"
-			owner "Amarr"
-			colonizeChance 0
-			items 3
-				item "Amarr:Frigate:Light"
-				item "Amarr:Frigate:LongRange"
-				item "Amarr:Frigate:LongRange"
-		group
-			condition
-				type "NoPlanetOwnerWithChance"
-				param "0.3"
-			owner "Amarr"
-			colonizeChance 0
-			items 5
+			items 19
 				item "Amarr:Frigate:Light"
 				item "Amarr:Frigate:Light"
 				item "Amarr:Frigate:Light"
-				item "Amarr:Frigate:Siege"
-				item "Amarr:Frigate:Siege"
-		group
-			condition
-				type "NoPlanetOwnerWithChance"
-				param "0.3"
-			owner "Amarr"
-			colonizeChance 0
-			items 2
 				item "Amarr:Frigate:Light"
-				item "Amarr:Frigate:Heavy"
-		group
-			condition
-				type "NoPlanetOwnerWithChance"
-				param "0.3"
-			owner "Amarr"
-			colonizeChance 0
-			items 3
 				item "Amarr:Frigate:Light"
-				item "Amarr:Frigate:Siege"
-				item "Amarr:Frigate:Heavy"
+				item "Amarr:Frigate:Light"
+				item "Amarr:Frigate:Destroyer"
+				item "Amarr:Frigate:Destroyer"
+				item "Amarr:Frigate:Destroyer"
+				item "Amarr:Frigate:Destroyer"
+				item "Amarr:Frigate:Cruiser"
+				item "Amarr:Frigate:Cruiser"
+				item "Amarr:Frigate:Cruiser"
+				item "Amarr:Frigate:Cruiser"
+				item "Amarr:Frigate:Logistics"
+				item "Amarr:Frigate:Logistics"
+				item "Amarr:Frigate:Battlecruiser"
+				item "Amarr:Frigate:Battlecruiser"
+				item "Amarr:Frigate:Battleship"
 planetItemsTemplate
 	templateName "Template:LocalMilitiaStrongFair"
 	subTemplates 0
@@ -3401,13 +3303,13 @@ planetItemsTemplate
 				item "Amarr:Frigate:Light"
 				item "Amarr:Frigate:Light"
 				item "Amarr:Frigate:Light"
-				item "Amarr:Frigate:LongRange"
-				item "Amarr:Frigate:LongRange"
-				item "Amarr:Frigate:Heavy"
-				item "Amarr:Frigate:Heavy"
-				item "Amarr:Frigate:Heavy"
-				item "Amarr:Frigate:Heavy"
-				item "Amarr:Frigate:Heavy"
+				item "Amarr:Frigate:Cruiser"
+				item "Amarr:Frigate:Cruiser"
+				item "Amarr:Frigate:Battleship"
+				item "Amarr:Frigate:Battleship"
+				item "Amarr:Frigate:Battleship"
+				item "Amarr:Frigate:Battleship"
+				item "Amarr:Frigate:Battleship"
 				item "Amarr:Frigate:Siege"
 				item "Amarr:Frigate:Siege"
 				item "Amarr:Module:GaussDefense"	
@@ -3426,104 +3328,14 @@ planetItemsTemplate
 			items 8
 				item "Amarr:Frigate:Light"
 				item "Amarr:Frigate:Light"
-				item "Amarr:Frigate:LongRange"
-				item "Amarr:Frigate:LongRange"
-				item "Amarr:Frigate:Heavy"
-				item "Amarr:Frigate:Heavy"
+				item "Amarr:Frigate:Cruiser"
+				item "Amarr:Frigate:Cruiser"
+				item "Amarr:Frigate:Battleship"
+				item "Amarr:Frigate:Battleship"
 				item "Amarr:Frigate:Siege"
 				item "Amarr:Frigate:Siege"
 planetItemsTemplate
-	templateName "Template:LocalMilitia_Terran"
-	subTemplates 1
-		template "Template:LocalMilitiaStrong"
-	groups 0		
-planetItemsTemplate
-	templateName "Template:LocalMilitia_Desert"
-	subTemplates 1
-		template "Template:LocalMilitiaStrong"
-	groups 0
-planetItemsTemplate
-	templateName "Template:LocalMilitia_Volcanic"
-	subTemplates 1
-		template "Template:LocalMilitiaMedium"
-	groups 0
-planetItemsTemplate
-	templateName "Template:LocalMilitia_Asteroid"
-	subTemplates 1
-		template "Template:LocalMilitiaVeryWeak"
-	groups 0
-planetItemsTemplate
-	templateName "Template:LocalMilitia_Sleeper"
-	subTemplates 1
-		template "Template:LocalMilitiaSleeper"
-	groups 0	
-planetItemsTemplate
-	templateName "Template:LocalMilitia_AsteroidB"
-	subTemplates 1
-		template "Template:LocalMilitiaVeryWeak4"
-	groups 0	
-planetItemsTemplate
-	templateName "Template:LocalMilitia_DeadAsteroid"
-	subTemplates 1
-		template "Template:LocalMilitiaVeryWeak"
-	groups 0
-planetItemsTemplate
-	templateName "Template:LocalMilitia_ShipGraveyard"
-	subTemplates 1
-		template "Template:LocalMilitiaVeryWeak3"
-	groups 0
-planetItemsTemplate
-	templateName "Template:LocalMilitia_GasGiant"
-	subTemplates 1
-		template "Template:LocalMilitiaVeryWeakUncolonizable"
-	groups 0
-planetItemsTemplate
-	templateName "Template:LocalMilitia_PlasmaStorm"
-	subTemplates 1
-		template "Template:LocalMilitiaVeryWeakUncolonizable"
-	groups 0
-planetItemsTemplate
-	templateName "Template:LocalMilitia_Ice"
-	subTemplates 1
-		template "Template:LocalMilitiaMedium"
-	groups 0
-planetItemsTemplate
-	templateName "Template:LocalMilitia_TerranFair"
-	subTemplates 1
-		template "Template:LocalMilitiaStrongFair"
-	groups 0		
-planetItemsTemplate
-	templateName "Template:LocalMilitia_DesertFair"
-	subTemplates 1
-		template "Template:LocalMilitiaStrongFair"
-	groups 0
-planetItemsTemplate
-	templateName "Template:LocalMilitia_AsteroidFair"
-	subTemplates 1
-		template "Template:LocalMilitiaVeryWeak2"
-	groups 0
-planetItemsTemplate
-	templateName "Template:LocalMilitia_VolcanicFair"
-	subTemplates 1
-		template "Template:LocalMilitiaMediumFair"
-	groups 0
-planetItemsTemplate
-	templateName "Template:LocalMilitia_GasGiantFair"
-	subTemplates 1
-		template "Template:LocalMilitiaVeryWeakUncolonizable"
-	groups 0
-planetItemsTemplate
-	templateName "Template:LocalMilitia_PlasmaStormFair"
-	subTemplates 1
-		template "Template:LocalMilitiaVeryWeakUncolonizable"
-	groups 0
-planetItemsTemplate
-	templateName "Template:LocalMilitia_IceFair"
-	subTemplates 1
-		template "Template:LocalMilitiaMediumFair"
-	groups 0
-planetItemsTemplate
-	templateName "Template:AsteroidB"
+	templateName "Template:LocalMilitiaAsteroidB"
 		subTemplates 0
 	groups 2
 		group
@@ -3546,7 +3358,7 @@ planetItemsTemplate
 			condition
 				type "NoPlanetOwner"
 				param ""				
-				owner "Gallente"
+			owner "Gallente"
 			colonizeChance 0
 			items 6
 				item "Gallente:Frigate:Frigate"
@@ -3556,7 +3368,40 @@ planetItemsTemplate
 				item "Gallente:Frigate:Destoyer"
 				item "Gallente:Frigate:Destoyer"			
 planetItemsTemplate
-	templateName "Template:AsteroidC"
+	templateName "Template:LocalMilitiaMoonB"
+		subTemplates 0
+	groups 2
+		group
+			condition
+				type "PlanetOwnerIsMilitia"
+				param ""
+			owner "Gallente"
+			colonizeChance 1
+			items 9
+				item "Gallente:Frigate:Frigate"
+				item "Gallente:Frigate:Frigate"
+				item "Gallente:Frigate:Frigate"
+				item "Gallente:Frigate:Frigate"
+				item "Gallente:Frigate:Destoyer"
+				item "Gallente:Frigate:Destoyer"
+				item "Gallente:Frigate:Cruiser"
+				item "Gallente:Frigate:Logistics"				
+				item "Gallente:Frigate:Logistics"								
+		group
+			condition
+				type "NoPlanetOwner"
+				param ""				
+			owner "Gallente"
+			colonizeChance 0
+			items 6
+				item "Gallente:Frigate:Frigate"
+				item "Gallente:Frigate:Frigate"
+				item "Gallente:Frigate:Frigate"
+				item "Gallente:Frigate:Frigate"
+				item "Gallente:Frigate:Destoyer"
+				item "Gallente:Frigate:Destoyer"							
+planetItemsTemplate
+	templateName "Template:LocalMilitiaAsteroidC"
 		subTemplates 0
 	groups 2
 		group
@@ -3579,7 +3424,7 @@ planetItemsTemplate
 			condition
 				type "NoPlanetOwner"
 				param ""				
-				owner "Minmatar"
+			owner "Minmatar"
 			colonizeChance 0
 			items 6
 				item "Minmatar:Frigate:Frigate"
@@ -3589,7 +3434,40 @@ planetItemsTemplate
 				item "Minmatar:Frigate:Destoyer"
 				item "Minmatar:Frigate:Destoyer"
 planetItemsTemplate
-	templateName "Template:AsteroidD"
+	templateName "Template:LocalMilitiaMoonC"
+		subTemplates 0
+	groups 2
+		group
+			condition
+				type "PlanetOwnerIsMilitia"
+				param ""
+			owner "Minmatar"
+			colonizeChance 1
+			items 9
+				item "Minmatar:Frigate:Frigate"
+				item "Minmatar:Frigate:Frigate"
+				item "Minmatar:Frigate:Frigate"
+				item "Minmatar:Frigate:Frigate"
+				item "Minmatar:Frigate:Destoyer"
+				item "Minmatar:Frigate:Destoyer"
+				item "Minmatar:Frigate:Cruiser"
+				item "Minmatar:Frigate:Logistics"				
+				item "Minmatar:Frigate:Logistics"								
+		group
+			condition
+				type "NoPlanetOwner"
+				param ""				
+			owner "Minmatar"
+			colonizeChance 0
+			items 6
+				item "Minmatar:Frigate:Frigate"
+				item "Minmatar:Frigate:Frigate"
+				item "Minmatar:Frigate:Frigate"
+				item "Minmatar:Frigate:Frigate"
+				item "Minmatar:Frigate:Destoyer"
+				item "Minmatar:Frigate:Destoyer"				
+planetItemsTemplate
+	templateName "Template:LocalMilitiaAsteroidD"
 		subTemplates 0
 	groups 2
 		group
@@ -3612,7 +3490,7 @@ planetItemsTemplate
 			condition
 				type "NoPlanetOwner"
 				param ""				
-				owner "Caldari"
+			owner "Caldari"
 			colonizeChance 0
 			items 6
 				item "Caldari:Frigate:Frigate"
@@ -3622,6 +3500,39 @@ planetItemsTemplate
 				item "Caldari:Frigate:Destoyer"
 				item "Caldari:Frigate:Destoyer"			
 planetItemsTemplate
+	templateName "Template:LocalMilitiaMoonD"
+		subTemplates 0
+	groups 2
+		group
+			condition
+				type "PlanetOwnerIsMilitia"
+				param ""
+			owner "Caldari"
+			colonizeChance 1
+			items 9
+				item "Caldari:Frigate:Frigate"
+				item "Caldari:Frigate:Frigate"
+				item "Caldari:Frigate:Frigate"
+				item "Caldari:Frigate:Frigate"
+				item "Caldari:Frigate:Destoyer"
+				item "Caldari:Frigate:Destoyer"
+				item "Caldari:Frigate:Cruiser"
+				item "Caldari:Frigate:Logistics"				
+				item "Caldari:Frigate:Logistics"								
+		group
+			condition
+				type "NoPlanetOwner"
+				param ""				
+			owner "Caldari"
+			colonizeChance 0
+			items 6
+				item "Caldari:Frigate:Frigate"
+				item "Caldari:Frigate:Frigate"
+				item "Caldari:Frigate:Frigate"
+				item "Caldari:Frigate:Frigate"
+				item "Caldari:Frigate:Destoyer"
+				item "Caldari:Frigate:Destoyer"							
+planetItemsTemplate
 	templateName "Template:SleeperTower"
 	subTemplates 0
 	groups 1
@@ -3629,7 +3540,7 @@ planetItemsTemplate
 			condition
 				type "NoPlanetOwner"
 				param ""
-			owner "RandomMilitia"
+			owner "Sleepers"
 			colonizeChance 0
 			items 11
 				item "Sleeper:Frigate:Cruiser"
@@ -3868,6 +3779,185 @@ planetItemsTemplate
 				item "Sansha:Ship:RenynMeten"
 				item "Artifact:HyperspaceSpeed"
 planetItemsTemplate
+	templateName "Template:ScoutSite"
+	subTemplates 0
+	groups 1
+		group
+			condition
+				type "Always"
+				param ""
+			owner "Pirate"
+			colonizeChance 1
+			items 4
+				item "Sansha:Ship:MaraPaleo"
+				item "Sansha:Ship:AntemNeo"
+				item "Sansha:Ship:ArnonEpithalamus"
+				item "Sansha:Ship:TamaCerebellum"
+planetItemsTemplate
+	templateName "Template:AssaultSite"
+	subTemplates 0
+	groups 1
+		group
+			condition
+				type "Always"
+				param ""
+			owner "Pirate"
+			colonizeChance 1
+			items 30
+				item "Sansha:Ship:DeltoleTegmentum"
+				item "Sansha:Ship:IntakiColliculus"
+				item "Sansha:Ship:IntakiColliculus"
+				item "Sansha:Ship:IntakiColliculus"
+				item "Sansha:Ship:OutuniMesen"
+				item "Sansha:Ship:YulaiCrusCerebi"
+				item "Sansha:Ship:MaraPaleo"
+				item "Sansha:Ship:AugaHypophysis"
+				item "Sansha:Ship:AntemNeo"
+				item "Sansha:Ship:AntemNeo"
+				item "Sansha:Ship:ArnonEpithalamus"
+				item "Sansha:Ship:ArnonEpithalamus"
+				item "Sansha:Ship:ArnonEpithalamus"
+				item "Sansha:Ship:ArnonEpithalamus"
+				item "Sansha:Ship:TamaCerebellum"
+				item "Sansha:Ship:EyesturRhomben"
+				item "Sansha:Ship:EyesturRhomben"
+				item "Sansha:Ship:EyesturRhomben"
+				item "Sansha:Ship:EyesturRhomben"
+				item "Sansha:Ship:NiarjaMyelen"
+				item "Sansha:Ship:NiarjaMyelen"
+				item "Sansha:Ship:NiarjaMyelen"
+				item "Sansha:Ship:NiarjaMyelen"
+				item "Sansha:Ship:NiarjaMyelen"
+				item "Sansha:Ship:NiarjaMyelen"
+				item "Sansha:Ship:NiarjaMyelen"
+				item "Sansha:Ship:NiarjaMyelen"
+				item "Sansha:Ship:NiarjaMyelen"
+				item "Sansha:Ship:NiarjaMyelen"
+				item "Sansha:Ship:RenynMeten"
+planetItemsTemplate
+	templateName "Template:VanguardSite"
+	subTemplates 0
+	groups 1
+		group
+			condition
+				type "Always"
+				param ""
+			owner "Pirate"
+			colonizeChance 1
+			items 40
+				item "Sansha:Ship:YulaiCrusCerebi"
+				item "Sansha:Ship:MaraPaleo"
+				item "Sansha:Ship:AugaHypophysis"
+				item "Sansha:Ship:TamaCerebellum"
+				item "Sansha:Ship:TamaCerebellum"
+				item "Sansha:Ship:TamaCerebellum"
+				item "Sansha:Ship:TamaCerebellum"
+				item "Sansha:Ship:TamaCerebellum"
+				item "Sansha:Ship:TamaCerebellum"
+				item "Sansha:Ship:TamaCerebellum"
+				item "Sansha:Ship:TamaCerebellum"
+				item "Sansha:Ship:EyesturRhomben"
+				item "Sansha:Ship:EyesturRhomben"
+				item "Sansha:Ship:EyesturRhomben"
+				item "Sansha:Ship:EyesturRhomben"
+				item "Sansha:Ship:NiarjaMyelen"
+				item "Sansha:Ship:NiarjaMyelen"
+				item "Sansha:Ship:NiarjaMyelen"
+				item "Sansha:Ship:NiarjaMyelen"
+				item "Sansha:Ship:RenynMeten"
+				item "Sansha:Ship:RenynMeten"
+				item "Sansha:Ship:RenynMeten"
+				item "Sansha:Ship:RenynMeten"
+				item "Sansha:Ship:RenynMeten"
+				item "Sansha:Ship:RenynMeten"
+				item "Sansha:Ship:RenynMeten"
+				item "Sansha:Ship:RenynMeten"
+				item "Sansha:Ship:RenynMeten"
+				item "Sansha:Ship:RenynMeten"
+				item "Sansha:Ship:RenynMeten"
+				item "Sansha:Ship:RenynMeten"
+				item "Sansha:Ship:RenynMeten"
+				item "Sansha:Ship:RenynMeten"
+				item "Sansha:Ship:RenynMeten"
+				item "Sansha:Ship:ArnonEpithalamus"
+				item "Sansha:Ship:ArnonEpithalamus"
+				item "Sansha:Ship:ArnonEpithalamus"
+				item "Sansha:Ship:ArnonEpithalamus"
+				item "Sansha:Ship:ArnonEpithalamus"
+				item "Sansha:Ship:ArnonEpithalamus"
+planetItemsTemplate
+	templateName "Template:HeadQuarters"
+	subTemplates 0
+	groups 1
+		group
+			condition
+				type "Always"
+				param ""
+			owner "Pirate"
+			colonizeChance 1
+			items 61
+				item "Sansha:Ship:DeltoleTegmentum"
+				item "Sansha:Ship:DeltoleTegmentum"
+				item "Sansha:Ship:DeltoleTegmentum"
+				item "Sansha:Ship:DeltoleTegmentum"
+				item "Sansha:Ship:DeltoleTegmentum"
+				item "Sansha:Ship:IntakiColliculus"
+				item "Sansha:Ship:IntakiColliculus"
+				item "Sansha:Ship:IntakiColliculus"
+				item "Sansha:Ship:IntakiColliculus"
+				item "Sansha:Ship:IntakiColliculus"
+				item "Sansha:Ship:OutuniMesen"
+				item "Sansha:Ship:OutuniMesen"
+				item "Sansha:Ship:OutuniMesen"
+				item "Sansha:Ship:OutuniMesen"
+				item "Sansha:Ship:OutuniMesen"
+				item "Sansha:Ship:OutuniMesen"
+				item "Sansha:Ship:YulaiCrusCerebi"
+				item "Sansha:Ship:YulaiCrusCerebi"
+				item "Sansha:Ship:YulaiCrusCerebi"
+				item "Sansha:Ship:YulaiCrusCerebi"
+				item "Sansha:Ship:YulaiCrusCerebi"
+				item "Sansha:Ship:MaraPaleo"
+				item "Sansha:Ship:MaraPaleo"
+				item "Sansha:Ship:MaraPaleo"
+				item "Sansha:Ship:MaraPaleo"
+				item "Sansha:Ship:MaraPaleo"
+				item "Sansha:Ship:AugaHypophysis"
+				item "Sansha:Ship:AugaHypophysis"
+				item "Sansha:Ship:AugaHypophysis"
+				item "Sansha:Ship:AugaHypophysis"
+				item "Sansha:Ship:AugaHypophysis"
+				item "Sansha:Ship:AntemNeo"
+				item "Sansha:Ship:AntemNeo"
+				item "Sansha:Ship:AntemNeo"
+				item "Sansha:Ship:AntemNeo"
+				item "Sansha:Ship:AntemNeo"
+				item "Sansha:Ship:AntemNeo"
+				item "Sansha:Ship:ArnonEpithalamus"
+				item "Sansha:Ship:ArnonEpithalamus"
+				item "Sansha:Ship:ArnonEpithalamus"
+				item "Sansha:Ship:ArnonEpithalamus"
+				item "Sansha:Ship:TamaCerebellum"
+				item "Sansha:Ship:TamaCerebellum"
+				item "Sansha:Ship:TamaCerebellum"
+				item "Sansha:Ship:TamaCerebellum"
+				item "Sansha:Ship:TamaCerebellum"
+				item "Sansha:Ship:EyesturRhomben"
+				item "Sansha:Ship:EyesturRhomben"
+				item "Sansha:Ship:EyesturRhomben"
+				item "Sansha:Ship:EyesturRhomben"
+				item "Sansha:Ship:EyesturRhomben"
+				item "Sansha:Ship:NiarjaMyelen"
+				item "Sansha:Ship:NiarjaMyelen"
+				item "Sansha:Ship:NiarjaMyelen"
+				item "Sansha:Ship:NiarjaMyelen"
+				item "Sansha:Ship:NiarjaMyelen"
+				item "Sansha:Ship:RenynMeten"
+				item "Sansha:Ship:RenynMeten"
+				item "Sansha:Ship:RenynMeten"
+				item "Sansha:Ship:RenynMeten"
+				item "Sansha:Ship:RenynMeten"
+planetItemsTemplate
 	templateName "Template:MorduStaggingPoint"
 	subTemplates 0
 	groups 2
@@ -3977,7 +4067,7 @@ planetItemsTemplate
 			condition
 				type "NoPlanetOwner"
 				param ""
-			owner "RandomMilitia"
+			owner "Mordu"
 			colonizeChance 0
 			items 88
 				item "Mordu:Frigate:Battleship"
@@ -4131,8 +4221,327 @@ planetItemsTemplate
 				item "Gallente:Corvette:Loyalist"
 				item "Gallente:Corvette:Loyalist"
 				item "Gallente:Corvette:Loyalist"
+planetItemsTemplate
+	templateName "Template:DefaultStart_Terran"
+	subTemplates 2
+		template "Template:DefaultHomePlanetSetup"
+		template "Template:LocalMilitia_Terran"
+	groups 0
+planetItemsTemplate
+	templateName "Template:DefaultStart_Desert"
+	subTemplates 2
+		template "Template:DefaultHomePlanetSetup"
+		template "Template:LocalMilitia_Desert"
+	groups 0
+planetItemsTemplate
+	templateName "Template:DefaultStart_Ice"
+	subTemplates 2
+		template "Template:DefaultHomePlanetSetup"
+		template "Template:LocalMilitia_Ice"
+	groups 0
+planetItemsTemplate
+	templateName "Template:DefaultStart_Volcanic"
+	subTemplates 2
+		template "Template:DefaultHomePlanetSetup"
+		template "Template:LocalMilitia_Volcanic"
+	groups 0
+planetItemsTemplate
+	templateName "Template:DefaultStart_Ferrus"
+	subTemplates 2
+		template "Template:DefaultHomePlanetSetup"
+		template "Template:LocalMilitiaStrong"
+	groups 0
+planetItemsTemplate
+	templateName "Template:DefaultStart_Barren"
+	subTemplates 2
+		template "Template:DefaultHomePlanetSetup"
+		template "Template:LocalMilitiaWeak"
+	groups 0
+planetItemsTemplate
+	templateName "Template:DefaultStart_Greenhouse"
+	subTemplates 2
+		template "Template:DefaultHomePlanetSetup"
+		template "Template:LocalMilitiaMedium"
+	groups 0
+planetItemsTemplate
+	templateName "Template:DefaultStart_Oceanic"
+	subTemplates 2
+		template "Template:DefaultHomePlanetSetup"
+		template "Template:LocalMilitiaStrong"
+	groups 0
+planetItemsTemplate
+	templateName "Template:DefaultStart_Oceanic"
+	subTemplates 2
+		template "Template:DefaultHomePlanetSetup"
+		template "Template:LocalMilitiaStrong"
+	groups 0
+planetItemsTemplate
+	templateName "Template:DefaultStart_Asteroid"
+	subTemplates 2		
+		template "Template:DefaultHomePlanetSetup"
+		template "Template:LocalMilitiaWeak"
+	groups 0		
+planetItemsTemplate
+	templateName "Template:DefaultStart_AsteroidB"
+	subTemplates 1
+		template "Template:LocalMilitia_AsteroidB"
+	groups 0
+planetItemsTemplate
+	templateName "Template:DefaultStart_AsteroidC"
+	subTemplates 1
+		template "Template:LocalMilitia_AsteroidC"
+	groups 0	
+planetItemsTemplate
+	templateName "Template:DefaultStart_AsteroidD"
+	subTemplates 1
+		template "Template:LocalMilitia_AsteroidD"
+	groups 0	
+planetItemsTemplate
+	templateName "Template:DefaultStart_MoonB"
+	subTemplates 1
+		template "Template:LocalMilitia_MoonB"
+	groups 0
+planetItemsTemplate
+	templateName "Template:DefaultStart_MoonC"
+	subTemplates 1
+		template "Template:LocalMilitia_MoonC"
+	groups 0	
+planetItemsTemplate
+	templateName "Template:DefaultStart_MoonD"
+	subTemplates 1
+		template "Template:LocalMilitia_MoonD"
+	groups 0	
+planetItemsTemplate
+	templateName "Template:DefaultStart_Sleeper"
+	subTemplates 1
+		template "Template:LocalMilitia_Sleeper"			
+	groups 0
+planetItemsTemplate
+	templateName "Template:DefaultStart_DeadAsteroid"
+	subTemplates 1
+		template "Template:LocalMilitia_DeadAsteroid"
+	groups 0
+planetItemsTemplate
+	templateName "Template:DefaultStart_ShipGraveyard"
+	subTemplates 1
+		template "Template:LocalMilitia_ShipGraveyard"
+	groups 0
+planetItemsTemplate
+	templateName "Template:DefaultStart_GasGiant"
+	subTemplates 1
+		template "Template:LocalMilitia_GasGiant"
+	groups 0
+planetItemsTemplate
+	templateName "Template:DefaultStart_PlasmaStorm"
+	subTemplates 1
+		template "Template:LocalMilitia_PlasmaStorm"
+	groups 0
+planetItemsTemplate
+	templateName "Template:DefaultStart_Comet"
+	subTemplates 1
+		template "Template:LocalMilitiaVeryWeakUncolonizable"
+	groups 0
+planetItemsTemplate
+	templateName "Template:DefaultStart_IceField"
+	subTemplates 1
+		template "Template:LocalMilitiaWeakUncolonizable"
+	groups 0
+planetItemsTemplate
+	templateName "Template:DefaultStart_ShatteredMoon"
+	subTemplates 1
+		template "Template:LocalMilitiaWeakUncolonizable"
+	groups 0
+planetItemsTemplate
+	templateName "Template:DefaultStart_RadiationStorm"
+	subTemplates 1
+		template "Template:LocalMilitiaVeryWeakUncolonizable"
+	groups 0
+planetItemsTemplate
+	templateName "Template:DefaultStart_AntimatterFountain"
+	subTemplates 1
+		template "Template:LocalMilitiaVeryWeakUncolonizable"
+	groups 0
+planetItemsTemplate
+	templateName "Template:DefaultStart_TerranFair"
+	subTemplates 2
+		template "Template:DefaultHomePlanetSetup"
+		template "Template:LocalMilitia_TerranFair"
+	groups 0
+planetItemsTemplate
+	templateName "Template:DefaultStart_DesertFair"
+	subTemplates 2
+		template "Template:DefaultHomePlanetSetup"
+		template "Template:LocalMilitia_DesertFair"
+	groups 0
+planetItemsTemplate
+	templateName "Template:DefaultStart_VolcanicFair"
+	subTemplates 2
+		template "Template:DefaultHomePlanetSetup"
+		template "Template:LocalMilitia_VolcanicFair"
+	groups 0
+planetItemsTemplate
+	templateName "Template:DefaultStart_AsteroidFair"
+	subTemplates 2		
+		template "Template:DefaultHomePlanetSetup"
+		template "Template:LocalMilitia_AsteroidFair"
+	groups 0
+planetItemsTemplate
+	templateName "Template:DefaultStart_GasGiantFair"
+	subTemplates 1
+		template "Template:LocalMilitia_GasGiantFair"
+	groups 0
+planetItemsTemplate
+	templateName "Template:DefaultStart_PlasmaStormFair"
+	subTemplates 1
+		template "Template:LocalMilitia_PlasmaStormFair"
+	groups 0
+planetItemsTemplate
+	templateName "Template:DefaultStart_IceFair"
+	subTemplates 2
+		template "Template:DefaultHomePlanetSetup"
+		template "Template:LocalMilitia_IceFair"
+	groups 0
+planetItemsTemplate
+	templateName "Template:DefaultStart_FerrusFair"
+	subTemplates 2
+		template "Template:DefaultHomePlanetSetup"
+		template "Template:LocalMilitia_IceFair"
+	groups 0
+planetItemsTemplate
+	templateName "Template:DefaultStart_BarrenFair"
+	subTemplates 2
+		template "Template:DefaultHomePlanetSetup"
+		template "Template:LocalMilitia_Asteroid"
+	groups 0
+planetItemsTemplate
+	templateName "Template:DefaultStart_GreenhouseFair"
+	subTemplates 2
+		template "Template:DefaultHomePlanetSetup"
+		template "Template:LocalMilitia_IceFair"
+	groups 0
+planetItemsTemplate
+	templateName "Template:DefaultStart_OceanicFair"
+	subTemplates 2
+		template "Template:DefaultHomePlanetSetup"
+		template "Template:LocalMilitia_IceFair"
+	groups 0
+planetItemsTemplate
+	templateName "Template:LocalMilitia_Terran"
+	subTemplates 1
+		template "Template:LocalMilitiaStrong"
+	groups 0		
+planetItemsTemplate
+	templateName "Template:LocalMilitia_Desert"
+	subTemplates 1
+		template "Template:LocalMilitiaStrong"
+	groups 0
+planetItemsTemplate
+	templateName "Template:LocalMilitia_Volcanic"
+	subTemplates 1
+		template "Template:LocalMilitiaMedium"
+	groups 0
+planetItemsTemplate
+	templateName "Template:LocalMilitia_Asteroid"
+	subTemplates 1
+		template "Template:LocalMilitiaVeryWeak"
+	groups 0
+planetItemsTemplate
+	templateName "Template:LocalMilitia_Sleeper"
+	subTemplates 1
+		template "Template:LocalMilitiaSleeper"
+	groups 0	
+planetItemsTemplate
+	templateName "Template:LocalMilitia_AsteroidB"
+	subTemplates 1
+		template "Template:LocalMilitiaAsteroidB"
+	groups 0	
+planetItemsTemplate
+	templateName "Template:LocalMilitia_AsteroidC"
+	subTemplates 1
+		template "Template:LocalMilitiaAsteroidC"
+	groups 0	
+planetItemsTemplate
+	templateName "Template:LocalMilitia_AsteroidD"
+	subTemplates 1
+		template "Template:LocalMilitiaAsteroidD"
+	groups 0		
+planetItemsTemplate
+	templateName "Template:LocalMilitia_MoonB"
+	subTemplates 1
+		template "Template:LocalMilitiaMoonB"
+	groups 0	
+planetItemsTemplate
+	templateName "Template:LocalMilitia_MoonC"
+	subTemplates 1
+		template "Template:LocalMilitiaMoonC"
+	groups 0	
+planetItemsTemplate
+	templateName "Template:LocalMilitia_MoonD"
+	subTemplates 1
+		template "Template:LocalMilitiaMoonD"
+	groups 0			
+planetItemsTemplate
+	templateName "Template:LocalMilitia_DeadAsteroid"
+	subTemplates 1
+		template "Template:LocalMilitiaVeryWeak"
+	groups 0
+planetItemsTemplate
+	templateName "Template:LocalMilitia_ShipGraveyard"
+	subTemplates 1
+		template "Template:LocalMilitiaVeryWeak3"
+	groups 0
+planetItemsTemplate
+	templateName "Template:LocalMilitia_GasGiant"
+	subTemplates 1
+		template "Template:LocalMilitiaVeryWeakUncolonizable"
+	groups 0
+planetItemsTemplate
+	templateName "Template:LocalMilitia_PlasmaStorm"
+	subTemplates 1
+		template "Template:LocalMilitiaVeryWeakUncolonizable"
+	groups 0
+planetItemsTemplate
+	templateName "Template:LocalMilitia_Ice"
+	subTemplates 1
+		template "Template:LocalMilitiaMedium"
+	groups 0
+planetItemsTemplate
+	templateName "Template:LocalMilitia_TerranFair"
+	subTemplates 1
+		template "Template:LocalMilitiaStrongFair"
+	groups 0		
+planetItemsTemplate
+	templateName "Template:LocalMilitia_DesertFair"
+	subTemplates 1
+		template "Template:LocalMilitiaStrongFair"
+	groups 0
+planetItemsTemplate
+	templateName "Template:LocalMilitia_AsteroidFair"
+	subTemplates 1
+		template "Template:LocalMilitiaVeryWeak2"
+	groups 0
+planetItemsTemplate
+	templateName "Template:LocalMilitia_VolcanicFair"
+	subTemplates 1
+		template "Template:LocalMilitiaMediumFair"
+	groups 0
+planetItemsTemplate
+	templateName "Template:LocalMilitia_GasGiantFair"
+	subTemplates 1
+		template "Template:LocalMilitiaVeryWeakUncolonizable"
+	groups 0
+planetItemsTemplate
+	templateName "Template:LocalMilitia_PlasmaStormFair"
+	subTemplates 1
+		template "Template:LocalMilitiaVeryWeakUncolonizable"
+	groups 0
+planetItemsTemplate
+	templateName "Template:LocalMilitia_IceFair"
+	subTemplates 1
+		template "Template:LocalMilitiaMediumFair"
+	groups 0
 validPictureGroups 3
-pictureGroup "PlayerPhase"
+pictureGroup "PlayerMinmatar"
 pictureGroup "PlayerPsi"
 pictureGroup "PlayerTech"
 validThemeGroups 4
@@ -4159,26 +4568,9 @@ player
 	pictureGroup "NPC"
 	pictureIndex 0
 player
-	designName "Rebel"
-	inGameName "IDSScenarioPlayerNameRebels"
-	overrideRaceName "TechRebel"
-	teamIndex -1
-	startingCredits 1000
-	startingMetal 300
-	startingCrystal 100
-	isNormalPlayer FALSE
-	isRaidingPlayer FALSE
-	isInsurgentPlayer TRUE
-	isOccupationPlayer FALSE
-	isMadVasariPlayer FALSE
-	themeGroup "SpecialNPC"
-	themeIndex 1
-	pictureGroup "NPC"
-	pictureIndex 1
-player
 	designName "Occupation"
 	inGameName "IDSScenarioPlayerNameOccupation"
-	overrideRaceName "GallenteFederation"
+	overrideRaceName "Gallente"
 	teamIndex -1
 	startingCredits 0
 	startingMetal 0
@@ -4195,7 +4587,7 @@ player
 player
 	designName "MadVasari"
 	inGameName "IDSScenarioPlayerNameMadVasari"
-	overrideRaceName "GallenteFederation"
+	overrideRaceName "Gallente"
 	teamIndex -1
 	startingCredits 0
 	startingMetal 0
@@ -4209,8 +4601,25 @@ player
 	themeIndex 15
 	pictureGroup "PlayerPhase"
 	pictureIndex 15
-autoAddMiltiaPlayerCountPerGalaxy 5
-autoAddMilitiaPlayers 7
+player
+	designName "SOE"
+	inGameName "IDSScenarioPlayerNameRebels"
+	overrideRaceName "SOE"
+	teamIndex -1
+	startingCredits 1000
+	startingMetal 300
+	startingCrystal 100
+	isNormalPlayer FALSE
+	isRaidingPlayer FALSE
+	isInsurgentPlayer TRUE
+	isOccupationPlayer FALSE
+	isMadVasariPlayer FALSE
+	themeGroup "SpecialNPC"
+	themeIndex 1
+	pictureGroup "NPC"
+	pictureIndex 1
+autoAddMiltiaPlayerCountPerGalaxy 10
+autoAddMilitiaPlayers 10
 player
 	designName "Angel"
 	inGameName "IDSScenarioPlayerNameMilitia0"
@@ -4328,6 +4737,57 @@ player
 	isMadVasariPlayer FALSE
 	themeGroup "NPC"
 	themeIndex 8
+	pictureGroup "NPC"
+	pictureIndex 2
+player
+	designName "Caldari"
+	inGameName "IDSScenarioPlayerNameMilitia7"
+	overrideRaceName "Caldari"
+	teamIndex -1
+	startingCredits 1000
+	startingMetal 300
+	startingCrystal 100
+	isNormalPlayer FALSE
+	isRaidingPlayer FALSE
+	isInsurgentPlayer FALSE
+	isOccupationPlayer FALSE
+	isMadVasariPlayer FALSE
+	themeGroup "NPC"
+	themeIndex 9
+	pictureGroup "NPC"
+	pictureIndex 2
+player
+	designName "Minmatar"
+	inGameName "IDSScenarioPlayerNameMilitia8"
+	overrideRaceName "Minmatar"
+	teamIndex -1
+	startingCredits 1000
+	startingMetal 300
+	startingCrystal 100
+	isNormalPlayer FALSE
+	isRaidingPlayer FALSE
+	isInsurgentPlayer FALSE
+	isOccupationPlayer FALSE
+	isMadVasariPlayer FALSE
+	themeGroup "NPC"
+	themeIndex 10
+	pictureGroup "NPC"
+	pictureIndex 2
+player
+	designName "Mordu"
+	inGameName "IDSScenarioPlayerNameMilitia9"
+	overrideRaceName "Mordu"
+	teamIndex -1
+	startingCredits 1000
+	startingMetal 300
+	startingCrystal 100
+	isNormalPlayer FALSE
+	isRaidingPlayer FALSE
+	isInsurgentPlayer FALSE
+	isOccupationPlayer FALSE
+	isMadVasariPlayer FALSE
+	themeGroup "NPC"
+	themeIndex 11
 	pictureGroup "NPC"
 	pictureIndex 2
 	
