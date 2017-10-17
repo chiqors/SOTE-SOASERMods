@@ -45,7 +45,7 @@ entities
 			entityDefName "Gallente_Ship_Dreadnought_Moros_LongRange"
 			entityDefName "Gallente_Ship_Supercarrier_Nyx"
 			entityDefName "Gallente_Ship_Capital_Titan_Erebus"
-			entityDefName "Serpentis_ShipSupercarrier_Vendeta"
+			entityDefName "Serpentis_ShipSupercarrier_Vendetta"
 			entityDefName "AllRaces_Ship_Supercarrier_Revenant"
 	frigateInfo
 		Page:0

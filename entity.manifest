@@ -1,5 +1,5 @@
 TXT
-entityNameCount 2510
+entityNameCount 2514
 entityName "AbilityMoonMining.entity"
 entityName "BuffMoonMining.entity"
 entityName "ABILITY_AIBUFFER.entity"
@@ -2510,3 +2510,7 @@ entityName "AbilityAisupportAmarrShipsDestroyersFleet.entity"
 entityName "AbilityAisupportAmarrShipsCruisersFleet.entity"
 entityName "AbilityAisupportAmarrShipsBattlecruisersFleet.entity"
 entityName "AbilityAisupportAmarrShipsBattleshipsFleet.entity"
+entityName "Serpentis_ModuleShipyard.entity"
+entityName "Serpentis_AbilitySummonVigilant.entity"
+entityName "Serpentis_AbilitySummonDaredevil.entity"
+entityName "Serpentis_AbilitySummonVindicator.entity"
