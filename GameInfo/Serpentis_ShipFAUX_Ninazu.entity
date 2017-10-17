@@ -92,8 +92,8 @@ numRandomDebrisSmall 0
 numSpecificDebris 0
 armorType "VeryHeavy"
 hudIcon "HUDICON_CAPITALSHIP_NINAZU"
-smallHudIcon "HUDICONSMALL_SQUADPSIBOMBER"
-infoCardIcon "INFOCARDICON_SQUADPSIBOMBER"
+smallHudIcon "HUDICONSMALL_CARRIER"
+infoCardIcon "HUDICONSMALL_CARRIER"
 minZoomDistanceMult 1.000000
 NumWeapons 1
 Weapon

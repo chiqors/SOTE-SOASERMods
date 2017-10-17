@@ -147,7 +147,7 @@ HyperspaceTravelSoundID "HYPERSPACE_TRAVEL"
 EngineSoundID "ENGINE_TECHCAPITALSHIP"
 ability:0 "AbilityExplore"
 ability:1 "AbilityMicrowarpdrive"
-ability:2 "AbilityAmarrCynosuralField"
+ability:2 ""
 ability:3 "AbilityT2CloakCovertOps"
 ability:4 ""
 MaxAntiMatter 406.000000

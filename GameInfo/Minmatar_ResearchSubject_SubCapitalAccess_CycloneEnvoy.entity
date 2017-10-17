@@ -4,7 +4,7 @@ hudIcon "HUDICON_RESEARCHSUBJECT_FRIGATEACCESS_CYCLONE"
 smallHudIcon "HUDICON_RESEARCHSUBJECT_FRIGATEACCESS_CYCLONE"
 infoCardIcon ""
 NameStringID "IDS_RESEARCHSUBJECT_SubCapitalAccess_Cyclone_NAME"
-DescriptionStringID "IDS_RESEARCHSUBJECT_SubCapitalAccess_CycloneEnvoy_NAME"
+DescriptionStringID "IDS_RESEARCHSUBJECT_SubCapitalAccess_CycloneEnvoy_DESCRIPTION"
 researchWindowLocation
 	block 0
 	pos [ 0 , 0 ]

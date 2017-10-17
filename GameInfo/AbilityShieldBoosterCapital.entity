@@ -29,10 +29,10 @@ onlyAutoCastWhenTargetShieldDamageExceedsAmount
 	Level:2 5940.000000
 	Level:3 5940.000000
 isAutoCastAvailable TRUE
-isAutoCastOnByDefault TRUE
+isAutoCastOnByDefault FALSE
 pickRandomPlanetToExploreForAutoCastTarget FALSE
 ignoreNonCombatShipsForAutoCastTarget TRUE
-onlyAutoCastWhenDamageTakenExceedsPerc 0.000000
+onlyAutoCastWhenDamageTakenExceedsPerc 0.010000
 useCostType "AntiMatter"
 antiMatterCost
 	Level:0 2592.000000
