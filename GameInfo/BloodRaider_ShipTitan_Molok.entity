@@ -87,7 +87,7 @@ Prerequisites
 		Subject "RESEARCHSUBJECT_TITANACCESS_TECHLOYALIST_1"
 		Level 1
 	ResearchPrerequisite
-		Subject "RESEARCHSUBJECT_ARTIFACT_HYPERSPACESPEED"
+		Subject "RESEARCHSUBJECT_DARKFLEET"
 		Level 1		
 	RequiredFactionNameID ""
 	RequiredCompletedResearchSubjects 0

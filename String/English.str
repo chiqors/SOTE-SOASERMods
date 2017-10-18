@@ -6311,7 +6311,7 @@ StringInfo
 	Value "Dark Fleet Beacon"
 StringInfo
 	ID "IDS_RESEARCHSUBJECT_ABILITYACCESS_DARKFLEET_DESCRIPTION"
-	Value "Grants the Dark Combat Fleet, Dark Support Fleet and Dark Capital Ship abilities to Phase Stabilizer structures, allowing them to contact remnants of the Dark Fleet and enlist their aid for your empire."
+	Value "Grants the Dark Combat Fleet, Dark Support Fleet and Dark Capital Ship, allowing them to contact remnants of the Dark Fleet and enlist their aid for your empire."
 StringInfo
 	ID "IDS_RESEARCHSUBJECT_ABILITYACCESS_FLEETBEACON_NAME"
 	Value "Returning Armada"
