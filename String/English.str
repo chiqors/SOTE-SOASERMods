@@ -1,5 +1,5 @@
 TXT
-NumStrings 8699
+NumStrings 8703
 StringInfo
     ID "IDS_ABILITY_RORQUALPANIC_NAME"
 	Value "P.A.N.I.C Module"
@@ -8177,7 +8177,7 @@ StringInfo
 	Value "Repair Platform"
 StringInfo
 	ID "IDS_RESEARCHSUBJECT_PLANETMODULEACCESS_REPAIRPLATFORMPSI_DESCRIPTION"
-	Value "Grants access to the Repair Platform structure, which repairs the hull of nearby friendly ships and structures."
+	Value "Grants access to the Repair Platform structure and Hangar Defence, which repairs the hull of nearby friendly ships and structures and summon fighters to defend the planet."
 StringInfo
 	ID "IDS_Gallente_ResearchSubject_PlanetModuleAccess_MediumBlasterBattery_NAME"
 	Value "Medium Blaster Battery"
@@ -11444,7 +11444,7 @@ StringInfo
 	Value "Omen"
 StringInfo
 	ID "IDS_FRIGATE_ASHIMUU_NAME"
-	Value "Blood Raider Ashimuu"	
+	Value "BloodRaider Ashimuu"	
 StringInfo
 	ID "IDS_FRIGATE_TECHLONGRANGE_DESCRIPTION"
 	Value "A Light Cruiser that excels at direct fire combat. Once the mainstay of the Amarrian fleet, the omen stays whithin their typical theme of strong armour and powerful energy weapons. The omen is an excellent good value combat cruiser."
@@ -25612,6 +25612,9 @@ StringInfo
 	ID "IDS_PLAYERRACENAME_ANGEL"
 	Value "Angel Cartel"
 StringInfo
+	ID "IDS_PIRATESHIP_DESC"
+	Value "Summon a Pirate Ship to aid in battle. Pirate Ships are more powerfull than empire ones. "
+StringInfo
 	ID "IDS_FRIGATE_BLOODRAIDER_CRUOR_NAME"
 	Value "Blood Raider Cruor"
 StringInfo
@@ -26097,4 +26100,13 @@ StringInfo
 StringInfo
 	ID "IDS_TRADESHIP_ORE_DESCRIPTION"
 	Value "A large commercial vessel that carries merchant cargo between distant worlds."
+StringInfo
+	ID "IDS_SOE_SHIPYARD_DESCRIPTION"
+	Value "This modified shipyards are used to Repairs friendly ships near the planet over time. From time to time this shipyards are used as stagging point to SOE ships with good standing."
+StringInfo
+	ID "IDS_SERPENTIS_SHIPYARD_DESCRIPTION"
+	Value "	Value "Grants access to the Hangar Defense structure, which can garrison strike craft squadrons to defend the planet. They can also Summon the aid of Serpentis ships."		
+StringInfo
+	ID "IDS_BLOODRAIDER_SHIPYARD_DESCRIPTION"
+	Value "	Value "Grants access to the Hangar Defense structure, which can garrison strike craft squadrons to defend the planet. They can also Summon the aid of Bloodraiders ships."			
 	

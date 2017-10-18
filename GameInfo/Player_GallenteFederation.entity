@@ -21,13 +21,14 @@ entities
 			entityDefName "Gallente_Structure_CivillianLab"
 			entityDefName "Amarr_Structure_Refinery"
 		Page:1
-			count 8
+			count 9
 			entityDefName "Gallente_Structure_SmallBlasterBattery"
 			entityDefName "Gallente_Structure_MediumBlasterBattery"
 			entityDefName "Gallente_Structure_LargeBlasterBattery"
 			entityDefName "Gallente_Structure_ECMBattery"
 			entityDefName "Gallente_Structure_JumpBridge"
 			entityDefName "Gallente_Structure_CynoJammer"
+			entityDefName "SOE_ModuleShipyard"
 			entityDefName "Serpentis_ModuleShipyard"
 			entityDefName "Gallente_Structure_TitanFoundry"
 	titanInfo
