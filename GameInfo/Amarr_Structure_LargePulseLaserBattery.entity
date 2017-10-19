@@ -85,8 +85,8 @@ Weapon
 		DamageAffectType "AFFECTS_SHIELDS_AND_HULL"
 		DamageApplyType "OVERTIME"
 		DamageType "ENERGY"
-		WeaponClassType "MISSILE"
-	DamagePerBank:FRONT 2500.000000
+		WeaponClassType "LASERTECH"
+	DamagePerBank:FRONT 5000.000000
 	DamagePerBank:BACK 0.000000
 	DamagePerBank:LEFT 0.000000
 	DamagePerBank:RIGHT 0.000000

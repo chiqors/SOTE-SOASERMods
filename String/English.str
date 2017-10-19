@@ -1,5 +1,5 @@
 TXT
-NumStrings 8703
+NumStrings 8705
 StringInfo
     ID "IDS_ABILITY_RORQUALPANIC_NAME"
 	Value "P.A.N.I.C Module"
@@ -11993,7 +11993,7 @@ StringInfo
 	Value "Small Pulse Laser Battery"
 StringInfo
 	ID "IDS_PLANETMODULE_TECHORBITALGAUSSDEFENSE_DESCRIPTION"
-	Value "This structure is designed to defend the planet or control tower from attack by hostile ships, specifically smaller ships such as frigates and cruisers, NOTE, Placing structures of this type within the bonus radius of a control tower will yield significant boosts to weapon damage while rendering the structure invulnerable to attack until the control tower has been destroyed."
+	Value "This structure is designed to defend the planet or control tower from attack by hostile ships, specifically smaller ships such as frigates and cruisers."
 StringInfo
 	ID "IDS_PLANETMODULE_PIRATEORBITALGAUSSDEFENSE_NAME"
 	Value "Pirate Defense Platform"
@@ -26109,4 +26109,10 @@ StringInfo
 StringInfo
 	ID "IDS_BLOODRAIDER_SHIPYARD_DESCRIPTION"
 	Value "	Value "Grants access to the Hangar Defense structure, which can garrison strike craft squadrons to defend the planet. They can also Summon the aid of Bloodraiders ships."			
+StringInfo
+	ID "IDS_ABILITY_ANTISUBCAPITALMODE_NAME"
+	Value "Anti capital Mode"
+StringInfo
+	ID "IDS_ABILITY_ANTISUBCAPITALMODE_DESCRIPTION"
+	Value "This Changes the Weapons Ammunitions to have more range and rate of fire in expense of Power."		
 	

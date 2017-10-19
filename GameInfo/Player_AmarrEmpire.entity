@@ -38,10 +38,9 @@ entities
 			entityDefName "BloodRaider_ShipTitan_Molok"
 	capitalShipInfo
 		Page:0
-			count 8
+			count 7
 			entityDefName "Amarr_Ship_Carrier_Archon"
 			entityDefName "Amarr_Ship_Carrier_Triage_Archon"
-			entityDefName "Amarr_Ship_Dreadnought_Revelation_ShortRange"
 			entityDefName "Amarr_Ship_Dreadnought_Revelation_LongRange"
 			entityDefName "Amarr_Ship_Supercarrier_Aeon"
 			entityDefName "Amarr_Ship_ColonyCapital_Rorqual"
