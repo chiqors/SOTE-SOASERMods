@@ -140,8 +140,8 @@ HyperspaceTravelSoundID "HYPERSPACE_TRAVEL"
 EngineSoundID "ENGINE_TECHCAPITALSHIP"
 ability:0 "AbilityAfterburner"
 ability:1 "AbilityStasisWebifier"
-ability:2 ""
-ability:3 ""
+ability:2 "AbilityCruiserResistShield"
+ability:3 "AbilityCruiserDamage"
 ability:4 "AbilityT2CruiserMunnin"
 MaxAntiMatter 1500.000000
 AntiMatterRestoreRate 11.700000

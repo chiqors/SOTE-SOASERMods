@@ -150,7 +150,7 @@ EngineSoundID "ENGINE_TECHCAPITALSHIP"
 ability:0 "AbilityAfterburner"
 ability:1 "AbilityRemoteShieldBoosterLogiCruiser"
 ability:2 "AbilityRemoteShieldBoosterLogiCruiser2"
-ability:3 ""
+ability:3 "AbilityCruiserResistShield"
 ability:4 "AbilityT2CruiserScimitar"
 MaxAntiMatter 2190.000000
 AntiMatterRestoreRate 20.800000
