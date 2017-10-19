@@ -77,7 +77,8 @@ entities
 			entityDefName "AllRaces_Ship_Orca"
 			entityDefName "Gallente_Ship_Tradeship"		
 	researchInfo
-		count 129
+		count 130
+		entityDefName "RESEARCHSUBJECT_DARKFLEET"		
 		entityDefName "RSALogistic"
 		entityDefName "RSAInterdictor"		
 		entityDefName "RSACommand_Orca"		

@@ -82,13 +82,10 @@ NameStringID "IDS_COMMAND_TITAN_BLOODRAIDER_MOLOK_NAME"
 DescriptionStringID "IDS_COMMAND_TITAN_BLOODRAIDER_MOLOK_DESCRIPTION"
 picture "PICTURE_CAPITAL_AVATAR"
 Prerequisites
-	NumResearchPrerequisites 2
+	NumResearchPrerequisites 1
 	ResearchPrerequisite
-		Subject "RESEARCHSUBJECT_TITANACCESS_TECHLOYALIST_1"
+		Subject "BloodRaider_RESEARCH_TITANACCESS"
 		Level 1
-	ResearchPrerequisite
-		Subject "RESEARCHSUBJECT_DARKFLEET"
-		Level 1		
 	RequiredFactionNameID ""
 	RequiredCompletedResearchSubjects 0
 statCountType "Titan"

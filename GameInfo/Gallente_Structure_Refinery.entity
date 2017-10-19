@@ -1,11 +1,11 @@
 ﻿TXT
 entityType "PlanetModuleRefinery"
 minZoomDistanceMult 1.000000
-ability:0 "Ore_AbilitySummonOrca"
+ability:0 "AbilityMoonMining"
 ability:1 ""
 ability:2 ""
 ability:3 ""
-ability:4 ""
+ability:4 "Ore_AbilitySummonOrca"
 MaxAntiMatter 0.000000
 AntiMatterRestoreRate 0.000000
 numRandomDebrisLarge 0
