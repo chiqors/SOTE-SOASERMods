@@ -6,7 +6,7 @@ infoCardIcon ""
 NameStringID "IDS_RESEARCHSUBJECT_ABILITYACCESS_DARKFLEET_NAME"
 DescriptionStringID "IDS_RESEARCHSUBJECT_ABILITYACCESS_DARKFLEET_DESCRIPTION"
 researchWindowLocation
-	block 1
+	block 0
 	pos [ 7 , 0 ]
 ResearchField "Diplomacy"
 Prerequisites
