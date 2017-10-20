@@ -50,7 +50,7 @@ researchPrerequisites
 	RequiredFactionNameID ""
 	RequiredCompletedResearchSubjects 0
 nameStringID "IDS_FRIGATE_BLOODRAIDER_CRUOR_NAME"
-descStringID "IDS_PIRATESHIP_DESC"
-hudIcon "HUDICON_ANGEL_DRAMIEL"
+descStringID "IDS_BloodRaiders_ShipFrigateCruor_DESCRIPTION"
+hudIcon "HUDICON_BLOODRAIDER_CRUOR"
 smallHudIcon "HUDICON_ANGEL_DRAMIEL"
 infoCardIcon ""

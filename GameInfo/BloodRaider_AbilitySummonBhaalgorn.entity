@@ -50,7 +50,7 @@ researchPrerequisites
 	RequiredFactionNameID ""
 	RequiredCompletedResearchSubjects 0
 nameStringID "IDS_Bloodraider_ShipBattleshipBhaalgorn_NAME"
-descStringID "IDS_PIRATESHIP_DESC"
-hudIcon "HUDICON_ANGEL_MACHARIEL"
+descStringID "IDS_Bloodraider_ShipBattleshipBhaalgorn_DESCRIPTION"
+hudIcon "HUDICON_BLOODRAIDER_BHAALGORN"
 smallHudIcon "HUDICON_ANGEL_MACHARIEL"
 infoCardIcon ""

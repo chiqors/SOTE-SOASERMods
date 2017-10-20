@@ -50,7 +50,7 @@ researchPrerequisites
 	RequiredFactionNameID ""
 	RequiredCompletedResearchSubjects 0
 nameStringID "IDS_FRIGATE_ASHIMUU_NAME"
-descStringID "IDS_PIRATESHIP_DESC"
-hudIcon "HUDICON_ANGEL_CYNABAL"
+descStringID "IDS_FRIGATE_ASHIMUU_DESCRIPTION"
+hudIcon "HUDICON_BLOODRAIDER_ASHIMUU"
 smallHudIcon "HUDICON_ANGEL_CYNABAL"
 infoCardIcon ""
