@@ -12,7 +12,7 @@ statCountType "FrigateLight"
 mainViewIcon "MAINVIEWICON_FRIGATE_TECHLIGHT"
 picture "PICTURE_BLOODRAIDER_CRUOR"
 NameStringID "IDS_FRIGATE_BLOODRAIDER_CRUOR_NAME"
-DescriptionStringID "IDS_FRIGATE_TECHLIGHT_DESCRIPTION"
+DescriptionStringID "IDS_BloodRaiders_ShipFrigateCruor_DESCRIPTION"
 counterDescriptionStringID "IDS_COUNTERDESC_FRIGATE_NONCOMBAT"
 basePrice
 	credits 164.000000

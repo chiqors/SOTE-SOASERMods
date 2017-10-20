@@ -107,7 +107,7 @@ Weapon
 		DamageApplyType "BACKLOADED"
 		DamageType "PHYSICAL"
 		WeaponClassType "GAUSS"
-	DamagePerBank:FRONT 11136.000000
+	DamagePerBank:FRONT 5625.000000
 	DamagePerBank:BACK 0.000000
 	DamagePerBank:LEFT 0.000000
 	DamagePerBank:RIGHT 0.000000

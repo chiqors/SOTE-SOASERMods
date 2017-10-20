@@ -34,6 +34,6 @@ researchPrerequisites
 	RequiredCompletedResearchSubjects 0
 nameStringID "IDS_GALLENTE_SHIP_CRUISER_ONEIROS_NAME"
 descStringID "IDS_GALLENTE_SHIP_CRUISER_ONEIROS_Description"
-hudIcon "HUDICON_FRIGATEACCESS_BASILISK"
-smallHudIcon "HUDICONSMALL_FRIGATE_OSPREY"
+hudIcon "HUDICON_GALLENTE_ONEIROS"
+smallHudIcon "HUDICON_GALLENTE_ONEIROS"
 infoCardIcon ""

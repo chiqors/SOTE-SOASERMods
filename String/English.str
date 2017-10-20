@@ -1,5 +1,5 @@
 TXT
-NumStrings 8705
+NumStrings 8709
 StringInfo
     ID "IDS_ABILITY_RORQUALPANIC_NAME"
 	Value "P.A.N.I.C Module"
@@ -11446,6 +11446,9 @@ StringInfo
 	ID "IDS_FRIGATE_ASHIMUU_NAME"
 	Value "BloodRaider Ashimuu"	
 StringInfo
+	ID "IDS_FRIGATE_ASHIMUU_DESCRIPTION"
+	Value "In those of the Empire's regions where naughty children are frightened into submission with tales of the Blood Raiders and their gallery of horrors, the terrible spear of the Ashimmu is known by all as a bringer of things worse than death. This is one of the few things that small children and capsule pilots generally agree upon."		
+StringInfo
 	ID "IDS_FRIGATE_TECHLONGRANGE_DESCRIPTION"
 	Value "A Light Cruiser that excels at direct fire combat. Once the mainstay of the Amarrian fleet, the omen stays whithin their typical theme of strong armour and powerful energy weapons. The omen is an excellent good value combat cruiser."
 StringInfo
@@ -22124,10 +22127,10 @@ StringInfo
 	Value "Sisters Of Eve"
 StringInfo
 	ID "IDSScenarioPlayerNameOccupation"
-	Value "Eta Sector Remnants"
+	Value "Shadow of xXDEATHXx"
 StringInfo
 	ID "IDSScenarioPlayerNameMadVasari"
-	Value "Mad Dark Fleet Remnants"
+	Value "SOLAR FLEET"
 StringInfo
 	ID "IDSScenarioPlayerNameMilitia0"
 	Value "Angel Cartel"
@@ -22160,37 +22163,37 @@ StringInfo
 	Value "Mordu's Legion"
 StringInfo
 	ID "IDSScenarioPlayerNameMilitia10"
-	Value "East Valc Front"
+	Value "Goonswarm Federation"
 StringInfo
 	ID "IDSScenarioPlayerNameMilitia11"
-	Value "Herdunt Guard"
+	Value "Test Alliance Please Ignore"
 StringInfo
 	ID "IDSScenarioPlayerNameMilitia12"
-	Value "Naos Reserve"
+	Value "Pandemic Legion"
 StringInfo
 	ID "IDSScenarioPlayerNameMilitia13"
-	Value "Jaitus Standing"
+	Value "Band of Brothers"
 StringInfo
 	ID "IDSScenarioPlayerNameMilitia14"
-	Value "Freamov Scallies"
+	Value "Northern Coalition."
 StringInfo
 	ID "IDSScenarioPlayerNameMilitia15"
 	Value "Briute National"
 StringInfo
 	ID "IDSScenarioPlayerNameMilitia16"
-	Value "Stostra Milita"
+	Value "DARKNESS."
 StringInfo
 	ID "IDSScenarioPlayerNameMilitia17"
-	Value "Nahradin Imperial"
+	Value "Curatores Veritatis Alliance"
 StringInfo
 	ID "IDSScenarioPlayerNameMilitia18"
-	Value "E'kzes Legion"
+	Value "Triumvirate."
 StringInfo
 	ID "IDSScenarioPlayerNameMilitia19"
-	Value "Dalcnori Militia"
+	Value "Fidelas Constans"
 StringInfo
 	ID "IDSScenarioPlayerNameMilitia20"
-	Value "Resarc Guard"
+	Value "The Initiative."
 StringInfo
 	ID "IDSScenarioPlayerNameMilitia21"
 	Value "Local Miltia"
@@ -25589,7 +25592,7 @@ StringInfo
 	Value "Cynabal Cruiser"
 StringInfo
 	ID "IDS_Angel_Cynabal_DESCRIPTION"
-	Value "While its utilitarian look may not give much of an indication, many are convinced that the Machariel is based on an ancient Jovian design uncovered by the Angel Cartel in one of their extensive exploratory raids into uncharted territory some years ago."
+	Value "The Cynabal was one of the earliest designs put forth by the Angel Cartel, and to this day it remains their most-used. The ship's origins are unknown, but as with most Cartel ships persistent rumors of Jovian influence continue to linger. Whether these tales have basis in reality or not, the facts are on the table: The Cynabal is one of the fastest, most powerful cruisers to be found anywhere."
 StringInfo
 	ID "IDS_Angel_Dramiel_NAME"
 	Value "Dramiel Frigate"
@@ -25617,6 +25620,9 @@ StringInfo
 StringInfo
 	ID "IDS_FRIGATE_BLOODRAIDER_CRUOR_NAME"
 	Value "Blood Raider Cruor"
+StringInfo
+	ID "IDS_BloodRaiders_ShipFrigateCruor_DESCRIPTION"
+	Value "Mottled, dark red, and shaped like a leech, the Cruor presents a fitting metaphor for the Blood Raiders' philosophy. Designed almost solely to engage in their disturbingly effective tactic of energy draining and stasis webbing, this ship is a cornerstone in any effective Blood Raider fleet - and could play an intriguing role in more standard ones."	
 StringInfo
 	ID "IDS_PLAYERRACENAME_SERPENTIS"
 	Value "Serpentis"		
@@ -26115,4 +26121,10 @@ StringInfo
 StringInfo
 	ID "IDS_ABILITY_ANTISUBCAPITALMODE_DESCRIPTION"
 	Value "This Changes the Weapons Ammunitions to have more range and rate of fire in expense of Power."		
+StringInfo
+	ID "IDS_BloodRaiders_ShipForceAuxiliaryDagon_NAME"
+	Value "Dagon"	
+StringInfo
+	ID "IDS_BloodRaiders_ShipForceAuxiliaryDagon_DESCRIPTION"
+	Value "Be wary of those who offer you aid with a smile and words of encouragement. They are false. Those that give life so that they may live are are more reliable and true in their motives. Eternity beckons for the Sabik but travelers on that road must be clothed in the blood of the weak and refreshed by the blood of the powerful and pure. Only give succor to a true fellow traveler, that they may aid you on your journey along that road."		
 	

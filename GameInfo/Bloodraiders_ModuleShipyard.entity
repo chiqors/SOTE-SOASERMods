@@ -4,7 +4,7 @@ minZoomDistanceMult 3.500000
 ability:0 ""
 ability:1 "BloodRaider_AbilitySummonCruor"
 ability:2 "BloodRaider_AbilitySummonAshimuu"
-ability:3 "BloodRaider_AbilitySummonBattleship"
+ability:3 "BloodRaider_AbilitySummonBhaalgorn"
 ability:4 ""
 MaxAntiMatter 300.000000
 AntiMatterRestoreRate 0.500000
