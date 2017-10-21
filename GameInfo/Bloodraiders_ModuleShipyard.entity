@@ -21,7 +21,7 @@ basePrice
 	credits 400.000000
 	metal 100.000000
 	crystal 75.000000
-NameStringID "IDS_SERPENTIS_SHIPYARD_DESCRIPTION"
+NameStringID "IDS_SERPENTIS_SHIPYARD_NAME"
 DescriptionStringID "IDS_BLOODRAIDER_SHIPYARD_DESCRIPTION"
 planetModuleRoleType "HANGARDEFENSE"
 statCountType "ModuleHangarDefense"

@@ -1,5 +1,5 @@
 TXT
-NumStrings 8709
+NumStrings 8710
 StringInfo
     ID "IDS_ABILITY_RORQUALPANIC_NAME"
 	Value "P.A.N.I.C Module"
@@ -26111,10 +26111,13 @@ StringInfo
 	Value "This modified shipyards are used to Repairs friendly ships near the planet over time. From time to time this shipyards are used as stagging point to SOE ships with good standing."
 StringInfo
 	ID "IDS_SERPENTIS_SHIPYARD_DESCRIPTION"
-	Value "	Value "Grants access to the Hangar Defense structure, which can garrison strike craft squadrons to defend the planet. They can also Summon the aid of Serpentis ships."		
+	Value "Grants access to the Hangar Defense structure, which can garrison strike craft squadrons to defend the planet. They can also Summon the aid of Serpentis ships."		
+StringInfo
+	ID "IDS_SERPENTIS_SHIPYARD_NAME"
+	Value "Hangar Bay"
 StringInfo
 	ID "IDS_BLOODRAIDER_SHIPYARD_DESCRIPTION"
-	Value "	Value "Grants access to the Hangar Defense structure, which can garrison strike craft squadrons to defend the planet. They can also Summon the aid of Bloodraiders ships."			
+	Value "Grants access to the Hangar Defense structure, which can garrison strike craft squadrons to defend the planet. They can also Summon the aid of Bloodraiders ships."			
 StringInfo
 	ID "IDS_ABILITY_ANTISUBCAPITALMODE_NAME"
 	Value "Anti capital Mode"

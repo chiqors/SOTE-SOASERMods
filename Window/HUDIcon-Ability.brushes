@@ -5727,17 +5727,17 @@ brush
 	content "States"
 	Disabled
 		fileName "Buttons_Abilities_Disabled"
-		pixelBox [ 770 , 289 , 47 , 33 ]
+		pixelBox [ 770 , 326, 47 , 33 ]
 	Pressed
 		fileName "Buttons_Abilities_Pressed"
-		pixelBox [ 566 , 881 , 47 , 33 ]
+		pixelBox [ 770 , 326, 47 , 33 ]
 	CursorOver
 		fileName "Buttons_Abilities_CursorOver"
-		pixelBox [ 566 , 881 , 47 , 33 ]
+		pixelBox [ 770 , 326, 47 , 33 ]
 	Focused
 		fileName "Buttons_Abilities_Normal"
-		pixelBox [ 566 , 881 , 47 , 33 ]
+		pixelBox [ 770 , 326, 47 , 33 ]
 	Normal
 		fileName "Buttons_Abilities_Normal"
-		pixelBox [ 566 , 881 , 47 , 33 ]
+		pixelBox [ 770 , 326, 47 , 33 ]
 				

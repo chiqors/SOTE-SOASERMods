@@ -7,7 +7,7 @@ NameStringID "IDS_RSABlackOps_NAME"
 DescriptionStringID "IDS_RSABlackOps_DESCRIPTION"
 researchWindowLocation
 	block 2
-	pos [ 7 , 1 ]
+	pos [ 7 , 2 ]
 ResearchField "Combat"
 Prerequisites
 	NumResearchPrerequisites 0

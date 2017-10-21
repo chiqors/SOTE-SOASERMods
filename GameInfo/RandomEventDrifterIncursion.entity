@@ -14,13 +14,13 @@ instantAction
 	delayTime 0.000000
 	spawnShipsLevelCount 1
 	spawnShips
-		minFleetPoints 10.000000
-		maxFleetPoints 20.000000
+		minFleetPoints 5.000000
+		maxFleetPoints 10.000000
 		requiredShipCount 1
 		requiredShip
 			type "Sleeper_ShipBattleshipDrifter"
-			minCount 3
-			maxCount 6
+			minCount 2
+			maxCount 4
 		randomShipCount 2
 		randomShip
 			type "Sleeper_ShipBattleshipDrifter"

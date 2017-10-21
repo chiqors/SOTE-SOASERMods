@@ -25,7 +25,45 @@ maxDecelerationAngular 241.000000
 maxSpeedLinear 700.000000
 maxRollRate 10.000000
 maxRollAngle 45.000000
-NumWeapons 1
+NumWeapons 2
+Weapon
+	WeaponType "Projectile"
+	damageEnums
+		AttackType "ANTIMEDIUM"
+		DamageAffectType "AFFECTS_SHIELDS_AND_HULL"
+		DamageApplyType "BACKLOADED"
+		DamageType "ENERGY"
+		WeaponClassType "AUTOCANNON"
+	DamagePerBank:FRONT 190.000000
+	DamagePerBank:BACK 0.000000
+	DamagePerBank:LEFT 0.000000
+	DamagePerBank:RIGHT 0.000000
+	Range 1000.000000
+	PreBuffCooldownTime 5.000000
+	CanFireAtFighter FALSE
+	SynchronizedTargeting TRUE
+	PointStaggerDelay 0.000000
+	TravelSpeed 7500.000000
+	Duration 0.000000
+	fireConstraintType "CanAlwaysFire"
+	WeaponEffects
+		weaponType "Projectile"
+		burstCount 2
+		burstDelay 0.030000
+		fireDelay 0.000000
+		muzzleEffectName "EVE_Weapon_Blaster_Micro_Blue_Muzzle"
+		muzzleSoundMinRespawnTime 1.000000
+		muzzleSounds
+			soundCount 1
+			sound "WEAPON_SMALLRAILGUN"
+		hitEffectName "EVE_Weapon_Blaster_Micro_Blue_Hit"
+		hitHullEffectSounds
+			soundCount 1
+			sound ""
+		hitShieldsEffectSounds
+			soundCount 1
+			sound ""
+		projectileTravelEffectName "EVE_Weapon_Blaster_Micro_Blue"
 Weapon
 	WeaponType "Missile"
 	damageEnums
@@ -34,16 +72,16 @@ Weapon
 		DamageApplyType "BACKLOADED"
 		DamageType "PHYSICAL"
 		WeaponClassType "MISSILE"
-	DamagePerBank:FRONT 3000.000000
+	DamagePerBank:FRONT 7538.000000
 	DamagePerBank:BACK 0.000000
 	DamagePerBank:LEFT 0.000000
 	DamagePerBank:RIGHT 0.000000
-	Range 10000.000000
-	PreBuffCooldownTime 30.000000
+	Range 5000.000000
+	PreBuffCooldownTime 20.000000
 	CanFireAtFighter FALSE
 	SynchronizedTargeting FALSE
 	PointStaggerDelay 2.000000
-	TravelSpeed 1100.000000
+	TravelSpeed 1200.000000
 	Duration 0.000000
 	fireConstraintType "CanAlwaysFire"
 	WeaponEffects
