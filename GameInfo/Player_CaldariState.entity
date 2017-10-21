@@ -36,11 +36,10 @@ entities
 			entityDefName "Caldari_Ship_Titan_Leviathan"
 	capitalShipInfo
 		Page:0
-			count 8
+			count 7
 			entityDefName "Gallente_Ship_ColonyCapital_Rorqual"
 			entityDefName "Caldari_Ship_Carrier_Chimera"
 			entityDefName "Caldari_Ship_Carrier_Triage_Chimera"
-			entityDefName "Caldari_Ship_Dreadnought_Phoenix_ShortRange"
 			entityDefName "Caldari_Ship_Dreadnought_Phoenix_LongRange"
 			entityDefName "Caldari_Ship_Supercarrier_Wyvern"
 			entityDefName "Caldari_Ship_Capital_Titan_Leviathan"
@@ -75,7 +74,8 @@ entities
 			entityDefName "AllRaces_Ship_Orca"
 			entityDefName "Caldari_Ship_Tradeship_Badge"			
 	researchInfo
-		count 136
+		count 137
+		entityDefName "RESEARCHSUBJECT_DARKFLEET"		
 		entityDefName "RSAInterdictor"		
 		entityDefName "RSACommand_Orca"		
 		entityDefName "RSACovertOps"

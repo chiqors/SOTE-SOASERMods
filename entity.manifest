@@ -1,5 +1,5 @@
 TXT
-entityNameCount 2514
+entityNameCount 2522
 entityName "AbilityMoonMining.entity"
 entityName "BuffMoonMining.entity"
 entityName "ABILITY_AIBUFFER.entity"
@@ -2514,3 +2514,11 @@ entityName "Serpentis_ModuleShipyard.entity"
 entityName "Serpentis_AbilitySummonVigilant.entity"
 entityName "Serpentis_AbilitySummonDaredevil.entity"
 entityName "Serpentis_AbilitySummonVindicator.entity"
+entityName "BloodRaider_AbilitySummonAshimuu.entity"
+entityName "BloodRaider_AbilitySummonBhaalgorn.entity"
+entityName "BloodRaider_AbilitySummonCruor.entity"
+entityName "Bloodraiders_ModuleShipyard.entity"
+entityName "RESEARCHSUBJECT_DARKFLEET.entity"
+entityName "BloodRaider_RESEARCH_TITANACCESS.entity"
+entityName "AbilityAntiCapitalMode.entity"
+entityName "BuffAntiCapitalMode.entity"

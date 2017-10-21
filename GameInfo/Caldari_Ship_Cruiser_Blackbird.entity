@@ -142,7 +142,7 @@ HyperspaceTravelSoundID "HYPERSPACE_TRAVEL"
 EngineSoundID "ENGINE_PHASECAPITALSHIP"
 ability:0 "AbilityAfterburner"
 ability:1 "AbilityECMBattery"
-ability:2 ""
+ability:2 "AbilityCruiserResistShield"
 ability:3 ""
 ability:4 ""
 MaxAntiMatter 1560.000000

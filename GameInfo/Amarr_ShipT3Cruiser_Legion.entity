@@ -12,7 +12,7 @@ frigateRoleType "Heavy"
 frigateRoleType "Support"
 statCountType "FrigateHeavy"
 mainViewIcon "MAINVIEWICON_FRIGATE_CARACAL"
-picture "PICTURE_T3_TENGU"
+picture "PICTURE_FRIGATE_LEGION"
 NameStringID "IDS_LEGION_NAME"
 DescriptionStringID "IDS_LEGION_DESCRIPTION"
 counterDescriptionStringID "IDS_COUNTERDESC_CORVETTE_TECH"
@@ -41,9 +41,9 @@ numRandomDebrisLarge 0
 numRandomDebrisSmall 0
 numSpecificDebris 0
 armorType "Medium"
-hudIcon "HUDICON_CALDARI_TENGU"
-smallHudIcon "HUDICONSMALL_FRIGATE_CARACAL"
-infoCardIcon "INFOCARDICON_FRIGATE_CARACAL"
+hudIcon "HUDICON_FRIGATE_LEGION"
+smallHudIcon "HUDICONSMALL_CRUISER"
+infoCardIcon "HUDICONSMALL_CRUISER"
 minZoomDistanceMult 1.000000
 NumWeapons 1
 Weapon
@@ -54,7 +54,7 @@ Weapon
 		DamageApplyType "OVERTIME"
 		DamageType "ENERGY"
 		WeaponClassType "LASERTECH"
-	DamagePerBank:FRONT 210.000000
+	DamagePerBank:FRONT 312.000000
 	DamagePerBank:BACK 0.000000
 	DamagePerBank:LEFT 0.000000
 	DamagePerBank:RIGHT 0.000000
@@ -150,9 +150,9 @@ HyperspaceTravelSoundID "HYPERSPACE_TRAVEL"
 EngineSoundID "ENGINE_PHASECAPITALSHIP"
 ability:0 "AbilityAfterburner"
 ability:1 "AbilityStasisWebifier"
-ability:2 "AbilityECM"
-ability:3 "AbilityArmorRepairer"
-ability:4 ""
+ability:2 "AbilityHeavyEnergyNeutralizerNiarjaMyelen"
+ability:3 "AbilityPhasedArmourHardener"
+ability:4 "AbilityArmorRepairer"
 MaxAntiMatter 3000.000000
 AntiMatterRestoreRate 30.000000
 cargoType "Invalid"

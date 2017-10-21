@@ -7,7 +7,7 @@ allowFirstSpawnerToStack FALSE
 buffExclusivityForAIType "ExclusiveForAllPlayers"
 isInterruptable FALSE
 isChannelling FALSE
-numInstantActions 2
+numInstantActions 3
 instantAction
 	buffInstantActionType "ApplyBuffToSelf"
 	instantActionTriggerType "OnDelay"
@@ -32,18 +32,20 @@ instantAction
 		mediumEffectName ""
 		largeEffectName ""
 		soundID ""
-numPeriodicActions 0
-numOverTimeActions 1
-overTimeAction
-	buffOverTimeActionType "DoDamage"
-	damageRate
+instantAction
+	buffInstantActionType "DoDamage"
+	instantActionTriggerType "OnDelay"
+	delayTime 0.000000
+	damage
 		Level:0 250000.000000
 		Level:1 250000.000000
 		Level:2 250000.000000
 		Level:3 250000.000000
 	damageAffectType "AFFECTS_SHIELDS_AND_HULL"
 	damageType "ENERGY"
-	isDamageShared FALSE
+	isDamageShared FALSE			
+numPeriodicActions 0
+numOverTimeActions 0
 numEntityModifiers 0
 numEntityBoolModifiers 0
 numFinishConditions 2

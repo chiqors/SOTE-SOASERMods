@@ -10,7 +10,7 @@ typeCount 1
 frigateRoleType "Lrm"
 statCountType "FrigateLongRange"
 mainViewIcon "MAINVIEWICON_FRIGATE_CARACAL"
-picture "PICTURE_T3_TENGU"
+picture "PICTURE_FRIGATE_LOKI"
 NameStringID "IDS_LOKI_NAME"
 DescriptionStringID "IDS_LOKI_DESCRIPTION"
 counterDescriptionStringID "IDS_COUNTERDESC_CORVETTE_TECH"
@@ -39,9 +39,9 @@ numRandomDebrisLarge 0
 numRandomDebrisSmall 0
 numSpecificDebris 0
 armorType "Medium"
-hudIcon "HUDICON_CALDARI_TENGU"
-smallHudIcon "HUDICONSMALL_FRIGATE_CARACAL"
-infoCardIcon "INFOCARDICON_FRIGATE_CARACAL"
+hudIcon "HUDICON_MINMATAR_LOKI"
+smallHudIcon "HUDICONSMALL_CRUISER"
+infoCardIcon "HUDICONSMALL_CRUISER"
 minZoomDistanceMult 1.000000
 NumWeapons 1
 Weapon
@@ -52,7 +52,7 @@ Weapon
 		DamageApplyType "BACKLOADED"
 		DamageType "PHYSICAL"
 		WeaponClassType "GAUSS"
-	DamagePerBank:FRONT 202.000000
+	DamagePerBank:FRONT 272.000000
 	DamagePerBank:BACK 0.000000
 	DamagePerBank:LEFT 0.000000
 	DamagePerBank:RIGHT 0.000000
@@ -140,8 +140,8 @@ HyperspaceTravelSoundID "HYPERSPACE_TRAVEL"
 EngineSoundID "ENGINE_PHASECAPITALSHIP"
 ability:0 "AbilityAfterburner"
 ability:1 "AbilityStasisWebifier"
-ability:2 ""
-ability:3 "AbilityArmorRepairer"
+ability:2 "AbilityTargetPainter"
+ability:3 "AbilityShieldBooster"
 ability:4 ""
 MaxAntiMatter 3000.000000
 AntiMatterRestoreRate 30.000000

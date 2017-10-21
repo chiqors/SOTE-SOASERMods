@@ -14,13 +14,8 @@ needsToFaceTarget FALSE
 canCollideWithTarget TRUE
 moveThruTarget FALSE
 isUltimateAbility FALSE
-maxNumLevels 4
-levelSourceType "Intrinsic"
-minExperienceLevelRequired
-	Level:0 0.000000
-	Level:1 1.000000
-	Level:2 2.000000
-	Level:3 3.000000
+maxNumLevels 1
+levelSourceType "FixedLevel0"
 aiUseTime "Anytime"
 aiUseTargetCondition "HullDamageExceedsAmount"
 onlyAutoCastWhenTargetHullDamageExceedsAmount
@@ -29,10 +24,10 @@ onlyAutoCastWhenTargetHullDamageExceedsAmount
 	Level:2 312.000000
 	Level:3 312.000000
 isAutoCastAvailable TRUE
-isAutoCastOnByDefault TRUE
+isAutoCastOnByDefault FALSE
 pickRandomPlanetToExploreForAutoCastTarget FALSE
 ignoreNonCombatShipsForAutoCastTarget TRUE
-onlyAutoCastWhenDamageTakenExceedsPerc 0.000000
+onlyAutoCastWhenDamageTakenExceedsPerc 0.010000
 useCostType "AntiMatter"
 antiMatterCost
 	Level:0 300.000000

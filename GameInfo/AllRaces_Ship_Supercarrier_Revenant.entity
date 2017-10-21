@@ -1,9 +1,9 @@
 ﻿TXT
 entityType "CapitalShip"
-ability:0 "AbilityHeavyEnergyNeutralizer"
-ability:1 "AbilityRemoteShieldBoosterCapital"
-ability:2 "AbilityProjectedECMBurst"
-ability:3 "AbilityLaunchSquads"
+ability:0 "AbilityProjectedECMBurst"
+ability:1 "AbilityDroneBonus"
+ability:2 "AbilityFighterControlUnitSuperCarrier"
+ability:3 "AbilitySuperCarrierShield"
 ability:4 ""
 defaultAutoAttackRange "GravityWell"
 defaultAutoAttackOn TRUE

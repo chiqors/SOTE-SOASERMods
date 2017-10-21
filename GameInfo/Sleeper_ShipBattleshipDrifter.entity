@@ -10,7 +10,7 @@ typeCount 1
 frigateRoleType "Heavy"
 statCountType "FrigateHeavy"
 mainViewIcon "MAINVIEWICON_CAPITALSHIP_TECHSIEGE"
-picture ""
+picture "PICTURE_FRIGATE_DRIFTER"
 NameStringID "IDS_CONCORD_DRIFTER_NAME"
 DescriptionStringID "IDS_CONCORD_DRIFTER_DESCRIPTION"
 counterDescriptionStringID "IDS_COUNTERDESC_FRIGATE_LONGRANGE"
@@ -35,8 +35,8 @@ Prerequisites
 numRandomDebrisLarge 0
 numRandomDebrisSmall 0
 numSpecificDebris 0
-armorType "Heavy"
-hudIcon "HUDICON_CAPITALSHIP_TECHSIEGE"
+armorType "VeryHeavy"
+hudIcon "HUDICON_SLEEPER_DRIFTER"
 smallHudIcon "HUDICONSMALL_BATTLESHIP"
 infoCardIcon "HUDICONSMALL_BATTLESHIP"
 minZoomDistanceMult 1.000000

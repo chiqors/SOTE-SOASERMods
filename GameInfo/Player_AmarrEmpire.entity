@@ -21,13 +21,14 @@ entities
 			entityDefName "Amarr_Structure_CivillianLab"
 			entityDefName "Amarr_Structure_Refinery"
 		Page:1
-			count 8
+			count 9
 			entityDefName "Amarr_Structure_SmallPulseLaserBattery"
 			entityDefName "Amarr_Structure_MediumPulseLaserBattery"
 			entityDefName "Amarr_Structure_LargePulseLaserBattery"
 			entityDefName "Amarr_Structure_ECMBattery"
 			entityDefName "Amarr_Structure_JumpBridge"
 			entityDefName "Amarr_Structure_CynoJammer"
+			entityDefName "Bloodraiders_ModuleShipyard"
 			entityDefName "SOE_ModuleShipyard"
 			entityDefName "Amarr_Structure_TitanFoundry"
 	titanInfo
@@ -37,10 +38,9 @@ entities
 			entityDefName "BloodRaider_ShipTitan_Molok"
 	capitalShipInfo
 		Page:0
-			count 8
+			count 7
 			entityDefName "Amarr_Ship_Carrier_Archon"
 			entityDefName "Amarr_Ship_Carrier_Triage_Archon"
-			entityDefName "Amarr_Ship_Dreadnought_Revelation_ShortRange"
 			entityDefName "Amarr_Ship_Dreadnought_Revelation_LongRange"
 			entityDefName "Amarr_Ship_Supercarrier_Aeon"
 			entityDefName "Amarr_Ship_ColonyCapital_Rorqual"
@@ -76,7 +76,9 @@ entities
 			entityDefName "AllRaces_Ship_Orca"
 			entityDefName "Amarr_Ship_Tradeship_Bestower"
 	researchInfo
-		count 137
+		count 139
+		entityDefName "BloodRaider_RESEARCH_TITANACCESS"
+		entityDefName "RESEARCHSUBJECT_DARKFLEET"
 		entityDefName "Amarr_ResearchSubject_SubCapitalAccess_Dragoon"
 		entityDefName "RSAInterdictor"		
 		entityDefName "RSACommand_Orca"

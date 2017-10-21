@@ -12,7 +12,7 @@ statCountType "FrigateHeavy"
 mainViewIcon "MAINVIEWICON_CAPITALSHIP_TECHSUPPORT"
 picture "PICTURE_ANGEL_MACHARIEL"
 NameStringID "IDS_Angel_Machariel_NAME"
-DescriptionStringID "IDS_BATTLESHIP_TYPHOON_DESCRIPTION"
+DescriptionStringID "IDS_Angel_Machariel_DESCRIPTION"
 counterDescriptionStringID "IDS_COUNTERDESC_FRIGATE_LONGRANGE"
 basePrice
 	credits 749.000000

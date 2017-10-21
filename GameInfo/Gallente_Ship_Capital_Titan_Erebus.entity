@@ -55,7 +55,7 @@ MaxHullPoints
 	StartValue 315000.000000
 	ValueIncreasePerLevel 31500.000000
 MaxShieldPoints
-	StartValue 130.000000
+	StartValue 130000.000000
 	ValueIncreasePerLevel 13000.000000
 HullPointRestoreRate
 	StartValue 10.000000

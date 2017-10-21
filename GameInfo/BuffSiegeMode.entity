@@ -57,10 +57,10 @@ numFinishConditions 3
 finishCondition
 	finishConditionType "TimeElapsed"
 	time
-		Level:0 150.000000
-		Level:1 150.000000
-		Level:2 150.000000
-		Level:3 150.000000
+		Level:0 300.000000
+		Level:1 300.000000
+		Level:2 300.000000
+		Level:3 300.000000
 finishCondition
 	finishConditionType "AntiMatterDepleted"
 finishCondition

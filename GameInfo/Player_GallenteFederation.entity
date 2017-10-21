@@ -21,13 +21,14 @@ entities
 			entityDefName "Gallente_Structure_CivillianLab"
 			entityDefName "Amarr_Structure_Refinery"
 		Page:1
-			count 8
+			count 9
 			entityDefName "Gallente_Structure_SmallBlasterBattery"
 			entityDefName "Gallente_Structure_MediumBlasterBattery"
 			entityDefName "Gallente_Structure_LargeBlasterBattery"
 			entityDefName "Gallente_Structure_ECMBattery"
 			entityDefName "Gallente_Structure_JumpBridge"
 			entityDefName "Gallente_Structure_CynoJammer"
+			entityDefName "SOE_ModuleShipyard"
 			entityDefName "Serpentis_ModuleShipyard"
 			entityDefName "Gallente_Structure_TitanFoundry"
 	titanInfo
@@ -37,11 +38,10 @@ entities
 			entityDefName "Serpentis_ShipTitan_Vanquisher"
 	capitalShipInfo
 		Page:0
-			count 9
+			count 8
 			entityDefName "Gallente_Ship_ColonyCapital_Rorqual"
 			entityDefName "Gallente_Ship_Carrier_Thanatos"
 			entityDefName "Gallente_Ship_Carrier_Triage_Thanatos"
-			entityDefName "Gallente_Ship_Dreadnought_Moros_ShortRange"
 			entityDefName "Gallente_Ship_Dreadnought_Moros_LongRange"
 			entityDefName "Gallente_Ship_Supercarrier_Nyx"
 			entityDefName "Gallente_Ship_Capital_Titan_Erebus"
@@ -76,7 +76,8 @@ entities
 			entityDefName "AllRaces_Ship_Orca"
 			entityDefName "Gallente_Ship_Tradeship"		
 	researchInfo
-		count 129
+		count 130
+		entityDefName "RESEARCHSUBJECT_DARKFLEET"		
 		entityDefName "RSALogistic"
 		entityDefName "RSAInterdictor"		
 		entityDefName "RSACommand_Orca"		

@@ -145,7 +145,7 @@ EngineSoundID "ENGINE_TECHCAPITALSHIP"
 ability:0 "AbilityAfterburner"
 ability:1 "AbilityStasisWebifier"
 ability:2 "AbilityTargetPainter"
-ability:3 ""
+ability:3 "AbilityCruiserResistShield"
 ability:4 ""
 MaxAntiMatter 1500.000000
 AntiMatterRestoreRate 11.700000

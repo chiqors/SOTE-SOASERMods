@@ -84,7 +84,7 @@ picture "PICTURE_CAPITAL_AVATAR"
 Prerequisites
 	NumResearchPrerequisites 1
 	ResearchPrerequisite
-		Subject "RESEARCHSUBJECT_TITANACCESS_TECHLOYALIST_1"
+		Subject "BloodRaider_RESEARCH_TITANACCESS"
 		Level 1
 	RequiredFactionNameID ""
 	RequiredCompletedResearchSubjects 0
@@ -101,7 +101,7 @@ numRandomDebrisLarge 0
 numRandomDebrisSmall 0
 numSpecificDebris 0
 armorType "VeryHeavy"
-hudIcon "HUDICON_RESEARCHSUBJECT_TITAN_TECHLOYALIST"
+hudIcon "HUDICON_BLOOD_MOLOK"
 smallHudIcon "HUDICONSMALL_TITAN_TECHLOYALIST"
 infoCardIcon "INFOCARDICON_TITAN_TECHLOYALIST"
 minZoomDistanceMult 1.000000

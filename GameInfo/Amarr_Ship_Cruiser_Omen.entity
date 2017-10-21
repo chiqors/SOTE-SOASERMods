@@ -149,7 +149,7 @@ HyperspaceTravelSoundID "HYPERSPACE_TRAVEL"
 EngineSoundID "ENGINE_TECHCAPITALSHIP"
 ability:0 "AbilityMicrowarpdrive"
 ability:1 "AbilityStasisWebifier"
-ability:2 ""
+ability:2 "AbilityCruiserResistArmor"
 ability:3 "AbilityCruiserDamage"
 ability:4 "AbilityT2CruiserZealot"
 MaxAntiMatter 1840.000000

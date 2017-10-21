@@ -36,11 +36,10 @@ entities
 			entityDefName "Minmatar_Ship_Titan_Ragnarok"
 	capitalShipInfo
 		Page:0
-			count 8
+			count 7
 			entityDefName "Amarr_Ship_ColonyCapital_Rorqual"
 			entityDefName "Minmatar_Ship_Carrier_Nidhoggur"
 			entityDefName "Minmatar_Ship_Carrier_Triage_Lif"
-			entityDefName "Minmatar_Ship_Dreadnought_Naglfar_ShortRange"
 			entityDefName "Minmatar_Ship_Dreadnought_Naglfar_LongRange"
 			entityDefName "Minmatar_Ship_Supercarrier_Hel"
 			entityDefName "Minmatar_Ship_Capital_Titan_Ragnarok"
@@ -75,7 +74,8 @@ entities
 			entityDefName "AllRaces_Ship_Orca"
 			entityDefName "Minmatar_Ship_Tradeship_Manmonth"
 	researchInfo
-		count 136
+		count 137
+		entityDefName "RESEARCHSUBJECT_DARKFLEET"		
 		entityDefName "RSAInterdictor"
 		entityDefName "RSACommand_Orca"
 		entityDefName "RSACovertOps"
