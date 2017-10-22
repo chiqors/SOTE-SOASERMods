@@ -4462,17 +4462,17 @@ brush
 	content "States"
 	Disabled
 		fileName "Ships_Buttons_Disabled"
-		pixelBox [ 566 , 866 , 47 , 33 ]
+		pixelBox [ 566 , 644 , 47 , 33 ]
 	Pressed
 		fileName "Ships_Buttons_Pressed"
-		pixelBox [ 566 , 866 , 47 , 33 ]
+		pixelBox [ 566 , 644 , 47 , 33 ]
 	CursorOver
 		fileName "Ships_Buttons_CursorOver"
-		pixelBox [ 566 , 866 , 47 , 33 ]
+		pixelBox [ 566 , 644 , 47 , 33 ]
 	Focused
 		fileName "Ships_Buttons_Normal"
-		pixelBox [ 566 , 866 , 47 , 33 ]
+		pixelBox [ 566 , 644 , 47 , 33 ]
 	Normal
 		fileName "Ships_Buttons_Normal"
-		pixelBox [ 566 , 866 , 47 , 33 ]																																																																																																																																
+		pixelBox [ 566 , 644 , 47 , 33 ]																																																																																																																																
 		
