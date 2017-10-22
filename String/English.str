@@ -1,5 +1,5 @@
 TXT
-NumStrings 8710
+NumStrings 8712
 StringInfo
     ID "IDS_ABILITY_RORQUALPANIC_NAME"
 	Value "P.A.N.I.C Module"
@@ -26130,4 +26130,10 @@ StringInfo
 StringInfo
 	ID "IDS_BloodRaiders_ShipForceAuxiliaryDagon_DESCRIPTION"
 	Value "Be wary of those who offer you aid with a smile and words of encouragement. They are false. Those that give life so that they may live are are more reliable and true in their motives. Eternity beckons for the Sabik but travelers on that road must be clothed in the blood of the weak and refreshed by the blood of the powerful and pure. Only give succor to a true fellow traveler, that they may aid you on your journey along that road."		
+StringInfo
+	ID "IDS_Amarr_Navy_Summon_Apoca_NAME"
+	Value "Apocalypse Navy Issue"
+StringInfo
+	ID "IDS_Amarr_Navy_Summon_Apoca_DESCRIPTION"
+	Value "Summon Apocalypse Navy Issue"	
 	
