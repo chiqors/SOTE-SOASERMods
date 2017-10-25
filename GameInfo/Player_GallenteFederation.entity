@@ -55,13 +55,12 @@ entities
 			entityDefName "Gallente_Ship_Frigate_Tristan"
 			entityDefName "Gallente_Ship_Frigate_Atron"
 			entityDefName "Gallente_Ship_Destroyer_Catalyst"
-			entityDefName "Gallente_Ship_Destroyer_Hecate"		
+			entityDefName "Gallente_Ship_Cruiser_Thorax"
 			entityDefName "Gallente_Ship_Cruiser_Vexor"
 			entityDefName "Gallente_Ship_Cruiser_Execuror"
 			entityDefName "AllRaces_Ship_Colony_Orca"
 		Page:1
 			count 8
-			entityDefName "Gallente_Ship_Cruiser_Thorax"
 			entityDefName "Gallente_Ship_Cruiser_Celestis"
 			entityDefName "Gallente_Ship_Battlecruiser_Brutix"
 			entityDefName "Gallente_Ship_Battlecruiser_Myrmidon"
@@ -69,6 +68,7 @@ entities
 			entityDefName "Gallente_Ship_Battleship_Megathron"
 			entityDefName "Gallente_Ship_Battleship_Hyperion"
 			entityDefName "Gallente_Ship_Envoy_Brutix"
+			entityDefName "Gallente_Ship_Destroyer_Hecate"		
 		NotOnPage
 			count 4
 			entityDefName "AllRaces_Ship_Constructor_Venture"
@@ -76,7 +76,8 @@ entities
 			entityDefName "AllRaces_Ship_Orca"
 			entityDefName "Gallente_Ship_Tradeship"		
 	researchInfo
-		count 130
+		count 131
+		entityDefName "RSACommand_Orca"		
 		entityDefName "RESEARCHSUBJECT_DARKFLEET"		
 		entityDefName "RSALogistic"
 		entityDefName "RSAInterdictor"		

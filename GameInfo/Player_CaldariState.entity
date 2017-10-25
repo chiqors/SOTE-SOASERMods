@@ -4,7 +4,7 @@ raceNameStringID "IDS_PLAYERRACENAME_CALDARILOYALIST"
 canColonize TRUE
 isPsi FALSE
 isSelectable TRUE
-selectablePriorty 3
+selectablePriorty 2
 randomCapitalShipNamePrefix "IDS_CAPITALSHIPNAME_PSI"
 randomStarBaseNamePrefix "IDS_STARBASENAME_PSI"
 entities
@@ -12,12 +12,12 @@ entities
 		Page:0
 			count 9
 			entityDefName "Allraces_Structure_MetalExtractor"
-			entityDefName "Gallente_Structure_FrigateFactory"
+			entityDefName "Caldari_Structure_FrigateFactory"
 			entityDefName "Caldari_Structure_CombatLab"
 			entityDefName "Caldari_Structure_TradePort"
 			entityDefName "Caldari_Structure_CultureCenter"
 			entityDefName "Allraces_Structure_CrystalExtractor"
-			entityDefName "Gallente_Structure_CapitalShipFactory"
+			entityDefName "Caldari_Structure_CapitalShipFactory"
 			entityDefName "Caldari_Structure_CivillianLab"
 			entityDefName "Caldari_Structure_Refinery"
 		Page:1
@@ -74,7 +74,8 @@ entities
 			entityDefName "AllRaces_Ship_Orca"
 			entityDefName "Caldari_Ship_Tradeship_Badge"			
 	researchInfo
-		count 137
+		count 138
+		entityDefName "RSACommand_Orca"		
 		entityDefName "RESEARCHSUBJECT_DARKFLEET"		
 		entityDefName "RSAInterdictor"		
 		entityDefName "RSACommand_Orca"		
@@ -217,7 +218,7 @@ entities
 		entityDefName "Allraces_Structure_Citadel_Astrahus"
 		entityDefName "Allraces_Structure_Citadel_Fortizar"
 		entityDefName "Allraces_Structure_Citadel_Keepstar"
-	flagship "FrigatePhaseFlagship"
+	flagship "Amarr_Ship_Flagship_ImperialApocalypse"
 debrisData
 	numRandomMeshNamesLarge 8
 	randomMeshName "DebrisPhaseGenericLarge0"

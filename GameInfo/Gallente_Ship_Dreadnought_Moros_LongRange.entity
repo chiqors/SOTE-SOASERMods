@@ -1,9 +1,9 @@
 ﻿TXT
 entityType "CapitalShip"
-ability:0 "AbilitySiegeMode"
-ability:1 "AbilityTrackingComputer"
-ability:2 "AbilityPhasedArmourHardenerCapital"
-ability:3 ""
+ability:0 "AbilityArmorRepairerCapital"
+ability:1 "AbilityPhasedArmourHardenerCapital"
+ability:2 "AbilityAntiCapitalMode"
+ability:3 "AbilitySiegeMode"
 ability:4 ""
 defaultAutoAttackRange "GravityWell"
 defaultAutoAttackOn TRUE

@@ -16,8 +16,8 @@ DescriptionStringID "IDS_FRIGATE_COMORANT_DESCRIPTION"
 counterDescriptionStringID "IDS_COUNTERDESC_FRIGATE_ANTIFIGHTER"
 basePrice
 	credits 75.000000
-	metal 15.000000
-	crystal 10.000000
+	metal 10.000000
+	crystal 15.000000
 slotCount 2.000000
 BuildTime 16.000000
 hasLevels FALSE

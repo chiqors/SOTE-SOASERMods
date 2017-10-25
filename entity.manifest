@@ -1,5 +1,5 @@
 TXT
-entityNameCount 2522
+entityNameCount 2526
 entityName "AbilityMoonMining.entity"
 entityName "BuffMoonMining.entity"
 entityName "ABILITY_AIBUFFER.entity"
@@ -2522,3 +2522,7 @@ entityName "RESEARCHSUBJECT_DARKFLEET.entity"
 entityName "BloodRaider_RESEARCH_TITANACCESS.entity"
 entityName "AbilityAntiCapitalMode.entity"
 entityName "BuffAntiCapitalMode.entity"
+entityName "Amarr_Navy_Shiip_Battleship_Apocalypse.entity"
+entityName "amarr_navy_AbilitySummonApoca.entity"
+entityName "Caldari_Structure_FrigateFactory.entity"
+entityName "Caldari_Structure_CapitalShipFactory.entity"

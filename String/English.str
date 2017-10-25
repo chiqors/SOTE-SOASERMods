@@ -1,5 +1,5 @@
 TXT
-NumStrings 8710
+NumStrings 8713
 StringInfo
     ID "IDS_ABILITY_RORQUALPANIC_NAME"
 	Value "P.A.N.I.C Module"
@@ -137,7 +137,7 @@ StringInfo
 	Value "24th Imperial Crusade"
 StringInfo
 	ID "IDSPlayerAINameTech7"
-	Value "Amarr Navy"
+	Value "Yulai Fedaration"
 StringInfo
 	ID "IDSPlayerAINameTech8"
 	Value "Sarum Family"
@@ -24218,7 +24218,7 @@ StringInfo
 	Value "Blackbird"
 StringInfo
 	ID "IDS_FRIGATE_BLACKBIRD_DESCRIPTION"
-	Value "This cruiser specialises in electronic warfare by using sensor dampeners to limit the effective targeting range of hostile ships, this in turn forces them to move closer to your fleet in order to apply damage, allowing friendly ships to utilise their short range blaster weapons more effectively."
+	Value "This cruiser specialises in electronic warfare by using ECM to limit the effective targeting of hostile ships."
 StringInfo
 	ID "IDS_RESEARCHSUBJECT_FRIGATEACCESS_BLACKBIRD_NAME"
 	Value "Blackbird BPO"
@@ -25186,6 +25186,9 @@ StringInfo
 	ID "IDS_ABILITY_ARMORREPAIRCAPITAL_DESCRIPTION"
 	Value "Restore a great amount of the self armor."
 StringInfo
+	ID "IDS_ABILITY_SHIELDBOOSTER_NAME"
+	Value "Shield Booster"
+StringInfo
 	ID "IDS_ABILITY_SHIELDBOOSTERCAPITAL_NAME"
 	Value "Capital Shield Booster"
 StringInfo
@@ -26130,4 +26133,10 @@ StringInfo
 StringInfo
 	ID "IDS_BloodRaiders_ShipForceAuxiliaryDagon_DESCRIPTION"
 	Value "Be wary of those who offer you aid with a smile and words of encouragement. They are false. Those that give life so that they may live are are more reliable and true in their motives. Eternity beckons for the Sabik but travelers on that road must be clothed in the blood of the weak and refreshed by the blood of the powerful and pure. Only give succor to a true fellow traveler, that they may aid you on your journey along that road."		
+StringInfo
+	ID "IDS_Amarr_Navy_Summon_Apoca_NAME"
+	Value "Apocalypse Navy Issue"
+StringInfo
+	ID "IDS_Amarr_Navy_Summon_Apoca_DESCRIPTION"
+	Value "Summon Apocalypse Navy Issue"	
 	
