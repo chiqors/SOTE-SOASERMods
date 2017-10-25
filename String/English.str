@@ -1,5 +1,5 @@
 TXT
-NumStrings 8713
+NumStrings 8715
 StringInfo
     ID "IDS_ABILITY_RORQUALPANIC_NAME"
 	Value "P.A.N.I.C Module"
@@ -26139,4 +26139,9 @@ StringInfo
 StringInfo
 	ID "IDS_Amarr_Navy_Summon_Apoca_DESCRIPTION"
 	Value "Summon Apocalypse Navy Issue"	
-	
+StringInfo
+	ID "IDS_Ablity_Anti-drone_NAME"
+	Value "Anti Drone Missiles"
+StringInfo
+	ID "IDS_Ablity_Anti-drone_DESCRIPTION"
+	Value "Fire a volley of missiles against enemy drones"		

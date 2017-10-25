@@ -58,7 +58,7 @@ Weapon
 	DamagePerBank:BACK 0.000000
 	DamagePerBank:LEFT 0.000000
 	DamagePerBank:RIGHT 0.000000
-	Range 18000.000000
+	Range 10000.000000
 	PreBuffCooldownTime 12.000000
 	CanFireAtFighter TRUE
 	SynchronizedTargeting TRUE
@@ -141,7 +141,7 @@ HyperspaceTravelSoundID "HYPERSPACE_TRAVEL"
 EngineSoundID "ENGINE_TECHCAPITALSHIP"
 ability:0 "AbilityAfterburner"
 ability:1 "AbilityStasisWebifier"
-ability:2 "AbilityTrackingComputer"
+ability:2 "AbilityAntiDroneWeapon"
 ability:3 "AbilityPhasedArmourHardener"
 ability:4 "AbilityT3Destoyer"
 MaxAntiMatter 225.000000
