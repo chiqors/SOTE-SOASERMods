@@ -142,8 +142,8 @@ HyperspaceTravelSoundID "HYPERSPACE_TRAVEL"
 EngineSoundID "ENGINE_TECHCAPITALSHIP"
 ability:0 "AbilityMicroJumpDrive"
 ability:1 "AbilityShieldBooster"
-ability:2 "AbilityTargetPainter"
-ability:3 "AbilityBastionModeVagur"
+ability:2 "AbilityBastionModeVagur"
+ability:3 "AbilityBattleshipResistShield"
 ability:4 "AbilityT2BattleshipVagur"
 MaxAntiMatter 6750.000000
 AntiMatterRestoreRate 19.600000

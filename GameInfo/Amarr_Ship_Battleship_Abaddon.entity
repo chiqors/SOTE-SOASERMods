@@ -23,7 +23,7 @@ slotCount 5.000000
 BuildTime 52.000000
 hasLevels FALSE
 ExperiencePointsForDestroying 50.000000
-MaxHullPoints 11250.000000
+MaxHullPoints 8500.000000
 MaxShieldPoints 7000.000000
 HullPointRestoreRate 1.000000
 ShieldPointRestoreRate 10.000000
@@ -148,9 +148,9 @@ HyperspaceTravelSoundID "HYPERSPACE_TRAVEL"
 EngineSoundID "ENGINE_TECHCAPITALSHIP"
 ability:0 "AbilityAfterburner"
 ability:1 "AbilityTrackingComputer"
-ability:2 "AbilityPhasedArmourHardener"
-ability:3 "AbilityBattleshipResistArmor"
-ability:4 "AbilityArmorRepairer"
+ability:2 "AbilityArmorRepairer"
+ability:3 "AbilityPhasedArmourHardener"
+ability:4 "AbilityBattleshipResistArmor"
 MaxAntiMatter 6380.000000
 AntiMatterRestoreRate 26.600000
 cargoType "Invalid"
