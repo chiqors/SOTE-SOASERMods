@@ -10,18 +10,11 @@ isChannelling FALSE
 numInstantActions 0
 numPeriodicActions 0
 numOverTimeActions 0
-numEntityModifiers 2
-entityModifier
-	buffEntityModifierType "ArmorAsDamageTarget"
-	value
-		Level:0 4.000000
-		Level:1 4.000000
-		Level:2 4.000000
-		Level:3 4.000000
+numEntityModifiers 1
 entityModifier
 	buffEntityModifierType "MaxHullPoints"
 	value
-		Level:0 2400.000000
+		Level:0 22000.000000
 		Level:1 2400.000000
 		Level:2 2400.000000
 		Level:3 2400.000000

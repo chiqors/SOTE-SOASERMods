@@ -16,7 +16,7 @@ moveThruTarget FALSE
 isUltimateAbility FALSE
 maxNumLevels 1
 levelSourceType "ResearchWithoutBase"
-improveSourceResearchSubject "RSACruiserResistArmor"
+improveSourceResearchSubject "RSABattleshipRefit"
 aiUseTime "Invalid"
 aiUseTargetCondition "Invalid"
 isAutoCastAvailable FALSE
@@ -28,7 +28,7 @@ useCostType "Passive"
 researchPrerequisites
 	NumResearchPrerequisites 1
 	ResearchPrerequisite
-		Subject "RSACruiserResistArmor"
+		Subject "RSABattleshipRefit"
 		Level 1
 	RequiredFactionNameID ""
 	RequiredCompletedResearchSubjects 0

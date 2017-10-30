@@ -139,9 +139,9 @@ HyperspaceTravelSoundID "HYPERSPACE_TRAVEL"
 EngineSoundID "ENGINE_TECHCAPITALSHIP"
 ability:0 "AbilityAfterburner"
 ability:1 "AbilityTrackingComputer"
-ability:2 "AbilityInvulnerabilityShieldField"
-ability:3 "AbilityBattleshipResistShield"
-ability:4 "AbilityShieldBooster"
+ability:2 "AbilityShieldBooster"
+ability:3 "AbilityInvulnerabilityShieldField"
+ability:4 "AbilityBattleshipResistShield"
 MaxAntiMatter 6620.000000
 AntiMatterRestoreRate 21.100000
 cargoType "Invalid"
