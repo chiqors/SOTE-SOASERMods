@@ -4408,19 +4408,19 @@ brush
 	content "States"
 	Disabled
 		fileName "Ships_Buttons_Disabled"
-		pixelBox [ 412 , 42, 47 , 33 ]
+		pixelBox [ 412 , 52, 47 , 33 ]
 	Pressed
 		fileName "Ships_Buttons_Pressed"
-		pixelBox [ 412 , 42, 47 , 33 ]
+		pixelBox [ 412 , 52, 47 , 33 ]
 	CursorOver
 		fileName "Ships_Buttons_CursorOver"
-		pixelBox [ 412 , 42, 47 , 33 ]
+		pixelBox [ 412 , 52, 47 , 33 ]
 	Focused
 		fileName "Ships_Buttons_Normal"
-		pixelBox [ 412 , 42, 47 , 33 ]
+		pixelBox [ 412 , 52, 47 , 33 ]
 	Normal
 		fileName "Ships_Buttons_Normal"
-		pixelBox [ 412 , 42, 47 , 33 ]
+		pixelBox [ 412 , 52, 47 , 33 ]
 brush
 	name "HUDICON_FRIGATE_SCIMITAR"
 	content "States"

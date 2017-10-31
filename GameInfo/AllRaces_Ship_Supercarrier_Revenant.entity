@@ -46,17 +46,17 @@ bombEffectsDef
 	missileMaxSlowTurnTime 6.000000
 mainViewIcon "MAINVIEWICON_FRIGATE_PIRATEHEAVY"
 basePrice
-	credits 40000.000000
-	metal 10000.000000
-	crystal 9000.000000
+	credits 20000.000000
+	metal 8000.000000
+	crystal 4000.000000
 slotCount 1.000000
-BuildTime 900.000000
+BuildTime 150.000000
 MaxHullPoints
-	StartValue 68750.000000
-	ValueIncreasePerLevel 687.500000
+	StartValue 100000.000000
+	ValueIncreasePerLevel 10000.500000
 MaxShieldPoints
-	StartValue 137500.000000
-	ValueIncreasePerLevel 1375.000000
+	StartValue 270000.000000
+	ValueIncreasePerLevel 27000.000000
 HullPointRestoreRate
 	StartValue 68.750000
 	ValueIncreasePerLevel 6.875000
