@@ -81,7 +81,7 @@ planetResourceSetupInfo
 		refineryRate 0.000000
 		maxRefineryCount 0
 	neutralMetalResourceAsteroidSetup
-		minCount 0
+		minCount 1
 		maxCount 1
 		extractionRate 0.533333
 		refineryRate 0.080000
@@ -240,7 +240,7 @@ renderAsVolcanic FALSE
 planetRuinDef
 	ruinPlanetType "PlanetDeadAsteroid"
 	attachType "Center"
-	effectName ""
+	effectName "	effectName "
 	startTime 9.000000
 	soundID ""
 	creditsOnStrippedToTheCore 0.000000
