@@ -25505,7 +25505,7 @@ StringInfo
 	Value "Angel Titan Ragnarok"				
 StringInfo
 	ID "IDS_COMMAND_TITAN__DESCRIPTION"
-	Value "The commanda titan, also now as FC Titan, is modified version of titan. It comes with system wide bonus and equipament upgrades."
+	Value "The Command Titan leads the fleet into battle with systems and equipment upgrades."
 StringInfo
 	ID "IDS_SUMMON_ASTERO_NAME"
 	Value "Astero Frigate"
