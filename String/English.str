@@ -5,7 +5,7 @@ StringInfo
 	Value "P.A.N.I.C Module"
 StringInfo
     ID "IDS_ABILITY_RORQUALPANIC_DESC"
-	Value "The Pulse Activated Nexus Invulnerability Core makes the Rorqual invulnerable for 2 minutes."
+	Value "The Pulse Activated Nexus Invulnerability Core makes the Rorqual invulnerable for 60 seconds."
 StringInfo
     ID "IDS_ABILITY_RORQUALEXTRACTOR_NAME"
 	Value "Mining Boost"
@@ -19715,7 +19715,7 @@ StringInfo
 	Value "Capital Weapons"
 StringInfo
 	ID "IDS_TITANUPGRADE_TECHLOYALIST_WEAPONS_DESCRIPTION"
-	Value "Change the vanilla capital weapons aboard the titan for T2, faction and Officer modueles."
+	Value "Refit the Titan's weapons with T2, Faction and Officer variants."
 StringInfo
 	ID "IDS_TITANUPGRADE_TECHREBEL_ABILITIES_NAME"
 	Value "Magnetic Containment"
@@ -23639,7 +23639,7 @@ StringInfo
 	Value "Projected ECM Burst"
 StringInfo
 	ID "IDS_ABILITY_PROJECTEDECMBURST_DESCRIPTION"
-	Value "Emits an area-of-effect electronic burst, centered on the designated target, which has a chance to momentarily disrupt the target locks of any ship within range."	
+	Value "Emits an area-of-effect electronic burst, centered on the designated target, which momentarily disrupt the target locks of any ship within range."	
 StringInfo
 	ID "IDS_RESEARCHSUBJECT_WEAPONDAMAGE_LASERTECH2_NAME"
 	Value "Modulated Pulse Lasers"
@@ -24545,7 +24545,7 @@ StringInfo
 	Value "	Fighter Support Unit"
 StringInfo
 	ID "IDS_ABILITY_FIGHTERSUPPORTUNIT_DESCRIPTION"
-	Value "This module increase the number of fighters per squad in 1."
+	Value "Improves the characteristics of your drones to both improve their survivability and increase their damage output."
 StringInfo
 	ID "IDS_ABILITY_MISSILEGUIDANCECOMPUTER_NAME"
 	Value "	Missile Guidance Computer"
@@ -24572,7 +24572,7 @@ StringInfo
 	Value "Dragonfly Squad"
 StringInfo
 	ID "IDS_SQUADDRAGONFLY_DESCRIPTION"
-	Value "Dragonfly fighters designed to provide fire support and DPS to friendly ships, These small craft are formidably powerful Gallente fighters."
+	Value "Dragonfly fighters designed to provide fire support and DPS to friendly ships, These small craft are formidable Caldari fighters."
 StringInfo
 	ID "IDS_SQUADMANTIS_NAME"
 	Value "Mantis Bomber Squad"
@@ -25184,7 +25184,7 @@ StringInfo
 	Value "Capital Armor Repair"
 StringInfo
 	ID "IDS_ABILITY_ARMORREPAIRCAPITAL_DESCRIPTION"
-	Value "Restore a great amount of the self armor."
+	Value "Restore a great amount of the own armor."
 StringInfo
 	ID "IDS_ABILITY_SHIELDBOOSTER_NAME"
 	Value "Shield Booster"
@@ -25247,7 +25247,7 @@ StringInfo
 	Value ""
 StringInfo
 	ID "IDS_MINERAL_MEGACYTE_NAME"
-	Value "Megacyte Refining"
+	Value "Zydrine Refining"
 StringInfo
 	ID "IDS_MINERAL_MEGACYTE_DESCRIPTION"
 	Value ""
@@ -25265,7 +25265,7 @@ StringInfo
 	Value ""
 StringInfo
 	ID "IDS_MINERAL_BISTOT_NAME"
-	Value "Bistot Mining"
+	Value "Mercoxit Mining"
 StringInfo
 	ID "IDS_MINERAL_BISTOT_DESCRIPTION"
 	Value ""
@@ -25646,7 +25646,7 @@ StringInfo
 	Value "Super Carrier Refit"
 StringInfo
 	ID "IDS_SUPERCARRIER_REFIT_DESCRIPTION"
-	Value "Change the fit of the Super Carrier with DED Armor Modules, greatly increasing survavility."		
+	Value "Change the fit of the Super Carrier with DED Armor Modules, greatly increasing survivability."		
 StringInfo
 	ID "IDS_LEGION_NAME"
 	Value "Legion Strategic Cruiser"
@@ -25772,13 +25772,13 @@ StringInfo
 	Value "Cruiser Armor Upgrade"
 StringInfo
 	ID "IDS_RSA_CRUISERRESISTARMOR_DESCRIPTION"
-	Value "Install on attack cruisers aditional Plate armors and Resist upgrades increassing overall survavility."
+	Value "Install on attack cruisers aditional Plate armors and Resist upgrades increassing overall survivability."
 StringInfo
 	ID "IDS_RSA_CRUISERRESISTSHIELD_NAME"
 	Value "Cruiser Shield Uprade"
 StringInfo
 	ID "IDS_RSA_CRUISERRESISTSHIELD_DESCRIPTION"
-	Value "Install on attack cruisers aditional Shield Extenders armors and Resist Smplifiers increassing overall survavility."
+	Value "Install on attack cruisers aditional Shield Extenders armors and Resist Smplifiers increassing overall survivability."
 StringInfo
 	ID "IDS_RSA_INTERDICTOR_NAME"
 	Value "Interdictor Upgrade"

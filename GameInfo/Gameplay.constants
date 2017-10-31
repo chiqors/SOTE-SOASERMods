@@ -72,32 +72,32 @@ GameplayConstants
 			ExperienceGainedForDestroying 250.0
 			UpgradePriceForNextLevel 1750.0
 		ExperienceLevelData:3
-			ExperienceNeededForNextLevel 1000.0
+			ExperienceNeededForNextLevel 15000.0
 			ExperienceGainedForDestroying 300.0
 			UpgradePriceForNextLevel 2000.0
 		ExperienceLevelData:4
-			ExperienceNeededForNextLevel 1250.0
+			ExperienceNeededForNextLevel 30000.0
 			ExperienceGainedForDestroying 350.0
 			UpgradePriceForNextLevel 4000.0
 		ExperienceLevelData:5
-			ExperienceNeededForNextLevel 1500.0
+			ExperienceNeededForNextLevel 50000.0
 			ExperienceGainedForDestroying 400.0
 			UpgradePriceForNextLevel 2400.0
 		ExperienceLevelData:6
-			ExperienceNeededForNextLevel 1750.0
+			ExperienceNeededForNextLevel 60000.0
 			ExperienceGainedForDestroying 450.0
 			UpgradePriceForNextLevel 2600.0
 		ExperienceLevelData:7
-			ExperienceNeededForNextLevel 2000.0
+			ExperienceNeededForNextLevel 80000.0
 			ExperienceGainedForDestroying 500.0
 			UpgradePriceForNextLevel 2800.0
 		ExperienceLevelData:8
-			ExperienceNeededForNextLevel 2250.0
+			ExperienceNeededForNextLevel 100000.0
 			ExperienceGainedForDestroying 600.0
 			UpgradePriceForNextLevel 3000.0
 		ExperienceLevelData:9
 			ExperienceNeededForNextLevel 0.0
-			ExperienceGainedForDestroying 700.0
+			ExperienceGainedForDestroying 200000.0
 			UpgradePriceForNextLevel 0.0
 		LevelUpEffectName "CapitalShip_LevelUp"
 		LevelUpEffectSoundID "CAPITALSHIP_LEVELUP"
