@@ -74,8 +74,7 @@ entities
 			entityDefName "AllRaces_Ship_Orca"
 			entityDefName "Minmatar_Ship_Tradeship_Manmonth"
 	researchInfo
-		count 138
-		entityDefName "RSACommand_Orca"
+		count 137
 		entityDefName "RESEARCHSUBJECT_DARKFLEET"		
 		entityDefName "RSAInterdictor"
 		entityDefName "RSACommand_Orca"

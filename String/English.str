@@ -11699,7 +11699,7 @@ StringInfo
 	Value "Greater Nanite Swarm"
 StringInfo
 	ID "IDS_FRIGATE_TURRETCOMBAT_NAME"
-	Value "Missile Battery"
+	Value "Interdictor Bubble"
 StringInfo
 	ID "IDS_FRIGATE_TURRETCOMBAT_DESCRIPTION"
 	Value "A stationary weapons platform useful for quickly augmenting firepower in combat."
@@ -24584,7 +24584,7 @@ StringInfo
 	Value "Einherji Squad"
 StringInfo
 	ID "IDS_SQUADEINHERJI_DESCRIPTION"
-	Value "Einherji fighters designed to provide fire support and DPS to friendly ships, These small craft are formidably powerful Gallente fighters."
+	Value "Einherji fighters designed to provide fire support and DPS to friendly ships, These small craft are formidably powerful Minmatar fighters."
 StringInfo
 	ID "IDS_SQUADETYRFING_NAME"
 	Value "Tyrfing Bomber Squad"

@@ -76,8 +76,7 @@ entities
 			entityDefName "AllRaces_Ship_Orca"
 			entityDefName "Amarr_Ship_Tradeship_Bestower"
 	researchInfo
-		count 139
-		entityDefName "RSACommand_Orca"		
+		count 138
 		entityDefName "BloodRaider_RESEARCH_TITANACCESS"
 		entityDefName "RESEARCHSUBJECT_DARKFLEET"
 		entityDefName "RSAInterdictor"		

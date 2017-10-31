@@ -82,7 +82,10 @@ NameStringID "IDS_SERPENTIS_SUPERCARRIER_VENDETTA_NAME"
 DescriptionStringID "IDS_SERPENTIS_SUPERCARRIER_VENDETTA_DESCRIPTION"
 picture "PICTURE_CAPITAL_NYX"
 Prerequisites
-	NumResearchPrerequisites 1
+	NumResearchPrerequisites 2
+	ResearchPrerequisite
+		Subject "RESEARCHSUBJECT_DARKFLEET"
+		Level 1	
 	ResearchPrerequisite
 		Subject "Gallente_ResearchSubject_CapitalAccess_Nyx"
 		Level 1
@@ -165,9 +168,9 @@ maxRollRate 1.000000
 maxRollAngle 30.000000
 squadTypeEntityDef:0 "Gallente_DroneSquad_Firbolg"
 squadAntiMatterCost:0 0.000000
-squadTypeEntityDef:1 "Gallente_DroneSquad_Cyclops"
+squadTypeEntityDef:1 "Gallente_DroneSquad_Anti-fighter"
 squadAntiMatterCost:1 0.000000
-squadTypeEntityDef:2 ""
+squadTypeEntityDef:2 "Gallente_DroneSquad_Cyclops"
 squadAntiMatterCost:2 0.000000
 squadTypeEntityDef:3 ""
 squadAntiMatterCost:3 0.000000
