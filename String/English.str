@@ -26145,3 +26145,4 @@ StringInfo
 StringInfo
 	ID "IDS_Ablity_Anti-drone_DESCRIPTION"
 	Value "Fire a volley of missiles against enemy drones"		
+	

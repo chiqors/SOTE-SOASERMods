@@ -54,13 +54,13 @@ planetResourceSetupInfo
 	asteroidSpawnAngleVariance 3.141593
 	totalMaxResourceAsteroids 3
 	metalResourceAsteroidSetup
-		minCount 0
+		minCount 1
 		maxCount 1
 		extractionRate 0.400000
 		refineryRate 0.060000
 		maxRefineryCount 3
 	crystalResourceAsteroidSetup
-		minCount 0
+		minCount 2
 		maxCount 2
 		extractionRate 0.400000
 		refineryRate 0.060000
@@ -435,7 +435,7 @@ bonus "PlanetBonusPopulationBoom"
 ambienceSoundID "EFFECT_PLANETAMBIENCE_LOOP"
 renderAsVolcanic FALSE
 planetRuinDef
-	ruinPlanetType "PlanetShatteredMoonMined"
+	ruinPlanetType "PlanetDeadAsteroid"
 	attachType "Center"
 	effectName "StripToTheCore_Planet_TerranHome"
 	startTime 9.000000
