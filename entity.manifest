@@ -1,5 +1,5 @@
 TXT
-entityNameCount 2527
+entityNameCount 2529
 entityName "AbilityMoonMining.entity"
 entityName "BuffMoonMining.entity"
 entityName "ABILITY_AIBUFFER.entity"
@@ -2527,3 +2527,5 @@ entityName "amarr_navy_AbilitySummonApoca.entity"
 entityName "Caldari_Structure_FrigateFactory.entity"
 entityName "Caldari_Structure_CapitalShipFactory.entity"
 entityName "BuffAntiDroneWeapon.entity"
+entityName "AbilityAntiDroneWeapon.entity"
+entityName "RSABattleshipRefit.entity"
