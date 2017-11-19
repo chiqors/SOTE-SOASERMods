@@ -1,5 +1,5 @@
 TXT
-NumStrings 8715
+NumStrings 8779
 StringInfo
     ID "IDS_ABILITY_RORQUALPANIC_NAME"
 	Value "P.A.N.I.C Module"
@@ -8176,8 +8176,11 @@ StringInfo
 	ID "IDS_RESEARCHSUBJECT_PLANETMODULEACCESS_REPAIRPLATFORMPSI_NAME"
 	Value "Repair Platform"
 StringInfo
+	ID "IDS_RESEARCHSUBJECT_PLANETMODULEACCESS_HANGARPLATFORM_NAME"
+	Value "Hangar Platform"	
+StringInfo
 	ID "IDS_RESEARCHSUBJECT_PLANETMODULEACCESS_REPAIRPLATFORMPSI_DESCRIPTION"
-	Value "Grants access to the Repair Platform structure and Hangar Defence, which repairs the hull of nearby friendly ships and structures and summon fighters to defend the planet."
+	Value "Grants access to the Repair Platform structure, which repairs the hull of nearby friendly ships and structures and summon fighters to defend the planet."
 StringInfo
 	ID "IDS_Gallente_ResearchSubject_PlanetModuleAccess_MediumBlasterBattery_NAME"
 	Value "Medium Blaster Battery"
@@ -9362,10 +9365,10 @@ StringInfo
 	Value "An atomic scale scanning and reordering system, it allows all manner of products to be spatially compressed in order to make for more efficient transport through your empire's trade network."
 StringInfo
 	ID "IDS_RESEARCHSUBJECT_ARTIFACT_WEAPONBOOST_NAME"
-	Value "Kinetic Intensifier"
+	Value "Officer Weapon Upgrade"
 StringInfo
 	ID "IDS_RESEARCHSUBJECT_ARTIFACT_WEAPONBOOST_DESCRIPTION"
-	Value "Powerful quantum accelerator technology slightly increases the range and damage of all weapons."
+	Value "Blueprint of modified Weapons technology by officers, slightly increases the range and damage of all weapons."
 StringInfo
 	ID "IDS_RESEARCHSUBJECT_ARTIFACT_WORMHOLETRAVEL_NAME"
 	Value "Pirate Fleet Archives"
@@ -10254,6 +10257,12 @@ StringInfo
 StringInfo
 	ID "IDS_ABILITY_DISRUPTIONMATRIX_DESCRIPTION"
 	Value "The ultimate expression of God's Divine wrath, this weapon projects a beam of the Lord's holy light, designed to put sinners in their proper place."
+StringInfo
+	ID "IDS_ABILITY_GODWRATH_NAME"
+	Value "God Wrath"
+StringInfo
+	ID "IDS_ABILITY_GODWRATH_DESCRIPTION"
+	Value "God's Divine wrath, this weapon projects a beam of the Lord's holy light, then rebounce it all capital ships in range. Created to exterminate sinners."	
 StringInfo
 	ID "IDS_ABILITY_DOMINATION_NAME"
 	Value "Domination"
@@ -11434,6 +11443,21 @@ StringInfo
 	ID "IDS_FRIGATE_TECHFLAGSHIP_DESCRIPTION"
 	Value "Designed by master starship engineers and constructed in the royal shipyards of the Emperor himself, the imperial issue of the dreaded Apocalypse battleship is held in awe throughout the Empire."
 StringInfo
+	ID "IDS_FRIGATE_AMARRFLAGSHIP_NAME"
+	Value "Imperial Aeon Issue"
+StringInfo
+	ID "IDS_FRIGATE_CALDARIFLAGSHIP_NAME"
+	Value "Caldari Navy Wyvern"
+StringInfo
+	ID "IDS_FRIGATE_GALLENTEFLAGSHIP_NAME"
+	Value "Nyx Navy Issue"
+StringInfo
+	ID "IDS_FRIGATE_MINMATARFLAGSHIP_NAME"
+	Value "Hel Fleet Issue"		
+StringInfo
+	ID "IDS_FRIGATE_FLAGSHIP_DESCRIPTION"
+	Value "Super carrier used as flaghship of the Empire"	
+StringInfo
 	ID "IDS_FRIGATE_TECHLIGHT_NAME"
 	Value "Punisher"
 StringInfo
@@ -12096,6 +12120,27 @@ StringInfo
 StringInfo
 	ID "IDS_PLANETMODULE_PSIORBITALREPAIRPLATFORM_NAME"
 	Value "Repair Shipyard Platform"
+StringInfo
+	ID "IDS_PLANETMODULE_MORDU_SHIPYARD_NAME"
+	Value "Mordu Shipyard"	
+StringInfo
+	ID "IDS_PLANETMODULE_SOE_SHIPYARD_NAME"
+	Value "Sisters of Eve Shipyard"	
+StringInfo
+	ID "IDS_PLANETMODULE_BLOODRAIDERS_HANGAR_NAME"
+	Value "Blood Raiders Hangar"	
+StringInfo
+	ID "IDS_PLANETMODULE_SERPENTIS_HANGAR_NAME"
+	Value "Serpentis Hangar"	
+StringInfo
+	ID "IDS_PLANETMODULE_GURISTAS_HANGAR_NAME"
+	Value "Guristas Hangar"	
+StringInfo
+	ID "IDS_PLANETMODULE_SERPENTIS_HANGAR_NAME"
+	Value "Serpentis Hangar"	
+StringInfo
+	ID "IDS_PLANETMODULE_ANGEL_HANGAR_NAME"
+	Value "Angel Hangar"	
 StringInfo
 	ID "IDS_PLANETMODULE_PSIORBITALREPAIRPLATFORM_DESCRIPTION"
 	Value "This modified shipyards are used to Repairs friendly ships near the planet over time. From time to time this shipyards are used as stagging point to pirate ships with good standing."
@@ -23608,6 +23653,9 @@ StringInfo
 	ID "IDS_RESEARCHSUBJECT_CAPITALSHIPACESS_AEON"
 	Value "Aeon BPO"
 StringInfo
+	ID "IDS_RESEARCHSUBJECT_CAPITALSHIPACESS_BLOODRAIDERS_AEON"
+	Value "Blood Raiders Aeon"	
+StringInfo
 	ID "IDS_RESEARCHSUBJECT_CAPITALSHIPACESS_AEON_DESCRIPTION"
 	Value "Grants access to the Aeon class Supercarrier, a massive capital ship sporting impressive armour and fighter interface technology. It is specifically designed for combat against capital ships and structures."
 StringInfo
@@ -24015,6 +24063,9 @@ StringInfo
 StringInfo	
 	ID "IDS_CAPITALSHIP_CALDARILOYALIST_NAME"
 	Value "Wyvern"
+StringInfo	
+	ID "IDS_GURISTAS_WYVERN_NAME"
+	Value "Guristas Wyvern"	
 StringInfo
 	ID "IDS_CAPITALSHIP_CALDARILOYALIST_DESCRIPTION"
 	Value "The Wyvern is based on documents detailing the design of the ancient Raata empire's seafaring flagship, the Oryioni-Haru. According to historical sources the ship was traditionally taken on parade runs between the continent of Tikiona and the Muriyuke archipelago, seat of the Emperor, and represented the pride and joy of what would one day become the Caldari State."
@@ -24034,7 +24085,13 @@ StringInfo
 	ID "IDS_CAPITALSHIP_CARRIER_CHIMERA_TRIAGE_NAME"
 	Value "Minokawa Force Auxiliary"
 StringInfo
-	ID "IDS_CAPITALSHIP_CARRIER_CHIMERA_TRIAGE_DESCRIPTION"
+	ID "IDS_CAPITALSHIP_GURISTAS_LOGGERHEAD_NAME"
+	Value "Loggerhead Force Auxiliary"	
+StringInfo
+	ID "IDS_CAPITALSHIP_GURISTAS_LOGGERHEAD_DESCRIPTION"
+	Value ""Technology is a wonderful thing and once you embrace it, you don't look back. Take me. I'm auged up to the eyeballs. That speech impediment I used to have? Neurovocal implant took care of that. I tried working on it but didn't have the time. Too busy with the restructure, new technologies, planning megaheists and all the rest of it."	
+StringInfo
+	ID "IDS_CAPITALSHIP_CARRIER_CHIMERA_TRIAGE_"
 	Value "The Minokawa Force Auxiliary class carrier is specifically designed to provide valuable support to friendly ships. To aid this, it is fitted with sophisticated triage technology which allows the ship to disable propulsion and allocate the energy to defence and remote assistance abilities."
 StringInfo
 	ID "IDS_RESEARCHSUBJECT_CAPITALSHIPACESS_PHOENIX"
@@ -24042,6 +24099,12 @@ StringInfo
 StringInfo
 	ID "IDS_RESEARCHSUBJECT_CAPITALSHIPACESS_PHOENIX_DESCRIPTION"
 	Value "Grants access to the Phoenix class Dreadnought, A capital ship configured specifically to destroy structures and other capital ships."
+StringInfo
+	ID "IDS_CAPITALSHIP_GURISTAS_CAIMAN_NAME"
+	Value "Guristas Caiman"
+StringInfo
+	ID "IDS_CAPITALSHIP_GURISTAS_CAIMAN_DESCRIPTION"
+	Value "The Caiman is a dreadnought that continues the Guristas emphasis on light strike capability among all their ships. Strong shields, together with powerful cruise missile and torpedo systems, round out a dreadnought that reflects the Rabbit's practice of taking Caldari hulls and twisting them to the preference of the Guristas."
 StringInfo
 	ID "IDS_CAPITALSHIP_DREADNOUGHT_PHOENIX_NAME"
 	Value "Anti Sub-Capital Phoenix"
@@ -24140,7 +24203,7 @@ StringInfo
 	Value "Grants access to the Ferox Envoy cruiser -  a Ferox class battlecruiser whose purpose has been specifically configured to allow diplomatic actions between your empire and other empires."
 StringInfo
 	ID "IDS_Guristas_ShipBattleshipRattlesnake_NAME"
-	Value "Rattlesnake"
+	Value "Guristas Rattlesnake"
 StringInfo
 	ID "IDS_Guristas_ShipBattleshipRattlesnake_DESCRIPTION"
 	Value "Korako �Rabbit' Kosakami shamelessly stole the idea of the Scorpion-class battleship and put his own spin on it. The result: the fearsome Rattlesnake, flagship of any large Gurista attack force."
@@ -25018,6 +25081,9 @@ StringInfo
 	ID "IDS_RESEARCHSUBJECT_FRIGATEACCESS_DRAKE_NAME"
 	Value "Drake"			
 StringInfo
+	ID "IDS_RESEARCHSUBJECT_GURISTAS_DRAKE_NAME"
+	Value "Guristas Command Drake"	
+StringInfo
 	ID "IDS_RESEARCHSUBJECT_FRIGATEACCESS_DRAKE_DESCRIPTION"
 	Value "The Drake, well-known for its excellent tanking abilities, is a very popular ship."
 StringInfo
@@ -25492,8 +25558,11 @@ StringInfo
 	ID "IDS_COMMAND_TITAN_LEVIATHAN_NAME"
 	Value "Command Titan Leviathan"
 StringInfo
-	ID "IDS_ANGEL_TITAN_LEVIATHAN_NAME"
-	Value "Guristas Titan Leviathan"
+	ID "IDS_GURISTAS_TITAN_LEVIATHAN_NAME"
+	Value "Guristas Komodo"
+StringInfo
+	ID "IDS_GURISTAS_SUPERCARRIER_NAME"
+	Value "Guristas Wyvern"	
 StringInfo
 	ID "IDS_COMMAND_TITAN_GALLENTE_NAME"
 	Value "Command Titan Erebus"		
@@ -26129,7 +26198,7 @@ StringInfo
 	Value "This Changes the Weapons Ammunitions to have more range and rate of fire in expense of Power."		
 StringInfo
 	ID "IDS_BloodRaiders_ShipForceAuxiliaryDagon_NAME"
-	Value "Dagon"	
+	Value "Blood Raiders Dagon"	
 StringInfo
 	ID "IDS_BloodRaiders_ShipForceAuxiliaryDagon_DESCRIPTION"
 	Value "Be wary of those who offer you aid with a smile and words of encouragement. They are false. Those that give life so that they may live are are more reliable and true in their motives. Eternity beckons for the Sabik but travelers on that road must be clothed in the blood of the weak and refreshed by the blood of the powerful and pure. Only give succor to a true fellow traveler, that they may aid you on your journey along that road."		
@@ -26145,4 +26214,126 @@ StringInfo
 StringInfo
 	ID "IDS_Ablity_Anti-drone_DESCRIPTION"
 	Value "Fire a volley of missiles against enemy drones"		
-	
+StringInfo
+	ID "IDS_Ablity_AISKILL_SUMMONLOGI_NAME"
+	Value "Summon Logi Fleet"
+StringInfo
+	ID "IDS_Ablity_AISKILL_SUMMONBATTLESHIP_NAME"
+	Value "Summon Battleship Fleet"
+StringInfo
+	ID "IDS_Ablity_AISKILL_SUMMONDREADNOUGHT_NAME"
+	Value "Summon Dreadnought Fleet"
+StringInfo
+	ID "IDS_NPC_Officer_Thon_Eney_NAME"
+	Value "Thon Eney"				
+StringInfo
+	ID "IDS_NPC_Officer_Thon_Eney_DESCRIPTION"
+	Value "Formerly member of the Intaki Syndicate, Eney has quickly risen through the ranks in the Guristas organization. Which comes as no wonder, as she is brilliant, charismatic and utterly corrupt. Threat level: Deadly"
+StringInfo
+	ID "IDSGalaxyScenarioTypeRandomNebula"
+	Value "Random Nebula"				
+StringInfo
+	ID "IDSGalaxyScenarioTypeRandomNebula"
+	Value "Random Resource Planet"	
+StringInfo
+	ID "NEBULA_METAPHASIC"
+	Value "Metaphasic Nebula"	
+StringInfo
+	ID "NEBULA_CERULEAN"
+	Value "Cerulean Nebula"
+StringInfo
+	ID "NEBULA_METREON"
+	Value "Metreon Nebula"		
+StringInfo
+	ID "NEBULA_BADLANDS"
+	Value "Badlands Nebula"	
+StringInfo
+	ID "NEBULA_MUTARA"
+	Value "Mutara Nebula"
+StringInfo
+	ID "IDS_NPC_Officer_Estamel_Tharchon_NAME"
+	Value "Estamel Tharchon"				
+StringInfo
+	ID "IDS_NPC_Officer_Estamel_Tharchon_DESCRIPTION"
+	Value "Bastard child of a prominent businessman, who ostracized her when she started displaying typical teenage rebellion symptoms. Driven on by her agenda to bring down the Caldari State, Tharchon wastes no opportunity for bringing mayhem upon the State. Threat level: Deadly"
+StringInfo
+	ID "IDS_NPC_Officer_Thorn_Eney_NAME"
+	Value "Thon Eney"				
+StringInfo
+	ID "IDS_NPC_Officer_Thorn_Eney_DESCRIPTION"
+	Value "Formerly member of the Intaki Syndicate, Eney has quickly risen through the ranks in the Guristas organization. Which comes as no wonder, as she is brilliant, charismatic and utterly corrupt. Threat level: Deadly"		
+StringInfo
+	ID "IDSGalaxyScenarioTypePlanetHaven"
+	Value "Pirate Haven"		
+StringInfo
+	ID "IDS_NPC_Officer_Tobias_Kruzhor_NAME"
+	Value "Tobias Kruzhor"				
+StringInfo
+	ID "IDS_NPC_Officer_Tobias_Kruzhor_DESCRIPTION"
+	Value "Kruzhor, commonly known as Raze, is the right hand man of Trald Vukenda, leader of the Dominations. Indeed, many consider Raze to be the real leader, as he keeps enemies at bay and friends in check. Threat level: Deadly"
+StringInfo
+	ID "IDS_NPC_Officer_Mizuro_Cybon_NAME"
+	Value "Mizuro Cybon"				
+StringInfo
+	ID "IDS_NPC_Officer_Mizuro_Cybon_DESCRIPTION"
+	Value "Cybon has an air of vulnerability about her petite body, but don't expect any mercy from the COO of the Dominations; she'll swat you like a fly without a moment's thought. Threat level: Deadly"
+StringInfo
+	ID "IDS_NPC_Officer_Hakim_Stormare_NAME"
+	Value "Hakim Stormare"				
+StringInfo
+	ID "IDS_NPC_Officer_Hakim_Stormare_DESCRIPTION"
+	Value "Cybon has an air of vulnerability about her petite body, but don't expect any mercy from the COO of the Dominations; she'll swat you like a fly without a moment's thought. Threat level: Deadly"	
+StringInfo
+	ID "IDS_NPC_Officer_Gotan_Kreiss_NAME"
+	Value "Gotan Kreiss"				
+StringInfo
+	ID "IDS_NPC_Officer_Gotan_Kreiss_DESCRIPTION"
+	Value "Sly and tricky, Kreiss is the head of Internal Security and is feared almost as much within the Dominations as without. Almost. Threat level: Deadly"
+StringInfo
+	ID "IDS_NPC_Officer_Tuvan_Orth_NAME"
+	Value "Tuvan Orth"				
+StringInfo
+	ID "IDS_NPC_Officer_Tuvan_Orth_DESCRIPTION"
+	Value "Orth may be an egotistical bastard, but he is easily the best fighter Serpentis possesses, which at least makes his intolerable arrogance somewhat excusable. Threat level: Deadly"
+StringInfo
+	ID "IDS_NPC_Officer_Setele_Schellan_NAME"
+	Value "Setele Schellan"
+StringInfo
+	ID "IDS_NPC_Officer_Setele_Schellan_DESCRIPTION"
+	Value "Being obsessive-compulsive Schellan's paranoia has served her and the Guardian Angels well in their constant struggle against authorities and other pirate groups. Threat level: Deadly"
+StringInfo
+	ID "IDS_NPC_Officer_Cormack_Vaaja_NAME"
+	Value "Cormack Vaaja"
+StringInfo
+	ID "IDS_NPC_Officer_Cormack_Vaaja_DESCRIPTION"
+	Value "An old warhorse, Vaaja has a history of narcotic abuse. While prohibiting him from serving with the Caldari Navy, the more lenient Guardian Angels can truly appreciate his experience and battle fervor. Threat level: Deadly"
+StringInfo
+	ID "IDS_NPC_Officer_Brynn_Jerdola_NAME"
+	Value "Brynn Jerdola"
+StringInfo
+	ID "IDS_NPC_Officer_Brynn_Jerdola_DESCRIPTION"
+	Value "Jerdola is a former spy for the FIO, her job was to infiltrate the Guardian Angels. Having done so admirably, she was lured by the riches of criminal life and soon changed her allegiance. Threat level: Deadly"
+StringInfo
+	ID "IDS_NPC_Officer_Ahremen_Arkah_NAME"
+	Value "Ahremen Arkah"
+StringInfo
+	ID "IDS_NPC_Officer_Ahremen_Arkah_DESCRIPTION"
+	Value "Arkah joined the Raiders as a young girl, working her way upwards. She now handles the day to day operation of the Covenant, a strong indication of her intelligence and determination. Threat level: Deadly"
+StringInfo
+	ID "IDS_NPC_Officer_Tairei_Namazoth_NAME"
+	Value "Tairei Namazoth"
+StringInfo
+	ID "IDS_NPC_Officer_Tairei_Namazoth_DESCRIPTION"
+	Value "Member of a minor royal family, Namazoth was outcast long ago when she killed her cousins over a trivial matter. Lived in exile for years before finally finding her kin in the Covenant. Threat level: Deadly"
+StringInfo
+	ID "IDS_NPC_Officer_Raysere_Giant_NAME"
+	Value "Raysere Giant"
+StringInfo
+	ID "IDS_NPC_Officer_Raysere_Giant_DESCRIPTION"
+	Value "Known as the Sick Giant, due to his pale complexion and sadistic streak, which makes him ideal for his role as head of Internal Security. Threat level: Deadly"
+StringInfo
+	ID "IDS_NPC_Officer_Draclira_Merlonne_NAME"
+	Value "Draclira Merlonne"
+StringInfo
+	ID "IDS_NPC_Officer_Draclira_Merlonne_DESCRIPTION"
+	Value "Merlonne has spent much of her young life locked up in mental institutions. She is a certified sociopath, her sole loyalty focused on the Raiders, making her both willing and capable of attacking anyone perceived as a threat. Threat level: Deadly"			
