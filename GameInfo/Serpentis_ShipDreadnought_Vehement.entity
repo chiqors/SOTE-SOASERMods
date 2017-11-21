@@ -84,7 +84,7 @@ picture "PICTURE_CAPITAL_MOROS"
 Prerequisites
 	NumResearchPrerequisites 1
 	ResearchPrerequisite
-		Subject "Gallente_ResearchSubject_CapitalAccess_Moros"
+		Subject "Gallente_ResearchSubject_CapitalAccess_Vehement"
 		Level 1
 	RequiredFactionNameID ""
 	RequiredCompletedResearchSubjects 0

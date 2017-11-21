@@ -82,13 +82,10 @@ NameStringID "IDS_SERPENTIS_SUPERCARRIER_VENDETTA_NAME"
 DescriptionStringID "IDS_SERPENTIS_SUPERCARRIER_VENDETTA_DESCRIPTION"
 picture "PICTURE_CAPITAL_NYX"
 Prerequisites
-	NumResearchPrerequisites 2
+	NumResearchPrerequisites 1
 	ResearchPrerequisite
-		Subject "RESEARCHSUBJECT_DARKFLEET"
+		Subject "Gallente_ResearchSubject_CapitalAccess_Vendetta"
 		Level 1	
-	ResearchPrerequisite
-		Subject "Gallente_ResearchSubject_CapitalAccess_Nyx"
-		Level 1
 	RequiredFactionNameID ""
 	RequiredCompletedResearchSubjects 0
 roleType "Invalid"

@@ -82,12 +82,9 @@ NameStringID "IDS_TITAN_VANQUISHER_NAME"
 DescriptionStringID "IDS_TITAN_VANQUISHER_DESCRIPTION"
 picture "PICTURE_CAPITAL_EREBUS"
 Prerequisites
-	NumResearchPrerequisites 2
+	NumResearchPrerequisites 1
 	ResearchPrerequisite
-		Subject "Gallente_ResearchSubject_CapitalAccess_Erebus"
-		Level 1
-	ResearchPrerequisite
-		Subject "RESEARCHSUBJECT_ARTIFACT_WORMHOLETRAVEL"
+		Subject "Gallente_ResearchSubject_CapitalAccess_Vanquisher"
 		Level 1
 	RequiredFactionNameID ""
 	RequiredCompletedResearchSubjects 0	
