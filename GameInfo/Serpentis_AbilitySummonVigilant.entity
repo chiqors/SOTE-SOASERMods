@@ -49,8 +49,8 @@ researchPrerequisites
 		Level 1
 	RequiredFactionNameID ""
 	RequiredCompletedResearchSubjects 0
-nameStringID "IDS_Angel_Cynabal_NAME"
-descStringID "IDS_Angel_Cynabal_DESCRIPTION"
-hudIcon "HUDICON_ANGEL_CYNABAL"
-smallHudIcon "HUDICON_ANGEL_CYNABAL"
+nameStringID "IDS_FRIGATE_SERPENTIS_VIGILANTE_NAME"
+descStringID "IDS_FRIGATE_SERPENTIS_VIGILANTE_DESCRIPTION"
+hudIcon "HUDICON_SERPENTIS_VIGILANT"
+smallHudIcon "HUDICON_SERPENTIS_VIGILANT"
 infoCardIcon ""

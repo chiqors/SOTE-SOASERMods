@@ -24107,9 +24107,9 @@ StringInfo
 	Value "Loggerhead Force Auxiliary"	
 StringInfo
 	ID "IDS_CAPITALSHIP_GURISTAS_LOGGERHEAD_DESCRIPTION"
-	Value ""Technology is a wonderful thing and once you embrace it, you don't look back. Take me. I'm auged up to the eyeballs. That speech impediment I used to have? Neurovocal implant took care of that. I tried working on it but didn't have the time. Too busy with the restructure, new technologies, planning megaheists and all the rest of it."	
+	Value "Technology is a wonderful thing and once you embrace it, you don't look back. Take me. I'm auged up to the eyeballs. That speech impediment I used to have? Neurovocal implant took care of that. I tried working on it but didn't have the time. Too busy with the restructure, new technologies, planning megaheists and all the rest of it."	
 StringInfo
-	ID "IDS_CAPITALSHIP_CARRIER_CHIMERA_TRIAGE_"
+	ID "IDS_CAPITALSHIP_CARRIER_CHIMERA_TRIAGE_DESCRIPTION"
 	Value "The Minokawa Force Auxiliary class carrier is specifically designed to provide valuable support to friendly ships. To aid this, it is fitted with sophisticated triage technology which allows the ship to disable propulsion and allocate the energy to defence and remote assistance abilities."
 StringInfo
 	ID "IDS_RESEARCHSUBJECT_CAPITALSHIPACESS_PHOENIX"

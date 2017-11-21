@@ -49,8 +49,8 @@ researchPrerequisites
 		Level 1
 	RequiredFactionNameID ""
 	RequiredCompletedResearchSubjects 0
-nameStringID "IDS_Angel_Machariel_NAME"
-descStringID "IDS_Angel_Machariel_DESCRIPTION"
-hudIcon "HUDICON_ANGEL_MACHARIEL"
-smallHudIcon "HUDICON_ANGEL_MACHARIEL"
+nameStringID "IDS_Serpentis_ShipBattleshipVindicator_NAME"
+descStringID "IDS_Serpentis_ShipBattleshipVindicator_DESCRIPTION"
+hudIcon "HUDICON_SERPENTIS_VIDICATOR"
+smallHudIcon "HUDICON_SERPENTIS_VIDICATOR"
 infoCardIcon ""

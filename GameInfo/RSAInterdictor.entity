@@ -6,8 +6,8 @@ infoCardIcon ""
 NameStringID "IDS_RSAInterdictor_NAME"
 DescriptionStringID "IDS_RSAInterdictor_DESCRIPTION"
 researchWindowLocation
-	block 0
-	pos [ 7 , 3 ]
+	block 1
+	pos [ 7 , 2 ]
 ResearchField "Combat"
 Prerequisites
 	NumResearchPrerequisites 0
