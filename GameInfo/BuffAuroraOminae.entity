@@ -11,12 +11,12 @@ numInstantActions 2
 instantAction
 	buffInstantActionType "ApplyBuffToTargetNoFilterNoRange"
 	instantActionTriggerType "OnDelay"
-	delayTime 0.000000
+	delayTime 4.000000
 	buffType "BuffAuroraOminaeTarget"
 instantAction
 	buffInstantActionType "ApplyBuffToSelf"
 	instantActionTriggerType "OnDelay"
-	delayTime 0.000000
+	delayTime 4.000000
 	buffType "BuffAuroraOminaeSelf"
 	effectInfo
 		effectAttachInfo
