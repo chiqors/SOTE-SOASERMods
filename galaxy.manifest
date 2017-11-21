@@ -1,5 +1,5 @@
 TXT
-fileCount 20
+fileCount 26
 fileName "Cache"
 fileName "CacheBIG"
 fileName "Huge Multi-System Random Map Fair"
@@ -20,3 +20,9 @@ fileName "Mini Random Map Fair"
 fileName "Mini Random Map"
 fileName "Small Random Map Fair"
 fileName "Small Random Map"
+fileName "Querious8player"
+fileName "Querious6player"
+fileName "Querious5player"
+fileName "Querious3player"
+fileName "LostEden2v2"
+fileName "test map"

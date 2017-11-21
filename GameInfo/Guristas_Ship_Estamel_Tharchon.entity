@@ -1,0 +1,165 @@
+﻿TXT
+entityType "Frigate"
+defaultAutoAttackRange "GravityWell"
+defaultAutoAttackOn TRUE
+prefersToFocusFire TRUE
+usesFighterAttack FALSE
+autoJoinFleetDefault TRUE
+canBomb FALSE
+typeCount 1
+frigateRoleType "Heavy"
+statCountType "FrigateHeavy"
+mainViewIcon "MAINVIEWICON_FRIGATE_RAVEN"
+picture "PICTURE_FRIGATE_RAVEN"
+NameStringID "IDS_NPC_Officer_Estamel_Tharchon_NAME"
+DescriptionStringID "IDS_NPC_Officer_Estamel_Tharchon_DESCRIPTION"
+counterDescriptionStringID "IDS_COUNTERDESC_FRIGATE_LONGRANGE"
+basePrice
+	credits 74900.000000
+	metal 15400.000000
+	crystal 15500.000000
+slotCount 5.000000
+BuildTime 56.000000
+hasLevels FALSE
+ExperiencePointsForDestroying 50.000000
+MaxHullPoints 9750.000000
+MaxShieldPoints 20000.000000
+HullPointRestoreRate 1.000000
+ShieldPointRestoreRate 56.000000
+BaseArmorPoints 10.000000
+maxMitigation 0.220000
+Prerequisites
+	NumResearchPrerequisites 0
+	RequiredFactionNameID ""
+	RequiredCompletedResearchSubjects 0
+numRandomDebrisLarge 0
+numRandomDebrisSmall 0
+numSpecificDebris 0
+armorType "Heavy"
+hudIcon "HUDICON_FRIGATE_RAVEN_OFFICER"
+smallHudIcon "HUDICONSMALL_FRIGATE_RAVEN"
+infoCardIcon "INFOCARDICON_FRIGATE_RAVEN"
+minZoomDistanceMult 1.000000
+NumWeapons 1
+Weapon
+	WeaponType "Missile"
+	damageEnums
+		AttackType "ANTIHEAVY"
+		DamageAffectType "AFFECTS_SHIELDS_AND_HULL"
+		DamageApplyType "BACKLOADED"
+		DamageType "PHYSICAL"
+		WeaponClassType "MISSILE"
+	DamagePerBank:FRONT 847.000000
+	DamagePerBank:BACK 0.000000
+	DamagePerBank:LEFT 0.000000
+	DamagePerBank:RIGHT 0.000000
+	Range 25000.000000
+	PreBuffCooldownTime 3.5000000
+	CanFireAtFighter FALSE
+	SynchronizedTargeting TRUE
+	PointStaggerDelay 0.050000
+	TravelSpeed 1000.000000
+	Duration 0.000000
+	fireConstraintType "CanAlwaysFire"
+	WeaponEffects
+		weaponType "Missile"
+		burstCount 1
+		burstDelay 0.000000
+		fireDelay 0.000000
+		muzzleEffectName "Weapon_TechCapitalMissileHeavy_Muzzle"
+		muzzleSoundMinRespawnTime 0.500000
+		muzzleSounds
+			soundCount 1
+			sound "EFFECT_NEUTRONTORPEDO_MUZZLE"
+		hitEffectName "EVE_Missile_HeavyMissile_Hit"
+		hitHullEffectSounds
+			soundCount 2
+			sound "LIGHTMISSILEEXPLOSION1"
+			sound "LIGHTMISSILEEXPLOSION2"
+		hitShieldsEffectSounds
+			soundCount 2
+			sound "LIGHTMISSILEEXPLOSION1"
+			sound "LIGHTMISSILEEXPLOSION2"
+		missileTravelEffectName "Weapon_TechCapitalMissileHeavy_Travel"
+		missileStartTurningDistance 0.000000
+		missileSlowTurnRate 0.500000
+		missileMaxSlowTurnTime 5.000000
+m_weaponIndexForRange 0
+firingAlignmentType "Default"
+TargetCountPerBank:FRONT 1
+TargetCountPerBank:BACK 1
+TargetCountPerBank:LEFT 1
+TargetCountPerBank:RIGHT 1
+canOnlyTargetStructures FALSE
+hasWeaponLevels FALSE
+mass 10000.000000
+ShieldMeshName "Raven"
+renderShield TRUE
+maxAccelerationLinear 74.000000
+maxAccelerationStrafe 10.000000
+maxDecelerationLinear 500.000000
+maxAccelerationAngular 6.800000
+maxDecelerationAngular 8.999996
+maxSpeedLinear 141.000000
+maxRollRate 2.000000
+maxRollAngle 40.000000
+squadTypeEntityDef:0 "Caldari_DroneSquad_Vespa"
+squadAntiMatterCost:0 0.000000
+squadTypeEntityDef:1 ""
+squadAntiMatterCost:1 0.000000
+squadTypeEntityDef:2 ""
+squadAntiMatterCost:2 0.000000
+squadTypeEntityDef:3 ""
+squadAntiMatterCost:3 0.000000
+maxNumCommandPoints 1
+NumSoundsFor:ONATTACKORDERISSUED 4
+SoundID "CAPITALSHIP_TECHSIEGE_ONATTACKORDERISSUED_0"
+SoundID "CAPITALSHIP_TECHSIEGE_ONATTACKORDERISSUED_1"
+SoundID "CAPITALSHIP_TECHSIEGE_ONATTACKORDERISSUED_2"
+SoundID "CAPITALSHIP_TECHSIEGE_ONATTACKORDERISSUED_3"
+NumSoundsFor:ONCREATION 1
+SoundID "CAPITALSHIP_TECHSIEGE_ONCREATION"
+NumSoundsFor:ONGENERALORDERISSUED 3
+SoundID "CAPITALSHIP_TECHSIEGE_ONGENERALORDERISSUED_0"
+SoundID "CAPITALSHIP_TECHSIEGE_ONGENERALORDERISSUED_1"
+SoundID "CAPITALSHIP_TECHSIEGE_ONGENERALORDERISSUED_2"
+NumSoundsFor:ONSELECTED 3
+SoundID "CAPITALSHIP_TECHSIEGE_ONSELECTED_0"
+SoundID "CAPITALSHIP_TECHSIEGE_ONSELECTED_1"
+SoundID "CAPITALSHIP_TECHSIEGE_ONSELECTED_2"
+NumSoundsFor:ONSTARTPHASEJUMP 1
+SoundID "CAPITALSHIP_TECHSIEGE_ONSTARTPHASEJUMP_0"
+MeshNameInfoCount 2
+MeshNameInfo
+	meshName "raven"
+	criteriaType "None"
+MeshNameInfo
+	meshName "golem"
+	criteriaType "Research"
+	prerequisites
+		NumResearchPrerequisites 1
+		ResearchPrerequisite
+			Subject "RSAMarauder"
+			Level 1
+		RequiredFactionNameID ""
+		RequiredCompletedResearchSubjects 1
+meshNameIncreasedEffectName ""
+meshNameDecreasedEffectName ""
+ExhaustParticleSystemName "Exhaust_EveBattleship"
+ExplosionName "EVEBattleship"
+HyperspaceChargingSoundID "HYPERSPACE_CHARGEUP"
+HyperspaceTravelSoundID "HYPERSPACE_TRAVEL"
+EngineSoundID "ENGINE_TECHCAPITALSHIP"
+ability:0 "AbilityCaldariShieldWarfareMindlink2"
+ability:1 "Guristas_AbilityCynosuralField"
+ability:2 "Guristas_AbilityCynosuralField2"
+ability:3 "Guristas_AbilityCynosuralField4"
+ability:4 "Guristas_AbilityCynosuralField5"
+MaxAntiMatter 6880.000000
+AntiMatterRestoreRate 19.900000
+cargoType "Invalid"
+maxCargoCapacity 0.000000
+formationRank 0
+minShadow 0.000000
+maxShadow 0.600000
+allegianceDecreasePerRoundtrip 0.000000

@@ -1,0 +1,190 @@
+﻿TXT
+entityType "Frigate"
+defaultAutoAttackRange "GravityWell"
+defaultAutoAttackOn TRUE
+prefersToFocusFire FALSE
+usesFighterAttack FALSE
+autoJoinFleetDefault TRUE
+canBomb TRUE
+hasBombingLevels FALSE
+baseDamage 25.000000
+basePopulationKilled 1.100000
+bombingFreqTime 10.000000
+baseRange 7000.000000
+bombTransitTime 5.000000
+bombEffectCount 1
+bombEffectAngleVariance 15.000000
+bombEffectsDef
+	weaponType "Missile"
+	burstCount 1
+	burstDelay 0.000000
+	fireDelay 0.000000
+	muzzleEffectName "Weapon_TechCapitalMissileHeavy_Muzzle"
+	muzzleSoundMinRespawnTime 0.100000
+	muzzleSounds
+		soundCount 1
+		sound "EFFECT_NEUTRONTORPEDO_MUZZLE"
+	hitEffectName "EVE_Missile_LightMissile_Hit"
+	hitHullEffectSounds
+		soundCount 3
+		sound "EXPLOSION_SUB4"
+		sound "EXPLOSION_SUB4_ALT1"
+		sound "EXPLOSION_SUB4_ALT2"
+	hitShieldsEffectSounds
+		soundCount 3
+		sound "EXPLOSION_SUB4"
+		sound "EXPLOSION_SUB4_ALT1"
+		sound "EXPLOSION_SUB4_ALT2"
+	missileTravelEffectName "EVE_Missile_LightMissile_Travel"
+	missileStartTurningDistance 250.000000
+	missileSlowTurnRate 0.708997
+	missileMaxSlowTurnTime 6.000000
+typeCount 1
+frigateRoleType "Invalid"
+statCountType "CapitalShipBattleship"
+mainViewIcon "MAINVIEWICON_CAPITALSHIP_TECHSIEGE"
+picture "PICTURE_CAPITAL_HEL"
+NameStringID "IDS_FRIGATE_MINMATARFLAGSHIP_NAME"
+DescriptionStringID "IDS_FRIGATE_FLAGSHIP_DESCRIPTION"
+counterDescriptionStringID ""
+basePrice
+	credits 0.000000
+	metal 0.000000
+	crystal 0.000000
+slotCount 1.000000
+BuildTime 1.000000
+hasLevels FALSE
+ExperiencePointsForDestroying 0.000000
+MaxHullPoints 325000.000000
+MaxShieldPoints 625000.000000
+HullPointRestoreRate 1.000000
+ShieldPointRestoreRate 18.000000
+BaseArmorPoints 0.000000
+maxMitigation 0.200000
+Prerequisites
+	NumResearchPrerequisites 0
+	RequiredFactionNameID ""
+	RequiredCompletedResearchSubjects 0
+numRandomDebrisLarge 4
+numRandomDebrisSmall 17
+numSpecificDebris 0
+armorType "VeryHeavy"
+hudIcon "HUDICON_MINMATAR_NAVY_HEL"
+smallHudIcon "HUDICONSMALL_CAPITAL_HEL"
+infoCardIcon "HUDICONSMALL_CAPITAL_HEL"
+minZoomDistanceMult 1.000000
+NumWeapons 1
+Weapon
+	WeaponType "Beam"
+	damageEnums
+		AttackType "ANTIVERYHEAVY"
+		DamageAffectType "AFFECTS_SHIELDS_AND_HULL"
+		DamageApplyType "OVERTIME"
+		DamageType "ENERGY"
+		WeaponClassType "DART"
+	DamagePerBank:FRONT 1.300003
+	DamagePerBank:BACK 0.000000
+	DamagePerBank:LEFT 0.000000
+	DamagePerBank:RIGHT 0.000000
+	Range 12500.000000
+	PreBuffCooldownTime 9999999.000000
+	CanFireAtFighter FALSE
+	SynchronizedTargeting TRUE
+	PointStaggerDelay 0.250000
+	TravelSpeed 0.000000
+	Duration 0.000001
+	fireConstraintType "CanAlwaysFire"
+	WeaponEffects
+		weaponType "Beam"
+		burstCount 1
+		burstDelay 0.000000
+		fireDelay 0.000000
+		muzzleEffectName ""
+		muzzleSoundMinRespawnTime 0.100000
+		muzzleSounds
+			soundCount 1
+			sound ""
+		hitEffectName ""
+		hitHullEffectSounds
+			soundCount 1
+			sound ""
+		hitShieldsEffectSounds
+			soundCount 1
+			sound ""
+		beamEffectSounds
+			soundCount 1
+			sound "WEAPON_TECHCAPITALBEAMHEAVY_TRAVEL"
+		beamGlowTextureName "TechCapitalBeam_Core"
+		beamCoreTextureName "TechCapitalBeam_Glow"
+		beamWidth 1.000000
+		beamGlowColor ffffffff
+		beamCoreColor ffffffff
+		beamTilingRate 9.000000
+m_weaponIndexForRange 0
+firingAlignmentType "Default"
+TargetCountPerBank:FRONT 1
+TargetCountPerBank:BACK 1
+TargetCountPerBank:LEFT 1
+TargetCountPerBank:RIGHT 1
+canOnlyTargetStructures FALSE
+hasWeaponLevels FALSE
+mass 50000.000000
+ShieldMeshName "Aeon"
+renderShield TRUE
+maxAccelerationLinear 12.500000
+maxAccelerationStrafe 0.500000
+maxDecelerationLinear 25.000000
+maxAccelerationAngular 0.500000
+maxDecelerationAngular 1.000000
+maxSpeedLinear 250.000000
+maxRollRate 1.000000
+maxRollAngle 30.000000
+squadTypeEntityDef:0 "Caldari_DroneSquad_Anti-Fighter"
+squadAntiMatterCost:0 0.000000
+squadTypeEntityDef:1 "Caldari_DroneSquad_LightFighter"
+squadAntiMatterCost:1 0.000000
+squadTypeEntityDef:2 "Caldari_DroneSquad_HeavyFighter"
+squadAntiMatterCost:2 0.000000
+squadTypeEntityDef:3 ""
+squadAntiMatterCost:3 0.000000
+maxNumCommandPoints 5
+NumSoundsFor:ONATTACKORDERISSUED 3
+SoundID "CAPITALSHIP_TECHCARRIER_ONATTACKORDERISSUED_0"
+SoundID "CAPITALSHIP_TECHCARRIER_ONATTACKORDERISSUED_1"
+SoundID "CAPITALSHIP_TECHCARRIER_ONATTACKORDERISSUED_2"
+NumSoundsFor:ONCREATION 1
+SoundID "CAPITALSHIP_TECHCARRIER_ONCREATION"
+NumSoundsFor:ONGENERALORDERISSUED 3
+SoundID "CAPITALSHIP_TECHCARRIER_ONGENERALORDERISSUED_0"
+SoundID "CAPITALSHIP_TECHCARRIER_ONGENERALORDERISSUED_1"
+SoundID "CAPITALSHIP_TECHCARRIER_ONGENERALORDERISSUED_2"
+NumSoundsFor:ONSELECTED 3
+SoundID "CAPITALSHIP_TECHCARRIER_ONSELECTED_0"
+SoundID "CAPITALSHIP_TECHCARRIER_ONSELECTED_1"
+SoundID "CAPITALSHIP_TECHCARRIER_ONSELECTED_2"
+NumSoundsFor:ONSTARTPHASEJUMP 1
+SoundID "CAPITALSHIP_TECHCARRIER_ONSTARTPHASEJUMP_0"
+MeshNameInfoCount 1
+MeshNameInfo
+	meshName "Hel"
+	criteriaType "None"
+meshNameIncreasedEffectName ""
+meshNameDecreasedEffectName ""
+ExhaustParticleSystemName "Exhaust_EveCapital"
+ExplosionName "EVECapital"
+HyperspaceChargingSoundID "HYPERSPACE_CHARGEUP"
+HyperspaceTravelSoundID "HYPERSPACE_TRAVEL"
+EngineSoundID "ENGINE_TECHCAPITALSHIP"
+ability:0 "AbilityProjectedSensorDampenerBurst"
+ability:1 "AbilityCaldariShieldWarfareMindlink"
+ability:2 "AbilityFighterControlUnitSuperCarrier"
+ability:3 "AbilitySuperCarrierShield"
+ability:4 "AbilityFlagship"
+MaxAntiMatter 10300.000000
+AntiMatterRestoreRate 27.500000
+cargoType "Invalid"
+maxCargoCapacity 0.000000
+formationRank 0
+minShadow 0.100000
+maxShadow 0.800000
+allegianceDecreasePerRoundtrip 0.000000

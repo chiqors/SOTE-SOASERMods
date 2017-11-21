@@ -1,6 +1,6 @@
 ﻿TXT
 onlyLoadOnDemand FALSE
-brushCount 65
+brushCount 66
 brush
 	name "HUDICON_STARBASE_TECH"
 	content "States"
@@ -1082,20 +1082,38 @@ brush
 	name "HUDICON_STARBASE_ASTRAHUS"
 	content "States"
 	Disabled
-		fileName "Unit_Hud3_Disabled"
-		pixelBox [ 300 , 118 , 47 , 33 ]
+		fileName "Ships_Buttons_Disabled"
+		pixelBox [ 5 , 940 , 47 , 33 ]
 	Pressed
-		fileName "Unit_Hud3_Pressed"
-		pixelBox [ 300 , 118 , 47 , 33 ]
+		fileName "Ships_Buttons_Pressed"
+		pixelBox [ 5 , 940 , 47 , 33 ]
 	CursorOver
-		fileName "Unit_Hud3_CursorOver"
-		pixelBox [ 300 , 118 , 47 , 33 ]
+		fileName "Ships_Buttons_CursorOver"
+		pixelBox [ 5 , 940 , 47 , 33 ]
 	Focused
-		fileName "Unit_Hud3_Normal"
-		pixelBox [ 300 , 118 , 47 , 33 ]
+		fileName "Ships_Buttons_Normal"
+		pixelBox [ 5 , 940 , 47 , 33 ]
 	Normal
-		fileName "Unit_Hud3_Normal"
-		pixelBox [ 300 , 118 , 47 , 33 ]
+		fileName "Ships_Buttons_Normal"
+		pixelBox [ 5 , 940 , 47 , 33 ]
+brush
+	name "HUDICON_STARBASE_FACTION_ASTRAHUS"
+	content "States"
+	Disabled
+		fileName "Ships_Buttons_Disabled"
+		pixelBox [ 5 , 904 , 47 , 33 ]
+	Pressed
+		fileName "Ships_Buttons_Pressed"
+		pixelBox [ 5 , 904 , 47 , 33 ]
+	CursorOver
+		fileName "Ships_Buttons_CursorOver"
+		pixelBox [ 5 , 904 , 47 , 33 ]
+	Focused
+		fileName "Ships_Buttons_Normal"
+		pixelBox [ 5 , 904 , 47 , 33 ]
+	Normal
+		fileName "Ships_Buttons_Normal"
+		pixelBox [ 5 , 904 , 47 , 33 ]		
 brush
 	name "HUDICON_STARBASE_FORTIZAR"
 	content "States"
@@ -1132,4 +1150,3 @@ brush
 	Normal
 		fileName "Unit_Hud3_Normal"
 		pixelBox [ 398 , 118 , 47 , 33 ]
-																																																																																																																																																																																																																																																																																																																																																																																																																																																																																																																																																																																																																																																																																																																																																																																																																																																																																																																																																																																																																																																																																																																																																																																																																																																																																																																																																																																																																																																																																																																																																																																																																																																																																																																																																																																																												

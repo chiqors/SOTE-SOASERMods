@@ -1452,16 +1452,16 @@ planetItemType
 	entityDefName "Guristas_ShipCarrier_Chimera"
 planetItemType
 	designName "Guristas:CapitalShip:FAUX"
-	entityDefName "Guristas_ShipFAUX_Minokawa"
+	entityDefName "Guristas_ShipFAUX_Loggerhead"
 planetItemType
 	designName "Guristas:CapitalShip:Dreadnought"
-	entityDefName "Guristas_ShipDreadnought_Phoenix"
+	entityDefName "Guristas_ShipFAUX_Loggerhead"
 planetItemType
 	designName "Guristas:CapitalShip:SuperCarrier"
 	entityDefName "Guristas_ShipSupercarrier_Wyvern"	
 planetItemType
 	designName "Guristas:CapitalShip:Titan"
-	entityDefName "Guristas_ShipTitan_Leviathan"	
+	entityDefName "Guristas_ShipTitan_komodo"	
 planetItemType
 	designName "Guristas:Frigate:Colony"
 	entityDefName "Angel_ShipColony_Orca"
@@ -2268,10 +2268,10 @@ planetItemsTemplate
 			colonizeChance 1
 			items 5
 				item "Minmatar:Frigate:Scout"
-				item "Minmatar:Frigate:Light"
-				item "Minmatar:Frigate:Light"
-				item "Minmatar:Frigate:Light"
-				item "Minmatar:Frigate:Light"
+				item "Minmatar:Frigate:Frigate"
+				item "Minmatar:Frigate:Frigate"
+				item "Minmatar:Frigate:Frigate"
+				item "Minmatar:Frigate:Frigate"
 		group
 			condition
 				type "PlanetOwnerIsRaceNormalStart"
@@ -2594,7 +2594,7 @@ planetItemsTemplate
 				param ""
 			owner "Serpentis"
 			colonizeChance 0
-			items 13
+			items 14
 				item "Serpentis:Frigate:Frigate"
 				item "Serpentis:Frigate:Frigate"
 				item "Serpentis:Frigate:Frigate"
@@ -2608,6 +2608,7 @@ planetItemsTemplate
 				item "Serpentis:Frigate:Logistics"				
 				item "Serpentis:Frigate:Battleship"
 				item "Serpentis:Frigate:Battleship"
+				item "Serpentis:Frigate:Colony"
 		group
 			condition
 				type "NoPlanetOwnerWithChance"
@@ -2781,7 +2782,7 @@ planetItemsTemplate
 				param ""
 			owner "BloodRaider"
 			colonizeChance 0
-			items 9
+			items 10
 				item "BloodRaider:Frigate:Frigate"
 				item "BloodRaider:Frigate:Frigate"
 				item "BloodRaider:Frigate:Frigate"
@@ -2791,6 +2792,7 @@ planetItemsTemplate
 				item "BloodRaider:Frigate:Siege"
 				item "BloodRaider:Frigate:Siege"			
 				item "BloodRaider:Frigate:Siege"
+				item "BloodRaider:Frigate:Colony"
 		group
 			condition
 				type "NoPlanetOwnerWithChance"
@@ -2838,7 +2840,7 @@ planetItemsTemplate
 		group
 			condition
 				type "NoPlanetOwnerWithChance"
-				param "0.2"
+				param "0.4"
 			owner "BloodRaider"
 			colonizeChance 0
 			items 1
@@ -2846,7 +2848,7 @@ planetItemsTemplate
 		group
 			condition
 				type "NoPlanetOwnerWithChance"
-				param "0.1"
+				param "0.2"
 			owner "BloodRaider"
 			colonizeChance 0
 			items 1
@@ -2854,7 +2856,7 @@ planetItemsTemplate
 		group
 			condition
 				type "NoPlanetOwnerWithChance"
-				param "0.1"
+				param "0.2"
 			owner "BloodRaider"
 			colonizeChance 0
 			items 1				
@@ -2862,7 +2864,7 @@ planetItemsTemplate
 		group
 			condition
 				type "NoPlanetOwnerWithChance"
-				param "0.1"
+				param "0.2"
 			owner "BloodRaider"
 			colonizeChance 0
 			items 1						
@@ -2870,7 +2872,7 @@ planetItemsTemplate
 		group
 			condition
 				type "NoPlanetOwnerWithChance"
-				param "0.1"
+				param "0.2"
 			owner "BloodRaider"
 			colonizeChance 0
 			items 1
@@ -2953,7 +2955,7 @@ planetItemsTemplate
 		group
 			condition
 				type "PlanetOwnerIsMilitiaWithChance"
-				param "0.3"
+				param "0.4"
 			owner "PlanetOwner"
 			colonizeChance 0
 			items 1		
@@ -2972,7 +2974,7 @@ planetItemsTemplate
 				param ""
 			owner "Angel"
 			colonizeChance 0
-			items 9
+			items 10
 				item "Angel:Frigate:Frigate"
 				item "Angel:Frigate:Frigate"
 				item "Angel:Frigate:Frigate"
@@ -2982,6 +2984,7 @@ planetItemsTemplate
 				item "Angel:Frigate:Siege"
 				item "Angel:Frigate:Siege"			
 				item "Angel:Frigate:Siege"
+				item "Angel:Frigate:Colony"
 		group
 			condition
 				type "NoPlanetOwnerWithChance"
@@ -3029,7 +3032,7 @@ planetItemsTemplate
 		group
 			condition
 				type "NoPlanetOwnerWithChance"
-				param "0.2"
+				param "0.4"
 			owner "Angel"
 			colonizeChance 0
 			items 1
@@ -4177,12 +4180,12 @@ planetItemsTemplate
 				item "Gallente:Frigate:Cruiser"
 				item "Gallente:Frigate:Cruiser"
 				item "Gallente:Frigate:Cruiser"
-				item "Gallente:Frigate:Carrier"
-				item "Gallente:Frigate:Carrier"
-				item "Gallente:Frigate:Carrier"
-				item "Gallente:Frigate:Siege"
-				item "Gallente:Frigate:Siege"
-				item "Gallente:Frigate:Siege"
+				item "Gallente:Frigate:Battleship"
+				item "Gallente:Frigate:Battleship"
+				item "Gallente:Frigate:Battleship"
+				item "Minmatar:Frigate:Battleship"
+				item "Minmatar:Frigate:Battleship"
+				item "Minmatar:Frigate:Battleship"
 				item "Gallente:Frigate:Destoyer"
 				item "Gallente:Frigate:Destoyer"
 				item "Gallente:Frigate:Destoyer"
@@ -4206,21 +4209,21 @@ planetItemsTemplate
 				item "Gallente:Module:MissileDefense"
 				item "Gallente:Module:RepairPlatform"
 				item "Gallente:Module:RepairPlatform"
-				item "Gallente:Frigate:Heavy"
-				item "Gallente:Frigate:Heavy"
-				item "Gallente:Frigate:Heavy"
-				item "Gallente:Frigate:Heavy"
-				item "Gallente:Frigate:Heavy"
-				item "Gallente:Corvette:Loyalist"
-				item "Gallente:Corvette:Loyalist"
-				item "Gallente:Corvette:Loyalist"
-				item "Gallente:Corvette:Loyalist"
-				item "Gallente:Corvette:Loyalist"
-				item "Gallente:Corvette:Loyalist"
-				item "Gallente:Corvette:Loyalist"
-				item "Gallente:Corvette:Loyalist"
-				item "Gallente:Corvette:Loyalist"
-				item "Gallente:Corvette:Loyalist"
+				item "Gallente:Frigate:Battleship"
+				item "Gallente:Frigate:Battleship"
+				item "Gallente:Frigate:Battleship"
+				item "Gallente:Frigate:Battleship"
+				item "Gallente:Frigate:Battleship"
+				item "Gallente:Frigate:Battlecruiser"
+				item "Gallente:Frigate:Battlecruiser"
+				item "Gallente:Frigate:Battlecruiser"
+				item "Gallente:Frigate:Battlecruiser"
+				item "Gallente:Frigate:Battlecruiser"
+				item "Gallente:Frigate:Battlecruiser"
+				item "Gallente:Frigate:Battlecruiser"
+				item "Gallente:Frigate:Battlecruiser"
+				item "Gallente:Frigate:Battlecruiser"
+				item "Gallente:Frigate:Battlecruiser"
 planetItemsTemplate
 	templateName "Template:DefaultStart_Terran"
 	subTemplates 2

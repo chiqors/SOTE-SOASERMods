@@ -1,0 +1,64 @@
+﻿TXT
+entityType "Ability"
+buffInstantActionType "ApplyTargettedBuffToSelf"
+instantActionTriggerType "AlwaysPerform"
+buffType "Guristas_BuffSummonBattleship"
+targetFilter
+	numOwnerships 1
+	ownership "Enemy"
+	numObjects 4
+	object "Frigate"
+	object "Corvette"
+	object "CapitalShip"
+	object "Titan"
+	numSpaces 1
+	space "Normal"
+	numConstraints 2
+	constraint "NotSelf"
+	constraint "NotFlagship"
+range
+	Level:0 100000.000000
+	Level:1 100000.000000
+	Level:2 100000.000000
+	Level:3 100000.000000
+effectInfo
+	effectAttachInfo
+		attachType "Center"
+	smallEffectName "EVE_Ship_CynoField"
+	mediumEffectName "EVE_Ship_CynoField"
+	largeEffectName "EVE_Ship_CynoField"
+	soundID ""
+needsToFaceTarget FALSE
+canCollideWithTarget TRUE
+moveThruTarget FALSE
+isUltimateAbility FALSE
+maxNumLevels 1
+levelSourceType "FixedLevel0"
+aiUseTime "OnlyInCombat"
+aiUseTargetCondition "Any"
+isAutoCastAvailable TRUE
+isAutoCastOnByDefault TRUE
+pickRandomPlanetToExploreForAutoCastTarget FALSE
+ignoreNonCombatShipsForAutoCastTarget TRUE
+onlyAutoCastWhenDamageTakenExceedsPerc 0.000000
+useCostType "AntiMatter"
+antiMatterCost
+	Level:0 0.000000
+	Level:1 0.000000
+	Level:2 0.000000
+	Level:3 0.000000
+cooldownTime
+	Level:0 600.000000
+	Level:1 600.000000
+	Level:2 600.000000
+	Level:3 600.000000
+orderAcknowledgementType "ONGENERALORDERISSUED"
+researchPrerequisites
+	NumResearchPrerequisites 0
+	RequiredFactionNameID ""
+	RequiredCompletedResearchSubjects 0
+nameStringID "IDS_ABILITY_UNSTOPPABLEPHASEJUMPTECH_NAME"
+descStringID "IDS_ABILITY_UNSTOPPABLEPHASEJUMPTECH_DESCRIPTION"
+hudIcon "HUDICON_ABILITY_UNSTOPPABLEPHASEJUMPTECH"
+smallHudIcon "HUDICON_ABILITY_UNSTOPPABLEPHASEJUMPTECH"
+infoCardIcon ""

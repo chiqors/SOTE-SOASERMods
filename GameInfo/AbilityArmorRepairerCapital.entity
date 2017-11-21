@@ -29,7 +29,7 @@ onlyAutoCastWhenTargetHullDamageExceedsAmount
 	Level:2 7920.000000
 	Level:3 7920.000000
 isAutoCastAvailable TRUE
-isAutoCastOnByDefault FALSE
+isAutoCastOnByDefault TRUE
 pickRandomPlanetToExploreForAutoCastTarget FALSE
 ignoreNonCombatShipsForAutoCastTarget TRUE
 onlyAutoCastWhenDamageTakenExceedsPerc 0.010000

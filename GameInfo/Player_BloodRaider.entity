@@ -21,13 +21,11 @@ entities
 			entityDefName "Amarr_Structure_TradePort"
 			entityDefName "Amarr_Structure_Refinery"
 		Page:1
-			count 6
+			count 4
 			entityDefName "Amarr_Structure_SmallPulseLaserBattery"
 			entityDefName "Amarr_Structure_ECMBattery"
 			entityDefName "Amarr_Structure_MediumPulseLaserBattery"
 			entityDefName "Amarr_Structure_JumpBridge"
-			entityDefName "PLANETMODULE_TECHORBITALSHIELDGENERATOR"
-			entityDefName "PLANETMODULE_TECHORBITALCANNON"
 	titanInfo
 		Page:0
 			count 1
@@ -48,7 +46,12 @@ entities
 			entityDefName "BloodRaider_ShipCruiser_Augoror"
 			entityDefName "Amarr_Ship_Frigate_Inquisitor"
 		Page:1
-			count 3
+			count 8
+			entityDefName "BloodRaider_Ship_Battlecruiser_Prophecy"
+			entityDefName "BloodRaider_Officer_Ahremen_Arkah"
+			entityDefName "BloodRaider_Officer_Tairei_Namazoth"
+			entityDefName "Bloodraider_Officer_Draclira_Merlonne"
+			entityDefName "Bloodraider_Officer_Raysere_Giant"
 			entityDefName "Bloodraider_ShipBattleshipBhaalgorn"
 			entityDefName "BloodRaider_Ship_Battleship_CorpusArchon"
 			entityDefName "BloodRaider_Ship_Battleship_CorpusDarkCommander"
@@ -60,7 +63,7 @@ entities
 	starBaseInfo
 		count 1
 		entityDefName "BloodRaider_StructureShipyard_Raitaru"
-	flagship "FrigatePirateHeavy"
+	flagship "Amarr_Ship_Flagship_ImperialApocalypse"
 debrisData
 	numRandomMeshNamesLarge 8
 	randomMeshName "DebrisTechGenericLarge0"

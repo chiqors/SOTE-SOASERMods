@@ -91,7 +91,7 @@ numRandomDebrisLarge 0
 numRandomDebrisSmall 0
 numSpecificDebris 0
 armorType "VeryHeavy"
-hudIcon "HUDICON_CAPITALSHIP_LIF"
+hudIcon "HUDICON_ANGEL_LIF"
 smallHudIcon "HUDICONSMALL_CAPITAL_LIF"
 infoCardIcon "HUDICONSMALL_CAPITAL_LIF"
 minZoomDistanceMult 1.000000

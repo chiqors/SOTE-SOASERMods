@@ -1,9 +1,9 @@
 ﻿TXT
 entityType "CapitalShip"
-ability:0 "AbilityPLASMASmartbomb"
-ability:1 "AbilityEnergyNeutralizationBurst"
-ability:2 "AbilityProjectedECMBurst"
-ability:3 "AbilityDroneBomb"
+ability:0 "AbilityProjectedTargetIlluminationBurst"
+ability:1 "AbilityProjectedECMBurst"
+ability:2 "AbilityFighterControlUnitSuperCarrier"
+ability:3 "AbilitySuperCarrierShield"
 ability:4 ""
 defaultAutoAttackRange "GravityWell"
 defaultAutoAttackOn TRUE
@@ -52,11 +52,11 @@ basePrice
 slotCount 1.000000
 BuildTime 150.000000
 MaxHullPoints
-	StartValue 130000.000000
-	ValueIncreasePerLevel 13000.000000
+	StartValue 562000.000000
+	ValueIncreasePerLevel 56200.000000
 MaxShieldPoints
-	StartValue 250000.000000
-	ValueIncreasePerLevel 25000.000000
+	StartValue 919000.000000
+	ValueIncreasePerLevel 91900.000000
 HullPointRestoreRate
 	StartValue 1.000000
 	ValueIncreasePerLevel 0.500000
@@ -92,7 +92,7 @@ numRandomDebrisSmall 0
 numSpecificDebris 1
 specificDebrisMeshName "DebrisTechLarge"
 armorType "VeryHeavy"
-hudIcon "HUDICON_CAPITALSHIP_HEL"
+hudIcon "HUDICON_MINMATAR_NAVY_HEL"
 smallHudIcon "HUDICONSMALL_CAPITAL_HEL"
 infoCardIcon "HUDICONSMALL_CAPITAL_HEL"
 minZoomDistanceMult 1.000000

@@ -1,6 +1,6 @@
 ﻿TXT
 entityType "Titan"
-ability:0 "AbilityOblivion"
+ability:0 "AbilityOblivionT2"
 ability:1 "AbilityCaldariPhenomenaGenerator"
 ability:2 "AbilityTitanPLASMASmartbomb"
 ability:3 "AbilityAmarrTitanJumpBridge"
@@ -52,11 +52,11 @@ basePrice
 slotCount 1.000000
 BuildTime 150.000000
 MaxHullPoints
-	StartValue 195000.000000
-	ValueIncreasePerLevel 19500.000000
+	StartValue 375000.000000
+	ValueIncreasePerLevel 37500.000000
 MaxShieldPoints
-	StartValue 430000.000000
-	ValueIncreasePerLevel 43000.000000
+	StartValue 813000.000000
+	ValueIncreasePerLevel 81300.000000
 HullPointRestoreRate
 	StartValue 1.000000
 	ValueIncreasePerLevel 0.500000
@@ -78,8 +78,8 @@ AntiMatterRestoreRate
 CultureProtectRate
 	StartValue 2.800000
 	ValueIncreasePerLevel 0.050000
-NameStringID "IDS_COMMAND_TITAN_LEVIATHAN_NAME"
-DescriptionStringID "IDS_COMMAND_TITAN__DESCRIPTION"
+NameStringID "IDS_PULSARDD_NAME"
+DescriptionStringID "IDS_PULSARDD_DESCRIPTION"
 picture "PICTURE_DREADNOUGHT_LEVIATHAN"
 Prerequisites
 	NumResearchPrerequisites 1

@@ -13,8 +13,8 @@ stage
 		NumResearchPrerequisites 0
 		RequiredFactionNameID ""
 		RequiredCompletedResearchSubjects 0
-	hudIcon "HUDIconStarBaseUpgradeTechToughness0"
-	smallHudIcon "HUDIconStarBaseUpgradeTechToughness0"
+	hudIcon "HUDICON_CITADEL_ARMOR"
+	smallHudIcon "HUDICON_CITADEL_ARMOR"
 	infoCardIcon ""
 	upgradePropertyCount 5
 	upgradeProperty
@@ -45,8 +45,8 @@ stage
 		NumResearchPrerequisites 0
 		RequiredFactionNameID ""
 		RequiredCompletedResearchSubjects 0
-	hudIcon "HUDIconStarBaseUpgradeTechToughness0"
-	smallHudIcon "HUDIconStarBaseUpgradeTechToughness0"
+	hudIcon "HUDICON_CITADEL_ARMOR"
+	smallHudIcon "HUDICON_CITADEL_ARMOR"
 	infoCardIcon ""
 	upgradePropertyCount 5
 	upgradeProperty

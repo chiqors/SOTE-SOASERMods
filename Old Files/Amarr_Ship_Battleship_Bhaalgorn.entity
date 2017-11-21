@@ -11,8 +11,8 @@ frigateRoleType "Heavy"
 statCountType "FrigateHeavy"
 mainViewIcon "MAINVIEWICON_CAPITALSHIP_TECHSUPPORT"
 picture ""
-NameStringID "IDS_AMARR_SHIP_BATTLESHIP_BHAALGORN_NAME"
-DescriptionStringID "IDS_AMARR_SHIP_BATTLESHIP_BHAALGORN_DESCRIPTION"
+NameStringID "IDS_Bloodraider_ShipBattleshipBhaalgorn_NAME"
+DescriptionStringID "IDS_Bloodraider_ShipBattleshipBhaalgorn_DESCRIPTION"
 counterDescriptionStringID "IDS_COUNTERDESC_FRIGATE_LONGRANGE"
 basePrice
 	credits 583.000000

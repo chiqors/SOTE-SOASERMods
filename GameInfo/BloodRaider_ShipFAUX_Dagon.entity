@@ -82,7 +82,10 @@ NameStringID "IDS_BloodRaiders_ShipForceAuxiliaryDagon_NAME"
 DescriptionStringID "IDS_BloodRaiders_ShipForceAuxiliaryDagon_DESCRIPTION"
 picture "PICTURE_CAPITAL_ARCHON"
 Prerequisites
-	NumResearchPrerequisites 0
+	NumResearchPrerequisites 1
+	ResearchPrerequisite
+		Subject "Amarr_ResearchSubject_CapitalAccess_Dagon"
+		Level 1
 	RequiredFactionNameID ""
 	RequiredCompletedResearchSubjects 0
 roleType "Invalid"

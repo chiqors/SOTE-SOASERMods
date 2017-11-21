@@ -36,7 +36,7 @@ numRandomDebrisLarge 0
 numRandomDebrisSmall 0
 numSpecificDebris 0
 armorType "Medium"
-hudIcon "HUDICON_FRIGATE_CARACAL"
+hudIcon "HUDICON_GURISTA_GILA"
 smallHudIcon "HUDICONSMALL_CRUISER"
 infoCardIcon "HUDICONSMALL_CRUISER"
 minZoomDistanceMult 1.000000
@@ -103,7 +103,7 @@ maxDecelerationAngular 9.999996
 maxSpeedLinear 370.000000
 maxRollRate 2.000000
 maxRollAngle 40.000000
-squadTypeEntityDef:0 "Gallente_DroneSquad_Hammerhead"
+squadTypeEntityDef:0 "Caldari_DroneSquad_Vespa"
 squadAntiMatterCost:0 0.000000
 squadTypeEntityDef:1 ""
 squadAntiMatterCost:1 0.000000
@@ -140,11 +140,11 @@ ExplosionName "EVECruiser"
 HyperspaceChargingSoundID "HYPERSPACE_CHARGEUP"
 HyperspaceTravelSoundID "HYPERSPACE_TRAVEL"
 EngineSoundID "ENGINE_PHASECAPITALSHIP"
-ability:0 "AbilityAfterburner"
-ability:1 ""
-ability:2 ""
-ability:3 "AbilityDroneBonus"
-ability:4 ""
+ability:0 "AbilityMicrowarpdrive"
+ability:1 "AbilityInvulnerabilityShieldField"
+ability:2 "AbilityDroneBonus"
+ability:3 "AbilityCruiserResistShield"
+ability:4 "AbilityLaunchSquads"
 MaxAntiMatter 250.000000
 AntiMatterRestoreRate 0.500000
 cargoType "Invalid"

@@ -141,8 +141,8 @@ EngineSoundID "ENGINE_TECHCAPITALSHIP"
 ability:0 "AbilityMicrowarpdrive"
 ability:1 "AbilityWarpDisruptor"
 ability:2 "AbilityStasisWebifier"
-ability:3 "AbilityPhasedArmourHardener"
-ability:4 "AbilityLaunchSquads"
+ability:3 "AbilityMicroJumpDrive"
+ability:4 "AbilityBattleshipResistArmor"
 MaxAntiMatter 950.000000
 AntiMatterRestoreRate 1.450000
 cargoType "Invalid"

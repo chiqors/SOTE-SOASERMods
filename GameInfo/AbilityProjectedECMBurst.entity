@@ -6,10 +6,11 @@ buffType "BuffProjectedECMBurstSpawn"
 targetFilter
 	numOwnerships 1
 	ownership "Enemy"
-	numObjects 3
+	numObjects 4
 	object "Frigate"
-	object "CapitalShip"
 	object "Corvette"
+	object "CapitalShip"
+	object "Titan"	
 	numSpaces 1
 	space "Normal"
 	numConstraints 1

@@ -11,8 +11,8 @@ frigateRoleType "Heavy"
 statCountType "FrigateHeavy"
 mainViewIcon "MAINVIEWICON_FRIGATE_SCORPION"
 picture ""
-NameStringID "IDS_CALDARI_SHIP_BATTLESHIP_RATTLESNAKE_NAME"
-DescriptionStringID "IDS_CALDARI_SHIP_BATTLESHIP_RATTLESNAKE_DESCRIPTION"
+NameStringID "IDS_Guristas_ShipBattleshipRattlesnake_NAME"
+DescriptionStringID "IDS_Guristas_ShipBattleshipRattlesnake_DESCRIPTION"
 counterDescriptionStringID "IDS_COUNTERDESC_FRIGATE_LONGRANGE"
 basePrice
 	credits 542.000000

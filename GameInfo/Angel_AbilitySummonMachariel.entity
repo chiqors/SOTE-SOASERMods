@@ -52,5 +52,5 @@ researchPrerequisites
 nameStringID "IDS_Angel_Machariel_NAME"
 descStringID "IDS_Angel_Machariel_DESCRIPTION"
 hudIcon "HUDICON_ANGEL_MACHARIEL"
-smallHudIcon "HUDICON_ANGEL_MACHARIEL"
-infoCardIcon ""
+smallHudIcon "HUDICONSMALL_BATTLESHIP"
+infoCardIcon "HUDICONSMALL_BATTLESHIP"

@@ -11,7 +11,7 @@ numInstantActions 1
 instantAction
 	buffInstantActionType "DoDamage"
 	instantActionTriggerType "OnDelay"
-	delayTime 0.000000
+	delayTime 5.000000
 	damage
 		Level:0 375000.000000
 		Level:1 375000.000000

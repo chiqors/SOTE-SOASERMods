@@ -1,8 +1,8 @@
 ﻿TXT
 entityType "StarBase"
 ability:0 "AbilityTethering"
-ability:1 "AbilityECMBattery"
-ability:2 "AbilitySensorDampener"
+ability:1 "AbilityCitadelBomb"
+ability:2 "AbilityReinforceMode"
 ability:3 "AbilityArcingVortonProjector"
 ability:4 ""
 defaultAutoAttackRange "None"

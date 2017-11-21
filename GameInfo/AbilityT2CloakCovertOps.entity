@@ -19,9 +19,9 @@ isUltimateAbility FALSE
 maxNumLevels 1
 levelSourceType "ResearchWithoutBase"
 improveSourceResearchSubject "ALLRACES_RESEARCHSUBJECT_ABILITYACCESS_CLOAK"
-aiUseTime "OnlyInCombat"
+aiUseTime "NotInCombat"
 aiUseTargetCondition "Any"
-isAutoCastAvailable FALSE
+isAutoCastAvailable TRUE
 isAutoCastOnByDefault TRUE
 pickRandomPlanetToExploreForAutoCastTarget FALSE
 ignoreNonCombatShipsForAutoCastTarget TRUE

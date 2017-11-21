@@ -43,9 +43,9 @@ typeCount 1
 frigateRoleType "Invalid"
 statCountType "CapitalShipBattleship"
 mainViewIcon "MAINVIEWICON_CAPITALSHIP_TECHSIEGE"
-picture "PICTURE_FRIGATE_APOCALYPSE"
-NameStringID "IDS_FRIGATE_TECHFLAGSHIP_NAME"
-DescriptionStringID "IDS_FRIGATE_TECHFLAGSHIP_DESCRIPTION"
+picture "PICTURE_CAPITAL_AEON"
+NameStringID "IDS_FRIGATE_AMARRFLAGSHIP_NAME"
+DescriptionStringID "IDS_FRIGATE_FLAGSHIP_DESCRIPTION"
 counterDescriptionStringID ""
 basePrice
 	credits 0.000000
@@ -55,8 +55,8 @@ slotCount 1.000000
 BuildTime 1.000000
 hasLevels FALSE
 ExperiencePointsForDestroying 0.000000
-MaxHullPoints 245000.000000
-MaxShieldPoints 115000.000000
+MaxHullPoints 613000.000000
+MaxShieldPoints 288000.000000
 HullPointRestoreRate 1.000000
 ShieldPointRestoreRate 18.000000
 BaseArmorPoints 10.000000
@@ -69,7 +69,7 @@ numRandomDebrisLarge 0
 numRandomDebrisSmall 0
 numSpecificDebris 0
 armorType "VeryHeavy"
-hudIcon "HUDICON_CAPITALSHIP_TECHCARRIER"
+hudIcon "HUDICON_AMARR_NAVY_AEON"
 smallHudIcon "HUDICONSMALL_CAPITALSHIP_TECHCARRIER"
 infoCardIcon "INFOCARDICON_CAPITALSHIP_TECHCARRIER"
 minZoomDistanceMult 1.000000
@@ -175,9 +175,9 @@ ExplosionName "EVECapital"
 HyperspaceChargingSoundID "HYPERSPACE_CHARGEUP"
 HyperspaceTravelSoundID "HYPERSPACE_TRAVEL"
 EngineSoundID "ENGINE_TECHCAPITALSHIP"
-ability:0 "AbilityAfterburner"
-ability:1 "AbilityAmarrArmoredWarfareMindlink"
-ability:2 "AbilityEMPSmartbomb"
+ability:0 "AbilityProjectedSensorDampenerBurst"
+ability:1 "AbilityAmarrArmoredWarfareMindlink2"
+ability:2 "AbilityFighterControlUnitSuperCarrier"
 ability:3 "AbilitySuperCarrierArmor"
 ability:4 "AbilityFlagship"
 MaxAntiMatter 10300.000000

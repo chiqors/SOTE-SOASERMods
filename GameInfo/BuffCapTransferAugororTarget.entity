@@ -7,20 +7,25 @@ allowFirstSpawnerToStack FALSE
 buffExclusivityForAIType "ExclusiveForAllPlayers"
 isInterruptable FALSE
 isChannelling FALSE
-numInstantActions 1
-instantAction
-	buffInstantActionType "RestoreAntiMatter"
-	instantActionTriggerType "OnDelay"
-	delayTime 0.000000
-	antiMatter
-		Level:0 49.000000
-		Level:1 49.000000
-		Level:2 49.000000
-		Level:3 49.000000
+numInstantActions 0
 numPeriodicActions 0
-numOverTimeActions 0
+numOverTimeActions 1
+overTimeAction
+	buffOverTimeActionType "RestoreAntiMatter"
+	antiMatterRestoreRate
+		Level:0 211.000000
+		Level:1 230.000000
+		Level:2 250.000000
+		Level:3 270.000000
 numEntityModifiers 0
 numEntityBoolModifiers 0
-numFinishConditions 1
+numFinishConditions 2
+finishCondition
+	finishConditionType "TimeElapsed"
+	time
+		Level:0 20.000000
+		Level:1 20.000000
+		Level:2 20.000000
+		Level:3 20.000000
 finishCondition
 	finishConditionType "AllOnDelayInstantActionsDone"

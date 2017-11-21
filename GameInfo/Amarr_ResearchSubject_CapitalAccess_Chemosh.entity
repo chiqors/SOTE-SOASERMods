@@ -1,0 +1,38 @@
+﻿TXT
+entityType "ResearchSubject"
+hudIcon "HUDICON_BLOODRAIDERS_CHEMOSH"
+smallHudIcon "HUDICON_RESEARCHSUBJECT_ABILITYACCESS_SLOWPOPULATIONGROWTH"
+infoCardIcon ""
+NameStringID "IDS_BLOODRAIDER_NAME"
+DescriptionStringID "IDS_SNIPERREVELATION_DESCRIPTION"
+researchWindowLocation
+	block 2
+	pos [ 5 , 1 ]
+ResearchField "Combat"
+Prerequisites
+	NumResearchPrerequisites 1
+	ResearchPrerequisite
+		Subject "Amarr_ResearchSubject_CapitalAccess_Revelation"
+		Level 1
+	RequiredFactionNameID ""
+	RequiredCompletedResearchSubjects 0
+MinimumArtifactLevel -1
+BaseUpgradeTime 90.000000
+PerLevelUpgradeTime 10.000000
+BaseCost
+	credits 2800.000000
+	metal 500.000000
+	crystal 800.000000
+PerLevelCostIncrease
+	credits 100.000000
+	metal 25.000000
+	crystal 25.000000
+Tier 5
+onlyWorksIfTierLabsExist TRUE
+MaxNumResearchLevels 1
+priority 1.000000
+researchBoolModifiers 0
+researchFloatModifiers 0
+artifactPicture ""
+uniqueOverlayBrush ""
+dlcId 204880

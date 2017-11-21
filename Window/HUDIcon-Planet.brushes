@@ -1,6 +1,6 @@
 ﻿TXT
 onlyLoadOnDemand FALSE
-brushCount 167
+brushCount 182
 brush
 	name "HUDICONSMALL_PLANET_OCEANIC"
 	content "Simple"
@@ -836,3 +836,79 @@ brush
 	content "Simple"
 	fileName "PlanetBonuses"
 	pixelBox [ 52 , 361 , 22 , 22 ]
+brush
+	name "MAINVIEWICON_PLANET_BADLANDS"
+	content "Simple"
+	fileName "A3_Icons_Planet"
+	pixelBox [ 0 , 1150 , 50 , 50 ]
+brush
+	name "MAINVIEWICON_PLANET_UNDETECTED_BADLANDS"
+	content "Simple"
+	fileName "A3_Icons_Planet"
+	pixelBox [ 50 , 1150 , 50 , 50 ]
+brush
+	name "HUDICONSMALL_INFO_PLANET_BADLANDS"
+	content "Simple"
+	fileName "A3_Icons_Planet"
+	pixelBox [ 100 , 1150 , 22 , 22 ]
+brush
+	name "MAINVIEWICON_PLANET_CERULEAN"
+	content "Simple"
+	fileName "A3_Icons_Planet"
+	pixelBox [ 0 , 1200 , 50 , 50 ]
+brush
+	name "MAINVIEWICON_PLANET_UNDETECTED_CERULEAN"
+	content "Simple"
+	fileName "A3_Icons_Planet"
+	pixelBox [ 50 , 1200 , 50 , 50 ]
+brush
+	name "HUDICONSMALL_INFO_PLANET_CERULEAN"
+	content "Simple"
+	fileName "A3_Icons_Planet"
+	pixelBox [ 100 , 1200 , 22 , 22 ]
+brush
+	name "MAINVIEWICON_PLANET_METAPHASIC"
+	content "Simple"
+	fileName "A3_Icons_Planet"
+	pixelBox [ 0 , 1250 , 50 , 50 ]
+brush
+	name "MAINVIEWICON_PLANET_UNDETECTED_METAPHASIC"
+	content "Simple"
+	fileName "A3_Icons_Planet"
+	pixelBox [ 50 , 1250 , 50 , 50 ]
+brush
+	name "HUDICONSMALL_INFO_PLANET_METAPHASIC"
+	content "Simple"
+	fileName "A3_Icons_Planet"
+	pixelBox [ 100 , 1250 , 22 , 22 ]
+brush
+	name "MAINVIEWICON_PLANET_METREON"
+	content "Simple"
+	fileName "A3_Icons_Planet"
+	pixelBox [ 0 , 1300 , 50 , 50 ]
+brush
+	name "MAINVIEWICON_PLANET_UNDETECTED_METREON"
+	content "Simple"
+	fileName "A3_Icons_Planet"
+	pixelBox [ 50 , 1300 , 50 , 50 ]
+brush
+	name "HUDICONSMALL_INFO_PLANET_METREON"
+	content "Simple"
+	fileName "A3_Icons_Planet"
+	pixelBox [ 100 , 1300 , 22 , 22 ]
+brush
+	name "MAINVIEWICON_PLANET_MUTARA"
+	content "Simple"
+	fileName "A3_Icons_Planet"
+	pixelBox [ 0 , 1350 , 50 , 50 ]
+brush
+	name "MAINVIEWICON_PLANET_UNDETECTED_MUTARA"
+	content "Simple"
+	fileName "A3_Icons_Planet"
+	pixelBox [ 50 , 1350 , 50 , 50 ]
+brush
+	name "HUDICONSMALL_INFO_PLANET_MUTARA"
+	content "Simple"
+	fileName "A3_Icons_Planet"
+	pixelBox [ 100 , 1350 , 22 , 22 ]
+	

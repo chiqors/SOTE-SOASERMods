@@ -1,0 +1,158 @@
+﻿TXT
+entityType "Frigate"
+defaultAutoAttackRange "GravityWell"
+defaultAutoAttackOn TRUE
+prefersToFocusFire FALSE
+usesFighterAttack FALSE
+autoJoinFleetDefault TRUE
+canBomb FALSE
+typeCount 1
+frigateRoleType "Heavy"
+statCountType "FrigateHeavy"
+mainViewIcon "MAINVIEWICON_CAPITALSHIP_TECHSUPPORT"
+picture "PICTURE_BLOODRAIDER_BHAALGORN"
+NameStringID "IDS_NPC_Officer_Ahremen_Arkah_NAME"
+DescriptionStringID "IDS_NPC_Officer_Ahremen_Arkah_DESCRIPTION"
+counterDescriptionStringID "IDS_COUNTERDESC_FRIGATE_LONGRANGE"
+basePrice
+	credits 74900.000000
+	metal 15400.000000
+	crystal 15500.000000
+slotCount 1.000000
+BuildTime 67.000000
+hasLevels FALSE
+ExperiencePointsForDestroying 250.000000
+MaxHullPoints 5425.000000
+MaxShieldPoints 4650.000000
+HullPointRestoreRate 1.000000
+ShieldPointRestoreRate 1.00000
+BaseArmorPoints 25.000000
+maxMitigation 0.150000
+Prerequisites
+	NumResearchPrerequisites 0
+	RequiredFactionNameID ""
+	RequiredCompletedResearchSubjects 0
+numRandomDebrisLarge 0
+numRandomDebrisSmall 0
+numSpecificDebris 0
+armorType "Heavy"
+hudIcon "HUDICON_CAPITALSHIP_TECHSUPPORT"
+smallHudIcon "HUDICONSMALL_CAPITALSHIP_TECHSUPPORT"
+infoCardIcon "INFOCARDICON_CAPITALSHIP_TECHSUPPORT"
+minZoomDistanceMult 1.000000
+NumWeapons 1
+Weapon
+	WeaponType "Beam"
+	damageEnums
+		AttackType "ANTIHEAVY"
+		DamageAffectType "AFFECTS_SHIELDS_AND_HULL"
+		DamageApplyType "OVERTIME"
+		DamageType "ENERGY"
+		WeaponClassType "BEAM"
+	DamagePerBank:FRONT 671.000000
+	DamagePerBank:BACK 0.000000
+	DamagePerBank:LEFT 0.000000
+	DamagePerBank:RIGHT 0.000000
+	Range 8000.000000
+	PreBuffCooldownTime 4.600000
+	CanFireAtFighter FALSE
+	SynchronizedTargeting TRUE
+	PointStaggerDelay 0.000000
+	TravelSpeed 0.000000
+	Duration 0.170000
+	fireConstraintType "CanAlwaysFire"
+	WeaponEffects
+		weaponType "Beam"
+		burstCount 4
+		burstDelay 0.220000
+		fireDelay 0.000000
+		muzzleEffectName "EVE_Pulselaser_Purple_Medium_Muzzle"
+		muzzleSoundMinRespawnTime 0.100000
+		muzzleSounds
+			soundCount 1
+			sound ""
+		hitEffectName "EVE_Pulselaser_Purple_Medium_Hit"
+		hitHullEffectSounds
+			soundCount 1
+			sound ""
+		hitShieldsEffectSounds
+			soundCount 1
+			sound ""
+		beamEffectSounds
+			soundCount 1
+			sound "WEAPON_MEGAPULSELASER"
+		beamGlowTextureName "EVE_Weapon_PurpleLaser_Glow.dds"
+		beamCoreTextureName "EVE_Weapon_PurpleLaser_Core.dds"
+		beamWidth 40.000000
+		beamGlowColor aaffffff
+		beamCoreColor ffffffff
+		beamTilingRate 16.000000
+m_weaponIndexForRange 0
+firingAlignmentType "Default"
+TargetCountPerBank:FRONT 1
+TargetCountPerBank:BACK 0
+TargetCountPerBank:LEFT 0
+TargetCountPerBank:RIGHT 0
+canOnlyTargetStructures FALSE
+hasWeaponLevels FALSE
+mass 7000.000000
+ShieldMeshName "Bhaalgorn"
+renderShield TRUE
+maxAccelerationLinear 75.000000
+maxAccelerationStrafe 0.000000
+maxDecelerationLinear 500.000000
+maxAccelerationAngular 7.000000
+maxDecelerationAngular 8.999996
+maxSpeedLinear 320.000000
+maxRollRate 2.000000
+maxRollAngle 40.000000
+squadTypeEntityDef:0 "Amarr_DroneSquad_Infiltrator"
+squadAntiMatterCost:0 0.000000
+squadTypeEntityDef:1 ""
+squadAntiMatterCost:1 0.000000
+squadTypeEntityDef:2 ""
+squadAntiMatterCost:2 0.000000
+squadTypeEntityDef:3 ""
+squadAntiMatterCost:3 0.000000
+maxNumCommandPoints 1
+NumSoundsFor:ONATTACKORDERISSUED 3
+SoundID "CAPITALSHIP_TECHSUPPORT_ONATTACKORDERISSUED_0"
+SoundID "CAPITALSHIP_TECHSUPPORT_ONATTACKORDERISSUED_1"
+SoundID "CAPITALSHIP_TECHSUPPORT_ONATTACKORDERISSUED_2"
+NumSoundsFor:ONCREATION 1
+SoundID "CAPITALSHIP_TECHSUPPORT_ONCREATION"
+NumSoundsFor:ONGENERALORDERISSUED 3
+SoundID "CAPITALSHIP_TECHSUPPORT_ONGENERALORDERISSUED_0"
+SoundID "CAPITALSHIP_TECHSUPPORT_ONGENERALORDERISSUED_1"
+SoundID "CAPITALSHIP_TECHSUPPORT_ONGENERALORDERISSUED_2"
+NumSoundsFor:ONSELECTED 4
+SoundID "CAPITALSHIP_TECHSUPPORT_ONSELECTED_0"
+SoundID "CAPITALSHIP_TECHSUPPORT_ONSELECTED_1"
+SoundID "CAPITALSHIP_TECHSUPPORT_ONSELECTED_2"
+SoundID "CAPITALSHIP_TECHSUPPORT_ONSELECTED_3"
+NumSoundsFor:ONSTARTPHASEJUMP 1
+SoundID "CAPITALSHIP_TECHSUPPORT_ONSTARTPHASEJUMP_0"
+MeshNameInfoCount 1
+MeshNameInfo
+	meshName "Bhaalgorn"
+	criteriaType "None"
+meshNameIncreasedEffectName ""
+meshNameDecreasedEffectName ""
+ExhaustParticleSystemName "Exhaust_EveBattleship"
+ExplosionName "EVEBattleship"
+HyperspaceChargingSoundID "HYPERSPACE_CHARGEUP"
+HyperspaceTravelSoundID "HYPERSPACE_TRAVEL"
+EngineSoundID "ENGINE_TECHCAPITALSHIP"
+ability:0 "AbilityHeavyEnergyNeutralizerBhaalgorn"
+ability:1 "AbilityAmarrArmoredWarfareMindlink2"
+ability:2 "Bloodraider_AbilityCynosuralField3"
+ability:3 "Bloodraider_AbilityCynosuralField4"
+ability:4 "Bloodraider_AbilityCynosuralField5"
+MaxAntiMatter 1780.000000
+AntiMatterRestoreRate 1.850000
+cargoType "Invalid"
+maxCargoCapacity 0.000000
+formationRank 0
+minShadow 0.000000
+maxShadow 0.600000
+allegianceDecreasePerRoundtrip 0.000000

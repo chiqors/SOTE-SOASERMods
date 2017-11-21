@@ -1,8 +1,8 @@
 ﻿TXT
 entityType "CapitalShip"
 ability:0 "AbilityArmorRepairerCapital"
-ability:1 "AbilityHeavyEnergyNeutralizerBhaalgorn"
-ability:2 "AbilityArmorRepairerCapital"
+ability:1 "AbilityPhasedArmourHardenerCapital"
+ability:2 "AbilityHeavyEnergyNeutralizerBhaalgorn"
 ability:3 "AbilitySiegeMode"
 ability:4 ""
 defaultAutoAttackRange "GravityWell"
@@ -82,7 +82,10 @@ NameStringID "IDS_BLOODRAIDER_NAME"
 DescriptionStringID "IDS_SNIPERREVELATION_DESCRIPTION"
 picture "PICTURE_CAPITAL_REVELATION"
 Prerequisites
-	NumResearchPrerequisites 0
+	NumResearchPrerequisites 1
+	ResearchPrerequisite
+		Subject "Amarr_ResearchSubject_CapitalAccess_Chemosh"
+		Level 1
 	RequiredFactionNameID ""
 	RequiredCompletedResearchSubjects 0
 roleType "COLONY"

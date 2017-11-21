@@ -1,6 +1,6 @@
 ﻿TXT
 entityType "StarBase"
-ability:0 ""
+ability:0 "AbilityOutpostBonus"
 ability:1 "AbilityECMBattery"
 ability:2 "AbilitySensorDampener"
 ability:3 ""
@@ -179,7 +179,7 @@ UpgradeType "StarBaseUpgradeTechToughness"
 UpgradeType "StarBaseUpgradeTechBlockColonize"
 MeshNameInfoCount 1
 MeshNameInfo
-	meshName "Fortizar"
+	meshName "as_capitalship"
 	criteriaType "None"
 meshNameIncreasedEffectName ""
 meshNameDecreasedEffectName ""

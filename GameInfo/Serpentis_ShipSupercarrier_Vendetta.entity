@@ -1,6 +1,6 @@
 ﻿TXT
 entityType "CapitalShip"
-ability:0 "AbilityProjectedSensorDampenerBurst"
+ability:0 "AbilityProjectedStatisWebfierBurst"
 ability:1 "AbilityProjectedECMBurst"
 ability:2 "AbilityFighterControlUnitSuperCarrier"
 ability:3 "AbilitySuperCarrierArmor"
@@ -52,11 +52,11 @@ basePrice
 slotCount 1.000000
 BuildTime 150.000000
 MaxHullPoints
-	StartValue 250000.000000
-	ValueIncreasePerLevel 25000.000000
+	StartValue 881000.000000
+	ValueIncreasePerLevel 88100.000000
 MaxShieldPoints
-	StartValue 150000.000000
-	ValueIncreasePerLevel 150000.000000
+	StartValue 450000.000000
+	ValueIncreasePerLevel 450000.000000
 HullPointRestoreRate
 	StartValue 1.000000
 	ValueIncreasePerLevel 1.000000
@@ -97,7 +97,7 @@ numRandomDebrisLarge 0
 numRandomDebrisSmall 0
 numSpecificDebris 0
 armorType "VeryHeavy"
-hudIcon "HUDICON_CAPITALSHIP_PHASECARRIER"
+hudIcon "HUDICON_SERPENTIS_VENDETTA"
 smallHudIcon "HUDICONSMALL_CAPITALSHIP_PHASECARRIER"
 infoCardIcon "INFOCARDICON_CAPITALSHIP_PHASECARRIER"
 minZoomDistanceMult 1.000000

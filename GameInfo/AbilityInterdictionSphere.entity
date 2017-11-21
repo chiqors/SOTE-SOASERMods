@@ -28,9 +28,9 @@ effectInfo
 	effectAttachInfo
 		attachType "Ability"
 		abilityIndex 0
-	smallEffectName "F_Ability_ShieldSharing"
-	mediumEffectName "F_Ability_ShieldSharing"
-	largeEffectName "F_Ability_ShieldSharing"
+	smallEffectName "InterdictionSphere2"
+	mediumEffectName "InterdictionSphere2"
+	largeEffectName "InterdictionSphere2"
 	soundID ""
 needsToFaceTarget FALSE
 canCollideWithTarget TRUE

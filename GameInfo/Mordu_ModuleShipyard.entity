@@ -21,14 +21,14 @@ basePrice
 	credits 400.000000
 	metal 100.000000
 	crystal 75.000000
-NameStringID "IDS_PLANETMODULE_PSIORBITALREPAIRPLATFORM_NAME"
+NameStringID "IDS_PLANETMODULE_MORDU_SHIPYARD_NAME"
 DescriptionStringID "IDS_PLANETMODULE_PSIORBITALREPAIRPLATFORM_DESCRIPTION"
 planetModuleRoleType "REPAIRPLATFORM"
 statCountType "ModuleRepair"
 Prerequisites
 	NumResearchPrerequisites 1
 	ResearchPrerequisite
-		Subject "RESEARCHSUBJECT_PLANETMODULEACCESS_REPAIRPLATFORMPSI"
+		Subject "RESEARCHSUBJECT_PLANETMODULEACCESS_REPAIRPLATFORMPSI2"
 		Level 1
 	RequiredFactionNameID ""
 	RequiredCompletedResearchSubjects 0
@@ -67,7 +67,7 @@ meshNameIncreasedEffectName ""
 meshNameDecreasedEffectName ""
 ExplosionName "PlanetModuleSmall"
 mainViewIcon "MAINVIEWICON_PLANETMODULE_PSIORBITALREPAIRPLATFORM"
-picture "PLANETMODULEPICTURE_PSIORBITALREPAIRPLATFORM"
+picture "PICTURE_PLANET_PIRATEBASE"
 minShadow 0.000000
 maxShadow 0.300000
 formationRank 3

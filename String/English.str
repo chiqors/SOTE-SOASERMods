@@ -1,5 +1,5 @@
 TXT
-NumStrings 8779
+NumStrings 8805
 StringInfo
     ID "IDS_ABILITY_RORQUALPANIC_NAME"
 	Value "P.A.N.I.C Module"
@@ -9305,61 +9305,61 @@ StringInfo
 	Value "By harnessing the Unity's collective mind, all capital ships continously gain experience until the level cap. In addition, they receive bonus experience in combat."
 StringInfo
 	ID "IDS_RESEARCHSUBJECT_ARTIFACT_GALAXYTRAVEL_NAME"
-	Value "Jump Drive Relic"
+	Value "officer Jump Drivers "
 StringInfo
 	ID "IDS_RESEARCHSUBJECT_ARTIFACT_GALAXYTRAVEL_DESCRIPTION"
 	Value "A highly advanced jump drive discovered in crash wreckage. Nearly undamaged, its technology allows travel to distant star systems at greatly accelerated rates and reduces the size of your empire's phase drives, decreasing ship mass."
 StringInfo
 	ID "IDS_RESEARCHSUBJECT_ARTIFACT_HULLREPAIROVERTIMEINCREASE_NAME"
-	Value "Resilient Metaloids"
+	Value "Officer Repair Modules"
 StringInfo
 	ID "IDS_RESEARCHSUBJECT_ARTIFACT_HULLREPAIROVERTIMEINCREASE_DESCRIPTION"
 	Value "A previously undiscovered compound grants quickened hull repair rates and increased armor when incorporated into hull plating, and hardens planets from bombardment."
 StringInfo
 	ID "IDS_RESEARCHSUBJECT_ARTIFACT_HYPERSPACESPEED_NAME"
-	Value "Phase Accelerator"
+	Value "Angel Hyperspace Accelerators"
 StringInfo
 	ID "IDS_RESEARCHSUBJECT_ARTIFACT_HYPERSPACESPEED_DESCRIPTION"
 	Value "Deciphering the function of a hidden Phase Drive prototype greatly increases the speed at which your ships Jump."
 StringInfo
 	ID "IDS_RESEARCHSUBJECT_ARTIFACT_PASSIVEREGENANTIMATTER_NAME"
-	Value "Power Core Relic"
+	Value "Sansha Power Modules"
 StringInfo
 	ID "IDS_RESEARCHSUBJECT_ARTIFACT_PASSIVEREGENANTIMATTER_DESCRIPTION"
 	Value "A power source left behind by an ancient race, it significantly increases capacitor capacity and regeneration rates."
 StringInfo
 	ID "IDS_RESEARCHSUBJECT_ARTIFACT_PLANETBOMBINGSHIELD_NAME"
-	Value "Ion Field Generator"
+	Value "Office Planetary Bombardment Modules"
 StringInfo
 	ID "IDS_RESEARCHSUBJECT_ARTIFACT_PLANETBOMBINGSHIELD_DESCRIPTION"
 	Value "A large planetary energy system that emits charged particles into the upper atmosphere, creating a partial barrier to orbital bombardment. Also forces enemies to approach closer to the planet before beginning bombardment."
 StringInfo
 	ID "IDS_RESEARCHSUBJECT_ARTIFACT_ORGANICAI_NAME"
-	Value "Planetary Organic AI"
+	Value "Sansha Organic Supervisor"
 StringInfo
 	ID "IDS_RESEARCHSUBJECT_ARTIFACT_ORGANICAI_DESCRIPTION"
 	Value "A sentient cybernetic artificial intelligence manages all aspects of population development on your empire's planets, yielding higher populations, growth and tax rates."
 StringInfo
 	ID "IDS_RESEARCHSUBJECT_ARTIFACT_RESEARCHARCHIVE_NAME"
-	Value "Data Archive"
+	Value "Cerebral Booster Implants"
 StringInfo
 	ID "IDS_RESEARCHSUBJECT_ARTIFACT_RESEARCHARCHIVE_DESCRIPTION"
 	Value "An advanced storage and simulation engine, it facilitates the act of performing research, thus reducing research time and cost."
 StringInfo
 	ID "IDS_RESEARCHSUBJECT_ARTIFACT_SHIPBUILDTIMEREDUCTION_NAME"
-	Value "Relativistic Factories"
+	Value "Efficiency Blueprint Research"
 StringInfo
 	ID "IDS_RESEARCHSUBJECT_ARTIFACT_SHIPBUILDTIMEREDUCTION_DESCRIPTION"
 	Value "Uncovered factory designs allow ships and modules to be constructed in a relativistically accelerated frame of reference, making them build at a quicker rate. These advanced factories also allow you to support additional civilian structures."
 StringInfo
 	ID "IDS_RESEARCHSUBJECT_ARTIFACT_STRONGCULTURE_NAME"
-	Value "Manifest Dominion"
+	Value "Sansha Cerebal Dominitor"
 StringInfo
 	ID "IDS_RESEARCHSUBJECT_ARTIFACT_STRONGCULTURE_DESCRIPTION"
 	Value "Holographic documents of unknown origin foretell your empire to become the galaxy's one true power. Culture spread rates, resistance to hostile culture, and relations with other factions are increased."
 StringInfo
 	ID "IDS_RESEARCHSUBJECT_ARTIFACT_TRADEINCOME_NAME"
-	Value "Matter Compressor"
+	Value "Officer Ore Compressor"
 StringInfo
 	ID "IDS_RESEARCHSUBJECT_ARTIFACT_TRADEINCOME_DESCRIPTION"
 	Value "An atomic scale scanning and reordering system, it allows all manner of products to be spatially compressed in order to make for more efficient transport through your empire's trade network."
@@ -11692,8 +11692,14 @@ StringInfo
 	ID "IDS_FRIGATE_SERPENTIS_VIGILANTE_NAME"
 	Value "Serpentis Vigilante"	
 StringInfo
+	ID "IDS_FRIGATE_SERPENTIS_VIGILANTE_DESCRIPTION"
+	Value ""
+StringInfo
 	ID "IDS_FRIGATE_SERPENTIS_DAREDEVIL_NAME"
 	Value "Serpentis Daredevil"		
+StringInfo
+	ID "IDS_FRIGATE_SERPENTIS_DAREDEVIL_DESCRIPTION"
+	Value ""
 StringInfo
 	ID "IDS_FRIGATE_PHASEMINELAYER_DESCRIPTION"
 	Value "The Phobos is the Gallente Heavy Interdiction Cruiser, it is capable of raising warp disruption fields that are capable of preventing any hostile ships within the field from jumping."
@@ -23689,6 +23695,12 @@ StringInfo
 	ID "IDS_ABILITY_PROJECTEDECMBURST_DESCRIPTION"
 	Value "Emits an area-of-effect electronic burst, centered on the designated target, which momentarily disrupt the target locks of any ship within range."	
 StringInfo
+	ID "IDS_ABILITY_PROJECTEDSTATISBURST_NAME"
+	Value "Stasis Webification Burst Projector"
+StringInfo
+	ID "IDS_ABILITY_PROJECTEDSTATISBURST_DESCRIPTION"
+	Value "Emits an area-of-effect burst, centered on the designated location. The burst reduces the maximum speed of the affected ships."
+StringInfo
 	ID "IDS_RESEARCHSUBJECT_WEAPONDAMAGE_LASERTECH2_NAME"
 	Value "Modulated Pulse Lasers"
 StringInfo
@@ -24034,8 +24046,14 @@ StringInfo
 	ID "IDS_CAPITALSHIP_REVENANT_DESCRIPTION"
 	Value "Do you know what you are, capsuleer? The truth will not comfort you. You are a frightened child running headfirst towards oblivion. And I? I am the only one who tried to stop you. I am the Messiah that you turned against. You persecuted me, hunted my children. Vowed to burn my Promised Land to ash. Now I have returned, and I know you better than you know yourself. I will vanquish your fear, and commute your flesh to dust.- Sansha Kuvakei."
 StringInfo
+	ID "IDS_SANSHA_NIGHTMARE_NAME"
+	Value "Nightmare"
+StringInfo
+	ID "IDS_SANSHA_NIGHTMARE_DESCRIPTION"
+	Value "Allow you summon a nightmare Battleship captured from sansha incursions."
+StringInfo
 	ID "IDS_SQUADSHADOW_NAME"
-	Value "Shadow x10"
+	Value "Shadow Squad"
 StringInfo
 	ID "IDS_SQUADSHADOW_DESC"
 	Value "Shadow Fighter Bomber."
@@ -25460,7 +25478,7 @@ StringInfo
 	Value "Tornado Battlecruiser"
 StringInfo
 	ID "IDS_RSM_TORNADO_DESCRIPTION"
-	Value ""
+	Value "Republic Security Services learned the Amarr Empire was building a new battlecruiser capable of supporting battleship-class weapons. Determined to not lose their technological edge to their adversaries, Republic Fleet commissioned Boundless Creation to construct a gunboat to match."
 StringInfo
 	ID "IDS_RSC_NAGA_NAME"
 	Value "Naga Battlecruiser"
@@ -25856,7 +25874,7 @@ StringInfo
 	Value "Effectively combining the trapping power of interdictors with the defensive capabilities of heavy assault cruisers, the heavy interdiction cruiser is an invaluable addition to any skirmish force, offensive or defensive. Heavy interdiction cruisers are the only ships able to use the warp disruption field generator, a module which creates a warp disruption field that moves with the origin ship wherever it goes."
 StringInfo
 	ID "IDS_SERPENTIS_VEHEMENT_NAME"
-	Value "Vehement Dreadnought"
+	Value "Serpentis Vehement"
 StringInfo
 	ID "IDS_SERPENTIS_VEHEMENT_DESCRIPTION"
 	Value "Reacting to the rise of capsuleer capital fleets, the Serpentis Corporation requested that the Angel Cartels naval architects design a dreadnought class capital ship.Reacting to the rise of capsuleer capital fleets, the Serpentis Corporation requested that the Angel Cartels naval architects design a dreadnought class capital ship. "
@@ -26337,3 +26355,64 @@ StringInfo
 StringInfo
 	ID "IDS_NPC_Officer_Draclira_Merlonne_DESCRIPTION"
 	Value "Merlonne has spent much of her young life locked up in mental institutions. She is a certified sociopath, her sole loyalty focused on the Raiders, making her both willing and capable of attacking anyone perceived as a threat. Threat level: Deadly"			
+StringInfo
+	ID "IDS_RESEARCHSUBJECT_CAPITALSHIPACESS_SERPENTIS_FAUX_NAME"
+	Value "Serpentis Ninazu"
+StringInfo
+	ID "IDS_RESEARCHSUBJECT_CAPITALSHIPACESS_SERPENTIS_FAUX_DESCRIPTION"
+	Value "Serpentis Force Auxiliary Ninazu."
+StringInfo
+	ID "IDS_RESEARCHSUBJECT_CAPITALSHIPACESS_SERPENTIS_VENDETTA_NAME"
+	Value "Serpentis Vendetta"
+StringInfo
+	ID "IDS_RESEARCHSUBJECT_CAPITALSHIPACESS_SERPENTIS_VENDETTA_DESCRIPTION"
+	Value "The Federation still thinks it can play games with the future of the human species. There will be no peace and no let up. I swear vendetta, in the name and for the memory of Igil Sarpati"
+StringInfo
+	ID "IDS_RESEARCHSUBJECT_CAPITALSHIPACESS_SERPENTIS_FAUX_NAME"
+	Value "Serpentis Ninazu"
+StringInfo
+	ID "IDS_RESEARCHSUBJECT_CAPITALSHIPACESS_SERPENTIS_FAUX_DESCRIPTION"
+	Value "Grants access to the Thanatos class Carrier and Ninazu Force Auxiliary, The Thanatos provides support to sub capital and capital fleets with additional fighter support whilst the Ninazu is a specially designed carrier designed to provide extreme armour repair to a friendly fleet."		
+StringInfo
+	ID "IDS_REINFORCEMODE_NAME"
+	Value "Reinforce Mode"
+StringInfo
+	ID "IDS_REINFORCEMODE_DESCRIPTION"
+	Value "Activate the reinforce mode, making the structure repair self, invulnerable to damage and disable thetering and weapons. Lasts for 3min."		
+StringInfo
+	ID "IDS_PULSARDD_NAME"
+	Value "Cold Winter Kinetic Reaper" 
+StringInfo
+	ID "IDS_PULSARDD_DESCRIPTION"
+	Value "Using a targeting and tracking control system more advanced than any other in existence, this weapon launches and controls a storm of missile fire capable of neutralizing almost any target."
+StringInfo
+	ID "IDS_ABILITY_GUNGNIR_NAME"
+	Value "Gungnir"
+StringInfo
+	ID "IDS_ABILITY_GUNGNIR_DESCRIPTION"
+	Value "Righteous fury given form, this weapon system rains a firestorm of unmatched raw destruction upon its target."
+StringInfo
+	ID "IDS_ABILITY_BOOSTSHIELD2_NAME"
+	Value "Shield Harmonizing"
+StringInfo
+	ID "IDS_ABILITY_BOOSTSHIELD3_NAME"
+	Value "Shield Extension"
+StringInfo
+	ID "IDS_ABILITY_BOOSTSHIELD4_NAME"
+	Value "Passive Shielding"
+StringInfo
+	ID "IDS_ABILITY_BOOSTARMOR2_NAME"
+	Value "Armor Energizing"
+StringInfo
+	ID "IDS_ABILITY_BOOSTARMOR3_NAME"
+	Value "Rapid Repair"
+StringInfo
+	ID "IDS_ABILITY_BOOSTARMOR4_NAME"
+	Value "Armor Reinforcement"
+StringInfo
+	ID "IDS_ABILITY_BLANK_NAME"
+	Value ""
+StringInfo
+	ID "IDS_ABILITY_BLANK_DESCRIPTION"
+	Value ""	
+	

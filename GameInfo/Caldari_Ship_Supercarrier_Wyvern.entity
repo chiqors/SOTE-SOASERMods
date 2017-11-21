@@ -1,8 +1,8 @@
 ﻿TXT
 entityType "CapitalShip"
-ability:0 "AbilityFighterControlUnitSuperCarrier"
+ability:0 "AbilityProjectedECMBurst"
 ability:1 "AbilityPLASMASmartbomb"
-ability:2 "AbilityProjectedECMBurst"
+ability:2 "AbilityFighterControlUnitSuperCarrier"
 ability:3 "AbilitySuperCarrierShield"
 ability:4 ""
 defaultAutoAttackRange "GravityWell"
@@ -52,11 +52,11 @@ basePrice
 slotCount 1.000000
 BuildTime 150.000000
 MaxHullPoints
-	StartValue 130000.000000
-	ValueIncreasePerLevel 13000.000000
+	StartValue 325000.000000
+	ValueIncreasePerLevel 32500.000000
 MaxShieldPoints
-	StartValue 250000.000000
-	ValueIncreasePerLevel 25000.000000
+	StartValue 625000.000000
+	ValueIncreasePerLevel 62500.000000
 HullPointRestoreRate
 	StartValue 1.000000
 	ValueIncreasePerLevel 0.500000
@@ -189,7 +189,7 @@ NumSoundsFor:ONSTARTPHASEJUMP 1
 SoundID "CAPITALSHIP_TECHCARRIER_ONSTARTPHASEJUMP_0"
 MeshNameInfoCount 1
 MeshNameInfo
-	meshName "wyvern"
+	meshName "Hel"
 	criteriaType "None"
 meshNameIncreasedEffectName ""
 meshNameDecreasedEffectName ""
