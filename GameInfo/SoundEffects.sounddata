@@ -1,5 +1,5 @@
 TXT
-numEffects 411
+numEffects 412
 effect
 	name "BUTTONPRESS"
 	fileName "ButtonPress.ogg"
@@ -6165,4 +6165,19 @@ effect
 	fadeInTime 0.0
 	fadeOutTime 0.0
 	alternateGroup ""		
-	
+effect
+	name "Judgment_Fire"
+	fileName "Judgment.ogg"
+	type "Effect"
+	is3D TRUE
+	priority 5
+	threshold 50000.000000
+	minAttenuationDist 700.000000
+	maxNumPlayingSimultaneously 5
+	isLooping FALSE
+	isResident TRUE
+	minRespawnTime 0.1
+	fadeInTime 0.0
+	fadeOutTime 0.0
+	alternateGroup ""		
+		
