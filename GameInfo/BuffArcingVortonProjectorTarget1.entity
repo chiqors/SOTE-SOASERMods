@@ -47,7 +47,7 @@ instantAction
 instantAction
 	buffInstantActionType "ApplyBuffToTargetsInRadiusWithTravel"
 	instantActionTriggerType "OnDelay"
-	delayTime 2.000000
+	delayTime 0.000000
 	buffType "BuffAuroraOminaeTarget"
 	targetFilter
 		numOwnerships 1
