@@ -7,13 +7,13 @@ ParticleSimulation
 	EmitterContents
 		Name "antimatter"
 		Enabled TRUE
-		EmitRate 20.000000
+		EmitRate 40.000000
 		HasInfiniteEmitCount TRUE
 		MaxEmitCount 1
 		hasEmitIntervals FALSE
 		emitIntervalRunDuration 0.000000
 		emitIntervalWaitDuration 0.000000
-		ParticleLifeTime 1.000000
+		ParticleLifeTime 4.000000
 		ParticleMinStartLinearSpeed 0.000000
 		ParticleMaxStartLinearSpeed 0.000000
 		ParticleMinStartAngularSpeed 0.000000
@@ -50,12 +50,12 @@ ParticleSimulation
 		MeshParticleRotationAxisType 0
 		MeshParticleRotationAxis [ 0.000000 0.100000 0.000000 ]
 		RotationDirectionType 2
-		SphereRadiusXMax 400.000000
-		SphereRadiusXMin 300.000000
-		SphereRadiusYMax 400.000000
-		SphereRadiusYMin 300.000000
-		SphereRadiusZMax 400.000000
-		SphereRadiusZMin 300.000000
+		SphereRadiusXMax 4000.000000
+		SphereRadiusXMin 3000.000000
+		SphereRadiusYMax 4000.000000
+		SphereRadiusYMin 3000.000000
+		SphereRadiusZMax 4000.000000
+		SphereRadiusZMin 3000.000000
 		ParticleMaxStartSpeedAzimuthalTangential 0.000000
 		ParticleMaxStartSpeedPolarTangential 0.000000
 		ScaleStartSpeedsByRadius FALSE
