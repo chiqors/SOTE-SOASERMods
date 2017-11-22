@@ -1,6 +1,6 @@
 ﻿TXT
 onlyLoadOnDemand FALSE
-brushCount 333
+brushCount 334
 brush
 	name "HUDICON_ABILITY_DARKCAPITALSHIP"
 	content "States"
@@ -5956,4 +5956,22 @@ brush
 	Normal
 		fileName "Buttons_Abilities_Normal"
 		pixelBox [ 311 , 919 , 46 , 32 ]
-		
+brush
+	name "HUDICON_INTERDICTOR"
+	content "States"
+	Disabled
+		fileName "Buttons_Abilities_Disabled"
+		pixelBox [ 413 , 141 , 46 , 32 ]
+	Pressed
+		fileName "Buttons_Abilities_Pressed"
+		pixelBox [ 413 , 141 , 46 , 32 ]
+	CursorOver
+		fileName "Buttons_Abilities_CursorOver"
+		pixelBox [ 413 , 141 , 46 , 32 ]
+	Focused
+		fileName "Buttons_Abilities_Normal"
+		pixelBox [ 413 , 141 , 46 , 32 ]
+	Normal
+		fileName "Buttons_Abilities_Normal"
+		pixelBox [ 413 , 141 , 46 , 32 ]
+				

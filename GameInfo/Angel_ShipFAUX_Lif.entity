@@ -82,7 +82,10 @@ NameStringID "IDS_RESEARCHSUBJECT_CapitalAccess_Lif_NAME"
 DescriptionStringID "IDS_RESEARCHSUBJECT_CapitalAccess_Lif_DESCRIPTION"
 picture "PICTURE_CAPITAL_LIF"
 Prerequisites
-	NumResearchPrerequisites 0
+	NumResearchPrerequisites 1
+	ResearchPrerequisite
+		Subject "Minmatar_ResearchSubject_CapitalAccess_Angel_Nidhoggur"
+		Level 2
 	RequiredFactionNameID ""
 	RequiredCompletedResearchSubjects 0
 roleType "Invalid"

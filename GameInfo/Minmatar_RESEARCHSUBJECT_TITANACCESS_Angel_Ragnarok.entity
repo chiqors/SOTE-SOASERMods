@@ -28,8 +28,8 @@ PerLevelCostIncrease
 	metal 25.000000
 	crystal 25.000000
 Tier 7
-onlyWorksIfTierLabsExist FALSE
-MaxNumResearchLevels 1
+onlyWorksIfTierLabsExist TRUE
+MaxNumResearchLevels 2
 priority 1.000000
 researchBoolModifiers 0
 researchFloatModifiers 1

@@ -82,7 +82,10 @@ NameStringID "IDS_COMMAND_TITAN_ANGEL_NAME"
 DescriptionStringID "IDS_COMMAND_TITAN__DESCRIPTION"
 picture "PICTURE_CAPITAL_RAGNAROK"
 Prerequisites
-	NumResearchPrerequisites 0
+	NumResearchPrerequisites 1
+	ResearchPrerequisite
+		Subject "Minmatar_RESEARCHSUBJECT_TITANACCESS_Angel_Ragnarok"
+		Level 2
 	RequiredFactionNameID ""
 	RequiredCompletedResearchSubjects 0
 statCountType "Titan"

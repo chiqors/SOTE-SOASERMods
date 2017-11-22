@@ -82,7 +82,10 @@ NameStringID "IDS_CAPITALSHIP_ANGEL_NAGLFAR_NAME"
 DescriptionStringID "IDS_CAPITALSHIP_NAGLFAR_RANGED_DESCRIPTION"
 picture "PICTURE_CAPITAL_NAGLFAR"
 Prerequisites
-	NumResearchPrerequisites 0
+	NumResearchPrerequisites 1
+	ResearchPrerequisite
+		Subject "Minmatar_ResearchSubject_CapitalAccess_Naglfar"
+		Level 2
 	RequiredFactionNameID ""
 	RequiredCompletedResearchSubjects 0
 roleType "COLONY"

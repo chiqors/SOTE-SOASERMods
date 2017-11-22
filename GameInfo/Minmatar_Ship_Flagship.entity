@@ -177,7 +177,7 @@ HyperspaceTravelSoundID "HYPERSPACE_TRAVEL"
 EngineSoundID "ENGINE_TECHCAPITALSHIP"
 ability:0 "AbilityProjectedSensorDampenerBurst"
 ability:1 "AbilityCaldariShieldWarfareMindlink"
-ability:2 "AbilityFighterControlUnitSuperCarrier"
+ability:2 "AbilityAmarrCynosuralField"
 ability:3 "AbilitySuperCarrierShield"
 ability:4 "AbilityFlagship"
 MaxAntiMatter 10300.000000

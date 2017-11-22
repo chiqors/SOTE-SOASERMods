@@ -25,7 +25,7 @@ PerLevelCostIncrease
 	metal 25.000000
 	crystal 25.000000
 Tier 1
-onlyWorksIfTierLabsExist FALSE
+onlyWorksIfTierLabsExist TRUE
 MaxNumResearchLevels 1
 priority 1.000000
 researchBoolModifiers 0

@@ -1,7 +1,7 @@
 ﻿TXT
 entityType "ResearchSubject"
-hudIcon "HUDICON_ABILITY_SABOTAGEANTIMATTER"
-smallHudIcon "HUDICON_ABILITY_SABOTAGEANTIMATTER"
+hudIcon "HUDICON_INTERDICTOR"
+smallHudIcon "HUDICON_INTERDICTOR"
 infoCardIcon ""
 NameStringID "IDS_RSAInterdictor_NAME"
 DescriptionStringID "IDS_RSAInterdictor_DESCRIPTION"
@@ -25,7 +25,7 @@ PerLevelCostIncrease
 	metal 25.000000
 	crystal 25.000000
 Tier 7
-onlyWorksIfTierLabsExist FALSE
+onlyWorksIfTierLabsExist TRUE
 MaxNumResearchLevels 1
 priority 1.000000
 researchBoolModifiers 0

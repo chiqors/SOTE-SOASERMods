@@ -82,7 +82,10 @@ NameStringID "IDS_CAPITALSHIP_HEL_NAME"
 DescriptionStringID "IDS_CAPITALSHIP_HEL_DESCRIPTION"
 picture "PICTURE_CAPITAL_HEL"
 Prerequisites
-	NumResearchPrerequisites 0
+	NumResearchPrerequisites 1
+	ResearchPrerequisite
+		Subject "Minmatar_ResearchSubject_CapitalAccess_Angel_Hel"
+		Level 2
 	RequiredFactionNameID ""
 	RequiredCompletedResearchSubjects 0
 roleType "Invalid"
