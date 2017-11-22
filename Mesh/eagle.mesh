@@ -1,5 +1,6 @@
 TXT
 MeshData
+	maxDiffuseMipLevel 0
 	hasValidTangents TRUE
 	BoundingRadius 100.189842
 	MaxBoundingExtents [ 62.201244 30.746250 99.224998 ]
@@ -172,28 +173,28 @@ MeshData
 			 [ 0.000000 1.000000 0.000000 ]
 			 [ 0.000000 0.000000 1.000000 ]
 	Point
-		DataString "Weapon-1"
+		DataString "Weapon-0"
 		Position [ 58.150784 -9.373049 -35.478336 ]
 		Orientation
 			 [ 1.000000 0.000000 0.000000 ]
 			 [ 0.000000 1.000000 0.000000 ]
 			 [ 0.000000 0.000000 1.000000 ]
 	Point
-		DataString "Weapon-1"
+		DataString "Weapon-0"
 		Position [ -55.017918 -9.373049 -52.886375 ]
 		Orientation
 			 [ 1.000000 0.000000 0.000000 ]
 			 [ 0.000000 1.000000 0.000000 ]
 			 [ 0.000000 0.000000 1.000000 ]
 	Point
-		DataString "Weapon-1"
+		DataString "Weapon-0"
 		Position [ -56.430206 -9.373049 -44.667061 ]
 		Orientation
 			 [ 1.000000 0.000000 0.000000 ]
 			 [ 0.000000 1.000000 0.000000 ]
 			 [ 0.000000 0.000000 1.000000 ]
 	Point
-		DataString "Weapon-1"
+		DataString "Weapon-0"
 		Position [ -58.324284 -9.373049 -35.478329 ]
 		Orientation
 			 [ 1.000000 0.000000 0.000000 ]

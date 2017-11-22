@@ -179,7 +179,7 @@ UpgradeType "StarBaseUpgradeTechToughness"
 UpgradeType "StarBaseUpgradeTechBlockColonize"
 MeshNameInfoCount 1
 MeshNameInfo
-	meshName "as_capitalship"
+	meshName "amarrtower"
 	criteriaType "None"
 meshNameIncreasedEffectName ""
 meshNameDecreasedEffectName ""
