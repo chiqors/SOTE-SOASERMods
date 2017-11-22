@@ -12419,18 +12419,18 @@ brush
 	name "HUDICON_PIRATEARRAY"
 	content "States"
 	Disabled
-		fileName "Ships_Buttons_Disabled"
-		pixelBox [ 260 , 922 , 46 , 32 ]
+		fileName "Buttons_Abilities_Disabled"
+		pixelBox [ 260 , 992 , 47 , 33 ]
 	Pressed
-		fileName "Ships_Buttons_Pressed"
-		pixelBox [ 260 , 922 , 46 , 32 ]
+		fileName "Buttons_Abilities_Pressed"
+		pixelBox [ 260 , 992 , 47 , 33 ]
 	CursorOver
-		fileName "Ships_Buttons_CursorOver"
-		pixelBox [ 260 , 922 , 46 , 32 ]
+		fileName "Buttons_Abilities_CursorOver"
+		pixelBox [ 260 , 992 , 47 , 33 ]
 	Focused
-		fileName "Ships_Buttons_Normal"
-		pixelBox [ 260 , 922 , 46 , 32 ]
+		fileName "Buttons_Abilities_Normal"
+		pixelBox [ 260 , 992 , 47 , 33 ]
 	Normal
-		fileName "Ships_Buttons_Normal"
-		pixelBox [ 260 , 922 , 46 , 32 ]
+		fileName "Buttons_Abilities_Normal"
+		pixelBox [ 260 , 992 , 47 , 33 ]
 		

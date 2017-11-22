@@ -78,7 +78,8 @@ entities
 			entityDefName "AllRaces_Ship_Orca"
 			entityDefName "Amarr_Ship_Tradeship_Bestower"
 	researchInfo
-		count 142
+		count 143
+		entityDefName "RSATitanCapacity"
 		entityDefName "RSACommandShip"		
 		entityDefName "Amarr_ResearchSubject_CapitalAccess_Bloodraiders_Aeon"
 		entityDefName "Amarr_ResearchSubject_CapitalAccess_Chemosh"

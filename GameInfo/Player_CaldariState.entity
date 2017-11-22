@@ -78,7 +78,8 @@ entities
 			entityDefName "AllRaces_Ship_Orca"
 			entityDefName "Caldari_Ship_Tradeship_Badge"			
 	researchInfo
-		count 146
+		count 147
+		entityDefName "RSATitanCapacity"
 		entityDefName "RSACommandShip"		
 		entityDefName "Caldari_ResearchSubject_SubCapitalAccess_Gila"
 		entityDefName "Caldari_ResearchSubject_SubCapitalAccess_RattleSnake"

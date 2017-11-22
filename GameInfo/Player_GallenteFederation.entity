@@ -78,7 +78,8 @@ entities
 			entityDefName "AllRaces_Ship_Orca"
 			entityDefName "Gallente_Ship_Tradeship"		
 	researchInfo
-		count 139
+		count 140
+		entityDefName "RSATitanCapacity"
 		entityDefName "RSACommandShip"		
 		entityDefName "Gallente_ResearchSubject_SubCapitalAccess_Daredevil"
 		entityDefName "Gallente_ResearchSubject_SubCapitalAccess_Vigilant"

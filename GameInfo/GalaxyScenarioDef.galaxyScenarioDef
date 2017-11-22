@@ -5650,7 +5650,7 @@ planetItemsTemplate
 				item "Sansha:Ship:RenynMeten"
 				item "Sansha:Ship:RenynMeten"
 				item "Sansha:Ship:RenynMeten"
-				item "Artifact:HyperspaceSpeed"
+				item "Artifact:WormholeTravel"
 planetItemsTemplate
 	templateName "Template:AssaultSite"
 	subTemplates 0

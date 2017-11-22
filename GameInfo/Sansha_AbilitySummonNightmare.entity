@@ -19,7 +19,7 @@ moveThruTarget FALSE
 isUltimateAbility FALSE
 maxNumLevels 1
 levelSourceType "ResearchWithoutBase"
-improveSourceResearchSubject "RESEARCHSUBJECT_ARTIFACT_HYPERSPACESPEED"
+improveSourceResearchSubject "RSATitanCapacity"
 aiUseTime "Anytime"
 aiUseTargetCondition "Any"
 isAutoCastAvailable TRUE
@@ -46,7 +46,7 @@ orderAcknowledgementType "ONGENERALORDERISSUED"
 researchPrerequisites
 	NumResearchPrerequisites 1
 	ResearchPrerequisite
-		Subject "RESEARCHSUBJECT_ARTIFACT_HYPERSPACESPEED"
+		Subject "RSATitanCapacity"
 		Level 1
 	RequiredFactionNameID ""
 	RequiredCompletedResearchSubjects 0

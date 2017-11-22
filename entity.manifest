@@ -1,5 +1,5 @@
 TXT
-entityNameCount 2709
+entityNameCount 2710
 entityName "ABILITY_AIBUFFER.entity"
 entityName "ABILITY_AICREDITS.entity"
 entityName "ABILITY_AIDRIVER.entity"
@@ -2709,3 +2709,4 @@ entityName "AbilityAmarrArmoredWarfareMindlink4.entity"
 entityName "BuffAmarrArmoredWarfareMindlink2.entity"
 entityName "BuffAmarrArmoredWarfareMindlink3.entity"
 entityName "BuffAmarrArmoredWarfareMindlink4.entity"
+entityName "RSATitanCapacity.entity"

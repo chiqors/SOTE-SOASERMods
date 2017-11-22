@@ -1,16 +1,19 @@
 ﻿TXT
 entityType "ResearchSubject"
-hudIcon "HUDICON_RSAMARAUDER"
-smallHudIcon "HUDICON_RSAMARAUDER"
+hudIcon "HUDICON_PIRATEARRAY"
+smallHudIcon "HUDICON_PIRATEARRAY"
 infoCardIcon ""
-NameStringID "IDS_RSAMARAUDER_NAME"
-DescriptionStringID "IDS_RSAMARAUDER_NAME"
+NameStringID "IDS_ABILITY_TITANCAP_NAME"
+DescriptionStringID "IDS_ABILITY_TITANCAP_DESCRIPTION"
 researchWindowLocation
-	block 2
+	block 0
 	pos [ 7 , 2 ]
-ResearchField "Combat"
+ResearchField "Defense"
 Prerequisites
-	NumResearchPrerequisites 0
+	NumResearchPrerequisites 1
+	ResearchPrerequisite
+		Subject "RESEARCHSUBJECT_ARTIFACT_WORMHOLETRAVEL"
+		Level 1
 	RequiredFactionNameID ""
 	RequiredCompletedResearchSubjects 0
 MinimumArtifactLevel -1
@@ -26,7 +29,7 @@ PerLevelCostIncrease
 	crystal 25.000000
 Tier 7
 onlyWorksIfTierLabsExist TRUE
-MaxNumResearchLevels 1
+MaxNumResearchLevels 2
 priority 1.000000
 researchBoolModifiers 0
 researchFloatModifiers 1

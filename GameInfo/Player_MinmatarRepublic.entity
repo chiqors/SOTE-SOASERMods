@@ -78,7 +78,8 @@ entities
 			entityDefName "AllRaces_Ship_Orca"
 			entityDefName "Minmatar_Ship_Tradeship_Manmonth"
 	researchInfo
-		count 146
+		count 147
+		entityDefName "RSATitanCapacity"
 		entityDefName "RSACommandShip"
 		entityDefName "Minmatar_ResearchSubject_SubCapitalAccess_Dramiel"
 		entityDefName "Minmatar_ResearchSubject_SubCapitalAccess_Cynabal"

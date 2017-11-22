@@ -1,5 +1,5 @@
 TXT
-NumStrings 8805
+NumStrings 8807
 StringInfo
     ID "IDS_ABILITY_RORQUALPANIC_NAME"
 	Value "P.A.N.I.C Module"
@@ -26409,6 +26409,12 @@ StringInfo
 StringInfo
 	ID "IDS_ABILITY_BOOSTARMOR4_NAME"
 	Value "Armor Reinforcement"
+StringInfo
+	ID "IDS_ABILITY_TITANCAP_NAME"
+	Value "Sansha Stolen Tech"
+StringInfo
+	ID "IDS_ABILITY_TITANCAP_DESCRIPTION"
+	Value "Allow you empire to build sansha ships with stole tech, requires Sansha Artifact."	
 StringInfo
 	ID "IDS_ABILITY_BLANK_NAME"
 	Value ""
