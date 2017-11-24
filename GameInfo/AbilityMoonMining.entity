@@ -35,8 +35,8 @@ maxNumLevels 1
 levelSourceType "FixedLevel0"
 aiUseTime "OnlyIfOwnTitan"
 aiUseTargetCondition "Any"
-isAutoCastAvailable FALSE
-isAutoCastOnByDefault FALSE
+isAutoCastAvailable TRUE
+isAutoCastOnByDefault TRUE
 pickRandomPlanetToExploreForAutoCastTarget FALSE
 ignoreNonCombatShipsForAutoCastTarget TRUE
 onlyAutoCastWhenDamageTakenExceedsPerc 0.000000
@@ -53,11 +53,14 @@ cooldownTime
 	Level:3 0.000000
 orderAcknowledgementType "ONGENERALORDERISSUED"
 researchPrerequisites
-	NumResearchPrerequisites 0
+		NumResearchPrerequisites 1
+		ResearchPrerequisite
+			Subject "RESEARCHSUBJECT_CARGOSHIPCAPACITY0"
+			Level 3
 	RequiredFactionNameID ""
 	RequiredCompletedResearchSubjects 0
-nameStringID "IDS_NoText"
-descStringID "IDS_NoText"
+nameStringID "IDS_ABILITY_BLANK_NAME"
+descStringID "IDS_ABILITY_BLANK_DESCRIPTION"
 hudIcon ""
 smallHudIcon ""
 infoCardIcon ""

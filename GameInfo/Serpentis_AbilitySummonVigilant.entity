@@ -18,7 +18,8 @@ canCollideWithTarget TRUE
 moveThruTarget FALSE
 isUltimateAbility FALSE
 maxNumLevels 1
-levelSourceType "FixedLevel0"
+levelSourceType "ResearchWithoutBase"
+improveSourceResearchSubject "Gallente_ResearchSubject_SubCapitalAccess_Vigilant"
 aiUseTime "Anytime"
 aiUseTargetCondition "Any"
 isAutoCastAvailable TRUE
@@ -45,12 +46,12 @@ orderAcknowledgementType "ONGENERALORDERISSUED"
 researchPrerequisites
 	NumResearchPrerequisites 1
 	ResearchPrerequisite
-		Subject "RESEARCHSUBJECT_ARTIFACT_WORMHOLETRAVEL"
+		Subject "Gallente_ResearchSubject_SubCapitalAccess_Vigilant"
 		Level 1
 	RequiredFactionNameID ""
 	RequiredCompletedResearchSubjects 0
-nameStringID "IDS_Angel_Cynabal_NAME"
-descStringID "IDS_Angel_Cynabal_DESCRIPTION"
-hudIcon "HUDICON_ANGEL_CYNABAL"
-smallHudIcon "HUDICON_ANGEL_CYNABAL"
+nameStringID "IDS_FRIGATE_SERPENTIS_VIGILANTE_NAME"
+descStringID "IDS_FRIGATE_SERPENTIS_VIGILANTE_DESCRIPTION"
+hudIcon "HUDICON_SERPENTIS_VIGILANT"
+smallHudIcon "HUDICON_SERPENTIS_VIGILANT"
 infoCardIcon ""

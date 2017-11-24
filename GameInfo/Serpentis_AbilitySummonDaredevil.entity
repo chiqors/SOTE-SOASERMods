@@ -18,7 +18,8 @@ canCollideWithTarget TRUE
 moveThruTarget FALSE
 isUltimateAbility FALSE
 maxNumLevels 1
-levelSourceType "FixedLevel0"
+levelSourceType "ResearchWithoutBase"
+improveSourceResearchSubject "Gallente_ResearchSubject_SubCapitalAccess_Daredevil"
 aiUseTime "Anytime"
 aiUseTargetCondition "Any"
 isAutoCastAvailable TRUE
@@ -45,12 +46,12 @@ orderAcknowledgementType "ONGENERALORDERISSUED"
 researchPrerequisites
 	NumResearchPrerequisites 1
 	ResearchPrerequisite
-		Subject "RESEARCHSUBJECT_ARTIFACT_WORMHOLETRAVEL"
+		Subject "Gallente_ResearchSubject_SubCapitalAccess_Daredevil"
 		Level 1
 	RequiredFactionNameID ""
 	RequiredCompletedResearchSubjects 0
-nameStringID "IDS_Angel_Dramiel_NAME"
-descStringID "IDS_Angel_Dramiel_DESCRIPTION"
-hudIcon "HUDICON_ANGEL_DRAMIEL"
-smallHudIcon "HUDICON_ANGEL_DRAMIEL"
+nameStringID "IDS_FRIGATE_SERPENTIS_DAREDEVIL_NAME"
+descStringID "IDS_FRIGATE_SERPENTIS_DAREDEVIL_DESCRIPTION"
+hudIcon "HUDICON_SERPENTIS_DAREDEVIL"
+smallHudIcon "HUDICON_SERPENTIS_DAREDEVIL"
 infoCardIcon ""

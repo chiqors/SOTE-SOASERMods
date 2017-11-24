@@ -13,14 +13,22 @@ instantAction
 	instantActionTriggerType "OnDelay"
 	delayTime 0.000000
 	antiMatter
-		Level:0 600.000000
-		Level:1 630.000000
-		Level:2 690.000000
-		Level:3 750.000000
+		Level:0 8950.000000
+		Level:1 9250.000000
+		Level:2 9500.000000
+		Level:3 10000.000000	
 numPeriodicActions 0
 numOverTimeActions 0
 numEntityModifiers 0
 numEntityBoolModifiers 0
-numFinishConditions 1
+numFinishConditions 2
+finishCondition
+	finishConditionType "TimeElapsed"
+	time
+		Level:0 20.000000
+		Level:1 20.000000
+		Level:2 20.000000
+		Level:3 20.000000
 finishCondition
 	finishConditionType "AllOnDelayInstantActionsDone"
+	

@@ -13,7 +13,7 @@ reward
 	crystal 0.000000
 priceDemanded
 	credits 0.000000
-	metal 1200.000000
+	metal 300.000000
 	crystal 0.000000
 valueToKill 0.000000
 numReceiverConstraints 2

@@ -9,6 +9,18 @@ isInterruptable FALSE
 isChannelling FALSE
 numInstantActions 4
 instantAction
+	buffInstantActionType "DoDamage"
+	instantActionTriggerType "OnDelay"
+	delayTime 5.000000
+	damage
+		Level:0 250000.000000
+		Level:1 250000.000000
+		Level:2 250000.000000
+		Level:3 250000.000000
+	damageAffectType "AFFECTS_SHIELDS_AND_HULL"
+	damageType "ENERGY"
+	isDamageShared FALSE			
+instantAction
 	buffInstantActionType "ApplyBuffToSelf"
 	instantActionTriggerType "OnDelay"
 	delayTime 0.000000
@@ -21,10 +33,22 @@ instantAction
 		largeEffectName ""
 		soundID ""
 instantAction
+	buffInstantActionType "ApplyBuffToSelf"
+	instantActionTriggerType "OnDelay"
+	delayTime 0.000000
+	buffType "BuffArcingVortonProjectorTarget2"
+	effectInfo
+		effectAttachInfo
+			attachType "Invalid"
+		smallEffectName ""
+		mediumEffectName ""
+		largeEffectName ""
+		soundID ""
+instantAction
 	buffInstantActionType "ApplyBuffToTargetsInRadiusWithTravel"
 	instantActionTriggerType "OnDelay"
-	delayTime 2.000000
-	buffType "BuffArcingVortonProjectorTarget2"
+	delayTime 0.000000
+	buffType "BuffAuroraOminaeTarget"
 	targetFilter
 		numOwnerships 1
 		ownership "Enemy"
@@ -37,15 +61,15 @@ instantAction
 		constraint "HasWeapons"
 		constraint "NotIsBoarded"
 	range
-		Level:0 20000.000000
-		Level:1 20000.000000
-		Level:2 20000.000000
-		Level:3 20000.000000
+		Level:0 50000.000000
+		Level:1 50000.000000
+		Level:2 50000.000000
+		Level:3 50000.000000
 	maxTargetCount
-		Level:0 1.000000
-		Level:1 1.000000
-		Level:2 1.000000
-		Level:3 1.000000
+		Level:0 4.000000
+		Level:1 5.000000
+		Level:2 6.000000
+		Level:3 7.000000
 	effectInfo
 		effectAttachInfo
 			attachType "Invalid"
@@ -68,12 +92,12 @@ instantAction
 		burstCount 1
 		burstDelay 0.000000
 		fireDelay 0.000000
-		muzzleEffectName "ArcingVorton_Fire"
+		muzzleEffectName "ArchingVortronSelf"
 		muzzleSoundMinRespawnTime 0.100000
 		muzzleSounds
 			soundCount 1
 			sound ""
-		hitEffectName "ArcingVorton_Hit"
+		hitEffectName "ArchingVortronSelf"
 		hitHullEffectSounds
 			soundCount 1
 			sound ""
@@ -83,36 +107,12 @@ instantAction
 		beamEffectSounds
 			soundCount 1
 			sound ""
-		beamGlowTextureName "ArcingVorton"
-		beamCoreTextureName "ArcingVorton"
+		beamGlowTextureName "EVE_Weapon_BlueLaser_Glow.dds"
+		beamCoreTextureName "EVE_Weapon_BlueLaser_Core.dds"
 		beamWidth 300.000000
 		beamGlowColor ffffffff
 		beamCoreColor ffffffff
 		beamTilingRate 3.000000
-instantAction
-	buffInstantActionType "ApplyBuffToSelf"
-	instantActionTriggerType "OnDelay"
-	delayTime 0.000000
-	buffType "BuffArcingVortonSelf"
-	effectInfo
-		effectAttachInfo
-			attachType "Invalid"
-		smallEffectName ""
-		mediumEffectName ""
-		largeEffectName ""
-		soundID ""
-instantAction
-	buffInstantActionType "DoDamage"
-	instantActionTriggerType "OnDelay"
-	delayTime 0.000000
-	damage
-		Level:0 250000.000000
-		Level:1 250000.000000
-		Level:2 250000.000000
-		Level:3 250000.000000
-	damageAffectType "AFFECTS_SHIELDS_AND_HULL"
-	damageType "ENERGY"
-	isDamageShared FALSE			
 numPeriodicActions 0
 numOverTimeActions 0
 numEntityModifiers 0

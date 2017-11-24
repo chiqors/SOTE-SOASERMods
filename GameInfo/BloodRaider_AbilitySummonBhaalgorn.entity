@@ -45,7 +45,7 @@ orderAcknowledgementType "ONGENERALORDERISSUED"
 researchPrerequisites
 	NumResearchPrerequisites 1
 	ResearchPrerequisite
-		Subject "RESEARCHSUBJECT_DARKFLEET"
+		Subject "Amarr_ResearchSubject_SubCapitalAccess_Bhallgorn"
 		Level 1
 	RequiredFactionNameID ""
 	RequiredCompletedResearchSubjects 0

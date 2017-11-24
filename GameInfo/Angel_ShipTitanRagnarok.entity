@@ -50,13 +50,13 @@ basePrice
 	metal 3250.000000
 	crystal 5250.000000
 slotCount 1.000000
-BuildTime 350.000000
+BuildTime 220.000000
 MaxHullPoints
-	StartValue 195000.000000
-	ValueIncreasePerLevel 19500.000000
+	StartValue 738000.000000
+	ValueIncreasePerLevel 73800.000000
 MaxShieldPoints
-	StartValue 315000.000000
-	ValueIncreasePerLevel 31500.000000
+	StartValue 1182000.000000
+	ValueIncreasePerLevel 118200.000000
 HullPointRestoreRate
 	StartValue 1.000000
 	ValueIncreasePerLevel 0.500000
@@ -82,7 +82,10 @@ NameStringID "IDS_COMMAND_TITAN_ANGEL_NAME"
 DescriptionStringID "IDS_COMMAND_TITAN__DESCRIPTION"
 picture "PICTURE_CAPITAL_RAGNAROK"
 Prerequisites
-	NumResearchPrerequisites 0
+	NumResearchPrerequisites 1
+	ResearchPrerequisite
+		Subject "Minmatar_RESEARCHSUBJECT_TITANACCESS_Angel_Ragnarok"
+		Level 2
 	RequiredFactionNameID ""
 	RequiredCompletedResearchSubjects 0
 statCountType "Titan"

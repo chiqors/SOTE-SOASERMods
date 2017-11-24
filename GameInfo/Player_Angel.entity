@@ -21,13 +21,11 @@ entities
 			entityDefName "Amarr_Structure_TradePort"
 			entityDefName "Amarr_Structure_Refinery"
 		Page:1
-			count 6
+			count 4
 			entityDefName "Amarr_Structure_SmallPulseLaserBattery"
 			entityDefName "Amarr_Structure_ECMBattery"
 			entityDefName "Amarr_Structure_MediumPulseLaserBattery"
 			entityDefName "Amarr_Structure_JumpBridge"
-			entityDefName "PLANETMODULE_TECHORBITALSHIELDGENERATOR"
-			entityDefName "PLANETMODULE_TECHORBITALCANNON"
 	titanInfo
 		Page:0
 			count 1
@@ -41,15 +39,20 @@ entities
 			entityDefName "Angel_ShipSupercarrierHel"
 	frigateInfo
 		Page:0
-			count 5
+			count 6
 			entityDefName "Angel_ShipCruiserCynabal"
 			entityDefName "Angel_ShipFrigateDramiel"
 			entityDefName "Angel_ShipCruiser_Scyther"
+			entityDefName "Angel_Ship_Battlecruiser_Hurricane"
 			entityDefName "Angel_ShipColony_Orca"
 			entityDefName "Angel_ShipFrigate_Breacher"
 		Page:1
-			count 1
+			count 5
 			entityDefName "Angel_ShipBattleshipMachariel"
+			entityDefName "Angel_Ship_Gotan_Kreiss"
+			entityDefName "Angel_Ship_Hakim_Stormare"
+			entityDefName "Angel_Ship_Mizuro_Cybon"
+			entityDefName "Angel_Ship_Tobias_Kruzhor"
 		NotOnPage
 			count 1
 			entityDefName "Minmatar_Ship_Refineryship_Mamonth"
@@ -59,7 +62,7 @@ entities
 	starBaseInfo
 		count 1
 		entityDefName "Angel_StructureShipyard_Raitaru"
-	flagship "FrigatePirateHeavy"
+	flagship "Amarr_Ship_Flagship_ImperialApocalypse"
 debrisData
 	numRandomMeshNamesLarge 8
 	randomMeshName "DebrisTechGenericLarge0"

@@ -18,7 +18,8 @@ canCollideWithTarget TRUE
 moveThruTarget FALSE
 isUltimateAbility FALSE
 maxNumLevels 1
-levelSourceType "FixedLevel0"
+levelSourceType "ResearchWithoutBase"
+improveSourceResearchSubject "Gallente_ResearchSubject_SubCapitalAccess_Vindicator"
 aiUseTime "Anytime"
 aiUseTargetCondition "Any"
 isAutoCastAvailable TRUE
@@ -45,12 +46,12 @@ orderAcknowledgementType "ONGENERALORDERISSUED"
 researchPrerequisites
 	NumResearchPrerequisites 1
 	ResearchPrerequisite
-		Subject "RESEARCHSUBJECT_ARTIFACT_WORMHOLETRAVEL"
+		Subject "Gallente_ResearchSubject_SubCapitalAccess_Vindicator"
 		Level 1
 	RequiredFactionNameID ""
 	RequiredCompletedResearchSubjects 0
-nameStringID "IDS_Angel_Machariel_NAME"
-descStringID "IDS_Angel_Machariel_DESCRIPTION"
-hudIcon "HUDICON_ANGEL_MACHARIEL"
-smallHudIcon "HUDICON_ANGEL_MACHARIEL"
+nameStringID "IDS_Serpentis_ShipBattleshipVindicator_NAME"
+descStringID "IDS_Serpentis_ShipBattleshipVindicator_DESCRIPTION"
+hudIcon "HUDICON_SERPENTIS_VIDICATOR"
+smallHudIcon "HUDICON_SERPENTIS_VIDICATOR"
 infoCardIcon ""

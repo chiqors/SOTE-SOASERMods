@@ -10,7 +10,7 @@ infoCardIcon "INFOCARDICON_PLANETMODULE_TECHORBITALCAPITALSHIPFACTORY"
 fighterEntityDef "Allraces_Drone_Shadow"
 fighterIllusionEntityDef ""
 scuttleTime 12.500000
-fighterConstructionTime 85.000000
+fighterConstructionTime 20.000000
 decayWithoutOwnerRate 8.000000
 baseMaxNumFighters 10
 role "Bomber"

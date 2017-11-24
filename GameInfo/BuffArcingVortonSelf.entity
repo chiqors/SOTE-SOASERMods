@@ -40,8 +40,8 @@ instantAction
 		beamEffectSounds
 			soundCount 1
 			sound ""
-		beamGlowTextureName "ArcingVorton"
-		beamCoreTextureName "ArcingVorton"
+		beamGlowTextureName "EVE_Weapon_BlueLaser_Glow.dds"
+		beamCoreTextureName "EVE_Weapon_BlueLaser_Core.dds"
 		beamWidth 600.000000
 		beamGlowColor ffffffff
 		beamCoreColor ffffffff

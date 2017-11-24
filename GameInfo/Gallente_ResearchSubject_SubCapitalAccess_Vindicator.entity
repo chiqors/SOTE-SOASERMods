@@ -1,0 +1,38 @@
+﻿TXT
+entityType "ResearchSubject"
+hudIcon "HUDICON_SERPENTIS_VIDICATOR"
+smallHudIcon "HUDICON_SERPENTIS_VIDICATOR"
+infoCardIcon ""
+NameStringID "IDS_Serpentis_ShipBattleshipVindicator_NAME"
+DescriptionStringID "IDS_Serpentis_ShipBattleshipVindicator_DESCRIPTION"
+researchWindowLocation
+	block 2
+	pos [ 5 , 2 ]
+ResearchField "Combat"
+Prerequisites
+	NumResearchPrerequisites 1
+	ResearchPrerequisite
+		Subject "Gallente_ResearchSubject_SubCapitalAccess_Megathron"
+		Level 1
+	RequiredFactionNameID ""
+	RequiredCompletedResearchSubjects 0
+MinimumArtifactLevel -1
+BaseUpgradeTime 90.000000
+PerLevelUpgradeTime 10.000000
+BaseCost
+	credits 2800.000000
+	metal 500.000000
+	crystal 800.000000
+PerLevelCostIncrease
+	credits 100.000000
+	metal 25.000000
+	crystal 25.000000
+Tier 5
+onlyWorksIfTierLabsExist TRUE
+MaxNumResearchLevels 1
+priority 1.000000
+researchBoolModifiers 0
+researchFloatModifiers 0
+artifactPicture ""
+uniqueOverlayBrush ""
+dlcId 204880

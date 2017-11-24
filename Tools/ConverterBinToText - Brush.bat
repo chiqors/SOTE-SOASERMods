@@ -1,0 +1,1 @@
+for %%a in (*.brushes) do ConvertData_Rebellion brushes %%a %%a txt

@@ -1,6 +1,6 @@
 ﻿TXT
 entityType "CapitalShip"
-ability:0 "AbilityArmorRepairerCapital"
+ability:0 "AbilityRemoteArmorRepairerCapital"
 ability:1 "AbilityPLASMASmartbomb"
 ability:2 "AbilityFighterControlUnit"
 ability:3 "AbilityAmarrArmoredWarfareMindlink"
@@ -52,11 +52,11 @@ basePrice
 slotCount 1.000000
 BuildTime 75.000000
 MaxHullPoints
-	StartValue 32500.000000
-	ValueIncreasePerLevel 3250.000000
+	StartValue 86900.000000
+	ValueIncreasePerLevel 8690.000000
 MaxShieldPoints
-	StartValue 30500.000000
-	ValueIncreasePerLevel 3050.000000
+	StartValue 69400.000000
+	ValueIncreasePerLevel 6940.000000
 HullPointRestoreRate
 	StartValue 10.000000
 	ValueIncreasePerLevel 1.00000

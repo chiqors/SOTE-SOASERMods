@@ -50,7 +50,7 @@ basePrice
 	metal 958.000000
 	crystal 517.000000
 slotCount 1.000000
-BuildTime 75.000000
+BuildTime 112.000000
 MaxHullPoints
 	StartValue 57500.000000
 	ValueIncreasePerLevel 5750.000000
@@ -82,7 +82,10 @@ NameStringID "IDS_BloodRaiders_ShipForceAuxiliaryDagon_NAME"
 DescriptionStringID "IDS_BloodRaiders_ShipForceAuxiliaryDagon_DESCRIPTION"
 picture "PICTURE_CAPITAL_ARCHON"
 Prerequisites
-	NumResearchPrerequisites 0
+	NumResearchPrerequisites 1
+	ResearchPrerequisite
+		Subject "Amarr_ResearchSubject_CapitalAccess_Dagon"
+		Level 2
 	RequiredFactionNameID ""
 	RequiredCompletedResearchSubjects 0
 roleType "Invalid"

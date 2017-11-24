@@ -52,11 +52,11 @@ basePrice
 slotCount 1.000000
 BuildTime 350.000000
 MaxHullPoints
-	StartValue 315000.000000
-	ValueIncreasePerLevel 31500.000000
+	StartValue 750000.000000
+	ValueIncreasePerLevel 75000.000000
 MaxShieldPoints
-	StartValue 130000.000000
-	ValueIncreasePerLevel 13000.000000
+	StartValue 338000.000000
+	ValueIncreasePerLevel 33800.000000
 HullPointRestoreRate
 	StartValue 10.000000
 	ValueIncreasePerLevel 1.000000

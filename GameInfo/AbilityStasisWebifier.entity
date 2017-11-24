@@ -14,10 +14,10 @@ targetFilter
 	space "Normal"
 	numConstraints 0
 range
-	Level:0 7500.000000
-	Level:1 8500.000000
-	Level:2 10000.000000
-	Level:3 12000.000000
+	Level:0 9500.000000
+	Level:1 10500.000000
+	Level:2 12000.000000
+	Level:3 14000.000000
 travelSpeed 10000.000000
 hasWeaponEffects TRUE
 weaponEffectOriginType "Targetter"

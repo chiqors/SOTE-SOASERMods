@@ -1,0 +1,297 @@
+﻿TXT
+entityType "Buff"
+onReapplyDuplicateType "PrioritizeNewBuffs"
+buffStackingLimitType "ForAllPlayers"
+stackingLimit 1
+allowFirstSpawnerToStack FALSE
+buffExclusivityForAIType "ExclusiveForAllPlayers"
+isInterruptable TRUE
+isChannelling FALSE
+numInstantActions 4
+instantAction
+	buffInstantActionType "ApplyBuffToTargetsInRadiusWithTravel"
+	instantActionTriggerType "OnDelay"
+	delayTime 0.000000
+	buffType "BuffOblivionSelf"
+	targetFilter
+		numOwnerships 1
+		ownership "Enemy"
+		numObjects 2
+		object "Titan"
+		object "CapitalShip"
+		numSpaces 1
+		space "Normal"
+		numConstraints 2
+		constraint "HasWeapons"
+		constraint "NotIsBoarded"
+	range
+		Level:0 50000.000000
+		Level:1 50000.000000
+		Level:2 50000.000000
+		Level:3 50000.000000
+	maxTargetCount
+		Level:0 -1.000000
+		Level:1 -1.000000
+		Level:2 -1.000000
+		Level:3 -1.000000
+	effectInfo
+		effectAttachInfo
+			attachType "Invalid"
+		smallEffectName ""
+		mediumEffectName ""
+		largeEffectName ""
+		soundID ""
+	travelSpeed 2000.000000
+	effectStaggerDelay 2.000000	
+	hasWeaponEffects TRUE
+	weaponEffectOriginType "Targetter"
+	weaponEffectAttachInfo
+		attachType "Ability"
+		abilityIndex 0
+	weaponEffectImpactOffsetType "CenterOffsetBySpatialRadius"
+	canWeaponEffectHitHull TRUE
+	canWeaponEffectHitShields TRUE
+	weaponEffectsDef
+		weaponType "Missile"
+		burstCount 3
+		burstDelay 1.400000
+		fireDelay 0.050000
+		muzzleEffectName "Weapon_TechCapitalMissileHeavy_Muzzle"
+		muzzleSoundMinRespawnTime 0.500000
+		muzzleSounds
+			soundCount 1
+			sound "EFFECT_NEUTRONTORPEDO_MUZZLE"
+		hitEffectName "Oblivion_Hit"
+		hitHullEffectSounds
+			soundCount 4
+			sound "MISSILEEXPLOSION_EVEONLINE1"
+			sound "MISSILEEXPLOSION_EVEONLINE2"
+			sound "MISSILEEXPLOSION_EVEONLINE3"
+			sound "MISSILEEXPLOSION_EVEONLINE4"
+		hitShieldsEffectSounds
+			soundCount 4
+			sound "MISSILEEXPLOSION_EVEONLINE1"
+			sound "MISSILEEXPLOSION_EVEONLINE2"
+			sound "MISSILEEXPLOSION_EVEONLINE3"
+			sound "MISSILEEXPLOSION_EVEONLINE4"
+		missileTravelEffectName "Oblivion_Fire"
+		missileStartTurningDistance 1.000000
+		missileSlowTurnRate 6.000000
+		missileMaxSlowTurnTime 6.000000
+instantAction
+	buffInstantActionType "ApplyBuffToTargetsInRadiusWithTravel"
+	instantActionTriggerType "OnDelay"
+	delayTime 0.000000
+	buffType "BuffOblivionSelf"
+	targetFilter
+		numOwnerships 1
+		ownership "Enemy"
+		numObjects 2
+		object "Titan"
+		object "CapitalShip"
+		numSpaces 1
+		space "Normal"
+		numConstraints 2
+		constraint "HasWeapons"
+		constraint "NotIsBoarded"
+	range
+		Level:0 50000.000000
+		Level:1 50000.000000
+		Level:2 50000.000000
+		Level:3 50000.000000
+	maxTargetCount
+		Level:0 -1.000000
+		Level:1 -1.000000
+		Level:2 -1.000000
+		Level:3 -1.000000
+	effectInfo
+		effectAttachInfo
+			attachType "Invalid"
+		smallEffectName ""
+		mediumEffectName ""
+		largeEffectName ""
+		soundID ""
+	travelSpeed 2000.000000
+	effectStaggerDelay 2.000000	
+	hasWeaponEffects TRUE
+	weaponEffectOriginType "Targetter"
+	weaponEffectAttachInfo
+		attachType "Ability"
+		abilityIndex 0
+	weaponEffectImpactOffsetType "CenterOffsetBySpatialRadius"
+	canWeaponEffectHitHull TRUE
+	canWeaponEffectHitShields TRUE
+	weaponEffectsDef
+		weaponType "Missile"
+		burstCount 3
+		burstDelay 1.400000
+		fireDelay 0.050000
+		muzzleEffectName "Weapon_TechCapitalMissileHeavy_Muzzle"
+		muzzleSoundMinRespawnTime 0.500000
+		muzzleSounds
+			soundCount 1
+			sound "EFFECT_NEUTRONTORPEDO_MUZZLE"
+		hitEffectName "Oblivion_Hit"
+		hitHullEffectSounds
+			soundCount 4
+			sound "MISSILEEXPLOSION_EVEONLINE1"
+			sound "MISSILEEXPLOSION_EVEONLINE2"
+			sound "MISSILEEXPLOSION_EVEONLINE3"
+			sound "MISSILEEXPLOSION_EVEONLINE4"
+		hitShieldsEffectSounds
+			soundCount 4
+			sound "MISSILEEXPLOSION_EVEONLINE1"
+			sound "MISSILEEXPLOSION_EVEONLINE2"
+			sound "MISSILEEXPLOSION_EVEONLINE3"
+			sound "MISSILEEXPLOSION_EVEONLINE4"
+		missileTravelEffectName "Oblivion_Fire"
+		missileStartTurningDistance 1.000000
+		missileSlowTurnRate 6.000000
+		missileMaxSlowTurnTime 6.000000
+instantAction
+	buffInstantActionType "ApplyBuffToTargetsInRadiusWithTravel"
+	instantActionTriggerType "OnDelay"
+	delayTime 0.000000
+	buffType "BuffOblivionSelf"
+	targetFilter
+		numOwnerships 1
+		ownership "Enemy"
+		numObjects 2
+		object "Titan"
+		object "CapitalShip"
+		numSpaces 1
+		space "Normal"
+		numConstraints 2
+		constraint "HasWeapons"
+		constraint "NotIsBoarded"
+	range
+		Level:0 50000.000000
+		Level:1 50000.000000
+		Level:2 50000.000000
+		Level:3 50000.000000
+	maxTargetCount
+		Level:0 -1.000000
+		Level:1 -1.000000
+		Level:2 -1.000000
+		Level:3 -1.000000
+	effectInfo
+		effectAttachInfo
+			attachType "Invalid"
+		smallEffectName ""
+		mediumEffectName ""
+		largeEffectName ""
+		soundID ""
+	travelSpeed 2000.000000
+	effectStaggerDelay 2.000000	
+	hasWeaponEffects TRUE
+	weaponEffectOriginType "Targetter"
+	weaponEffectAttachInfo
+		attachType "Ability"
+		abilityIndex 0
+	weaponEffectImpactOffsetType "CenterOffsetBySpatialRadius"
+	canWeaponEffectHitHull TRUE
+	canWeaponEffectHitShields TRUE
+	weaponEffectsDef
+		weaponType "Missile"
+		burstCount 3
+		burstDelay 1.400000
+		fireDelay 0.050000
+		muzzleEffectName "Weapon_TechCapitalMissileHeavy_Muzzle"
+		muzzleSoundMinRespawnTime 0.500000
+		muzzleSounds
+			soundCount 1
+			sound "EFFECT_NEUTRONTORPEDO_MUZZLE"
+		hitEffectName "Oblivion_Hit"
+		hitHullEffectSounds
+			soundCount 4
+			sound "MISSILEEXPLOSION_EVEONLINE1"
+			sound "MISSILEEXPLOSION_EVEONLINE2"
+			sound "MISSILEEXPLOSION_EVEONLINE3"
+			sound "MISSILEEXPLOSION_EVEONLINE4"
+		hitShieldsEffectSounds
+			soundCount 4
+			sound "MISSILEEXPLOSION_EVEONLINE1"
+			sound "MISSILEEXPLOSION_EVEONLINE2"
+			sound "MISSILEEXPLOSION_EVEONLINE3"
+			sound "MISSILEEXPLOSION_EVEONLINE4"
+		missileTravelEffectName "Oblivion_Fire"
+		missileStartTurningDistance 1.000000
+		missileSlowTurnRate 6.000000
+		missileMaxSlowTurnTime 6.000000
+instantAction
+	buffInstantActionType "ApplyBuffToTargetsInRadiusWithTravel"
+	instantActionTriggerType "OnDelay"
+	delayTime 0.000000
+	buffType "BuffOblivionSelf"
+	targetFilter
+		numOwnerships 1
+		ownership "Enemy"
+		numObjects 2
+		object "Titan"
+		object "CapitalShip"
+		numSpaces 1
+		space "Normal"
+		numConstraints 2
+		constraint "HasWeapons"
+		constraint "NotIsBoarded"
+	range
+		Level:0 50000.000000
+		Level:1 50000.000000
+		Level:2 50000.000000
+		Level:3 50000.000000
+	maxTargetCount
+		Level:0 -1.000000
+		Level:1 -1.000000
+		Level:2 -1.000000
+		Level:3 -1.000000
+	effectInfo
+		effectAttachInfo
+			attachType "Invalid"
+		smallEffectName ""
+		mediumEffectName ""
+		largeEffectName ""
+		soundID ""
+	travelSpeed 2000.000000
+	effectStaggerDelay 2.000000	
+	hasWeaponEffects TRUE
+	weaponEffectOriginType "Targetter"
+	weaponEffectAttachInfo
+		attachType "Ability"
+		abilityIndex 0
+	weaponEffectImpactOffsetType "CenterOffsetBySpatialRadius"
+	canWeaponEffectHitHull TRUE
+	canWeaponEffectHitShields TRUE
+	weaponEffectsDef
+		weaponType "Missile"
+		burstCount 3
+		burstDelay 1.400000
+		fireDelay 0.050000
+		muzzleEffectName "Weapon_TechCapitalMissileHeavy_Muzzle"
+		muzzleSoundMinRespawnTime 0.500000
+		muzzleSounds
+			soundCount 1
+			sound "EFFECT_NEUTRONTORPEDO_MUZZLE"
+		hitEffectName "Oblivion_Hit"
+		hitHullEffectSounds
+			soundCount 4
+			sound "MISSILEEXPLOSION_EVEONLINE1"
+			sound "MISSILEEXPLOSION_EVEONLINE2"
+			sound "MISSILEEXPLOSION_EVEONLINE3"
+			sound "MISSILEEXPLOSION_EVEONLINE4"
+		hitShieldsEffectSounds
+			soundCount 4
+			sound "MISSILEEXPLOSION_EVEONLINE1"
+			sound "MISSILEEXPLOSION_EVEONLINE2"
+			sound "MISSILEEXPLOSION_EVEONLINE3"
+			sound "MISSILEEXPLOSION_EVEONLINE4"
+		missileTravelEffectName "Oblivion_Fire"
+		missileStartTurningDistance 1.000000
+		missileSlowTurnRate 6.000000
+		missileMaxSlowTurnTime 6.000000
+numPeriodicActions 0
+numOverTimeActions 0
+numEntityModifiers 0
+numEntityBoolModifiers 0
+numFinishConditions 1
+finishCondition
+	finishConditionType "AllOnDelayInstantActionsDone"

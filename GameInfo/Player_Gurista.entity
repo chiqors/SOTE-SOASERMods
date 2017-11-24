@@ -21,30 +21,31 @@ entities
 			entityDefName "Amarr_Structure_TradePort"
 			entityDefName "Amarr_Structure_Refinery"
 		Page:1
-			count 6
+			count 4
 			entityDefName "Amarr_Structure_SmallPulseLaserBattery"
 			entityDefName "Amarr_Structure_ECMBattery"
 			entityDefName "Amarr_Structure_MediumPulseLaserBattery"
 			entityDefName "Amarr_Structure_JumpBridge"
-			entityDefName "PLANETMODULE_TECHORBITALSHIELDGENERATOR"
-			entityDefName "PLANETMODULE_TECHORBITALCANNON"
 	titanInfo
 		Page:0
 			count 1
-			entityDefName "Guristas_ShipTitan_Leviathan"
+			entityDefName "Guristas_ShipTitan_komodo"
 	capitalShipInfo
 		Page:0
 			count 4
 			entityDefName "Guristas_ShipCarrier_Chimera"
-			entityDefName "Guristas_ShipFAUX_Minokawa"
+			entityDefName "Guristas_ShipFAUX_Loggerhead"
 			entityDefName "Guristas_ShipSupercarrier_Wyvern"
-			entityDefName "Guristas_ShipDreadnought_Phoenix"
+			entityDefName "Guristas_ShipDreadnought_Caiman"
 	frigateInfo
 		Page:0
-			count 3
+			count 6
 			entityDefName "Guristas_ShipCruiser_Gila"
 			entityDefName "Guristas_ShipFrigate_Worm"
 			entityDefName "Guristas_ShipCruiser_Osprey"
+			entityDefName "Guristas_ShipBattlecruiser_Drake"
+			entityDefName "Guristas_Ship_Estamel_Tharchon"
+			entityDefName "Guristas_Ship_Thorn_Eney"
 		Page:1
 			count 1
 			entityDefName "Guristas_ShipBattleshipRattlesnake"
@@ -56,7 +57,7 @@ entities
 	starBaseInfo
 		count 1
 		entityDefName "Guristas_StructureShipyard_Raitaru"
-	flagship "FrigatePirateHeavy"
+	flagship "Guristas_ShipSupercarrier_Wyvern"
 debrisData
 	numRandomMeshNamesLarge 8
 	randomMeshName "DebrisTechGenericLarge0"

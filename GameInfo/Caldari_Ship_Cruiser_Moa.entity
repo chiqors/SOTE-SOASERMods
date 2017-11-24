@@ -11,8 +11,8 @@ frigateRoleType "Support"
 statCountType "FrigateCarrier"
 mainViewIcon "MAINVIEWICON_FRIGATE_BLACKBIRD"
 picture ""
-NameStringID "IDS_FRIGATE_BLACKBIRD_NAME"
-DescriptionStringID "IDS_FRIGATE_BLACKBIRD_DESCRIPTION"
+NameStringID "IDS_FRIGATE_MOA_NAME"
+DescriptionStringID "IDS_FRIGATE_MOA_DESCRIPTION"
 counterDescriptionStringID "IDS_COUNTERDESC_CORVETTE_TECH"
 basePrice
 	credits 324.000000
@@ -31,7 +31,7 @@ maxMitigation 0.20000
 Prerequisites
 	NumResearchPrerequisites 1
 	ResearchPrerequisite
-		Subject "Caldari_ResearchSubject_SubCapitalAccess_Moa"
+		Subject "Caldari_ResearchSubject_SubCapitalAccess_Onyx"
 		Level 1
 	RequiredFactionNameID ""
 	RequiredCompletedResearchSubjects 0
@@ -126,7 +126,7 @@ NumSoundsFor:ONSTARTPHASEJUMP 1
 SoundID "FRIGATE_TECHCARRIER_ONSTARTPHASEJUMP_0"
 MeshNameInfoCount 1
 MeshNameInfo
-	meshName "blackbird"
+	meshName "eagle"
 	criteriaType "None"
 meshNameIncreasedEffectName ""
 meshNameDecreasedEffectName ""

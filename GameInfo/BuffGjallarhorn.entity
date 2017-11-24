@@ -7,7 +7,7 @@ allowFirstSpawnerToStack FALSE
 buffExclusivityForAIType "ExclusiveForAllPlayers"
 isInterruptable TRUE
 isChannelling FALSE
-numInstantActions 4
+numInstantActions 5
 instantAction
 	buffInstantActionType "ApplyBuffToTargetWithTravelNoFilterNoRange"
 	instantActionTriggerType "OnDelay"
@@ -24,53 +24,53 @@ instantAction
 	canWeaponEffectHitShields TRUE
 	weaponEffectsDef
 		weaponType "Projectile"
-		burstCount 1
-		burstDelay 0.300000
-		fireDelay 0.300000
+		burstCount 50
+		burstDelay 0.100000
+		fireDelay 0.0500000
 		muzzleEffectName "Weapon_TechCapitalMissileHeavy_Muzzle"
 		muzzleSoundMinRespawnTime 0.500000
 		muzzleSounds
 			soundCount 1
 			sound "WEAPON_ARTYCANNONHEAVY_MUZZLE"
-		hitEffectName "Ability_MeteorStrikePlanetImpact"
+		hitEffectName "Gjallarhorn_Hit"
 		hitHullEffectSounds
 			soundCount 4
-			sound "MISSILEEXPLOSION_EVEONLINE1"
-			sound "MISSILEEXPLOSION_EVEONLINE2"
-			sound "MISSILEEXPLOSION_EVEONLINE3"
-			sound "MISSILEEXPLOSION_EVEONLINE4"
+			sound "Gjallarhorn_hit"
+			sound "Gjallarhorn_hit"
+			sound "Gjallarhorn_hit"
+			sound "Gjallarhorn_hit"
 		hitShieldsEffectSounds
 			soundCount 4
-			sound "MISSILEEXPLOSION_EVEONLINE1"
-			sound "MISSILEEXPLOSION_EVEONLINE2"
-			sound "MISSILEEXPLOSION_EVEONLINE3"
-			sound "MISSILEEXPLOSION_EVEONLINE4"
+			sound "Gjallarhorn_hit"
+			sound "Gjallarhorn_hit"
+			sound "Gjallarhorn_hit"
+			sound "Gjallarhorn_hit"
 		projectileTravelEffectName "Weapon_TechCapitalAutoCannonMedium_Travel"
 instantAction
 	buffInstantActionType "ApplyBuffToTargetWithTravelNoFilterNoRange"
 	instantActionTriggerType "OnDelay"
-	delayTime 4.000000
+	delayTime 1.000000
 	buffType "BuffOblivionSelf"
 	travelSpeed 7000.000000
 	hasWeaponEffects TRUE
 	weaponEffectOriginType "Targetter"
 	weaponEffectAttachInfo
 		attachType "Ability"
-		abilityIndex 0
+		abilityIndex 1
 	weaponEffectImpactOffsetType "CenterOffsetBySpatialRadius"
 	canWeaponEffectHitHull TRUE
 	canWeaponEffectHitShields TRUE
 	weaponEffectsDef
 		weaponType "Projectile"
-		burstCount 1
-		burstDelay 0.300000
-		fireDelay 0.300000
+		burstCount 50
+		burstDelay 0.100000
+		fireDelay 0.0500000
 		muzzleEffectName "Weapon_TechCapitalMissileHeavy_Muzzle"
 		muzzleSoundMinRespawnTime 0.500000
 		muzzleSounds
 			soundCount 1
 			sound "WEAPON_ARTYCANNONHEAVY_MUZZLE"
-		hitEffectName "Ability_MeteorStrikePlanetImpact"
+		hitEffectName "Gjallarhorn_Hit"
 		hitHullEffectSounds
 			soundCount 1
 			sound "WEAPON_ARTYCANNONHEAVY_HIT"
@@ -81,79 +81,117 @@ instantAction
 instantAction
 	buffInstantActionType "ApplyBuffToTargetWithTravelNoFilterNoRange"
 	instantActionTriggerType "OnDelay"
-	delayTime 6.000000
+	delayTime 1.500000
 	buffType "BuffOblivionSelf"
 	travelSpeed 7000.000000
 	hasWeaponEffects TRUE
 	weaponEffectOriginType "Targetter"
 	weaponEffectAttachInfo
 		attachType "Ability"
-		abilityIndex 0
+		abilityIndex 2
 	weaponEffectImpactOffsetType "CenterOffsetBySpatialRadius"
 	canWeaponEffectHitHull TRUE
 	canWeaponEffectHitShields TRUE
 	weaponEffectsDef
 		weaponType "Projectile"
-		burstCount 1
-		burstDelay 0.300000
-		fireDelay 0.300000
+		burstCount 50
+		burstDelay 0.100000
+		fireDelay 0.0500000
 		muzzleEffectName "Weapon_TechCapitalMissileHeavy_Muzzle"
 		muzzleSoundMinRespawnTime 0.500000
 		muzzleSounds
 			soundCount 1
 			sound "WEAPON_ARTYCANNONHEAVY_MUZZLE"
-		hitEffectName "Ability_MeteorStrikePlanetImpact"
+		hitEffectName "Gjallarhorn_Hit"
 		hitHullEffectSounds
 			soundCount 4
-			sound "MISSILEEXPLOSION_EVEONLINE1"
-			sound "MISSILEEXPLOSION_EVEONLINE2"
-			sound "MISSILEEXPLOSION_EVEONLINE3"
-			sound "MISSILEEXPLOSION_EVEONLINE4"
+			sound "Gjallarhorn_hit"
+			sound "Gjallarhorn_hit"
+			sound "Gjallarhorn_hit"
+			sound "Gjallarhorn_hit"
 		hitShieldsEffectSounds
 			soundCount 4
-			sound "MISSILEEXPLOSION_EVEONLINE1"
-			sound "MISSILEEXPLOSION_EVEONLINE2"
-			sound "MISSILEEXPLOSION_EVEONLINE3"
-			sound "MISSILEEXPLOSION_EVEONLINE4"
+			sound "Gjallarhorn_hit"
+			sound "Gjallarhorn_hit"
+			sound "Gjallarhorn_hit"
+			sound "Gjallarhorn_hit"
 		projectileTravelEffectName "Weapon_TechCapitalAutoCannonMedium_Travel"		
 instantAction
 	buffInstantActionType "ApplyBuffToTargetWithTravelNoFilterNoRange"
 	instantActionTriggerType "OnDelay"
-	delayTime 8.000000
+	delayTime 2.000000
 	buffType "BuffOblivionSelf"
 	travelSpeed 7000.000000
 	hasWeaponEffects TRUE
 	weaponEffectOriginType "Targetter"
 	weaponEffectAttachInfo
 		attachType "Ability"
-		abilityIndex 0
+		abilityIndex 3
 	weaponEffectImpactOffsetType "CenterOffsetBySpatialRadius"
 	canWeaponEffectHitHull TRUE
 	canWeaponEffectHitShields TRUE
 	weaponEffectsDef
 		weaponType "Projectile"
-		burstCount 1
-		burstDelay 0.300000
-		fireDelay 0.300000
+		burstCount 50
+		burstDelay 0.100000
+		fireDelay 0.0500000
 		muzzleEffectName "Weapon_TechCapitalMissileHeavy_Muzzle"
 		muzzleSoundMinRespawnTime 0.500000
 		muzzleSounds
 			soundCount 1
 			sound "WEAPON_ARTYCANNONHEAVY_MUZZLE"
-		hitEffectName "Ability_MeteorStrikePlanetImpact"
+		hitEffectName "Gjallarhorn_Hit"
 		hitHullEffectSounds
 			soundCount 4
-			sound "MISSILEEXPLOSION_EVEONLINE1"
-			sound "MISSILEEXPLOSION_EVEONLINE2"
-			sound "MISSILEEXPLOSION_EVEONLINE3"
-			sound "MISSILEEXPLOSION_EVEONLINE4"
+			sound "Gjallarhorn_hit"
+			sound "Gjallarhorn_hit"
+			sound "Gjallarhorn_hit"
+			sound "Gjallarhorn_hit"
 		hitShieldsEffectSounds
 			soundCount 4
-			sound "MISSILEEXPLOSION_EVEONLINE1"
-			sound "MISSILEEXPLOSION_EVEONLINE2"
-			sound "MISSILEEXPLOSION_EVEONLINE3"
-			sound "MISSILEEXPLOSION_EVEONLINE4"
+			sound "Gjallarhorn_hit"
+			sound "Gjallarhorn_hit"
+			sound "Gjallarhorn_hit"
+			sound "Gjallarhorn_hit"
 		projectileTravelEffectName "Weapon_TechCapitalAutoCannonMedium_Travel"
+instantAction
+	buffInstantActionType "ApplyBuffToTargetWithTravelNoFilterNoRange"
+	instantActionTriggerType "OnDelay"
+	delayTime 2.000000
+	buffType "BuffOblivionSelf"
+	travelSpeed 7000.000000
+	hasWeaponEffects TRUE
+	weaponEffectOriginType "Targetter"
+	weaponEffectAttachInfo
+		attachType "Ability"
+		abilityIndex 3
+	weaponEffectImpactOffsetType "CenterOffsetBySpatialRadius"
+	canWeaponEffectHitHull TRUE
+	canWeaponEffectHitShields TRUE
+	weaponEffectsDef
+		weaponType "Projectile"
+		burstCount 50
+		burstDelay 0.100000
+		fireDelay 0.0500000
+		muzzleEffectName "Weapon_TechCapitalMissileHeavy_Muzzle"
+		muzzleSoundMinRespawnTime 0.500000
+		muzzleSounds
+			soundCount 1
+			sound "WEAPON_ARTYCANNONHEAVY_MUZZLE"
+		hitEffectName "Gjallarhorn_Hit"
+		hitHullEffectSounds
+			soundCount 4
+			sound "Gjallarhorn_hit"
+			sound "Gjallarhorn_hit"
+			sound "Gjallarhorn_hit"
+			sound "Gjallarhorn_hit"
+		hitShieldsEffectSounds
+			soundCount 4
+			sound "Gjallarhorn_hit"
+			sound "Gjallarhorn_hit"
+			sound "Gjallarhorn_hit"
+			sound "Gjallarhorn_hit"
+		projectileTravelEffectName "Weapon_TechCapitalAutoCannonMedium_Travel"		
 numPeriodicActions 0
 numOverTimeActions 0
 numEntityModifiers 0

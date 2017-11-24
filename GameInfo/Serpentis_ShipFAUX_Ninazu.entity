@@ -50,13 +50,13 @@ basePrice
 	metal 875.000000
 	crystal 608.000000
 slotCount 1.000000
-BuildTime 75.000000
+BuildTime 112.000000
 MaxHullPoints
-	StartValue 52500.000000
-	ValueIncreasePerLevel 5250.000000
+	StartValue 188000.000000
+	ValueIncreasePerLevel 18800.000000
 MaxShieldPoints
-	StartValue 36500.000000
-	ValueIncreasePerLevel 3650.000000
+	StartValue 136000.000000
+	ValueIncreasePerLevel 13600.000000
 HullPointRestoreRate
 	StartValue 10.000000
 	ValueIncreasePerLevel 1.00000
@@ -82,7 +82,10 @@ NameStringID "IDS_CAPITALSHIP_SERPENTIS_NINAZU_NAME"
 DescriptionStringID "IDS_CAPITALSHIP_NINAZU_DESCRIPTION"
 picture "PICTURE_CAPITAL_NINAZU"
 Prerequisites
-	NumResearchPrerequisites 0
+	NumResearchPrerequisites 1
+	ResearchPrerequisite
+		Subject "Gallente_ResearchSubject_CapitalAccess_SerpentisFAUX"
+		Level 2
 	RequiredFactionNameID ""
 	RequiredCompletedResearchSubjects 0
 roleType "Invalid"
@@ -91,7 +94,7 @@ numRandomDebrisLarge 0
 numRandomDebrisSmall 0
 numSpecificDebris 0
 armorType "VeryHeavy"
-hudIcon "HUDICON_CAPITALSHIP_NINAZU"
+hudIcon "HUDICON_SERPENTIS_NINAZU"
 smallHudIcon "HUDICONSMALL_CARRIER"
 infoCardIcon "HUDICONSMALL_CARRIER"
 minZoomDistanceMult 1.000000

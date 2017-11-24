@@ -38,14 +38,16 @@ entities
 			entityDefName "BloodRaider_ShipTitan_Molok"
 	capitalShipInfo
 		Page:0
-			count 7
+			count 9
+			entityDefName "Amarr_Ship_ColonyCapital_Rorqual"
 			entityDefName "Amarr_Ship_Carrier_Archon"
 			entityDefName "Amarr_Ship_Carrier_Triage_Archon"
 			entityDefName "Amarr_Ship_Dreadnought_Revelation_LongRange"
 			entityDefName "Amarr_Ship_Supercarrier_Aeon"
-			entityDefName "Amarr_Ship_ColonyCapital_Rorqual"
 			entityDefName "Amarr_Ship_Capital_Titan_Avatar"
-			entityDefName "AllRaces_Ship_Supercarrier_Revenant"
+			entityDefName "BloodRaider_ShipFAUX_Dagon"
+			entityDefName "BloodRaider_ShipDreadnought_Chemosh"
+			entityDefName "BloodRaider_ShipSupercarrier_Aeon"
 	frigateInfo
 		Page:0
 			count 9
@@ -76,7 +78,16 @@ entities
 			entityDefName "AllRaces_Ship_Orca"
 			entityDefName "Amarr_Ship_Tradeship_Bestower"
 	researchInfo
-		count 138
+		count 143
+		entityDefName "RSATitanCapacity"
+		entityDefName "RSACommandShip"		
+		entityDefName "Amarr_ResearchSubject_CapitalAccess_Bloodraiders_Aeon"
+		entityDefName "Amarr_ResearchSubject_CapitalAccess_Chemosh"
+		entityDefName "Amarr_ResearchSubject_CapitalAccess_Dagon"
+		entityDefName "Amarr_ResearchSubject_SubCapitalAccess_Ashimmu"
+		entityDefName "Amarr_ResearchSubject_SubCapitalAccess_Bhallgorn"
+		entityDefName "Amarr_ResearchSubject_SubCapitalAccess_Cruor"
+		entityDefName "RESEARCHSUBJECT_PLANETMODULEACCESS_REPAIRPLATFORMPSI2"		
 		entityDefName "BloodRaider_RESEARCH_TITANACCESS"
 		entityDefName "RESEARCHSUBJECT_DARKFLEET"
 		entityDefName "RSAInterdictor"		
@@ -88,10 +99,6 @@ entities
 		entityDefName "RSAMarauder"
 		entityDefName "RESEARCH_FORCEAI_AID"
 		entityDefName "RESEARCH_FORCEAI_AID2"
-		entityDefName "RESEARCH_FORCEAI_AID3"
-		entityDefName "RESEARCH_FORCEAI_AID4"
-		entityDefName "RESEARCH_FORCEAI_AID5"
-		entityDefName "RESEARCH_FORCEAI_AID6"
 		entityDefName "AllRaces_ResearchSubject_CovertOpsJumpBridge"		
 		entityDefName "AllRaces_ResearchSubject_ArcingVortonProjector"
 		entityDefName "ALLRACES_RESEARCHSUBJECT_ABILITYACCESS_AFTERBURNER"

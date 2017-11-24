@@ -50,13 +50,13 @@ basePrice
 	metal 5250.000000
 	crystal 2167.000000
 slotCount 1.000000
-BuildTime 150.000000
+BuildTime 220.000000
 MaxHullPoints
-	StartValue 315000.000000
-	ValueIncreasePerLevel 3150.000000
+	StartValue 1182000.000000
+	ValueIncreasePerLevel 118200.000000
 MaxShieldPoints
-	StartValue 130000.000000
-	ValueIncreasePerLevel 1300.000000
+	StartValue 487000.000000
+	ValueIncreasePerLevel 48700.000000
 HullPointRestoreRate
 	StartValue 10.000000
 	ValueIncreasePerLevel 0.500000
@@ -85,7 +85,7 @@ Prerequisites
 	NumResearchPrerequisites 1
 	ResearchPrerequisite
 		Subject "BloodRaider_RESEARCH_TITANACCESS"
-		Level 1
+		Level 2
 	RequiredFactionNameID ""
 	RequiredCompletedResearchSubjects 0
 statCountType "Titan"

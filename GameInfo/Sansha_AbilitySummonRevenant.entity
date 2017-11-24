@@ -1,0 +1,57 @@
+﻿TXT
+entityType "Ability"
+buffInstantActionType "SpawnShipsAtPlanet"
+instantActionTriggerType "AlwaysPerform"
+spawnShipsLevelCount 1
+spawnShips
+	minFleetPoints 1.000000
+	maxFleetPoints 1.000000
+	requiredShipCount 0
+	randomShipCount 1
+	randomShip
+			type "AllRaces_Ship_Supercarrier_Revenant"
+		weight 1
+spawnShipsArrivalDelayTime 150.000000
+spawnShipsHyperspaceSpawnType "FleetBeacon"
+needsToFaceTarget FALSE
+canCollideWithTarget TRUE
+moveThruTarget FALSE
+isUltimateAbility FALSE
+maxNumLevels 1
+levelSourceType "ResearchWithoutBase"
+improveSourceResearchSubject "RSATitanCapacity"
+aiUseTime "Anytime"
+aiUseTargetCondition "Any"
+isAutoCastAvailable TRUE
+isAutoCastOnByDefault TRUE
+pickRandomPlanetToExploreForAutoCastTarget FALSE
+ignoreNonCombatShipsForAutoCastTarget TRUE
+onlyAutoCastWhenDamageTakenExceedsPerc 0.000000
+useCostType "ResourcesAndMustHaveShipSlots"
+resourceCost
+	credits 9500.000000
+	metal 4083.000000
+	crystal 1917.000000
+requiredShipSlots
+	Level:0 1.000000
+	Level:1 1.000000
+	Level:2 1.000000
+	Level:3 1.000000
+cooldownTime
+	Level:0 80.000000
+	Level:1 80.000000
+	Level:2 80.000000
+	Level:3 80.000000
+orderAcknowledgementType "ONGENERALORDERISSUED"
+researchPrerequisites
+	NumResearchPrerequisites 1
+	ResearchPrerequisite
+		Subject "RSATitanCapacity"
+		Level 2
+	RequiredFactionNameID ""
+	RequiredCompletedResearchSubjects 0
+nameStringID "IDS_CAPITALSHIP_REVENANT_NAME"
+descStringID "IDS_CAPITALSHIP_REVENANT_DESCRIPTION"
+hudIcon "HUDICON_FRIGATE_PIRATEHEAVY"
+smallHudIcon "HUDICONSMALL_FRIGATE_PIRATEHEAVY"
+infoCardIcon ""

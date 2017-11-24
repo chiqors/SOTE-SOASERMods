@@ -30,7 +30,7 @@ instantAction
 			minCount 1
 			maxCount 2
 		requiredShip
-			type "CorvetteTechRebel"
+			type "Amarr_Ship_Cruiser_Augoror"
 			minCount 8
 			maxCount 10
 		requiredShip

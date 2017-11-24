@@ -20,7 +20,7 @@ range
 	Level:3 20000.000000
 effectInfo
 	effectAttachInfo
-		attachType "Invalid"
+		attachType "Above"
 	smallEffectName ""
 	mediumEffectName ""
 	largeEffectName ""

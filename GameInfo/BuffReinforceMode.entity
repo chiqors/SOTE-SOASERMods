@@ -1,0 +1,64 @@
+﻿TXT
+entityType "Buff"
+onReapplyDuplicateType "PrioritizeNewBuffs"
+buffStackingLimitType "ForAllPlayers"
+stackingLimit 1
+allowFirstSpawnerToStack FALSE
+buffExclusivityForAIType "ExclusiveForAllPlayers"
+isInterruptable FALSE
+isChannelling FALSE
+numInstantActions 1
+instantAction
+	buffInstantActionType "PlayPersistantAttachedEffect"
+	instantActionTriggerType "OnDelay"
+	delayTime 0.000000
+	effectInfo
+		effectAttachInfo
+			attachType "Above"
+		smallEffectName "EVE_Buff_ReinforceMode"
+		mediumEffectName "EVE_Buff_ReinforceMode"
+		largeEffectName "EVE_Buff_ReinforceMode"
+		soundID ""
+numPeriodicActions 0
+numOverTimeActions 3
+overTimeAction
+	buffOverTimeActionType "RestoreAntiMatter"
+	antiMatterRestoreRate
+		Level:0 211.000000
+		Level:1 230.000000
+		Level:2 250.000000
+		Level:3 270.000000
+overTimeAction
+	buffOverTimeActionType "RestoreHull"
+	hullRestoreRate
+		Level:0 1000.000000
+		Level:1 1000.000000
+		Level:2 1000.000000
+		Level:3 1000.000000		
+overTimeAction
+	buffOverTimeActionType "RestoreShields"
+	shieldRestoreRate
+		Level:0 1000.000000
+		Level:1 1000.000000
+		Level:2 1000.000000
+		Level:3 1000.000000		
+numEntityModifiers 0
+numEntityBoolModifiers 6
+entityBoolModifier "CannotBeDamaged"
+entityBoolModifier "CannotBeScuttled"
+entityBoolModifier "DisableConstruction"
+entityBoolModifier "DisableWeapons"
+entityBoolModifier "DisableFighterLaunch"
+entityBoolModifier "DisableModuleFunctionality"
+numFinishConditions 3
+finishCondition
+	finishConditionType "TimeElapsed"
+	time
+		Level:0 180.00000
+		Level:1 180.00000
+		Level:2 180.00000
+		Level:3 180.00000
+finishCondition
+	finishConditionType "AntiMatterDepleted"
+finishCondition
+	finishConditionType "OwnerChanged"

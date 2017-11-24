@@ -24,7 +24,7 @@ instantAction
 	buffInstantActionType "ApplyBuffToSelf"
 	instantActionTriggerType "OnDelay"
 	delayTime 1.000000
-	buffType "BuffJudgmentSelf"
+	buffType "BuffArcingVortonSelf"
 	effectInfo
 		effectAttachInfo
 			attachType "Invalid"

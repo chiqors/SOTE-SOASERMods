@@ -22,10 +22,10 @@ range
 effectInfo
 	effectAttachInfo
 		attachType "Invalid"
-	smallEffectName ""
-	mediumEffectName ""
-	largeEffectName ""
-	soundID ""
+	smallEffectName "Buff_AntiMatterRestoreLarge"
+	mediumEffectName "Buff_AntiMatterRestoreLarge"
+	largeEffectName "Buff_AntiMatterRestoreLarge"
+	soundID "AuroraOminae_Fire"
 needsToFaceTarget FALSE
 canCollideWithTarget TRUE
 moveThruTarget FALSE
