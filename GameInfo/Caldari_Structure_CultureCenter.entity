@@ -28,7 +28,7 @@ statCountType "ModuleCultureCenter"
 Prerequisites
 	NumResearchPrerequisites 1
 	ResearchPrerequisite
-		Subject "RESEARCHSUBJECT_PLANETMODULEACCESS_CULTURECENTERPHASE"
+		Subject "RESEARCHSUBJECT_PLANETMODULEACCESS_CULTURECENTERTECH"
 		Level 1
 	RequiredFactionNameID ""
 	RequiredCompletedResearchSubjects 0
