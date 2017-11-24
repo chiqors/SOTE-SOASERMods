@@ -38,7 +38,7 @@ ParticleSimulation
 		TotalLifeTime 0.000000
 		BillboardAnchor 0
 		ParticleFacing 0
-		PipelineEffectID "Particle_MeshOld.fx"
+		PipelineEffectID "GS_ShadowedShip.fx"
 		AreParticlesAttached TRUE
 		numTextures 2
 		textureName ""
@@ -98,7 +98,7 @@ ParticleSimulation
 		TotalLifeTime 0.000000
 		BillboardAnchor 0
 		ParticleFacing 0
-		PipelineEffectID "Particle_MeshOld.fx"
+		PipelineEffectID "GS_ShadowedShip.fx"
 		AreParticlesAttached TRUE
 		numTextures 2
 		textureName ""
@@ -158,7 +158,7 @@ ParticleSimulation
 		TotalLifeTime 0.000000
 		BillboardAnchor 0
 		ParticleFacing 0
-		PipelineEffectID "Particle_MeshOld.fx"
+		PipelineEffectID "GS_ShadowedShip.fx"
 		AreParticlesAttached TRUE
 		numTextures 2
 		textureName ""
@@ -218,7 +218,7 @@ ParticleSimulation
 		TotalLifeTime 0.000000
 		BillboardAnchor 0
 		ParticleFacing 0
-		PipelineEffectID "Particle_MeshOld.fx"
+		PipelineEffectID "GS_ShadowedShip.fx"
 		AreParticlesAttached TRUE
 		numTextures 2
 		textureName ""

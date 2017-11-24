@@ -139,7 +139,7 @@ TargetCountPerBank:RIGHT 0
 canOnlyTargetStructures FALSE
 hasWeaponLevels FALSE
 mass 10000.000000
-ShieldMeshName "concord_battleship"
+ShieldMeshName "Marshal"
 renderShield TRUE
 maxAccelerationLinear 74.000000
 maxAccelerationStrafe 10.000000
@@ -177,7 +177,7 @@ NumSoundsFor:ONSTARTPHASEJUMP 1
 SoundID "CAPITALSHIP_TECHSIEGE_ONSTARTPHASEJUMP_0"
 MeshNameInfoCount 1
 MeshNameInfo
-	meshName "concord_battleship"
+	meshName "Marshal"
 	criteriaType "None"
 meshNameIncreasedEffectName ""
 meshNameDecreasedEffectName ""
