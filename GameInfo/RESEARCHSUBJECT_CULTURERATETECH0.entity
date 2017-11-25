@@ -10,7 +10,10 @@ researchWindowLocation
 	pos [ 3 , 0 ]
 ResearchField "NonCombat"
 Prerequisites
-	NumResearchPrerequisites 0
+	NumResearchPrerequisites 1
+	ResearchPrerequisite
+		Subject "RESEARCHSUBJECT_PLANETMODULEACCESS_CULTURECENTERTECH"
+		Level 1
 	RequiredFactionNameID ""
 	RequiredCompletedResearchSubjects 0
 MinimumArtifactLevel -1
