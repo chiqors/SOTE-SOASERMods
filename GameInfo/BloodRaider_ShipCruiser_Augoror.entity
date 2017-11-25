@@ -11,7 +11,7 @@ frigateRoleType "Support"
 statCountType "FrigateUtility1"
 mainViewIcon "MAINVIEWICON_FRIGATE_TECHUTILITY1"
 picture "PICTURE_FRIGATE_AUGOROR"
-NameStringID "IDS_FRIGATE_BLOODRAIDER_ASHIMUU_NAME"
+NameStringID "IDS_FRIGATE_BLOODRAIDER_AUGOROR_NAME"
 DescriptionStringID "IDS_FRIGATE_TECHUTILITY1_DESCRIPTION"
 counterDescriptionStringID "IDS_COUNTERDESC_CORVETTE_TECH"
 basePrice
@@ -96,7 +96,7 @@ TargetCountPerBank:RIGHT 0
 canOnlyTargetStructures FALSE
 hasWeaponLevels FALSE
 mass 4000.000000
-ShieldMeshName "Augoror"
+ShieldMeshName "AugororBlood"
 renderShield TRUE
 maxAccelerationLinear 90.000000
 maxAccelerationStrafe 10.000000

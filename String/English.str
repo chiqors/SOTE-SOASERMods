@@ -1,5 +1,5 @@
 TXT
-NumStrings 8807
+NumStrings 8809
 StringInfo
     ID "IDS_ABILITY_RORQUALPANIC_NAME"
 	Value "P.A.N.I.C Module"
@@ -9649,6 +9649,9 @@ StringInfo
 	ID "IDS_CAPITALSHIP_TECHCOLONY_DESCRIPTION"
 	Value "After an increase in the need for anti sub-capital ships, the Revelation class dreadnought was redesign. Sporting 3 groups of 4 mega pulse lasers and a specialized siege mode,"
 StringInfo
+	ID "IDS_CAPITALSHIP_BLOODRAIDER_AEON_NAME"
+	Value "Blood Raider Aeon"
+StringInfo
 	ID "IDS_CAPITALSHIP_TECHCARRIER_NAME"
 	Value "Aeon"
 StringInfo
@@ -11467,8 +11470,11 @@ StringInfo
 	ID "IDS_FRIGATE_TECHLONGRANGE_NAME"
 	Value "Omen"
 StringInfo
-	ID "IDS_FRIGATE_ASHIMUU_NAME"
-	Value "BloodRaider Ashimuu"	
+	ID "IDS_FRIGATE_BLOODRAIDER_PROPHECY_NAME"
+	Value "Blood Raider Prophecy"	
+StringInfo
+	ID "IDS_FRIGATE_BLOODRAIDER_ASHIMUU_NAME"
+	Value "Blood Raider Ashimuu"	
 StringInfo
 	ID "IDS_FRIGATE_ASHIMUU_DESCRIPTION"
 	Value "In those of the Empire's regions where naughty children are frightened into submission with tales of the Blood Raiders and their gallery of horrors, the terrible spear of the Ashimmu is known by all as a bringer of things worse than death. This is one of the few things that small children and capsule pilots generally agree upon."		
@@ -11503,7 +11509,7 @@ StringInfo
 	ID "IDS_FRIGATE_TECHUTILITY1_NAME"
 	Value "Augoror"
 StringInfo
-	ID "IDS_FRIGATE_BLOODRAIDER_ASHIMUU_NAME"
+	ID "IDS_FRIGATE_BLOODRAIDER_AUGOROR_NAME"
 	Value "Blood Raider Augoror"	
 StringInfo
 	ID "IDS_FRIGATE_TECHUTILITY1_DESCRIPTION"
@@ -25835,7 +25841,7 @@ StringInfo
 	Value "The Autothysian Lancer is a Drifter-allied drone with a similar base design to the Circadian Seekers but is much more dangerous, sporting an upgraded array of defenses and weapons. Though highly militarized in response to capsuleer resistance, the drone still explores New Eden with the mechanical indifference seen in previous, weaker variants."
 StringInfo
 	ID "IDS_BLOODRAIDER_SHIPYARD_NAME"
-	Value "BloodRaider Shipyard"	
+	Value "Blood Raider Shipyard"	
 StringInfo
 	ID "IDS_ABILITY_DEPLOYDictorBubble_NAME"
 	Value "Interdictor Probe"		

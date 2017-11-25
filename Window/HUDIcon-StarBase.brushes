@@ -254,37 +254,37 @@ brush
 	name "HUDIconStarBaseUpgradeTechToughness0"
 	content "States"
 	Disabled
-		fileName "Ships_Buttons_Disabled"
+		fileName "Buttons_Research_Disabled"
 		pixelBox [ 515 , 141 , 47 , 33 ]
 	Pressed
-		fileName "Ships_Buttons_Pressed"
+		fileName "Buttons_Research_Pressed"
 		pixelBox [ 515 , 141 , 47 , 33 ]
 	CursorOver
-		fileName "Ships_Buttons_CursorOver"
+		fileName "Buttons_Research_CursorOver"
 		pixelBox [ 515 , 141 , 47 , 33 ]
 	Focused
-		fileName "Ships_Buttons_Normal"
+		fileName "Buttons_Research_Normal"
 		pixelBox [ 515 , 141 , 47 , 33 ]
 	Normal
-		fileName "Ships_Buttons_Normal"
+		fileName "Buttons_Research_Normal"
 		pixelBox [ 515 , 141 , 47 , 33 ]	
 brush
 	name "HUDIconStarBaseUpgradeTechToughness1"
 	content "States"
 	Disabled
-		fileName "Ships_Buttons_Disabled"
+		fileName "Buttons_Research_Disabled"
 		pixelBox [ 566 , 141 , 47 , 33 ]
 	Pressed
-		fileName "Ships_Buttons_Pressed"
+		fileName "Buttons_Research_Pressed"
 		pixelBox [ 566 , 141 , 47 , 33 ]
 	CursorOver
-		fileName "Ships_Buttons_CursorOver"
+		fileName "Buttons_Research_CursorOver"
 		pixelBox [ 566 , 141 , 47 , 33 ]
 	Focused
-		fileName "Ships_Buttons_Normal"
+		fileName "Buttons_Research_Normal"
 		pixelBox [ 566 , 141 , 47 , 33 ]
 	Normal
-		fileName "Ships_Buttons_Normal"
+		fileName "Buttons_Research_Normal"
 		pixelBox [ 566 , 141 , 47 , 33 ]
 brush
 	name "HUDIconStarBaseUpgradeTechToughness2"

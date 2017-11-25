@@ -54,10 +54,10 @@ instantAction
 			type "Amarr_Ship_Carrier_Archon"
 			weight 1
 		randomShip
-			type "CAPITALSHIP_TECHSUPPORT"
+			type "Amarr_Ship_Dreadnought_Revelation_ShortRange"
 			weight 1
 		randomShip
-			type "CAPITALSHIP_TECHSUPPORT"
+			type "Amarr_Ship_Carrier_Triage_Archon"
 			weight 1
 		randomShip
 			type "Amarr_Ship_ColonyCapital_Rorqual"

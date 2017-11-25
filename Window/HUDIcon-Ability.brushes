@@ -5865,7 +5865,7 @@ brush
 		pixelBox [ 821 , 659 , 46 , 32 ]
 	Normal
 		fileName "Buttons_Abilities_Normal"
-		pixelBox [ 821 , 569 , 46 , 32 ]
+		pixelBox [ 821 , 659 , 46 , 32 ]
 brush
 	name "HUDICON_ENERGYNEUTRALIZATIONBURST"
 	content "States"

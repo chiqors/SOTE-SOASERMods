@@ -153,7 +153,7 @@ TargetCountPerBank:LEFT 0
 TargetCountPerBank:RIGHT 0
 canOnlyTargetStructures FALSE
 mass 25000.000000
-ShieldMeshName "Revelation"
+ShieldMeshName "Chemosh"
 renderShield TRUE
 maxAccelerationLinear 13.750000
 maxAccelerationStrafe 1.000000
@@ -189,7 +189,7 @@ NumSoundsFor:ONSTARTPHASEJUMP 1
 SoundID "CAPITALSHIP_TECHCOLONY_ONSTARTPHASEJUMP_0"
 MeshNameInfoCount 1
 MeshNameInfo
-	meshName "blooddread"
+	meshName "Chemosh"
 	criteriaType "None"
 meshNameIncreasedEffectName ""
 meshNameDecreasedEffectName ""
