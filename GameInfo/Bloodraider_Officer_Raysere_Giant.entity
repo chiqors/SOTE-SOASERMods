@@ -101,7 +101,7 @@ TargetCountPerBank:RIGHT 0
 canOnlyTargetStructures FALSE
 hasWeaponLevels FALSE
 mass 10000.000000
-ShieldMeshName "Apocalypse"
+ShieldMeshName "Apocalypse-BloodRaider"
 renderShield TRUE
 maxAccelerationLinear 74.000000
 maxAccelerationStrafe 10.000000
@@ -139,7 +139,7 @@ NumSoundsFor:ONSTARTPHASEJUMP 1
 SoundID "CAPITALSHIP_TECHSIEGE_ONSTARTPHASEJUMP_0"
 MeshNameInfoCount 1
 MeshNameInfo
-	meshName "Apocalypse"
+	meshName "Apocalypse-BloodRaider"
 	criteriaType "None"
 meshNameIncreasedEffectName ""
 meshNameDecreasedEffectName ""

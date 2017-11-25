@@ -2669,7 +2669,7 @@ planetItemsTemplate
 planetItemsTemplate
 	templateName "Template:LocalMilitiaVeryWeak2"
 	subTemplates 0
-	groups 19
+	groups 17
 		group
 			condition
 				type "PlanetOwnerIsMilitia"
@@ -2744,14 +2744,6 @@ planetItemsTemplate
 		group
 			condition
 				type "PlanetOwnerIsMilitiaWithChance"
-				param "0.3"
-			owner "BloodRaider"
-			colonizeChance 0
-			items 1		
-				item "BloodRaider:Frigate:Colony"
-		group
-			condition
-				type "PlanetOwnerIsMilitiaWithChance"
 				param "0.1"
 			owner "BloodRaider"
 			colonizeChance 0
@@ -2763,7 +2755,7 @@ planetItemsTemplate
 				param ""
 			owner "BloodRaider"
 			colonizeChance 0
-			items 10
+			items 9
 				item "BloodRaider:Frigate:Frigate"
 				item "BloodRaider:Frigate:Frigate"
 				item "BloodRaider:Frigate:Frigate"
@@ -2773,7 +2765,6 @@ planetItemsTemplate
 				item "BloodRaider:Frigate:Siege"
 				item "BloodRaider:Frigate:Siege"			
 				item "BloodRaider:Frigate:Siege"
-				item "BloodRaider:Frigate:Colony"
 		group
 			condition
 				type "NoPlanetOwnerWithChance"
@@ -2821,14 +2812,6 @@ planetItemsTemplate
 		group
 			condition
 				type "NoPlanetOwnerWithChance"
-				param "0.4"
-			owner "BloodRaider"
-			colonizeChance 0
-			items 1
-				item "BloodRaider:Frigate:Colony"
-		group
-			condition
-				type "NoPlanetOwnerWithChance"
 				param "0.2"
 			owner "BloodRaider"
 			colonizeChance 0
@@ -2861,7 +2844,7 @@ planetItemsTemplate
 planetItemsTemplate
 	templateName "Template:LocalMilitiaVeryWeak"
 	subTemplates 0
-	groups 18
+	groups 16
 		group
 			condition
 				type "PlanetOwnerIsMilitia"
@@ -2936,14 +2919,6 @@ planetItemsTemplate
 		group
 			condition
 				type "PlanetOwnerIsMilitiaWithChance"
-				param "0.4"
-			owner "PlanetOwner"
-			colonizeChance 0
-			items 1		
-				item "Angel:Frigate:Colony"
-		group
-			condition
-				type "PlanetOwnerIsMilitiaWithChance"
 				param "0.1"
 			owner "PlanetOwner"
 			colonizeChance 0
@@ -2955,7 +2930,7 @@ planetItemsTemplate
 				param ""
 			owner "Angel"
 			colonizeChance 0
-			items 10
+			items 9
 				item "Angel:Frigate:Frigate"
 				item "Angel:Frigate:Frigate"
 				item "Angel:Frigate:Frigate"
@@ -2965,7 +2940,6 @@ planetItemsTemplate
 				item "Angel:Frigate:Siege"
 				item "Angel:Frigate:Siege"			
 				item "Angel:Frigate:Siege"
-				item "Angel:Frigate:Colony"
 		group
 			condition
 				type "NoPlanetOwnerWithChance"
@@ -3010,14 +2984,6 @@ planetItemsTemplate
 			items 2				
 				item "Angel:Frigate:Logistics"
 				item "Angel:Frigate:Logistics"
-		group
-			condition
-				type "NoPlanetOwnerWithChance"
-				param "0.4"
-			owner "Angel"
-			colonizeChance 0
-			items 1
-				item "Angel:Frigate:Colony"
 		group
 			condition
 				type "NoPlanetOwnerWithChance"
@@ -3557,8 +3523,7 @@ planetItemsTemplate
 				param ""
 			owner "Serpentis"
 			colonizeChance 1
-			items 63
-				item "Serpentis:Frigate:Colony"
+			items 62
 				item "Serpentis:Frigate:Battleship"
 				item "Serpentis:Frigate:Battleship"
 				item "Serpentis:Frigate:Battleship"
@@ -3668,8 +3633,7 @@ planetItemsTemplate
 				param ""
 			owner "Serpentis"
 			colonizeChance 1
-			items 60
-				item "Serpentis:Frigate:Colony"			
+			items 59		
 				item "Serpentis:Frigate:Battleship"
 				item "Serpentis:Frigate:Battleship"
 				item "Serpentis:Frigate:Battleship"
@@ -3784,8 +3748,7 @@ planetItemsTemplate
 				param ""
 			owner "Serpentis"
 			colonizeChance 1
-			items 56
-				item "Serpentis:Frigate:Colony"			
+			items 55		
 				item "Serpentis:Frigate:Battleship"
 				item "Serpentis:Frigate:Battleship"
 				item "Serpentis:Frigate:Battleship"
@@ -4044,8 +4007,7 @@ planetItemsTemplate
 				param ""
 			owner "BloodRaider"
 			colonizeChance 1
-			items 63
-				item "BloodRaider:Frigate:Colony"
+			items 62
 				item "BloodRaider:Frigate:Battleship"
 				item "BloodRaider:Frigate:Battleship"
 				item "BloodRaider:Frigate:Battleship"
@@ -4155,8 +4117,7 @@ planetItemsTemplate
 				param ""
 			owner "BloodRaider"
 			colonizeChance 1
-			items 60
-				item "BloodRaider:Frigate:Colony"			
+			items 59		
 				item "BloodRaider:Frigate:Battleship"
 				item "BloodRaider:Frigate:Battleship"
 				item "BloodRaider:Frigate:Battleship"
@@ -4271,8 +4232,7 @@ planetItemsTemplate
 				param ""
 			owner "BloodRaider"
 			colonizeChance 1
-			items 56
-				item "BloodRaider:Frigate:Colony"			
+			items 55		
 				item "BloodRaider:Frigate:Battleship"
 				item "BloodRaider:Frigate:Battleship"
 				item "BloodRaider:Frigate:Battleship"
@@ -4531,8 +4491,7 @@ planetItemsTemplate
 				param ""
 			owner "Angel"
 			colonizeChance 1
-			items 63
-				item "Angel:Frigate:Colony"
+			items 62
 				item "Angel:Frigate:Battleship"
 				item "Angel:Frigate:Battleship"
 				item "Angel:Frigate:Battleship"
@@ -4642,8 +4601,7 @@ planetItemsTemplate
 				param ""
 			owner "Angel"
 			colonizeChance 1
-			items 60
-				item "Angel:Frigate:Colony"			
+			items 59		
 				item "Angel:Frigate:Battleship"
 				item "Angel:Frigate:Battleship"
 				item "Angel:Frigate:Battleship"
@@ -4758,8 +4716,7 @@ planetItemsTemplate
 				param ""
 			owner "Angel"
 			colonizeChance 1
-			items 56
-				item "Angel:Frigate:Colony"			
+			items 55	
 				item "Angel:Frigate:Battleship"
 				item "Angel:Frigate:Battleship"
 				item "Angel:Frigate:Battleship"
@@ -5018,8 +4975,7 @@ planetItemsTemplate
 				param ""
 			owner "Guristas"
 			colonizeChance 1
-			items 63
-				item "Guristas:Frigate:Colony"
+			items 62
 				item "Guristas:Frigate:Battleship"
 				item "Guristas:Frigate:Battleship"
 				item "Guristas:Frigate:Battleship"
@@ -5129,8 +5085,7 @@ planetItemsTemplate
 				param ""
 			owner "Guristas"
 			colonizeChance 1
-			items 60
-				item "Guristas:Frigate:Colony"			
+			items 59		
 				item "Guristas:Frigate:Battleship"
 				item "Guristas:Frigate:Battleship"
 				item "Guristas:Frigate:Battleship"
@@ -5245,8 +5200,7 @@ planetItemsTemplate
 				param ""
 			owner "Guristas"
 			colonizeChance 1
-			items 56
-				item "Guristas:Frigate:Colony"			
+			items 55		
 				item "Guristas:Frigate:Battleship"
 				item "Guristas:Frigate:Battleship"
 				item "Guristas:Frigate:Battleship"

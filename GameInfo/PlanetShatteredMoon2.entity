@@ -186,7 +186,7 @@ planetUpgradeDef
 			smugglingPercent 0.045000
 ringsChance 0.000000
 isColonizable FALSE
-planetTypeForResearch "Moon"
+planetTypeForResearch "Uncolonizable"
 skyboxScalarsCount 5
 skyboxScalars
 	diffuseScalar 1.000000

@@ -153,7 +153,7 @@ TargetCountPerBank:LEFT 0
 TargetCountPerBank:RIGHT 0
 canOnlyTargetStructures FALSE
 mass 20000.000000
-ShieldMeshName "aforce"
+ShieldMeshName "bloodraiderfaux"
 renderShield TRUE
 maxAccelerationLinear 13.750000
 maxAccelerationStrafe 1.000000
@@ -190,7 +190,7 @@ NumSoundsFor:ONSTARTPHASEJUMP 1
 SoundID "CAPITALSHIP_TECHBATTLESHIP_ONSTARTPHASEJUMP_0"
 MeshNameInfoCount 1
 MeshNameInfo
-	meshName "aforce"
+	meshName "bloodraiderfaux"
 	criteriaType "None"
 meshNameIncreasedEffectName ""
 meshNameDecreasedEffectName ""

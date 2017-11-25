@@ -78,7 +78,7 @@ AntiMatterRestoreRate
 CultureProtectRate
 	StartValue 1.400000
 	ValueIncreasePerLevel 0.050000
-NameStringID "IDS_CAPITALSHIP_TECHCARRIER_NAME"
+NameStringID "IDS_CAPITALSHIP_BLOODRAIDER_AEON_NAME"
 DescriptionStringID "IDS_CAPITALSHIP_TECHCARRIER_DESCRIPTION"
 picture "PICTURE_CAPITAL_AEON"
 Prerequisites

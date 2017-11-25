@@ -13,7 +13,7 @@ frigateRoleType "Carrier"
 statCountType "FrigateHeavy"
 mainViewIcon "MAINVIEWICON_FRIGATE_TECHUTILITY0"
 picture "PICTURE_FRIGATE_PROPHECY"
-NameStringID "IDS_FRIGATE_TECHUTILITY0_NAME"
+NameStringID "IDS_FRIGATE_BLOODRAIDER_PROPHECY_NAME"
 DescriptionStringID "IDS_FRIGATE_TECHUTILITY0_DESCRIPTION"
 counterDescriptionStringID "IDS_COUNTERDESC_CORVETTE_TECH"
 basePrice
@@ -101,7 +101,7 @@ TargetCountPerBank:RIGHT 0
 canOnlyTargetStructures FALSE
 hasWeaponLevels FALSE
 mass 4300.000000
-ShieldMeshName "Prophecy"
+ShieldMeshName "bloodprophecy"
 renderShield TRUE
 maxAccelerationLinear 85.000000
 maxAccelerationStrafe 10.000000
@@ -138,7 +138,7 @@ NumSoundsFor:ONSTARTPHASEJUMP 1
 SoundID "FRIGATE_TECHCOMMAND_ONSTARTPHASEJUMP_0"
 MeshNameInfoCount 1
 MeshNameInfo
-	meshName "Prophecy"
+	meshName "bloodprophecy"
 	criteriaType "None"
 meshNameIncreasedEffectName ""
 meshNameDecreasedEffectName ""

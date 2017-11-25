@@ -9,7 +9,7 @@ spawnShips
 	requiredShipCount 0
 	randomShipCount 1
 	randomShip
-			type "amarr_navy_AbilitySummonApoca"
+			type "Amarr_Navy_Ship_Battleship_Apocalypse"
 		weight 1
 spawnShipsArrivalDelayTime 5.000000
 spawnShipsHyperspaceSpawnType "FleetBeacon"
