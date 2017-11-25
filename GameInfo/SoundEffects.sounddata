@@ -1,5 +1,5 @@
 TXT
-numEffects 414
+numEffects 419
 effect
 	name "BUTTONPRESS"
 	fileName "ButtonPress.ogg"
@@ -5882,7 +5882,7 @@ effect
 	alternateGroup "WEAPON_MEGABEAMLASER"
 effect
 	name "WEAPON_XLPULSE_FIRE"
-	fileName "XLPulse_Fire.ogg"
+	fileName "XLFire_Pulse.ogg"
 	type "Effect"
 	is3D TRUE
 	priority 5
@@ -5897,7 +5897,7 @@ effect
 	alternateGroup ""
 effect
 	name "WEAPON_XLENERGY_HIT"
-	fileName "XLEnergy_Hit.ogg"
+	fileName "XLHit_Energy.ogg"
 	type "Effect"
 	is3D TRUE
 	priority 5
@@ -5912,7 +5912,7 @@ effect
 	alternateGroup ""
 effect
 	name "WEAPON_XLBEAM_FIRE"
-	fileName "XLBeam_Fire.ogg"
+	fileName "XLFire_Beam.ogg"
 	type "Effect"
 	is3D TRUE
 	priority 5
@@ -6006,6 +6006,36 @@ effect
 	type "Effect"
 	is3D TRUE
 	priority 5
+	threshold 50000.000000
+	minAttenuationDist 500.000000
+	maxNumPlayingSimultaneously 5
+	isLooping FALSE
+	isResident TRUE
+	minRespawnTime 0.1
+	fadeInTime 0.2
+	fadeOutTime 0.5
+	alternateGroup "WEAPON_LIGHTBLASTER"
+effect
+	name "WEAPON_XLBLASTER_FIRE"
+	fileName "XLFire_Blaster.ogg"
+	type "Effect"
+	is3D TRUE
+	priority 5
+	threshold 55000.000000
+	minAttenuationDist 700.000000
+	maxNumPlayingSimultaneously 5
+	isLooping FALSE
+	isResident TRUE
+	minRespawnTime 0.1
+	fadeInTime 0.0
+	fadeOutTime 0.0
+	alternateGroup "WEAPON_MEGABLASTER"
+effect
+	name "WEAPON_XLRAILGUN_FIRE"
+	fileName "XLFire_Railgun.ogg"
+	type "Effect"
+	is3D TRUE
+	priority 5
 	threshold 55000.000000
 	minAttenuationDist 700.000000
 	maxNumPlayingSimultaneously 5
@@ -6076,6 +6106,21 @@ effect
 	fadeOutTime 0.0
 	alternateGroup "WEAPON_MEDIUMRAILGUN"
 effect
+	name "WEAPON_XLHYBRID_HIT"
+	fileName "XLHit_Hybrid.ogg"
+	type "Effect"
+	is3D TRUE
+	priority 5
+	threshold 50000.000000
+	minAttenuationDist 700.000000
+	maxNumPlayingSimultaneously 5
+	isLooping FALSE
+	isResident TRUE
+	minRespawnTime 0.1
+	fadeInTime 0.0
+	fadeOutTime 0.0
+	alternateGroup ""
+effect
 	name "WEAPON_LIGHTAUTOCANNON"
 	fileName "Weapon_TechCapitalAutoCannonLight_Muzzle.ogg"
 	type "Effect"
@@ -6122,7 +6167,7 @@ effect
 	alternateGroup "WEAPON_MEDIUMRAILGUN"
 effect
 	name "WEAPON_XLARTILLERY_FIRE"
-	fileName "XLArtillery_Fire.ogg"
+	fileName "XLFire_Artillery.ogg"
 	type "Effect"
 	is3D TRUE
 	priority 5
@@ -6137,7 +6182,7 @@ effect
 	alternateGroup ""
 effect
 	name "WEAPON_XLAUTOCANNON_FIRE"
-	fileName "XLAutoCannon_Fire.ogg"
+	fileName "XLFire_AutoCannon.ogg"
 	type "Effect"
 	is3D TRUE
 	priority 5
@@ -6152,7 +6197,7 @@ effect
 	alternateGroup ""
 effect
 	name "WEAPON_XLPROJECTILE_HIT"
-	fileName "XLProjectile_Hit.ogg"
+	fileName "XLHit_Projectile.ogg"
 	type "Effect"
 	is3D TRUE
 	priority 5
@@ -6210,4 +6255,34 @@ effect
 	fadeInTime 0.0
 	fadeOutTime 0.0
 	alternateGroup ""		
-								
+effect
+	name "WEAPON_XLMISSILE_FIRE"
+	fileName "XLFire_Missile.ogg"
+	type "Effect"
+	is3D TRUE
+	priority 5
+	threshold 50000.000000
+	minAttenuationDist 700.000000
+	maxNumPlayingSimultaneously 5
+	isLooping FALSE
+	isResident TRUE
+	minRespawnTime 0.1
+	fadeInTime 0.0
+	fadeOutTime 0.0
+	alternateGroup ""
+effect
+	name "WEAPON_XLMISSILE_HIT"
+	fileName "XLHit_Missile.ogg"
+	type "Effect"
+	is3D TRUE
+	priority 5
+	threshold 50000.000000
+	minAttenuationDist 700.000000
+	maxNumPlayingSimultaneously 5
+	isLooping FALSE
+	isResident TRUE
+	minRespawnTime 0.1
+	fadeInTime 0.0
+	fadeOutTime 0.0
+	alternateGroup ""
+						

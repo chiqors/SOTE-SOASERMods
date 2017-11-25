@@ -128,11 +128,11 @@ Weapon
 		muzzleSoundMinRespawnTime 1.000000
 		muzzleSounds
 			soundCount 1
-			sound "WEAPON_LIGHTBLASTER"
+			sound "WEAPON_XLBLASTER_FIRE"
 		hitEffectName "EVE_Weapon_Blaster_XLarge_Green_Hit"
 		hitHullEffectSounds
 			soundCount 1
-			sound ""
+			sound "WEAPON_XLHYBRID_HIT"
 		hitShieldsEffectSounds
 			soundCount 1
 			sound ""

@@ -111,13 +111,13 @@ Weapon
 		hitEffectName "EVE_Pulselaser_White_Large_Hit"
 		hitHullEffectSounds
 			soundCount 1
-			sound ""
+			sound "WEAPON_XLENERGY_HIT"
 		hitShieldsEffectSounds
 			soundCount 1
 			sound ""
 		beamEffectSounds
 			soundCount 1
-			sound "WEAPON_GIGAPULSELASER"
+			sound "WEAPON_XLPULSE_FIRE"
 		beamGlowTextureName "EVE_Weapon_WhiteLaser_Glow.dds"
 		beamCoreTextureName "EVE_Weapon_WhiteLaser_Core.dds"
 		beamWidth 150.000000
