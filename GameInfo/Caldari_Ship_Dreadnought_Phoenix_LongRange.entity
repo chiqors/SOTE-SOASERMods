@@ -128,16 +128,14 @@ Weapon
 		muzzleSoundMinRespawnTime 0.500000
 		muzzleSounds
 			soundCount 1
-			sound "EFFECT_NEUTRONTORPEDO_MUZZLE"
+			sound "WEAPON_XLMISSILE_FIRE"
 		hitEffectName "EVE_Missile_LightMissile_Hit"
 		hitHullEffectSounds
-			soundCount 2
-			sound "LIGHTMISSILEEXPLOSION1"
-			sound "LIGHTMISSILEEXPLOSION2"
+			soundCount 1
+			sound "WEAPON_XLMISSILE_HIT"
 		hitShieldsEffectSounds
-			soundCount 2
-			sound "LIGHTMISSILEEXPLOSION1"
-			sound "LIGHTMISSILEEXPLOSION2"
+			soundCount 1
+			sound "WEAPON_XLMISSILE_HIT"
 		missileTravelEffectName "EVE_Missile_LightMissile_Travel"
 		missileStartTurningDistance 0.000000
 		missileSlowTurnRate 0.500000
