@@ -10,7 +10,7 @@ infoCardIcon "INFOCARDICON_PLANETMODULE_TECHORBITALCAPITALSHIPFACTORY"
 fighterEntityDef "Amarr_Drone_Infiltrator"
 fighterIllusionEntityDef ""
 scuttleTime 10.000000
-fighterConstructionTime 25.000000
+fighterConstructionTime 10.000000
 decayWithoutOwnerRate 2.000000
 baseMaxNumFighters 5
 role "Combat"

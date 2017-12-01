@@ -6,8 +6,9 @@ prefersToFocusFire FALSE
 usesFighterAttack FALSE
 autoJoinFleetDefault FALSE
 canBomb FALSE
-typeCount 1
+typeCount 2
 frigateRoleType "Scout"
+frigateRoleType "AntiMine"
 statCountType "FrigateScout"
 mainViewIcon "MAINVIEWICON_FRIGATE_TECHSCOUT"
 picture "PICTURE_FRIGATE_MAGNATE"
@@ -146,7 +147,7 @@ HyperspaceTravelSoundID "HYPERSPACE_TRAVEL"
 EngineSoundID "ENGINE_TECHCAPITALSHIP"
 ability:0 "AbilityExplore"
 ability:1 "AbilityMicrowarpdrive"
-ability:2 "AbilityAmarrCynosuralField"
+ability:2 ""
 ability:3 "AbilityT2CloakCovertOps"
 ability:4 ""
 MaxAntiMatter 406.000000

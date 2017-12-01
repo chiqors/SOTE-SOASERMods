@@ -52,11 +52,11 @@ basePrice
 slotCount 1.000000
 BuildTime 150.000000
 MaxHullPoints
-	StartValue 195000.000000
-	ValueIncreasePerLevel 1950.000000
+	StartValue 488000.000000
+	ValueIncreasePerLevel 48800.000000
 MaxShieldPoints
-	StartValue 430000.000000
-	ValueIncreasePerLevel 43000.000000
+	StartValue 778000.000000
+	ValueIncreasePerLevel 77800.000000
 HullPointRestoreRate
 	StartValue 1.000000
 	ValueIncreasePerLevel 0.500000
@@ -128,14 +128,14 @@ Weapon
 		muzzleSoundMinRespawnTime 1.000000
 		muzzleSounds
 			soundCount 1
-			sound "WEAPON_ARTYCANNONHEAVY_MUZZLE"
+			sound "WEAPON_XLARTILLERY_FIRE"
 		hitEffectName "Weapon_TechCapitalAutoCannonHeavy_Hit"
 		hitHullEffectSounds
 			soundCount 1
-			sound "WEAPON_ARTYCANNONHEAVY_HIT"
+			sound "WEAPON_XLPROJECTILE_HIT"
 		hitShieldsEffectSounds
 			soundCount 1
-			sound "WEAPON_ARTYCANNONHEAVY_HIT"
+			sound ""
 		projectileTravelEffectName "Weapon_TechCapitalAutoCannonHeavy_Travel"
 m_weaponIndexForRange 0
 firingAlignmentType "Default"

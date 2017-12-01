@@ -1,0 +1,57 @@
+﻿TXT
+entityType "Ability"
+buffInstantActionType "SpawnShipsAtPlanet"
+instantActionTriggerType "AlwaysPerform"
+spawnShipsLevelCount 1
+spawnShips
+	minFleetPoints 1.000000
+	maxFleetPoints 1.000000
+	requiredShipCount 0
+	randomShipCount 1
+	randomShip
+			type "Sansha_Ship_Battleship_Nightmare"
+		weight 1
+spawnShipsArrivalDelayTime 30.000000
+spawnShipsHyperspaceSpawnType "FleetBeacon"
+needsToFaceTarget FALSE
+canCollideWithTarget TRUE
+moveThruTarget FALSE
+isUltimateAbility FALSE
+maxNumLevels 1
+levelSourceType "ResearchWithoutBase"
+improveSourceResearchSubject "RSATitanCapacity"
+aiUseTime "Anytime"
+aiUseTargetCondition "Any"
+isAutoCastAvailable TRUE
+isAutoCastOnByDefault TRUE
+pickRandomPlanetToExploreForAutoCastTarget FALSE
+ignoreNonCombatShipsForAutoCastTarget TRUE
+onlyAutoCastWhenDamageTakenExceedsPerc 0.000000
+useCostType "ResourcesAndMustHaveShipSlots"
+resourceCost
+	credits 1400.000000
+	metal 200.000000
+	crystal 300.000000
+requiredShipSlots
+	Level:0 1.000000
+	Level:1 1.000000
+	Level:2 1.000000
+	Level:3 1.000000
+cooldownTime
+	Level:0 80.000000
+	Level:1 80.000000
+	Level:2 80.000000
+	Level:3 80.000000
+orderAcknowledgementType "ONGENERALORDERISSUED"
+researchPrerequisites
+	NumResearchPrerequisites 1
+	ResearchPrerequisite
+		Subject "RSATitanCapacity"
+		Level 1
+	RequiredFactionNameID ""
+	RequiredCompletedResearchSubjects 0
+nameStringID "IDS_SANSHA_NIGHTMARE_NAME"
+descStringID "IDS_SANSHA_NIGHTMARE_DESCRIPTION"
+hudIcon "HUDICON_FRIGATE_PIRATELIGHT"
+smallHudIcon "HUDICONSMALL_FRIGATE_PIRATELIGHT"
+infoCardIcon ""

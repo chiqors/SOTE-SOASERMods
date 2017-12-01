@@ -1,4 +1,4 @@
-﻿TXT
+ ﻿TXT
 entityType "Player"
 raceNameStringID "IDS_PLAYERRACENAME_PHASELOYALIST"
 canColonize TRUE
@@ -21,13 +21,15 @@ entities
 			entityDefName "Gallente_Structure_CivillianLab"
 			entityDefName "Amarr_Structure_Refinery"
 		Page:1
-			count 7
+			count 9
 			entityDefName "Gallente_Structure_SmallBlasterBattery"
 			entityDefName "Gallente_Structure_MediumBlasterBattery"
 			entityDefName "Gallente_Structure_LargeBlasterBattery"
 			entityDefName "Gallente_Structure_ECMBattery"
 			entityDefName "Gallente_Structure_JumpBridge"
 			entityDefName "Gallente_Structure_CynoJammer"
+			entityDefName "SOE_ModuleShipyard"
+			entityDefName "Serpentis_ModuleShipyard"
 			entityDefName "Gallente_Structure_TitanFoundry"
 	titanInfo
 		Page:0
@@ -36,15 +38,16 @@ entities
 			entityDefName "Serpentis_ShipTitan_Vanquisher"
 	capitalShipInfo
 		Page:0
-			count 8
+			count 9
+			entityDefName "Gallente_Ship_ColonyCapital_Rorqual"
 			entityDefName "Gallente_Ship_Carrier_Thanatos"
 			entityDefName "Gallente_Ship_Carrier_Triage_Thanatos"
-			entityDefName "Gallente_Ship_Dreadnought_Moros_ShortRange"
 			entityDefName "Gallente_Ship_Dreadnought_Moros_LongRange"
 			entityDefName "Gallente_Ship_Supercarrier_Nyx"
-			entityDefName "Gallente_Ship_ColonyCapital_Rorqual"
 			entityDefName "Gallente_Ship_Capital_Titan_Erebus"
-			entityDefName "AllRaces_Ship_Supercarrier_Revenant"
+			entityDefName "Serpentis_ShipFAUX_Ninazu"
+			entityDefName "Serpentis_ShipDreadnought_Vehement"
+			entityDefName "Serpentis_ShipSupercarrier_Vendetta"
 	frigateInfo
 		Page:0
 			count 9
@@ -53,13 +56,12 @@ entities
 			entityDefName "Gallente_Ship_Frigate_Tristan"
 			entityDefName "Gallente_Ship_Frigate_Atron"
 			entityDefName "Gallente_Ship_Destroyer_Catalyst"
-			entityDefName "Gallente_Ship_Destroyer_Hecate"		
+			entityDefName "Gallente_Ship_Cruiser_Thorax"
 			entityDefName "Gallente_Ship_Cruiser_Vexor"
 			entityDefName "Gallente_Ship_Cruiser_Execuror"
 			entityDefName "AllRaces_Ship_Colony_Orca"
 		Page:1
-			count 8
-			entityDefName "Gallente_Ship_Cruiser_Thorax"
+			count 9
 			entityDefName "Gallente_Ship_Cruiser_Celestis"
 			entityDefName "Gallente_Ship_Battlecruiser_Brutix"
 			entityDefName "Gallente_Ship_Battlecruiser_Myrmidon"
@@ -67,6 +69,8 @@ entities
 			entityDefName "Gallente_Ship_Battleship_Megathron"
 			entityDefName "Gallente_Ship_Battleship_Hyperion"
 			entityDefName "Gallente_Ship_Envoy_Brutix"
+			entityDefName "Gallente_Ship_Destroyer_Hecate"	
+			entityDefName "Gallente_ShipT3Cruiser_Protheus"
 		NotOnPage
 			count 4
 			entityDefName "AllRaces_Ship_Constructor_Venture"
@@ -74,7 +78,18 @@ entities
 			entityDefName "AllRaces_Ship_Orca"
 			entityDefName "Gallente_Ship_Tradeship"		
 	researchInfo
-		count 128
+		count 140
+		entityDefName "RSATitanCapacity"
+		entityDefName "RSACommandShip"		
+		entityDefName "Gallente_ResearchSubject_SubCapitalAccess_Daredevil"
+		entityDefName "Gallente_ResearchSubject_SubCapitalAccess_Vigilant"
+		entityDefName "Gallente_ResearchSubject_SubCapitalAccess_Vindicator"
+		entityDefName "Gallente_ResearchSubject_CapitalAccess_SerpentisFAUX"
+		entityDefName "Gallente_ResearchSubject_CapitalAccess_Vehement"
+		entityDefName "Gallente_ResearchSubject_CapitalAccess_Vendetta"
+		entityDefName "Gallente_ResearchSubject_CapitalAccess_Vanquisher"
+		entityDefName "RESEARCHSUBJECT_PLANETMODULEACCESS_REPAIRPLATFORMPSI2"
+		entityDefName "RESEARCHSUBJECT_DARKFLEET"		
 		entityDefName "RSALogistic"
 		entityDefName "RSAInterdictor"		
 		entityDefName "RSACommand_Orca"		
@@ -184,7 +199,7 @@ entities
 		entityDefName "RESEARCHSUBJECT_PLANETACCESS_IRONPHASE"
 		entityDefName "RESEARCHSUBJECT_PLANETACCESS_OCEANICPHASE"
 		entityDefName "RESEARCHSUBJECT_PLANETACCESS_VOLCANICPHASE"
-		entityDefName "RESEARCHSUBJECT_PLANETMODULEACCESS_CULTURECENTERPHASE"
+		entityDefName "RESEARCHSUBJECT_PLANETMODULEACCESS_CULTURECENTERTECH"
 		entityDefName "RESEARCHSUBJECT_PLANETMODULEACCESS_MARKETTECH"
 		entityDefName "RESEARCHSUBJECT_PLANETMODULEACCESS_REFINERYTECH"
 		entityDefName "RESEARCHSUBJECT_RAIDER_RELATIONS"
@@ -203,12 +218,13 @@ entities
 		entityDefName "RESEARCHSUBJECT_STRUCTUREWORK_METALEXTRACTPSI3"
 		entityDefName "RESEARCHSUBJECT_XENO_MANIPULATION"
 		entityDefName "RESEARCHSUBJECT_STARBASEUPGRADEACCESS_FACTORY"		
+		entityDefName "RESEARCHSUBJECT_PLANETMODULEACCESS_REPAIRPLATFORMPSI"
 	starBaseInfo
 		count 3
 		entityDefName "Allraces_Structure_Citadel_Astrahus"
 		entityDefName "Allraces_Structure_Citadel_Fortizar"
 		entityDefName "Allraces_Structure_Citadel_Keepstar"
-	flagship "Amarr_Ship_Flagship_ImperialApocalypse"
+	flagship "Gallente_Flagship"
 debrisData
 	numRandomMeshNamesLarge 8
 	randomMeshName "DebrisPhaseGenericLarge0"

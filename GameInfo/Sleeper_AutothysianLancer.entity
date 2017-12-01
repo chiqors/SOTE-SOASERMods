@@ -10,7 +10,7 @@ typeCount 1
 frigateRoleType "Light"
 statCountType "FrigateLight"
 mainViewIcon "MAINVIEWICON_FRIGATE_PIRATEMEDIUM"
-picture ""
+picture "PICTURE_FRIGATE_LANCER"
 NameStringID "IDS_SLEEPER_AUTOTHYSIAN_LANCER_NAME"
 DescriptionStringID "IDS_SLEEPER_AUTOTHYSIAN_LANCER_DESCRIPTION"
 counterDescriptionStringID "IDS_COUNTERDESC_FRIGATE_NONCOMBAT"
@@ -36,9 +36,9 @@ numRandomDebrisLarge 0
 numRandomDebrisSmall 0
 numSpecificDebris 0
 armorType "Light"
-hudIcon "HUDICON_FRIGATE_PIRATEMEDIUM"
-smallHudIcon "HUDICONSMALL_FRIGATE_PIRATEMEDIUM"
-infoCardIcon "INFOCARDICON_FRIGATE_PIRATEMEDIUM"
+hudIcon "HUDICON_SLEEPER_CRUISER1"
+smallHudIcon "HUDICONSMALL_CRUISER"
+infoCardIcon "HUDICONSMALL_CRUISER"
 minZoomDistanceMult 1.000000
 NumWeapons 2
 Weapon
@@ -176,7 +176,7 @@ NumSoundsFor:ONSTARTPHASEJUMP 1
 SoundID "FRIGATE_TECHLIGHT_ONSTARTPHASEJUMP_0"
 MeshNameInfoCount 1
 MeshNameInfo
-	meshName "succubus"
+	meshName "SleeperC1"
 	criteriaType "None"
 meshNameIncreasedEffectName ""
 meshNameDecreasedEffectName ""
@@ -187,7 +187,7 @@ HyperspaceTravelSoundID "HYPERSPACE_TRAVEL"
 EngineSoundID "ENGINE_TECHCAPITALSHIP"
 ability:0 "AbilityMicrowarpdrive"
 ability:1 "AbilityStasisWebifier"
-ability:2 ""
+ability:2 "AbilityWarpDisruptorTamaCerebellum"
 ability:3 ""
 ability:4 ""
 MaxAntiMatter 400.000000

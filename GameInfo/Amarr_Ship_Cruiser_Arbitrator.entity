@@ -6,8 +6,9 @@ prefersToFocusFire TRUE
 usesFighterAttack FALSE
 autoJoinFleetDefault TRUE
 canBomb FALSE
-typeCount 1
-frigateRoleType "Lrm"
+typeCount 2
+frigateRoleType "Light"
+frigateRoleType "AntiFighter"
 statCountType "FrigateCarrier"
 mainViewIcon "MAINVIEWICON_FRIGATE_TECHCARRIER"
 picture ""
@@ -144,9 +145,9 @@ HyperspaceChargingSoundID "HYPERSPACE_CHARGEUP"
 HyperspaceTravelSoundID "HYPERSPACE_TRAVEL"
 EngineSoundID "ENGINE_TECHCAPITALSHIP"
 ability:0 "AbilityMicrowarpdrive"
-ability:1 "AbilityDroneBonus"
-ability:2 "AbilityTrackingDisruptor"
-ability:3 ""
+ability:1 "AbilityTrackingDisruptor"
+ability:2 "AbilityCruiserResistArmor"
+ability:3 "AbilityDroneBonus"
 ability:4 "AbilityLaunchSquads"
 MaxAntiMatter 1720.000000
 AntiMatterRestoreRate 11.700000

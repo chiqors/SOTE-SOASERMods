@@ -4,7 +4,7 @@ hudIcon "HUDICON_RESEARCHSUBJECT_FRIGATEACCESS_CYCLONE"
 smallHudIcon "HUDICON_RESEARCHSUBJECT_FRIGATEACCESS_CYCLONE"
 infoCardIcon ""
 NameStringID "IDS_RESEARCHSUBJECT_SubCapitalAccess_Cyclone_NAME"
-DescriptionStringID "IDS_RESEARCHSUBJECT_SubCapitalAccess_CycloneEnvoy_NAME"
+DescriptionStringID "IDS_RESEARCHSUBJECT_SubCapitalAccess_CycloneEnvoy_DESCRIPTION"
 researchWindowLocation
 	block 0
 	pos [ 0 , 0 ]
@@ -25,7 +25,7 @@ PerLevelCostIncrease
 	metal 0.000000
 	crystal 25.000000
 Tier 0
-onlyWorksIfTierLabsExist FALSE
+onlyWorksIfTierLabsExist TRUE
 MaxNumResearchLevels 1
 priority 1.000000
 researchBoolModifiers 0

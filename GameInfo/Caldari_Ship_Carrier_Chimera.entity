@@ -1,12 +1,12 @@
 ﻿TXT
 entityType "CapitalShip"
-ability:0 "AbilityFighterControlUnit"
+ability:0 "AbilityRemoteShieldBoosterCapital"
 ability:1 "AbilityPLASMASmartbomb"
-ability:2 "AbilityShieldBoosterCapital"
-ability:3 "AbilityCarrier"
+ability:2 "AbilityFighterControlUnit"
+ability:3 "AbilityCaldariShieldWarfareMindlink"
 ability:4 ""
 defaultAutoAttackRange "GravityWell"
-defaultAutoAttackOn TRUE
+defaultAutoAttackOn FALSE
 prefersToFocusFire FALSE
 usesFighterAttack FALSE
 autoJoinFleetDefault TRUE
@@ -52,11 +52,11 @@ basePrice
 slotCount 1.000000
 BuildTime 75.000000
 MaxHullPoints
-	StartValue 30500.000000
-	ValueIncreasePerLevel 3050.000000
+	StartValue 76000.000000
+	ValueIncreasePerLevel 7600.000000
 MaxShieldPoints
-	StartValue 32500.000000
-	ValueIncreasePerLevel 3250.000000
+	StartValue 85000.000000
+	ValueIncreasePerLevel 8500.000000
 HullPointRestoreRate
 	StartValue 1.000000
 	ValueIncreasePerLevel 0.500000

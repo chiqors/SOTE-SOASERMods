@@ -50,13 +50,13 @@ basePrice
 	metal 5250.000000
 	crystal 2167.000000
 slotCount 1.000000
-BuildTime 150.000000
+BuildTime 220.000000
 MaxHullPoints
-	StartValue 315000.000000
-	ValueIncreasePerLevel 3150.000000
+	StartValue 1182000.000000
+	ValueIncreasePerLevel 118200.000000
 MaxShieldPoints
-	StartValue 130000.000000
-	ValueIncreasePerLevel 1300.000000
+	StartValue 487000.000000
+	ValueIncreasePerLevel 48700.000000
 HullPointRestoreRate
 	StartValue 10.000000
 	ValueIncreasePerLevel 0.500000
@@ -84,8 +84,8 @@ picture "PICTURE_CAPITAL_AVATAR"
 Prerequisites
 	NumResearchPrerequisites 1
 	ResearchPrerequisite
-		Subject "RESEARCHSUBJECT_TITANACCESS_TECHLOYALIST_1"
-		Level 1
+		Subject "BloodRaider_RESEARCH_TITANACCESS"
+		Level 2
 	RequiredFactionNameID ""
 	RequiredCompletedResearchSubjects 0
 statCountType "Titan"
@@ -101,7 +101,7 @@ numRandomDebrisLarge 0
 numRandomDebrisSmall 0
 numSpecificDebris 0
 armorType "VeryHeavy"
-hudIcon "HUDICON_RESEARCHSUBJECT_TITAN_TECHLOYALIST"
+hudIcon "HUDICON_BLOOD_MOLOK"
 smallHudIcon "HUDICONSMALL_TITAN_TECHLOYALIST"
 infoCardIcon "INFOCARDICON_TITAN_TECHLOYALIST"
 minZoomDistanceMult 1.000000
@@ -160,7 +160,7 @@ TargetCountPerBank:LEFT 0
 TargetCountPerBank:RIGHT 0
 canOnlyTargetStructures FALSE
 mass 200000.000000
-ShieldMeshName "Avatar"
+ShieldMeshName "Molok"
 renderShield TRUE
 maxAccelerationLinear 22.500000
 maxAccelerationStrafe 0.400000
@@ -197,7 +197,7 @@ NumSoundsFor:ONSTARTPHASEJUMP 1
 SoundID "TITAN_TECHLOYALIST_ONSTARTPHASEJUMP_0"
 MeshNameInfoCount 1
 MeshNameInfo
-	meshName "avatar"
+	meshName "Molok"
 	criteriaType "None"
 meshNameIncreasedEffectName ""
 meshNameDecreasedEffectName ""

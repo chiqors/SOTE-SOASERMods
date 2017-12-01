@@ -21,12 +21,21 @@ instantAction
 		soundID ""
 numPeriodicActions 0
 numOverTimeActions 0
-numEntityModifiers 0
+numEntityModifiers 1
+entityModifier
+	buffEntityModifierType "HyperspaceChargeUpRate"
+	value
+		Level:0 9.000000
+		Level:1 9.000000
+		Level:2 9.000000
+		Level:3 9.000000
 numEntityBoolModifiers 1
 entityBoolModifier "DisablePhaseJump"
-numFinishConditions 3
+numFinishConditions 4
 finishCondition
 	finishConditionType "OutOfRange"
+finishCondition
+	finishConditionType "Invalid"
 finishCondition
 	finishConditionType "TimeElapsed"
 	time

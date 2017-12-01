@@ -8,21 +8,21 @@ spawnShips
 	maxFleetPoints 125.000000
 	requiredShipCount 0
 	randomShipCount 5
-	randomShip
-		type "BloodRaider_Ship_Battleship_CorpusDarkCommander"
-		weight 4
-	randomShip
-		type "FrigatePirateSiege"
-		weight 2
-	randomShip
-		type "FrigatePirateHeavy"
-		weight 5
-	randomShip
-		type "FrigatePirateAntiFighter"
-		weight 3
-	randomShip
-		type "FrigatePirateMedium"
-		weight 6
+		randomShip
+			type "BloodRaider_Ship_Battleship_CorpusDarkCommander"
+			weight 4
+		randomShip
+			type "Bloodraider_ShipCruiserAshimuu"
+			weight 2
+		randomShip
+			type "BloodRaider_Ship_Battleship_CorpusArchon"
+			weight 5
+		randomShip
+			type "BloodRaider_ShipCruiser_Augoror"
+			weight 3
+		randomShip
+			type "Bloodraider_ShipFrigateCruor"
+			weight 6
 spawnShipsArrivalDelayTime 7.000000
 spawnShipsHyperspaceSpawnType "PirateRaid"
 needsToFaceTarget FALSE

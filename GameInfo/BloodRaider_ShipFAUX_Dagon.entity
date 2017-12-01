@@ -50,7 +50,7 @@ basePrice
 	metal 958.000000
 	crystal 517.000000
 slotCount 1.000000
-BuildTime 75.000000
+BuildTime 112.000000
 MaxHullPoints
 	StartValue 57500.000000
 	ValueIncreasePerLevel 5750.000000
@@ -78,11 +78,14 @@ AntiMatterRestoreRate
 CultureProtectRate
 	StartValue 0.600000
 	ValueIncreasePerLevel 0.050000
-NameStringID "IDS_AMARR_CARRIER_TRIAGEARCHON_NAME"
-DescriptionStringID "IDS_AMARR_CARRIER_TRIAGEARCHON_DESCRIPTION"
+NameStringID "IDS_BloodRaiders_ShipForceAuxiliaryDagon_NAME"
+DescriptionStringID "IDS_BloodRaiders_ShipForceAuxiliaryDagon_DESCRIPTION"
 picture "PICTURE_CAPITAL_ARCHON"
 Prerequisites
-	NumResearchPrerequisites 0
+	NumResearchPrerequisites 1
+	ResearchPrerequisite
+		Subject "Amarr_ResearchSubject_CapitalAccess_Dagon"
+		Level 2
 	RequiredFactionNameID ""
 	RequiredCompletedResearchSubjects 0
 roleType "Invalid"
@@ -91,7 +94,7 @@ numRandomDebrisLarge 0
 numRandomDebrisSmall 0
 numSpecificDebris 0
 armorType "VeryHeavy"
-hudIcon "HUDICON_CAPITALSHIP_APOSTLE"
+hudIcon "HUDICON_BLOOD_DRAGON"
 smallHudIcon "HUDICONSMALL_CARRIER"
 infoCardIcon "HUDICONSMALL_CARRIER"
 minZoomDistanceMult 1.000000
@@ -150,7 +153,7 @@ TargetCountPerBank:LEFT 0
 TargetCountPerBank:RIGHT 0
 canOnlyTargetStructures FALSE
 mass 20000.000000
-ShieldMeshName "aforce"
+ShieldMeshName "bloodraiderfaux"
 renderShield TRUE
 maxAccelerationLinear 13.750000
 maxAccelerationStrafe 1.000000
@@ -187,7 +190,7 @@ NumSoundsFor:ONSTARTPHASEJUMP 1
 SoundID "CAPITALSHIP_TECHBATTLESHIP_ONSTARTPHASEJUMP_0"
 MeshNameInfoCount 1
 MeshNameInfo
-	meshName "aforce"
+	meshName "bloodraiderfaux"
 	criteriaType "None"
 meshNameIncreasedEffectName ""
 meshNameDecreasedEffectName ""

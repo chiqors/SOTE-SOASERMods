@@ -1,0 +1,228 @@
+﻿TXT
+entityType "Planet"
+meshInfoCount 3
+meshInfo
+	typeNameStringID "IDS_PLANETTYPE_BARREN"
+	asteroidTemplate "Sparse"
+	dustCloudTemplate "Sparse"
+	meshName "coral2"
+	cloudColor 0
+	nullMeshRadius 0.000000
+	nullMeshParticleEffect ""
+	hudIcon "MAINVIEWICON_PLANET_BARREN"
+	smallHudIcon "HUDICONSMALL_PLANET_BARREN"
+	infoCardIcon "INFOCARDICON_PLANET_BARREN"
+	mainViewIcon "MAINVIEWICON_PLANET_BARREN"
+	undetectedMainViewIcon "MAINVIEWICON_PLANET_BARREN_UNDETECTED"
+	picture "PICTURE_PLANET_BARREN"
+	shouldPrefer FALSE
+meshInfo
+	typeNameStringID "IDS_PLANETTYPE_BARREN"
+	asteroidTemplate "Empty"
+	dustCloudTemplate "Sparse"
+	meshName "coral2"
+	cloudColor 0
+	nullMeshRadius 0.000000
+	nullMeshParticleEffect ""
+	hudIcon "MAINVIEWICON_PLANET_BARREN"
+	smallHudIcon "HUDICONSMALL_PLANET_BARREN"
+	infoCardIcon "INFOCARDICON_PLANET_BARREN"
+	mainViewIcon "MAINVIEWICON_PLANET_BARREN"
+	undetectedMainViewIcon "MAINVIEWICON_PLANET_BARREN_UNDETECTED"
+	picture "PICTURE_PLANET_BARREN"
+	shouldPrefer FALSE
+meshInfo
+	typeNameStringID "IDS_PLANETTYPE_BARREN"
+	asteroidTemplate "Ring"
+	dustCloudTemplate "Sparse"
+	meshName "coral2"
+	cloudColor 0
+	nullMeshRadius 0.000000
+	nullMeshParticleEffect ""
+	hudIcon "MAINVIEWICON_PLANET_BARREN"
+	smallHudIcon "HUDICONSMALL_PLANET_BARREN"
+	infoCardIcon "INFOCARDICON_PLANET_BARREN"
+	mainViewIcon "MAINVIEWICON_PLANET_BARREN"
+	undetectedMainViewIcon "MAINVIEWICON_PLANET_BARREN_UNDETECTED"
+	picture "PICTURE_PLANET_BARREN"
+	shouldPrefer FALSE
+minZoomDistanceMult 2.750000
+glowColor 0
+ringColor 0
+cloudLayerTextureName ""
+planetResourceSetupInfo
+	asteroidSpawnAngleVariance 3.141593
+	totalMaxResourceAsteroids 3
+	metalResourceAsteroidSetup
+		minCount 0
+		maxCount 0
+		extractionRate 0.000000
+		refineryRate 0.000000
+		maxRefineryCount 0
+	crystalResourceAsteroidSetup
+		minCount 0
+		maxCount 0
+		extractionRate 0.000000
+		refineryRate 0.000000
+		maxRefineryCount 0
+	neutralMetalResourceAsteroidSetup
+		minCount 3
+		maxCount 3
+		extractionRate 0.360000
+		refineryRate 0.054000
+		maxRefineryCount 3
+	neutralCrystalResourceAsteroidSetup
+		minCount 1
+		maxCount 1
+		extractionRate 0.360000
+		refineryRate 0.054000
+		maxRefineryCount 3
+isAsteroid TRUE
+healthRegenRate 6.000000
+planetUpgradeDef
+	path:Population
+		stageCount 1
+		stage
+			price
+				credits 0.000000
+				metal 0.000000
+				crystal 0.000000
+			upgradeTime 0.000000
+			maxPopulation 10.000000
+			populationGrowthRate 0.125000
+			developmentTaxPenalty -3.000000
+	path:CivilianModules
+		stageCount 1
+		stage
+			price
+				credits 0.000000
+				metal 0.000000
+				crystal 0.000000
+			upgradeTime 0.000000
+			maxModuleSlotCount:Civilian 12.000000
+			maxModuleConstructorCount 0
+	path:TacticalModules
+		stageCount 1
+		stage
+			price
+				credits 0.000000
+				metal 0.000000
+				crystal 0.000000
+			upgradeTime 0.000000
+			maxModuleSlotCount:Tactical 5.000000
+			maxModuleConstructorCount 1
+	path:Home
+		stageCount 1
+		stage
+			price
+				credits 0.000000
+				metal 0.000000
+				crystal 0.000000
+			upgradeTime 0.000000
+			isHomePlanet FALSE
+			homePlanetTaxRateBonus 0.000000
+			homePlanetMetalIncomeBonus 0.000000
+			homePlanetCrystalIncomeBonus 0.000000
+	path:ArtifactLevel
+		stageCount 1
+		stage
+			price
+				credits 0.000000
+				metal 0.000000
+				crystal 0.000000
+			upgradeTime 0.000000
+	path:Infrastructure
+		stageCount 1
+		stage
+			price
+				credits 0.000000
+				metal 0.000000
+				crystal 0.000000
+			upgradeTime 0.000000
+			maxHealth 1000.000000
+	path:Social
+		stageCount 1
+		stage
+			price
+				credits 0.000000
+				metal 0.000000
+				crystal 0.000000
+			upgradeTime 0.000000
+			maxPopulation 0.000000
+			populationGrowthRate 0.000000
+			tradeIncomeModifier 0.000000
+			shipBuildRateModifier 0.000000
+			cultureSpreadRateModifier 0.000000
+	path:Industry
+		stageCount 1
+		stage
+			price
+				credits 0.000000
+				metal 0.000000
+				crystal 0.000000
+			upgradeTime 0.000000
+			maxPopulation 0.000000
+			tradeIncomeModifier 0.000000
+			shipBuildRateModifier 0.000000
+			cultureSpreadRateModifier 0.000000
+	path:Smuggler
+		stageCount 1
+		stage
+			price
+				credits 0.000000
+				metal 0.000000
+				crystal 0.000000
+			upgradeTime 0.000000
+			corruptionPercent 0.000000
+			smugglingPercent 0.000000
+ringsChance 0.050000
+isColonizable FALSE
+planetTypeForResearch "Uncolonizable"
+skyboxScalarsCount 6
+skyboxScalars
+	diffuseScalar 0.910000
+	ambientScalar 0.150000
+skyboxScalars
+	diffuseScalar 0.670000
+	ambientScalar 0.400000
+skyboxScalars
+	diffuseScalar 0.950000
+	ambientScalar 0.400000
+skyboxScalars
+	diffuseScalar 0.550000
+	ambientScalar 0.600000
+skyboxScalars
+	diffuseScalar 0.720000
+	ambientScalar 0.800000
+skyboxScalars
+	diffuseScalar 0.910000
+	ambientScalar 0.150000
+requiredPlanetBonusesCount 0
+possibleRandomPlanetBonusesCount 0
+ambienceSoundID "EFFECT_PLANETAMBIENCE_LOOP"
+renderAsVolcanic FALSE
+planetRuinDef
+	ruinPlanetType "PlanetShatteredMoonMined"
+	attachType "Center"
+	effectName "StripToTheCore_Planet_TerranHome"
+	startTime 9.000000
+	soundID "EFFECT_STRIPPEDTOTHECORE"
+	creditsOnStrippedToTheCore 5000.000000
+	metalOnStrippedToTheCore 750.000000
+	crystalOnStrippedToTheCore 4700.000000
+	extraScuttleTimeOnStrip 120.000000
+dlcId 228601
+ShieldMeshName "Shield_PlanetSmall"
+renderShield FALSE
+moveAreaRadius 40000.000000
+hyperspaceExitRadius 30000.000000
+isWormhole FALSE
+maxStarBaseCountPerPlayer 1
+maxSpaceMineCountPerPlayer 150
+minShadow 0.000000
+maxShadow 0.000000
+ability:0 ""
+ability:1 ""
+ability:2 ""
+ability:3 ""
+ability:4 ""

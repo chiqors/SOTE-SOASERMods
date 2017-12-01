@@ -142,7 +142,7 @@ HyperspaceTravelSoundID "HYPERSPACE_TRAVEL"
 EngineSoundID "ENGINE_TECHCAPITALSHIP"
 ability:0 "AbilityMicrowarpdrive"
 ability:1 "AbilityWarpDisruptor"
-ability:2 ""
+ability:2 "AbilityTargetPainter"
 ability:3 ""
 ability:4 ""
 MaxAntiMatter 300.000000

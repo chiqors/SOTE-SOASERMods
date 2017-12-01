@@ -11,8 +11,8 @@ frigateRoleType "Heavy"
 statCountType "FrigateHeavy"
 mainViewIcon "MAINVIEWICON_CAPITALSHIP_PHASESCOUT"
 picture "PICTURE_FRIGATE_MEGATHRON"
-NameStringID "IDS_GALLENTE_SHIP_BATTLESHIP_VINDICATOR_NAME"
-DescriptionStringID "IDS_GALLENTE_SHIP_BATTLESHIP_VINDICATOR_DESCRIPTION"
+NameStringID "IDS_Serpentis_ShipBattleshipVindicator_NAME"
+DescriptionStringID "IDS_Serpentis_ShipBattleshipVindicator_DESCRIPTION"
 counterDescriptionStringID "IDS_COUNTERDESC_FRIGATE_LONGRANGE"
 basePrice
 	credits 970.000000

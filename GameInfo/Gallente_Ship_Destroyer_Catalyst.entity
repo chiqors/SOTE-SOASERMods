@@ -19,7 +19,7 @@ basePrice
 	metal 15.000000
 	crystal 10.000000
 slotCount 2.000000
-BuildTime 50.000000
+BuildTime 16.000000
 hasLevels FALSE
 ExperiencePointsForDestroying 10.000000
 MaxHullPoints 900.000000
@@ -47,7 +47,7 @@ NumWeapons 1
 Weapon
 	WeaponType "Projectile"
 	damageEnums
-		AttackType "ANTILIGHT"
+		AttackType "ANTIVERYLIGHT"
 		DamageAffectType "AFFECTS_SHIELDS_AND_HULL"
 		DamageApplyType "BACKLOADED"
 		DamageType "ENERGY"

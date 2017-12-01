@@ -13,7 +13,7 @@ smallHudIcon "HUDICONSMALL_PLANETMODULE_TECHORBITALCAPITALSHIPFACTORY"
 infoCardIcon "INFOCARDICON_PLANETMODULE_TECHORBITALCAPITALSHIPFACTORY"
 minZoomDistanceMult 9.000000
 nameStringID "IDS_CALDARI_ANTI-FIGHTER_NAME"
-counterDescriptionStringID "IDS_COUNTERDESC_FIGHTER_COMBAT"
+counterDescriptionStringID "IDS_COUNTERDESC_FRIGATE_ANTIFIGHTER"
 statCountType "FighterCombat"
 formationOffsetDistance 50.000000
 mass 250.000000
@@ -34,7 +34,7 @@ Weapon
 		DamageApplyType "OVERTIME"
 		DamageType "ENERGY"
 		WeaponClassType "BEAM"
-	DamagePerBank:FRONT 90.000000
+	DamagePerBank:FRONT 135.000000
 	DamagePerBank:BACK 0.000000
 	DamagePerBank:LEFT 0.000000
 	DamagePerBank:RIGHT 0.000000
@@ -81,7 +81,7 @@ Weapon
 		DamageApplyType "BACKLOADED"
 		DamageType "PHYSICAL"
 		WeaponClassType "MISSILE"
-	DamagePerBank:FRONT 175.000000
+	DamagePerBank:FRONT 350.000000
 	DamagePerBank:BACK 0.000000
 	DamagePerBank:LEFT 0.000000
 	DamagePerBank:RIGHT 0.000000

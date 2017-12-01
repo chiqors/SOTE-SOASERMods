@@ -1,9 +1,9 @@
 ﻿TXT
 entityType "StarBase"
-ability:0 "Angel_AbilitySummonCynabal"
-ability:1 "Angel_AbilitySummonMachariel"
-ability:2 "Angel_AbilityAisupportCapitalShips"
-ability:3 "Angel_AbilityAisupportCapitalShipsSuperCapital"
+ability:0 "AbilityRemoteOmniRepair"
+ability:1 "Angel_AbilityCynosuralField2"
+ability:2 "Angel_AbilityCynosuralField3"
+ability:3 "Angel_AbilityCynosuralField4"
 ability:4 ""
 defaultAutoAttackRange "None"
 defaultAutoAttackOn TRUE

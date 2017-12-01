@@ -9,11 +9,11 @@ GameplayConstants
 	nearFarThreshold 180000
 	baseHyperspaceRange 1000000.0
 	jumpAngle 45
-	timeForPeaceTreatyCooldown 300
+	timeForPeaceTreatyCooldown 100
 	defaultGravWellColor FFFFFFFF
 	phaseLaneWidth 2.2
 	unexploredPhaseLaneWidth 0.5
-	gravWellThickness 1.0
+	gravWellThickness 1.5
 	cannonsPerGravityWellRatio 1
 	cannonGravityWellRatioDenominator 1
 	preferNewAssetsGameCountThreshold 5
@@ -60,83 +60,83 @@ GameplayConstants
 		stripTime 9.1
 	CapitalShipData
 		ExperienceLevelData:0
-			ExperienceNeededForNextLevel 50.0
-			ExperienceGainedForDestroying 30.0
-			UpgradePriceForNextLevel 800.0
-		ExperienceLevelData:1
 			ExperienceNeededForNextLevel 250.0
-			ExperienceGainedForDestroying 32.0
-			UpgradePriceForNextLevel 850.0
-		ExperienceLevelData:2
+			ExperienceGainedForDestroying 150.0
+			UpgradePriceForNextLevel 1250.0
+		ExperienceLevelData:1
 			ExperienceNeededForNextLevel 500.0
-			ExperienceGainedForDestroying 34.0
-			UpgradePriceForNextLevel 900.0
-		ExperienceLevelData:3
-			ExperienceNeededForNextLevel 1500.0
-			ExperienceGainedForDestroying 175.0
-			UpgradePriceForNextLevel 3100.0
-		ExperienceLevelData:4
-			ExperienceNeededForNextLevel 2000.0
 			ExperienceGainedForDestroying 200.0
-			UpgradePriceForNextLevel 3800.0
-		ExperienceLevelData:5
-			ExperienceNeededForNextLevel 2500.0
-			ExperienceGainedForDestroying 225.0
-			UpgradePriceForNextLevel 4500.0
-		ExperienceLevelData:6
-			ExperienceNeededForNextLevel 3000.0
+			UpgradePriceForNextLevel 1500.0
+		ExperienceLevelData:2
+			ExperienceNeededForNextLevel 750.0
 			ExperienceGainedForDestroying 250.0
-			UpgradePriceForNextLevel 5200.0
-		ExperienceLevelData:7
-			ExperienceNeededForNextLevel 3500.0
-			ExperienceGainedForDestroying 275.0
-			UpgradePriceForNextLevel 5900.0
-		ExperienceLevelData:8
-			ExperienceNeededForNextLevel 4000.0
+			UpgradePriceForNextLevel 1750.0
+		ExperienceLevelData:3
+			ExperienceNeededForNextLevel 3000.0
 			ExperienceGainedForDestroying 300.0
-			UpgradePriceForNextLevel 6600.0
+			UpgradePriceForNextLevel 2000.0
+		ExperienceLevelData:4
+			ExperienceNeededForNextLevel 5000.0
+			ExperienceGainedForDestroying 350.0
+			UpgradePriceForNextLevel 4000.0
+		ExperienceLevelData:5
+			ExperienceNeededForNextLevel 8000.0
+			ExperienceGainedForDestroying 400.0
+			UpgradePriceForNextLevel 2400.0
+		ExperienceLevelData:6
+			ExperienceNeededForNextLevel 10000.0
+			ExperienceGainedForDestroying 450.0
+			UpgradePriceForNextLevel 2600.0
+		ExperienceLevelData:7
+			ExperienceNeededForNextLevel 12000.0
+			ExperienceGainedForDestroying 500.0
+			UpgradePriceForNextLevel 2800.0
+		ExperienceLevelData:8
+			ExperienceNeededForNextLevel 15000.0
+			ExperienceGainedForDestroying 600.0
+			UpgradePriceForNextLevel 3000.0
 		ExperienceLevelData:9
 			ExperienceNeededForNextLevel 0.0
-			ExperienceGainedForDestroying 3250.0
+			ExperienceGainedForDestroying 20000.0
 			UpgradePriceForNextLevel 0.0
 		LevelUpEffectName "CapitalShip_LevelUp"
 		LevelUpEffectSoundID "CAPITALSHIP_LEVELUP"
-		PurchaseNextLevelTime 60
+		PurchaseNextLevelTime 90
 	TitanData
 		ExperienceLevelData:0
-			ExperienceNeededForNextLevel 1500.0
-			ExperienceGainedForDestroying 500.0
-		ExperienceLevelData:1
-			ExperienceNeededForNextLevel 3000.0
-			ExperienceGainedForDestroying 750.0
-		ExperienceLevelData:2
 			ExperienceNeededForNextLevel 500.0
-			ExperienceGainedForDestroying 1000.0
+			ExperienceGainedForDestroying 400.0
+		ExperienceLevelData:1
+			ExperienceNeededForNextLevel 1250.0
+			ExperienceGainedForDestroying 500.0
+		ExperienceLevelData:2
+			ExperienceNeededForNextLevel 2000.0
+			ExperienceGainedForDestroying 600.0
 		ExperienceLevelData:3
-			ExperienceNeededForNextLevel 7500.0
-			ExperienceGainedForDestroying 1250.0
+			ExperienceNeededForNextLevel 3000.0
+			ExperienceGainedForDestroying 700.0
 		ExperienceLevelData:4
-			ExperienceNeededForNextLevel 10500.0
-			ExperienceGainedForDestroying 1500.0
+			ExperienceNeededForNextLevel 4000.0
+			ExperienceGainedForDestroying 900.0
 		ExperienceLevelData:5
-			ExperienceNeededForNextLevel 14000.0
-			ExperienceGainedForDestroying 1750.0
+			ExperienceNeededForNextLevel 5000.0
+			ExperienceGainedForDestroying 1100.0
 		ExperienceLevelData:6
-			ExperienceNeededForNextLevel 18000.0
-			ExperienceGainedForDestroying 2000.0
+			ExperienceNeededForNextLevel 6500.0
+			ExperienceGainedForDestroying 1300.0
 		ExperienceLevelData:7
-			ExperienceNeededForNextLevel 22500.0
-			ExperienceGainedForDestroying 2250.0
+			ExperienceNeededForNextLevel 8000.0
+			ExperienceGainedForDestroying 1600.0
 		ExperienceLevelData:8
-			ExperienceNeededForNextLevel 27500.0
-			ExperienceGainedForDestroying 2500.0
+			ExperienceNeededForNextLevel 10000.0
+			ExperienceGainedForDestroying 1900.0
 		ExperienceLevelData:9
 			ExperienceNeededForNextLevel 0.0
-			ExperienceGainedForDestroying 27500.0
+			ExperienceGainedForDestroying 2200.0
 		LevelUpEffectName "Titan_LevelUp"
 		LevelUpEffectSoundID "CAPITALSHIP_LEVELUP"
 		AdditionalPriceModifierPerLevel 0.10
-		AdditionalBuildTimeModifierPerLevel 0.05
+		AdditionalBuildTimeModifierPerLevel 0.10
 	cultureData
 		minPropagatedCultureRate 0.005
 		culturePropagationPerc .5
@@ -148,8 +148,8 @@ GameplayConstants
 		rallyPointEffect "rallypoint"
 	OrbitBodyData
 		MinStarToPlanetGravityDistance 270000.0
-		MinInterPlanetGravityDistance 50000.0
-		MaxInterPlanetGravityDistance 100000.0
+		MinInterPlanetGravityDistance 70000.0
+		MaxInterPlanetGravityDistance 120000.0
 	StarBaseData
 		friendlyOrbitBodyBuildTimeScalar 1.0
 		neutralOrbitBodyBuildTimeScalar 1.5
@@ -379,30 +379,30 @@ DamagePercentBonus:ANTIVERYLIGHT:CapitalShip 0.994
 					type "BloodRaider_Ship_Battleship_CorpusDarkCommander"
 					weight 3
 				randomShip
-					type "FrigatePirateMedium"
+					type "Bloodraider_ShipCruiserAshimuu"
 					weight 3
 				randomShip
-					type "FrigatePirateHeavy"
+					type "BloodRaider_Ship_Battleship_CorpusArchon"
 					weight 3
 				randomShip
-					type "FrigatePirateAntiFighter"
+					type "BloodRaider_ShipCruiser_Augoror"
 					weight 3
 				randomShip
-					type "FrigatePirateSiege"
+					type "Bloodraider_ShipFrigateCruor"
 					weight 3
 	VisibilityDistanceData
-		capitalShipRadiusMultiplier 100
+		capitalShipRadiusMultiplier 200
 		entryVehicleRadiusMultiplier 50000
-		frigateRadiusMultiplier 180
-		planetRadiusMultiplier 130
+		frigateRadiusMultiplier 280
+		planetRadiusMultiplier 350
 		asteroidRadiusMultiplier 200
 		resourceAsteroidRadiusMultiplier 200
 		debrisRadiusMultiplier 600
 		cannonShellRadiusMultiplier 600
 		starRadiusMultiplier 60
 		planetModuleRadiusMultiplier 60
-		starBaseRadiusMultiplier 60
-		spaceMineRadiusMultiplier 60
+		starBaseRadiusMultiplier 360
+		spaceMineRadiusMultiplier 2800
 		fighterRadiusMultiplier 1000
 		maxFighterMeshDistanceToCamera 4000
 		mainViewIconChildrenPlanetRadiusMultiplier 130
@@ -411,9 +411,9 @@ DamagePercentBonus:ANTIVERYLIGHT:CapitalShip 0.994
 		veryDistantIconFadeNearThresholdDistance 100000
 		veryDistantIconFadeFarThresholdDistance 10000000
 	PhysicsData
-		shipLinearMaxSpeedWhileSafeScalar 0.0
-		shipLinearAccelerationWhileSafeScalar 0.0
-		shipLinearDecelerationWhileSafeScalar 0.0
+		shipLinearMaxSpeedWhileSafeScalar 1.0
+		shipLinearAccelerationWhileSafeScalar 1.0
+		shipLinearDecelerationWhileSafeScalar 1.0
 	pirateRaidDef
 		arrivalDelayTime 6.0
 		minSupply 10000
@@ -545,78 +545,78 @@ DamagePercentBonus:ANTIVERYLIGHT:CapitalShip 0.994
 		raidCost:3 76500
 		raidCost:4 94500
 	buildSpeedData-Slow
-		shipBuildRateGameSpeedScalar -0.5
-		moduleBuildRateGameSpeedScalar -0.5
+		shipBuildRateGameSpeedScalar 0.0
+		moduleBuildRateGameSpeedScalar 0.0
 	buildSpeedData-Normal
-		shipBuildRateGameSpeedScalar -0.00
-		moduleBuildRateGameSpeedScalar -0.00
+		shipBuildRateGameSpeedScalar 0.10
+		moduleBuildRateGameSpeedScalar 0.10
 	buildSpeedData-Fast
-		shipBuildRateGameSpeedScalar 0.5
-		moduleBuildRateGameSpeedScalar 0.5
+		shipBuildRateGameSpeedScalar 0.20
+		moduleBuildRateGameSpeedScalar 0.20
 	buildSpeedData-Faster
-		shipBuildRateGameSpeedScalar 1.0
-		moduleBuildRateGameSpeedScalar 1.0
+		shipBuildRateGameSpeedScalar 0.40
+		moduleBuildRateGameSpeedScalar 0.40
 	cultureSpeedData-Slow
 		cultureConnectionReferenceLength 250000
-		allegianceShiftRateScalar 0.50
+		allegianceShiftRateScalar 0.75
 	cultureSpeedData-Normal
 		cultureConnectionReferenceLength 500000
 		allegianceShiftRateScalar 1.0
 	cultureSpeedData-Fast
-		cultureConnectionReferenceLength 100000
-		allegianceShiftRateScalar 2.0
+		cultureConnectionReferenceLength 750000
+		allegianceShiftRateScalar 1.25
 	cultureSpeedData-Faster
-		cultureConnectionReferenceLength 400000
-		allegianceShiftRateScalar 8.0
+		cultureConnectionReferenceLength 850000
+		allegianceShiftRateScalar 1.45
 	researchSpeedData-Slow
-		researchRateGameSpeedScalar -0.5
+		researchRateGameSpeedScalar -4.75
 	researchSpeedData-Normal
-		researchRateGameSpeedScalar 0.00
+		researchRateGameSpeedScalar -1.3
 	researchSpeedData-Fast
-		researchRateGameSpeedScalar 0.5
+		researchRateGameSpeedScalar -0.15
 	researchSpeedData-Faster
-		researchRateGameSpeedScalar 1.0
+		researchRateGameSpeedScalar -0.05
 	incomeSpeedData-Slow
-		incomeRateGameSpeedScalar -0.5
+		incomeRateGameSpeedScalar -0.30
 	incomeSpeedData-Normal
-		incomeRateGameSpeedScalar -0.00
+		incomeRateGameSpeedScalar 0.0
 	incomeSpeedData-Fast
-		incomeRateGameSpeedScalar 0.5
+		incomeRateGameSpeedScalar 0.30
 	incomeSpeedData-Faster
-		incomeRateGameSpeedScalar 1.0
+		incomeRateGameSpeedScalar 0.75
 	fleetSupplyData-Small
-		fleetSupplyScalar 0.50
+		fleetSupplyScalar 0.75
 	fleetSupplyData-Normal
 		fleetSupplyScalar 1.0
 	fleetSupplyData-Large
-		fleetSupplyScalar 2.0
+		fleetSupplyScalar 1.25
 	shipPhysicsSpeedData-Slow
-		shipLinearMaxSpeedGameSpeedScalar -0.50
-		shipLinearAccelerationGameSpeedScalar -0.50
-		shipLinearDecelerationGameSpeedScalar -0.50
-	shipPhysicsSpeedData-Normal
 		shipLinearMaxSpeedGameSpeedScalar 0.0
 		shipLinearAccelerationGameSpeedScalar 0.0
 		shipLinearDecelerationGameSpeedScalar 0.0
+	shipPhysicsSpeedData-Normal
+		shipLinearMaxSpeedGameSpeedScalar 0.30
+		shipLinearAccelerationGameSpeedScalar 0.30
+		shipLinearDecelerationGameSpeedScalar 0.30
 	shipPhysicsSpeedData-Fast
-		shipLinearMaxSpeedGameSpeedScalar 0.50
-		shipLinearAccelerationGameSpeedScalar 0.50
-		shipLinearDecelerationGameSpeedScalar 0.50
+		shipLinearMaxSpeedGameSpeedScalar 0.6
+		shipLinearAccelerationGameSpeedScalar 0.6
+		shipLinearDecelerationGameSpeedScalar 0.6
 	shipPhysicsSpeedData-Faster
-		shipLinearMaxSpeedGameSpeedScalar 1.0
-		shipLinearAccelerationGameSpeedScalar 1.0
-		shipLinearDecelerationGameSpeedScalar 1.0
+		shipLinearMaxSpeedGameSpeedScalar 0.9
+		shipLinearAccelerationGameSpeedScalar 0.9
+		shipLinearDecelerationGameSpeedScalar 0.9
 	victorySpeedData-Slow
-		diplomaticPointsRateSpeedScalar -0.75
+		diplomaticPointsRateSpeedScalar 0.66
 		occupyVictoryTimeScalar 1.5
 	victorySpeedData-Normal 
-		diplomaticPointsRateSpeedScalar -0.50
+		diplomaticPointsRateSpeedScalar 1.0
 		occupyVictoryTimeScalar 1.0
 	victorySpeedData-Fast
-		diplomaticPointsRateSpeedScalar -0.25
+		diplomaticPointsRateSpeedScalar 1.33
 		occupyVictoryTimeScalar 0.75
 	victorySpeedData-Faster
-		diplomaticPointsRateSpeedScalar 0.0
+		diplomaticPointsRateSpeedScalar 2.0
 		occupyVictoryTimeScalar 0.5
 	marketDef
 		sellPrice 2.0
@@ -701,45 +701,45 @@ DamagePercentBonus:ANTIVERYLIGHT:CapitalShip 0.994
 		breakRelationshipThreshold:PeaceTreaty 3.0
 		breakRelationshipThreshold:ResearchPact 6.0
 		breakRelationshipThreshold:EfficiencyPact 6.0
-		breakRelationshipThreshold:AntimatterPact 10.0 
+		breakRelationshipThreshold:AntimatterPact 9.0 
 		breakRelationshipThreshold:ArmorPact 9.0
-		breakRelationshipThreshold:BeamWeaponPact 13.0
+		breakRelationshipThreshold:BeamWeaponPact 9.0
 		breakRelationshipThreshold:CulturePact 9.0
-		breakRelationshipThreshold:MetalCrystalPact 5.0
-		breakRelationshipThreshold:ThrusterPact 13.0
+		breakRelationshipThreshold:MetalCrystalPact 9.0
+		breakRelationshipThreshold:ThrusterPact 9.0
 		breakRelationshipThreshold:PhaseJumpPact 9.0
-		breakRelationshipThreshold:PlanetBombingPact 11.0
-		breakRelationshipThreshold:ShieldPact 11.0
-		breakRelationshipThreshold:MarketPact 5.0
-		breakRelationshipThreshold:EnergyWeaponCooldownPact 14.0
-		breakRelationshipThreshold:MassReductionPact 12.0
-		breakRelationshipThreshold:SupplyPact 14.0
-		breakRelationshipThreshold:TacticalSlotsPact 10.0
-		breakRelationshipThreshold:WeaponCooldownPact 15.0
-		breakRelationshipThreshold:TradeIncomePact 6.0
+		breakRelationshipThreshold:PlanetBombingPact 9.0
+		breakRelationshipThreshold:ShieldPact 9.0
+		breakRelationshipThreshold:MarketPact 9.0
+		breakRelationshipThreshold:EnergyWeaponCooldownPact 9.0
+		breakRelationshipThreshold:MassReductionPact 9.0
+		breakRelationshipThreshold:SupplyPact 9.0
+		breakRelationshipThreshold:TacticalSlotsPact 9.0
+		breakRelationshipThreshold:WeaponCooldownPact 9.0
+		breakRelationshipThreshold:TradeIncomePact 9.0
 		relationshipRequirement:Trade 2.5
 		relationshipRequirement:ExternalVision 8.0
 		relationshipRequirement:InternalVision 9.5
 		relationshipRequirement:CeaseFire 4.5
 		relationshipRequirement:PeaceTreaty 9.0
-		relationshipRequirement:ResearchPact 10.5
-		relationshipRequirement:EfficiencyPact 11.0
-		relationshipRequirement:AntimatterPact 13.0
-		relationshipRequirement:ArmorPact 13.0
-		relationshipRequirement:BeamWeaponPact 17.5
-		relationshipRequirement:CulturePact 11.5
-		relationshipRequirement:MetalCrystalPact 11.0
-		relationshipRequirement:ThrusterPact 16.0
-		relationshipRequirement:PhaseJumpPact 14.0
-		relationshipRequirement:PlanetBombingPact 14.5
-		relationshipRequirement:ShieldPact 18.0
-		relationshipRequirement:MarketPact 12.0
-		relationshipRequirement:EnergyWeaponCooldownPact 18.0
+		relationshipRequirement:ResearchPact 15.0
+		relationshipRequirement:EfficiencyPact 15.0
+		relationshipRequirement:AntimatterPact 15.0
+		relationshipRequirement:ArmorPact 15.0
+		relationshipRequirement:BeamWeaponPact 15.0
+		relationshipRequirement:CulturePact 15.0
+		relationshipRequirement:MetalCrystalPact 15.0
+		relationshipRequirement:ThrusterPact 15.0
+		relationshipRequirement:PhaseJumpPact 15.0
+		relationshipRequirement:PlanetBombingPact 15.0
+		relationshipRequirement:ShieldPact 15.0
+		relationshipRequirement:MarketPact 15.0
+		relationshipRequirement:EnergyWeaponCooldownPact 15.0
 		relationshipRequirement:MassReductionPact 15.0
-		relationshipRequirement:SupplyPact 18.0
+		relationshipRequirement:SupplyPact 15.0
 		relationshipRequirement:TacticalSlotsPact 15.0
-		relationshipRequirement:WeaponCooldownPact 19.0
-		relationshipRequirement:TradeIncomePact 10.5
+		relationshipRequirement:WeaponCooldownPact 15.0
+		relationshipRequirement:TradeIncomePact 15.0
 		breakRelationshipPenalty:Trade 0.0
 		breakRelationshipPenalty:ExternalVision 0.0
 		breakRelationshipPenalty:InternalVision 0.0
@@ -795,8 +795,8 @@ DamagePercentBonus:ANTIVERYLIGHT:CapitalShip 0.994
 		aiDiplomaticPointBonusScalar:Unfair 0.0
 		aiDiplomaticPointBonusScalar:Nightmare 0.0
 		aiDiplomaticPointBonusScalar:Impossible 0.0
-		timeBetweenTreatyOffers 300
-		timeBetweenQuests 300
+		timeBetweenTreatyOffers 60
+		timeBetweenQuests 60
 		maxRelationship 10.0
 		rejectMissionsPenalty -0.10
 		rejectMissionsMin -1.5

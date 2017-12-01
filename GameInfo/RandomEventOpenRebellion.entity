@@ -30,7 +30,7 @@ instantAction
 			minCount 1
 			maxCount 2
 		requiredShip
-			type "CorvetteTechRebel"
+			type "Amarr_Ship_Cruiser_Augoror"
 			minCount 8
 			maxCount 10
 		requiredShip
@@ -54,10 +54,10 @@ instantAction
 			type "Amarr_Ship_Carrier_Archon"
 			weight 1
 		randomShip
-			type "CAPITALSHIP_TECHSUPPORT"
+			type "Amarr_Ship_Dreadnought_Revelation_ShortRange"
 			weight 1
 		randomShip
-			type "CAPITALSHIP_TECHSUPPORT"
+			type "Amarr_Ship_Carrier_Triage_Archon"
 			weight 1
 		randomShip
 			type "Amarr_Ship_ColonyCapital_Rorqual"

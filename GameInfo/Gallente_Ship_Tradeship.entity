@@ -12,7 +12,7 @@ statCountType "FrigateTradeShip"
 mainViewIcon "MAINVIEWICON_TRADESHIP_TECH"
 picture "PICTURE_FRIGATE_ITERON"
 NameStringID "IDS_TRADESHIP_GALLENTE_NAME"
-DescriptionStringID "Gallente Trade Ship"
+DescriptionStringID "IDS_TRADESHIP_GALLENTE_NAME"
 counterDescriptionStringID "IDS_COUNTERDESC_FRIGATE_NONCOMBAT"
 basePrice
 	credits 100.000000

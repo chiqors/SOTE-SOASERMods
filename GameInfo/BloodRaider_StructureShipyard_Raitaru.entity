@@ -1,9 +1,9 @@
 ﻿TXT
 entityType "StarBase"
 ability:0 "AbilityRemoteOmniRepair"
-ability:1 "BloodRaider_AbilitySummonLogi"
-ability:2 "BloodRaider_AbilitySummonBattleship"
-ability:3 "BloodRaider_AbilitySummonDreadnought"
+ability:1 "Bloodraider_AbilityCynosuralField2"
+ability:2 "Bloodraider_AbilityCynosuralField3"
+ability:3 "Bloodraider_AbilityCynosuralField4"
 ability:4 ""
 defaultAutoAttackRange "None"
 defaultAutoAttackOn TRUE

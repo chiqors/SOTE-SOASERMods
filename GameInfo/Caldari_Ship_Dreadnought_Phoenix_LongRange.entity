@@ -1,9 +1,9 @@
 ﻿TXT
 entityType "CapitalShip"
-ability:0 "AbilitySiegeMode"
-ability:1 "AbilityMISSILEGUIDANCECOMPUTER"
-ability:2 "AbilityInvulnerabilityShieldFieldCapital"
-ability:3 ""
+ability:0 "AbilityShieldBoosterCapital"
+ability:1 "AbilityInvulnerabilityShieldFieldCapital"
+ability:2 "AbilityAntiCapitalMode"
+ability:3 "AbilitySiegeMode"
 ability:4 ""
 defaultAutoAttackRange "GravityWell"
 defaultAutoAttackOn TRUE
@@ -102,12 +102,12 @@ NumWeapons 1
 Weapon
 	WeaponType "Missile"
 	damageEnums
-		AttackType "ANTIHEAVY"
+		AttackType "ANTIVERYHEAVY"
 		DamageAffectType "AFFECTS_SHIELDS_AND_HULL"
 		DamageApplyType "BACKLOADED"
 		DamageType "PHYSICAL"
 		WeaponClassType "MISSILE"
-	DamagePerBank:FRONT 12950.000000
+	DamagePerBank:FRONT 7000.000000
 	DamagePerBank:BACK 0.000000
 	DamagePerBank:LEFT 0.000000
 	DamagePerBank:RIGHT 0.000000
@@ -128,16 +128,14 @@ Weapon
 		muzzleSoundMinRespawnTime 0.500000
 		muzzleSounds
 			soundCount 1
-			sound "EFFECT_NEUTRONTORPEDO_MUZZLE"
+			sound "WEAPON_XLMISSILE_FIRE"
 		hitEffectName "EVE_Missile_LightMissile_Hit"
 		hitHullEffectSounds
-			soundCount 2
-			sound "LIGHTMISSILEEXPLOSION1"
-			sound "LIGHTMISSILEEXPLOSION2"
+			soundCount 1
+			sound "WEAPON_XLMISSILE_HIT"
 		hitShieldsEffectSounds
-			soundCount 2
-			sound "LIGHTMISSILEEXPLOSION1"
-			sound "LIGHTMISSILEEXPLOSION2"
+			soundCount 1
+			sound "WEAPON_XLMISSILE_HIT"
 		missileTravelEffectName "EVE_Missile_LightMissile_Travel"
 		missileStartTurningDistance 0.000000
 		missileSlowTurnRate 0.500000

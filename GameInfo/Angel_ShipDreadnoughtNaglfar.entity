@@ -1,9 +1,9 @@
 ﻿TXT
 entityType "CapitalShip"
-ability:0 "AbilitySiegeMode"
-ability:1 "AbilityTrackingComputer"
-ability:2 "AbilityInvulnerabilityShieldFieldCapital"
-ability:3 ""
+ability:0 "AbilityShieldBoosterCapital"
+ability:1 "AbilityInvulnerabilityShieldFieldCapital"
+ability:2 "AbilityTargetPainter"
+ability:3 "AbilitySiegeMode"
 ability:4 ""
 defaultAutoAttackRange "GravityWell"
 defaultAutoAttackOn TRUE
@@ -50,7 +50,7 @@ basePrice
 	metal 1432.000000
 	crystal 1432.000000
 slotCount 1.000000
-BuildTime 75.000000
+BuildTime 112.000000
 MaxHullPoints
 	StartValue 85938.000000
 	ValueIncreasePerLevel 8593.000000
@@ -82,7 +82,10 @@ NameStringID "IDS_CAPITALSHIP_ANGEL_NAGLFAR_NAME"
 DescriptionStringID "IDS_CAPITALSHIP_NAGLFAR_RANGED_DESCRIPTION"
 picture "PICTURE_CAPITAL_NAGLFAR"
 Prerequisites
-	NumResearchPrerequisites 0
+	NumResearchPrerequisites 1
+	ResearchPrerequisite
+		Subject "Minmatar_ResearchSubject_CapitalAccess_Angel_Naglfar"
+		Level 2
 	RequiredFactionNameID ""
 	RequiredCompletedResearchSubjects 0
 roleType "COLONY"
@@ -91,7 +94,7 @@ numRandomDebrisLarge 0
 numRandomDebrisSmall 0
 numSpecificDebris 0
 armorType "VeryHeavy"
-hudIcon "HUDICON_CAPITALSHIP_NAGLFAR"
+hudIcon "HUDICON_ANGEL_NAGLFAR"
 smallHudIcon "HUDICONSMALL_CAPITAL_NAGLFAR"
 infoCardIcon "HUDICONSMALL_CAPITAL_NAGLFAR"
 minZoomDistanceMult 1.000000
@@ -104,36 +107,36 @@ Weapon
 		DamageApplyType "BACKLOADED"
 		DamageType "PHYSICAL"
 		WeaponClassType "GAUSS"
-	DamagePerBank:FRONT 3963.000000
+	DamagePerBank:FRONT 2500.000000
 	DamagePerBank:BACK 0.000000
 	DamagePerBank:LEFT 0.000000
 	DamagePerBank:RIGHT 0.000000
-	Range 10000.000000
-	PreBuffCooldownTime 34.00000
+	Range 15000.000000
+	PreBuffCooldownTime 10.000000
 	CanFireAtFighter FALSE
 	SynchronizedTargeting TRUE
 	PointStaggerDelay 0.000000
-	TravelSpeed 10000.000000
-	Duration 1.300000
+	TravelSpeed 6000.000000
+	Duration 0.250000
 	fireConstraintType "CanAlwaysFire"
 	WeaponEffects
 		weaponType "Projectile"
-		burstCount 3
-		burstDelay 0.050000
+		burstCount 6
+		burstDelay 0.250000
 		fireDelay 0.000000
 		muzzleEffectName "Weapon_TechCapitalAutoCannonHeavy_Muzzle"
-		muzzleSoundMinRespawnTime 1.000000
+		muzzleSoundMinRespawnTime 0.500000
 		muzzleSounds
 			soundCount 1
-			sound "WEAPON_HEAVYAUTOCANNON"
+			sound "WEAPON_XLAUTOCANNON_FIRE"
 		hitEffectName "Weapon_TechCapitalAutoCannonHeavy_Hit"
 		hitHullEffectSounds
 			soundCount 1
-			sound ""
+			sound "WEAPON_XLPROJECTILE_HIT"
 		hitShieldsEffectSounds
 			soundCount 1
 			sound ""
-		projectileTravelEffectName "Weapon_TechCapitalAutoCannonHeavy_Travel"
+		projectileTravelEffectName "EVE_Weapon_Autocannon_Large"
 m_weaponIndexForRange 0
 firingAlignmentType "Default"
 TargetCountPerBank:FRONT 1

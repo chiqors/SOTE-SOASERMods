@@ -1,9 +1,9 @@
 ﻿TXT
 entityType "CapitalShip"
-ability:0 "AbilitySiegeMode"
-ability:1 "AbilityTrackingComputer"
-ability:2 "AbilityPhasedArmourHardenerCapital"
-ability:3 "AbilityArmorRepairerCapital"
+ability:0 "AbilityArmorRepairerCapital"
+ability:1 "AbilityPhasedArmourHardenerCapital"
+ability:2 "AbilityHeavyEnergyNeutralizerBhaalgorn"
+ability:3 "AbilitySiegeMode"
 ability:4 ""
 defaultAutoAttackRange "GravityWell"
 defaultAutoAttackOn TRUE
@@ -46,17 +46,17 @@ bombEffectsDef
 	missileMaxSlowTurnTime 6.000000
 mainViewIcon "MAINVIEWICON_CAPITALSHIP_TECHCOLONY"
 basePrice
-	credits 3000.000000
-	metal 1693.000000
-	crystal 1172.000000
+	credits 4000.000000
+	metal 2000.000000
+	crystal 1500.000000
 slotCount 1.000000
-BuildTime 75.000000
+BuildTime 112.000000
 MaxHullPoints
-	StartValue 101563.000000
-	ValueIncreasePerLevel 10156.000000
+	StartValue 125000.000000
+	ValueIncreasePerLevel 12500.000000
 MaxShieldPoints
-	StartValue 70313.000000
-	ValueIncreasePerLevel 7031.000000
+	StartValue 25000.000000
+	ValueIncreasePerLevel 2500.000000
 HullPointRestoreRate
 	StartValue 10.000000
 	ValueIncreasePerLevel 0.500000
@@ -64,8 +64,8 @@ ShieldPointRestoreRate
 	StartValue 1.000000
 	ValueIncreasePerLevel 1.00000
 ArmorPointsFromExperience
-	StartValue 25.000000
-	ValueIncreasePerLevel 0.000000
+	StartValue 30.000000
+	ValueIncreasePerLevel 1.000000
 maxMitigation
 	StartValue 0.2500000
 	ValueIncreasePerLevel 0.000000
@@ -82,7 +82,10 @@ NameStringID "IDS_BLOODRAIDER_NAME"
 DescriptionStringID "IDS_SNIPERREVELATION_DESCRIPTION"
 picture "PICTURE_CAPITAL_REVELATION"
 Prerequisites
-	NumResearchPrerequisites 0
+	NumResearchPrerequisites 1
+	ResearchPrerequisite
+		Subject "Amarr_ResearchSubject_CapitalAccess_Chemosh"
+		Level 2
 	RequiredFactionNameID ""
 	RequiredCompletedResearchSubjects 0
 roleType "COLONY"
@@ -91,7 +94,7 @@ numRandomDebrisLarge 0
 numRandomDebrisSmall 0
 numSpecificDebris 0
 armorType "VeryHeavy"
-hudIcon "HUDICON_CAPITALSHIP_TECHCOLONY"
+hudIcon "HUDICON_BLOOD_CHEMOSH"
 smallHudIcon "HUDICONSMALL_CAPITALSHIP_TECHCOLONY"
 infoCardIcon "INFOCARDICON_CAPITALSHIP_TECHCOLONY"
 minZoomDistanceMult 1.000000
@@ -104,7 +107,7 @@ Weapon
 		DamageApplyType "OVERTIME"
 		DamageType "ENERGY"
 		WeaponClassType "BEAM"
-	DamagePerBank:FRONT 5568.000000
+	DamagePerBank:FRONT 6000.000000
 	DamagePerBank:BACK 0.000000
 	DamagePerBank:LEFT 0.000000
 	DamagePerBank:RIGHT 0.000000
@@ -150,7 +153,7 @@ TargetCountPerBank:LEFT 0
 TargetCountPerBank:RIGHT 0
 canOnlyTargetStructures FALSE
 mass 25000.000000
-ShieldMeshName "Revelation"
+ShieldMeshName "Chemosh"
 renderShield TRUE
 maxAccelerationLinear 13.750000
 maxAccelerationStrafe 1.000000
@@ -186,7 +189,7 @@ NumSoundsFor:ONSTARTPHASEJUMP 1
 SoundID "CAPITALSHIP_TECHCOLONY_ONSTARTPHASEJUMP_0"
 MeshNameInfoCount 1
 MeshNameInfo
-	meshName "Revelation"
+	meshName "Chemosh"
 	criteriaType "None"
 meshNameIncreasedEffectName ""
 meshNameDecreasedEffectName ""

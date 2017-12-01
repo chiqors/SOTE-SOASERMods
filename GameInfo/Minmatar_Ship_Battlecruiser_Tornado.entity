@@ -31,7 +31,7 @@ maxMitigation 0.10000
 Prerequisites
 	NumResearchPrerequisites 1
 	ResearchPrerequisite
-		Subject "Minmatar_ResearchSubject_SubCapitalAccess_Hurricane"
+		Subject "Minmatar_ResearchSubject_SubCapitalAccess_Tornado"
 		Level 1
 	RequiredFactionNameID ""
 	RequiredCompletedResearchSubjects 0
@@ -39,9 +39,9 @@ numRandomDebrisLarge 0
 numRandomDebrisSmall 0
 numSpecificDebris 0
 armorType "Medium"
-hudIcon "HUDICON_FRIGATE_HURRICANE"
-smallHudIcon "HUDICONSMALL_FRIGATE_HURRICANE"
-infoCardIcon "HUDICONSMALL_FRIGATE_HURRICANE"
+hudIcon "HUDICON_MINMATAR_TORNADO"
+smallHudIcon "HUDICONSMALL_BATTLECRUISER"
+infoCardIcon "HUDICONSMALL_BATTLECRUISER"
 minZoomDistanceMult 1.000000
 NumWeapons 1
 Weapon
@@ -140,9 +140,9 @@ HyperspaceChargingSoundID "HYPERSPACE_CHARGEUP"
 HyperspaceTravelSoundID "HYPERSPACE_TRAVEL"
 EngineSoundID "ENGINE_TECHCAPITALSHIP"
 ability:0 "AbilityMicrowarpdrive"
-ability:1 "AbilityCaldariShieldWarfareMindlink"
+ability:1 "AbilityTrackingComputer"
 ability:2 "AbilityInvulnerabilityShieldField"
-ability:3 ""
+ability:3 "AbilityBattleshipResistShield"
 ability:4 ""
 MaxAntiMatter 515.000000
 AntiMatterRestoreRate 1.500000

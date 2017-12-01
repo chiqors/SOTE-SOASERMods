@@ -1,52 +1,41 @@
 ﻿TXT
 entityType "Ability"
-buffInstantActionType "ApplyBuffToTargetsInDirectionalCone"
+buffInstantActionType "ApplyTargettedBuffToSelf"
 instantActionTriggerType "AlwaysPerform"
-buffType "BuffScattershotPre"
+buffType "BuffBosonicField_Self"
 targetFilter
 	numOwnerships 1
 	ownership "Enemy"
-	numObjects 5
+	numObjects 6
 	object "CapitalShip"
 	object "Frigate"
 	object "PlanetModule"
 	object "StarBase"
 	object "Titan"
+	object "Corvette"
 	numSpaces 1
 	space "Normal"
-	numConstraints 1
-	constraint "NotInvulnerable"
-weaponBank "FRONT"
+	numConstraints 0
 range
 	Level:0 10000.000000
 	Level:1 10000.000000
 	Level:2 10000.000000
 	Level:3 10000.000000
-coneAngle
-	Level:0 1.570000
-	Level:1 1.570000
-	Level:2 1.570000
-	Level:3 1.570000
-maxTargetCount
-	Level:0 -1.000000
-	Level:1 -1.000000
-	Level:2 -1.000000
-	Level:3 -1.000000
 effectInfo
 	effectAttachInfo
 		attachType "Ability"
 		abilityIndex 0
-	smallEffectName "TitanAbility_FragmentationScattershot_Travel"
-	mediumEffectName "TitanAbility_FragmentationScattershot_Travel"
-	largeEffectName "TitanAbility_FragmentationScattershot_Travel"
-	soundID "EFFECT_SCATTERSHOT"
+	smallEffectName ""
+	mediumEffectName ""
+	largeEffectName ""
+	soundID ""
 needsToFaceTarget TRUE
 canCollideWithTarget TRUE
 moveThruTarget FALSE
 isUltimateAbility FALSE
 maxNumLevels 4
 levelSourceType "TitanUpgradeLevel"
-sourcePropertyType "AbilityALevel"
+sourcePropertyType "AbilityCLevel"
 aiUseTime "OnlyWhenManyTargetsInRangeOfBank"
 onlyAutoCastWhenTargetCountExceedsAmount
 	Level:0 6.000000
@@ -62,15 +51,15 @@ ignoreNonCombatShipsForAutoCastTarget TRUE
 onlyAutoCastWhenDamageTakenExceedsPerc 0.000000
 useCostType "AntiMatter"
 antiMatterCost
-	Level:0 65.000000
-	Level:1 65.000000
-	Level:2 65.000000
-	Level:3 65.000000
+	Level:0 10000.000000
+	Level:1 10000.000000
+	Level:2 10000.000000
+	Level:3 10000.000000
 cooldownTime
-	Level:0 60.000000
-	Level:1 60.000000
-	Level:2 60.000000
-	Level:3 60.000000
+	Level:0 300.000000
+	Level:1 280.000000
+	Level:2 260.000000
+	Level:3 240.000000
 orderAcknowledgementType "ONGENERALORDERISSUED"
 researchPrerequisites
 	NumResearchPrerequisites 0

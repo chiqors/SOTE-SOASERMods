@@ -1,5 +1,5 @@
 TXT
-numEffects 406
+numEffects 419
 effect
 	name "BUTTONPRESS"
 	fileName "ButtonPress.ogg"
@@ -5881,8 +5881,8 @@ effect
 	fadeOutTime 0.0
 	alternateGroup "WEAPON_MEGABEAMLASER"
 effect
-	name "WEAPON_GIGAPULSELASER"
-	fileName "GigaPulseLaser.ogg"
+	name "WEAPON_XLPULSE_FIRE"
+	fileName "XLFire_Pulse.ogg"
 	type "Effect"
 	is3D TRUE
 	priority 5
@@ -5894,7 +5894,37 @@ effect
 	minRespawnTime 0.1
 	fadeInTime 0.0
 	fadeOutTime 0.0
-	alternateGroup "WEAPON_GIGAPULSELASER"
+	alternateGroup ""
+effect
+	name "WEAPON_XLENERGY_HIT"
+	fileName "XLHit_Energy.ogg"
+	type "Effect"
+	is3D TRUE
+	priority 5
+	threshold 65000.000000
+	minAttenuationDist 700.000000
+	maxNumPlayingSimultaneously 5
+	isLooping FALSE
+	isResident TRUE
+	minRespawnTime 0.1
+	fadeInTime 0.0
+	fadeOutTime 0.0
+	alternateGroup ""
+effect
+	name "WEAPON_XLBEAM_FIRE"
+	fileName "XLFire_Beam.ogg"
+	type "Effect"
+	is3D TRUE
+	priority 5
+	threshold 65000.000000
+	minAttenuationDist 700.000000
+	maxNumPlayingSimultaneously 5
+	isLooping FALSE
+	isResident TRUE
+	minRespawnTime 0.1
+	fadeInTime 0.0
+	fadeOutTime 0.0
+	alternateGroup ""
 effect
 	name "WEAPON_MEGAPULSELASER"
 	fileName "MegaPulseLaser.ogg"
@@ -5976,6 +6006,36 @@ effect
 	type "Effect"
 	is3D TRUE
 	priority 5
+	threshold 50000.000000
+	minAttenuationDist 500.000000
+	maxNumPlayingSimultaneously 5
+	isLooping FALSE
+	isResident TRUE
+	minRespawnTime 0.1
+	fadeInTime 0.2
+	fadeOutTime 0.5
+	alternateGroup "WEAPON_LIGHTBLASTER"
+effect
+	name "WEAPON_XLBLASTER_FIRE"
+	fileName "XLFire_Blaster.ogg"
+	type "Effect"
+	is3D TRUE
+	priority 5
+	threshold 55000.000000
+	minAttenuationDist 700.000000
+	maxNumPlayingSimultaneously 5
+	isLooping FALSE
+	isResident TRUE
+	minRespawnTime 0.1
+	fadeInTime 0.0
+	fadeOutTime 0.0
+	alternateGroup "WEAPON_MEGABLASTER"
+effect
+	name "WEAPON_XLRAILGUN_FIRE"
+	fileName "XLFire_Railgun.ogg"
+	type "Effect"
+	is3D TRUE
+	priority 5
 	threshold 55000.000000
 	minAttenuationDist 700.000000
 	maxNumPlayingSimultaneously 5
@@ -6046,6 +6106,21 @@ effect
 	fadeOutTime 0.0
 	alternateGroup "WEAPON_MEDIUMRAILGUN"
 effect
+	name "WEAPON_XLHYBRID_HIT"
+	fileName "XLHit_Hybrid.ogg"
+	type "Effect"
+	is3D TRUE
+	priority 5
+	threshold 50000.000000
+	minAttenuationDist 700.000000
+	maxNumPlayingSimultaneously 5
+	isLooping FALSE
+	isResident TRUE
+	minRespawnTime 0.1
+	fadeInTime 0.0
+	fadeOutTime 0.0
+	alternateGroup ""
+effect
 	name "WEAPON_LIGHTAUTOCANNON"
 	fileName "Weapon_TechCapitalAutoCannonLight_Muzzle.ogg"
 	type "Effect"
@@ -6089,5 +6164,125 @@ effect
 	minRespawnTime 0.1
 	fadeInTime 0.0
 	fadeOutTime 0.0
-	alternateGroup "WEAPON_MEDIUMRAILGUN"	
-	
+	alternateGroup "WEAPON_MEDIUMRAILGUN"
+effect
+	name "WEAPON_XLARTILLERY_FIRE"
+	fileName "XLFire_Artillery.ogg"
+	type "Effect"
+	is3D TRUE
+	priority 5
+	threshold 50000.000000
+	minAttenuationDist 700.000000
+	maxNumPlayingSimultaneously 5
+	isLooping FALSE
+	isResident TRUE
+	minRespawnTime 0.1
+	fadeInTime 0.0
+	fadeOutTime 0.0
+	alternateGroup ""
+effect
+	name "WEAPON_XLAUTOCANNON_FIRE"
+	fileName "XLFire_AutoCannon.ogg"
+	type "Effect"
+	is3D TRUE
+	priority 5
+	threshold 50000.000000
+	minAttenuationDist 700.000000
+	maxNumPlayingSimultaneously 5
+	isLooping FALSE
+	isResident TRUE
+	minRespawnTime 0.1
+	fadeInTime 0.0
+	fadeOutTime 0.0
+	alternateGroup ""
+effect
+	name "WEAPON_XLPROJECTILE_HIT"
+	fileName "XLHit_Projectile.ogg"
+	type "Effect"
+	is3D TRUE
+	priority 5
+	threshold 50000.000000
+	minAttenuationDist 700.000000
+	maxNumPlayingSimultaneously 5
+	isLooping FALSE
+	isResident TRUE
+	minRespawnTime 0.1
+	fadeInTime 0.0
+	fadeOutTime 0.0
+	alternateGroup ""		
+effect
+	name "Judgment_Fire"
+	fileName "Judgment.ogg"
+	type "Effect"
+	is3D TRUE
+	priority 5
+	threshold 50000.000000
+	minAttenuationDist 700.000000
+	maxNumPlayingSimultaneously 5
+	isLooping FALSE
+	isResident TRUE
+	minRespawnTime 0.1
+	fadeInTime 0.0
+	fadeOutTime 0.0
+	alternateGroup ""		
+effect
+	name "AuroraOminae_Fire"
+	fileName "AuroraOmniae.ogg"
+	type "Effect"
+	is3D TRUE
+	priority 5
+	threshold 50000.000000
+	minAttenuationDist 700.000000
+	maxNumPlayingSimultaneously 5
+	isLooping FALSE
+	isResident TRUE
+	minRespawnTime 0.1
+	fadeInTime 0.0
+	fadeOutTime 0.0
+	alternateGroup ""		
+effect
+	name "Gjallarhorn_hit"
+	fileName "Gjallahorn.ogg"
+	type "Effect"
+	is3D TRUE
+	priority 5
+	threshold 50000.000000
+	minAttenuationDist 700.000000
+	maxNumPlayingSimultaneously 5
+	isLooping FALSE
+	isResident TRUE
+	minRespawnTime 0.1
+	fadeInTime 0.0
+	fadeOutTime 0.0
+	alternateGroup ""		
+effect
+	name "WEAPON_XLMISSILE_FIRE"
+	fileName "XLFire_Missile.ogg"
+	type "Effect"
+	is3D TRUE
+	priority 5
+	threshold 50000.000000
+	minAttenuationDist 700.000000
+	maxNumPlayingSimultaneously 5
+	isLooping FALSE
+	isResident TRUE
+	minRespawnTime 0.1
+	fadeInTime 0.0
+	fadeOutTime 0.0
+	alternateGroup ""
+effect
+	name "WEAPON_XLMISSILE_HIT"
+	fileName "XLHit_Missile.ogg"
+	type "Effect"
+	is3D TRUE
+	priority 5
+	threshold 50000.000000
+	minAttenuationDist 700.000000
+	maxNumPlayingSimultaneously 5
+	isLooping FALSE
+	isResident TRUE
+	minRespawnTime 0.1
+	fadeInTime 0.0
+	fadeOutTime 0.0
+	alternateGroup ""
+						

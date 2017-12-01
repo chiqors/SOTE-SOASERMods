@@ -6,8 +6,10 @@ prefersToFocusFire TRUE
 usesFighterAttack FALSE
 autoJoinFleetDefault TRUE
 canBomb FALSE
-typeCount 1
+typeCount 3
+frigateRoleType "Lrm"
 frigateRoleType "Heavy"
+frigateRoleType "Support"
 statCountType "FrigateHeavy"
 mainViewIcon "MAINVIEWICON_CAPITALSHIP_TECHSIEGE"
 picture "PICTURE_FRIGATE_APOCALYPSE"
@@ -147,9 +149,9 @@ HyperspaceChargingSoundID "HYPERSPACE_CHARGEUP"
 HyperspaceTravelSoundID "HYPERSPACE_TRAVEL"
 EngineSoundID "ENGINE_TECHCAPITALSHIP"
 ability:0 "AbilityMicroJumpDrive"
-ability:1 "AbilityTrackingComputer"
-ability:2 "AbilityArmorRepairer"
-ability:3 "AbilityBastionModePaladin"
+ability:1 "AbilityArmorRepairer"
+ability:2 "AbilityBastionModePaladin"
+ability:3 "AbilityBattleshipResistArmor"
 ability:4 "AbilityT2BattleshipPaladin"
 MaxAntiMatter 7000.000000
 AntiMatterRestoreRate 36.000000

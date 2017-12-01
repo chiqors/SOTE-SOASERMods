@@ -10,7 +10,7 @@ isChannelling FALSE
 numInstantActions 0
 numPeriodicActions 0
 numOverTimeActions 0
-numEntityModifiers 1
+numEntityModifiers 3
 entityModifier
 	buffEntityModifierType "DamageAsDamageTarget"
 	value
@@ -18,6 +18,20 @@ entityModifier
 		Level:1 -0.170000
 		Level:2 -0.190000
 		Level:3 -0.210000
+entityModifier
+	buffEntityModifierType "HullPointRestoreRate"
+	value
+		Level:0 0.200000
+		Level:1 0.250000
+		Level:2 0.300000
+		Level:3 0.350000
+entityModifier
+	buffEntityModifierType "MaxHullPoints"
+	value
+		Level:0 1000.00000
+		Level:1 1250.00000
+		Level:2 1500.00000
+		Level:3 1800.000000		
 numEntityBoolModifiers 0
 numFinishConditions 2
 finishCondition

@@ -21,7 +21,7 @@ entities
 			entityDefName "Minmatar_Structure_CivillianLab"
 			entityDefName "Minmatar_Structure_Refinery"
 		Page:1
-			count 8
+			count 9
 			entityDefName "Amarr_Structure_SmallPulseLaserBattery"
 			entityDefName "Amarr_Structure_MediumPulseLaserBattery"
 			entityDefName "Amarr_Structure_LargePulseLaserBattery"
@@ -29,22 +29,25 @@ entities
 			entityDefName "Amarr_Structure_JumpBridge"
 			entityDefName "Amarr_Structure_CynoJammer"
 			entityDefName "Angel_ModuleShipyard"
+			entityDefName "Mordu_ModuleShipyard"
 			entityDefName "Minmatar_Structure_TitanFoundry"
 	titanInfo
 		Page:0
-			count 1
+			count 2
 			entityDefName "Minmatar_Ship_Titan_Ragnarok"
+			entityDefName "Angel_ShipTitanRagnarok"
 	capitalShipInfo
 		Page:0
-			count 8
+			count 9
 			entityDefName "Amarr_Ship_ColonyCapital_Rorqual"
 			entityDefName "Minmatar_Ship_Carrier_Nidhoggur"
 			entityDefName "Minmatar_Ship_Carrier_Triage_Lif"
-			entityDefName "Minmatar_Ship_Dreadnought_Naglfar_ShortRange"
 			entityDefName "Minmatar_Ship_Dreadnought_Naglfar_LongRange"
 			entityDefName "Minmatar_Ship_Supercarrier_Hel"
 			entityDefName "Minmatar_Ship_Capital_Titan_Ragnarok"
-			entityDefName "AllRaces_Ship_Supercarrier_Revenant"
+			entityDefName "Angel_ShipFAUX_Lif"
+			entityDefName "Angel_ShipDreadnoughtNaglfar"
+			entityDefName "Angel_ShipSupercarrierHel"
 	frigateInfo
 		Page:0
 			count 9
@@ -53,21 +56,21 @@ entities
 			entityDefName "Minmatar_Ship_Frigate_Breacher"
 			entityDefName "Minmatar_Ship_Frigate_Slasher"
 			entityDefName "Minmatar_Ship_Destroyer_Thrasher"
-			entityDefName "Minmatar_Ship_Destroyer_Svipul"
+			entityDefName "Minmatar_Ship_Cruiser_Stabber"
 			entityDefName "Minmatar_Ship_Cruiser_Rupture"
 			entityDefName "Minmatar_Ship_Cruiser_Scyther"
 			entityDefName "AllRaces_Ship_Colony_Orca"
 		Page:1
 			count 9
 			entityDefName "Minmatar_Ship_Cruiser_Belicose"
-			entityDefName "Minmatar_Ship_Cruiser_Stabber"
-			entityDefName "Minmatar_Ship_Battlecruiser_Cyclone"
 			entityDefName "Minmatar_Ship_Battlecruiser_Hurricane"
 			entityDefName "Minmatar_Ship_Battlecruiser_Tornado"
-			entityDefName "Minmatar_Ship_Envoy_CycloneEnvoy"
 			entityDefName "Minmatar_Ship_Battleship_Typhoon"
 			entityDefName "Minmatar_Ship_Battleship_Tempest"
 			entityDefName "Minmatar_Ship_Battleship_Maelstron"
+			entityDefName "Minmatar_Ship_Envoy_CycloneEnvoy"
+			entityDefName "Minmatar_Ship_Destroyer_Svipul"
+			entityDefName "Minmatar_ShipT3Cruiser_Loki"
 		NotOnPage
 			count 4
 			entityDefName "AllRaces_Ship_Constructor_Venture"
@@ -75,7 +78,18 @@ entities
 			entityDefName "AllRaces_Ship_Orca"
 			entityDefName "Minmatar_Ship_Tradeship_Manmonth"
 	researchInfo
-		count 136
+		count 147
+		entityDefName "RSATitanCapacity"
+		entityDefName "RSACommandShip"
+		entityDefName "Minmatar_ResearchSubject_SubCapitalAccess_Dramiel"
+		entityDefName "Minmatar_ResearchSubject_SubCapitalAccess_Cynabal"
+		entityDefName "Minmatar_ResearchSubject_SubCapitalAccess_Machariel"
+		entityDefName "Minmatar_ResearchSubject_CapitalAccess_Angel_Hel"
+		entityDefName "Minmatar_ResearchSubject_CapitalAccess_Angel_Naglfar"
+		entityDefName "Minmatar_ResearchSubject_CapitalAccess_Angel_Nidhoggur"
+		entityDefName "Minmatar_RESEARCHSUBJECT_TITANACCESS_Angel_Ragnarok"
+		entityDefName "Minmatar_ResearchSubject_SubCapitalAccess_Tornado"
+		entityDefName "RESEARCHSUBJECT_DARKFLEET"		
 		entityDefName "RSAInterdictor"
 		entityDefName "RSACommand_Orca"
 		entityDefName "RSACovertOps"
@@ -125,7 +139,6 @@ entities
 		entityDefName "Minmatar_ResearchSubject_CapitalAccess_Nidhoggur"
 		entityDefName "Minmatar_ResearchSubject_SubCapitalAccess_Belicose"
 		entityDefName "Minmatar_ResearchSubject_SubCapitalAccess_Breacher"
-		entityDefName "Minmatar_ResearchSubject_SubCapitalAccess_Cyclone"
 		entityDefName "Minmatar_ResearchSubject_SubCapitalAccess_CycloneEnvoy"
 		entityDefName "Minmatar_ResearchSubject_SubCapitalAccess_Hurricane"
 		entityDefName "Minmatar_ResearchSubject_SubCapitalAccess_Maelstron"
@@ -136,10 +149,10 @@ entities
 		entityDefName "Minmatar_ResearchSubject_SubCapitalAccess_Tempest"
 		entityDefName "Minmatar_ResearchSubject_SubCapitalAccess_Thrasher"
 		entityDefName "Minmatar_ResearchSubject_SubCapitalAccess_Typhoon"
-		entityDefName "RESEARCHSUBJECT_ABILITYACCESS_ARBITRATETARIFF"
-		entityDefName "RESEARCHSUBJECT_ABILITYACCESS_SETTLERS"
+		entityDefName "RESEARCHSUBJECT_ABILITYACCESS_ARBITRATETARIFF2"
+		entityDefName "RESEARCHSUBJECT_ABILITYACCESS_SETTLERS2"
 		entityDefName "RESEARCHSUBJECT_ABILITYACCESS_UNSTOPPABLEPHASEJUMPTECH"
-		entityDefName "RESEARCHSUBJECT_ABILITYACCESS_WORTHYCAUSE"
+		entityDefName "RESEARCHSUBJECT_ABILITYACCESS_WORTHYCAUSE2"
 		entityDefName "RESEARCHSUBJECT_ADVANCED_CULTURAL_RELATIONS"
 		entityDefName "RESEARCHSUBJECT_ANTIMATTERTECH0"
 		entityDefName "RESEARCHSUBJECT_ANTIMATTERTECH1"
@@ -212,12 +225,13 @@ entities
 		entityDefName "AllRaces_ResearchSubject_ArcingVortonProjector"
 		entityDefName "RESEARCHSUBJECT_STARBASEUPGRADEACCESS_FACTORY"
 		entityDefName "RESEARCHSUBJECT_PLANETMODULEACCESS_REPAIRPLATFORMPSI"
+		entityDefName "RESEARCHSUBJECT_PLANETMODULEACCESS_REPAIRPLATFORMPSI2"
 	starBaseInfo
 		count 3
 		entityDefName "Allraces_Structure_Citadel_Astrahus"
 		entityDefName "Allraces_Structure_Citadel_Fortizar"
 		entityDefName "Allraces_Structure_Citadel_Keepstar"
-	flagship "Amarr_Ship_Flagship_ImperialApocalypse"
+	flagship "Minmatar_Ship_Flagship"
 debrisData
 	numRandomMeshNamesLarge 8
 	randomMeshName "DebrisTechGenericLarge0"

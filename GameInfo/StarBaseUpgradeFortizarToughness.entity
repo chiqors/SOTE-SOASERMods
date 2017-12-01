@@ -45,8 +45,8 @@ stage
 		NumResearchPrerequisites 0
 		RequiredFactionNameID ""
 		RequiredCompletedResearchSubjects 0
-	hudIcon "HUDIconStarBaseUpgradeTechToughness0"
-	smallHudIcon "HUDIconStarBaseUpgradeTechToughness0"
+	hudIcon "HUDIconStarBaseUpgradeTechToughness1"
+	smallHudIcon "HUDIconStarBaseUpgradeTechToughness1"
 	infoCardIcon ""
 	upgradePropertyCount 5
 	upgradeProperty
@@ -77,8 +77,8 @@ stage
 		NumResearchPrerequisites 0
 		RequiredFactionNameID ""
 		RequiredCompletedResearchSubjects 0
-	hudIcon "HUDIconStarBaseUpgradeTechToughness1"
-	smallHudIcon "HUDIconStarBaseUpgradeTechToughness1"
+	hudIcon "HUDIconStarBaseUpgradeTechToughness2"
+	smallHudIcon "HUDIconStarBaseUpgradeTechToughness2"
 	infoCardIcon ""
 	upgradePropertyCount 5
 	upgradeProperty
@@ -109,8 +109,8 @@ stage
 		NumResearchPrerequisites 0
 		RequiredFactionNameID ""
 		RequiredCompletedResearchSubjects 0
-	hudIcon "HUDIconStarBaseUpgradeTechToughness1"
-	smallHudIcon "HUDIconStarBaseUpgradeTechToughness1"
+	hudIcon "HUDIconStarBaseUpgradeTechToughness3"
+	smallHudIcon "HUDIconStarBaseUpgradeTechToughness3"
 	infoCardIcon ""
 	upgradePropertyCount 5
 	upgradeProperty

@@ -1,6 +1,6 @@
 ﻿TXT
 entityType "StarBase"
-ability:0 ""
+ability:0 "AbilityOutpostBonus"
 ability:1 "AbilityECMBattery"
 ability:2 "AbilitySensorDampener"
 ability:3 ""
@@ -157,7 +157,7 @@ TargetCountPerBank:BACK 3
 TargetCountPerBank:LEFT 3
 TargetCountPerBank:RIGHT 3
 canOnlyTargetStructures FALSE
-ShieldMeshName "Fortizar"
+ShieldMeshName "as_capitalship"
 renderShield TRUE
 squadTypeEntityDef:0 "Caldari_DroneSquad_LightFighter"
 squadAntiMatterCost:0 0.000000
@@ -179,7 +179,7 @@ UpgradeType "StarBaseUpgradeTechToughness"
 UpgradeType "StarBaseUpgradeTechBlockColonize"
 MeshNameInfoCount 1
 MeshNameInfo
-	meshName "Fortizar"
+	meshName "amarrtower"
 	criteriaType "None"
 meshNameIncreasedEffectName ""
 meshNameDecreasedEffectName ""

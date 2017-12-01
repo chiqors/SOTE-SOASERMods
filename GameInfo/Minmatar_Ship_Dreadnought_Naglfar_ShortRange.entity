@@ -107,36 +107,36 @@ Weapon
 		DamageApplyType "BACKLOADED"
 		DamageType "PHYSICAL"
 		WeaponClassType "GAUSS"
-	DamagePerBank:FRONT 2150.000000
+	DamagePerBank:FRONT 2500.000000
 	DamagePerBank:BACK 0.000000
 	DamagePerBank:LEFT 0.000000
 	DamagePerBank:RIGHT 0.000000
-	Range 25000.000000
+	Range 15000.000000
 	PreBuffCooldownTime 7.000000
 	CanFireAtFighter FALSE
 	SynchronizedTargeting TRUE
 	PointStaggerDelay 0.000000
-	TravelSpeed 5000.000000
-	Duration 0.350000
+	TravelSpeed 6000.000000
+	Duration 0.250000
 	fireConstraintType "CanAlwaysFire"
 	WeaponEffects
 		weaponType "Projectile"
-		burstCount 4
-		burstDelay 0.050000
+		burstCount 6
+		burstDelay 0.250000
 		fireDelay 0.000000
 		muzzleEffectName "Weapon_TechCapitalAutoCannonHeavy_Muzzle"
-		muzzleSoundMinRespawnTime 1.000000
+		muzzleSoundMinRespawnTime 0.500000
 		muzzleSounds
 			soundCount 1
-			sound "WEAPON_HEAVYAUTOCANNON"
+			sound "WEAPON_XLAUTOCANNON_FIRE"
 		hitEffectName "Weapon_TechCapitalAutoCannonHeavy_Hit"
 		hitHullEffectSounds
 			soundCount 1
-			sound ""
+			sound "WEAPON_XLPROJECTILE_HIT"
 		hitShieldsEffectSounds
 			soundCount 1
 			sound ""
-		projectileTravelEffectName "Weapon_TechCapitalAutoCannonHeavy_Travel"
+		projectileTravelEffectName "EVE_Weapon_Autocannon_Large"
 m_weaponIndexForRange 0
 firingAlignmentType "Default"
 TargetCountPerBank:FRONT 1

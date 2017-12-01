@@ -45,7 +45,7 @@ orderAcknowledgementType "ONGENERALORDERISSUED"
 researchPrerequisites
 	NumResearchPrerequisites 1
 	ResearchPrerequisite
-		Subject "RESEARCHSUBJECT_ARTIFACT_WORMHOLETRAVEL"
+		Subject "RESEARCHSUBJECT_DARKFLEET"
 		Level 1
 	RequiredFactionNameID ""
 	RequiredCompletedResearchSubjects 0

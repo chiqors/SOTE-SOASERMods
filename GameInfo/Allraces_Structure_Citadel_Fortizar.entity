@@ -1,8 +1,8 @@
 ﻿TXT
 entityType "StarBase"
 ability:0 "AbilityTethering"
-ability:1 "AbilityECMBattery"
-ability:2 "AbilitySensorDampener"
+ability:1 "AbilityCitadelBomb"
+ability:2 "AbilityReinforceMode"
 ability:3 ""
 ability:4 ""
 defaultAutoAttackRange "None"
@@ -17,7 +17,7 @@ hudIcon "HUDICON_RESEARCHSUBJECT_FORTIZAR"
 smallHudIcon "INFOCARDICON_STARBASE_TECH"
 infoCardIcon "INFOCARDICON_STARBASE_TECH"
 minZoomDistanceMult 2.000000
-NumWeapons 1
+NumWeapons 2
 Weapon
 	WeaponType "Missile"
 	damageEnums
@@ -26,16 +26,16 @@ Weapon
 		DamageApplyType "BACKLOADED"
 		DamageType "PHYSICAL"
 		WeaponClassType "MISSILE"
-	DamagePerBank:FRONT 10000.000000
-	DamagePerBank:BACK 10000.000000
-	DamagePerBank:LEFT 10000.000000
-	DamagePerBank:RIGHT 10000.000000
-	Range 50000.000000
+	DamagePerBank:FRONT 7500.000000
+	DamagePerBank:BACK 7500.000000
+	DamagePerBank:LEFT 7500.000000
+	DamagePerBank:RIGHT 7500.000000
+	Range 20000.000000
 	PreBuffCooldownTime 15.000000
 	CanFireAtFighter FALSE
 	SynchronizedTargeting TRUE
 	PointStaggerDelay 0.050000
-	TravelSpeed 900.000000
+	TravelSpeed 1500.000000
 	Duration 0.000000
 	fireConstraintType "CanAlwaysFire"
 	WeaponEffects
@@ -58,15 +58,58 @@ Weapon
 			sound "LIGHTMISSILEEXPLOSION1"
 			sound "LIGHTMISSILEEXPLOSION2"
 		missileTravelEffectName "EVE_Missile_LightMissile_Travel"
-		missileStartTurningDistance 0.000000
-		missileSlowTurnRate 0.500000
-		missileMaxSlowTurnTime 5.000000	
+		missileStartTurningDistance 0.500000
+		missileSlowTurnRate 0.900000
+		missileMaxSlowTurnTime 0.500000
+Weapon
+	WeaponType "Missile"
+	damageEnums
+		AttackType "ANTIMEDIUM"
+		DamageAffectType "AFFECTS_SHIELDS_AND_HULL"
+		DamageApplyType "BACKLOADED"
+		DamageType "PHYSICAL"
+		WeaponClassType "MISSILE"
+	DamagePerBank:FRONT 4500.000000
+	DamagePerBank:BACK 4500.000000
+	DamagePerBank:LEFT 4500.000000
+	DamagePerBank:RIGHT 4500.000000
+	Range 20000.000000
+	PreBuffCooldownTime 10.000000
+	CanFireAtFighter FALSE
+	SynchronizedTargeting TRUE
+	PointStaggerDelay 0.050000
+	TravelSpeed 1500.000000
+	Duration 0.000000
+	fireConstraintType "CanAlwaysFire"
+	WeaponEffects
+		weaponType "Missile"
+		burstCount 1
+		burstDelay 0.000000
+		fireDelay 0.000000
+		muzzleEffectName "Weapon_TechCapitalMissileHeavy_Muzzle"
+		muzzleSoundMinRespawnTime 0.500000
+		muzzleSounds
+			soundCount 1
+			sound "EFFECT_NEUTRONTORPEDO_MUZZLE"
+		hitEffectName "EVE_Missile_LightMissile_Hit"
+		hitHullEffectSounds
+			soundCount 2
+			sound "LIGHTMISSILEEXPLOSION1"
+			sound "LIGHTMISSILEEXPLOSION2"
+		hitShieldsEffectSounds
+			soundCount 2
+			sound "LIGHTMISSILEEXPLOSION1"
+			sound "LIGHTMISSILEEXPLOSION2"
+		missileTravelEffectName "EVE_Missile_LightMissile_Travel"
+		missileStartTurningDistance 0.500000
+		missileSlowTurnRate 0.900000
+		missileMaxSlowTurnTime 0.500000
 m_weaponIndexForRange 1
 firingAlignmentType "Default"
-TargetCountPerBank:FRONT 3
-TargetCountPerBank:BACK 3
-TargetCountPerBank:LEFT 3
-TargetCountPerBank:RIGHT 3
+TargetCountPerBank:FRONT 2
+TargetCountPerBank:BACK 2
+TargetCountPerBank:LEFT 2
+TargetCountPerBank:RIGHT 2
 canOnlyTargetStructures FALSE
 ShieldMeshName "Fortizar"
 renderShield TRUE

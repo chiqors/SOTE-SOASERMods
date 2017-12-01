@@ -1,9 +1,9 @@
 ﻿TXT
 entityType "CapitalShip"
-ability:0 "AbilitySiegeMode"
-ability:1 "AbilityTrackingComputer"
-ability:2 "AbilityInvulnerabilityShieldFieldCapital"
-ability:3 ""
+ability:0 "AbilityShieldBoosterCapital"
+ability:1 "AbilityInvulnerabilityShieldFieldCapital"
+ability:2 "AbilityAntiCapitalMode"
+ability:3 "AbilitySiegeMode"
 ability:4 ""
 defaultAutoAttackRange "GravityWell"
 defaultAutoAttackOn TRUE
@@ -102,37 +102,37 @@ NumWeapons 1
 Weapon
 	WeaponType "Projectile"
 	damageEnums
-		AttackType "ANTIHEAVY"
+		AttackType "ANTIVERYHEAVY"
 		DamageAffectType "AFFECTS_SHIELDS_AND_HULL"
 		DamageApplyType "BACKLOADED"
 		DamageType "PHYSICAL"
 		WeaponClassType "GAUSS"
-	DamagePerBank:FRONT 11136.000000
+	DamagePerBank:FRONT 5625.000000
 	DamagePerBank:BACK 0.000000
 	DamagePerBank:LEFT 0.000000
 	DamagePerBank:RIGHT 0.000000
-	Range 10000.000000
+	Range 25000.000000
 	PreBuffCooldownTime 16.81000
 	CanFireAtFighter FALSE
 	SynchronizedTargeting TRUE
 	PointStaggerDelay 0.000000
-	TravelSpeed 10000.000000
-	Duration 1.300000
+	TravelSpeed 6000.000000
+	Duration 1.500000
 	fireConstraintType "CanAlwaysFire"
 	WeaponEffects
 		weaponType "Projectile"
-		burstCount 3
-		burstDelay 0.050000
+		burstCount 1
+		burstDelay 0.060000
 		fireDelay 0.000000
 		muzzleEffectName "Weapon_TechCapitalAutoCannonHeavy_Muzzle"
 		muzzleSoundMinRespawnTime 1.000000
 		muzzleSounds
 			soundCount 1
-			sound "WEAPON_HEAVYAUTOCANNON"
+			sound "WEAPON_XLARTILLERY_FIRE"
 		hitEffectName "Weapon_TechCapitalAutoCannonHeavy_Hit"
 		hitHullEffectSounds
 			soundCount 1
-			sound ""
+			sound "WEAPON_XLPROJECTILE_HIT"
 		hitShieldsEffectSounds
 			soundCount 1
 			sound ""

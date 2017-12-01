@@ -1,9 +1,9 @@
 ﻿TXT
 entityType "CapitalShip"
-ability:0 "AbilitySiegeMode"
-ability:1 "AbilityTrackingComputer"
-ability:2 "AbilityPhasedArmourHardenerCapital"
-ability:3 ""
+ability:0 "AbilityArmorRepairerCapital"
+ability:1 "AbilityPhasedArmourHardenerCapital"
+ability:2 "AbilityAntiCapitalMode"
+ability:3 "AbilitySiegeMode"
 ability:4 ""
 defaultAutoAttackRange "GravityWell"
 defaultAutoAttackOn TRUE
@@ -102,12 +102,12 @@ NumWeapons 1
 Weapon
 	WeaponType "Projectile"
 	damageEnums
-		AttackType "ANTIHEAVY"
+		AttackType "ANTIVERYHEAVY"
 		DamageAffectType "AFFECTS_SHIELDS_AND_HULL"
 		DamageApplyType "BACKLOADED"
 		DamageType "ENERGY"
 		WeaponClassType "WAVE"
-	DamagePerBank:FRONT 7315.000000
+	DamagePerBank:FRONT 3700.000000
 	DamagePerBank:BACK 0.000000
 	DamagePerBank:LEFT 0.000000
 	DamagePerBank:RIGHT 0.000000
@@ -128,11 +128,11 @@ Weapon
 		muzzleSoundMinRespawnTime 1.000000
 		muzzleSounds
 			soundCount 1
-			sound "WEAPON_LIGHTBLASTER"
+			sound "WEAPON_XLBLASTER_FIRE"
 		hitEffectName "EVE_Weapon_Blaster_XLarge_Green_Hit"
 		hitHullEffectSounds
 			soundCount 1
-			sound ""
+			sound "WEAPON_XLHYBRID_HIT"
 		hitShieldsEffectSounds
 			soundCount 1
 			sound ""

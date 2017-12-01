@@ -18,7 +18,8 @@ canCollideWithTarget TRUE
 moveThruTarget FALSE
 isUltimateAbility FALSE
 maxNumLevels 1
-levelSourceType "FixedLevel0"
+levelSourceType "ResearchWithoutBase"
+improveSourceResearchSubject "Minmatar_ResearchSubject_SubCapitalAccess_Cynabal"
 aiUseTime "Anytime"
 aiUseTargetCondition "Any"
 isAutoCastAvailable TRUE
@@ -45,7 +46,7 @@ orderAcknowledgementType "ONGENERALORDERISSUED"
 researchPrerequisites
 	NumResearchPrerequisites 1
 	ResearchPrerequisite
-		Subject "RESEARCHSUBJECT_ARTIFACT_WORMHOLETRAVEL"
+		Subject "Minmatar_ResearchSubject_SubCapitalAccess_Cynabal"
 		Level 1
 	RequiredFactionNameID ""
 	RequiredCompletedResearchSubjects 0

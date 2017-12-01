@@ -1,0 +1,90 @@
+﻿TXT
+entityType "Ability"
+buffInstantActionType "ApplyBuffToTargetWithTravel"
+instantActionTriggerType "AlwaysPerform"
+buffType "BuffStealthBombTarget"
+targetFilter
+	numOwnerships 1
+	ownership "Enemy"
+	numObjects 5
+	object "CapitalShip"
+	object "Frigate"
+	object "PlanetModule"
+	object "StarBase"
+	object "Titan"
+	numSpaces 1
+	space "Normal"
+	numConstraints 1
+	constraint "NotInvulnerable"
+range
+	Level:0 30000.000000
+	Level:1 30000.000000
+	Level:2 30000.000000
+	Level:3 30000.000000
+travelSpeed 1500.000000
+hasWeaponEffects TRUE
+weaponEffectOriginType "Targetter"
+weaponEffectAttachInfo
+	attachType "Ability"
+	abilityIndex 0
+weaponEffectImpactOffsetType "RandomMesh"
+canWeaponEffectHitHull TRUE
+canWeaponEffectHitShields TRUE
+weaponEffectsDef
+	weaponType "Projectile"
+	burstCount 1
+	burstDelay 0.000000
+	fireDelay 0.000000
+	muzzleEffectName "Weapon_TechCapitalMissileHeavy_Muzzle"
+	muzzleSoundMinRespawnTime 0.100000
+	muzzleSounds
+		soundCount 1
+		sound "WEAPON_GENERICFIRE"
+	hitEffectName "EMP_SMARTBOMB"
+	hitHullEffectSounds
+	soundCount 4
+			sound "MISSILEEXPLOSION_EVEONLINE1"
+			sound "MISSILEEXPLOSION_EVEONLINE2"
+			sound "MISSILEEXPLOSION_EVEONLINE3"
+			sound "MISSILEEXPLOSION_EVEONLINE4"
+	hitShieldsEffectSounds
+	soundCount 4
+			sound "MISSILEEXPLOSION_EVEONLINE1"
+			sound "MISSILEEXPLOSION_EVEONLINE2"
+			sound "MISSILEEXPLOSION_EVEONLINE3"
+			sound "MISSILEEXPLOSION_EVEONLINE4"
+	projectileTravelEffectName "Oblivion_Fire"
+needsToFaceTarget TRUE
+canCollideWithTarget TRUE
+moveThruTarget FALSE
+isUltimateAbility FALSE
+maxNumLevels 1
+levelSourceType "FixedLevel0"
+aiUseTime "OnlyInCombat"
+aiUseTargetCondition "Any"
+isAutoCastAvailable TRUE
+isAutoCastOnByDefault TRUE
+pickRandomPlanetToExploreForAutoCastTarget FALSE
+ignoreNonCombatShipsForAutoCastTarget TRUE
+onlyAutoCastWhenDamageTakenExceedsPerc 0.000000
+useCostType "AntiMatter"
+antiMatterCost
+	Level:0 0.000000
+	Level:1 0.000000
+	Level:2 0.000000
+	Level:3 0.000000
+cooldownTime
+	Level:0 60.000000
+	Level:1 60.000000
+	Level:2 60.000000
+	Level:3 60.000000
+orderAcknowledgementType "ONATTACKORDERISSUED"
+researchPrerequisites
+	NumResearchPrerequisites 0
+	RequiredFactionNameID ""
+	RequiredCompletedResearchSubjects 0
+nameStringID "IDS_ABILITY_STEALTHBOMB_NAME"
+descStringID "IDS_ABILITY_STEALTHBOMB_DESCRIPTION"
+hudIcon "HUDICON_CITADEL_BOMB"
+smallHudIcon "HUDICON_CITADEL_BOMB"
+infoCardIcon ""

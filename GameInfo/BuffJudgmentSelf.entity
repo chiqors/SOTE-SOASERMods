@@ -54,7 +54,7 @@ numFinishConditions 1
 finishCondition
 	finishConditionType "TimeElapsed"
 	time
-		Level:0 5.500000
-		Level:1 5.500000
-		Level:2 5.500000
-		Level:3 5.500000
+		Level:0 4.500000
+		Level:1 4.500000
+		Level:2 4.500000
+		Level:3 4.500000

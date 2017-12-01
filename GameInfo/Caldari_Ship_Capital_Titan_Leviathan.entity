@@ -2,7 +2,7 @@
 entityType "CapitalShip"
 ability:0 "AbilityOblivionCapital"
 ability:1 "AbilityCaldariTitanbonus"
-ability:2 "AbilityTitanEMPSmartbombCapital"
+ability:2 "AbilityBosonicFieldCapital"
 ability:3 "AbilityTitanJumpBridge"
 ability:4 ""
 defaultAutoAttackRange "GravityWell"
@@ -52,11 +52,11 @@ basePrice
 slotCount 1.000000
 BuildTime 350.000000
 MaxHullPoints
-	StartValue 195000.000000
-	ValueIncreasePerLevel 19500.000000
+	StartValue 375000.000000
+	ValueIncreasePerLevel 37500.000000
 MaxShieldPoints
-	StartValue 430000.000000
-	ValueIncreasePerLevel 43000.000000
+	StartValue 813000.000000
+	ValueIncreasePerLevel 81300.000000
 HullPointRestoreRate
 	StartValue 1.000000
 	ValueIncreasePerLevel 0.500000
@@ -128,16 +128,14 @@ Weapon
 		muzzleSoundMinRespawnTime 0.500000
 		muzzleSounds
 			soundCount 1
-			sound "EFFECT_NEUTRONTORPEDO_MUZZLE"
+			sound "WEAPON_XLMISSILE_FIRE"
 		hitEffectName "EVE_Missile_LightMissile_Hit"
 		hitHullEffectSounds
-			soundCount 2
-			sound "LIGHTMISSILEEXPLOSION1"
-			sound "LIGHTMISSILEEXPLOSION2"
+			soundCount 1
+			sound "WEAPON_XLMISSILE_HIT"
 		hitShieldsEffectSounds
-			soundCount 2
-			sound "LIGHTMISSILEEXPLOSION1"
-			sound "LIGHTMISSILEEXPLOSION2"
+			soundCount 1
+			sound "WEAPON_XLMISSILE_HIT"
 		missileTravelEffectName "EVE_Missile_LightMissile_Travel"
 		missileStartTurningDistance 0.000000
 		missileSlowTurnRate 0.500000

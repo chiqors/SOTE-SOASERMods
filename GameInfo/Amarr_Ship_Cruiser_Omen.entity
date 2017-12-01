@@ -6,8 +6,9 @@ prefersToFocusFire TRUE
 usesFighterAttack FALSE
 autoJoinFleetDefault TRUE
 canBomb FALSE
-typeCount 1
-frigateRoleType "Lrm"
+typeCount 2
+frigateRoleType "Light"
+frigateRoleType "Support"
 statCountType "FrigateLongRange"
 mainViewIcon "MAINVIEWICON_FRIGATE_TECHLONGRANGE"
 picture "PICTURE_FRIGATE_OMEN"
@@ -148,7 +149,7 @@ HyperspaceTravelSoundID "HYPERSPACE_TRAVEL"
 EngineSoundID "ENGINE_TECHCAPITALSHIP"
 ability:0 "AbilityMicrowarpdrive"
 ability:1 "AbilityStasisWebifier"
-ability:2 ""
+ability:2 "AbilityCruiserResistArmor"
 ability:3 "AbilityCruiserDamage"
 ability:4 "AbilityT2CruiserZealot"
 MaxAntiMatter 1840.000000

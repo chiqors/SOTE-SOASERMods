@@ -27,7 +27,7 @@ isAutoCastAvailable TRUE
 isAutoCastOnByDefault TRUE
 pickRandomPlanetToExploreForAutoCastTarget FALSE
 ignoreNonCombatShipsForAutoCastTarget TRUE
-onlyAutoCastWhenDamageTakenExceedsPerc 0.000000
+onlyAutoCastWhenDamageTakenExceedsPerc 0.010000
 useCostType "AntiMatter"
 antiMatterCost
 	Level:0 300.000000
@@ -44,7 +44,7 @@ researchPrerequisites
 	NumResearchPrerequisites 0
 	RequiredFactionNameID ""
 	RequiredCompletedResearchSubjects 0
-nameStringID "IDS_ABILITY_SHIELDBOOSTERCAPITAL_NAME"
+nameStringID "IDS_ABILITY_SHIELDBOOSTER_NAME"
 descStringID "IDS_ABILITY_SHIELDBOOSTERCAPITAL_DESCRIPTION"
 hudIcon "HUDICON_ABILITY_SHIELDBOOSTERFACTION"
 smallHudIcon "HUDICON_ABILITY_SHIELDBOOSTERFACTION"

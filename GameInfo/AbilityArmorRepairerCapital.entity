@@ -17,10 +17,10 @@ isUltimateAbility FALSE
 maxNumLevels 4
 levelSourceType "Intrinsic"
 minExperienceLevelRequired
-	Level:0 0.000000
-	Level:1 1.000000
-	Level:2 2.000000
-	Level:3 3.000000
+	Level:0 2.000000
+	Level:1 3.000000
+	Level:2 4.000000
+	Level:3 5.000000
 aiUseTime "Anytime"
 aiUseTargetCondition "HullDamageExceedsAmount"
 onlyAutoCastWhenTargetHullDamageExceedsAmount
@@ -32,7 +32,7 @@ isAutoCastAvailable TRUE
 isAutoCastOnByDefault TRUE
 pickRandomPlanetToExploreForAutoCastTarget FALSE
 ignoreNonCombatShipsForAutoCastTarget TRUE
-onlyAutoCastWhenDamageTakenExceedsPerc 0.000000
+onlyAutoCastWhenDamageTakenExceedsPerc 0.010000
 useCostType "AntiMatter"
 antiMatterCost
 	Level:0 2592.000000
@@ -50,7 +50,7 @@ researchPrerequisites
 	RequiredFactionNameID ""
 	RequiredCompletedResearchSubjects 0
 nameStringID "IDS_ABILITY_ARMORREPAIRCAPITAL_NAME"
-descStringID "IDS_ABILITY_SHIELDBOOSTERCAPITAL_DESCRIPTION"
+descStringID "IDS_ABILITY_ARMORREPAIRCAPITAL_DESCRIPTION"
 hudIcon "HUDICON_ABILITY_GAUSSBLAST"
 smallHudIcon "HUDICON_ABILITY_GAUSSBLAST"
 infoCardIcon ""

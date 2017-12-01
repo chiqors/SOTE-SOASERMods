@@ -6,7 +6,7 @@ ability:2 "AbilityCapTransferTriage"
 ability:3 "AbilityShieldBoosterCapital"
 ability:4 ""
 defaultAutoAttackRange "GravityWell"
-defaultAutoAttackOn TRUE
+defaultAutoAttackOn FALSE
 prefersToFocusFire FALSE
 usesFighterAttack FALSE
 autoJoinFleetDefault TRUE
@@ -52,11 +52,11 @@ basePrice
 slotCount 1.000000
 BuildTime 75.000000
 MaxHullPoints
-	StartValue 45000.000000
-	ValueIncreasePerLevel 4500.000000
+	StartValue 113000.000000
+	ValueIncreasePerLevel 11300.000000
 MaxShieldPoints
-	StartValue 50000.000000
-	ValueIncreasePerLevel 5000.000000
+	StartValue 125000.000000
+	ValueIncreasePerLevel 12500.000000
 HullPointRestoreRate
 	StartValue 1.000000
 	ValueIncreasePerLevel 0.500000
@@ -70,10 +70,10 @@ maxMitigation
 	StartValue 0.1500000
 	ValueIncreasePerLevel 0.0100000
 MaxAntiMatter
-	StartValue 65000.000000
+	StartValue 81300.000000
 	ValueIncreasePerLevel 650.000000
 AntiMatterRestoreRate
-	StartValue 37.500000
+	StartValue 62.500000
 	ValueIncreasePerLevel 1.000000
 CultureProtectRate
 	StartValue 0.600000

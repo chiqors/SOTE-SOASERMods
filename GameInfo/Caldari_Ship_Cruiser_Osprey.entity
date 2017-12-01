@@ -161,7 +161,7 @@ ability:2 "AbilityRemoteShieldBoosterLogiCruiser2"
 ability:3 "AbilityCapTransferAugoror"
 ability:4 "AbilityT2CruiserBasilisk"
 MaxAntiMatter 2630.000000
-AntiMatterRestoreRate 20.800000
+AntiMatterRestoreRate 21.800000
 cargoType "Invalid"
 maxCargoCapacity 0.000000
 formationRank 2

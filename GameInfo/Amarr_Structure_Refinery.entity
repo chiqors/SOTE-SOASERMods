@@ -1,8 +1,8 @@
 ﻿TXT
 entityType "PlanetModuleRefinery"
 minZoomDistanceMult 1.000000
-ability:0 "Ore_AbilitySummonOrca"
-ability:1 ""
+ability:0 "AbilityMoonMining"
+ability:1 "Ore_AbilitySummonOrca"
 ability:2 ""
 ability:3 ""
 ability:4 ""
@@ -43,8 +43,8 @@ resourceExtractionType "Invalid"
 cultureSpreadRate 0.000000
 isAffectedBySimilarModuleCostResearch FALSE
 placementRadius 1725.000000
-nearPlacementDistOffset 0.000000
-farPlacementDistOffset 9000.000000
+nearPlacementDistOffset 5000.000000
+farPlacementDistOffset 17200.000000
 spawnCount 1
 swapMineType ""
 angularSpeed 0.000000
@@ -59,10 +59,33 @@ NumSoundsFor:ONGENERALORDERISSUED 0
 NumSoundsFor:ONSELECTED 1
 SoundID "PLANETMODULE_TECHORBITALREFINERY_ONSELECTION_0"
 NumSoundsFor:ONSTARTPHASEJUMP 0
-MeshNameInfoCount 1
+MeshNameInfoCount 3
+MeshNameInfo
+	meshName "Refinary"
+	criteriaType "None"
+MeshNameInfo
+	meshName "Athanor"
+	criteriaType "Research"
+	prerequisites
+		NumResearchPrerequisites 1
+		ResearchPrerequisite
+			Subject "RESEARCHSUBJECT_CARGOSHIPCAPACITY0"
+			Level 3
+		RequiredFactionNameID ""
+		RequiredCompletedResearchSubjects 1
 MeshNameInfo
 	meshName "Tatara"
-	criteriaType "None"
+	criteriaType "Research"
+	prerequisites
+		NumResearchPrerequisites 2
+		ResearchPrerequisite
+			Subject "RESEARCHSUBJECT_CARGOSHIPCAPACITY0"
+			Level 3
+		ResearchPrerequisite
+			Subject "RESEARCHSUBJECT_CARGOSHIPCAPACITY1"
+			Level 3
+		RequiredFactionNameID ""
+		RequiredCompletedResearchSubjects 1		
 meshNameIncreasedEffectName ""
 meshNameDecreasedEffectName ""
 ExplosionName "StarBase1"

@@ -32,20 +32,15 @@ needsToFaceTarget FALSE
 canCollideWithTarget TRUE
 moveThruTarget FALSE
 isUltimateAbility FALSE
-maxNumLevels 4
-levelSourceType "Intrinsic"
-minExperienceLevelRequired
-	Level:0 0.000000
-	Level:1 2.000000
-	Level:2 4.000000
-	Level:3 6.000000
+maxNumLevels 1
+levelSourceType "FixedLevel0"
 aiUseTime "Anytime"
 aiUseTargetCondition "ShieldDamageExceedsAmount"
 onlyAutoCastWhenTargetShieldDamageExceedsAmount
-	Level:0 415.000000
-	Level:1 415.000000
-	Level:2 415.000000
-	Level:3 415.000000
+	Level:0 200.000000
+	Level:1 200.000000
+	Level:2 200.000000
+	Level:3 200.000000
 isAutoCastAvailable TRUE
 isAutoCastOnByDefault TRUE
 pickRandomPlanetToExploreForAutoCastTarget FALSE

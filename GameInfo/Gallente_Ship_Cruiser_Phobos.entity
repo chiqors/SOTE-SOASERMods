@@ -138,10 +138,10 @@ HyperspaceChargingSoundID "HYPERSPACE_CHARGEUP"
 HyperspaceTravelSoundID "HYPERSPACE_TRAVEL"
 EngineSoundID "ENGINE_PHASECAPITALSHIP"
 ability:0 "AbilityMicrowarpdrive"
-ability:1 "AbilityInterdictionSphere"
+ability:1 "AbilityStasisWebifier"
 ability:2 "AbilityAmarrCynosuralField"
-ability:3 ""
-ability:4 ""
+ability:3 "AbilityInterdictionSphere"
+ability:4 "AbilityCruiserInterdictorArmor"
 MaxAntiMatter 1810.000000
 AntiMatterRestoreRate 11.700000
 cargoType "Invalid"

@@ -50,13 +50,13 @@ basePrice
 	metal 5000.000000
 	crystal 2250.000000
 slotCount 1.000000
-BuildTime 300.000000
+BuildTime 220.000000
 MaxHullPoints
-	StartValue 300000.000000
-	ValueIncreasePerLevel 30000.000000
+	StartValue 1125000.000000
+	ValueIncreasePerLevel 112500.000000
 MaxShieldPoints
-	StartValue 135000.000000
-	ValueIncreasePerLevel 13500.000000
+	StartValue 507000.000000
+	ValueIncreasePerLevel 50700.000000
 HullPointRestoreRate
 	StartValue 10.000000
 	ValueIncreasePerLevel 1.000000
@@ -82,13 +82,10 @@ NameStringID "IDS_TITAN_VANQUISHER_NAME"
 DescriptionStringID "IDS_TITAN_VANQUISHER_DESCRIPTION"
 picture "PICTURE_CAPITAL_EREBUS"
 Prerequisites
-	NumResearchPrerequisites 2
+	NumResearchPrerequisites 1
 	ResearchPrerequisite
-		Subject "Gallente_ResearchSubject_CapitalAccess_Erebus"
-		Level 1
-	ResearchPrerequisite
-		Subject "RESEARCHSUBJECT_ARTIFACT_WORMHOLETRAVEL"
-		Level 1
+		Subject "Gallente_ResearchSubject_CapitalAccess_Vanquisher"
+		Level 2
 	RequiredFactionNameID ""
 	RequiredCompletedResearchSubjects 0	
 statCountType "Titan"

@@ -14,13 +14,13 @@ needsToFaceTarget FALSE
 canCollideWithTarget TRUE
 moveThruTarget FALSE
 isUltimateAbility TRUE
-maxNumLevels 2
+maxNumLevels 4
 levelSourceType "Intrinsic"
 minExperienceLevelRequired
 	Level:0 0.000000
-	Level:1 9.000000
-	Level:2 9.000000
-	Level:3 9.000000
+	Level:1 4.000000
+	Level:2 5.000000
+	Level:3 6.000000
 aiUseTime "OnlyWhenAttackTargetIsInFiringSolutionAndHasAttackOrder"
 aiUseTargetCondition "Any"
 isAutoCastAvailable TRUE
@@ -35,10 +35,10 @@ antiMatterCost
 	Level:2 700.000000
 	Level:3 700.000000
 cooldownTime
-	Level:0 150.000000
-	Level:1 150.000000
-	Level:2 150.000000
-	Level:3 150.000000
+	Level:0 300.000000
+	Level:1 300.000000
+	Level:2 300.000000
+	Level:3 300.000000
 orderAcknowledgementType "ONGENERALORDERISSUED"
 researchPrerequisites
 	NumResearchPrerequisites 0

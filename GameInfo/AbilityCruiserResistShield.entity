@@ -28,7 +28,7 @@ useCostType "Passive"
 researchPrerequisites
 	NumResearchPrerequisites 1
 	ResearchPrerequisite
-		Subject "RSACruiserResistShield"
+		Subject "RSAHeavyAssault"
 		Level 1
 	RequiredFactionNameID ""
 	RequiredCompletedResearchSubjects 0

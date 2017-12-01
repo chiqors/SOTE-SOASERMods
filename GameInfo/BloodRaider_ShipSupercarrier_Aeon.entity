@@ -1,8 +1,8 @@
 ﻿TXT
 entityType "CapitalShip"
-ability:0 "AbilityFighterControlUnitSuperCarrier"
-ability:1 "AbilityPLASMASmartbomb"
-ability:2 "AbilityEnergyNeutralizationBurst"
+ability:0 "AbilityProjectedEnergyNeutralizationBurst"
+ability:1 "AbilityProjectedECMBurst"
+ability:2 "AbilityFighterControlUnitSuperCarrier"
 ability:3 "AbilitySuperCarrierArmor"
 ability:4 ""
 defaultAutoAttackRange "GravityWell"
@@ -50,13 +50,13 @@ basePrice
 	metal 4083.000000
 	crystal 1917.000000
 slotCount 1.000000
-BuildTime 150.000000
+BuildTime 220.000000
 MaxHullPoints
-	StartValue 245000.000000
-	ValueIncreasePerLevel 24500.000000
+	StartValue 919500.000000
+	ValueIncreasePerLevel 91950.000000
 MaxShieldPoints
-	StartValue 115000.000000
-	ValueIncreasePerLevel 11500.000000
+	StartValue 432000.000000
+	ValueIncreasePerLevel 43200.000000
 HullPointRestoreRate
 	StartValue 1.000000
 	ValueIncreasePerLevel 1.000000
@@ -78,14 +78,14 @@ AntiMatterRestoreRate
 CultureProtectRate
 	StartValue 1.400000
 	ValueIncreasePerLevel 0.050000
-NameStringID "IDS_CAPITALSHIP_TECHCARRIER_NAME"
+NameStringID "IDS_CAPITALSHIP_BLOODRAIDER_AEON_NAME"
 DescriptionStringID "IDS_CAPITALSHIP_TECHCARRIER_DESCRIPTION"
 picture "PICTURE_CAPITAL_AEON"
 Prerequisites
 	NumResearchPrerequisites 1
 	ResearchPrerequisite
-		Subject "Amarr_ResearchSubject_CapitalAccess_Aeon"
-		Level 1
+		Subject "Amarr_ResearchSubject_CapitalAccess_Bloodraiders_Aeon"
+		Level 2
 	RequiredFactionNameID ""
 	RequiredCompletedResearchSubjects 0
 roleType "Invalid"

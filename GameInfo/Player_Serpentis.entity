@@ -21,13 +21,11 @@ entities
 			entityDefName "Amarr_Structure_TradePort"
 			entityDefName "Amarr_Structure_Refinery"
 		Page:1
-			count 6
+			count 4
 			entityDefName "Amarr_Structure_SmallPulseLaserBattery"
 			entityDefName "Amarr_Structure_ECMBattery"
 			entityDefName "Amarr_Structure_MediumPulseLaserBattery"
 			entityDefName "Amarr_Structure_JumpBridge"
-			entityDefName "PLANETMODULE_TECHORBITALSHIELDGENERATOR"
-			entityDefName "PLANETMODULE_TECHORBITALCANNON"
 	titanInfo
 		Page:0
 			count 1
@@ -35,16 +33,21 @@ entities
 	capitalShipInfo
 		Page:0
 			count 4
-			entityDefName "Serpentis_ShipSupercarrier_Vendeta"
+			entityDefName "Serpentis_ShipSupercarrier_Vendetta"
 			entityDefName "Serpentis_ShipFAUX_Ninazu"
 			entityDefName "Serpentis_ShipDreadnought_Vehement"
 			entityDefName "Serpentis_ShipCarrier_Thanatos"
 	frigateInfo
 		Page:0
-			count 3
+			count 8
+			entityDefName "Serpentis_Officer_Brynn_jerdola"
+			entityDefName "Serpentis_Officer_Cormack_Vaaja"
+			entityDefName "Serpentis_Officer_Setele_Schellan"
+			entityDefName "Serpentis_Officer_Tuvan_Orth"
 			entityDefName "Serpentis_ShipCruiserVigilant"
 			entityDefName "Serpentis_ShipFrigateDaredevil"
 			entityDefName "Serpentis_ShipCruiser_Execuror"
+			entityDefName "Serpentis_Ship_Battlecruiser_Myrmidon"
 		Page:1
 			count 1
 			entityDefName "Serpentis_ShipBattleshipVindicator"
@@ -55,7 +58,7 @@ entities
 		entityDefName "RESEARCHSUBJECT_PIRATE_FINAL_UPGRADE"
 	starBaseInfo
 		count 0
-	flagship "FrigatePirateHeavy"
+	flagship "Amarr_Ship_Flagship_ImperialApocalypse"
 debrisData
 	numRandomMeshNamesLarge 8
 	randomMeshName "DebrisTechGenericLarge0"

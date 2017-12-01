@@ -1,6 +1,6 @@
 ﻿TXT
 onlyLoadOnDemand FALSE
-brushCount 320
+brushCount 334
 brush
 	name "HUDICON_ABILITY_DARKCAPITALSHIP"
 	content "States"
@@ -5722,4 +5722,256 @@ brush
 	Normal
 		fileName "Buttons_Abilities_Normal"
 		pixelBox [ 566 , 881 , 47 , 33 ]
-		
+brush
+	name "HUDICON_ABILITY_ANTISUBLASER"
+	content "States"
+	Disabled
+		fileName "Buttons_Abilities_Disabled"
+		pixelBox [ 770 , 326, 47 , 33 ]
+	Pressed
+		fileName "Buttons_Abilities_Pressed"
+		pixelBox [ 770 , 326, 47 , 33 ]
+	CursorOver
+		fileName "Buttons_Abilities_CursorOver"
+		pixelBox [ 770 , 326, 47 , 33 ]
+	Focused
+		fileName "Buttons_Abilities_Normal"
+		pixelBox [ 770 , 326, 47 , 33 ]
+	Normal
+		fileName "Buttons_Abilities_Normal"
+		pixelBox [ 770 , 326, 47 , 33 ]
+brush
+	name "HUDICON_ABILITY_FACTION_NOS"
+	content "States"
+	Disabled
+		fileName "Buttons_Abilities_Disabled"
+		pixelBox [ 107 , 400, 46 , 32 ]
+	Pressed
+		fileName "Buttons_Abilities_Pressed"
+		pixelBox [ 107 , 400, 46 , 32 ]
+	CursorOver
+		fileName "Buttons_Abilities_CursorOver"
+		pixelBox [ 107 , 400, 46 , 32 ]
+	Focused
+		fileName "Buttons_Abilities_Normal"
+		pixelBox [ 107 , 400, 46 , 32 ]
+	Normal
+		fileName "Buttons_Abilities_Normal"
+		pixelBox [ 107 , 400, 46 , 32 ]
+brush
+	name "HUDICON_ABILITY_OFFICER_NEUT"
+	content "States"
+	Disabled
+		fileName "Buttons_Abilities_Disabled"
+		pixelBox [ 158 , 400, 46 , 32 ]
+	Pressed
+		fileName "Buttons_Abilities_Pressed"
+		pixelBox [ 158 , 400, 46 , 32 ]
+	CursorOver
+		fileName "Buttons_Abilities_CursorOver"
+		pixelBox [ 158 , 400, 46 , 32 ]
+	Focused
+		fileName "Buttons_Abilities_Normal"
+		pixelBox [ 158 , 400, 46 , 32 ]
+	Normal
+		fileName "Buttons_Abilities_Normal"
+		pixelBox [ 158 , 400, 46 , 32 ]
+brush
+	name "HUDICON_ABILITY_FACTION_STATIS"
+	content "States"
+	Disabled
+		fileName "Buttons_Abilities_Disabled"
+		pixelBox [ 311 , 141, 46 , 32 ]
+	Pressed
+		fileName "Buttons_Abilities_Pressed"
+		pixelBox [ 311 , 141, 46 , 32 ]
+	CursorOver
+		fileName "Buttons_Abilities_CursorOver"
+		pixelBox [ 311 , 141, 46 , 32 ]
+	Focused
+		fileName "Buttons_Abilities_Normal"
+		pixelBox [ 311 , 141, 46 , 32 ]
+	Normal
+		fileName "Buttons_Abilities_Normal"
+		pixelBox [ 311 , 141, 46 , 32 ]
+brush
+	name "HUDICON_ABILITY_OFFICER_STATIS"
+	content "States"
+	Disabled
+		fileName "Buttons_Abilities_Disabled"
+		pixelBox [ 362 , 141, 46 , 32 ]
+	Pressed
+		fileName "Buttons_Abilities_Pressed"
+		pixelBox [ 362 , 141, 46 , 32 ]
+	CursorOver
+		fileName "Buttons_Abilities_CursorOver"
+		pixelBox [ 362 , 141, 46 , 32 ]
+	Focused
+		fileName "Buttons_Abilities_Normal"
+		pixelBox [ 362 , 141, 46 , 32 ]
+	Normal
+		fileName "Buttons_Abilities_Normal"
+		pixelBox [ 362 , 141, 46 , 32 ]
+brush
+	name "HUDICON_ABILITY_MICROJUMP"
+	content "States"
+	Disabled
+		fileName "Buttons_Abilities_Disabled"
+		pixelBox [ 719 , 474, 46 , 32 ]
+	Pressed
+		fileName "Buttons_Abilities_Pressed"
+		pixelBox [ 719 , 474, 46 , 32 ]
+	CursorOver
+		fileName "Buttons_Abilities_CursorOver"
+		pixelBox [ 719 , 474, 46 , 32 ]
+	Focused
+		fileName "Buttons_Abilities_Normal"
+		pixelBox [ 719 , 474, 46 , 32 ]
+	Normal
+		fileName "Buttons_Abilities_Normal"
+		pixelBox [ 719 , 474, 46 , 32 ]
+brush
+	name "HUDICON_STASISWEBFICATIONBURST"
+	content "States"
+	Disabled
+		fileName "Buttons_Abilities_Disabled"
+		pixelBox [ 821 , 215 , 46 , 32 ]
+	Pressed
+		fileName "Buttons_Abilities_Pressed"
+		pixelBox [ 821 , 215 , 46 , 32 ]
+	CursorOver
+		fileName "Buttons_Abilities_CursorOver"
+		pixelBox [ 821 , 215 , 46 , 32 ]
+	Focused
+		fileName "Buttons_Abilities_Normal"
+		pixelBox [ 821 , 215 , 46 , 32 ]
+	Normal
+		fileName "Buttons_Abilities_Normal"
+		pixelBox [ 821 , 215 , 46 , 32 ]
+brush
+	name "HUDICON_TARGETILLUMINATIONNBURST"
+	content "States"
+	Disabled
+		fileName "Buttons_Abilities_Disabled"
+		pixelBox [ 821 , 659 , 46 , 32 ]
+	Pressed
+		fileName "Buttons_Abilities_Pressed"
+		pixelBox [ 821 , 659 , 46 , 32 ]
+	CursorOver
+		fileName "Buttons_Abilities_CursorOver"
+		pixelBox [ 821 , 659 , 46 , 32 ]
+	Focused
+		fileName "Buttons_Abilities_Normal"
+		pixelBox [ 821 , 659 , 46 , 32 ]
+	Normal
+		fileName "Buttons_Abilities_Normal"
+		pixelBox [ 821 , 659 , 46 , 32 ]
+brush
+	name "HUDICON_ENERGYNEUTRALIZATIONBURST"
+	content "States"
+	Disabled
+		fileName "Buttons_Abilities_Disabled"
+		pixelBox [ 821 , 437 , 46 , 32 ]
+	Pressed
+		fileName "Buttons_Abilities_Pressed"
+		pixelBox [ 821 , 437 , 46 , 32 ]
+	CursorOver
+		fileName "Buttons_Abilities_CursorOver"
+		pixelBox [ 821 , 437 , 46 , 32 ]
+	Focused
+		fileName "Buttons_Abilities_Normal"
+		pixelBox [ 821 , 437 , 46 , 32 ]
+	Normal
+		fileName "Buttons_Abilities_Normal"
+		pixelBox [ 821 , 437 , 46 , 32 ]
+brush
+	name "HUDICON_SENSORDAMPNERBURST"
+	content "States"
+	Disabled
+		fileName "Buttons_Abilities_Disabled"
+		pixelBox [ 872 , 215 , 46 , 32 ]
+	Pressed
+		fileName "Buttons_Abilities_Pressed"
+		pixelBox [ 872 , 215 , 46 , 32 ]
+	CursorOver
+		fileName "Buttons_Abilities_CursorOver"
+		pixelBox [ 872 , 215 , 46 , 32 ]
+	Focused
+		fileName "Buttons_Abilities_Normal"
+		pixelBox [ 872 , 215 , 46 , 32 ]
+	Normal
+		fileName "Buttons_Abilities_Normal"
+		pixelBox [ 872 , 215 , 46 , 32 ]
+brush
+	name "HUDICON_CITADEL_ARMOR"
+	content "States"
+	Disabled
+		fileName "Buttons_Abilities_Disabled"
+		pixelBox [ 923 , 252 , 46 , 32 ]
+	Pressed
+		fileName "Buttons_Abilities_Pressed"
+		pixelBox [ 923 , 252 , 46 , 32 ]
+	CursorOver
+		fileName "Buttons_Abilities_CursorOver"
+		pixelBox [ 923 , 252 , 46 , 32 ]
+	Focused
+		fileName "Buttons_Abilities_Normal"
+		pixelBox [ 923 , 252 , 46 , 32 ]
+	Normal
+		fileName "Buttons_Abilities_Normal"
+		pixelBox [ 923 , 252 , 46 , 32 ]
+brush
+	name "HUDICON_CITADEL_BOMB"
+	content "States"
+	Disabled
+		fileName "Buttons_Abilities_Disabled"
+		pixelBox [ 413 , 955 , 46 , 32 ]
+	Pressed
+		fileName "Buttons_Abilities_Pressed"
+		pixelBox [ 413 , 955 , 46 , 32 ]
+	CursorOver
+		fileName "Buttons_Abilities_CursorOver"
+		pixelBox [ 413 , 955 , 46 , 32 ]
+	Focused
+		fileName "Buttons_Abilities_Normal"
+		pixelBox [ 413 , 955 , 46 , 32 ]
+	Normal
+		fileName "Buttons_Abilities_Normal"
+		pixelBox [ 413 , 955 , 46 , 32 ]
+brush
+	name "HUDICON_REINFORCE"
+	content "States"
+	Disabled
+		fileName "Buttons_Abilities_Disabled"
+		pixelBox [ 311 , 919 , 46 , 32 ]
+	Pressed
+		fileName "Buttons_Abilities_Pressed"
+		pixelBox [ 311 , 919 , 46 , 32 ]
+	CursorOver
+		fileName "Buttons_Abilities_CursorOver"
+		pixelBox [ 311 , 919 , 46 , 32 ]
+	Focused
+		fileName "Buttons_Abilities_Normal"
+		pixelBox [ 311 , 919 , 46 , 32 ]
+	Normal
+		fileName "Buttons_Abilities_Normal"
+		pixelBox [ 311 , 919 , 46 , 32 ]
+brush
+	name "HUDICON_INTERDICTOR"
+	content "States"
+	Disabled
+		fileName "Buttons_Abilities_Disabled"
+		pixelBox [ 413 , 141 , 46 , 32 ]
+	Pressed
+		fileName "Buttons_Abilities_Pressed"
+		pixelBox [ 413 , 141 , 46 , 32 ]
+	CursorOver
+		fileName "Buttons_Abilities_CursorOver"
+		pixelBox [ 413 , 141 , 46 , 32 ]
+	Focused
+		fileName "Buttons_Abilities_Normal"
+		pixelBox [ 413 , 141 , 46 , 32 ]
+	Normal
+		fileName "Buttons_Abilities_Normal"
+		pixelBox [ 413 , 141 , 46 , 32 ]
+				

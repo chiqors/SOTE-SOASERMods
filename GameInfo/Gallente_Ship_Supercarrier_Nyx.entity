@@ -1,12 +1,12 @@
 ﻿TXT
 entityType "CapitalShip"
-ability:0 "AbilityProjectedECMBurst"
+ability:0 "AbilityProjectedSensorDampenerBurst"
 ability:1 "AbilityPLASMASmartbomb"
 ability:2 "AbilityFighterControlUnitSuperCarrier"
 ability:3 "AbilitySuperCarrierArmor"
 ability:4 ""
 defaultAutoAttackRange "GravityWell"
-defaultAutoAttackOn TRUE
+defaultAutoAttackOn FALSE
 prefersToFocusFire FALSE
 usesFighterAttack FALSE
 autoJoinFleetDefault TRUE
@@ -52,11 +52,11 @@ basePrice
 slotCount 1.000000
 BuildTime 150.000000
 MaxHullPoints
-	StartValue 235000.000000
-	ValueIncreasePerLevel 23500.000000
+	StartValue 300000.000000
+	ValueIncreasePerLevel 30000.000000
 MaxShieldPoints
-	StartValue 120000.000000
-	ValueIncreasePerLevel 12000.000000
+	StartValue 588000.000000
+	ValueIncreasePerLevel 58800.000000
 HullPointRestoreRate
 	StartValue 1.000000
 	ValueIncreasePerLevel 1.000000

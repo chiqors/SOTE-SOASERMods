@@ -18,8 +18,7 @@ canCollideWithTarget TRUE
 moveThruTarget FALSE
 isUltimateAbility FALSE
 maxNumLevels 1
-levelSourceType "ResearchWithoutBase"
-improveSourceResearchSubject "RESEARCHSUBJECT_ARTIFACT_HYPERSPACESPEED"
+levelSourceType "FixedLevel0"
 aiUseTime "Anytime"
 aiUseTargetCondition "Any"
 isAutoCastAvailable TRUE
@@ -46,7 +45,7 @@ orderAcknowledgementType "ONGENERALORDERISSUED"
 researchPrerequisites
 	NumResearchPrerequisites 1
 	ResearchPrerequisite
-		Subject "RESEARCHSUBJECT_ARTIFACT_HYPERSPACESPEED"
+		Subject "RESEARCHSUBJECT_DARKFLEET"
 		Level 1
 	RequiredFactionNameID ""
 	RequiredCompletedResearchSubjects 0

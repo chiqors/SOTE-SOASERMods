@@ -1,5 +1,5 @@
 TXT
-explosionEffectGroupCount 24
+explosionEffectGroupCount 25
 explosionEffectGroup
 	groupName "CapitalShip0"
 	explosionEffectDefCount 3
@@ -3294,3 +3294,6 @@ explosionEffectGroup
 			sound "EXPLOSION_CAPITALSHIPDEATH"
 			sound "EXPLOSION_CAPITALSHIPDEATH_ALT1"
 			sound "EXPLOSION_CAPITALSHIPDEATH_ALT2"
+explosionEffectGroup
+	groupName "None"
+	explosionEffectDefCount 0

@@ -1,12 +1,12 @@
 ﻿TXT
 entityType "CapitalShip"
-ability:0 "AbilityTriageMode"
-ability:1 "AbilityRemoteArmorRepairerTriage"
-ability:2 "AbilityCapTransferTriage"
-ability:3 "AbilityArmorRepairerCapital"
+ability:0 "AbilityCapTransferTriage"
+ability:1 "AbilityArmorRepairerCapital"
+ability:2 "AbilityRemoteArmorRepairerTriage"
+ability:3 "AbilityTriageMode"
 ability:4 ""
 defaultAutoAttackRange "GravityWell"
-defaultAutoAttackOn TRUE
+defaultAutoAttackOn FALSE
 prefersToFocusFire FALSE
 usesFighterAttack FALSE
 autoJoinFleetDefault TRUE
@@ -52,11 +52,11 @@ basePrice
 slotCount 1.000000
 BuildTime 75.000000
 MaxHullPoints
-	StartValue 57500.000000
-	ValueIncreasePerLevel 5750.000000
+	StartValue 143000.000000
+	ValueIncreasePerLevel 14300.000000
 MaxShieldPoints
-	StartValue 31000.000000
-	ValueIncreasePerLevel 3100.000000
+	StartValue 77500.000000
+	ValueIncreasePerLevel 7750.000000
 HullPointRestoreRate
 	StartValue 10.00000
 	ValueIncreasePerLevel 1.000000
@@ -70,10 +70,10 @@ maxMitigation
 	StartValue 0.000000
 	ValueIncreasePerLevel 0.000000
 MaxAntiMatter
-	StartValue 75000.000000
+	StartValue 117000.000000
 	ValueIncreasePerLevel 750.000000
 AntiMatterRestoreRate
-	StartValue 37.500000
+	StartValue 78.000000
 	ValueIncreasePerLevel 1.00000
 CultureProtectRate
 	StartValue 0.600000
@@ -89,7 +89,7 @@ Prerequisites
 	RequiredFactionNameID ""
 	RequiredCompletedResearchSubjects 0
 roleType "Invalid"
-statCountType "CapitalShipBattleship"
+statCountType "CapitalShipUtility0"
 numRandomDebrisLarge 0
 numRandomDebrisSmall 0
 numSpecificDebris 0

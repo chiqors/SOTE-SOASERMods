@@ -6,8 +6,10 @@ prefersToFocusFire TRUE
 usesFighterAttack FALSE
 autoJoinFleetDefault TRUE
 canBomb FALSE
-typeCount 1
+typeCount 3
+frigateRoleType "Lrm"
 frigateRoleType "Heavy"
+frigateRoleType "Carrier"
 statCountType "FrigateHeavy"
 mainViewIcon "MAINVIEWICON_CAPITALSHIP_TECHSUPPORT"
 picture "PICTURE_FRIGATE_ARMAGEDON"

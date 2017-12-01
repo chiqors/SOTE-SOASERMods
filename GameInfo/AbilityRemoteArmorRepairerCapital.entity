@@ -42,10 +42,10 @@ minExperienceLevelRequired
 aiUseTime "Anytime"
 aiUseTargetCondition "HullDamageExceedsAmount"
 onlyAutoCastWhenTargetHullDamageExceedsAmount
-	Level:0 1094.000000
-	Level:1 1094.000000
-	Level:2 1094.000000
-	Level:3 1094.000000
+	Level:0 594.000000
+	Level:1 594.000000
+	Level:2 594.000000
+	Level:3 594.000000
 isAutoCastAvailable TRUE
 isAutoCastOnByDefault TRUE
 pickRandomPlanetToExploreForAutoCastTarget FALSE

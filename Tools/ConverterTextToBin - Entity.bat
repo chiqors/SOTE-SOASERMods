@@ -1,0 +1,1 @@
+for %%a in (*.txt) do ConvertData_Rebellion txt %%a %%a bin

@@ -82,31 +82,31 @@ ringColor ffffffff
 cloudLayerTextureName ""
 planetResourceSetupInfo
 	asteroidSpawnAngleVariance 3.141593
-	totalMaxResourceAsteroids 7
+	totalMaxResourceAsteroids 5
 	metalResourceAsteroidSetup
 		minCount 0
-		maxCount 3
-		extractionRate 0.540000
-		refineryRate 0.078000
-		maxRefineryCount 4
+		maxCount 0
+		extractionRate 0.000000
+		refineryRate 0.000000
+		maxRefineryCount 0
 	crystalResourceAsteroidSetup
 		minCount 0
-		maxCount 4
-		extractionRate 0.460000
-		refineryRate 0.066000
-		maxRefineryCount 4
+		maxCount 0
+		extractionRate 0.000000
+		refineryRate 0.000000
+		maxRefineryCount 0
 	neutralMetalResourceAsteroidSetup
 		minCount 0
-		maxCount 0
-		extractionRate 0.000000
-		refineryRate 0.000000
-		maxRefineryCount 0
+		maxCount 3
+		extractionRate 0.360000
+		refineryRate 0.054000
+		maxRefineryCount 3
 	neutralCrystalResourceAsteroidSetup
 		minCount 0
-		maxCount 0
-		extractionRate 0.000000
-		refineryRate 0.000000
-		maxRefineryCount 0
+		maxCount 2
+		extractionRate 0.360000
+		refineryRate 0.054000
+		maxRefineryCount 3
 isAsteroid FALSE
 healthRegenRate 6.000000
 planetUpgradeDef
@@ -120,9 +120,9 @@ planetUpgradeDef
 			upgradeTime 0.000000
 			maxPopulation 10.000000
 			populationGrowthRate 0.125000
-			developmentTaxPenalty 0.000000
+			developmentTaxPenalty -3.000000
 	path:CivilianModules
-		stageCount 7
+		stageCount 1
 		stage
 			price
 				credits 0.000000
@@ -131,56 +131,8 @@ planetUpgradeDef
 			upgradeTime 0.000000
 			maxModuleSlotCount:Civilian 12.000000
 			maxModuleConstructorCount 0
-		stage
-			price
-				credits 450.000000
-				metal 150.000000
-				crystal 75.000000
-			upgradeTime 45.000000
-			maxModuleSlotCount:Civilian 18.000000
-			maxModuleConstructorCount 1
-		stage
-			price
-				credits 550.000000
-				metal 175.000000
-				crystal 125.000000
-			upgradeTime 60.000000
-			maxModuleSlotCount:Civilian 24.000000
-			maxModuleConstructorCount 1
-		stage
-			price
-				credits 650.000000
-				metal 200.000000
-				crystal 175.000000
-			upgradeTime 75.000000
-			maxModuleSlotCount:Civilian 30.000000
-			maxModuleConstructorCount 1
-		stage
-			price
-				credits 750.000000
-				metal 225.000000
-				crystal 225.000000
-			upgradeTime 90.000000
-			maxModuleSlotCount:Civilian 36.000000
-			maxModuleConstructorCount 1
-		stage
-			price
-				credits 850.000000
-				metal 250.000000
-				crystal 275.000000
-			upgradeTime 105.000000
-			maxModuleSlotCount:Civilian 42.000000
-			maxModuleConstructorCount 1
-		stage
-			price
-				credits 950.000000
-				metal 275.000000
-				crystal 325.000000
-			upgradeTime 120.000000
-			maxModuleSlotCount:Civilian 48.000000
-			maxModuleConstructorCount 1
 	path:TacticalModules
-		stageCount 6
+		stageCount 1
 		stage
 			price
 				credits 0.000000
@@ -189,48 +141,8 @@ planetUpgradeDef
 			upgradeTime 0.000000
 			maxModuleSlotCount:Tactical 5.000000
 			maxModuleConstructorCount 1
-		stage
-			price
-				credits 450.000000
-				metal 150.000000
-				crystal 75.000000
-			upgradeTime 45.000000
-			maxModuleSlotCount:Tactical 15.000000
-			maxModuleConstructorCount 2
-		stage
-			price
-				credits 550.000000
-				metal 175.000000
-				crystal 125.000000
-			upgradeTime 60.000000
-			maxModuleSlotCount:Tactical 25.000000
-			maxModuleConstructorCount 3
-		stage
-			price
-				credits 650.000000
-				metal 200.000000
-				crystal 175.000000
-			upgradeTime 75.000000
-			maxModuleSlotCount:Tactical 35.000000
-			maxModuleConstructorCount 3
-		stage
-			price
-				credits 750.000000
-				metal 225.000000
-				crystal 225.000000
-			upgradeTime 90.000000
-			maxModuleSlotCount:Tactical 45.000000
-			maxModuleConstructorCount 4
-		stage
-			price
-				credits 850.000000
-				metal 250.000000
-				crystal 275.000000
-			upgradeTime 105.000000
-			maxModuleSlotCount:Tactical 55.000000
-			maxModuleConstructorCount 5
 	path:Home
-		stageCount 2
+		stageCount 1
 		stage
 			price
 				credits 0.000000
@@ -241,36 +153,14 @@ planetUpgradeDef
 			homePlanetTaxRateBonus 0.000000
 			homePlanetMetalIncomeBonus 0.000000
 			homePlanetCrystalIncomeBonus 0.000000
-		stage
-			price
-				credits 2000.000000
-				metal 300.000000
-				crystal 200.000000
-			upgradeTime 75.000000
-			isHomePlanet TRUE
-			homePlanetTaxRateBonus 4.000000
-			homePlanetMetalIncomeBonus 0.400000
-			homePlanetCrystalIncomeBonus 0.400000
 	path:ArtifactLevel
-		stageCount 3
+		stageCount 1
 		stage
 			price
 				credits 0.000000
 				metal 0.000000
 				crystal 0.000000
 			upgradeTime 0.000000
-		stage
-			price
-				credits 1450.000000
-				metal 475.000000
-				crystal 275.000000
-			upgradeTime 90.000000
-		stage
-			price
-				credits 1550.000000
-				metal 500.000000
-				crystal 350.000000
-			upgradeTime 105.000000
 	path:Infrastructure
 		stageCount 1
 		stage
@@ -279,9 +169,9 @@ planetUpgradeDef
 				metal 0.000000
 				crystal 0.000000
 			upgradeTime 0.000000
-			maxHealth 1500.000000
+			maxHealth 1000.000000
 	path:Social
-		stageCount 5
+		stageCount 1
 		stage
 			price
 				credits 0.000000
@@ -293,52 +183,8 @@ planetUpgradeDef
 			tradeIncomeModifier 0.000000
 			shipBuildRateModifier 0.000000
 			cultureSpreadRateModifier 0.000000
-		stage
-			price
-				credits 450.000000
-				metal 150.000000
-				crystal 75.000000
-			upgradeTime 45.000000
-			maxPopulation 10.000000
-			populationGrowthRate 0.125000
-			tradeIncomeModifier -0.150000
-			shipBuildRateModifier -0.166667
-			cultureSpreadRateModifier 0.208335
-		stage
-			price
-				credits 550.000000
-				metal 175.000000
-				crystal 125.000000
-			upgradeTime 60.000000
-			maxPopulation 30.000000
-			populationGrowthRate 0.138000
-			tradeIncomeModifier -0.250000
-			shipBuildRateModifier -0.333334
-			cultureSpreadRateModifier 0.312503
-		stage
-			price
-				credits 650.000000
-				metal 200.000000
-				crystal 175.000000
-			upgradeTime 75.000000
-			maxPopulation 100.000000
-			populationGrowthRate 0.151000
-			tradeIncomeModifier -0.350000
-			shipBuildRateModifier -0.500001
-			cultureSpreadRateModifier 0.468754
-		stage
-			price
-				credits 750.000000
-				metal 225.000000
-				crystal 225.000000
-			upgradeTime 90.000000
-			maxPopulation 190.000000
-			populationGrowthRate 0.169000
-			tradeIncomeModifier -0.450000
-			shipBuildRateModifier -0.666668
-			cultureSpreadRateModifier 0.703111
 	path:Industry
-		stageCount 4
+		stageCount 1
 		stage
 			price
 				credits 0.000000
@@ -349,38 +195,8 @@ planetUpgradeDef
 			tradeIncomeModifier 0.000000
 			shipBuildRateModifier 0.000000
 			cultureSpreadRateModifier 0.000000
-		stage
-			price
-				credits 450.000000
-				metal 150.000000
-				crystal 75.000000
-			upgradeTime 45.000000
-			maxPopulation -3.000000
-			tradeIncomeModifier 0.100000
-			shipBuildRateModifier 0.083334
-			cultureSpreadRateModifier -0.166667
-		stage
-			price
-				credits 550.000000
-				metal 175.000000
-				crystal 125.000000
-			upgradeTime 60.000000
-			maxPopulation -9.000000
-			tradeIncomeModifier 0.200000
-			shipBuildRateModifier 0.166668
-			cultureSpreadRateModifier -0.333334
-		stage
-			price
-				credits 650.000000
-				metal 200.000000
-				crystal 175.000000
-			upgradeTime 75.000000
-			maxPopulation -30.000000
-			tradeIncomeModifier 0.300000
-			shipBuildRateModifier 0.250002
-			cultureSpreadRateModifier -0.500001
 	path:Smuggler
-		stageCount 4
+		stageCount 1
 		stage
 			price
 				credits 0.000000
@@ -389,32 +205,8 @@ planetUpgradeDef
 			upgradeTime 0.000000
 			corruptionPercent 0.000000
 			smugglingPercent 0.000000
-		stage
-			price
-				credits 450.000000
-				metal 150.000000
-				crystal 75.000000
-			upgradeTime 45.000000
-			corruptionPercent 0.250000
-			smugglingPercent 0.015000
-		stage
-			price
-				credits 550.000000
-				metal 175.000000
-				crystal 125.000000
-			upgradeTime 60.000000
-			corruptionPercent 0.500000
-			smugglingPercent 0.030000
-		stage
-			price
-				credits 650.000000
-				metal 200.000000
-				crystal 175.000000
-			upgradeTime 75.000000
-			corruptionPercent 0.750000
-			smugglingPercent 0.045000
 ringsChance 0.100000
-isColonizable TRUE
+isColonizable FALSE
 planetTypeForResearch "Uncolonizable"
 skyboxScalarsCount 5
 skyboxScalars
@@ -437,7 +229,7 @@ possibleRandomPlanetBonusesCount 0
 ambienceSoundID ""
 renderAsVolcanic FALSE
 planetRuinDef
-	ruinPlanetType "PlanetDeadAsteroid"
+	ruinPlanetType "PlanetWormhole"
 	attachType "Center"
 	effectName "StripToTheCore_Planet_TerranHome"
 	startTime 9.000000

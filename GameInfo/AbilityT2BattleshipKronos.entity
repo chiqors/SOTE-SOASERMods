@@ -34,6 +34,6 @@ researchPrerequisites
 	RequiredCompletedResearchSubjects 0
 nameStringID "IDS_GALLENTE_SHIP_BATTLESHIP_KRONOS_NAME"
 descStringID "AbilityT2BattleshipGolemDescription"
-hudIcon "HUDICON_FRIGATEACCESS_GOLEM"
-smallHudIcon "HUDICONSMALL_FRIGATE_RAVEN"
+hudIcon "HUDICON_GALLENTE_KRONOS"
+smallHudIcon "HUDICON_GALLENTE_KRONOS"
 infoCardIcon ""

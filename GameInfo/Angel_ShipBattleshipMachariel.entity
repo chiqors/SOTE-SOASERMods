@@ -12,7 +12,7 @@ statCountType "FrigateHeavy"
 mainViewIcon "MAINVIEWICON_CAPITALSHIP_TECHSUPPORT"
 picture "PICTURE_ANGEL_MACHARIEL"
 NameStringID "IDS_Angel_Machariel_NAME"
-DescriptionStringID "IDS_BATTLESHIP_TYPHOON_DESCRIPTION"
+DescriptionStringID "IDS_Angel_Machariel_DESCRIPTION"
 counterDescriptionStringID "IDS_COUNTERDESC_FRIGATE_LONGRANGE"
 basePrice
 	credits 749.000000
@@ -140,9 +140,9 @@ HyperspaceTravelSoundID "HYPERSPACE_TRAVEL"
 EngineSoundID "ENGINE_TECHCAPITALSHIP"
 ability:0 "AbilityMicrowarpdrive"
 ability:1 "AbilityTargetPainter"
-ability:2 "AbilityT2Cloak"
-ability:3 "AbilityT2blackOpsMinmatar"
-ability:4 "AbilityLaunchSquads"
+ability:2 "AbilityTrackingComputer"
+ability:3 "AbilityMicroJumpDrive"
+ability:4 "AbilityBattleshipResistShield"
 MaxAntiMatter 1250.000000
 AntiMatterRestoreRate 1.650000
 cargoType "Invalid"

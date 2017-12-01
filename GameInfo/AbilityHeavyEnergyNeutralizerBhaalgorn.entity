@@ -32,7 +32,7 @@ needsToFaceTarget FALSE
 canCollideWithTarget TRUE
 moveThruTarget FALSE
 isUltimateAbility FALSE
-maxNumLevels 1
+maxNumLevels 4
 levelSourceType "FixedLevel0"
 aiUseTime "Anytime"
 aiUseTargetCondition "Any"
@@ -43,15 +43,15 @@ ignoreNonCombatShipsForAutoCastTarget TRUE
 onlyAutoCastWhenDamageTakenExceedsPerc 0.000000
 useCostType "AntiMatter"
 antiMatterCost
-	Level:0 800.000000
-	Level:1 720.000000
-	Level:2 648.000000
-	Level:3 583.200012
+	Level:0 0.000000
+	Level:1 0.000000
+	Level:2 0.000000
+	Level:3 0.000000
 cooldownTime
-	Level:0 15.000000
-	Level:1 15.000000
-	Level:2 15.000000
-	Level:3 15.000000
+	Level:0 24.000000
+	Level:1 24.000000
+	Level:2 24.000000
+	Level:3 24.000000
 orderAcknowledgementType "ONGENERALORDERISSUED"
 researchPrerequisites
 	NumResearchPrerequisites 0
@@ -59,6 +59,6 @@ researchPrerequisites
 	RequiredCompletedResearchSubjects 0
 nameStringID "IDS_ABILITY_HEAVYENERGYNEUTRALIZER_NAME"
 descStringID "IDS_ABILITY_HEAVYENERGYNEUTRALIZER_DESCRIPTION"
-hudIcon "HUDICON_ABILITY_LASTSTAND"
-smallHudIcon "HUDICON_ABILITY_LASTSTAND"
+hudIcon "HUDICON_ABILITY_FACTION_NOS"
+smallHudIcon "HUDICON_ABILITY_FACTION_NOS"
 infoCardIcon ""

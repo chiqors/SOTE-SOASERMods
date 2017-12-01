@@ -1,8 +1,8 @@
 ﻿TXT
 entityType "Titan"
-ability:0 "AbilityJudgment"
+ability:0 "AbilityJudgmentT2"
 ability:1 "AbilityAmarrPhenomenaGenerator"
-ability:2 "AbilityTitanEMPSmartbomb"
+ability:2 "AbilityBosonicField"
 ability:3 "AbilityAmarrTitanJumpBridge"
 ability:4 ""
 defaultAutoAttackRange "GravityWell"
@@ -52,11 +52,11 @@ basePrice
 slotCount 1.000000
 BuildTime 150.000000
 MaxHullPoints
-	StartValue 315000.000000
-	ValueIncreasePerLevel 3150.000000
+	StartValue 788000.000000
+	ValueIncreasePerLevel 78800.000000
 MaxShieldPoints
-	StartValue 130000.000000
-	ValueIncreasePerLevel 1300.000000
+	StartValue 325000.000000
+	ValueIncreasePerLevel 32500.000000
 HullPointRestoreRate
 	StartValue 10.000000
 	ValueIncreasePerLevel 0.500000
@@ -70,11 +70,11 @@ maxMitigation
 	StartValue 0.1000000
 	ValueIncreasePerLevel 0.000000
 MaxAntiMatter
-	StartValue 15000.000000
+	StartValue 169000.000000
 	ValueIncreasePerLevel 1500.000000
 AntiMatterRestoreRate
-	StartValue 5.000000
-	ValueIncreasePerLevel 1.000000
+	StartValue 75.000000
+	ValueIncreasePerLevel 10.000000
 CultureProtectRate
 	StartValue 2.800000
 	ValueIncreasePerLevel 0.050000
@@ -124,7 +124,7 @@ Weapon
 	SynchronizedTargeting TRUE
 	PointStaggerDelay 00000
 	TravelSpeed 0.000000
-	Duration 1.500000 
+	Duration 2.500000
 	fireConstraintType "CanAlwaysFire"
 	WeaponEffects
 		weaponType "Beam"
@@ -139,19 +139,19 @@ Weapon
 		hitEffectName "EVE_Beamlaser_White_Large_Hit"
 		hitHullEffectSounds
 			soundCount 1
-			sound ""
+			sound "WEAPON_XLENERGY_HIT"
 		hitShieldsEffectSounds
 			soundCount 1
 			sound ""
 		beamEffectSounds
 			soundCount 1
-			sound "WEAPON_TECH_GAUSSCANNON_MUZZLE"
+			sound "WEAPON_XLBEAM_FIRE"
 		beamGlowTextureName "EVE_Weapon_WhiteLaser_Glow.dds"
 		beamCoreTextureName "EVE_Weapon_WhiteLaser_Core.dds"
-		beamWidth 150.000000
+		beamWidth 100.000000
 		beamGlowColor ffffffff
 		beamCoreColor ffffffff
-		beamTilingRate 12.000000
+		beamTilingRate 8.000000
 m_weaponIndexForRange 0
 firingAlignmentType "Default"
 TargetCountPerBank:FRONT 1
