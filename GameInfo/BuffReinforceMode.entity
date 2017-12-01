@@ -50,15 +50,13 @@ entityBoolModifier "DisableConstruction"
 entityBoolModifier "DisableWeapons"
 entityBoolModifier "DisableFighterLaunch"
 entityBoolModifier "DisableModuleFunctionality"
-numFinishConditions 3
+numFinishConditions 2
 finishCondition
 	finishConditionType "TimeElapsed"
 	time
-		Level:0 180.00000
-		Level:1 180.00000
-		Level:2 180.00000
-		Level:3 180.00000
-finishCondition
-	finishConditionType "AntiMatterDepleted"
+		Level:0 1200.00000
+		Level:1 1200.00000
+		Level:2 1200.00000
+		Level:3 1200.00000
 finishCondition
 	finishConditionType "OwnerChanged"
