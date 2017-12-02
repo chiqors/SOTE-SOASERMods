@@ -1,0 +1,46 @@
+Project Leader :
+- Kabivel -> Creation of the Caldari and Minmatar Races
+
+Director FC :
+- Vader111 -> For fixing models and textures
+- Goliath -> For finding bugs and helping people
+
+Comunication Officers and Alliance Leader :
+- Scotty
+- Joey
+- Tempus Lupus
+
+UI Designer :
+- Scotty -> Tweaking for new UI
+
+Coders :
+- Butcherfly -> For as coder with Logistics fixings
+
+FC Level Beta Testers :
+- Goliath
+- Malitael
+
+
+Old Develeopers Team :
+-----------------
+
+Developers :
+- FootyMD
+- Vanox
+For rorqual and capital titans contribution 
+
+Debugers :
+For continuing the Mod and Creation of the Caldari and Mimatar Races
+
+Project Manager :
+- FootyMD
+
+The mentions to all those who created elements used in this mod.
+
+1. HAIYOOO : for initially beginning to make sins of new eden for origional sins and then shortly afterwards, rebellion.
+He ported over all of the models used in this mod so far, alongside the HUI modifications and the source images I later used to make all of the ship icons with.
+2. SUPERMOVA : For assisting Haiyooo in restoring mesh work. and for the latest mesh work and texturing assistance.
+3. BAILNIGHT : Graphical upgrades for sins that was carefully integrated into this mod by myself.
+4. Unindentified User : Glass UI Modification. Modified to work with rebellion by Kabivel
+5. LePaj (SONE development team) : Race Logos, Ship Smal Icons
+6. vader111 (newest team member) : New ships textures!
